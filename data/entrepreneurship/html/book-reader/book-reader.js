@@ -146,20 +146,27 @@ document.addEventListener('DOMContentLoaded', () => {
   if (prevBtn.disabled) prevBtn.style.opacity = '0.5';
   if (nextBtn.disabled) nextBtn.style.opacity = '0.5';
 
+  function navigateTo(url) {
+    document.body.classList.add('br-fade-out');
+    setTimeout(() => {
+      window.location.href = url;
+    }, 150);
+  }
+
   prevBtn.addEventListener('click', () => {
-    if (currentIndex > 0) window.location.href = chapterFiles[currentIndex - 1];
+    if (currentIndex > 0) navigateTo(chapterFiles[currentIndex - 1]);
   });
   nextBtn.addEventListener('click', () => {
-    if (currentIndex > -1 && currentIndex < chapterFiles.length - 1) window.location.href = chapterFiles[currentIndex + 1];
+    if (currentIndex > -1 && currentIndex < chapterFiles.length - 1) navigateTo(chapterFiles[currentIndex + 1]);
   });
 
   // Keyboard Navigation
   document.addEventListener('keydown', (e) => {
     if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
     if (e.key === 'ArrowLeft') {
-      if (currentIndex > 0) window.location.href = chapterFiles[currentIndex - 1];
+      if (currentIndex > 0) navigateTo(chapterFiles[currentIndex - 1]);
     } else if (e.key === 'ArrowRight') {
-      if (currentIndex > -1 && currentIndex < chapterFiles.length - 1) window.location.href = chapterFiles[currentIndex + 1];
+      if (currentIndex > -1 && currentIndex < chapterFiles.length - 1) navigateTo(chapterFiles[currentIndex + 1]);
     }
   });
 
