@@ -6,8 +6,8 @@
 - [x] **agent-review**: (HITL) Đọc ngẫu nhiên HTML trong thư mục `clean` để nghiệm thu định dạng, kiểm tra CSS rác và hiển thị hình ảnh.
 
 ## Phase 2: Khởi tạo Hành trang Dịch (Term Extraction)
-- [x] **agent-analyze**: Chạy `skill-term-extraction` để quét toàn bộ file HTML `clean` và tạo file `glossary.json`.
-- [ ] **agent-review**: (HITL) Đọc file `glossary.json`, thống nhất phương án dịch tiếng Việt cho các từ khóa cốt lõi và chốt bảng thuật ngữ.
+- [x] **agent-analyze**: Chạy `skill-term-extraction` để quét toàn bộ file HTML `clean` và tạo file **`glossary.csv`** (nguồn chuẩn duy nhất).
+- [x] **agent-review**: (HITL) Đọc file **`glossary.csv`**, thống nhất phương án dịch tiếng Việt cho các từ khóa cốt lõi và chốt bảng thuật ngữ.
 
 ## Phase 3: Phân tích Rủi ro Văn hóa & Ngữ cảnh
 - [x] **agent-analyze**: Đọc và viết báo cáo phân tích rủi ro dịch thuật `1-1-translate-analysis.md`.
@@ -17,11 +17,11 @@
 
 ## Phase 4: Dịch thuật Song ngữ (Bilingual Translation)
 - [x] **agent-translate**: Chạy `skill-prep-translation` nhân bản các thẻ HTML thành cấu trúc song ngữ (eng hidden / vn visible) vào thư mục `translated/`.
-- [ ] **agent-translate**: Dựa trên `glossary.json` + `analysis`, dịch nội dung thẻ `vn visible` của file `1-1-entrepreneurship-today.html`.
+- [ ] **agent-translate**: Dựa trên **`glossary.csv`** + `analysis`, dịch nội dung thẻ `vn visible` của file `1-1-entrepreneurship-today.html`.
 - [ ] **agent-review**: (HITL) Đánh giá chất lượng bản dịch và cấu trúc thẻ của file `1-1-entrepreneurship-today.html`.
-- [ ] **agent-translate**: Dựa trên `glossary.json` + `analysis`, dịch nội dung thẻ `vn visible` của file `1-2-entrepreneurial-vision-and-goals.html`.
+- [ ] **agent-translate**: Dựa trên **`glossary.csv`** + `analysis`, dịch nội dung thẻ `vn visible` của file `1-2-entrepreneurial-vision-and-goals.html`.
 - [ ] **agent-review**: (HITL) Đánh giá chất lượng bản dịch và cấu trúc thẻ của file `1-2-entrepreneurial-vision-and-goals.html`.
-- [ ] **agent-translate**: Dựa trên `glossary.json` + `analysis`, dịch nội dung thẻ `vn visible` của file `1-3-the-entrepreneurial-mindset.html`.
+- [ ] **agent-translate**: Dựa trên **`glossary.csv`** + `analysis`, dịch nội dung thẻ `vn visible` của file `1-3-the-entrepreneurial-mindset.html`.
 - [ ] **agent-review**: (HITL) Đánh giá chất lượng bản dịch và cấu trúc thẻ của file `1-3-the-entrepreneurial-mindset.html`.
 - [ ] **agent-translate**: Xử lý dịch hàng loạt các file phụ trợ (Summary, Key Terms, Review Questions...).
 - [ ] **agent-review**: (HITL) Đánh giá chất lượng bản dịch các file phụ trợ.

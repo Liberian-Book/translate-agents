@@ -16,12 +16,12 @@ Agent Scrape sử dụng chuỗi 2 kỹ năng sau đây một cách tuần tự 
 - **Cách sử dụng:**
   - Agent chạy script này để truy cập vào các URL của OpenStax.
   - Script sẽ bóc tách lấy nguyên xi nội dung HTML và toàn bộ hình ảnh đi kèm của chương sách.
-  - Kết quả (dữ liệu thô) sẽ được lưu trữ tự động vào thư mục `data/[book]/raw/`.
+  - Kết quả (dữ liệu thô) sẽ được lưu trữ tự động vào thư mục `data/[book]/chapter-{N}/01-raw/`.
 
 ### 2. Kỹ năng Làm sạch (Cleanup)
 - **File:** `[skill-cleanup.js](scripts/skill-cleanup.js)`
 - **Cách sử dụng:**
-  - Ngay sau khi scrape xong, Agent sẽ chạy script này để quét các file HTML trong thư mục `raw/`.
+  - Ngay sau khi scrape xong, Agent sẽ chạy script này để quét các file HTML trong thư mục `data/[book]/chapter-{N}/01-raw/`.
   - Nhiệm vụ của script là "rửa" sạch HTML: loại bỏ toàn bộ các thẻ rác không cần thiết cho quá trình dịch (như `<head>`, `<script>`, `<style>`, `<nav>`, v.v.).
   - Script cũng tự động cập nhật lại đường dẫn (src) của các hình ảnh trỏ về file ảnh local (offline).
-  - Kết quả cuối cùng là HTML tinh gọn được lưu vào thư mục `data/[book]/clean/` - sẵn sàng cho công đoạn phân tích và dịch thuật.
+  - Kết quả cuối cùng là HTML tinh gọn được lưu vào thư mục `data/[book]/chapter-{N}/02-clean/` — sẵn sàng cho công đoạn phân tích và dịch thuật.

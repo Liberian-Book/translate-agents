@@ -25,7 +25,7 @@ Bản dịch cần đảm bảo không vi phạm 6 chiều chất lượng sau:
 
 ## 3. Quy tắc riêng cho sách giáo trình OpenStax
 
-- **Controlled Language:** Giữ nhất quán thuật ngữ xuyên suốt toàn sách. (Dựa vào `glossary.json`).
+- **Controlled Language:** Giữ nhất quán thuật ngữ xuyên suốt toàn sách. (Tra cứu từ **`glossary.csv`** — single source of truth ở cấp book).
 - **Giữ nguyên các term học thuật phổ biến:** Các từ như `SMART`, `Canvas`, `Brainstorming` nên được giữ nguyên do đã phổ biến tại Việt Nam.
 - **Chú thích văn hóa Mỹ:** Nếu gặp các khái niệm, thương hiệu văn hóa Mỹ (vd: Burt's Bees, Roomify, v.v...), cần giải thích hoặc chú thích để độc giả Việt hiểu ngữ cảnh.
 - **Ghi công (Attribution):** Sách giáo trình mở cần ghi nhận nguồn. Định dạng chuẩn: *"Được dịch từ OpenStax Entrepreneurship, Rice University, CC BY 4.0"*

@@ -1,0 +1,14 @@
+# Bao cao Nghiem thu: Chapter 3 translated HTML
+
+**Trang thai Toan cuc:** Da chot hoan tat
+
+| ID | The Goc (eng hidden) | Ban dich hien tai (vn visible) | Phan bien (Critique) | De xuat sua (Suggestion) | Phan hoi cua Translate Agent | Trang thai (Moi / Chap nhan / Tu choi) |
+|---|---|---|---|---|---|---|
+| 001 | `File: 3-1-ethical-and-legal-issues-in-entrepreneurship.html` `eng hidden figcaption 3.2: ... employment, and torts.` | `eng hidden da duoc khoi phuc ve tieng Anh` | Da sua xong loi cau truc song ngu o lop Anh. | Khoi phuc caption lop Anh thanh `... employment, and torts.`; giu lop `vn visible` nhu hien tai. | Da khoi phuc dung ban goc tieng Anh cho lop `eng hidden`. | Chap nhan |
+| 002 | `Files: 3-1-ethical-and-legal-issues-in-entrepreneurship.html, 3-key-terms.html` `eng: utility patent` | `vn: bằng sáng chế công dụng` | Da dong bo thuat ngu trong than bai, figcaption va glossary. | Chon mot cach dich duy nhat cho `utility patent` va dong bo giua than bai, figcaption va glossary. | Da chuan hoa thanh `bằng sáng chế công dụng`. | Chap nhan |
+| 003 | `Files: 3-1-ethical-and-legal-issues-in-entrepreneurship.html, 3-key-terms.html, 3-discussion-questions.html` `eng: truthfulness` | `vn: tính trung thực` | Da chuan hoa thuat ngu trong toan bo chapter 3. | Chuan hoa ve mot cach dich duy nhat cho `truthfulness` trong toan bo chapter 3. | Da dong bo thanh `tính trung thực`. | Chap nhan |
+| 004 | `File: 3-3-developing-a-workplace-culture-of-ethical-excellence-and-accountability.html` `eng: Millennials place strong value... / Many millennial workers...` | `vn: thế hệ thiên niên kỷ / người lao động thuộc thế hệ thiên niên kỷ` | Da sua xong phan de sot tieng Anh trong lop Viet. | Viet hoa nhat quan `millennials`. | Da Viet hoa cac vi tri con sot. | Chap nhan |
+| 005 | `File: 3-3-developing-a-workplace-culture-of-ethical-excellence-and-accountability.html` `eng: ...founder with a thick skin and strong ego.` | `vn: ...nhà sáng lập ... có bản lĩnh chịu va chạm và cái tôi mạnh.` | Da sua thanh cach dien dat tu nhien hon trong van phong giao trinh. | Sua thanh cach dien dat tu nhien hon cho `thick skin`. | Da doi sang cum tu tu nhien hon ve nghia. | Chap nhan |
+| 006 | `File: 3-2-corporate-social-responsibility-and-social-entrepreneurship.html` `eng: It acts less like a GPS and more like a compass guiding you...` | `vn: Nó hoạt động không hẳn như một hệ thống định vị GPS mà giống một chiếc la bàn hơn...` | Da sua cau Viet gay/khong tu nhien. | Viet lai thanh cau tieng Viet tron nghia. | Da viet lai doan so sanh GPS/la ban de doc tu nhien hon. | Chap nhan |
+
+*Ghi chu:* Da bo qua cac truong hop co chu dich thuoc ten rieng, URL, citation, ten to chuc, ten dao luat, ten framework va acronym chap nhan duoc theo yeu cau. Cac muc duoc mo trong vong review nay da duoc sua va co the dong lai.

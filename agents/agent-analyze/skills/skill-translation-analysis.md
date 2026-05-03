@@ -36,10 +36,10 @@ Hãy đọc kỹ phần văn bản gốc được cung cấp dưới đây và l
    - *Hành động:* Đưa ra chỉ dẫn cụ thể về cách dùng từ (vd: dùng từ xưng hô, dùng các từ nối) để truyền tải trọn vẹn tinh thần của bản gốc.
 
 **Input (Đầu vào):**
-File HTML hoặc text của từng chương sách (Ví dụ: `data/[book]/clean/[chapter].html`).
+File HTML hoặc text của từng chương sách: `data/[book]/chapter-{N}/02-clean/[section].html`.
 
 **Output (Đầu ra):**
-Bạn CHỈ ĐƯỢC PHÉP trả về nội dung dưới định dạng Markdown hợp lệ. Bản phân tích này sẽ được tự động lưu lại thành file (Ví dụ: `data/[book]/analyzed/[chapter]-translate-analysis.md`).
+Bạn CHỈ ĐƯỢC PHÉP trả về nội dung dưới định dạng Markdown hợp lệ. Bản phân tích này sẽ được tự động lưu lại thành file: `data/[book]/chapter-{N}/03-analyzed/[section]-translate-analysis.md`.
 
 Trình bày theo cấu trúc sau:
 ```markdown

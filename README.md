@@ -18,36 +18,51 @@ Các giai đoạn chi tiết:
 
 ### Bước 1: Scrape (`skill-scrape`)
 - **Nhiệm vụ**: Thu thập toàn bộ file HTML gốc (bao gồm mọi thẻ rác, JS, CSS) từ trang OpenStax.
-- **Dữ liệu đầu ra**: Lưu tại `/data/raw/`
+- **Dữ liệu đầu ra**: Lưu tại `data/{book}/chapter-{N}/01-raw/`
 
 ### Bước 2: Cleanup (`skill-cleanup`)
 - **Nhiệm vụ**: Làm sạch file HTML khổng lồ, loại bỏ head, menu, footer, JS, CSS. Chỉ giữ lại phần lõi nội dung (văn bản sách, hình ảnh).
-- **Dữ liệu đầu ra**: Lưu tại `/data/clean/`
+- **Dữ liệu đầu ra**: Lưu tại `data/{book}/chapter-{N}/02-clean/`
 
 ### Bước 3: Analysis
-- **Nhiệm vụ**: Phân tích HTML đã làm sạch, chia thành các đoạn nhỏ (chunks), lập chỉ mục (Mục lục - Table of Contents).
-- **Dữ liệu đầu ra**: Lưu tại `/data/analyzed/` (JSON/Markdown metadata).
+- **Nhiệm vụ**: Phân tích HTML đã làm sạch, đánh giá rủi ro văn hóa, thuật ngữ, cấu trúc câu cho từng chương.
+- **Dữ liệu đầu ra**: Lưu tại `data/{book}/chapter-{N}/03-analyzed/` (Markdown báo cáo).
 
 ### Bước 4: Translate
-- **Nhiệm vụ**: LLM dịch các chunk từ tiếng Anh sang tiếng Việt.
-- **Dữ liệu đầu ra**: Lưu tại `/data/translated/`
+- **Nhiệm vụ**: LLM dịch HTML song ngữ dựa trên `glossary.csv` và báo cáo Analysis.
+- **Dữ liệu trung gian**: `data/{book}/chapter-{N}/04-prep/` (HTML sau khi nhân đôi cấu trúc song ngữ, chờ dịch)
+- **Dữ liệu đầu ra**: Lưu tại `data/{book}/chapter-{N}/05-translated/`
 
 ### Bước 5: Review
 - **Nhiệm vụ**: Hiệu đính, so sánh chéo bản dịch với bản gốc, đảm bảo thuật ngữ đồng nhất.
-- **Dữ liệu đầu ra**: Lưu tại `/data/reviewed/`
+- **Dữ liệu đầu ra**: Lưu tại `data/{book}/chapter-{N}/06-reviews/`
 
 ### Bước 6: Archive
-- **Nhiệm vụ**: Ghép các chunk lại thành file hoàn chỉnh (Markdown/HTML/PDF) và lưu trữ xuất bản.
-- **Dữ liệu đầu ra**: Lưu tại `/data/archived/`
+- **Nhiệm vụ**: Ghép các chunk lại thành file hoàn chỉnh (HTML/PDF/EPUB) và lưu trữ xuất bản.
+- **Dữ liệu đầu ra**: Lưu tại `data/{book}/chapter-{N}/07-archive/`
 
-## 4. Cấu trúc thư mục hiện tại
-- `/data/raw/`: Chứa các file HTML gốc từ web.
-- `/data/clean/`: Chứa nội dung HTML đã được lọc sạch rác.
-- `/data/analyzed/`: Chứa dữ liệu đã phân rã thành các đoạn.
-- `/data/translated/`: Chứa bản dịch thô.
-- `/data/reviewed/`: Chứa bản dịch đã hiệu đính.
-- `/data/archived/`: Chứa sản phẩm cuối cùng.
+## 4. Cấu trúc thư mục
+
+```
+data/
+└── {book}/                        # vd: entrepreneurship
+    ├── glossary.csv               # 📌 Bảng thuật ngữ — single source of truth (toàn sách)
+    ├── tasks.md                   # Quản lý tiến độ toàn sách
+    │
+    └── chapter-{N}/               # vd: chapter-1 ... chapter-14
+        ├── 01-raw/                # HTML gốc từ OpenStax
+        ├── 02-clean/              # HTML đã làm sạch (loại thẻ rác)
+        ├── 03-analyzed/           # Báo cáo phân tích rủi ro dịch thuật
+        ├── 04-prep/               # HTML đã nhân đôi cấu trúc song ngữ (chờ dịch)
+        ├── 05-translated/         # HTML song ngữ đã dịch (eng hidden / vn visible)
+        ├── 06-reviews/            # Báo cáo QA / review
+        └── 07-archive/            # Sản phẩm cuối cùng
+            ├── bilingual/         # Bản song ngữ
+            └── vn-only/           # Bản tiếng Việt thuần
+```
+
 - `/agents/`: Nơi chứa mã nguồn các Agent và các **Skills** (như `skill-scrape`, `skill-cleanup`).
+- `/tools/`: Các script tiện ích (build, convert...).
 
 ---
 *Dự án Bột - Vì một nền giáo dục mở và công bằng.*
