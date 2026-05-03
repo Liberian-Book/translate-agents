@@ -4,9 +4,22 @@
 
 ---
 
-## Prompt Template
+## Bước 1: Trích xuất tự động (Script)
 
-Sao chép toàn bộ nội dung bên dưới và gửi cho LLM (nhớ thay thế phần nội dung ở cuối bằng văn bản thực tế bạn cần trích xuất).
+Trước khi dùng Prompt, hãy chạy script JS để quét HTML tự động và tạo file CSV nháp:
+
+```bash
+node agents/agent-analyze/scripts/term-extract.js 1
+```
+
+Script này sẽ:
+- Quét toàn bộ thẻ `<span data-type="term">` trong `chapter-1/02-clean/`.
+- Tự động bỏ qua các tên riêng (`class="no-emphasis"`).
+- Xuất file CSV nháp tại `data/[book]/chapter-1/03-analyzed/chapter-1-new-glossary.csv`.
+
+## Bước 2: Nhờ LLM dịch (Prompt Template)
+
+Sao chép toàn bộ nội dung bên dưới và gửi cho LLM. Kèm theo file CSV nháp được tạo ra ở Bước 1 để AI dịch những cột còn trống.
 
 ***
 
@@ -17,22 +30,27 @@ Bạn là một chuyên gia ngôn ngữ học và biên dịch viên cấp cao, 
 Đối tượng độc giả là học sinh, sinh viên Việt Nam tự học, có vốn tiếng Anh hạn chế, học tập trong môi trường kinh phí thấp. Chúng tôi áp dụng quy tắc "Glossary-first" (xây dựng bảng thuật ngữ trước) để đảm bảo tính nhất quán xuyên suốt toàn bộ cuốn sách.
 
 **Nhiệm vụ:**
-Dưới đây là một phần nội dung gốc của cuốn sách. Nhiệm vụ của bạn là:
-1. Đọc lướt nội dung và tìm ra các thuật ngữ cốt lõi của ngành (đặc biệt chú ý đến các từ nằm trong thẻ `<span data-type="term">` nếu có, hoặc các khái niệm định nghĩa quan trọng).
-2. Quyết định bản dịch tiếng Việt chuẩn xác, dễ hiểu, phù hợp với người tự học.
-3. Tuân thủ các quy tắc thuật ngữ:
+Dưới đây là bảng thuật ngữ CSV vừa được trích xuất tự động từ chương sách. Nhiệm vụ của bạn là:
+1. Đọc lướt nội dung HTML/văn bản của chương (nếu được cung cấp ngữ cảnh) để hiểu bối cảnh.
+2. Với những thuật ngữ có trạng thái `"proposal"` (tức là chưa có trong từ điển chuẩn gốc), hãy đề xuất bản dịch tiếng Việt chuẩn xác.
+3. TUYỆT ĐỐI dựa vào NGỮ CẢNH của toàn chương, không dịch word-by-word (từng chữ một).
+4. Các dòng có trạng thái `"approved"` hoặc có ghi chú `"Tên riêng"` thì GIỮ NGUYÊN, không được tự ý sửa bản dịch.
+5. Tuân thủ các quy tắc thuật ngữ:
    - Giữ nguyên các từ tiếng Anh đã phổ biến rộng rãi tại Việt Nam (vd: SMART Goals, Business Model Canvas, Brainstorming).
    - Đảm bảo tính học thuật nhưng văn phong phải thực tế, không dùng từ ngữ quá cổ kính hay xa lạ.
 
 **Định dạng đầu ra:**
-Bạn CHỈ ĐƯỢC PHÉP trả về một chuỗi JSON hợp lệ (không kèm theo bất kỳ lời giải thích nào khác ngoài JSON, không bọc trong markdown block ` ```json `). 
+Bạn CHỈ ĐƯỢC PHÉP trả về nội dung dưới định dạng CSV (không kèm theo lời giải thích nào khác ngoài CSV, bọc trong markdown block ` ```csv `). 
 Cấu trúc yêu cầu như sau:
-{
-  "English Term 1": "Bản dịch tiếng Việt 1",
-  "English Term 2": "Bản dịch tiếng Việt 2",
-  "SMART Goals": "Mục tiêu SMART"
-}
+```csv
+key,translation,options,desc_en,desc_vi,chapter,status,notes
+"thuật ngữ gốc","bản dịch chuẩn","phương án 1 / phương án 2","Mô tả tiếng Anh (nếu có)","Mô tả tiếng Việt (nếu có)","X","proposal",""
+"entrepreneurial mindset","tư duy khởi nghiệp","","","","1","approved",""
+```
+**Lưu ý:**
+- Chỉ thay đổi cột `translation` và `options` (nếu có nhiều lựa chọn) đối với các từ mang status `"proposal"`.
+- Trả về toàn bộ danh sách CSV đầy đủ để tôi dễ dàng đối chiếu.
 
-**Nội dung cần trích xuất thuật ngữ:**
+**Nội dung CSV cần dịch thuật:**
 
-[👇 CHÈN NỘI DUNG HTML HOẶC TEXT CỦA CHƯƠNG SÁCH VÀO ĐÂY 👇]
+[👇 CHÈN NỘI DUNG FILE `chapter-N-new-glossary.csv` VÀO ĐÂY 👇]
