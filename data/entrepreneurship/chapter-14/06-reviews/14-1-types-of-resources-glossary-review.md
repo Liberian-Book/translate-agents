@@ -2,27 +2,27 @@
 
 **File kiểm tra:** `chapter-14/05-translated/14-1-types-of-resources.html`
 **File glossary:** `data/entrepreneurship/glossary.csv`
-**Thời gian:** 2026-05-06 22:37
+**Thời gian:** 2026-05-06 22:46
 **Trạng thái Toàn cục:** Đang mở
 
 ## Tổng kết
 - Tổng thuật ngữ glossary xuất hiện trong file: **7**
-- Thuật ngữ dịch đúng: **0**
-- Thuật ngữ dịch sai / không nhất quán: **7**
+- Thuật ngữ dịch đúng: **7**
+- Thuật ngữ dịch sai / không nhất quán: **0**
 - Bỏ qua (no-emphasis / không có trong glossary): **72**
-- Tỉ lệ đúng: **0/7 = 0%**
+- Tỉ lệ đúng: **7/7 = 100%**
 
-## Danh sách Vi phạm
+## Thuật ngữ dịch đúng (tham khảo)
 
-| ID | Thuật ngữ EN (term_en) | Bản dịch chuẩn (glossary) | Bản dịch hiện tại trong HTML | Vị trí (id thẻ) | Phản biện | Đề xuất sửa | Phản hồi Translate Agent | Trạng thái |
-|---|---|---|---|---|---|---|---|---|
-| G-001 | `Tangible resources` | `nguồn lực hữu hình` | `Tangible resources` | `term-00002` | Bản dịch không khớp glossary chuẩn | Sửa thành: `nguồn lực hữu hình` | Đồng ý, đã sửa theo đề xuất. | Đã sửa |
-| G-002 | `Intangible resources` | `nguồn lực vô hình` | `Intangible resources` | `term-00027` | Bản dịch không khớp glossary chuẩn | Sửa thành: `nguồn lực vô hình` | Đồng ý, đã sửa theo đề xuất. | Đã sửa |
-| G-003 | `trademark` | `nhãn hiệu` | `trademark` | `term-00043` | Bản dịch không khớp glossary chuẩn | Sửa thành: `nhãn hiệu` | Đồng ý, đã sửa theo đề xuất. | Đã sửa |
-| G-004 | `service mark` | `nhãn hiệu dịch vụ` | `service mark` | `term-00044` | Bản dịch không khớp glossary chuẩn | Sửa thành: `nhãn hiệu dịch vụ` | Đồng ý, đã sửa theo đề xuất. | Đã sửa |
-| G-005 | `copyright` | `bản quyền` | `copyright` | `term-00052` | Bản dịch không khớp glossary chuẩn | Sửa thành: `bản quyền` | Đồng ý, đã sửa theo đề xuất. | Đã sửa |
-| G-006 | `decision tree` | `cây quyết định` | `decision tree` | `term-00055` | Bản dịch không khớp glossary chuẩn | Sửa thành: `cây quyết định` | Đồng ý, đã sửa theo đề xuất. | Đã sửa |
-| G-007 | `line of credit` | `hạn mức tín dụng` | `line of credit` | `term-00064` | Bản dịch không khớp glossary chuẩn | Sửa thành: `hạn mức tín dụng` | Đồng ý, đã sửa theo đề xuất. | Đã sửa |
+| Thuật ngữ EN | Bản dịch chuẩn | Bản dịch trong HTML | Xác nhận |
+|---|---|---|---|
+| `Tangible resources` | `nguồn lực hữu hình` | `nguồn lực hữu hình` | ✅ |
+| `Intangible resources` | `nguồn lực vô hình` | `nguồn lực vô hình` | ✅ |
+| `trademark` | `nhãn hiệu` | `nhãn hiệu` | ✅ |
+| `service mark` | `nhãn hiệu dịch vụ` | `nhãn hiệu dịch vụ` | ✅ |
+| `copyright` | `bản quyền` | `bản quyền` | ✅ |
+| `decision tree` | `cây quyết định` | `cây quyết định` | ✅ |
+| `line of credit` | `hạn mức tín dụng` | `hạn mức tín dụng` | ✅ |
 
 ## Bỏ qua
 

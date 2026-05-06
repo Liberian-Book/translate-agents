@@ -28,6 +28,7 @@ def parse_markdown_table(file_path):
                     'id': cols[0],
                     'original': cols[1].strip('`'),
                     'current': cols[3].strip('`'),
+                    'position': cols[4].strip('`'),
                     'suggestion': suggestion,
                     'status': cols[8].strip()
                 })
@@ -57,10 +58,25 @@ def apply_fixes(review_path, html_path):
         if row['status'].lower() in ['mới', 'yêu cầu sửa lại']:
             current_text = row['current']
             suggestion_text = row['suggestion']
+            term_id = row.get('position', '')
             
-            # Chỉ thay thế nếu tìm thấy đoạn text current trong HTML
-            if current_text in html_content and suggestion_text:
+            replaced = False
+            if term_id and current_text and suggestion_text:
+                pattern = re.compile(rf'(<span[^>]*id="{term_id}"[^>]*>)\s*{re.escape(current_text)}\s*(</span>)')
+                matches = list(pattern.finditer(html_content))
+                if len(matches) == 2:
+                    m = matches[1]
+                    html_content = html_content[:m.start()] + m.group(1) + suggestion_text + m.group(2) + html_content[m.end():]
+                    replaced = True
+                elif len(matches) == 1:
+                    m = matches[0]
+                    html_content = html_content[:m.start()] + m.group(1) + suggestion_text + m.group(2) + html_content[m.end():]
+                    replaced = True
+            elif current_text in html_content and suggestion_text:
                 html_content = html_content.replace(current_text, suggestion_text)
+                replaced = True
+                
+            if replaced:
                 
                 # Cập nhật markdown line
                 line_idx = row['line_num']
@@ -68,13 +84,13 @@ def apply_fixes(review_path, html_path):
                 
                 # Cập nhật cột response và status
                 parts = old_line.split('|')
-                if len(parts) >= 8:
+                if len(parts) >= 10:
                     parts[-3] = ' Đồng ý, đã sửa theo đề xuất. ' # Response
                     parts[-2] = ' Đã sửa ' # Status
                     md_lines[line_idx] = '|'.join(parts)
                     changes_made += 1
             else:
-                print(f"⚠️ Cảnh báo: Không tìm thấy đoạn text '{current_text}' của lỗi {row['id']} trong HTML, hoặc thiếu đề xuất.")
+                print(f"⚠️ Cảnh báo: Không tìm thấy hoặc không thể sửa lỗi {row['id']} trong HTML.")
 
     if changes_made > 0:
         # Save HTML

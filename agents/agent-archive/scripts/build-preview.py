@@ -57,6 +57,38 @@ def build_preview(book_dir="/Users/anderson/Desktop/the entreuper/data/entrepren
 
     all_pages = []
 
+    # Process book-level front matter
+    book_level_dir = "_book-level"
+    book_level_src = os.path.join(book_dir, book_level_dir)
+    book_level_dst = os.path.join(output_dir, book_level_dir)
+    
+    if os.path.exists(book_level_src):
+        os.makedirs(book_level_dst, exist_ok=True)
+        trans_src = os.path.join(book_level_src, "05-translated")
+        trans_dst = os.path.join(book_level_dst, "05-translated")
+        if os.path.exists(trans_src):
+            os.makedirs(trans_dst, exist_ok=True)
+            for file_name in ['index.html', 'preface.html']:
+                src_file = os.path.join(trans_src, file_name)
+                dst_file = os.path.join(trans_dst, file_name)
+                if os.path.exists(src_file):
+                    with open(src_file, 'r', encoding='utf-8') as f:
+                        content = f.read()
+                    all_pages.append(f"../../{book_level_dir}/05-translated/{file_name}")
+                    pages_js = '<script src="../../book-reader/book-pages.js"></script>\n'
+                    css_link = '<link rel="stylesheet" href="../../book-reader/book-reader.css">\n'
+                    js_link = '<script src="../../book-reader/book-reader.js"></script>\n'
+                    if '</head>' in content:
+                        content = content.replace('</head>', f'{pages_js}{css_link}{js_link}</head>')
+                    with open(dst_file, 'w', encoding='utf-8') as f:
+                        f.write(content)
+        
+        # Copy book-level assets if any
+        assets_src = os.path.join(book_level_src, "assets")
+        assets_dst = os.path.join(book_level_dst, "assets")
+        if os.path.exists(assets_src):
+            shutil.copytree(assets_src, assets_dst)
+
     for chap in chapter_dirs:
         chap_src = os.path.join(book_dir, chap)
         chap_dst = os.path.join(output_dir, chap)
@@ -99,6 +131,25 @@ def build_preview(book_dir="/Users/anderson/Desktop/the entreuper/data/entrepren
         assets_dst = os.path.join(chap_dst, "assets")
         if os.path.exists(assets_src):
             shutil.copytree(assets_src, assets_dst)
+
+    # Process book-level back matter
+    book_level_trans_src = os.path.join(book_level_src, "05-translated")
+    book_level_trans_dst = os.path.join(book_level_dst, "05-translated")
+    if os.path.exists(book_level_src) and os.path.exists(book_level_trans_src):
+        for file_name in ['a-suggested-resources.html']:
+            src_file = os.path.join(book_level_trans_src, file_name)
+            dst_file = os.path.join(book_level_trans_dst, file_name)
+            if os.path.exists(src_file):
+                with open(src_file, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                all_pages.append(f"../../{book_level_dir}/05-translated/{file_name}")
+                pages_js = '<script src="../../book-reader/book-pages.js"></script>\n'
+                css_link = '<link rel="stylesheet" href="../../book-reader/book-reader.css">\n'
+                js_link = '<script src="../../book-reader/book-reader.js"></script>\n'
+                if '</head>' in content:
+                    content = content.replace('</head>', f'{pages_js}{css_link}{js_link}</head>')
+                with open(dst_file, 'w', encoding='utf-8') as f:
+                    f.write(content)
 
     # 3. Copy global glossary
     glossary_src = os.path.join(book_dir, "glossary.csv")

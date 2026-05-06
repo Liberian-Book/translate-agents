@@ -2,25 +2,25 @@
 
 **File kiểm tra:** `chapter-14/05-translated/14-3-managing-resources-over-the-venture-life-cycle.html`
 **File glossary:** `data/entrepreneurship/glossary.csv`
-**Thời gian:** 2026-05-06 22:37
+**Thời gian:** 2026-05-06 22:46
 **Trạng thái Toàn cục:** Đang mở
 
 ## Tổng kết
 - Tổng thuật ngữ glossary xuất hiện trong file: **5**
-- Thuật ngữ dịch đúng: **0**
-- Thuật ngữ dịch sai / không nhất quán: **5**
+- Thuật ngữ dịch đúng: **5**
+- Thuật ngữ dịch sai / không nhất quán: **0**
 - Bỏ qua (no-emphasis / không có trong glossary): **32**
-- Tỉ lệ đúng: **0/5 = 0%**
+- Tỉ lệ đúng: **5/5 = 100%**
 
-## Danh sách Vi phạm
+## Thuật ngữ dịch đúng (tham khảo)
 
-| ID | Thuật ngữ EN (term_en) | Bản dịch chuẩn (glossary) | Bản dịch hiện tại trong HTML | Vị trí (id thẻ) | Phản biện | Đề xuất sửa | Phản hồi Translate Agent | Trạng thái |
-|---|---|---|---|---|---|---|---|---|
-| G-001 | `resource dependence theory (RDT) model` | `mô hình lý thuyết phụ thuộc nguồn lực (RDT)` | `resource dependence theory (RDT) model` | `term-00005` | Bản dịch không khớp glossary chuẩn | Sửa thành: `mô hình lý thuyết phụ thuộc nguồn lực (RDT)` | Đồng ý, đã sửa theo đề xuất. | Đã sửa |
-| G-002 | `advisory board` | `hội đồng cố vấn` | `advisory board` | `term-00015` | Bản dịch không khớp glossary chuẩn | Sửa thành: `hội đồng cố vấn` | Đồng ý, đã sửa theo đề xuất. | Đã sửa |
-| G-003 | `Outsourcing` | `thuê ngoài` | `Outsourcing` | `term-00020` | Bản dịch không khớp glossary chuẩn | Sửa thành: `thuê ngoài` | Đồng ý, đã sửa theo đề xuất. | Đã sửa |
-| G-004 | `Human resources` | `nguồn nhân lực` | `Human resources` | `term-00025` | Bản dịch không khớp glossary chuẩn | Sửa thành: `nguồn nhân lực` | Đồng ý, đã sửa theo đề xuất. | Đã sửa |
-| G-005 | `Independent contractors` | `nhà thầu độc lập` | `Independent contractors` | `term-00030` | Bản dịch không khớp glossary chuẩn | Sửa thành: `nhà thầu độc lập` | Đồng ý, đã sửa theo đề xuất. | Đã sửa |
+| Thuật ngữ EN | Bản dịch chuẩn | Bản dịch trong HTML | Xác nhận |
+|---|---|---|---|
+| `resource dependence theory (RDT) model` | `mô hình lý thuyết phụ thuộc nguồn lực (RDT)` | `mô hình lý thuyết phụ thuộc nguồn lực (R` | ✅ |
+| `advisory board` | `hội đồng cố vấn` | `hội đồng cố vấn` | ✅ |
+| `Outsourcing` | `thuê ngoài` | `thuê ngoài` | ✅ |
+| `Human resources` | `nguồn nhân lực` | `nguồn nhân lực` | ✅ |
+| `Independent contractors` | `nhà thầu độc lập` | `nhà thầu độc lập` | ✅ |
 
 ## Bỏ qua
 
