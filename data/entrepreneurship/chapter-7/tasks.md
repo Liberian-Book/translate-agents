@@ -1,0 +1,53 @@
+# Kế Hoạch Dịch Thuật Chương 7
+
+- [x] **agent-scrape**: Thu thập dữ liệu HTML gốc của toàn bộ 12 file trong chương 7.
+- [x] **agent-clean**: Làm sạch HTML, loại bỏ các thẻ rác, chuẩn hóa đường dẫn ảnh của 12 file.
+- [x] **agent-analyze**: Trích xuất từ vựng và tạo báo cáo phân tích rủi ro dịch thuật (7-1).
+- [x] **agent-translate**: Chạy prep_html để nhân bản các block (tạo `eng hidden` và `vn visible`) cho `7-1-clarifying-your-vision-mission-and-goals.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `7-1-clarifying-your-vision-mission-and-goals.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `7-1-clarifying-your-vision-mission-and-goals.html`.
+- [x] **agent-analyze**: Phân tích rủi ro dịch thuật cho file `7-2-sharing-your-entrepreneurial-story.html`.
+- [x] **agent-translate**: Chạy prep_html cho file `7-2-sharing-your-entrepreneurial-story.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `7-2-sharing-your-entrepreneurial-story.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `7-2-sharing-your-entrepreneurial-story.html`.
+- [x] **agent-analyze**: Phân tích rủi ro dịch thuật cho file `7-3-developing-pitches-for-various-audiences-and-goals.html`.
+- [x] **agent-translate**: Chạy prep_html cho file `7-3-developing-pitches-for-various-audiences-and-goals.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `7-3-developing-pitches-for-various-audiences-and-goals.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `7-3-developing-pitches-for-various-audiences-and-goals.html`.
+- [x] **agent-analyze**: Phân tích rủi ro dịch thuật cho file `7-4-protecting-your-idea-and-polishing-the-pitch-through-feedback.html`.
+- [x] **agent-translate**: Chạy prep_html cho file `7-4-protecting-your-idea-and-polishing-the-pitch-through-feedback.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `7-4-protecting-your-idea-and-polishing-the-pitch-through-feedback.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `7-4-protecting-your-idea-and-polishing-the-pitch-through-feedback.html`.
+- [x] **agent-analyze**: Phân tích rủi ro dịch thuật cho file `7-5-reality-check-contests-and-competitions.html`.
+- [x] **agent-translate**: Chạy prep_html cho file `7-5-reality-check-contests-and-competitions.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `7-5-reality-check-contests-and-competitions.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `7-5-reality-check-contests-and-competitions.html`.
+- [ ] **agent-analyze**: Phân tích rủi ro dịch thuật cho file `7-introduction.html`.
+- [ ] **agent-translate**: Chạy prep_html cho file `7-introduction.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `7-introduction.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `7-introduction.html`.
+- [ ] **agent-analyze**: Phân tích rủi ro dịch thuật cho file `7-case-questions.html`.
+- [ ] **agent-translate**: Chạy prep_html cho file `7-case-questions.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `7-case-questions.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `7-case-questions.html`.
+- [ ] **agent-analyze**: Phân tích rủi ro dịch thuật cho file `7-discussion-questions.html`.
+- [ ] **agent-translate**: Chạy prep_html cho file `7-discussion-questions.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `7-discussion-questions.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `7-discussion-questions.html`.
+- [ ] **agent-analyze**: Phân tích rủi ro dịch thuật cho file `7-key-terms.html`.
+- [ ] **agent-translate**: Chạy prep_html cho file `7-key-terms.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `7-key-terms.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `7-key-terms.html`.
+- [ ] **agent-analyze**: Phân tích rủi ro dịch thuật cho file `7-review-questions.html`.
+- [ ] **agent-translate**: Chạy prep_html cho file `7-review-questions.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `7-review-questions.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `7-review-questions.html`.
+- [ ] **agent-analyze**: Phân tích rủi ro dịch thuật cho file `7-suggested-resources.html`.
+- [ ] **agent-translate**: Chạy prep_html cho file `7-suggested-resources.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `7-suggested-resources.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `7-suggested-resources.html`.
+- [ ] **agent-analyze**: Phân tích rủi ro dịch thuật cho file `7-summary.html`.
+- [ ] **agent-translate**: Chạy prep_html cho file `7-summary.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `7-summary.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `7-summary.html`.
+- [ ] **agent-archive**: Đóng gói và chuẩn bị xuất bản toàn bộ chương 7.

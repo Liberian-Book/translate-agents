@@ -1,25 +1,34 @@
-# Phân tích Dịch thuật: 7.5 Reality Check: Contests and Competitions
+# Phân tích Rủi ro Dịch thuật: 7.5 Reality Check: Contests and Competitions
 
-## 1. Rủi ro về Văn hóa / Ngữ cảnh
+## 1. Phân tích nội dung và bối cảnh
+*   **Chủ đề**: Thực tế của việc tham gia các cuộc thi và chương trình tranh tài khởi nghiệp (Contests and Competitions). Hướng dẫn sinh viên tìm kiếm nguồn tài trợ, cơ hội kết nối (networking) và xây dựng nhóm thông qua các cuộc thi.
+*   **Đối tượng độc giả**: Sinh viên khởi nghiệp, những người đang tìm kiếm nguồn tài trợ ban đầu và cơ hội cọ xát thực tế.
+*   **Văn phong**: Khuyến khích, thực tế, định hướng hành động (Bạn / Chúng ta).
 
-- **Chú ý:** Phần này mang tính “reality check” về hệ sinh thái hỗ trợ khởi nghiệp ở Mỹ và quốc tế: shared workspaces, incubators, accelerators, campus competitions, economic development offices, SCORE, SBA, TechStars, Y Combinator, và CEO. Cần giữ rõ đây là mạng lưới thể chế hỗ trợ startup, không chỉ là các sự kiện đơn lẻ.
-- **Phân biệt contest và competition:** Văn bản phân biệt `entrepreneurial contest` với `pitch competition` theo cách tổ chức, hồ sơ, và hình thức trình bày. Khi dịch cần giữ ranh giới này nhất quán vì đây là điểm nội dung chính của mục.
-- **Bối cảnh giáo dục - nghề nghiệp:** Nhiều lời khuyên hướng trực tiếp tới student entrepreneur, college town, campus chapter, mentors, và networking. Cần giữ giọng cố vấn nghề nghiệp dành cho người mới bước vào hệ sinh thái khởi nghiệp.
+## 2. Cấu trúc HTML & Các thẻ đặc biệt
+*   `class="learning-objectives"`: Mục tiêu học tập.
+*   `<div data-type="note" class="are-you-ready">`: Mục chuyên đề (Feature Box). Cần dịch tiêu đề thành "Mục chuyên đề: Bạn Đã Sẵn Sàng Chưa?".
+*   `class="os-figure"` và `figcaption`: Cần giữ nguyên định dạng của hình ảnh và phần ghi chú hình ảnh.
+*   Bảng (`<table class="top-titled">`): Cần cẩn thận khi dịch các hàng và cột mà không làm vỡ cấu trúc HTML.
 
-## 2. Rủi ro về Thuật ngữ
+## 3. Rủi ro dịch thuật (Glossary)
+Dựa theo `glossary.csv`, các thuật ngữ sau phải được tuân thủ nghiêm ngặt:
+1.  **entrepreneurial contest**: `cuộc thi khởi nghiệp` (Đã được chuẩn hóa trong glossary.csv).
+2.  **iceberg principle**: `nguyên tắc tảng băng trôi` (Nguyên tắc viết chuẩn bị tài liệu dự thi).
+3.  **pitch competitions**: `các cuộc thi pitch` (Cuộc thi thuyết trình gọi vốn).
+4.  **seed funding**: `tài trợ hạt giống` hoặc `vốn hạt giống` (Mặc dù có thể không nằm trong danh sách lỗi hiện tại nhưng cần chú ý).
+5.  **business model**: `mô hình kinh doanh`.
+6.  **value proposition**: `tuyên bố giá trị`.
+7.  **startup**: `công ty khởi nghiệp` hoặc giữ nguyên `startup` tùy ngữ cảnh, nhưng ưu tiên `công ty khởi nghiệp`.
+8.  Các từ khóa khác liên quan đến UI/UX hoặc thuật ngữ riêng (ví dụ: HQ Raleigh, WeWork, Spark, TechStars, Y Combinator, SCORE, SBA) cần được giữ nguyên và đánh dấu `data-type="term"`.
 
-- **Thuật ngữ chuyên ngành:** shared workspaces, incubators, accelerators, entrepreneurial contest, pitch competition, iceberg principle, seed funding agreement, ask, business model, mentorship, networking.
-- **Tên riêng cần nhất quán:** HQ Raleigh, WeWork, Spark, Entrepreneur.com, TechStars, Y Combinator, SCORE, SBA, Shark Tank, American Idol, Collegiate Entrepreneurs’ Organization (CEO), AlphaGamma.com, Harvard Business School New Venture Plan Competition, Rice Business Plan Competition, Hult Prize, Thiel Fellowship, GW New Venture Competition, Baylor University New Venture Competition.
-- *Hành động:* Đối chiếu `glossary.csv`; đặc biệt cần khóa cách dịch `contest`, `competition`, `seed funding agreement`, `iceberg principle`, và `mentorship` để không lẫn với các mục 7.3-7.4.
+## 4. Các điểm cần lưu ý
+*   **Cấu trúc câu phức tạp**: Có nhiều câu ghép dài liên quan đến yêu cầu của các cuộc thi, cần ngắt ý hoặc sử dụng dấu phẩy hợp lý trong tiếng Việt để dễ đọc.
+*   **Danh sách giải thưởng**: Có một danh sách dài các cuộc thi và số tiền giải thưởng (ví dụ: Harvard Business School New Venture Plan Competition – $300,000). Phần này chỉ cần dịch các từ như "Competition", "Challenge", "Prize" nếu thấy phù hợp, hoặc giữ nguyên tên tiếng Anh của giải thưởng vì chúng là tên riêng. Tốt nhất là giữ nguyên tên tiếng Anh của các cuộc thi.
+*   **Mục Feature Box (Are You Ready?)**: Phần này chứa bảng Tầm nhìn và Sứ mệnh của CEO (Collegiate Entrepreneurs’ Organization). Cần dịch rõ ràng "Vision Statement" (Tuyên bố Tầm nhìn) và "Mission Statement" (Tuyên bố Sứ mệnh).
 
-## 3. Rủi ro về Cấu trúc câu
-
-- **Chuỗi tài nguyên khu vực:** Phần `Regional Resources` liệt kê nhiều loại hỗ trợ nối tiếp nhau. Nên giữ cấu trúc song song và nhấn mạnh chức năng của từng loại nơi chốn / tổ chức.
-- **Đoạn về contests:** Các câu vừa khuyên nghiên cứu kỹ hồ sơ, vừa nói về mentor, nguyên tắc viết, đa phương tiện, và giá trị thực của giải thưởng. Cần tách nhịp để độc giả thấy đâu là yêu cầu chuẩn bị, đâu là lợi ích chiến lược.
-- **Đoạn về competitions:** Phần này có nhiều cảnh báo về hợp đồng, tiêu chí giám khảo, `ask`, và luyện tập pitch. Nên làm rõ các quan hệ điều kiện - hệ quả để tránh bản dịch dồn thông tin.
-- **Danh sách giải thưởng và tổ chức:** Nhiều tên riêng và con số xuất hiện liên tiếp. Cần giữ định dạng nhất quán và hạn chế Việt hóa tên chương trình.
-
-## 4. Văn phong & Giọng điệu
-
-- **Giọng điệu:** Tỉnh táo, thực dụng, giàu định hướng hành động, nhấn mạnh nghiên cứu thị trường và xây dựng mạng lưới hơn là chạy theo hào quang cuộc thi.
-- **Xưng hô:** Dùng “Bạn” ở các lời khuyên dành cho sinh viên và người mới tham gia hệ sinh thái; dùng giọng trung tính ở phần mô tả tổ chức, cuộc thi, và điều khoản tài trợ.
+## 5. Kế hoạch hành động
+1.  Thực hiện tạo cấu trúc file song ngữ bằng script `prep_html`.
+2.  Dịch trực tiếp trên các khối `class="vn visible"` trong file ở thư mục `04-prep`.
+3.  Sử dụng chuẩn `glossary.csv` để đảm bảo độ chính xác của các thẻ `data-type="term"`.
+4.  Kiểm tra (Review) để đảm bảo không bị sót thẻ inline tag hoặc class CSS.

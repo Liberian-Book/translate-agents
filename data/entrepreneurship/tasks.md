@@ -29,89 +29,199 @@ Nguyen tac van hanh tu `master-workflow.md`:
 - [ ] **agent-plan**: Lap ke hoach full-book cho Chapter 4-14, bao dam moi chuong co du `scrape -> cleanup -> analysis -> translate -> review -> archive`.
 - [ ] **agent-review**: Duyet lai `tasks.md` sau moi lan cap nhat de dam bao khong chuong nao bi bo phase.
 
-## Chapter 4: Creativity, Innovation, and Invention
-- [x] **agent-scrape**: Thu thap Chapter 4 tu OpenStax vao `data/entrepreneurship/raw/4*.html` bang entrypoint scrape hien hanh.
-- [x] **agent-review**: Kiem file `raw/4*.html`, doi chieu TOC va xac nhan du cac page: `4-introduction`, `4-1`, `4-2`, `4-3`, `4-summary`, `4-key-terms`, `4-review-questions`, `4-discussion-questions`, `4-case-questions`, `4-suggested-resources`.
-- [x] **agent-scrape**: Chay cleanup cho Chapter 4 vao `data/entrepreneurship/clean/4*.html`, tai day du asset lien quan.
-- [x] **agent-review**: Mo ngau nhien file `clean/4*.html`, kiem tra noi dung sach da sach, khong con shell/loader, anh hien thi dung.
-- [x] **agent-analyze**: Trich xuat/bo sung glossary cho thuat ngu Chapter 4 va tao cac file `analyzed/4-*-translate-analysis.md`.
-- [x] **agent-review**: Doc `glossary.csv` + `4-*-translate-analysis.md`, chot xu ly thuat ngu, van phong, cac diem van hoa/ngu canh truoc khi dich.
-- [x] **agent-translate**: Tao/cap nhat cau truc song ngu `eng hidden` / `vn visible` cho toan bo `4*.html` trong `translated/`.
-- [x] **agent-translate**: Dich toan bo Chapter 4 sang tieng Viet, dong bo thuat ngu va van phong giao trinh.
-- [x] **agent-review**: Chay QA dich thuat theo MQM, QA cau truc HTML song ngu, va tao/cap nhat `reviews/chapter-4-review.md`.
-- [x] **agent-translate**: Xu ly tung loi trong `chapter-4-review.md` den khi bao cao dat trang thai da chot hoan tat.
-- [ ] **agent-archive**: Gop va xuat ban chapter 4 vao `archive/`, tao bien the tieng Viet thuan neu can.
-- [ ] **agent-review**: Kiem layout cuoi cung cua chapter 4 (web/html), anh, font, lien ket, va chot phase archive.
+## Chapter 4
+- [x] **agent-scrape**: Thu thập toàn bộ `chapter-4` vào `raw/`.
+- [x] **agent-review**: Kiểm đủ page và tính toàn vẹn của `raw/`.
+- [x] **agent-scrape**: Cleanup + asset cho `clean/`.
+- [x] **agent-review**: Nghiệm thu data sạch của Chapter 4.
+- [x] **agent-analyze**: Đọc HTML sạch để trích xuất thuật ngữ và xuất báo cáo rủi ro.
+- [x] **agent-review**: Chốt glossary + report analysis Chapter 4.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `4-1-tools-for-creativity-and-innovation.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `4-1-tools-for-creativity-and-innovation.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `4-2-creativity-innovation-and-invention-how-they-differ.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `4-2-creativity-innovation-and-invention-how-they-differ.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `4-3-developing-ideas-innovations-and-inventions.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `4-3-developing-ideas-innovations-and-inventions.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `4-case-questions.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `4-case-questions.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `4-discussion-questions.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `4-discussion-questions.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `4-introduction.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `4-introduction.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `4-key-terms.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `4-key-terms.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `4-review-questions.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `4-review-questions.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `4-suggested-resources.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `4-suggested-resources.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `4-summary.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `4-summary.html`.
+- [ ] **agent-archive**: Archive Chapter 4.
+- [ ] **agent-review**: Kiểm layout/final approval Chapter 4.
 
-## Chapter 5: Identifying Entrepreneurial Opportunity
-- [ ] **agent-scrape**: Thu thap Chapter 5 tu OpenStax vao `raw/5*.html`.
-- [ ] **agent-review**: Kiem file `raw/5*.html`, xac nhan du cac page: `5-introduction`, `5-1`, `5-2`, `5-3`, `5-summary`, `5-key-terms`, `5-review-questions`, `5-discussion-questions`, `5-case-questions`, `5-suggested-resources`.
-- [ ] **agent-scrape**: Chay cleanup cho Chapter 5 vao `clean/5*.html`, tai asset lien quan.
-- [ ] **agent-review**: Nghiem thu `clean/5*.html` va asset.
-- [ ] **agent-analyze**: Tao/cap nhat glossary + `analyzed/5-*-translate-analysis.md`.
-- [ ] **agent-review**: Chot glossary/analysis truoc khi dich.
-- [ ] **agent-translate**: Tao/cap nhat cau truc song ngu cho `5*.html`.
-- [ ] **agent-translate**: Dich toan bo Chapter 5 vao `translated/5*.html`.
-- [ ] **agent-review**: QA MQM + structure + tao/cap nhat `reviews/chapter-5-review.md`.
-- [ ] **agent-translate**: Xu ly het loi trong `chapter-5-review.md` den khi dong review.
-- [ ] **agent-archive**: Xuat chapter 5 vao `archive/`.
-- [ ] **agent-review**: Kiem layout cuoi cung va chot phase archive cho chapter 5.
+## Chapter 5
+- [x] **agent-scrape**: Thu thập toàn bộ `chapter-5` vào `raw/`.
+- [x] **agent-review**: Kiểm đủ page và tính toàn vẹn của `raw/`.
+- [x] **agent-scrape**: Cleanup + asset cho `clean/`.
+- [x] **agent-review**: Nghiệm thu data sạch của Chapter 5.
+- [x] **agent-analyze**: Đọc HTML sạch để trích xuất thuật ngữ và xuất báo cáo rủi ro.
+- [x] **agent-review**: Chốt glossary + report analysis Chapter 5.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `5-1-entrepreneurial-opportunity.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `5-1-entrepreneurial-opportunity.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `5-2-researching-potential-business-opportunities.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `5-2-researching-potential-business-opportunities.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `5-3-competitive-analysis.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `5-3-competitive-analysis.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `5-case-questions.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `5-case-questions.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `5-discussion-questions.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `5-discussion-questions.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `5-introduction.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `5-introduction.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `5-key-terms.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `5-key-terms.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `5-review-questions.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `5-review-questions.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `5-suggested-resources.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `5-suggested-resources.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `5-summary.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `5-summary.html`.
+- [ ] **agent-archive**: Archive Chapter 5.
+- [ ] **agent-review**: Kiểm layout/final approval Chapter 5.
 
 ## Chapter 6
-- [ ] **agent-scrape**: Thu thap toan bo `6*.html` vao `raw/`.
-- [ ] **agent-review**: Kiem du page va tinh toan ven cua `raw/6*.html`.
-- [ ] **agent-scrape**: Cleanup + asset cho `clean/6*.html`.
-- [ ] **agent-review**: Nghiem thu data sach cua Chapter 6.
-- [ ] **agent-analyze**: Glossary/analysis cho `6*.html`.
-- [ ] **agent-review**: Chot glossary + report analysis Chapter 6.
-- [ ] **agent-translate**: Prep song ngu cho `6*.html`.
-- [ ] **agent-translate**: Dich toan bo Chapter 6.
-- [ ] **agent-review**: QA + lap `reviews/chapter-6-review.md`.
-- [ ] **agent-translate**: Xu ly vong review den khi dong chapter 6.
+- [x] **agent-scrape**: Thu thập toàn bộ `chapter-6` vào `raw/`.
+- [x] **agent-review**: Kiểm đủ page và tính toàn vẹn của `raw/`.
+- [x] **agent-scrape**: Cleanup + asset cho `clean/`.
+- [x] **agent-review**: Nghiệm thu data sạch của Chapter 6.
+- [x] **agent-analyze**: Đọc HTML sạch để trích xuất thuật ngữ và xuất báo cáo rủi ro.
+- [x] **agent-review**: Chốt glossary + report analysis Chapter 6.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `6-1-problem-solving-to-find-entrepreneurial-solutions.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `6-1-problem-solving-to-find-entrepreneurial-solutions.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `6-2-creative-problem-solving-process.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `6-2-creative-problem-solving-process.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `6-3-design-thinking.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `6-3-design-thinking.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `6-4-lean-processes.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `6-4-lean-processes.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `6-case-questions.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `6-case-questions.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `6-discussion-questions.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `6-discussion-questions.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `6-introduction.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `6-introduction.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `6-key-terms.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `6-key-terms.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `6-review-questions.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `6-review-questions.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `6-suggested-resources.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `6-suggested-resources.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `6-summary.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `6-summary.html`.
 - [ ] **agent-archive**: Archive Chapter 6.
-- [ ] **agent-review**: Kiem layout/final approval Chapter 6.
+- [ ] **agent-review**: Kiểm layout/final approval Chapter 6.
 
 ## Chapter 7
-- [ ] **agent-scrape**: Thu thap toan bo `7*.html` vao `raw/`.
-- [ ] **agent-review**: Kiem du page va tinh toan ven cua `raw/7*.html`.
-- [ ] **agent-scrape**: Cleanup + asset cho `clean/7*.html`.
-- [ ] **agent-review**: Nghiem thu data sach cua Chapter 7.
-- [ ] **agent-analyze**: Glossary/analysis cho `7*.html`.
-- [ ] **agent-review**: Chot glossary + report analysis Chapter 7.
-- [ ] **agent-translate**: Prep song ngu cho `7*.html`.
-- [ ] **agent-translate**: Dich toan bo Chapter 7.
-- [ ] **agent-review**: QA + lap `reviews/chapter-7-review.md`.
-- [ ] **agent-translate**: Xu ly vong review den khi dong chapter 7.
+- [x] **agent-scrape**: Thu thập toàn bộ `chapter-7` vào `raw/`.
+- [x] **agent-review**: Kiểm đủ page và tính toàn vẹn của `raw/`.
+- [x] **agent-scrape**: Cleanup + asset cho `clean/`.
+- [x] **agent-review**: Nghiệm thu data sạch của Chapter 7.
+- [x] **agent-analyze**: Đọc HTML sạch để trích xuất thuật ngữ và xuất báo cáo rủi ro.
+- [x] **agent-review**: Chốt glossary + report analysis Chapter 7.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `7-1-clarifying-your-vision-mission-and-goals.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `7-1-clarifying-your-vision-mission-and-goals.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `7-2-sharing-your-entrepreneurial-story.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `7-2-sharing-your-entrepreneurial-story.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `7-3-developing-pitches-for-various-audiences-and-goals.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `7-3-developing-pitches-for-various-audiences-and-goals.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `7-4-protecting-your-idea-and-polishing-the-pitch-through-feedback.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `7-4-protecting-your-idea-and-polishing-the-pitch-through-feedback.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `7-5-reality-check-contests-and-competitions.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `7-5-reality-check-contests-and-competitions.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `7-case-questions.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `7-case-questions.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `7-discussion-questions.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `7-discussion-questions.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `7-introduction.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `7-introduction.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `7-key-terms.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `7-key-terms.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `7-review-questions.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `7-review-questions.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `7-suggested-resources.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `7-suggested-resources.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `7-summary.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `7-summary.html`.
 - [ ] **agent-archive**: Archive Chapter 7.
-- [ ] **agent-review**: Kiem layout/final approval Chapter 7.
+- [ ] **agent-review**: Kiểm layout/final approval Chapter 7.
 
 ## Chapter 8
-- [ ] **agent-scrape**: Thu thap toan bo `8*.html` vao `raw/`.
-- [ ] **agent-review**: Kiem du page va tinh toan ven cua `raw/8*.html`.
-- [ ] **agent-scrape**: Cleanup + asset cho `clean/8*.html`.
-- [ ] **agent-review**: Nghiem thu data sach cua Chapter 8.
-- [ ] **agent-analyze**: Glossary/analysis cho `8*.html`.
-- [ ] **agent-review**: Chot glossary + report analysis Chapter 8.
-- [ ] **agent-translate**: Prep song ngu cho `8*.html`.
-- [ ] **agent-translate**: Dich toan bo Chapter 8.
-- [ ] **agent-review**: QA + lap `reviews/chapter-8-review.md`.
-- [ ] **agent-translate**: Xu ly vong review den khi dong chapter 8.
+- [x] **agent-scrape**: Thu thập toàn bộ `chapter-8` vào `raw/`.
+- [x] **agent-review**: Kiểm đủ page và tính toàn vẹn của `raw/`.
+- [x] **agent-scrape**: Cleanup + asset cho `clean/`.
+- [x] **agent-review**: Nghiệm thu data sạch của Chapter 8.
+- [ ] **agent-analyze**: Đọc HTML sạch để trích xuất thuật ngữ và xuất báo cáo rủi ro.
+- [ ] **agent-review**: Chốt glossary + report analysis Chapter 8.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-1-entrepreneurial-marketing-and-the-marketing-mix.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `8-1-entrepreneurial-marketing-and-the-marketing-mix.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-2-market-research-market-opportunity-recognition-and-target-market.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `8-2-market-research-market-opportunity-recognition-and-target-market.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-3-marketing-techniques-and-tools-for-entrepreneurs.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `8-3-marketing-techniques-and-tools-for-entrepreneurs.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-4-entrepreneurial-branding.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `8-4-entrepreneurial-branding.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-5-marketing-strategy-and-the-marketing-plan.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `8-5-marketing-strategy-and-the-marketing-plan.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-6-sales-and-customer-service.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `8-6-sales-and-customer-service.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-case-questions.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `8-case-questions.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-discussion-questions.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `8-discussion-questions.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-introduction.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `8-introduction.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-key-terms.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `8-key-terms.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-review-questions.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `8-review-questions.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-suggested-resources.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `8-suggested-resources.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-summary.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `8-summary.html`.
 - [ ] **agent-archive**: Archive Chapter 8.
-- [ ] **agent-review**: Kiem layout/final approval Chapter 8.
+- [ ] **agent-review**: Kiểm layout/final approval Chapter 8.
 
 ## Chapter 9
-- [ ] **agent-scrape**: Thu thap toan bo `9*.html` vao `raw/`.
-- [ ] **agent-review**: Kiem du page va tinh toan ven cua `raw/9*.html`.
-- [ ] **agent-scrape**: Cleanup + asset cho `clean/9*.html`.
-- [ ] **agent-review**: Nghiem thu data sach cua Chapter 9.
-- [ ] **agent-analyze**: Glossary/analysis cho `9*.html`.
-- [ ] **agent-review**: Chot glossary + report analysis Chapter 9.
-- [ ] **agent-translate**: Prep song ngu cho `9*.html`.
-- [ ] **agent-translate**: Dich toan bo Chapter 9.
-- [ ] **agent-review**: QA + lap `reviews/chapter-9-review.md`.
-- [ ] **agent-translate**: Xu ly vong review den khi dong chapter 9.
+- [x] **agent-scrape**: Thu thập toàn bộ `chapter-9` vào `raw/`.
+- [x] **agent-review**: Kiểm đủ page và tính toàn vẹn của `raw/`.
+- [x] **agent-scrape**: Cleanup + asset cho `clean/`.
+- [x] **agent-review**: Nghiệm thu data sạch của Chapter 9.
+- [ ] **agent-analyze**: Đọc HTML sạch để trích xuất thuật ngữ và xuất báo cáo rủi ro.
+- [ ] **agent-review**: Chốt glossary + report analysis Chapter 9.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `9-1-overview-of-entrepreneurial-finance-and-accounting-strategies.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `9-1-overview-of-entrepreneurial-finance-and-accounting-strategies.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `9-2-special-funding-strategies.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `9-2-special-funding-strategies.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `9-3-accounting-basics-for-entrepreneurs.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `9-3-accounting-basics-for-entrepreneurs.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `9-4-developing-startup-financial-statements-and-projections.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `9-4-developing-startup-financial-statements-and-projections.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `9-case-questions.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `9-case-questions.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `9-discussion-questions.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `9-discussion-questions.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `9-introduction.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `9-introduction.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `9-key-terms.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `9-key-terms.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `9-review-questions.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `9-review-questions.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `9-suggested-resources.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `9-suggested-resources.html`.
+- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `9-summary.html`.
+- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `9-summary.html`.
 - [ ] **agent-archive**: Archive Chapter 9.
-- [ ] **agent-review**: Kiem layout/final approval Chapter 9.
+- [ ] **agent-review**: Kiểm layout/final approval Chapter 9.
 
 ## Chapter 10
 - [ ] **agent-scrape**: Thu thap toan bo `10*.html` vao `raw/`.
@@ -170,21 +280,12 @@ Nguyen tac van hanh tu `master-workflow.md`:
 - [x] **agent-review**: Kiem layout/final approval Chapter 13.
 
 ## Chapter 14
-- [ ] **agent-scrape**: Thu thap toan bo `14*.html` vao `raw/`.
-- [ ] **agent-review**: Kiem du page va tinh toan ven cua `raw/14*.html`.
-- [ ] **agent-scrape**: Cleanup + asset cho `clean/14*.html`.
-- [ ] **agent-review**: Nghiem thu data sach cua Chapter 14.
-- [ ] **agent-analyze**: Glossary/analysis cho `14*.html`.
-- [ ] **agent-review**: Chot glossary + report analysis Chapter 14.
-- [ ] **agent-translate**: Prep song ngu cho `14*.html`.
-- [ ] **agent-translate**: Dich toan bo Chapter 14.
-- [ ] **agent-review**: QA + lap `reviews/chapter-14-review.md`.
-- [ ] **agent-translate**: Xu ly vong review den khi dong chapter 14.
+- [x] **agent-scrape**: Thu thập toàn bộ `chapter-14` vào `raw/`.
+- [x] **agent-review**: Kiểm đủ page và tính toàn vẹn của `raw/`.
+- [x] **agent-scrape**: Cleanup + asset cho `clean/`.
+- [x] **agent-review**: Nghiệm thu data sạch của Chapter 14.
+- [ ] **agent-analyze**: Đọc HTML sạch để trích xuất thuật ngữ và xuất báo cáo rủi ro.
+- [ ] **agent-review**: Chốt glossary + report analysis Chapter 14.
 - [ ] **agent-archive**: Archive Chapter 14.
-- [ ] **agent-review**: Kiem layout/final approval Chapter 14.
+- [ ] **agent-review**: Kiểm layout/final approval Chapter 14.
 
-## Phase cuoi sach: Tong hop va xuat ban
-- [ ] **agent-archive**: Tong hop cac chapter da hoan tat thanh ban web day du cua cuon sach.
-- [ ] **agent-archive**: Tao bien the tieng Viet thuan (loai `eng hidden`) cho toan bo sach.
-- [ ] **agent-archive**: Chuan bi output `archive/` cho Web/PDF/EPUB neu script ho tro.
-- [ ] **agent-review**: Mo va kiem tra layout tong the toan sach, lien ket chapter, hinh anh, CSS, va kha nang doc lien mach truoc khi phat hanh.

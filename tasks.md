@@ -1,36 +1,44 @@
-# Quản lý Tiến độ: Dịch thuật Chương 1 (Entrepreneurship)
+# Quản lý Tiến độ: Dịch thuật OpenStax Entrepreneurship
 
-## Phase 1: Thu thập & Làm sạch dữ liệu (Data Preparation)
-- [x] **agent-scrape**: Chạy lệnh thu thập toàn bộ HTML của Chương 1 từ website OpenStax và lưu vào `data/entrepreneurship/raw/`.
-- [x] **agent-scrape**: Chạy `skill-cleanup` làm sạch HTML, tải ảnh offline và lưu vào `data/entrepreneurship/clean/`.
-- [x] **agent-review**: (HITL) Đọc ngẫu nhiên HTML trong thư mục `clean` để nghiệm thu định dạng, kiểm tra CSS rác và hiển thị hình ảnh.
+*Master Workflow được tuân thủ nghiêm ngặt với nguyên tắc Human-in-the-Loop (HITL).*
 
-## Phase 2: Khởi tạo Hành trang Dịch (Term Extraction)
-- [x] **agent-analyze**: Chạy `skill-term-extraction` để quét toàn bộ file HTML `clean` và tạo file **`glossary.csv`** (nguồn chuẩn duy nhất).
-- [x] **agent-review**: (HITL) Đọc file **`glossary.csv`**, thống nhất phương án dịch tiếng Việt cho các từ khóa cốt lõi và chốt bảng thuật ngữ.
+---
 
-## Phase 3: Phân tích Rủi ro Văn hóa & Ngữ cảnh
-- [x] **agent-analyze**: Đọc và viết báo cáo phân tích rủi ro dịch thuật `1-1-translate-analysis.md`.
-- [ ] **agent-analyze**: Đọc và viết báo cáo phân tích rủi ro dịch thuật `1-2-translate-analysis.md`.
-- [ ] **agent-analyze**: Đọc và viết báo cáo phân tích rủi ro dịch thuật `1-3-translate-analysis.md`.
-- [ ] **agent-review**: (HITL) Ghi chú và phê duyệt các giải pháp xử lý văn hóa, giọng điệu trong các báo cáo Analysis để định hướng cho Translate Agent.
+## 📘 Chương 1: Đã hoàn thành
+- [x] **Phase 1 (Scrape & Clean):** Hoàn tất thu thập và làm sạch HTML.
+- [x] **Phase 2 (Analyze):** Trích xuất thuật ngữ và thống nhất `glossary.csv` gốc.
+- [x] **Phase 3 (Analyze):** Phân tích rủi ro văn hóa, ngữ cảnh.
+- [x] **Phase 4 (Translate):** Dịch thuật song ngữ toàn bộ bài học.
+- [x] **Phase 5 (Review):** Nghiệm thu và sửa lỗi.
 
-## Phase 4: Dịch thuật Song ngữ (Bilingual Translation)
-- [x] **agent-translate**: Chạy `skill-prep-translation` nhân bản các thẻ HTML thành cấu trúc song ngữ (eng hidden / vn visible) vào thư mục `translated/`.
-- [ ] **agent-translate**: Dựa trên **`glossary.csv`** + `analysis`, dịch nội dung thẻ `vn visible` của file `1-1-entrepreneurship-today.html`.
-- [ ] **agent-review**: (HITL) Đánh giá chất lượng bản dịch và cấu trúc thẻ của file `1-1-entrepreneurship-today.html`.
-- [ ] **agent-translate**: Dựa trên **`glossary.csv`** + `analysis`, dịch nội dung thẻ `vn visible` của file `1-2-entrepreneurial-vision-and-goals.html`.
-- [ ] **agent-review**: (HITL) Đánh giá chất lượng bản dịch và cấu trúc thẻ của file `1-2-entrepreneurial-vision-and-goals.html`.
-- [ ] **agent-translate**: Dựa trên **`glossary.csv`** + `analysis`, dịch nội dung thẻ `vn visible` của file `1-3-the-entrepreneurial-mindset.html`.
-- [ ] **agent-review**: (HITL) Đánh giá chất lượng bản dịch và cấu trúc thẻ của file `1-3-the-entrepreneurial-mindset.html`.
-- [ ] **agent-translate**: Xử lý dịch hàng loạt các file phụ trợ (Summary, Key Terms, Review Questions...).
-- [ ] **agent-review**: (HITL) Đánh giá chất lượng bản dịch các file phụ trợ.
+---
 
-## Phase 5: Nghiệm thu (Review & QA)
-- [ ] **agent-review**: Chạy lệnh quét tự động (Automated QA) các file HTML đã dịch xem có vỡ cấu trúc thẻ HTML hay vi phạm thuật ngữ glossary không.
-- [ ] **agent-review**: Áp dụng `review-template.md` để khởi tạo báo cáo nghiệm thu các lỗi dịch thuật (Critique).
-- [ ] **agent-review**: (HITL) Mở trình duyệt Web (chạy bunx serve) đọc thử file hoàn chỉnh và chốt nghiệm thu cuối cùng.
+## 📘 Chương 2: Đã hoàn thành (QA Passed)
+- [x] **Phase 1 (Scrape & Clean):** Tự động xử lý HTML.
+- [x] **Phase 2 (Analyze):** Trích xuất và cập nhật `chapter-2-new-glossary.csv`.
+- [x] **Phase 3 (Analyze):** Viết báo cáo phân tích rủi ro (đặc biệt xử lý các case Cratejoy, Bootstrapping).
+- [x] **Phase 4 (Translate):** Hoàn tất dịch thuật thô toàn bộ thư mục `05-translated`.
+- [x] **Phase 5 (Review & QA):** 
+  - [x] Chạy Glossary Check tự động.
+  - [x] Chạy Semantic Check (Bắt lỗi "quản lý tiền mặt", "đối sánh chuẩn").
+  - [x] Translate Agent đã patch (vá) thành công 100% lỗi.
 
-## Phase 6: Lưu trữ & Xuất bản (Archive)
-- [ ] **agent-archive**: Hợp nhất các file HTML của Chương 1 thành cấu trúc nối tiếp.
-- [ ] **agent-archive**: Dọn dẹp thẻ `eng hidden` (để tạo bản tiếng Việt thuần) và lưu trữ vào `data/entrepreneurship/archive/`.
+---
+
+## 📘 Chương 3: The Entrepreneurial Mindset (Đang thực hiện 🚀)
+- [x] **Phase 1 (Scrape & Clean):** Đã tải và làm sạch HTML.
+- [x] **Phase 2 (Analyze):** Đã quét `chapter-3-new-glossary.csv` (Đã xử lý chú thích desc_vi cho *TOMS, Airbnb, Tesla, Bumble...*).
+- [x] **Phase 3 (Analyze):** Đã gen toàn bộ `*-translate-analysis.md` định hướng văn phong truyền cảm hứng.
+- [x] **Phase 4 (Translate):** **[HOÀN THÀNH]**
+  - [x] **agent-translate**: Chạy prep nhân bản thẻ HTML (`eng hidden` / `vn visible`).
+  - [x] **agent-translate**: Dịch thuật các file trọng tâm (3.1 đến 3.4).
+  - [x] **agent-translate**: Dịch thuật các file phụ trợ (Summary, Key Terms...).
+- [x] **Phase 5 (Review & QA):**
+  - [x] **agent-review**: Chạy Automated Glossary Check.
+  - [x] **agent-review**: Thực hiện Semantic & Risk Check (đối chiếu file Analysis).
+
+---
+
+## 📦 Phase 6: Lưu trữ & Xuất bản (Archive)
+- [ ] **agent-archive**: Dọn dẹp thẻ `eng hidden` để xuất bản Web/PDF thuần Việt.
+- [ ] **agent-archive**: Build hệ thống Book Reader Navigation.
