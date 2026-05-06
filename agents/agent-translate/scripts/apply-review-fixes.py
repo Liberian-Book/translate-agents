@@ -16,16 +16,20 @@ def parse_markdown_table(file_path):
         if in_table and line.strip().startswith('|'):
             # Parse row
             cols = [col.strip() for col in line.split('|')][1:-1] # Bỏ cột rỗng đầu cuối
-            if len(cols) >= 7:
+            if len(cols) >= 9:
+                suggestion_raw = cols[6]
+                if '`' in suggestion_raw:
+                    suggestion = suggestion_raw.split('`')[1]
+                else:
+                    suggestion = suggestion_raw.replace('Sửa thành:', '').strip()
+                
                 rows.append({
                     'line_num': i,
                     'id': cols[0],
                     'original': cols[1].strip('`'),
-                    'current': cols[2].strip('`'),
-                    'critique': cols[3],
-                    'suggestion': cols[4].strip('`'),
-                    'response': cols[5],
-                    'status': cols[6]
+                    'current': cols[3].strip('`'),
+                    'suggestion': suggestion,
+                    'status': cols[8].strip()
                 })
         elif in_table and not line.strip():
             in_table = False

@@ -131,4 +131,8 @@ def build_preview(book_dir="/Users/anderson/Desktop/the entreuper/data/entrepren
     print(f"\\nBuild completed successfully! You can now host the '{output_dir}' directory.")
 
 if __name__ == "__main__":
-    build_preview()
+    import sys
+    if len(sys.argv) > 1:
+        build_preview(sys.argv[1])
+    else:
+        build_preview("/Users/anderson/Desktop/entrepreneurship/data/entrepreneurship")
