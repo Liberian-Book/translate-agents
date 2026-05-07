@@ -1,29 +1,26 @@
-# Phân tích Dịch thuật: 14.2 Using the PEST Framework to Assess Resource Needs
+# Phân tích Dịch thuật: 14.2 – Using the PEST Framework to Assess Resource Needs
 
 ## 1. Rủi ro về Văn hóa / Ngữ cảnh
-- **Tax Cuts and Jobs Act (2017):** Luật thuế Mỹ — cần chú thích ngắn "Đạo luật Cắt giảm Thuế và Việc làm (2017) của Mỹ".
-- **IRS, EPA, OSHA:** Cơ quan Mỹ — giữ nguyên viết tắt + dịch tên đầy đủ.
-- **Trade dispute US-China 2019:** Bối cảnh chính trị Mỹ-Trung — cần giữ nguyên số liệu ($550 billion, $185 billion) nhưng có thể cần thêm chú thích về ngữ cảnh thương mại.
-- **Light and Motion / Daniel Emerson:** Ví dụ doanh nghiệp Mỹ bị ảnh hưởng bởi thuế quan — cần giải thích ngữ cảnh Philippines là điểm chuyển nhà máy.
-- **Joe's Pizza Place:** Ví dụ giả định — không có rủi ro văn hóa.
-- **SBA business worksheet:** Tài liệu của SBA Mỹ — giữ nguyên link, có thể thêm chú thích.
+
+- **PEST Framework:** Mô hình phân tích PEST (Political, Economic, Sociocultural, Technological) — thuật ngữ quản trị quốc tế, quen thuộc với sinh viên Việt Nam. Dùng bản dịch trong glossary: "mô hình PEST".
+- **Luật và chính sách Mỹ:** Đề cập Tax Cuts and Jobs Act, EPA, FAA, OSHA, IRS — đều là cơ quan và luật Hoa Kỳ. Giữ nguyên tên gốc.
+- **Tariffs & quotas:** Ngữ cảnh thương mại quốc tế, áp dụng cho hàng hóa nhập khẩu vào Mỹ. Dùng bản dịch đã chốt trong glossary: "thuế quan", "hạn ngạch".
+- **Ví dụ về Nintendo, Walmart, Macy's, JCPenney, Polaroid, Radio Shack, Sears, Payless, Victoria's Secret:** Đều là thương hiệu Mỹ/Nhật Bản quen thuộc. Giữ nguyên tên.
+- **Community Supported Agriculture (CSA):** Mô hình nông nghiệp cộng đồng — có thể thêm chú thích gọn cho độc giả Việt Nam.
 
 ## 2. Rủi ro về Thuật ngữ
-- **PEST framework:** Đã có trong glossary — "mô hình PEST". Giữ nguyên viết tắt PEST.
-- **Political / Economic / Sociocultural / Technological factors:** Tất cả đã có trong glossary.
-- **Private label:** "nhãn hàng riêng" hoặc giữ nguyên — cần chú thích vì thuật ngữ bán lẻ ít phổ biến ở VN.
-- **Pre-launch costs:** Đã có trong glossary — "chi phí trước khi ra mắt".
-- **Brick-and-mortar:** "cửa hàng truyền thống" hoặc "doanh nghiệp có địa điểm vật lý" — thành ngữ kinh doanh cần giải thích.
-- **Breakeven sales:** "doanh thu hòa vốn" — đã có breakeven point trong glossary.
+
+- **Thuật ngữ trọng tâm (có trong glossary):** PEST framework, political factors, economic factors, sociocultural factors, technological factors, tariffs, quotas, pre-launch costs.
+- **Thuật ngữ phụ:** CAD, CAM, prototyping, private label — giữ nguyên tiếng Anh.
+- *Hành động:* Đối chiếu `glossary.csv` cho tất cả các term có `data-type="term"`.
 
 ## 3. Rủi ro về Cấu trúc câu
-- **Câu liệt kê dài các yếu tố kinh tế:** "Economic factors—which include inflation rates, interest, currency exchange..." — cần xử lý cẩn thận dấu gạch ngang (em dash) khi dịch.
-- **Câu phức nhiều mệnh đề phụ:** Đoạn giải thích PEST framework có nhiều mệnh đề quan hệ — cần chia nhỏ.
-- **Bảng Table 14.5:** Liệt kê nhiều loại chi phí — cần dịch chính xác từng mục, giữ nguyên định dạng bảng.
-- **Hình ảnh SBA worksheet (Figure 14.13):** Là template hình ảnh — không cần dịch, chỉ dịch caption.
+
+- **Cấu trúc phân tích 4 yếu tố PEST:** Mỗi yếu tố được trình bày thành một subsection riêng. Giữ cấu trúc song song khi dịch.
+- **Danh sách liệt kê dài:** Nhiều bullet points liệt kê các yếu tố — dịch song song, nhất quán kiểu câu.
+- **Câu phức tạp về kinh tế:** Đề cập inflation, interest rates, currency exchange — cần dịch chính xác thuật ngữ kinh tế.
 
 ## 4. Văn phong & Giọng điệu
-- Văn phong hướng dẫn (instructional) — giọng thực hành, bước-by-step.
-- "Are You Ready?" section — mang tính tương tác, cần giữ giọng khích lệ.
-- "Link to Learning" — các gợi ý video/link cần giữ nguyên URL, chỉ dịch phần mô tả.
-- Nhấn mạnh tính thực tiễn, công cụ áp dụng thực tế.
+
+- **Giọng điệu:** Phân tích, hướng dẫn thực hành. Entrepreneur được hướng dẫn cách sử dụng mô hình PEST để đánh giá nhu cầu tài nguyên.
+- **Xưng hô:** "Bạn" khi bản gốc dùng "you". Giọng khuyến khích, thực tế.

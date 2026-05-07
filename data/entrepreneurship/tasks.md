@@ -22,7 +22,7 @@ Nguyen tac van hanh tu `master-workflow.md`:
 - [x] **chapter-11**: Da hoan thanh den het phase archive, da co ban song ngu va ban tieng Viet thuan trong `archive/`.
 - [x] **chapter-12**: Da hoan thanh den het phase archive, da co ban song ngu va ban tieng Viet thuan trong `archive/`.
 - [x] **chapter-13**: Da hoan thanh den het phase archive, da co ban song ngu va ban tieng Viet thuan trong `archive/`.
-- [ ] **chapter-14**: Chua chay workflow day du.
+- [ ] **chapter-14**: Da hoan thanh `translate` + `review` (10/10 files pass semantic check). Con `archive`.
 
 ## Phase 0: Lien chuong / Dieu phoi
 - [x] **agent-plan**: Xac nhan Chapter 1-3 da di dung workflow va chot lai cac bao cao review hien co.
@@ -284,8 +284,9 @@ Nguyen tac van hanh tu `master-workflow.md`:
 - [x] **agent-review**: Kiểm đủ page và tính toàn vẹn của `raw/`.
 - [x] **agent-scrape**: Cleanup + asset cho `clean/`.
 - [x] **agent-review**: Nghiệm thu data sạch của Chapter 14.
-- [ ] **agent-analyze**: Đọc HTML sạch để trích xuất thuật ngữ và xuất báo cáo rủi ro.
-- [ ] **agent-review**: Chốt glossary + report analysis Chapter 14.
+- [x] **agent-analyze**: Đọc HTML sạch để trích xuất thuật ngữ và xuất báo cáo rủi ro.
+- [x] **agent-review**: Chốt glossary + report analysis Chapter 14.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của các file HTML trong `chapter-14/05-translated/`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch (Semantic Check + Glossary Check) của tất cả các file trong Chapter 14.
 - [ ] **agent-archive**: Archive Chapter 14.
 - [ ] **agent-review**: Kiểm layout/final approval Chapter 14.
-

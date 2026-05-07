@@ -2,7 +2,7 @@
 
 **File kiểm tra:** `chapter-14/05-translated/14-2-using-the-pest-framework-to-assess-resource-needs.html`
 **File glossary:** `data/entrepreneurship/glossary.csv`
-**Thời gian:** 2026-05-06 22:46
+**Thời gian:** 2026-05-07 08:25
 **Trạng thái Toàn cục:** Đang mở
 
 ## Tổng kết
@@ -16,14 +16,14 @@
 
 | Thuật ngữ EN | Bản dịch chuẩn | Bản dịch trong HTML | Xác nhận |
 |---|---|---|---|
-| `PEST framework` | `mô hình PEST` | `mô hình PEST` | ✅ |
-| `Political factors` | `các yếu tố chính trị` | `các yếu tố chính trị` | ✅ |
-| `Tariffs` | `thuế quan` | `thuế quan` | ✅ |
-| `Quotas` | `hạn ngạch` | `hạn ngạch` | ✅ |
-| `Economic factors` | `các yếu tố kinh tế` | `các yếu tố kinh tế` | ✅ |
+| `PEST framework` | `mô hình PEST` | `Mô hình PEST` | ✅ |
+| `Political factors` | `các yếu tố chính trị` | `Các yếu tố chính trị` | ✅ |
+| `Tariffs` | `thuế quan` | `Thuế quan` | ✅ |
+| `Quotas` | `hạn ngạch` | `Hạn ngạch` | ✅ |
+| `Economic factors` | `các yếu tố kinh tế` | `Các yếu tố kinh tế` | ✅ |
 | `sociocultural factors` | `các yếu tố xã hội–văn hóa` | `các yếu tố xã hội–văn hóa` | ✅ |
 | `technological factors` | `các yếu tố công nghệ` | `các yếu tố công nghệ` | ✅ |
-| `Pre-launch costs` | `chi phí trước khi ra mắt` | `chi phí trước khi ra mắt` | ✅ |
+| `Pre-launch costs` | `chi phí trước khi ra mắt` | `Chi phí trước khi ra mắt` | ✅ |
 
 ## Bỏ qua
 

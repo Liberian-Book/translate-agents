@@ -2,35 +2,36 @@
 
 **File kiểm tra:** `chapter-14/05-translated/14-1-types-of-resources.html`
 **File glossary:** `data/entrepreneurship/glossary.csv`
-**Thời gian:** 2026-05-06 22:46
+**Thời gian:** 2026-05-07 08:25
 **Trạng thái Toàn cục:** Đang mở
 
 ## Tổng kết
-- Tổng thuật ngữ glossary xuất hiện trong file: **7**
-- Thuật ngữ dịch đúng: **7**
-- Thuật ngữ dịch sai / không nhất quán: **0**
-- Bỏ qua (no-emphasis / không có trong glossary): **72**
-- Tỉ lệ đúng: **7/7 = 100%**
+- Tổng thuật ngữ glossary xuất hiện trong file: **8**
+- Thuật ngữ dịch đúng: **0**
+- Thuật ngữ dịch sai / không nhất quán: **8**
+- Bỏ qua (no-emphasis / không có trong glossary): **71**
+- Tỉ lệ đúng: **0/8 = 0%**
 
-## Thuật ngữ dịch đúng (tham khảo)
+## Danh sách Vi phạm
 
-| Thuật ngữ EN | Bản dịch chuẩn | Bản dịch trong HTML | Xác nhận |
-|---|---|---|---|
-| `Tangible resources` | `nguồn lực hữu hình` | `nguồn lực hữu hình` | ✅ |
-| `Intangible resources` | `nguồn lực vô hình` | `nguồn lực vô hình` | ✅ |
-| `trademark` | `nhãn hiệu` | `nhãn hiệu` | ✅ |
-| `service mark` | `nhãn hiệu dịch vụ` | `nhãn hiệu dịch vụ` | ✅ |
-| `copyright` | `bản quyền` | `bản quyền` | ✅ |
-| `decision tree` | `cây quyết định` | `cây quyết định` | ✅ |
-| `line of credit` | `hạn mức tín dụng` | `hạn mức tín dụng` | ✅ |
+| ID | Thuật ngữ EN (term_en) | Bản dịch chuẩn (glossary) | Bản dịch hiện tại trong HTML | Vị trí (id thẻ) | Phản biện | Đề xuất sửa | Phản hồi Translate Agent | Trạng thái |
+|---|---|---|---|---|---|---|---|---|
+| G-001 | `Tangible resources` | `nguồn lực hữu hình` | `nguồn lực vô hình` | `term-00002` | Bản dịch không khớp glossary chuẩn | Sửa thành: `nguồn lực hữu hình` | | Mới |
+| G-002 | `Intangible resources` | `nguồn lực vô hình` | `Tiết kiệm cá nhân là nguồn tài trợ phổ biến nhất. Nhiều doanh nhân sử dụng tiền ` | `term-00027` | Bản dịch không khớp glossary chuẩn | Sửa thành: `nguồn lực vô hình` | | Mới |
+| G-003 | `trademark` | `nhãn hiệu` | `Một công cụ hữu ích để đánh giá nguồn lực là lập danh sách kiểm tra tất cả các n` | `term-00043` | Bản dịch không khớp glossary chuẩn | Sửa thành: `nhãn hiệu` | | Mới |
+| G-004 | `service mark` | `nhãn hiệu dịch vụ` | `(trống)` | `term-00044` | Bản dịch không khớp glossary chuẩn | Sửa thành: `nhãn hiệu dịch vụ` | | Mới |
+| G-005 | `copyright` | `bản quyền` | `Doanh nhân có thể sử dụng cây quyết định để phân tích từng lựa chọn tài trợ dựa ` | `term-00052` | Bản dịch không khớp glossary chuẩn | Sửa thành: `bản quyền` | | Mới |
+| G-006 | `decision tree` | `cây quyết định` | `Gọi vốn cộng đồng dựa trên vốn chủ sở hữu cho phép nhà đầu tư nhận cổ phần trong` | `term-00055` | Bản dịch không khớp glossary chuẩn | Sửa thành: `cây quyết định` | | Mới |
+| G-007 | `Funding resources` | `nguồn tài trợ` | `Một số công cụ trực tuyến như LoanBack, LendingKarma, và ZimpleMoney có thể giúp` | `term-00057` | Bản dịch không khớp glossary chuẩn | Sửa thành: `nguồn tài trợ` | | Mới |
+| G-008 | `line of credit` | `hạn mức tín dụng` | `Một ví dụ điển hình là Dell, bắt đầu từ phòng ký túc xá đại học với vốn chỉ 1.00` | `term-00064` | Bản dịch không khớp glossary chuẩn | Sửa thành: `hạn mức tín dụng` | | Mới |
 
 ## Bỏ qua
 
 | Thuật ngữ | Lý do |
 |---|---|
-| `Tài sản` | no-emphasis |
-| `doanh nghiệp dựa trên sản phẩm` | no-emphasis |
-| `doanh nghiệp dựa trên dịch vụ` | no-emphasis |
+| `Assets` | no-emphasis |
+| `product-based business` | no-emphasis |
+| `service-based business` | no-emphasis |
 | `current asset value` | no-emphasis |
 | `useful life` | no-emphasis |
 | `piece price` | no-emphasis |
@@ -45,7 +46,7 @@
 | `Microsoft Excel` | no-emphasis |
 | `Microsoft PowerPoint` | no-emphasis |
 | `Draw.io` | no-emphasis |
-| `Nhược Điểmtant Contact` | no-emphasis |
+| `Constant Contact` | no-emphasis |
 | `Mail Chimp` | no-emphasis |
 | `Dropbox` | no-emphasis |
 | `Skype` | no-emphasis |
@@ -53,7 +54,7 @@
 | `Hootsuite` | no-emphasis |
 | `Bootcamp` | no-emphasis |
 | `CPA` | no-emphasis |
-| `Tài sản trí tuệ` | no-emphasis |
+| `Intellectual property` | no-emphasis |
 | `Kentucky Fried Chicken` | no-emphasis |
 | `Coca-Cola` | no-emphasis |
 | `patent` | no-emphasis |
@@ -75,8 +76,7 @@
 | `Library of Congress` | no-emphasis |
 | `US Copyright Office` | no-emphasis |
 | `checklist` | no-emphasis |
-| `Nguồn lực tài trợ` | không có trong glossary |
-| `Tự huy động vốn` | no-emphasis |
+| `Bootstrapping` | no-emphasis |
 | `Johnny Cupcakes` | no-emphasis |
 | `Earle` | no-emphasis |
 | `Bank loans` | no-emphasis |
@@ -94,6 +94,6 @@
 | `JOBS Act` | no-emphasis |
 | `grants` | no-emphasis |
 | `Small Business Innovation Research Program` | no-emphasis |
-| `Small Business Công Nghệ Transfer Program` | no-emphasis |
+| `Small Business Technology Transfer Program` | no-emphasis |
 | `National Aeronautics and Space Administration` | no-emphasis |
 | `National Science Foundation` | no-emphasis |
