@@ -9,15 +9,15 @@ Nguyen tac van hanh tu `master-workflow.md`:
 - Neu da ton tai file `translated/` duoc dung tam theo cach reconstruct tu web, van phai backfill lai cac phase truoc neu phase do chua duoc ghi nhan/chua dat.
 
 ## Tong quan trang thai
-- [x] **chapter-1**: Da hoan thanh den vong review va da dong bao cao review chuong.
-- [x] **chapter-2**: Da hoan thanh den vong review va da dong bao cao review chuong.
-- [x] **chapter-3**: Da hoan thanh den vong review va da dong bao cao review chuong.
-- [ ] **chapter-4**: Da chay xong `scrape -> cleanup -> analysis -> translate -> review`; con `archive` chua thuc hien.
-- [ ] **chapter-5**: Da co ban `translated/` reconstructed, nhung can chay lai day du workflow va QA theo dung quy trinh.
-- [ ] **chapter-6**: Chua chay workflow day du.
-- [ ] **chapter-7**: Chua chay workflow day du.
-- [ ] **chapter-8**: Chua chay workflow day du.
-- [ ] **chapter-9**: Chua chay workflow day du.
+- [x] **chapter-1**: Da hoan thanh den het phase archive, da co ban song ngu va ban tieng Viet thuan trong `archive/`.
+- [x] **chapter-2**: Da hoan thanh den het phase archive, da co ban song ngu va ban tieng Viet thuan trong `archive/`.
+- [x] **chapter-3**: Da hoan thanh den het phase archive, da co ban song ngu va ban tieng Viet thuan trong `archive/`.
+- [x] **chapter-4**: Da hoan thanh den het phase archive, da co ban song ngu va ban tieng Viet thuan trong `archive/`.
+- [x] **chapter-5**: Da hoan thanh den het phase archive, da co ban song ngu va ban tieng Viet thuan trong `archive/`.
+- [x] **chapter-6**: Da hoan thanh den het phase archive, da co ban song ngu va ban tieng Viet thuan trong `archive/`.
+- [x] **chapter-7**: Da hoan thanh den het phase archive, da co ban song ngu va ban tieng Viet thuan trong `archive/`.
+- [x] **chapter-8**: Da hoan thanh den het phase archive, da co ban song ngu va ban tieng Viet thuan trong `archive/`.
+- [x] **chapter-9**: Da hoan thanh den het phase archive, da co ban song ngu va ban tieng Viet thuan trong `archive/`.
 - [x] **chapter-10**: Da hoan thanh den het phase archive, da co ban song ngu va ban tieng Viet thuan trong `archive/`.
 - [x] **chapter-11**: Da hoan thanh den het phase archive, da co ban song ngu va ban tieng Viet thuan trong `archive/`.
 - [x] **chapter-12**: Da hoan thanh den het phase archive, da co ban song ngu va ban tieng Viet thuan trong `archive/`.
