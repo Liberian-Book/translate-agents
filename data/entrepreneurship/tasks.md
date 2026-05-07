@@ -22,7 +22,7 @@ Nguyen tac van hanh tu `master-workflow.md`:
 - [x] **chapter-11**: Da hoan thanh den het phase archive, da co ban song ngu va ban tieng Viet thuan trong `archive/`.
 - [x] **chapter-12**: Da hoan thanh den het phase archive, da co ban song ngu va ban tieng Viet thuan trong `archive/`.
 - [x] **chapter-13**: Da hoan thanh den het phase archive, da co ban song ngu va ban tieng Viet thuan trong `archive/`.
-- [ ] **chapter-14**: Da hoan thanh `translate` + `review` (10/10 files pass semantic check). Con `archive`.
+- [x] **chapter-14**: Da hoan thanh den het phase archive, da co ban song ngu va ban tieng Viet thuan trong `archive/`.
 
 ## Phase 0: Lien chuong / Dieu phoi
 - [x] **agent-plan**: Xac nhan Chapter 1-3 da di dung workflow va chot lai cac bao cao review hien co.
@@ -288,5 +288,5 @@ Nguyen tac van hanh tu `master-workflow.md`:
 - [x] **agent-review**: Chốt glossary + report analysis Chapter 14.
 - [x] **agent-translate**: Dịch nội dung thẻ vn visible của các file HTML trong `chapter-14/05-translated/`.
 - [x] **agent-review**: Đánh giá chất lượng bản dịch (Semantic Check + Glossary Check) của tất cả các file trong Chapter 14.
-- [ ] **agent-archive**: Archive Chapter 14.
-- [ ] **agent-review**: Kiểm layout/final approval Chapter 14.
+- [x] **agent-archive**: Archive Chapter 14. Tạo `07-archive/bilingual/` (10 files), `07-archive/vn/` (10 files), `07-archive/assets/` (16 files).
+- [x] **agent-review**: Kiểm layout/final approval Chapter 14. VN-only: 0 eng_hidden, 0 vn_visible. Bilingual: eng/vn pairs cân bằng.
