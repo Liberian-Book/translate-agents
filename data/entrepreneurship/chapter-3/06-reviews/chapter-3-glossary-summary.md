@@ -1,6 +1,6 @@
 # Tổng kết Kiểm tra Thuật ngữ — Chương 3
 
-**Thời gian:** 2026-05-06 17:52
+**Thời gian:** 2026-05-09 19:20
 **Trạng thái:** Đang mở
 
 ## Tổng quan

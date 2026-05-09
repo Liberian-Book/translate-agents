@@ -34,8 +34,31 @@ Review Agent sở hữu 3 kỹ năng chính để rà soát bản dịch ở cá
 ## Workflow Chuẩn của Review Agent
 
 Khi có lệnh "Chạy review cho Chương [X]", hãy tuân thủ trình tự sau:
-1. **Quét Glossary:** Chạy lệnh `glossary-check.py` để tìm nhanh mọi lỗi vi phạm thuật ngữ.
-2. **Review Ngữ nghĩa:** Đọc các file `*-translate-analysis.md` của chương đó để nạp bối cảnh, sau đó đọc lướt bản dịch để bắt lỗi văn phong/văn hóa.
-3. **Sinh Báo cáo:** 
-   - **BẮT BUỘC:** Chạy lệnh `python3 agents/agent-review/scripts/start-review-round.py <đường_dẫn_file_html>` trước khi viết báo cáo. Script này sẽ tự động đếm số round hiện tại và sinh ra file `round-[X].md` mới (không bao giờ đè file cũ).
-   - Ghi các lỗi tìm được vào file markdown mới sinh ra. Nếu không có lỗi, ghi chú "Không phát hiện lỗi" vào file đó. Mọi nỗ lực ghi đè file cũ đều là vi phạm nguyên tắc quản trị dự án.
+
+### Bước 1 — Quét Glossary (→ `skill-glossary-check.md`)
+- Chạy lệnh: `python3 agents/agent-review/scripts/glossary-check.py <chapter-number>`
+- Mục tiêu: Bắt **100% vi phạm thuật ngữ** so với `glossary.csv`.
+- Output: File `chapter-[X]-glossary-summary.md` trong `06-reviews/`.
+
+### Bước 2 — Semantic & Risk Check (→ `skill-semantic-check.md`)
+- **Nạp context BẮT BUỘC:** Đọc TẤT CẢ file `*-translate-analysis.md` trong `03-analyzed/` của chương đó.
+- **Đọc từng file translated HTML** và đối chiếu với analysis. Tập trung vào:
+  - Ngữ nghĩa (semantic accuracy): dịch sai ý, dịch word-by-word vô nghĩa
+  - Rủi ro văn hóa (cultural risk): thành ngữ Mỹ, tên riêng cần chú thích
+  - Văn phong (tone): xưng hô Bạn/Chúng ta, giọng học thuật
+  - Cấu trúc HTML (structure): eng/vn pair balance, img src local vs CDN, inline tag bảo toàn
+
+### Bước 3 — Sinh Báo cáo (→ `skill-review.md`)
+- **BẮT BUỘC:** Chạy lệnh `python3 agents/agent-review/scripts/start-review-round.py <đường_dẫn_file_html>` trước khi viết báo cáo. Script tự đếm round và sinh file `round-[X].md` mới (không bao giờ đè file cũ).
+- Ghi TẤT CẢ lỗi từ Bước 1 (prefix `G-`) + Bước 2 (prefix `S-`) vào file vừa sinh.
+- Nếu không có lỗi, ghi chú "Không phát hiện lỗi" vào file đó.
+
+### Bước 4 — Verify & Close
+- Sau khi Translate Agent sửa, chạy lại Bước 1 + Bước 2 để xác nhận.
+- Chỉ đóng chapter khi: glossary 100% + semantic issues = 0 + archive eng/vn balance OK.
+
+> ⚠️ **Checklist chống lọt:**
+> - [ ] Glossary check đã chạy? (script tự động)
+> - [ ] Semantic check đã đọc analysis files?
+> - [ ] Mỗi file HTML có review round file tương ứng?
+> - [ ] Archive bilingual eng=vn balance? VN-only 0 eng leak?

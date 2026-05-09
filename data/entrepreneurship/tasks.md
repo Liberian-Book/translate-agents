@@ -29,6 +29,22 @@ Nguyen tac van hanh tu `master-workflow.md`:
 - [ ] **agent-plan**: Lap ke hoach full-book cho Chapter 4-14, bao dam moi chuong co du `scrape -> cleanup -> analysis -> translate -> review -> archive`.
 - [ ] **agent-review**: Duyet lai `tasks.md` sau moi lan cap nhat de dam bao khong chuong nao bi bo phase.
 
+## Chapter 3
+- [x] **agent-scrape**: Thu thập toàn bộ `chapter-3` vào `01-raw/` (10 files).
+- [x] **agent-scrape**: Cleanup + asset cho `02-clean/`. ⚠️ File 3-2 và 3-3 ban đầu bị lỗi SVG loader.
+- [x] **agent-scrape**: Re-scrape + cleanup 3-2 và 3-3 (2026-05-09). Clean data đã đầy đủ (293 + 276 dòng).
+- [x] **agent-analyze**: Trích xuất thuật ngữ → `03-analyzed/chapter-3-new-glossary.csv` (142 thuật ngữ, 19 đã có trong glossary, 1 proposal CSR).
+- [x] **agent-analyze**: 10 file analysis reports trong `03-analyzed/`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của 10 file HTML trong `05-translated/`.
+- [x] **agent-review**: Glossary check: 13/13 = 100%.
+- [x] **agent-review**: Semantic review 3-1 (Round 1→2→3): 10 issues, tất cả đã sửa.
+- [x] **agent-review**: Semantic review 3-2 (Round 1→2→3): img src CDN → local asset đã sửa.
+- [x] **agent-review**: Semantic review 3-3 (Round 1→2→3): img src CDN + thuật ngữ `khởi nghiệp vi mô` đã sửa.
+- [x] **agent-review**: Semantic review 7 file phụ (Round 1→2): tất cả hoàn thành.
+- [x] **agent-review**: `chapter-3-review.md` — 6 issues, tất cả Chấp nhận.
+- [x] **agent-archive**: Archive Chapter 3: `07-archive/bilingual/` (10 files), `07-archive/vn/` (10 files), `07-archive/assets/`.
+- [x] **agent-review**: Kiểm layout/final: bilingual eng=vn cân bằng (83+82+82+...), VN-only 0 eng leak.
+
 ## Chapter 4
 - [x] **agent-scrape**: Thu thập toàn bộ `chapter-4` vào `raw/`.
 - [x] **agent-review**: Kiểm đủ page và tính toàn vẹn của `raw/`.
@@ -160,34 +176,34 @@ Nguyen tac van hanh tu `master-workflow.md`:
 - [x] **agent-review**: Kiểm đủ page và tính toàn vẹn của `raw/`.
 - [x] **agent-scrape**: Cleanup + asset cho `clean/`.
 - [x] **agent-review**: Nghiệm thu data sạch của Chapter 8.
-- [ ] **agent-analyze**: Đọc HTML sạch để trích xuất thuật ngữ và xuất báo cáo rủi ro.
-- [ ] **agent-review**: Chốt glossary + report analysis Chapter 8.
-- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-1-entrepreneurial-marketing-and-the-marketing-mix.html`.
-- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `8-1-entrepreneurial-marketing-and-the-marketing-mix.html`.
-- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-2-market-research-market-opportunity-recognition-and-target-market.html`.
-- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `8-2-market-research-market-opportunity-recognition-and-target-market.html`.
-- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-3-marketing-techniques-and-tools-for-entrepreneurs.html`.
-- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `8-3-marketing-techniques-and-tools-for-entrepreneurs.html`.
-- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-4-entrepreneurial-branding.html`.
-- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `8-4-entrepreneurial-branding.html`.
-- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-5-marketing-strategy-and-the-marketing-plan.html`.
-- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `8-5-marketing-strategy-and-the-marketing-plan.html`.
-- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-6-sales-and-customer-service.html`.
-- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `8-6-sales-and-customer-service.html`.
-- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-case-questions.html`.
-- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `8-case-questions.html`.
-- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-discussion-questions.html`.
-- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `8-discussion-questions.html`.
-- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-introduction.html`.
-- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `8-introduction.html`.
-- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-key-terms.html`.
-- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `8-key-terms.html`.
-- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-review-questions.html`.
-- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `8-review-questions.html`.
-- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-suggested-resources.html`.
-- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `8-suggested-resources.html`.
-- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-summary.html`.
-- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `8-summary.html`.
+- [x] **agent-analyze**: Đọc HTML sạch để trích xuất thuật ngữ và xuất báo cáo rủi ro.
+- [x] **agent-review**: Chốt glossary + report analysis Chapter 8.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-1-entrepreneurial-marketing-and-the-marketing-mix.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `8-1-entrepreneurial-marketing-and-the-marketing-mix.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-2-market-research-market-opportunity-recognition-and-target-market.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `8-2-market-research-market-opportunity-recognition-and-target-market.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-3-marketing-techniques-and-tools-for-entrepreneurs.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `8-3-marketing-techniques-and-tools-for-entrepreneurs.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-4-entrepreneurial-branding.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `8-4-entrepreneurial-branding.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-5-marketing-strategy-and-the-marketing-plan.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `8-5-marketing-strategy-and-the-marketing-plan.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-6-sales-and-customer-service.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `8-6-sales-and-customer-service.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-case-questions.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `8-case-questions.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-discussion-questions.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `8-discussion-questions.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-introduction.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `8-introduction.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-key-terms.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `8-key-terms.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-review-questions.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `8-review-questions.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-suggested-resources.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `8-suggested-resources.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-summary.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `8-summary.html`. (Round 1: 49%→81%, 19 issues fixed)
 - [ ] **agent-archive**: Archive Chapter 8.
 - [ ] **agent-review**: Kiểm layout/final approval Chapter 8.
 

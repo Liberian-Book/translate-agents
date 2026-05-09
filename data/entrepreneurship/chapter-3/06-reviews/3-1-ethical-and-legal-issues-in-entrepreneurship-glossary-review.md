@@ -2,7 +2,7 @@
 
 **File kiểm tra:** `chapter-3/05-translated/3-1-ethical-and-legal-issues-in-entrepreneurship.html`
 **File glossary:** `data/entrepreneurship/glossary.csv`
-**Thời gian:** 2026-05-06 17:52
+**Thời gian:** 2026-05-09 19:20
 **Trạng thái Toàn cục:** Đang mở
 
 ## Tổng kết

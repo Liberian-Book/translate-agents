@@ -33,5 +33,15 @@ TRẢ VỀ DUY NHẤT FILE MARKDOWN DỰA TRÊN CẤU TRÚC BẢNG CỦA `review
 ***
 
 **Dữ liệu cung cấp cho bạn:**
-1. HTML File cần review: [👇 CHÈN NỘI DUNG HTML SONG NGỮ VÀO ĐÂY 👇]
-2. File Review hiện tại (nếu đang ở vòng thảo luận tiếp theo): [👇 CHÈN FILE REVIEW VÀO ĐÂY 👇]
+1. **Glossary (SSoT):** `data/entrepreneurship/glossary.csv` — bảng thuật ngữ chuẩn, chỉ xét dòng `status=approved`.
+2. **Analysis Reports:** Tất cả file `*-translate-analysis.md` trong `chapter-[X]/03-analyzed/` — báo cáo rủi ro văn hóa/ngữ cảnh.
+3. **HTML File cần review:** [👇 CHÈN NỘI DUNG HTML SONG NGỮ VÀO ĐÂY 👇]
+4. **File Review hiện tại** (nếu đang ở vòng thảo luận tiếp theo): [👇 CHÈN FILE REVIEW VÀO ĐÂY 👇]
+
+> ⚠️ **Quy tắc Merge:** Báo cáo phải gộp findings từ cả 3 nguồn:
+> - `G-xxx`: Lỗi thuật ngữ (từ glossary-check, `skill-glossary-check.md`)
+> - `S-xxx`: Lỗi ngữ nghĩa/rủi ro (từ semantic-check, `skill-semantic-check.md`)
+> - `R-xxx`: Lỗi kỹ thuật khác (cấu trúc HTML, img src, inline tag)
+>
+> Nếu thiếu Analysis Reports, **phải flag ngay** — không được bỏ qua bước semantic check.
+
