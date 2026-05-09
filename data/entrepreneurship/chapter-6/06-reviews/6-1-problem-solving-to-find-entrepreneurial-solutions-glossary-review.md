@@ -2,7 +2,7 @@
 
 **File kiểm tra:** `chapter-6/05-translated/6-1-problem-solving-to-find-entrepreneurial-solutions.html`
 **File glossary:** `data/entrepreneurship/glossary.csv`
-**Thời gian:** 2026-05-09 21:36
+**Thời gian:** 2026-05-09 21:44
 **Trạng thái Toàn cục:** Đang mở
 
 ## Tổng kết

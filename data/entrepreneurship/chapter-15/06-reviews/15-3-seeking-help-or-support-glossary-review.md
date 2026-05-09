@@ -2,7 +2,7 @@
 
 **File kiểm tra:** `chapter-15/05-translated/15-3-seeking-help-or-support.html`
 **File glossary:** `data/entrepreneurship/glossary.csv`
-**Thời gian:** 2026-05-09 21:36
+**Thời gian:** 2026-05-09 21:48
 **Trạng thái Toàn cục:** Đang mở
 
 ## Tổng kết

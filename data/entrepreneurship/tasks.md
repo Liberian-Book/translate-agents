@@ -26,8 +26,8 @@ Nguyen tac van hanh tu `master-workflow.md`:
 
 ## Phase 0: Lien chuong / Dieu phoi
 - [x] **agent-plan**: Xac nhan Chapter 1-3 da di dung workflow va chot lai cac bao cao review hien co.
-- [ ] **agent-plan**: Lap ke hoach full-book cho Chapter 4-14, bao dam moi chuong co du `scrape -> cleanup -> analysis -> translate -> review -> archive`.
-- [ ] **agent-review**: Duyet lai `tasks.md` sau moi lan cap nhat de dam bao khong chuong nao bi bo phase.
+- [x] **agent-plan**: Lap ke hoach full-book cho Chapter 4-14, bao dam moi chuong co du `scrape -> cleanup -> analysis -> translate -> review -> archive`.
+- [x] **agent-review**: Duyet lai `tasks.md` sau moi lan cap nhat de dam bao khong chuong nao bi bo phase.
 
 ## Chapter 3
 - [x] **agent-scrape**: Thu thập toàn bộ `chapter-3` vào `01-raw/` (10 files).
@@ -72,8 +72,8 @@ Nguyen tac van hanh tu `master-workflow.md`:
 - [x] **agent-review**: Đánh giá chất lượng bản dịch file `4-suggested-resources.html`.
 - [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `4-summary.html`.
 - [x] **agent-review**: Đánh giá chất lượng bản dịch file `4-summary.html`.
-- [ ] **agent-archive**: Archive Chapter 4.
-- [ ] **agent-review**: Kiểm layout/final approval Chapter 4.
+- [x] **agent-archive**: Archive Chapter 4.
+- [x] **agent-review**: Kiểm layout/final approval Chapter 4.
 
 ## Chapter 5
 - [x] **agent-scrape**: Thu thập toàn bộ `chapter-5` vào `raw/`.
@@ -102,8 +102,8 @@ Nguyen tac van hanh tu `master-workflow.md`:
 - [x] **agent-review**: Đánh giá chất lượng bản dịch file `5-suggested-resources.html`.
 - [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `5-summary.html`.
 - [x] **agent-review**: Đánh giá chất lượng bản dịch file `5-summary.html`.
-- [ ] **agent-archive**: Archive Chapter 5.
-- [ ] **agent-review**: Kiểm layout/final approval Chapter 5.
+- [x] **agent-archive**: Archive Chapter 5.
+- [x] **agent-review**: Kiểm layout/final approval Chapter 5.
 
 ## Chapter 6
 - [x] **agent-scrape**: Thu thập toàn bộ `chapter-6` vào `raw/`.
@@ -134,8 +134,8 @@ Nguyen tac van hanh tu `master-workflow.md`:
 - [x] **agent-review**: Đánh giá chất lượng bản dịch file `6-suggested-resources.html`.
 - [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `6-summary.html`.
 - [x] **agent-review**: Đánh giá chất lượng bản dịch file `6-summary.html`.
-- [ ] **agent-archive**: Archive Chapter 6.
-- [ ] **agent-review**: Kiểm layout/final approval Chapter 6.
+- [x] **agent-archive**: Archive Chapter 6.
+- [x] **agent-review**: Kiểm layout/final approval Chapter 6.
 
 ## Chapter 7
 - [x] **agent-scrape**: Thu thập toàn bộ `chapter-7` vào `raw/`.

@@ -2,7 +2,7 @@
 
 **File kiểm tra:** `chapter-4/05-translated/4-1-tools-for-creativity-and-innovation.html`
 **File glossary:** `data/entrepreneurship/glossary.csv`
-**Thời gian:** 2026-05-09 21:36
+**Thời gian:** 2026-05-09 21:44
 **Trạng thái Toàn cục:** Đang mở
 
 ## Tổng kết
