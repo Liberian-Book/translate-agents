@@ -2,7 +2,7 @@
 
 **File kiểm tra:** `chapter-5/05-translated/5-2-researching-potential-business-opportunities.html`
 **File glossary:** `data/entrepreneurship/glossary.csv`
-**Thời gian:** 2026-05-06 18:21
+**Thời gian:** 2026-05-09 21:36
 **Trạng thái Toàn cục:** Đang mở
 
 ## Tổng kết
@@ -27,9 +27,9 @@
 
 | Thuật ngữ | Lý do |
 |---|---|
-| `US Small Business Administration` | no-emphasis |
-| `US Census` | no-emphasis |
-| `Service Corps of Retired Executives (SCORE)` | no-emphasis |
+| `Cơ quan Quản lý Doanh nghiệp Nhỏ Hoa Kỳ (US Small Business Administration)` | no-emphasis |
+| `Cục Thống kê Dân số Hoa Kỳ (US Census)` | no-emphasis |
+| `Lực lượng Chuyên gia hưu trí tình nguyện (SCORE)` | no-emphasis |
 | `Due diligence` | no-emphasis |
 | `entrepreneurial opportunity` | no-emphasis |
 | `Disney Corporation` | no-emphasis |

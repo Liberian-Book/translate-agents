@@ -1,6 +1,6 @@
 # Tổng kết Kiểm tra Thuật ngữ — Chương 12
 
-**Thời gian:** 2026-05-09 20:52
+**Thời gian:** 2026-05-09 21:36
 **Trạng thái:** Đang mở
 
 ## Tổng quan

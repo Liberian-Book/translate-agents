@@ -2,7 +2,7 @@
 
 **File kiểm tra:** `chapter-9/05-translated/9-2-special-funding-strategies.html`
 **File glossary:** `data/entrepreneurship/glossary.csv`
-**Thời gian:** 2026-05-09 20:36
+**Thời gian:** 2026-05-09 21:36
 **Trạng thái Toàn cục:** Đang mở
 
 ## Tổng kết

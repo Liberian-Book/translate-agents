@@ -2,7 +2,7 @@
 
 **File kiểm tra:** `chapter-7/05-translated/7-1-clarifying-your-vision-mission-and-goals.html`
 **File glossary:** `data/entrepreneurship/glossary.csv`
-**Thời gian:** 2026-05-06 21:32
+**Thời gian:** 2026-05-09 21:36
 **Trạng thái Toàn cục:** Đang mở
 
 ## Tổng kết
@@ -16,7 +16,7 @@
 
 | Thuật ngữ EN | Bản dịch chuẩn | Bản dịch trong HTML | Xác nhận |
 |---|---|---|---|
-| `problem-solution narrative` | `câu chuyện vấn đề – giải pháp` | `câu chuyện vấn đề – giải pháp` | ✅ |
+| `problem-solution narrative` | `câu chuyện vấn đề – giải pháp` | `Câu chuyện vấn đề – giải pháp` | ✅ |
 | `pitch` | `bài thuyết trình gọi vốn (pitch)` | `bài thuyết trình gọi vốn (pitch)` | ✅ |
 | `ideation` | `quá trình hình thành ý tưởng` | `quá trình hình thành ý tưởng` | ✅ |
 | `value proposition` | `giá trị đề xuất` | `giá trị đề xuất` | ✅ |

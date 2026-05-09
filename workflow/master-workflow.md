@@ -81,6 +81,7 @@ Các AI Agents sẽ đóng vai trò thực hiện công việc nặng nhọc (Sc
 
 - **Hành động 1:** Chạy script `skill-prep-translation.js` để nhân bản các thẻ HTML thành cấu trúc song ngữ — lưu vào `data/[book]/chapter-{N}/04-prep/`.
 - **Hành động 2:** Đọc **`glossary.csv`** + báo cáo rủi ro trong `data/[book]/chapter-{N}/03-analyzed/`. Thực hiện dịch ghi đè văn bản vào các thẻ `vn visible`.
+- **Hành động 3:** Đảm bảo dịch đủ các file, bao gồm cả discussion, review question, discuss questions ...etc.
 - Lưu kết quả vào `data/[book]/chapter-{N}/05-translated/`.
 
 ### 🛑 Human-in-the-Loop: Nghỉ ngơi

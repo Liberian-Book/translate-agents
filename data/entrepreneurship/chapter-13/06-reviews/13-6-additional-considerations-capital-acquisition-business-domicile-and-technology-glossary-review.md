@@ -2,7 +2,7 @@
 
 **File kiểm tra:** `chapter-13/05-translated/13-6-additional-considerations-capital-acquisition-business-domicile-and-technology.html`
 **File glossary:** `data/entrepreneurship/glossary.csv`
-**Thời gian:** 2026-05-09 20:53
+**Thời gian:** 2026-05-09 21:36
 **Trạng thái Toàn cục:** Đang mở
 
 ## Tổng kết

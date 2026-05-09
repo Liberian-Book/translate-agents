@@ -2,7 +2,7 @@
 
 **File kiểm tra:** `chapter-14/05-translated/14-2-using-the-pest-framework-to-assess-resource-needs.html`
 **File glossary:** `data/entrepreneurship/glossary.csv`
-**Thời gian:** 2026-05-07 08:25
+**Thời gian:** 2026-05-09 21:39
 **Trạng thái Toàn cục:** Đang mở
 
 ## Tổng kết

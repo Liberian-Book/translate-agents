@@ -2,7 +2,7 @@
 
 **File kiểm tra:** `chapter-10/05-translated/10-2-why-early-failure-can-lead-to-success-later.html`
 **File glossary:** `data/entrepreneurship/glossary.csv`
-**Thời gian:** 2026-05-09 20:46
+**Thời gian:** 2026-05-09 21:36
 **Trạng thái Toàn cục:** Đang mở
 
 ## Tổng kết
@@ -17,7 +17,7 @@
 | Thuật ngữ EN | Bản dịch chuẩn | Bản dịch trong HTML | Xác nhận |
 |---|---|---|---|
 | `Business failure` | `thất bại kinh doanh` | `Thất bại kinh doanh` | ✅ |
-| `Global Entrepreneurship Monitor (GEM)` | `Global Entrepreneurship Monitor (GEM)` | `Global Entrepreneurship Monitor (GEM) đầ` | ✅ |
+| `Global Entrepreneurship Monitor (GEM)` | `Global Entrepreneurship Monitor (GEM)` | `Global Entrepreneurship Monitor (GEM)` | ✅ |
 
 ## Bỏ qua
 

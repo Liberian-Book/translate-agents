@@ -2,7 +2,7 @@
 
 **File kiểm tra:** `chapter-12/05-translated/12-2-building-the-entrepreneurial-dream-team.html`
 **File glossary:** `data/entrepreneurship/glossary.csv`
-**Thời gian:** 2026-05-09 20:52
+**Thời gian:** 2026-05-09 21:36
 **Trạng thái Toàn cục:** Đang mở
 
 ## Tổng kết

@@ -2,7 +2,7 @@
 
 **File kiểm tra:** `chapter-11/05-translated/11-3-conducting-a-feasibility-analysis.html`
 **File glossary:** `data/entrepreneurship/glossary.csv`
-**Thời gian:** 2026-05-09 20:47
+**Thời gian:** 2026-05-09 21:36
 **Trạng thái Toàn cục:** Đang mở
 
 ## Tổng kết

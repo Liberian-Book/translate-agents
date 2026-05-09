@@ -2,7 +2,7 @@
 
 **File kiểm tra:** `chapter-10/05-translated/10-5-growth-signs-pains-and-cautions.html`
 **File glossary:** `data/entrepreneurship/glossary.csv`
-**Thời gian:** 2026-05-09 20:46
+**Thời gian:** 2026-05-09 21:36
 **Trạng thái Toàn cục:** Đang mở
 
 ## Tổng kết
@@ -19,7 +19,7 @@
 | `business lifecycle` | `vòng đời doanh nghiệp` | `vòng đời doanh nghiệp` | ✅ |
 | `born global` | `doanh nghiệp toàn cầu ngay từ đầu` | `doanh nghiệp toàn cầu ngay từ đầu` | ✅ |
 | `Licensing` | `cấp phép` | `cấp phép` | ✅ |
-| `Franchising` | `nhượng quyền thương mại` | `nhượng quyền thương mại` | ✅ |
+| `Franchising` | `nhượng quyền thương mại` | `Nhượng quyền thương mại` | ✅ |
 | `joint venture` | `liên doanh` | `liên doanh` | ✅ |
 | `mergers and acquisitions` | `sáp nhập và mua lại` | `Trong các thương vụ sáp nhập và mua lại,` | ✅ |
 

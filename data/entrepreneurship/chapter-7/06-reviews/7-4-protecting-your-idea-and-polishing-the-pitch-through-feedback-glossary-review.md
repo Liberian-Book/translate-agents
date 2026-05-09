@@ -2,7 +2,7 @@
 
 **File kiểm tra:** `chapter-7/05-translated/7-4-protecting-your-idea-and-polishing-the-pitch-through-feedback.html`
 **File glossary:** `data/entrepreneurship/glossary.csv`
-**Thời gian:** 2026-05-06 21:32
+**Thời gian:** 2026-05-09 21:36
 **Trạng thái Toàn cục:** Đang mở
 
 ## Tổng kết

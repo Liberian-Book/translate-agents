@@ -2,7 +2,7 @@
 
 **File kiểm tra:** `chapter-2/05-translated/2-2-the-process-of-becoming-an-entrepreneur.html`
 **File glossary:** `data/entrepreneurship/glossary.csv`
-**Thời gian:** 2026-05-06 17:37
+**Thời gian:** 2026-05-09 21:36
 **Trạng thái Toàn cục:** Đang mở
 
 ## Tổng kết

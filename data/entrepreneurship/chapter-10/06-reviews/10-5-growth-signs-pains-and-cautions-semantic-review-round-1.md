@@ -1,16 +1,13 @@
-# Báo cáo Review: 10-5 (Round 1)
+# Semantic Review Round 1 - 10-5-growth-signs-pains-and-cautions.html
 
-**File:** `10-5-growth-signs-pains-and-cautions.html`
-**Thời gian:** 2026-05-09
+## Overview
+This file contains the results of the semantic and glossary compliance review for section `10-5`.
 
-## Vi phạm đã sửa
+## Glossary Corrections Applied
+| Line | Original Translation | Corrected Translation | Reason for Change |
+|---|---|---|---|
+| Multiple | `công ty toàn cầu ngay từ đầu` | `doanh nghiệp toàn cầu ngay từ đầu` | Glossary compliance for "born global" -> "doanh nghiệp toàn cầu ngay từ đầu". |
 
-| ID | Thuật ngữ | Cũ | Mới | Trạng thái |
-|---|---|---|---|---|
-| G-001 | business lifecycle | chu kỳ kinh doanh | vòng đời doanh nghiệp | Đã sửa |
-| G-002 | born global | sinh ra đã toàn cầu | doanh nghiệp toàn cầu ngay từ đầu | Đã sửa |
-| G-003 | Licensing | Motocross | cấp phép | Đã sửa |
-| G-004 | Franchising | Ủy quyền | nhượng quyền thương mại | Đã sửa |
-
-## Glossary: ✅ 100% (6/6)
-## Structure: ✅ eng=78 vn=78
+## Notes
+- "Born global" was originally translated with slightly different prefixes ("công ty toàn cầu ngay từ đầu", "công ty doanh nghiệp toàn cầu ngay từ đầu"), all standardized to "doanh nghiệp toàn cầu ngay từ đầu".
+- The file should now pass the Glossary Check (100% compliance).

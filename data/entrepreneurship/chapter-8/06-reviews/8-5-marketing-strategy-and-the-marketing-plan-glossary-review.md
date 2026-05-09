@@ -2,7 +2,7 @@
 
 **File kiểm tra:** `chapter-8/05-translated/8-5-marketing-strategy-and-the-marketing-plan.html`
 **File glossary:** `data/entrepreneurship/glossary.csv`
-**Thời gian:** 2026-05-09 20:19
+**Thời gian:** 2026-05-09 21:36
 **Trạng thái Toàn cục:** Đang mở
 
 ## Tổng kết

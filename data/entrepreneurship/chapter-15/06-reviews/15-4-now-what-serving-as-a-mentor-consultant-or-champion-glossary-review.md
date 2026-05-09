@@ -2,7 +2,7 @@
 
 **File kiểm tra:** `chapter-15/05-translated/15-4-now-what-serving-as-a-mentor-consultant-or-champion.html`
 **File glossary:** `data/entrepreneurship/glossary.csv`
-**Thời gian:** 2026-05-09 20:55
+**Thời gian:** 2026-05-09 21:36
 **Trạng thái Toàn cục:** Đang mở
 
 ## Tổng kết
