@@ -2,7 +2,7 @@
 
 **File kiểm tra:** `chapter-15/05-translated/15-1-launching-your-venture.html`
 **File glossary:** `data/entrepreneurship/glossary.csv`
-**Thời gian:** 2026-05-06 22:45
+**Thời gian:** 2026-05-09 20:55
 **Trạng thái Toàn cục:** Đang mở
 
 ## Tổng kết

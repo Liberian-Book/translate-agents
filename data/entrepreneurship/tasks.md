@@ -278,7 +278,7 @@ Nguyen tac van hanh tu `master-workflow.md`:
 - [x] **agent-translate**: Dich toan bo Chapter 12.
 - [x] **agent-review**: QA + lap `reviews/chapter-12-review.md`.
 - [x] **agent-translate**: Xu ly vong review den khi dong chapter 12.
-- [x] **agent-archive**: Archive Chapter 12.
+- [x] **agent-archive**: Archive Chapter 12. (10 bilingual + 10 VN-only, 0 eng leak)
 - [x] **agent-review**: Kiem layout/final approval Chapter 12.
 
 ## Chapter 13
@@ -292,7 +292,7 @@ Nguyen tac van hanh tu `master-workflow.md`:
 - [x] **agent-translate**: Dich toan bo Chapter 13.
 - [x] **agent-review**: QA + lap `reviews/chapter-13-review.md`.
 - [x] **agent-translate**: Xu ly vong review den khi dong chapter 13.
-- [x] **agent-archive**: Archive Chapter 13.
+- [x] **agent-archive**: Archive Chapter 13. (14 bilingual + 14 VN-only, 0 eng leak)
 - [x] **agent-review**: Kiem layout/final approval Chapter 13.
 
 ## Chapter 14
@@ -306,3 +306,15 @@ Nguyen tac van hanh tu `master-workflow.md`:
 - [x] **agent-review**: Đánh giá chất lượng bản dịch (Semantic Check + Glossary Check) của tất cả các file trong Chapter 14.
 - [x] **agent-archive**: Archive Chapter 14. Tạo `07-archive/bilingual/` (10 files), `07-archive/vn/` (10 files), `07-archive/assets/` (16 files).
 - [x] **agent-review**: Kiểm layout/final approval Chapter 14. VN-only: 0 eng_hidden, 0 vn_visible. Bilingual: eng/vn pairs cân bằng.
+
+## Chapter 15
+- [x] **agent-scrape**: Thu thập toàn bộ `chapter-15` vào `raw/`.
+- [x] **agent-review**: Kiểm đủ page và tính toàn vẹn của `raw/`.
+- [x] **agent-scrape**: Cleanup + asset cho `clean/`.
+- [x] **agent-review**: Nghiệm thu data sạch của Chapter 15.
+- [x] **agent-analyze**: Đọc HTML sạch để trích xuất thuật ngữ.
+- [x] **agent-review**: Chốt glossary + report analysis Chapter 15.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của các file HTML trong `chapter-15/05-translated/`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch (Semantic Check + Glossary Check) - 100% compliance.
+- [x] **agent-archive**: Archive Chapter 15. (12 bilingual + 12 VN-only, 0 eng leak)
+- [x] **agent-review**: Kiểm layout/final approval Chapter 15.
