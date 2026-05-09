@@ -315,6 +315,6 @@ Nguyen tac van hanh tu `master-workflow.md`:
 - [x] **agent-analyze**: Đọc HTML sạch để trích xuất thuật ngữ.
 - [x] **agent-review**: Chốt glossary + report analysis Chapter 15.
 - [x] **agent-translate**: Dịch nội dung thẻ vn visible của các file HTML trong `chapter-15/05-translated/`.
-- [x] **agent-review**: Đánh giá chất lượng bản dịch (Semantic Check + Glossary Check) - 100% compliance.
-- [x] **agent-archive**: Archive Chapter 15. (12 bilingual + 12 VN-only, 0 eng leak)
-- [x] **agent-review**: Kiểm layout/final approval Chapter 15.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch (Semantic Check + Glossary Check). (Round 2: hoàn tất, 100% khớp thuật ngữ, không lỗi ngữ nghĩa)
+- [x] **agent-archive**: Archive Chapter 15. Tạo `07-archive/bilingual/` (12 files), `07-archive/vn/` (12 files), `07-archive/assets/` (16 files).
+- [x] **agent-review**: Kiểm layout/final approval Chapter 15. VN-only: 0 eng_hidden, 0 vn_visible. Bilingual: eng/vn pairs cân bằng.
