@@ -2,7 +2,7 @@
 
 **File kiểm tra:** `chapter-1/05-translated/1-1-entrepreneurship-today.html`
 **File glossary:** `data/entrepreneurship/glossary.csv`
-**Thời gian:** 2026-05-09 21:36
+**Thời gian:** 2026-05-10 00:27
 **Trạng thái Toàn cục:** Đang mở
 
 ## Tổng kết

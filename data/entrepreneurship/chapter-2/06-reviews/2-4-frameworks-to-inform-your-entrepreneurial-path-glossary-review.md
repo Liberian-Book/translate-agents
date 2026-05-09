@@ -2,7 +2,7 @@
 
 **File kiểm tra:** `chapter-2/05-translated/2-4-frameworks-to-inform-your-entrepreneurial-path.html`
 **File glossary:** `data/entrepreneurship/glossary.csv`
-**Thời gian:** 2026-05-09 21:36
+**Thời gian:** 2026-05-10 00:41
 **Trạng thái Toàn cục:** Đang mở
 
 ## Tổng kết
