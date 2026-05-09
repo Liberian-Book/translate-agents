@@ -204,48 +204,48 @@ Nguyen tac van hanh tu `master-workflow.md`:
 - [x] **agent-review**: Đánh giá chất lượng bản dịch file `8-suggested-resources.html`.
 - [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `8-summary.html`.
 - [x] **agent-review**: Đánh giá chất lượng bản dịch file `8-summary.html`. (Round 1: 49%→81%, 19 issues fixed)
-- [ ] **agent-archive**: Archive Chapter 8.
-- [ ] **agent-review**: Kiểm layout/final approval Chapter 8.
+- [x] **agent-archive**: Archive Chapter 8. (13 bilingual + 13 VN-only, 0 eng leak)
+- [x] **agent-review**: Kiểm layout/final approval Chapter 8.
 
 ## Chapter 9
 - [x] **agent-scrape**: Thu thập toàn bộ `chapter-9` vào `raw/`.
 - [x] **agent-review**: Kiểm đủ page và tính toàn vẹn của `raw/`.
 - [x] **agent-scrape**: Cleanup + asset cho `clean/`.
 - [x] **agent-review**: Nghiệm thu data sạch của Chapter 9.
-- [ ] **agent-analyze**: Đọc HTML sạch để trích xuất thuật ngữ và xuất báo cáo rủi ro.
-- [ ] **agent-review**: Chốt glossary + report analysis Chapter 9.
-- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `9-1-overview-of-entrepreneurial-finance-and-accounting-strategies.html`.
-- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `9-1-overview-of-entrepreneurial-finance-and-accounting-strategies.html`.
-- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `9-2-special-funding-strategies.html`.
-- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `9-2-special-funding-strategies.html`.
-- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `9-3-accounting-basics-for-entrepreneurs.html`.
-- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `9-3-accounting-basics-for-entrepreneurs.html`.
-- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `9-4-developing-startup-financial-statements-and-projections.html`.
-- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `9-4-developing-startup-financial-statements-and-projections.html`.
-- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `9-case-questions.html`.
-- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `9-case-questions.html`.
-- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `9-discussion-questions.html`.
-- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `9-discussion-questions.html`.
-- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `9-introduction.html`.
-- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `9-introduction.html`.
-- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `9-key-terms.html`.
-- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `9-key-terms.html`.
-- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `9-review-questions.html`.
-- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `9-review-questions.html`.
-- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `9-suggested-resources.html`.
-- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `9-suggested-resources.html`.
-- [ ] **agent-translate**: Dịch nội dung thẻ vn visible của file `9-summary.html`.
-- [ ] **agent-review**: Đánh giá chất lượng bản dịch file `9-summary.html`.
-- [ ] **agent-archive**: Archive Chapter 9.
-- [ ] **agent-review**: Kiểm layout/final approval Chapter 9.
+- [x] **agent-analyze**: Đọc HTML sạch để trích xuất thuật ngữ và xuất báo cáo rủi ro.
+- [x] **agent-review**: Chốt glossary + report analysis Chapter 9.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `9-1-overview-of-entrepreneurial-finance-and-accounting-strategies.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `9-1-overview-of-entrepreneurial-finance-and-accounting-strategies.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `9-2-special-funding-strategies.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `9-2-special-funding-strategies.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `9-3-accounting-basics-for-entrepreneurs.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `9-3-accounting-basics-for-entrepreneurs.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `9-4-developing-startup-financial-statements-and-projections.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `9-4-developing-startup-financial-statements-and-projections.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `9-case-questions.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `9-case-questions.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `9-discussion-questions.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `9-discussion-questions.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `9-introduction.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `9-introduction.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `9-key-terms.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `9-key-terms.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `9-review-questions.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `9-review-questions.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `9-suggested-resources.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `9-suggested-resources.html`.
+- [x] **agent-translate**: Dịch nội dung thẻ vn visible của file `9-summary.html`.
+- [x] **agent-review**: Đánh giá chất lượng bản dịch file `9-summary.html`. (Round 1: 71%→100%, 14 issues fixed)
+- [x] **agent-archive**: Archive Chapter 9. (11 bilingual + 11 VN-only, 0 eng leak)
+- [x] **agent-review**: Kiểm layout/final approval Chapter 9.
 
 ## Chapter 10
-- [ ] **agent-scrape**: Thu thap toan bo `10*.html` vao `raw/`.
-- [ ] **agent-review**: Kiem du page va tinh toan ven cua `raw/10*.html`.
-- [ ] **agent-scrape**: Cleanup + asset cho `clean/10*.html`.
-- [ ] **agent-review**: Nghiem thu data sach cua Chapter 10.
-- [ ] **agent-analyze**: Glossary/analysis cho `10*.html`.
-- [ ] **agent-review**: Chot glossary + report analysis Chapter 10.
+- [x] **agent-scrape**: Thu thap toan bo `10*.html` vao `raw/`.
+- [x] **agent-review**: Kiem du page va tinh toan ven cua `raw/10*.html`.
+- [x] **agent-scrape**: Cleanup + asset cho `clean/10*.html`.
+- [x] **agent-review**: Nghiem thu data sach cua Chapter 10.
+- [x] **agent-analyze**: Glossary/analysis cho `10*.html`.
+- [x] **agent-review**: Chot glossary + report analysis Chapter 10.
 - [x] **agent-translate**: Prep song ngu cho `10*.html`.
 - [x] **agent-translate**: Dich toan bo Chapter 10.
 - [x] **agent-review**: QA + lap `reviews/chapter-10-review.md`.
@@ -254,17 +254,17 @@ Nguyen tac van hanh tu `master-workflow.md`:
 - [x] **agent-review**: Kiem layout/final approval Chapter 10.
 
 ## Chapter 11
-- [ ] **agent-scrape**: Thu thap toan bo `11*.html` vao `raw/`.
-- [ ] **agent-review**: Kiem du page va tinh toan ven cua `raw/11*.html`.
-- [ ] **agent-scrape**: Cleanup + asset cho `clean/11*.html`.
-- [ ] **agent-review**: Nghiem thu data sach cua Chapter 11.
-- [ ] **agent-analyze**: Glossary/analysis cho `11*.html`.
-- [ ] **agent-review**: Chot glossary + report analysis Chapter 11.
+- [x] **agent-scrape**: Thu thap toan bo `11*.html` vao `raw/`.
+- [x] **agent-review**: Kiem du page va tinh toan ven cua `raw/11*.html`.
+- [x] **agent-scrape**: Cleanup + asset cho `clean/11*.html`.
+- [x] **agent-review**: Nghiem thu data sach cua Chapter 11.
+- [x] **agent-analyze**: Glossary/analysis cho `11*.html`.
+- [x] **agent-review**: Chot glossary + report analysis Chapter 11.
 - [x] **agent-translate**: Prep song ngu cho `11*.html`.
 - [x] **agent-translate**: Dich toan bo Chapter 11.
 - [x] **agent-review**: QA + lap `reviews/chapter-11-review.md`.
 - [x] **agent-translate**: Xu ly vong review den khi dong chapter 11.
-- [x] **agent-archive**: Archive Chapter 11.
+- [x] **agent-archive**: Archive Chapter 11. (11 bilingual + 11 VN-only, 0 eng leak)
 - [x] **agent-review**: Kiem layout/final approval Chapter 11.
 
 ## Chapter 12
