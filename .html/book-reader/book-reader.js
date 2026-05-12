@@ -97,11 +97,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (isEnMode) {
       document.body.classList.add('lang-swap');
       swapBtn.textContent = 'Swap to VN';
-      readingTitle.textContent = 'Vietnamese Translation';
+      if (readingTitle) readingTitle.textContent = 'Vietnamese Translation';
     } else {
       document.body.classList.remove('lang-swap');
       swapBtn.textContent = 'Swap to EN';
-      readingTitle.textContent = 'Original English';
+      if (readingTitle) readingTitle.textContent = 'Original English';
     }
     // Clear panels on swap
     engContentPanel.innerHTML = 'Hover over the text to see the translation here.';
