@@ -68,17 +68,23 @@ def build_preview(book_dir="/Users/anderson/Desktop/the entreuper/data/entrepren
         trans_dst = os.path.join(book_level_dst, "05-translated")
         if os.path.exists(trans_src):
             os.makedirs(trans_dst, exist_ok=True)
-            for file_name in ['index.html', 'preface.html']:
+            for file_name in ['preface.html', 'index.html']:
                 src_file = os.path.join(trans_src, file_name)
                 dst_file = os.path.join(trans_dst, file_name)
                 if os.path.exists(src_file):
                     with open(src_file, 'r', encoding='utf-8') as f:
                         content = f.read()
-                    all_pages.append(f"../../{book_level_dir}/05-translated/{file_name}")
-                    pages_js = '<script src="../../book-reader/book-pages.js"></script>\n'
-                    css_link = '<link rel="stylesheet" href="../../book-reader/book-reader.css">\n'
-                    js_link = '<script src="../../book-reader/book-reader.js"></script>\n'
-                    if '</head>' in content:
+                    all_pages.append(f"/{book_level_dir}/05-translated/{file_name}")
+                    pages_js = '<script src="/book-reader/book-pages.js"></script>\n'
+                    css_link = '<link rel="stylesheet" href="/book-reader/book-reader.css">\n'
+                    js_link = '<script src="/book-reader/book-reader.js"></script>\n'
+                    content = content.replace('../../css/style.css', '/css/style.css').replace('../css/style.css', '/css/style.css')
+                    # Remove old injected relative scripts if they exist
+                    content = content.replace('<script src="../../book-reader/book-pages.js"></script>\n', '')
+                    content = content.replace('<link rel="stylesheet" href="../../book-reader/book-reader.css">\n', '')
+                    content = content.replace('<script src="../../book-reader/book-reader.js"></script>\n', '')
+                    content = content.replace('<link href="../../book-reader/book-reader.css" rel="stylesheet"/>\n', '')
+                    if '</head>' in content and 'book-pages.js' not in content:
                         content = content.replace('</head>', f'{pages_js}{css_link}{js_link}</head>')
                     with open(dst_file, 'w', encoding='utf-8') as f:
                         f.write(content)
@@ -110,15 +116,21 @@ def build_preview(book_dir="/Users/anderson/Desktop/the entreuper/data/entrepren
                 with open(src_file, 'r', encoding='utf-8') as f:
                     content = f.read()
                 
-                # Add to all pages list with relative path from a 05-translated folder to the root
-                all_pages.append(f"../../{chap}/05-translated/{file_name}")
+                # Add to all pages list with absolute path from the root
+                all_pages.append(f"/{chap}/05-translated/{file_name}")
                 
                 # Inject scripts
-                pages_js = '<script src="../../book-reader/book-pages.js"></script>\n'
-                css_link = '<link rel="stylesheet" href="../../book-reader/book-reader.css">\n'
-                js_link = '<script src="../../book-reader/book-reader.js"></script>\n'
+                pages_js = '<script src="/book-reader/book-pages.js"></script>\n'
+                css_link = '<link rel="stylesheet" href="/book-reader/book-reader.css">\n'
+                js_link = '<script src="/book-reader/book-reader.js"></script>\n'
+                content = content.replace('../../css/style.css', '/css/style.css').replace('../css/style.css', '/css/style.css')
+                # Remove old injected relative scripts if they exist
+                content = content.replace('<script src="../../book-reader/book-pages.js"></script>\n', '')
+                content = content.replace('<link rel="stylesheet" href="../../book-reader/book-reader.css">\n', '')
+                content = content.replace('<script src="../../book-reader/book-reader.js"></script>\n', '')
+                content = content.replace('<link href="../../book-reader/book-reader.css" rel="stylesheet"/>\n', '')
                 
-                if '</head>' in content:
+                if '</head>' in content and 'book-pages.js' not in content:
                     content = content.replace('</head>', f'{pages_js}{css_link}{js_link}</head>')
                     
                 with open(dst_file, 'w', encoding='utf-8') as f:
@@ -142,11 +154,17 @@ def build_preview(book_dir="/Users/anderson/Desktop/the entreuper/data/entrepren
             if os.path.exists(src_file):
                 with open(src_file, 'r', encoding='utf-8') as f:
                     content = f.read()
-                all_pages.append(f"../../{book_level_dir}/05-translated/{file_name}")
-                pages_js = '<script src="../../book-reader/book-pages.js"></script>\n'
-                css_link = '<link rel="stylesheet" href="../../book-reader/book-reader.css">\n'
-                js_link = '<script src="../../book-reader/book-reader.js"></script>\n'
-                if '</head>' in content:
+                all_pages.append(f"/{book_level_dir}/05-translated/{file_name}")
+                pages_js = '<script src="/book-reader/book-pages.js"></script>\n'
+                css_link = '<link rel="stylesheet" href="/book-reader/book-reader.css">\n'
+                js_link = '<script src="/book-reader/book-reader.js"></script>\n'
+                content = content.replace('../../css/style.css', '/css/style.css').replace('../css/style.css', '/css/style.css')
+                # Remove old injected relative scripts if they exist
+                content = content.replace('<script src="../../book-reader/book-pages.js"></script>\n', '')
+                content = content.replace('<link rel="stylesheet" href="../../book-reader/book-reader.css">\n', '')
+                content = content.replace('<script src="../../book-reader/book-reader.js"></script>\n', '')
+                content = content.replace('<link href="../../book-reader/book-reader.css" rel="stylesheet"/>\n', '')
+                if '</head>' in content and 'book-pages.js' not in content:
                     content = content.replace('</head>', f'{pages_js}{css_link}{js_link}</head>')
                 with open(dst_file, 'w', encoding='utf-8') as f:
                     f.write(content)
@@ -166,7 +184,7 @@ def build_preview(book_dir="/Users/anderson/Desktop/the entreuper/data/entrepren
 
     # 4. Create an index.html at root that redirects to the first page
     index_html = os.path.join(output_dir, "index.html")
-    first_page = all_pages[0].replace('../../', '') if all_pages else "chapter-1/05-translated/1-introduction.html"
+    first_page = all_pages[0] if all_pages else "/chapter-1/05-translated/1-introduction.html"
     with open(index_html, "w", encoding="utf-8") as f:
         f.write(f'''<!DOCTYPE html>
 <html>

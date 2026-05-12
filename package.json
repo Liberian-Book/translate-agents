@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "build": "python3 agents/agent-archive/scripts/build-preview.py data/entrepreneurship && cp -R data/entrepreneurship/.html/* .html/",
+    "deploy": "npx wrangler pages deploy .html --project-name openstax-vn"
+  },
   "dependencies": {
     "axios": "^1.16.0",
     "cheerio": "^1.2.0",
