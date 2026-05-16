@@ -4,8 +4,23 @@ import shutil
 import glob
 from bs4 import BeautifulSoup
 
-def archive_chapter(chapter_num):
-    book_dir = "/Users/anderson/Desktop/entrepreneurship/data/entrepreneurship"
+import argparse
+
+def find_project_root():
+    d = os.path.dirname(os.path.abspath(__file__))
+    for _ in range(10):
+        if os.path.isdir(os.path.join(d, "data")):
+            return d
+        d = os.path.dirname(d)
+    return None
+
+def archive_chapter(chapter_num, book="entrepreneurship"):
+    project_root = find_project_root()
+    if not project_root:
+        print("Cannot find project root with 'data' directory.")
+        return
+        
+    book_dir = os.path.join(project_root, "data", book)
     chap_dir = os.path.join(book_dir, f"chapter-{chapter_num}")
     trans_dir = os.path.join(chap_dir, "05-translated")
     
@@ -59,7 +74,9 @@ def archive_chapter(chapter_num):
     print(f"Archived chapter {chapter_num} successfully to 07-archive/bilingual and 07-archive/vn-only.")
 
 if __name__ == '__main__':
-    if len(sys.argv) > 1:
-        archive_chapter(sys.argv[1])
-    else:
-        print("Usage: python archive_chapter.py <chapter_number>")
+    parser = argparse.ArgumentParser(description="Archive a translated chapter")
+    parser.add_argument("chapter", help="Chapter number or name (e.g., preface)")
+    parser.add_argument("--book", default="entrepreneurship", help="Book name")
+    args = parser.parse_args()
+    
+    archive_chapter(args.chapter, args.book)

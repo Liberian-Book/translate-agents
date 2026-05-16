@@ -29,7 +29,7 @@ async function scrapeBook() {
     await page.goto(BOOK_URL, { waitUntil: 'networkidle2' });
 
     console.log('Đang trích xuất các liên kết chương (TOC)...');
-    const links = await page.evaluate(() => {
+    const links = await page.evaluate((bookName) => {
       const aTags = Array.from(document.querySelectorAll('a'));
       const chapterLinks = new Set();
       
@@ -37,14 +37,14 @@ async function scrapeBook() {
         const absoluteUrl = a.href;
         if (
           absoluteUrl && 
-          absoluteUrl.startsWith('https://openstax.org/books/entrepreneurship/pages/') && 
+          absoluteUrl.startsWith(`https://openstax.org/books/${bookName}/pages/`) && 
           !absoluteUrl.includes('#')
         ) {
           chapterLinks.add(absoluteUrl.split('?')[0]);
         }
       });
       return Array.from(chapterLinks);
-    });
+    }, bookName);
 
     console.log(`Tìm thấy ${links.length} trang/chương hợp lệ.`);
 

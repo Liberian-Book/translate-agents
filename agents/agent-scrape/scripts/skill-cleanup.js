@@ -4,14 +4,25 @@ const cheerio = require('cheerio');
 const axios = require('axios');
 
 const bookName = process.argv[2];
+const chapterName = process.argv[3] || ''; // Optional: specify chapter like '1', 'preface'
+
 if (!bookName) {
-  console.error("Vui lòng cung cấp tên sách! Ví dụ: node skills/skill-cleanup.js entrepreneurship");
+  console.error("Vui lòng cung cấp tên sách! Ví dụ: node skills/skill-cleanup.js entrepreneurship 1");
   process.exit(1);
 }
 
-const RAW_DIR = path.join(__dirname, '../../../data', bookName, 'raw');
-const CLEAN_DIR = path.join(__dirname, '../../../data', bookName, 'clean');
-const ASSETS_DIR = path.join(__dirname, '../../../data', bookName, 'assets');
+let baseDir = path.join(__dirname, '../../../data', bookName);
+if (chapterName) {
+  baseDir = path.join(baseDir, `chapter-${chapterName}`);
+  RAW_DIR = path.join(baseDir, '01-raw');
+  CLEAN_DIR = path.join(baseDir, '02-clean');
+  ASSETS_DIR = path.join(baseDir, 'assets');
+} else {
+  RAW_DIR = path.join(baseDir, 'raw');
+  CLEAN_DIR = path.join(baseDir, 'clean');
+  ASSETS_DIR = path.join(baseDir, 'assets');
+}
+
 const BASE_URL = 'https://openstax.org';
 
 if (!fs.existsSync(CLEAN_DIR)) fs.mkdirSync(CLEAN_DIR, { recursive: true });

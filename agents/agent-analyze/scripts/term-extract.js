@@ -17,7 +17,7 @@ const path = require('path');
 function findProjectRoot(currentDir) {
     let d = currentDir;
     for (let i = 0; i < 10; i++) {
-        if (fs.existsSync(path.join(d, 'data', 'entrepreneurship'))) {
+        if (fs.existsSync(path.join(d, 'data'))) {
             return d;
         }
         d = path.dirname(d);
@@ -27,11 +27,20 @@ function findProjectRoot(currentDir) {
 
 const PROJECT_ROOT = findProjectRoot(__dirname);
 if (!PROJECT_ROOT) {
-    console.error("❌ Không tìm thấy thư mục gốc của dự án (cần chứa data/entrepreneurship).");
+    console.error("❌ Không tìm thấy thư mục gốc của dự án (cần chứa data/).");
     process.exit(1);
 }
 
-const DATA_DIR = path.join(PROJECT_ROOT, 'data', 'entrepreneurship');
+const args = process.argv.slice(2);
+if (args.length < 2 || args[0] === '--help' || args[0] === '-h') {
+    console.log(`Usage: node term-extract.js <book-name> <chapter-number>`);
+    process.exit(0);
+}
+
+const bookName = args[0];
+const chapterNum = args[1];
+
+const DATA_DIR = path.join(PROJECT_ROOT, 'data', bookName);
 const GLOSSARY_FILE = path.join(DATA_DIR, 'glossary.csv');
 
 // ── Csv Parser ───────────────────────────────────────────────────────────
@@ -245,9 +254,4 @@ function runExtraction(chapterNum) {
     console.log(`     ${outCsvPath}`);
 }
 
-const args = process.argv.slice(2);
-if (args.length === 0 || args[0] === '--help' || args[0] === '-h') {
-    console.log(`Usage: node term-extract.js <chapter-number>`);
-    process.exit(0);
-}
-runExtraction(args[0]);
+runExtraction(chapterNum);

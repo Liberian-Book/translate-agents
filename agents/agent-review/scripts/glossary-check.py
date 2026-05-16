@@ -34,14 +34,13 @@ def find_project_root():
     """Walk up from this script to find project root (has 'data/' dir)."""
     d = os.path.dirname(os.path.abspath(__file__))
     for _ in range(10):
-        if os.path.isdir(os.path.join(d, "data", "entrepreneurship")):
+        if os.path.isdir(os.path.join(d, "data")):
             return d
         d = os.path.dirname(d)
     return None
 
-
 PROJECT_ROOT = find_project_root()
-DATA_DIR = os.path.join(PROJECT_ROOT, "data", "entrepreneurship") if PROJECT_ROOT else None
+# DATA_DIR will be determined dynamically based on the book argument
 
 
 # ── 1. Glossary Loader ───────────────────────────────────────────────
@@ -205,7 +204,7 @@ def check_file(html_path, glossary):
 
 
 # ── 4. Report Generator ──────────────────────────────────────────────
-def generate_report(filename, chapter_num, issues, correct, skipped):
+def generate_report(filename, chapter_num, issues, correct, skipped, book="entrepreneurship"):
     """Generate glossary review report in standard review-agent format."""
     total = len(issues) + len(correct)
     rate = f"{len(correct)}/{total} = {(len(correct) / total * 100):.0f}%" if total > 0 else "N/A"
@@ -214,7 +213,7 @@ def generate_report(filename, chapter_num, issues, correct, skipped):
         f"# Báo cáo Kiểm tra Thuật ngữ: {filename}",
         "",
         f"**File kiểm tra:** `chapter-{chapter_num}/05-translated/{filename}`",
-        f"**File glossary:** `data/entrepreneurship/glossary.csv`",
+        f"**File glossary:** `data/{book}/glossary.csv`",
         f"**Thời gian:** {datetime.now().strftime('%Y-%m-%d %H:%M')}",
         f"**Trạng thái Toàn cục:** Đang mở",
         "",
@@ -313,9 +312,10 @@ def generate_summary(chapter_num, html_files, file_summaries, totals):
 
 
 # ── 5. Runner ─────────────────────────────────────────────────────────
-def run_chapter(chapter_num, glossary, dry_run=False):
+def run_chapter(chapter_num, glossary, dry_run=False, book="entrepreneurship"):
     """Run glossary check for one chapter."""
-    chapter_dir = os.path.join(DATA_DIR, f"chapter-{chapter_num}")
+    data_dir = os.path.join(PROJECT_ROOT, "data", book)
+    chapter_dir = os.path.join(data_dir, f"chapter-{chapter_num}")
     html_dir = os.path.join(chapter_dir, "05-translated")
     out_dir = os.path.join(chapter_dir, "06-reviews")
 
@@ -360,7 +360,7 @@ def run_chapter(chapter_num, glossary, dry_run=False):
         # Write individual review
         if not dry_run and total > 0:
             os.makedirs(out_dir, exist_ok=True)
-            report = generate_report(fname, chapter_num, issues, correct, skipped)
+            report = generate_report(fname, chapter_num, issues, correct, skipped, book)
             out_path = os.path.join(out_dir, fname.replace(".html", "-glossary-review.md"))
             with open(out_path, "w", encoding="utf-8") as f:
                 f.write(report)
@@ -388,7 +388,11 @@ def main():
     )
     parser.add_argument(
         "chapter",
-        help="Số chương cần kiểm tra (ví dụ: 1, 5, 13) hoặc 'all' cho tất cả",
+        help="Số chương cần kiểm tra (ví dụ: 1, 5, preface) hoặc 'all' cho tất cả",
+    )
+    parser.add_argument(
+        "--book", default="entrepreneurship",
+        help="Tên sách (mặc định: entrepreneurship)",
     )
     parser.add_argument(
         "--dry", action="store_true",
@@ -396,42 +400,40 @@ def main():
     )
     parser.add_argument(
         "--glossary", default=None,
-        help="Đường dẫn glossary.csv (mặc định: data/entrepreneurship/glossary.csv)",
+        help="Đường dẫn glossary.csv (mặc định: data/<book>/glossary.csv)",
     )
     args = parser.parse_args()
 
-    if not PROJECT_ROOT or not DATA_DIR:
+    if not PROJECT_ROOT:
         print("❌ Không tìm được thư mục dự án. Chạy từ bên trong project.")
         sys.exit(1)
+        
+    data_dir = os.path.join(PROJECT_ROOT, "data", args.book)
 
-    csv_path = args.glossary or os.path.join(DATA_DIR, "glossary.csv")
+    csv_path = args.glossary or os.path.join(data_dir, "glossary.csv")
     if not os.path.isfile(csv_path):
-        print(f"❌ Không tìm thấy glossary: {csv_path}")
-        sys.exit(1)
-
-    glossary = load_glossary(csv_path)
-    print(f"✅ Loaded glossary: {len(glossary)} entries")
+        print(f"⚠️ Không tìm thấy glossary: {csv_path}. Sẽ bỏ qua kiểm tra thuật ngữ.")
+        glossary = {}
+    else:
+        glossary = load_glossary(csv_path)
+        print(f"✅ Loaded glossary: {len(glossary)} entries")
 
     if args.chapter.lower() == "all":
         # Find all chapter directories
         chapters = sorted([
-            int(d.replace("chapter-", ""))
-            for d in os.listdir(DATA_DIR)
-            if d.startswith("chapter-") and os.path.isdir(os.path.join(DATA_DIR, d, "05-translated"))
+            d.replace("chapter-", "")
+            for d in os.listdir(data_dir)
+            if d.startswith("chapter-") and os.path.isdir(os.path.join(data_dir, d, "05-translated"))
         ])
         if not chapters:
             print("❌ Không tìm thấy chapter nào có 05-translated/")
             sys.exit(1)
         print(f"📁 Tìm thấy {len(chapters)} chapters: {chapters}")
         for ch in chapters:
-            run_chapter(ch, glossary, dry_run=args.dry)
+            run_chapter(ch, glossary, dry_run=args.dry, book=args.book)
     else:
-        try:
-            ch = int(args.chapter)
-        except ValueError:
-            print(f"❌ Số chương không hợp lệ: {args.chapter}")
-            sys.exit(1)
-        run_chapter(ch, glossary, dry_run=args.dry)
+        ch = args.chapter
+        run_chapter(ch, glossary, dry_run=args.dry, book=args.book)
 
     if args.dry:
         print("\n📝 DRY RUN — không ghi file nào.")
