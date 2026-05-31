@@ -31,9 +31,9 @@
 
 ## 🔄 Integrity Rework (2026-05-31)
 > Integrity check phát hiện 1 file FAIL: 4-3 (1.93× ratio nhưng 91.7% vn visible trùng eng hidden — chưa dịch). Archive bị rút gọn ~50%.
-- [ ] **agent-translate**: Re-prep `4-3-developing-ideas-innovations-and-inventions.html` từ 02-clean.
-- [ ] **agent-translate**: Re-translate `4-3-developing-ideas-innovations-and-inventions.html`.
-- [ ] **agent-review**: Integrity check + glossary check `4-3`.
-- [ ] **agent-review**: Semantic check `4-3`.
-- [ ] **agent-archive**: Re-archive Chapter 4 (tất cả 10 files vào 07-archive/).
-- [ ] **agent-review**: Final integrity check toàn chương 4.
+- [x] **agent-translate**: Re-prep `4-3-developing-ideas-innovations-and-inventions.html` từ 02-clean.
+- [x] **agent-translate**: Re-translate `4-3-developing-ideas-innovations-and-inventions.html`.
+- [x] **agent-review**: Integrity check + glossary check `4-3`.
+- [x] **agent-review**: Semantic check `4-3`.
+- [x] **agent-archive**: Re-archive Chapter 4 (tất cả 10 files vào 07-archive/).
+- [x] **agent-review**: Final integrity check toàn chương 4.

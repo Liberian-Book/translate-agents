@@ -25,20 +25,25 @@
 
 ---
 
-## 📘 Chương 3: The Entrepreneurial Mindset (Đang thực hiện 🚀)
+## 📘 Chương 3: The Entrepreneurial Mindset (Đã hoàn thành)
 - [x] **Phase 1 (Scrape & Clean):** Đã tải và làm sạch HTML.
-- [x] **Phase 2 (Analyze):** Đã quét `chapter-3-new-glossary.csv` (Đã xử lý chú thích desc_vi cho *TOMS, Airbnb, Tesla, Bumble...*).
+- [x] **Phase 2 (Analyze):** Đã quét `chapter-3-new-glossary.csv`.
 - [x] **Phase 3 (Analyze):** Đã gen toàn bộ `*-translate-analysis.md` định hướng văn phong truyền cảm hứng.
-- [x] **Phase 4 (Translate):** **[HOÀN THÀNH]**
-  - [x] **agent-translate**: Chạy prep nhân bản thẻ HTML (`eng hidden` / `vn visible`).
-  - [x] **agent-translate**: Dịch thuật các file trọng tâm (3.1 đến 3.4).
-  - [x] **agent-translate**: Dịch thuật các file phụ trợ (Summary, Key Terms...).
-- [x] **Phase 5 (Review & QA):**
-  - [x] **agent-review**: Chạy Automated Glossary Check.
-  - [x] **agent-review**: Thực hiện Semantic & Risk Check (đối chiếu file Analysis).
+- [x] **Phase 4 (Translate):** Hoàn thành quy trình song ngữ toàn bộ 10 file.
+- [x] **Phase 5 (Review & QA):** Chạy và nghiệm thu QA (Glossary & Integrity Check đạt 100% PASS).
+- [x] **Phase 6 (Archive):** Đóng gói thành công vào `07-archive/`.
+
+---
+
+## 📘 Chương 4: Creativity, Innovation, and Invention (Đã hoàn thành)
+- [x] **Phase 1 (Scrape & Clean):** Đã thu thập và làm sạch HTML.
+- [x] **Phase 2-3 (Analyze):** Đã chốt glossary và báo cáo rủi ro.
+- [x] **Phase 4 (Translate):** Hoàn tất dịch thuật song ngữ, thực hiện re-translate thành công section 4-3 để vượt qua Integrity check.
+- [x] **Phase 5 (Review & QA):** Nghiệm thu QA (100% PASS cho Glossary Check và Integrity Check trên toàn bộ 10 file).
+- [x] **Phase 6 (Archive):** Re-archive thành công toàn bộ 10 file chương vào `07-archive/`.
 
 ---
 
 ## 📦 Phase 6: Lưu trữ & Xuất bản (Archive)
-- [ ] **agent-archive**: Dọn dẹp thẻ `eng hidden` để xuất bản Web/PDF thuần Việt.
+- [x] **agent-archive**: Dọn dẹp thẻ `eng hidden` để xuất bản Web/PDF thuần Việt cho Chương 3 và 4.
 - [ ] **agent-archive**: Build hệ thống Book Reader Navigation.

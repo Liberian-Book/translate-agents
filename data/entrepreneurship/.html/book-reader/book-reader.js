@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // 2. Fetch and parse Glossary
   let glossaryData = [];
-  const glossaryPath = '/glossary.csv';
+  const glossaryPath = '../glossary.csv';
 
   function parseCSV(text) {
     const lines = text.split('\n').filter(line => line.trim() !== '');
@@ -144,7 +144,11 @@ document.addEventListener('DOMContentLoaded', () => {
   function navigateTo(url) {
     document.body.classList.add('br-fade-out');
     setTimeout(() => {
-      window.location.href = url;
+      let targetUrl = url;
+      if (targetUrl.startsWith('/')) {
+        targetUrl = '..' + targetUrl;
+      }
+      window.location.href = targetUrl;
     }, 150);
   }
 
