@@ -11,7 +11,7 @@ Các AI Agents sẽ đóng vai trò thực hiện công việc nặng nhọc (Sc
 
 - Đóng vai trò là Technical Project Manager (TPM).
 - Nhận diện yêu cầu tổng thể của dự án và thiết kế luồng làm việc.
-- Sinh ra hoặc cập nhật file `tasks.md` cục bộ tại thư mục từng chương (ví dụ: `data/[book]/chapter-{N}/tasks.md`) để phân công việc cụ thể cho từng Agent khác theo định dạng 1-dòng súc tích, tránh việc tải file task tổng lớn gây loãng ngữ cảnh (context drift).
+- Sinh ra hoặc cập nhật file `tasks.md` cục bộ tại thư mục từng chương (ví dụ: `../[book]/chapter-{N}/tasks.md`) để phân công việc cụ thể cho từng Agent khác theo định dạng 1-dòng súc tích, tránh việc tải file task tổng lớn gây loãng ngữ cảnh (context drift).
 - Đảm bảo tính toán đúng điểm rơi của các trạm kiểm duyệt (đặc biệt là tự động cài cắm `agent-review` sau mỗi task dịch).
 
 ### 🛑 Human-in-the-Loop: Duyệt Kế hoạch
@@ -27,7 +27,7 @@ Các AI Agents sẽ đóng vai trò thực hiện công việc nặng nhọc (Sc
 
 - Thu thập toàn bộ file HTML và hình ảnh gốc từ nguồn OpenStax.
 - Chạy kỹ năng `skill-cleanup` để lọc thẻ rác (head, script, style, nav) và cập nhật đường dẫn hình ảnh thành local.
-- Lưu kết quả vào `data/[book]/chapter-{N}/02-clean/`.
+- Lưu kết quả vào `../[book]/chapter-{N}/02-clean/`.
 
 ### 🛑 Human-in-the-Loop: Kiểm định Data
 
@@ -43,7 +43,7 @@ Các AI Agents sẽ đóng vai trò thực hiện công việc nặng nhọc (Sc
 
 ### 🤖 Agent-Analyze
 
-- Quét toàn bộ HTML trong `data/[book]/chapter-{N}/02-clean/` tìm các thẻ `<span data-type="term">` và các từ khóa học thuật xuất hiện dày đặc.
+- Quét toàn bộ HTML trong `../[book]/chapter-{N}/02-clean/` tìm các thẻ `<span data-type="term">` và các từ khóa học thuật xuất hiện dày đặc.
 - Tổng hợp thành file từ điển chuẩn **`glossary.csv`** (nguồn duy nhất — single source of truth). Đặc biệt, **Agent phải tự động đề xuất các phương án dịch (options)** kèm theo giải nghĩa ngữ cảnh cho mỗi thuật ngữ.
 
 ### 🛑 Human-in-the-Loop: Chốt Thuật ngữ
@@ -63,7 +63,7 @@ Các AI Agents sẽ đóng vai trò thực hiện công việc nặng nhọc (Sc
 ### 🤖 Agent-Analyze
 
 - Quét từng chương sách để đánh giá cấu trúc câu phức tạp, thành ngữ, văn phong, và cách xưng hô.
-- Khởi tạo báo cáo `[section]-translate-analysis.md` lưu vào `data/[book]/chapter-{N}/03-analyzed/`.
+- Khởi tạo báo cáo `[section]-translate-analysis.md` lưu vào `../[book]/chapter-{N}/03-analyzed/`.
 
 ### 🛑 Human-in-the-Loop: Quyết định Văn phong & Ngữ cảnh
 
@@ -79,10 +79,10 @@ Các AI Agents sẽ đóng vai trò thực hiện công việc nặng nhọc (Sc
 
 ### 🤖 Agent-Translate
 
-- **Hành động 1:** Chạy script `skill-prep-translation.js` để nhân bản các thẻ HTML thành cấu trúc song ngữ — lưu vào `data/[book]/chapter-{N}/04-prep/`.
-- **Hành động 2:** Đọc **`glossary.csv`** + báo cáo rủi ro trong `data/[book]/chapter-{N}/03-analyzed/`. Thực hiện dịch ghi đè văn bản vào các thẻ `vn visible`.
+- **Hành động 1:** Chạy script `skill-prep-translation.js` để nhân bản các thẻ HTML thành cấu trúc song ngữ — lưu vào `../[book]/chapter-{N}/04-prep/`.
+- **Hành động 2:** Đọc **`glossary.csv`** + báo cáo rủi ro trong `../[book]/chapter-{N}/03-analyzed/`. Thực hiện dịch ghi đè văn bản vào các thẻ `vn visible`.
 - **Hành động 3:** Đảm bảo dịch đủ các file, bao gồm cả discussion, review question, discuss questions ...etc.
-- Lưu kết quả vào `data/[book]/chapter-{N}/05-translated/`.
+- Lưu kết quả vào `../[book]/chapter-{N}/05-translated/`.
 
 ### 🛑 Human-in-the-Loop: Nghỉ ngơi
 
@@ -102,7 +102,7 @@ Thực hiện quy trình kiểm định chất lượng bản dịch (Quality As
 2. **Kiểm tra thuật ngữ (Glossary Check):**
    - Chạy script `python3 agents/agent-review/scripts/glossary-check.py <chapter-number|all>` để đối chiếu bản dịch với Single Source of Truth (`glossary.csv`).
 3. **Phản biện ngữ nghĩa (Semantic Review):**
-   - Chạy script `python3 agents/agent-review/scripts/start-review-round.py data/entrepreneurship/chapter-<N>/05-translated/<file>.html` để khởi tạo file báo cáo review ngữ nghĩa `[file]-semantic-review-round-[N].md` trong thư mục `06-reviews/`.
+   - Chạy script `python3 agents/agent-review/scripts/start-review-round.py ../entrepreneurship/chapter-<N>/05-translated/<file>.html` để khởi tạo file báo cáo review ngữ nghĩa `[file]-semantic-review-round-[N].md` trong thư mục `06-reviews/`.
    - Đối chiếu bản dịch với báo cáo rủi ro văn hóa/ngữ cảnh `[section]-translate-analysis.md` trong `03-analyzed/`. Phát hiện các lỗi dịch sai ý, dịch word-by-word vô nghĩa, mất ngữ cảnh văn hóa, xưng hô sai quy ước hoặc lỗi cặp song ngữ không cân bằng.
    - Các lỗi được ghi nhận dưới dạng bảng phản biện. Translate Agent hoặc kỹ sư sẽ chỉnh sửa bản dịch (chỉ chỉnh sửa `vn visible`, giữ nguyên `eng hidden` và các thẻ inline/ID).
    - Áp dụng các thay đổi đã thống nhất trở lại HTML bằng script `python3 agents/agent-translate/scripts/apply-review-fixes.py <review.md> <translated.html>`.

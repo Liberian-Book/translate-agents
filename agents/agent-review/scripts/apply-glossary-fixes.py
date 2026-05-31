@@ -62,6 +62,10 @@ def apply(review_path, html_path):
             f.writelines(md_lines)
         print(f"✅ Đã sửa {changes} lỗi trong {os.path.basename(html_path)}")
 
-apply("data/entrepreneurship/chapter-6/06-reviews/6-1-problem-solving-to-find-entrepreneurial-solutions-glossary-review.md", "data/entrepreneurship/chapter-6/05-translated/6-1-problem-solving-to-find-entrepreneurial-solutions.html")
-apply("data/entrepreneurship/chapter-6/06-reviews/6-2-creative-problem-solving-process-glossary-review.md", "data/entrepreneurship/chapter-6/05-translated/6-2-creative-problem-solving-process.html")
-apply("data/entrepreneurship/chapter-6/06-reviews/6-4-lean-processes-glossary-review.md", "data/entrepreneurship/chapter-6/05-translated/6-4-lean-processes.html")
+if __name__ == "__main__":
+    if len(sys.argv) < 3:
+        apply("../entrepreneurship/chapter-6/06-reviews/6-1-problem-solving-to-find-entrepreneurial-solutions-glossary-review.md", "../entrepreneurship/chapter-6/05-translated/6-1-problem-solving-to-find-entrepreneurial-solutions.html")
+        apply("../entrepreneurship/chapter-6/06-reviews/6-2-creative-problem-solving-process-glossary-review.md", "../entrepreneurship/chapter-6/05-translated/6-2-creative-problem-solving-process.html")
+        apply("../entrepreneurship/chapter-6/06-reviews/6-4-lean-processes-glossary-review.md", "../entrepreneurship/chapter-6/05-translated/6-4-lean-processes.html")
+    else:
+        apply(sys.argv[1], sys.argv[2])

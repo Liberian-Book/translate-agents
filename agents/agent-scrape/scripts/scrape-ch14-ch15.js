@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
 
-const RAW_DIR = path.join(__dirname, '../../../data/entrepreneurship/raw');
+const RAW_DIR = path.join(__dirname, '../../../../entrepreneurship/raw');
 
 const CHAPTER_14_LINKS = [
   'https://openstax.org/books/entrepreneurship/pages/14-introduction',

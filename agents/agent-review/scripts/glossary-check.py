@@ -31,10 +31,10 @@ from datetime import datetime
 
 # ── Config ────────────────────────────────────────────────────────────
 def find_project_root():
-    """Walk up from this script to find project root (has 'data/' dir)."""
+    """Walk up from this script to find project root (has 'package.json')."""
     d = os.path.dirname(os.path.abspath(__file__))
     for _ in range(10):
-        if os.path.isdir(os.path.join(d, "data")):
+        if os.path.exists(os.path.join(d, "package.json")):
             return d
         d = os.path.dirname(d)
     return None
@@ -313,8 +313,9 @@ def generate_summary(chapter_num, html_files, file_summaries, totals):
 
 # ── 5. Runner ─────────────────────────────────────────────────────────
 def run_chapter(chapter_num, glossary, dry_run=False, book="entrepreneurship"):
-    """Run glossary check for one chapter."""
-    data_dir = os.path.join(PROJECT_ROOT, "data", book)
+    data_dir = os.path.abspath(os.path.join(PROJECT_ROOT, "..", book))
+    if not os.path.exists(data_dir) and book == "statistics":
+        data_dir = os.path.abspath(os.path.join(PROJECT_ROOT, "..", "book-statistics"))
     chapter_dir = os.path.join(data_dir, f"chapter-{chapter_num}")
     html_dir = os.path.join(chapter_dir, "05-translated")
     out_dir = os.path.join(chapter_dir, "06-reviews")
@@ -404,11 +405,9 @@ def main():
     )
     args = parser.parse_args()
 
-    if not PROJECT_ROOT:
-        print("❌ Không tìm được thư mục dự án. Chạy từ bên trong project.")
-        sys.exit(1)
-        
-    data_dir = os.path.join(PROJECT_ROOT, "data", args.book)
+    data_dir = os.path.abspath(os.path.join(PROJECT_ROOT, "..", args.book))
+    if not os.path.exists(data_dir) and args.book == "statistics":
+        data_dir = os.path.abspath(os.path.join(PROJECT_ROOT, "..", "book-statistics"))
 
     csv_path = args.glossary or os.path.join(data_dir, "glossary.csv")
     if not os.path.isfile(csv_path):

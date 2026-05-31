@@ -33,7 +33,7 @@ TRẢ VỀ DUY NHẤT FILE MARKDOWN DỰA TRÊN CẤU TRÚC BẢNG CỦA `review
 ***
 
 **Dữ liệu cung cấp cho bạn:**
-1. **Glossary (SSoT):** `data/entrepreneurship/glossary.csv` — bảng thuật ngữ chuẩn, chỉ xét dòng `status=approved`.
+1. **Glossary (SSoT):** `../entrepreneurship/glossary.csv` — bảng thuật ngữ chuẩn, chỉ xét dòng `status=approved`.
 2. **Analysis Reports:** Tất cả file `*-translate-analysis.md` trong `chapter-[X]/03-analyzed/` — báo cáo rủi ro văn hóa/ngữ cảnh.
 3. **HTML File cần review:** [👇 CHÈN NỘI DUNG HTML SONG NGỮ VÀO ĐÂY 👇]
 4. **File Review hiện tại** (nếu đang ở vòng thảo luận tiếp theo): [👇 CHÈN FILE REVIEW VÀO ĐÂY 👇]

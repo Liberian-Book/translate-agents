@@ -15,7 +15,7 @@ node agents/agent-analyze/scripts/term-extract.js 1
 Script này sẽ:
 - Quét toàn bộ thẻ `<span data-type="term">` trong `chapter-1/02-clean/`.
 - Tự động bỏ qua các tên riêng (`class="no-emphasis"`).
-- Xuất file CSV nháp tại `data/[book]/chapter-1/03-analyzed/chapter-1-new-glossary.csv`.
+- Xuất file CSV nháp tại `../[book]/chapter-1/03-analyzed/chapter-1-new-glossary.csv`.
 
 ## Bước 2: Nhờ LLM dịch (Prompt Template)
 

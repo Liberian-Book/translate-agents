@@ -31,7 +31,7 @@ def sort_html_files(file_name):
             return (chap_num, sec_num)
     return (999, 999)
 
-def build_preview(book_dir="/Users/anderson/Desktop/entrepreneurship/data/entrepreneurship"):
+def build_preview(book_dir="../entrepreneurship"):
     output_dir = os.path.join(book_dir, ".html")
     print(f"Building preview to {output_dir}...")
 
@@ -219,4 +219,4 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         build_preview(sys.argv[1])
     else:
-        build_preview("/Users/anderson/Desktop/entrepreneurship/data/entrepreneurship")
+        build_preview("../entrepreneurship")

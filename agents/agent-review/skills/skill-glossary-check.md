@@ -6,7 +6,7 @@
 
 ## Nguồn dữ liệu chuẩn (Single Source of Truth)
 
-- **File glossary:** `data/entrepreneurship/glossary.csv`
+- **File glossary:** `../entrepreneurship/glossary.csv`
 - **Cấu trúc CSV:**
   ```
   key,translation,options,desc_en,desc_vi,chapter,status,notes
@@ -59,7 +59,7 @@ Bạn là một Chuyên gia Kiểm soát Thuật ngữ (Terminology QA Specialis
 # Báo cáo Kiểm tra Thuật ngữ: [Tên file HTML]
 
 **File kiểm tra:** `[đường dẫn file HTML]`
-**File glossary:** `data/entrepreneurship/glossary.csv`
+**File glossary:** `../entrepreneurship/glossary.csv`
 **Thời gian:** [ngày giờ]
 **Trạng thái Toàn cục:** [Đang mở / Đã chốt hoàn tất]
 

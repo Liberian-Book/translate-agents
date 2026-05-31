@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "python3 agents/agent-archive/scripts/build-preview.py data/entrepreneurship && mkdir -p .html && cp -R data/entrepreneurship/.html/* .html/",
+    "build": "python3 agents/agent-archive/scripts/build-preview.py ../entrepreneurship && cp -R ../entrepreneurship/.html/* ../web-site/entrepreneurship/",
     "deploy": "npx wrangler pages deploy .html --project-name openstax-vn"
   },
   "dependencies": {

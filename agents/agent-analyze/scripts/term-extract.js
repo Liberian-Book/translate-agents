@@ -17,7 +17,7 @@ const path = require('path');
 function findProjectRoot(currentDir) {
     let d = currentDir;
     for (let i = 0; i < 10; i++) {
-        if (fs.existsSync(path.join(d, 'data'))) {
+        if (fs.existsSync(path.join(d, 'package.json'))) {
             return d;
         }
         d = path.dirname(d);
@@ -27,7 +27,7 @@ function findProjectRoot(currentDir) {
 
 const PROJECT_ROOT = findProjectRoot(__dirname);
 if (!PROJECT_ROOT) {
-    console.error("❌ Không tìm thấy thư mục gốc của dự án (cần chứa data/).");
+    console.error("❌ Không tìm thấy thư mục gốc của dự án (cần chứa package.json).");
     process.exit(1);
 }
 
@@ -40,7 +40,10 @@ if (args.length < 2 || args[0] === '--help' || args[0] === '-h') {
 const bookName = args[0];
 const chapterNum = args[1];
 
-const DATA_DIR = path.join(PROJECT_ROOT, 'data', bookName);
+let DATA_DIR = path.join(PROJECT_ROOT, '..', bookName);
+if (!fs.existsSync(DATA_DIR) && bookName === 'statistics') {
+    DATA_DIR = path.join(PROJECT_ROOT, '..', 'book-statistics');
+}
 const GLOSSARY_FILE = path.join(DATA_DIR, 'glossary.csv');
 
 // ── Csv Parser ───────────────────────────────────────────────────────────
