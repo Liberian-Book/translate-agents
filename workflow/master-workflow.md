@@ -11,12 +11,12 @@ Các AI Agents sẽ đóng vai trò thực hiện công việc nặng nhọc (Sc
 
 - Đóng vai trò là Technical Project Manager (TPM).
 - Nhận diện yêu cầu tổng thể của dự án và thiết kế luồng làm việc.
-- Sinh ra hoặc cập nhật file `tasks.md` để phân công việc cụ thể cho từng Agent khác theo định dạng 1-dòng súc tích.
+- Sinh ra hoặc cập nhật file `tasks.md` cục bộ tại thư mục từng chương (ví dụ: `data/[book]/chapter-{N}/tasks.md`) để phân công việc cụ thể cho từng Agent khác theo định dạng 1-dòng súc tích, tránh việc tải file task tổng lớn gây loãng ngữ cảnh (context drift).
 - Đảm bảo tính toán đúng điểm rơi của các trạm kiểm duyệt (đặc biệt là tự động cài cắm `agent-review` sau mỗi task dịch).
 
 ### 🛑 Human-in-the-Loop: Duyệt Kế hoạch
 
-- **Nhiệm vụ:** Đọc lướt qua file `tasks.md` vừa được sinh ra.
+- **Nhiệm vụ:** Đọc lướt qua file `tasks.md` cục bộ của chương vừa được sinh ra.
 - **Quyết định:** Nếu các task chia đúng luồng và có đủ các chốt QA ➜ Duyệt cho phép hệ thống bắt đầu chạy Phase 1. Nếu thiếu sót ➜ Bổ sung task thủ công hoặc yêu cầu Agent-Plan lập lại.
 
 ---
@@ -94,10 +94,18 @@ Các AI Agents sẽ đóng vai trò thực hiện công việc nặng nhọc (Sc
 
 ### 🤖 Agent-Review
 
-- Quét kiểm tra định kỳ (Automated QA):
-  - So sánh tỷ lệ sử dụng thuật ngữ so với **`glossary.csv`** (đảm bảo không bị hallucination).
-  - Phân tích mã nguồn HTML để bắt lỗi cấu trúc (tag mở/đóng, mất thẻ).
-  - Đánh giá độ trôi chảy (MQM Fluency).
+Thực hiện quy trình kiểm định chất lượng bản dịch (Quality Assurance) theo 3 bước tuần tự:
+
+1. **Kiểm tra tính toàn vẹn (Integrity Check):**
+   - Chạy script `python3 agents/agent-review/scripts/integrity-check.py <chapter-number>` để đối chiếu cấu trúc thẻ giữa `02-clean/` và `05-translated/`.
+   - **Tiêu chí PASS:** Chỉ cần đảm bảo khớp đủ số lượng thẻ cấu trúc (tags) tương ứng từ bản gốc sạch sang bản dịch (không bị mất thẻ hoặc gộp đoạn văn). Không bắt buộc kiểm tra tỷ lệ dung lượng file.
+2. **Kiểm tra thuật ngữ (Glossary Check):**
+   - Chạy script `python3 agents/agent-review/scripts/glossary-check.py <chapter-number|all>` để đối chiếu bản dịch với Single Source of Truth (`glossary.csv`).
+3. **Phản biện ngữ nghĩa (Semantic Review):**
+   - Chạy script `python3 agents/agent-review/scripts/start-review-round.py data/entrepreneurship/chapter-<N>/05-translated/<file>.html` để khởi tạo file báo cáo review ngữ nghĩa `[file]-semantic-review-round-[N].md` trong thư mục `06-reviews/`.
+   - Đối chiếu bản dịch với báo cáo rủi ro văn hóa/ngữ cảnh `[section]-translate-analysis.md` trong `03-analyzed/`. Phát hiện các lỗi dịch sai ý, dịch word-by-word vô nghĩa, mất ngữ cảnh văn hóa, xưng hô sai quy ước hoặc lỗi cặp song ngữ không cân bằng.
+   - Các lỗi được ghi nhận dưới dạng bảng phản biện. Translate Agent hoặc kỹ sư sẽ chỉnh sửa bản dịch (chỉ chỉnh sửa `vn visible`, giữ nguyên `eng hidden` và các thẻ inline/ID).
+   - Áp dụng các thay đổi đã thống nhất trở lại HTML bằng script `python3 agents/agent-translate/scripts/apply-review-fixes.py <review.md> <translated.html>`.
 
 ### 🛑 Human-in-the-Loop: Chốt hạ (Final Approval)
 
@@ -118,4 +126,4 @@ Các AI Agents sẽ đóng vai trò thực hiện công việc nặng nhọc (Sc
 ### 🛑 Human-in-the-Loop: Xác nhận lưu trữ
 
 - **Nhiệm vụ:** Kiểm tra nhanh thư mục `archive/` — đủ 2 variant (bilingual + vn-only) và file `reviews/chapter-{N}-review.md` đã đánh dấu hoàn tất.
-- **Quyết định:** Đánh dấu chapter `[x]` trong `tasks.md` → chuyển sang chapter tiếp theo.
+- **Quyết định:** Đánh dấu hoàn thành toàn bộ công việc trong `tasks.md` cục bộ của chương hiện tại và cập nhật trạng thái tổng quan trong file `tasks.md` gốc tại thư mục sách → chuyển sang chương tiếp theo.

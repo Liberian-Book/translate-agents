@@ -15,7 +15,7 @@ def prep_file(in_path, out_path):
         style.string = "\n.eng.hidden { display: none; }\n.vn.visible { color: #000; }\n"
         head.append(style)
 
-    tags_to_duplicate = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'li', 'caption', 'th', 'td']
+    tags_to_duplicate = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'li', 'caption', 'figcaption', 'th', 'td']
     
     # We only want to duplicate tags that don't contain other tags from the list, or we just duplicate the deepest ones?
     # Actually, in OpenStax, it's safer to duplicate tags that directly contain text or inline elements (span, a, em, strong, sup, sub).

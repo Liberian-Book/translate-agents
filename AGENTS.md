@@ -23,6 +23,7 @@
 - Run glossary QA for one chapter or all chapters: `python3 agents/agent-review/scripts/glossary-check.py <chapter-number|all>`.
 - Start a new semantic review round for one translated file: `python3 agents/agent-review/scripts/start-review-round.py data/entrepreneurship/chapter-<N>/05-translated/<file>.html`.
 - Apply accepted review edits back into HTML: `python3 agents/agent-translate/scripts/apply-review-fixes.py <review.md> <translated.html>`.
+- Export translated HTML to DOCX (Vietnamese only): `node agents/agent-export/scripts/export-docx.js <file|chapter-number|all> [bookName]`. Output goes to `data/<bookName>/docx/`.
 
 ## Gotchas
 
