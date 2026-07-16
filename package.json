@@ -1,7 +1,16 @@
 {
   "scripts": {
-    "build": "python3 agents/agent-archive/scripts/build-preview.py ../entrepreneurship && cp -R ../entrepreneurship/.html/* ../web-site/entrepreneurship/",
-    "deploy": "npx wrangler pages deploy .html --project-name openstax-vn"
+    "scrape": "node agents/agent-scrape/scripts/skill-scrape.js",
+    "cleanup": "node agents/agent-scrape/scripts/skill-cleanup.js",
+    "prep": "node agents/agent-translate/scripts/prep_html.js",
+    "terms": "node agents/agent-analyze/scripts/term-extract.js",
+    "review:integrity": "python3 agents/agent-review/scripts/integrity-check.py",
+    "review:glossary": "python3 agents/agent-review/scripts/glossary-check.py",
+    "review:start": "python3 agents/agent-review/scripts/start-review-round.py",
+    "review:apply": "python3 agents/agent-translate/scripts/apply-review-fixes.py",
+    "build:preview": "python3 agents/agent-archive/scripts/build-preview.py ../entrepreneurship",
+    "deploy": "npx wrangler pages deploy ../entrepreneurship/.html --project-name openstax-vn",
+    "asm": "bun run .agents/skills/asimov-core/scripts/asm.ts"
   },
   "dependencies": {
     "axios": "^1.16.0",
