@@ -7,7 +7,7 @@
  * Nếu là tên riêng (no-emphasis), tự động bê nguyên gốc (notes = Tên riêng).
  * 
  * Usage:
- *   node term-extract.js 1
+ *   node term-extract.js <book-name> [chapter-number|all]
  */
 
 const fs = require('fs');
@@ -32,18 +32,29 @@ if (!PROJECT_ROOT) {
 }
 
 const args = process.argv.slice(2);
-if (args.length < 2 || args[0] === '--help' || args[0] === '-h') {
-    console.log(`Usage: node term-extract.js <book-name> <chapter-number>`);
+if (args.length < 1 || args[0] === '--help' || args[0] === '-h') {
+    console.log(`Usage: node term-extract.js <book-name> [chapter-number|all]`);
+    console.log(`Examples:`);
+    console.log(`  node term-extract.js entrepreneurship       # entire book`);
+    console.log(`  node term-extract.js entrepreneurship 1     # chapter 1`);
     process.exit(0);
 }
 
 const bookName = args[0];
-const chapterNum = args[1];
+const target = args[1] || 'all';
 
-let DATA_DIR = path.join(PROJECT_ROOT, '..', bookName);
-if (!fs.existsSync(DATA_DIR) && bookName === 'statistics') {
-    DATA_DIR = path.join(PROJECT_ROOT, '..', 'book-statistics');
+function resolveDataDir(bookName) {
+    const currentDataDir = path.join(PROJECT_ROOT, 'data', bookName);
+    if (fs.existsSync(currentDataDir)) return currentDataDir;
+
+    let legacyDataDir = path.join(PROJECT_ROOT, '..', bookName);
+    if (!fs.existsSync(legacyDataDir) && bookName === 'statistics') {
+        legacyDataDir = path.join(PROJECT_ROOT, '..', 'book-statistics');
+    }
+    return legacyDataDir;
 }
+
+const DATA_DIR = resolveDataDir(bookName);
 const GLOSSARY_FILE = path.join(DATA_DIR, 'glossary.csv');
 
 // ── Csv Parser ───────────────────────────────────────────────────────────
@@ -107,7 +118,7 @@ function stripHtml(text) {
     return text.replace(/<[^>]+>/g, '').trim();
 }
 
-function extractTermsFromHtml(html) {
+function extractTermsFromHtml(html, sourceFile) {
     const terms = new Map();
     
     const termRegex = /<span\s+([^>]*?data-type="term"[^>]*)>(.*?)<\/span>/gi;
@@ -125,11 +136,13 @@ function extractTermsFromHtml(html) {
         if (!terms.has(keyLower)) {
             terms.set(keyLower, {
                 key: innerText,
-                isNoEmphasis: isNoEmphasis
+                isNoEmphasis: isNoEmphasis,
+                sourceFiles: new Set([sourceFile])
             });
         } else {
+            const existing = terms.get(keyLower);
+            existing.sourceFiles.add(sourceFile);
             if (isNoEmphasis) {
-                const existing = terms.get(keyLower);
                 existing.isNoEmphasis = true;
             }
         }
@@ -148,25 +161,72 @@ function padRight(str, length) {
     return str.padEnd(length, ' ');
 }
 
-// ── Main Logic ───────────────────────────────────────────────────────────
-function runExtraction(chapterNum) {
-    const chapterDir = path.join(DATA_DIR, `chapter-${chapterNum}`);
+function getChapterFromFile(file) {
+    const match = file.match(/^(\d+)(?:-|$)/);
+    return match ? match[1] : 'book';
+}
+
+function resolveExtractionTarget(target) {
+    const currentCleanDir = path.join(DATA_DIR, 'clean');
+    const isAll = target === 'all';
+
+    if (fs.existsSync(currentCleanDir)) {
+        const outDir = path.join(DATA_DIR, '03-analyzed');
+        const htmlFiles = fs.readdirSync(currentCleanDir)
+            .filter(f => f.endsWith('.html'))
+            .filter(f => isAll || getChapterFromFile(f) === target);
+
+        return {
+            mode: isAll ? 'book' : 'chapter',
+            label: isAll ? `TOÀN BỘ SÁCH ${bookName}` : `CHƯƠNG ${target}`,
+            cleanDir: currentCleanDir,
+            outDir,
+            outCsvPath: path.join(outDir, isAll ? `${bookName}-glossary-candidates.csv` : `chapter-${target}-new-glossary.csv`),
+            htmlFiles,
+            chapterValue: isAll ? 'all' : target,
+        };
+    }
+
+    if (isAll) {
+        console.error(`⚠️ Không tìm thấy thư mục clean hiện tại: ${currentCleanDir}`);
+        console.error(`   Chế độ toàn sách cần dữ liệu tại data/${bookName}/clean.`);
+        process.exit(1);
+    }
+
+    const chapterDir = path.join(DATA_DIR, `chapter-${target}`);
     const cleanDir = path.join(chapterDir, '02-clean');
     const outDir = path.join(chapterDir, '03-analyzed');
+    return {
+        mode: 'chapter',
+        label: `CHƯƠNG ${target}`,
+        cleanDir,
+        outDir,
+        outCsvPath: path.join(outDir, `chapter-${target}-new-glossary.csv`),
+        htmlFiles: [],
+        chapterValue: target,
+    };
+}
+
+// ── Main Logic ───────────────────────────────────────────────────────────
+function runExtraction(target) {
+    const extractionTarget = resolveExtractionTarget(target);
+    const { cleanDir, outDir, outCsvPath } = extractionTarget;
     
     if (!fs.existsSync(cleanDir)) {
         console.error(`⚠️ Không tìm thấy thư mục: ${cleanDir}`);
         return;
     }
     
-    const htmlFiles = fs.readdirSync(cleanDir).filter(f => f.endsWith('.html'));
+    const htmlFiles = extractionTarget.htmlFiles.length > 0
+        ? extractionTarget.htmlFiles
+        : fs.readdirSync(cleanDir).filter(f => f.endsWith('.html'));
     if (htmlFiles.length === 0) {
         console.error(`⚠️ Không có file HTML nào trong: ${cleanDir}`);
         return;
     }
     
     console.log(`\n============================================================`);
-    console.log(`  TRÍCH XUẤT THUẬT NGỮ CHƯƠNG ${chapterNum} — ${htmlFiles.length} files`);
+    console.log(`  TRÍCH XUẤT THUẬT NGỮ ${extractionTarget.label} — ${htmlFiles.length} files`);
     console.log(`============================================================`);
     
     const glossaryMap = loadGlossary();
@@ -178,12 +238,18 @@ function runExtraction(chapterNum) {
         const filePath = path.join(cleanDir, file);
         const html = fs.readFileSync(filePath, 'utf-8');
         
-        const terms = extractTermsFromHtml(html);
+        const terms = extractTermsFromHtml(html, file);
         
         for (const t of terms) {
             const keyLower = t.key.toLowerCase();
             if (!allTermsMap.has(keyLower)) {
                 allTermsMap.set(keyLower, t);
+            } else {
+                const existing = allTermsMap.get(keyLower);
+                if (t.isNoEmphasis) existing.isNoEmphasis = true;
+                for (const sourceFile of t.sourceFiles) {
+                    existing.sourceFiles.add(sourceFile);
+                }
             }
         }
     }
@@ -191,7 +257,6 @@ function runExtraction(chapterNum) {
     const allTerms = Array.from(allTermsMap.values()).sort((a, b) => a.key.localeCompare(b.key));
     
     if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
-    const outCsvPath = path.join(outDir, `chapter-${chapterNum}-new-glossary.csv`);
     
     let csvContent = `key,translation,options,desc_en,desc_vi,chapter,status,notes\n`;
     
@@ -243,13 +308,25 @@ function runExtraction(chapterNum) {
         
         const paddedKey = padRight(escapeCsv(keyLower), maxKeyLen);
         const paddedTrans = padRight(escapeCsv(translation), maxTransLen);
+        const chapterValue = extractionTarget.mode === 'book'
+            ? Array.from(new Set(Array.from(t.sourceFiles).map(getChapterFromFile)))
+                .sort((a, b) => {
+                    const aNum = Number(a);
+                    const bNum = Number(b);
+                    if (Number.isNaN(aNum) && Number.isNaN(bNum)) return a.localeCompare(b);
+                    if (Number.isNaN(aNum)) return 1;
+                    if (Number.isNaN(bNum)) return -1;
+                    return aNum - bNum;
+                })
+                .join('/')
+            : extractionTarget.chapterValue;
         
-        csvContent += `${paddedKey}, ${paddedTrans}, ${escapeCsv(options)}, ${escapeCsv(desc_en)}, ${escapeCsv(desc_vi)}, ${chapterNum}, ${padRight('"' + status + '"', 10)}, ${escapeCsv(notes)}\n`;
+        csvContent += `${paddedKey}, ${paddedTrans}, ${escapeCsv(options)}, ${escapeCsv(desc_en)}, ${escapeCsv(desc_vi)}, ${chapterValue}, ${padRight('"' + status + '"', 10)}, ${escapeCsv(notes)}\n`;
     }
     
     fs.writeFileSync(outCsvPath, '\uFEFF' + csvContent, 'utf-8');
     
-    console.log(`\n  ✅ Tổng hợp toàn chương: ${allTerms.length} thuật ngữ.`);
+    console.log(`\n  ✅ Tổng hợp: ${allTerms.length} thuật ngữ.`);
     console.log(`     - Tên riêng (no-emphasis)   : ${noEmphasisCount}`);
     console.log(`     - Đã có trong glossary chuẩn: ${approvedCount}`);
     console.log(`     - Cần AI đề xuất (proposal) : ${proposalCount}`);
@@ -257,4 +334,4 @@ function runExtraction(chapterNum) {
     console.log(`     ${outCsvPath}`);
 }
 
-runExtraction(chapterNum);
+runExtraction(target);

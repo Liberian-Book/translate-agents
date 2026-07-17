@@ -1,2 +1,16 @@
 **/node_modules/
 .DS_Store
+.env
+data
+
+# asimov
+asimov/changes/**/.sessions
+asimov/.memory.db*
+asimov/memory.db*
+.agents/skills/asimov-*
+.claude/skills/asimov-*
+.claude/agents/asimov
+.claude/commands/asimov-review-start.md
+.opencode/agents/asimov
+.opencode/plugins/asimov.ts
+.code-review-graph/
