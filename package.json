@@ -1,4 +1,8 @@
 {
+  "name": "trxng",
+  "bin": {
+    "trxng": "./bin/trxng.js"
+  },
   "scripts": {
     "scrape": "node agents/agent-scrape/scripts/skill-scrape.js",
     "cleanup": "node agents/agent-scrape/scripts/skill-cleanup.js",
@@ -14,10 +18,14 @@
     "asm": "bun run .agents/skills/asimov-core/scripts/asm.ts"
   },
   "dependencies": {
+    "@inquirer/prompts": "^8.5.2",
     "axios": "^1.16.0",
+    "chalk": "^5.6.2",
     "cheerio": "^1.2.0",
+    "commander": "^15.0.0",
     "dotenv": "^17.4.2",
     "html-to-docx": "^1.8.0",
+    "ora": "^9.4.1",
     "puppeteer": "^24.43.0"
   }
 }
