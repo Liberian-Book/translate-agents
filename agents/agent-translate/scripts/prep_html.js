@@ -54,10 +54,57 @@ function prepFile(inFile, outFile) {
     console.log(`Prepped ${outFile}`);
 }
 
+function findProjectRoot(currentDir) {
+    let dir = currentDir;
+    for (let i = 0; i < 10; i++) {
+        if (fs.existsSync(path.join(dir, 'package.json'))) {
+            return dir;
+        }
+        dir = path.dirname(dir);
+    }
+    return null;
+}
+
+function prepBook(bookName) {
+    const projectRoot = findProjectRoot(__dirname);
+    if (!projectRoot) {
+        console.error('Could not find project root containing package.json.');
+        process.exit(1);
+    }
+
+    const bookDir = path.join(projectRoot, 'data', bookName);
+    const cleanDir = path.join(bookDir, 'clean');
+    const prepDir = path.join(bookDir, 'prep');
+
+    if (!fs.existsSync(cleanDir)) {
+        console.error(`Clean directory not found: ${cleanDir}`);
+        process.exit(1);
+    }
+
+    const htmlFiles = fs.readdirSync(cleanDir).filter(file => file.endsWith('.html'));
+    if (htmlFiles.length === 0) {
+        console.error(`No HTML files found in: ${cleanDir}`);
+        process.exit(1);
+    }
+
+    fs.mkdirSync(prepDir, { recursive: true });
+    console.log(`Preparing ${htmlFiles.length} files from ${cleanDir}`);
+
+    for (const file of htmlFiles) {
+        prepFile(path.join(cleanDir, file), path.join(prepDir, file));
+    }
+
+    console.log(`Prepared ${htmlFiles.length} files into ${prepDir}`);
+}
+
 const inFile = process.argv[2];
 const outFile = process.argv[3];
 if (inFile && outFile) {
     prepFile(inFile, outFile);
+} else if (inFile) {
+    prepBook(inFile);
 } else {
-    console.log('Usage: node prep_html.js <inFile> <outFile>');
+    console.log('Usage:');
+    console.log('  node prep_html.js <bookName>');
+    console.log('  node prep_html.js <inFile> <outFile>');
 }
