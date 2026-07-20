@@ -12,7 +12,7 @@ test('rejects empty queries before fetching', async () => {
         return jsonResponse({});
       },
     }),
-    /Search query is required/
+    /Cần nhập từ khóa tìm kiếm/
   );
 
   assert.equal(fetchCalls, 0);

@@ -10,8 +10,10 @@ export const program = new Command();
 
 program
   .name('trxng')
-  .description('Dashboard/controller for the translation pipeline')
-  .version('0.1.0');
+  .description('Bảng điều khiển cho quy trình dịch sách')
+  .version('0.1.0', '-V, --version', 'hiển thị phiên bản')
+  .helpOption('-h, --help', 'hiển thị trợ giúp')
+  .addHelpCommand('help [command]', 'hiển thị trợ giúp cho lệnh');
 
 registerScrapeCommand(program);
 registerCleanupCommand(program);

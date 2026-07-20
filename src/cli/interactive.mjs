@@ -1,42 +1,29 @@
-import { confirm, input, select } from '@inquirer/prompts';
+import fs from 'node:fs';
+import path from 'node:path';
+import { input, select } from '@inquirer/prompts';
 import chalk from 'chalk';
-import { runCleanup } from './commands/cleanup.mjs';
-import { runPrep } from './commands/prep.mjs';
-import { runScrape } from './commands/scrape.mjs';
-import { runTerms } from './commands/terms.mjs';
+import { repoRoot } from './lib/paths.mjs';
+import { searchOpenStaxBooks } from './lib/openstax-books.mjs';
+import { runScript } from './lib/run-script.mjs';
 
-const NOT_IMPLEMENTED = 'This action is not implemented in the MVP yet.';
-
-const ACTIONS = [
-  'Scrape book',
-  'Cleanup book',
-  'Extract terms',
-  'Prepare translation',
-  'Translate',
-  'Review',
-  'Build preview',
-  'Deploy',
-];
+const ACTION_TRANSLATE_BOOK = 'Dịch sách';
+const ACTION_TRANSLATED_LIST = 'Danh sách đã dịch';
+const ACTIONS = [ACTION_TRANSLATE_BOOK, ACTION_TRANSLATED_LIST];
 
 export async function runInteractive() {
   try {
-    console.log('Welcome to trxng');
+    console.log('Chào mừng đến với trxng');
     console.log();
 
-    const book = await input({
-      message: 'Book name:',
-      default: 'entrepreneurship',
-    });
-
     const action = await select({
-      message: 'What do you want to do?',
+      message: 'Bạn muốn làm gì?',
       choices: ACTIONS.map((value) => ({ value, name: value })),
     });
 
-    await runSelectedAction({ book, action });
+    await runSelectedAction({ action });
   } catch (error) {
     if (isPromptCancellation(error)) {
-      console.log(chalk.dim('Cancelled.'));
+      console.log(chalk.dim('Đã hủy.'));
       return;
     }
 
@@ -44,47 +31,177 @@ export async function runInteractive() {
   }
 }
 
-export async function runSelectedAction({ book, action }) {
+export async function runSelectedAction({ action }) {
   switch (action) {
-    case 'Scrape book': {
-      const startUrl = await input({ message: 'Start URL:' });
-      await runScrape({ book, startUrl });
+    case ACTION_TRANSLATE_BOOK:
+      await runBookSearchFlow();
       return;
-    }
-    case 'Cleanup book': {
-      const shouldCleanup = await confirm({
-        message: 'Cleanup can delete and re-download shared book assets. Continue?',
-        default: false,
-      });
-
-      if (!shouldCleanup) {
-        console.log('Cleanup cancelled.');
-        return;
-      }
-
-      await runCleanup({ book });
-      return;
-    }
-    case 'Extract terms': {
-      const chapter = await input({ message: 'Chapter number or all:', default: 'all' });
-      await runTerms({ book, chapter });
-      return;
-    }
-    case 'Prepare translation': {
-      const prepInput = await input({ message: 'Input HTML file:' });
-      const output = await input({ message: 'Output HTML file:' });
-      await runPrep({ book, input: prepInput, output });
-      return;
-    }
-    case 'Translate':
-    case 'Review':
-    case 'Build preview':
-    case 'Deploy':
-      console.log(NOT_IMPLEMENTED);
+    case ACTION_TRANSLATED_LIST:
+      printTranslatedBooks();
       return;
     default:
-      throw new Error(`Unknown action: ${action}`);
+      throw new Error(`Không nhận diện được lựa chọn: ${action}`);
   }
+}
+
+async function runBookSearchFlow() {
+  const query = await input({ message: 'Nhập tên sách OpenStax cần tìm:' });
+  const results = await searchOpenStaxBooks(query);
+
+  if (results.length === 0) {
+    console.log('Không tìm thấy sách OpenStax phù hợp.');
+    return;
+  }
+
+  const selectedBook = await select({
+    message: 'Chọn sách muốn dịch:',
+    choices: results.map((book) => ({
+      name: `${book.title} (${book.slug})`,
+      value: book,
+      description: book.url,
+    })),
+  });
+
+  console.log();
+  console.log(`Đã chọn: ${selectedBook.title}`);
+  console.log(`Đường dẫn: ${selectedBook.url}`);
+  await runTranslationPipeline(selectedBook);
+}
+
+async function runTranslationPipeline(book) {
+  const bookName = book.slug;
+  const startUrl = await resolveBookStartUrl(book);
+  const bookDir = path.join(repoRoot, 'data', bookName);
+  const cleanDir = path.join(bookDir, 'clean');
+  const prepDir = path.join(bookDir, 'prep');
+  const steps = [
+    'Tải sách từ OpenStax',
+    'Làm sạch HTML và tải tài nguyên',
+    'Trích xuất thuật ngữ',
+    'Chuẩn bị tệp song ngữ',
+    'Dịch nội dung',
+  ];
+
+  console.log();
+  console.log(chalk.cyan(`Bắt đầu dịch sách: ${book.title}`));
+  console.log(chalk.dim(`URL bắt đầu: ${startUrl}`));
+  console.log(chalk.dim(`Thư mục dữ liệu: ${bookDir}`));
+
+  renderProgressBar({ label: steps[0], current: 0, total: steps.length });
+  await runScript('agents/agent-scrape/scripts/skill-scrape.js', [bookName, startUrl]);
+  renderProgressBar({ label: `Hoàn tất: ${steps[0]}`, current: 1, total: steps.length });
+
+  renderProgressBar({ label: steps[1], current: 1, total: steps.length });
+  await runScript('agents/agent-scrape/scripts/skill-cleanup.js', [bookName]);
+  renderProgressBar({ label: `Hoàn tất: ${steps[1]}`, current: 2, total: steps.length });
+
+  renderProgressBar({ label: steps[2], current: 2, total: steps.length });
+  await runScript('agents/agent-analyze/scripts/term-extract.js', [bookName, 'all']);
+  renderProgressBar({ label: `Hoàn tất: ${steps[2]}`, current: 3, total: steps.length });
+
+  renderProgressBar({ label: steps[3], current: 3, total: steps.length });
+  await prepareCleanFiles({ cleanDir, prepDir });
+  renderProgressBar({ label: `Hoàn tất: ${steps[3]}`, current: 4, total: steps.length });
+
+  renderProgressBar({ label: steps[4], current: 4, total: steps.length });
+  await runScript('agents/agent-translate/scripts/translate.js', [bookName]);
+  renderProgressBar({ label: `Hoàn tất: ${steps[4]}`, current: 5, total: steps.length });
+
+  console.log(chalk.green(`Đã dịch xong: ${book.title}`));
+  console.log(chalk.green(`Kết quả: ${path.join(bookDir, 'translated')}`));
+}
+
+async function prepareCleanFiles({ cleanDir, prepDir }) {
+  if (!fs.existsSync(cleanDir)) {
+    throw new Error(`Không tìm thấy thư mục clean: ${cleanDir}`);
+  }
+
+  fs.mkdirSync(prepDir, { recursive: true });
+  const files = fs.readdirSync(cleanDir).filter((file) => file.endsWith('.html'));
+  if (files.length === 0) {
+    throw new Error(`Không có tệp HTML nào trong thư mục clean: ${cleanDir}`);
+  }
+
+  for (let index = 0; index < files.length; index += 1) {
+    const file = files[index];
+    renderProgressBar({
+      label: `Chuẩn bị tệp ${index + 1}/${files.length}: ${file}`,
+      current: index,
+      total: files.length,
+    });
+    await runScript('agents/agent-translate/scripts/prep_html.js', [
+      path.join(cleanDir, file),
+      path.join(prepDir, file),
+    ]);
+  }
+}
+
+function renderProgressBar({ label, current, total }) {
+  const width = 24;
+  const safeTotal = Math.max(total, 1);
+  const filled = Math.round((current / safeTotal) * width);
+  const empty = width - filled;
+  const percent = Math.round((current / safeTotal) * 100);
+  process.stdout.write(`\r\x1b[2K[${'#'.repeat(filled)}${'-'.repeat(empty)}] ${percent}% ${label}\n`);
+}
+
+async function resolveBookStartUrl(book) {
+  try {
+    const response = await fetch('https://openstax.org/apps/cms/api/books/?format=json');
+    if (!response.ok) return book.url;
+    const data = await response.json();
+    const match = (data.books ?? []).find((entry) => normalizeBookSlug(entry.slug) === book.slug);
+    return match?.webview_rex_link || book.url;
+  } catch {
+    return book.url;
+  }
+}
+
+function normalizeBookSlug(slug) {
+  return String(slug ?? '').replace(/^books\//, '').trim();
+}
+
+function printTranslatedBooks() {
+  const dataDir = path.join(repoRoot, 'data');
+  if (!fs.existsSync(dataDir)) {
+    console.log('Chưa có sách đã dịch.');
+    return;
+  }
+
+  const translatedBooks = fs.readdirSync(dataDir)
+    .map((book) => ({ book, translatedDir: path.join(dataDir, book, 'translated') }))
+    .filter(({ translatedDir }) => fs.existsSync(translatedDir))
+    .map(({ book, translatedDir }) => ({
+      book,
+      files: fs.readdirSync(translatedDir).filter((file) => file.endsWith('.html')),
+    }))
+    .filter(({ files }) => files.length > 0);
+
+  if (translatedBooks.length === 0) {
+    console.log('Chưa có sách đã dịch.');
+    return;
+  }
+
+  translatedBooks.forEach(({ book, files }) => {
+    const chapterCount = countTranslatedChapters(files);
+    console.log(`- ${formatBookName(book)}: ${chapterCount} chương, ${files.length} trang`);
+  });
+}
+
+function countTranslatedChapters(files) {
+  return new Set(
+    files
+      .map((file) => file.match(/^(\d+)-/)?.[1])
+      .filter(Boolean)
+  ).size;
+}
+
+function formatBookName(book) {
+  return book
+    .split(/[-_\s]+/)
+    .filter(Boolean)
+    .map((word) => `${word[0].toUpperCase()}${word.slice(1)}`)
+    .join(' ');
 }
 
 function isPromptCancellation(error) {

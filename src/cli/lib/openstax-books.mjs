@@ -10,7 +10,7 @@ export async function searchOpenStaxBooks(query, options = {}) {
   const fetchImpl = options.fetchImpl ?? globalThis.fetch;
 
   if (!fetchImpl) {
-    throw new Error('Fetch is not available in this Node runtime.');
+    throw new Error('Runtime Node hiện tại không hỗ trợ fetch.');
   }
 
   const primaryResults = await searchPages({ query: normalizedQuery, limit, fetchImpl });
@@ -25,7 +25,7 @@ export async function searchOpenStaxBooks(query, options = {}) {
 function normalizeQuery(query) {
   const normalized = String(query ?? '').trim();
   if (!normalized) {
-    throw new Error('Search query is required.');
+    throw new Error('Cần nhập từ khóa tìm kiếm.');
   }
   return normalized;
 }
@@ -68,7 +68,7 @@ async function searchCatalog({ query, fetchImpl }) {
 async function fetchJson(fetchImpl, url) {
   const response = await fetchImpl(url.toString());
   if (!response.ok) {
-    throw new Error(`OpenStax request failed with status ${response.status}`);
+    throw new Error(`Yêu cầu OpenStax thất bại với mã trạng thái ${response.status}`);
   }
   return response.json();
 }
