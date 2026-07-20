@@ -1,4 +1,5 @@
 import { Command } from 'commander';
+import { registerBooksCommand } from './commands/books.mjs';
 import { registerCleanupCommand } from './commands/cleanup.mjs';
 import { registerPrepCommand } from './commands/prep.mjs';
 import { registerScrapeCommand } from './commands/scrape.mjs';
@@ -16,6 +17,7 @@ registerScrapeCommand(program);
 registerCleanupCommand(program);
 registerTermsCommand(program);
 registerPrepCommand(program);
+registerBooksCommand(program);
 
 if (process.argv.length <= 2) {
   await runInteractive();
