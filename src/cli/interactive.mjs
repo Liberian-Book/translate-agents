@@ -10,7 +10,8 @@ import { runScript } from './lib/run-script.mjs';
 
 const ACTION_TRANSLATE_BOOK = 'Dịch sách';
 const ACTION_TRANSLATED_LIST = 'Danh sách đã dịch';
-const ACTIONS = [ACTION_TRANSLATE_BOOK, ACTION_TRANSLATED_LIST];
+const ACTION_UPLOAD_BOOK = 'Tải sách lên R2';
+const ACTIONS = [ACTION_TRANSLATE_BOOK, ACTION_TRANSLATED_LIST, ACTION_UPLOAD_BOOK];
 
 export async function runInteractive() {
   try {
@@ -41,8 +42,32 @@ export async function runSelectedAction({ action }) {
     case ACTION_TRANSLATED_LIST:
       printTranslatedBooks();
       return;
+    case ACTION_UPLOAD_BOOK:
+      await runUploadLocalBookFlow();
+      return;
     default:
       throw new Error(`Không nhận diện được lựa chọn: ${action}`);
+  }
+}
+
+async function runUploadLocalBookFlow() {
+  const books = listLocalBookFolders();
+  if (books.length === 0) {
+    console.log('Không tìm thấy sách nào trong thư mục data.');
+    return;
+  }
+
+  const selectedBook = await select({
+    message: 'Chọn sách trong data/ để tải lên R2:',
+    choices: books.map((book) => ({ value: book, name: book })),
+  });
+
+  console.log(chalk.cyan(`Đang tải dữ liệu sách lên R2: ${selectedBook}`));
+  const result = await uploadBookToR2(selectedBook);
+  printUploadResult(result);
+
+  if (result.failed.length > 0) {
+    throw new Error(`Tải lên R2 thất bại với ${result.failed.length} tệp.`);
   }
 }
 
@@ -197,6 +222,16 @@ function printTranslatedBooks() {
     const chapterCount = countTranslatedChapters(files);
     console.log(`- ${formatBookName(book)}: ${chapterCount} chương, ${files.length} trang`);
   });
+}
+
+function listLocalBookFolders() {
+  const dataDir = path.join(repoRoot, 'data');
+  if (!fs.existsSync(dataDir)) return [];
+
+  return fs.readdirSync(dataDir, { withFileTypes: true })
+    .filter((entry) => entry.isDirectory())
+    .map((entry) => entry.name)
+    .sort((a, b) => a.localeCompare(b));
 }
 
 function countTranslatedChapters(files) {
