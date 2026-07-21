@@ -2,8 +2,10 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { input, select } from '@inquirer/prompts';
 import chalk from 'chalk';
+import { printUploadResult } from './commands/upload.mjs';
 import { repoRoot } from './lib/paths.mjs';
 import { searchOpenStaxBooks } from './lib/openstax-books.mjs';
+import { uploadBookToR2 } from './lib/r2-storage.mjs';
 import { runScript } from './lib/run-script.mjs';
 
 const ACTION_TRANSLATE_BOOK = 'Dịch sách';
@@ -80,6 +82,7 @@ async function runTranslationPipeline(book) {
     'Trích xuất thuật ngữ',
     'Chuẩn bị tệp song ngữ',
     'Dịch nội dung',
+    'Tải dữ liệu sách lên R2',
   ];
 
   console.log();
@@ -106,6 +109,14 @@ async function runTranslationPipeline(book) {
   renderProgressBar({ label: steps[4], current: 4, total: steps.length });
   await runScript('agents/agent-translate/scripts/translate.js', [bookName]);
   renderProgressBar({ label: `Hoàn tất: ${steps[4]}`, current: 5, total: steps.length });
+
+  renderProgressBar({ label: steps[5], current: 5, total: steps.length });
+  const uploadResult = await uploadBookToR2(bookName);
+  printUploadResult(uploadResult);
+  if (uploadResult.failed.length > 0) {
+    throw new Error(`Tải lên R2 thất bại với ${uploadResult.failed.length} tệp.`);
+  }
+  renderProgressBar({ label: `Hoàn tất: ${steps[5]}`, current: 6, total: steps.length });
 
   console.log(chalk.green(`Đã dịch xong: ${book.title}`));
   console.log(chalk.green(`Kết quả: ${path.join(bookDir, 'translated')}`));

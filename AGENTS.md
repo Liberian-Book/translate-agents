@@ -24,6 +24,14 @@
 - Start a new semantic review round for one translated file: `python3 agents/agent-review/scripts/start-review-round.py ../entrepreneurship/chapter-<N>/05-translated/<file>.html`.
 - Apply accepted review edits back into HTML: `python3 agents/agent-translate/scripts/apply-review-fixes.py <review.md> <translated.html>`.
 - Export translated HTML to DOCX (Vietnamese only): `node agents/agent-export/scripts/export-docx.js <file|chapter-number|all> [bookName]`. Output goes to `../<bookName>/docx/`.
+- Upload one local book data folder to Cloudflare R2: `node bin/trxng.js upload <bookName>`. Local `data/<bookName>/...` maps to R2 keys under `books/<bookName>/...`.
+- List remote book folders stored on R2: `node bin/trxng.js books --remote`.
+
+## R2 Storage
+
+- Required env for upload/list: `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_BUCKET`, and either `R2_ACCOUNT_ID` or `CLOUDFLARE_ACCOUNT_ID`.
+- Normal CLI use needs R2 object read/write/list permissions. Do not require delete permission unless implementing an explicit future prune/cleanup command.
+- The guided `trxng` translate flow uploads the selected book data to R2 as its final step after local translation output is produced.
 
 ## Gotchas
 

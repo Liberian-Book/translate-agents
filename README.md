@@ -13,7 +13,7 @@ Cuốn sách khởi điểm của dự án: **[Entrepreneurship](https://opensta
 ## 3. Kiến trúc Pipeline
 
 ```text
-[ Scrape ] ---> [ Cleanup ] ---> [ Analysis ] ---> [ Translate ] ---> [ Review ] ---> [ Archive ]
+[ Scrape ] ---> [ Cleanup ] ---> [ Analysis ] ---> [ Translate ] ---> [ Review ] ---> [ Archive ] ---> [ R2 Upload ]
 ```
 
 Các giai đoạn chi tiết:
@@ -48,6 +48,27 @@ Các giai đoạn chi tiết:
 
 - **Nhiệm vụ**: Ghép các chunk lại thành file hoàn chỉnh (HTML/PDF/EPUB) và lưu trữ xuất bản.
 - **Dữ liệu đầu ra**: Lưu tại `../{book}/chapter-{N}/07-archive/`
+
+### Bước 7: R2 Upload
+
+- **Nhiệm vụ**: Tải thư mục dữ liệu sách cục bộ lên Cloudflare R2 để không phụ thuộc vào một máy local.
+- **Mapping**: `data/{book}/...` được lưu thành object keys dưới `books/{book}/...` trên R2.
+- **CLI thủ công**: `node bin/trxng.js upload <book>`
+- **Xem sách trên R2**: `node bin/trxng.js books --remote`
+- **Quyền R2 cần thiết**: Object read/write/list. Không cần delete permission cho luồng upload bình thường.
+
+## R2 Environment
+
+Thiết lập các biến môi trường sau trước khi upload hoặc list R2:
+
+```bash
+R2_ACCESS_KEY_ID=...
+R2_SECRET_ACCESS_KEY=...
+R2_BUCKET=...
+R2_ACCOUNT_ID=...
+```
+
+Có thể dùng `CLOUDFLARE_ACCOUNT_ID` thay cho `R2_ACCOUNT_ID`. Endpoint R2 được suy ra tự động theo dạng `https://<account-id>.r2.cloudflarestorage.com`.
 
 ## 4. Cấu trúc thư mục
 
