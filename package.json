@@ -13,8 +13,10 @@
     "review:glossary": "python3 agents/agent-review/scripts/glossary-check.py",
     "review:start": "python3 agents/agent-review/scripts/start-review-round.py",
     "review:apply": "python3 agents/agent-translate/scripts/apply-review-fixes.py",
-    "build:preview": "python3 agents/agent-archive/scripts/build-preview.py ../entrepreneurship",
-    "deploy": "npx wrangler pages deploy ../entrepreneurship/.html --project-name openstax-vn",
+    "build:preview": "python3 agents/agent-archive/scripts/build-preview.py data/entrepreneurship",
+    "build:site": "python3 agents/agent-archive/scripts/build-preview.py data/entrepreneurship apps/web-site/entrepreneurship",
+    "dev:site": "npx wrangler pages dev apps/web-site",
+    "deploy": "npx wrangler pages deploy apps/web-site --project-name openstax-vn",
     "asm": "bun run .agents/skills/asimov-core/scripts/asm.ts"
   },
   "dependencies": {

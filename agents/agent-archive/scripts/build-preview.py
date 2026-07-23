@@ -31,8 +31,8 @@ def sort_html_files(file_name):
             return (chap_num, sec_num)
     return (999, 999)
 
-def build_preview(book_dir="../entrepreneurship"):
-    output_dir = os.path.join(book_dir, ".html")
+def build_preview(book_dir="../entrepreneurship", output_dir=None):
+    output_dir = output_dir or os.path.join(book_dir, ".html")
     print(f"Building preview to {output_dir}...")
 
     if os.path.exists(output_dir):
@@ -56,6 +56,51 @@ def build_preview(book_dir="../entrepreneurship"):
     chapter_dirs.sort(key=lambda x: int(x.split('-')[1]) if x.split('-')[1].isdigit() else 999)
 
     all_pages = []
+
+    # Process current flat data layout: data/<book>/translated/*.html + assets/
+    flat_trans_src = os.path.join(book_dir, "translated")
+    if os.path.exists(flat_trans_src):
+        html_files = [f for f in os.listdir(flat_trans_src) if f.endswith('.html')]
+        html_files.sort(key=sort_html_files)
+
+        for file_name in html_files:
+            src_file = os.path.join(flat_trans_src, file_name)
+            dst_file = os.path.join(output_dir, file_name)
+            with open(src_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+
+            all_pages.append(file_name)
+
+            pages_js = '<script src="book-reader/book-pages.js"></script>\n'
+            css_link = '<link rel="stylesheet" href="book-reader/book-reader.css">\n'
+            js_link = '<script src="book-reader/book-reader.js"></script>\n'
+            content = content.replace('../../../css/style.css', 'css/style.css').replace('../../css/style.css', 'css/style.css').replace('../css/style.css', 'css/style.css')
+            content = content.replace('../assets/', 'assets/')
+            content = content.replace('<script src="../../book-reader/book-pages.js"></script>\n', '')
+            content = content.replace('<link rel="stylesheet" href="../../book-reader/book-reader.css">\n', '')
+            content = content.replace('<script src="../../book-reader/book-reader.js"></script>\n', '')
+            content = content.replace('<link href="../../book-reader/book-reader.css" rel="stylesheet"/>\n', '')
+            content = content.replace('<script src="../book-reader/book-pages.js"></script>\n', '')
+            content = content.replace('<link rel="stylesheet" href="../book-reader/book-reader.css">\n', '')
+            content = content.replace('<script src="../book-reader/book-reader.js"></script>\n', '')
+            content = content.replace('<link href="../book-reader/book-reader.css" rel="stylesheet"/>\n', '')
+            content = content.replace('<script src="book-reader/book-pages.js"></script>\n', '')
+            content = content.replace('<link rel="stylesheet" href="book-reader/book-reader.css">\n', '')
+            content = content.replace('<script src="book-reader/book-reader.js"></script>\n', '')
+            content = content.replace('<link href="book-reader/book-reader.css" rel="stylesheet"/>\n', '')
+
+            if '</head>' in content and 'book-pages.js' not in content:
+                content = content.replace('</head>', f'{pages_js}{css_link}{js_link}</head>')
+
+            with open(dst_file, 'w', encoding='utf-8') as f:
+                f.write(content)
+
+        print("Copied and injected flat translated files.")
+
+    flat_assets_src = os.path.join(book_dir, "assets")
+    flat_assets_dst = os.path.join(output_dir, "assets")
+    if os.path.exists(flat_assets_src):
+        shutil.copytree(flat_assets_src, flat_assets_dst)
 
     # Process book-level front matter
     book_level_dir = "_book-level"
@@ -217,6 +262,6 @@ def build_preview(book_dir="../entrepreneurship"):
 if __name__ == "__main__":
     import sys
     if len(sys.argv) > 1:
-        build_preview(sys.argv[1])
+        build_preview(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else None)
     else:
         build_preview("../entrepreneurship")
