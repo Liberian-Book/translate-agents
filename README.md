@@ -53,8 +53,8 @@ Các giai đoạn chi tiết:
 
 - **Nhiệm vụ**: Tải thư mục dữ liệu sách cục bộ lên Cloudflare R2 để không phụ thuộc vào một máy local.
 - **Mapping**: `data/{book}/...` được lưu thành object keys dưới `books/{book}/...` trên R2.
-- **CLI thủ công**: `node bin/trxng.js upload <book>`
-- **Xem sách trên R2**: `node bin/trxng.js books --remote`
+- **CLI thủ công**: `node bin/cyberkbooks.js upload <book>`
+- **Xem sách trên R2**: `node bin/cyberkbooks.js books --remote`
 - **Quyền R2 cần thiết**: Object read/write/list. Không cần delete permission cho luồng upload bình thường.
 
 ### Build static book và website

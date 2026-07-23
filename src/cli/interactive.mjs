@@ -16,7 +16,7 @@ const ACTIONS = [ACTION_TRANSLATE_BOOK, ACTION_TRANSLATED_LIST, ACTION_UPLOAD_BO
 
 export async function runInteractive() {
   try {
-    console.log('Chào mừng đến với trxng');
+    console.log('Chào mừng đến với cyberkbooks');
     console.log();
 
     const action = await select({

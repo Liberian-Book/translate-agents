@@ -3,6 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const BASE_URL = 'https://openstax.org';
+const BOOKS_API_URL = `${BASE_URL}/apps/cms/api/books/?format=json`;
 const MAX_DISCOVERY_PASSES = 8;
 const STABLE_DISCOVERY_PASSES = 2;
 const DOWNLOAD_RETRIES = 1;
@@ -20,6 +21,7 @@ const BOOK_DIR = path.join(__dirname, '../../../data', bookName);
 const RAW_DIR = path.join(BOOK_DIR, 'raw');
 const PLAN_PATH = path.join(BOOK_DIR, 'scrape-plan.json');
 const STATE_PATH = path.join(BOOK_DIR, 'scrape-state.json');
+const METADATA_PATH = path.join(BOOK_DIR, 'book.json');
 
 fs.mkdirSync(RAW_DIR, { recursive: true });
 
@@ -74,6 +76,65 @@ function buildPlan(entries) {
 
 function writeJson(filePath, data) {
   fs.writeFileSync(filePath, `${JSON.stringify(data, null, 2)}\n`, 'utf8');
+}
+
+function getCoverExtension(coverUrl, contentType = '') {
+  try {
+    const extension = path.extname(new URL(coverUrl).pathname).toLowerCase();
+    if (['.svg', '.png', '.webp', '.jpg', '.jpeg'].includes(extension)) return extension;
+  } catch (_error) {
+    // Fall through to a safe default when OpenStax changes the URL shape.
+  }
+
+  if (contentType.includes('svg')) return '.svg';
+  if (contentType.includes('webp')) return '.webp';
+  if (contentType.includes('jpeg')) return '.jpg';
+  if (contentType.includes('png')) return '.png';
+  return '.png';
+}
+
+async function discoverBookMetadata() {
+  try {
+    const response = await fetch(BOOKS_API_URL);
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+    const payload = await response.json();
+    const book = (payload.books || []).find((entry) => entry.slug === `books/${bookName}`);
+    if (!book) {
+      console.warn(`  ⚠️ Không tìm thấy metadata OpenStax cho sách: ${bookName}`);
+      return null;
+    }
+
+    return {
+      slug: bookName,
+      title: book.title,
+      coverUrl: book.cover_url || null,
+      sourceUrl: book.webview_rex_link || BOOK_URL,
+    };
+  } catch (error) {
+    console.warn(`  ⚠️ Không tải được metadata OpenStax: ${error.message}`);
+    return null;
+  }
+}
+
+async function downloadCover(metadata) {
+  if (!metadata || !metadata.coverUrl) return null;
+
+  try {
+    const response = await fetch(metadata.coverUrl);
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+    const extension = getCoverExtension(metadata.coverUrl, response.headers.get('content-type') || '');
+    const coverPath = path.join(BOOK_DIR, `cover${extension}`);
+    const buffer = Buffer.from(await response.arrayBuffer());
+    fs.writeFileSync(coverPath, buffer);
+
+    console.log(`Đã tải bìa sách: ${coverPath}`);
+    return path.basename(coverPath);
+  } catch (error) {
+    console.warn(`  ⚠️ Không tải được bìa sách: ${error.message}`);
+    return null;
+  }
 }
 
 async function collectBookLinks(page) {
@@ -188,7 +249,19 @@ async function scrapeBook() {
     console.log(`Đang truy cập ${BOOK_URL}...`);
     await page.goto(BOOK_URL, { waitUntil: 'networkidle2' });
 
+    const metadata = await discoverBookMetadata();
+    if (metadata) {
+      metadata.coverFile = await downloadCover(metadata);
+      writeJson(METADATA_PATH, metadata);
+      console.log(`Đã ghi metadata sách: ${METADATA_PATH}`);
+    }
+
     const plan = await discoverBookPlan(page);
+    if (metadata) {
+      plan.title = metadata.title;
+      plan.coverUrl = metadata.coverUrl;
+      plan.coverFile = metadata.coverFile;
+    }
     writeJson(PLAN_PATH, plan);
     state.totalPages = plan.totalPages;
 

@@ -1,7 +1,7 @@
 ---
 labels: [cli, openstax, search, fallback, read-only]
 source: add-openstax-book-search
-summary: The new trxng books command searches OpenStax via the pages API first, falls back to catalog filtering when needed, and returns normalized results with slug/url/title/locale. It stays read-only and never auto-starts scrape, which avoids scraping the wrong edition from fuzzy matches.
+summary: The new cyberkbooks books command searches OpenStax via the pages API first, falls back to catalog filtering when needed, and returns normalized results with slug/url/title/locale. It stays read-only and never auto-starts scrape, which avoids scraping the wrong edition from fuzzy matches.
 ---
 # OpenStax book search uses pages API first with catalog fallback and normalized CLI output
 **Date**: 2026-07-20
@@ -9,7 +9,7 @@ summary: The new trxng books command searches OpenStax via the pages API first, 
 ## TL;DR
 - Search pages API first (`type=books.Book`), then fall back to catalog filtering if there are no normalized results.
 - Normalize CLI output to `{ title, slug, url, source, locale }` and clamp results to a max of 25.
-- Keep the command read-only; users copy a URL into `trxng scrape` instead of auto-scraping.
+- Keep the command read-only; users copy a URL into `cyberkbooks scrape` instead of auto-scraping.
 
 ## Context
 Users previously had to manually discover an OpenStax URL before scraping. This change adds a query-first CLI entrypoint while avoiding fuzzy auto-selection bugs that could pick the wrong edition.
@@ -17,7 +17,7 @@ Users previously had to manually discover an OpenStax URL before scraping. This 
 ## Evidence
 ### Anchors
 - `src/cli/lib/openstax-books.mjs` → `searchOpenStaxBooks()` — owns URL construction, fetch, response validation, normalization, fallback filtering, and limit clamping.
-- `src/cli/commands/books.mjs` → `registerBooksCommand()` — exposes `trxng books <query>` and prints title, slug, and URL only.
+- `src/cli/commands/books.mjs` → `registerBooksCommand()` — exposes `cyberkbooks books <query>` and prints title, slug, and URL only.
 - `src/cli/lib/openstax-books.test.mjs` → search tests — verify empty-query rejection, limit clamping, pages normalization, and catalog fallback.
 
 ## Decision

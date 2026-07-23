@@ -46,7 +46,7 @@ export async function onRequestGet(context) {
 
   try {
     const { results } = await env.DB.prepare(
-      "SELECT id, element_id, username, text, created_at FROM comments WHERE book_id = ? AND page_id = ? ORDER BY created_at ASC LIMIT ?"
+      "SELECT id, element_id, username, text, created_at FROM comments WHERE book_id = ? AND page_id = ? ORDER BY created_at DESC, id DESC LIMIT ?"
     ).bind(bookId, pageId, MAX_COMMENTS_PER_PAGE).all();
 
     // Group comments by element_id

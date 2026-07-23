@@ -10,7 +10,7 @@ import { runInteractive } from './interactive.mjs';
 export const program = new Command();
 
 program
-  .name('trxng')
+  .name('cyberkbooks')
   .description('Bảng điều khiển cho quy trình dịch sách')
   .version('0.1.0', '-V, --version', 'hiển thị phiên bản')
   .helpOption('-h, --help', 'hiển thị trợ giúp')

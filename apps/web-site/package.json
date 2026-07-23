@@ -9,6 +9,6 @@
     "dev:built": "npx wrangler pages dev ../../dist/site",
     "start": "npm run dev",
     "deploy": "npm run build && npm run deploy:built",
-    "deploy:built": "npx wrangler pages deploy ../../dist/site --project-name books --commit-dirty=true"
+    "deploy:built": "npx wrangler pages deploy ../../dist/site --project-name books --branch main --commit-dirty=true"
   }
 }

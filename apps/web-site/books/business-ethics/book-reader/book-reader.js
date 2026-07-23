@@ -24,8 +24,18 @@ document.addEventListener('DOMContentLoaded', () => {
     <div id="br-eng-section">
       <div id="br-eng-content">Hover over the text to see the translation here.</div>
     </div>
-    <div id="br-term-section">
-      <div id="br-term-details">Hover over a highlighted term to see details.</div>
+    <div id="br-comment-section">
+      <div class="br-comment-title">Comments</div>
+      <div id="br-selected-line">Click a line to comment.</div>
+      <form id="br-comment-form">
+        <label for="br-comment-name">Name</label>
+        <input id="br-comment-name" name="username" type="text" placeholder="Your name" maxlength="80" required>
+        <label for="br-comment-text">Comment</label>
+        <textarea id="br-comment-text" name="text" placeholder="Write a comment" maxlength="2000" rows="3" required></textarea>
+        <button type="submit">Add comment</button>
+      </form>
+      <div id="br-comment-status" aria-live="polite"></div>
+      <div id="br-comment-list"></div>
     </div>
   `;
 
@@ -90,7 +100,135 @@ document.addEventListener('DOMContentLoaded', () => {
   const swapBtn = document.getElementById('br-swap-btn');
   const readingTitle = document.getElementById('br-reading-title');
   const engContentPanel = document.getElementById('br-eng-content');
-  const termDetailsContainer = document.getElementById('br-term-details');
+  const selectedLineContainer = document.getElementById('br-selected-line');
+  const commentList = document.getElementById('br-comment-list');
+  const commentForm = document.getElementById('br-comment-form');
+  const commentNameInput = document.getElementById('br-comment-name');
+  const commentTextInput = document.getElementById('br-comment-text');
+  const commentStatus = document.getElementById('br-comment-status');
+  const bookId = getBookId();
+  const pageId = normalizePageId(window.location.pathname);
+  let selectedCommentElement = null;
+  let commentsByElement = {};
+
+  mainContent.querySelectorAll('.vn.visible, .eng.hidden').forEach((el, index) => {
+    el.dataset.brCommentId = el.id || `auto-${index}`;
+    el.classList.add('br-commentable-line');
+  });
+
+  function getBookId() {
+    const parts = window.location.pathname.split('/').filter(Boolean);
+    const booksIndex = parts.indexOf('books');
+    if (booksIndex !== -1 && parts[booksIndex + 1]) return parts[booksIndex + 1];
+    return parts[0] || 'book';
+  }
+
+  function normalizePageId(pathname) {
+    return pathname.replace(/\.html$/, '').replace(/\/index$/, '').replace(/\/$/, '') || '/';
+  }
+
+  function escapeHtml(value) {
+    return String(value).replace(/[&<>'"]/g, char => ({
+      '&': '&amp;',
+      '<': '&lt;',
+      '>': '&gt;',
+      "'": '&#39;',
+      '"': '&quot;'
+    })[char]);
+  }
+
+  function renderComments() {
+    if (!selectedCommentElement) {
+      commentList.innerHTML = '<div class="br-comment-empty">No line selected.</div>';
+      return;
+    }
+
+    const elementId = selectedCommentElement.dataset.brCommentId;
+    const comments = commentsByElement[elementId] || [];
+    if (comments.length === 0) {
+      commentList.innerHTML = '<div class="br-comment-empty">No comments yet.</div>';
+      return;
+    }
+
+    commentList.innerHTML = comments.map(comment => `
+      <div class="br-comment-item">
+        <div class="br-comment-meta">${escapeHtml(comment.username)} &middot; ${escapeHtml(comment.createdAt || '')}</div>
+        <div class="br-comment-body">${escapeHtml(comment.text)}</div>
+      </div>
+    `).join('');
+  }
+
+  function selectCommentElement(el) {
+    if (selectedCommentElement) selectedCommentElement.classList.remove('br-selected-line');
+    selectedCommentElement = el;
+    selectedCommentElement.classList.add('br-selected-line');
+    selectedLineContainer.textContent = el.textContent.trim().slice(0, 180) || 'Selected line';
+    commentStatus.textContent = '';
+    renderComments();
+  }
+
+  function loadComments() {
+    fetch(`/api/comments?bookId=${encodeURIComponent(bookId)}&pageId=${encodeURIComponent(pageId)}`)
+      .then(response => response.json())
+      .then(data => {
+        commentsByElement = data.comments || {};
+        renderComments();
+      })
+      .catch(() => {
+        commentStatus.textContent = 'Could not load comments.';
+      });
+  }
+
+  commentForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    if (!selectedCommentElement) {
+      commentStatus.textContent = 'Click a line first.';
+      return;
+    }
+
+    const elementId = selectedCommentElement.dataset.brCommentId;
+    const payload = {
+      bookId,
+      pageId,
+      elementId,
+      username: commentNameInput.value,
+      text: commentTextInput.value
+    };
+
+    commentStatus.textContent = 'Saving...';
+    fetch('/api/comments', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    })
+      .then(response => {
+        if (!response.ok) return response.json().then(data => Promise.reject(new Error(data.error || 'Failed to save comment.')));
+        return response.json();
+      })
+      .then(comment => {
+        if (!commentsByElement[elementId]) commentsByElement[elementId] = [];
+        commentsByElement[elementId].unshift({
+          username: comment.username,
+          text: comment.text,
+          createdAt: comment.createdAt
+        });
+        commentTextInput.value = '';
+        commentStatus.textContent = 'Saved.';
+        renderComments();
+      })
+      .catch(err => {
+        commentStatus.textContent = err.message;
+      });
+  });
+
+  commentTextInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      commentForm.requestSubmit();
+    }
+  });
+
+  loadComments();
 
   swapBtn.addEventListener('click', () => {
     isEnMode = !isEnMode;
@@ -105,7 +243,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     // Clear panels on swap
     engContentPanel.innerHTML = 'Hover over the text to see the translation here.';
-    termDetailsContainer.innerHTML = 'Hover over a highlighted term to see details.';
   });
 
   // 4.5 Navigation Logic
@@ -171,72 +308,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // 5. Event Delegation for Hovers
   mainContent.addEventListener('mouseover', (e) => {
-    
-    // Handle term hover
-    const termEl = e.target.closest('[data-type="term"]');
-    if (termEl) {
-      let englishTermText = '';
-      let vnText = '';
-      const termId = termEl.getAttribute('id');
-
-      if (isEnMode && termEl.closest('.eng')) {
-         englishTermText = termEl.textContent.trim().toLowerCase();
-      } else if (!isEnMode && termEl.closest('.vn')) {
-         vnText = termEl.textContent.trim().toLowerCase();
-         
-         const parentVn = termEl.closest('.vn.visible');
-         if (parentVn) {
-             const vnId = parentVn.id;
-             if (vnId && vnId.endsWith('-vn')) {
-                 const engId = vnId.replace('-vn', '');
-                 const engEl = document.getElementById(engId);
-                 if (engEl) {
-                     const engTermEl = engEl.querySelector(`[id="${termId}"]`) || engEl.querySelector(`[data-type="term"]`);
-                     if (engTermEl) englishTermText = engTermEl.textContent.trim().toLowerCase();
-                 }
-             }
-         }
-         if (!englishTermText && termId) {
-             const all = document.querySelectorAll(`[id="${termId}"]`);
-             if (all.length > 0) {
-                 englishTermText = all[0].textContent.trim().toLowerCase(); 
-             }
-         }
-      }
-
-      if (englishTermText || vnText) {
-          let matchedTerm = null;
-          if (englishTermText) {
-            matchedTerm = glossaryData.find(item => item.key && item.key.toLowerCase() === englishTermText);
-          }
-          if (!matchedTerm) {
-             matchedTerm = glossaryData.find(item => 
-                (item.translation && item.translation.toLowerCase() === vnText) || 
-                (item.key && item.key.toLowerCase() === vnText) ||
-                (englishTermText && item.key && item.key.toLowerCase() === englishTermText)
-             );
-          }
-
-          if (matchedTerm) {
-            termDetailsContainer.innerHTML = `
-              <div class="br-term-card">
-                <h3>${matchedTerm.key}</h3>
-                <div class="br-vi">VN: ${matchedTerm.translation}</div>
-                <div class="br-desc-en"><strong>EN Desc:</strong> ${matchedTerm.desc_en || 'N/A'}</div>
-                <div class="br-desc-vi"><strong>VN Desc:</strong> ${matchedTerm.desc_vi || 'N/A'}</div>
-              </div>
-            `;
-          } else {
-            termDetailsContainer.innerHTML = `
-              <div class="br-term-card">
-                <h3>${englishTermText || vnText}</h3>
-                <div>No matching definition found in glossary.</div>
-              </div>
-            `;
-          }
-      }
-    }
-
     // Handle block hover for translation
     const blockEl = e.target.closest('.vn.visible, .eng.hidden');
     if (blockEl) {
@@ -268,6 +339,11 @@ document.addEventListener('DOMContentLoaded', () => {
           }
         }
     }
+  });
+
+  mainContent.addEventListener('click', (e) => {
+    const blockEl = e.target.closest('.vn.visible, .eng.hidden');
+    if (blockEl) selectCommentElement(blockEl);
   });
 
 });

@@ -1,7 +1,7 @@
 {
-  "name": "trxng",
+  "name": "cyberkbooks",
   "bin": {
-    "trxng": "./bin/trxng.js"
+    "cyberkbooks": "./bin/cyberkbooks.js"
   },
   "scripts": {
     "scrape": "node agents/agent-scrape/scripts/skill-scrape.js",
@@ -18,7 +18,7 @@
     "build:site": "node scripts/build-site.mjs",
     "e2e": "npx playwright test",
     "dev:site": "npm run build:site && npm --prefix apps/web-site run dev:built",
-    "deploy": "npm run build:site && npm --prefix apps/web-site run deploy:built",
+    "deploy": "npm run build:book && npm run build:site && npm --prefix apps/web-site run deploy:built",
     "asm": "bun run .agents/skills/asimov-core/scripts/asm.ts"
   },
   "dependencies": {

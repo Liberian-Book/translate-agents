@@ -6,8 +6,10 @@ const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..'
 const dataDir = path.join(repoRoot, 'data');
 const siteDir = path.join(repoRoot, 'apps', 'web-site');
 const booksDir = path.join(siteDir, 'books');
+const assetsDir = path.join(siteDir, 'assets');
 const distDir = path.join(repoRoot, 'dist', 'site');
 const manifestPath = path.join(siteDir, 'books.json');
+const coverExtensions = ['.svg', '.png', '.webp', '.jpg', '.jpeg'];
 
 const junkEntries = new Set([
   '.DS_Store',
@@ -58,8 +60,9 @@ async function findGeneratedBooks() {
 
         books.push({
           slug,
-          title: formatTitle(slug),
+          title: await findBookTitle(sourceDataPath, slug),
           url: `/${slug}/`,
+          cover: await findCoverPath(slug),
         });
       }
     }
@@ -93,8 +96,40 @@ async function copyBooks(books) {
 }
 
 async function writeManifest(books) {
-  const manifest = books.map(({ slug, title, url }) => ({ slug, title, url }));
+  const manifest = books.map(({ slug, title, url, cover }) => {
+    const book = { slug, title, url };
+    if (cover) book.cover = cover;
+    return book;
+  });
   await fs.writeFile(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`);
+}
+
+async function findCoverPath(slug) {
+  for (const extension of coverExtensions) {
+    const fileName = `${slug}_cover${extension}`;
+    if (await pathExists(path.join(assetsDir, fileName))) {
+      return `/assets/${fileName}`;
+    }
+  }
+
+  return null;
+}
+
+async function findBookTitle(sourceDataPath, slug) {
+  const metadataPath = path.join(sourceDataPath, 'book.json');
+
+  try {
+    const metadata = JSON.parse(await fs.readFile(metadataPath, 'utf8'));
+    if (typeof metadata.title === 'string' && metadata.title.trim()) {
+      return metadata.title.trim();
+    }
+  } catch (error) {
+    if (error.code !== 'ENOENT') {
+      console.warn(`Skipped invalid book metadata for ${slug}: ${error.message}`);
+    }
+  }
+
+  return formatTitle(slug);
 }
 
 async function pathExists(filePath) {

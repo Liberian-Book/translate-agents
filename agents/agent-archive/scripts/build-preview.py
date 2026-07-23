@@ -4,8 +4,31 @@ import glob
 import re
 import argparse
 
+COVER_EXTENSIONS = [".svg", ".png", ".webp", ".jpg", ".jpeg"]
+READER_ASSET_VERSION = "comments-3"
+
 def get_repo_root():
     return os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", ".."))
+
+def find_cover_file(book_dir):
+    for extension in COVER_EXTENSIONS:
+        cover_path = os.path.join(book_dir, f"cover{extension}")
+        if os.path.exists(cover_path):
+            return cover_path
+    return None
+
+def copy_homepage_cover(book_dir):
+    cover_src = find_cover_file(book_dir)
+    if not cover_src:
+        return None
+
+    book_slug = os.path.basename(os.path.abspath(book_dir))
+    assets_dir = os.path.join(get_repo_root(), "apps", "web-site", "assets")
+    os.makedirs(assets_dir, exist_ok=True)
+
+    cover_dst = os.path.join(assets_dir, f"{book_slug}_cover{os.path.splitext(cover_src)[1]}")
+    shutil.copy2(cover_src, cover_dst)
+    return cover_dst
 
 def sort_html_files(file_name):
     # Extract chapter and section numbers
@@ -40,6 +63,10 @@ def build_preview(book_dir, output_dir=None):
         book_slug = os.path.basename(os.path.abspath(book_dir))
         output_dir = os.path.join(get_repo_root(), "apps", "web-site", "books", book_slug)
     print(f"Building preview to {output_dir}...")
+
+    homepage_cover = copy_homepage_cover(book_dir)
+    if homepage_cover:
+        print(f"Copied homepage cover to {homepage_cover}")
 
     if os.path.exists(output_dir):
         shutil.rmtree(output_dir)
@@ -77,9 +104,9 @@ def build_preview(book_dir, output_dir=None):
 
             all_pages.append(file_name)
 
-            pages_js = '<script src="book-reader/book-pages.js"></script>\n'
-            css_link = '<link rel="stylesheet" href="book-reader/book-reader.css">\n'
-            js_link = '<script src="book-reader/book-reader.js"></script>\n'
+            pages_js = f'<script src="book-reader/book-pages.js?v={READER_ASSET_VERSION}"></script>\n'
+            css_link = f'<link rel="stylesheet" href="book-reader/book-reader.css?v={READER_ASSET_VERSION}">\n'
+            js_link = f'<script src="book-reader/book-reader.js?v={READER_ASSET_VERSION}"></script>\n'
             content = content.replace('../../../css/style.css', 'css/style.css').replace('../../css/style.css', 'css/style.css').replace('../css/style.css', 'css/style.css')
             content = content.replace('../assets/', 'assets/')
             content = content.replace('<script src="../../book-reader/book-pages.js"></script>\n', '')
@@ -126,9 +153,9 @@ def build_preview(book_dir, output_dir=None):
                     with open(src_file, 'r', encoding='utf-8') as f:
                         content = f.read()
                     all_pages.append(f"{book_level_dir}/{file_name}")
-                    pages_js = '<script src="../book-reader/book-pages.js"></script>\n'
-                    css_link = '<link rel="stylesheet" href="../book-reader/book-reader.css">\n'
-                    js_link = '<script src="../book-reader/book-reader.js"></script>\n'
+                    pages_js = f'<script src="../book-reader/book-pages.js?v={READER_ASSET_VERSION}"></script>\n'
+                    css_link = f'<link rel="stylesheet" href="../book-reader/book-reader.css?v={READER_ASSET_VERSION}">\n'
+                    js_link = f'<script src="../book-reader/book-reader.js?v={READER_ASSET_VERSION}"></script>\n'
                     content = content.replace('../../../css/style.css', '../css/style.css').replace('../../css/style.css', '../css/style.css').replace('../css/style.css', '../css/style.css')
                     content = content.replace('../assets/', 'assets/')
                     # Remove old injected relative scripts if they exist
@@ -176,9 +203,9 @@ def build_preview(book_dir, output_dir=None):
                 all_pages.append(f"{chap}/{file_name}")
                 
                 # Inject scripts
-                pages_js = '<script src="../book-reader/book-pages.js"></script>\n'
-                css_link = '<link rel="stylesheet" href="../book-reader/book-reader.css">\n'
-                js_link = '<script src="../book-reader/book-reader.js"></script>\n'
+                pages_js = f'<script src="../book-reader/book-pages.js?v={READER_ASSET_VERSION}"></script>\n'
+                css_link = f'<link rel="stylesheet" href="../book-reader/book-reader.css?v={READER_ASSET_VERSION}">\n'
+                js_link = f'<script src="../book-reader/book-reader.js?v={READER_ASSET_VERSION}"></script>\n'
                 content = content.replace('../../../css/style.css', '../css/style.css').replace('../../css/style.css', '../css/style.css').replace('../css/style.css', '../css/style.css')
                 content = content.replace('../assets/', 'assets/')
                 # Remove old injected relative scripts if they exist
@@ -216,9 +243,9 @@ def build_preview(book_dir, output_dir=None):
                 with open(src_file, 'r', encoding='utf-8') as f:
                     content = f.read()
                 all_pages.append(f"{book_level_dir}/{file_name}")
-                pages_js = '<script src="../book-reader/book-pages.js"></script>\n'
-                css_link = '<link rel="stylesheet" href="../book-reader/book-reader.css">\n'
-                js_link = '<script src="../book-reader/book-reader.js"></script>\n'
+                pages_js = f'<script src="../book-reader/book-pages.js?v={READER_ASSET_VERSION}"></script>\n'
+                css_link = f'<link rel="stylesheet" href="../book-reader/book-reader.css?v={READER_ASSET_VERSION}">\n'
+                js_link = f'<script src="../book-reader/book-reader.js?v={READER_ASSET_VERSION}"></script>\n'
                 content = content.replace('../../../css/style.css', '../css/style.css').replace('../../css/style.css', '../css/style.css').replace('../css/style.css', '../css/style.css')
                 content = content.replace('../assets/', 'assets/')
                 # Remove old injected relative scripts if they exist
