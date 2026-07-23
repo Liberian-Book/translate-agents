@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { spawn } from 'node:child_process';
 import { input, select } from '@inquirer/prompts';
 import chalk from 'chalk';
 import { printUploadResult } from './commands/upload.mjs';
@@ -99,6 +100,7 @@ async function runTranslationPipeline(book) {
   const bookName = book.slug;
   const startUrl = await resolveBookStartUrl(book);
   const bookDir = path.join(repoRoot, 'data', bookName);
+  const siteBookDir = path.join(repoRoot, 'apps', 'web-site', 'books', bookName);
   const cleanDir = path.join(bookDir, 'clean');
   const prepDir = path.join(bookDir, 'prep');
   const steps = [
@@ -107,6 +109,7 @@ async function runTranslationPipeline(book) {
     'Trích xuất thuật ngữ',
     'Chuẩn bị tệp song ngữ',
     'Dịch nội dung',
+    'Tạo HTML tĩnh',
     'Tải dữ liệu sách lên R2',
   ];
 
@@ -114,6 +117,7 @@ async function runTranslationPipeline(book) {
   console.log(chalk.cyan(`Bắt đầu dịch sách: ${book.title}`));
   console.log(chalk.dim(`URL bắt đầu: ${startUrl}`));
   console.log(chalk.dim(`Thư mục dữ liệu: ${bookDir}`));
+  console.log(chalk.dim(`HTML website: ${siteBookDir}`));
 
   renderProgressBar({ label: steps[0], current: 0, total: steps.length });
   await runScript('agents/agent-scrape/scripts/skill-scrape.js', [bookName, startUrl]);
@@ -136,15 +140,44 @@ async function runTranslationPipeline(book) {
   renderProgressBar({ label: `Hoàn tất: ${steps[4]}`, current: 5, total: steps.length });
 
   renderProgressBar({ label: steps[5], current: 5, total: steps.length });
+  await runPythonScript('agents/agent-archive/scripts/build-preview.py', [bookDir]);
+  renderProgressBar({ label: `Hoàn tất: ${steps[5]}`, current: 6, total: steps.length });
+
+  renderProgressBar({ label: steps[6], current: 6, total: steps.length });
   const uploadResult = await uploadBookToR2(bookName);
   printUploadResult(uploadResult);
   if (uploadResult.failed.length > 0) {
     throw new Error(`Tải lên R2 thất bại với ${uploadResult.failed.length} tệp.`);
   }
-  renderProgressBar({ label: `Hoàn tất: ${steps[5]}`, current: 6, total: steps.length });
+  renderProgressBar({ label: `Hoàn tất: ${steps[6]}`, current: 7, total: steps.length });
 
   console.log(chalk.green(`Đã dịch xong: ${book.title}`));
-  console.log(chalk.green(`Kết quả: ${path.join(bookDir, 'translated')}`));
+  console.log(chalk.green(`Dữ liệu dịch: ${path.join(bookDir, 'translated')}`));
+  console.log(chalk.green(`HTML website: ${siteBookDir}`));
+}
+
+function runPythonScript(scriptPath, args = []) {
+  const commandArgs = [path.join(repoRoot, scriptPath), ...args];
+
+  return new Promise((resolve, reject) => {
+    const child = spawn('python3', commandArgs, {
+      cwd: repoRoot,
+      env: process.env,
+      stdio: 'inherit',
+    });
+
+    child.on('error', reject);
+    child.on('close', (code) => {
+      if (code === 0) {
+        resolve();
+        return;
+      }
+
+      const error = new Error(`Python script exited with code ${code}`);
+      error.exitCode = code;
+      reject(error);
+    });
+  });
 }
 
 async function prepareCleanFiles({ cleanDir, prepDir }) {

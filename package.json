@@ -13,10 +13,12 @@
     "review:glossary": "python3 agents/agent-review/scripts/glossary-check.py",
     "review:start": "python3 agents/agent-review/scripts/start-review-round.py",
     "review:apply": "python3 agents/agent-translate/scripts/apply-review-fixes.py",
+    "build:book": "python3 agents/agent-archive/scripts/build-preview.py",
     "build:preview": "python3 agents/agent-archive/scripts/build-preview.py data/entrepreneurship",
-    "build:site": "python3 agents/agent-archive/scripts/build-preview.py data/entrepreneurship apps/web-site/entrepreneurship",
-    "dev:site": "npx wrangler pages dev apps/web-site",
-    "deploy": "npx wrangler pages deploy apps/web-site --project-name openstax-vn",
+    "build:site": "node scripts/build-site.mjs",
+    "e2e": "npx playwright test",
+    "dev:site": "npm run build:site && npm --prefix apps/web-site run dev:built",
+    "deploy": "npm run build:site && npm --prefix apps/web-site run deploy:built",
     "asm": "bun run .agents/skills/asimov-core/scripts/asm.ts"
   },
   "dependencies": {
@@ -30,5 +32,8 @@
     "html-to-docx": "^1.8.0",
     "ora": "^9.4.1",
     "puppeteer": "^24.43.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1"
   }
 }

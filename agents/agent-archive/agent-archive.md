@@ -9,9 +9,9 @@
    - Ghi lại các quyết định về văn phong đặc biệt hoặc cách xử lý văn hóa phương Tây.
    - Ghi chép các pattern lỗi hay gặp để cập nhật vào Knowledge Items (KI).
 2. **Đóng gói & Xuất bản (Build & Release):**
-   - Tổng hợp và xuất bản ra Web Platform (Preview HTML), PDF, EPUB sau khi hoàn thành quy trình dịch và review.
-   - Khởi tạo thư mục `.html` self-contained với đầy đủ css, js (book-reader), hình ảnh (assets) và nội dung (translated html) để có thể host dễ dàng trên các nền tảng như Vercel, GitHub Pages hoặc Netlify.
+    - Tổng hợp và xuất bản ra Web Platform (Preview HTML), PDF, EPUB sau khi hoàn thành quy trình dịch và review.
+    - Khởi tạo thư mục `apps/web-site/books/{book}/` self-contained với đầy đủ css, js (book-reader), hình ảnh (assets) và nội dung translated HTML để website có thể phục vụ sách tại `/{book}/`.
 
 ## Các Scripts
 
-- `scripts/build-preview.py`: Script tự động copy toàn bộ các file cần thiết từ thư mục dự án vào một thư mục gốc `.html`. Cấu trúc của `.html` bảo toàn đường dẫn tương đối để các file HTML không bị lỗi resource. Mở `index.html` trong `.html` sẽ tự động redirect tới bài đọc đầu tiên của Chapter 1.
+- `scripts/build-preview.py`: Script tự động đọc dữ liệu nguồn từ `data/{book}/` và copy toàn bộ các file cần thiết vào `apps/web-site/books/{book}/` theo mặc định. Khi chạy không truyền tham số, script build toàn bộ thư mục sách trong `data/`; khi truyền `data/{book}`, script chỉ build một sách. Cấu trúc output bảo toàn đường dẫn tương đối để các file HTML không bị lỗi resource. Mở `index.html` trong `apps/web-site/books/{book}/` sẽ tự động redirect tới bài đọc đầu tiên. Thư mục legacy `data/{book}/.html/` chỉ là output generated cũ, không phải source data.

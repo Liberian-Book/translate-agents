@@ -2,6 +2,10 @@ import os
 import shutil
 import glob
 import re
+import argparse
+
+def get_repo_root():
+    return os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", ".."))
 
 def sort_html_files(file_name):
     # Extract chapter and section numbers
@@ -31,8 +35,10 @@ def sort_html_files(file_name):
             return (chap_num, sec_num)
     return (999, 999)
 
-def build_preview(book_dir="../entrepreneurship", output_dir=None):
-    output_dir = output_dir or os.path.join(book_dir, ".html")
+def build_preview(book_dir, output_dir=None):
+    if output_dir is None:
+        book_slug = os.path.basename(os.path.abspath(book_dir))
+        output_dir = os.path.join(get_repo_root(), "apps", "web-site", "books", book_slug)
     print(f"Building preview to {output_dir}...")
 
     if os.path.exists(output_dir):
@@ -119,7 +125,7 @@ def build_preview(book_dir="../entrepreneurship", output_dir=None):
                 if os.path.exists(src_file):
                     with open(src_file, 'r', encoding='utf-8') as f:
                         content = f.read()
-                    all_pages.append(f"/{book_level_dir}/{file_name}")
+                    all_pages.append(f"{book_level_dir}/{file_name}")
                     pages_js = '<script src="../book-reader/book-pages.js"></script>\n'
                     css_link = '<link rel="stylesheet" href="../book-reader/book-reader.css">\n'
                     js_link = '<script src="../book-reader/book-reader.js"></script>\n'
@@ -166,8 +172,8 @@ def build_preview(book_dir="../entrepreneurship", output_dir=None):
                 with open(src_file, 'r', encoding='utf-8') as f:
                     content = f.read()
                 
-                # Add to all pages list with absolute path from the root
-                all_pages.append(f"/{chap}/{file_name}")
+                # Keep book-page paths relative so copied output works under /<book>/.
+                all_pages.append(f"{chap}/{file_name}")
                 
                 # Inject scripts
                 pages_js = '<script src="../book-reader/book-pages.js"></script>\n'
@@ -209,7 +215,7 @@ def build_preview(book_dir="../entrepreneurship", output_dir=None):
             if os.path.exists(src_file):
                 with open(src_file, 'r', encoding='utf-8') as f:
                     content = f.read()
-                all_pages.append(f"/{book_level_dir}/{file_name}")
+                all_pages.append(f"{book_level_dir}/{file_name}")
                 pages_js = '<script src="../book-reader/book-pages.js"></script>\n'
                 css_link = '<link rel="stylesheet" href="../book-reader/book-reader.css">\n'
                 js_link = '<script src="../book-reader/book-reader.js"></script>\n'
@@ -244,7 +250,7 @@ def build_preview(book_dir="../entrepreneurship", output_dir=None):
 
     # 4. Create an index.html at root that redirects to the first page
     index_html = os.path.join(output_dir, "index.html")
-    first_page = all_pages[0] if all_pages else "/chapter-1/1-introduction.html"
+    first_page = all_pages[0] if all_pages else "chapter-1/1-introduction.html"
     with open(index_html, "w", encoding="utf-8") as f:
         f.write(f'''<!DOCTYPE html>
 <html>
@@ -259,9 +265,37 @@ def build_preview(book_dir="../entrepreneurship", output_dir=None):
 
     print(f"\\nBuild completed successfully! You can now host the '{output_dir}' directory.")
 
+def build_all_books():
+    data_dir = os.path.join(get_repo_root(), "data")
+    if not os.path.isdir(data_dir):
+        raise FileNotFoundError(f"Book data directory not found: {data_dir}")
+
+    book_dirs = []
+    for entry in sorted(os.listdir(data_dir)):
+        if entry.startswith('.'):
+            continue
+
+        book_dir = os.path.join(data_dir, entry)
+        if os.path.isdir(book_dir):
+            book_dirs.append(book_dir)
+
+    if not book_dirs:
+        print(f"No book directories found under {data_dir}.")
+        return
+
+    print(f"Building {len(book_dirs)} book(s) from {data_dir}...")
+    for book_dir in book_dirs:
+        build_preview(book_dir)
+
 if __name__ == "__main__":
-    import sys
-    if len(sys.argv) > 1:
-        build_preview(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else None)
+    parser = argparse.ArgumentParser(
+        description="Build website-ready static book HTML into apps/web-site/books/<book>. With no arguments, builds every book under data/."
+    )
+    parser.add_argument("book_dir", nargs="?", help="Optional path to one local book data directory, e.g. data/entrepreneurship")
+    parser.add_argument("output_dir", nargs="?", help="Optional output directory. Defaults to apps/web-site/books/<book>")
+    args = parser.parse_args()
+
+    if args.book_dir is None:
+        build_all_books()
     else:
-        build_preview("../entrepreneurship")
+        build_preview(args.book_dir, args.output_dir)
