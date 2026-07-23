@@ -109,6 +109,7 @@ async function runTranslationPipeline(book) {
     'Trích xuất thuật ngữ',
     'Chuẩn bị tệp song ngữ',
     'Dịch nội dung',
+    'Dịch chữ trong hình ảnh',
     'Tạo HTML tĩnh',
     'Tải dữ liệu sách lên R2',
   ];
@@ -140,16 +141,20 @@ async function runTranslationPipeline(book) {
   renderProgressBar({ label: `Hoàn tất: ${steps[4]}`, current: 5, total: steps.length });
 
   renderProgressBar({ label: steps[5], current: 5, total: steps.length });
-  await runPythonScript('agents/agent-archive/scripts/build-preview.py', [bookDir]);
+  await runScript('agents/agent-translate/scripts/translate-images.js', ['all', bookName]);
   renderProgressBar({ label: `Hoàn tất: ${steps[5]}`, current: 6, total: steps.length });
 
   renderProgressBar({ label: steps[6], current: 6, total: steps.length });
+  await runPythonScript('agents/agent-archive/scripts/build-preview.py', [bookDir]);
+  renderProgressBar({ label: `Hoàn tất: ${steps[6]}`, current: 7, total: steps.length });
+
+  renderProgressBar({ label: steps[7], current: 7, total: steps.length });
   const uploadResult = await uploadBookToR2(bookName);
   printUploadResult(uploadResult);
   if (uploadResult.failed.length > 0) {
     throw new Error(`Tải lên R2 thất bại với ${uploadResult.failed.length} tệp.`);
   }
-  renderProgressBar({ label: `Hoàn tất: ${steps[6]}`, current: 7, total: steps.length });
+  renderProgressBar({ label: `Hoàn tất: ${steps[7]}`, current: 8, total: steps.length });
 
   console.log(chalk.green(`Đã dịch xong: ${book.title}`));
   console.log(chalk.green(`Dữ liệu dịch: ${path.join(bookDir, 'translated')}`));

@@ -8,6 +8,7 @@
     "cleanup": "node agents/agent-scrape/scripts/skill-cleanup.js",
     "prep": "node agents/agent-translate/scripts/prep_html.js",
     "translate": "node agents/agent-translate/scripts/translate.js",
+    "translate:images": "node agents/agent-translate/scripts/translate-images.js",
     "terms": "node agents/agent-analyze/scripts/term-extract.js",
     "review:integrity": "python3 agents/agent-review/scripts/integrity-check.py",
     "review:glossary": "python3 agents/agent-review/scripts/glossary-check.py",
@@ -31,7 +32,9 @@
     "dotenv": "^17.4.2",
     "html-to-docx": "^1.8.0",
     "ora": "^9.4.1",
-    "puppeteer": "^24.43.0"
+    "puppeteer": "^24.43.0",
+    "sharp": "^0.35.3",
+    "tesseract.js": "^7.0.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.61.1"

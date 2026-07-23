@@ -4,6 +4,7 @@ import { registerCleanupCommand } from './commands/cleanup.mjs';
 import { registerPrepCommand } from './commands/prep.mjs';
 import { registerScrapeCommand } from './commands/scrape.mjs';
 import { registerTermsCommand } from './commands/terms.mjs';
+import { registerTranslateCommand } from './commands/translate.mjs';
 import { registerUploadCommand } from './commands/upload.mjs';
 import { runInteractive } from './interactive.mjs';
 
@@ -20,6 +21,7 @@ registerScrapeCommand(program);
 registerCleanupCommand(program);
 registerTermsCommand(program);
 registerPrepCommand(program);
+registerTranslateCommand(program);
 registerBooksCommand(program);
 registerUploadCommand(program);
 
