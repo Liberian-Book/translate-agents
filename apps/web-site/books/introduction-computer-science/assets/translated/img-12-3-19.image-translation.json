@@ -1,0 +1,104 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-3-19.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-3-example-paas-and-faas-deployments-of-cloud-native-applications.html",
+  "decision": "review",
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "ARE Ey",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 34,
+        "w": 716,
+        "h": 24
+      }
+    },
+    {
+      "text": "ie Se",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 80,
+        "w": 716,
+        "h": 24
+      }
+    },
+    {
+      "text": "oa 1 4",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 126,
+        "w": 716,
+        "h": 24
+      }
+    },
+    {
+      "text": "| instance",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 172,
+        "w": 716,
+        "h": 24
+      }
+    },
+    {
+      "text": "] 08.6 ms ——————————————————————————",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 218,
+        "w": 716,
+        "h": 24
+      }
+    },
+    {
+      "text": "4 x 327.3 ms",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 264,
+        "w": 716,
+        "h": 24
+      }
+    },
+    {
+      "text": "2) 239 calls ~ 244 calls",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 310,
+        "w": 716,
+        "h": 24
+      }
+    },
+    {
+      "text": "ncafaasdbusr*",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 356,
+        "w": 716,
+        "h": 24
+      }
+    },
+    {
+      "text": "il AZURE COSMOS DB",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 402,
+        "w": 716,
+        "h": 24
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.6063157894736843,
+    "averageConfidence": 52
+  }
+}

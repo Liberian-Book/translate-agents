@@ -1,0 +1,164 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-5-5-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/5-5-memory-hierarchy.html",
+  "decision": "review",
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "ti: BE = = = = = 1 = Sun",
+      "confidence": 36,
+      "bbox": {
+        "x": 119,
+        "y": 72,
+        "w": 953,
+        "h": 48
+      }
+    },
+    {
+      "text": "= == NE NE SE = = == = !",
+      "confidence": 36,
+      "bbox": {
+        "x": 119,
+        "y": 168,
+        "w": 953,
+        "h": 48
+      }
+    },
+    {
+      "text": "Sg Heal Wa ma 3B Taf =f SE 2 SCout",
+      "confidence": 36,
+      "bbox": {
+        "x": 119,
+        "y": 264,
+        "w": 953,
+        "h": 48
+      }
+    },
+    {
+      "text": "RE BRE NE a]",
+      "confidence": 36,
+      "bbox": {
+        "x": 119,
+        "y": 360,
+        "w": 953,
+        "h": 48
+      }
+    },
+    {
+      "text": "ak ag Lad Lind He re \\ =h Pere Bin gop Co Cre di] wie) Cro Cpa i’",
+      "confidence": 36,
+      "bbox": {
+        "x": 119,
+        "y": 456,
+        "w": 953,
+        "h": 48
+      }
+    },
+    {
+      "text": "8 ining’ Ailinduuininmmi g Diniinnipniiiniidaiain( -",
+      "confidence": 36,
+      "bbox": {
+        "x": 119,
+        "y": 552,
+        "w": 953,
+        "h": 48
+      }
+    },
+    {
+      "text": "Fem = FG TIO i",
+      "confidence": 36,
+      "bbox": {
+        "x": 119,
+        "y": 648,
+        "w": 953,
+        "h": 48
+      }
+    },
+    {
+      "text": "EEE EE ES EE g 5 EE == == eh",
+      "confidence": 36,
+      "bbox": {
+        "x": 119,
+        "y": 744,
+        "w": 953,
+        "h": 48
+      }
+    },
+    {
+      "text": "ha: = = of (= CE | Chomne",
+      "confidence": 36,
+      "bbox": {
+        "x": 119,
+        "y": 840,
+        "w": 953,
+        "h": 48
+      }
+    },
+    {
+      "text": "ll = Fe FE =— IE = = Ex == 3 = = pt",
+      "confidence": 36,
+      "bbox": {
+        "x": 119,
+        "y": 936,
+        "w": 953,
+        "h": 48
+      }
+    },
+    {
+      "text": "EEE = i\"",
+      "confidence": 36,
+      "bbox": {
+        "x": 119,
+        "y": 1032,
+        "w": 953,
+        "h": 48
+      }
+    },
+    {
+      "text": "28 2 Las SE i fd ES Rk 2 Lia B La EE Gad E dn IEE Lis GI BE £ © DIMM",
+      "confidence": 36,
+      "bbox": {
+        "x": 119,
+        "y": 1128,
+        "w": 953,
+        "h": 48
+      }
+    },
+    {
+      "text": "B® ozonmnon\\asnssesssennniRdifgREReassannanRtaRnA plnginEuReaanEetenasss pnasnnanuni: SMH",
+      "confidence": 36,
+      "bbox": {
+        "x": 119,
+        "y": 1224,
+        "w": 953,
+        "h": 48
+      }
+    },
+    {
+      "text": "ma a EE SE UCI. |",
+      "confidence": 36,
+      "bbox": {
+        "x": 119,
+        "y": 1320,
+        "w": 953,
+        "h": 48
+      }
+    },
+    {
+      "text": "Rank",
+      "confidence": 36,
+      "bbox": {
+        "x": 119,
+        "y": 1416,
+        "w": 953,
+        "h": 48
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.9554243893880723,
+    "averageConfidence": 36
+  }
+}

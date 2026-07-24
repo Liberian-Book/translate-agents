@@ -1,0 +1,194 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-introduction.html",
+  "decision": "review",
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": ": -_ \"a SRE =. ~~. BW A",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 92,
+        "w": 1400,
+        "h": 61
+      }
+    },
+    {
+      "text": "—_— aN |",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 214,
+        "w": 1400,
+        "h": 61
+      }
+    },
+    {
+      "text": "= op eT \\\\ ),",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 336,
+        "w": 1400,
+        "h": 61
+      }
+    },
+    {
+      "text": "> 7 i er AN A",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 458,
+        "w": 1400,
+        "h": 61
+      }
+    },
+    {
+      "text": "Sr ean SSSA 7",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 580,
+        "w": 1400,
+        "h": 61
+      }
+    },
+    {
+      "text": "(aT — — WV >",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 702,
+        "w": 1400,
+        "h": 61
+      }
+    },
+    {
+      "text": "p 2a —— ——2\\\\ pa wy :",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 824,
+        "w": 1400,
+        "h": 61
+      }
+    },
+    {
+      "text": "2 = ——ms N\\A )",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 946,
+        "w": 1400,
+        "h": 61
+      }
+    },
+    {
+      "text": "> ——- a . NN a Ad ov y/",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 1068,
+        "w": 1400,
+        "h": 61
+      }
+    },
+    {
+      "text": "Toad —A RN 4 4",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 1190,
+        "w": 1400,
+        "h": 61
+      }
+    },
+    {
+      "text": "A GN NNR y",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 1312,
+        "w": 1400,
+        "h": 61
+      }
+    },
+    {
+      "text": "ze = - (> yl AB = >",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 1434,
+        "w": 1400,
+        "h": 61
+      }
+    },
+    {
+      "text": "Es er == = \\ FF",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 1556,
+        "w": 1400,
+        "h": 61
+      }
+    },
+    {
+      "text": "rd = A Rm \\— S he”",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 1678,
+        "w": 1400,
+        "h": 61
+      }
+    },
+    {
+      "text": "7 b= 5E Ey A.",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 1800,
+        "w": 1400,
+        "h": 61
+      }
+    },
+    {
+      "text": "4 SE my AEmEe=— saw § ——",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 1922,
+        "w": 1400,
+        "h": 61
+      }
+    },
+    {
+      "text": "mr a any, ATU ESE ME XT \\ aig",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 2044,
+        "w": 1400,
+        "h": 61
+      }
+    },
+    {
+      "text": "ml Lg Lf UVTI —% Wm a",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 2166,
+        "w": 1400,
+        "h": 61
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 1.148235294117647,
+    "averageConfidence": 32
+  }
+}

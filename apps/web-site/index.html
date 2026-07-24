@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Thư viện đọc sách song ngữ thông minh Anh-Việt Bột. Trải nghiệm học tập và đọc sách giáo trình chuẩn OpenStax với công cụ dịch song ngữ và tra cứu thuật ngữ trực quan.">
+  <title>Bột - Thư Viện Sách Song Ngữ</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo-container">
+      <div class="logo-icon">B</div>
+      <div class="logo-text">Bột</div>
+    </div>
+    <nav class="nav-links">
+      <a href="#" class="nav-link">Trang chủ</a>
+      <a href="https://openstax.org" target="_blank" rel="noopener" class="nav-link">OpenStax</a>
+    </nav>
+  </header>
+
+  <!-- Main Website Content -->
+  <main>
+    
+    <!-- Hero Welcome -->
+    <section class="hero">
+      <h1>Thư Viện Sách Song Ngữ</h1>
+    </section>
+
+    <!-- Books Card Grid -->
+    <div class="books-grid" id="books-grid" aria-live="polite">
+      <p id="books-status">Đang tải danh sách sách...</p>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Bột. All rights reserved. Sách dịch phục vụ mục đích học tập phi thương mại.</p>
+  </footer>
+
+  <script>
+    const booksGrid = document.getElementById('books-grid');
+
+    fetch('/books.json')
+      .then((response) => {
+        if (!response.ok) throw new Error(`Không tải được books.json: ${response.status}`);
+        return response.json();
+      })
+      .then((books) => {
+        if (!Array.isArray(books) || books.length === 0) {
+          renderStatus('Chưa có sách nào được xuất bản.');
+          return;
+        }
+
+        booksGrid.replaceChildren(...books.map(renderBookCard));
+      })
+      .catch(() => {
+        renderStatus('Không tải được danh sách sách. Vui lòng thử lại sau.');
+      });
+
+    function renderStatus(message) {
+      const status = document.createElement('p');
+      status.id = 'books-status';
+      status.textContent = message;
+      booksGrid.replaceChildren(status);
+    }
+
+    function renderBookCard(book) {
+      const slug = String(book.slug || '').trim();
+      const url = String(book.url || `/${slug}/`).trim();
+      const title = String(book.title || formatTitle(slug));
+
+      const article = document.createElement('article');
+      article.className = 'book-card';
+
+      const coverWrapper = document.createElement('div');
+      coverWrapper.className = 'cover-wrapper';
+
+      const cover = document.createElement('img');
+      cover.src = book.cover || `assets/${slug}_cover.png`;
+      cover.alt = `Bìa sách ${title}`;
+      cover.className = 'cover-img';
+      cover.addEventListener('error', () => cover.remove());
+      coverWrapper.append(cover);
+
+      const info = document.createElement('div');
+      info.className = 'book-info';
+
+      const heading = document.createElement('h2');
+      heading.className = 'book-title';
+      heading.textContent = title;
+
+      const author = document.createElement('div');
+      author.className = 'book-author';
+      author.textContent = book.author || 'OpenStax • Bản dịch Tiếng Việt';
+
+      const link = document.createElement('a');
+      link.href = url;
+      link.className = 'btn-read';
+      link.innerHTML = '<span>Bắt đầu đọc</span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>';
+
+      info.append(heading, author, link);
+      article.append(coverWrapper, info);
+      return article;
+    }
+
+    function formatTitle(slug) {
+      return slug
+        .split(/[-_\s]+/)
+        .filter(Boolean)
+        .map((word) => `${word[0].toUpperCase()}${word.slice(1)}`)
+        .join(' ');
+    }
+  </script>
+
+</body>
+</html>

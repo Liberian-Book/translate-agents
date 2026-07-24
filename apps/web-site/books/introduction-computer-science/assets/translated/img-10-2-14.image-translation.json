@@ -1,0 +1,330 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-2-14.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-2-enterprise-architecture-management-frameworks.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-10-2-14.vi.png",
+  "ocr": [
+    {
+      "text": "IT Governance",
+      "confidence": 88,
+      "bbox": {
+        "x": 92,
+        "y": 94,
+        "w": 734,
+        "h": 63
+      }
+    },
+    {
+      "text": "Governance",
+      "confidence": 88,
+      "bbox": {
+        "x": 92,
+        "y": 220,
+        "w": 734,
+        "h": 63
+      }
+    },
+    {
+      "text": "Risk management",
+      "confidence": 88,
+      "bbox": {
+        "x": 92,
+        "y": 346,
+        "w": 734,
+        "h": 63
+      }
+    },
+    {
+      "text": "Data transparency",
+      "confidence": 88,
+      "bbox": {
+        "x": 92,
+        "y": 472,
+        "w": 734,
+        "h": 63
+      }
+    },
+    {
+      "text": "Data aggregation",
+      "confidence": 88,
+      "bbox": {
+        "x": 92,
+        "y": 598,
+        "w": 734,
+        "h": 63
+      }
+    },
+    {
+      "text": "ee. IT Context",
+      "confidence": 88,
+      "bbox": {
+        "x": 92,
+        "y": 724,
+        "w": 734,
+        "h": 63
+      }
+    },
+    {
+      "text": "HEPES Applications",
+      "confidence": 88,
+      "bbox": {
+        "x": 92,
+        "y": 850,
+        "w": 734,
+        "h": 63
+      }
+    },
+    {
+      "text": ". NL Semantic layering",
+      "confidence": 88,
+      "bbox": {
+        "x": 92,
+        "y": 976,
+        "w": 734,
+        "h": 63
+      }
+    },
+    {
+      "text": "IT Automation Business taxonomies",
+      "confidence": 88,
+      "bbox": {
+        "x": 92,
+        "y": 1102,
+        "w": 734,
+        "h": 63
+      }
+    },
+    {
+      "text": "Scoring",
+      "confidence": 88,
+      "bbox": {
+        "x": 92,
+        "y": 1228,
+        "w": 734,
+        "h": 63
+      }
+    },
+    {
+      "text": "Change management Search",
+      "confidence": 88,
+      "bbox": {
+        "x": 92,
+        "y": 1354,
+        "w": 734,
+        "h": 63
+      }
+    },
+    {
+      "text": "Cost impact analysis Versioning",
+      "confidence": 88,
+      "bbox": {
+        "x": 92,
+        "y": 1480,
+        "w": 734,
+        "h": 63
+      }
+    },
+    {
+      "text": "Data lineage",
+      "confidence": 88,
+      "bbox": {
+        "x": 92,
+        "y": 1606,
+        "w": 734,
+        "h": 63
+      }
+    },
+    {
+      "text": "Data modeling",
+      "confidence": 88,
+      "bbox": {
+        "x": 92,
+        "y": 1732,
+        "w": 734,
+        "h": 63
+      }
+    },
+    {
+      "text": "Connectors",
+      "confidence": 88,
+      "bbox": {
+        "x": 92,
+        "y": 1858,
+        "w": 734,
+        "h": 63
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "IT Governance",
+      "target": "Quản trị CNTT",
+      "bbox": {
+        "x": 92,
+        "y": 94,
+        "w": 734,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "Governance",
+      "target": "Quản trị",
+      "bbox": {
+        "x": 92,
+        "y": 220,
+        "w": 734,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "Risk management",
+      "target": "Quản lý rủi ro",
+      "bbox": {
+        "x": 92,
+        "y": 346,
+        "w": 734,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "Data transparency",
+      "target": "Minh bạch dữ liệu",
+      "bbox": {
+        "x": 92,
+        "y": 472,
+        "w": 734,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "Data aggregation",
+      "target": "Tổng hợp dữ liệu",
+      "bbox": {
+        "x": 92,
+        "y": 598,
+        "w": 734,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "ee. IT Context",
+      "target": "b. Bối cảnh CNTT",
+      "bbox": {
+        "x": 92,
+        "y": 724,
+        "w": 734,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "HEPES Applications",
+      "target": "Ứng dụng HEPES",
+      "bbox": {
+        "x": 92,
+        "y": 850,
+        "w": 734,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": ". NL Semantic layering",
+      "target": "Lớp nghĩa NL",
+      "bbox": {
+        "x": 92,
+        "y": 976,
+        "w": 734,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "IT Automation Business taxonomies",
+      "target": "Phân loại thuế doanh nghiệp tự động hóa CNTT",
+      "bbox": {
+        "x": 92,
+        "y": 1102,
+        "w": 734,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "Scoring",
+      "target": "Chấm điểm",
+      "bbox": {
+        "x": 92,
+        "y": 1228,
+        "w": 734,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "Change management Search",
+      "target": "Quản lý thay đổi Tìm kiếm",
+      "bbox": {
+        "x": 92,
+        "y": 1354,
+        "w": 734,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "Cost impact analysis Versioning",
+      "target": "Phân tích tác động chi phí Phiên bản hóa",
+      "bbox": {
+        "x": 92,
+        "y": 1480,
+        "w": 734,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "Data lineage",
+      "target": "Dòng dữ liệu",
+      "bbox": {
+        "x": 92,
+        "y": 1606,
+        "w": 734,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "Data modeling",
+      "target": "Mô hình dữ liệu",
+      "bbox": {
+        "x": 92,
+        "y": 1732,
+        "w": 734,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "Connectors",
+      "target": "Kết nối",
+      "bbox": {
+        "x": 92,
+        "y": 1858,
+        "w": 734,
+        "h": 63
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.9635824378859338,
+    "averageConfidence": 88
+  }
+}

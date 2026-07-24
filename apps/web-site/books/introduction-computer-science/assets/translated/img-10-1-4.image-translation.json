@@ -1,0 +1,64 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-1-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-1-patterns-management.html",
+  "decision": "review",
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "[CTE",
+      "confidence": 24,
+      "bbox": {
+        "x": 131,
+        "y": 29,
+        "w": 1044,
+        "h": 24
+      }
+    },
+    {
+      "text": "| omer",
+      "confidence": 24,
+      "bbox": {
+        "x": 131,
+        "y": 68,
+        "w": 1044,
+        "h": 24
+      }
+    },
+    {
+      "text": "ICT I I I",
+      "confidence": 24,
+      "bbox": {
+        "x": 131,
+        "y": 107,
+        "w": 1044,
+        "h": 24
+      }
+    },
+    {
+      "text": "oe | [|",
+      "confidence": 24,
+      "bbox": {
+        "x": 131,
+        "y": 146,
+        "w": 1044,
+        "h": 24
+      }
+    },
+    {
+      "text": "Ce",
+      "confidence": 24,
+      "bbox": {
+        "x": 131,
+        "y": 185,
+        "w": 1044,
+        "h": 24
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.39344262295081966,
+    "averageConfidence": 24
+  }
+}

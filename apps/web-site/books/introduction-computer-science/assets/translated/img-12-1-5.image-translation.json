@@ -1,0 +1,225 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-1-5.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-1-introduction-to-cloud-native-applications.html",
+  "decision": "review",
+  "reason": "translation-overflow",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "User",
+      "confidence": 69,
+      "bbox": {
+        "x": 50,
+        "y": 93,
+        "w": 401,
+        "h": 62
+      }
+    },
+    {
+      "text": "interface",
+      "confidence": 69,
+      "bbox": {
+        "x": 50,
+        "y": 217,
+        "w": 401,
+        "h": 62
+      }
+    },
+    {
+      "text": "API gateway",
+      "confidence": 69,
+      "bbox": {
+        "x": 50,
+        "y": 341,
+        "w": 401,
+        "h": 62
+      }
+    },
+    {
+      "text": "Inventory Basket",
+      "confidence": 69,
+      "bbox": {
+        "x": 50,
+        "y": 465,
+        "w": 401,
+        "h": 62
+      }
+    },
+    {
+      "text": "system \\ service",
+      "confidence": 69,
+      "bbox": {
+        "x": 50,
+        "y": 589,
+        "w": 401,
+        "h": 62
+      }
+    },
+    {
+      "text": "TY Shipping",
+      "confidence": 69,
+      "bbox": {
+        "x": 50,
+        "y": 713,
+        "w": 401,
+        "h": 62
+      }
+    },
+    {
+      "text": "system service",
+      "confidence": 69,
+      "bbox": {
+        "x": 50,
+        "y": 837,
+        "w": 401,
+        "h": 62
+      }
+    },
+    {
+      "text": "Reporting",
+      "confidence": 69,
+      "bbox": {
+        "x": 50,
+        "y": 961,
+        "w": 401,
+        "h": 62
+      }
+    },
+    {
+      "text": "system",
+      "confidence": 69,
+      "bbox": {
+        "x": 50,
+        "y": 1085,
+        "w": 401,
+        "h": 62
+      }
+    },
+    {
+      "text": "nll ee a",
+      "confidence": 69,
+      "bbox": {
+        "x": 50,
+        "y": 1209,
+        "w": 401,
+        "h": 62
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "User",
+      "target": "Người dùng",
+      "bbox": {
+        "x": 50,
+        "y": 93,
+        "w": 401,
+        "h": 62
+      },
+      "overflow": true
+    },
+    {
+      "source": "interface",
+      "target": "giao diện",
+      "bbox": {
+        "x": 50,
+        "y": 217,
+        "w": 401,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "API gateway",
+      "target": "Cổng API",
+      "bbox": {
+        "x": 50,
+        "y": 341,
+        "w": 401,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "Inventory Basket",
+      "target": "Giỏ Hàng Tồn Kho",
+      "bbox": {
+        "x": 50,
+        "y": 465,
+        "w": 401,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "system \\ service",
+      "target": "hệ thống \\ dịch vụ",
+      "bbox": {
+        "x": 50,
+        "y": 589,
+        "w": 401,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "TY Shipping",
+      "target": "Vận chuyển TY",
+      "bbox": {
+        "x": 50,
+        "y": 713,
+        "w": 401,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "system service",
+      "target": "dịch vụ hệ thống",
+      "bbox": {
+        "x": 50,
+        "y": 837,
+        "w": 401,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "Reporting",
+      "target": "Báo cáo",
+      "bbox": {
+        "x": 50,
+        "y": 961,
+        "w": 401,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "system",
+      "target": "hệ thống",
+      "bbox": {
+        "x": 50,
+        "y": 1085,
+        "w": 401,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "nll ee a",
+      "target": "nll ee a",
+      "bbox": {
+        "x": 50,
+        "y": 1209,
+        "w": 401,
+        "h": 62
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.6411466472739276,
+    "averageConfidence": 69
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-1-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-1-introduction-to-cloud-native-applications.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-12-1-4.vi.png",
+  "ocr": [
+    {
+      "text": "Load balancer",
+      "confidence": 62,
+      "bbox": {
+        "x": 68,
+        "y": 88,
+        "w": 547,
+        "h": 59
+      }
+    },
+    {
+      "text": "~N— x N—— TN",
+      "confidence": 62,
+      "bbox": {
+        "x": 68,
+        "y": 205,
+        "w": 547,
+        "h": 59
+      }
+    },
+    {
+      "text": "| User interface | User interface",
+      "confidence": 62,
+      "bbox": {
+        "x": 68,
+        "y": 322,
+        "w": 547,
+        "h": 59
+      }
+    },
+    {
+      "text": "Business logic Business logic",
+      "confidence": 62,
+      "bbox": {
+        "x": 68,
+        "y": 439,
+        "w": 547,
+        "h": 59
+      }
+    },
+    {
+      "text": "N— NN N—— NN",
+      "confidence": 62,
+      "bbox": {
+        "x": 68,
+        "y": 556,
+        "w": 547,
+        "h": 59
+      }
+    },
+    {
+      "text": "a Ey NE",
+      "confidence": 62,
+      "bbox": {
+        "x": 68,
+        "y": 673,
+        "w": 547,
+        "h": 59
+      }
+    },
+    {
+      "text": "= iki = SHES",
+      "confidence": 62,
+      "bbox": {
+        "x": 68,
+        "y": 790,
+        "w": 547,
+        "h": 59
+      }
+    },
+    {
+      "text": "[rome] [mm]",
+      "confidence": 62,
+      "bbox": {
+        "x": 68,
+        "y": 907,
+        "w": 547,
+        "h": 59
+      }
+    },
+    {
+      "text": "Data access layer Data access layer",
+      "confidence": 62,
+      "bbox": {
+        "x": 68,
+        "y": 1024,
+        "w": 547,
+        "h": 59
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Load balancer",
+      "target": "Bộ cân bằng tải",
+      "bbox": {
+        "x": 68,
+        "y": 88,
+        "w": 547,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "~N— x N—— TN",
+      "target": "~N— x N—— TN",
+      "bbox": {
+        "x": 68,
+        "y": 205,
+        "w": 547,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "| User interface | User interface",
+      "target": "Giao diện người dùng",
+      "bbox": {
+        "x": 68,
+        "y": 322,
+        "w": 547,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "Business logic Business logic",
+      "target": "Logic kinh doanh",
+      "bbox": {
+        "x": 68,
+        "y": 439,
+        "w": 547,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "N— NN N—— NN",
+      "target": "N— NN N—— NN",
+      "bbox": {
+        "x": 68,
+        "y": 556,
+        "w": 547,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "a Ey NE",
+      "target": "a Mắt NE",
+      "bbox": {
+        "x": 68,
+        "y": 673,
+        "w": 547,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "= iki = SHES",
+      "target": "= iki = SHES",
+      "bbox": {
+        "x": 68,
+        "y": 790,
+        "w": 547,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "[rome] [mm]",
+      "target": "[rome] [mm]",
+      "bbox": {
+        "x": 68,
+        "y": 907,
+        "w": 547,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "Data access layer Data access layer",
+      "target": "Lớp truy cập dữ liệu",
+      "bbox": {
+        "x": 68,
+        "y": 1024,
+        "w": 547,
+        "h": 59
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.5785350638175821,
+    "averageConfidence": 62
+  }
+}

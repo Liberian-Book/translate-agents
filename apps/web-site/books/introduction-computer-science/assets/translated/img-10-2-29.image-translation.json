@@ -1,0 +1,477 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-2-29.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-2-enterprise-architecture-management-frameworks.html",
+  "decision": "review",
+  "reason": "translation-overflow",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Yelle dielin Underwriting",
+      "confidence": 80,
+      "bbox": {
+        "x": 133,
+        "y": 85,
+        "w": 1066,
+        "h": 57
+      }
+    },
+    {
+      "text": "Business",
+      "confidence": 80,
+      "bbox": {
+        "x": 133,
+        "y": 199,
+        "w": 1066,
+        "h": 57
+      }
+    },
+    {
+      "text": "capabilities",
+      "confidence": 80,
+      "bbox": {
+        "x": 133,
+        "y": 313,
+        "w": 1066,
+        "h": 57
+      }
+    },
+    {
+      "text": "Business New Business Fulfillment",
+      "confidence": 80,
+      "bbox": {
+        "x": 133,
+        "y": 427,
+        "w": 1066,
+        "h": 57
+      }
+    },
+    {
+      "text": "users",
+      "confidence": 80,
+      "bbox": {
+        "x": 133,
+        "y": 541,
+        "w": 1066,
+        "h": 57
+      }
+    },
+    {
+      "text": "Product _ ;",
+      "confidence": 80,
+      "bbox": {
+        "x": 133,
+        "y": 655,
+        "w": 1066,
+        "h": 57
+      }
+    },
+    {
+      "text": "BOSiness selection Submission Rate quote Bind Bill and issue",
+      "confidence": 80,
+      "bbox": {
+        "x": 133,
+        "y": 769,
+        "w": 1066,
+        "h": 57
+      }
+    },
+    {
+      "text": "events",
+      "confidence": 80,
+      "bbox": {
+        "x": 133,
+        "y": 883,
+        "w": 1066,
+        "h": 57
+      }
+    },
+    {
+      "text": "Blea Eieereen SH gas pri eDoc ee",
+      "confidence": 80,
+      "bbox": {
+        "x": 133,
+        "y": 997,
+        "w": 1066,
+        "h": 57
+      }
+    },
+    {
+      "text": "channels [plelnee]",
+      "confidence": 80,
+      "bbox": {
+        "x": 133,
+        "y": 1111,
+        "w": 1066,
+        "h": 57
+      }
+    },
+    {
+      "text": "BPM Underwriting via agent self service",
+      "confidence": 80,
+      "bbox": {
+        "x": 133,
+        "y": 1225,
+        "w": 1066,
+        "h": 57
+      }
+    },
+    {
+      "text": "processes",
+      "confidence": 80,
+      "bbox": {
+        "x": 133,
+        "y": 1339,
+        "w": 1066,
+        "h": 57
+      }
+    },
+    {
+      "text": "P Number of Submission Count of Number of Number of",
+      "confidence": 80,
+      "bbox": {
+        "x": 133,
+        "y": 1453,
+        "w": 1066,
+        "h": 57
+      }
+    },
+    {
+      "text": "rocess - ]",
+      "confidence": 80,
+      "bbox": {
+        "x": 133,
+        "y": 1567,
+        "w": 1066,
+        "h": 57
+      }
+    },
+    {
+      "text": "2 products count ratings successful bids policies",
+      "confidence": 80,
+      "bbox": {
+        "x": 133,
+        "y": 1681,
+        "w": 1066,
+        "h": 57
+      }
+    },
+    {
+      "text": "metrics",
+      "confidence": 80,
+      "bbox": {
+        "x": 133,
+        "y": 1795,
+        "w": 1066,
+        "h": 57
+      }
+    },
+    {
+      "text": "BRM rules Product Submission Rating Binding Billing",
+      "confidence": 80,
+      "bbox": {
+        "x": 133,
+        "y": 1909,
+        "w": 1066,
+        "h": 57
+      }
+    },
+    {
+      "text": "category validation service",
+      "confidence": 80,
+      "bbox": {
+        "x": 133,
+        "y": 2023,
+        "w": 1066,
+        "h": 57
+      }
+    },
+    {
+      "text": "Business",
+      "confidence": 80,
+      "bbox": {
+        "x": 133,
+        "y": 2137,
+        "w": 1066,
+        "h": 57
+      }
+    },
+    {
+      "text": "services Agent Submission Rating Binding Billing",
+      "confidence": 80,
+      "bbox": {
+        "x": 133,
+        "y": 2251,
+        "w": 1066,
+        "h": 57
+      }
+    },
+    {
+      "text": "Business profile data decision data data",
+      "confidence": 80,
+      "bbox": {
+        "x": 133,
+        "y": 2365,
+        "w": 1066,
+        "h": 57
+      }
+    },
+    {
+      "text": "entities",
+      "confidence": 80,
+      "bbox": {
+        "x": 133,
+        "y": 2479,
+        "w": 1066,
+        "h": 57
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Yelle dielin Underwriting",
+      "target": "Bảo hiểm Yelle dielin",
+      "bbox": {
+        "x": 133,
+        "y": 85,
+        "w": 1066,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "Business",
+      "target": "Kinh doanh",
+      "bbox": {
+        "x": 133,
+        "y": 199,
+        "w": 1066,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "capabilities",
+      "target": "khả năng",
+      "bbox": {
+        "x": 133,
+        "y": 313,
+        "w": 1066,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "Business New Business Fulfillment",
+      "target": "Kinh doanh Doanh nghiệp mới Hoàn thành",
+      "bbox": {
+        "x": 133,
+        "y": 427,
+        "w": 1066,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "users",
+      "target": "người dùng",
+      "bbox": {
+        "x": 133,
+        "y": 541,
+        "w": 1066,
+        "h": 57
+      },
+      "overflow": true
+    },
+    {
+      "source": "Product _ ;",
+      "target": "Sản phẩm _ ;",
+      "bbox": {
+        "x": 133,
+        "y": 655,
+        "w": 1066,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "BOSiness selection Submission Rate quote Bind Bill and issue",
+      "target": "Tỷ lệ nộp đơn chọn BOS Doanh nghiệp Báo giá Ghi hóa đơn và phát hành",
+      "bbox": {
+        "x": 133,
+        "y": 769,
+        "w": 1066,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "events",
+      "target": "sự kiện",
+      "bbox": {
+        "x": 133,
+        "y": 883,
+        "w": 1066,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "Blea Eieereen SH gas pri eDoc ee",
+      "target": "Blea Eieereen SH khí pri eDoc ee",
+      "bbox": {
+        "x": 133,
+        "y": 997,
+        "w": 1066,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "channels [plelnee]",
+      "target": "kênh",
+      "bbox": {
+        "x": 133,
+        "y": 1111,
+        "w": 1066,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "BPM Underwriting via agent self service",
+      "target": "BPM Bảo hiểm qua dịch vụ tự phục vụ của đại lý",
+      "bbox": {
+        "x": 133,
+        "y": 1225,
+        "w": 1066,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "processes",
+      "target": "quá trình",
+      "bbox": {
+        "x": 133,
+        "y": 1339,
+        "w": 1066,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "P Number of Submission Count of Number of Number of",
+      "target": "S Số Lượng Nộp Số Lượng Số Lượng",
+      "bbox": {
+        "x": 133,
+        "y": 1453,
+        "w": 1066,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "rocess - ]",
+      "target": "Quá trình",
+      "bbox": {
+        "x": 133,
+        "y": 1567,
+        "w": 1066,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "2 products count ratings successful bids policies",
+      "target": "số lượng sản phẩm đánh giá đấu giá thành công chính sách",
+      "bbox": {
+        "x": 133,
+        "y": 1681,
+        "w": 1066,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "metrics",
+      "target": "chỉ số",
+      "bbox": {
+        "x": 133,
+        "y": 1795,
+        "w": 1066,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "BRM rules Product Submission Rating Binding Billing",
+      "target": "Quy tắc BRM Đánh giá sản phẩm Nộp sản phẩm Ràng buộc Thanh toán",
+      "bbox": {
+        "x": 133,
+        "y": 1909,
+        "w": 1066,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "category validation service",
+      "target": "dịch vụ xác thực danh mục",
+      "bbox": {
+        "x": 133,
+        "y": 2023,
+        "w": 1066,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "Business",
+      "target": "Kinh doanh",
+      "bbox": {
+        "x": 133,
+        "y": 2137,
+        "w": 1066,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "services Agent Submission Rating Binding Billing",
+      "target": "dịch vụ Đại lý Nộp Đánh giá Ràng buộc Thanh toán",
+      "bbox": {
+        "x": 133,
+        "y": 2251,
+        "w": 1066,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "Business profile data decision data data",
+      "target": "Dữ liệu hồ sơ doanh nghiệp dữ liệu quyết định dữ liệu",
+      "bbox": {
+        "x": 133,
+        "y": 2365,
+        "w": 1066,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "entities",
+      "target": "thực thể",
+      "bbox": {
+        "x": 133,
+        "y": 2479,
+        "w": 1066,
+        "h": 57
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 1.4134881360233473,
+    "averageConfidence": 80
+  }
+}

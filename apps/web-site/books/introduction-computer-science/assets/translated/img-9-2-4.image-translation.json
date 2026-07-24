@@ -1,0 +1,44 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-9-2-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/9-2-software-engineering-process.html",
+  "decision": "review",
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "HTTP SQL",
+      "confidence": 46,
+      "bbox": {
+        "x": 87,
+        "y": 18,
+        "w": 696,
+        "h": 24
+      }
+    },
+    {
+      "text": "Web —_— J",
+      "confidence": 46,
+      "bbox": {
+        "x": 87,
+        "y": 42,
+        "w": 696,
+        "h": 24
+      }
+    },
+    {
+      "text": "browser <*—-— Wie Serie «Database",
+      "confidence": 46,
+      "bbox": {
+        "x": 87,
+        "y": 66,
+        "w": 696,
+        "h": 24
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.3764705882352941,
+    "averageConfidence": 46
+  }
+}

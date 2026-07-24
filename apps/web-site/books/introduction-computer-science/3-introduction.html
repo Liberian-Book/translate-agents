@@ -1,0 +1,110 @@
+<html><head><link rel="stylesheet" href="./style.css">
+<style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style>
+<script src="book-reader/book-pages.js?v=comments-3"></script>
+<link rel="stylesheet" href="book-reader/book-reader.css?v=comments-3">
+<script src="book-reader/book-reader.js?v=comments-3"></script>
+</head><body><div class="os-figure has-splash" id="fig-00001"><figure data-id="fig-00001" class="splash ui-has-child-figcaption">
+    <span data-type="media" data-alt="A map of a city with a blue line connecting two points. Next to the Search bar, a label says, “Autocomplete.” Next to the blue line, a label says, “Navigation directions.” Next to the rest of the map a label says, “Coordinating places, locations, and map data.”">
+    <button type="button" aria-label="Click to enlarge image of A map of a city with a blue line connecting two points. Next to the Search bar, a label says, “Autocomplete.” Next to the blue line, a label says, “Navigation directions.” Next to the rest of the map a label says, “Coordinating places, locations, and map data.”" class="image-button-wrapper"><img src="assets/img-3-1.webp" data-media-type="image/jpeg" alt="A map of a city with a blue line connecting two points. Next to the Search bar, a label says, “Autocomplete.” Next to the blue line, a label says, “Navigation directions.” Next to the rest of the map a label says, “Coordinating places, locations, and map data.”" width="1750" height="718" loading="lazy"></button>
+    </span>
+    
+    <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">3.1</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">Online mapping applications represent places, locations, and map data while providing functionality to look around, search for places, and get navigation directions. The right combination of data structures to manage collections of places, locations, and map data along with efficient search and navigation algorithms will help optimize the experience of users trying to find their way through the map and will also make optimal use of computing resources. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license; data source: OpenStreetMap under Open Database License; attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">3.1</span>
+
+<span class="os-divider"> </span>
+<span class="os-caption">Các ứng dụng bản đồ trực tuyến đại diện cho các địa điểm, vị trí và dữ liệu bản đồ trong khi cung cấp chức năng để khám phá, tìm kiếm địa điểm và nhận chỉ dẫn điều hướng. Sự kết hợp đúng đắn của các cấu trúc dữ liệu để quản lý các bộ sưu tập địa điểm, vị trí và dữ liệu bản đồ cùng với các thuật toán tìm kiếm và điều hướng hiệu quả sẽ giúp tối ưu hóa trải nghiệm của người dùng khi cố gắng tìm đường qua bản đồ và cũng sẽ sử dụng tối ưu tài nguyên máy tính. (tác quyền: Bản quyền Đại học Rice, OpenStax, theo giấy phép CC BY NC-SA 4.0; nguồn dữ liệu: OpenStreetMap theo Giấy phép Cơ sở Dữ liệu Mở; tác quyền: Bản quyền Đại học Rice, OpenStax, theo giấy phép CC BY NC-SA 4.0)</span></figcaption></figure></div>
+    
+    
+    
+    
+  <div class="intro-body">
+  <div class="os-chapter-outline">
+  <h2 class="os-title eng hidden">Chapter Outline</h2><h2 class="os-title vn visible">Dàn bài chương</h2>
+  <ul class="os-chapter-objectives"><li class="os-chapter-objective eng hidden">
+  <a class="os-chapter-objective" href="3-1-introduction-to-data-structures-and-algorithms" aria-label="Go to Section 3.1 Introduction to Data Structures and Algorithms" data-page-slug="3-1-introduction-to-data-structures-and-algorithms" data-page-uuid="e8bc2004-f3d7-4718-9784-6b5d6edf766f" data-page-fragment="">
+    <span class="os-number">3.1</span>
+    <span class="os-divider"> </span>
+    <span data-type="" itemprop="" class="os-text">Introduction to Data Structures and Algorithms</span>
+  </a>
+</li><li class="os-chapter-objective vn visible"><a class="os-chapter-objective" href="3-1-introduction-to-data-structures-and-algorithms" aria-label="Go to Section 3.1 Introduction to Data Structures and Algorithms" data-page-slug="3-1-introduction-to-data-structures-and-algorithms" data-page-uuid="e8bc2004-f3d7-4718-9784-6b5d6edf766f" data-page-fragment="">
+    <span class="os-number">3.1</span>
+    <span class="os-divider"> </span>
+    <span data-type="" itemprop="" class="os-text">Giới thiệu về Cấu trúc Dữ liệu và Thuật toán</span>
+</a></li>
+<li class="os-chapter-objective eng hidden">
+  <a class="os-chapter-objective" href="3-2-algorithm-design-and-discovery" aria-label="Go to Section 3.2 Algorithm Design and Discovery" data-page-slug="3-2-algorithm-design-and-discovery" data-page-uuid="1f09da28-3dd4-4967-9474-244dd4739c05" data-page-fragment="">
+    <span class="os-number">3.2</span>
+    <span class="os-divider"> </span>
+    <span data-type="" itemprop="" class="os-text">Algorithm Design and Discovery</span>
+  </a>
+</li><li class="os-chapter-objective vn visible"><a class="os-chapter-objective" href="3-2-algorithm-design-and-discovery" aria-label="Go to Section 3.2 Algorithm Design and Discovery" data-page-slug="3-2-algorithm-design-and-discovery" data-page-uuid="1f09da28-3dd4-4967-9474-244dd4739c05" data-page-fragment="">
+    <span class="os-number">3.2</span>
+    <span class="os-divider"> </span>
+    <span data-type="" itemprop="" class="os-text">Thiết kế và Khám phá Thuật toán</span>
+</a></li>
+<li class="os-chapter-objective eng hidden">
+  <a class="os-chapter-objective" href="3-3-formal-properties-of-algorithms" aria-label="Go to Section 3.3 Formal Properties of Algorithms" data-page-slug="3-3-formal-properties-of-algorithms" data-page-uuid="3dd83388-c7e7-4a4f-9d87-8bbcdfcddb37" data-page-fragment="">
+    <span class="os-number">3.3</span>
+    <span class="os-divider"> </span>
+    <span data-type="" itemprop="" class="os-text">Formal Properties of Algorithms</span>
+  </a>
+</li><li class="os-chapter-objective vn visible"><a class="os-chapter-objective" href="3-3-formal-properties-of-algorithms" aria-label="Go to Section 3.3 Formal Properties of Algorithms" data-page-slug="3-3-formal-properties-of-algorithms" data-page-uuid="3dd83388-c7e7-4a4f-9d87-8bbcdfcddb37" data-page-fragment="">
+    <span class="os-number">3.3</span>
+    <span class="os-divider"> </span>
+    <span data-type="" itemprop="" class="os-text">Các Tính Chất Chính Thức của Thuật Toán</span>
+  </a></li>
+<li class="os-chapter-objective eng hidden">
+  <a class="os-chapter-objective" href="3-4-algorithmic-paradigms" aria-label="Go to Section 3.4 Algorithmic Paradigms" data-page-slug="3-4-algorithmic-paradigms" data-page-uuid="f526651c-8205-4c51-ab37-36d009b8404f" data-page-fragment="">
+    <span class="os-number">3.4</span>
+    <span class="os-divider"> </span>
+    <span data-type="" itemprop="" class="os-text">Algorithmic Paradigms</span>
+  </a>
+</li><li class="os-chapter-objective vn visible"><a class="os-chapter-objective" href="3-4-algorithmic-paradigms" aria-label="Go to Section 3.4 Algorithmic Paradigms" data-page-slug="3-4-algorithmic-paradigms" data-page-uuid="f526651c-8205-4c51-ab37-36d009b8404f" data-page-fragment="">
+    <span class="os-number">3.4</span>
+    <span class="os-divider"> </span>
+    <span data-type="" itemprop="" class="os-text">Các Mô Hình Thuật Toán</span>
+</a></li>
+<li class="os-chapter-objective eng hidden">
+  <a class="os-chapter-objective" href="3-5-sample-algorithms-by-problem" aria-label="Go to Section 3.5 Sample Algorithms by Problem" data-page-slug="3-5-sample-algorithms-by-problem" data-page-uuid="8ec4c91c-c297-47de-bfae-ad19854b8fb2" data-page-fragment="">
+    <span class="os-number">3.5</span>
+    <span class="os-divider"> </span>
+    <span data-type="" itemprop="" class="os-text">Sample Algorithms by Problem</span>
+  </a>
+</li><li class="os-chapter-objective vn visible"><a class="os-chapter-objective" href="3-5-sample-algorithms-by-problem" aria-label="Go to Section 3.5 Sample Algorithms by Problem" data-page-slug="3-5-sample-algorithms-by-problem" data-page-uuid="8ec4c91c-c297-47de-bfae-ad19854b8fb2" data-page-fragment="">
+    <span class="os-number">3.5</span>
+    <span class="os-divider"> </span>
+    <span data-type="" itemprop="" class="os-text">Các Thuật Toán Mẫu theo Vấn Đề</span>
+</a></li>
+<li class="os-chapter-objective eng hidden">
+  <a class="os-chapter-objective" href="3-6-computer-science-theory" aria-label="Go to Section 3.6 Computer Science Theory" data-page-slug="3-6-computer-science-theory" data-page-uuid="0ff6dc2c-ec92-4656-bde6-77289796964e" data-page-fragment="">
+    <span class="os-number">3.6</span>
+    <span class="os-divider"> </span>
+    <span data-type="" itemprop="" class="os-text">Computer Science Theory</span>
+  </a>
+</li><li class="os-chapter-objective vn visible"><a class="os-chapter-objective" href="3-6-computer-science-theory" aria-label="Go to Section 3.6 Computer Science Theory" data-page-slug="3-6-computer-science-theory" data-page-uuid="0ff6dc2c-ec92-4656-bde6-77289796964e" data-page-fragment="">
+    <span class="os-number">3.6</span>
+    <span class="os-divider"> </span>
+    <span data-type="" itemprop="" class="os-text">Lý thuyết Khoa học Máy tính</span>
+</a></li>
+</ul>
+</div>
+
+  <div class="intro-text">
+    <h2 data-type="document-title" id="page_63481810-ce08-4652-b115-7424cb09029a_titlecreatedbycookbook" data-rex-keep="true" class="eng hidden"><span data-type="" itemprop="" class="os-text">Introduction</span>
+</h2><h2 data-type="document-title" id="page_63481810-ce08-4652-b115-7424cb09029a_titlecreatedbycookbook-vn" data-rex-keep="true" class="vn visible"><span data-type="" itemprop="" class="os-text">Giới thiệu</span>
+</h2>
+    <p id="para-00001" class="eng hidden">Online maps help people navigate a rapidly changing world. It was not long ago that maps were on paper and that knowledge came from non-digital, trusted sources. In this chapter, we will study how computer scientists design and analyze the foundational structures behind many of today’s technologies. Data structures and algorithms are not only foundational to map apps, but also enable an amazing variety of other technologies too. From self-driving cars to inventory management to simulating the movement of galaxies to transferring data between computers—all these applications use data structures and algorithms to efficiently organize and process large amounts of information.</p><p id="para-00001-vn" class="vn visible">Bản đồ trực tuyến giúp mọi người điều hướng trong một thế giới đang thay đổi nhanh chóng. Chẳng bao lâu trước đây, bản đồ được in trên giấy và kiến thức đến từ những nguồn không phải kỹ thuật số, đáng tin cậy. Trong chương này, chúng ta sẽ nghiên cứu cách mà các nhà khoa học máy tính thiết kế và phân tích các cấu trúc cơ bản đứng sau nhiều công nghệ ngày nay. Cấu trúc dữ liệu và thuật toán không chỉ là nền tảng cho các ứng dụng bản đồ, mà còn cho phép một loạt các công nghệ khác nữa. Từ xe tự lái đến quản lý hàng tồn kho, từ mô phỏng chuyển động của các thiên hà đến việc chuyển dữ liệu giữa các máy tính—tất cả những ứng dụng này đều sử dụng cấu trúc dữ liệu và thuật toán để tổ chức và xử lý hiệu quả một lượng lớn thông tin.</p>
+  </div>
+</div>
+</body></html>

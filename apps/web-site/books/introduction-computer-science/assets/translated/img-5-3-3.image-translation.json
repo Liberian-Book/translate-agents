@@ -1,0 +1,9 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-5-3-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/5-3-machine-level-information-representation.html",
+  "decision": "error",
+  "reason": "translation-api-failed-status-429",
+  "outputImage": null,
+  "ocr": [],
+  "translations": []
+}

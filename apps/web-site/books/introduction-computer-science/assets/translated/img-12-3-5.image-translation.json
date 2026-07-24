@@ -1,0 +1,141 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-3-5.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-3-example-paas-and-faas-deployments-of-cloud-native-applications.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-12-3-5.vi.png",
+  "ocr": [
+    {
+      "text": "©] @ 127.0.0.1:8080/inventory/1",
+      "confidence": 77,
+      "bbox": {
+        "x": 70,
+        "y": 50,
+        "w": 560,
+        "h": 33
+      }
+    },
+    {
+      "text": "2 \"inventory\": [",
+      "confidence": 77,
+      "bbox": {
+        "x": 70,
+        "y": 116,
+        "w": 560,
+        "h": 33
+      }
+    },
+    {
+      "text": "4 THe dl",
+      "confidence": 77,
+      "bbox": {
+        "x": 70,
+        "y": 182,
+        "w": 560,
+        "h": 33
+      }
+    },
+    {
+      "text": "5 \"name\": \"yogurt\",",
+      "confidence": 77,
+      "bbox": {
+        "x": 70,
+        "y": 248,
+        "w": 560,
+        "h": 33
+      }
+    },
+    {
+      "text": "6 \"quantity\": 2ee,",
+      "confidence": 77,
+      "bbox": {
+        "x": 70,
+        "y": 314,
+        "w": 560,
+        "h": 33
+      }
+    },
+    {
+      "text": "7/ \"date\": \"2024-02-26\"",
+      "confidence": 77,
+      "bbox": {
+        "x": 70,
+        "y": 380,
+        "w": 560,
+        "h": 33
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "©] @ 127.0.0.1:8080/inventory/1",
+      "target": "©] @ 127.0.0.1:8080/nhap-kho/1",
+      "bbox": {
+        "x": 70,
+        "y": 50,
+        "w": 560,
+        "h": 33
+      },
+      "overflow": false
+    },
+    {
+      "source": "2 \"inventory\": [",
+      "target": "2 \"hàng tồn kho\": [",
+      "bbox": {
+        "x": 70,
+        "y": 116,
+        "w": 560,
+        "h": 33
+      },
+      "overflow": false
+    },
+    {
+      "source": "4 THe dl",
+      "target": "4 THe dl",
+      "bbox": {
+        "x": 70,
+        "y": 182,
+        "w": 560,
+        "h": 33
+      },
+      "overflow": false
+    },
+    {
+      "source": "5 \"name\": \"yogurt\",",
+      "target": "sữa chua",
+      "bbox": {
+        "x": 70,
+        "y": 248,
+        "w": 560,
+        "h": 33
+      },
+      "overflow": false
+    },
+    {
+      "source": "6 \"quantity\": 2ee,",
+      "target": "số lượng: 2ee",
+      "bbox": {
+        "x": 70,
+        "y": 314,
+        "w": 560,
+        "h": 33
+      },
+      "overflow": false
+    },
+    {
+      "source": "7/ \"date\": \"2024-02-26\"",
+      "target": "\"ngày\": \"2024-02-26\"",
+      "bbox": {
+        "x": 70,
+        "y": 380,
+        "w": 560,
+        "h": 33
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.3826086956521739,
+    "averageConfidence": 77
+  }
+}

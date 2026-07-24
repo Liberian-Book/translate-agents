@@ -1,0 +1,372 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-2-6.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-2-enterprise-architecture-management-frameworks.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-10-2-6.vi.png",
+  "ocr": [
+    {
+      "text": "aoe Plan solution and pe a",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 94,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "Activities Fray Build solutions Run solutions",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 219,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "Goals",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 344,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "+ Complete engagement + Cost of quality at 30% + Achieve designated",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 469,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "by October 2025 + Estimating effectiveness ITIL level by 2025",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 594,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "+ Redefine the service at+/- 15% « Evolve the enterprise",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 719,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "experience information technology",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 844,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "Desired Expectations",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 969,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "+ Correct report, cost, + Solution quality + Systems are up and running",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 1094,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "timing, and resources requirement to meet business needs",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 1219,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "+ Predictable risk, cost, + Flexible resourcing + Optimize across project",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 1344,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "and benefits practitioner community",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 1469,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "Metrics",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 1594,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "+ High employee satisfaction + Cost of quality + Desired availability of",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 1719,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "and HP retention of 97% + Estimating effectiveness systems at xx%",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 1844,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "+ Talent management: internal + Achieve reengineering goals",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 1969,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "promotions/time to fill",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 2094,
+        "w": 1040,
+        "h": 63
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "aoe Plan solution and pe a",
+      "target": "giải pháp kế hoạch và pe a",
+      "bbox": {
+        "x": 130,
+        "y": 94,
+        "w": 1040,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "Activities Fray Build solutions Run solutions",
+      "target": "Hoạt động Fray Xây dựng giải pháp Chạy giải pháp",
+      "bbox": {
+        "x": 130,
+        "y": 219,
+        "w": 1040,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "Goals",
+      "target": "Mục tiêu",
+      "bbox": {
+        "x": 130,
+        "y": 344,
+        "w": 1040,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "+ Complete engagement + Cost of quality at 30% + Achieve designated",
+      "target": "+ Cam kết hoàn toàn + Chi phí chất lượng 30% + Đạt yêu cầu đã định",
+      "bbox": {
+        "x": 130,
+        "y": 469,
+        "w": 1040,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "by October 2025 + Estimating effectiveness ITIL level by 2025",
+      "target": "đến tháng 10 năm 2025 + Đánh giá hiệu quả ITIL đến năm 2025",
+      "bbox": {
+        "x": 130,
+        "y": 594,
+        "w": 1040,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "+ Redefine the service at+/- 15% « Evolve the enterprise",
+      "target": "+ Định nghĩa lại dịch vụ ở mức +/- 15% « Phát triển doanh nghiệp »",
+      "bbox": {
+        "x": 130,
+        "y": 719,
+        "w": 1040,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "experience information technology",
+      "target": "kinh nghiệm công nghệ thông tin",
+      "bbox": {
+        "x": 130,
+        "y": 844,
+        "w": 1040,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "Desired Expectations",
+      "target": "Kỳ vọng mong muốn",
+      "bbox": {
+        "x": 130,
+        "y": 969,
+        "w": 1040,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "+ Correct report, cost, + Solution quality + Systems are up and running",
+      "target": "+ Báo cáo chính xác, chi phí, + Chất lượng giải pháp + Hệ thống hoạt động ổn định",
+      "bbox": {
+        "x": 130,
+        "y": 1094,
+        "w": 1040,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "timing, and resources requirement to meet business needs",
+      "target": "thời gian và yêu cầu tài nguyên để đáp ứng nhu cầu kinh doanh",
+      "bbox": {
+        "x": 130,
+        "y": 1219,
+        "w": 1040,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "+ Predictable risk, cost, + Flexible resourcing + Optimize across project",
+      "target": "+ Rủi ro có thể dự đoán, chi phí + Tài nguyên linh hoạt + Tối ưu hóa trên toàn dự án",
+      "bbox": {
+        "x": 130,
+        "y": 1344,
+        "w": 1040,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "and benefits practitioner community",
+      "target": "cộng đồng thực hành và lợi ích",
+      "bbox": {
+        "x": 130,
+        "y": 1469,
+        "w": 1040,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "Metrics",
+      "target": "Chỉ số",
+      "bbox": {
+        "x": 130,
+        "y": 1594,
+        "w": 1040,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "+ High employee satisfaction + Cost of quality + Desired availability of",
+      "target": "+ Sự hài lòng của nhân viên cao + Chi phí chất lượng + Tính sẵn có mong muốn của",
+      "bbox": {
+        "x": 130,
+        "y": 1719,
+        "w": 1040,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "and HP retention of 97% + Estimating effectiveness systems at xx%",
+      "target": "và giữ chân HP 97% + Ước lượng hiệu quả hệ thống tại xx%",
+      "bbox": {
+        "x": 130,
+        "y": 1844,
+        "w": 1040,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "+ Talent management: internal + Achieve reengineering goals",
+      "target": "+ Quản lý tài năng: nội bộ + Đạt được mục tiêu tái cấu trúc",
+      "bbox": {
+        "x": 130,
+        "y": 1969,
+        "w": 1040,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "promotions/time to fill",
+      "target": "khuyến mãi/thời gian hoàn thành",
+      "bbox": {
+        "x": 130,
+        "y": 2094,
+        "w": 1040,
+        "h": 63
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 1.0942528735632184,
+    "averageConfidence": 89
+  }
+}

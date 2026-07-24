@@ -1,0 +1,124 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-1-9.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-1-introduction-to-cloud-native-applications.html",
+  "decision": "review",
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "User",
+      "confidence": 43,
+      "bbox": {
+        "x": 69,
+        "y": 117,
+        "w": 553,
+        "h": 78
+      }
+    },
+    {
+      "text": "interface",
+      "confidence": 43,
+      "bbox": {
+        "x": 69,
+        "y": 273,
+        "w": 553,
+        "h": 78
+      }
+    },
+    {
+      "text": "~~ APIgateway",
+      "confidence": 43,
+      "bbox": {
+        "x": 69,
+        "y": 429,
+        "w": 553,
+        "h": 78
+      }
+    },
+    {
+      "text": "r= EE, =",
+      "confidence": 43,
+      "bbox": {
+        "x": 69,
+        "y": 585,
+        "w": 553,
+        "h": 78
+      }
+    },
+    {
+      "text": "(AEE ol",
+      "confidence": 43,
+      "bbox": {
+        "x": 69,
+        "y": 741,
+        "w": 553,
+        "h": 78
+      }
+    },
+    {
+      "text": "I EF",
+      "confidence": 43,
+      "bbox": {
+        "x": 69,
+        "y": 897,
+        "w": 553,
+        "h": 78
+      }
+    },
+    {
+      "text": "BREE ]",
+      "confidence": 43,
+      "bbox": {
+        "x": 69,
+        "y": 1053,
+        "w": 553,
+        "h": 78
+      }
+    },
+    {
+      "text": "pe 1",
+      "confidence": 43,
+      "bbox": {
+        "x": 69,
+        "y": 1209,
+        "w": 553,
+        "h": 78
+      }
+    },
+    {
+      "text": "Fo I",
+      "confidence": 43,
+      "bbox": {
+        "x": 69,
+        "y": 1365,
+        "w": 553,
+        "h": 78
+      }
+    },
+    {
+      "text": "xy 1",
+      "confidence": 43,
+      "bbox": {
+        "x": 69,
+        "y": 1521,
+        "w": 553,
+        "h": 78
+      }
+    },
+    {
+      "text": "I. Log aggregation [ni",
+      "confidence": 43,
+      "bbox": {
+        "x": 69,
+        "y": 1677,
+        "w": 553,
+        "h": 78
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.7057022977855053,
+    "averageConfidence": 43
+  }
+}

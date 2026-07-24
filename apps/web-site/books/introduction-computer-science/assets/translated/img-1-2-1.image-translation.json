@@ -1,0 +1,141 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-1-2-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/1-2-computer-science-across-the-disciplines.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-1-2-1.vi.png",
+  "ocr": [
+    {
+      "text": "CFSR Atmospheric Precipitable Water [kg/m™2]",
+      "confidence": 65,
+      "bbox": {
+        "x": 87,
+        "y": 75,
+        "w": 694,
+        "h": 50
+      }
+    },
+    {
+      "text": "00Z01MAR1993",
+      "confidence": 65,
+      "bbox": {
+        "x": 87,
+        "y": 175,
+        "w": 694,
+        "h": 50
+      }
+    },
+    {
+      "text": "30N Pe",
+      "confidence": 65,
+      "bbox": {
+        "x": 87,
+        "y": 275,
+        "w": 694,
+        "h": 50
+      }
+    },
+    {
+      "text": "Gas i =",
+      "confidence": 65,
+      "bbox": {
+        "x": 87,
+        "y": 375,
+        "w": 694,
+        "h": 50
+      }
+    },
+    {
+      "text": "Neg 7",
+      "confidence": 65,
+      "bbox": {
+        "x": 87,
+        "y": 475,
+        "w": 694,
+        "h": 50
+      }
+    },
+    {
+      "text": "LE",
+      "confidence": 65,
+      "bbox": {
+        "x": 87,
+        "y": 575,
+        "w": 694,
+        "h": 50
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "CFSR Atmospheric Precipitable Water [kg/m™2]",
+      "target": "Nước mưa khí quyển CFSR [kg/m²]",
+      "bbox": {
+        "x": 87,
+        "y": 75,
+        "w": 694,
+        "h": 50
+      },
+      "overflow": false
+    },
+    {
+      "source": "00Z01MAR1993",
+      "target": "00Z01THÁNG3NĂM1993",
+      "bbox": {
+        "x": 87,
+        "y": 175,
+        "w": 694,
+        "h": 50
+      },
+      "overflow": false
+    },
+    {
+      "source": "30N Pe",
+      "target": "30N Pe",
+      "bbox": {
+        "x": 87,
+        "y": 275,
+        "w": 694,
+        "h": 50
+      },
+      "overflow": false
+    },
+    {
+      "source": "Gas i =",
+      "target": "Khí i =",
+      "bbox": {
+        "x": 87,
+        "y": 375,
+        "w": 694,
+        "h": 50
+      },
+      "overflow": false
+    },
+    {
+      "source": "Neg 7",
+      "target": "Âm 7",
+      "bbox": {
+        "x": 87,
+        "y": 475,
+        "w": 694,
+        "h": 50
+      },
+      "overflow": false
+    },
+    {
+      "source": "LE",
+      "target": "LE",
+      "bbox": {
+        "x": 87,
+        "y": 575,
+        "w": 694,
+        "h": 50
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.3819454636179518,
+    "averageConfidence": 65
+  }
+}

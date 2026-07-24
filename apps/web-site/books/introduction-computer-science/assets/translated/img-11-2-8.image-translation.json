@@ -1,0 +1,267 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-2-8.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-2-sample-responsive-wad-with-bootstrap-and-django.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-11-2-8.vi.png",
+  "ocr": [
+    {
+      "text": "« C QO D 127001 90% TY © In & 3",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 74,
+        "w": 1040,
+        "h": 49
+      }
+    },
+    {
+      "text": "Django REST framewor",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 173,
+        "w": 1040,
+        "h": 49
+      }
+    },
+    {
+      "text": "Api Root",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 272,
+        "w": 1040,
+        "h": 49
+      }
+    },
+    {
+      "text": "Api Root TEE",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 371,
+        "w": 1040,
+        "h": 49
+      }
+    },
+    {
+      "text": "The default basic root view for DefaultRouter",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 470,
+        "w": 1040,
+        "h": 49
+      }
+    },
+    {
+      "text": "GET /api",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 569,
+        "w": 1040,
+        "h": 49
+      }
+    },
+    {
+      "text": "HTTP 208 OK",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 668,
+        "w": 1040,
+        "h": 49
+      }
+    },
+    {
+      "text": "Allow: GET, HEAD, OPTIONS",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 767,
+        "w": 1040,
+        "h": 49
+      }
+    },
+    {
+      "text": "Content-Type: application/json",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 866,
+        "w": 1040,
+        "h": 49
+      }
+    },
+    {
+      "text": "Vary: Accept",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 965,
+        "w": 1040,
+        "h": 49
+      }
+    },
+    {
+      "text": "“categories”: \"http://127.0.9.1:8000/api/categories/\"",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 1064,
+        "w": 1040,
+        "h": 49
+      }
+    },
+    {
+      "text": "\"todos\": \"http://127.0.0.1:8000/api/todos/\"",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 1163,
+        "w": 1040,
+        "h": 49
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "« C QO D 127001 90% TY © In & 3",
+      "target": "C QO D 127001 90% TY © In & 3",
+      "bbox": {
+        "x": 130,
+        "y": 74,
+        "w": 1040,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "Django REST framewor",
+      "target": "Khung làm việc Django REST",
+      "bbox": {
+        "x": 130,
+        "y": 173,
+        "w": 1040,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "Api Root",
+      "target": "Gốc API",
+      "bbox": {
+        "x": 130,
+        "y": 272,
+        "w": 1040,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "Api Root TEE",
+      "target": "Gốc API TEE",
+      "bbox": {
+        "x": 130,
+        "y": 371,
+        "w": 1040,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "The default basic root view for DefaultRouter",
+      "target": "Giao diện gốc mặc định cho DefaultRouter",
+      "bbox": {
+        "x": 130,
+        "y": 470,
+        "w": 1040,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "GET /api",
+      "target": "LẤY /api",
+      "bbox": {
+        "x": 130,
+        "y": 569,
+        "w": 1040,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "HTTP 208 OK",
+      "target": "HTTP 208 OK",
+      "bbox": {
+        "x": 130,
+        "y": 668,
+        "w": 1040,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "Allow: GET, HEAD, OPTIONS",
+      "target": "Cho phép: GET, HEAD, OPTIONS",
+      "bbox": {
+        "x": 130,
+        "y": 767,
+        "w": 1040,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "Content-Type: application/json",
+      "target": "Loại nội dung: ứng dụng/json",
+      "bbox": {
+        "x": 130,
+        "y": 866,
+        "w": 1040,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "Vary: Accept",
+      "target": "Chấp nhận",
+      "bbox": {
+        "x": 130,
+        "y": 965,
+        "w": 1040,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "“categories”: \"http://127.0.9.1:8000/api/categories/\"",
+      "target": "“danh mục”: \"http://127.0.9.1:8000/api/categories/\"",
+      "bbox": {
+        "x": 130,
+        "y": 1064,
+        "w": 1040,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "\"todos\": \"http://127.0.0.1:8000/api/todos/\"",
+      "target": "\"tất cả\": \"http://127.0.0.1:8000/api/todos/\"",
+      "bbox": {
+        "x": 130,
+        "y": 1163,
+        "w": 1040,
+        "h": 49
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.7623987034035656,
+    "averageConfidence": 78
+  }
+}

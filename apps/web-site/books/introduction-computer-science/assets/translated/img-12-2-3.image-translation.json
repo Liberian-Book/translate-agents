@@ -1,0 +1,309 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-2-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-2-cloud-based-and-cloud-native-applications-deployment-technologies.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-12-2-3.vi.png",
+  "ocr": [
+    {
+      "text": "On-premise PaaS",
+      "confidence": 65,
+      "bbox": {
+        "x": 110,
+        "y": 89,
+        "w": 880,
+        "h": 60
+      }
+    },
+    {
+      "text": "Software Software",
+      "confidence": 65,
+      "bbox": {
+        "x": 110,
+        "y": 208,
+        "w": 880,
+        "h": 60
+      }
+    },
+    {
+      "text": "Application Application",
+      "confidence": 65,
+      "bbox": {
+        "x": 110,
+        "y": 327,
+        "w": 880,
+        "h": 60
+      }
+    },
+    {
+      "text": "Data Data",
+      "confidence": 65,
+      "bbox": {
+        "x": 110,
+        "y": 446,
+        "w": 880,
+        "h": 60
+      }
+    },
+    {
+      "text": "Platform Platform",
+      "confidence": 65,
+      "bbox": {
+        "x": 110,
+        "y": 565,
+        "w": 880,
+        "h": 60
+      }
+    },
+    {
+      "text": "& Runtime environment",
+      "confidence": 65,
+      "bbox": {
+        "x": 110,
+        "y": 684,
+        "w": 880,
+        "h": 60
+      }
+    },
+    {
+      "text": "g Middleware",
+      "confidence": 65,
+      "bbox": {
+        "x": 110,
+        "y": 803,
+        "w": 880,
+        "h": 60
+      }
+    },
+    {
+      "text": "£ Operating system T",
+      "confidence": 65,
+      "bbox": {
+        "x": 110,
+        "y": 922,
+        "w": 880,
+        "h": 60
+      }
+    },
+    {
+      "text": "Oo Infrastructure Infrastructure 5",
+      "confidence": 65,
+      "bbox": {
+        "x": 110,
+        "y": 1041,
+        "w": 880,
+        "h": 60
+      }
+    },
+    {
+      "text": "Virtualization 3",
+      "confidence": 65,
+      "bbox": {
+        "x": 110,
+        "y": 1160,
+        "w": 880,
+        "h": 60
+      }
+    },
+    {
+      "text": "se Servers g",
+      "confidence": 65,
+      "bbox": {
+        "x": 110,
+        "y": 1279,
+        "w": 880,
+        "h": 60
+      }
+    },
+    {
+      "text": "5 (Compute/GPU/HPC) s",
+      "confidence": 65,
+      "bbox": {
+        "x": 110,
+        "y": 1398,
+        "w": 880,
+        "h": 60
+      }
+    },
+    {
+      "text": "5 Storage o",
+      "confidence": 65,
+      "bbox": {
+        "x": 110,
+        "y": 1517,
+        "w": 880,
+        "h": 60
+      }
+    },
+    {
+      "text": "z (Object/block/file) 3",
+      "confidence": 65,
+      "bbox": {
+        "x": 110,
+        "y": 1636,
+        "w": 880,
+        "h": 60
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "On-premise PaaS",
+      "target": "PaaS tại chỗ",
+      "bbox": {
+        "x": 110,
+        "y": 89,
+        "w": 880,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "Software Software",
+      "target": "Phần mềm",
+      "bbox": {
+        "x": 110,
+        "y": 208,
+        "w": 880,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "Application Application",
+      "target": "Ứng dụng",
+      "bbox": {
+        "x": 110,
+        "y": 327,
+        "w": 880,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "Data Data",
+      "target": "Dữ liệu Dữ liệu",
+      "bbox": {
+        "x": 110,
+        "y": 446,
+        "w": 880,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "Platform Platform",
+      "target": "Nền tảng Nền tảng",
+      "bbox": {
+        "x": 110,
+        "y": 565,
+        "w": 880,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "& Runtime environment",
+      "target": "& Môi trường thực thi",
+      "bbox": {
+        "x": 110,
+        "y": 684,
+        "w": 880,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "g Middleware",
+      "target": "g Phần mềm trung gian",
+      "bbox": {
+        "x": 110,
+        "y": 803,
+        "w": 880,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "£ Operating system T",
+      "target": "Hệ điều hành T",
+      "bbox": {
+        "x": 110,
+        "y": 922,
+        "w": 880,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "Oo Infrastructure Infrastructure 5",
+      "target": "Cơ sở hạ tầng 5",
+      "bbox": {
+        "x": 110,
+        "y": 1041,
+        "w": 880,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "Virtualization 3",
+      "target": "Ảo hóa 3",
+      "bbox": {
+        "x": 110,
+        "y": 1160,
+        "w": 880,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "se Servers g",
+      "target": "máy chủ g",
+      "bbox": {
+        "x": 110,
+        "y": 1279,
+        "w": 880,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "5 (Compute/GPU/HPC) s",
+      "target": "5 (Tính toán/GPU/HPC) giây",
+      "bbox": {
+        "x": 110,
+        "y": 1398,
+        "w": 880,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "5 Storage o",
+      "target": "5 Lưu trữ",
+      "bbox": {
+        "x": 110,
+        "y": 1517,
+        "w": 880,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "z (Object/block/file) 3",
+      "target": "z (Đối tượng/khối/tệp) 3",
+      "bbox": {
+        "x": 110,
+        "y": 1636,
+        "w": 880,
+        "h": 60
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.9020134228187919,
+    "averageConfidence": 65
+  }
+}

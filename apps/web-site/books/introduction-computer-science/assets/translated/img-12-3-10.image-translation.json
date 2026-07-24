@@ -1,0 +1,24 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-3-10.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-3-example-paas-and-faas-deployments-of-cloud-native-applications.html",
+  "decision": "review",
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "{\"inventory\":[{\"id\":1,\"name\": \"yogurt\", \"quantity\":200, \"date\": \"2023-04-17\"}]}",
+      "confidence": 43,
+      "bbox": {
+        "x": 90,
+        "y": 10,
+        "w": 720,
+        "h": 24
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.24,
+    "averageConfidence": 43
+  }
+}

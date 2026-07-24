@@ -13,6 +13,10 @@ export function getBookPath(book) {
   return path.resolve(repoRoot, '..', book);
 }
 
+export function getDataBookPath(book) {
+  return path.join(repoRoot, 'data', book);
+}
+
 export function formatBookOutput(book) {
   return getBookPath(book);
 }

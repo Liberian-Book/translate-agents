@@ -1,0 +1,54 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-13-3-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/13-3-big-cloud-paas-mainstream-capabilities.html",
+  "decision": "review",
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Devices",
+      "confidence": 51,
+      "bbox": {
+        "x": 90,
+        "y": 56,
+        "w": 720,
+        "h": 38
+      }
+    },
+    {
+      "text": "Mall _.. ® Operating ™ Device",
+      "confidence": 51,
+      "bbox": {
+        "x": 90,
+        "y": 131,
+        "w": 720,
+        "h": 38
+      }
+    },
+    {
+      "text": "Applications -",
+      "confidence": 51,
+      "bbox": {
+        "x": 90,
+        "y": 206,
+        "w": 720,
+        "h": 38
+      }
+    },
+    {
+      "text": "ue PP << System _ drivers es",
+      "confidence": 51,
+      "bbox": {
+        "x": 90,
+        "y": 281,
+        "w": 720,
+        "h": 38
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.259275053304904,
+    "averageConfidence": 51
+  }
+}

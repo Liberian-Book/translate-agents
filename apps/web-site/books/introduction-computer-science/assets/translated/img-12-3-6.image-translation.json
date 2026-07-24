@@ -1,0 +1,141 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-3-6.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-3-example-paas-and-faas-deployments-of-cloud-native-applications.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-12-3-6.vi.png",
+  "ocr": [
+    {
+      "text": "CG ® 127001 Mm 7",
+      "confidence": 83,
+      "bbox": {
+        "x": 90,
+        "y": 42,
+        "w": 720,
+        "h": 28
+      }
+    },
+    {
+      "text": "Inventory Data",
+      "confidence": 83,
+      "bbox": {
+        "x": 90,
+        "y": 98,
+        "w": 720,
+        "h": 28
+      }
+    },
+    {
+      "text": "ID: 1 Name: yogurt (quantity: 200)",
+      "confidence": 83,
+      "bbox": {
+        "x": 90,
+        "y": 154,
+        "w": 720,
+        "h": 28
+      }
+    },
+    {
+      "text": "Date: 2024-02-26",
+      "confidence": 83,
+      "bbox": {
+        "x": 90,
+        "y": 210,
+        "w": 720,
+        "h": 28
+      }
+    },
+    {
+      "text": "1D: 2 Name: milk (quantity: 100)",
+      "confidence": 83,
+      "bbox": {
+        "x": 90,
+        "y": 266,
+        "w": 720,
+        "h": 28
+      }
+    },
+    {
+      "text": "Date: 2024-02-26",
+      "confidence": 83,
+      "bbox": {
+        "x": 90,
+        "y": 322,
+        "w": 720,
+        "h": 28
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "CG ® 127001 Mm 7",
+      "target": "CG ® 127001 Mm 7",
+      "bbox": {
+        "x": 90,
+        "y": 42,
+        "w": 720,
+        "h": 28
+      },
+      "overflow": false
+    },
+    {
+      "source": "Inventory Data",
+      "target": "Dữ liệu tồn kho",
+      "bbox": {
+        "x": 90,
+        "y": 98,
+        "w": 720,
+        "h": 28
+      },
+      "overflow": false
+    },
+    {
+      "source": "ID: 1 Name: yogurt (quantity: 200)",
+      "target": "sữa chua (số lượng: 200)",
+      "bbox": {
+        "x": 90,
+        "y": 154,
+        "w": 720,
+        "h": 28
+      },
+      "overflow": false
+    },
+    {
+      "source": "Date: 2024-02-26",
+      "target": "Ngày: 26-02-2024",
+      "bbox": {
+        "x": 90,
+        "y": 210,
+        "w": 720,
+        "h": 28
+      },
+      "overflow": false
+    },
+    {
+      "source": "1D: 2 Name: milk (quantity: 100)",
+      "target": "Sữa (số lượng: 100)",
+      "bbox": {
+        "x": 90,
+        "y": 266,
+        "w": 720,
+        "h": 28
+      },
+      "overflow": false
+    },
+    {
+      "source": "Date: 2024-02-26",
+      "target": "Ngày: 26-02-2024",
+      "bbox": {
+        "x": 90,
+        "y": 322,
+        "w": 720,
+        "h": 28
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.3851002865329513,
+    "averageConfidence": 83
+  }
+}

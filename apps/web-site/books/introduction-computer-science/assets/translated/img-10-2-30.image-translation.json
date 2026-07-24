@@ -1,0 +1,603 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-2-30.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-2-enterprise-architecture-management-frameworks.html",
+  "decision": "review",
+  "reason": "translation-overflow",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Interaction RS",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 123,
+        "w": 1042,
+        "h": 82
+      }
+    },
+    {
+      "text": "wv",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 286,
+        "w": 1042,
+        "h": 82
+      }
+    },
+    {
+      "text": "s Business process integration",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 449,
+        "w": 1042,
+        "h": 82
+      }
+    },
+    {
+      "text": "© Business processes w",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 612,
+        "w": 1042,
+        "h": 82
+      }
+    },
+    {
+      "text": "o E = rT— i Zo",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 775,
+        "w": 1042,
+        "h": 82
+      }
+    },
+    {
+      "text": "= 2 2 Application integration Ef I<",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 938,
+        "w": 1042,
+        "h": 82
+      }
+    },
+    {
+      "text": "om EE = = Q",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 1101,
+        "w": 1042,
+        "h": 82
+      }
+    },
+    {
+      "text": "= [oY 8 Application services El =",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 1264,
+        "w": 1042,
+        "h": 82
+      }
+    },
+    {
+      "text": "Sco 5 8",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 1427,
+        "w": 1042,
+        "h": 82
+      }
+    },
+    {
+      "text": "J = = S wer = 2",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 1590,
+        "w": 1042,
+        "h": 82
+      }
+    },
+    {
+      "text": "> < o Service integration =",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 1753,
+        "w": 1042,
+        "h": 82
+      }
+    },
+    {
+      "text": "= LZ m ®",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 1916,
+        "w": 1042,
+        "h": 82
+      }
+    },
+    {
+      "text": "8 Services a",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 2079,
+        "w": 1042,
+        "h": 82
+      }
+    },
+    {
+      "text": "wv",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 2242,
+        "w": 1042,
+        "h": 82
+      }
+    },
+    {
+      "text": "Data integration",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 2405,
+        "w": 1042,
+        "h": 82
+      }
+    },
+    {
+      "text": "Data services",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 2568,
+        "w": 1042,
+        "h": 82
+      }
+    },
+    {
+      "text": "o 8 Infrastructure integration",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 2731,
+        "w": 1042,
+        "h": 82
+      }
+    },
+    {
+      "text": "= E Zz EE Operating system services",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 2894,
+        "w": 1042,
+        "h": 82
+      }
+    },
+    {
+      "text": "29 2 = Network services",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 3057,
+        "w": 1042,
+        "h": 82
+      }
+    },
+    {
+      "text": "ofc ©",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 3220,
+        "w": 1042,
+        "h": 82
+      }
+    },
+    {
+      "text": "sls fo) Network",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 3383,
+        "w": 1042,
+        "h": 82
+      }
+    },
+    {
+      "text": "2 Hardware",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 3546,
+        "w": 1042,
+        "h": 82
+      }
+    },
+    {
+      "text": "Qualities",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 3709,
+        "w": 1042,
+        "h": 82
+      }
+    },
+    {
+      "text": "Interaction Business Application",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 3872,
+        "w": 1042,
+        "h": 82
+      }
+    },
+    {
+      "text": "Integration Frogess \" Integration",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 4035,
+        "w": 1042,
+        "h": 82
+      }
+    },
+    {
+      "text": "Integration",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 4198,
+        "w": 1042,
+        "h": 82
+      }
+    },
+    {
+      "text": "Service Data Infrastructure",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 4361,
+        "w": 1042,
+        "h": 82
+      }
+    },
+    {
+      "text": "Integration Integration Integration",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 4524,
+        "w": 1042,
+        "h": 82
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Interaction RS",
+      "target": "Tương tác RS",
+      "bbox": {
+        "x": 130,
+        "y": 123,
+        "w": 1042,
+        "h": 82
+      },
+      "overflow": false
+    },
+    {
+      "source": "wv",
+      "target": "wv",
+      "bbox": {
+        "x": 130,
+        "y": 286,
+        "w": 1042,
+        "h": 82
+      },
+      "overflow": false
+    },
+    {
+      "source": "s Business process integration",
+      "target": "Tích hợp quy trình kinh doanh",
+      "bbox": {
+        "x": 130,
+        "y": 449,
+        "w": 1042,
+        "h": 82
+      },
+      "overflow": false
+    },
+    {
+      "source": "© Business processes w",
+      "target": "© Quy trình kinh doanh",
+      "bbox": {
+        "x": 130,
+        "y": 612,
+        "w": 1042,
+        "h": 82
+      },
+      "overflow": false
+    },
+    {
+      "source": "o E = rT— i Zo",
+      "target": "o E = rT— i Zo",
+      "bbox": {
+        "x": 130,
+        "y": 775,
+        "w": 1042,
+        "h": 82
+      },
+      "overflow": false
+    },
+    {
+      "source": "= 2 2 Application integration Ef I<",
+      "target": "Tích hợp ứng dụng",
+      "bbox": {
+        "x": 130,
+        "y": 938,
+        "w": 1042,
+        "h": 82
+      },
+      "overflow": false
+    },
+    {
+      "source": "om EE = = Q",
+      "target": "om EE = = Q",
+      "bbox": {
+        "x": 130,
+        "y": 1101,
+        "w": 1042,
+        "h": 82
+      },
+      "overflow": false
+    },
+    {
+      "source": "= [oY 8 Application services El =",
+      "target": "Dịch vụ ứng dụng",
+      "bbox": {
+        "x": 130,
+        "y": 1264,
+        "w": 1042,
+        "h": 82
+      },
+      "overflow": false
+    },
+    {
+      "source": "Sco 5 8",
+      "target": "Sco 5 8",
+      "bbox": {
+        "x": 130,
+        "y": 1427,
+        "w": 1042,
+        "h": 82
+      },
+      "overflow": false
+    },
+    {
+      "source": "J = = S wer = 2",
+      "target": "J = = S wer = 2",
+      "bbox": {
+        "x": 130,
+        "y": 1590,
+        "w": 1042,
+        "h": 82
+      },
+      "overflow": false
+    },
+    {
+      "source": "> < o Service integration =",
+      "target": "Tích hợp dịch vụ",
+      "bbox": {
+        "x": 130,
+        "y": 1753,
+        "w": 1042,
+        "h": 82
+      },
+      "overflow": false
+    },
+    {
+      "source": "= LZ m ®",
+      "target": "= LZ m ®",
+      "bbox": {
+        "x": 130,
+        "y": 1916,
+        "w": 1042,
+        "h": 82
+      },
+      "overflow": false
+    },
+    {
+      "source": "8 Services a",
+      "target": "8 Dịch vụ a",
+      "bbox": {
+        "x": 130,
+        "y": 2079,
+        "w": 1042,
+        "h": 82
+      },
+      "overflow": false
+    },
+    {
+      "source": "wv",
+      "target": "wv",
+      "bbox": {
+        "x": 130,
+        "y": 2242,
+        "w": 1042,
+        "h": 82
+      },
+      "overflow": false
+    },
+    {
+      "source": "Data integration",
+      "target": "Tích hợp dữ liệu",
+      "bbox": {
+        "x": 130,
+        "y": 2405,
+        "w": 1042,
+        "h": 82
+      },
+      "overflow": false
+    },
+    {
+      "source": "Data services",
+      "target": "Dịch vụ dữ liệu",
+      "bbox": {
+        "x": 130,
+        "y": 2568,
+        "w": 1042,
+        "h": 82
+      },
+      "overflow": false
+    },
+    {
+      "source": "o 8 Infrastructure integration",
+      "target": "Tích hợp hạ tầng",
+      "bbox": {
+        "x": 130,
+        "y": 2731,
+        "w": 1042,
+        "h": 82
+      },
+      "overflow": false
+    },
+    {
+      "source": "= E Zz EE Operating system services",
+      "target": "Dịch vụ hệ điều hành",
+      "bbox": {
+        "x": 130,
+        "y": 2894,
+        "w": 1042,
+        "h": 82
+      },
+      "overflow": false
+    },
+    {
+      "source": "29 2 = Network services",
+      "target": "Dịch vụ mạng",
+      "bbox": {
+        "x": 130,
+        "y": 3057,
+        "w": 1042,
+        "h": 82
+      },
+      "overflow": false
+    },
+    {
+      "source": "ofc ©",
+      "target": "văn phòng ©",
+      "bbox": {
+        "x": 130,
+        "y": 3220,
+        "w": 1042,
+        "h": 82
+      },
+      "overflow": true
+    },
+    {
+      "source": "sls fo) Network",
+      "target": "mạng SLS",
+      "bbox": {
+        "x": 130,
+        "y": 3383,
+        "w": 1042,
+        "h": 82
+      },
+      "overflow": false
+    },
+    {
+      "source": "2 Hardware",
+      "target": "2 Phần cứng",
+      "bbox": {
+        "x": 130,
+        "y": 3546,
+        "w": 1042,
+        "h": 82
+      },
+      "overflow": false
+    },
+    {
+      "source": "Qualities",
+      "target": "Đặc tính",
+      "bbox": {
+        "x": 130,
+        "y": 3709,
+        "w": 1042,
+        "h": 82
+      },
+      "overflow": false
+    },
+    {
+      "source": "Interaction Business Application",
+      "target": "Ứng dụng Kinh doanh Tương tác",
+      "bbox": {
+        "x": 130,
+        "y": 3872,
+        "w": 1042,
+        "h": 82
+      },
+      "overflow": false
+    },
+    {
+      "source": "Integration Frogess \" Integration",
+      "target": "Tích hợp",
+      "bbox": {
+        "x": 130,
+        "y": 4035,
+        "w": 1042,
+        "h": 82
+      },
+      "overflow": false
+    },
+    {
+      "source": "Integration",
+      "target": "Tích phân",
+      "bbox": {
+        "x": 130,
+        "y": 4198,
+        "w": 1042,
+        "h": 82
+      },
+      "overflow": false
+    },
+    {
+      "source": "Service Data Infrastructure",
+      "target": "Hạ tầng Dữ liệu Dịch vụ",
+      "bbox": {
+        "x": 130,
+        "y": 4361,
+        "w": 1042,
+        "h": 82
+      },
+      "overflow": false
+    },
+    {
+      "source": "Integration Integration Integration",
+      "target": "Tích phân Tích phân Tích phân",
+      "bbox": {
+        "x": 130,
+        "y": 4524,
+        "w": 1042,
+        "h": 82
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 1.7997114361842175,
+    "averageConfidence": 63
+  }
+}

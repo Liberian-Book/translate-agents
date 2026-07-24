@@ -1,0 +1,162 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-2-12.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-2-cloud-based-and-cloud-native-applications-deployment-technologies.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-12-2-12.vi.png",
+  "ocr": [
+    {
+      "text": "VSI, boovs boosh",
+      "confidence": 55,
+      "bbox": {
+        "x": 50,
+        "y": 57,
+        "w": 397,
+        "h": 38
+      }
+    },
+    {
+      "text": "(Os,) ! (0S) ! (0s,)",
+      "confidence": 55,
+      "bbox": {
+        "x": 50,
+        "y": 133,
+        "w": 397,
+        "h": 38
+      }
+    },
+    {
+      "text": "Hypervisor",
+      "confidence": 55,
+      "bbox": {
+        "x": 50,
+        "y": 209,
+        "w": 397,
+        "h": 38
+      }
+    },
+    {
+      "text": "ri [Im N —",
+      "confidence": 55,
+      "bbox": {
+        "x": 50,
+        "y": 285,
+        "w": 397,
+        "h": 38
+      }
+    },
+    {
+      "text": "1 JE",
+      "confidence": 55,
+      "bbox": {
+        "x": 50,
+        "y": 361,
+        "w": 397,
+        "h": 38
+      }
+    },
+    {
+      "text": "CPU RAM Net Store",
+      "confidence": 55,
+      "bbox": {
+        "x": 50,
+        "y": 437,
+        "w": 397,
+        "h": 38
+      }
+    },
+    {
+      "text": "Server",
+      "confidence": 55,
+      "bbox": {
+        "x": 50,
+        "y": 513,
+        "w": 397,
+        "h": 38
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "VSI, boovs boosh",
+      "target": "VSI, boovs boosh",
+      "bbox": {
+        "x": 50,
+        "y": 57,
+        "w": 397,
+        "h": 38
+      },
+      "overflow": false
+    },
+    {
+      "source": "(Os,) ! (0S) ! (0s,)",
+      "target": "(Os,) ! (0S) ! (0s,)",
+      "bbox": {
+        "x": 50,
+        "y": 133,
+        "w": 397,
+        "h": 38
+      },
+      "overflow": false
+    },
+    {
+      "source": "Hypervisor",
+      "target": "Hypervisor",
+      "bbox": {
+        "x": 50,
+        "y": 209,
+        "w": 397,
+        "h": 38
+      },
+      "overflow": false
+    },
+    {
+      "source": "ri [Im N —",
+      "target": "ri [Im N —",
+      "bbox": {
+        "x": 50,
+        "y": 285,
+        "w": 397,
+        "h": 38
+      },
+      "overflow": false
+    },
+    {
+      "source": "1 JE",
+      "target": "1 JE",
+      "bbox": {
+        "x": 50,
+        "y": 361,
+        "w": 397,
+        "h": 38
+      },
+      "overflow": false
+    },
+    {
+      "source": "CPU RAM Net Store",
+      "target": "CPU RAM Mạng Lưu trữ",
+      "bbox": {
+        "x": 50,
+        "y": 437,
+        "w": 397,
+        "h": 38
+      },
+      "overflow": false
+    },
+    {
+      "source": "Server",
+      "target": "Máy chủ",
+      "bbox": {
+        "x": 50,
+        "y": 513,
+        "w": 397,
+        "h": 38
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.44728415559772294,
+    "averageConfidence": 55
+  }
+}

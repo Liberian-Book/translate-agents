@@ -1,0 +1,204 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-2-11.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-2-enterprise-architecture-management-frameworks.html",
+  "decision": "review",
+  "reason": "translation-overflow",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Framework",
+      "confidence": 92,
+      "bbox": {
+        "x": 78,
+        "y": 120,
+        "w": 626,
+        "h": 80
+      }
+    },
+    {
+      "text": "People Process Information",
+      "confidence": 92,
+      "bbox": {
+        "x": 78,
+        "y": 280,
+        "w": 626,
+        "h": 80
+      }
+    },
+    {
+      "text": "Business",
+      "confidence": 92,
+      "bbox": {
+        "x": 78,
+        "y": 440,
+        "w": 626,
+        "h": 80
+      }
+    },
+    {
+      "text": "Application",
+      "confidence": 92,
+      "bbox": {
+        "x": 78,
+        "y": 600,
+        "w": 626,
+        "h": 80
+      }
+    },
+    {
+      "text": "Technical",
+      "confidence": 92,
+      "bbox": {
+        "x": 78,
+        "y": 760,
+        "w": 626,
+        "h": 80
+      }
+    },
+    {
+      "text": "Method",
+      "confidence": 92,
+      "bbox": {
+        "x": 78,
+        "y": 920,
+        "w": 626,
+        "h": 80
+      }
+    },
+    {
+      "text": "Plan",
+      "confidence": 92,
+      "bbox": {
+        "x": 78,
+        "y": 1080,
+        "w": 626,
+        "h": 80
+      }
+    },
+    {
+      "text": "Deliver",
+      "confidence": 92,
+      "bbox": {
+        "x": 78,
+        "y": 1240,
+        "w": 626,
+        "h": 80
+      }
+    },
+    {
+      "text": "Operate",
+      "confidence": 92,
+      "bbox": {
+        "x": 78,
+        "y": 1400,
+        "w": 626,
+        "h": 80
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Framework",
+      "target": "Khung làm việc",
+      "bbox": {
+        "x": 78,
+        "y": 120,
+        "w": 626,
+        "h": 80
+      },
+      "overflow": false
+    },
+    {
+      "source": "People Process Information",
+      "target": "Con người xử lý thông tin",
+      "bbox": {
+        "x": 78,
+        "y": 280,
+        "w": 626,
+        "h": 80
+      },
+      "overflow": false
+    },
+    {
+      "source": "Business",
+      "target": "Kinh doanh",
+      "bbox": {
+        "x": 78,
+        "y": 440,
+        "w": 626,
+        "h": 80
+      },
+      "overflow": false
+    },
+    {
+      "source": "Application",
+      "target": "Ứng dụng",
+      "bbox": {
+        "x": 78,
+        "y": 600,
+        "w": 626,
+        "h": 80
+      },
+      "overflow": false
+    },
+    {
+      "source": "Technical",
+      "target": "Kỹ thuật",
+      "bbox": {
+        "x": 78,
+        "y": 760,
+        "w": 626,
+        "h": 80
+      },
+      "overflow": false
+    },
+    {
+      "source": "Method",
+      "target": "Phương pháp",
+      "bbox": {
+        "x": 78,
+        "y": 920,
+        "w": 626,
+        "h": 80
+      },
+      "overflow": false
+    },
+    {
+      "source": "Plan",
+      "target": "Kế hoạch",
+      "bbox": {
+        "x": 78,
+        "y": 1080,
+        "w": 626,
+        "h": 80
+      },
+      "overflow": true
+    },
+    {
+      "source": "Deliver",
+      "target": "Giao hàng",
+      "bbox": {
+        "x": 78,
+        "y": 1240,
+        "w": 626,
+        "h": 80
+      },
+      "overflow": false
+    },
+    {
+      "source": "Operate",
+      "target": "Vận hành",
+      "bbox": {
+        "x": 78,
+        "y": 1400,
+        "w": 626,
+        "h": 80
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.5750571267812647,
+    "averageConfidence": 92
+  }
+}

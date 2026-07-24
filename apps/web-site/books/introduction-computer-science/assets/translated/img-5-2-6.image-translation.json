@@ -1,0 +1,84 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-5-2-6.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/5-2-computer-levels-of-abstraction.html",
+  "decision": "review",
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "QL",
+      "confidence": 50,
+      "bbox": {
+        "x": 90,
+        "y": 68,
+        "w": 718,
+        "h": 45
+      }
+    },
+    {
+      "text": "Application \\ / Hard drive",
+      "confidence": 50,
+      "bbox": {
+        "x": 90,
+        "y": 158,
+        "w": 718,
+        "h": 45
+      }
+    },
+    {
+      "text": "~~ «Operating 4 Mouse",
+      "confidence": 50,
+      "bbox": {
+        "x": 90,
+        "y": 248,
+        "w": 718,
+        "h": 45
+      }
+    },
+    {
+      "text": "system (",
+      "confidence": 50,
+      "bbox": {
+        "x": 90,
+        "y": 338,
+        "w": 718,
+        "h": 45
+      }
+    },
+    {
+      "text": "[LLL LEE",
+      "confidence": 50,
+      "bbox": {
+        "x": 90,
+        "y": 428,
+        "w": 718,
+        "h": 45
+      }
+    },
+    {
+      "text": "Keyboard J=TLTLTITITITLL H Printer",
+      "confidence": 50,
+      "bbox": {
+        "x": 90,
+        "y": 518,
+        "w": 718,
+        "h": 45
+      }
+    },
+    {
+      "text": "| mossm——maEs",
+      "confidence": 50,
+      "bbox": {
+        "x": 90,
+        "y": 608,
+        "w": 718,
+        "h": 45
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.4473529097619735,
+    "averageConfidence": 50
+  }
+}

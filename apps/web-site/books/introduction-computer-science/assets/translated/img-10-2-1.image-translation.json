@@ -1,0 +1,183 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-2-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-2-enterprise-architecture-management-frameworks.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-10-2-1.vi.png",
+  "ocr": [
+    {
+      "text": "Enterprise Architecture (EA) Enterprise Architecture (EA) Enterprise Architecture",
+      "confidence": 95,
+      "bbox": {
+        "x": 130,
+        "y": 38,
+        "w": 1040,
+        "h": 26
+      }
+    },
+    {
+      "text": "Governance Management (EAM)",
+      "confidence": 95,
+      "bbox": {
+        "x": 130,
+        "y": 89,
+        "w": 1040,
+        "h": 26
+      }
+    },
+    {
+      "text": "Presents current and future",
+      "confidence": 95,
+      "bbox": {
+        "x": 130,
+        "y": 140,
+        "w": 1040,
+        "h": 26
+      }
+    },
+    {
+      "text": "information, technology, Defines the roles, policies, Uses Agile methodology to",
+      "confidence": 95,
+      "bbox": {
+        "x": 130,
+        "y": 191,
+        "w": 1040,
+        "h": 26
+      }
+    },
+    {
+      "text": "systems, applications, and processes, and activities that implement and maintain",
+      "confidence": 95,
+      "bbox": {
+        "x": 130,
+        "y": 242,
+        "w": 1040,
+        "h": 26
+      }
+    },
+    {
+      "text": "business processes that teams use to execute business and IT solution",
+      "confidence": 95,
+      "bbox": {
+        "x": 130,
+        "y": 293,
+        "w": 1040,
+        "h": 26
+      }
+    },
+    {
+      "text": "support an organization's enterprise architecture architectures",
+      "confidence": 95,
+      "bbox": {
+        "x": 130,
+        "y": 344,
+        "w": 1040,
+        "h": 26
+      }
+    },
+    {
+      "text": "goals over time initiatives in an organization",
+      "confidence": 95,
+      "bbox": {
+        "x": 130,
+        "y": 395,
+        "w": 1040,
+        "h": 26
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Enterprise Architecture (EA) Enterprise Architecture (EA) Enterprise Architecture",
+      "target": "Kiến trúc Doanh nghiệp (EA)",
+      "bbox": {
+        "x": 130,
+        "y": 38,
+        "w": 1040,
+        "h": 26
+      },
+      "overflow": false
+    },
+    {
+      "source": "Governance Management (EAM)",
+      "target": "Quản lý Chính phủ (EAM)",
+      "bbox": {
+        "x": 130,
+        "y": 89,
+        "w": 1040,
+        "h": 26
+      },
+      "overflow": false
+    },
+    {
+      "source": "Presents current and future",
+      "target": "Hiện tại và tương lai",
+      "bbox": {
+        "x": 130,
+        "y": 140,
+        "w": 1040,
+        "h": 26
+      },
+      "overflow": false
+    },
+    {
+      "source": "information, technology, Defines the roles, policies, Uses Agile methodology to",
+      "target": "thông tin, công nghệ, Định nghĩa vai trò, chính sách, Sử dụng phương pháp Agile để",
+      "bbox": {
+        "x": 130,
+        "y": 191,
+        "w": 1040,
+        "h": 26
+      },
+      "overflow": false
+    },
+    {
+      "source": "systems, applications, and processes, and activities that implement and maintain",
+      "target": "hệ thống, ứng dụng, quy trình và hoạt động thực hiện và duy trì",
+      "bbox": {
+        "x": 130,
+        "y": 242,
+        "w": 1040,
+        "h": 26
+      },
+      "overflow": false
+    },
+    {
+      "source": "business processes that teams use to execute business and IT solution",
+      "target": "quy trình kinh doanh mà các nhóm sử dụng để thực hiện giải pháp kinh doanh và CNTT",
+      "bbox": {
+        "x": 130,
+        "y": 293,
+        "w": 1040,
+        "h": 26
+      },
+      "overflow": false
+    },
+    {
+      "source": "support an organization's enterprise architecture architectures",
+      "target": "hỗ trợ kiến trúc doanh nghiệp của tổ chức",
+      "bbox": {
+        "x": 130,
+        "y": 344,
+        "w": 1040,
+        "h": 26
+      },
+      "overflow": false
+    },
+    {
+      "source": "goals over time initiatives in an organization",
+      "target": "mục tiêu theo thời gian sáng kiến trong tổ chức",
+      "bbox": {
+        "x": 130,
+        "y": 395,
+        "w": 1040,
+        "h": 26
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.5216300940438872,
+    "averageConfidence": 95
+  }
+}

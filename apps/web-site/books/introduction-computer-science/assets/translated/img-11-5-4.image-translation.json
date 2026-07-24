@@ -1,0 +1,234 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-5-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-5-sample-native-wad-with-react-native-and-node-or-django.html",
+  "decision": "review",
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "$ npx react-native start",
+      "confidence": 25,
+      "bbox": {
+        "x": 64,
+        "y": 65,
+        "w": 509,
+        "h": 44
+      }
+    },
+    {
+      "text": "HERR",
+      "confidence": 25,
+      "bbox": {
+        "x": 64,
+        "y": 152,
+        "w": 509,
+        "h": 44
+      }
+    },
+    {
+      "text": "BRERA",
+      "confidence": 25,
+      "bbox": {
+        "x": 64,
+        "y": 239,
+        "w": 509,
+        "h": 44
+      }
+    },
+    {
+      "text": "HEHEHE pr",
+      "confidence": 25,
+      "bbox": {
+        "x": 64,
+        "y": 326,
+        "w": 509,
+        "h": 44
+      }
+    },
+    {
+      "text": "HEHEHE BERRY",
+      "confidence": 25,
+      "bbox": {
+        "x": 64,
+        "y": 413,
+        "w": 509,
+        "h": 44
+      }
+    },
+    {
+      "text": "ry HERE HERR",
+      "confidence": 25,
+      "bbox": {
+        "x": 64,
+        "y": 500,
+        "w": 509,
+        "h": 44
+      }
+    },
+    {
+      "text": "HERERERH REE RRR",
+      "confidence": 25,
+      "bbox": {
+        "x": 64,
+        "y": 587,
+        "w": 509,
+        "h": 44
+      }
+    },
+    {
+      "text": "BEEEE BE pres",
+      "confidence": 25,
+      "bbox": {
+        "x": 64,
+        "y": 674,
+        "w": 509,
+        "h": 44
+      }
+    },
+    {
+      "text": "aad HERRERA HEH",
+      "confidence": 25,
+      "bbox": {
+        "x": 64,
+        "y": 761,
+        "w": 509,
+        "h": 44
+      }
+    },
+    {
+      "text": "BEEE Hh pr Hh HEE",
+      "confidence": 25,
+      "bbox": {
+        "x": 64,
+        "y": 848,
+        "w": 509,
+        "h": 44
+      }
+    },
+    {
+      "text": "BEEE aid HbR HEE",
+      "confidence": 25,
+      "bbox": {
+        "x": 64,
+        "y": 935,
+        "w": 509,
+        "h": 44
+      }
+    },
+    {
+      "text": "BEEE HERE BEEBE HEE",
+      "confidence": 25,
+      "bbox": {
+        "x": 64,
+        "y": 1022,
+        "w": 509,
+        "h": 44
+      }
+    },
+    {
+      "text": "rr HEHE Err",
+      "confidence": 25,
+      "bbox": {
+        "x": 64,
+        "y": 1109,
+        "w": 509,
+        "h": 44
+      }
+    },
+    {
+      "text": "BEEHE BEERERRRRE RRR HEE",
+      "confidence": 25,
+      "bbox": {
+        "x": 64,
+        "y": 1196,
+        "w": 509,
+        "h": 44
+      }
+    },
+    {
+      "text": "#REHE HERREERRRR RRR RRA HERES",
+      "confidence": 25,
+      "bbox": {
+        "x": 64,
+        "y": 1283,
+        "w": 509,
+        "h": 44
+      }
+    },
+    {
+      "text": "Haag HRERERERRRRRE HEE",
+      "confidence": 25,
+      "bbox": {
+        "x": 64,
+        "y": 1370,
+        "w": 509,
+        "h": 44
+      }
+    },
+    {
+      "text": "HEREERE Ha HREREREEE",
+      "confidence": 25,
+      "bbox": {
+        "x": 64,
+        "y": 1457,
+        "w": 509,
+        "h": 44
+      }
+    },
+    {
+      "text": "BRERA HEERERERE",
+      "confidence": 25,
+      "bbox": {
+        "x": 64,
+        "y": 1544,
+        "w": 509,
+        "h": 44
+      }
+    },
+    {
+      "text": "HERRERERE RURRHRSRE",
+      "confidence": 25,
+      "bbox": {
+        "x": 64,
+        "y": 1631,
+        "w": 509,
+        "h": 44
+      }
+    },
+    {
+      "text": "HERES",
+      "confidence": 25,
+      "bbox": {
+        "x": 64,
+        "y": 1718,
+        "w": 509,
+        "h": 44
+      }
+    },
+    {
+      "text": "Welcome to Metro!",
+      "confidence": 25,
+      "bbox": {
+        "x": 64,
+        "y": 1805,
+        "w": 509,
+        "h": 44
+      }
+    },
+    {
+      "text": "Fast - Scalable - Integrated",
+      "confidence": 25,
+      "bbox": {
+        "x": 64,
+        "y": 1892,
+        "w": 509,
+        "h": 44
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 1.4214759679187583,
+    "averageConfidence": 25
+  }
+}

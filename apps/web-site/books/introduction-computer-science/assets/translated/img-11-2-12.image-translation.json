@@ -1,0 +1,225 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-2-12.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-2-sample-responsive-wad-with-bootstrap-and-django.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-11-2-12.vi.png",
+  "ocr": [
+    {
+      "text": "Api Root | Todo List",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 104,
+        "w": 1040,
+        "h": 70
+      }
+    },
+    {
+      "text": "Todo List opTIONS",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 243,
+        "w": 1040,
+        "h": 70
+      }
+    },
+    {
+      "text": "Raw data HTML form",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 382,
+        "w": 1040,
+        "h": 70
+      }
+    },
+    {
+      "text": "Title",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 521,
+        "w": 1040,
+        "h": 70
+      }
+    },
+    {
+      "text": "Content",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 660,
+        "w": 1040,
+        "h": 70
+      }
+    },
+    {
+      "text": "Yi",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 799,
+        "w": 1040,
+        "h": 70
+      }
+    },
+    {
+      "text": "Created mm/dd/yyyy",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 938,
+        "w": 1040,
+        "h": 70
+      }
+    },
+    {
+      "text": "Due date mm/dd/yyyy",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 1077,
+        "w": 1040,
+        "h": 70
+      }
+    },
+    {
+      "text": "Category ~~ Work v",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 1216,
+        "w": 1040,
+        "h": 70
+      }
+    },
+    {
+      "text": "Personal",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 1355,
+        "w": 1040,
+        "h": 70
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Api Root | Todo List",
+      "target": "Gốc API | Danh sách Công việc",
+      "bbox": {
+        "x": 130,
+        "y": 104,
+        "w": 1040,
+        "h": 70
+      },
+      "overflow": false
+    },
+    {
+      "source": "Todo List opTIONS",
+      "target": "Tùy chọn danh sách công việc",
+      "bbox": {
+        "x": 130,
+        "y": 243,
+        "w": 1040,
+        "h": 70
+      },
+      "overflow": false
+    },
+    {
+      "source": "Raw data HTML form",
+      "target": "Dữ liệu thô mẫu HTML",
+      "bbox": {
+        "x": 130,
+        "y": 382,
+        "w": 1040,
+        "h": 70
+      },
+      "overflow": false
+    },
+    {
+      "source": "Title",
+      "target": "Tiêu đề",
+      "bbox": {
+        "x": 130,
+        "y": 521,
+        "w": 1040,
+        "h": 70
+      },
+      "overflow": false
+    },
+    {
+      "source": "Content",
+      "target": "Nội dung",
+      "bbox": {
+        "x": 130,
+        "y": 660,
+        "w": 1040,
+        "h": 70
+      },
+      "overflow": false
+    },
+    {
+      "source": "Yi",
+      "target": "Yi",
+      "bbox": {
+        "x": 130,
+        "y": 799,
+        "w": 1040,
+        "h": 70
+      },
+      "overflow": false
+    },
+    {
+      "source": "Created mm/dd/yyyy",
+      "target": "Ngày tạo mm/dd/yyyy",
+      "bbox": {
+        "x": 130,
+        "y": 938,
+        "w": 1040,
+        "h": 70
+      },
+      "overflow": false
+    },
+    {
+      "source": "Due date mm/dd/yyyy",
+      "target": "Hạn chót mm/dd/yyyy",
+      "bbox": {
+        "x": 130,
+        "y": 1077,
+        "w": 1040,
+        "h": 70
+      },
+      "overflow": false
+    },
+    {
+      "source": "Category ~~ Work v",
+      "target": "Danh mục ~~ Công việc v",
+      "bbox": {
+        "x": 130,
+        "y": 1216,
+        "w": 1040,
+        "h": 70
+      },
+      "overflow": false
+    },
+    {
+      "source": "Personal",
+      "target": "Cá nhân",
+      "bbox": {
+        "x": 130,
+        "y": 1355,
+        "w": 1040,
+        "h": 70
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.6444188722669736,
+    "averageConfidence": 83
+  }
+}

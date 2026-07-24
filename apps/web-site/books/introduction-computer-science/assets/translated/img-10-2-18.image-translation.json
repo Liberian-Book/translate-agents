@@ -1,0 +1,456 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-2-18.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-2-enterprise-architecture-management-frameworks.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-10-2-18.vi.png",
+  "ocr": [
+    {
+      "text": "Current state Future state Implementation",
+      "confidence": 87,
+      "bbox": {
+        "x": 130,
+        "y": 114,
+        "w": 1040,
+        "h": 76
+      }
+    },
+    {
+      "text": "assessment definition road map",
+      "confidence": 87,
+      "bbox": {
+        "x": 130,
+        "y": 266,
+        "w": 1040,
+        "h": 76
+      }
+    },
+    {
+      "text": "1. Business inventory 4. Establish priorities 7. Solution options",
+      "confidence": 87,
+      "bbox": {
+        "x": 130,
+        "y": 418,
+        "w": 1040,
+        "h": 76
+      }
+    },
+    {
+      "text": "* Business objectives + Business drivers * Quadrant mapping for",
+      "confidence": 87,
+      "bbox": {
+        "x": 130,
+        "y": 570,
+        "w": 1040,
+        "h": 76
+      }
+    },
+    {
+      "text": "* Business plan points + Business priorities disposition of existing",
+      "confidence": 87,
+      "bbox": {
+        "x": 130,
+        "y": 722,
+        "w": 1040,
+        "h": 76
+      }
+    },
+    {
+      "text": "» Improvement opportunities + IT priorities assets",
+      "confidence": 87,
+      "bbox": {
+        "x": 130,
+        "y": 874,
+        "w": 1040,
+        "h": 76
+      }
+    },
+    {
+      "text": "« Benchmarking with + Solution options for",
+      "confidence": 87,
+      "bbox": {
+        "x": 130,
+        "y": 1026,
+        "w": 1040,
+        "h": 76
+      }
+    },
+    {
+      "text": "best practices implementation",
+      "confidence": 87,
+      "bbox": {
+        "x": 130,
+        "y": 1178,
+        "w": 1040,
+        "h": 76
+      }
+    },
+    {
+      "text": "2. System inventory 5. Business architecture 8. Implementation planning",
+      "confidence": 87,
+      "bbox": {
+        "x": 130,
+        "y": 1330,
+        "w": 1040,
+        "h": 76
+      }
+    },
+    {
+      "text": "« List of applications + Business capability + Adoption road map based",
+      "confidence": 87,
+      "bbox": {
+        "x": 130,
+        "y": 1482,
+        "w": 1040,
+        "h": 76
+      }
+    },
+    {
+      "text": "+ System context diagrams frameworks on current modernization",
+      "confidence": 87,
+      "bbox": {
+        "x": 130,
+        "y": 1634,
+        "w": 1040,
+        "h": 76
+      }
+    },
+    {
+      "text": "+ Integration architecture + Future state business plan",
+      "confidence": 87,
+      "bbox": {
+        "x": 130,
+        "y": 1786,
+        "w": 1040,
+        "h": 76
+      }
+    },
+    {
+      "text": "+ Databases usage and processes + Business benefits",
+      "confidence": 87,
+      "bbox": {
+        "x": 130,
+        "y": 1938,
+        "w": 1040,
+        "h": 76
+      }
+    },
+    {
+      "text": "distribution",
+      "confidence": 87,
+      "bbox": {
+        "x": 130,
+        "y": 2090,
+        "w": 1040,
+        "h": 76
+      }
+    },
+    {
+      "text": "* Technology health",
+      "confidence": 87,
+      "bbox": {
+        "x": 130,
+        "y": 2242,
+        "w": 1040,
+        "h": 76
+      }
+    },
+    {
+      "text": "6. Technology architecture",
+      "confidence": 87,
+      "bbox": {
+        "x": 130,
+        "y": 2394,
+        "w": 1040,
+        "h": 76
+      }
+    },
+    {
+      "text": "3. Business/IT alignment",
+      "confidence": 87,
+      "bbox": {
+        "x": 130,
+        "y": 2546,
+        "w": 1040,
+        "h": 76
+      }
+    },
+    {
+      "text": "+ Conceptual architecture",
+      "confidence": 87,
+      "bbox": {
+        "x": 130,
+        "y": 2698,
+        "w": 1040,
+        "h": 76
+      }
+    },
+    {
+      "text": "+ Technology health and + Application architecture",
+      "confidence": 87,
+      "bbox": {
+        "x": 130,
+        "y": 2850,
+        "w": 1040,
+        "h": 76
+      }
+    },
+    {
+      "text": "business alignment + Integration architecture",
+      "confidence": 87,
+      "bbox": {
+        "x": 130,
+        "y": 3002,
+        "w": 1040,
+        "h": 76
+      }
+    },
+    {
+      "text": "+ Data architecture view",
+      "confidence": 87,
+      "bbox": {
+        "x": 130,
+        "y": 3154,
+        "w": 1040,
+        "h": 76
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Current state Future state Implementation",
+      "target": "Trạng thái hiện tại Trạng thái tương lai Triển khai",
+      "bbox": {
+        "x": 130,
+        "y": 114,
+        "w": 1040,
+        "h": 76
+      },
+      "overflow": false
+    },
+    {
+      "source": "assessment definition road map",
+      "target": "định nghĩa đánh giá lộ trình",
+      "bbox": {
+        "x": 130,
+        "y": 266,
+        "w": 1040,
+        "h": 76
+      },
+      "overflow": false
+    },
+    {
+      "source": "1. Business inventory 4. Establish priorities 7. Solution options",
+      "target": "1. Tồn kho doanh nghiệp  \n4. Thiết lập ưu tiên  \n7. Các lựa chọn giải pháp",
+      "bbox": {
+        "x": 130,
+        "y": 418,
+        "w": 1040,
+        "h": 76
+      },
+      "overflow": false
+    },
+    {
+      "source": "* Business objectives + Business drivers * Quadrant mapping for",
+      "target": "* Mục tiêu kinh doanh + Yếu tố thúc đẩy kinh doanh * Phân tích theo tứ giác cho",
+      "bbox": {
+        "x": 130,
+        "y": 570,
+        "w": 1040,
+        "h": 76
+      },
+      "overflow": false
+    },
+    {
+      "source": "* Business plan points + Business priorities disposition of existing",
+      "target": "* Điểm kế hoạch kinh doanh + Sắp xếp ưu tiên kinh doanh hiện có",
+      "bbox": {
+        "x": 130,
+        "y": 722,
+        "w": 1040,
+        "h": 76
+      },
+      "overflow": false
+    },
+    {
+      "source": "» Improvement opportunities + IT priorities assets",
+      "target": "Cơ hội cải tiến + Tài sản ưu tiên CNTT",
+      "bbox": {
+        "x": 130,
+        "y": 874,
+        "w": 1040,
+        "h": 76
+      },
+      "overflow": false
+    },
+    {
+      "source": "« Benchmarking with + Solution options for",
+      "target": "« Đánh giá hiệu suất với + Tùy chọn giải pháp cho",
+      "bbox": {
+        "x": 130,
+        "y": 1026,
+        "w": 1040,
+        "h": 76
+      },
+      "overflow": false
+    },
+    {
+      "source": "best practices implementation",
+      "target": "thực hiện các phương pháp tốt nhất",
+      "bbox": {
+        "x": 130,
+        "y": 1178,
+        "w": 1040,
+        "h": 76
+      },
+      "overflow": false
+    },
+    {
+      "source": "2. System inventory 5. Business architecture 8. Implementation planning",
+      "target": "2. Danh mục hệ thống  \n5. Kiến trúc doanh nghiệp  \n8. Kế hoạch triển khai",
+      "bbox": {
+        "x": 130,
+        "y": 1330,
+        "w": 1040,
+        "h": 76
+      },
+      "overflow": false
+    },
+    {
+      "source": "« List of applications + Business capability + Adoption road map based",
+      "target": "Danh sách ứng dụng + Năng lực kinh doanh + Lộ trình áp dụng dựa trên",
+      "bbox": {
+        "x": 130,
+        "y": 1482,
+        "w": 1040,
+        "h": 76
+      },
+      "overflow": false
+    },
+    {
+      "source": "+ System context diagrams frameworks on current modernization",
+      "target": "+ Khung sơ đồ ngữ cảnh hệ thống trong hiện đại hóa hiện tại",
+      "bbox": {
+        "x": 130,
+        "y": 1634,
+        "w": 1040,
+        "h": 76
+      },
+      "overflow": false
+    },
+    {
+      "source": "+ Integration architecture + Future state business plan",
+      "target": "+ Kiến trúc tích hợp + Kế hoạch kinh doanh tương lai",
+      "bbox": {
+        "x": 130,
+        "y": 1786,
+        "w": 1040,
+        "h": 76
+      },
+      "overflow": false
+    },
+    {
+      "source": "+ Databases usage and processes + Business benefits",
+      "target": "+ Sử dụng và quy trình cơ sở dữ liệu + Lợi ích kinh doanh",
+      "bbox": {
+        "x": 130,
+        "y": 1938,
+        "w": 1040,
+        "h": 76
+      },
+      "overflow": false
+    },
+    {
+      "source": "distribution",
+      "target": "phân phối",
+      "bbox": {
+        "x": 130,
+        "y": 2090,
+        "w": 1040,
+        "h": 76
+      },
+      "overflow": false
+    },
+    {
+      "source": "* Technology health",
+      "target": "Sức khỏe công nghệ",
+      "bbox": {
+        "x": 130,
+        "y": 2242,
+        "w": 1040,
+        "h": 76
+      },
+      "overflow": false
+    },
+    {
+      "source": "6. Technology architecture",
+      "target": "Kiến trúc công nghệ",
+      "bbox": {
+        "x": 130,
+        "y": 2394,
+        "w": 1040,
+        "h": 76
+      },
+      "overflow": false
+    },
+    {
+      "source": "3. Business/IT alignment",
+      "target": "3. Sự phù hợp giữa Kinh doanh và CNTT",
+      "bbox": {
+        "x": 130,
+        "y": 2546,
+        "w": 1040,
+        "h": 76
+      },
+      "overflow": false
+    },
+    {
+      "source": "+ Conceptual architecture",
+      "target": "+ Kiến trúc khái niệm",
+      "bbox": {
+        "x": 130,
+        "y": 2698,
+        "w": 1040,
+        "h": 76
+      },
+      "overflow": false
+    },
+    {
+      "source": "+ Technology health and + Application architecture",
+      "target": "+ Công nghệ sức khỏe và + Kiến trúc ứng dụng",
+      "bbox": {
+        "x": 130,
+        "y": 2850,
+        "w": 1040,
+        "h": 76
+      },
+      "overflow": false
+    },
+    {
+      "source": "business alignment + Integration architecture",
+      "target": "Sự phù hợp kinh doanh + Kiến trúc tích hợp",
+      "bbox": {
+        "x": 130,
+        "y": 3002,
+        "w": 1040,
+        "h": 76
+      },
+      "overflow": false
+    },
+    {
+      "source": "+ Data architecture view",
+      "target": "+ Kiến trúc dữ liệu",
+      "bbox": {
+        "x": 130,
+        "y": 3154,
+        "w": 1040,
+        "h": 76
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 1.3482576557550159,
+    "averageConfidence": 87
+  }
+}

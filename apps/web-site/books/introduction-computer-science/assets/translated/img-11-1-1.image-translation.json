@@ -1,0 +1,288 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-1-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-1-modern-web-applications-architectures.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-11-1-1.vi.png",
+  "ocr": [
+    {
+      "text": "Web 1.0: Architecture and Usage Model",
+      "confidence": 61,
+      "bbox": {
+        "x": 118,
+        "y": 75,
+        "w": 945,
+        "h": 50
+      }
+    },
+    {
+      "text": "Published content ' Static",
+      "confidence": 61,
+      "bbox": {
+        "x": 118,
+        "y": 175,
+        "w": 945,
+        "h": 50
+      }
+    },
+    {
+      "text": "| pages",
+      "confidence": 61,
+      "bbox": {
+        "x": 118,
+        "y": 275,
+        "w": 945,
+        "h": 50
+      }
+    },
+    {
+      "text": "| N. HTML1-4",
+      "confidence": 61,
+      "bbox": {
+        "x": 118,
+        "y": 375,
+        "w": 945,
+        "h": 50
+      }
+    },
+    {
+      "text": "5 C55 1-2 (limited)",
+      "confidence": 61,
+      "bbox": {
+        "x": 118,
+        "y": 475,
+        "w": 945,
+        "h": 50
+      }
+    },
+    {
+      "text": "O = = h 7 Js (limited)",
+      "confidence": 61,
+      "bbox": {
+        "x": 118,
+        "y": 575,
+        "w": 945,
+        "h": 50
+      }
+    },
+    {
+      "text": "Cc ams",
+      "confidence": 61,
+      "bbox": {
+        "x": 118,
+        "y": 675,
+        "w": 945,
+        "h": 50
+      }
+    },
+    {
+      "text": ": NZ §",
+      "confidence": 61,
+      "bbox": {
+        "x": 118,
+        "y": 775,
+        "w": 945,
+        "h": 50
+      }
+    },
+    {
+      "text": "User Browser Internet Web Common Gateway",
+      "confidence": 61,
+      "bbox": {
+        "x": 118,
+        "y": 875,
+        "w": 945,
+        "h": 50
+      }
+    },
+    {
+      "text": "' server » Interface (CGI):",
+      "confidence": 61,
+      "bbox": {
+        "x": 118,
+        "y": 975,
+        "w": 945,
+        "h": 50
+      }
+    },
+    {
+      "text": "Scripts perl, C",
+      "confidence": 61,
+      "bbox": {
+        "x": 118,
+        "y": 1075,
+        "w": 945,
+        "h": 50
+      }
+    },
+    {
+      "text": "User-generated |",
+      "confidence": 61,
+      "bbox": {
+        "x": 118,
+        "y": 1175,
+        "w": 945,
+        "h": 50
+      }
+    },
+    {
+      "text": "content i",
+      "confidence": 61,
+      "bbox": {
+        "x": 118,
+        "y": 1275,
+        "w": 945,
+        "h": 50
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Web 1.0: Architecture and Usage Model",
+      "target": "Web 1.0: Kiến trúc và Mô hình Sử dụng",
+      "bbox": {
+        "x": 118,
+        "y": 75,
+        "w": 945,
+        "h": 50
+      },
+      "overflow": false
+    },
+    {
+      "source": "Published content ' Static",
+      "target": "Nội dung tĩnh",
+      "bbox": {
+        "x": 118,
+        "y": 175,
+        "w": 945,
+        "h": 50
+      },
+      "overflow": false
+    },
+    {
+      "source": "| pages",
+      "target": "| trang",
+      "bbox": {
+        "x": 118,
+        "y": 275,
+        "w": 945,
+        "h": 50
+      },
+      "overflow": false
+    },
+    {
+      "source": "| N. HTML1-4",
+      "target": "N. HTML1-4",
+      "bbox": {
+        "x": 118,
+        "y": 375,
+        "w": 945,
+        "h": 50
+      },
+      "overflow": false
+    },
+    {
+      "source": "5 C55 1-2 (limited)",
+      "target": "5 C55 1-2 (hạn chế)",
+      "bbox": {
+        "x": 118,
+        "y": 475,
+        "w": 945,
+        "h": 50
+      },
+      "overflow": false
+    },
+    {
+      "source": "O = = h 7 Js (limited)",
+      "target": "O = = h 7 Js (hạn chế)",
+      "bbox": {
+        "x": 118,
+        "y": 575,
+        "w": 945,
+        "h": 50
+      },
+      "overflow": false
+    },
+    {
+      "source": "Cc ams",
+      "target": "Cc ams",
+      "bbox": {
+        "x": 118,
+        "y": 675,
+        "w": 945,
+        "h": 50
+      },
+      "overflow": false
+    },
+    {
+      "source": ": NZ §",
+      "target": "NZ §",
+      "bbox": {
+        "x": 118,
+        "y": 775,
+        "w": 945,
+        "h": 50
+      },
+      "overflow": false
+    },
+    {
+      "source": "User Browser Internet Web Common Gateway",
+      "target": "Trình duyệt Người dùng Internet Web Cổng chung",
+      "bbox": {
+        "x": 118,
+        "y": 875,
+        "w": 945,
+        "h": 50
+      },
+      "overflow": false
+    },
+    {
+      "source": "' server » Interface (CGI):",
+      "target": "máy chủ » Giao diện (CGI):",
+      "bbox": {
+        "x": 118,
+        "y": 975,
+        "w": 945,
+        "h": 50
+      },
+      "overflow": false
+    },
+    {
+      "source": "Scripts perl, C",
+      "target": "Kịch bản perl, C",
+      "bbox": {
+        "x": 118,
+        "y": 1075,
+        "w": 945,
+        "h": 50
+      },
+      "overflow": false
+    },
+    {
+      "source": "User-generated |",
+      "target": "Người dùng tạo ra",
+      "bbox": {
+        "x": 118,
+        "y": 1175,
+        "w": 945,
+        "h": 50
+      },
+      "overflow": false
+    },
+    {
+      "source": "content i",
+      "target": "nội dung i",
+      "bbox": {
+        "x": 118,
+        "y": 1275,
+        "w": 945,
+        "h": 50
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.8308467671032022,
+    "averageConfidence": 61
+  }
+}

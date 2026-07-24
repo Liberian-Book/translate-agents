@@ -1,0 +1,141 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-2-10.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-2-sample-responsive-wad-with-bootstrap-and-django.html",
+  "decision": "review",
+  "reason": "translation-overflow",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Api Root Category List",
+      "confidence": 70,
+      "bbox": {
+        "x": 110,
+        "y": 93,
+        "w": 880,
+        "h": 62
+      }
+    },
+    {
+      "text": "Category List oprions",
+      "confidence": 70,
+      "bbox": {
+        "x": 110,
+        "y": 217,
+        "w": 880,
+        "h": 62
+      }
+    },
+    {
+      "text": "Wd Ta",
+      "confidence": 70,
+      "bbox": {
+        "x": 110,
+        "y": 341,
+        "w": 880,
+        "h": 62
+      }
+    },
+    {
+      "text": "Raw data HTML form",
+      "confidence": 70,
+      "bbox": {
+        "x": 110,
+        "y": 465,
+        "w": 880,
+        "h": 62
+      }
+    },
+    {
+      "text": "Name",
+      "confidence": 70,
+      "bbox": {
+        "x": 110,
+        "y": 589,
+        "w": 880,
+        "h": 62
+      }
+    },
+    {
+      "text": "POST",
+      "confidence": 70,
+      "bbox": {
+        "x": 110,
+        "y": 713,
+        "w": 880,
+        "h": 62
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Api Root Category List",
+      "target": "Danh sách danh mục gốc API",
+      "bbox": {
+        "x": 110,
+        "y": 93,
+        "w": 880,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "Category List oprions",
+      "target": "Danh sách danh mục tùy chọn",
+      "bbox": {
+        "x": 110,
+        "y": 217,
+        "w": 880,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "Wd Ta",
+      "target": "Wd Ta",
+      "bbox": {
+        "x": 110,
+        "y": 341,
+        "w": 880,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "Raw data HTML form",
+      "target": "Dữ liệu thô mẫu HTML",
+      "bbox": {
+        "x": 110,
+        "y": 465,
+        "w": 880,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "Name",
+      "target": "Tên",
+      "bbox": {
+        "x": 110,
+        "y": 589,
+        "w": 880,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "POST",
+      "target": "BÀI ĐĂNG",
+      "bbox": {
+        "x": 110,
+        "y": 713,
+        "w": 880,
+        "h": 62
+      },
+      "overflow": true
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.384,
+    "averageConfidence": 70
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-1-6.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-1-introduction-to-cloud-native-applications.html",
+  "decision": "review",
+  "reason": "translation-overflow",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "TE. \\",
+      "confidence": 72,
+      "bbox": {
+        "x": 93,
+        "y": 93,
+        "w": 740,
+        "h": 62
+      }
+    },
+    {
+      "text": "User",
+      "confidence": 72,
+      "bbox": {
+        "x": 93,
+        "y": 218,
+        "w": 740,
+        "h": 62
+      }
+    },
+    {
+      "text": "interface",
+      "confidence": 72,
+      "bbox": {
+        "x": 93,
+        "y": 343,
+        "w": 740,
+        "h": 62
+      }
+    },
+    {
+      "text": "APLgateway",
+      "confidence": 72,
+      "bbox": {
+        "x": 93,
+        "y": 468,
+        "w": 740,
+        "h": 62
+      }
+    },
+    {
+      "text": "Load",
+      "confidence": 72,
+      "bbox": {
+        "x": 93,
+        "y": 593,
+        "w": 740,
+        "h": 62
+      }
+    },
+    {
+      "text": "balancer",
+      "confidence": 72,
+      "bbox": {
+        "x": 93,
+        "y": 718,
+        "w": 740,
+        "h": 62
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "TE. \\",
+      "target": "TE.",
+      "bbox": {
+        "x": 93,
+        "y": 93,
+        "w": 740,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "User",
+      "target": "Người dùng",
+      "bbox": {
+        "x": 93,
+        "y": 218,
+        "w": 740,
+        "h": 62
+      },
+      "overflow": true
+    },
+    {
+      "source": "interface",
+      "target": "giao diện",
+      "bbox": {
+        "x": 93,
+        "y": 343,
+        "w": 740,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "APLgateway",
+      "target": "Cổng APL",
+      "bbox": {
+        "x": 93,
+        "y": 468,
+        "w": 740,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "Load",
+      "target": "Tải trọng",
+      "bbox": {
+        "x": 93,
+        "y": 593,
+        "w": 740,
+        "h": 62
+      },
+      "overflow": true
+    },
+    {
+      "source": "balancer",
+      "target": "cân bằng",
+      "bbox": {
+        "x": 93,
+        "y": 718,
+        "w": 740,
+        "h": 62
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.3820282413350449,
+    "averageConfidence": 72
+  }
+}

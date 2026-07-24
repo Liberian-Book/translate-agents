@@ -1,0 +1,372 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-1-13.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-1-introduction-to-cloud-native-applications.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-12-1-13.vi.png",
+  "ocr": [
+    {
+      "text": "Cloud-nativeapplication",
+      "confidence": 68,
+      "bbox": {
+        "x": 134,
+        "y": 103,
+        "w": 1073,
+        "h": 69
+      }
+    },
+    {
+      "text": "developer (client)",
+      "confidence": 68,
+      "bbox": {
+        "x": 134,
+        "y": 241,
+        "w": 1073,
+        "h": 69
+      }
+    },
+    {
+      "text": "Application or",
+      "confidence": 68,
+      "bbox": {
+        "x": 134,
+        "y": 379,
+        "w": 1073,
+        "h": 69
+      }
+    },
+    {
+      "text": "References Cloud",
+      "confidence": 68,
+      "bbox": {
+        "x": 134,
+        "y": 517,
+        "w": 1073,
+        "h": 69
+      }
+    },
+    {
+      "text": "parent",
+      "confidence": 68,
+      "bbox": {
+        "x": 134,
+        "y": 655,
+        "w": 1073,
+        "h": 69
+      }
+    },
+    {
+      "text": "image",
+      "confidence": 68,
+      "bbox": {
+        "x": 134,
+        "y": 793,
+        "w": 1073,
+        "h": 69
+      }
+    },
+    {
+      "text": "writable container Container platform \\Run",
+      "confidence": 68,
+      "bbox": {
+        "x": 134,
+        "y": 931,
+        "w": 1073,
+        "h": 69
+      }
+    },
+    {
+      "text": "2D y containers",
+      "confidence": 68,
+      "bbox": {
+        "x": 134,
+        "y": 1069,
+        "w": 1073,
+        "h": 69
+      }
+    },
+    {
+      "text": "2 add Django image Da 3) OJ",
+      "confidence": 68,
+      "bbox": {
+        "x": 134,
+        "y": 1207,
+        "w": 1073,
+        "h": 69
+      }
+    },
+    {
+      "text": "27S iil E",
+      "confidence": 68,
+      "bbox": {
+        "x": 134,
+        "y": 1345,
+        "w": 1073,
+        "h": 69
+      }
+    },
+    {
+      "text": "Eps — \" 2D Create AP]",
+      "confidence": 68,
+      "bbox": {
+        "x": 134,
+        "y": 1483,
+        "w": 1073,
+        "h": 69
+      }
+    },
+    {
+      "text": "ws? add Python image images | Daemon Image Cache Virtual machines",
+      "confidence": 68,
+      "bbox": {
+        "x": 134,
+        "y": 1621,
+        "w": 1073,
+        "h": 69
+      }
+    },
+    {
+      "text": "Image \" 2D",
+      "confidence": 68,
+      "bbox": {
+        "x": 134,
+        "y": 1759,
+        "w": 1073,
+        "h": 69
+      }
+    },
+    {
+      "text": "definition Ubuntu (base image) Pull/Push )",
+      "confidence": 68,
+      "bbox": {
+        "x": 134,
+        "y": 1897,
+        "w": 1073,
+        "h": 69
+      }
+    },
+    {
+      "text": "fs (kernel) 2D &",
+      "confidence": 68,
+      "bbox": {
+        "x": 134,
+        "y": 2035,
+        "w": 1073,
+        "h": 69
+      }
+    },
+    {
+      "text": "Image \"layering\" On-premise servers",
+      "confidence": 68,
+      "bbox": {
+        "x": 134,
+        "y": 2173,
+        "w": 1073,
+        "h": 69
+      }
+    },
+    {
+      "text": "Image repository",
+      "confidence": 68,
+      "bbox": {
+        "x": 134,
+        "y": 2311,
+        "w": 1073,
+        "h": 69
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Cloud-nativeapplication",
+      "target": "Ứng dụng đám mây gốc",
+      "bbox": {
+        "x": 134,
+        "y": 103,
+        "w": 1073,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "developer (client)",
+      "target": "nhà phát triển (khách hàng)",
+      "bbox": {
+        "x": 134,
+        "y": 241,
+        "w": 1073,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "Application or",
+      "target": "Ứng dụng hoặc",
+      "bbox": {
+        "x": 134,
+        "y": 379,
+        "w": 1073,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "References Cloud",
+      "target": "Tài liệu tham khảo Đám mây",
+      "bbox": {
+        "x": 134,
+        "y": 517,
+        "w": 1073,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "parent",
+      "target": "cha mẹ",
+      "bbox": {
+        "x": 134,
+        "y": 655,
+        "w": 1073,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "image",
+      "target": "Hình ảnh",
+      "bbox": {
+        "x": 134,
+        "y": 793,
+        "w": 1073,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "writable container Container platform \\Run",
+      "target": "thùng chứa có thể ghi Nền tảng thùng chứa \\Chạy",
+      "bbox": {
+        "x": 134,
+        "y": 931,
+        "w": 1073,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "2D y containers",
+      "target": "bình chứa 2D y",
+      "bbox": {
+        "x": 134,
+        "y": 1069,
+        "w": 1073,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "2 add Django image Da 3) OJ",
+      "target": "2 thêm hình ảnh Django Da 3) OJ",
+      "bbox": {
+        "x": 134,
+        "y": 1207,
+        "w": 1073,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "27S iil E",
+      "target": "27S iil E",
+      "bbox": {
+        "x": 134,
+        "y": 1345,
+        "w": 1073,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "Eps — \" 2D Create AP]",
+      "target": "Eps — \"Tạo 2D AP\"",
+      "bbox": {
+        "x": 134,
+        "y": 1483,
+        "w": 1073,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "ws? add Python image images | Daemon Image Cache Virtual machines",
+      "target": "ws? thêm hình ảnh Python | Bộ nhớ đệm hình ảnh Daemon Máy ảo",
+      "bbox": {
+        "x": 134,
+        "y": 1621,
+        "w": 1073,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "Image \" 2D",
+      "target": "Hình 2D",
+      "bbox": {
+        "x": 134,
+        "y": 1759,
+        "w": 1073,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "definition Ubuntu (base image) Pull/Push )",
+      "target": "định nghĩa Ubuntu (hình ảnh cơ sở) Kéo/Đẩy",
+      "bbox": {
+        "x": 134,
+        "y": 1897,
+        "w": 1073,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "fs (kernel) 2D &",
+      "target": "fs (hạt nhân) 2D &",
+      "bbox": {
+        "x": 134,
+        "y": 2035,
+        "w": 1073,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "Image \"layering\" On-premise servers",
+      "target": "Máy chủ tại chỗ",
+      "bbox": {
+        "x": 134,
+        "y": 2173,
+        "w": 1073,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "Image repository",
+      "target": "Kho hình ảnh",
+      "bbox": {
+        "x": 134,
+        "y": 2311,
+        "w": 1073,
+        "h": 69
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 1.0913662140367306,
+    "averageConfidence": 68
+  }
+}

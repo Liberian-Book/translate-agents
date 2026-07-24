@@ -1,0 +1,64 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-2-15.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-2-cloud-based-and-cloud-native-applications-deployment-technologies.html",
+  "decision": "review",
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "wn 4 TY Aa CY y EEE",
+      "confidence": 50,
+      "bbox": {
+        "x": 50,
+        "y": 46,
+        "w": 398,
+        "h": 31
+      }
+    },
+    {
+      "text": "£ APP, APP, | APP,",
+      "confidence": 50,
+      "bbox": {
+        "x": 50,
+        "y": 108,
+        "w": 398,
+        "h": 31
+      }
+    },
+    {
+      "text": "5 ll —",
+      "confidence": 50,
+      "bbox": {
+        "x": 50,
+        "y": 170,
+        "w": 398,
+        "h": 31
+      }
+    },
+    {
+      "text": "© {_Bins/libs A Bins/libs _Bins/libs",
+      "confidence": 50,
+      "bbox": {
+        "x": 50,
+        "y": 232,
+        "w": 398,
+        "h": 31
+      }
+    },
+    {
+      "text": "Server",
+      "confidence": 50,
+      "bbox": {
+        "x": 50,
+        "y": 294,
+        "w": 398,
+        "h": 31
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.3200917364548634,
+    "averageConfidence": 50
+  }
+}

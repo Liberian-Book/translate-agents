@@ -1,0 +1,372 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-2-10.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-2-enterprise-architecture-management-frameworks.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-10-2-10.vi.png",
+  "ocr": [
+    {
+      "text": "Transformation methodology needs to be Sustaining operation at a given",
+      "confidence": 83,
+      "bbox": {
+        "x": 129,
+        "y": 101,
+        "w": 1035,
+        "h": 67
+      }
+    },
+    {
+      "text": "applied incrementally to reach the desired maturity level may not be possible",
+      "confidence": 83,
+      "bbox": {
+        "x": 129,
+        "y": 235,
+        "w": 1035,
+        "h": 67
+      }
+    },
+    {
+      "text": "level of enterprise maturity established by due to changes in the project road",
+      "confidence": 83,
+      "bbox": {
+        "x": 129,
+        "y": 369,
+        "w": 1035,
+        "h": 67
+      }
+    },
+    {
+      "text": "sponsors upon the recommendation of map, ongoing change requests evolution",
+      "confidence": 83,
+      "bbox": {
+        "x": 129,
+        "y": 503,
+        "w": 1035,
+        "h": 67
+      }
+    },
+    {
+      "text": "experts (multiple iterations/projects may of best practices, or perception of",
+      "confidence": 83,
+      "bbox": {
+        "x": 129,
+        "y": 637,
+        "w": 1035,
+        "h": 67
+      }
+    },
+    {
+      "text": "need to be conducted) customer discontent",
+      "confidence": 83,
+      "bbox": {
+        "x": 129,
+        "y": 771,
+        "w": 1035,
+        "h": 67
+      }
+    },
+    {
+      "text": "on pe Leite, Beaune: ee Lal ECR ar",
+      "confidence": 83,
+      "bbox": {
+        "x": 129,
+        "y": 905,
+        "w": 1035,
+        "h": 67
+      }
+    },
+    {
+      "text": "Assess maturity as needed and conduct project(s) If [PE] 0 a",
+      "confidence": 83,
+      "bbox": {
+        "x": 129,
+        "y": 1039,
+        "w": 1035,
+        "h": 67
+      }
+    },
+    {
+      "text": "level and next Homie using applicable Se fen",
+      "confidence": 83,
+      "bbox": {
+        "x": 129,
+        "y": 1173,
+        "w": 1035,
+        "h": 67
+      }
+    },
+    {
+      "text": "achievable level of project(s) methodology accordingly",
+      "confidence": 83,
+      "bbox": {
+        "x": 129,
+        "y": 1307,
+        "w": 1035,
+        "h": 67
+      }
+    },
+    {
+      "text": "tollgate review tollgate review tollgate review tollgate review tollgate review",
+      "confidence": 83,
+      "bbox": {
+        "x": 129,
+        "y": 1441,
+        "w": 1035,
+        "h": 67
+      }
+    },
+    {
+      "text": "Maturity level for ~~ Preparation may Conducting Hardening involves",
+      "confidence": 83,
+      "bbox": {
+        "x": 129,
+        "y": 1575,
+        "w": 1035,
+        "h": 67
+      }
+    },
+    {
+      "text": "specific EAM involve projects may a consolidation of",
+      "confidence": 83,
+      "bbox": {
+        "x": 129,
+        "y": 1709,
+        "w": 1035,
+        "h": 67
+      }
+    },
+    {
+      "text": "service offerings training on involve ongoing the SPO team in",
+      "confidence": 83,
+      "bbox": {
+        "x": 129,
+        "y": 1843,
+        "w": 1035,
+        "h": 67
+      }
+    },
+    {
+      "text": "may be assessed specific EAM organizational charge of",
+      "confidence": 83,
+      "bbox": {
+        "x": 129,
+        "y": 1977,
+        "w": 1035,
+        "h": 67
+      }
+    },
+    {
+      "text": "via available service offerings training and enterprise",
+      "confidence": 83,
+      "bbox": {
+        "x": 129,
+        "y": 2111,
+        "w": 1035,
+        "h": 67
+      }
+    },
+    {
+      "text": "standards reviews governance",
+      "confidence": 83,
+      "bbox": {
+        "x": 129,
+        "y": 2245,
+        "w": 1035,
+        "h": 67
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Transformation methodology needs to be Sustaining operation at a given",
+      "target": "Phương pháp chuyển đổi cần duy trì hoạt động tại một mức nhất định",
+      "bbox": {
+        "x": 129,
+        "y": 101,
+        "w": 1035,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "applied incrementally to reach the desired maturity level may not be possible",
+      "target": "có thể không khả thi để áp dụng dần dần nhằm đạt được mức độ trưởng thành mong muốn",
+      "bbox": {
+        "x": 129,
+        "y": 235,
+        "w": 1035,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "level of enterprise maturity established by due to changes in the project road",
+      "target": "mức độ trưởng thành của doanh nghiệp được thiết lập do thay đổi trong lộ trình dự án",
+      "bbox": {
+        "x": 129,
+        "y": 369,
+        "w": 1035,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "sponsors upon the recommendation of map, ongoing change requests evolution",
+      "target": "nhà tài trợ theo đề xuất của bản đồ, yêu cầu thay đổi liên tục tiến hóa",
+      "bbox": {
+        "x": 129,
+        "y": 503,
+        "w": 1035,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "experts (multiple iterations/projects may of best practices, or perception of",
+      "target": "chuyên gia",
+      "bbox": {
+        "x": 129,
+        "y": 637,
+        "w": 1035,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "need to be conducted) customer discontent",
+      "target": "khách hàng không hài lòng",
+      "bbox": {
+        "x": 129,
+        "y": 771,
+        "w": 1035,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "on pe Leite, Beaune: ee Lal ECR ar",
+      "target": "trên pe Leite, Beaune: ee Lal ECR ar",
+      "bbox": {
+        "x": 129,
+        "y": 905,
+        "w": 1035,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "Assess maturity as needed and conduct project(s) If [PE] 0 a",
+      "target": "Đánh giá độ trưởng thành khi cần và thực hiện dự án nếu [PE] 0 a",
+      "bbox": {
+        "x": 129,
+        "y": 1039,
+        "w": 1035,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "level and next Homie using applicable Se fen",
+      "target": "cấp độ và Homie tiếp theo sử dụng Se fen",
+      "bbox": {
+        "x": 129,
+        "y": 1173,
+        "w": 1035,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "achievable level of project(s) methodology accordingly",
+      "target": "mức độ khả thi của phương pháp dự án tương ứng",
+      "bbox": {
+        "x": 129,
+        "y": 1307,
+        "w": 1035,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "tollgate review tollgate review tollgate review tollgate review tollgate review",
+      "target": "đánh giá trạm thu phí",
+      "bbox": {
+        "x": 129,
+        "y": 1441,
+        "w": 1035,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "Maturity level for ~~ Preparation may Conducting Hardening involves",
+      "target": "Cấp độ trưởng thành cho ~~ Chuẩn bị có thể Thực hiện Cứng hóa bao gồm",
+      "bbox": {
+        "x": 129,
+        "y": 1575,
+        "w": 1035,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "specific EAM involve projects may a consolidation of",
+      "target": "EAM cụ thể liên quan đến các dự án có thể là sự hợp nhất của",
+      "bbox": {
+        "x": 129,
+        "y": 1709,
+        "w": 1035,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "service offerings training on involve ongoing the SPO team in",
+      "target": "đào tạo về các dịch vụ của đội ngũ SPO tham gia liên tục",
+      "bbox": {
+        "x": 129,
+        "y": 1843,
+        "w": 1035,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "may be assessed specific EAM organizational charge of",
+      "target": "có thể đánh giá phí tổ chức EAM cụ thể của",
+      "bbox": {
+        "x": 129,
+        "y": 1977,
+        "w": 1035,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "via available service offerings training and enterprise",
+      "target": "thông qua các dịch vụ đào tạo và doanh nghiệp có sẵn",
+      "bbox": {
+        "x": 129,
+        "y": 2111,
+        "w": 1035,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "standards reviews governance",
+      "target": "đánh giá tiêu chuẩn quản trị",
+      "bbox": {
+        "x": 129,
+        "y": 2245,
+        "w": 1035,
+        "h": 67
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 1.0845523294325459,
+    "averageConfidence": 83
+  }
+}

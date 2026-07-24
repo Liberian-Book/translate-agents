@@ -1,0 +1,183 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-2-15.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-2-sample-responsive-wad-with-bootstrap-and-django.html",
+  "decision": "review",
+  "reason": "translation-overflow",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Todo List",
+      "confidence": 91,
+      "bbox": {
+        "x": 130,
+        "y": 88,
+        "w": 1040,
+        "h": 58
+      }
+    },
+    {
+      "text": "DESCRIPTION",
+      "confidence": 91,
+      "bbox": {
+        "x": 130,
+        "y": 205,
+        "w": 1040,
+        "h": 58
+      }
+    },
+    {
+      "text": "What do you need to do?",
+      "confidence": 91,
+      "bbox": {
+        "x": 130,
+        "y": 322,
+        "w": 1040,
+        "h": 58
+      }
+    },
+    {
+      "text": "CATEGORY DUE DATE",
+      "confidence": 91,
+      "bbox": {
+        "x": 130,
+        "y": 439,
+        "w": 1040,
+        "h": 58
+      }
+    },
+    {
+      "text": "Choose a category v mm/dd/yyyy",
+      "confidence": 91,
+      "bbox": {
+        "x": 130,
+        "y": 556,
+        "w": 1040,
+        "h": 58
+      }
+    },
+    {
+      "text": "+ ADD TASK | Ti DELETE TASKS",
+      "confidence": 91,
+      "bbox": {
+        "x": 130,
+        "y": 673,
+        "w": 1040,
+        "h": 58
+      }
+    },
+    {
+      "text": "[J Writeanarticleon how to createa Django Web application.",
+      "confidence": 91,
+      "bbox": {
+        "x": 130,
+        "y": 790,
+        "w": 1040,
+        "h": 58
+      }
+    },
+    {
+      "text": "CREATED: JAN, 31,2022 - DUE: JAN, 31, 2022",
+      "confidence": 91,
+      "bbox": {
+        "x": 130,
+        "y": 907,
+        "w": 1040,
+        "h": 58
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Todo List",
+      "target": "Danh sách công việc",
+      "bbox": {
+        "x": 130,
+        "y": 88,
+        "w": 1040,
+        "h": 58
+      },
+      "overflow": true
+    },
+    {
+      "source": "DESCRIPTION",
+      "target": "MÔ TẢ",
+      "bbox": {
+        "x": 130,
+        "y": 205,
+        "w": 1040,
+        "h": 58
+      },
+      "overflow": false
+    },
+    {
+      "source": "What do you need to do?",
+      "target": "Bạn cần làm gì?",
+      "bbox": {
+        "x": 130,
+        "y": 322,
+        "w": 1040,
+        "h": 58
+      },
+      "overflow": false
+    },
+    {
+      "source": "CATEGORY DUE DATE",
+      "target": "DANH MỤC HẠN CHÓT",
+      "bbox": {
+        "x": 130,
+        "y": 439,
+        "w": 1040,
+        "h": 58
+      },
+      "overflow": false
+    },
+    {
+      "source": "Choose a category v mm/dd/yyyy",
+      "target": "Chọn một danh mục v mm/dd/yyyy",
+      "bbox": {
+        "x": 130,
+        "y": 556,
+        "w": 1040,
+        "h": 58
+      },
+      "overflow": false
+    },
+    {
+      "source": "+ ADD TASK | Ti DELETE TASKS",
+      "target": "+ THÊM NHIỆM VỤ | XÓA NHIỆM VỤ",
+      "bbox": {
+        "x": 130,
+        "y": 673,
+        "w": 1040,
+        "h": 58
+      },
+      "overflow": false
+    },
+    {
+      "source": "[J Writeanarticleon how to createa Django Web application.",
+      "target": "Viết bài về cách tạo ứng dụng web Django.",
+      "bbox": {
+        "x": 130,
+        "y": 790,
+        "w": 1040,
+        "h": 58
+      },
+      "overflow": false
+    },
+    {
+      "source": "CREATED: JAN, 31,2022 - DUE: JAN, 31, 2022",
+      "target": "TẠO: 31 THÁNG 1, 2022 - HẠN: 31 THÁNG 1, 2022",
+      "bbox": {
+        "x": 130,
+        "y": 907,
+        "w": 1040,
+        "h": 58
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.5084931506849315,
+    "averageConfidence": 91
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-13-2-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/13-2-big-cloud-iaas-mainstream-capabilities.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-13-2-4.vi.png",
+  "ocr": [
+    {
+      "text": "User User",
+      "confidence": 68,
+      "bbox": {
+        "x": 96,
+        "y": 56,
+        "w": 768,
+        "h": 37
+      }
+    },
+    {
+      "text": "Edge",
+      "confidence": 68,
+      "bbox": {
+        "x": 96,
+        "y": 130,
+        "w": 768,
+        "h": 37
+      }
+    },
+    {
+      "text": "SN ===",
+      "confidence": 68,
+      "bbox": {
+        "x": 96,
+        "y": 204,
+        "w": 768,
+        "h": 37
+      }
+    },
+    {
+      "text": "server",
+      "confidence": 68,
+      "bbox": {
+        "x": 96,
+        "y": 278,
+        "w": 768,
+        "h": 37
+      }
+    },
+    {
+      "text": "User a User",
+      "confidence": 68,
+      "bbox": {
+        "x": 96,
+        "y": 352,
+        "w": 768,
+        "h": 37
+      }
+    },
+    {
+      "text": "= Origin",
+      "confidence": 68,
+      "bbox": {
+        "x": 96,
+        "y": 426,
+        "w": 768,
+        "h": 37
+      }
+    },
+    {
+      "text": "o server",
+      "confidence": 68,
+      "bbox": {
+        "x": 96,
+        "y": 500,
+        "w": 768,
+        "h": 37
+      }
+    },
+    {
+      "text": "«Edge",
+      "confidence": 68,
+      "bbox": {
+        "x": 96,
+        "y": 574,
+        "w": 768,
+        "h": 37
+      }
+    },
+    {
+      "text": "server",
+      "confidence": 68,
+      "bbox": {
+        "x": 96,
+        "y": 648,
+        "w": 768,
+        "h": 37
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "User User",
+      "target": "Người dùng",
+      "bbox": {
+        "x": 96,
+        "y": 56,
+        "w": 768,
+        "h": 37
+      },
+      "overflow": false
+    },
+    {
+      "source": "Edge",
+      "target": "Cạnh",
+      "bbox": {
+        "x": 96,
+        "y": 130,
+        "w": 768,
+        "h": 37
+      },
+      "overflow": false
+    },
+    {
+      "source": "SN ===",
+      "target": "SN",
+      "bbox": {
+        "x": 96,
+        "y": 204,
+        "w": 768,
+        "h": 37
+      },
+      "overflow": false
+    },
+    {
+      "source": "server",
+      "target": "máy chủ",
+      "bbox": {
+        "x": 96,
+        "y": 278,
+        "w": 768,
+        "h": 37
+      },
+      "overflow": false
+    },
+    {
+      "source": "User a User",
+      "target": "Người dùng",
+      "bbox": {
+        "x": 96,
+        "y": 352,
+        "w": 768,
+        "h": 37
+      },
+      "overflow": false
+    },
+    {
+      "source": "= Origin",
+      "target": "Nguồn gốc",
+      "bbox": {
+        "x": 96,
+        "y": 426,
+        "w": 768,
+        "h": 37
+      },
+      "overflow": false
+    },
+    {
+      "source": "o server",
+      "target": "máy chủ",
+      "bbox": {
+        "x": 96,
+        "y": 500,
+        "w": 768,
+        "h": 37
+      },
+      "overflow": false
+    },
+    {
+      "source": "«Edge",
+      "target": "Cạnh",
+      "bbox": {
+        "x": 96,
+        "y": 574,
+        "w": 768,
+        "h": 37
+      },
+      "overflow": false
+    },
+    {
+      "source": "server",
+      "target": "máy chủ",
+      "bbox": {
+        "x": 96,
+        "y": 648,
+        "w": 768,
+        "h": 37
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.5729032258064516,
+    "averageConfidence": 68
+  }
+}

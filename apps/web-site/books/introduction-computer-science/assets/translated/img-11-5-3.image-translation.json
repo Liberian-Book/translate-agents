@@ -1,0 +1,477 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-5-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-5-sample-native-wad-with-react-native-and-node-or-django.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-11-5-3.vi.png",
+  "ocr": [
+    {
+      "text": "Vv reactnativefrontend",
+      "confidence": 77,
+      "bbox": {
+        "x": 33,
+        "y": 130,
+        "w": 262,
+        "h": 87
+      }
+    },
+    {
+      "text": "> __tests__",
+      "confidence": 77,
+      "bbox": {
+        "x": 33,
+        "y": 303,
+        "w": 262,
+        "h": 87
+      }
+    },
+    {
+      "text": "> .bundle",
+      "confidence": 77,
+      "bbox": {
+        "x": 33,
+        "y": 476,
+        "w": 262,
+        "h": 87
+      }
+    },
+    {
+      "text": "> android",
+      "confidence": 77,
+      "bbox": {
+        "x": 33,
+        "y": 649,
+        "w": 262,
+        "h": 87
+      }
+    },
+    {
+      "text": "> ios",
+      "confidence": 77,
+      "bbox": {
+        "x": 33,
+        "y": 822,
+        "w": 262,
+        "h": 87
+      }
+    },
+    {
+      "text": "> node_modules",
+      "confidence": 77,
+      "bbox": {
+        "x": 33,
+        "y": 995,
+        "w": 262,
+        "h": 87
+      }
+    },
+    {
+      "text": "= .buckconfig",
+      "confidence": 77,
+      "bbox": {
+        "x": 33,
+        "y": 1168,
+        "w": 262,
+        "h": 87
+      }
+    },
+    {
+      "text": "@® .eslintrc.js",
+      "confidence": 77,
+      "bbox": {
+        "x": 33,
+        "y": 1341,
+        "w": 262,
+        "h": 87
+      }
+    },
+    {
+      "text": "= .flowconfig",
+      "confidence": 77,
+      "bbox": {
+        "x": 33,
+        "y": 1514,
+        "w": 262,
+        "h": 87
+      }
+    },
+    {
+      "text": ".gitignore",
+      "confidence": 77,
+      "bbox": {
+        "x": 33,
+        "y": 1687,
+        "w": 262,
+        "h": 87
+      }
+    },
+    {
+      "text": "JS .prettierrc.js",
+      "confidence": 77,
+      "bbox": {
+        "x": 33,
+        "y": 1860,
+        "w": 262,
+        "h": 87
+      }
+    },
+    {
+      "text": "= .ruby-version",
+      "confidence": 77,
+      "bbox": {
+        "x": 33,
+        "y": 2033,
+        "w": 262,
+        "h": 87
+      }
+    },
+    {
+      "text": "{} .watchmanconfig",
+      "confidence": 77,
+      "bbox": {
+        "x": 33,
+        "y": 2206,
+        "w": 262,
+        "h": 87
+      }
+    },
+    {
+      "text": "JS App.js",
+      "confidence": 77,
+      "bbox": {
+        "x": 33,
+        "y": 2379,
+        "w": 262,
+        "h": 87
+      }
+    },
+    {
+      "text": "{} app.json",
+      "confidence": 77,
+      "bbox": {
+        "x": 33,
+        "y": 2552,
+        "w": 262,
+        "h": 87
+      }
+    },
+    {
+      "text": "2 babel.config.js",
+      "confidence": 77,
+      "bbox": {
+        "x": 33,
+        "y": 2725,
+        "w": 262,
+        "h": 87
+      }
+    },
+    {
+      "text": "@ Gemfile",
+      "confidence": 77,
+      "bbox": {
+        "x": 33,
+        "y": 2898,
+        "w": 262,
+        "h": 87
+      }
+    },
+    {
+      "text": "= Gemfile.lock",
+      "confidence": 77,
+      "bbox": {
+        "x": 33,
+        "y": 3071,
+        "w": 262,
+        "h": 87
+      }
+    },
+    {
+      "text": "JS index.js",
+      "confidence": 77,
+      "bbox": {
+        "x": 33,
+        "y": 3244,
+        "w": 262,
+        "h": 87
+      }
+    },
+    {
+      "text": "Js metro.config.js",
+      "confidence": 77,
+      "bbox": {
+        "x": 33,
+        "y": 3417,
+        "w": 262,
+        "h": 87
+      }
+    },
+    {
+      "text": "{} package.json",
+      "confidence": 77,
+      "bbox": {
+        "x": 33,
+        "y": 3590,
+        "w": 262,
+        "h": 87
+      }
+    },
+    {
+      "text": "& yarn.lock",
+      "confidence": 77,
+      "bbox": {
+        "x": 33,
+        "y": 3763,
+        "w": 262,
+        "h": 87
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Vv reactnativefrontend",
+      "target": "Giao diện người dùng React Native",
+      "bbox": {
+        "x": 33,
+        "y": 130,
+        "w": 262,
+        "h": 87
+      },
+      "overflow": false
+    },
+    {
+      "source": "> __tests__",
+      "target": "> __bài kiểm tra__",
+      "bbox": {
+        "x": 33,
+        "y": 303,
+        "w": 262,
+        "h": 87
+      },
+      "overflow": false
+    },
+    {
+      "source": "> .bundle",
+      "target": ".gói",
+      "bbox": {
+        "x": 33,
+        "y": 476,
+        "w": 262,
+        "h": 87
+      },
+      "overflow": false
+    },
+    {
+      "source": "> android",
+      "target": "android",
+      "bbox": {
+        "x": 33,
+        "y": 649,
+        "w": 262,
+        "h": 87
+      },
+      "overflow": false
+    },
+    {
+      "source": "> ios",
+      "target": "ios",
+      "bbox": {
+        "x": 33,
+        "y": 822,
+        "w": 262,
+        "h": 87
+      },
+      "overflow": false
+    },
+    {
+      "source": "> node_modules",
+      "target": "thư mục_node_modules",
+      "bbox": {
+        "x": 33,
+        "y": 995,
+        "w": 262,
+        "h": 87
+      },
+      "overflow": false
+    },
+    {
+      "source": "= .buckconfig",
+      "target": "= .buckconfig",
+      "bbox": {
+        "x": 33,
+        "y": 1168,
+        "w": 262,
+        "h": 87
+      },
+      "overflow": false
+    },
+    {
+      "source": "@® .eslintrc.js",
+      "target": "@® .eslintrc.js",
+      "bbox": {
+        "x": 33,
+        "y": 1341,
+        "w": 262,
+        "h": 87
+      },
+      "overflow": false
+    },
+    {
+      "source": "= .flowconfig",
+      "target": "= .flowconfig",
+      "bbox": {
+        "x": 33,
+        "y": 1514,
+        "w": 262,
+        "h": 87
+      },
+      "overflow": false
+    },
+    {
+      "source": ".gitignore",
+      "target": ".gitignore",
+      "bbox": {
+        "x": 33,
+        "y": 1687,
+        "w": 262,
+        "h": 87
+      },
+      "overflow": false
+    },
+    {
+      "source": "JS .prettierrc.js",
+      "target": "JS .prettierrc.js",
+      "bbox": {
+        "x": 33,
+        "y": 1860,
+        "w": 262,
+        "h": 87
+      },
+      "overflow": false
+    },
+    {
+      "source": "= .ruby-version",
+      "target": "= .ruby-version",
+      "bbox": {
+        "x": 33,
+        "y": 2033,
+        "w": 262,
+        "h": 87
+      },
+      "overflow": false
+    },
+    {
+      "source": "{} .watchmanconfig",
+      "target": "{}.watchmanconfig",
+      "bbox": {
+        "x": 33,
+        "y": 2206,
+        "w": 262,
+        "h": 87
+      },
+      "overflow": false
+    },
+    {
+      "source": "JS App.js",
+      "target": "Ứng dụng JS.js",
+      "bbox": {
+        "x": 33,
+        "y": 2379,
+        "w": 262,
+        "h": 87
+      },
+      "overflow": false
+    },
+    {
+      "source": "{} app.json",
+      "target": "{} app.json",
+      "bbox": {
+        "x": 33,
+        "y": 2552,
+        "w": 262,
+        "h": 87
+      },
+      "overflow": false
+    },
+    {
+      "source": "2 babel.config.js",
+      "target": "2 babel.config.js",
+      "bbox": {
+        "x": 33,
+        "y": 2725,
+        "w": 262,
+        "h": 87
+      },
+      "overflow": false
+    },
+    {
+      "source": "@ Gemfile",
+      "target": "@ Gemfile",
+      "bbox": {
+        "x": 33,
+        "y": 2898,
+        "w": 262,
+        "h": 87
+      },
+      "overflow": false
+    },
+    {
+      "source": "= Gemfile.lock",
+      "target": "= Gemfile.lock",
+      "bbox": {
+        "x": 33,
+        "y": 3071,
+        "w": 262,
+        "h": 87
+      },
+      "overflow": false
+    },
+    {
+      "source": "JS index.js",
+      "target": "JS chỉ mục.js",
+      "bbox": {
+        "x": 33,
+        "y": 3244,
+        "w": 262,
+        "h": 87
+      },
+      "overflow": false
+    },
+    {
+      "source": "Js metro.config.js",
+      "target": "tệp metro.config.js",
+      "bbox": {
+        "x": 33,
+        "y": 3417,
+        "w": 262,
+        "h": 87
+      },
+      "overflow": false
+    },
+    {
+      "source": "{} package.json",
+      "target": "{} gói.json",
+      "bbox": {
+        "x": 33,
+        "y": 3590,
+        "w": 262,
+        "h": 87
+      },
+      "overflow": false
+    },
+    {
+      "source": "& yarn.lock",
+      "target": "& yarn.lock",
+      "bbox": {
+        "x": 33,
+        "y": 3763,
+        "w": 262,
+        "h": 87
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 1.4116951557327209,
+    "averageConfidence": 77
+  }
+}

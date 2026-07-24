@@ -1,0 +1,174 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-1-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/1-introduction.html",
+  "decision": "review",
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "5 7.0 A CORK SB YT SIEVE RW be BF dada 73 5",
+      "confidence": 32,
+      "bbox": {
+        "x": 130,
+        "y": 86,
+        "w": 1040,
+        "h": 58
+      }
+    },
+    {
+      "text": "= n a 2 = J i ATE?",
+      "confidence": 32,
+      "bbox": {
+        "x": 130,
+        "y": 201,
+        "w": 1040,
+        "h": 58
+      }
+    },
+    {
+      "text": "ig Fr Podbs FiD. 8: Tats 1L.ALE 9-9: 6-Sa ff Fx /",
+      "confidence": 32,
+      "bbox": {
+        "x": 130,
+        "y": 316,
+        "w": 1040,
+        "h": 58
+      }
+    },
+    {
+      "text": "F ( 7 FoW-R Fe r= == ET 1-8 8_% [$+ k",
+      "confidence": 32,
+      "bbox": {
+        "x": 130,
+        "y": 431,
+        "w": 1040,
+        "h": 58
+      }
+    },
+    {
+      "text": "Fo RAR AR Ele ial Aloe Ed A\"",
+      "confidence": 32,
+      "bbox": {
+        "x": 130,
+        "y": 546,
+        "w": 1040,
+        "h": 58
+      }
+    },
+    {
+      "text": "C=9:% 7d 1A pS = Ren = B J / ¢ E B 2 \\",
+      "confidence": 32,
+      "bbox": {
+        "x": 130,
+        "y": 661,
+        "w": 1040,
+        "h": 58
+      }
+    },
+    {
+      "text": "> 4 ¢ 4S < - = : on-—— T Le i = 7",
+      "confidence": 32,
+      "bbox": {
+        "x": 130,
+        "y": 776,
+        "w": 1040,
+        "h": 58
+      }
+    },
+    {
+      "text": "3 ES STEER eR A NJ",
+      "confidence": 32,
+      "bbox": {
+        "x": 130,
+        "y": 891,
+        "w": 1040,
+        "h": 58
+      }
+    },
+    {
+      "text": "R CSTE aT -) 1.9 Y 8] )",
+      "confidence": 32,
+      "bbox": {
+        "x": 130,
+        "y": 1006,
+        "w": 1040,
+        "h": 58
+      }
+    },
+    {
+      "text": "ay ! Flat F425 HS i",
+      "confidence": 32,
+      "bbox": {
+        "x": 130,
+        "y": 1121,
+        "w": 1040,
+        "h": 58
+      }
+    },
+    {
+      "text": "\\ PRF yo YINEY 3",
+      "confidence": 32,
+      "bbox": {
+        "x": 130,
+        "y": 1236,
+        "w": 1040,
+        "h": 58
+      }
+    },
+    {
+      "text": "= = a 44 €8V RY E",
+      "confidence": 32,
+      "bbox": {
+        "x": 130,
+        "y": 1351,
+        "w": 1040,
+        "h": 58
+      }
+    },
+    {
+      "text": "3 Ne _ 5. Bio oabhs «",
+      "confidence": 32,
+      "bbox": {
+        "x": 130,
+        "y": 1466,
+        "w": 1040,
+        "h": 58
+      }
+    },
+    {
+      "text": "} 2 <= REBT Iv. ¢",
+      "confidence": 32,
+      "bbox": {
+        "x": 130,
+        "y": 1581,
+        "w": 1040,
+        "h": 58
+      }
+    },
+    {
+      "text": "b CBR D 7 6 his iN E",
+      "confidence": 32,
+      "bbox": {
+        "x": 130,
+        "y": 1696,
+        "w": 1040,
+        "h": 58
+      }
+    },
+    {
+      "text": "gs = p",
+      "confidence": 32,
+      "bbox": {
+        "x": 130,
+        "y": 1811,
+        "w": 1040,
+        "h": 58
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 1.031111111111111,
+    "averageConfidence": 32
+  }
+}

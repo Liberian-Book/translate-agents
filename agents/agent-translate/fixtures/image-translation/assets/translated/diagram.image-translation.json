@@ -1,0 +1,57 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/agents/agent-translate/fixtures/image-translation/assets/diagram.png",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/agents/agent-translate/fixtures/image-translation/diagram.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/agents/agent-translate/fixtures/image-translation/assets/translated/diagram.vi.png",
+  "ocr": [
+    {
+      "text": "Clients",
+      "confidence": 96,
+      "bbox": {
+        "x": 72,
+        "y": 50,
+        "w": 576,
+        "h": 34
+      }
+    },
+    {
+      "text": "Employees",
+      "confidence": 96,
+      "bbox": {
+        "x": 72,
+        "y": 117,
+        "w": 576,
+        "h": 34
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Clients",
+      "target": "Khách hàng",
+      "bbox": {
+        "x": 72,
+        "y": 50,
+        "w": 576,
+        "h": 34
+      },
+      "overflow": false
+    },
+    {
+      "source": "Employees",
+      "target": "Nhân viên",
+      "bbox": {
+        "x": 72,
+        "y": 117,
+        "w": 576,
+        "h": 34
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.1295238095238095,
+    "averageConfidence": 96
+  }
+}

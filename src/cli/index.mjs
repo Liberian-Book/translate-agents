@@ -4,12 +4,14 @@ import { registerCleanupCommand } from './commands/cleanup.mjs';
 import { registerPrepCommand } from './commands/prep.mjs';
 import { registerScrapeCommand } from './commands/scrape.mjs';
 import { registerTermsCommand } from './commands/terms.mjs';
+import { registerTranslateCommand } from './commands/translate.mjs';
+import { registerUploadCommand } from './commands/upload.mjs';
 import { runInteractive } from './interactive.mjs';
 
 export const program = new Command();
 
 program
-  .name('trxng')
+  .name('cyberkbooks')
   .description('Bảng điều khiển cho quy trình dịch sách')
   .version('0.1.0', '-V, --version', 'hiển thị phiên bản')
   .helpOption('-h, --help', 'hiển thị trợ giúp')
@@ -19,7 +21,9 @@ registerScrapeCommand(program);
 registerCleanupCommand(program);
 registerTermsCommand(program);
 registerPrepCommand(program);
+registerTranslateCommand(program);
 registerBooksCommand(program);
+registerUploadCommand(program);
 
 if (process.argv.length <= 2) {
   await runInteractive();

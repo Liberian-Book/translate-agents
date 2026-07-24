@@ -1,0 +1,372 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-3-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-3-solution-architecture-management.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-10-3-1.vi.png",
+  "ocr": [
+    {
+      "text": "Get Project",
+      "confidence": 88,
+      "bbox": {
+        "x": 130,
+        "y": 127,
+        "w": 1040,
+        "h": 84
+      }
+    },
+    {
+      "text": "project manager",
+      "confidence": 88,
+      "bbox": {
+        "x": 130,
+        "y": 296,
+        "w": 1040,
+        "h": 84
+      }
+    },
+    {
+      "text": "Solution development life cycle (partial view)",
+      "confidence": 88,
+      "bbox": {
+        "x": 130,
+        "y": 465,
+        "w": 1040,
+        "h": 84
+      }
+    },
+    {
+      "text": "S Project § Business S Elaborated 5 Software S Automated",
+      "confidence": 88,
+      "bbox": {
+        "x": 130,
+        "y": 634,
+        "w": 1040,
+        "h": 84
+      }
+    },
+    {
+      "text": "T plan T requirements T requirements I T test",
+      "confidence": 88,
+      "bbox": {
+        "x": 130,
+        "y": 803,
+        "w": 1040,
+        "h": 84
+      }
+    },
+    {
+      "text": "£ 2 Soluti 2 Technical 2 2",
+      "confidence": 88,
+      "bbox": {
+        "x": 130,
+        "y": 972,
+        "w": 1040,
+        "h": 84
+      }
+    },
+    {
+      "text": "1 2 ecture 3 design 4 5",
+      "confidence": 88,
+      "bbox": {
+        "x": 130,
+        "y": 1141,
+        "w": 1040,
+        "h": 84
+      }
+    },
+    {
+      "text": "Business Project Technical Developer Tester",
+      "confidence": 88,
+      "bbox": {
+        "x": 130,
+        "y": 1310,
+        "w": 1040,
+        "h": 84
+      }
+    },
+    {
+      "text": "analyst architects lead",
+      "confidence": 88,
+      "bbox": {
+        "x": 130,
+        "y": 1479,
+        "w": 1040,
+        "h": 84
+      }
+    },
+    {
+      "text": "Business analysts obtain Technical lead Developer The tester",
+      "confidence": 88,
+      "bbox": {
+        "x": 130,
+        "y": 1648,
+        "w": 1040,
+        "h": 84
+      }
+    },
+    {
+      "text": "requirements and collaborates with the collaborates with ~~ runs and",
+      "confidence": 88,
+      "bbox": {
+        "x": 130,
+        "y": 1817,
+        "w": 1040,
+        "h": 84
+      }
+    },
+    {
+      "text": "collaborate with project project architect and the technical validates the",
+      "confidence": 88,
+      "bbox": {
+        "x": 130,
+        "y": 1986,
+        "w": 1040,
+        "h": 84
+      }
+    },
+    {
+      "text": "architects to define the the business analyst lead to build software",
+      "confidence": 88,
+      "bbox": {
+        "x": 130,
+        "y": 2155,
+        "w": 1040,
+        "h": 84
+      }
+    },
+    {
+      "text": "solution architecture. to complete the and deploy the based on",
+      "confidence": 88,
+      "bbox": {
+        "x": 130,
+        "y": 2324,
+        "w": 1040,
+        "h": 84
+      }
+    },
+    {
+      "text": "technical design. software. requirements.",
+      "confidence": 88,
+      "bbox": {
+        "x": 130,
+        "y": 2493,
+        "w": 1040,
+        "h": 84
+      }
+    },
+    {
+      "text": "EAMF (desi Ne / Technology services \\",
+      "confidence": 88,
+      "bbox": {
+        "x": 130,
+        "y": 2662,
+        "w": 1040,
+        "h": 84
+      }
+    },
+    {
+      "text": "Architecture tools Design tools Development tools",
+      "confidence": 88,
+      "bbox": {
+        "x": 130,
+        "y": 2831,
+        "w": 1040,
+        "h": 84
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Get Project",
+      "target": "Lấy Dự Án",
+      "bbox": {
+        "x": 130,
+        "y": 127,
+        "w": 1040,
+        "h": 84
+      },
+      "overflow": false
+    },
+    {
+      "source": "project manager",
+      "target": "quản lý dự án",
+      "bbox": {
+        "x": 130,
+        "y": 296,
+        "w": 1040,
+        "h": 84
+      },
+      "overflow": false
+    },
+    {
+      "source": "Solution development life cycle (partial view)",
+      "target": "Chu trình phát triển giải pháp (cái nhìn một phần)",
+      "bbox": {
+        "x": 130,
+        "y": 465,
+        "w": 1040,
+        "h": 84
+      },
+      "overflow": false
+    },
+    {
+      "source": "S Project § Business S Elaborated 5 Software S Automated",
+      "target": "Dự án S § Doanh nghiệp S Chi tiết 5 Phần mềm S Tự động hóa",
+      "bbox": {
+        "x": 130,
+        "y": 634,
+        "w": 1040,
+        "h": 84
+      },
+      "overflow": false
+    },
+    {
+      "source": "T plan T requirements T requirements I T test",
+      "target": "Kế hoạch T yêu cầu T yêu cầu I kiểm tra T",
+      "bbox": {
+        "x": 130,
+        "y": 803,
+        "w": 1040,
+        "h": 84
+      },
+      "overflow": false
+    },
+    {
+      "source": "£ 2 Soluti 2 Technical 2 2",
+      "target": "£ 2 Giải pháp 2 Kỹ thuật 2 2",
+      "bbox": {
+        "x": 130,
+        "y": 972,
+        "w": 1040,
+        "h": 84
+      },
+      "overflow": false
+    },
+    {
+      "source": "1 2 ecture 3 design 4 5",
+      "target": "1 2 bài giảng 3 thiết kế 4 5",
+      "bbox": {
+        "x": 130,
+        "y": 1141,
+        "w": 1040,
+        "h": 84
+      },
+      "overflow": false
+    },
+    {
+      "source": "Business Project Technical Developer Tester",
+      "target": "Nhà phát triển kỹ thuật dự án kinh doanh Kiểm thử viên",
+      "bbox": {
+        "x": 130,
+        "y": 1310,
+        "w": 1040,
+        "h": 84
+      },
+      "overflow": false
+    },
+    {
+      "source": "analyst architects lead",
+      "target": "nhà phân tích kiến trúc dẫn dắt",
+      "bbox": {
+        "x": 130,
+        "y": 1479,
+        "w": 1040,
+        "h": 84
+      },
+      "overflow": false
+    },
+    {
+      "source": "Business analysts obtain Technical lead Developer The tester",
+      "target": "Nhà phân tích kinh doanh Lãnh đạo kỹ thuật Nhà phát triển Người kiểm tra",
+      "bbox": {
+        "x": 130,
+        "y": 1648,
+        "w": 1040,
+        "h": 84
+      },
+      "overflow": false
+    },
+    {
+      "source": "requirements and collaborates with the collaborates with ~~ runs and",
+      "target": "yêu cầu và hợp tác với",
+      "bbox": {
+        "x": 130,
+        "y": 1817,
+        "w": 1040,
+        "h": 84
+      },
+      "overflow": false
+    },
+    {
+      "source": "collaborate with project project architect and the technical validates the",
+      "target": "hợp tác với kiến trúc sư dự án và kỹ thuật xác thực",
+      "bbox": {
+        "x": 130,
+        "y": 1986,
+        "w": 1040,
+        "h": 84
+      },
+      "overflow": false
+    },
+    {
+      "source": "architects to define the the business analyst lead to build software",
+      "target": "kiến trúc sư xác định lãnh đạo phân tích nghiệp vụ để xây dựng phần mềm",
+      "bbox": {
+        "x": 130,
+        "y": 2155,
+        "w": 1040,
+        "h": 84
+      },
+      "overflow": false
+    },
+    {
+      "source": "solution architecture. to complete the and deploy the based on",
+      "target": "kiến trúc giải pháp. hoàn thành và triển khai dựa trên",
+      "bbox": {
+        "x": 130,
+        "y": 2324,
+        "w": 1040,
+        "h": 84
+      },
+      "overflow": false
+    },
+    {
+      "source": "technical design. software. requirements.",
+      "target": "thiết kế kỹ thuật. phần mềm. yêu cầu.",
+      "bbox": {
+        "x": 130,
+        "y": 2493,
+        "w": 1040,
+        "h": 84
+      },
+      "overflow": false
+    },
+    {
+      "source": "EAMF (desi Ne / Technology services \\",
+      "target": "Dịch vụ công nghệ EAMF (desi Ne)",
+      "bbox": {
+        "x": 130,
+        "y": 2662,
+        "w": 1040,
+        "h": 84
+      },
+      "overflow": false
+    },
+    {
+      "source": "Architecture tools Design tools Development tools",
+      "target": "Công cụ kiến trúc Công cụ thiết kế Công cụ phát triển",
+      "bbox": {
+        "x": 130,
+        "y": 2831,
+        "w": 1040,
+        "h": 84
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 1.0818181818181818,
+    "averageConfidence": 88
+  }
+}

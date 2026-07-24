@@ -1,0 +1,224 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-1-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-1-patterns-management.html",
+  "decision": "review",
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Blueprints Lots Map Analogy",
+      "confidence": 52,
+      "bbox": {
+        "x": 130,
+        "y": 66,
+        "w": 1042,
+        "h": 44
+      }
+    },
+    {
+      "text": "Scope: Scope:",
+      "confidence": 52,
+      "bbox": {
+        "x": 130,
+        "y": 154,
+        "w": 1042,
+        "h": 44
+      }
+    },
+    {
+      "text": "Business architecture 5",
+      "confidence": 52,
+      "bbox": {
+        "x": 130,
+        "y": 242,
+        "w": 1042,
+        "h": 44
+      }
+    },
+    {
+      "text": "Enterprise fe — Business process SF Se United States",
+      "confidence": 52,
+      "bbox": {
+        "x": 130,
+        "y": 330,
+        "w": 1042,
+        "h": 44
+      }
+    },
+    {
+      "text": "7 ~/ 9 . el Ta By",
+      "confidence": 52,
+      "bbox": {
+        "x": 130,
+        "y": 418,
+        "w": 1042,
+        "h": 44
+      }
+    },
+    {
+      "text": "2 AS Q > 7",
+      "confidence": 52,
+      "bbox": {
+        "x": 130,
+        "y": 506,
+        "w": 1042,
+        "h": 44
+      }
+    },
+    {
+      "text": "(Gusiness process architectire, 2 3 = E p",
+      "confidence": 52,
+      "bbox": {
+        "x": 130,
+        "y": 594,
+        "w": 1042,
+        "h": 44
+      }
+    },
+    {
+      "text": ". = = 0, Es :",
+      "confidence": 52,
+      "bbox": {
+        "x": 130,
+        "y": 682,
+        "w": 1042,
+        "h": 44
+      }
+    },
+    {
+      "text": "Portfolio S—__/ 6 oro & [ hill - AP State of",
+      "confidence": 52,
+      "bbox": {
+        "x": 130,
+        "y": 770,
+        "w": 1042,
+        "h": 44
+      }
+    },
+    {
+      "text": "rocess A project ® = 7 Ae Michi",
+      "confidence": 52,
+      "bbox": {
+        "x": 130,
+        "y": 858,
+        "w": 1042,
+        "h": 44
+      }
+    },
+    {
+      "text": "LT [FF 5 Vans me ichigan",
+      "confidence": 52,
+      "bbox": {
+        "x": 130,
+        "y": 946,
+        "w": 1042,
+        "h": 44
+      }
+    },
+    {
+      "text": "B FH 3 | AEE",
+      "confidence": 52,
+      "bbox": {
+        "x": 130,
+        "y": 1034,
+        "w": 1042,
+        "h": 44
+      }
+    },
+    {
+      "text": "_- S = 3 rd N",
+      "confidence": 52,
+      "bbox": {
+        "x": 130,
+        "y": 1122,
+        "w": 1042,
+        "h": 44
+      }
+    },
+    {
+      "text": "Process A architectire ES 5 a GA.",
+      "confidence": 52,
+      "bbox": {
+        "x": 130,
+        "y": 1210,
+        "w": 1042,
+        "h": 44
+      }
+    },
+    {
+      "text": "Project! //— 7 ~~ 3 E ae \"",
+      "confidence": 52,
+      "bbox": {
+        "x": 130,
+        "y": 1298,
+        "w": 1042,
+        "h": 44
+      }
+    },
+    {
+      "text": "system Subsystem TAL £7. ayne",
+      "confidence": 52,
+      "bbox": {
+        "x": 130,
+        "y": 1386,
+        "w": 1042,
+        "h": 44
+      }
+    },
+    {
+      "text": "LZ rad 4%, \\ County",
+      "confidence": 52,
+      "bbox": {
+        "x": 130,
+        "y": 1474,
+        "w": 1042,
+        "h": 44
+      }
+    },
+    {
+      "text": "mr hN / \\",
+      "confidence": 52,
+      "bbox": {
+        "x": 130,
+        "y": 1562,
+        "w": 1042,
+        "h": 44
+      }
+    },
+    {
+      "text": "Subsystem architecture 7 =",
+      "confidence": 52,
+      "bbox": {
+        "x": 130,
+        "y": 1650,
+        "w": 1042,
+        "h": 44
+      }
+    },
+    {
+      "text": "Subsystem z Hf Detroit",
+      "confidence": 52,
+      "bbox": {
+        "x": 130,
+        "y": 1738,
+        "w": 1042,
+        "h": 44
+      }
+    },
+    {
+      "text": "Little —",
+      "confidence": 52,
+      "bbox": {
+        "x": 130,
+        "y": 1826,
+        "w": 1042,
+        "h": 44
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 1.3518900748953235,
+    "averageConfidence": 52
+  }
+}

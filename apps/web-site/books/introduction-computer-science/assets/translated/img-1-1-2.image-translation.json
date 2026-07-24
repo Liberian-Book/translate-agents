@@ -1,0 +1,435 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-1-1-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/1-1-computer-science.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-1-1-2.vi.png",
+  "ocr": [
+    {
+      "text": "pS LINCOLN",
+      "confidence": 69,
+      "bbox": {
+        "x": 120,
+        "y": 92,
+        "w": 960,
+        "h": 61
+      }
+    },
+    {
+      "text": "> MITIPC",
+      "confidence": 69,
+      "bbox": {
+        "x": 120,
+        "y": 215,
+        "w": 960,
+        "h": 61
+      }
+    },
+    {
+      "text": "MIT MAC",
+      "confidence": 69,
+      "bbox": {
+        "x": 120,
+        "y": 338,
+        "w": 960,
+        "h": 61
+      }
+    },
+    {
+      "text": "MOFF a",
+      "confidence": 69,
+      "bbox": {
+        "x": 120,
+        "y": 461,
+        "w": 960,
+        "h": 61
+      }
+    },
+    {
+      "text": "= = UTAH capi aan ® BBN",
+      "confidence": 69,
+      "bbox": {
+        "x": 120,
+        "y": 584,
+        "w": 960,
+        "h": 61
+      }
+    },
+    {
+      "text": "HA LE SRI Gwe A CARNEGIE NCC",
+      "confidence": 69,
+      "bbox": {
+        "x": 120,
+        "y": 707,
+        "w": 960,
+        "h": 61
+      }
+    },
+    {
+      "text": "XEROX HARVARD",
+      "confidence": 69,
+      "bbox": {
+        "x": 120,
+        "y": 830,
+        "w": 960,
+        "h": 61
+      }
+    },
+    {
+      "text": "- TYMS RUTGERS",
+      "confidence": 69,
+      "bbox": {
+        "x": 120,
+        "y": 953,
+        "w": 960,
+        "h": 61
+      }
+    },
+    {
+      "text": "FNWS BELVOIR ABERDEEN NORSAR",
+      "confidence": 69,
+      "bbox": {
+        "x": 120,
+        "y": 1076,
+        "w": 960,
+        "h": 61
+      }
+    },
+    {
+      "text": "DOCB 1 URPAT",
+      "confidence": 69,
+      "bbox": {
+        "x": 120,
+        "y": 1199,
+        "w": 960,
+        "h": 61
+      }
+    },
+    {
+      "text": "NBS",
+      "confidence": 69,
+      "bbox": {
+        "x": 120,
+        "y": 1322,
+        "w": 960,
+        "h": 61
+      }
+    },
+    {
+      "text": "U5GE, MITRE",
+      "confidence": 69,
+      "bbox": {
+        "x": 120,
+        "y": 1445,
+        "w": 960,
+        "h": 61
+      }
+    },
+    {
+      "text": "ucLA",
+      "confidence": 69,
+      "bbox": {
+        "x": 120,
+        "y": 1568,
+        "w": 960,
+        "h": 61
+      }
+    },
+    {
+      "text": "aes - ARPA] ves",
+      "confidence": 69,
+      "bbox": {
+        "x": 120,
+        "y": 1691,
+        "w": 960,
+        "h": 61
+      }
+    },
+    {
+      "text": "RAND Usc PAS",
+      "confidence": 69,
+      "bbox": {
+        "x": 120,
+        "y": 1814,
+        "w": 960,
+        "h": 61
+      }
+    },
+    {
+      "text": "sc",
+      "confidence": 69,
+      "bbox": {
+        "x": 120,
+        "y": 1937,
+        "w": 960,
+        "h": 61
+      }
+    },
+    {
+      "text": "MB TIP - used to connect terminals",
+      "confidence": 69,
+      "bbox": {
+        "x": 120,
+        "y": 2060,
+        "w": 960,
+        "h": 61
+      }
+    },
+    {
+      "text": "to the Arpanet",
+      "confidence": 69,
+      "bbox": {
+        "x": 120,
+        "y": 2183,
+        "w": 960,
+        "h": 61
+      }
+    },
+    {
+      "text": "@ IMP - used to connect networks",
+      "confidence": 69,
+      "bbox": {
+        "x": 120,
+        "y": 2306,
+        "w": 960,
+        "h": 61
+      }
+    },
+    {
+      "text": "RML to the Arpanet",
+      "confidence": 69,
+      "bbox": {
+        "x": 120,
+        "y": 2429,
+        "w": 960,
+        "h": 61
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "pS LINCOLN",
+      "target": "pS LINCOLN",
+      "bbox": {
+        "x": 120,
+        "y": 92,
+        "w": 960,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "> MITIPC",
+      "target": "MITIPC",
+      "bbox": {
+        "x": 120,
+        "y": 215,
+        "w": 960,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "MIT MAC",
+      "target": "MIT MAC",
+      "bbox": {
+        "x": 120,
+        "y": 338,
+        "w": 960,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "MOFF a",
+      "target": "MOFF a",
+      "bbox": {
+        "x": 120,
+        "y": 461,
+        "w": 960,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "= = UTAH capi aan ® BBN",
+      "target": "= = UTAH capi aan ® BBN",
+      "bbox": {
+        "x": 120,
+        "y": 584,
+        "w": 960,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "HA LE SRI Gwe A CARNEGIE NCC",
+      "target": "HA LE SRI Gwe A CARNEGIE NCC",
+      "bbox": {
+        "x": 120,
+        "y": 707,
+        "w": 960,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "XEROX HARVARD",
+      "target": "XEROX HARVARD",
+      "bbox": {
+        "x": 120,
+        "y": 830,
+        "w": 960,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "- TYMS RUTGERS",
+      "target": "TYMS RUTGERS",
+      "bbox": {
+        "x": 120,
+        "y": 953,
+        "w": 960,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "FNWS BELVOIR ABERDEEN NORSAR",
+      "target": "FNWS BELVOIR ABERDEEN NORSAR",
+      "bbox": {
+        "x": 120,
+        "y": 1076,
+        "w": 960,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "DOCB 1 URPAT",
+      "target": "DOCB 1 URPAT",
+      "bbox": {
+        "x": 120,
+        "y": 1199,
+        "w": 960,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "NBS",
+      "target": "NBS",
+      "bbox": {
+        "x": 120,
+        "y": 1322,
+        "w": 960,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "U5GE, MITRE",
+      "target": "U5GE, MITRE",
+      "bbox": {
+        "x": 120,
+        "y": 1445,
+        "w": 960,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "ucLA",
+      "target": "ucLA",
+      "bbox": {
+        "x": 120,
+        "y": 1568,
+        "w": 960,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "aes - ARPA] ves",
+      "target": "aes - ARPA] ves",
+      "bbox": {
+        "x": 120,
+        "y": 1691,
+        "w": 960,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "RAND Usc PAS",
+      "target": "RAND Usc PAS",
+      "bbox": {
+        "x": 120,
+        "y": 1814,
+        "w": 960,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "sc",
+      "target": "sc",
+      "bbox": {
+        "x": 120,
+        "y": 1937,
+        "w": 960,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "MB TIP - used to connect terminals",
+      "target": "MB TIP - dùng để kết nối các đầu cuối",
+      "bbox": {
+        "x": 120,
+        "y": 2060,
+        "w": 960,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "to the Arpanet",
+      "target": "đến Arpanet",
+      "bbox": {
+        "x": 120,
+        "y": 2183,
+        "w": 960,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "@ IMP - used to connect networks",
+      "target": "@ IMP - dùng để kết nối mạng",
+      "bbox": {
+        "x": 120,
+        "y": 2306,
+        "w": 960,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "RML to the Arpanet",
+      "target": "RML đến Arpanet",
+      "bbox": {
+        "x": 120,
+        "y": 2429,
+        "w": 960,
+        "h": 61
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 1.2708333333333333,
+    "averageConfidence": 69
+  }
+}

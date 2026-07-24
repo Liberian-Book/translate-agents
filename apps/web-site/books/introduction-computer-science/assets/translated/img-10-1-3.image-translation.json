@@ -1,0 +1,120 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-1-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-1-patterns-management.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-10-1-3.vi.png",
+  "ocr": [
+    {
+      "text": "class SingletonExample {",
+      "confidence": 91,
+      "bbox": {
+        "x": 92,
+        "y": 56,
+        "w": 734,
+        "h": 38
+      }
+    },
+    {
+      "text": "private static SingletonExample singleObject;",
+      "confidence": 91,
+      "bbox": {
+        "x": 92,
+        "y": 131,
+        "w": 734,
+        "h": 38
+      }
+    },
+    {
+      "text": "private SingletonExample()",
+      "confidence": 91,
+      "bbox": {
+        "x": 92,
+        "y": 206,
+        "w": 734,
+        "h": 38
+      }
+    },
+    {
+      "text": "public static SingletonExample getInstance() {",
+      "confidence": 91,
+      "bbox": {
+        "x": 92,
+        "y": 281,
+        "w": 734,
+        "h": 38
+      }
+    },
+    {
+      "text": "// write code that allows us to create only one object",
+      "confidence": 91,
+      "bbox": {
+        "x": 92,
+        "y": 356,
+        "w": 734,
+        "h": 38
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "class SingletonExample {",
+      "target": "Lớp Ví dụ Singleton",
+      "bbox": {
+        "x": 92,
+        "y": 56,
+        "w": 734,
+        "h": 38
+      },
+      "overflow": false
+    },
+    {
+      "source": "private static SingletonExample singleObject;",
+      "target": "đối tượng đơn lẻ tĩnh riêng tư",
+      "bbox": {
+        "x": 92,
+        "y": 131,
+        "w": 734,
+        "h": 38
+      },
+      "overflow": false
+    },
+    {
+      "source": "private SingletonExample()",
+      "target": "private SingletonExample()",
+      "bbox": {
+        "x": 92,
+        "y": 206,
+        "w": 734,
+        "h": 38
+      },
+      "overflow": false
+    },
+    {
+      "source": "public static SingletonExample getInstance() {",
+      "target": "public static SingletonExample lấyInstance() {",
+      "bbox": {
+        "x": 92,
+        "y": 281,
+        "w": 734,
+        "h": 38
+      },
+      "overflow": false
+    },
+    {
+      "source": "// write code that allows us to create only one object",
+      "target": "// viết mã cho phép chúng ta chỉ tạo một đối tượng duy nhất",
+      "bbox": {
+        "x": 92,
+        "y": 356,
+        "w": 734,
+        "h": 38
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.3232281092105873,
+    "averageConfidence": 91
+  }
+}

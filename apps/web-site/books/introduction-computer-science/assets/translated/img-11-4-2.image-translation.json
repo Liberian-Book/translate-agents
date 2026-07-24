@@ -1,0 +1,162 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-4-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-4-sample-responsive-wad-with-bootstrap-react-and-django.html",
+  "decision": "review",
+  "reason": "translation-overflow",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "React App - o Xx",
+      "confidence": 73,
+      "bbox": {
+        "x": 110,
+        "y": 83,
+        "w": 880,
+        "h": 56
+      }
+    },
+    {
+      "text": "C @® localhost 5s = © 60",
+      "confidence": 73,
+      "bbox": {
+        "x": 110,
+        "y": 194,
+        "w": 880,
+        "h": 56
+      }
+    },
+    {
+      "text": "ToDo —",
+      "confidence": 73,
+      "bbox": {
+        "x": 110,
+        "y": 305,
+        "w": 880,
+        "h": 56
+      }
+    },
+    {
+      "text": "Description",
+      "confidence": 73,
+      "bbox": {
+        "x": 110,
+        "y": 416,
+        "w": 880,
+        "h": 56
+      }
+    },
+    {
+      "text": "Chaase § citsgory Due Date (mm/dd/yyyy)",
+      "confidence": 73,
+      "bbox": {
+        "x": 110,
+        "y": 527,
+        "w": 880,
+        "h": 56
+      }
+    },
+    {
+      "text": "EDIT",
+      "confidence": 73,
+      "bbox": {
+        "x": 110,
+        "y": 638,
+        "w": 880,
+        "h": 56
+      }
+    },
+    {
+      "text": "[J Write an article on how to create a React-Django Web application",
+      "confidence": 73,
+      "bbox": {
+        "x": 110,
+        "y": 749,
+        "w": 880,
+        "h": 56
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "React App - o Xx",
+      "target": "Ứng dụng React - o Xx",
+      "bbox": {
+        "x": 110,
+        "y": 83,
+        "w": 880,
+        "h": 56
+      },
+      "overflow": false
+    },
+    {
+      "source": "C @® localhost 5s = © 60",
+      "target": "C @® localhost 5s = © 60",
+      "bbox": {
+        "x": 110,
+        "y": 194,
+        "w": 880,
+        "h": 56
+      },
+      "overflow": false
+    },
+    {
+      "source": "ToDo —",
+      "target": "Công việc cần làm —",
+      "bbox": {
+        "x": 110,
+        "y": 305,
+        "w": 880,
+        "h": 56
+      },
+      "overflow": true
+    },
+    {
+      "source": "Description",
+      "target": "Mô tả",
+      "bbox": {
+        "x": 110,
+        "y": 416,
+        "w": 880,
+        "h": 56
+      },
+      "overflow": false
+    },
+    {
+      "source": "Chaase § citsgory Due Date (mm/dd/yyyy)",
+      "target": "Hạng mục Ngày hết hạn (mm/dd/yyyy)",
+      "bbox": {
+        "x": 110,
+        "y": 527,
+        "w": 880,
+        "h": 56
+      },
+      "overflow": false
+    },
+    {
+      "source": "EDIT",
+      "target": "CHỈNH SỬA",
+      "bbox": {
+        "x": 110,
+        "y": 638,
+        "w": 880,
+        "h": 56
+      },
+      "overflow": true
+    },
+    {
+      "source": "[J Write an article on how to create a React-Django Web application",
+      "target": "Viết bài về cách tạo ứng dụng Web React-Django",
+      "bbox": {
+        "x": 110,
+        "y": 749,
+        "w": 880,
+        "h": 56
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.45187319884726224,
+    "averageConfidence": 73
+  }
+}

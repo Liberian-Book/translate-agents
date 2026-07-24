@@ -1,0 +1,1002 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-2-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-2-sample-responsive-wad-with-bootstrap-and-django.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-11-2-2.vi.png",
+  "ocr": [
+    {
+      "text": "BY Windows Powershell xX + ov - oo Xx",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 128,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "PS C:\\WebAppDev> python -m venv py394venv",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 299,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "PS C:\\WebAppDev> cd .\\py394venv\\",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 470,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "PS C:\\WebAppDev\\py394venv> .\\Scripts\\activate.bat",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 641,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "PS C:\\WebAppDev\\py394venv> pip install Django==4.6.1",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 812,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "Collecting Django==4.6.1",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 983,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "Downloading Django-4.6.1-py3-none-any.whl (8.8 MB)",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 1154,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "| I | so 5 3.2 MB/s",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 1325,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "Collecting asgiref<u,>=3.4.1",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 1496,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "Downloading asgiref-3.7.2-py3-none-any.whl (24 kB)",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 1667,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "Collecting tzdata; sys_platform == \"win32\"",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 1838,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "Downloading tzdata-2024.1-py2.py3-none-any.whl (345 KB)",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 2009,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "| I | us kB 3.2 MB/s",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 2180,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "Collecting sqlparse>=0.2.2",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 2351,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "Downloading sqlparse-0.4.4-py3-none-any.whl (41 kB)",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 2522,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "| I | 1: k& 3.4 MB/s",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 2693,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "Collecting typing-extensions>=4; python_version < \"3.11\"",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 2864,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "Downloading typing_extensions-4.9.6-py3-none-any.whl (32 kB)",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 3035,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "Installing collected packages: typing-extensions, asgiref, tzdata, sqlparse, Django",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 3206,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "Successfully installed Django-4.8.1 asgiref-3.7.2 sqlparse-8.4.4 typing-extensions-4.9.8 tzdata-2024.1",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 3377,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "WARNING: You are using pip version 20.2.3; however, version 24.6 is available.",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 3548,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "You should consider upgrading via the 'c:\\users\\ <user>\\appdata\\local\\programs\\python\\python39\\python.exe -m pip install —",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 3719,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "—upgrade pip' command.",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 3890,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "PS C:\\WebAppDev\\py394venv> pip install djangorestframework==3.13.1",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 4061,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "Collecting djangorestframework==3.13.1",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 4232,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "Downloading djangorestframework-3.13.1-py3-none-any.whl (958 kB)",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 4403,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "| I | 058 ks 6.4 MB/s",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 4574,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "Collecting pytz",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 4745,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "Downloading pytz-2624.1-py2.py3-none-any.whl (585 kB)",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 4916,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "| I | sos ko",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 5087,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "Requirement already satisfied: django>=2.2 in c:\\users\\ <user>\\appdata\\local\\programs\\python\\python39\\lib\\site-packages (f",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 5258,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "rom djangorestframework==3.13.1) (4.0.1)",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 5429,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "Requirement already satisfied: tzdata; sys_platform == \"win32\" in c:\\users\\scott\\appdata\\local\\programs\\python\\python39\\",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 5600,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "lib\\site-packages (from django>=2.2->djangorestframework==3.13.1) (2624.1)",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 5771,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "Requirement already satisfied: asgiref<d,>=3.4.1 in c:\\users\\ <user>\\appdata\\local\\programs\\python\\python39\\lib\\site-packa",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 5942,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "ges (from django>=2.2->djangorestframework==3.13.1) (3.7.2)",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 6113,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "Requirement already satisfied: sqlparse>=0.2.2 in c:\\users\\ <user>\\appdata\\local\\programs\\python\\python39\\lib\\site-package",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 6284,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "s (from django>=2.2->djangorestframework==3.13.1) (0.4.4)",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 6455,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "Requirement already satisfied: typing-extensions>=li; python_version < \"3.11\" in c:\\users\\ <user>\\appdata\\local\\programs\\py",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 6626,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "thon\\python39\\lib\\site-packages (from asgiref<d,K>=3.4.1->django>=2.2->djangorestframework==3.13.1) (4.9.8)",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 6797,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "Installing collected packages: pytz, djangorestframework",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 6968,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "Successfully installed djangorestframework-3.13.1 pytz-2024.1",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 7139,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "WARNING: You are using pip version 20.2.3; however, version 24.0 is available.",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 7310,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "You should consider upgrading via the 'c:\\users\\ <user>\\appdata\\local\\programs\\python\\python39\\python.exe -m pip install —",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 7481,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "-upgrade pip' command.",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 7652,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "PS C:\\WebAppDev\\py39uvenv> |",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 7823,
+        "w": 1043,
+        "h": 85
+      }
+    },
+    {
+      "text": "= treed Rc ble = — ee og — — -—-— ——.",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 7994,
+        "w": 1043,
+        "h": 85
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "BY Windows Powershell xX + ov - oo Xx",
+      "target": "BẰNG Windows Powershell xX + ov - oo Xx",
+      "bbox": {
+        "x": 130,
+        "y": 128,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "PS C:\\WebAppDev> python -m venv py394venv",
+      "target": "Tạo môi trường ảo py394venv",
+      "bbox": {
+        "x": 130,
+        "y": 299,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "PS C:\\WebAppDev> cd .\\py394venv\\",
+      "target": "PS C:\\WebAppDev> cd .\\py394venv\\",
+      "bbox": {
+        "x": 130,
+        "y": 470,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "PS C:\\WebAppDev\\py394venv> .\\Scripts\\activate.bat",
+      "target": "Kích hoạt môi trường ảo",
+      "bbox": {
+        "x": 130,
+        "y": 641,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "PS C:\\WebAppDev\\py394venv> pip install Django==4.6.1",
+      "target": "Cài đặt Django==4.6.1",
+      "bbox": {
+        "x": 130,
+        "y": 812,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "Collecting Django==4.6.1",
+      "target": "Thu thập Django==4.6.1",
+      "bbox": {
+        "x": 130,
+        "y": 983,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "Downloading Django-4.6.1-py3-none-any.whl (8.8 MB)",
+      "target": "Tải xuống Django-4.6.1-py3-none-any.whl (8.8 MB)",
+      "bbox": {
+        "x": 130,
+        "y": 1154,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "| I | so 5 3.2 MB/s",
+      "target": "| Tôi | so 5 3.2 MB/s",
+      "bbox": {
+        "x": 130,
+        "y": 1325,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "Collecting asgiref<u,>=3.4.1",
+      "target": "Thu thập asgiref=3.4.1",
+      "bbox": {
+        "x": 130,
+        "y": 1496,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "Downloading asgiref-3.7.2-py3-none-any.whl (24 kB)",
+      "target": "Tải asgiref-3.7.2-py3-none-any.whl (24 kB)",
+      "bbox": {
+        "x": 130,
+        "y": 1667,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "Collecting tzdata; sys_platform == \"win32\"",
+      "target": "Thu thập tzdata; sys_platform == \"win32\"",
+      "bbox": {
+        "x": 130,
+        "y": 1838,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "Downloading tzdata-2024.1-py2.py3-none-any.whl (345 KB)",
+      "target": "Tải tzdata-2024.1-py2.py3-none-any.whl (345 KB)",
+      "bbox": {
+        "x": 130,
+        "y": 2009,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "| I | us kB 3.2 MB/s",
+      "target": "| Tôi | chúng tôi kB 3.2 MB/s",
+      "bbox": {
+        "x": 130,
+        "y": 2180,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "Collecting sqlparse>=0.2.2",
+      "target": "Thu thập sqlparse>=0.2.2",
+      "bbox": {
+        "x": 130,
+        "y": 2351,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "Downloading sqlparse-0.4.4-py3-none-any.whl (41 kB)",
+      "target": "Tải xuống sqlparse-0.4.4-py3-none-any.whl (41 kB)",
+      "bbox": {
+        "x": 130,
+        "y": 2522,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "| I | 1: k& 3.4 MB/s",
+      "target": "1: k& 3.4 MB/s",
+      "bbox": {
+        "x": 130,
+        "y": 2693,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "Collecting typing-extensions>=4; python_version < \"3.11\"",
+      "target": "Thu thập typing-extensions>=4; python_version < \"3.11\"",
+      "bbox": {
+        "x": 130,
+        "y": 2864,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "Downloading typing_extensions-4.9.6-py3-none-any.whl (32 kB)",
+      "target": "Tải xuống typing_extensions-4.9.6-py3-none-any.whl (32 kB)",
+      "bbox": {
+        "x": 130,
+        "y": 3035,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "Installing collected packages: typing-extensions, asgiref, tzdata, sqlparse, Django",
+      "target": "Cài đặt các gói đã thu thập: typing-extensions, asgiref, tzdata, sqlparse, Django",
+      "bbox": {
+        "x": 130,
+        "y": 3206,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "Successfully installed Django-4.8.1 asgiref-3.7.2 sqlparse-8.4.4 typing-extensions-4.9.8 tzdata-2024.1",
+      "target": "Cài đặt thành công Django-4.8.1 asgiref-3.7.2 sqlparse-8.4.4 typing-extensions-4.9.8 tzdata-2024.1",
+      "bbox": {
+        "x": 130,
+        "y": 3377,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "WARNING: You are using pip version 20.2.3; however, version 24.6 is available.",
+      "target": "CẢNH BÁO: Bạn đang sử dụng phiên bản pip 20.2.3; tuy nhiên, phiên bản 24.6 có sẵn.",
+      "bbox": {
+        "x": 130,
+        "y": 3548,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "You should consider upgrading via the 'c:\\users\\ <user>\\appdata\\local\\programs\\python\\python39\\python.exe -m pip install —",
+      "target": "Bạn nên xem xét nâng cấp qua 'c:\\users\\\\appdata\\local\\programs\\python\\python39\\python.exe -m pip install —",
+      "bbox": {
+        "x": 130,
+        "y": 3719,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "—upgrade pip' command.",
+      "target": "lệnh 'cập nhật pip'",
+      "bbox": {
+        "x": 130,
+        "y": 3890,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "PS C:\\WebAppDev\\py394venv> pip install djangorestframework==3.13.1",
+      "target": "Cài đặt djangorestframework==3.13.1",
+      "bbox": {
+        "x": 130,
+        "y": 4061,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "Collecting djangorestframework==3.13.1",
+      "target": "Thu thập djangorestframework==3.13.1",
+      "bbox": {
+        "x": 130,
+        "y": 4232,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "Downloading djangorestframework-3.13.1-py3-none-any.whl (958 kB)",
+      "target": "Tải xuống djangorestframework-3.13.1-py3-none-any.whl (958 kB)",
+      "bbox": {
+        "x": 130,
+        "y": 4403,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "| I | 058 ks 6.4 MB/s",
+      "target": "| I | 058 ks 6.4 MB/s",
+      "bbox": {
+        "x": 130,
+        "y": 4574,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "Collecting pytz",
+      "target": "Thu thập pytz",
+      "bbox": {
+        "x": 130,
+        "y": 4745,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "Downloading pytz-2624.1-py2.py3-none-any.whl (585 kB)",
+      "target": "Tải xuống pytz-2624.1-py2.py3-none-any.whl (585 kB)",
+      "bbox": {
+        "x": 130,
+        "y": 4916,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "| I | sos ko",
+      "target": "| Tôi | sos ko",
+      "bbox": {
+        "x": 130,
+        "y": 5087,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "Requirement already satisfied: django>=2.2 in c:\\users\\ <user>\\appdata\\local\\programs\\python\\python39\\lib\\site-packages (f",
+      "target": "Yêu cầu đã được thỏa mãn: django>=2.2 trong c:\\users\\\\appdata\\local\\programs\\python\\python39\\lib\\site-packages (f",
+      "bbox": {
+        "x": 130,
+        "y": 5258,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "rom djangorestframework==3.13.1) (4.0.1)",
+      "target": "djangorestframework==3.13.1) (4.0.1)",
+      "bbox": {
+        "x": 130,
+        "y": 5429,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "Requirement already satisfied: tzdata; sys_platform == \"win32\" in c:\\users\\scott\\appdata\\local\\programs\\python\\python39\\",
+      "target": "Yêu cầu đã được thỏa mãn: tzdata; sys_platform == \"win32\" trong c:\\users\\scott\\appdata\\local\\programs\\python\\python39\\",
+      "bbox": {
+        "x": 130,
+        "y": 5600,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "lib\\site-packages (from django>=2.2->djangorestframework==3.13.1) (2624.1)",
+      "target": "lib\\site-packages (từ django>=2.2->djangorestframework==3.13.1) (2624.1)",
+      "bbox": {
+        "x": 130,
+        "y": 5771,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "Requirement already satisfied: asgiref<d,>=3.4.1 in c:\\users\\ <user>\\appdata\\local\\programs\\python\\python39\\lib\\site-packa",
+      "target": "Yêu cầu đã được thỏa mãn: asgiref=3.4.1 trong c:\\users\\\\appdata\\local\\programs\\python\\python39\\lib\\site-packa",
+      "bbox": {
+        "x": 130,
+        "y": 5942,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "ges (from django>=2.2->djangorestframework==3.13.1) (3.7.2)",
+      "target": "ges (từ django>=2.2->djangorestframework==3.13.1) (3.7.2)",
+      "bbox": {
+        "x": 130,
+        "y": 6113,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "Requirement already satisfied: sqlparse>=0.2.2 in c:\\users\\ <user>\\appdata\\local\\programs\\python\\python39\\lib\\site-package",
+      "target": "Yêu cầu đã được thỏa mãn: sqlparse>=0.2.2 tại c:\\users\\\\appdata\\local\\programs\\python\\python39\\lib\\site-package",
+      "bbox": {
+        "x": 130,
+        "y": 6284,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "s (from django>=2.2->djangorestframework==3.13.1) (0.4.4)",
+      "target": "s (từ django>=2.2->djangorestframework==3.13.1) (0.4.4)",
+      "bbox": {
+        "x": 130,
+        "y": 6455,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "Requirement already satisfied: typing-extensions>=li; python_version < \"3.11\" in c:\\users\\ <user>\\appdata\\local\\programs\\py",
+      "target": "Yêu cầu đã được thỏa mãn: typing-extensions>=li; python_version < \"3.11\"",
+      "bbox": {
+        "x": 130,
+        "y": 6626,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "thon\\python39\\lib\\site-packages (from asgiref<d,K>=3.4.1->django>=2.2->djangorestframework==3.13.1) (4.9.8)",
+      "target": "thon\\python39\\lib\\site-packages (từ asgiref=3.4.1->django>=2.2->djangorestframework==3.13.1) (4.9.8)",
+      "bbox": {
+        "x": 130,
+        "y": 6797,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "Installing collected packages: pytz, djangorestframework",
+      "target": "Cài đặt các gói đã thu thập: pytz, djangorestframework",
+      "bbox": {
+        "x": 130,
+        "y": 6968,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "Successfully installed djangorestframework-3.13.1 pytz-2024.1",
+      "target": "Cài đặt thành công djangorestframework-3.13.1 pytz-2024.1",
+      "bbox": {
+        "x": 130,
+        "y": 7139,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "WARNING: You are using pip version 20.2.3; however, version 24.0 is available.",
+      "target": "CẢNH BÁO: Bạn đang sử dụng phiên bản pip 20.2.3; tuy nhiên, phiên bản 24.0 có sẵn.",
+      "bbox": {
+        "x": 130,
+        "y": 7310,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "You should consider upgrading via the 'c:\\users\\ <user>\\appdata\\local\\programs\\python\\python39\\python.exe -m pip install —",
+      "target": "Bạn nên xem xét nâng cấp qua 'c:\\users\\\\appdata\\local\\programs\\python\\python39\\python.exe -m pip install —",
+      "bbox": {
+        "x": 130,
+        "y": 7481,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "-upgrade pip' command.",
+      "target": "lệnh 'cập nhật pip'",
+      "bbox": {
+        "x": 130,
+        "y": 7652,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "PS C:\\WebAppDev\\py39uvenv> |",
+      "target": "PS C:\\WebAppDev\\py39uvenv> |",
+      "bbox": {
+        "x": 130,
+        "y": 7823,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    },
+    {
+      "source": "= treed Rc ble = — ee og — — -—-— ——.",
+      "target": "= cây Rc ble = — ee og — — -—-— ——.",
+      "bbox": {
+        "x": 130,
+        "y": 7994,
+        "w": 1043,
+        "h": 85
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 2.9919356460099724,
+    "averageConfidence": 78
+  }
+}

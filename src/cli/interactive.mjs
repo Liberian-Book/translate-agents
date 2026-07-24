@@ -1,18 +1,22 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { spawn } from 'node:child_process';
 import { input, select } from '@inquirer/prompts';
 import chalk from 'chalk';
+import { printUploadResult } from './commands/upload.mjs';
 import { repoRoot } from './lib/paths.mjs';
 import { searchOpenStaxBooks } from './lib/openstax-books.mjs';
+import { uploadBookToR2 } from './lib/r2-storage.mjs';
 import { runScript } from './lib/run-script.mjs';
 
 const ACTION_TRANSLATE_BOOK = 'Dịch sách';
 const ACTION_TRANSLATED_LIST = 'Danh sách đã dịch';
-const ACTIONS = [ACTION_TRANSLATE_BOOK, ACTION_TRANSLATED_LIST];
+const ACTION_UPLOAD_BOOK = 'Tải sách lên R2';
+const ACTIONS = [ACTION_TRANSLATE_BOOK, ACTION_TRANSLATED_LIST, ACTION_UPLOAD_BOOK];
 
 export async function runInteractive() {
   try {
-    console.log('Chào mừng đến với trxng');
+    console.log('Chào mừng đến với cyberkbooks');
     console.log();
 
     const action = await select({
@@ -39,8 +43,32 @@ export async function runSelectedAction({ action }) {
     case ACTION_TRANSLATED_LIST:
       printTranslatedBooks();
       return;
+    case ACTION_UPLOAD_BOOK:
+      await runUploadLocalBookFlow();
+      return;
     default:
       throw new Error(`Không nhận diện được lựa chọn: ${action}`);
+  }
+}
+
+async function runUploadLocalBookFlow() {
+  const books = listLocalBookFolders();
+  if (books.length === 0) {
+    console.log('Không tìm thấy sách nào trong thư mục data.');
+    return;
+  }
+
+  const selectedBook = await select({
+    message: 'Chọn sách trong data/ để tải lên R2:',
+    choices: books.map((book) => ({ value: book, name: book })),
+  });
+
+  console.log(chalk.cyan(`Đang tải dữ liệu sách lên R2: ${selectedBook}`));
+  const result = await uploadBookToR2(selectedBook);
+  printUploadResult(result);
+
+  if (result.failed.length > 0) {
+    throw new Error(`Tải lên R2 thất bại với ${result.failed.length} tệp.`);
   }
 }
 
@@ -72,6 +100,7 @@ async function runTranslationPipeline(book) {
   const bookName = book.slug;
   const startUrl = await resolveBookStartUrl(book);
   const bookDir = path.join(repoRoot, 'data', bookName);
+  const siteBookDir = path.join(repoRoot, 'apps', 'web-site', 'books', bookName);
   const cleanDir = path.join(bookDir, 'clean');
   const prepDir = path.join(bookDir, 'prep');
   const steps = [
@@ -80,12 +109,16 @@ async function runTranslationPipeline(book) {
     'Trích xuất thuật ngữ',
     'Chuẩn bị tệp song ngữ',
     'Dịch nội dung',
+    'Dịch chữ trong hình ảnh',
+    'Tạo HTML tĩnh',
+    'Tải dữ liệu sách lên R2',
   ];
 
   console.log();
   console.log(chalk.cyan(`Bắt đầu dịch sách: ${book.title}`));
   console.log(chalk.dim(`URL bắt đầu: ${startUrl}`));
   console.log(chalk.dim(`Thư mục dữ liệu: ${bookDir}`));
+  console.log(chalk.dim(`HTML website: ${siteBookDir}`));
 
   renderProgressBar({ label: steps[0], current: 0, total: steps.length });
   await runScript('agents/agent-scrape/scripts/skill-scrape.js', [bookName, startUrl]);
@@ -107,8 +140,49 @@ async function runTranslationPipeline(book) {
   await runScript('agents/agent-translate/scripts/translate.js', [bookName]);
   renderProgressBar({ label: `Hoàn tất: ${steps[4]}`, current: 5, total: steps.length });
 
+  renderProgressBar({ label: steps[5], current: 5, total: steps.length });
+  await runScript('agents/agent-translate/scripts/translate-images.js', ['all', bookName]);
+  renderProgressBar({ label: `Hoàn tất: ${steps[5]}`, current: 6, total: steps.length });
+
+  renderProgressBar({ label: steps[6], current: 6, total: steps.length });
+  await runPythonScript('agents/agent-archive/scripts/build-preview.py', [bookDir]);
+  renderProgressBar({ label: `Hoàn tất: ${steps[6]}`, current: 7, total: steps.length });
+
+  renderProgressBar({ label: steps[7], current: 7, total: steps.length });
+  const uploadResult = await uploadBookToR2(bookName);
+  printUploadResult(uploadResult);
+  if (uploadResult.failed.length > 0) {
+    throw new Error(`Tải lên R2 thất bại với ${uploadResult.failed.length} tệp.`);
+  }
+  renderProgressBar({ label: `Hoàn tất: ${steps[7]}`, current: 8, total: steps.length });
+
   console.log(chalk.green(`Đã dịch xong: ${book.title}`));
-  console.log(chalk.green(`Kết quả: ${path.join(bookDir, 'translated')}`));
+  console.log(chalk.green(`Dữ liệu dịch: ${path.join(bookDir, 'translated')}`));
+  console.log(chalk.green(`HTML website: ${siteBookDir}`));
+}
+
+function runPythonScript(scriptPath, args = []) {
+  const commandArgs = [path.join(repoRoot, scriptPath), ...args];
+
+  return new Promise((resolve, reject) => {
+    const child = spawn('python3', commandArgs, {
+      cwd: repoRoot,
+      env: process.env,
+      stdio: 'inherit',
+    });
+
+    child.on('error', reject);
+    child.on('close', (code) => {
+      if (code === 0) {
+        resolve();
+        return;
+      }
+
+      const error = new Error(`Python script exited with code ${code}`);
+      error.exitCode = code;
+      reject(error);
+    });
+  });
 }
 
 async function prepareCleanFiles({ cleanDir, prepDir }) {
@@ -186,6 +260,16 @@ function printTranslatedBooks() {
     const chapterCount = countTranslatedChapters(files);
     console.log(`- ${formatBookName(book)}: ${chapterCount} chương, ${files.length} trang`);
   });
+}
+
+function listLocalBookFolders() {
+  const dataDir = path.join(repoRoot, 'data');
+  if (!fs.existsSync(dataDir)) return [];
+
+  return fs.readdirSync(dataDir, { withFileTypes: true })
+    .filter((entry) => entry.isDirectory())
+    .map((entry) => entry.name)
+    .sort((a, b) => a.localeCompare(b));
 }
 
 function countTranslatedChapters(files) {

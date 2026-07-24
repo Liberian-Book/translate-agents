@@ -1,0 +1,224 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-1-1-5.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/1-1-computer-science.html",
+  "decision": "review",
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "> TE -E | 4 LO",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 77,
+        "w": 720,
+        "h": 51
+      }
+    },
+    {
+      "text": "ow BRITT Téa",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 179,
+        "w": 720,
+        "h": 51
+      }
+    },
+    {
+      "text": "ES a RE nr ee I. | i ) §",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 281,
+        "w": 720,
+        "h": 51
+      }
+    },
+    {
+      "text": "Se — en dc RE Vv VER] H 3",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 383,
+        "w": 720,
+        "h": 51
+      }
+    },
+    {
+      "text": "nag - 2 Fr A Ne sc = of",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 485,
+        "w": 720,
+        "h": 51
+      }
+    },
+    {
+      "text": "R = h 17 me > = a",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 587,
+        "w": 720,
+        "h": 51
+      }
+    },
+    {
+      "text": "Praniay ge 3 3 eis",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 689,
+        "w": 720,
+        "h": 51
+      }
+    },
+    {
+      "text": "~ LE == 0S = 55",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 791,
+        "w": 720,
+        "h": 51
+      }
+    },
+    {
+      "text": "eed = Be Same",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 893,
+        "w": 720,
+        "h": 51
+      }
+    },
+    {
+      "text": "[4 ao LJ = SE ts",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 995,
+        "w": 720,
+        "h": 51
+      }
+    },
+    {
+      "text": "4 | = a =3 Se",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 1097,
+        "w": 720,
+        "h": 51
+      }
+    },
+    {
+      "text": "4 | F 3 i — Ee",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 1199,
+        "w": 720,
+        "h": 51
+      }
+    },
+    {
+      "text": "| f VA ew =",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 1301,
+        "w": 720,
+        "h": 51
+      }
+    },
+    {
+      "text": "PU +1 AN N= or ema",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 1403,
+        "w": 720,
+        "h": 51
+      }
+    },
+    {
+      "text": "TE he) hes eee 8",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 1505,
+        "w": 720,
+        "h": 51
+      }
+    },
+    {
+      "text": "LR g Re, Re nT",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 1607,
+        "w": 720,
+        "h": 51
+      }
+    },
+    {
+      "text": ", alam gas Woes i",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 1709,
+        "w": 720,
+        "h": 51
+      }
+    },
+    {
+      "text": "| Loire ET on Re we",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 1811,
+        "w": 720,
+        "h": 51
+      }
+    },
+    {
+      "text": "2s ATA oe ee os FI ER ee",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 1913,
+        "w": 720,
+        "h": 51
+      }
+    },
+    {
+      "text": "= ras a Na Ee SERN Yap A",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 2015,
+        "w": 720,
+        "h": 51
+      }
+    },
+    {
+      "text": "a wee ee = ONC | ll Pei i",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 2117,
+        "w": 720,
+        "h": 51
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 1.33875,
+    "averageConfidence": 28
+  }
+}

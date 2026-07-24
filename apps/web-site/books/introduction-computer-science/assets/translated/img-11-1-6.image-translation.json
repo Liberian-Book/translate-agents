@@ -1,0 +1,120 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-1-6.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-1-modern-web-applications-architectures.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-11-1-6.vi.png",
+  "ocr": [
+    {
+      "text": "Web 2.0 Model-View-ViewModel",
+      "confidence": 94,
+      "bbox": {
+        "x": 115,
+        "y": 30,
+        "w": 916,
+        "h": 24
+      }
+    },
+    {
+      "text": "Data binding Read",
+      "confidence": 94,
+      "bbox": {
+        "x": 115,
+        "y": 70,
+        "w": 916,
+        "h": 24
+      }
+    },
+    {
+      "text": "ViewModel data Add/Modify/Delete",
+      "confidence": 94,
+      "bbox": {
+        "x": 115,
+        "y": 110,
+        "w": 916,
+        "h": 24
+      }
+    },
+    {
+      "text": "View ViewModel",
+      "confidence": 94,
+      "bbox": {
+        "x": 115,
+        "y": 150,
+        "w": 916,
+        "h": 24
+      }
+    },
+    {
+      "text": "Change events Change events",
+      "confidence": 94,
+      "bbox": {
+        "x": 115,
+        "y": 190,
+        "w": 916,
+        "h": 24
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Web 2.0 Model-View-ViewModel",
+      "target": "Mô hình Web 2.0 - View-ViewModel",
+      "bbox": {
+        "x": 115,
+        "y": 30,
+        "w": 916,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "Data binding Read",
+      "target": "Liên kết dữ liệu Đọc",
+      "bbox": {
+        "x": 115,
+        "y": 70,
+        "w": 916,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "ViewModel data Add/Modify/Delete",
+      "target": "Dữ liệu ViewModel Thêm/Sửa/Xóa",
+      "bbox": {
+        "x": 115,
+        "y": 110,
+        "w": 916,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "View ViewModel",
+      "target": "Xem ViewModel",
+      "bbox": {
+        "x": 115,
+        "y": 150,
+        "w": 916,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "Change events Change events",
+      "target": "Sự kiện thay đổi",
+      "bbox": {
+        "x": 115,
+        "y": 190,
+        "w": 916,
+        "h": 24
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.38095238095238093,
+    "averageConfidence": 94
+  }
+}

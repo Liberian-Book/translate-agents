@@ -1,0 +1,9 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-14-2-49.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/14-2-cybersecurity-deep-dive.html",
+  "decision": "error",
+  "reason": "translation-api-failed-status-429",
+  "outputImage": null,
+  "ocr": [],
+  "translations": []
+}

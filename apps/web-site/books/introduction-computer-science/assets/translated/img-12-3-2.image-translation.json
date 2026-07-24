@@ -1,0 +1,162 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-3-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-3-example-paas-and-faas-deployments-of-cloud-native-applications.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-12-3-2.vi.png",
+  "ocr": [
+    {
+      "text": "& Locks",
+      "confidence": 81,
+      "bbox": {
+        "x": 130,
+        "y": 34,
+        "w": 1040,
+        "h": 24
+      }
+    },
+    {
+      "text": "Allow pubilc access from any Azure service within Azure to this server )",
+      "confidence": 81,
+      "bbox": {
+        "x": 130,
+        "y": 79,
+        "w": 1040,
+        "h": 24
+      }
+    },
+    {
+      "text": "Power Platform",
+      "confidence": 81,
+      "bbox": {
+        "x": 130,
+        "y": 124,
+        "w": 1040,
+        "h": 24
+      }
+    },
+    {
+      "text": "8) Foner Eriprevien) + Add current client IP address (108.21.221.48) + Add 0.0.0.0 - 255.255.255.255.",
+      "confidence": 81,
+      "bbox": {
+        "x": 130,
+        "y": 169,
+        "w": 1040,
+        "h": 24
+      }
+    },
+    {
+      "text": "Security Firewall rule name Start IP address End IP address",
+      "confidence": 81,
+      "bbox": {
+        "x": 130,
+        "y": 214,
+        "w": 1040,
+        "h": 24
+      }
+    },
+    {
+      "text": "© Data encryption ClientlPAddress 2024-2-25 23-2856 1082122148 ~~ 108.21.221.48 joj",
+      "confidence": 81,
+      "bbox": {
+        "x": 130,
+        "y": 259,
+        "w": 1040,
+        "h": 24
+      }
+    },
+    {
+      "text": "2% Authentication Firewall rule name Start IP address End IP address",
+      "confidence": 81,
+      "bbox": {
+        "x": 130,
+        "y": 304,
+        "w": 1040,
+        "h": 24
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "& Locks",
+      "target": "& Khóa",
+      "bbox": {
+        "x": 130,
+        "y": 34,
+        "w": 1040,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "Allow pubilc access from any Azure service within Azure to this server )",
+      "target": "Cho phép truy cập công cộng từ bất kỳ dịch vụ Azure nào trong Azure đến máy chủ này",
+      "bbox": {
+        "x": 130,
+        "y": 79,
+        "w": 1040,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "Power Platform",
+      "target": "Nền tảng Power",
+      "bbox": {
+        "x": 130,
+        "y": 124,
+        "w": 1040,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "8) Foner Eriprevien) + Add current client IP address (108.21.221.48) + Add 0.0.0.0 - 255.255.255.255.",
+      "target": "Thêm địa chỉ IP hiện tại của khách hàng (108.21.221.48) + Thêm 0.0.0.0 - 255.255.255.255.",
+      "bbox": {
+        "x": 130,
+        "y": 169,
+        "w": 1040,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "Security Firewall rule name Start IP address End IP address",
+      "target": "Tên quy tắc tường lửa Địa chỉ IP bắt đầu Địa chỉ IP kết thúc",
+      "bbox": {
+        "x": 130,
+        "y": 214,
+        "w": 1040,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "© Data encryption ClientlPAddress 2024-2-25 23-2856 1082122148 ~~ 108.21.221.48 joj",
+      "target": "© Mã hóa dữ liệu Địa chỉIPKhách hàng 2024-2-25 23-2856 1082122148 ~~ 108.21.221.48 joj",
+      "bbox": {
+        "x": 130,
+        "y": 259,
+        "w": 1040,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "2% Authentication Firewall rule name Start IP address End IP address",
+      "target": "Tên quy tắc tường lửa xác thực Địa chỉ IP bắt đầu Địa chỉ IP kết thúc",
+      "bbox": {
+        "x": 130,
+        "y": 304,
+        "w": 1040,
+        "h": 24
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.4732394366197183,
+    "averageConfidence": 81
+  }
+}

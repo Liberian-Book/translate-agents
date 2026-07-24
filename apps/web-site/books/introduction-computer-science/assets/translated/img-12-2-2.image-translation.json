@@ -1,0 +1,372 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-2-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-2-cloud-based-and-cloud-native-applications-deployment-technologies.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-12-2-2.vi.png",
+  "ocr": [
+    {
+      "text": "On-premise Iaas",
+      "confidence": 68,
+      "bbox": {
+        "x": 111,
+        "y": 89,
+        "w": 888,
+        "h": 59
+      }
+    },
+    {
+      "text": "Software Software",
+      "confidence": 68,
+      "bbox": {
+        "x": 111,
+        "y": 208,
+        "w": 888,
+        "h": 59
+      }
+    },
+    {
+      "text": "Application Application",
+      "confidence": 68,
+      "bbox": {
+        "x": 111,
+        "y": 327,
+        "w": 888,
+        "h": 59
+      }
+    },
+    {
+      "text": "Data Data",
+      "confidence": 68,
+      "bbox": {
+        "x": 111,
+        "y": 446,
+        "w": 888,
+        "h": 59
+      }
+    },
+    {
+      "text": "Platform Platform",
+      "confidence": 68,
+      "bbox": {
+        "x": 111,
+        "y": 565,
+        "w": 888,
+        "h": 59
+      }
+    },
+    {
+      "text": "> Runtime environment Runtime environment",
+      "confidence": 68,
+      "bbox": {
+        "x": 111,
+        "y": 684,
+        "w": 888,
+        "h": 59
+      }
+    },
+    {
+      "text": "Cc",
+      "confidence": 68,
+      "bbox": {
+        "x": 111,
+        "y": 803,
+        "w": 888,
+        "h": 59
+      }
+    },
+    {
+      "text": "g Middleware Middleware 9",
+      "confidence": 68,
+      "bbox": {
+        "x": 111,
+        "y": 922,
+        "w": 888,
+        "h": 59
+      }
+    },
+    {
+      "text": "g Operating system Operating system 2",
+      "confidence": 68,
+      "bbox": {
+        "x": 111,
+        "y": 1041,
+        "w": 888,
+        "h": 59
+      }
+    },
+    {
+      "text": "wn",
+      "confidence": 68,
+      "bbox": {
+        "x": 111,
+        "y": 1160,
+        "w": 888,
+        "h": 59
+      }
+    },
+    {
+      "text": "3 Infrastructure Infrastructure 3",
+      "confidence": 68,
+      "bbox": {
+        "x": 111,
+        "y": 1279,
+        "w": 888,
+        "h": 59
+      }
+    },
+    {
+      "text": "Virtualization °",
+      "confidence": 68,
+      "bbox": {
+        "x": 111,
+        "y": 1398,
+        "w": 888,
+        "h": 59
+      }
+    },
+    {
+      "text": "~ Servers I+",
+      "confidence": 68,
+      "bbox": {
+        "x": 111,
+        "y": 1517,
+        "w": 888,
+        "h": 59
+      }
+    },
+    {
+      "text": "g (Compute/GPU/HPC) s",
+      "confidence": 68,
+      "bbox": {
+        "x": 111,
+        "y": 1636,
+        "w": 888,
+        "h": 59
+      }
+    },
+    {
+      "text": "2 Storage =",
+      "confidence": 68,
+      "bbox": {
+        "x": 111,
+        "y": 1755,
+        "w": 888,
+        "h": 59
+      }
+    },
+    {
+      "text": "(Object/block/file) 3",
+      "confidence": 68,
+      "bbox": {
+        "x": 111,
+        "y": 1874,
+        "w": 888,
+        "h": 59
+      }
+    },
+    {
+      "text": "oO",
+      "confidence": 68,
+      "bbox": {
+        "x": 111,
+        "y": 1993,
+        "w": 888,
+        "h": 59
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "On-premise Iaas",
+      "target": "IaaS tại chỗ",
+      "bbox": {
+        "x": 111,
+        "y": 89,
+        "w": 888,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "Software Software",
+      "target": "Phần mềm",
+      "bbox": {
+        "x": 111,
+        "y": 208,
+        "w": 888,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "Application Application",
+      "target": "Ứng dụng",
+      "bbox": {
+        "x": 111,
+        "y": 327,
+        "w": 888,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "Data Data",
+      "target": "Dữ liệu Dữ liệu",
+      "bbox": {
+        "x": 111,
+        "y": 446,
+        "w": 888,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "Platform Platform",
+      "target": "Nền tảng",
+      "bbox": {
+        "x": 111,
+        "y": 565,
+        "w": 888,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "> Runtime environment Runtime environment",
+      "target": "Môi trường thực thi",
+      "bbox": {
+        "x": 111,
+        "y": 684,
+        "w": 888,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "Cc",
+      "target": "Cc",
+      "bbox": {
+        "x": 111,
+        "y": 803,
+        "w": 888,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "g Middleware Middleware 9",
+      "target": "g Phần mềm trung gian Phần mềm trung gian 9",
+      "bbox": {
+        "x": 111,
+        "y": 922,
+        "w": 888,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "g Operating system Operating system 2",
+      "target": "Hệ điều hành Hệ điều hành 2",
+      "bbox": {
+        "x": 111,
+        "y": 1041,
+        "w": 888,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "wn",
+      "target": "wn",
+      "bbox": {
+        "x": 111,
+        "y": 1160,
+        "w": 888,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "3 Infrastructure Infrastructure 3",
+      "target": "Cơ sở hạ tầng 3",
+      "bbox": {
+        "x": 111,
+        "y": 1279,
+        "w": 888,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "Virtualization °",
+      "target": "Ảo hóa °",
+      "bbox": {
+        "x": 111,
+        "y": 1398,
+        "w": 888,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "~ Servers I+",
+      "target": "Máy chủ I+",
+      "bbox": {
+        "x": 111,
+        "y": 1517,
+        "w": 888,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "g (Compute/GPU/HPC) s",
+      "target": "g (Tính toán/GPU/HPC) s",
+      "bbox": {
+        "x": 111,
+        "y": 1636,
+        "w": 888,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "2 Storage =",
+      "target": "2 Lưu trữ =",
+      "bbox": {
+        "x": 111,
+        "y": 1755,
+        "w": 888,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "(Object/block/file) 3",
+      "target": "Đối tượng/bộ/block 3",
+      "bbox": {
+        "x": 111,
+        "y": 1874,
+        "w": 888,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "oO",
+      "target": "oO",
+      "bbox": {
+        "x": 111,
+        "y": 1993,
+        "w": 888,
+        "h": 59
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 1.0828609986504723,
+    "averageConfidence": 68
+  }
+}

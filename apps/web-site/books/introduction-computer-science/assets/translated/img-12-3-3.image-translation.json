@@ -1,0 +1,162 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-3-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-3-example-paas-and-faas-deployments-of-cloud-native-applications.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-12-3-3.vi.png",
+  "ocr": [
+    {
+      "text": "E Activity log All Modified Static Dynamic Read-Only",
+      "confidence": 78,
+      "bbox": {
+        "x": 121,
+        "y": 33,
+        "w": 967,
+        "h": 24
+      }
+    },
+    {
+      "text": "2 Access control (IAM) This list shows all server parameters. Please hover over the info icon to get det:",
+      "confidence": 78,
+      "bbox": {
+        "x": 121,
+        "y": 77,
+        "w": 967,
+        "h": 24
+      }
+    },
+    {
+      "text": "@ Tags",
+      "confidence": 78,
+      "bbox": {
+        "x": 121,
+        "y": 121,
+        "w": 967,
+        "h": 24
+      }
+    },
+    {
+      "text": "i [¥ require secure transport",
+      "confidence": 78,
+      "bbox": {
+        "x": 121,
+        "y": 165,
+        "w": 967,
+        "h": 24
+      }
+    },
+    {
+      "text": "X Diagnose and solve",
+      "confidence": 78,
+      "bbox": {
+        "x": 121,
+        "y": 209,
+        "w": 967,
+        "h": 24
+      }
+    },
+    {
+      "text": "problems Parameter name tT. VALUE",
+      "confidence": 78,
+      "bbox": {
+        "x": 121,
+        "y": 253,
+        "w": 967,
+        "h": 24
+      }
+    },
+    {
+      "text": "© Migration require_secure_transport",
+      "confidence": 78,
+      "bbox": {
+        "x": 121,
+        "y": 297,
+        "w": 967,
+        "h": 24
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "E Activity log All Modified Static Dynamic Read-Only",
+      "target": "E Nhật ký hoạt động Tất cả Đã sửa đổi Tĩnh Động Chỉ đọc",
+      "bbox": {
+        "x": 121,
+        "y": 33,
+        "w": 967,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "2 Access control (IAM) This list shows all server parameters. Please hover over the info icon to get det:",
+      "target": "2 Kiểm soát truy cập (IAM) Danh sách này hiển thị tất cả các tham số máy chủ. Vui lòng di chuột qua biểu tượng thông tin để biết thêm chi tiết:",
+      "bbox": {
+        "x": 121,
+        "y": 77,
+        "w": 967,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "@ Tags",
+      "target": "@ Nhãn",
+      "bbox": {
+        "x": 121,
+        "y": 121,
+        "w": 967,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "i [¥ require secure transport",
+      "target": "Tôi cần vận chuyển an toàn",
+      "bbox": {
+        "x": 121,
+        "y": 165,
+        "w": 967,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "X Diagnose and solve",
+      "target": "Chẩn đoán và giải quyết",
+      "bbox": {
+        "x": 121,
+        "y": 209,
+        "w": 967,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "problems Parameter name tT. VALUE",
+      "target": "vấn đề Tên tham số tT. GIÁ TRỊ",
+      "bbox": {
+        "x": 121,
+        "y": 253,
+        "w": 967,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "© Migration require_secure_transport",
+      "target": "© Di cư yêu cầu vận chuyển an toàn",
+      "bbox": {
+        "x": 121,
+        "y": 297,
+        "w": 967,
+        "h": 24
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.4940154721938403,
+    "averageConfidence": 78
+  }
+}

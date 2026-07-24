@@ -1,0 +1,309 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-4-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-4-sample-responsive-wad-with-bootstrap-react-and-django.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-11-4-3.vi.png",
+  "ocr": [
+    {
+      "text": "Api Root Todo List",
+      "confidence": 79,
+      "bbox": {
+        "x": 130,
+        "y": 119,
+        "w": 1040,
+        "h": 79
+      }
+    },
+    {
+      "text": "Todo List opTIoNs",
+      "confidence": 79,
+      "bbox": {
+        "x": 130,
+        "y": 278,
+        "w": 1040,
+        "h": 79
+      }
+    },
+    {
+      "text": "Content-Type: application/json",
+      "confidence": 79,
+      "bbox": {
+        "x": 130,
+        "y": 437,
+        "w": 1040,
+        "h": 79
+      }
+    },
+    {
+      "text": "\"id\": 1",
+      "confidence": 79,
+      "bbox": {
+        "x": 130,
+        "y": 596,
+        "w": 1040,
+        "h": 79
+      }
+    },
+    {
+      "text": "\"created\": \"2022-01-31\"",
+      "confidence": 79,
+      "bbox": {
+        "x": 130,
+        "y": 755,
+        "w": 1040,
+        "h": 79
+      }
+    },
+    {
+      "text": "“due_date\": \"2022-02-02\"",
+      "confidence": 79,
+      "bbox": {
+        "x": 130,
+        "y": 914,
+        "w": 1040,
+        "h": 79
+      }
+    },
+    {
+      "text": "“category”: 1",
+      "confidence": 79,
+      "bbox": {
+        "x": 130,
+        "y": 1073,
+        "w": 1040,
+        "h": 79
+      }
+    },
+    {
+      "text": "Raw data HTML form",
+      "confidence": 79,
+      "bbox": {
+        "x": 130,
+        "y": 1232,
+        "w": 1040,
+        "h": 79
+      }
+    },
+    {
+      "text": "Title",
+      "confidence": 79,
+      "bbox": {
+        "x": 130,
+        "y": 1391,
+        "w": 1040,
+        "h": 79
+      }
+    },
+    {
+      "text": "Content",
+      "confidence": 79,
+      "bbox": {
+        "x": 130,
+        "y": 1550,
+        "w": 1040,
+        "h": 79
+      }
+    },
+    {
+      "text": "Created mm/dd/yyyy",
+      "confidence": 79,
+      "bbox": {
+        "x": 130,
+        "y": 1709,
+        "w": 1040,
+        "h": 79
+      }
+    },
+    {
+      "text": "Due date mm/dd/yyyy",
+      "confidence": 79,
+      "bbox": {
+        "x": 130,
+        "y": 1868,
+        "w": 1040,
+        "h": 79
+      }
+    },
+    {
+      "text": "Category Work v",
+      "confidence": 79,
+      "bbox": {
+        "x": 130,
+        "y": 2027,
+        "w": 1040,
+        "h": 79
+      }
+    },
+    {
+      "text": "[ \"sre",
+      "confidence": 79,
+      "bbox": {
+        "x": 130,
+        "y": 2186,
+        "w": 1040,
+        "h": 79
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Api Root Todo List",
+      "target": "Gốc API Danh sách Công việc",
+      "bbox": {
+        "x": 130,
+        "y": 119,
+        "w": 1040,
+        "h": 79
+      },
+      "overflow": false
+    },
+    {
+      "source": "Todo List opTIoNs",
+      "target": "Tùy chọn danh sách công việc",
+      "bbox": {
+        "x": 130,
+        "y": 278,
+        "w": 1040,
+        "h": 79
+      },
+      "overflow": false
+    },
+    {
+      "source": "Content-Type: application/json",
+      "target": "Loại nội dung: ứng dụng/json",
+      "bbox": {
+        "x": 130,
+        "y": 437,
+        "w": 1040,
+        "h": 79
+      },
+      "overflow": false
+    },
+    {
+      "source": "\"id\": 1",
+      "target": "\"id\": 1",
+      "bbox": {
+        "x": 130,
+        "y": 596,
+        "w": 1040,
+        "h": 79
+      },
+      "overflow": false
+    },
+    {
+      "source": "\"created\": \"2022-01-31\"",
+      "target": "\"tạo\": \"2022-01-31\"",
+      "bbox": {
+        "x": 130,
+        "y": 755,
+        "w": 1040,
+        "h": 79
+      },
+      "overflow": false
+    },
+    {
+      "source": "“due_date\": \"2022-02-02\"",
+      "target": "\"ngày_hạn\": \"2022-02-02\"",
+      "bbox": {
+        "x": 130,
+        "y": 914,
+        "w": 1040,
+        "h": 79
+      },
+      "overflow": false
+    },
+    {
+      "source": "“category”: 1",
+      "target": "“thể loại”: 1",
+      "bbox": {
+        "x": 130,
+        "y": 1073,
+        "w": 1040,
+        "h": 79
+      },
+      "overflow": false
+    },
+    {
+      "source": "Raw data HTML form",
+      "target": "Dữ liệu thô mẫu HTML",
+      "bbox": {
+        "x": 130,
+        "y": 1232,
+        "w": 1040,
+        "h": 79
+      },
+      "overflow": false
+    },
+    {
+      "source": "Title",
+      "target": "Tiêu đề",
+      "bbox": {
+        "x": 130,
+        "y": 1391,
+        "w": 1040,
+        "h": 79
+      },
+      "overflow": false
+    },
+    {
+      "source": "Content",
+      "target": "Nội dung",
+      "bbox": {
+        "x": 130,
+        "y": 1550,
+        "w": 1040,
+        "h": 79
+      },
+      "overflow": false
+    },
+    {
+      "source": "Created mm/dd/yyyy",
+      "target": "Ngày tạo mm/dd/yyyy",
+      "bbox": {
+        "x": 130,
+        "y": 1709,
+        "w": 1040,
+        "h": 79
+      },
+      "overflow": false
+    },
+    {
+      "source": "Due date mm/dd/yyyy",
+      "target": "Hạn chót mm/dd/yyyy",
+      "bbox": {
+        "x": 130,
+        "y": 1868,
+        "w": 1040,
+        "h": 79
+      },
+      "overflow": false
+    },
+    {
+      "source": "Category Work v",
+      "target": "Danh mục Công việc",
+      "bbox": {
+        "x": 130,
+        "y": 2027,
+        "w": 1040,
+        "h": 79
+      },
+      "overflow": false
+    },
+    {
+      "source": "[ \"sre",
+      "target": "sre",
+      "bbox": {
+        "x": 130,
+        "y": 2186,
+        "w": 1040,
+        "h": 79
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.8910372608257805,
+    "averageConfidence": 79
+  }
+}

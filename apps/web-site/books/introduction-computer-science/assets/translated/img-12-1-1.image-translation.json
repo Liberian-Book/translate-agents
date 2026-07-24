@@ -1,0 +1,372 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-1-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-1-introduction-to-cloud-native-applications.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-12-1-1.vi.png",
+  "ocr": [
+    {
+      "text": "Microservices architecture Containerization",
+      "confidence": 80,
+      "bbox": {
+        "x": 131,
+        "y": 96,
+        "w": 1044,
+        "h": 64
+      }
+    },
+    {
+      "text": "_ A design and development A virtual environment that",
+      "confidence": 80,
+      "bbox": {
+        "x": 131,
+        "y": 224,
+        "w": 1044,
+        "h": 64
+      }
+    },
+    {
+      "text": "h m0) approach where a large packages and isolates",
+      "confidence": 80,
+      "bbox": {
+        "x": 131,
+        "y": 352,
+        "w": 1044,
+        "h": 64
+      }
+    },
+    {
+      "text": "J ri application is broken applications for",
+      "confidence": 80,
+      "bbox": {
+        "x": 131,
+        "y": 480,
+        "w": 1044,
+        "h": 64
+      }
+    },
+    {
+      "text": "$d fo) H down into small deployment",
+      "confidence": 80,
+      "bbox": {
+        "x": 131,
+        "y": 608,
+        "w": 1044,
+        "h": 64
+      }
+    },
+    {
+      "text": "Q [Ea components or services",
+      "confidence": 80,
+      "bbox": {
+        "x": 131,
+        "y": 736,
+        "w": 1044,
+        "h": 64
+      }
+    },
+    {
+      "text": "oo LS 0",
+      "confidence": 80,
+      "bbox": {
+        "x": 131,
+        "y": 864,
+        "w": 1044,
+        "h": 64
+      }
+    },
+    {
+      "text": "Key Principles of",
+      "confidence": 80,
+      "bbox": {
+        "x": 131,
+        "y": 992,
+        "w": 1044,
+        "h": 64
+      }
+    },
+    {
+      "text": "Cloud-Native",
+      "confidence": 80,
+      "bbox": {
+        "x": 131,
+        "y": 1120,
+        "w": 1044,
+        "h": 64
+      }
+    },
+    {
+      "text": "Development",
+      "confidence": 80,
+      "bbox": {
+        "x": 131,
+        "y": 1248,
+        "w": 1044,
+        "h": 64
+      }
+    },
+    {
+      "text": "Continuous delivery DevOps",
+      "confidence": 80,
+      "bbox": {
+        "x": 131,
+        "y": 1376,
+        "w": 1044,
+        "h": 64
+      }
+    },
+    {
+      "text": "An approach that @. A software development",
+      "confidence": 80,
+      "bbox": {
+        "x": 131,
+        "y": 1504,
+        "w": 1044,
+        "h": 64
+      }
+    },
+    {
+      "text": "leverages a virtual [= A) methodology that ensures",
+      "confidence": 80,
+      "bbox": {
+        "x": 131,
+        "y": 1632,
+        "w": 1044,
+        "h": 64
+      }
+    },
+    {
+      "text": "environment to package ah better communication and",
+      "confidence": 80,
+      "bbox": {
+        "x": 131,
+        "y": 1760,
+        "w": 1044,
+        "h": 64
+      }
+    },
+    {
+      "text": "and isolate applications collaboration between",
+      "confidence": 80,
+      "bbox": {
+        "x": 131,
+        "y": 1888,
+        "w": 1044,
+        "h": 64
+      }
+    },
+    {
+      "text": "ig for deployment development and",
+      "confidence": 80,
+      "bbox": {
+        "x": 131,
+        "y": 2016,
+        "w": 1044,
+        "h": 64
+      }
+    },
+    {
+      "text": "operations teams",
+      "confidence": 80,
+      "bbox": {
+        "x": 131,
+        "y": 2144,
+        "w": 1044,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Microservices architecture Containerization",
+      "target": "Kiến trúc vi dịch vụ Đóng gói container",
+      "bbox": {
+        "x": 131,
+        "y": 96,
+        "w": 1044,
+        "h": 64
+      },
+      "overflow": false
+    },
+    {
+      "source": "_ A design and development A virtual environment that",
+      "target": "Một môi trường ảo để thiết kế và phát triển",
+      "bbox": {
+        "x": 131,
+        "y": 224,
+        "w": 1044,
+        "h": 64
+      },
+      "overflow": false
+    },
+    {
+      "source": "h m0) approach where a large packages and isolates",
+      "target": "cách tiếp cận h m0) nơi các gói lớn và cách ly",
+      "bbox": {
+        "x": 131,
+        "y": 352,
+        "w": 1044,
+        "h": 64
+      },
+      "overflow": false
+    },
+    {
+      "source": "J ri application is broken applications for",
+      "target": "Ứng dụng J ri bị hỏng",
+      "bbox": {
+        "x": 131,
+        "y": 480,
+        "w": 1044,
+        "h": 64
+      },
+      "overflow": false
+    },
+    {
+      "source": "$d fo) H down into small deployment",
+      "target": "$df) H giảm xuống thành triển khai nhỏ",
+      "bbox": {
+        "x": 131,
+        "y": 608,
+        "w": 1044,
+        "h": 64
+      },
+      "overflow": false
+    },
+    {
+      "source": "Q [Ea components or services",
+      "target": "Các thành phần hoặc dịch vụ Q [Ea]",
+      "bbox": {
+        "x": 131,
+        "y": 736,
+        "w": 1044,
+        "h": 64
+      },
+      "overflow": false
+    },
+    {
+      "source": "oo LS 0",
+      "target": "oo LS 0",
+      "bbox": {
+        "x": 131,
+        "y": 864,
+        "w": 1044,
+        "h": 64
+      },
+      "overflow": false
+    },
+    {
+      "source": "Key Principles of",
+      "target": "Nguyên tắc chính của",
+      "bbox": {
+        "x": 131,
+        "y": 992,
+        "w": 1044,
+        "h": 64
+      },
+      "overflow": false
+    },
+    {
+      "source": "Cloud-Native",
+      "target": "Đám mây gốc",
+      "bbox": {
+        "x": 131,
+        "y": 1120,
+        "w": 1044,
+        "h": 64
+      },
+      "overflow": false
+    },
+    {
+      "source": "Development",
+      "target": "Phát triển",
+      "bbox": {
+        "x": 131,
+        "y": 1248,
+        "w": 1044,
+        "h": 64
+      },
+      "overflow": false
+    },
+    {
+      "source": "Continuous delivery DevOps",
+      "target": "Giao hàng liên tục DevOps",
+      "bbox": {
+        "x": 131,
+        "y": 1376,
+        "w": 1044,
+        "h": 64
+      },
+      "overflow": false
+    },
+    {
+      "source": "An approach that @. A software development",
+      "target": "Một phương pháp phát triển phần mềm",
+      "bbox": {
+        "x": 131,
+        "y": 1504,
+        "w": 1044,
+        "h": 64
+      },
+      "overflow": false
+    },
+    {
+      "source": "leverages a virtual [= A) methodology that ensures",
+      "target": "tận dụng một phương pháp ảo [= A) phương pháp đảm bảo",
+      "bbox": {
+        "x": 131,
+        "y": 1632,
+        "w": 1044,
+        "h": 64
+      },
+      "overflow": false
+    },
+    {
+      "source": "environment to package ah better communication and",
+      "target": "môi trường để đóng gói giao tiếp tốt hơn và",
+      "bbox": {
+        "x": 131,
+        "y": 1760,
+        "w": 1044,
+        "h": 64
+      },
+      "overflow": false
+    },
+    {
+      "source": "and isolate applications collaboration between",
+      "target": "và tách biệt ứng dụng hợp tác giữa",
+      "bbox": {
+        "x": 131,
+        "y": 1888,
+        "w": 1044,
+        "h": 64
+      },
+      "overflow": false
+    },
+    {
+      "source": "ig for deployment development and",
+      "target": "ig cho phát triển và triển khai",
+      "bbox": {
+        "x": 131,
+        "y": 2016,
+        "w": 1044,
+        "h": 64
+      },
+      "overflow": false
+    },
+    {
+      "source": "operations teams",
+      "target": "đội ngũ vận hành",
+      "bbox": {
+        "x": 131,
+        "y": 2144,
+        "w": 1044,
+        "h": 64
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 1.0920953575909662,
+    "averageConfidence": 80
+  }
+}

@@ -1,0 +1,472 @@
+<html><head><link rel="stylesheet" href="./style.css">
+<style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style>
+<script src="book-reader/book-pages.js?v=comments-3"></script>
+<link rel="stylesheet" href="book-reader/book-reader.css?v=comments-3">
+<script src="book-reader/book-reader.js?v=comments-3"></script>
+</head><body><h2 data-type="document-title" id="page_11aaf736-55e7-42bc-92e0-bf13fda83d76_titlecreatedbycookbook" data-rex-keep="true" class="eng hidden"><span class="os-number">11.5</span>
+<span class="os-divider"> </span>
+<span data-type="" itemprop="" class="os-text">Sample Native WAD with React Native and Node or Django</span>
+</h2><h2 data-type="document-title" id="page_11aaf736-55e7-42bc-92e0-bf13fda83d76_titlecreatedbycookbook-vn" data-rex-keep="true" class="vn visible"><span class="os-number">11.5</span>
+<span class="os-divider"> </span>
+<span data-type="" itemprop="" class="os-text">Mẫu WAD gốc với React Native và Node hoặc Django</span></h2>
+  
+  <section data-depth="1" class="learning-objectives" id="sect-00001"><h3 data-type="title" class="eng hidden">Learning Objectives</h3><h3 data-type="title" class="vn visible">Mục tiêu học tập</h3>
+  <p id="para-00001" class="eng hidden">By the end of this section, you will be able to:</p><p id="para-00001-vn" class="vn visible">Cuối phần này, bạn sẽ có thể:</p>
+  <ul id="list-00001">
+  <li class="eng hidden">Create a Todo native mobile application with React Native or Node</li><li class="vn visible">Tạo một ứng dụng di động Todo gốc với React Native hoặc Node</li>
+  <li class="eng hidden">Create a React Native app and its components</li><li class="vn visible">Tạo một ứng dụng React Native và các thành phần của nó</li>
+  <li class="eng hidden">Connect the front-end Native app with the back-end Node app</li><li class="vn visible">Kết nối ứng dụng Native phía trước với ứng dụng Node phía sau</li>
+  </ul>
+  </section>
+  
+  <p id="para-00002" class="eng hidden">In the previous sections, you worked with Bootstrap, Django, <span data-type="term" class="no-emphasis" id="term-00001" group-by="R">React</span>, and <span data-type="term" class="no-emphasis" id="term-00002" group-by="N">Node</span> to build versions of a Todo web application. In this section, you will learn how to use React Native and Node to develop a Todo application for mobile devices. You are already familiar with Node. Like React, <span data-type="term" id="term-00003" group-by="R">React Native</span> is an open-source JavaScript framework used to build native applications for mobile devices.</p><p id="para-00002-vn" class="vn visible">Trong các phần trước, bạn đã làm việc với Bootstrap, Django, <span data-type="term" class="no-emphasis" id="term-00001" group-by="R">React</span>, và <span data-type="term" class="no-emphasis" id="term-00002" group-by="N">Node</span> để xây dựng các phiên bản của một ứng dụng web Todo. Trong phần này, bạn sẽ học cách sử dụng React Native và Node để phát triển một ứng dụng Todo cho thiết bị di động. Bạn đã quen thuộc với Node. Giống như React, <span data-type="term" id="term-00003" group-by="R">React Native</span> là một framework JavaScript mã nguồn mở được sử dụng để xây dựng các ứng dụng gốc cho thiết bị di động.</p>
+  
+  <div data-type="note" class="link-to-learning ui-has-child-title" id="note-00001"><header><h3 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label">Link to Learning</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Liên kết đến Học tập</span></h3></header><section>
+<div class="os-note-body">
+  <p id="para-00003" class="eng hidden"><a href="https://openstax.org/r/76ReactNative" target="_blank" rel="noopener nofollow" aria-label="Go to React Native">React Native</a> uses the React JavaScript library to enable native development and build user interfaces for mobile devices. React Native has the flexibility to work with Xcode, which is the IDE for various platforms. Released by Facebook (now Meta) in 2015, React Native has become increasingly popular among developers.</p><p id="para-00003-vn" class="vn visible"><a href="https://openstax.org/r/76ReactNative" target="_blank" rel="noopener nofollow" aria-label="Go to React Native">React Native</a> sử dụng thư viện JavaScript React để cho phép phát triển ứng dụng gốc và xây dựng giao diện người dùng cho các thiết bị di động. React Native có tính linh hoạt để làm việc với Xcode, là IDE cho nhiều nền tảng khác nhau. Được phát hành bởi Facebook (nay là Meta) vào năm 2015, React Native đã trở nên ngày càng phổ biến trong số các nhà phát triển.</p>
+  </div></section></div>
+  
+  <section data-depth="1" id="sect-00002"><h3 data-type="title" class="eng hidden">Creating a Todo Web Application with React Native and Node</h3><h3 data-type="title" class="vn visible">Tạo một ứng dụng web Todo với React Native và Node</h3>
+  <p id="para-00004" class="eng hidden">This application uses React Native and Node to implement a simple Todo mobile application. This application builds on top of the React and Node application discussed in <a href="11-3-sample-responsive-wad-with-bootstrap-react-and-node" class="autogenerated-content" aria-label="Go to 11.3 Sample Responsive WAD with Bootstrap/React and Node" data-page-slug="11-3-sample-responsive-wad-with-bootstrap-react-and-node" data-page-uuid="f769f935-4b97-4e78-861a-80b5a6282bc5" data-page-fragment="">11.3 Sample Responsive WAD with Bootstrap/React and Node</a>. For this version of the application, React Native serves as the front end handling the user interface and getting and setting data via HTTP requests. Node serves as the back end that makes use of the API built using the Django REST Framework in <a href="11-2-sample-responsive-wad-with-bootstrap-and-django" class="autogenerated-content" aria-label="Go to 11.2 Sample Responsive WAD with Bootstrap and Django" data-page-slug="11-2-sample-responsive-wad-with-bootstrap-and-django" data-page-uuid="47911824-16c4-4648-b758-5a19d94fd39c" data-page-fragment="">11.2 Sample Responsive WAD with Bootstrap and Django</a>.</p><p id="para-00004-vn" class="vn visible">Ứng dụng này sử dụng React Native và Node để triển khai một ứng dụng Todo di động đơn giản. Ứng dụng này xây dựng dựa trên ứng dụng React và Node được thảo luận trong <a href="11-3-sample-responsive-wad-with-bootstrap-react-and-node" class="autogenerated-content" aria-label="Go to 11.3 Sample Responsive WAD with Bootstrap/React and Node" data-page-slug="11-3-sample-responsive-wad-with-bootstrap-react-and-node" data-page-uuid="f769f935-4b97-4e78-861a-80b5a6282bc5" data-page-fragment="">11.3 Mẫu WAD Phản hồi với Bootstrap/React và Node</a>. Đối với phiên bản này của ứng dụng, React Native đóng vai trò là giao diện người dùng xử lý giao diện và lấy và thiết lập dữ liệu thông qua các yêu cầu HTTP. Node đóng vai trò là phần back end sử dụng API được xây dựng bằng Django REST Framework trong <a href="11-2-sample-responsive-wad-with-bootstrap-and-django" class="autogenerated-content" aria-label="Go to 11.2 Sample Responsive WAD with Bootstrap and Django" data-page-slug="11-2-sample-responsive-wad-with-bootstrap-and-django" data-page-uuid="47911824-16c4-4648-b758-5a19d94fd39c" data-page-fragment="">11.2 Mẫu WAD Phản hồi với Bootstrap và Django</a>.</p>
+  </section>
+  
+  <section data-depth="1" id="sect-00003"><h3 data-type="title" class="eng hidden">Prerequisites</h3><h3 data-type="title" class="vn visible">Điều kiện tiên quyết</h3>
+  <p id="para-00005" class="eng hidden">To build the Todo mobile application using React Native and Node, you need React Native v0.67, Node v14.17.5, ExpressJS v4.17.2, MongooseJS v6.1.9, and Axios v0.21.0. This Todo application will run using the Android emulator and will use Android Studio v2021.1.1.</p><p id="para-00005-vn" class="vn visible">Để xây dựng ứng dụng Todo di động bằng React Native và Node, bạn cần React Native v0.67, Node v14.17.5, ExpressJS v4.17.2, MongooseJS v6.1.9 và Axios v0.21.0. Ứng dụng Todo này sẽ chạy trên trình giả lập Android và sẽ sử dụng Android Studio v2021.1.1.</p>
+  <div data-type="note" class="link-to-learning ui-has-child-title" id="note-00002"><header><h3 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label">Link to Learning</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Liên kết đến Học tập</span></h3></header><section>
+<div class="os-note-body">
+  <p id="para-00006" class="eng hidden"><a href="https://openstax.org/r/76Xcode" target="_blank" rel="noopener nofollow" aria-label="Go to Xcode">Xcode</a> is the IDE for the Apple platform. For Apple, React Native provides developers with the tools needed for cross-platform development that creates user-friendly apps on mobile devices.</p><p id="para-00006-vn" class="vn visible"><a href="https://openstax.org/r/76Xcode" target="_blank" rel="noopener nofollow" aria-label="Go to Xcode">Xcode</a> là IDE cho nền tảng Apple. Đối với Apple, React Native cung cấp cho các nhà phát triển các công cụ cần thiết cho việc phát triển đa nền tảng, giúp tạo ra các ứng dụng thân thiện với người dùng trên thiết bị di động.</p>
+  </div></section></div>
+  <ul id="list-00002">
+  <li class="eng hidden">To begin, download and install an emulator for your intended platform (iOS or Android).</li><li class="vn visible">Để bắt đầu, hãy tải xuống và cài đặt một trình giả lập cho nền tảng mà bạn dự định sử dụng (iOS hoặc Android).</li>
+  <li class="eng hidden">If you plan to run the native app on an iOS device or emulator, download and install <span data-type="term" id="term-00004" group-by="X">Xcode</span>, which is Apple’s IDE that enables application development for Apple’s platforms.</li><li class="vn visible">Nếu bạn dự định chạy ứng dụng gốc trên thiết bị iOS hoặc trình giả lập, hãy tải xuống và cài đặt <span data-type="term" id="term-00004" group-by="X">Xcode</span>, là IDE của Apple cho phép phát triển ứng dụng cho các nền tảng của Apple.</li>
+  <li class="eng hidden">If you plan to run the native app on an Android device or emulator, download and install Android Studio, which enables application development for Android mobile operating systems.</li><li class="vn visible">Nếu bạn dự định chạy ứng dụng gốc trên thiết bị Android hoặc trình giả lập, hãy tải xuống và cài đặt Android Studio, công cụ cho phép phát triển ứng dụng cho hệ điều hành di động Android.</li>
+  <li class="eng hidden"><a href="11-5-sample-native-wad-with-react-native-and-node-or-django#fig-00001" class="autogenerated-content" aria-label="View Figure 11.38">Figure 11.38</a> shows how to set up the Android emulator. Launch Android Studio. From the top navigation, select Tools &gt; Device Manager. Click on Create device. In the Select Hardware pop-up, select Pixel 5 and click Next. On the next page, select Pie Download. Click on the Download link to obtain an image as shown. Click Next followed by Finish.</li><li class="vn visible"><a href="11-5-sample-native-wad-with-react-native-and-node-or-django#fig-00001" class="autogenerated-content" aria-label="View Figure 11.38">Hình 11.38</a> cho thấy cách thiết lập trình giả lập Android. Khởi động Android Studio. Từ thanh điều hướng trên cùng, chọn Công cụ &gt; Trình quản lý thiết bị. Nhấp vào Tạo thiết bị. Trong cửa sổ bật lên Chọn phần cứng, chọn Pixel 5 và nhấp vào Tiếp theo. Ở trang tiếp theo, chọn Tải xuống Pie. Nhấp vào liên kết Tải xuống để lấy một hình ảnh như đã hiển thị. Nhấp vào Tiếp theo và sau đó là Hoàn tất.</li>
+  </ul>
+  <div class="os-figure" id="fig-00001"><figure data-id="fig-00001" class="ui-has-child-figcaption">
+  <span data-type="media" data-alt="Screenshot of page to set up Android emulator.">
+  <button type="button" aria-label="Click to enlarge image of Screenshot of page to set up Android emulator." class="image-button-wrapper"><img src="assets/translated/img-11-5-1.vi.png" data-media-type="image/jpeg" alt="Screenshot of page to set up Android emulator." width="1301" height="827" loading="lazy"></button>
+  </span>
+  
+  <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.38</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">This shows how to set up the Android emulator. (Android Studio is a trademark of Google LLC.)</span>
+</figcaption><figcaption class="os-caption-container vn visible">
+  <span class="os-title-label">Hình ảnh </span>
+<span class="os-number">11.38</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">Điều này cho thấy cách thiết lập trình giả lập Android. (Android Studio là một nhãn hiệu của Google LLC.)</span>
+</figcaption></figure></div>
+  <p id="para-00007" class="eng hidden">Once the image has been created, it will appear in the Device Manager. Next, click on the Start button to launch the emulator. When the emulator is launched, it will turn on, as shown in <a href="11-5-sample-native-wad-with-react-native-and-node-or-django#fig-00002" class="autogenerated-content" aria-label="View Figure 11.39">Figure 11.39</a>.</p><p id="para-00007-vn" class="vn visible">Khi hình ảnh đã được tạo, nó sẽ xuất hiện trong Trình quản lý thiết bị. Tiếp theo, hãy nhấp vào nút Bắt đầu để khởi động trình giả lập. Khi trình giả lập được khởi động, nó sẽ bật lên, như được hiển thị trong <a href="11-5-sample-native-wad-with-react-native-and-node-or-django#fig-00002" class="autogenerated-content" aria-label="View Figure 11.39">Hình 11.39</a>.</p>
+  <div class="os-figure" id="fig-00002"><figure data-id="fig-00002" class="scaled-down-60 ui-has-child-figcaption">
+  <span data-type="media" data-alt="Screenshot of emulator showing a cell phone screen.">
+  <button type="button" aria-label="Click to enlarge image of Screenshot of emulator showing a cell phone screen." class="image-button-wrapper"><img src="assets/img-11-5-2.webp" data-media-type="image/jpeg" alt="Screenshot of emulator showing a cell phone screen." width="701" height="1103" loading="lazy"></button>
+  </span>
+  
+  <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.39</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">This is how the emulator will appear after it is launched. (Android Studio is a trademark of Google LLC.)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>  
+<span class="os-number">11.39</span>  
+
+<span class="os-divider"> </span>  
+<span class="os-caption">Đây là cách mà trình giả lập sẽ xuất hiện sau khi được khởi động. (Android Studio là một thương hiệu của Google LLC.)</span></figcaption></figure></div>
+  <div data-type="note" class="link-to-learning ui-has-child-title" id="note-00003"><header><h3 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label">Link to Learning</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Liên kết đến Học tập</span></h3></header><section>
+<div class="os-note-body">
+  <p id="para-00008" class="eng hidden">Xcode also integrates well with <a href="https://openstax.org/r/76AndroidStud" target="_blank" rel="noopener nofollow" aria-label="Go to Android Studio">Android Studio</a> for developing Android apps. Android Studio is the IDE for Android devices.</p><p id="para-00008-vn" class="vn visible">Xcode cũng tích hợp tốt với <a href="https://openstax.org/r/76AndroidStud" target="_blank" rel="noopener nofollow" aria-label="Go to Android Studio">Android Studio</a> để phát triển ứng dụng Android. Android Studio là IDE cho các thiết bị Android.</p>
+  </div></section></div>
+  </section>
+  
+  <section data-depth="1" id="sect-00004"><h3 data-type="title" class="eng hidden">Creating the React Native App</h3><h3 data-type="title" class="vn visible">Tạo ứng dụng React Native</h3>
+  <p id="para-00009" class="eng hidden">After launching the emulator, create the React Native app by running the following command in a directory outside and separate from the nodebackend/ directory. <a href="11-5-sample-native-wad-with-react-native-and-node-or-django#fig-00003" class="autogenerated-content" aria-label="View Figure 11.40">Figure 11.40</a> shows the React Native application files in the reactnativefrontend/ directory.</p><p id="para-00009-vn" class="vn visible">Sau khi khởi động trình giả lập, hãy tạo ứng dụng React Native bằng cách chạy lệnh sau trong một thư mục nằm ngoài và tách biệt với thư mục nodebackend/. <a href="11-5-sample-native-wad-with-react-native-and-node-or-django#fig-00003" class="autogenerated-content" aria-label="View Figure 11.40">Hình 11.40</a> hiển thị các tệp ứng dụng React Native trong thư mục reactnativefrontend/.</p>
+  <pre data-type="code" class="shell" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> npx react-native init reactnativefrontend</span></pre>
+  <div class="os-figure" id="fig-00003"><figure data-id="fig-00003" class="scaled-down ui-has-child-figcaption">
+  <span data-type="media" data-alt="Screenshot of React Native application files in the reactnativefrontend/ directory.">
+  <button type="button" aria-label="Click to enlarge image of Screenshot of React Native application files in the reactnativefrontend/ directory." class="image-button-wrapper"><img src="assets/translated/img-11-5-3.vi.png" data-media-type="image/jpeg" alt="Screenshot of React Native application files in the reactnativefrontend/ directory." width="328" height="1083" loading="lazy"></button>
+  </span>
+  
+  <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.40</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">When the React Native app is created, it will generate the React Native application files in the reactnativefrontend/ directory. (rendered in React Native, under MIT license; attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>  
+<span class="os-number">11.40</span>  
+
+<span class="os-divider"> </span>  
+<span class="os-caption">Khi ứng dụng React Native được tạo ra, nó sẽ tạo ra các tệp ứng dụng React Native trong thư mục reactnativefrontend/. (được hiển thị trong React Native, theo giấy phép MIT; ghi công: Bản quyền Đại học Rice, OpenStax, theo giấy phép CC BY NC-SA 4.0)</span></figcaption></figure></div>
+  <p id="para-00010" class="eng hidden">Next, navigate into the reactnativefrontend/ directory and launch the React Native application to confirm that the React Native front-end application has been created successfully. At this point, the application is not connected to the Node back end and will launch the <span data-type="term" id="term-00005" group-by="M">Metro bundler</span>, which bundles the JavaScript code that is deployed on the mobile device or emulator when the React Native front-end application is successfully completed. When this is done, run the command. <a href="11-5-sample-native-wad-with-react-native-and-node-or-django#fig-00004" class="autogenerated-content" aria-label="View Figure 11.41">Figure 11.41</a> shows the page in the terminal.</p><p id="para-00010-vn" class="vn visible">Tiếp theo, điều hướng vào thư mục reactnativefrontend/ và khởi động ứng dụng React Native để xác nhận rằng ứng dụng front-end React Native đã được tạo thành công. Tại thời điểm này, ứng dụng chưa được kết nối với back end Node và sẽ khởi động <span data-type="term" id="term-00005" group-by="M">Metro bundler</span>, cái mà gói mã JavaScript được triển khai trên thiết bị di động hoặc trình giả lập khi ứng dụng front-end React Native hoàn thành thành công. Khi điều này được thực hiện, hãy chạy lệnh. <a href="11-5-sample-native-wad-with-react-native-and-node-or-django#fig-00004" class="autogenerated-content" aria-label="View Figure 11.41">Hình 11.41</a> hiển thị trang trong terminal.</p>
+  <pre data-type="code" class="shell" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> npx react-native start</span></pre>
+  <div class="os-figure" id="fig-00004"><figure data-id="fig-00004" class="scaled-down ui-has-child-figcaption">
+  <span data-type="media" data-alt="Screenshot of react-native start command.">
+  <button type="button" aria-label="Click to enlarge image of Screenshot of react-native start command." class="image-button-wrapper"><img src="assets/img-11-5-4.webp" data-media-type="image/jpeg" alt="Screenshot of react-native start command." width="636" height="545" loading="lazy"></button>
+  </span>
+  
+  <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.41</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">This page will appear when the react-native start command is run. (credit: React Native, under MIT license)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>  
+<span class="os-number">11.41</span>  
+
+<span class="os-divider"> </span>  
+<span class="os-caption">Trang này sẽ xuất hiện khi lệnh react-native start được thực thi. (tín dụng: React Native, theo giấy phép MIT)</span></figcaption></figure></div>
+  <p id="para-00011" class="eng hidden">The next step is to open another terminal, navigate to the reactnativefrontend/ directory, and run the following command. This will build the front-end code and deploy it on the emulator, which may take a few minutes.</p><p id="para-00011-vn" class="vn visible">Bước tiếp theo là mở một terminal khác, điều hướng đến thư mục reactnativefrontend/ và chạy lệnh sau. Điều này sẽ xây dựng mã front-end và triển khai nó trên trình giả lập, điều này có thể mất vài phút.</p>
+  <pre data-type="code" class="shell" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> npx react-native run-android</span></pre>
+  <p id="para-00012" class="eng hidden">When the application is successfully built, <a href="11-5-sample-native-wad-with-react-native-and-node-or-django#fig-00005" class="autogenerated-content" aria-label="View Figure 11.42">Figure 11.42</a> shows what should appear in the second terminal.</p><p id="para-00012-vn" class="vn visible">Khi ứng dụng được xây dựng thành công, <a href="11-5-sample-native-wad-with-react-native-and-node-or-django#fig-00005" class="autogenerated-content" aria-label="View Figure 11.42">Hình 11.42</a> cho thấy những gì sẽ xuất hiện trong terminal thứ hai.</p>
+  <div class="os-figure" id="fig-00005"><figure data-id="fig-00005" class="ui-has-child-figcaption">
+  <span data-type="media" data-alt="Screenshot of code.">
+  <button type="button" aria-label="Click to enlarge image of Screenshot of code." class="image-button-wrapper"><img src="assets/img-11-5-5.webp" data-media-type="image/jpeg" alt="Screenshot of code." width="1100" height="1429" loading="lazy"></button>
+  </span>
+  
+  <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.42</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">This code should appear in the second terminal when the React Native application is successfully built. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">11.42</span>
+
+<span class="os-divider"> </span>
+<span class="os-caption">Mã này sẽ xuất hiện trong terminal thứ hai khi ứng dụng React Native được xây dựng thành công. (tác quyền: Bản quyền Đại học Rice, OpenStax, theo giấy phép CC BY NC-SA 4.0)</span></figcaption></figure></div>
+  <p id="para-00013" class="eng hidden"><a href="11-5-sample-native-wad-with-react-native-and-node-or-django#fig-00006" class="autogenerated-content" aria-label="View Figure 11.43">Figure 11.43</a> shows how the native application should appear in the emulator.</p><p id="para-00013-vn" class="vn visible"><a href="11-5-sample-native-wad-with-react-native-and-node-or-django#fig-00006" class="autogenerated-content" aria-label="View Figure 11.43">Hình 11.43</a> cho thấy cách mà ứng dụng gốc nên xuất hiện trong trình giả lập.</p>
+  <div class="os-figure" id="fig-00006"><figure data-id="fig-00006" class="scaled-down-60 ui-has-child-figcaption">
+  <span data-type="media" data-alt="Welcome page for React Native in emulator.">
+  <button type="button" aria-label="Click to enlarge image of Welcome page for React Native in emulator." class="image-button-wrapper"><img src="assets/translated/img-11-5-6.vi.png" data-media-type="image/jpeg" alt="Welcome page for React Native in emulator." width="700" height="1108" loading="lazy"></button>
+  </span>
+  
+  <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.43</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">Once the React Native application is successfully built, this is how the native application should appear in the emulator. (Android Studio is a trademark of Google LLC.)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>  
+<span class="os-number">11.43</span>  
+
+<span class="os-divider"> </span>  
+<span class="os-caption">Khi ứng dụng React Native được xây dựng thành công, đây là cách mà ứng dụng gốc nên xuất hiện trong trình giả lập. (Android Studio là thương hiệu của Google LLC.)</span></figcaption></figure></div>
+  </section>
+  
+  <section data-depth="1" id="sect-00005"><h3 data-type="title" class="eng hidden">Creating the React Native App Components</h3><h3 data-type="title" class="vn visible">Tạo các thành phần ứng dụng React Native</h3>
+  <p id="para-00014" class="eng hidden">The packages used by the React Native app for navigation and other features are different from the packages used by React. To install the required packages, in the reactnativefrontend/ directory, run the following list of commands:</p><p id="para-00014-vn" class="vn visible">Các gói được sử dụng bởi ứng dụng React Native cho điều hướng và các tính năng khác khác với các gói được sử dụng bởi React. Để cài đặt các gói cần thiết, trong thư mục reactnativefrontend/, hãy chạy danh sách lệnh sau:</p>
+  <pre data-type="code" class="shell" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> npm install @react-navigation/native@6.0.7</span>
+<span class="hljs-meta">$</span><span class="bash"> npm install @react-navigation/native-stack@6.3.0</span>
+<span class="hljs-meta">$</span><span class="bash"> npm install axios@0.25.0</span>
+<span class="hljs-meta">$</span><span class="bash"> npm install moment@2.29.1</span>
+<span class="hljs-meta">$</span><span class="bash"> npm install react-native-modal@13.0.0</span>
+<span class="hljs-meta">$</span><span class="bash"> npm install react-native-safe-area-context@3.3.2</span>
+<span class="hljs-meta">$</span><span class="bash"> npm install react-native-screens@3.10.2</span>
+<span class="hljs-meta">$</span><span class="bash"> npm install react-native-snackbar@2.4.0</span>
+<span class="hljs-meta">$</span><span class="bash"> npm install react-native-vector-icons@9.0.0</span></pre>
+  <p id="para-00015" class="eng hidden">The first step is to create the Todo component. In the reactnativefrontend/ directory, create the directory src/Screens/. In the src/Screens/ directory, create the file TodoList.js. The following code shows the imports required to create the screen components.</p><p id="para-00015-vn" class="vn visible">Bước đầu tiên là tạo thành phần Todo. Trong thư mục reactnativefrontend/, hãy tạo thư mục src/Screens/. Trong thư mục src/Screens/, hãy tạo tệp TodoList.js. Mã sau đây cho thấy các import cần thiết để tạo các thành phần màn hình.</p>
+  <pre data-type="code" class="javascript" data-lang="javascript"><span class="hljs-keyword">import</span> React, {useState, useEffect} <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> {
+&nbsp;&nbsp;View,
+&nbsp;&nbsp;Text,
+&nbsp;&nbsp;StyleSheet,
+&nbsp;&nbsp;TextInput,
+&nbsp;&nbsp;FlatList,
+&nbsp;&nbsp;TouchableOpacity,
+&nbsp;&nbsp;Dimensions,
+&nbsp;&nbsp;StatusBar,
+&nbsp;&nbsp;Alert,
+} <span class="hljs-keyword">from</span> <span class="hljs-string">'react-native'</span>;
+<span class="hljs-keyword">import</span> axios <span class="hljs-keyword">from</span> <span class="hljs-string">'axios'</span>;
+<span class="hljs-keyword">import</span> {COLORS} <span class="hljs-keyword">from</span> <span class="hljs-string">'../utils/colors'</span>;
+<span class="hljs-keyword">import</span> MaterialIcon <span class="hljs-keyword">from</span> <span class="hljs-string">'react-native-vector-icons/MaterialIcons'</span>;
+<span class="hljs-keyword">import</span> MaterialCommunityIcon <span class="hljs-keyword">from</span> <span class="hljs-string">'react-native-vector-icons/MaterialCommunityIcons'</span>;
+<span class="hljs-keyword">import</span> Modal <span class="hljs-keyword">from</span> <span class="hljs-string">'react-native-modal'</span>;
+<span class="hljs-keyword">import</span> Snackbar <span class="hljs-keyword">from</span> <span class="hljs-string">'react-native-snackbar'</span>;
+<span class="hljs-keyword">import</span> {duration} <span class="hljs-keyword">from</span> <span class="hljs-string">'moment'</span>;</pre>
+  <p id="para-00016" class="eng hidden">Once this is done, the following code includes the <code data-type="code" class="javascript inline-code" data-lang="javascript"><span class="hljs-keyword">return</span>()</code> function that renders the screen components.</p><p id="para-00016-vn" class="vn visible">Khi điều này hoàn tất, đoạn mã sau đây bao gồm hàm <code data-type="code" class="javascript inline-code" data-lang="javascript"><span class="hljs-keyword">return</span>()</code> mà hiển thị các thành phần trên màn hình.</p>
+  <pre data-type="code" class="javascript" data-lang="javascript"><span class="hljs-keyword">return</span> (
+&nbsp;&nbsp;<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">View</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{styles.container}</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">StatusBar</span> <span class="hljs-attr">backgroundColor</span>=<span class="hljs-string">{COLORS.DARKALT}</span> /&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">Text</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{styles.heading}</span>&gt;</span>Welcome to Todo List App!<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">Text</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{styles.heading}</span>&gt;</span>Your Tasks<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span>
+
+&nbsp;&nbsp;&nbsp;&nbsp;{todos.length == 0 ? (
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">View</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{styles.center}</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">MaterialCommunityIcon</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">name</span>=<span class="hljs-string">"note-multiple"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">size</span>=<span class="hljs-string">{90}</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">color</span>=<span class="hljs-string">{COLORS.LIGHTALT}</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">Text</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{styles.noTasksText}</span>&gt;</span>No Tasks Added<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">View</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;) : (
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">View</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{styles.todosContainer}</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">FlatList</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">data</span>=<span class="hljs-string">{todos}</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">renderItem</span>=<span class="hljs-string">{({item})</span> =&gt;</span> (
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">View</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{styles.todo}</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">Text</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">style</span>=<span class="hljs-string">{item.complete</span> ? <span class="hljs-attr">styles.completedStyle</span> <span class="hljs-attr">:</span> <span class="hljs-attr">styles.text</span>}&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{item.title}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">TouchableOpacity</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">style</span>=<span class="hljs-string">{styles.deleteTodo}</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">onPress</span>=<span class="hljs-string">{()</span> =&gt;</span> deleteTodo(item._id)}&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">Text</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{{color:</span> <span class="hljs-attr">COLORS.WHITE</span>}}&gt;</span>X<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">TouchableOpacity</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">View</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">View</span>&gt;</span>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">TouchableOpacity</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">style</span>=<span class="hljs-string">{styles.addButton}</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">onPress</span>=<span class="hljs-string">{()</span> =&gt;</span> {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setModalActive(true);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}}&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">MaterialIcon</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"add"</span> <span class="hljs-attr">size</span>=<span class="hljs-string">{32}</span> <span class="hljs-attr">color</span>=<span class="hljs-string">{COLORS.LIGHT}</span> /&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">TouchableOpacity</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/&gt;</span></span>
+&nbsp;&nbsp;&nbsp;&nbsp;)}
+
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;Modal
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;isVisible={modalActive}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;animationIn={<span class="hljs-string">'slideInUp'</span>}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;animationOut={<span class="hljs-string">'slideInDown'</span>}&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">View</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{styles.modalView}</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">TouchableOpacity</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">style</span>=<span class="hljs-string">{styles.modalCloseBtn}</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">onPress</span>=<span class="hljs-string">{()</span> =&gt;</span> setModalActive(false)}&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">Text</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{styles.modalCloseBtnText}</span>&gt;</span>X<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">TouchableOpacity</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">Text</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{styles.addTaskHeading}</span>&gt;</span>Add Task<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">TextInput</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">style</span>=<span class="hljs-string">{styles.taskInput}</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">placeholder</span>=<span class="hljs-string">"Enter task here.."</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">onChangeText</span>=<span class="hljs-string">{text</span> =&gt;</span> setNewTodo(text)}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value={newTodo}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">TouchableOpacity</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{styles.createBtn}</span> <span class="hljs-attr">onPress</span>=<span class="hljs-string">{()</span> =&gt;</span> addTodo()}&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">Text</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{styles.createBtnText}</span>&gt;</span>Create Task<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">TouchableOpacity</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">View</span>&gt;</span></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/Modal&gt;
+&nbsp;&nbsp;&lt;/View&gt;
+);</pre>
+  <p id="para-00017" class="eng hidden">The following code creates the modal pop-up screen that is used to create a Todo list.</p><p id="para-00017-vn" class="vn visible">Mã sau đây tạo ra màn hình pop-up modal được sử dụng để tạo danh sách Todo.</p>
+  <pre data-type="code" class="javascript" data-lang="javascript">&lt;Modal 
+&nbsp;&nbsp;isVisible={modalActive}
+&nbsp;&nbsp;animationIn={<span class="hljs-string">'slideInUp'</span>}
+&nbsp;&nbsp;animationOut={<span class="hljs-string">'slideInDown'</span>}&gt;
+&nbsp;&nbsp;<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">View</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{styles.modalView}</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">TouchableOpacity</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">style</span>=<span class="hljs-string">{styles.modalCloseBtn}</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">onPress</span>=<span class="hljs-string">{()</span> =&gt;</span> setModalActive(false)}&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">Text</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{styles.modalCloseBtnText}</span>&gt;</span>X<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">TouchableOpacity</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">Text</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{styles.addTaskHeading}</span>&gt;</span>Add Task<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">TextInput</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">style</span>=<span class="hljs-string">{styles.taskInput}</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">placeholder</span>=<span class="hljs-string">"Enter task here.."</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">onChangeText</span>=<span class="hljs-string">{text</span> =&gt;</span> setNewTodo(text)}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value={newTodo}
+&nbsp;&nbsp;&nbsp;&nbsp;/&gt;
+&nbsp;&nbsp; <span class="hljs-tag">&lt;<span class="hljs-name">TouchableOpacity</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{styles.createBtn}</span> <span class="hljs-attr">onPress</span>=<span class="hljs-string">{()</span> =&gt;</span> addTodo()}&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">Text</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{styles.createBtnText}</span>&gt;</span>Create Task<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">TouchableOpacity</span>&gt;</span>
+&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">View</span>&gt;</span></span>
+&lt;/Modal&gt;</pre>
+  <p id="para-00018" class="eng hidden">Next, update the reactnativefrontend/App.js file, as shown in the following code, to render the screen components declared in the TodoList.js file.</p><p id="para-00018-vn" class="vn visible">Tiếp theo, cập nhật tệp reactnativefrontend/App.js, như được hiển thị trong mã sau, để hiển thị các thành phần màn hình được khai báo trong tệp TodoList.js.</p>
+  <pre data-type="code" class="javascript" data-lang="javascript"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> {NavigationContainer} <span class="hljs-keyword">from</span> <span class="hljs-string">'@react-navigation/native'</span>;
+<span class="hljs-keyword">import</span> {createNativeStackNavigator} <span class="hljs-keyword">from</span> <span class="hljs-string">'@react-navigation/native-stack'</span>;
+<span class="hljs-keyword">import</span> TodoList <span class="hljs-keyword">from</span> <span class="hljs-string">'./src/Screens/TodoList'</span>;
+
+<span class="hljs-keyword">const</span> Stack = createNativeStackNavigator();
+
+<span class="hljs-keyword">const</span> App = <span class="hljs-function">() =&gt;</span> {
+&nbsp;&nbsp;<span class="hljs-keyword">return</span> (
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">NavigationContainer</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">Stack.Navigator</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">Stack.Screen</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">name</span>=<span class="hljs-string">"TodoList"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">component</span>=<span class="hljs-string">{TodoList}</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">options</span>=<span class="hljs-string">{{headerShown:</span> <span class="hljs-attr">false</span>}}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">Stack.Navigator</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">NavigationContainer</span>&gt;</span></span>
+&nbsp;&nbsp;);
+};
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> App;</pre>
+  <p id="para-00019" class="eng hidden">When this is done, relaunch the Metro bundler and deploy the native application by running the following commands:</p><p id="para-00019-vn" class="vn visible">Khi điều này hoàn tất, hãy khởi động lại Metro bundler và triển khai ứng dụng gốc bằng cách chạy các lệnh sau:</p>
+  <pre data-type="code" class="python" data-lang="python">$ npx react-native start
+$ npx react-native run-android</pre>
+  <p id="para-00020" class="eng hidden">Next, create a Todo item (<a href="11-5-sample-native-wad-with-react-native-and-node-or-django#fig-00007" class="autogenerated-content" aria-label="View Figure 11.44">Figure 11.44</a>).</p><p id="para-00020-vn" class="vn visible">Tiếp theo, tạo một mục Todo (<a href="11-5-sample-native-wad-with-react-native-and-node-or-django#fig-00007" class="autogenerated-content" aria-label="View Figure 11.44">Hình 11.44</a>).</p>
+  <div class="os-figure" id="fig-00007"><figure data-id="fig-00007" class="scaled-down-60 ui-has-child-figcaption">
+  <span data-type="media" data-alt="Screenshot of page to create Todo items.">
+  <button type="button" aria-label="Click to enlarge image of Screenshot of page to create Todo items." class="image-button-wrapper"><img src="assets/img-11-5-7.webp" data-media-type="image/jpeg" alt="Screenshot of page to create Todo items." width="700" height="1106" loading="lazy"></button>
+  </span>
+  
+  <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.44</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">After relaunching the Metro bundler and deploying the native application, this screen allows users to create a Todo item. (Android studio is a trademark of Google LLC.)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">11.44</span>
+
+<span class="os-divider"> </span>
+<span class="os-caption">Sau khi khởi động lại Metro bundler và triển khai ứng dụng gốc, màn hình này cho phép người dùng tạo một mục Todo. (Android studio là thương hiệu của Google LLC.)</span></figcaption></figure></div>
+  <p id="para-00021" class="eng hidden">After the Todo item is created, it should appear on the main screen as seen in <a href="11-5-sample-native-wad-with-react-native-and-node-or-django#fig-00008" class="autogenerated-content" aria-label="View Figure 11.45">Figure 11.45</a>.</p><p id="para-00021-vn" class="vn visible">Sau khi mục Todo được tạo, nó sẽ xuất hiện trên màn hình chính như thấy trong <a href="11-5-sample-native-wad-with-react-native-and-node-or-django#fig-00008" class="autogenerated-content" aria-label="View Figure 11.45">Hình 11.45</a>.</p>
+  <div class="os-figure" id="fig-00008"><figure data-id="fig-00008" class="scaled-down-60 ui-has-child-figcaption">
+  <span data-type="media" data-alt="Screenshot of Welcome page for creating your Todo List App.">
+  <button type="button" aria-label="Click to enlarge image of Screenshot of Welcome page for creating your Todo List App." class="image-button-wrapper"><img src="assets/img-11-5-8.webp" data-media-type="image/jpeg" alt="Screenshot of Welcome page for creating your Todo List App." width="704" height="1109" loading="lazy"></button>
+  </span>
+  
+  <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.45</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">Here is how the Todo item should appear on the main screen. (Android studio is a trademark of Google LLC.)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">11.45</span>
+
+
+
+<span class="os-divider"> </span>
+<span class="os-caption">Đây là cách mà mục Todo nên xuất hiện trên màn hình chính. (Android studio là thương hiệu của Google LLC.)</span></figcaption></figure></div>
+  </section>
+  
+  <section data-depth="1" id="sect-00006"><h3 data-type="title" class="eng hidden">Connecting the Front-End Native App with the Back-End <span data-type="term" class="no-emphasis" id="term-00006" group-by="N">Node</span> App</h3><h3 data-type="title" class="vn visible">Kết nối ứng dụng gốc phía trước với ứng dụng phía sau <span data-type="term" class="no-emphasis" id="term-00006" group-by="N">Node</span></h3>
+  <p id="para-00022" class="eng hidden">The next step is to connect the front-end React Native app with the back-end Node app. To do this, open reactnativefrontend/src/Screens/Todolist.js. Add the API_BASE variable and configure the IP address to the local computer, running the Express <span data-type="term" class="no-emphasis" id="term-00007" group-by="w">web server</span>, as shown in the following code.</p><p id="para-00022-vn" class="vn visible">Bước tiếp theo là kết nối ứng dụng React Native phía trước với ứng dụng Node phía sau. Để làm điều này, hãy mở reactnativefrontend/src/Screens/Todolist.js. Thêm biến API_BASE và cấu hình địa chỉ IP đến máy tính cục bộ, đang chạy <span data-type="term" class="no-emphasis" id="term-00007" group-by="w">web server</span> Express, như được hiển thị trong đoạn mã sau.</p>
+  <pre data-type="code" class="javascript" data-lang="javascript"><span class="hljs-keyword">import</span> axios <span class="hljs-keyword">from</span> <span class="hljs-string">'axios'</span>;
+<span class="hljs-keyword">import</span> {COLORS} <span class="hljs-keyword">from</span> <span class="hljs-string">'../utils/colors'</span>;
+<span class="hljs-keyword">import</span> MaterialIcon <span class="hljs-keyword">from</span> <span class="hljs-string">'react-native-vector-icons/MaterialIcons'</span>;
+<span class="hljs-keyword">import</span> MaterialCommunityIcon <span class="hljs-keyword">from</span> <span class="hljs-string">'react-native-vector-icons/MaterialCommunityIcons'</span>;
+<span class="hljs-keyword">import</span> Modal <span class="hljs-keyword">from</span> <span class="hljs-string">'react-native-modal'</span>;
+<span class="hljs-keyword">import</span> Snackbar <span class="hljs-keyword">from</span> <span class="hljs-string">'react-native-snackbar'</span>;
+<span class="hljs-keyword">import</span> {duration} <span class="hljs-keyword">from</span> <span class="hljs-string">'moment'</span>;
+
+<span class="hljs-keyword">const</span> width = Dimensions.get(<span class="hljs-string">'window'</span>).width;
+
+<span class="hljs-keyword">const</span> API_BASE = <span class="hljs-string">'<a href="http://192.168.1.183:8080'" aria-label="Go to http://192.168.1.183:8080'" data-bare-link="true">http://192.168.1.183:8080'</a></span>;</pre>
+  <p id="para-00023" class="eng hidden">Next, add the Axios calls to interact with the REST API provided via the Express web server to interact with the MongoDB database.</p><p id="para-00023-vn" class="vn visible">Tiếp theo, thêm các cuộc gọi Axios để tương tác với REST API được cung cấp thông qua máy chủ web Express để tương tác với cơ sở dữ liệu MongoDB.</p>
+  <pre data-type="code" class="javascript" data-lang="javascript"><span class="hljs-keyword">const</span> [todos, setTodos] = useState([]);
+&nbsp;&nbsp;<span class="hljs-keyword">const</span> [modalActive, setModalActive] = useState(<span class="hljs-literal">false</span>);
+&nbsp;&nbsp;<span class="hljs-keyword">const</span> [newTodo, setNewTodo] = useState(<span class="hljs-string">''</span>);
+
+&nbsp;&nbsp;useEffect(<span class="hljs-function">() =&gt;</span> {
+&nbsp;&nbsp;&nbsp;&nbsp;GetTodos();
+&nbsp;&nbsp;}, [todos]);
+
+&nbsp;&nbsp;<span class="hljs-keyword">const</span> GetTodos = <span class="hljs-function">() =&gt;</span> {
+&nbsp;&nbsp;&nbsp;&nbsp;axios
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.get(<span class="hljs-string">`<span class="hljs-subst">${API_BASE}</span>/api/todos`</span>)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.then(<span class="hljs-function"><span class="hljs-params">response</span> =&gt;</span> {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setTodos(response.data);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;})
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.catch(<span class="hljs-function"><span class="hljs-params">err</span> =&gt;</span> {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-built_in">console</span>.error(<span class="hljs-string">'Error: '</span>, err);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Snackbar.show({
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">text</span>: <span class="hljs-string">''</span> + err,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">duration</span>: Snackbar.LENGTH_LONG,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">backgroundColor</span>: <span class="hljs-string">'red'</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">textColor</span>: COLORS.WHITE,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});
+&nbsp;&nbsp;};
+
+&nbsp;&nbsp;<span class="hljs-keyword">const</span> completeTodo = <span class="hljs-keyword">async</span> id =&gt; {
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">const</span> data = <span class="hljs-keyword">await</span> axios.put(<span class="hljs-string">`<span class="hljs-subst">${API_BASE}</span>/api/todos/<span class="hljs-subst">${id}</span>`</span>);
+
+&nbsp;&nbsp;&nbsp;&nbsp;setTodos(<span class="hljs-function"><span class="hljs-params">todos</span> =&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;todos.map(<span class="hljs-function"><span class="hljs-params">todo</span> =&gt;</span> {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">if</span> (todo._id === data._id) {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;todo.complete = data.complete;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">return</span> todo;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}),
+&nbsp;&nbsp;&nbsp;&nbsp;);
+&nbsp;&nbsp;};
+
+&nbsp;&nbsp;<span class="hljs-keyword">const</span> deleteTodo = <span class="hljs-keyword">async</span> id =&gt; {
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">const</span> data = <span class="hljs-keyword">await</span> axios.delete(<span class="hljs-string">`<span class="hljs-subst">${API_BASE}</span>/api/todos/<span class="hljs-subst">${id}</span>`</span>);
+
+&nbsp;&nbsp;&nbsp;&nbsp;setTodos(<span class="hljs-function"><span class="hljs-params">todos</span> =&gt;</span> todos.filter(<span class="hljs-function"><span class="hljs-params">todo</span> =&gt;</span> todo._id !== data._id));
+&nbsp;&nbsp;};
+
+&nbsp;&nbsp;<span class="hljs-keyword">const</span> addTodo = <span class="hljs-keyword">async</span> () =&gt; {
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">if</span> (newTodo == <span class="hljs-string">''</span>) {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alert.alert(<span class="hljs-string">'Error!'</span>, <span class="hljs-string">'Please enter a task first!'</span>);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">return</span>;
+&nbsp;&nbsp;&nbsp;&nbsp;} <span class="hljs-keyword">else</span> {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">await</span> axios
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.post(<span class="hljs-string">`<span class="hljs-subst">${API_BASE}</span>/todo/new`</span>, {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">text</span>: newTodo,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;})
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.then(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">response</span>) </span>{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">const</span> data = response.data;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setTodos([...todos, data]);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setModalActive(<span class="hljs-literal">false</span>);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setNewTodo(<span class="hljs-string">''</span>);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;})
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.catch(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">error</span>) </span>{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-built_in">console</span>.log(<span class="hljs-string">'Error: '</span>, error);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;};</pre>
+  </section>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </body></html>
