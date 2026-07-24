@@ -15,24 +15,24 @@ document.addEventListener('DOMContentLoaded', () => {
   rightPanel.innerHTML = `
     <div id="br-panel-header" style="padding: 15px 20px; border-bottom: 1px solid #e1e4e8; background: #fff; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
       <div style="display: flex; gap: 5px;">
-        <button id="br-prev-btn" title="Previous" style="background: #e1e4e8; color: #333; border: none; padding: 6px 10px; border-radius: 4px; cursor: pointer; font-weight: bold;">&larr;</button>
-        <button id="br-next-btn" title="Next" style="background: #e1e4e8; color: #333; border: none; padding: 6px 10px; border-radius: 4px; cursor: pointer; font-weight: bold;">&rarr;</button>
+        <button id="br-prev-btn" title="Trang trước" style="background: #e1e4e8; color: #333; border: none; padding: 6px 10px; border-radius: 4px; cursor: pointer; font-weight: bold;">&larr;</button>
+        <button id="br-next-btn" title="Trang sau" style="background: #e1e4e8; color: #333; border: none; padding: 6px 10px; border-radius: 4px; cursor: pointer; font-weight: bold;">&rarr;</button>
       </div>
-      <h3 style="margin: 0; font-size: 1.1rem; color: #333; flex-grow: 1; text-align: center;">Book Reader</h3>
-      <button id="br-swap-btn" style="background: #0366d6; color: white; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer; font-weight: bold;">Swap to EN</button>
+      <h3 style="margin: 0; font-size: 1.1rem; color: #333; flex-grow: 1; text-align: center;">Trình đọc sách</h3>
+      <button id="br-swap-btn" style="background: #0366d6; color: white; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer; font-weight: bold;">Đổi sang EN</button>
     </div>
     <div id="br-eng-section">
-      <div id="br-eng-content">Hover over the text to see the translation here.</div>
+      <div id="br-eng-content">Di chuột lên văn bản để xem bản dịch tại đây.</div>
     </div>
     <div id="br-comment-section">
-      <div class="br-comment-title">Comments</div>
-      <div id="br-selected-line">Click a line to comment.</div>
+      <div class="br-comment-title">Bình luận</div>
+      <div id="br-selected-line">Nhấp vào một dòng để bình luận.</div>
       <form id="br-comment-form">
-        <label for="br-comment-name">Name</label>
-        <input id="br-comment-name" name="username" type="text" placeholder="Your name" maxlength="80" required>
-        <label for="br-comment-text">Comment</label>
-        <textarea id="br-comment-text" name="text" placeholder="Write a comment" maxlength="2000" rows="3" required></textarea>
-        <button type="submit">Add comment</button>
+        <label for="br-comment-name">Tên</label>
+        <input id="br-comment-name" name="username" type="text" placeholder="Tên của bạn" maxlength="80" required>
+        <label for="br-comment-text">Bình luận</label>
+        <textarea id="br-comment-text" name="text" placeholder="Viết bình luận" maxlength="2000" rows="3" required></textarea>
+        <button type="submit">Gửi bình luận</button>
       </form>
       <div id="br-comment-status" aria-live="polite"></div>
       <div id="br-comment-list"></div>
@@ -139,14 +139,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function renderComments() {
     if (!selectedCommentElement) {
-      commentList.innerHTML = '<div class="br-comment-empty">No line selected.</div>';
+      commentList.innerHTML = '<div class="br-comment-empty">Chưa chọn dòng nào.</div>';
       return;
     }
 
     const elementId = selectedCommentElement.dataset.brCommentId;
     const comments = commentsByElement[elementId] || [];
     if (comments.length === 0) {
-      commentList.innerHTML = '<div class="br-comment-empty">No comments yet.</div>';
+      commentList.innerHTML = '<div class="br-comment-empty">Chưa có bình luận.</div>';
       return;
     }
 
@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (selectedCommentElement) selectedCommentElement.classList.remove('br-selected-line');
     selectedCommentElement = el;
     selectedCommentElement.classList.add('br-selected-line');
-    selectedLineContainer.textContent = el.textContent.trim().slice(0, 180) || 'Selected line';
+    selectedLineContainer.textContent = el.textContent.trim().slice(0, 180) || 'Dòng đã chọn';
     commentStatus.textContent = '';
     renderComments();
   }
@@ -175,14 +175,14 @@ document.addEventListener('DOMContentLoaded', () => {
         renderComments();
       })
       .catch(() => {
-        commentStatus.textContent = 'Could not load comments.';
+        commentStatus.textContent = 'Không thể tải bình luận.';
       });
   }
 
   commentForm.addEventListener('submit', (e) => {
     e.preventDefault();
     if (!selectedCommentElement) {
-      commentStatus.textContent = 'Click a line first.';
+      commentStatus.textContent = 'Hãy nhấp vào một dòng trước.';
       return;
     }
 
@@ -195,14 +195,14 @@ document.addEventListener('DOMContentLoaded', () => {
       text: commentTextInput.value
     };
 
-    commentStatus.textContent = 'Saving...';
+    commentStatus.textContent = 'Đang lưu...';
     fetch('/api/comments', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload)
     })
       .then(response => {
-        if (!response.ok) return response.json().then(data => Promise.reject(new Error(data.error || 'Failed to save comment.')));
+        if (!response.ok) return response.json().then(data => Promise.reject(new Error(data.error || 'Không thể lưu bình luận.')));
         return response.json();
       })
       .then(comment => {
@@ -213,7 +213,7 @@ document.addEventListener('DOMContentLoaded', () => {
           createdAt: comment.createdAt
         });
         commentTextInput.value = '';
-        commentStatus.textContent = 'Saved.';
+        commentStatus.textContent = 'Đã lưu.';
         renderComments();
       })
       .catch(err => {
@@ -234,15 +234,15 @@ document.addEventListener('DOMContentLoaded', () => {
     isEnMode = !isEnMode;
     if (isEnMode) {
       document.body.classList.add('lang-swap');
-      swapBtn.textContent = 'Swap to VN';
-      if (readingTitle) readingTitle.textContent = 'Vietnamese Translation';
+      swapBtn.textContent = 'Đổi sang VN';
+      if (readingTitle) readingTitle.textContent = 'Bản dịch tiếng Việt';
     } else {
       document.body.classList.remove('lang-swap');
-      swapBtn.textContent = 'Swap to EN';
+      swapBtn.textContent = 'Đổi sang EN';
       if (readingTitle) readingTitle.textContent = 'Original English';
     }
     // Clear panels on swap
-    engContentPanel.innerHTML = 'Hover over the text to see the translation here.';
+    engContentPanel.innerHTML = 'Di chuột lên văn bản để xem bản dịch tại đây.';
   });
 
   // 4.5 Navigation Logic

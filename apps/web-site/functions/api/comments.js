@@ -125,7 +125,7 @@ export async function onRequestPost(context) {
     ).bind(bookId.trim(), pageId.trim(), elementId.trim(), username.trim(), text.trim()).run();
 
     if (!success) {
-      throw new Error("Failed to insert comment.");
+      throw new Error("Không thể lưu bình luận.");
     }
 
     // Retrieve the newly inserted comment
@@ -173,11 +173,11 @@ export async function onRequestOptions(context) {
 function validateCommentInput(fields) {
   for (const [name, value] of Object.entries(fields)) {
     if (typeof value !== "string" || value.trim().length === 0) {
-      return "Missing required fields";
+      return "Vui lòng nhập đầy đủ thông tin bắt buộc";
     }
 
     if (value.trim().length > MAX_FIELD_LENGTHS[name]) {
-      return `${name} is too long`;
+      return `${name} quá dài`;
     }
   }
 
