@@ -1,0 +1,141 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-1-11.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-1-introduction-to-cloud-native-applications.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-12-1-11.vi.png",
+  "ocr": [
+    {
+      "text": "' Relational database ! d Redis cache ! : NoSQL database",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 133,
+        "w": 1040,
+        "h": 89
+      }
+    },
+    {
+      "text": "(ID, catalog, ordering) (cart) (location)",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 310,
+        "w": 1040,
+        "h": 89
+      }
+    },
+    {
+      "text": "API gateway",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 487,
+        "w": 1040,
+        "h": 89
+      }
+    },
+    {
+      "text": "Docker",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 664,
+        "w": 1040,
+        "h": 89
+      }
+    },
+    {
+      "text": "Client apps",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 841,
+        "w": 1040,
+        "h": 89
+      }
+    },
+    {
+      "text": "Mobile app Web apps",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 1018,
+        "w": 1040,
+        "h": 89
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "' Relational database ! d Redis cache ! : NoSQL database",
+      "target": "Cơ sở dữ liệu quan hệ ! d Bộ nhớ đệm Redis ! : Cơ sở dữ liệu NoSQL",
+      "bbox": {
+        "x": 130,
+        "y": 133,
+        "w": 1040,
+        "h": 89
+      },
+      "overflow": false
+    },
+    {
+      "source": "(ID, catalog, ordering) (cart) (location)",
+      "target": "(ID, danh mục, đặt hàng) (giỏ hàng) (vị trí)",
+      "bbox": {
+        "x": 130,
+        "y": 310,
+        "w": 1040,
+        "h": 89
+      },
+      "overflow": false
+    },
+    {
+      "source": "API gateway",
+      "target": "Cổng API",
+      "bbox": {
+        "x": 130,
+        "y": 487,
+        "w": 1040,
+        "h": 89
+      },
+      "overflow": false
+    },
+    {
+      "source": "Docker",
+      "target": "Docker",
+      "bbox": {
+        "x": 130,
+        "y": 664,
+        "w": 1040,
+        "h": 89
+      },
+      "overflow": false
+    },
+    {
+      "source": "Client apps",
+      "target": "Ứng dụng khách",
+      "bbox": {
+        "x": 130,
+        "y": 841,
+        "w": 1040,
+        "h": 89
+      },
+      "overflow": false
+    },
+    {
+      "source": "Mobile app Web apps",
+      "target": "Ứng dụng di động Ứng dụng web",
+      "bbox": {
+        "x": 130,
+        "y": 1018,
+        "w": 1040,
+        "h": 89
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.38590785907859076,
+    "averageConfidence": 78
+  }
+}

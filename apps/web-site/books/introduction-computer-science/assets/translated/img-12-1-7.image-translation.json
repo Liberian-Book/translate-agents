@@ -1,0 +1,372 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-1-7.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-1-introduction-to-cloud-native-applications.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-12-1-7.vi.png",
+  "ocr": [
+    {
+      "text": "Components of a monolith architecture Microservices architecture",
+      "confidence": 67,
+      "bbox": {
+        "x": 130,
+        "y": 95,
+        "w": 1038,
+        "h": 63
+      }
+    },
+    {
+      "text": "1 N—— SN NN",
+      "confidence": 67,
+      "bbox": {
+        "x": 130,
+        "y": 221,
+        "w": 1038,
+        "h": 63
+      }
+    },
+    {
+      "text": "User :",
+      "confidence": 67,
+      "bbox": {
+        "x": 130,
+        "y": 347,
+        "w": 1038,
+        "h": 63
+      }
+    },
+    {
+      "text": "Comreme Ji Loe [ome |",
+      "confidence": 67,
+      "bbox": {
+        "x": 130,
+        "y": 473,
+        "w": 1038,
+        "h": 63
+      }
+    },
+    {
+      "text": ": API gateway",
+      "confidence": 67,
+      "bbox": {
+        "x": 130,
+        "y": 599,
+        "w": 1038,
+        "h": 63
+      }
+    },
+    {
+      "text": "Spplestion Business logic .",
+      "confidence": 67,
+      "bbox": {
+        "x": 130,
+        "y": 725,
+        "w": 1038,
+        "h": 63
+      }
+    },
+    {
+      "text": "(inventory (executable) '",
+      "confidence": 67,
+      "bbox": {
+        "x": 130,
+        "y": 851,
+        "w": 1038,
+        "h": 63
+      }
+    },
+    {
+      "text": "system, basket NN 1 Inventory Basket",
+      "confidence": 67,
+      "bbox": {
+        "x": 130,
+        "y": 977,
+        "w": 1038,
+        "h": 63
+      }
+    },
+    {
+      "text": "—_ Inventory Basket 1 systen service",
+      "confidence": 67,
+      "bbox": {
+        "x": 130,
+        "y": 1103,
+        "w": 1038,
+        "h": 63
+      }
+    },
+    {
+      "text": "torn, system service 1",
+      "confidence": 67,
+      "bbox": {
+        "x": 130,
+        "y": 1229,
+        "w": 1038,
+        "h": 63
+      }
+    },
+    {
+      "text": "shipping \\ Payment | Shipping :",
+      "confidence": 67,
+      "bbox": {
+        "x": 130,
+        "y": 1355,
+        "w": 1038,
+        "h": 63
+      }
+    },
+    {
+      "text": "22 Newey || Tome | rs | Sipping",
+      "confidence": 67,
+      "bbox": {
+        "x": 130,
+        "y": 1481,
+        "w": 1038,
+        "h": 63
+      }
+    },
+    {
+      "text": "te ell A i",
+      "confidence": 67,
+      "bbox": {
+        "x": 130,
+        "y": 1607,
+        "w": 1038,
+        "h": 63
+      }
+    },
+    {
+      "text": "system) Compile/link \\ Reporting system ' S o",
+      "confidence": 67,
+      "bbox": {
+        "x": 130,
+        "y": 1733,
+        "w": 1038,
+        "h": 63
+      }
+    },
+    {
+      "text": "| Library code i",
+      "confidence": 67,
+      "bbox": {
+        "x": 130,
+        "y": 1859,
+        "w": 1038,
+        "h": 63
+      }
+    },
+    {
+      "text": "ee — 1",
+      "confidence": 67,
+      "bbox": {
+        "x": 130,
+        "y": 1985,
+        "w": 1038,
+        "h": 63
+      }
+    },
+    {
+      "text": "Data access layer 1",
+      "confidence": 67,
+      "bbox": {
+        "x": 130,
+        "y": 2111,
+        "w": 1038,
+        "h": 63
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Components of a monolith architecture Microservices architecture",
+      "target": "Thành phần của kiến trúc monolith Kiến trúc microservices",
+      "bbox": {
+        "x": 130,
+        "y": 95,
+        "w": 1038,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "1 N—— SN NN",
+      "target": "1 N—— SN NN",
+      "bbox": {
+        "x": 130,
+        "y": 221,
+        "w": 1038,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "User :",
+      "target": "Người dùng:",
+      "bbox": {
+        "x": 130,
+        "y": 347,
+        "w": 1038,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "Comreme Ji Loe [ome |",
+      "target": "Comreme Ji Loe",
+      "bbox": {
+        "x": 130,
+        "y": 473,
+        "w": 1038,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": ": API gateway",
+      "target": "Cổng API",
+      "bbox": {
+        "x": 130,
+        "y": 599,
+        "w": 1038,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "Spplestion Business logic .",
+      "target": "Logic kinh doanh.",
+      "bbox": {
+        "x": 130,
+        "y": 725,
+        "w": 1038,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "(inventory (executable) '",
+      "target": "(kho (thực thi) '",
+      "bbox": {
+        "x": 130,
+        "y": 851,
+        "w": 1038,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "system, basket NN 1 Inventory Basket",
+      "target": "hệ thống, giỏ NN 1 Giỏ Hàng",
+      "bbox": {
+        "x": 130,
+        "y": 977,
+        "w": 1038,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "—_ Inventory Basket 1 systen service",
+      "target": "Giỏ hàng tồn kho 1 dịch vụ hệ thống",
+      "bbox": {
+        "x": 130,
+        "y": 1103,
+        "w": 1038,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "torn, system service 1",
+      "target": "hỏng, dịch vụ hệ thống 1",
+      "bbox": {
+        "x": 130,
+        "y": 1229,
+        "w": 1038,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "shipping \\ Payment | Shipping :",
+      "target": "vận chuyển \\ Thanh toán | Vận chuyển :",
+      "bbox": {
+        "x": 130,
+        "y": 1355,
+        "w": 1038,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "22 Newey || Tome | rs | Sipping",
+      "target": "22 Newey || Tome | rs | Uống",
+      "bbox": {
+        "x": 130,
+        "y": 1481,
+        "w": 1038,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "te ell A i",
+      "target": "te ell A i",
+      "bbox": {
+        "x": 130,
+        "y": 1607,
+        "w": 1038,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "system) Compile/link \\ Reporting system ' S o",
+      "target": "Hệ thống biên dịch/liên kết \\ Hệ thống báo cáo",
+      "bbox": {
+        "x": 130,
+        "y": 1733,
+        "w": 1038,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "| Library code i",
+      "target": "Mã thư viện i",
+      "bbox": {
+        "x": 130,
+        "y": 1859,
+        "w": 1038,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "ee — 1",
+      "target": "ee — 1",
+      "bbox": {
+        "x": 130,
+        "y": 1985,
+        "w": 1038,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "Data access layer 1",
+      "target": "Lớp truy cập dữ liệu 1",
+      "bbox": {
+        "x": 130,
+        "y": 2111,
+        "w": 1038,
+        "h": 63
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 1.0868908042830439,
+    "averageConfidence": 67
+  }
+}

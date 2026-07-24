@@ -1,0 +1,540 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-3-17.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-3-example-paas-and-faas-deployments-of-cloud-native-applications.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-12-3-17.vi.png",
+  "ocr": [
+    {
+      "text": "Azure Functions Core Tools",
+      "confidence": 76,
+      "bbox": {
+        "x": 130,
+        "y": 60,
+        "w": 1040,
+        "h": 40
+      }
+    },
+    {
+      "text": "Core Tools Version 4.0.3971 Commit hash: do775d487c93ebdde9cl166d5c3co1F3c76eaaf (64-bit)",
+      "confidence": 76,
+      "bbox": {
+        "x": 130,
+        "y": 140,
+        "w": 1040,
+        "h": 40
+      }
+    },
+    {
+      "text": "Function Runtime Version: 4.0.1.16815",
+      "confidence": 76,
+      "bbox": {
+        "x": 130,
+        "y": 220,
+        "w": 1040,
+        "h": 40
+      }
+    },
+    {
+      "text": "{info: Microsoft.AspNetCore.Hosting.Diagnostics[1]",
+      "confidence": 76,
+      "bbox": {
+        "x": 130,
+        "y": 300,
+        "w": 1040,
+        "h": 40
+      }
+    },
+    {
+      "text": "i Request starting HTTP/2 POST http://127..0.1:44781/AzureFunctionsRpcMessages. FunctionRpc/EventStream application/grpc -",
+      "confidence": 76,
+      "bbox": {
+        "x": 130,
+        "y": 380,
+        "w": 1040,
+        "h": 40
+      }
+    },
+    {
+      "text": "{f0: Microsoft.AspNetCore.Routing.EndpointMiddleware[@]",
+      "confidence": 76,
+      "bbox": {
+        "x": 130,
+        "y": 460,
+        "w": 1040,
+        "h": 40
+      }
+    },
+    {
+      "text": "Executing endpoint 'gRPC - /AzureFunctionsRpcMessages.FunctionRpc/EventStream'",
+      "confidence": 76,
+      "bbox": {
+        "x": 130,
+        "y": 540,
+        "w": 1040,
+        "h": 40
+      }
+    },
+    {
+      "text": "[2023-04-25T@3:15:55.673Z] Worker process started and initialized.",
+      "confidence": 76,
+      "bbox": {
+        "x": 130,
+        "y": 620,
+        "w": 1040,
+        "h": 40
+      }
+    },
+    {
+      "text": "Functions:",
+      "confidence": 76,
+      "bbox": {
+        "x": 130,
+        "y": 700,
+        "w": 1040,
+        "h": 40
+      }
+    },
+    {
+      "text": "generateSensorData: timerTrigger",
+      "confidence": 76,
+      "bbox": {
+        "x": 130,
+        "y": 780,
+        "w": 1040,
+        "h": 40
+      }
+    },
+    {
+      "text": "For detailed output, run func with --verbose flag.",
+      "confidence": 76,
+      "bbox": {
+        "x": 130,
+        "y": 860,
+        "w": 1040,
+        "h": 40
+      }
+    },
+    {
+      "text": "[2023-04-25T03:16:00.052Z] Executing 'Functions.generateSensorData' (Reason='Timer fired at 2023-04-25T03:16:00.0158549+00:00', Id=40834113-0ff4-4316-ba37-1bf820400a13)",
+      "confidence": 76,
+      "bbox": {
+        "x": 130,
+        "y": 940,
+        "w": 1040,
+        "h": 40
+      }
+    },
+    {
+      "text": "[2023-04-25T03:16:00.1712] Java Timer trigger function executed at: 2023-04-25T@3:16:00.159472",
+      "confidence": 76,
+      "bbox": {
+        "x": 130,
+        "y": 1020,
+        "w": 1040,
+        "h": 40
+      }
+    },
+    {
+      "text": "[2023-04-257T03:16:00.180Z] Function \"generateSensorData\" (Id: 48834113-0ff4-4316-ba37-1bf820400a13) invoked by Java Worker",
+      "confidence": 76,
+      "bbox": {
+        "x": 130,
+        "y": 1100,
+        "w": 1040,
+        "h": 40
+      }
+    },
+    {
+      "text": "[2023-04-25703:16:00.8062] Host lock lease acquired by instance ID '0000000069000000000000002D0EA091 .",
+      "confidence": 76,
+      "bbox": {
+        "x": 130,
+        "y": 1180,
+        "w": 1040,
+        "h": 40
+      }
+    },
+    {
+      "text": "[2023-04-25T03:16:01.596Z] Executed 'Functions.generateSensorData’ (Succeeded, Id=4@834113-0ff4-4316-ba37-1bf82040a13, Duration=1563ms)",
+      "confidence": 76,
+      "bbox": {
+        "x": 130,
+        "y": 1260,
+        "w": 1040,
+        "h": 40
+      }
+    },
+    {
+      "text": "[2023-04-25T03:16:10.003Z] Executing 'Functions.generateSensorData' (Reason='Timer fired at 2023-084-25T03:16:10.0022095+00:00', Id=63719494-d12e-42fb-b332-59c6a10719ae)",
+      "confidence": 76,
+      "bbox": {
+        "x": 130,
+        "y": 1340,
+        "w": 1040,
+        "h": 40
+      }
+    },
+    {
+      "text": "[2023-04-25T03:16:10.0087] Java Timer trigger function executed at: 2023-84-25T@3:16:10.006758",
+      "confidence": 76,
+      "bbox": {
+        "x": 130,
+        "y": 1420,
+        "w": 1040,
+        "h": 40
+      }
+    },
+    {
+      "text": "[2023-04-25T03:16:10.0092] Function \"generateSensorData\" (Id: 63719494-d12e-42fb-b332-59c6a10719ae) invoked by Java Worker",
+      "confidence": 76,
+      "bbox": {
+        "x": 130,
+        "y": 1500,
+        "w": 1040,
+        "h": 40
+      }
+    },
+    {
+      "text": "[2023-04-25T03:16:10.4742] Executed 'Functions.generateSensorData' (Succeeded, Id=63719494-d12e-42fb-b332-59c6a10719ae, Duration=472ms)",
+      "confidence": 76,
+      "bbox": {
+        "x": 130,
+        "y": 1580,
+        "w": 1040,
+        "h": 40
+      }
+    },
+    {
+      "text": "[2023-04-25T03:16:20.0027] Executing 'Functions.generateSensorData' (Reason='Timer fired at 2023-04-25T03:16:20.0014669+00:00', Id=2a49d034-27f2-4c76-a9d9-86efd7128132)",
+      "confidence": 76,
+      "bbox": {
+        "x": 130,
+        "y": 1660,
+        "w": 1040,
+        "h": 40
+      }
+    },
+    {
+      "text": "[2023-04-25T03:16:20.0127] Java Timer trigger function executed at: 2023-84-25T03:16:20.009738",
+      "confidence": 76,
+      "bbox": {
+        "x": 130,
+        "y": 1740,
+        "w": 1040,
+        "h": 40
+      }
+    },
+    {
+      "text": "[2023-04-25T03:16:20.015Z] Function \"generateSensorData\" (Id: 2a49d@34-272-4c76-a9d9-86efd7128132) invoked by Java Worker",
+      "confidence": 76,
+      "bbox": {
+        "x": 130,
+        "y": 1820,
+        "w": 1040,
+        "h": 40
+      }
+    },
+    {
+      "text": "[2023-84-25T03:16:20.2747] Executed 'Functions.generateSensorData' (Succeeded, Id=2a49d@34-27f2-4c76-a9d9-86efd7128132, Duration=273ms)",
+      "confidence": 76,
+      "bbox": {
+        "x": 130,
+        "y": 1900,
+        "w": 1040,
+        "h": 40
+      }
+    },
+    {
+      "text": "[2023-84-25T03:16:29.9982] Executing 'Functions.generateSensorData’ (Reason='Timer fired at 2023-84-25T03:16:29.9974101+00:00', Id=7bd20206-f62b-417c-bedd-1db6914ca389)",
+      "confidence": 76,
+      "bbox": {
+        "x": 130,
+        "y": 1980,
+        "w": 1040,
+        "h": 40
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Azure Functions Core Tools",
+      "target": "Công cụ Azure Functions Core",
+      "bbox": {
+        "x": 130,
+        "y": 60,
+        "w": 1040,
+        "h": 40
+      },
+      "overflow": false
+    },
+    {
+      "source": "Core Tools Version 4.0.3971 Commit hash: do775d487c93ebdde9cl166d5c3co1F3c76eaaf (64-bit)",
+      "target": "Phiên bản công cụ cốt lõi 4.0.3971 Mã cam kết: do775d487c93ebdde9cl166d5c3co1F3c76eaaf (64-bit)",
+      "bbox": {
+        "x": 130,
+        "y": 140,
+        "w": 1040,
+        "h": 40
+      },
+      "overflow": false
+    },
+    {
+      "source": "Function Runtime Version: 4.0.1.16815",
+      "target": "Phiên bản Thời gian chạy Chức năng: 4.0.1.16815",
+      "bbox": {
+        "x": 130,
+        "y": 220,
+        "w": 1040,
+        "h": 40
+      },
+      "overflow": false
+    },
+    {
+      "source": "{info: Microsoft.AspNetCore.Hosting.Diagnostics[1]",
+      "target": "Thông tin: Microsoft.AspNetCore.Hosting.Diagnostics[1]",
+      "bbox": {
+        "x": 130,
+        "y": 300,
+        "w": 1040,
+        "h": 40
+      },
+      "overflow": false
+    },
+    {
+      "source": "i Request starting HTTP/2 POST http://127..0.1:44781/AzureFunctionsRpcMessages. FunctionRpc/EventStream application/grpc -",
+      "target": "Yêu cầu bắt đầu HTTP/2 POST http://127..0.1:44781/AzureFunctionsRpcMessages. FunctionRpc/EventStream application/grpc -",
+      "bbox": {
+        "x": 130,
+        "y": 380,
+        "w": 1040,
+        "h": 40
+      },
+      "overflow": false
+    },
+    {
+      "source": "{f0: Microsoft.AspNetCore.Routing.EndpointMiddleware[@]",
+      "target": "Microsoft.AspNetCore.Routing.EndpointMiddleware",
+      "bbox": {
+        "x": 130,
+        "y": 460,
+        "w": 1040,
+        "h": 40
+      },
+      "overflow": false
+    },
+    {
+      "source": "Executing endpoint 'gRPC - /AzureFunctionsRpcMessages.FunctionRpc/EventStream'",
+      "target": "Thực thi điểm cuối 'gRPC - /AzureFunctionsRpcMessages.FunctionRpc/EventStream'",
+      "bbox": {
+        "x": 130,
+        "y": 540,
+        "w": 1040,
+        "h": 40
+      },
+      "overflow": false
+    },
+    {
+      "source": "[2023-04-25T@3:15:55.673Z] Worker process started and initialized.",
+      "target": "Quá trình làm việc đã bắt đầu và được khởi tạo.",
+      "bbox": {
+        "x": 130,
+        "y": 620,
+        "w": 1040,
+        "h": 40
+      },
+      "overflow": false
+    },
+    {
+      "source": "Functions:",
+      "target": "Chức năng:",
+      "bbox": {
+        "x": 130,
+        "y": 700,
+        "w": 1040,
+        "h": 40
+      },
+      "overflow": false
+    },
+    {
+      "source": "generateSensorData: timerTrigger",
+      "target": "tạoDữLiệuCảmBiến: kíchHoạtBằngBộĐếmThờiGian",
+      "bbox": {
+        "x": 130,
+        "y": 780,
+        "w": 1040,
+        "h": 40
+      },
+      "overflow": false
+    },
+    {
+      "source": "For detailed output, run func with --verbose flag.",
+      "target": "Để có đầu ra chi tiết, chạy func với cờ --verbose.",
+      "bbox": {
+        "x": 130,
+        "y": 860,
+        "w": 1040,
+        "h": 40
+      },
+      "overflow": false
+    },
+    {
+      "source": "[2023-04-25T03:16:00.052Z] Executing 'Functions.generateSensorData' (Reason='Timer fired at 2023-04-25T03:16:00.0158549+00:00', Id=40834113-0ff4-4316-ba37-1bf820400a13)",
+      "target": "Dữ liệu cảm biến được tạo ra",
+      "bbox": {
+        "x": 130,
+        "y": 940,
+        "w": 1040,
+        "h": 40
+      },
+      "overflow": false
+    },
+    {
+      "source": "[2023-04-25T03:16:00.1712] Java Timer trigger function executed at: 2023-04-25T@3:16:00.159472",
+      "target": "Chức năng kích hoạt bộ hẹn giờ Java được thực hiện vào lúc: 2023-04-25T@3:16:00.159472",
+      "bbox": {
+        "x": 130,
+        "y": 1020,
+        "w": 1040,
+        "h": 40
+      },
+      "overflow": false
+    },
+    {
+      "source": "[2023-04-257T03:16:00.180Z] Function \"generateSensorData\" (Id: 48834113-0ff4-4316-ba37-1bf820400a13) invoked by Java Worker",
+      "target": "Chức năng \"generateSensorData\" được gọi bởi Java Worker",
+      "bbox": {
+        "x": 130,
+        "y": 1100,
+        "w": 1040,
+        "h": 40
+      },
+      "overflow": false
+    },
+    {
+      "source": "[2023-04-25703:16:00.8062] Host lock lease acquired by instance ID '0000000069000000000000002D0EA091 .",
+      "target": "Khóa thuê bao máy chủ đã được cấp bởi ID phiên bản '0000000069000000000000002D0EA091'",
+      "bbox": {
+        "x": 130,
+        "y": 1180,
+        "w": 1040,
+        "h": 40
+      },
+      "overflow": false
+    },
+    {
+      "source": "[2023-04-25T03:16:01.596Z] Executed 'Functions.generateSensorData’ (Succeeded, Id=4@834113-0ff4-4316-ba37-1bf82040a13, Duration=1563ms)",
+      "target": "Dữ liệu cảm biến được tạo ra",
+      "bbox": {
+        "x": 130,
+        "y": 1260,
+        "w": 1040,
+        "h": 40
+      },
+      "overflow": false
+    },
+    {
+      "source": "[2023-04-25T03:16:10.003Z] Executing 'Functions.generateSensorData' (Reason='Timer fired at 2023-084-25T03:16:10.0022095+00:00', Id=63719494-d12e-42fb-b332-59c6a10719ae)",
+      "target": "Dữ liệu cảm biến được tạo ra",
+      "bbox": {
+        "x": 130,
+        "y": 1340,
+        "w": 1040,
+        "h": 40
+      },
+      "overflow": false
+    },
+    {
+      "source": "[2023-04-25T03:16:10.0087] Java Timer trigger function executed at: 2023-84-25T@3:16:10.006758",
+      "target": "Chức năng kích hoạt bộ hẹn giờ Java đã được thực thi vào lúc: 2023-04-25T@3:16:10.006758",
+      "bbox": {
+        "x": 130,
+        "y": 1420,
+        "w": 1040,
+        "h": 40
+      },
+      "overflow": false
+    },
+    {
+      "source": "[2023-04-25T03:16:10.0092] Function \"generateSensorData\" (Id: 63719494-d12e-42fb-b332-59c6a10719ae) invoked by Java Worker",
+      "target": "Chức năng \"generateSensorData\" được gọi bởi Java Worker",
+      "bbox": {
+        "x": 130,
+        "y": 1500,
+        "w": 1040,
+        "h": 40
+      },
+      "overflow": false
+    },
+    {
+      "source": "[2023-04-25T03:16:10.4742] Executed 'Functions.generateSensorData' (Succeeded, Id=63719494-d12e-42fb-b332-59c6a10719ae, Duration=472ms)",
+      "target": "Dữ liệu cảm biến được tạo ra",
+      "bbox": {
+        "x": 130,
+        "y": 1580,
+        "w": 1040,
+        "h": 40
+      },
+      "overflow": false
+    },
+    {
+      "source": "[2023-04-25T03:16:20.0027] Executing 'Functions.generateSensorData' (Reason='Timer fired at 2023-04-25T03:16:20.0014669+00:00', Id=2a49d034-27f2-4c76-a9d9-86efd7128132)",
+      "target": "Dữ liệu cảm biến được tạo ra",
+      "bbox": {
+        "x": 130,
+        "y": 1660,
+        "w": 1040,
+        "h": 40
+      },
+      "overflow": false
+    },
+    {
+      "source": "[2023-04-25T03:16:20.0127] Java Timer trigger function executed at: 2023-84-25T03:16:20.009738",
+      "target": "Chức năng kích hoạt bộ đếm thời gian Java được thực thi vào: 2023-04-25T03:16:20.009738",
+      "bbox": {
+        "x": 130,
+        "y": 1740,
+        "w": 1040,
+        "h": 40
+      },
+      "overflow": false
+    },
+    {
+      "source": "[2023-04-25T03:16:20.015Z] Function \"generateSensorData\" (Id: 2a49d@34-272-4c76-a9d9-86efd7128132) invoked by Java Worker",
+      "target": "Chức năng \"generateSensorData\" (Id: 2a49d@34-272-4c76-a9d9-86efd7128132) được gọi bởi Java Worker",
+      "bbox": {
+        "x": 130,
+        "y": 1820,
+        "w": 1040,
+        "h": 40
+      },
+      "overflow": false
+    },
+    {
+      "source": "[2023-84-25T03:16:20.2747] Executed 'Functions.generateSensorData' (Succeeded, Id=2a49d@34-27f2-4c76-a9d9-86efd7128132, Duration=273ms)",
+      "target": "Dữ liệu cảm biến được tạo ra",
+      "bbox": {
+        "x": 130,
+        "y": 1900,
+        "w": 1040,
+        "h": 40
+      },
+      "overflow": false
+    },
+    {
+      "source": "[2023-84-25T03:16:29.9982] Executing 'Functions.generateSensorData’ (Reason='Timer fired at 2023-84-25T03:16:29.9974101+00:00', Id=7bd20206-f62b-417c-bedd-1db6914ca389)",
+      "target": "Dữ liệu cảm biến được tạo ra",
+      "bbox": {
+        "x": 130,
+        "y": 1980,
+        "w": 1040,
+        "h": 40
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 1.596806387225549,
+    "averageConfidence": 76
+  }
+}

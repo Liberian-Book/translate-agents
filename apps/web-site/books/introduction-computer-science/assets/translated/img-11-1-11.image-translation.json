@@ -1,0 +1,393 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-1-11.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-1-modern-web-applications-architectures.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-11-1-11.vi.png",
+  "ocr": [
+    {
+      "text": "Web 3.0 DApp: Architecture and Usage Model",
+      "confidence": 55,
+      "bbox": {
+        "x": 117,
+        "y": 142,
+        "w": 936,
+        "h": 95
+      }
+    },
+    {
+      "text": "Published content ! (+)",
+      "confidence": 55,
+      "bbox": {
+        "x": 117,
+        "y": 332,
+        "w": 936,
+        "h": 95
+      }
+    },
+    {
+      "text": "Signer",
+      "confidence": 55,
+      "bbox": {
+        "x": 117,
+        "y": 522,
+        "w": 936,
+        "h": 95
+      }
+    },
+    {
+      "text": "eds —",
+      "confidence": 55,
+      "bbox": {
+        "x": 117,
+        "y": 712,
+        "w": 936,
+        "h": 95
+      }
+    },
+    {
+      "text": "User Browser Internet IPFS/SWARM Provider",
+      "confidence": 55,
+      "bbox": {
+        "x": 117,
+        "y": 902,
+        "w": 936,
+        "h": 95
+      }
+    },
+    {
+      "text": "| JSON RPC",
+      "confidence": 55,
+      "bbox": {
+        "x": 117,
+        "y": 1092,
+        "w": 936,
+        "h": 95
+      }
+    },
+    {
+      "text": "User-generated | re RS",
+      "confidence": 55,
+      "bbox": {
+        "x": 117,
+        "y": 1282,
+        "w": 936,
+        "h": 95
+      }
+    },
+    {
+      "text": "content e— |",
+      "confidence": 55,
+      "bbox": {
+        "x": 117,
+        "y": 1472,
+        "w": 936,
+        "h": 95
+      }
+    },
+    {
+      "text": "! i contract(s)",
+      "confidence": 55,
+      "bbox": {
+        "x": 117,
+        "y": 1662,
+        "w": 936,
+        "h": 95
+      }
+    },
+    {
+      "text": "! GraphQL i Blockchain",
+      "confidence": 55,
+      "bbox": {
+        "x": 117,
+        "y": 1852,
+        "w": 936,
+        "h": 95
+      }
+    },
+    {
+      "text": "| : VM i",
+      "confidence": 55,
+      "bbox": {
+        "x": 117,
+        "y": 2042,
+        "w": 936,
+        "h": 95
+      }
+    },
+    {
+      "text": "1 Po ! : |",
+      "confidence": 55,
+      "bbox": {
+        "x": 117,
+        "y": 2232,
+        "w": 936,
+        "h": 95
+      }
+    },
+    {
+      "text": "| 1 Sidechains ~~ |",
+      "confidence": 55,
+      "bbox": {
+        "x": 117,
+        "y": 2422,
+        "w": 936,
+        "h": 95
+      }
+    },
+    {
+      "text": "Ne Block(s) |",
+      "confidence": 55,
+      "bbox": {
+        "x": 117,
+        "y": 2612,
+        "w": 936,
+        "h": 95
+      }
+    },
+    {
+      "text": "! iY Pd",
+      "confidence": 55,
+      "bbox": {
+        "x": 117,
+        "y": 2802,
+        "w": 936,
+        "h": 95
+      }
+    },
+    {
+      "text": "J Bre a aaa",
+      "confidence": 55,
+      "bbox": {
+        "x": 117,
+        "y": 2992,
+        "w": 936,
+        "h": 95
+      }
+    },
+    {
+      "text": "| i Blockchain !",
+      "confidence": 55,
+      "bbox": {
+        "x": 117,
+        "y": 3182,
+        "w": 936,
+        "h": 95
+      }
+    },
+    {
+      "text": "1 I mn emi",
+      "confidence": 55,
+      "bbox": {
+        "x": 117,
+        "y": 3372,
+        "w": 936,
+        "h": 95
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Web 3.0 DApp: Architecture and Usage Model",
+      "target": "DApp Web 3.0: Kiến trúc và Mô hình Sử dụng",
+      "bbox": {
+        "x": 117,
+        "y": 142,
+        "w": 936,
+        "h": 95
+      },
+      "overflow": false
+    },
+    {
+      "source": "Published content ! (+)",
+      "target": "Nội dung đã xuất bản ! (+)",
+      "bbox": {
+        "x": 117,
+        "y": 332,
+        "w": 936,
+        "h": 95
+      },
+      "overflow": false
+    },
+    {
+      "source": "Signer",
+      "target": "Người ký",
+      "bbox": {
+        "x": 117,
+        "y": 522,
+        "w": 936,
+        "h": 95
+      },
+      "overflow": false
+    },
+    {
+      "source": "eds —",
+      "target": "eds —",
+      "bbox": {
+        "x": 117,
+        "y": 712,
+        "w": 936,
+        "h": 95
+      },
+      "overflow": false
+    },
+    {
+      "source": "User Browser Internet IPFS/SWARM Provider",
+      "target": "Trình duyệt người dùng Nhà cung cấp IPFS/SWARM",
+      "bbox": {
+        "x": 117,
+        "y": 902,
+        "w": 936,
+        "h": 95
+      },
+      "overflow": false
+    },
+    {
+      "source": "| JSON RPC",
+      "target": "JSON RPC",
+      "bbox": {
+        "x": 117,
+        "y": 1092,
+        "w": 936,
+        "h": 95
+      },
+      "overflow": false
+    },
+    {
+      "source": "User-generated | re RS",
+      "target": "Người dùng tạo | re RS",
+      "bbox": {
+        "x": 117,
+        "y": 1282,
+        "w": 936,
+        "h": 95
+      },
+      "overflow": false
+    },
+    {
+      "source": "content e— |",
+      "target": "nội dung e— |",
+      "bbox": {
+        "x": 117,
+        "y": 1472,
+        "w": 936,
+        "h": 95
+      },
+      "overflow": false
+    },
+    {
+      "source": "! i contract(s)",
+      "target": "hợp đồng(s)",
+      "bbox": {
+        "x": 117,
+        "y": 1662,
+        "w": 936,
+        "h": 95
+      },
+      "overflow": false
+    },
+    {
+      "source": "! GraphQL i Blockchain",
+      "target": "GraphQL và Blockchain",
+      "bbox": {
+        "x": 117,
+        "y": 1852,
+        "w": 936,
+        "h": 95
+      },
+      "overflow": false
+    },
+    {
+      "source": "| : VM i",
+      "target": "VM i",
+      "bbox": {
+        "x": 117,
+        "y": 2042,
+        "w": 936,
+        "h": 95
+      },
+      "overflow": false
+    },
+    {
+      "source": "1 Po ! : |",
+      "target": "1 Po ! : |",
+      "bbox": {
+        "x": 117,
+        "y": 2232,
+        "w": 936,
+        "h": 95
+      },
+      "overflow": false
+    },
+    {
+      "source": "| 1 Sidechains ~~ |",
+      "target": "Chuỗi phụ",
+      "bbox": {
+        "x": 117,
+        "y": 2422,
+        "w": 936,
+        "h": 95
+      },
+      "overflow": false
+    },
+    {
+      "source": "Ne Block(s) |",
+      "target": "Khối Ne",
+      "bbox": {
+        "x": 117,
+        "y": 2612,
+        "w": 936,
+        "h": 95
+      },
+      "overflow": false
+    },
+    {
+      "source": "! iY Pd",
+      "target": "! iY Pd",
+      "bbox": {
+        "x": 117,
+        "y": 2802,
+        "w": 936,
+        "h": 95
+      },
+      "overflow": false
+    },
+    {
+      "source": "J Bre a aaa",
+      "target": "J Bre a aaa",
+      "bbox": {
+        "x": 117,
+        "y": 2992,
+        "w": 936,
+        "h": 95
+      },
+      "overflow": false
+    },
+    {
+      "source": "| i Blockchain !",
+      "target": "Blockchain",
+      "bbox": {
+        "x": 117,
+        "y": 3182,
+        "w": 936,
+        "h": 95
+      },
+      "overflow": false
+    },
+    {
+      "source": "1 I mn emi",
+      "target": "1 Tôi là emi",
+      "bbox": {
+        "x": 117,
+        "y": 3372,
+        "w": 936,
+        "h": 95
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 1.1524852569502948,
+    "averageConfidence": 55
+  }
+}

@@ -12,6 +12,12 @@
     "cover": "/assets/entrepreneurship_cover.png"
   },
   {
+    "slug": "introduction-computer-science",
+    "title": "Introduction to Computer Science",
+    "url": "/introduction-computer-science/",
+    "cover": "/assets/introduction-computer-science_cover.svg"
+  },
+  {
     "slug": "principles-finance",
     "title": "Principles of Finance",
     "url": "/principles-finance/",

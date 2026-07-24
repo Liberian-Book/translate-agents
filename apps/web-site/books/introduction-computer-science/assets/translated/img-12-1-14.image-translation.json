@@ -1,0 +1,204 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-1-14.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-1-introduction-to-cloud-native-applications.html",
+  "decision": "review",
+  "reason": "translation-overflow",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "NN",
+      "confidence": 84,
+      "bbox": {
+        "x": 117,
+        "y": 62,
+        "w": 934,
+        "h": 41
+      }
+    },
+    {
+      "text": "User",
+      "confidence": 84,
+      "bbox": {
+        "x": 117,
+        "y": 145,
+        "w": 934,
+        "h": 41
+      }
+    },
+    {
+      "text": "interface",
+      "confidence": 84,
+      "bbox": {
+        "x": 117,
+        "y": 228,
+        "w": 934,
+        "h": 41
+      }
+    },
+    {
+      "text": "Microservices",
+      "confidence": 84,
+      "bbox": {
+        "x": 117,
+        "y": 311,
+        "w": 934,
+        "h": 41
+      }
+    },
+    {
+      "text": "in containers",
+      "confidence": 84,
+      "bbox": {
+        "x": 117,
+        "y": 394,
+        "w": 934,
+        "h": 41
+      }
+    },
+    {
+      "text": "Deploy,",
+      "confidence": 84,
+      "bbox": {
+        "x": 117,
+        "y": 477,
+        "w": 934,
+        "h": 41
+      }
+    },
+    {
+      "text": "scale",
+      "confidence": 84,
+      "bbox": {
+        "x": 117,
+        "y": 560,
+        "w": 934,
+        "h": 41
+      }
+    },
+    {
+      "text": "Master Jee",
+      "confidence": 84,
+      "bbox": {
+        "x": 117,
+        "y": 643,
+        "w": 934,
+        "h": 41
+      }
+    },
+    {
+      "text": "containers",
+      "confidence": 84,
+      "bbox": {
+        "x": 117,
+        "y": 726,
+        "w": 934,
+        "h": 41
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "NN",
+      "target": "NN",
+      "bbox": {
+        "x": 117,
+        "y": 62,
+        "w": 934,
+        "h": 41
+      },
+      "overflow": false
+    },
+    {
+      "source": "User",
+      "target": "Người dùng",
+      "bbox": {
+        "x": 117,
+        "y": 145,
+        "w": 934,
+        "h": 41
+      },
+      "overflow": true
+    },
+    {
+      "source": "interface",
+      "target": "giao diện",
+      "bbox": {
+        "x": 117,
+        "y": 228,
+        "w": 934,
+        "h": 41
+      },
+      "overflow": false
+    },
+    {
+      "source": "Microservices",
+      "target": "Microservices",
+      "bbox": {
+        "x": 117,
+        "y": 311,
+        "w": 934,
+        "h": 41
+      },
+      "overflow": false
+    },
+    {
+      "source": "in containers",
+      "target": "trong các thùng chứa",
+      "bbox": {
+        "x": 117,
+        "y": 394,
+        "w": 934,
+        "h": 41
+      },
+      "overflow": false
+    },
+    {
+      "source": "Deploy,",
+      "target": "Triển khai",
+      "bbox": {
+        "x": 117,
+        "y": 477,
+        "w": 934,
+        "h": 41
+      },
+      "overflow": false
+    },
+    {
+      "source": "scale",
+      "target": "tỷ lệ",
+      "bbox": {
+        "x": 117,
+        "y": 560,
+        "w": 934,
+        "h": 41
+      },
+      "overflow": false
+    },
+    {
+      "source": "Master Jee",
+      "target": "Thầy Jee",
+      "bbox": {
+        "x": 117,
+        "y": 643,
+        "w": 934,
+        "h": 41
+      },
+      "overflow": false
+    },
+    {
+      "source": "containers",
+      "target": "thùng chứa",
+      "bbox": {
+        "x": 117,
+        "y": 726,
+        "w": 934,
+        "h": 41
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.5723381359478688,
+    "averageConfidence": 84
+  }
+}

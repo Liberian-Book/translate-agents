@@ -1,0 +1,114 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-3-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-3-example-paas-and-faas-deployments-of-cloud-native-applications.html",
+  "decision": "review",
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Docker Docker",
+      "confidence": 54,
+      "bbox": {
+        "x": 130,
+        "y": 42,
+        "w": 1042,
+        "h": 28
+      }
+    },
+    {
+      "text": "“@ pacer p container",
+      "confidence": 54,
+      "bbox": {
+        "x": 130,
+        "y": 98,
+        "w": 1042,
+        "h": 28
+      }
+    },
+    {
+      "text": "Build",
+      "confidence": 54,
+      "bbox": {
+        "x": 130,
+        "y": 154,
+        "w": 1042,
+        "h": 28
+      }
+    },
+    {
+      "text": "Application “ ra > ~~",
+      "confidence": 54,
+      "bbox": {
+        "x": 130,
+        "y": 210,
+        "w": 1042,
+        "h": 28
+      }
+    },
+    {
+      "text": "— BD a",
+      "confidence": 54,
+      "bbox": {
+        "x": 130,
+        "y": 266,
+        "w": 1042,
+        "h": 28
+      }
+    },
+    {
+      "text": "_ we [] T",
+      "confidence": 54,
+      "bbox": {
+        "x": 130,
+        "y": 322,
+        "w": 1042,
+        "h": 28
+      }
+    },
+    {
+      "text": "i push Azure Azure Docker —",
+      "confidence": 54,
+      "bbox": {
+        "x": 130,
+        "y": 378,
+        "w": 1042,
+        "h": 28
+      }
+    },
+    {
+      "text": "— —»| Docker container yupernetes| container",
+      "confidence": 54,
+      "bbox": {
+        "x": 130,
+        "y": 434,
+        "w": 1042,
+        "h": 28
+      }
+    },
+    {
+      "text": "Build | image i +",
+      "confidence": 54,
+      "bbox": {
+        "x": 130,
+        "y": 490,
+        "w": 1042,
+        "h": 28
+      }
+    },
+    {
+      "text": "Application ulld 9 registry service",
+      "confidence": 54,
+      "bbox": {
+        "x": 130,
+        "y": 546,
+        "w": 1042,
+        "h": 28
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.6366080156402737,
+    "averageConfidence": 54
+  }
+}

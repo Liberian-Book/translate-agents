@@ -1,0 +1,414 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-2-27.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-2-enterprise-architecture-management-frameworks.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-10-2-27.vi.png",
+  "ocr": [
+    {
+      "text": "Browser Thick IVR Process Business",
+      "confidence": 77,
+      "bbox": {
+        "x": 134,
+        "y": 92,
+        "w": 1075,
+        "h": 61
+      }
+    },
+    {
+      "text": "client client rules",
+      "confidence": 77,
+      "bbox": {
+        "x": 134,
+        "y": 215,
+        "w": 1075,
+        "h": 61
+      }
+    },
+    {
+      "text": "Intranet Party",
+      "confidence": 77,
+      "bbox": {
+        "x": 134,
+        "y": 338,
+        "w": 1075,
+        "h": 61
+      }
+    },
+    {
+      "text": "Browser web",
+      "confidence": 77,
+      "bbox": {
+        "x": 134,
+        "y": 461,
+        "w": 1075,
+        "h": 61
+      }
+    },
+    {
+      "text": "client N server",
+      "confidence": 77,
+      "bbox": {
+        "x": 134,
+        "y": 584,
+        "w": 1075,
+        "h": 61
+      }
+    },
+    {
+      "text": "Internet d Product",
+      "confidence": 77,
+      "bbox": {
+        "x": 134,
+        "y": 707,
+        "w": 1075,
+        "h": 61
+      }
+    },
+    {
+      "text": "Internet web Interaction",
+      "confidence": 77,
+      "bbox": {
+        "x": 134,
+        "y": 830,
+        "w": 1075,
+        "h": 61
+      }
+    },
+    {
+      "text": "server",
+      "confidence": 77,
+      "bbox": {
+        "x": 134,
+        "y": 953,
+        "w": 1075,
+        "h": 61
+      }
+    },
+    {
+      "text": "Ir Contract",
+      "confidence": 77,
+      "bbox": {
+        "x": 134,
+        "y": 1076,
+        "w": 1075,
+        "h": 61
+      }
+    },
+    {
+      "text": "Pervasive",
+      "confidence": 77,
+      "bbox": {
+        "x": 134,
+        "y": 1199,
+        "w": 1075,
+        "h": 61
+      }
+    },
+    {
+      "text": "client Security",
+      "confidence": 77,
+      "bbox": {
+        "x": 134,
+        "y": 1322,
+        "w": 1075,
+        "h": 61
+      }
+    },
+    {
+      "text": "| Activities",
+      "confidence": 77,
+      "bbox": {
+        "x": 134,
+        "y": 1445,
+        "w": 1075,
+        "h": 61
+      }
+    },
+    {
+      "text": "Public or private Gateway",
+      "confidence": 77,
+      "bbox": {
+        "x": 134,
+        "y": 1568,
+        "w": 1075,
+        "h": 61
+      }
+    },
+    {
+      "text": "network .",
+      "confidence": 77,
+      "bbox": {
+        "x": 134,
+        "y": 1691,
+        "w": 1075,
+        "h": 61
+      }
+    },
+    {
+      "text": "; Registry Commissions",
+      "confidence": 77,
+      "bbox": {
+        "x": 134,
+        "y": 1814,
+        "w": 1075,
+        "h": 61
+      }
+    },
+    {
+      "text": "en -— Event Other",
+      "confidence": 77,
+      "bbox": {
+        "x": 134,
+        "y": 1937,
+        "w": 1075,
+        "h": 61
+      }
+    },
+    {
+      "text": "Bu management components",
+      "confidence": 77,
+      "bbox": {
+        "x": 134,
+        "y": 2060,
+        "w": 1075,
+        "h": 61
+      }
+    },
+    {
+      "text": "Document Content Information Roan",
+      "confidence": 77,
+      "bbox": {
+        "x": 134,
+        "y": 2183,
+        "w": 1075,
+        "h": 61
+      }
+    },
+    {
+      "text": "management management management B 9",
+      "confidence": 77,
+      "bbox": {
+        "x": 134,
+        "y": 2306,
+        "w": 1075,
+        "h": 61
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Browser Thick IVR Process Business",
+      "target": "Quy trình IVR dày qua trình duyệt",
+      "bbox": {
+        "x": 134,
+        "y": 92,
+        "w": 1075,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "client client rules",
+      "target": "khách hàng quy tắc khách hàng",
+      "bbox": {
+        "x": 134,
+        "y": 215,
+        "w": 1075,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "Intranet Party",
+      "target": "Bữa tiệc Intranet",
+      "bbox": {
+        "x": 134,
+        "y": 338,
+        "w": 1075,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "Browser web",
+      "target": "Trình duyệt web",
+      "bbox": {
+        "x": 134,
+        "y": 461,
+        "w": 1075,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "client N server",
+      "target": "máy khách N máy chủ",
+      "bbox": {
+        "x": 134,
+        "y": 584,
+        "w": 1075,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "Internet d Product",
+      "target": "Sản phẩm Internet",
+      "bbox": {
+        "x": 134,
+        "y": 707,
+        "w": 1075,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "Internet web Interaction",
+      "target": "Tương tác web Internet",
+      "bbox": {
+        "x": 134,
+        "y": 830,
+        "w": 1075,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "server",
+      "target": "máy chủ",
+      "bbox": {
+        "x": 134,
+        "y": 953,
+        "w": 1075,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "Ir Contract",
+      "target": "Hợp đồng Ir",
+      "bbox": {
+        "x": 134,
+        "y": 1076,
+        "w": 1075,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "Pervasive",
+      "target": "Lan tỏa",
+      "bbox": {
+        "x": 134,
+        "y": 1199,
+        "w": 1075,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "client Security",
+      "target": "Bảo mật khách hàng",
+      "bbox": {
+        "x": 134,
+        "y": 1322,
+        "w": 1075,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "| Activities",
+      "target": "| Hoạt động",
+      "bbox": {
+        "x": 134,
+        "y": 1445,
+        "w": 1075,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "Public or private Gateway",
+      "target": "Cổng công cộng hoặc riêng tư",
+      "bbox": {
+        "x": 134,
+        "y": 1568,
+        "w": 1075,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "network .",
+      "target": "mạng lưới",
+      "bbox": {
+        "x": 134,
+        "y": 1691,
+        "w": 1075,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "; Registry Commissions",
+      "target": "; Hoa hồng Đăng ký",
+      "bbox": {
+        "x": 134,
+        "y": 1814,
+        "w": 1075,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "en -— Event Other",
+      "target": "Sự kiện Khác",
+      "bbox": {
+        "x": 134,
+        "y": 1937,
+        "w": 1075,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "Bu management components",
+      "target": "Các thành phần quản lý BU",
+      "bbox": {
+        "x": 134,
+        "y": 2060,
+        "w": 1075,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "Document Content Information Roan",
+      "target": "Thông tin nội dung tài liệu Roan",
+      "bbox": {
+        "x": 134,
+        "y": 2183,
+        "w": 1075,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "management management management B 9",
+      "target": "quản lý quản lý quản lý B 9",
+      "bbox": {
+        "x": 134,
+        "y": 2306,
+        "w": 1075,
+        "h": 61
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 1.2070670960441467,
+    "averageConfidence": 77
+  }
+}

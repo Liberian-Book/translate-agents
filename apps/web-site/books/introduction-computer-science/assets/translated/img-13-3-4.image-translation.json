@@ -1,0 +1,204 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-13-3-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/13-3-big-cloud-paas-mainstream-capabilities.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-13-3-4.vi.png",
+  "ocr": [
+    {
+      "text": "AWS CloudFormation",
+      "confidence": 93,
+      "bbox": {
+        "x": 90,
+        "y": 57,
+        "w": 720,
+        "h": 38
+      }
+    },
+    {
+      "text": "AWS Blockchain templates",
+      "confidence": 93,
+      "bbox": {
+        "x": 90,
+        "y": 133,
+        "w": 720,
+        "h": 38
+      }
+    },
+    {
+      "text": "ECS container platform",
+      "confidence": 93,
+      "bbox": {
+        "x": 90,
+        "y": 209,
+        "w": 720,
+        "h": 38
+      }
+    },
+    {
+      "text": "Elastic load balancing Amazon S3",
+      "confidence": 93,
+      "bbox": {
+        "x": 90,
+        "y": 285,
+        "w": 720,
+        "h": 38
+      }
+    },
+    {
+      "text": "Multinode blockchain Blockchain explorer",
+      "confidence": 93,
+      "bbox": {
+        "x": 90,
+        "y": 361,
+        "w": 720,
+        "h": 38
+      }
+    },
+    {
+      "text": "network and monitoring",
+      "confidence": 93,
+      "bbox": {
+        "x": 90,
+        "y": 437,
+        "w": 720,
+        "h": 38
+      }
+    },
+    {
+      "text": "Amazon ECS Amazon EC2",
+      "confidence": 93,
+      "bbox": {
+        "x": 90,
+        "y": 513,
+        "w": 720,
+        "h": 38
+      }
+    },
+    {
+      "text": "ECR registry",
+      "confidence": 93,
+      "bbox": {
+        "x": 90,
+        "y": 589,
+        "w": 720,
+        "h": 38
+      }
+    },
+    {
+      "text": "Blockchain framework containers",
+      "confidence": 93,
+      "bbox": {
+        "x": 90,
+        "y": 665,
+        "w": 720,
+        "h": 38
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "AWS CloudFormation",
+      "target": "AWS CloudFormation",
+      "bbox": {
+        "x": 90,
+        "y": 57,
+        "w": 720,
+        "h": 38
+      },
+      "overflow": false
+    },
+    {
+      "source": "AWS Blockchain templates",
+      "target": "Mẫu Blockchain AWS",
+      "bbox": {
+        "x": 90,
+        "y": 133,
+        "w": 720,
+        "h": 38
+      },
+      "overflow": false
+    },
+    {
+      "source": "ECS container platform",
+      "target": "Nền tảng container ECS",
+      "bbox": {
+        "x": 90,
+        "y": 209,
+        "w": 720,
+        "h": 38
+      },
+      "overflow": false
+    },
+    {
+      "source": "Elastic load balancing Amazon S3",
+      "target": "Cân bằng tải linh hoạt Amazon S3",
+      "bbox": {
+        "x": 90,
+        "y": 285,
+        "w": 720,
+        "h": 38
+      },
+      "overflow": false
+    },
+    {
+      "source": "Multinode blockchain Blockchain explorer",
+      "target": "Blockchain đa nút Trình khám phá blockchain",
+      "bbox": {
+        "x": 90,
+        "y": 361,
+        "w": 720,
+        "h": 38
+      },
+      "overflow": false
+    },
+    {
+      "source": "network and monitoring",
+      "target": "mạng và giám sát",
+      "bbox": {
+        "x": 90,
+        "y": 437,
+        "w": 720,
+        "h": 38
+      },
+      "overflow": false
+    },
+    {
+      "source": "Amazon ECS Amazon EC2",
+      "target": "Amazon ECS Amazon EC2",
+      "bbox": {
+        "x": 90,
+        "y": 513,
+        "w": 720,
+        "h": 38
+      },
+      "overflow": false
+    },
+    {
+      "source": "ECR registry",
+      "target": "Registry ECR",
+      "bbox": {
+        "x": 90,
+        "y": 589,
+        "w": 720,
+        "h": 38
+      },
+      "overflow": false
+    },
+    {
+      "source": "Blockchain framework containers",
+      "target": "Containers khung blockchain",
+      "bbox": {
+        "x": 90,
+        "y": 665,
+        "w": 720,
+        "h": 38
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.5784355179704017,
+    "averageConfidence": 93
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-14-2-5.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/14-2-cybersecurity-deep-dive.html",
+  "decision": "review",
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Sign,,..(g\")",
+      "confidence": 54,
+      "bbox": {
+        "x": 70,
+        "y": 25,
+        "w": 561,
+        "h": 24
+      }
+    },
+    {
+      "text": "meen",
+      "confidence": 54,
+      "bbox": {
+        "x": 70,
+        "y": 59,
+        "w": 561,
+        "h": 24
+      }
+    },
+    {
+      "text": "sign, ,(¢\")",
+      "confidence": 54,
+      "bbox": {
+        "x": 70,
+        "y": 93,
+        "w": 561,
+        "h": 24
+      }
+    },
+    {
+      "text": "SS = (¢\")* SS =(g\"Y",
+      "confidence": 54,
+      "bbox": {
+        "x": 70,
+        "y": 127,
+        "w": 561,
+        "h": 24
+      }
+    },
+    {
+      "text": "EK = H(SS) EK = H(SS)",
+      "confidence": 54,
+      "bbox": {
+        "x": 70,
+        "y": 161,
+        "w": 561,
+        "h": 24
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.4573058895455472,
+    "averageConfidence": 54
+  }
+}

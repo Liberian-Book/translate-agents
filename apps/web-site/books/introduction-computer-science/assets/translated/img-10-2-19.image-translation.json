@@ -1,0 +1,330 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-2-19.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-2-enterprise-architecture-management-frameworks.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-10-2-19.vi.png",
+  "ocr": [
+    {
+      "text": "Information",
+      "confidence": 92,
+      "bbox": {
+        "x": 130,
+        "y": 89,
+        "w": 1038,
+        "h": 59
+      }
+    },
+    {
+      "text": "sources",
+      "confidence": 92,
+      "bbox": {
+        "x": 130,
+        "y": 207,
+        "w": 1038,
+        "h": 59
+      }
+    },
+    {
+      "text": "Future state",
+      "confidence": 92,
+      "bbox": {
+        "x": 130,
+        "y": 325,
+        "w": 1038,
+        "h": 59
+      }
+    },
+    {
+      "text": "needs Architecture",
+      "confidence": 92,
+      "bbox": {
+        "x": 130,
+        "y": 443,
+        "w": 1038,
+        "h": 59
+      }
+    },
+    {
+      "text": "modeling best",
+      "confidence": 92,
+      "bbox": {
+        "x": 130,
+        "y": 561,
+        "w": 1038,
+        "h": 59
+      }
+    },
+    {
+      "text": "practices",
+      "confidence": 92,
+      "bbox": {
+        "x": 130,
+        "y": 679,
+        "w": 1038,
+        "h": 59
+      }
+    },
+    {
+      "text": "Future state operating",
+      "confidence": 92,
+      "bbox": {
+        "x": 130,
+        "y": 797,
+        "w": 1038,
+        "h": 59
+      }
+    },
+    {
+      "text": "strategies",
+      "confidence": 92,
+      "bbox": {
+        "x": 130,
+        "y": 915,
+        "w": 1038,
+        "h": 59
+      }
+    },
+    {
+      "text": "Capabilities Key Im",
+      "confidence": 92,
+      "bbox": {
+        "x": 130,
+        "y": 1033,
+        "w": 1038,
+        "h": 59
+      }
+    },
+    {
+      "text": "business enablers/ Future state",
+      "confidence": 92,
+      "bbox": {
+        "x": 130,
+        "y": 1151,
+        "w": 1038,
+        "h": 59
+      }
+    },
+    {
+      "text": "i i drivers solutions models",
+      "confidence": 92,
+      "bbox": {
+        "x": 130,
+        "y": 1269,
+        "w": 1038,
+        "h": 59
+      }
+    },
+    {
+      "text": "Quality of service",
+      "confidence": 92,
+      "bbox": {
+        "x": 130,
+        "y": 1387,
+        "w": 1038,
+        "h": 59
+      }
+    },
+    {
+      "text": "Need to be validated individually Target strategy drives the definition of",
+      "confidence": 92,
+      "bbox": {
+        "x": 130,
+        "y": 1505,
+        "w": 1038,
+        "h": 59
+      }
+    },
+    {
+      "text": "with stakeholders in various future state architecture models",
+      "confidence": 92,
+      "bbox": {
+        "x": 130,
+        "y": 1623,
+        "w": 1038,
+        "h": 59
+      }
+    },
+    {
+      "text": "business units within the enterprise",
+      "confidence": 92,
+      "bbox": {
+        "x": 130,
+        "y": 1741,
+        "w": 1038,
+        "h": 59
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Information",
+      "target": "Thông tin",
+      "bbox": {
+        "x": 130,
+        "y": 89,
+        "w": 1038,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "sources",
+      "target": "nguồn gốc",
+      "bbox": {
+        "x": 130,
+        "y": 207,
+        "w": 1038,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "Future state",
+      "target": "Trạng thái tương lai",
+      "bbox": {
+        "x": 130,
+        "y": 325,
+        "w": 1038,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "needs Architecture",
+      "target": "cần Kiến trúc",
+      "bbox": {
+        "x": 130,
+        "y": 443,
+        "w": 1038,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "modeling best",
+      "target": "mô hình tốt nhất",
+      "bbox": {
+        "x": 130,
+        "y": 561,
+        "w": 1038,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "practices",
+      "target": "thực hành",
+      "bbox": {
+        "x": 130,
+        "y": 679,
+        "w": 1038,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "Future state operating",
+      "target": "Trạng thái vận hành tương lai",
+      "bbox": {
+        "x": 130,
+        "y": 797,
+        "w": 1038,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "strategies",
+      "target": "chiến lược",
+      "bbox": {
+        "x": 130,
+        "y": 915,
+        "w": 1038,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "Capabilities Key Im",
+      "target": "Khả năng Chìa khóa Im",
+      "bbox": {
+        "x": 130,
+        "y": 1033,
+        "w": 1038,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "business enablers/ Future state",
+      "target": "các yếu tố thúc đẩy kinh doanh/ Tình trạng tương lai",
+      "bbox": {
+        "x": 130,
+        "y": 1151,
+        "w": 1038,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "i i drivers solutions models",
+      "target": "mô hình giải pháp trình điều khiển",
+      "bbox": {
+        "x": 130,
+        "y": 1269,
+        "w": 1038,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "Quality of service",
+      "target": "Chất lượng dịch vụ",
+      "bbox": {
+        "x": 130,
+        "y": 1387,
+        "w": 1038,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "Need to be validated individually Target strategy drives the definition of",
+      "target": "Cần được xác thực riêng lẻ Chiến lược mục tiêu định nghĩa",
+      "bbox": {
+        "x": 130,
+        "y": 1505,
+        "w": 1038,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "with stakeholders in various future state architecture models",
+      "target": "với các bên liên quan trong các mô hình kiến trúc tương lai khác nhau",
+      "bbox": {
+        "x": 130,
+        "y": 1623,
+        "w": 1038,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "business units within the enterprise",
+      "target": "đơn vị kinh doanh trong doanh nghiệp",
+      "bbox": {
+        "x": 130,
+        "y": 1741,
+        "w": 1038,
+        "h": 59
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.9597194275720706,
+    "averageConfidence": 92
+  }
+}

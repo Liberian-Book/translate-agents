@@ -1,0 +1,309 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-1-16.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-1-introduction-to-cloud-native-applications.html",
+  "decision": "review",
+  "reason": "translation-overflow",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "User",
+      "confidence": 64,
+      "bbox": {
+        "x": 130,
+        "y": 122,
+        "w": 1039,
+        "h": 81
+      }
+    },
+    {
+      "text": "interface",
+      "confidence": 64,
+      "bbox": {
+        "x": 130,
+        "y": 284,
+        "w": 1039,
+        "h": 81
+      }
+    },
+    {
+      "text": "API gateway",
+      "confidence": 64,
+      "bbox": {
+        "x": 130,
+        "y": 446,
+        "w": 1039,
+        "h": 81
+      }
+    },
+    {
+      "text": "Inventory Basket",
+      "confidence": 64,
+      "bbox": {
+        "x": 130,
+        "y": 608,
+        "w": 1039,
+        "h": 81
+      }
+    },
+    {
+      "text": "system service",
+      "confidence": 64,
+      "bbox": {
+        "x": 130,
+        "y": 770,
+        "w": 1039,
+        "h": 81
+      }
+    },
+    {
+      "text": "Payment Shipping",
+      "confidence": 64,
+      "bbox": {
+        "x": 130,
+        "y": 932,
+        "w": 1039,
+        "h": 81
+      }
+    },
+    {
+      "text": "system service",
+      "confidence": 64,
+      "bbox": {
+        "x": 130,
+        "y": 1094,
+        "w": 1039,
+        "h": 81
+      }
+    },
+    {
+      "text": "Reporting",
+      "confidence": 64,
+      "bbox": {
+        "x": 130,
+        "y": 1256,
+        "w": 1039,
+        "h": 81
+      }
+    },
+    {
+      "text": "system",
+      "confidence": 64,
+      "bbox": {
+        "x": 130,
+        "y": 1418,
+        "w": 1039,
+        "h": 81
+      }
+    },
+    {
+      "text": "= Feedback (data, failures, alerts)",
+      "confidence": 64,
+      "bbox": {
+        "x": 130,
+        "y": 1580,
+        "w": 1039,
+        "h": 81
+      }
+    },
+    {
+      "text": "3 inp! >) mp aA >on Gf > =A",
+      "confidence": 64,
+      "bbox": {
+        "x": 130,
+        "y": 1742,
+        "w": 1039,
+        "h": 81
+      }
+    },
+    {
+      "text": "conercode || suldapp | | Test | Buldimage Deployproa) | ean",
+      "confidence": 64,
+      "bbox": {
+        "x": 130,
+        "y": 1904,
+        "w": 1039,
+        "h": 81
+      }
+    },
+    {
+      "text": "Continuous Continuous Continuous",
+      "confidence": 64,
+      "bbox": {
+        "x": 130,
+        "y": 2066,
+        "w": 1039,
+        "h": 81
+      }
+    },
+    {
+      "text": "integration delivery deployment",
+      "confidence": 64,
+      "bbox": {
+        "x": 130,
+        "y": 2228,
+        "w": 1039,
+        "h": 81
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "User",
+      "target": "Người dùng",
+      "bbox": {
+        "x": 130,
+        "y": 122,
+        "w": 1039,
+        "h": 81
+      },
+      "overflow": true
+    },
+    {
+      "source": "interface",
+      "target": "giao diện",
+      "bbox": {
+        "x": 130,
+        "y": 284,
+        "w": 1039,
+        "h": 81
+      },
+      "overflow": false
+    },
+    {
+      "source": "API gateway",
+      "target": "Cổng API",
+      "bbox": {
+        "x": 130,
+        "y": 446,
+        "w": 1039,
+        "h": 81
+      },
+      "overflow": false
+    },
+    {
+      "source": "Inventory Basket",
+      "target": "Giỏ hàng tồn kho",
+      "bbox": {
+        "x": 130,
+        "y": 608,
+        "w": 1039,
+        "h": 81
+      },
+      "overflow": false
+    },
+    {
+      "source": "system service",
+      "target": "dịch vụ hệ thống",
+      "bbox": {
+        "x": 130,
+        "y": 770,
+        "w": 1039,
+        "h": 81
+      },
+      "overflow": false
+    },
+    {
+      "source": "Payment Shipping",
+      "target": "Thanh toán Vận chuyển",
+      "bbox": {
+        "x": 130,
+        "y": 932,
+        "w": 1039,
+        "h": 81
+      },
+      "overflow": false
+    },
+    {
+      "source": "system service",
+      "target": "dịch vụ hệ thống",
+      "bbox": {
+        "x": 130,
+        "y": 1094,
+        "w": 1039,
+        "h": 81
+      },
+      "overflow": false
+    },
+    {
+      "source": "Reporting",
+      "target": "Báo cáo",
+      "bbox": {
+        "x": 130,
+        "y": 1256,
+        "w": 1039,
+        "h": 81
+      },
+      "overflow": false
+    },
+    {
+      "source": "system",
+      "target": "hệ thống",
+      "bbox": {
+        "x": 130,
+        "y": 1418,
+        "w": 1039,
+        "h": 81
+      },
+      "overflow": false
+    },
+    {
+      "source": "= Feedback (data, failures, alerts)",
+      "target": "Phản hồi (dữ liệu, lỗi, cảnh báo)",
+      "bbox": {
+        "x": 130,
+        "y": 1580,
+        "w": 1039,
+        "h": 81
+      },
+      "overflow": false
+    },
+    {
+      "source": "3 inp! >) mp aA >on Gf > =A",
+      "target": "3 inp! >) mp aA >on Gf > =A",
+      "bbox": {
+        "x": 130,
+        "y": 1742,
+        "w": 1039,
+        "h": 81
+      },
+      "overflow": false
+    },
+    {
+      "source": "conercode || suldapp | | Test | Buldimage Deployproa) | ean",
+      "target": "mã conercode || ứng dụng suld | | Kiểm tra | Triển khai hình ảnh Buldproa) | ean",
+      "bbox": {
+        "x": 130,
+        "y": 1904,
+        "w": 1039,
+        "h": 81
+      },
+      "overflow": false
+    },
+    {
+      "source": "Continuous Continuous Continuous",
+      "target": "Liên tục Liên tục Liên tục",
+      "bbox": {
+        "x": 130,
+        "y": 2066,
+        "w": 1039,
+        "h": 81
+      },
+      "overflow": false
+    },
+    {
+      "source": "integration delivery deployment",
+      "target": "tích hợp giao hàng triển khai",
+      "bbox": {
+        "x": 130,
+        "y": 2228,
+        "w": 1039,
+        "h": 81
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.8945023709635541,
+    "averageConfidence": 64
+  }
+}

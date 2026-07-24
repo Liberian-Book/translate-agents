@@ -1,0 +1,267 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-1-18.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-1-introduction-to-cloud-native-applications.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-12-1-18.vi.png",
+  "ocr": [
+    {
+      "text": "Image registry",
+      "confidence": 69,
+      "bbox": {
+        "x": 119,
+        "y": 116,
+        "w": 950,
+        "h": 78
+      }
+    },
+    {
+      "text": "kubelet | kubelet kubelet",
+      "confidence": 69,
+      "bbox": {
+        "x": 119,
+        "y": 271,
+        "w": 950,
+        "h": 78
+      }
+    },
+    {
+      "text": "TE",
+      "confidence": 69,
+      "bbox": {
+        "x": 119,
+        "y": 426,
+        "w": 950,
+        "h": 78
+      }
+    },
+    {
+      "text": "User nvento Tr .",
+      "confidence": 69,
+      "bbox": {
+        "x": 119,
+        "y": 581,
+        "w": 950,
+        "h": 78
+      }
+    },
+    {
+      "text": "interface Microservices",
+      "confidence": 69,
+      "bbox": {
+        "x": 119,
+        "y": 736,
+        "w": 950,
+        "h": 78
+      }
+    },
+    {
+      "text": "1 in containers",
+      "confidence": 69,
+      "bbox": {
+        "x": 119,
+        "y": 891,
+        "w": 950,
+        "h": 78
+      }
+    },
+    {
+      "text": "Pod x Pod atastore.",
+      "confidence": 69,
+      "bbox": {
+        "x": 119,
+        "y": 1046,
+        "w": 950,
+        "h": 78
+      }
+    },
+    {
+      "text": "Control plane ) irom mii",
+      "confidence": 69,
+      "bbox": {
+        "x": 119,
+        "y": 1201,
+        "w": 950,
+        "h": 78
+      }
+    },
+    {
+      "text": "API Scheduler Basket service 1",
+      "confidence": 69,
+      "bbox": {
+        "x": 119,
+        "y": 1356,
+        "w": 950,
+        "h": 78
+      }
+    },
+    {
+      "text": "Master node Pod [patastore || pod [patastore",
+      "confidence": 69,
+      "bbox": {
+        "x": 119,
+        "y": 1511,
+        "w": 950,
+        "h": 78
+      }
+    },
+    {
+      "text": "Pod ' 1 : Pod",
+      "confidence": 69,
+      "bbox": {
+        "x": 119,
+        "y": 1666,
+        "w": 950,
+        "h": 78
+      }
+    },
+    {
+      "text": "Worker nodes",
+      "confidence": 69,
+      "bbox": {
+        "x": 119,
+        "y": 1821,
+        "w": 950,
+        "h": 78
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Image registry",
+      "target": "Đăng ký hình ảnh",
+      "bbox": {
+        "x": 119,
+        "y": 116,
+        "w": 950,
+        "h": 78
+      },
+      "overflow": false
+    },
+    {
+      "source": "kubelet | kubelet kubelet",
+      "target": "kubelet | kubelet kubelet",
+      "bbox": {
+        "x": 119,
+        "y": 271,
+        "w": 950,
+        "h": 78
+      },
+      "overflow": false
+    },
+    {
+      "source": "TE",
+      "target": "TE",
+      "bbox": {
+        "x": 119,
+        "y": 426,
+        "w": 950,
+        "h": 78
+      },
+      "overflow": false
+    },
+    {
+      "source": "User nvento Tr .",
+      "target": "Người phát minh",
+      "bbox": {
+        "x": 119,
+        "y": 581,
+        "w": 950,
+        "h": 78
+      },
+      "overflow": false
+    },
+    {
+      "source": "interface Microservices",
+      "target": "giao diện Microservices",
+      "bbox": {
+        "x": 119,
+        "y": 736,
+        "w": 950,
+        "h": 78
+      },
+      "overflow": false
+    },
+    {
+      "source": "1 in containers",
+      "target": "1 trong các thùng chứa",
+      "bbox": {
+        "x": 119,
+        "y": 891,
+        "w": 950,
+        "h": 78
+      },
+      "overflow": false
+    },
+    {
+      "source": "Pod x Pod atastore.",
+      "target": "Pod x Pod atastore.",
+      "bbox": {
+        "x": 119,
+        "y": 1046,
+        "w": 950,
+        "h": 78
+      },
+      "overflow": false
+    },
+    {
+      "source": "Control plane ) irom mii",
+      "target": "Mặt phẳng điều khiển ) irom mii",
+      "bbox": {
+        "x": 119,
+        "y": 1201,
+        "w": 950,
+        "h": 78
+      },
+      "overflow": false
+    },
+    {
+      "source": "API Scheduler Basket service 1",
+      "target": "Dịch vụ giỏ hàng lập lịch API 1",
+      "bbox": {
+        "x": 119,
+        "y": 1356,
+        "w": 950,
+        "h": 78
+      },
+      "overflow": false
+    },
+    {
+      "source": "Master node Pod [patastore || pod [patastore",
+      "target": "Pod nút chính [patastore]",
+      "bbox": {
+        "x": 119,
+        "y": 1511,
+        "w": 950,
+        "h": 78
+      },
+      "overflow": false
+    },
+    {
+      "source": "Pod ' 1 : Pod",
+      "target": "Pod ' 1 : Pod",
+      "bbox": {
+        "x": 119,
+        "y": 1666,
+        "w": 950,
+        "h": 78
+      },
+      "overflow": false
+    },
+    {
+      "source": "Worker nodes",
+      "target": "Nút công nhân",
+      "bbox": {
+        "x": 119,
+        "y": 1821,
+        "w": 950,
+        "h": 78
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.7722839350697852,
+    "averageConfidence": 69
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-6-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-6-sample-ethereum-blockchain-web-2-0-web-3-0-application.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-11-6-3.vi.png",
+  "ocr": [
+    {
+      "text": "Vv build\\contracts",
+      "confidence": 65,
+      "bbox": {
+        "x": 70,
+        "y": 56,
+        "w": 560,
+        "h": 37
+      }
+    },
+    {
+      "text": "{} Migrations.json",
+      "confidence": 65,
+      "bbox": {
+        "x": 70,
+        "y": 131,
+        "w": 560,
+        "h": 37
+      }
+    },
+    {
+      "text": "© OTodolistison",
+      "confidence": 65,
+      "bbox": {
+        "x": 70,
+        "y": 206,
+        "w": 560,
+        "h": 37
+      }
+    },
+    {
+      "text": "\\/ contracts Ld",
+      "confidence": 65,
+      "bbox": {
+        "x": 70,
+        "y": 281,
+        "w": 560,
+        "h": 37
+      }
+    },
+    {
+      "text": "¢ Migrations.sol u",
+      "confidence": 65,
+      "bbox": {
+        "x": 70,
+        "y": 356,
+        "w": 560,
+        "h": 37
+      }
+    },
+    {
+      "text": "4 Todolist.sol u",
+      "confidence": 65,
+      "bbox": {
+        "x": 70,
+        "y": 431,
+        "w": 560,
+        "h": 37
+      }
+    },
+    {
+      "text": "\\ migrations [J",
+      "confidence": 65,
+      "bbox": {
+        "x": 70,
+        "y": 506,
+        "w": 560,
+        "h": 37
+      }
+    },
+    {
+      "text": "JS 1_initial_migration.js uU",
+      "confidence": 65,
+      "bbox": {
+        "x": 70,
+        "y": 581,
+        "w": 560,
+        "h": 37
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Vv build\\contracts",
+      "target": "Xây dựng hợp đồng",
+      "bbox": {
+        "x": 70,
+        "y": 56,
+        "w": 560,
+        "h": 37
+      },
+      "overflow": false
+    },
+    {
+      "source": "{} Migrations.json",
+      "target": "{} Di cư.json",
+      "bbox": {
+        "x": 70,
+        "y": 131,
+        "w": 560,
+        "h": 37
+      },
+      "overflow": false
+    },
+    {
+      "source": "© OTodolistison",
+      "target": "© OTodolistison",
+      "bbox": {
+        "x": 70,
+        "y": 206,
+        "w": 560,
+        "h": 37
+      },
+      "overflow": false
+    },
+    {
+      "source": "\\/ contracts Ld",
+      "target": "\\/ hợp đồng Ld",
+      "bbox": {
+        "x": 70,
+        "y": 281,
+        "w": 560,
+        "h": 37
+      },
+      "overflow": false
+    },
+    {
+      "source": "¢ Migrations.sol u",
+      "target": "¢ Di chuyển.sol u",
+      "bbox": {
+        "x": 70,
+        "y": 356,
+        "w": 560,
+        "h": 37
+      },
+      "overflow": false
+    },
+    {
+      "source": "4 Todolist.sol u",
+      "target": "4 Danh sách công việc.sol u",
+      "bbox": {
+        "x": 70,
+        "y": 431,
+        "w": 560,
+        "h": 37
+      },
+      "overflow": false
+    },
+    {
+      "source": "\\ migrations [J",
+      "target": "di chuyển",
+      "bbox": {
+        "x": 70,
+        "y": 506,
+        "w": 560,
+        "h": 37
+      },
+      "overflow": false
+    },
+    {
+      "source": "JS 1_initial_migration.js uU",
+      "target": "JS 1_di chuyển ban đầu.js",
+      "bbox": {
+        "x": 70,
+        "y": 581,
+        "w": 560,
+        "h": 37
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.505982905982906,
+    "averageConfidence": 65
+  }
+}

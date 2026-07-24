@@ -1,0 +1,183 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-2-28.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-2-enterprise-architecture-management-frameworks.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-10-2-28.vi.png",
+  "ocr": [
+    {
+      "text": ". Sales and Product . — Finance and Claim",
+      "confidence": 74,
+      "bbox": {
+        "x": 130,
+        "y": 60,
+        "w": 1042,
+        "h": 40
+      }
+    },
+    {
+      "text": "coven: | roerertng | SESS | Sen | procesing",
+      "confidence": 74,
+      "bbox": {
+        "x": 130,
+        "y": 139,
+        "w": 1042,
+        "h": 40
+      }
+    },
+    {
+      "text": "Business",
+      "confidence": 74,
+      "bbox": {
+        "x": 130,
+        "y": 218,
+        "w": 1042,
+        "h": 40
+      }
+    },
+    {
+      "text": "capabilities",
+      "confidence": 74,
+      "bbox": {
+        "x": 130,
+        "y": 297,
+        "w": 1042,
+        "h": 40
+      }
+    },
+    {
+      "text": "(will differ per",
+      "confidence": 74,
+      "bbox": {
+        "x": 130,
+        "y": 376,
+        "w": 1042,
+        "h": 40
+      }
+    },
+    {
+      "text": "Value chain)",
+      "confidence": 74,
+      "bbox": {
+        "x": 130,
+        "y": 455,
+        "w": 1042,
+        "h": 40
+      }
+    },
+    {
+      "text": "Business Business Business BPM Process BRM Business Business",
+      "confidence": 74,
+      "bbox": {
+        "x": 130,
+        "y": 534,
+        "w": 1042,
+        "h": 40
+      }
+    },
+    {
+      "text": "users events channels J processes metrics rules services entities",
+      "confidence": 74,
+      "bbox": {
+        "x": 130,
+        "y": 613,
+        "w": 1042,
+        "h": 40
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": ". Sales and Product . — Finance and Claim",
+      "target": ". Bán hàng và Sản phẩm . — Tài chính và Khiếu nại",
+      "bbox": {
+        "x": 130,
+        "y": 60,
+        "w": 1042,
+        "h": 40
+      },
+      "overflow": false
+    },
+    {
+      "source": "coven: | roerertng | SESS | Sen | procesing",
+      "target": "hợp đồng: | điều chỉnh | SE | Sen | xử lý",
+      "bbox": {
+        "x": 130,
+        "y": 139,
+        "w": 1042,
+        "h": 40
+      },
+      "overflow": false
+    },
+    {
+      "source": "Business",
+      "target": "Kinh doanh",
+      "bbox": {
+        "x": 130,
+        "y": 218,
+        "w": 1042,
+        "h": 40
+      },
+      "overflow": false
+    },
+    {
+      "source": "capabilities",
+      "target": "khả năng",
+      "bbox": {
+        "x": 130,
+        "y": 297,
+        "w": 1042,
+        "h": 40
+      },
+      "overflow": false
+    },
+    {
+      "source": "(will differ per",
+      "target": "(sẽ khác nhau theo)",
+      "bbox": {
+        "x": 130,
+        "y": 376,
+        "w": 1042,
+        "h": 40
+      },
+      "overflow": false
+    },
+    {
+      "source": "Value chain)",
+      "target": "Chuỗi giá trị",
+      "bbox": {
+        "x": 130,
+        "y": 455,
+        "w": 1042,
+        "h": 40
+      },
+      "overflow": false
+    },
+    {
+      "source": "Business Business Business BPM Process BRM Business Business",
+      "target": "Doanh nghiệp Doanh nghiệp Doanh nghiệp Quy trình BPM Quản lý BRM Doanh nghiệp Doanh nghiệp",
+      "bbox": {
+        "x": 130,
+        "y": 534,
+        "w": 1042,
+        "h": 40
+      },
+      "overflow": false
+    },
+    {
+      "source": "users events channels J processes metrics rules services entities",
+      "target": "người dùng sự kiện kênh quy trình chỉ số quy tắc dịch vụ thực thể",
+      "bbox": {
+        "x": 130,
+        "y": 613,
+        "w": 1042,
+        "h": 40
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.5163272384916505,
+    "averageConfidence": 74
+  }
+}

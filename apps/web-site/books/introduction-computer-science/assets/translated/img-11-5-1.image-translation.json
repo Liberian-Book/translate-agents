@@ -1,0 +1,456 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-5-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-5-sample-native-wad-with-react-native-and-node-or-django.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-11-5-1.vi.png",
+  "ocr": [
+    {
+      "text": "(0) System Image",
+      "confidence": 84,
+      "bbox": {
+        "x": 130,
+        "y": 99,
+        "w": 1041,
+        "h": 66
+      }
+    },
+    {
+      "text": "4m. SDK Quickfix Installation",
+      "confidence": 84,
+      "bbox": {
+        "x": 130,
+        "y": 231,
+        "w": 1041,
+        "h": 66
+      }
+    },
+    {
+      "text": "Select a system image",
+      "confidence": 84,
+      "bbox": {
+        "x": 130,
+        "y": 363,
+        "w": 1041,
+        "h": 66
+      }
+    },
+    {
+      "text": "y 2 Component Installer",
+      "confidence": 84,
+      "bbox": {
+        "x": 130,
+        "y": 495,
+        "w": 1041,
+        "h": 66
+      }
+    },
+    {
+      "text": "Recommended x86 Images Other Images",
+      "confidence": 84,
+      "bbox": {
+        "x": 130,
+        "y": 627,
+        "w": 1041,
+        "h": 66
+      }
+    },
+    {
+      "text": "Release Name API Level",
+      "confidence": 84,
+      "bbox": {
+        "x": 130,
+        "y": 759,
+        "w": 1041,
+        "h": 66
+      }
+    },
+    {
+      "text": "API 32 Download 32 Installing Requested Components",
+      "confidence": 84,
+      "bbox": {
+        "x": 130,
+        "y": 891,
+        "w": 1041,
+        "h": 66
+      }
+    },
+    {
+      "text": "Li id SDK Path: C:\\Users\\jlg20\\AppData\\LocalAndroichSdk",
+      "confidence": 84,
+      "bbox": {
+        "x": 130,
+        "y": 1023,
+        "w": 1041,
+        "h": 66
+      }
+    },
+    {
+      "text": "Q Download 29 Packages to install:",
+      "confidence": 84,
+      "bbox": {
+        "x": 130,
+        "y": 1155,
+        "w": 1041,
+        "h": 66
+      }
+    },
+    {
+      "text": "- Google APIs Intel x86 Atom System Image (system-images;android-28;google apis;x86)",
+      "confidence": 84,
+      "bbox": {
+        "x": 130,
+        "y": 1287,
+        "w": 1041,
+        "h": 66
+      }
+    },
+    {
+      "text": "Pie Download 28",
+      "confidence": 84,
+      "bbox": {
+        "x": 130,
+        "y": 1419,
+        "w": 1041,
+        "h": 66
+      }
+    },
+    {
+      "text": "Oreo Download 27 Preparing \"Install Google APIs Intel x86 Atom System Image (revision: 12)\".",
+      "confidence": 84,
+      "bbox": {
+        "x": 130,
+        "y": 1551,
+        "w": 1041,
+        "h": 66
+      }
+    },
+    {
+      "text": "Downloading https://dl.google.com/android/repository/sys-img/google_apis/x86-28_rl2.zip",
+      "confidence": 84,
+      "bbox": {
+        "x": 130,
+        "y": 1683,
+        "w": 1041,
+        "h": 66
+      }
+    },
+    {
+      "text": "Oreo Download 26",
+      "confidence": 84,
+      "bbox": {
+        "x": 130,
+        "y": 1815,
+        "w": 1041,
+        "h": 66
+      }
+    },
+    {
+      "text": "Nougat Download 25",
+      "confidence": 84,
+      "bbox": {
+        "x": 130,
+        "y": 1947,
+        "w": 1041,
+        "h": 66
+      }
+    },
+    {
+      "text": "Nougat Download 24",
+      "confidence": 84,
+      "bbox": {
+        "x": 130,
+        "y": 2079,
+        "w": 1041,
+        "h": 66
+      }
+    },
+    {
+      "text": "Marshmallow Download ~~ 23",
+      "confidence": 84,
+      "bbox": {
+        "x": 130,
+        "y": 2211,
+        "w": 1041,
+        "h": 66
+      }
+    },
+    {
+      "text": "Lollipop Download 22",
+      "confidence": 84,
+      "bbox": {
+        "x": 130,
+        "y": 2343,
+        "w": 1041,
+        "h": 66
+      }
+    },
+    {
+      "text": "Checking existing file...",
+      "confidence": 84,
+      "bbox": {
+        "x": 130,
+        "y": 2475,
+        "w": 1041,
+        "h": 66
+      }
+    },
+    {
+      "text": "https://dl.google.com/android/repository/sys-ima/google_apis/x86-28 r12.zip",
+      "confidence": 84,
+      "bbox": {
+        "x": 130,
+        "y": 2607,
+        "w": 1041,
+        "h": 66
+      }
+    },
+    {
+      "text": "© Please wait until the installation finishes",
+      "confidence": 84,
+      "bbox": {
+        "x": 130,
+        "y": 2739,
+        "w": 1041,
+        "h": 66
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "(0) System Image",
+      "target": "Hình ảnh hệ thống",
+      "bbox": {
+        "x": 130,
+        "y": 99,
+        "w": 1041,
+        "h": 66
+      },
+      "overflow": false
+    },
+    {
+      "source": "4m. SDK Quickfix Installation",
+      "target": "Cài đặt SDK Quickfix 4m.",
+      "bbox": {
+        "x": 130,
+        "y": 231,
+        "w": 1041,
+        "h": 66
+      },
+      "overflow": false
+    },
+    {
+      "source": "Select a system image",
+      "target": "Chọn hình ảnh hệ thống",
+      "bbox": {
+        "x": 130,
+        "y": 363,
+        "w": 1041,
+        "h": 66
+      },
+      "overflow": false
+    },
+    {
+      "source": "y 2 Component Installer",
+      "target": "Trình cài đặt thành phần y 2",
+      "bbox": {
+        "x": 130,
+        "y": 495,
+        "w": 1041,
+        "h": 66
+      },
+      "overflow": false
+    },
+    {
+      "source": "Recommended x86 Images Other Images",
+      "target": "Hình ảnh x86 Đề xuất Hình ảnh Khác",
+      "bbox": {
+        "x": 130,
+        "y": 627,
+        "w": 1041,
+        "h": 66
+      },
+      "overflow": false
+    },
+    {
+      "source": "Release Name API Level",
+      "target": "Tên phiên bản Mức API",
+      "bbox": {
+        "x": 130,
+        "y": 759,
+        "w": 1041,
+        "h": 66
+      },
+      "overflow": false
+    },
+    {
+      "source": "API 32 Download 32 Installing Requested Components",
+      "target": "Tải API 32 Cài đặt các thành phần yêu cầu",
+      "bbox": {
+        "x": 130,
+        "y": 891,
+        "w": 1041,
+        "h": 66
+      },
+      "overflow": false
+    },
+    {
+      "source": "Li id SDK Path: C:\\Users\\jlg20\\AppData\\LocalAndroichSdk",
+      "target": "Đường dẫn SDK Li id: C:\\Users\\jlg20\\AppData\\LocalAndroichSdk",
+      "bbox": {
+        "x": 130,
+        "y": 1023,
+        "w": 1041,
+        "h": 66
+      },
+      "overflow": false
+    },
+    {
+      "source": "Q Download 29 Packages to install:",
+      "target": "Tải 29 gói để cài đặt:",
+      "bbox": {
+        "x": 130,
+        "y": 1155,
+        "w": 1041,
+        "h": 66
+      },
+      "overflow": false
+    },
+    {
+      "source": "- Google APIs Intel x86 Atom System Image (system-images;android-28;google apis;x86)",
+      "target": "Hình ảnh hệ thống Google APIs Intel x86 Atom (hình ảnh-hệ thống;android-28;google apis;x86)",
+      "bbox": {
+        "x": 130,
+        "y": 1287,
+        "w": 1041,
+        "h": 66
+      },
+      "overflow": false
+    },
+    {
+      "source": "Pie Download 28",
+      "target": "Tải Pie 28",
+      "bbox": {
+        "x": 130,
+        "y": 1419,
+        "w": 1041,
+        "h": 66
+      },
+      "overflow": false
+    },
+    {
+      "source": "Oreo Download 27 Preparing \"Install Google APIs Intel x86 Atom System Image (revision: 12)\".",
+      "target": "Tải Oreo 27 Chuẩn bị \"Cài đặt Google APIs Intel x86 Atom Hình ảnh Hệ thống (phiên bản: 12)\".",
+      "bbox": {
+        "x": 130,
+        "y": 1551,
+        "w": 1041,
+        "h": 66
+      },
+      "overflow": false
+    },
+    {
+      "source": "Downloading https://dl.google.com/android/repository/sys-img/google_apis/x86-28_rl2.zip",
+      "target": "Tải xuống https://dl.google.com/android/repository/sys-img/google_apis/x86-28_rl2.zip",
+      "bbox": {
+        "x": 130,
+        "y": 1683,
+        "w": 1041,
+        "h": 66
+      },
+      "overflow": false
+    },
+    {
+      "source": "Oreo Download 26",
+      "target": "Tải Oreo 26",
+      "bbox": {
+        "x": 130,
+        "y": 1815,
+        "w": 1041,
+        "h": 66
+      },
+      "overflow": false
+    },
+    {
+      "source": "Nougat Download 25",
+      "target": "Tải Nougat 25",
+      "bbox": {
+        "x": 130,
+        "y": 1947,
+        "w": 1041,
+        "h": 66
+      },
+      "overflow": false
+    },
+    {
+      "source": "Nougat Download 24",
+      "target": "Tải Nougat 24",
+      "bbox": {
+        "x": 130,
+        "y": 2079,
+        "w": 1041,
+        "h": 66
+      },
+      "overflow": false
+    },
+    {
+      "source": "Marshmallow Download ~~ 23",
+      "target": "Tải Marshmallow ~~ 23",
+      "bbox": {
+        "x": 130,
+        "y": 2211,
+        "w": 1041,
+        "h": 66
+      },
+      "overflow": false
+    },
+    {
+      "source": "Lollipop Download 22",
+      "target": "Tải Lollipop 22",
+      "bbox": {
+        "x": 130,
+        "y": 2343,
+        "w": 1041,
+        "h": 66
+      },
+      "overflow": false
+    },
+    {
+      "source": "Checking existing file...",
+      "target": "Kiểm tra tệp hiện có...",
+      "bbox": {
+        "x": 130,
+        "y": 2475,
+        "w": 1041,
+        "h": 66
+      },
+      "overflow": false
+    },
+    {
+      "source": "https://dl.google.com/android/repository/sys-ima/google_apis/x86-28 r12.zip",
+      "target": "Liên kết tải xuống",
+      "bbox": {
+        "x": 130,
+        "y": 2607,
+        "w": 1041,
+        "h": 66
+      },
+      "overflow": false
+    },
+    {
+      "source": "© Please wait until the installation finishes",
+      "target": "© Vui lòng chờ cho đến khi cài đặt hoàn tất",
+      "bbox": {
+        "x": 130,
+        "y": 2739,
+        "w": 1041,
+        "h": 66
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 1.3410073359995613,
+    "averageConfidence": 84
+  }
+}

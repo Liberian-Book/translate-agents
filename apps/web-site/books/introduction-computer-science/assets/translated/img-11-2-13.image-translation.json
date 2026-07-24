@@ -1,0 +1,351 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-2-13.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-2-sample-responsive-wad-with-bootstrap-and-django.html",
+  "decision": "review",
+  "reason": "translation-overflow",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Vv static",
+      "confidence": 81,
+      "bbox": {
+        "x": 38,
+        "y": 73,
+        "w": 300,
+        "h": 49
+      }
+    },
+    {
+      "text": "Vv css",
+      "confidence": 81,
+      "bbox": {
+        "x": 38,
+        "y": 170,
+        "w": 300,
+        "h": 49
+      }
+    },
+    {
+      "text": "# bootstrap-grid.css",
+      "confidence": 81,
+      "bbox": {
+        "x": 38,
+        "y": 267,
+        "w": 300,
+        "h": 49
+      }
+    },
+    {
+      "text": "# bootstrap-grid.min.css",
+      "confidence": 81,
+      "bbox": {
+        "x": 38,
+        "y": 364,
+        "w": 300,
+        "h": 49
+      }
+    },
+    {
+      "text": "# bootstrap-reboot.css",
+      "confidence": 81,
+      "bbox": {
+        "x": 38,
+        "y": 461,
+        "w": 300,
+        "h": 49
+      }
+    },
+    {
+      "text": "# bootstrap-reboot.min.css",
+      "confidence": 81,
+      "bbox": {
+        "x": 38,
+        "y": 558,
+        "w": 300,
+        "h": 49
+      }
+    },
+    {
+      "text": "# bootstrap.css",
+      "confidence": 81,
+      "bbox": {
+        "x": 38,
+        "y": 655,
+        "w": 300,
+        "h": 49
+      }
+    },
+    {
+      "text": "# bootstrap.min.css",
+      "confidence": 81,
+      "bbox": {
+        "x": 38,
+        "y": 752,
+        "w": 300,
+        "h": 49
+      }
+    },
+    {
+      "text": "# style.css",
+      "confidence": 81,
+      "bbox": {
+        "x": 38,
+        "y": 849,
+        "w": 300,
+        "h": 49
+      }
+    },
+    {
+      "text": "vs",
+      "confidence": 81,
+      "bbox": {
+        "x": 38,
+        "y": 946,
+        "w": 300,
+        "h": 49
+      }
+    },
+    {
+      "text": "JS bootstrap.bundle.js",
+      "confidence": 81,
+      "bbox": {
+        "x": 38,
+        "y": 1043,
+        "w": 300,
+        "h": 49
+      }
+    },
+    {
+      "text": "JS bootstrap.bundle.min.is",
+      "confidence": 81,
+      "bbox": {
+        "x": 38,
+        "y": 1140,
+        "w": 300,
+        "h": 49
+      }
+    },
+    {
+      "text": "JS bootstrap.is",
+      "confidence": 81,
+      "bbox": {
+        "x": 38,
+        "y": 1237,
+        "w": 300,
+        "h": 49
+      }
+    },
+    {
+      "text": "JS bootstrap.min.is",
+      "confidence": 81,
+      "bbox": {
+        "x": 38,
+        "y": 1334,
+        "w": 300,
+        "h": 49
+      }
+    },
+    {
+      "text": "JS jquery-3.5.1.js",
+      "confidence": 81,
+      "bbox": {
+        "x": 38,
+        "y": 1431,
+        "w": 300,
+        "h": 49
+      }
+    },
+    {
+      "text": "JS popper.min.js",
+      "confidence": 81,
+      "bbox": {
+        "x": 38,
+        "y": 1528,
+        "w": 300,
+        "h": 49
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Vv static",
+      "target": "Vv tĩnh",
+      "bbox": {
+        "x": 38,
+        "y": 73,
+        "w": 300,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "Vv css",
+      "target": "Vv css",
+      "bbox": {
+        "x": 38,
+        "y": 170,
+        "w": 300,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "# bootstrap-grid.css",
+      "target": "lưới-bootstrap.css",
+      "bbox": {
+        "x": 38,
+        "y": 267,
+        "w": 300,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "# bootstrap-grid.min.css",
+      "target": "lưới-bootstrap.min.css",
+      "bbox": {
+        "x": 38,
+        "y": 364,
+        "w": 300,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "# bootstrap-reboot.css",
+      "target": "bootstrap-reboot.css",
+      "bbox": {
+        "x": 38,
+        "y": 461,
+        "w": 300,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "# bootstrap-reboot.min.css",
+      "target": "bootstrap-reboot.min.css",
+      "bbox": {
+        "x": 38,
+        "y": 558,
+        "w": 300,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "# bootstrap.css",
+      "target": "bootstrap.css",
+      "bbox": {
+        "x": 38,
+        "y": 655,
+        "w": 300,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "# bootstrap.min.css",
+      "target": "bootstrap.min.css",
+      "bbox": {
+        "x": 38,
+        "y": 752,
+        "w": 300,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "# style.css",
+      "target": "# style.css",
+      "bbox": {
+        "x": 38,
+        "y": 849,
+        "w": 300,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "vs",
+      "target": "so với",
+      "bbox": {
+        "x": 38,
+        "y": 946,
+        "w": 300,
+        "h": 49
+      },
+      "overflow": true
+    },
+    {
+      "source": "JS bootstrap.bundle.js",
+      "target": "JS bootstrap.bundle.js",
+      "bbox": {
+        "x": 38,
+        "y": 1043,
+        "w": 300,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "JS bootstrap.bundle.min.is",
+      "target": "JS bootstrap.bundle.min.is",
+      "bbox": {
+        "x": 38,
+        "y": 1140,
+        "w": 300,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "JS bootstrap.is",
+      "target": "JS bootstrap.is",
+      "bbox": {
+        "x": 38,
+        "y": 1237,
+        "w": 300,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "JS bootstrap.min.is",
+      "target": "JS bootstrap.min.is",
+      "bbox": {
+        "x": 38,
+        "y": 1334,
+        "w": 300,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "JS jquery-3.5.1.js",
+      "target": "JS jquery-3.5.1.js",
+      "bbox": {
+        "x": 38,
+        "y": 1431,
+        "w": 300,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "JS popper.min.js",
+      "target": "JS popper.min.js",
+      "bbox": {
+        "x": 38,
+        "y": 1528,
+        "w": 300,
+        "h": 49
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 1.0332784184514003,
+    "averageConfidence": 81
+  }
+}

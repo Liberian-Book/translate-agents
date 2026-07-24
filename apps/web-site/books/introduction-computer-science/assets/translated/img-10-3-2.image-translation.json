@@ -1,0 +1,183 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-3-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-3-solution-architecture-management.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-10-3-2.vi.png",
+  "ocr": [
+    {
+      "text": "User Interface",
+      "confidence": 94,
+      "bbox": {
+        "x": 75,
+        "y": 93,
+        "w": 603,
+        "h": 62
+      }
+    },
+    {
+      "text": "Chrome Firefox",
+      "confidence": 94,
+      "bbox": {
+        "x": 75,
+        "y": 217,
+        "w": 603,
+        "h": 62
+      }
+    },
+    {
+      "text": "Application Layer",
+      "confidence": 94,
+      "bbox": {
+        "x": 75,
+        "y": 341,
+        "w": 603,
+        "h": 62
+      }
+    },
+    {
+      "text": "Python Bootstrap",
+      "confidence": 94,
+      "bbox": {
+        "x": 75,
+        "y": 465,
+        "w": 603,
+        "h": 62
+      }
+    },
+    {
+      "text": "Application Infrastructure",
+      "confidence": 94,
+      "bbox": {
+        "x": 75,
+        "y": 589,
+        "w": 603,
+        "h": 62
+      }
+    },
+    {
+      "text": "Django MySQL",
+      "confidence": 94,
+      "bbox": {
+        "x": 75,
+        "y": 713,
+        "w": 603,
+        "h": 62
+      }
+    },
+    {
+      "text": "Tech Infrastructure",
+      "confidence": 94,
+      "bbox": {
+        "x": 75,
+        "y": 837,
+        "w": 603,
+        "h": 62
+      }
+    },
+    {
+      "text": "Linux Server",
+      "confidence": 94,
+      "bbox": {
+        "x": 75,
+        "y": 961,
+        "w": 603,
+        "h": 62
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "User Interface",
+      "target": "Giao diện người dùng",
+      "bbox": {
+        "x": 75,
+        "y": 93,
+        "w": 603,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "Chrome Firefox",
+      "target": "Chrome Firefox",
+      "bbox": {
+        "x": 75,
+        "y": 217,
+        "w": 603,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "Application Layer",
+      "target": "Lớp Ứng Dụng",
+      "bbox": {
+        "x": 75,
+        "y": 341,
+        "w": 603,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "Python Bootstrap",
+      "target": "Python Bootstrap",
+      "bbox": {
+        "x": 75,
+        "y": 465,
+        "w": 603,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "Application Infrastructure",
+      "target": "Hạ tầng Ứng dụng",
+      "bbox": {
+        "x": 75,
+        "y": 589,
+        "w": 603,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "Django MySQL",
+      "target": "Django MySQL",
+      "bbox": {
+        "x": 75,
+        "y": 713,
+        "w": 603,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "Tech Infrastructure",
+      "target": "Cơ sở hạ tầng công nghệ",
+      "bbox": {
+        "x": 75,
+        "y": 837,
+        "w": 603,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "Linux Server",
+      "target": "Máy chủ Linux",
+      "bbox": {
+        "x": 75,
+        "y": 961,
+        "w": 603,
+        "h": 62
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.5118302387267905,
+    "averageConfidence": 94
+  }
+}

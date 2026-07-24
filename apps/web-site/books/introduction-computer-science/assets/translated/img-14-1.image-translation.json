@@ -1,0 +1,204 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-14-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/14-introduction.html",
+  "decision": "review",
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "— ~— = SE — \" att.",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 96,
+        "w": 1399,
+        "h": 64
+      }
+    },
+    {
+      "text": "rey, - LT =",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 224,
+        "w": 1399,
+        "h": 64
+      }
+    },
+    {
+      "text": "= — a Ee ¥: A",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 352,
+        "w": 1399,
+        "h": 64
+      }
+    },
+    {
+      "text": "‘ Co — AV Yang > ee :",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 480,
+        "w": 1399,
+        "h": 64
+      }
+    },
+    {
+      "text": "= Ta oem: : = _— Te —",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 608,
+        "w": 1399,
+        "h": 64
+      }
+    },
+    {
+      "text": "-— = WE — : eit 5",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 736,
+        "w": 1399,
+        "h": 64
+      }
+    },
+    {
+      "text": "=n == EEE — — .",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 864,
+        "w": 1399,
+        "h": 64
+      }
+    },
+    {
+      "text": "= Ei 1] | ee Ei iL Na -",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 992,
+        "w": 1399,
+        "h": 64
+      }
+    },
+    {
+      "text": ". gle J oe | - I ; uid ab ao",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 1120,
+        "w": 1399,
+        "h": 64
+      }
+    },
+    {
+      "text": "= SN Lif awa I",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 1248,
+        "w": 1399,
+        "h": 64
+      }
+    },
+    {
+      "text": ": SSE el ] a .",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 1376,
+        "w": 1399,
+        "h": 64
+      }
+    },
+    {
+      "text": "-\\@- wie Bn oJ",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 1504,
+        "w": 1399,
+        "h": 64
+      }
+    },
+    {
+      "text": "~@ - \\ fa LE = Ps",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 1632,
+        "w": 1399,
+        "h": 64
+      }
+    },
+    {
+      "text": "wa \\ 4",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 1760,
+        "w": 1399,
+        "h": 64
+      }
+    },
+    {
+      "text": "® FF",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 1888,
+        "w": 1399,
+        "h": 64
+      }
+    },
+    {
+      "text": "AT a >",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 2016,
+        "w": 1399,
+        "h": 64
+      }
+    },
+    {
+      "text": ". BP dei en",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 2144,
+        "w": 1399,
+        "h": 64
+      }
+    },
+    {
+      "text": "fa WATRERN su / :",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 2272,
+        "w": 1399,
+        "h": 64
+      }
+    },
+    {
+      "text": "mm ¢ WE Na 5",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 2400,
+        "w": 1399,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 1.2173478712312633,
+    "averageConfidence": 32
+  }
+}

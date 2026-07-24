@@ -1,0 +1,9 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-3-1-7.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/3-1-introduction-to-data-structures-and-algorithms.html",
+  "decision": "error",
+  "reason": "translation-api-failed-status-429",
+  "outputImage": null,
+  "ocr": [],
+  "translations": []
+}

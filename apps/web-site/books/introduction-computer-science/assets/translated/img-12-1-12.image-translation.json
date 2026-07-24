@@ -1,0 +1,246 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-1-12.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-1-introduction-to-cloud-native-applications.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-12-1-12.vi.png",
+  "ocr": [
+    {
+      "text": "Container platform Cloud",
+      "confidence": 72,
+      "bbox": {
+        "x": 129,
+        "y": 63,
+        "w": 1030,
+        "h": 42
+      }
+    },
+    {
+      "text": "[7 Bb 3 Run containers",
+      "confidence": 72,
+      "bbox": {
+        "x": 129,
+        "y": 147,
+        "w": 1030,
+        "h": 42
+      }
+    },
+    {
+      "text": "-@ LORE",
+      "confidence": 72,
+      "bbox": {
+        "x": 129,
+        "y": 231,
+        "w": 1030,
+        "h": 42
+      }
+    },
+    {
+      "text": "Create N?.0]",
+      "confidence": 72,
+      "bbox": {
+        "x": 129,
+        "y": 315,
+        "w": 1030,
+        "h": 42
+      }
+    },
+    {
+      "text": "Image images APIl paemon Image Cache i i",
+      "confidence": 72,
+      "bbox": {
+        "x": 129,
+        "y": 399,
+        "w": 1030,
+        "h": 42
+      }
+    },
+    {
+      "text": "Cloud-native Application definition version Virtual machines",
+      "confidence": 72,
+      "bbox": {
+        "x": 129,
+        "y": 483,
+        "w": 1030,
+        "h": 42
+      }
+    },
+    {
+      "text": "application Pull/push",
+      "confidence": 72,
+      "bbox": {
+        "x": 129,
+        "y": 567,
+        "w": 1030,
+        "h": 42
+      }
+    },
+    {
+      "text": "developer",
+      "confidence": 72,
+      "bbox": {
+        "x": 129,
+        "y": 651,
+        "w": 1030,
+        "h": 42
+      }
+    },
+    {
+      "text": "(client)",
+      "confidence": 72,
+      "bbox": {
+        "x": 129,
+        "y": 735,
+        "w": 1030,
+        "h": 42
+      }
+    },
+    {
+      "text": "On-premise servers",
+      "confidence": 72,
+      "bbox": {
+        "x": 129,
+        "y": 819,
+        "w": 1030,
+        "h": 42
+      }
+    },
+    {
+      "text": "Image repository",
+      "confidence": 72,
+      "bbox": {
+        "x": 129,
+        "y": 903,
+        "w": 1030,
+        "h": 42
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Container platform Cloud",
+      "target": "Nền tảng container Đám mây",
+      "bbox": {
+        "x": 129,
+        "y": 63,
+        "w": 1030,
+        "h": 42
+      },
+      "overflow": false
+    },
+    {
+      "source": "[7 Bb 3 Run containers",
+      "target": "Chạy container",
+      "bbox": {
+        "x": 129,
+        "y": 147,
+        "w": 1030,
+        "h": 42
+      },
+      "overflow": false
+    },
+    {
+      "source": "-@ LORE",
+      "target": "-@ LORE",
+      "bbox": {
+        "x": 129,
+        "y": 231,
+        "w": 1030,
+        "h": 42
+      },
+      "overflow": false
+    },
+    {
+      "source": "Create N?.0]",
+      "target": "Tạo N?.0]",
+      "bbox": {
+        "x": 129,
+        "y": 315,
+        "w": 1030,
+        "h": 42
+      },
+      "overflow": false
+    },
+    {
+      "source": "Image images APIl paemon Image Cache i i",
+      "target": "Hình ảnh APIl paemon Bộ nhớ đệm hình ảnh",
+      "bbox": {
+        "x": 129,
+        "y": 399,
+        "w": 1030,
+        "h": 42
+      },
+      "overflow": false
+    },
+    {
+      "source": "Cloud-native Application definition version Virtual machines",
+      "target": "Định nghĩa ứng dụng đám mây gốc phiên bản máy ảo",
+      "bbox": {
+        "x": 129,
+        "y": 483,
+        "w": 1030,
+        "h": 42
+      },
+      "overflow": false
+    },
+    {
+      "source": "application Pull/push",
+      "target": "ứng dụng Kéo/Đẩy",
+      "bbox": {
+        "x": 129,
+        "y": 567,
+        "w": 1030,
+        "h": 42
+      },
+      "overflow": false
+    },
+    {
+      "source": "developer",
+      "target": "nhà phát triển",
+      "bbox": {
+        "x": 129,
+        "y": 651,
+        "w": 1030,
+        "h": 42
+      },
+      "overflow": false
+    },
+    {
+      "source": "(client)",
+      "target": "(khách hàng)",
+      "bbox": {
+        "x": 129,
+        "y": 735,
+        "w": 1030,
+        "h": 42
+      },
+      "overflow": false
+    },
+    {
+      "source": "On-premise servers",
+      "target": "Máy chủ tại chỗ",
+      "bbox": {
+        "x": 129,
+        "y": 819,
+        "w": 1030,
+        "h": 42
+      },
+      "overflow": false
+    },
+    {
+      "source": "Image repository",
+      "target": "Kho hình ảnh",
+      "bbox": {
+        "x": 129,
+        "y": 903,
+        "w": 1030,
+        "h": 42
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.7042735042735043,
+    "averageConfidence": 72
+  }
+}

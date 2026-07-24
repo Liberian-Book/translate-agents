@@ -1,0 +1,282 @@
+<html><head><link rel="stylesheet" href="./style.css">
+<style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style>
+<script src="book-reader/book-pages.js?v=comments-3"></script>
+<link rel="stylesheet" href="book-reader/book-reader.css?v=comments-3">
+<script src="book-reader/book-reader.js?v=comments-3"></script>
+</head><body><h2 data-type="document-title" id="page_204935e9-9c8e-4c9e-b997-d8f1dc342f9b_titlecreatedbycookbook" data-rex-keep="true" class="eng hidden"><span class="os-number">10.1</span>
+<span class="os-divider"> </span>
+<span data-type="" itemprop="" class="os-text">Patterns Management</span>
+</h2><h2 data-type="document-title" id="page_204935e9-9c8e-4c9e-b997-d8f1dc342f9b_titlecreatedbycookbook-vn" data-rex-keep="true" class="vn visible"><span class="os-number">10.1</span>
+<span class="os-divider"> </span>
+<span data-type="" itemprop="" class="os-text">Quản lý Mô hình</span></h2>
+    
+    <section data-depth="1" class="learning-objectives" id="sect-00001"><h3 data-type="title" class="eng hidden">Learning Objectives</h3><h3 data-type="title" class="vn visible">Mục tiêu học tập</h3>
+    <p id="para-00001" class="eng hidden">By the end of this section, you will be able to:</p><p id="para-00001-vn" class="vn visible">Cuối phần này, bạn sẽ có thể:</p>
+    <ul id="list-00001">
+    <li class="eng hidden">Understand how to apply patterns at various levels of scope</li><li class="vn visible">Hiểu cách áp dụng các mẫu ở nhiều cấp độ khác nhau.</li>
+    <li class="eng hidden">Organize patterns in hierarchies and leverage pattern catalogs and pattern languages</li><li class="vn visible">Tổ chức các mẫu trong các hệ thống phân cấp và tận dụng các danh mục mẫu và ngôn ngữ mẫu</li>
+    <li class="eng hidden">Relate to the current state of patterns management</li><li class="vn visible">Liên quan đến trạng thái hiện tại của quản lý mẫu</li>
+    </ul>
+    </section>
+    
+    <p id="para-00002" class="eng hidden">A pattern documents a recurring problem and provides a reusable template in the form of a problem-solution pair within a given context. A pattern is not only a pairing of problem and solution, it provides the rationale that binds the problem and the solution together. Each pattern deals with a specific recurring problem in the design or implementation of a business solution. Patterns can be used to construct architectures at various levels of scope to guarantee specific properties. Patterns also capture existing, well-proven experience in solution development and help promote good design practice.</p><p id="para-00002-vn" class="vn visible">Một mẫu tài liệu một vấn đề lặp đi lặp lại và cung cấp một khuôn mẫu có thể tái sử dụng dưới dạng một cặp vấn đề-giải pháp trong một ngữ cảnh nhất định. Một mẫu không chỉ là sự kết hợp giữa vấn đề và giải pháp, mà còn cung cấp lý do liên kết vấn đề và giải pháp với nhau. Mỗi mẫu xử lý một vấn đề lặp đi lặp lại cụ thể trong thiết kế hoặc triển khai một giải pháp kinh doanh. Các mẫu có thể được sử dụng để xây dựng kiến trúc ở nhiều cấp độ khác nhau để đảm bảo các thuộc tính cụ thể. Các mẫu cũng ghi lại kinh nghiệm hiện có, đã được chứng minh trong phát triển giải pháp và giúp thúc đẩy thực hành thiết kế tốt.</p>
+    
+    <section data-depth="1" id="sect-00002"><h3 data-type="title" class="eng hidden">Pattern Hierarchy</h3><h3 data-type="title" class="vn visible">Cấu trúc Mẫu</h3>
+    <p id="para-00003" class="eng hidden">Patterns range from abstract to concrete. Abstract patterns represent concepts without physical references (i.e., are not available to the senses). Concrete refers to objects that are available to the senses. For example, freedom is abstract, but the book (on freedom) is concrete.</p><p id="para-00003-vn" class="vn visible">Các mẫu có thể dao động từ trừu tượng đến cụ thể. Các mẫu trừu tượng đại diện cho các khái niệm mà không có tham chiếu vật lý (tức là, không có sẵn cho các giác quan). Cụ thể đề cập đến các đối tượng có sẵn cho các giác quan. Ví dụ, tự do là trừu tượng, nhưng cuốn sách (về tự do) là cụ thể.</p>
+    <p id="para-00004" class="eng hidden">Design-centric patterns are organized in a <span data-type="term" id="term-00002" group-by="p">pattern hierarchy</span> that includes architectural styles, architectural patterns, and design patterns. An abstract pattern located at the top of the pattern hierarchy is called an <span data-type="term" id="term-00003" group-by="a">architectural style</span>; it captures a set of characteristics and features that make a structure identifiable. Styles are designed to capture knowledge of effective design for achieving specified goals within a particular context. An architectural pattern conforms to specific architectural styles and embodies architecture design decisions that are applicable to recurring design problems. They provide parameterized templates that can be adapted to provide solutions that are suitable to different development context. Design patterns conform to specific architectural patterns and provide granular design <span data-type="term" class="no-emphasis" id="term-00005" group-by="c">component</span>s to articulate them.</p><p id="para-00004-vn" class="vn visible">Các mẫu tập trung vào thiết kế được tổ chức trong một <span data-type="term" id="term-00002" group-by="p">hệ thống phân cấp mẫu</span> bao gồm các phong cách kiến trúc, các mẫu kiến trúc và các mẫu thiết kế. Một mẫu trừu tượng nằm ở đỉnh của hệ thống phân cấp mẫu được gọi là <span data-type="term" id="term-00003" group-by="a">phong cách kiến trúc</span>; nó nắm bắt một tập hợp các đặc điểm và tính năng làm cho một cấu trúc có thể nhận diện được. Các phong cách được thiết kế để nắm bắt kiến thức về thiết kế hiệu quả nhằm đạt được các mục tiêu cụ thể trong một bối cảnh nhất định. Một mẫu kiến trúc tuân theo các phong cách kiến trúc cụ thể và thể hiện các quyết định thiết kế kiến trúc có thể áp dụng cho các vấn đề thiết kế lặp lại. Chúng cung cấp các mẫu tham số hóa có thể được điều chỉnh để cung cấp các giải pháp phù hợp với các bối cảnh phát triển khác nhau. Các mẫu thiết kế tuân theo các mẫu kiến trúc cụ thể và cung cấp các <span data-type="term" class="no-emphasis" id="term-00005" group-by="c">thành phần</span> thiết kế chi tiết để diễn đạt chúng.</p>
+    <p id="para-00005" class="has-noteref eng hidden">Once a technology stack that picks specific technologies that should be used to implement the solution has been selected, design-centric patterns can be implemented. Each technology stack has a corresponding implementation-centric pattern hierarchy<sup id="footnote-ref1" data-type="footnote-number"><a href="10-1-patterns-management#foot-00001" role="doc-noteref" epub:type="noteref" aria-label="Go to 2" data-type="footnote-link">2</a></sup> that includes implementation styles, implementation patterns, and idioms. An <span data-type="term" id="term-00006" group-by="i">idiom</span> is a phrase or expression whose meaning cannot be inferred from the literal definitions of its individual words, but instead is understood through common usage within a language.</p><p id="para-00005-vn" class="has-noteref vn visible">Khi một công nghệ được chọn để xây dựng giải pháp, các mẫu thiết kế có thể được triển khai. Mỗi công nghệ có một hệ thống mẫu triển khai tương ứng<sup id="footnote-ref1" data-type="footnote-number"><a href="10-1-patterns-management#foot-00001" role="doc-noteref" epub:type="noteref" aria-label="Go to 2" data-type="footnote-link">2</a></sup> bao gồm các phong cách triển khai, các mẫu triển khai và idiom. Một <span data-type="term" id="term-00006" group-by="i">idiom</span> là một cụm từ hoặc biểu thức mà ý nghĩa của nó không thể suy ra từ các định nghĩa theo nghĩa đen của từng từ, mà được hiểu thông qua cách sử dụng phổ biến trong một ngôn ngữ.</p>
+    <p id="para-00006" class="eng hidden">Solution architects create several complex processes to successfully implement a business solution. These steps are:</p><p id="para-00006-vn" class="vn visible">Các kiến trúc sư giải pháp tạo ra nhiều quy trình phức tạp để triển khai thành công một giải pháp kinh doanh. Các bước này là:</p>
+    <ol id="list-00002">
+    <li class="eng hidden">Study the elements of technology that can be applied to solve a specific problem.</li><li class="vn visible">Nghiên cứu các yếu tố của công nghệ có thể được áp dụng để giải quyết một vấn đề cụ thể.</li>
+    <li class="eng hidden">Propose a combination of building blocks for the best possible fix to the problem.</li><li class="vn visible">Đề xuất một sự kết hợp của các khối xây dựng để có giải pháp tốt nhất cho vấn đề.</li>
+    <li class="eng hidden">Design a solution and manage the implementation.</li><li class="vn visible">Thiết kế một giải pháp và quản lý việc thực hiện.</li>
+    </ol>
+    <p id="para-00007" class="eng hidden">After the solution architect finalizes the design and implementation of the solution, the enterprise architects verify that the information technology strategy is aligned with the enterprise mission by analyzing the business properties. Enterprise and solution architects use pattern hierarchies to create best practices for business and technical architectures that guide the implementation of solutions to business problems. Generalization and information hiding are used to keep more abstract patterns at the top of the hierarchy. The technology that allows the management of architecture results from decades of research in patterns management and frameworks used to plan and deliver solutions that meet business and technology strategies.</p><p id="para-00007-vn" class="vn visible">Sau khi kiến trúc sư giải pháp hoàn thiện thiết kế và triển khai giải pháp, các kiến trúc sư doanh nghiệp xác minh rằng chiến lược công nghệ thông tin phù hợp với sứ mệnh của doanh nghiệp bằng cách phân tích các thuộc tính kinh doanh. Các kiến trúc sư doanh nghiệp và giải pháp sử dụng các hệ thống mẫu để tạo ra các phương pháp tốt nhất cho kiến trúc kinh doanh và kỹ thuật, hướng dẫn việc triển khai các giải pháp cho các vấn đề kinh doanh. Sự tổng quát và ẩn thông tin được sử dụng để giữ các mẫu trừu tượng hơn ở vị trí cao nhất trong hệ thống phân cấp. Công nghệ cho phép quản lý kiến trúc là kết quả của nhiều thập kỷ nghiên cứu trong quản lý mẫu và các khung được sử dụng để lập kế hoạch và cung cấp các giải pháp đáp ứng chiến lược kinh doanh và công nghệ.</p>
+    <div data-type="note" class="tech-everyday ui-has-child-title" id="note-00001"><header><h3 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label">Technology in Everyday Life</span>
+</h3><h3 class="os-title vn visible" data-type="title">
+  <span class="os-title-label">Công nghệ trong Cuộc sống Hàng ngày</span>
+</h3></header><section>
+<div class="os-note-body"><h4 data-type="title" class="os-subtitle eng hidden">
+  <span class="os-subtitle-label">Patterns in Everyday Life</span>
+</h4><h4 data-type="title" class="os-subtitle vn visible"><span class="os-subtitle-label">Mô Hình Trong Cuộc Sống Hàng Ngày</span></h4>
+    <p id="para-00008" class="eng hidden">Patterns help us to organize our life activities. For example, using patterns, we can establish our daily activities using process patterns such as “start my day” and decompose this pattern into more specific process patterns such as waking up, eating breakfast, and getting ready for work. It is never the case that specific actions that correspond to these activity patterns occur the same way every day.</p><p id="para-00008-vn" class="vn visible">Các mẫu giúp chúng ta tổ chức các hoạt động trong cuộc sống. Ví dụ, bằng cách sử dụng các mẫu, chúng ta có thể thiết lập các hoạt động hàng ngày của mình bằng cách sử dụng các mẫu quy trình như “bắt đầu ngày mới” và phân tích mẫu này thành các mẫu quy trình cụ thể hơn như thức dậy, ăn sáng và chuẩn bị đi làm. Không bao giờ có trường hợp các hành động cụ thể tương ứng với các mẫu hoạt động này xảy ra theo cùng một cách mỗi ngày.</p>
+    <p id="para-00009" class="eng hidden">How does the knowledge of patterns help people in everyday life? Provide a couple of illustrative scenarios to explain your opinion. Your scenarios should not be limited to integrating software patterns but rather describe scenarios where people can refer to patterns to analyze real-life situations.</p><p id="para-00009-vn" class="vn visible">Kiến thức về các mẫu giúp mọi người trong cuộc sống hàng ngày như thế nào? Hãy cung cấp một vài tình huống minh họa để giải thích ý kiến của bạn. Các tình huống của bạn không nên chỉ giới hạn ở việc tích hợp các mẫu phần mềm mà nên mô tả các tình huống mà mọi người có thể tham khảo các mẫu để phân tích các tình huống trong cuộc sống thực.</p>
+    </div></section></div>
+    <section data-depth="2" id="sect-00003"><h4 data-type="title" class="eng hidden">Analysis and Design Model Patterns</h4><h4 data-type="title" class="vn visible">Mô hình Phân tích và Thiết kế</h4>
+    <p id="para-00010" class="eng hidden">A blueprint is a high-level plan used in the development stage, and an <span data-type="term" id="term-00008" group-by="e">enterprise architecture (EA)</span> is a conceptual blueprint that defines the structure and operation of organizations. Design modeling provides a variety of different views of the system like architecture plans for the enterprise. Examples of a design-centric architectural style are <span data-type="term" class="no-emphasis" id="term-00009" group-by="m">microservice</span>s. An example of a corresponding implementation-centric implementation style is REST Services. When the problem appears, an architectural pattern embodies architectural design decisions that are applicable to a recurring design problem parameterized to account for different solution development contexts.</p><p id="para-00010-vn" class="vn visible">Một bản thiết kế là một kế hoạch cấp cao được sử dụng trong giai đoạn phát triển, và một <span data-type="term" id="term-00008" group-by="e">enterprise architecture (EA)</span> là một bản thiết kế khái niệm xác định cấu trúc và hoạt động của các tổ chức. Mô hình thiết kế cung cấp nhiều góc nhìn khác nhau về hệ thống như các kế hoạch kiến trúc cho doanh nghiệp. Ví dụ về một phong cách kiến trúc tập trung vào thiết kế là các <span data-type="term" class="no-emphasis" id="term-00009" group-by="m">microservice</span>. Một ví dụ về phong cách triển khai tập trung vào việc triển khai tương ứng là Dịch vụ REST. Khi vấn đề xuất hiện, một mẫu kiến trúc thể hiện các quyết định thiết kế kiến trúc có thể áp dụng cho một tham số vấn đề thiết kế lặp lại được điều chỉnh để tính đến các ngữ cảnh phát triển giải pháp khác nhau.</p>
+    <p id="para-00011" class="eng hidden">A design pattern relates to common design structures and practices that enable the creation of reusable software. An example of a design pattern is a <em data-effect="italics">singleton</em>. A <span data-type="term" id="term-00010" group-by="s">singleton</span> restricts the instantiation of a class and ensures that only one instance of the class exists (e.g., a scoreboard object in a game should be derived from a singleton class to ensure that there is only one scoreboard object and one set of scores for the players at any given time). The enterprise architecture scope includes:</p><p id="para-00011-vn" class="vn visible">Một mẫu thiết kế liên quan đến các cấu trúc và thực tiễn thiết kế chung cho phép tạo ra phần mềm có thể tái sử dụng. Một ví dụ về một mẫu thiết kế là một <em data-effect="italics">singleton</em>. Một <span data-type="term" id="term-00010" group-by="s">singleton</span> giới hạn việc khởi tạo một lớp và đảm bảo rằng chỉ có một thể hiện của lớp đó tồn tại (ví dụ, một đối tượng bảng điểm trong một trò chơi nên được phát triển từ một lớp singleton để đảm bảo rằng chỉ có một đối tượng bảng điểm và một tập hợp điểm số cho các người chơi tại bất kỳ thời điểm nào). Phạm vi kiến trúc doanh nghiệp bao gồm:</p>
+    <ul id="list-00003">
+    <li class="eng hidden">Enterprise scope: higher-level patterns that can be applied to the overall structure of the enterprise</li><li class="vn visible">Phạm vi doanh nghiệp: các mô hình cấp cao hơn có thể được áp dụng cho cấu trúc tổng thể của doanh nghiệp</li>
+    <li class="eng hidden">Solution scope: the pattern that can be applied to a single solution or system</li><li class="vn visible">Phạm vi giải pháp: mẫu có thể được áp dụng cho một giải pháp hoặc hệ thống đơn lẻ</li>
+    <li class="eng hidden">Domain scope: the pattern that can be applied to a specific domain</li><li class="vn visible">Phạm vi miền: mẫu có thể được áp dụng cho một miền cụ thể</li>
+    </ul>
+    <p id="para-00012" class="eng hidden">A pattern hierarchy applies at all levels of scope, but variants of the higher-level patterns add additional embedded patterns that may be documented as a given enterprise architecture (EA) model, which gets described more specifically at the portfolio or system levels. This is similar to the map of the city being part of the map of a region within the map of the world, as shown in <a href="10-1-patterns-management#fig-00001" class="autogenerated-content" aria-label="View Figure 10.2">Figure 10.2</a>.</p><p id="para-00012-vn" class="vn visible">Một hệ thống phân cấp mẫu áp dụng ở tất cả các cấp độ phạm vi, nhưng các biến thể của các mẫu cấp cao hơn thêm các mẫu nhúng bổ sung có thể được tài liệu hóa như một mô hình kiến trúc doanh nghiệp (EA) nhất định, được mô tả cụ thể hơn ở cấp danh mục hoặc hệ thống. Điều này tương tự như bản đồ của thành phố là một phần của bản đồ của một khu vực trong bản đồ của thế giới, như được thể hiện trong <a href="10-1-patterns-management#fig-00001" class="autogenerated-content" aria-label="View Figure 10.2">Hình 10.2</a>.</p>
+    <div class="os-figure" id="fig-00001"><figure data-id="fig-00001" class="ui-has-child-figcaption">
+    <span data-type="media" data-alt="Graphic of top-down systems: Blueprints (Scope: Enterprise, Portfolio, Project/System, Subsystem), Lots to Little (Degree of generalization/information), Map Analogy (Scope: United States, State of Michigan, Wayne County, Detroit).">
+    <button type="button" aria-label="Click to enlarge image of Graphic of top-down systems: Blueprints (Scope: Enterprise, Portfolio, Project/System, Subsystem), Lots to Little (Degree of generalization/information), Map Analogy (Scope: United States, State of Michigan, Wayne County, Detroit)." class="image-button-wrapper"><img src="assets/img-10-1-1.webp" data-media-type="image/jpeg" alt="Graphic of top-down systems: Blueprints (Scope: Enterprise, Portfolio, Project/System, Subsystem), Lots to Little (Degree of generalization/information), Map Analogy (Scope: United States, State of Michigan, Wayne County, Detroit)." width="1302" height="547" loading="lazy"></button>
+    </span>
+    
+    <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">10.2</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">A blueprint shows top-down enterprise levels: enterprise, portfolio, system, and subsystem. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible">
+  <span class="os-title-label">Hình ảnh </span>
+<span class="os-number">10.2</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">Một bản thiết kế cho thấy các cấp độ doanh nghiệp từ trên xuống: doanh nghiệp, danh mục, hệ thống và tiểu hệ thống.</span>
+</figcaption></figure></div>
+    </section>
+    <section data-depth="2" id="sect-00004"><h4 data-type="title" class="eng hidden">Implementation Patterns</h4><h4 data-type="title" class="vn visible">Mô hình Triển khai</h4>
+    <p id="para-00013" class="eng hidden">In object-oriented programming languages such as Java, a singleton class can have only one object at a time. The purpose of a singleton class is to restrict the number of object creations to only one, which ensures access control to resources. A Java singleton class (<a href="10-1-patterns-management#fig-00002" class="autogenerated-content" aria-label="View Figure 10.3">Figure 10.3</a>) is a corresponding implementation-centric example of an idiom that implements a singleton design pattern and allows one instance of a Java class to exist, as in <a href="10-1-patterns-management#fig-00003" class="autogenerated-content" aria-label="View Figure 10.4">Figure 10.4</a>.</p><p id="para-00013-vn" class="vn visible">Trong các ngôn ngữ lập trình hướng đối tượng như Java, một lớp singleton chỉ có thể có một đối tượng tại một thời điểm. Mục đích của một lớp singleton là để hạn chế số lượng tạo đối tượng chỉ còn một, điều này đảm bảo kiểm soát truy cập đến các tài nguyên. Một lớp singleton trong Java (<a href="10-1-patterns-management#fig-00002" class="autogenerated-content" aria-label="View Figure 10.3">Hình 10.3</a>) là một ví dụ tương ứng tập trung vào việc triển khai của một cách diễn đạt thực hiện mẫu thiết kế singleton và cho phép một thể hiện của một lớp Java tồn tại, như trong <a href="10-1-patterns-management#fig-00003" class="autogenerated-content" aria-label="View Figure 10.4">Hình 10.4</a>.</p>
+    <div class="os-figure" id="fig-00002"><figure data-id="fig-00002" class="ui-has-child-figcaption">
+    <span data-type="media" data-alt="Illustration of a SingletonPatternDemo.">
+    <button type="button" aria-label="Click to enlarge image of Illustration of a SingletonPatternDemo." class="image-button-wrapper"><img src="assets/translated/img-10-1-2.vi.png" data-media-type="image/jpeg" alt="Illustration of a SingletonPatternDemo." width="900" height="327" loading="lazy"></button>
+    </span>
+    
+    <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">10.3</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">The SingletonPatternDemo class accesses the Java singleton class SingleObject using the getInstance() method to return the object. showMessage will print the message. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>  
+<span class="os-number">10.3</span>  
+
+<span class="os-divider"> </span>  
+<span class="os-caption">Lớp SingletonPatternDemo truy cập lớp singleton Java SingleObject bằng cách sử dụng phương thức getInstance() để trả về đối tượng. showMessage sẽ in thông điệp. (tác quyền: Bản quyền Đại học Rice, OpenStax, theo giấy phép CC BY NC-SA 4.0)</span></figcaption></figure></div>
+    <div class="os-figure" id="fig-00003"><figure data-id="fig-00003" class="ui-has-child-figcaption">
+    <span data-type="media" data-alt="Screenshot of a Java singleton class.">
+    <button type="button" aria-label="Click to enlarge image of Screenshot of a Java singleton class." class="image-button-wrapper"><img src="assets/translated/img-10-1-3.vi.png" data-media-type="image/jpeg" alt="Screenshot of a Java singleton class." width="918" height="470" loading="lazy"></button>
+    </span>
+    
+    <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">10.4</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">A Java singleton class is a corresponding implementation-centric example of an idiom that implements a singleton design pattern and allows one instance of a Java class to exist. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">10.4</span>
+
+<span class="os-divider"> </span>
+<span class="os-caption">Một lớp singleton trong Java là một ví dụ tập trung vào việc triển khai tương ứng của một cách diễn đạt thực hiện mẫu thiết kế singleton và cho phép chỉ một thể hiện của một lớp Java tồn tại. (tác quyền: Bản quyền Đại học Rice, OpenStax, theo giấy phép CC BY NC-SA 4.0)</span></figcaption></figure></div>
+    <div data-type="note" class="global-tech ui-has-child-title" id="note-00002"><header><h3 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label">Global Issues in Technology</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Các Vấn Đề Toàn Cầu Trong Công Nghệ</span></h3></header><section>
+<div class="os-note-body"><h4 data-type="title" class="os-subtitle eng hidden">
+  <span class="os-subtitle-label">Patterns of Solutions</span>
+</h4><h4 data-type="title" class="os-subtitle vn visible"><span class="os-subtitle-label">Mô hình Giải pháp</span></h4>
+    <p id="para-00014" class="eng hidden">Problems and the need for solutions vary depending on the region of the world where people are located. For example, economically developing regions like Africa or parts of the Middle East do not have fiber-optic networks as sophisticated as the ones deployed in Europe, where extensive investments in infrastructure have been made. This disparity impacts not only access to the Internet but also the potential for growth in education, technology, and health-care systems. As a result, solutions to these problems are tailored to address the unique needs in these regions. Addressing these needs might involve developing alternative solutions like satellite Internet or mobile broadband networks, which can provide connectivity. However, these solutions need to be cost-effective and scalable to ensure they meet the population’s needs.</p><p id="para-00014-vn" class="vn visible">Vấn đề và nhu cầu về giải pháp khác nhau tùy thuộc vào khu vực trên thế giới nơi mọi người sinh sống. Ví dụ, các khu vực đang phát triển về kinh tế như châu Phi hoặc một số phần của Trung Đông không có mạng lưới cáp quang tinh vi như những mạng lưới được triển khai ở châu Âu, nơi đã có những khoản đầu tư lớn vào cơ sở hạ tầng. Sự chênh lệch này không chỉ ảnh hưởng đến việc tiếp cận Internet mà còn đến tiềm năng phát triển trong giáo dục, công nghệ và hệ thống chăm sóc sức khỏe. Do đó, các giải pháp cho những vấn đề này được điều chỉnh để đáp ứng những nhu cầu đặc thù ở những khu vực này. Việc giải quyết những nhu cầu này có thể liên quan đến việc phát triển các giải pháp thay thế như Internet vệ tinh hoặc mạng băng thông di động, có thể cung cấp kết nối. Tuy nhiên, những giải pháp này cần phải hiệu quả về chi phí và có thể mở rộng để đảm bảo đáp ứng nhu cầu của dân số.</p>
+    </div></section></div>
+    </section>
+    </section>
+    
+    <section data-depth="1" id="sect-00005"><h3 data-type="title" class="eng hidden">Pattern Catalogs</h3><h3 data-type="title" class="vn visible">Danh mục mẫu</h3>
+    <p id="para-00015" class="eng hidden">From a top-down standpoint (e.g., enterprise, portfolio, or project), architecture may appear in different levels of focus. The architecture areas span the whole enterprise and include various domains of architecture, such as business, information, application, and technology domains. The enterprise domains in the three standpoints are illustrated in <a href="10-1-patterns-management#fig-00004" class="autogenerated-content" aria-label="View Figure 10.5">Figure 10.5</a>.</p><p id="para-00015-vn" class="vn visible">Từ quan điểm từ trên xuống (ví dụ: doanh nghiệp, danh mục, hoặc dự án), kiến trúc có thể xuất hiện ở các mức độ tập trung khác nhau. Các lĩnh vực kiến trúc trải rộng toàn bộ doanh nghiệp và bao gồm nhiều lĩnh vực kiến trúc khác nhau, chẳng hạn như lĩnh vực kinh doanh, thông tin, ứng dụng và công nghệ. Các lĩnh vực doanh nghiệp trong ba quan điểm được minh họa trong <a href="10-1-patterns-management#fig-00004" class="autogenerated-content" aria-label="View Figure 10.5">Hình 10.5</a>.</p>
+    <div class="os-figure" id="fig-00004"><figure data-id="fig-00004" class="ui-has-child-figcaption">
+    <span data-type="media" data-alt="Chart displaying Domains (Business, Data, Application, Technical) and Scope (Enterprise, Portfolio, Project). Abstraction level for Enterprise/Technical is: Presentation, Conceptual, Logical, Physical.">
+    <button type="button" aria-label="Click to enlarge image of Chart displaying Domains (Business, Data, Application, Technical) and Scope (Enterprise, Portfolio, Project). Abstraction level for Enterprise/Technical is: Presentation, Conceptual, Logical, Physical." class="image-button-wrapper"><img src="assets/img-10-1-4.webp" data-media-type="image/jpeg" alt="Chart displaying Domains (Business, Data, Application, Technical) and Scope (Enterprise, Portfolio, Project). Abstraction level for Enterprise/Technical is: Presentation, Conceptual, Logical, Physical." width="1305" height="244" loading="lazy"></button>
+    </span>
+    
+    <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">10.5</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">The architecture areas span across the whole enterprise and include various domains of architecture, such as business, information, application, and technology domains. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>  
+<span class="os-number">10.5</span>  
+
+<span class="os-divider"> </span>  
+<span class="os-caption">Các lĩnh vực kiến trúc trải rộng khắp toàn bộ doanh nghiệp và bao gồm nhiều lĩnh vực kiến trúc khác nhau, chẳng hạn như lĩnh vực kinh doanh, thông tin, ứng dụng và công nghệ. (tác quyền: Bản quyền Đại học Rice, OpenStax, theo giấy phép CC BY NC-SA 4.0)</span></figcaption></figure></div>
+    <p id="para-00016" class="eng hidden">Patterns may be described using a pattern taxonomy and stored in a pattern repository or catalog. A <span data-type="term" id="term-00011" group-by="p">pattern catalog</span> is a collection of patterns that are organized according to specific characteristics and according to how the relationships between them are defined. <a href="10-1-patterns-management#fig-00005" class="autogenerated-content" aria-label="View Figure 10.6">Figure 10.6</a> illustrates the general structure of a pattern catalog. A pattern catalog allows the bookkeeping of clusters of patterns at various levels of specialization (i.e., analysis and design model patterns versus implementation patterns).</p><p id="para-00016-vn" class="vn visible">Các mẫu có thể được mô tả bằng cách sử dụng một phân loại mẫu và được lưu trữ trong một kho lưu trữ hoặc danh mục mẫu. Một <span data-type="term" id="term-00011" group-by="p">pattern catalog</span> là một tập hợp các mẫu được tổ chức theo các đặc điểm cụ thể và theo cách mà các mối quan hệ giữa chúng được xác định. <a href="10-1-patterns-management#fig-00005" class="autogenerated-content" aria-label="View Figure 10.6">Hình 10.6</a> minh họa cấu trúc tổng quát của một danh mục mẫu. Một danh mục mẫu cho phép quản lý các cụm mẫu ở nhiều cấp độ chuyên môn khác nhau (tức là, các mẫu mô hình phân tích và thiết kế so với các mẫu triển khai).</p>
+    <div class="os-figure" id="fig-00005"><figure data-id="fig-00005" class="ui-has-child-figcaption">
+    <span data-type="media" data-alt="Illustration of a pattern catalog including Solution development (Implementation, Analysis &amp; Design) and Enterprise (Business, Information, Application, Technology).">
+    <button type="button" aria-label="Click to enlarge image of Illustration of a pattern catalog including Solution development (Implementation, Analysis &amp; Design) and Enterprise (Business, Information, Application, Technology)." class="image-button-wrapper"><img src="assets/translated/img-10-1-5.vi.png" data-media-type="image/jpeg" alt="Illustration of a pattern catalog including Solution development (Implementation, Analysis &amp; Design) and Enterprise (Business, Information, Application, Technology)." width="1040" height="720" loading="lazy"></button>
+    </span>
+    
+    <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">10.6</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">The general structure of a pattern catalog allows the bookkeeping of clusters. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible">
+  <span class="os-title-label">Hình ảnh </span>
+<span class="os-number">10.6</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">Cấu trúc chung của một danh mục mẫu cho phép việc ghi chép các cụm. (bản quyền: Đại học Rice, OpenStax, theo giấy phép CC BY NC-SA 4.0)</span>
+</figcaption></figure></div>
+    <p id="para-00017" class="eng hidden">One example of a business architecture pattern that includes a generalization of business service composition and a pattern used to describe the sequencing of business services is <span data-type="term" id="term-00012" group-by="b">business service orchestration</span>. If the data does not include data presentation, then business service orchestration provides additional logic to process this kind of data. Another example of a business architecture pattern that focuses on the observed sequence of messages exchanged by peer services when performing a unit of work is called <span data-type="term" id="term-00013" group-by="b">business service choreography</span>. <a href="10-1-patterns-management#fig-00006" class="autogenerated-content" aria-label="View Figure 10.7">Figure 10.7</a> illustrates how various business architecture design patterns (e.g., exchange, shipment, order, and payment) may be combined via inheritance and composition to create a “buyer-seller” design pattern.</p><p id="para-00017-vn" class="vn visible">Một ví dụ về một mẫu kiến trúc doanh nghiệp bao gồm sự tổng quát của việc kết hợp dịch vụ doanh nghiệp và một mẫu được sử dụng để mô tả thứ tự của các dịch vụ doanh nghiệp là <span data-type="term" id="term-00012" group-by="b">business service orchestration</span>. Nếu dữ liệu không bao gồm trình bày dữ liệu, thì việc điều phối dịch vụ doanh nghiệp cung cấp thêm logic để xử lý loại dữ liệu này. Một ví dụ khác về một mẫu kiến trúc doanh nghiệp tập trung vào thứ tự quan sát của các thông điệp được trao đổi bởi các dịch vụ ngang hàng khi thực hiện một đơn vị công việc được gọi là <span data-type="term" id="term-00013" group-by="b">business service choreography</span>. <a href="10-1-patterns-management#fig-00006" class="autogenerated-content" aria-label="View Figure 10.7">Figure 10.7</a> minh họa cách mà các mẫu thiết kế kiến trúc doanh nghiệp khác nhau (ví dụ: trao đổi, vận chuyển, đơn hàng và thanh toán) có thể được kết hợp thông qua kế thừa và kết hợp để tạo ra một mẫu thiết kế “người mua-người bán”.</p>
+    <div class="os-figure" id="fig-00006"><figure data-id="fig-00006" class="ui-has-child-figcaption">
+    <span data-type="media" data-alt="Illustration of a business architecture design using Inheritance and Composition to connect exchange, shipment, payment, order, BuyerSeller and the components within.">
+    <button type="button" aria-label="Click to enlarge image of Illustration of a business architecture design using Inheritance and Composition to connect exchange, shipment, payment, order, BuyerSeller and the components within." class="image-button-wrapper"><img src="assets/img-10-1-6.webp" data-media-type="image/jpeg" alt="Illustration of a business architecture design using Inheritance and Composition to connect exchange, shipment, payment, order, BuyerSeller and the components within." width="1304" height="1046" loading="lazy"></button>
+    </span>
+    
+    <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">10.7</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">Various business architecture design patterns, such as exchange, shipment, order, and payment, are combined via inheritance and composition to create a buyer-seller design pattern. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>  
+<span class="os-number">10.7</span>  
+
+<span class="os-divider"> </span>  
+<span class="os-caption">Nhiều mẫu thiết kế kiến trúc doanh nghiệp khác nhau, chẳng hạn như trao đổi, vận chuyển, đơn hàng và thanh toán, được kết hợp thông qua kế thừa và thành phần để tạo ra một mẫu thiết kế người mua-người bán. (tín dụng: Bản quyền Đại học Rice, OpenStax, theo giấy phép CC BY NC-SA 4.0)</span></figcaption></figure></div>
+    <div data-type="note" class="link-to-learning ui-has-child-title" id="note-00003"><header><h3 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label">Link to Learning</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Liên kết đến Học tập</span></h3></header><section>
+<div class="os-note-body">
+    <p id="para-00018" class="eng hidden">Read this article <a href="https://openstax.org/r/76OrchChoreo" target="_blank" rel="noopener nofollow" aria-label="Go to comparing orchestration and choreography">comparing orchestration and choreography</a> to learn more about the advantages and disadvantages of both of them.</p><p id="para-00018-vn" class="vn visible">Đọc bài viết này <a href="https://openstax.org/r/76OrchChoreo" target="_blank" rel="noopener nofollow" aria-label="Go to comparing orchestration and choreography">so sánh sự điều phối và sự khiêu vũ</a> để tìm hiểu thêm về những lợi ích và bất lợi của cả hai.</p>
+    </div></section></div>
+    <p id="para-00019" class="eng hidden">Implementation patterns are typically specific to technology stacks that are selected as part of the specialization of a solution design (i.e., a transition from analysis and design model to implementation architecture). <a href="10-1-patterns-management#fig-00007" class="autogenerated-content" aria-label="View Figure 10.8">Figure 10.8</a> illustrates how a pattern catalog is used to select the patterns and eventually create and deploy software engineering products at different project levels.</p><p id="para-00019-vn" class="vn visible">Các mẫu triển khai thường cụ thể cho các công nghệ được chọn như một phần của sự chuyên môn hóa trong thiết kế giải pháp (tức là, một sự chuyển đổi từ mô hình phân tích và thiết kế sang kiến trúc triển khai). <a href="10-1-patterns-management#fig-00007" class="autogenerated-content" aria-label="View Figure 10.8">Hình 10.8</a> minh họa cách mà một danh mục mẫu được sử dụng để chọn các mẫu và cuối cùng tạo ra và triển khai các sản phẩm kỹ thuật phần mềm ở các cấp độ dự án khác nhau.</p>
+    <div class="os-figure" id="fig-00007"><figure data-id="fig-00007" class="ui-has-child-figcaption">
+    <span data-type="media" data-alt="Table with Architecture and Solution Engineering Views rows (Analysis/Design, Implementation, Product, Deployment) and Enterprise Perspectives columns (Business, Information, Application, Technology).">
+    <button type="button" aria-label="Click to enlarge image of Table with Architecture and Solution Engineering Views rows (Analysis/Design, Implementation, Product, Deployment) and Enterprise Perspectives columns (Business, Information, Application, Technology)." class="image-button-wrapper"><img src="assets/translated/img-10-1-7.vi.png" data-media-type="image/jpeg" alt="Table with Architecture and Solution Engineering Views rows (Analysis/Design, Implementation, Product, Deployment) and Enterprise Perspectives columns (Business, Information, Application, Technology)." width="1124" height="436" loading="lazy"></button>
+    </span>
+    
+    <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">10.8</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">A pattern catalog can be used to select the pattern based on the architecture and solution view for the enterprise perspectives. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>  
+<span class="os-number">10.8</span>  
+
+<span class="os-divider"> </span>  
+<span class="os-caption">Một danh mục mẫu có thể được sử dụng để chọn mẫu dựa trên kiến trúc và góc nhìn giải pháp cho các quan điểm doanh nghiệp. (tác quyền: Bản quyền Đại học Rice, OpenStax, theo giấy phép CC BY NC-SA 4.0)</span></figcaption></figure></div>
+    </section>
+    
+    <section data-depth="1" id="sect-00006"><h3 data-type="title" class="eng hidden">Pattern Languages</h3><h3 data-type="title" class="vn visible">Ngôn ngữ Mẫu</h3>
+    <p id="para-00020" class="eng hidden">As we learned in <a href="9-introduction" class="autogenerated-content" aria-label="Go to Chapter 9 Software Engineering" data-page-slug="9-introduction" data-page-uuid="85931f44-a298-43bf-b990-34335a4a3890" data-page-fragment="">Chapter 9 Software Engineering</a>, a <span data-type="term" id="term-00014" group-by="p">pattern language</span> provides a connected view of how to apply one pattern in the presence of another.</p><p id="para-00020-vn" class="vn visible">Như chúng ta đã học trong <a href="9-introduction" class="autogenerated-content" aria-label="Go to Chapter 9 Software Engineering" data-page-slug="9-introduction" data-page-uuid="85931f44-a298-43bf-b990-34335a4a3890" data-page-fragment="">Chương 9 Kỹ thuật Phần mềm</a>, một <span data-type="term" id="term-00014" group-by="p">ngôn ngữ mẫu</span> cung cấp một cái nhìn liên kết về cách áp dụng một mẫu trong sự hiện diện của một mẫu khác.</p>
+    <div data-type="note" class="concepts-practice ui-has-child-title" id="note-00004"><header><h3 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label">Concepts In Practice</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Các Khái Niệm Trong Thực Hành</span></h3></header><section>
+<div class="os-note-body"><h4 data-type="title" class="os-subtitle eng hidden">
+  <span class="os-subtitle-label">Are All Pattern Problems the Same?</span>
+</h4><h4 data-type="title" class="os-subtitle vn visible"><span class="os-subtitle-label">Tất cả các vấn đề mẫu có giống nhau không?</span></h4>
+    <p id="para-00021" class="eng hidden">Classifying software patterns is a similar problem to classifying patterns for buildings. For example, you would have to consider each room in a building and describe its role (e.g., kitchen, bedroom) along with specific related patterns, such as appliances, furniture, doors, and locks. As you may recall, design patterns are described using pattern templates. Enterprise pattern catalogs are more complex as they need to consider the degree of specialization of patterns; that is, whether they apply to the enterprise, portfolio, or project level. Therefore, there are many characteristics that must be considered when creating an enterprise pattern catalog, including the domain of applicability, scope, and level of abstraction.</p><p id="para-00021-vn" class="vn visible">Phân loại các mẫu phần mềm là một vấn đề tương tự như phân loại các mẫu cho các tòa nhà. Ví dụ, bạn sẽ phải xem xét từng phòng trong một tòa nhà và mô tả vai trò của nó (ví dụ, bếp, phòng ngủ) cùng với các mẫu liên quan cụ thể, chẳng hạn như thiết bị, đồ nội thất, cửa ra vào và khóa. Như bạn có thể nhớ, các mẫu thiết kế được mô tả bằng cách sử dụng các mẫu mẫu. Các danh mục mẫu doanh nghiệp phức tạp hơn vì chúng cần xem xét mức độ chuyên môn hóa của các mẫu; tức là, liệu chúng áp dụng cho cấp độ doanh nghiệp, danh mục hay dự án. Do đó, có nhiều đặc điểm cần được xem xét khi tạo ra một danh mục mẫu doanh nghiệp, bao gồm miền áp dụng, phạm vi và mức độ trừu tượng.</p>
+    </div></section></div>
+    </section>
+    
+    <section data-depth="1" id="sect-00007"><h3 data-type="title" class="eng hidden">Current State of Patterns Management</h3><h3 data-type="title" class="vn visible">Tình trạng hiện tại của Quản lý Mô hình</h3>
+    <p id="para-00022" class="eng hidden">A series of “patterns” that create an organization chart for developing software is called <span data-type="term" id="term-00015" group-by="p">patterns management</span>. In <span data-type="term" id="term-00016" group-by="s">software engineering</span>, the detailed study of engineering to design, develop, and maintain software, Christopher Alexander, a well-known building architect, is regarded as the father of the Pattern Language movement. Eric Gamma, Martin Fowler, and several other contributors are all part of the large community that has been focusing on collecting and documenting software patterns over the past forty years. As a side note, the original wiki, the technology behind Wikipedia, resulted directly from Alexander’s work, according to its creator, Ward Cunningham. Christopher Alexander’s work has also influenced the development of <span data-type="term" id="term-00017" group-by="A">Agile software development</span>, which is an interactive approach to software development in order to deliver value to customers, and Scrum, which is a management framework that helps the development team organize the work to reach a specific goal. A <span data-type="term" id="term-00018" group-by="f">framework</span> is an implementation-specific skeletal subsystem for design work. A <span data-type="term" id="term-00019" group-by="s">subsystem</span> is a set of collaborating <span data-type="term" class="no-emphasis" id="term-00020" group-by="c">component</span>s that perform a given task included in software systems, and it is a separate entity within a software architecture.</p><p id="para-00022-vn" class="vn visible">Một loạt các “mẫu” tạo ra một biểu đồ tổ chức để phát triển phần mềm được gọi là <span data-type="term" id="term-00015" group-by="p">quản lý mẫu</span>. Trong <span data-type="term" id="term-00016" group-by="s">software engineering</span>, nghiên cứu chi tiết về kỹ thuật để thiết kế, phát triển và duy trì phần mềm, Christopher Alexander, một kiến trúc sư nổi tiếng, được coi là cha đẻ của phong trào Ngôn ngữ Mẫu. Eric Gamma, Martin Fowler và một số người đóng góp khác đều là một phần của cộng đồng lớn đã tập trung vào việc thu thập và tài liệu hóa các mẫu phần mềm trong suốt bốn mươi năm qua. Như một lưu ý bên lề, wiki gốc, công nghệ đứng sau Wikipedia, đã trực tiếp xuất phát từ công việc của Alexander, theo lời của người sáng tạo, Ward Cunningham. Công việc của Christopher Alexander cũng đã ảnh hưởng đến sự phát triển của <span data-type="term" id="term-00017" group-by="A">phát triển phần mềm Agile</span>, một phương pháp tương tác trong phát triển phần mềm nhằm mang lại giá trị cho khách hàng, và Scrum, một <span data-type="term" id="term-00018" group-by="f">framework</span> quản lý giúp nhóm phát triển tổ chức công việc để đạt được một mục tiêu cụ thể. Một <span data-type="term" id="term-00019" group-by="s">subsystem</span> là một tập hợp các <span data-type="term" class="no-emphasis" id="term-00020" group-by="c">component</span> hợp tác thực hiện một nhiệm vụ nhất định trong các hệ thống phần mềm, và nó là một thực thể riêng biệt trong kiến trúc phần mềm.</p>
+    <p id="para-00023" class="eng hidden">Enterprise architects use four architecture domains and architecture views to handle hybrid domains (e.g., an information systems architecture is as an architectural view that spans across the application and <span data-type="term" class="no-emphasis" id="term-00021" group-by="d">data architecture</span>s and handles both control and data flows). Therefore, the applicability of patterns may be qualified according to the (combination of) domain(s) of architecture they apply to business architecture patterns or information systems patterns.</p><p id="para-00023-vn" class="vn visible">Các kiến trúc sư doanh nghiệp sử dụng bốn miền kiến trúc và các góc nhìn kiến trúc để xử lý các miền lai (ví dụ, một kiến trúc hệ thống thông tin là một góc nhìn kiến trúc trải dài qua ứng dụng và <span data-type="term" class="no-emphasis" id="term-00021" group-by="d">data architecture</span> và xử lý cả luồng điều khiển và luồng dữ liệu). Do đó, tính khả thi của các mẫu có thể được xác định theo (sự kết hợp của) miền kiến trúc mà chúng áp dụng cho các mẫu kiến trúc doanh nghiệp hoặc các mẫu hệ thống thông tin.</p>
+    <div data-type="note" class="industry-spotlight ui-has-child-title" id="note-00005"><header><h3 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label">Industry Spotlight</span>
+</h3><h3 class="os-title vn visible" data-type="title">
+  <span class="os-title-label">Ngành Công Nghiệp Nổi Bật</span>
+</h3></header><section>
+<div class="os-note-body"><h4 data-type="title" class="os-subtitle eng hidden">
+  <span class="os-subtitle-label">Patterns and the Health-Care Industry</span>
+</h4><h4 data-type="title" class="os-subtitle vn visible"><span class="os-subtitle-label">Mô hình và Ngành Chăm sóc Sức khỏe</span></h4>
+    <p id="para-00024" class="eng hidden">Architectural styles and related pattern hierarchies are important in every industry today. For example, there are different styles of software architectures in health care that help address various types of business needs. These include mobile health architectures, emotion control management architectures, and remote-surgery architectures. Mobile health architectures enable remote patient monitoring and ensure secure data exchange. Emotion control management systems track emotional patterns in patients. This allows for personalized mental health interventions. Real-time data and robotics allow surgeons to operate on patients who are located far away through remote-surgery architecture. These architectural styles each play a critical role in enhancing health-care delivery and operational efficacy.</p><p id="para-00024-vn" class="vn visible">Các phong cách kiến trúc và các hệ thống mẫu liên quan rất quan trọng trong mọi ngành công nghiệp ngày nay. Ví dụ, có nhiều phong cách kiến trúc phần mềm trong lĩnh vực chăm sóc sức khỏe giúp đáp ứng các loại nhu cầu kinh doanh khác nhau. Những phong cách này bao gồm kiến trúc sức khỏe di động, kiến trúc quản lý kiểm soát cảm xúc và kiến trúc phẫu thuật từ xa. Kiến trúc sức khỏe di động cho phép theo dõi bệnh nhân từ xa và đảm bảo việc trao đổi dữ liệu an toàn. Hệ thống quản lý kiểm soát cảm xúc theo dõi các mẫu cảm xúc ở bệnh nhân. Điều này cho phép can thiệp sức khỏe tâm thần cá nhân hóa. Dữ liệu thời gian thực và robot cho phép các bác sĩ phẫu thuật thực hiện ca phẫu thuật trên bệnh nhân ở xa thông qua kiến trúc phẫu thuật từ xa. Mỗi phong cách kiến trúc này đều đóng một vai trò quan trọng trong việc nâng cao chất lượng cung cấp dịch vụ chăm sóc sức khỏe và hiệu quả hoạt động.</p>
+    </div></section></div>
+    <p id="para-00025" class="eng hidden">A more general view promotes the bookkeeping of architectures at various levels of abstraction as part of an <span data-type="term" id="term-00022" group-by="a">architecture continuum</span>, representing a structure composed of building blocks to reuse architecture assets that conform to a pattern language. The corresponding specializations are then organized in a solution (architecture) continuum. In this case, architectures used at the enterprise level in the industry and specific organizations are derived from foundation and common systems architectures, as shown in <a href="10-1-patterns-management#fig-00008" class="autogenerated-content" aria-label="View Figure 10.9">Figure 10.9</a>, and then realized practically as solution architectures.</p><p id="para-00025-vn" class="vn visible">Một cái nhìn tổng quát hơn khuyến khích việc ghi chép các kiến trúc ở các mức độ trừu tượng khác nhau như một phần của <span data-type="term" id="term-00022" group-by="a">architecture continuum</span>, đại diện cho một cấu trúc được tạo thành từ các khối xây dựng để tái sử dụng các tài sản kiến trúc phù hợp với một ngôn ngữ mẫu. Các chuyên ngành tương ứng sau đó được tổ chức trong một continuum giải pháp (kiến trúc). Trong trường hợp này, các kiến trúc được sử dụng ở cấp doanh nghiệp trong ngành và các tổ chức cụ thể được phát triển từ các kiến trúc hệ thống nền tảng và chung, như được thể hiện trong <a href="10-1-patterns-management#fig-00008" class="autogenerated-content" aria-label="View Figure 10.9">Figure 10.9</a>, và sau đó được hiện thực hóa một cách thực tiễn dưới dạng các kiến trúc giải pháp.</p>
+    <div class="os-figure" id="fig-00008"><figure data-id="fig-00008" class="ui-has-child-figcaption">
+    <span data-type="media" data-alt="Architecture Continuum, generic to specific: Foundation architecture, Common systems architectures, Industry architectures, Organization architectures). Solutions Continuum, generic to specific: Products and services, Systems solutions, Industry solutions, Organization solutions). Guides and supports with vertical arrows pointing in both directions in between.">
+    <button type="button" aria-label="Click to enlarge image of Architecture Continuum, generic to specific: Foundation architecture, Common systems architectures, Industry architectures, Organization architectures). Solutions Continuum, generic to specific: Products and services, Systems solutions, Industry solutions, Organization solutions). Guides and supports with vertical arrows pointing in both directions in between." class="image-button-wrapper"><img src="assets/translated/img-10-1-8.vi.png" data-media-type="image/jpeg" alt="Architecture Continuum, generic to specific: Foundation architecture, Common systems architectures, Industry architectures, Organization architectures). Solutions Continuum, generic to specific: Products and services, Systems solutions, Industry solutions, Organization solutions). Guides and supports with vertical arrows pointing in both directions in between." width="1242" height="664" loading="lazy"></button>
+    </span>
+    
+    <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">10.9</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">The Open Group Architecture Framework (TOGAF) foundation architecture contacts common systems architectures, which contacts industry and organization architectures. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>  
+<span class="os-number">10.9</span>  
+
+<span class="os-divider"> </span>  
+<span class="os-caption">Khung Kiến Trúc Tổ Chức Mở (TOGAF) liên kết các kiến trúc hệ thống chung, mà liên kết với các kiến trúc ngành và tổ chức. (nguồn: Bản quyền Đại học Rice, OpenStax, theo giấy phép CC BY NC-SA 4.0)</span></figcaption></figure></div>
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </body></html>

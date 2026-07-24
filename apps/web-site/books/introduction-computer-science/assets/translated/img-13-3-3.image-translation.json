@@ -1,0 +1,498 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-13-3-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/13-3-big-cloud-paas-mainstream-capabilities.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-13-3-3.vi.png",
+  "ocr": [
+    {
+      "text": "LY oom 5",
+      "confidence": 67,
+      "bbox": {
+        "x": 100,
+        "y": 80,
+        "w": 802,
+        "h": 53
+      }
+    },
+    {
+      "text": "a 4°] Saved Datasets",
+      "confidence": 67,
+      "bbox": {
+        "x": 100,
+        "y": 187,
+        "w": 802,
+        "h": 53
+      }
+    },
+    {
+      "text": "4 Trained Models",
+      "confidence": 67,
+      "bbox": {
+        "x": 100,
+        "y": 294,
+        "w": 802,
+        "h": 53
+      }
+    },
+    {
+      "text": "g> Import Data v",
+      "confidence": 67,
+      "bbox": {
+        "x": 100,
+        "y": 401,
+        "w": 802,
+        "h": 53
+      }
+    },
+    {
+      "text": "Experiment created on 1... | 11",
+      "confidence": 67,
+      "bbox": {
+        "x": 100,
+        "y": 508,
+        "w": 802,
+        "h": 53
+      }
+    },
+    {
+      "text": "A gr——— =",
+      "confidence": 67,
+      "bbox": {
+        "x": 100,
+        "y": 615,
+        "w": 802,
+        "h": 53
+      }
+    },
+    {
+      "text": "5= Feature Hashing",
+      "confidence": 67,
+      "bbox": {
+        "x": 100,
+        "y": 722,
+        "w": 802,
+        "h": 53
+      }
+    },
+    {
+      "text": "ws) 4 |= Data Format Conversions ;",
+      "confidence": 67,
+      "bbox": {
+        "x": 100,
+        "y": 829,
+        "w": 802,
+        "h": 53
+      }
+    },
+    {
+      "text": "Convert to ARFF",
+      "confidence": 67,
+      "bbox": {
+        "x": 100,
+        "y": 936,
+        "w": 802,
+        "h": 53
+      }
+    },
+    {
+      "text": "! BH Select Columns in Dataset +/",
+      "confidence": 67,
+      "bbox": {
+        "x": 100,
+        "y": 1043,
+        "w": 802,
+        "h": 53
+      }
+    },
+    {
+      "text": "Convert to Cv mm",
+      "confidence": 67,
+      "bbox": {
+        "x": 100,
+        "y": 1150,
+        "w": 802,
+        "h": 53
+      }
+    },
+    {
+      "text": "Convert to Dataset I i",
+      "confidence": 67,
+      "bbox": {
+        "x": 100,
+        "y": 1257,
+        "w": 802,
+        "h": 53
+      }
+    },
+    {
+      "text": "Convert to SVMLight Multiclass Logistic Regression +/ iy slit Data v",
+      "confidence": 67,
+      "bbox": {
+        "x": 100,
+        "y": 1364,
+        "w": 802,
+        "h": 53
+      }
+    },
+    {
+      "text": "Convert to TSV. SS eT",
+      "confidence": 67,
+      "bbox": {
+        "x": 100,
+        "y": 1471,
+        "w": 802,
+        "h": 53
+      }
+    },
+    {
+      "text": "4 [> Data Input and Output",
+      "confidence": 67,
+      "bbox": {
+        "x": 100,
+        "y": 1578,
+        "w": 802,
+        "h": 53
+      }
+    },
+    {
+      "text": "Train Model v",
+      "confidence": 67,
+      "bbox": {
+        "x": 100,
+        "y": 1685,
+        "w": 802,
+        "h": 53
+      }
+    },
+    {
+      "text": "Enter Data Manually",
+      "confidence": 67,
+      "bbox": {
+        "x": 100,
+        "y": 1792,
+        "w": 802,
+        "h": 53
+      }
+    },
+    {
+      "text": "Export Data I Te ——",
+      "confidence": 67,
+      "bbox": {
+        "x": 100,
+        "y": 1899,
+        "w": 802,
+        "h": 53
+      }
+    },
+    {
+      "text": "Import Data SEE v",
+      "confidence": 67,
+      "bbox": {
+        "x": 100,
+        "y": 2006,
+        "w": 802,
+        "h": 53
+      }
+    },
+    {
+      "text": "Unpack Zipped Datasets! i",
+      "confidence": 67,
+      "bbox": {
+        "x": 100,
+        "y": 2113,
+        "w": 802,
+        "h": 53
+      }
+    },
+    {
+      "text": "4 §, Data Transformation Evaluate Model v7",
+      "confidence": 67,
+      "bbox": {
+        "x": 100,
+        "y": 2220,
+        "w": 802,
+        "h": 53
+      }
+    },
+    {
+      "text": "4 Filter",
+      "confidence": 67,
+      "bbox": {
+        "x": 100,
+        "y": 2327,
+        "w": 802,
+        "h": 53
+      }
+    },
+    {
+      "text": "Apply Filter",
+      "confidence": 67,
+      "bbox": {
+        "x": 100,
+        "y": 2434,
+        "w": 802,
+        "h": 53
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "LY oom 5",
+      "target": "LY phòng 5",
+      "bbox": {
+        "x": 100,
+        "y": 80,
+        "w": 802,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "a 4°] Saved Datasets",
+      "target": "Tập dữ liệu đã lưu",
+      "bbox": {
+        "x": 100,
+        "y": 187,
+        "w": 802,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "4 Trained Models",
+      "target": "4 Mô Hình Được Huấn Luyện",
+      "bbox": {
+        "x": 100,
+        "y": 294,
+        "w": 802,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "g> Import Data v",
+      "target": "Nhập Dữ Liệu",
+      "bbox": {
+        "x": 100,
+        "y": 401,
+        "w": 802,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "Experiment created on 1... | 11",
+      "target": "Thí nghiệm được tạo vào 1... | 11",
+      "bbox": {
+        "x": 100,
+        "y": 508,
+        "w": 802,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "A gr——— =",
+      "target": "Một gr——— =",
+      "bbox": {
+        "x": 100,
+        "y": 615,
+        "w": 802,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "5= Feature Hashing",
+      "target": "5= Băm Tính Năng",
+      "bbox": {
+        "x": 100,
+        "y": 722,
+        "w": 802,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "ws) 4 |= Data Format Conversions ;",
+      "target": "Chuyển đổi định dạng dữ liệu",
+      "bbox": {
+        "x": 100,
+        "y": 829,
+        "w": 802,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "Convert to ARFF",
+      "target": "Chuyển đổi sang ARFF",
+      "bbox": {
+        "x": 100,
+        "y": 936,
+        "w": 802,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "! BH Select Columns in Dataset +/",
+      "target": "Chọn Cột trong Tập Dữ Liệu +/",
+      "bbox": {
+        "x": 100,
+        "y": 1043,
+        "w": 802,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "Convert to Cv mm",
+      "target": "Chuyển đổi sang Cv mm",
+      "bbox": {
+        "x": 100,
+        "y": 1150,
+        "w": 802,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "Convert to Dataset I i",
+      "target": "Chuyển đổi thành Tập dữ liệu I i",
+      "bbox": {
+        "x": 100,
+        "y": 1257,
+        "w": 802,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "Convert to SVMLight Multiclass Logistic Regression +/ iy slit Data v",
+      "target": "Chuyển đổi sang Hồi quy Logistic Đa lớp SVMLight +/ dữ liệu iy slit",
+      "bbox": {
+        "x": 100,
+        "y": 1364,
+        "w": 802,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "Convert to TSV. SS eT",
+      "target": "Chuyển đổi thành TSV. SS eT",
+      "bbox": {
+        "x": 100,
+        "y": 1471,
+        "w": 802,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "4 [> Data Input and Output",
+      "target": "4 [> Nhập và Xuất Dữ Liệu",
+      "bbox": {
+        "x": 100,
+        "y": 1578,
+        "w": 802,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "Train Model v",
+      "target": "Huấn luyện mô hình",
+      "bbox": {
+        "x": 100,
+        "y": 1685,
+        "w": 802,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "Enter Data Manually",
+      "target": "Nhập dữ liệu thủ công",
+      "bbox": {
+        "x": 100,
+        "y": 1792,
+        "w": 802,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "Export Data I Te ——",
+      "target": "Xuất Dữ Liệu I Te ——",
+      "bbox": {
+        "x": 100,
+        "y": 1899,
+        "w": 802,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "Import Data SEE v",
+      "target": "Nhập Dữ Liệu SEE v",
+      "bbox": {
+        "x": 100,
+        "y": 2006,
+        "w": 802,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "Unpack Zipped Datasets! i",
+      "target": "Giải nén tập dữ liệu đã nén!",
+      "bbox": {
+        "x": 100,
+        "y": 2113,
+        "w": 802,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "4 §, Data Transformation Evaluate Model v7",
+      "target": "Biến Đổi Dữ Liệu Đánh Giá Mô Hình v7",
+      "bbox": {
+        "x": 100,
+        "y": 2220,
+        "w": 802,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "4 Filter",
+      "target": "Bộ lọc 4",
+      "bbox": {
+        "x": 100,
+        "y": 2327,
+        "w": 802,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "Apply Filter",
+      "target": "Áp dụng bộ lọc",
+      "bbox": {
+        "x": 100,
+        "y": 2434,
+        "w": 802,
+        "h": 53
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 1.4627985408493358,
+    "averageConfidence": 67
+  }
+}

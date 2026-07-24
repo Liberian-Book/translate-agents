@@ -1,0 +1,183 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-2-7.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-2-enterprise-architecture-management-frameworks.html",
+  "decision": "review",
+  "reason": "translation-overflow",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Business",
+      "confidence": 69,
+      "bbox": {
+        "x": 90,
+        "y": 66,
+        "w": 722,
+        "h": 44
+      }
+    },
+    {
+      "text": "Plan IT",
+      "confidence": 69,
+      "bbox": {
+        "x": 90,
+        "y": 154,
+        "w": 722,
+        "h": 44
+      }
+    },
+    {
+      "text": "/” \\ Alignment",
+      "confidence": 69,
+      "bbox": {
+        "x": 90,
+        "y": 242,
+        "w": 722,
+        "h": 44
+      }
+    },
+    {
+      "text": "Act Do",
+      "confidence": 69,
+      "bbox": {
+        "x": 90,
+        "y": 330,
+        "w": 722,
+        "h": 44
+      }
+    },
+    {
+      "text": "Maturity Ne J/ Continuous quality",
+      "confidence": 69,
+      "bbox": {
+        "x": 90,
+        "y": 418,
+        "w": 722,
+        "h": 44
+      }
+    },
+    {
+      "text": "improvement",
+      "confidence": 69,
+      "bbox": {
+        "x": 90,
+        "y": 506,
+        "w": 722,
+        "h": 44
+      }
+    },
+    {
+      "text": "Ea",
+      "confidence": 69,
+      "bbox": {
+        "x": 90,
+        "y": 594,
+        "w": 722,
+        "h": 44
+      }
+    },
+    {
+      "text": "Time",
+      "confidence": 69,
+      "bbox": {
+        "x": 90,
+        "y": 682,
+        "w": 722,
+        "h": 44
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Business",
+      "target": "Kinh doanh",
+      "bbox": {
+        "x": 90,
+        "y": 66,
+        "w": 722,
+        "h": 44
+      },
+      "overflow": false
+    },
+    {
+      "source": "Plan IT",
+      "target": "Lập kế hoạch CNTT",
+      "bbox": {
+        "x": 90,
+        "y": 154,
+        "w": 722,
+        "h": 44
+      },
+      "overflow": true
+    },
+    {
+      "source": "/” \\ Alignment",
+      "target": "Căn chỉnh",
+      "bbox": {
+        "x": 90,
+        "y": 242,
+        "w": 722,
+        "h": 44
+      },
+      "overflow": false
+    },
+    {
+      "source": "Act Do",
+      "target": "Hành động",
+      "bbox": {
+        "x": 90,
+        "y": 330,
+        "w": 722,
+        "h": 44
+      },
+      "overflow": false
+    },
+    {
+      "source": "Maturity Ne J/ Continuous quality",
+      "target": "Trưởng thành Ne J/ Chất lượng liên tục",
+      "bbox": {
+        "x": 90,
+        "y": 418,
+        "w": 722,
+        "h": 44
+      },
+      "overflow": false
+    },
+    {
+      "source": "improvement",
+      "target": "cải tiến",
+      "bbox": {
+        "x": 90,
+        "y": 506,
+        "w": 722,
+        "h": 44
+      },
+      "overflow": false
+    },
+    {
+      "source": "Ea",
+      "target": "Ea",
+      "bbox": {
+        "x": 90,
+        "y": 594,
+        "w": 722,
+        "h": 44
+      },
+      "overflow": false
+    },
+    {
+      "source": "Time",
+      "target": "Thời gian",
+      "bbox": {
+        "x": 90,
+        "y": 682,
+        "w": 722,
+        "h": 44
+      },
+      "overflow": true
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.5150934141882553,
+    "averageConfidence": 69
+  }
+}

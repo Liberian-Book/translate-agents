@@ -1,0 +1,435 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-2-20.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-2-enterprise-architecture-management-frameworks.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-10-2-20.vi.png",
+  "ocr": [
+    {
+      "text": "« Large scale of operations",
+      "confidence": 77,
+      "bbox": {
+        "x": 130,
+        "y": 91,
+        "w": 1042,
+        "h": 60
+      }
+    },
+    {
+      "text": "* New government regulations",
+      "confidence": 77,
+      "bbox": {
+        "x": 130,
+        "y": 212,
+        "w": 1042,
+        "h": 60
+      }
+    },
+    {
+      "text": "« Strong distribution network",
+      "confidence": 77,
+      "bbox": {
+        "x": 130,
+        "y": 333,
+        "w": 1042,
+        "h": 60
+      }
+    },
+    {
+      "text": "Entry",
+      "confidence": 77,
+      "bbox": {
+        "x": 130,
+        "y": 454,
+        "w": 1042,
+        "h": 60
+      }
+    },
+    {
+      "text": ": Low switching Gost barrier + Increase in competition based",
+      "confidence": 77,
+      "bbox": {
+        "x": 130,
+        "y": 575,
+        "w": 1042,
+        "h": 60
+      }
+    },
+    {
+      "text": "J bi pa 14 on price, terms, and services",
+      "confidence": 77,
+      "bbox": {
+        "x": 130,
+        "y": 696,
+        "w": 1042,
+        "h": 60
+      }
+    },
+    {
+      "text": "i OFS, art Uyers: « Attrition rate of skilled staff",
+      "confidence": 77,
+      "bbox": {
+        "x": 130,
+        "y": 817,
+        "w": 1042,
+        "h": 60
+      }
+    },
+    {
+      "text": "+ Large corporate",
+      "confidence": 77,
+      "bbox": {
+        "x": 130,
+        "y": 938,
+        "w": 1042,
+        "h": 60
+      }
+    },
+    {
+      "text": "customers",
+      "confidence": 77,
+      "bbox": {
+        "x": 130,
+        "y": 1059,
+        "w": 1042,
+        "h": 60
+      }
+    },
+    {
+      "text": "Internal",
+      "confidence": 77,
+      "bbox": {
+        "x": 130,
+        "y": 1180,
+        "w": 1042,
+        "h": 60
+      }
+    },
+    {
+      "text": "Buyer power .",
+      "confidence": 77,
+      "bbox": {
+        "x": 130,
+        "y": 1301,
+        "w": 1042,
+        "h": 60
+      }
+    },
+    {
+      "text": "rivalry",
+      "confidence": 77,
+      "bbox": {
+        "x": 130,
+        "y": 1422,
+        "w": 1042,
+        "h": 60
+      }
+    },
+    {
+      "text": "Sample",
+      "confidence": 77,
+      "bbox": {
+        "x": 130,
+        "y": 1543,
+        "w": 1042,
+        "h": 60
+      }
+    },
+    {
+      "text": "insurance",
+      "confidence": 77,
+      "bbox": {
+        "x": 130,
+        "y": 1664,
+        "w": 1042,
+        "h": 60
+      }
+    },
+    {
+      "text": "product",
+      "confidence": 77,
+      "bbox": {
+        "x": 130,
+        "y": 1785,
+        "w": 1042,
+        "h": 60
+      }
+    },
+    {
+      "text": "+ Relationship with agents r -",
+      "confidence": 77,
+      "bbox": {
+        "x": 130,
+        "y": 1906,
+        "w": 1042,
+        "h": 60
+      }
+    },
+    {
+      "text": "Vendor aidan + Highly commoditized products",
+      "confidence": 77,
+      "bbox": {
+        "x": 130,
+        "y": 2027,
+        "w": 1042,
+        "h": 60
+      }
+    },
+    {
+      "text": "Increased rolo'or Supplier Threat of * Reduced time to market",
+      "confidence": 77,
+      "bbox": {
+        "x": 130,
+        "y": 2148,
+        "w": 1042,
+        "h": 60
+      }
+    },
+    {
+      "text": "outsourcing as a power substitutes + Responsive and seamless",
+      "confidence": 77,
+      "bbox": {
+        "x": 130,
+        "y": 2269,
+        "w": 1042,
+        "h": 60
+      }
+    },
+    {
+      "text": "business imperative after sales serviceability",
+      "confidence": 77,
+      "bbox": {
+        "x": 130,
+        "y": 2390,
+        "w": 1042,
+        "h": 60
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "« Large scale of operations",
+      "target": "Quy mô hoạt động lớn",
+      "bbox": {
+        "x": 130,
+        "y": 91,
+        "w": 1042,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "* New government regulations",
+      "target": "* Quy định mới của chính phủ",
+      "bbox": {
+        "x": 130,
+        "y": 212,
+        "w": 1042,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "« Strong distribution network",
+      "target": "Mạng lưới phân phối mạnh mẽ",
+      "bbox": {
+        "x": 130,
+        "y": 333,
+        "w": 1042,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "Entry",
+      "target": "Nhập liệu",
+      "bbox": {
+        "x": 130,
+        "y": 454,
+        "w": 1042,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": ": Low switching Gost barrier + Increase in competition based",
+      "target": "Rào cản chuyển đổi thấp + Tăng cường cạnh tranh",
+      "bbox": {
+        "x": 130,
+        "y": 575,
+        "w": 1042,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "J bi pa 14 on price, terms, and services",
+      "target": "J bi pa 14 về giá cả, điều khoản và dịch vụ",
+      "bbox": {
+        "x": 130,
+        "y": 696,
+        "w": 1042,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "i OFS, art Uyers: « Attrition rate of skilled staff",
+      "target": "Tỷ lệ rời bỏ nhân viên có kỹ năng",
+      "bbox": {
+        "x": 130,
+        "y": 817,
+        "w": 1042,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "+ Large corporate",
+      "target": "+ Tập đoàn lớn",
+      "bbox": {
+        "x": 130,
+        "y": 938,
+        "w": 1042,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "customers",
+      "target": "khách hàng",
+      "bbox": {
+        "x": 130,
+        "y": 1059,
+        "w": 1042,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "Internal",
+      "target": "Nội bộ",
+      "bbox": {
+        "x": 130,
+        "y": 1180,
+        "w": 1042,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "Buyer power .",
+      "target": "Quyền lực của người mua.",
+      "bbox": {
+        "x": 130,
+        "y": 1301,
+        "w": 1042,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "rivalry",
+      "target": "cạnh tranh",
+      "bbox": {
+        "x": 130,
+        "y": 1422,
+        "w": 1042,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "Sample",
+      "target": "Mẫu",
+      "bbox": {
+        "x": 130,
+        "y": 1543,
+        "w": 1042,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "insurance",
+      "target": "bảo hiểm",
+      "bbox": {
+        "x": 130,
+        "y": 1664,
+        "w": 1042,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "product",
+      "target": "sản phẩm",
+      "bbox": {
+        "x": 130,
+        "y": 1785,
+        "w": 1042,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "+ Relationship with agents r -",
+      "target": "+ Mối quan hệ với đại lý r -",
+      "bbox": {
+        "x": 130,
+        "y": 1906,
+        "w": 1042,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "Vendor aidan + Highly commoditized products",
+      "target": "Nhà cung cấp Aidan + Sản phẩm rất tiêu chuẩn hóa",
+      "bbox": {
+        "x": 130,
+        "y": 2027,
+        "w": 1042,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "Increased rolo'or Supplier Threat of * Reduced time to market",
+      "target": "Tăng nguy cơ từ nhà cung cấp * Giảm thời gian ra thị trường",
+      "bbox": {
+        "x": 130,
+        "y": 2148,
+        "w": 1042,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "outsourcing as a power substitutes + Responsive and seamless",
+      "target": "thuê ngoài như là sự thay thế quyền lực + Phản hồi và liền mạch",
+      "bbox": {
+        "x": 130,
+        "y": 2269,
+        "w": 1042,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "business imperative after sales serviceability",
+      "target": "yêu cầu kinh doanh về khả năng phục vụ sau bán hàng",
+      "bbox": {
+        "x": 130,
+        "y": 2390,
+        "w": 1042,
+        "h": 60
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 1.2703289200985053,
+    "averageConfidence": 77
+  }
+}

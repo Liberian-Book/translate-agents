@@ -1,0 +1,204 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-1-17.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-1-introduction-to-cloud-native-applications.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-12-1-17.vi.png",
+  "ocr": [
+    {
+      "text": "writable container References",
+      "confidence": 74,
+      "bbox": {
+        "x": 120,
+        "y": 48,
+        "w": 959,
+        "h": 32
+      }
+    },
+    {
+      "text": "parent image",
+      "confidence": 74,
+      "bbox": {
+        "x": 120,
+        "y": 112,
+        "w": 959,
+        "h": 32
+      }
+    },
+    {
+      "text": "add App image",
+      "confidence": 74,
+      "bbox": {
+        "x": 120,
+        "y": 176,
+        "w": 959,
+        "h": 32
+      }
+    },
+    {
+      "text": "Build add Python image 2D -",
+      "confidence": 74,
+      "bbox": {
+        "x": 120,
+        "y": 240,
+        "w": 959,
+        "h": 32
+      }
+    },
+    {
+      "text": ": LLY —",
+      "confidence": 74,
+      "bbox": {
+        "x": 120,
+        "y": 304,
+        "w": 959,
+        "h": 32
+      }
+    },
+    {
+      "text": "Ubuntu (Base image) ~~ _) \"UM ® /",
+      "confidence": 74,
+      "bbox": {
+        "x": 120,
+        "y": 368,
+        "w": 959,
+        "h": 32
+      }
+    },
+    {
+      "text": "fs (kernel) 2D",
+      "confidence": 74,
+      "bbox": {
+        "x": 120,
+        "y": 432,
+        "w": 959,
+        "h": 32
+      }
+    },
+    {
+      "text": "Application Dockerfile Docker Docker",
+      "confidence": 74,
+      "bbox": {
+        "x": 120,
+        "y": 496,
+        "w": 959,
+        "h": 32
+      }
+    },
+    {
+      "text": "image container",
+      "confidence": 74,
+      "bbox": {
+        "x": 120,
+        "y": 560,
+        "w": 959,
+        "h": 32
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "writable container References",
+      "target": "thùng chứa có thể ghi tham khảo",
+      "bbox": {
+        "x": 120,
+        "y": 48,
+        "w": 959,
+        "h": 32
+      },
+      "overflow": false
+    },
+    {
+      "source": "parent image",
+      "target": "hình ảnh cha mẹ",
+      "bbox": {
+        "x": 120,
+        "y": 112,
+        "w": 959,
+        "h": 32
+      },
+      "overflow": false
+    },
+    {
+      "source": "add App image",
+      "target": "thêm hình ảnh ứng dụng",
+      "bbox": {
+        "x": 120,
+        "y": 176,
+        "w": 959,
+        "h": 32
+      },
+      "overflow": false
+    },
+    {
+      "source": "Build add Python image 2D -",
+      "target": "Xây dựng thêm hình ảnh 2D Python",
+      "bbox": {
+        "x": 120,
+        "y": 240,
+        "w": 959,
+        "h": 32
+      },
+      "overflow": false
+    },
+    {
+      "source": ": LLY —",
+      "target": "LLY —",
+      "bbox": {
+        "x": 120,
+        "y": 304,
+        "w": 959,
+        "h": 32
+      },
+      "overflow": false
+    },
+    {
+      "source": "Ubuntu (Base image) ~~ _) \"UM ® /",
+      "target": "Ubuntu (Hình ảnh cơ sở)",
+      "bbox": {
+        "x": 120,
+        "y": 368,
+        "w": 959,
+        "h": 32
+      },
+      "overflow": false
+    },
+    {
+      "source": "fs (kernel) 2D",
+      "target": "fs (hạt nhân) 2D",
+      "bbox": {
+        "x": 120,
+        "y": 432,
+        "w": 959,
+        "h": 32
+      },
+      "overflow": false
+    },
+    {
+      "source": "Application Dockerfile Docker Docker",
+      "target": "Tệp Dockerfile Ứng dụng Docker Docker",
+      "bbox": {
+        "x": 120,
+        "y": 496,
+        "w": 959,
+        "h": 32
+      },
+      "overflow": false
+    },
+    {
+      "source": "image container",
+      "target": "thùng chứa hình ảnh",
+      "bbox": {
+        "x": 120,
+        "y": 560,
+        "w": 959,
+        "h": 32
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.5758798999165972,
+    "averageConfidence": 74
+  }
+}

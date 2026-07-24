@@ -1,0 +1,225 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-2-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-2-sample-responsive-wad-with-bootstrap-and-django.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-11-2-3.vi.png",
+  "ocr": [
+    {
+      "text": "vv TodoApp",
+      "confidence": 56,
+      "bbox": {
+        "x": 27,
+        "y": 62,
+        "w": 216,
+        "h": 41
+      }
+    },
+    {
+      "text": "> _pycache__",
+      "confidence": 56,
+      "bbox": {
+        "x": 27,
+        "y": 144,
+        "w": 216,
+        "h": 41
+      }
+    },
+    {
+      "text": "> static",
+      "confidence": 56,
+      "bbox": {
+        "x": 27,
+        "y": 226,
+        "w": 216,
+        "h": 41
+      }
+    },
+    {
+      "text": "= _init_.py",
+      "confidence": 56,
+      "bbox": {
+        "x": 27,
+        "y": 308,
+        "w": 216,
+        "h": 41
+      }
+    },
+    {
+      "text": "= asgi.py",
+      "confidence": 56,
+      "bbox": {
+        "x": 27,
+        "y": 390,
+        "w": 216,
+        "h": 41
+      }
+    },
+    {
+      "text": "\" settings.py",
+      "confidence": 56,
+      "bbox": {
+        "x": 27,
+        "y": 472,
+        "w": 216,
+        "h": 41
+      }
+    },
+    {
+      "text": "= urls.py",
+      "confidence": 56,
+      "bbox": {
+        "x": 27,
+        "y": 554,
+        "w": 216,
+        "h": 41
+      }
+    },
+    {
+      "text": "= wsgi.py",
+      "confidence": 56,
+      "bbox": {
+        "x": 27,
+        "y": 636,
+        "w": 216,
+        "h": 41
+      }
+    },
+    {
+      "text": "= db.sqlite3",
+      "confidence": 56,
+      "bbox": {
+        "x": 27,
+        "y": 718,
+        "w": 216,
+        "h": 41
+      }
+    },
+    {
+      "text": "2 manage.py",
+      "confidence": 56,
+      "bbox": {
+        "x": 27,
+        "y": 800,
+        "w": 216,
+        "h": 41
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "vv TodoApp",
+      "target": "vv Ứng dụng Todo",
+      "bbox": {
+        "x": 27,
+        "y": 62,
+        "w": 216,
+        "h": 41
+      },
+      "overflow": false
+    },
+    {
+      "source": "> _pycache__",
+      "target": "__pycache__",
+      "bbox": {
+        "x": 27,
+        "y": 144,
+        "w": 216,
+        "h": 41
+      },
+      "overflow": false
+    },
+    {
+      "source": "> static",
+      "target": "tĩnh",
+      "bbox": {
+        "x": 27,
+        "y": 226,
+        "w": 216,
+        "h": 41
+      },
+      "overflow": false
+    },
+    {
+      "source": "= _init_.py",
+      "target": "__init__.py",
+      "bbox": {
+        "x": 27,
+        "y": 308,
+        "w": 216,
+        "h": 41
+      },
+      "overflow": false
+    },
+    {
+      "source": "= asgi.py",
+      "target": "= asgi.py",
+      "bbox": {
+        "x": 27,
+        "y": 390,
+        "w": 216,
+        "h": 41
+      },
+      "overflow": false
+    },
+    {
+      "source": "\" settings.py",
+      "target": "cài đặt.py",
+      "bbox": {
+        "x": 27,
+        "y": 472,
+        "w": 216,
+        "h": 41
+      },
+      "overflow": false
+    },
+    {
+      "source": "= urls.py",
+      "target": "= urls.py",
+      "bbox": {
+        "x": 27,
+        "y": 554,
+        "w": 216,
+        "h": 41
+      },
+      "overflow": false
+    },
+    {
+      "source": "= wsgi.py",
+      "target": "= wsgi.py",
+      "bbox": {
+        "x": 27,
+        "y": 636,
+        "w": 216,
+        "h": 41
+      },
+      "overflow": false
+    },
+    {
+      "source": "= db.sqlite3",
+      "target": "= db.sqlite3",
+      "bbox": {
+        "x": 27,
+        "y": 718,
+        "w": 216,
+        "h": 41
+      },
+      "overflow": false
+    },
+    {
+      "source": "2 manage.py",
+      "target": "2 manage.py",
+      "bbox": {
+        "x": 27,
+        "y": 800,
+        "w": 216,
+        "h": 41
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.6393762183235867,
+    "averageConfidence": 56
+  }
+}

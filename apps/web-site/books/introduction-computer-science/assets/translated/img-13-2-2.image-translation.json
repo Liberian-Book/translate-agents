@@ -1,0 +1,204 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-13-2-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/13-2-big-cloud-iaas-mainstream-capabilities.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-13-2-2.vi.png",
+  "ocr": [
+    {
+      "text": "Home > contosoblobaccount - Blobs",
+      "confidence": 73,
+      "bbox": {
+        "x": 130,
+        "y": 59,
+        "w": 1040,
+        "h": 39
+      }
+    },
+    {
+      "text": "Ng contosoblobaccount - Blobs 2 X",
+      "confidence": 73,
+      "bbox": {
+        "x": 130,
+        "y": 137,
+        "w": 1040,
+        "h": 39
+      }
+    },
+    {
+      "text": "Search (Ctrle/ & = container Q) Refresh @ Delete @ Change access level",
+      "confidence": 73,
+      "bbox": {
+        "x": 130,
+        "y": 215,
+        "w": 1040,
+        "h": 39
+      }
+    },
+    {
+      "text": "& Overview Storage account: contosoblobaccount",
+      "confidence": 73,
+      "bbox": {
+        "x": 130,
+        "y": 293,
+        "w": 1040,
+        "h": 39
+      }
+    },
+    {
+      "text": "BE Activity log AR Search containers by prefix",
+      "confidence": 73,
+      "bbox": {
+        "x": 130,
+        "y": 371,
+        "w": 1040,
+        "h": 39
+      }
+    },
+    {
+      "text": "PM Access control (IAM) NAME LAST MODIFIED PUBLIC ACCESS L... LEASE STATE",
+      "confidence": 73,
+      "bbox": {
+        "x": 130,
+        "y": 449,
+        "w": 1040,
+        "h": 39
+      }
+    },
+    {
+      "text": "& Tags 5/29/2019, 11:55:08 AM Blob Available 00",
+      "confidence": 73,
+      "bbox": {
+        "x": 130,
+        "y": 527,
+        "w": 1040,
+        "h": 39
+      }
+    },
+    {
+      "text": "x Dragnose and solve problems myContainer 5/23/2019, 10:34:46 AM Private Available fi",
+      "confidence": 73,
+      "bbox": {
+        "x": 130,
+        "y": 605,
+        "w": 1040,
+        "h": 39
+      }
+    },
+    {
+      "text": "& Data transfer",
+      "confidence": 73,
+      "bbox": {
+        "x": 130,
+        "y": 683,
+        "w": 1040,
+        "h": 39
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Home > contosoblobaccount - Blobs",
+      "target": "Trang chủ > tài khoản contosoblob - Blob",
+      "bbox": {
+        "x": 130,
+        "y": 59,
+        "w": 1040,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "Ng contosoblobaccount - Blobs 2 X",
+      "target": "Ng contosoblobaccount - Blob 2 X",
+      "bbox": {
+        "x": 130,
+        "y": 137,
+        "w": 1040,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "Search (Ctrle/ & = container Q) Refresh @ Delete @ Change access level",
+      "target": "Tìm kiếm (Ctrle/ & = container Q) Làm mới @ Xóa @ Thay đổi cấp độ truy cập",
+      "bbox": {
+        "x": 130,
+        "y": 215,
+        "w": 1040,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "& Overview Storage account: contosoblobaccount",
+      "target": "& Tổng quan Tài khoản lưu trữ: contosoblobaccount",
+      "bbox": {
+        "x": 130,
+        "y": 293,
+        "w": 1040,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "BE Activity log AR Search containers by prefix",
+      "target": "Nhật ký hoạt động BE Tìm kiếm hộp chứa theo tiền tố",
+      "bbox": {
+        "x": 130,
+        "y": 371,
+        "w": 1040,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "PM Access control (IAM) NAME LAST MODIFIED PUBLIC ACCESS L... LEASE STATE",
+      "target": "Kiểm soát truy cập PM (IAM) TÊN LẦN CHỈNH SỬA CUỐI CÙNG TRUY CẬP CÔNG KHAI TRẠNG THÁI THUÊ",
+      "bbox": {
+        "x": 130,
+        "y": 449,
+        "w": 1040,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "& Tags 5/29/2019, 11:55:08 AM Blob Available 00",
+      "target": "& Thẻ 5/29/2019, 11:55:08 AM Blob Có sẵn 00",
+      "bbox": {
+        "x": 130,
+        "y": 527,
+        "w": 1040,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "x Dragnose and solve problems myContainer 5/23/2019, 10:34:46 AM Private Available fi",
+      "target": "x Dragnose và giải quyết vấn đề myContainer 5/23/2019, 10:34:46 AM Riêng tư Có sẵn fi",
+      "bbox": {
+        "x": 130,
+        "y": 605,
+        "w": 1040,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "& Data transfer",
+      "target": "& Chuyển dữ liệu",
+      "bbox": {
+        "x": 130,
+        "y": 683,
+        "w": 1040,
+        "h": 39
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.5754098360655737,
+    "averageConfidence": 73
+  }
+}

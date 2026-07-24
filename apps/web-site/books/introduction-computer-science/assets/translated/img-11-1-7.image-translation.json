@@ -1,0 +1,267 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-1-7.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-1-modern-web-applications-architectures.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-11-1-7.vi.png",
+  "ocr": [
+    {
+      "text": "Web 2.0 SPA: Architecture and MVVM Pattern",
+      "confidence": 57,
+      "bbox": {
+        "x": 118,
+        "y": 80,
+        "w": 946,
+        "h": 53
+      }
+    },
+    {
+      "text": "EH",
+      "confidence": 57,
+      "bbox": {
+        "x": 118,
+        "y": 186,
+        "w": 946,
+        "h": 53
+      }
+    },
+    {
+      "text": "User Browser Internet Web",
+      "confidence": 57,
+      "bbox": {
+        "x": 118,
+        "y": 292,
+        "w": 946,
+        "h": 53
+      }
+    },
+    {
+      "text": "A server",
+      "confidence": 57,
+      "bbox": {
+        "x": 118,
+        "y": 398,
+        "w": 946,
+        "h": 53
+      }
+    },
+    {
+      "text": "I RE Ee hE Ee)",
+      "confidence": 57,
+      "bbox": {
+        "x": 118,
+        "y": 504,
+        "w": 946,
+        "h": 53
+      }
+    },
+    {
+      "text": "View ; -—",
+      "confidence": 57,
+      "bbox": {
+        "x": 118,
+        "y": 610,
+        "w": 946,
+        "h": 53
+      }
+    },
+    {
+      "text": "viewModel ! (v) ~~ — |",
+      "confidence": 57,
+      "bbox": {
+        "x": 118,
+        "y": 716,
+        "w": 946,
+        "h": 53
+      }
+    },
+    {
+      "text": "API LAP Datastore |",
+      "confidence": 57,
+      "bbox": {
+        "x": 118,
+        "y": 822,
+        "w": 946,
+        "h": 53
+      }
+    },
+    {
+      "text": "gateway RE i eettidl",
+      "confidence": 57,
+      "bbox": {
+        "x": 118,
+        "y": 928,
+        "w": 946,
+        "h": 53
+      }
+    },
+    {
+      "text": "| Multiples |",
+      "confidence": 57,
+      "bbox": {
+        "x": 118,
+        "y": 1034,
+        "w": 946,
+        "h": 53
+      }
+    },
+    {
+      "text": "[ES",
+      "confidence": 57,
+      "bbox": {
+        "x": 118,
+        "y": 1140,
+        "w": 946,
+        "h": 53
+      }
+    },
+    {
+      "text": "Model(s)",
+      "confidence": 57,
+      "bbox": {
+        "x": 118,
+        "y": 1246,
+        "w": 946,
+        "h": 53
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Web 2.0 SPA: Architecture and MVVM Pattern",
+      "target": "Web 2.0 SPA: Kiến trúc và Mô hình MVVM",
+      "bbox": {
+        "x": 118,
+        "y": 80,
+        "w": 946,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "EH",
+      "target": "EH",
+      "bbox": {
+        "x": 118,
+        "y": 186,
+        "w": 946,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "User Browser Internet Web",
+      "target": "Trình duyệt Người dùng Internet Web",
+      "bbox": {
+        "x": 118,
+        "y": 292,
+        "w": 946,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "A server",
+      "target": "Máy chủ",
+      "bbox": {
+        "x": 118,
+        "y": 398,
+        "w": 946,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "I RE Ee hE Ee)",
+      "target": "Tôi RE Ee hE Ee)",
+      "bbox": {
+        "x": 118,
+        "y": 504,
+        "w": 946,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "View ; -—",
+      "target": "Xem",
+      "bbox": {
+        "x": 118,
+        "y": 610,
+        "w": 946,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "viewModel ! (v) ~~ — |",
+      "target": "viewModel ! (v) ~~ — |",
+      "bbox": {
+        "x": 118,
+        "y": 716,
+        "w": 946,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "API LAP Datastore |",
+      "target": "API LAP Kho dữ liệu",
+      "bbox": {
+        "x": 118,
+        "y": 822,
+        "w": 946,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "gateway RE i eettidl",
+      "target": "cổng RE i eettidl",
+      "bbox": {
+        "x": 118,
+        "y": 928,
+        "w": 946,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "| Multiples |",
+      "target": "Bội số",
+      "bbox": {
+        "x": 118,
+        "y": 1034,
+        "w": 946,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "[ES",
+      "target": "[ES",
+      "bbox": {
+        "x": 118,
+        "y": 1140,
+        "w": 946,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "Model(s)",
+      "target": "Mô hình(s)",
+      "bbox": {
+        "x": 118,
+        "y": 1246,
+        "w": 946,
+        "h": 53
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.7659411950422145,
+    "averageConfidence": 57
+  }
+}

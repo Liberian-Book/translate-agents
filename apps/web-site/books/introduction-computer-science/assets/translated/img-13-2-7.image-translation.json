@@ -1,0 +1,162 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-13-2-7.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/13-2-big-cloud-iaas-mainstream-capabilities.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-13-2-7.vi.png",
+  "ocr": [
+    {
+      "text": "Create",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 35,
+        "w": 1040,
+        "h": 24
+      }
+    },
+    {
+      "text": "Create Azure Bulid",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 82,
+        "w": 1040,
+        "h": 24
+      }
+    },
+    {
+      "text": "Azure Kubernetes Docker images ee Deploy",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 129,
+        "w": 1040,
+        "h": 24
+      }
+    },
+    {
+      "text": "Container [2 Services [2 and =) (K8) = application",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 176,
+        "w": 1040,
+        "h": 24
+      }
+    },
+    {
+      "text": "Registry cluster publish to aT",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 223,
+        "w": 1040,
+        "h": 24
+      }
+    },
+    {
+      "text": "(ACR) and ACR registry",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 270,
+        "w": 1040,
+        "h": 24
+      }
+    },
+    {
+      "text": "attach to ACR",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 317,
+        "w": 1040,
+        "h": 24
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Create",
+      "target": "Tạo ra",
+      "bbox": {
+        "x": 130,
+        "y": 35,
+        "w": 1040,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "Create Azure Bulid",
+      "target": "Tạo Azure Build",
+      "bbox": {
+        "x": 130,
+        "y": 82,
+        "w": 1040,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "Azure Kubernetes Docker images ee Deploy",
+      "target": "Hình ảnh Docker Azure Kubernetes ee Triển khai",
+      "bbox": {
+        "x": 130,
+        "y": 129,
+        "w": 1040,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "Container [2 Services [2 and =) (K8) = application",
+      "target": "Container [2 Dịch vụ [2 và =) (K8) = ứng dụng",
+      "bbox": {
+        "x": 130,
+        "y": 176,
+        "w": 1040,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "Registry cluster publish to aT",
+      "target": "Cụm đăng ký xuất bản đến aT",
+      "bbox": {
+        "x": 130,
+        "y": 223,
+        "w": 1040,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "(ACR) and ACR registry",
+      "target": "(ACR) và đăng ký ACR",
+      "bbox": {
+        "x": 130,
+        "y": 270,
+        "w": 1040,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "attach to ACR",
+      "target": "gắn vào ACR",
+      "bbox": {
+        "x": 130,
+        "y": 317,
+        "w": 1040,
+        "h": 24
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.45559322033898303,
+    "averageConfidence": 83
+  }
+}

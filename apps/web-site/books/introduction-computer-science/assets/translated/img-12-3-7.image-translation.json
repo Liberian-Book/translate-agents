@@ -1,0 +1,141 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-3-7.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-3-example-paas-and-faas-deployments-of-cloud-native-applications.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-12-3-7.vi.png",
+  "ocr": [
+    {
+      "text": "$ docker images",
+      "confidence": 81,
+      "bbox": {
+        "x": 130,
+        "y": 24,
+        "w": 1040,
+        "h": 24
+      }
+    },
+    {
+      "text": "REPOSITORY TAG IMAGE ID CREATED SIZE",
+      "confidence": 81,
+      "bbox": {
+        "x": 130,
+        "y": 56,
+        "w": 1040,
+        "h": 24
+      }
+    },
+    {
+      "text": "cna-next_web latest 8e95d5095f07 2 hours ago 759MB",
+      "confidence": 81,
+      "bbox": {
+        "x": 130,
+        "y": 88,
+        "w": 1040,
+        "h": 24
+      }
+    },
+    {
+      "text": "ncaregistryflex.azurecr.io/cna-next_ web v1 8e95d5095f07 2 hours ago 759MB",
+      "confidence": 81,
+      "bbox": {
+        "x": 130,
+        "y": 120,
+        "w": 1040,
+        "h": 24
+      }
+    },
+    {
+      "text": "expressimage latest bdd5943f5bcb 3 hours ago 165MB",
+      "confidence": 81,
+      "bbox": {
+        "x": 130,
+        "y": 152,
+        "w": 1040,
+        "h": 24
+      }
+    },
+    {
+      "text": "ncaregistryflex.azurecr.io/expressimage vl bdd5943f5bcb 3 hours ago 165MB",
+      "confidence": 81,
+      "bbox": {
+        "x": 130,
+        "y": 184,
+        "w": 1040,
+        "h": 24
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "$ docker images",
+      "target": "$ hình ảnh docker",
+      "bbox": {
+        "x": 130,
+        "y": 24,
+        "w": 1040,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "REPOSITORY TAG IMAGE ID CREATED SIZE",
+      "target": "THẺ KHO ẢNH ID ĐƯỢC TẠO KÍCH THƯỚC",
+      "bbox": {
+        "x": 130,
+        "y": 56,
+        "w": 1040,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "cna-next_web latest 8e95d5095f07 2 hours ago 759MB",
+      "target": "cna-next_web mới nhất 8e95d5095f07 2 giờ trước 759MB",
+      "bbox": {
+        "x": 130,
+        "y": 88,
+        "w": 1040,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "ncaregistryflex.azurecr.io/cna-next_ web v1 8e95d5095f07 2 hours ago 759MB",
+      "target": "ncaregistryflex.azurecr.io/cna-next_ web v1 8e95d5095f07 2 giờ trước 759MB",
+      "bbox": {
+        "x": 130,
+        "y": 120,
+        "w": 1040,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "expressimage latest bdd5943f5bcb 3 hours ago 165MB",
+      "target": "hình ảnh biểu diễn bdd5943f5bcb mới nhất 3 giờ trước 165MB",
+      "bbox": {
+        "x": 130,
+        "y": 152,
+        "w": 1040,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "ncaregistryflex.azurecr.io/expressimage vl bdd5943f5bcb 3 hours ago 165MB",
+      "target": "ncaregistryflex.azurecr.io/expressimage vl bdd5943f5bcb 3 giờ trước 165MB",
+      "bbox": {
+        "x": 130,
+        "y": 184,
+        "w": 1040,
+        "h": 24
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.5818181818181818,
+    "averageConfidence": 81
+  }
+}

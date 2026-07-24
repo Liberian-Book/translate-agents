@@ -1,0 +1,154 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-13-4-7.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/13-4-towards-intelligent-autonomous-networked-super-systems.html",
+  "decision": "review",
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "fag Pe 8",
+      "confidence": 35,
+      "bbox": {
+        "x": 90,
+        "y": 55,
+        "w": 719,
+        "h": 36
+      }
+    },
+    {
+      "text": ". £4 R= * Ji@",
+      "confidence": 35,
+      "bbox": {
+        "x": 90,
+        "y": 128,
+        "w": 719,
+        "h": 36
+      }
+    },
+    {
+      "text": ": ¢ 3 Irs",
+      "confidence": 35,
+      "bbox": {
+        "x": 90,
+        "y": 201,
+        "w": 719,
+        "h": 36
+      }
+    },
+    {
+      "text": "; lig Feos=eTie | In",
+      "confidence": 35,
+      "bbox": {
+        "x": 90,
+        "y": 274,
+        "w": 719,
+        "h": 36
+      }
+    },
+    {
+      "text": "R- hig) «sts",
+      "confidence": 35,
+      "bbox": {
+        "x": 90,
+        "y": 347,
+        "w": 719,
+        "h": 36
+      }
+    },
+    {
+      "text": "fae IL 7 = > 2 ir :",
+      "confidence": 35,
+      "bbox": {
+        "x": 90,
+        "y": 420,
+        "w": 719,
+        "h": 36
+      }
+    },
+    {
+      "text": "be ha I ERE |",
+      "confidence": 35,
+      "bbox": {
+        "x": 90,
+        "y": 493,
+        "w": 719,
+        "h": 36
+      }
+    },
+    {
+      "text": ": ied pli et ELE LL",
+      "confidence": 35,
+      "bbox": {
+        "x": 90,
+        "y": 566,
+        "w": 719,
+        "h": 36
+      }
+    },
+    {
+      "text": "oo im3 3 an I",
+      "confidence": 35,
+      "bbox": {
+        "x": 90,
+        "y": 639,
+        "w": 719,
+        "h": 36
+      }
+    },
+    {
+      "text": "Eig =a",
+      "confidence": 35,
+      "bbox": {
+        "x": 90,
+        "y": 712,
+        "w": 719,
+        "h": 36
+      }
+    },
+    {
+      "text": "To =",
+      "confidence": 35,
+      "bbox": {
+        "x": 90,
+        "y": 785,
+        "w": 719,
+        "h": 36
+      }
+    },
+    {
+      "text": "Human brain with Te",
+      "confidence": 35,
+      "bbox": {
+        "x": 90,
+        "y": 858,
+        "w": 719,
+        "h": 36
+      }
+    },
+    {
+      "text": "neural network",
+      "confidence": 35,
+      "bbox": {
+        "x": 90,
+        "y": 931,
+        "w": 719,
+        "h": 36
+      }
+    },
+    {
+      "text": "Computer motherboard",
+      "confidence": 35,
+      "bbox": {
+        "x": 90,
+        "y": 1004,
+        "w": 719,
+        "h": 36
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.8839646390726539,
+    "averageConfidence": 35
+  }
+}

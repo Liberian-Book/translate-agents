@@ -1,0 +1,64 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-14-2-52.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/14-2-cybersecurity-deep-dive.html",
+  "decision": "review",
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Packets sent per ACK Bytes per packet",
+      "confidence": 42,
+      "bbox": {
+        "x": 70,
+        "y": 25,
+        "w": 560,
+        "h": 24
+      }
+    },
+    {
+      "text": "CC iawindowsze 7 pre",
+      "confidence": 42,
+      "bbox": {
+        "x": 70,
+        "y": 58,
+        "w": 560,
+        "h": 24
+      }
+    },
+    {
+      "text": "——————— Xx (14+40+MSS)",
+      "confidence": 42,
+      "bbox": {
+        "x": 70,
+        "y": 91,
+        "w": 560,
+        "h": 24
+      }
+    },
+    {
+      "text": "MSS ; Gen ramen mem era",
+      "confidence": 42,
+      "bbox": {
+        "x": 70,
+        "y": 124,
+        "w": 560,
+        "h": 24
+      }
+    },
+    {
+      "text": "Sean ey wR RR > Q >",
+      "confidence": 42,
+      "bbox": {
+        "x": 70,
+        "y": 157,
+        "w": 560,
+        "h": 24
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.46153846153846156,
+    "averageConfidence": 42
+  }
+}

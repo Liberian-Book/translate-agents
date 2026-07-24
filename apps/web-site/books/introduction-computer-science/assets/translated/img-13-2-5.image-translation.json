@@ -1,0 +1,267 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-13-2-5.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/13-2-big-cloud-iaas-mainstream-capabilities.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-13-2-5.vi.png",
+  "ocr": [
+    {
+      "text": "* Subscription @ Resource group @ Time Range @",
+      "confidence": 74,
+      "bbox": {
+        "x": 130,
+        "y": 70,
+        "w": 1040,
+        "h": 46
+      }
+    },
+    {
+      "text": "Contoso IT - demo v | | mms-eus v | [Past Hour Vv]",
+      "confidence": 74,
+      "bbox": {
+        "x": 130,
+        "y": 163,
+        "w": 1040,
+        "h": 46
+      }
+    },
+    {
+      "text": "Contoso IT - demo > mms-cus",
+      "confidence": 74,
+      "bbox": {
+        "x": 130,
+        "y": 256,
+        "w": 1040,
+        "h": 46
+      }
+    },
+    {
+      "text": "Total Alerts Smart Groups © Total Alert Rules Learn More",
+      "confidence": 74,
+      "bbox": {
+        "x": 130,
+        "y": 349,
+        "w": 1040,
+        "h": 46
+      }
+    },
+    {
+      "text": "9) 9 1 1 5 About Alerts [3",
+      "confidence": 74,
+      "bbox": {
+        "x": 130,
+        "y": 442,
+        "w": 1040,
+        "h": 46
+      }
+    },
+    {
+      "text": "Since 8/1/2018, 4:38:39 PM 96.55% Reduction Enabled 13",
+      "confidence": 74,
+      "bbox": {
+        "x": 130,
+        "y": 535,
+        "w": 1040,
+        "h": 46
+      }
+    },
+    {
+      "text": "SEVERITY TOTAL ALERTS NEW ACKNOWLEDGED CLOSED",
+      "confidence": 74,
+      "bbox": {
+        "x": 130,
+        "y": 628,
+        "w": 1040,
+        "h": 46
+      }
+    },
+    {
+      "text": "Iswo 2» I 0 0",
+      "confidence": 74,
+      "bbox": {
+        "x": 130,
+        "y": 721,
+        "w": 1040,
+        "h": 46
+      }
+    },
+    {
+      "text": "|sevt 0 0 0 0",
+      "confidence": 74,
+      "bbox": {
+        "x": 130,
+        "y": 814,
+        "w": 1040,
+        "h": 46
+      }
+    },
+    {
+      "text": "|sev2 Ey | 3 0 0",
+      "confidence": 74,
+      "bbox": {
+        "x": 130,
+        "y": 907,
+        "w": 1040,
+        "h": 46
+      }
+    },
+    {
+      "text": "|sev3 [4 0 [} 0",
+      "confidence": 74,
+      "bbox": {
+        "x": 130,
+        "y": 1000,
+        "w": 1040,
+        "h": 46
+      }
+    },
+    {
+      "text": "Iseva 0 0 0 0",
+      "confidence": 74,
+      "bbox": {
+        "x": 130,
+        "y": 1093,
+        "w": 1040,
+        "h": 46
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "* Subscription @ Resource group @ Time Range @",
+      "target": "* Đăng ký @ Nhóm tài nguyên @ Khoảng thời gian @",
+      "bbox": {
+        "x": 130,
+        "y": 70,
+        "w": 1040,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "Contoso IT - demo v | | mms-eus v | [Past Hour Vv]",
+      "target": "Contoso CNTT - demo v | | mms-eus v | [Giờ Qua Vv]",
+      "bbox": {
+        "x": 130,
+        "y": 163,
+        "w": 1040,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "Contoso IT - demo > mms-cus",
+      "target": "Contoso CNTT - demo > mms-kh",
+      "bbox": {
+        "x": 130,
+        "y": 256,
+        "w": 1040,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "Total Alerts Smart Groups © Total Alert Rules Learn More",
+      "target": "Tổng số cảnh báo Nhóm thông minh © Quy tắc cảnh báo tổng Learn More",
+      "bbox": {
+        "x": 130,
+        "y": 349,
+        "w": 1040,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "9) 9 1 1 5 About Alerts [3",
+      "target": "Về Cảnh báo",
+      "bbox": {
+        "x": 130,
+        "y": 442,
+        "w": 1040,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "Since 8/1/2018, 4:38:39 PM 96.55% Reduction Enabled 13",
+      "target": "Kể từ 8/1/2018, 4:38:39 CH Giảm 96.55% Đã Bật 13",
+      "bbox": {
+        "x": 130,
+        "y": 535,
+        "w": 1040,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "SEVERITY TOTAL ALERTS NEW ACKNOWLEDGED CLOSED",
+      "target": "MỨC ĐỘ TỔNG SỐ CẢNH BÁO MỚI ĐƯỢC XÁC NHẬN ĐÃ ĐÓNG",
+      "bbox": {
+        "x": 130,
+        "y": 628,
+        "w": 1040,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "Iswo 2» I 0 0",
+      "target": "Iswo 2» I 0 0",
+      "bbox": {
+        "x": 130,
+        "y": 721,
+        "w": 1040,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "|sevt 0 0 0 0",
+      "target": "sevt 0 0 0 0",
+      "bbox": {
+        "x": 130,
+        "y": 814,
+        "w": 1040,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "|sev2 Ey | 3 0 0",
+      "target": "|sev2 Ey | 3 0 0",
+      "bbox": {
+        "x": 130,
+        "y": 907,
+        "w": 1040,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "|sev3 [4 0 [} 0",
+      "target": "|sev3 [4 0 [} 0",
+      "bbox": {
+        "x": 130,
+        "y": 1000,
+        "w": 1040,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "Iseva 0 0 0 0",
+      "target": "Iseva 0 0 0 0",
+      "bbox": {
+        "x": 130,
+        "y": 1093,
+        "w": 1040,
+        "h": 46
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.7613793103448275,
+    "averageConfidence": 74
+  }
+}

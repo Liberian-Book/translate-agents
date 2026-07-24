@@ -1,0 +1,309 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-2-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-2-cloud-based-and-cloud-native-applications-deployment-technologies.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-12-2-1.vi.png",
+  "ocr": [
+    {
+      "text": "Characteristics:",
+      "confidence": 68,
+      "bbox": {
+        "x": 128,
+        "y": 117,
+        "w": 1025,
+        "h": 78
+      }
+    },
+    {
+      "text": "«On-demand self-service",
+      "confidence": 68,
+      "bbox": {
+        "x": 128,
+        "y": 273,
+        "w": 1025,
+        "h": 78
+      }
+    },
+    {
+      "text": "Cloud * Broad network access",
+      "confidence": 68,
+      "bbox": {
+        "x": 128,
+        "y": 429,
+        "w": 1025,
+        "h": 78
+      }
+    },
+    {
+      "text": "computing . Resource pooling",
+      "confidence": 68,
+      "bbox": {
+        "x": 128,
+        "y": 585,
+        "w": 1025,
+        "h": 78
+      }
+    },
+    {
+      "text": "« Rapid elasticity",
+      "confidence": 68,
+      "bbox": {
+        "x": 128,
+        "y": 741,
+        "w": 1025,
+        "h": 78
+      }
+    },
+    {
+      "text": "* Measured service",
+      "confidence": 68,
+      "bbox": {
+        "x": 128,
+        "y": 897,
+        "w": 1025,
+        "h": 78
+      }
+    },
+    {
+      "text": "Deployment models Service models",
+      "confidence": 68,
+      "bbox": {
+        "x": 128,
+        "y": 1053,
+        "w": 1025,
+        "h": 78
+      }
+    },
+    {
+      "text": "al 5)",
+      "confidence": 68,
+      "bbox": {
+        "x": 128,
+        "y": 1209,
+        "w": 1025,
+        "h": 78
+      }
+    },
+    {
+      "text": "pn kr",
+      "confidence": 68,
+      "bbox": {
+        "x": 128,
+        "y": 1365,
+        "w": 1025,
+        "h": 78
+      }
+    },
+    {
+      "text": "Control / governance k =",
+      "confidence": 68,
+      "bbox": {
+        "x": 128,
+        "y": 1521,
+        "w": 1025,
+        "h": 78
+      }
+    },
+    {
+      "text": "Economic at scale in Iaas =",
+      "confidence": 68,
+      "bbox": {
+        "x": 128,
+        "y": 1677,
+        "w": 1025,
+        "h": 78
+      }
+    },
+    {
+      "text": "d= Cloud deployment technologies a",
+      "confidence": 68,
+      "bbox": {
+        "x": 128,
+        "y": 1833,
+        "w": 1025,
+        "h": 78
+      }
+    },
+    {
+      "text": "Workloads Services",
+      "confidence": 68,
+      "bbox": {
+        "x": 128,
+        "y": 1989,
+        "w": 1025,
+        "h": 78
+      }
+    },
+    {
+      "text": "[Baremetal ————————————————————————————————————————» Serverless]",
+      "confidence": 68,
+      "bbox": {
+        "x": 128,
+        "y": 2145,
+        "w": 1025,
+        "h": 78
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Characteristics:",
+      "target": "Đặc điểm:",
+      "bbox": {
+        "x": 128,
+        "y": 117,
+        "w": 1025,
+        "h": 78
+      },
+      "overflow": false
+    },
+    {
+      "source": "«On-demand self-service",
+      "target": "Dịch vụ tự phục vụ theo yêu cầu",
+      "bbox": {
+        "x": 128,
+        "y": 273,
+        "w": 1025,
+        "h": 78
+      },
+      "overflow": false
+    },
+    {
+      "source": "Cloud * Broad network access",
+      "target": "Đám mây * Truy cập mạng rộng",
+      "bbox": {
+        "x": 128,
+        "y": 429,
+        "w": 1025,
+        "h": 78
+      },
+      "overflow": false
+    },
+    {
+      "source": "computing . Resource pooling",
+      "target": "tính toán . Tích hợp tài nguyên",
+      "bbox": {
+        "x": 128,
+        "y": 585,
+        "w": 1025,
+        "h": 78
+      },
+      "overflow": false
+    },
+    {
+      "source": "« Rapid elasticity",
+      "target": "Tính đàn hồi nhanh chóng",
+      "bbox": {
+        "x": 128,
+        "y": 741,
+        "w": 1025,
+        "h": 78
+      },
+      "overflow": false
+    },
+    {
+      "source": "* Measured service",
+      "target": "Dịch vụ đo lường",
+      "bbox": {
+        "x": 128,
+        "y": 897,
+        "w": 1025,
+        "h": 78
+      },
+      "overflow": false
+    },
+    {
+      "source": "Deployment models Service models",
+      "target": "Mô hình triển khai Mô hình dịch vụ",
+      "bbox": {
+        "x": 128,
+        "y": 1053,
+        "w": 1025,
+        "h": 78
+      },
+      "overflow": false
+    },
+    {
+      "source": "al 5)",
+      "target": "al 5)",
+      "bbox": {
+        "x": 128,
+        "y": 1209,
+        "w": 1025,
+        "h": 78
+      },
+      "overflow": false
+    },
+    {
+      "source": "pn kr",
+      "target": "pn kr",
+      "bbox": {
+        "x": 128,
+        "y": 1365,
+        "w": 1025,
+        "h": 78
+      },
+      "overflow": false
+    },
+    {
+      "source": "Control / governance k =",
+      "target": "Kiểm soát / quản trị k =",
+      "bbox": {
+        "x": 128,
+        "y": 1521,
+        "w": 1025,
+        "h": 78
+      },
+      "overflow": false
+    },
+    {
+      "source": "Economic at scale in Iaas =",
+      "target": "Kinh tế quy mô trong IaaS",
+      "bbox": {
+        "x": 128,
+        "y": 1677,
+        "w": 1025,
+        "h": 78
+      },
+      "overflow": false
+    },
+    {
+      "source": "d= Cloud deployment technologies a",
+      "target": "c= Công nghệ triển khai đám mây",
+      "bbox": {
+        "x": 128,
+        "y": 1833,
+        "w": 1025,
+        "h": 78
+      },
+      "overflow": false
+    },
+    {
+      "source": "Workloads Services",
+      "target": "Dịch vụ Tải công việc",
+      "bbox": {
+        "x": 128,
+        "y": 1989,
+        "w": 1025,
+        "h": 78
+      },
+      "overflow": false
+    },
+    {
+      "source": "[Baremetal ————————————————————————————————————————» Serverless]",
+      "target": "[Baremetal ————————————————————————————————————————» Không máy chủ]",
+      "bbox": {
+        "x": 128,
+        "y": 2145,
+        "w": 1025,
+        "h": 78
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.8980169494381076,
+    "averageConfidence": 68
+  }
+}

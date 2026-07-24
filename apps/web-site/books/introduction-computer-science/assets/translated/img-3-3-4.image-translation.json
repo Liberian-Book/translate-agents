@@ -1,0 +1,13 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-3-3-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/3-3-formal-properties-of-algorithms.html",
+  "decision": "skip",
+  "reason": "low-text-density",
+  "outputImage": null,
+  "ocr": [],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0,
+    "averageConfidence": 0
+  }
+}

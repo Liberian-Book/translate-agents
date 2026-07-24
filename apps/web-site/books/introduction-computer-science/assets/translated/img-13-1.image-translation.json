@@ -1,0 +1,104 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-13-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/13-introduction.html",
+  "decision": "review",
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": ": _yp =k",
+      "confidence": 28,
+      "bbox": {
+        "x": 175,
+        "y": 96,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "eT gs iE d",
+      "confidence": 28,
+      "bbox": {
+        "x": 175,
+        "y": 224,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "Se | =k Ia fern EEN = p ==, C ~ s EA",
+      "confidence": 28,
+      "bbox": {
+        "x": 175,
+        "y": 352,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "= 1 [55 «gh 55s = = \"== EEE CE Ee =",
+      "confidence": 28,
+      "bbox": {
+        "x": 175,
+        "y": 480,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "mal el 0 REET To = f- = rr",
+      "confidence": 28,
+      "bbox": {
+        "x": 175,
+        "y": 608,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "ESL — aE - il Tl = a= .- = &: R= SHES © a",
+      "confidence": 28,
+      "bbox": {
+        "x": 175,
+        "y": 736,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "=: = Eo {peta == ee BE EE",
+      "confidence": 28,
+      "bbox": {
+        "x": 175,
+        "y": 864,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "iE = Tr",
+      "confidence": 28,
+      "bbox": {
+        "x": 175,
+        "y": 992,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "] -_ = SEE 5 a",
+      "confidence": 28,
+      "bbox": {
+        "x": 175,
+        "y": 1120,
+        "w": 1400,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.576,
+    "averageConfidence": 28
+  }
+}

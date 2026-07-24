@@ -1,0 +1,54 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-9-2-11.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/9-2-software-engineering-process.html",
+  "decision": "review",
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "B, - & - ) N =| (ser wn) | N EB",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 67,
+        "w": 1040,
+        "h": 45
+      }
+    },
+    {
+      "text": "Sad",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 157,
+        "w": 1040,
+        "h": 45
+      }
+    },
+    {
+      "text": "Product Sprint Sprint Increment",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 247,
+        "w": 1040,
+        "h": 45
+      }
+    },
+    {
+      "text": "backlog backlog",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 337,
+        "w": 1040,
+        "h": 45
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.2571428571428571,
+    "averageConfidence": 44
+  }
+}

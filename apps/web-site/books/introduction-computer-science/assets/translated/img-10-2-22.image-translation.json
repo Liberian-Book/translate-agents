@@ -1,0 +1,393 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-2-22.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-2-enterprise-architecture-management-frameworks.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-10-2-22.vi.png",
+  "ocr": [
+    {
+      "text": "Future state business capabilities",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 135,
+        "w": 1041,
+        "h": 90
+      }
+    },
+    {
+      "text": "Underwriting Policy and servicing Claims processing Finance and accounting",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 315,
+        "w": 1041,
+        "h": 90
+      }
+    },
+    {
+      "text": "a) Sales and lead a) Issues a) Registration and a) Financial planning",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 495,
+        "w": 1041,
+        "h": 90
+      }
+    },
+    {
+      "text": "generation b) Administration and validation and analysis",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 675,
+        "w": 1041,
+        "h": 90
+      }
+    },
+    {
+      "text": "b) Distribution management b) Claims investigation b) Controls and",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 855,
+        "w": 1041,
+        "h": 90
+      }
+    },
+    {
+      "text": "c) Quote management c) Change management and review governance",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 1035,
+        "w": 1041,
+        "h": 90
+      }
+    },
+    {
+      "text": "d) Underwriting d) Cancellation ¢) Claims settlement c) Tax and compliance",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 1215,
+        "w": 1041,
+        "h": 90
+      }
+    },
+    {
+      "text": "d) Administration d) Financial audits",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 1395,
+        "w": 1041,
+        "h": 90
+      }
+    },
+    {
+      "text": "e) Claims fraud and e) Financial reporting",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 1575,
+        "w": 1041,
+        "h": 90
+      }
+    },
+    {
+      "text": "resolution",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 1755,
+        "w": 1041,
+        "h": 90
+      }
+    },
+    {
+      "text": "Value chain Operating Business IT Business architecture",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 1935,
+        "w": 1041,
+        "h": 90
+      }
+    },
+    {
+      "text": "analysis strategies drivers enablers framework",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 2115,
+        "w": 1041,
+        "h": 90
+      }
+    },
+    {
+      "text": "Technology architecture models Drill down on key implementation patterns",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 2295,
+        "w": 1041,
+        "h": 90
+      }
+    },
+    {
+      "text": "Underwriting Business process Architecture",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 2475,
+        "w": 1041,
+        "h": 90
+      }
+    },
+    {
+      "text": "management transition",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 2655,
+        "w": 1041,
+        "h": 90
+      }
+    },
+    {
+      "text": "Conceptual model",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 2835,
+        "w": 1041,
+        "h": 90
+      }
+    },
+    {
+      "text": "Product Information",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 3015,
+        "w": 1041,
+        "h": 90
+      }
+    },
+    {
+      "text": "Logical model configurator bus",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 3195,
+        "w": 1041,
+        "h": 90
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Future state business capabilities",
+      "target": "Năng lực kinh doanh tương lai",
+      "bbox": {
+        "x": 130,
+        "y": 135,
+        "w": 1041,
+        "h": 90
+      },
+      "overflow": false
+    },
+    {
+      "source": "Underwriting Policy and servicing Claims processing Finance and accounting",
+      "target": "Chính sách bảo lãnh và phục vụ Xử lý yêu cầu Tài chính và kế toán",
+      "bbox": {
+        "x": 130,
+        "y": 315,
+        "w": 1041,
+        "h": 90
+      },
+      "overflow": false
+    },
+    {
+      "source": "a) Sales and lead a) Issues a) Registration and a) Financial planning",
+      "target": "a) Bán hàng và dẫn dắt  \na) Vấn đề  \na) Đăng ký  \na) Kế hoạch tài chính",
+      "bbox": {
+        "x": 130,
+        "y": 495,
+        "w": 1041,
+        "h": 90
+      },
+      "overflow": false
+    },
+    {
+      "source": "generation b) Administration and validation and analysis",
+      "target": "thế hệ b) Quản lý, xác thực và phân tích",
+      "bbox": {
+        "x": 130,
+        "y": 675,
+        "w": 1041,
+        "h": 90
+      },
+      "overflow": false
+    },
+    {
+      "source": "b) Distribution management b) Claims investigation b) Controls and",
+      "target": "b) Quản lý phân phối  \nb) Điều tra khiếu nại  \nb) Kiểm soát và",
+      "bbox": {
+        "x": 130,
+        "y": 855,
+        "w": 1041,
+        "h": 90
+      },
+      "overflow": false
+    },
+    {
+      "source": "c) Quote management c) Change management and review governance",
+      "target": "c) Quản lý báo giá  \nc) Quản lý thay đổi và xem xét quản trị",
+      "bbox": {
+        "x": 130,
+        "y": 1035,
+        "w": 1041,
+        "h": 90
+      },
+      "overflow": false
+    },
+    {
+      "source": "d) Underwriting d) Cancellation ¢) Claims settlement c) Tax and compliance",
+      "target": "d) Bảo lãnh  \nd) Hủy bỏ  \n¢) Giải quyết khiếu nại  \nc) Thuế và tuân thủ",
+      "bbox": {
+        "x": 130,
+        "y": 1215,
+        "w": 1041,
+        "h": 90
+      },
+      "overflow": false
+    },
+    {
+      "source": "d) Administration d) Financial audits",
+      "target": "d) Quản lý  \nd) Kiểm toán tài chính",
+      "bbox": {
+        "x": 130,
+        "y": 1395,
+        "w": 1041,
+        "h": 90
+      },
+      "overflow": false
+    },
+    {
+      "source": "e) Claims fraud and e) Financial reporting",
+      "target": "e) Gian lận yêu cầu và e) Báo cáo tài chính",
+      "bbox": {
+        "x": 130,
+        "y": 1575,
+        "w": 1041,
+        "h": 90
+      },
+      "overflow": false
+    },
+    {
+      "source": "resolution",
+      "target": "độ phân giải",
+      "bbox": {
+        "x": 130,
+        "y": 1755,
+        "w": 1041,
+        "h": 90
+      },
+      "overflow": false
+    },
+    {
+      "source": "Value chain Operating Business IT Business architecture",
+      "target": "Chuỗi giá trị Doanh nghiệp Vận hành Kiến trúc CNTT",
+      "bbox": {
+        "x": 130,
+        "y": 1935,
+        "w": 1041,
+        "h": 90
+      },
+      "overflow": false
+    },
+    {
+      "source": "analysis strategies drivers enablers framework",
+      "target": "chiến lược phân tích yếu tố thúc đẩy khung làm việc",
+      "bbox": {
+        "x": 130,
+        "y": 2115,
+        "w": 1041,
+        "h": 90
+      },
+      "overflow": false
+    },
+    {
+      "source": "Technology architecture models Drill down on key implementation patterns",
+      "target": "Mô hình kiến trúc công nghệ Phân tích các mẫu triển khai chính",
+      "bbox": {
+        "x": 130,
+        "y": 2295,
+        "w": 1041,
+        "h": 90
+      },
+      "overflow": false
+    },
+    {
+      "source": "Underwriting Business process Architecture",
+      "target": "Kiến trúc quy trình kinh doanh bảo lãnh",
+      "bbox": {
+        "x": 130,
+        "y": 2475,
+        "w": 1041,
+        "h": 90
+      },
+      "overflow": false
+    },
+    {
+      "source": "management transition",
+      "target": "chuyển giao quản lý",
+      "bbox": {
+        "x": 130,
+        "y": 2655,
+        "w": 1041,
+        "h": 90
+      },
+      "overflow": false
+    },
+    {
+      "source": "Conceptual model",
+      "target": "Mô hình khái niệm",
+      "bbox": {
+        "x": 130,
+        "y": 2835,
+        "w": 1041,
+        "h": 90
+      },
+      "overflow": false
+    },
+    {
+      "source": "Product Information",
+      "target": "Thông tin sản phẩm",
+      "bbox": {
+        "x": 130,
+        "y": 3015,
+        "w": 1041,
+        "h": 90
+      },
+      "overflow": false
+    },
+    {
+      "source": "Logical model configurator bus",
+      "target": "Bus cấu hình mô hình logic",
+      "bbox": {
+        "x": 130,
+        "y": 3195,
+        "w": 1041,
+        "h": 90
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 1.1511980809952176,
+    "averageConfidence": 89
+  }
+}

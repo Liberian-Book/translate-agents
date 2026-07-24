@@ -1,0 +1,183 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-1-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-1-introduction-to-cloud-native-applications.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-12-1-3.vi.png",
+  "ocr": [
+    {
+      "text": "N— ON",
+      "confidence": 78,
+      "bbox": {
+        "x": 46,
+        "y": 91,
+        "w": 365,
+        "h": 61
+      }
+    },
+    {
+      "text": "[mee",
+      "confidence": 78,
+      "bbox": {
+        "x": 46,
+        "y": 213,
+        "w": 365,
+        "h": 61
+      }
+    },
+    {
+      "text": "Business logic",
+      "confidence": 78,
+      "bbox": {
+        "x": 46,
+        "y": 335,
+        "w": 365,
+        "h": 61
+      }
+    },
+    {
+      "text": "NNN",
+      "confidence": 78,
+      "bbox": {
+        "x": 46,
+        "y": 457,
+        "w": 365,
+        "h": 61
+      }
+    },
+    {
+      "text": "i stem",
+      "confidence": 78,
+      "bbox": {
+        "x": 46,
+        "y": 579,
+        "w": 365,
+        "h": 61
+      }
+    },
+    {
+      "text": "Payment system | Shipping service",
+      "confidence": 78,
+      "bbox": {
+        "x": 46,
+        "y": 701,
+        "w": 365,
+        "h": 61
+      }
+    },
+    {
+      "text": "Reporting system",
+      "confidence": 78,
+      "bbox": {
+        "x": 46,
+        "y": 823,
+        "w": 365,
+        "h": 61
+      }
+    },
+    {
+      "text": "Data access layer",
+      "confidence": 78,
+      "bbox": {
+        "x": 46,
+        "y": 945,
+        "w": 365,
+        "h": 61
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "N— ON",
+      "target": "N— BẬT",
+      "bbox": {
+        "x": 46,
+        "y": 91,
+        "w": 365,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "[mee",
+      "target": "[mee",
+      "bbox": {
+        "x": 46,
+        "y": 213,
+        "w": 365,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "Business logic",
+      "target": "Logic kinh doanh",
+      "bbox": {
+        "x": 46,
+        "y": 335,
+        "w": 365,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "NNN",
+      "target": "NNN",
+      "bbox": {
+        "x": 46,
+        "y": 457,
+        "w": 365,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "i stem",
+      "target": "thân i",
+      "bbox": {
+        "x": 46,
+        "y": 579,
+        "w": 365,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "Payment system | Shipping service",
+      "target": "Hệ thống thanh toán | Dịch vụ vận chuyển",
+      "bbox": {
+        "x": 46,
+        "y": 701,
+        "w": 365,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "Reporting system",
+      "target": "Hệ thống báo cáo",
+      "bbox": {
+        "x": 46,
+        "y": 823,
+        "w": 365,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "Data access layer",
+      "target": "Lớp truy cập dữ liệu",
+      "bbox": {
+        "x": 46,
+        "y": 945,
+        "w": 365,
+        "h": 61
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.5126168439471381,
+    "averageConfidence": 78
+  }
+}

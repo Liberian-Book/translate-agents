@@ -1,0 +1,204 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-1-7.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-1-patterns-management.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-10-1-7.vi.png",
+  "ocr": [
+    {
+      "text": "Enterprise perspectives",
+      "confidence": 78,
+      "bbox": {
+        "x": 112,
+        "y": 52,
+        "w": 899,
+        "h": 35
+      }
+    },
+    {
+      "text": "Analysis/",
+      "confidence": 78,
+      "bbox": {
+        "x": 112,
+        "y": 122,
+        "w": 899,
+        "h": 35
+      }
+    },
+    {
+      "text": "design",
+      "confidence": 78,
+      "bbox": {
+        "x": 112,
+        "y": 192,
+        "w": 899,
+        "h": 35
+      }
+    },
+    {
+      "text": "Architecture i",
+      "confidence": 78,
+      "bbox": {
+        "x": 112,
+        "y": 262,
+        "w": 899,
+        "h": 35
+      }
+    },
+    {
+      "text": "and Implementation",
+      "confidence": 78,
+      "bbox": {
+        "x": 112,
+        "y": 332,
+        "w": 899,
+        "h": 35
+      }
+    },
+    {
+      "text": "solution",
+      "confidence": 78,
+      "bbox": {
+        "x": 112,
+        "y": 402,
+        "w": 899,
+        "h": 35
+      }
+    },
+    {
+      "text": "engineering Product",
+      "confidence": 78,
+      "bbox": {
+        "x": 112,
+        "y": 472,
+        "w": 899,
+        "h": 35
+      }
+    },
+    {
+      "text": "views",
+      "confidence": 78,
+      "bbox": {
+        "x": 112,
+        "y": 542,
+        "w": 899,
+        "h": 35
+      }
+    },
+    {
+      "text": "PER 0",
+      "confidence": 78,
+      "bbox": {
+        "x": 112,
+        "y": 612,
+        "w": 899,
+        "h": 35
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Enterprise perspectives",
+      "target": "Quan điểm doanh nghiệp",
+      "bbox": {
+        "x": 112,
+        "y": 52,
+        "w": 899,
+        "h": 35
+      },
+      "overflow": false
+    },
+    {
+      "source": "Analysis/",
+      "target": "Phân tích",
+      "bbox": {
+        "x": 112,
+        "y": 122,
+        "w": 899,
+        "h": 35
+      },
+      "overflow": false
+    },
+    {
+      "source": "design",
+      "target": "thiết kế",
+      "bbox": {
+        "x": 112,
+        "y": 192,
+        "w": 899,
+        "h": 35
+      },
+      "overflow": false
+    },
+    {
+      "source": "Architecture i",
+      "target": "Kiến trúc i",
+      "bbox": {
+        "x": 112,
+        "y": 262,
+        "w": 899,
+        "h": 35
+      },
+      "overflow": false
+    },
+    {
+      "source": "and Implementation",
+      "target": "và Triển khai",
+      "bbox": {
+        "x": 112,
+        "y": 332,
+        "w": 899,
+        "h": 35
+      },
+      "overflow": false
+    },
+    {
+      "source": "solution",
+      "target": "giải pháp",
+      "bbox": {
+        "x": 112,
+        "y": 402,
+        "w": 899,
+        "h": 35
+      },
+      "overflow": false
+    },
+    {
+      "source": "engineering Product",
+      "target": "Sản phẩm kỹ thuật",
+      "bbox": {
+        "x": 112,
+        "y": 472,
+        "w": 899,
+        "h": 35
+      },
+      "overflow": false
+    },
+    {
+      "source": "views",
+      "target": "cái nhìn",
+      "bbox": {
+        "x": 112,
+        "y": 542,
+        "w": 899,
+        "h": 35
+      },
+      "overflow": false
+    },
+    {
+      "source": "PER 0",
+      "target": "PER 0",
+      "bbox": {
+        "x": 112,
+        "y": 612,
+        "w": 899,
+        "h": 35
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.5778530967383851,
+    "averageConfidence": 78
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-3-12.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-3-example-paas-and-faas-deployments-of-cloud-native-applications.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-12-3-12.vi.png",
+  "ocr": [
+    {
+      "text": "€3 Welcome to the Tanzu Community Edition Installer",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 89,
+        "w": 1041,
+        "h": 59
+      }
+    },
+    {
+      "text": "mE Tanz Community Ediion (TCE) is hares Open Source Kubaretes drbuton. The nstallr wil deploy a temporary clistr on you local machine to",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 207,
+        "w": 1041,
+        "h": 59
+      }
+    },
+    {
+      "text": "mE J EE TE Fo Ee A To CR Er TT TT Tr ee ee er TS",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 325,
+        "w": 1041,
+        "h": 59
+      }
+    },
+    {
+      "text": "wa For more details see the getting started guide.",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 443,
+        "w": 1041,
+        "h": 59
+      }
+    },
+    {
+      "text": "Vim",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 561,
+        "w": 1041,
+        "h": 59
+      }
+    },
+    {
+      "text": "Deploy the management cluster",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 679,
+        "w": 1041,
+        "h": 59
+      }
+    },
+    {
+      "text": "Docker VMware vSphere Amazon Web Services",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 797,
+        "w": 1041,
+        "h": 59
+      }
+    },
+    {
+      "text": "Deptoy your management ste on you Deptay your management cster on Deploy your management cluster on",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 915,
+        "w": 1041,
+        "h": 59
+      }
+    },
+    {
+      "text": "loca worstaton Vac vepnere Amozon Esti Compute Cloud",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 1033,
+        "w": 1041,
+        "h": 59
+      }
+    },
+    {
+      "text": "DEPLOY DEPLOY DEPLOY",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 1151,
+        "w": 1041,
+        "h": 59
+      }
+    },
+    {
+      "text": "Microsoft Azure",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 1269,
+        "w": 1041,
+        "h": 59
+      }
+    },
+    {
+      "text": "Deploy your management cster on",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 1387,
+        "w": 1041,
+        "h": 59
+      }
+    },
+    {
+      "text": "ict Azure",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 1505,
+        "w": 1041,
+        "h": 59
+      }
+    },
+    {
+      "text": "DEPLOY",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 1623,
+        "w": 1041,
+        "h": 59
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "€3 Welcome to the Tanzu Community Edition Installer",
+      "target": "€3 Chào mừng bạn đến với Trình cài đặt Tanzu Community Edition",
+      "bbox": {
+        "x": 130,
+        "y": 89,
+        "w": 1041,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "mE Tanz Community Ediion (TCE) is hares Open Source Kubaretes drbuton. The nstallr wil deploy a temporary clistr on you local machine to",
+      "target": "Phiên bản Cộng đồng mE Tanz (TCE) là bản phân phối Kubernetes mã nguồn mở. Trình cài đặt sẽ triển khai một cụm tạm thời trên máy cục bộ của bạn để",
+      "bbox": {
+        "x": 130,
+        "y": 207,
+        "w": 1041,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "mE J EE TE Fo Ee A To CR Er TT TT Tr ee ee er TS",
+      "target": "mE J EE TE Fo Ee A To CR Er TT TT Tr ee ee er TS",
+      "bbox": {
+        "x": 130,
+        "y": 325,
+        "w": 1041,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "wa For more details see the getting started guide.",
+      "target": "Để biết thêm chi tiết, xem hướng dẫn bắt đầu.",
+      "bbox": {
+        "x": 130,
+        "y": 443,
+        "w": 1041,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "Vim",
+      "target": "Vim",
+      "bbox": {
+        "x": 130,
+        "y": 561,
+        "w": 1041,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "Deploy the management cluster",
+      "target": "Triển khai cụm quản lý",
+      "bbox": {
+        "x": 130,
+        "y": 679,
+        "w": 1041,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "Docker VMware vSphere Amazon Web Services",
+      "target": "Docker VMware vSphere Amazon Web Services",
+      "bbox": {
+        "x": 130,
+        "y": 797,
+        "w": 1041,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "Deptoy your management ste on you Deptay your management cster on Deploy your management cluster on",
+      "target": "Triển khai cụm quản lý của bạn trên",
+      "bbox": {
+        "x": 130,
+        "y": 915,
+        "w": 1041,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "loca worstaton Vac vepnere Amozon Esti Compute Cloud",
+      "target": "trạm làm việc địa phương Dịch vụ Amazon Elastic Compute Cloud",
+      "bbox": {
+        "x": 130,
+        "y": 1033,
+        "w": 1041,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "DEPLOY DEPLOY DEPLOY",
+      "target": "Triển khai Triển khai Triển khai",
+      "bbox": {
+        "x": 130,
+        "y": 1151,
+        "w": 1041,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "Microsoft Azure",
+      "target": "Microsoft Azure",
+      "bbox": {
+        "x": 130,
+        "y": 1269,
+        "w": 1041,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "Deploy your management cster on",
+      "target": "Triển khai cụm quản lý của bạn trên",
+      "bbox": {
+        "x": 130,
+        "y": 1387,
+        "w": 1041,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "ict Azure",
+      "target": "Azure ICT",
+      "bbox": {
+        "x": 130,
+        "y": 1505,
+        "w": 1041,
+        "h": 59
+      },
+      "overflow": false
+    },
+    {
+      "source": "DEPLOY",
+      "target": "Triển khai",
+      "bbox": {
+        "x": 130,
+        "y": 1623,
+        "w": 1041,
+        "h": 59
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.8955650125294489,
+    "averageConfidence": 62
+  }
+}

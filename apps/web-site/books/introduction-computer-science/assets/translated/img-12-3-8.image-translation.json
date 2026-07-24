@@ -1,0 +1,204 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-3-8.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-3-example-paas-and-faas-deployments-of-cloud-native-applications.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-12-3-8.vi.png",
+  "ocr": [
+    {
+      "text": "9% Workioads J addon-http-application-routing-external-dns kube-system [v] mn 1 1 8 days",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 35,
+        "w": 1041,
+        "h": 24
+      }
+    },
+    {
+      "text": "| . ] addon-http-application-routing-nginx-ingress-controller kube-system [] mn 1 1 8 days",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 81,
+        "w": 1041,
+        "h": 24
+      }
+    },
+    {
+      "text": "= Services and ingresses",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 127,
+        "w": 1041,
+        "h": 24
+      }
+    },
+    {
+      "text": "J ama-logs-rs kube-system [] mn 1 1 8 days",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 173,
+        "w": 1041,
+        "h": 24
+      }
+    },
+    {
+      "text": "B& storage",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 219,
+        "w": 1041,
+        "h": 24
+      }
+    },
+    {
+      "text": "[Jemaexpress — defaut Qn 1 1 8days",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 265,
+        "w": 1041,
+        "h": 24
+      }
+    },
+    {
+      "text": "[=] Configuration",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 311,
+        "w": 1041,
+        "h": 24
+      }
+    },
+    {
+      "text": "[| cee 1 1 24minutes",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 357,
+        "w": 1041,
+        "h": 24
+      }
+    },
+    {
+      "text": "Settings ] coredns kube-system @ 22 2 2 8days",
+      "confidence": 63,
+      "bbox": {
+        "x": 130,
+        "y": 403,
+        "w": 1041,
+        "h": 24
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "9% Workioads J addon-http-application-routing-external-dns kube-system [v] mn 1 1 8 days",
+      "target": "9% Tải công việc J addon-http-application-routing-external-dns kube-system [v] mn 1 1 8 ngày",
+      "bbox": {
+        "x": 130,
+        "y": 35,
+        "w": 1041,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "| . ] addon-http-application-routing-nginx-ingress-controller kube-system [] mn 1 1 8 days",
+      "target": "bộ điều khiển ingress nginx addon-http-application-routing kube-system",
+      "bbox": {
+        "x": 130,
+        "y": 81,
+        "w": 1041,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "= Services and ingresses",
+      "target": "Dịch vụ và lối vào",
+      "bbox": {
+        "x": 130,
+        "y": 127,
+        "w": 1041,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "J ama-logs-rs kube-system [] mn 1 1 8 days",
+      "target": "J ama-logs-rs kube-system [] mn 1 1 8 ngày",
+      "bbox": {
+        "x": 130,
+        "y": 173,
+        "w": 1041,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "B& storage",
+      "target": "Lưu trữ B&",
+      "bbox": {
+        "x": 130,
+        "y": 219,
+        "w": 1041,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "[Jemaexpress — defaut Qn 1 1 8days",
+      "target": "Jemaexpress — mặc định Qn 1 1 8 ngày",
+      "bbox": {
+        "x": 130,
+        "y": 265,
+        "w": 1041,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "[=] Configuration",
+      "target": "Cấu hình",
+      "bbox": {
+        "x": 130,
+        "y": 311,
+        "w": 1041,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "[| cee 1 1 24minutes",
+      "target": "24 phút",
+      "bbox": {
+        "x": 130,
+        "y": 357,
+        "w": 1041,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "Settings ] coredns kube-system @ 22 2 2 8days",
+      "target": "Cài đặt ] coredns kube-system @ 22 2 2 8 ngày",
+      "bbox": {
+        "x": 130,
+        "y": 403,
+        "w": 1041,
+        "h": 24
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.598038772410895,
+    "averageConfidence": 63
+  }
+}

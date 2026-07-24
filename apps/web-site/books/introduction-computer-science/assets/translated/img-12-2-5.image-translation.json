@@ -1,0 +1,477 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-2-5.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-2-cloud-based-and-cloud-native-applications-deployment-technologies.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-12-2-5.vi.png",
+  "ocr": [
+    {
+      "text": "On-premise Iaas Paas Saas",
+      "confidence": 72,
+      "bbox": {
+        "x": 122,
+        "y": 72,
+        "w": 973,
+        "h": 48
+      }
+    },
+    {
+      "text": "Software Software Software Software",
+      "confidence": 72,
+      "bbox": {
+        "x": 122,
+        "y": 168,
+        "w": 973,
+        "h": 48
+      }
+    },
+    {
+      "text": "Application Application Application Application",
+      "confidence": 72,
+      "bbox": {
+        "x": 122,
+        "y": 264,
+        "w": 973,
+        "h": 48
+      }
+    },
+    {
+      "text": "Data Data Data Data 5",
+      "confidence": 72,
+      "bbox": {
+        "x": 122,
+        "y": 360,
+        "w": 973,
+        "h": 48
+      }
+    },
+    {
+      "text": "& |Platform Platform Platform Platform el 2",
+      "confidence": 72,
+      "bbox": {
+        "x": 122,
+        "y": 456,
+        "w": 973,
+        "h": 48
+      }
+    },
+    {
+      "text": "5 Runtime environment Runtime environment Runtime environment Runtime environment H",
+      "confidence": 72,
+      "bbox": {
+        "x": 122,
+        "y": 552,
+        "w": 973,
+        "h": 48
+      }
+    },
+    {
+      "text": "Hd Middleware Middleware Middleware Middleware Ell ¢",
+      "confidence": 72,
+      "bbox": {
+        "x": 122,
+        "y": 648,
+        "w": 973,
+        "h": 48
+      }
+    },
+    {
+      "text": "E Operating system Operating system Operating system Operating system 2S",
+      "confidence": 72,
+      "bbox": {
+        "x": 122,
+        "y": 744,
+        "w": 973,
+        "h": 48
+      }
+    },
+    {
+      "text": "3 Infrastructure Infrastructure Infrastructure Infrastructure & £",
+      "confidence": 72,
+      "bbox": {
+        "x": 122,
+        "y": 840,
+        "w": 973,
+        "h": 48
+      }
+    },
+    {
+      "text": "Virtualization Virtualization Virtualization Virtualization s |",
+      "confidence": 72,
+      "bbox": {
+        "x": 122,
+        "y": 936,
+        "w": 973,
+        "h": 48
+      }
+    },
+    {
+      "text": "x Servers x Servers x Servers x Servers 2 =",
+      "confidence": 72,
+      "bbox": {
+        "x": 122,
+        "y": 1032,
+        "w": 973,
+        "h": 48
+      }
+    },
+    {
+      "text": "g (Compute/GPU/HPC) 8 (Compute/GPU/HPC) 2 (Compute/GPU/HPC) g (Compute/GPU/HPC) H H",
+      "confidence": 72,
+      "bbox": {
+        "x": 122,
+        "y": 1128,
+        "w": 973,
+        "h": 48
+      }
+    },
+    {
+      "text": "8 Storage g Storage g Storage 2 Storage =",
+      "confidence": 72,
+      "bbox": {
+        "x": 122,
+        "y": 1224,
+        "w": 973,
+        "h": 48
+      }
+    },
+    {
+      "text": "= (Object/block/file) = (Object/block/file) (Object/block/file) (Object/block/file)",
+      "confidence": 72,
+      "bbox": {
+        "x": 122,
+        "y": 1320,
+        "w": 973,
+        "h": 48
+      }
+    },
+    {
+      "text": "CT —",
+      "confidence": 72,
+      "bbox": {
+        "x": 122,
+        "y": 1416,
+        "w": 973,
+        "h": 48
+      }
+    },
+    {
+      "text": "Complex/high cost and ~~ Complex/high effort investment Simple/low effort investment",
+      "confidence": 72,
+      "bbox": {
+        "x": 122,
+        "y": 1512,
+        "w": 973,
+        "h": 48
+      }
+    },
+    {
+      "text": "high effort investment compute, storage, network N N os",
+      "confidence": 72,
+      "bbox": {
+        "x": 122,
+        "y": 1608,
+        "w": 973,
+        "h": 48
+      }
+    },
+    {
+      "text": "0S, middleware, runtime Application data",
+      "confidence": 72,
+      "bbox": {
+        "x": 122,
+        "y": 1704,
+        "w": 973,
+        "h": 48
+      }
+    },
+    {
+      "text": "environment, compute, 0S, middleware,",
+      "confidence": 72,
+      "bbox": {
+        "x": 122,
+        "y": 1800,
+        "w": 973,
+        "h": 48
+      }
+    },
+    {
+      "text": "storage, network runtime environment,",
+      "confidence": 72,
+      "bbox": {
+        "x": 122,
+        "y": 1896,
+        "w": 973,
+        "h": 48
+      }
+    },
+    {
+      "text": "System adminstrators/ Application developers lod age",
+      "confidence": 72,
+      "bbox": {
+        "x": 122,
+        "y": 1992,
+        "w": 973,
+        "h": 48
+      }
+    },
+    {
+      "text": "infrastructure architects r",
+      "confidence": 72,
+      "bbox": {
+        "x": 122,
+        "y": 2088,
+        "w": 973,
+        "h": 48
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "On-premise Iaas Paas Saas",
+      "target": "Hạ tầng tại chỗ IaaS PaaS SaaS",
+      "bbox": {
+        "x": 122,
+        "y": 72,
+        "w": 973,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "Software Software Software Software",
+      "target": "Phần mềm Phần mềm Phần mềm Phần mềm",
+      "bbox": {
+        "x": 122,
+        "y": 168,
+        "w": 973,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "Application Application Application Application",
+      "target": "Ứng dụng Ứng dụng Ứng dụng Ứng dụng",
+      "bbox": {
+        "x": 122,
+        "y": 264,
+        "w": 973,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "Data Data Data Data 5",
+      "target": "Dữ liệu Dữ liệu Dữ liệu Dữ liệu 5",
+      "bbox": {
+        "x": 122,
+        "y": 360,
+        "w": 973,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "& |Platform Platform Platform Platform el 2",
+      "target": "Nền tảng Nền tảng Nền tảng Nền tảng el 2",
+      "bbox": {
+        "x": 122,
+        "y": 456,
+        "w": 973,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "5 Runtime environment Runtime environment Runtime environment Runtime environment H",
+      "target": "Môi trường thực thi",
+      "bbox": {
+        "x": 122,
+        "y": 552,
+        "w": 973,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "Hd Middleware Middleware Middleware Middleware Ell ¢",
+      "target": "Hd Trung gian Trung gian Trung gian Trung gian Ell ¢",
+      "bbox": {
+        "x": 122,
+        "y": 648,
+        "w": 973,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "E Operating system Operating system Operating system Operating system 2S",
+      "target": "Hệ điều hành Hệ điều hành Hệ điều hành Hệ điều hành 2S",
+      "bbox": {
+        "x": 122,
+        "y": 744,
+        "w": 973,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "3 Infrastructure Infrastructure Infrastructure Infrastructure & £",
+      "target": "Cơ sở hạ tầng Cơ sở hạ tầng Cơ sở hạ tầng Cơ sở hạ tầng & £",
+      "bbox": {
+        "x": 122,
+        "y": 840,
+        "w": 973,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "Virtualization Virtualization Virtualization Virtualization s |",
+      "target": "San ảo",
+      "bbox": {
+        "x": 122,
+        "y": 936,
+        "w": 973,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "x Servers x Servers x Servers x Servers 2 =",
+      "target": "x Máy chủ x Máy chủ x Máy chủ x Máy chủ 2 =",
+      "bbox": {
+        "x": 122,
+        "y": 1032,
+        "w": 973,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "g (Compute/GPU/HPC) 8 (Compute/GPU/HPC) 2 (Compute/GPU/HPC) g (Compute/GPU/HPC) H H",
+      "target": "g (Tính toán/GPU/HPC) 8 (Tính toán/GPU/HPC) 2 (Tính toán/GPU/HPC) g (Tính toán/GPU/HPC) H H",
+      "bbox": {
+        "x": 122,
+        "y": 1128,
+        "w": 973,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "8 Storage g Storage g Storage 2 Storage =",
+      "target": "8 Lưu trữ g Lưu trữ g Lưu trữ 2 Lưu trữ =",
+      "bbox": {
+        "x": 122,
+        "y": 1224,
+        "w": 973,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "= (Object/block/file) = (Object/block/file) (Object/block/file) (Object/block/file)",
+      "target": "= (Đối tượng/khối/tệp) = (Đối tượng/khối/tệp) (Đối tượng/khối/tệp) (Đối tượng/khối/tệp)",
+      "bbox": {
+        "x": 122,
+        "y": 1320,
+        "w": 973,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "CT —",
+      "target": "CT —",
+      "bbox": {
+        "x": 122,
+        "y": 1416,
+        "w": 973,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "Complex/high cost and ~~ Complex/high effort investment Simple/low effort investment",
+      "target": "Đầu tư phức tạp/có chi phí cao và ~~ Đầu tư phức tạp/có nỗ lực cao Đầu tư đơn giản/có nỗ lực thấp",
+      "bbox": {
+        "x": 122,
+        "y": 1512,
+        "w": 973,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "high effort investment compute, storage, network N N os",
+      "target": "đầu tư nỗ lực cao tính toán, lưu trữ, mạng N N os",
+      "bbox": {
+        "x": 122,
+        "y": 1608,
+        "w": 973,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "0S, middleware, runtime Application data",
+      "target": "0S, phần mềm trung gian, thời gian chạy Dữ liệu ứng dụng",
+      "bbox": {
+        "x": 122,
+        "y": 1704,
+        "w": 973,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "environment, compute, 0S, middleware,",
+      "target": "môi trường, tính toán, hệ điều hành, phần mềm trung gian",
+      "bbox": {
+        "x": 122,
+        "y": 1800,
+        "w": 973,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "storage, network runtime environment,",
+      "target": "lưu trữ, môi trường thực thi mạng",
+      "bbox": {
+        "x": 122,
+        "y": 1896,
+        "w": 973,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "System adminstrators/ Application developers lod age",
+      "target": "Quản trị viên hệ thống / Nhà phát triển ứng dụng tuổi nghề",
+      "bbox": {
+        "x": 122,
+        "y": 1992,
+        "w": 973,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "infrastructure architects r",
+      "target": "kiến trúc sư hạ tầng",
+      "bbox": {
+        "x": 122,
+        "y": 2088,
+        "w": 973,
+        "h": 48
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 1.4059462299675978,
+    "averageConfidence": 72
+  }
+}

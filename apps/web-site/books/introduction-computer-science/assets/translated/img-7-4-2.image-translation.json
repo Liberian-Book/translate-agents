@@ -1,0 +1,162 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-7-4-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/7-4-programming-language-implementation.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-7-4-2.vi.png",
+  "ocr": [
+    {
+      "text": "Write once Run anywhere",
+      "confidence": 70,
+      "bbox": {
+        "x": 130,
+        "y": 56,
+        "w": 1037,
+        "h": 37
+      }
+    },
+    {
+      "text": "Java virtual —— Windows JVM",
+      "confidence": 70,
+      "bbox": {
+        "x": 130,
+        "y": 131,
+        "w": 1037,
+        "h": 37
+      }
+    },
+    {
+      "text": "Source code — Java compiler —= Bytecode —» machine",
+      "confidence": 70,
+      "bbox": {
+        "x": 130,
+        "y": 206,
+        "w": 1037,
+        "h": 37
+      }
+    },
+    {
+      "text": "(vm)",
+      "confidence": 70,
+      "bbox": {
+        "x": 130,
+        "y": 281,
+        "w": 1037,
+        "h": 37
+      }
+    },
+    {
+      "text": "Linux JVM",
+      "confidence": 70,
+      "bbox": {
+        "x": 130,
+        "y": 356,
+        "w": 1037,
+        "h": 37
+      }
+    },
+    {
+      "text": "Mac JVM",
+      "confidence": 70,
+      "bbox": {
+        "x": 130,
+        "y": 431,
+        "w": 1037,
+        "h": 37
+      }
+    },
+    {
+      "text": "Android JVM",
+      "confidence": 70,
+      "bbox": {
+        "x": 130,
+        "y": 506,
+        "w": 1037,
+        "h": 37
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Write once Run anywhere",
+      "target": "Viết một lần, chạy mọi nơi",
+      "bbox": {
+        "x": 130,
+        "y": 56,
+        "w": 1037,
+        "h": 37
+      },
+      "overflow": false
+    },
+    {
+      "source": "Java virtual —— Windows JVM",
+      "target": "Java ảo —— Windows JVM",
+      "bbox": {
+        "x": 130,
+        "y": 131,
+        "w": 1037,
+        "h": 37
+      },
+      "overflow": false
+    },
+    {
+      "source": "Source code — Java compiler —= Bytecode —» machine",
+      "target": "Mã nguồn — Biên dịch viên Java — Mã byte — Máy tính",
+      "bbox": {
+        "x": 130,
+        "y": 206,
+        "w": 1037,
+        "h": 37
+      },
+      "overflow": false
+    },
+    {
+      "source": "(vm)",
+      "target": "(vm)",
+      "bbox": {
+        "x": 130,
+        "y": 281,
+        "w": 1037,
+        "h": 37
+      },
+      "overflow": false
+    },
+    {
+      "source": "Linux JVM",
+      "target": "JVM trên Linux",
+      "bbox": {
+        "x": 130,
+        "y": 356,
+        "w": 1037,
+        "h": 37
+      },
+      "overflow": false
+    },
+    {
+      "source": "Mac JVM",
+      "target": "JVM trên Mac",
+      "bbox": {
+        "x": 130,
+        "y": 431,
+        "w": 1037,
+        "h": 37
+      },
+      "overflow": false
+    },
+    {
+      "source": "Android JVM",
+      "target": "JVM Android",
+      "bbox": {
+        "x": 130,
+        "y": 506,
+        "w": 1037,
+        "h": 37
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.4428204468713728,
+    "averageConfidence": 70
+  }
+}

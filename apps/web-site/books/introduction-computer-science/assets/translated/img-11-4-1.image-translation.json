@@ -1,0 +1,162 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-4-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-4-sample-responsive-wad-with-bootstrap-react-and-django.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-11-4-1.vi.png",
+  "ocr": [
+    {
+      "text": "Django REST framework",
+      "confidence": 76,
+      "bbox": {
+        "x": 130,
+        "y": 93,
+        "w": 1040,
+        "h": 62
+      }
+    },
+    {
+      "text": "Api Root / Category List",
+      "confidence": 76,
+      "bbox": {
+        "x": 130,
+        "y": 217,
+        "w": 1040,
+        "h": 62
+      }
+    },
+    {
+      "text": "Category List prions",
+      "confidence": 76,
+      "bbox": {
+        "x": 130,
+        "y": 341,
+        "w": 1040,
+        "h": 62
+      }
+    },
+    {
+      "text": "\"id\": 2",
+      "confidence": 76,
+      "bbox": {
+        "x": 130,
+        "y": 465,
+        "w": 1040,
+        "h": 62
+      }
+    },
+    {
+      "text": "“name\": \"Personal\"",
+      "confidence": 76,
+      "bbox": {
+        "x": 130,
+        "y": 589,
+        "w": 1040,
+        "h": 62
+      }
+    },
+    {
+      "text": "Raw data HTML form",
+      "confidence": 76,
+      "bbox": {
+        "x": 130,
+        "y": 713,
+        "w": 1040,
+        "h": 62
+      }
+    },
+    {
+      "text": "Name",
+      "confidence": 76,
+      "bbox": {
+        "x": 130,
+        "y": 837,
+        "w": 1040,
+        "h": 62
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Django REST framework",
+      "target": "Khung làm việc Django REST",
+      "bbox": {
+        "x": 130,
+        "y": 93,
+        "w": 1040,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "Api Root / Category List",
+      "target": "Gốc API / Danh sách danh mục",
+      "bbox": {
+        "x": 130,
+        "y": 217,
+        "w": 1040,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "Category List prions",
+      "target": "Danh sách danh mục prion",
+      "bbox": {
+        "x": 130,
+        "y": 341,
+        "w": 1040,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "\"id\": 2",
+      "target": "\"id\": 2",
+      "bbox": {
+        "x": 130,
+        "y": 465,
+        "w": 1040,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "“name\": \"Personal\"",
+      "target": "\"Cá nhân\"",
+      "bbox": {
+        "x": 130,
+        "y": 589,
+        "w": 1040,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "Raw data HTML form",
+      "target": "Dữ liệu thô mẫu HTML",
+      "bbox": {
+        "x": 130,
+        "y": 713,
+        "w": 1040,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "Name",
+      "target": "Tên",
+      "bbox": {
+        "x": 130,
+        "y": 837,
+        "w": 1040,
+        "h": 62
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.44742268041237115,
+    "averageConfidence": 76
+  }
+}

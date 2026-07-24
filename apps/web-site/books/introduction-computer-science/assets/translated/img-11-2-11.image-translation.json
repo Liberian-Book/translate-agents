@@ -1,0 +1,162 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-2-11.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-2-sample-responsive-wad-with-bootstrap-and-django.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-11-2-11.vi.png",
+  "ocr": [
+    {
+      "text": "Api Root / Category List / Category Instance",
+      "confidence": 76,
+      "bbox": {
+        "x": 131,
+        "y": 80,
+        "w": 1044,
+        "h": 53
+      }
+    },
+    {
+      "text": "Category Instance ociere Jf oerions",
+      "confidence": 76,
+      "bbox": {
+        "x": 131,
+        "y": 186,
+        "w": 1044,
+        "h": 53
+      }
+    },
+    {
+      "text": "Content-Type: application/json",
+      "confidence": 76,
+      "bbox": {
+        "x": 131,
+        "y": 292,
+        "w": 1044,
+        "h": 53
+      }
+    },
+    {
+      "text": "\"id\": 3",
+      "confidence": 76,
+      "bbox": {
+        "x": 131,
+        "y": 398,
+        "w": 1044,
+        "h": 53
+      }
+    },
+    {
+      "text": "“name”: \"Work\"",
+      "confidence": 76,
+      "bbox": {
+        "x": 131,
+        "y": 504,
+        "w": 1044,
+        "h": 53
+      }
+    },
+    {
+      "text": "Raw data HTML form",
+      "confidence": 76,
+      "bbox": {
+        "x": 131,
+        "y": 610,
+        "w": 1044,
+        "h": 53
+      }
+    },
+    {
+      "text": "Name Work",
+      "confidence": 76,
+      "bbox": {
+        "x": 131,
+        "y": 716,
+        "w": 1044,
+        "h": 53
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Api Root / Category List / Category Instance",
+      "target": "Gốc API / Danh sách danh mục / Thể hiện danh mục",
+      "bbox": {
+        "x": 131,
+        "y": 80,
+        "w": 1044,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "Category Instance ociere Jf oerions",
+      "target": "Thể loại Ví dụ ociere Jf oerions",
+      "bbox": {
+        "x": 131,
+        "y": 186,
+        "w": 1044,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "Content-Type: application/json",
+      "target": "Loại nội dung: ứng dụng/json",
+      "bbox": {
+        "x": 131,
+        "y": 292,
+        "w": 1044,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "\"id\": 3",
+      "target": "\"id\": 3",
+      "bbox": {
+        "x": 131,
+        "y": 398,
+        "w": 1044,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "“name”: \"Work\"",
+      "target": "\"Công việc\"",
+      "bbox": {
+        "x": 131,
+        "y": 504,
+        "w": 1044,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "Raw data HTML form",
+      "target": "Dữ liệu thô mẫu HTML",
+      "bbox": {
+        "x": 131,
+        "y": 610,
+        "w": 1044,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "Name Work",
+      "target": "Tên Công việc",
+      "bbox": {
+        "x": 131,
+        "y": 716,
+        "w": 1044,
+        "h": 53
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.44766214177978886,
+    "averageConfidence": 76
+  }
+}

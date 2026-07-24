@@ -1,0 +1,225 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-1-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-1-modern-web-applications-architectures.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-11-1-3.vi.png",
+  "ocr": [
+    {
+      "text": "Web 2.0 Traditional: Architecture and Usage Model",
+      "confidence": 68,
+      "bbox": {
+        "x": 114,
+        "y": 73,
+        "w": 913,
+        "h": 49
+      }
+    },
+    {
+      "text": "_).. Dynamic Has",
+      "confidence": 68,
+      "bbox": {
+        "x": 114,
+        "y": 170,
+        "w": 913,
+        "h": 49
+      }
+    },
+    {
+      "text": "; {57 pages",
+      "confidence": 68,
+      "bbox": {
+        "x": 114,
+        "y": 267,
+        "w": 913,
+        "h": 49
+      }
+    },
+    {
+      "text": "Published content ! No JS",
+      "confidence": 68,
+      "bbox": {
+        "x": 114,
+        "y": 364,
+        "w": 913,
+        "h": 49
+      }
+    },
+    {
+      "text": "ss —",
+      "confidence": 68,
+      "bbox": {
+        "x": 114,
+        "y": 461,
+        "w": 913,
+        "h": 49
+      }
+    },
+    {
+      "text": "User Browser Internet Web Application Datastore(s)",
+      "confidence": 68,
+      "bbox": {
+        "x": 114,
+        "y": 558,
+        "w": 913,
+        "h": 49
+      }
+    },
+    {
+      "text": "i server server",
+      "confidence": 68,
+      "bbox": {
+        "x": 114,
+        "y": 655,
+        "w": 913,
+        "h": 49
+      }
+    },
+    {
+      "text": "| JSP JavaBeans SQL DBs",
+      "confidence": 68,
+      "bbox": {
+        "x": 114,
+        "y": 752,
+        "w": 913,
+        "h": 49
+      }
+    },
+    {
+      "text": "User-generated i ASP.NET ADO.NET File Systems",
+      "confidence": 68,
+      "bbox": {
+        "x": 114,
+        "y": 849,
+        "w": 913,
+        "h": 49
+      }
+    },
+    {
+      "text": "content H",
+      "confidence": 68,
+      "bbox": {
+        "x": 114,
+        "y": 946,
+        "w": 913,
+        "h": 49
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Web 2.0 Traditional: Architecture and Usage Model",
+      "target": "Web 2.0 Truyền thống: Kiến trúc và Mô hình Sử dụng",
+      "bbox": {
+        "x": 114,
+        "y": 73,
+        "w": 913,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "_).. Dynamic Has",
+      "target": "Động Has",
+      "bbox": {
+        "x": 114,
+        "y": 170,
+        "w": 913,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "; {57 pages",
+      "target": "; {57 trang",
+      "bbox": {
+        "x": 114,
+        "y": 267,
+        "w": 913,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "Published content ! No JS",
+      "target": "Nội dung đã xuất bản ! Không JS",
+      "bbox": {
+        "x": 114,
+        "y": 364,
+        "w": 913,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "ss —",
+      "target": "ss —",
+      "bbox": {
+        "x": 114,
+        "y": 461,
+        "w": 913,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "User Browser Internet Web Application Datastore(s)",
+      "target": "Trình duyệt Người dùng Ứng dụng Web Kho dữ liệu",
+      "bbox": {
+        "x": 114,
+        "y": 558,
+        "w": 913,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "i server server",
+      "target": "máy chủ",
+      "bbox": {
+        "x": 114,
+        "y": 655,
+        "w": 913,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "| JSP JavaBeans SQL DBs",
+      "target": "JSP JavaBeans CSDL DBs",
+      "bbox": {
+        "x": 114,
+        "y": 752,
+        "w": 913,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "User-generated i ASP.NET ADO.NET File Systems",
+      "target": "Người dùng tạo i ASP.NET ADO.NET Hệ thống tệp",
+      "bbox": {
+        "x": 114,
+        "y": 849,
+        "w": 913,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "content H",
+      "target": "nội dung H",
+      "bbox": {
+        "x": 114,
+        "y": 946,
+        "w": 913,
+        "h": 49
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.6459405100009097,
+    "averageConfidence": 68
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-1-10.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-1-introduction-to-cloud-native-applications.html",
+  "decision": "review",
+  "reason": "translation-overflow",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "User",
+      "confidence": 88,
+      "bbox": {
+        "x": 50,
+        "y": 114,
+        "w": 400,
+        "h": 76
+      }
+    },
+    {
+      "text": "interface",
+      "confidence": 88,
+      "bbox": {
+        "x": 50,
+        "y": 267,
+        "w": 400,
+        "h": 76
+      }
+    },
+    {
+      "text": "API gateway",
+      "confidence": 88,
+      "bbox": {
+        "x": 50,
+        "y": 420,
+        "w": 400,
+        "h": 76
+      }
+    },
+    {
+      "text": "Inventory Basket",
+      "confidence": 88,
+      "bbox": {
+        "x": 50,
+        "y": 573,
+        "w": 400,
+        "h": 76
+      }
+    },
+    {
+      "text": "system \\ service",
+      "confidence": 88,
+      "bbox": {
+        "x": 50,
+        "y": 726,
+        "w": 400,
+        "h": 76
+      }
+    },
+    {
+      "text": "Payment J —",
+      "confidence": 88,
+      "bbox": {
+        "x": 50,
+        "y": 879,
+        "w": 400,
+        "h": 76
+      }
+    },
+    {
+      "text": "system service",
+      "confidence": 88,
+      "bbox": {
+        "x": 50,
+        "y": 1032,
+        "w": 400,
+        "h": 76
+      }
+    },
+    {
+      "text": "Reporting",
+      "confidence": 88,
+      "bbox": {
+        "x": 50,
+        "y": 1185,
+        "w": 400,
+        "h": 76
+      }
+    },
+    {
+      "text": "system",
+      "confidence": 88,
+      "bbox": {
+        "x": 50,
+        "y": 1338,
+        "w": 400,
+        "h": 76
+      }
+    },
+    {
+      "text": "Cloud-native application and",
+      "confidence": 88,
+      "bbox": {
+        "x": 50,
+        "y": 1491,
+        "w": 400,
+        "h": 76
+      }
+    },
+    {
+      "text": "runtime environment",
+      "confidence": 88,
+      "bbox": {
+        "x": 50,
+        "y": 1644,
+        "w": 400,
+        "h": 76
+      }
+    },
+    {
+      "text": "Scheduling and orchestration",
+      "confidence": 88,
+      "bbox": {
+        "x": 50,
+        "y": 1797,
+        "w": 400,
+        "h": 76
+      }
+    },
+    {
+      "text": "Cloud infrastructure",
+      "confidence": 88,
+      "bbox": {
+        "x": 50,
+        "y": 1950,
+        "w": 400,
+        "h": 76
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "User",
+      "target": "Người dùng",
+      "bbox": {
+        "x": 50,
+        "y": 114,
+        "w": 400,
+        "h": 76
+      },
+      "overflow": true
+    },
+    {
+      "source": "interface",
+      "target": "giao diện",
+      "bbox": {
+        "x": 50,
+        "y": 267,
+        "w": 400,
+        "h": 76
+      },
+      "overflow": false
+    },
+    {
+      "source": "API gateway",
+      "target": "Cổng API",
+      "bbox": {
+        "x": 50,
+        "y": 420,
+        "w": 400,
+        "h": 76
+      },
+      "overflow": false
+    },
+    {
+      "source": "Inventory Basket",
+      "target": "Giỏ hàng tồn kho",
+      "bbox": {
+        "x": 50,
+        "y": 573,
+        "w": 400,
+        "h": 76
+      },
+      "overflow": false
+    },
+    {
+      "source": "system \\ service",
+      "target": "hệ thống \\ dịch vụ",
+      "bbox": {
+        "x": 50,
+        "y": 726,
+        "w": 400,
+        "h": 76
+      },
+      "overflow": false
+    },
+    {
+      "source": "Payment J —",
+      "target": "Thanh toán J —",
+      "bbox": {
+        "x": 50,
+        "y": 879,
+        "w": 400,
+        "h": 76
+      },
+      "overflow": false
+    },
+    {
+      "source": "system service",
+      "target": "dịch vụ hệ thống",
+      "bbox": {
+        "x": 50,
+        "y": 1032,
+        "w": 400,
+        "h": 76
+      },
+      "overflow": false
+    },
+    {
+      "source": "Reporting",
+      "target": "Báo cáo",
+      "bbox": {
+        "x": 50,
+        "y": 1185,
+        "w": 400,
+        "h": 76
+      },
+      "overflow": false
+    },
+    {
+      "source": "system",
+      "target": "hệ thống",
+      "bbox": {
+        "x": 50,
+        "y": 1338,
+        "w": 400,
+        "h": 76
+      },
+      "overflow": false
+    },
+    {
+      "source": "Cloud-native application and",
+      "target": "Ứng dụng đám mây gốc và",
+      "bbox": {
+        "x": 50,
+        "y": 1491,
+        "w": 400,
+        "h": 76
+      },
+      "overflow": false
+    },
+    {
+      "source": "runtime environment",
+      "target": "môi trường thực thi",
+      "bbox": {
+        "x": 50,
+        "y": 1644,
+        "w": 400,
+        "h": 76
+      },
+      "overflow": false
+    },
+    {
+      "source": "Scheduling and orchestration",
+      "target": "Lập lịch và điều phối",
+      "bbox": {
+        "x": 50,
+        "y": 1797,
+        "w": 400,
+        "h": 76
+      },
+      "overflow": false
+    },
+    {
+      "source": "Cloud infrastructure",
+      "target": "Hạ tầng đám mây",
+      "bbox": {
+        "x": 50,
+        "y": 1950,
+        "w": 400,
+        "h": 76
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.8285115303983228,
+    "averageConfidence": 88
+  }
+}

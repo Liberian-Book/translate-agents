@@ -1,0 +1,813 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-2-32.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-2-enterprise-architecture-management-frameworks.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-10-2-32.vi.png",
+  "ocr": [
+    {
+      "text": "Business A s .",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 146,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "Initiator pm ATTA Digitization Life cycle Supporting",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 340,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "type method management processes",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 534,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "Business Start ER Understand",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 728,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "operations Business and model",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 922,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "Business Business Reporting BPA = processes",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 1116,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "users - user . JA\\ DB (BPA Tools)",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 1310,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "— Mail — Scanner Manual Service",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 1504,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "—pPhone— IVR n 2 Geer 1 Manage bus",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 1698,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "server So > BUS Bum Processes",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 1892,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "Agent A Service reporting’ eehaver",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 2086,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "Agents/ _ — Email— Email 3 | Manual 2 analysis",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 2280,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "partners server = C function",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 2474,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "Partner ZOE 2 \\/ Process =",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 2668,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "S metrics BEPB",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 2862,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "Desktop yo ¥ DB",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 3056,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "—(intranet/- Web & : End Manas",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 3250,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "Customers Customer Internet) Server K \"enter = oll",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 3444,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "PDA - Pp!",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 3638,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "Business Process process,",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 3832,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "> MS -——",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 4026,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "Management workers",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 4220,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "(BPM)",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 4414,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "Public _ Public — STP path Cc",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 4608,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "user — Human actor path EPW",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 4802,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "— Exception [] DB",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 4996,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "Business .",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 5190,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "y } architecture IT solution",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 5384,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "i services",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 5578,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "Analysis of gay E== el Ho.",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 5772,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "Bienes SR EDM usiness rules)",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 5966,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "events DB bB }",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 6160,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "OO OO BEBA",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 6354,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "BPA: Business process analyst",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 6548,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "BUM: Business unit management",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 6742,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "ADV: Advisors",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 6936,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "MS: Marketing specialists",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 7130,
+        "w": 1042,
+        "h": 97
+      }
+    },
+    {
+      "text": "BEBA: Bond enterprise business architect",
+      "confidence": 69,
+      "bbox": {
+        "x": 130,
+        "y": 7324,
+        "w": 1042,
+        "h": 97
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Business A s .",
+      "target": "Doanh nghiệp A.",
+      "bbox": {
+        "x": 130,
+        "y": 146,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "Initiator pm ATTA Digitization Life cycle Supporting",
+      "target": "Khởi tạo pm ATTA Chu trình số hóa Hỗ trợ",
+      "bbox": {
+        "x": 130,
+        "y": 340,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "type method management processes",
+      "target": "phương pháp loại quản lý quy trình",
+      "bbox": {
+        "x": 130,
+        "y": 534,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "Business Start ER Understand",
+      "target": "Hiểu Bắt Đầu Kinh Doanh",
+      "bbox": {
+        "x": 130,
+        "y": 728,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "operations Business and model",
+      "target": "hoạt động Kinh doanh và mô hình",
+      "bbox": {
+        "x": 130,
+        "y": 922,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "Business Business Reporting BPA = processes",
+      "target": "Kinh doanh Báo cáo Kinh doanh BPA = quy trình",
+      "bbox": {
+        "x": 130,
+        "y": 1116,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "users - user . JA\\ DB (BPA Tools)",
+      "target": "người dùng - người dùng . JA\\ DB (Công cụ BPA)",
+      "bbox": {
+        "x": 130,
+        "y": 1310,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "— Mail — Scanner Manual Service",
+      "target": "— Thư — Hướng dẫn sử dụng máy quét",
+      "bbox": {
+        "x": 130,
+        "y": 1504,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "—pPhone— IVR n 2 Geer 1 Manage bus",
+      "target": "—Điện thoại— IVR n 2 Geer 1 Quản lý bus",
+      "bbox": {
+        "x": 130,
+        "y": 1698,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "server So > BUS Bum Processes",
+      "target": "máy chủ So > BUS Bum Quy trình",
+      "bbox": {
+        "x": 130,
+        "y": 1892,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "Agent A Service reporting’ eehaver",
+      "target": "Báo cáo dịch vụ của đại lý A",
+      "bbox": {
+        "x": 130,
+        "y": 2086,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "Agents/ _ — Email— Email 3 | Manual 2 analysis",
+      "target": "Đại lý / _ — Email — Email 3 | Phân tích thủ công 2",
+      "bbox": {
+        "x": 130,
+        "y": 2280,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "partners server = C function",
+      "target": "máy chủ đối tác = hàm C",
+      "bbox": {
+        "x": 130,
+        "y": 2474,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "Partner ZOE 2 \\/ Process =",
+      "target": "Đối tác ZOE 2 \\/ Quy trình =",
+      "bbox": {
+        "x": 130,
+        "y": 2668,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "S metrics BEPB",
+      "target": "Chỉ số S BEPB",
+      "bbox": {
+        "x": 130,
+        "y": 2862,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "Desktop yo ¥ DB",
+      "target": "Máy tính để bàn yo ¥ DB",
+      "bbox": {
+        "x": 130,
+        "y": 3056,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "—(intranet/- Web & : End Manas",
+      "target": "Mạng nội bộ / Web & : Quản lý cuối",
+      "bbox": {
+        "x": 130,
+        "y": 3250,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "Customers Customer Internet) Server K \"enter = oll",
+      "target": "Khách hàng Máy chủ Internet",
+      "bbox": {
+        "x": 130,
+        "y": 3444,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "PDA - Pp!",
+      "target": "PDA - Pp!",
+      "bbox": {
+        "x": 130,
+        "y": 3638,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "Business Process process,",
+      "target": "Quy trình kinh doanh",
+      "bbox": {
+        "x": 130,
+        "y": 3832,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "> MS -——",
+      "target": "MS -——",
+      "bbox": {
+        "x": 130,
+        "y": 4026,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "Management workers",
+      "target": "Công nhân quản lý",
+      "bbox": {
+        "x": 130,
+        "y": 4220,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "(BPM)",
+      "target": "(BPM)",
+      "bbox": {
+        "x": 130,
+        "y": 4414,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "Public _ Public — STP path Cc",
+      "target": "Công cộng _ Công cộng — Đường dẫn STP Cc",
+      "bbox": {
+        "x": 130,
+        "y": 4608,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "user — Human actor path EPW",
+      "target": "người dùng — Đường đi của diễn viên con người EPW",
+      "bbox": {
+        "x": 130,
+        "y": 4802,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "— Exception [] DB",
+      "target": "— Ngoại lệ [] DB",
+      "bbox": {
+        "x": 130,
+        "y": 4996,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "Business .",
+      "target": "Kinh doanh",
+      "bbox": {
+        "x": 130,
+        "y": 5190,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "y } architecture IT solution",
+      "target": "giải pháp CNTT kiến trúc",
+      "bbox": {
+        "x": 130,
+        "y": 5384,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "i services",
+      "target": "dịch vụ i",
+      "bbox": {
+        "x": 130,
+        "y": 5578,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "Analysis of gay E== el Ho.",
+      "target": "Phân tích gay E== el Ho.",
+      "bbox": {
+        "x": 130,
+        "y": 5772,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "Bienes SR EDM usiness rules)",
+      "target": "Quy tắc kinh doanh SR EDM",
+      "bbox": {
+        "x": 130,
+        "y": 5966,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "events DB bB }",
+      "target": "các sự kiện DB bB }",
+      "bbox": {
+        "x": 130,
+        "y": 6160,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "OO OO BEBA",
+      "target": "OO OO BEBA",
+      "bbox": {
+        "x": 130,
+        "y": 6354,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "BPA: Business process analyst",
+      "target": "BPA: Nhà phân tích quy trình kinh doanh",
+      "bbox": {
+        "x": 130,
+        "y": 6548,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "BUM: Business unit management",
+      "target": "QUẢN LÝ ĐƠN VỊ KINH DOANH",
+      "bbox": {
+        "x": 130,
+        "y": 6742,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "ADV: Advisors",
+      "target": "Cố vấn",
+      "bbox": {
+        "x": 130,
+        "y": 6936,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "MS: Marketing specialists",
+      "target": "Chuyên gia tiếp thị",
+      "bbox": {
+        "x": 130,
+        "y": 7130,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    },
+    {
+      "source": "BEBA: Bond enterprise business architect",
+      "target": "BEBA: Kiến trúc sư doanh nghiệp liên kết",
+      "bbox": {
+        "x": 130,
+        "y": 7324,
+        "w": 1042,
+        "h": 97
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 2.427927910843084,
+    "averageConfidence": 69
+  }
+}

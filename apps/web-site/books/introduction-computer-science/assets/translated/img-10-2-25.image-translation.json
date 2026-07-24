@@ -1,0 +1,393 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-2-25.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-2-enterprise-architecture-management-frameworks.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-10-2-25.vi.png",
+  "ocr": [
+    {
+      "text": "Participant Interaction Processes Services Components Data",
+      "confidence": 75,
+      "bbox": {
+        "x": 128,
+        "y": 98,
+        "w": 1027,
+        "h": 65
+      }
+    },
+    {
+      "text": "fo Ama",
+      "confidence": 75,
+      "bbox": {
+        "x": 128,
+        "y": 228,
+        "w": 1027,
+        "h": 65
+      }
+    },
+    {
+      "text": "Customer Forms Business Process Product",
+      "confidence": 75,
+      "bbox": {
+        "x": 128,
+        "y": 358,
+        "w": 1027,
+        "h": 65
+      }
+    },
+    {
+      "text": "process 1 services",
+      "confidence": 75,
+      "bbox": {
+        "x": 128,
+        "y": 488,
+        "w": 1027,
+        "h": 65
+      }
+    },
+    {
+      "text": "fE————",
+      "confidence": 75,
+      "bbox": {
+        "x": 128,
+        "y": 618,
+        "w": 1027,
+        "h": 65
+      }
+    },
+    {
+      "text": "Employee Browser Eusiness Contract",
+      "confidence": 75,
+      "bbox": {
+        "x": 128,
+        "y": 748,
+        "w": 1027,
+        "h": 65
+      }
+    },
+    {
+      "text": "process 2",
+      "confidence": 75,
+      "bbox": {
+        "x": 128,
+        "y": 878,
+        "w": 1027,
+        "h": 65
+      }
+    },
+    {
+      "text": "[eS ———",
+      "confidence": 75,
+      "bbox": {
+        "x": 128,
+        "y": 1008,
+        "w": 1027,
+        "h": 65
+      }
+    },
+    {
+      "text": "Professional Email Business Atomic Activities",
+      "confidence": 75,
+      "bbox": {
+        "x": 128,
+        "y": 1138,
+        "w": 1027,
+        "h": 65
+      }
+    },
+    {
+      "text": "process 3 services",
+      "confidence": 75,
+      "bbox": {
+        "x": 128,
+        "y": 1268,
+        "w": 1027,
+        "h": 65
+      }
+    },
+    {
+      "text": "TET",
+      "confidence": 75,
+      "bbox": {
+        "x": 128,
+        "y": 1398,
+        "w": 1027,
+        "h": 65
+      }
+    },
+    {
+      "text": ". Composite",
+      "confidence": 75,
+      "bbox": {
+        "x": 128,
+        "y": 1528,
+        "w": 1027,
+        "h": 65
+      }
+    },
+    {
+      "text": "Supplier PC Services Party py |",
+      "confidence": 75,
+      "bbox": {
+        "x": 128,
+        "y": 1658,
+        "w": 1027,
+        "h": 65
+      }
+    },
+    {
+      "text": "Stakeholder Phone Business Commissions Commision",
+      "confidence": 75,
+      "bbox": {
+        "x": 128,
+        "y": 1788,
+        "w": 1027,
+        "h": 65
+      }
+    },
+    {
+      "text": "process n",
+      "confidence": 75,
+      "bbox": {
+        "x": 128,
+        "y": 1918,
+        "w": 1027,
+        "h": 65
+      }
+    },
+    {
+      "text": "/ Integration {",
+      "confidence": 75,
+      "bbox": {
+        "x": 128,
+        "y": 2048,
+        "w": 1027,
+        "h": 65
+      }
+    },
+    {
+      "text": "Vendor H Rules",
+      "confidence": 75,
+      "bbox": {
+        "x": 128,
+        "y": 2178,
+        "w": 1027,
+        "h": 65
+      }
+    },
+    {
+      "text": "Technical services",
+      "confidence": 75,
+      "bbox": {
+        "x": 128,
+        "y": 2308,
+        "w": 1027,
+        "h": 65
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Participant Interaction Processes Services Components Data",
+      "target": "Quá trình tương tác của người tham gia Thành phần dịch vụ Dữ liệu",
+      "bbox": {
+        "x": 128,
+        "y": 98,
+        "w": 1027,
+        "h": 65
+      },
+      "overflow": false
+    },
+    {
+      "source": "fo Ama",
+      "target": "fo Ama",
+      "bbox": {
+        "x": 128,
+        "y": 228,
+        "w": 1027,
+        "h": 65
+      },
+      "overflow": false
+    },
+    {
+      "source": "Customer Forms Business Process Product",
+      "target": "Biểu mẫu Khách hàng Quy trình Kinh doanh Sản phẩm",
+      "bbox": {
+        "x": 128,
+        "y": 358,
+        "w": 1027,
+        "h": 65
+      },
+      "overflow": false
+    },
+    {
+      "source": "process 1 services",
+      "target": "quy trình 1 dịch vụ",
+      "bbox": {
+        "x": 128,
+        "y": 488,
+        "w": 1027,
+        "h": 65
+      },
+      "overflow": false
+    },
+    {
+      "source": "fE————",
+      "target": "fE————",
+      "bbox": {
+        "x": 128,
+        "y": 618,
+        "w": 1027,
+        "h": 65
+      },
+      "overflow": false
+    },
+    {
+      "source": "Employee Browser Eusiness Contract",
+      "target": "Hợp đồng Kinh doanh Trực tuyến Nhân viên",
+      "bbox": {
+        "x": 128,
+        "y": 748,
+        "w": 1027,
+        "h": 65
+      },
+      "overflow": false
+    },
+    {
+      "source": "process 2",
+      "target": "quá trình 2",
+      "bbox": {
+        "x": 128,
+        "y": 878,
+        "w": 1027,
+        "h": 65
+      },
+      "overflow": false
+    },
+    {
+      "source": "[eS ———",
+      "target": "[eS ———",
+      "bbox": {
+        "x": 128,
+        "y": 1008,
+        "w": 1027,
+        "h": 65
+      },
+      "overflow": false
+    },
+    {
+      "source": "Professional Email Business Atomic Activities",
+      "target": "Hoạt động Kinh doanh Email Chuyên nghiệp",
+      "bbox": {
+        "x": 128,
+        "y": 1138,
+        "w": 1027,
+        "h": 65
+      },
+      "overflow": false
+    },
+    {
+      "source": "process 3 services",
+      "target": "quá trình 3 dịch vụ",
+      "bbox": {
+        "x": 128,
+        "y": 1268,
+        "w": 1027,
+        "h": 65
+      },
+      "overflow": false
+    },
+    {
+      "source": "TET",
+      "target": "TẾT",
+      "bbox": {
+        "x": 128,
+        "y": 1398,
+        "w": 1027,
+        "h": 65
+      },
+      "overflow": false
+    },
+    {
+      "source": ". Composite",
+      "target": "Hợp chất",
+      "bbox": {
+        "x": 128,
+        "y": 1528,
+        "w": 1027,
+        "h": 65
+      },
+      "overflow": false
+    },
+    {
+      "source": "Supplier PC Services Party py |",
+      "target": "Nhà cung cấp Dịch vụ PC Bên py",
+      "bbox": {
+        "x": 128,
+        "y": 1658,
+        "w": 1027,
+        "h": 65
+      },
+      "overflow": false
+    },
+    {
+      "source": "Stakeholder Phone Business Commissions Commision",
+      "target": "Cổ đông Điện thoại Doanh nghiệp Hoa hồng Hoa hồng",
+      "bbox": {
+        "x": 128,
+        "y": 1788,
+        "w": 1027,
+        "h": 65
+      },
+      "overflow": false
+    },
+    {
+      "source": "process n",
+      "target": "quá trình",
+      "bbox": {
+        "x": 128,
+        "y": 1918,
+        "w": 1027,
+        "h": 65
+      },
+      "overflow": false
+    },
+    {
+      "source": "/ Integration {",
+      "target": "Tích phân",
+      "bbox": {
+        "x": 128,
+        "y": 2048,
+        "w": 1027,
+        "h": 65
+      },
+      "overflow": false
+    },
+    {
+      "source": "Vendor H Rules",
+      "target": "Quy tắc Nhà cung cấp H",
+      "bbox": {
+        "x": 128,
+        "y": 2178,
+        "w": 1027,
+        "h": 65
+      },
+      "overflow": false
+    },
+    {
+      "source": "Technical services",
+      "target": "Dịch vụ kỹ thuật",
+      "bbox": {
+        "x": 128,
+        "y": 2308,
+        "w": 1027,
+        "h": 65
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 1.1482426466372342,
+    "averageConfidence": 75
+  }
+}

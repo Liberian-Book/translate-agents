@@ -1,0 +1,54 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-5-2-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/5-2-computer-levels-of-abstraction.html",
+  "decision": "review",
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "t Of tl =v",
+      "confidence": 41,
+      "bbox": {
+        "x": 130,
+        "y": 35,
+        "w": 1040,
+        "h": 24
+      }
+    },
+    {
+      "text": "BEN oh",
+      "confidence": 41,
+      "bbox": {
+        "x": 130,
+        "y": 81,
+        "w": 1040,
+        "h": 24
+      }
+    },
+    {
+      "text": "= Ew | EE gy",
+      "confidence": 41,
+      "bbox": {
+        "x": 130,
+        "y": 127,
+        "w": 1040,
+        "h": 24
+      }
+    },
+    {
+      "text": "Programmer Dc roming Testing",
+      "confidence": 41,
+      "bbox": {
+        "x": 130,
+        "y": 173,
+        "w": 1040,
+        "h": 24
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.26666666666666666,
+    "averageConfidence": 41
+  }
+}

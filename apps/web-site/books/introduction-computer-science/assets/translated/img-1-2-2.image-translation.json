@@ -1,0 +1,120 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-1-2-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/1-2-computer-science-across-the-disciplines.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-1-2-2.vi.png",
+  "ocr": [
+    {
+      "text": "Percent of U.S. Adults Who",
+      "confidence": 86,
+      "bbox": {
+        "x": 64,
+        "y": 74,
+        "w": 514,
+        "h": 49
+      }
+    },
+    {
+      "text": "Get Their News from Social Media",
+      "confidence": 86,
+      "bbox": {
+        "x": 64,
+        "y": 173,
+        "w": 514,
+        "h": 49
+      }
+    },
+    {
+      "text": "W Often MM Sometimes WM Rarely © Never HM N/A",
+      "confidence": 86,
+      "bbox": {
+        "x": 64,
+        "y": 272,
+        "w": 514,
+        "h": 49
+      }
+    },
+    {
+      "text": "Source: Survey of U.S. adults conducted Aug. 31-Sept. 7, 2020.",
+      "confidence": 86,
+      "bbox": {
+        "x": 64,
+        "y": 371,
+        "w": 514,
+        "h": 49
+      }
+    },
+    {
+      "text": "“News Use Across Social Media Platforms in 2020\"",
+      "confidence": 86,
+      "bbox": {
+        "x": 64,
+        "y": 470,
+        "w": 514,
+        "h": 49
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Percent of U.S. Adults Who",
+      "target": "Tỷ lệ người lớn ở Mỹ ai",
+      "bbox": {
+        "x": 64,
+        "y": 74,
+        "w": 514,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "Get Their News from Social Media",
+      "target": "Nhận tin tức từ mạng xã hội",
+      "bbox": {
+        "x": 64,
+        "y": 173,
+        "w": 514,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "W Often MM Sometimes WM Rarely © Never HM N/A",
+      "target": "W Thường MM Đôi khi WM Hiếm khi © Không bao giờ HM Không áp dụng",
+      "bbox": {
+        "x": 64,
+        "y": 272,
+        "w": 514,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "Source: Survey of U.S. adults conducted Aug. 31-Sept. 7, 2020.",
+      "target": "Nguồn: Khảo sát người lớn ở Mỹ thực hiện từ 31 tháng 8 đến 7 tháng 9 năm 2020.",
+      "bbox": {
+        "x": 64,
+        "y": 371,
+        "w": 514,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "“News Use Across Social Media Platforms in 2020\"",
+      "target": "\"Sử Dụng Tin Tức Trên Các Nền Tảng Mạng Xã Hội Năm 2020\"",
+      "bbox": {
+        "x": 64,
+        "y": 470,
+        "w": 514,
+        "h": 49
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.31842962333616537,
+    "averageConfidence": 86
+  }
+}

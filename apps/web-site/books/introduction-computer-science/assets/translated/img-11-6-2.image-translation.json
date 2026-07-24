@@ -1,0 +1,288 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-6-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-6-sample-ethereum-blockchain-web-2-0-web-3-0-application.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-11-6-2.vi.png",
+  "ocr": [
+    {
+      "text": "V Contracts",
+      "confidence": 88,
+      "bbox": {
+        "x": 37,
+        "y": 108,
+        "w": 298,
+        "h": 72
+      }
+    },
+    {
+      "text": "> migrations",
+      "confidence": 88,
+      "bbox": {
+        "x": 37,
+        "y": 252,
+        "w": 298,
+        "h": 72
+      }
+    },
+    {
+      "text": "> node_modules",
+      "confidence": 88,
+      "bbox": {
+        "x": 37,
+        "y": 396,
+        "w": 298,
+        "h": 72
+      }
+    },
+    {
+      "text": "> public",
+      "confidence": 88,
+      "bbox": {
+        "x": 37,
+        "y": 540,
+        "w": 298,
+        "h": 72
+      }
+    },
+    {
+      "text": "> src",
+      "confidence": 88,
+      "bbox": {
+        "x": 37,
+        "y": 684,
+        "w": 298,
+        "h": 72
+      }
+    },
+    {
+      "text": "> test",
+      "confidence": 88,
+      "bbox": {
+        "x": 37,
+        "y": 828,
+        "w": 298,
+        "h": 72
+      }
+    },
+    {
+      "text": ".gitignore",
+      "confidence": 88,
+      "bbox": {
+        "x": 37,
+        "y": 972,
+        "w": 298,
+        "h": 72
+      }
+    },
+    {
+      "text": "{} package-lock.json",
+      "confidence": 88,
+      "bbox": {
+        "x": 37,
+        "y": 1116,
+        "w": 298,
+        "h": 72
+      }
+    },
+    {
+      "text": "{} package.json",
+      "confidence": 88,
+      "bbox": {
+        "x": 37,
+        "y": 1260,
+        "w": 298,
+        "h": 72
+      }
+    },
+    {
+      "text": "(i) README.md",
+      "confidence": 88,
+      "bbox": {
+        "x": 37,
+        "y": 1404,
+        "w": 298,
+        "h": 72
+      }
+    },
+    {
+      "text": "& yarn.lock",
+      "confidence": 88,
+      "bbox": {
+        "x": 37,
+        "y": 1548,
+        "w": 298,
+        "h": 72
+      }
+    },
+    {
+      "text": "> py394venv",
+      "confidence": 88,
+      "bbox": {
+        "x": 37,
+        "y": 1692,
+        "w": 298,
+        "h": 72
+      }
+    },
+    {
+      "text": "> Resources",
+      "confidence": 88,
+      "bbox": {
+        "x": 37,
+        "y": 1836,
+        "w": 298,
+        "h": 72
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "V Contracts",
+      "target": "Hợp đồng V",
+      "bbox": {
+        "x": 37,
+        "y": 108,
+        "w": 298,
+        "h": 72
+      },
+      "overflow": false
+    },
+    {
+      "source": "> migrations",
+      "target": "di cư",
+      "bbox": {
+        "x": 37,
+        "y": 252,
+        "w": 298,
+        "h": 72
+      },
+      "overflow": false
+    },
+    {
+      "source": "> node_modules",
+      "target": "thư mục_node_modules",
+      "bbox": {
+        "x": 37,
+        "y": 396,
+        "w": 298,
+        "h": 72
+      },
+      "overflow": false
+    },
+    {
+      "source": "> public",
+      "target": "công khai",
+      "bbox": {
+        "x": 37,
+        "y": 540,
+        "w": 298,
+        "h": 72
+      },
+      "overflow": false
+    },
+    {
+      "source": "> src",
+      "target": "nguồn",
+      "bbox": {
+        "x": 37,
+        "y": 684,
+        "w": 298,
+        "h": 72
+      },
+      "overflow": false
+    },
+    {
+      "source": "> test",
+      "target": "kiểm tra",
+      "bbox": {
+        "x": 37,
+        "y": 828,
+        "w": 298,
+        "h": 72
+      },
+      "overflow": false
+    },
+    {
+      "source": ".gitignore",
+      "target": ".gitignore",
+      "bbox": {
+        "x": 37,
+        "y": 972,
+        "w": 298,
+        "h": 72
+      },
+      "overflow": false
+    },
+    {
+      "source": "{} package-lock.json",
+      "target": "{} gói-lock.json",
+      "bbox": {
+        "x": 37,
+        "y": 1116,
+        "w": 298,
+        "h": 72
+      },
+      "overflow": false
+    },
+    {
+      "source": "{} package.json",
+      "target": "{} gói.json",
+      "bbox": {
+        "x": 37,
+        "y": 1260,
+        "w": 298,
+        "h": 72
+      },
+      "overflow": false
+    },
+    {
+      "source": "(i) README.md",
+      "target": "(i) README.md",
+      "bbox": {
+        "x": 37,
+        "y": 1404,
+        "w": 298,
+        "h": 72
+      },
+      "overflow": false
+    },
+    {
+      "source": "& yarn.lock",
+      "target": "& yarn.lock",
+      "bbox": {
+        "x": 37,
+        "y": 1548,
+        "w": 298,
+        "h": 72
+      },
+      "overflow": false
+    },
+    {
+      "source": "> py394venv",
+      "target": "py394venv",
+      "bbox": {
+        "x": 37,
+        "y": 1692,
+        "w": 298,
+        "h": 72
+      },
+      "overflow": false
+    },
+    {
+      "source": "> Resources",
+      "target": "Tài nguyên",
+      "bbox": {
+        "x": 37,
+        "y": 1836,
+        "w": 298,
+        "h": 72
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.8299625379009917,
+    "averageConfidence": 88
+  }
+}

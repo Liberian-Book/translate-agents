@@ -1,0 +1,24 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-3-1-5.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/3-1-introduction-to-data-structures-and-algorithms.html",
+  "decision": "review",
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "LO.",
+      "confidence": 23,
+      "bbox": {
+        "x": 45,
+        "y": 29,
+        "w": 358,
+        "h": 24
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.07991071428571428,
+    "averageConfidence": 23
+  }
+}

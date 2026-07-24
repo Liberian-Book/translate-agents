@@ -1,0 +1,330 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-2-36.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-2-enterprise-architecture-management-frameworks.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-10-2-36.vi.png",
+  "ocr": [
+    {
+      "text": "Microservice",
+      "confidence": 85,
+      "bbox": {
+        "x": 127,
+        "y": 101,
+        "w": 1018,
+        "h": 67
+      }
+    },
+    {
+      "text": "architecture",
+      "confidence": 85,
+      "bbox": {
+        "x": 127,
+        "y": 236,
+        "w": 1018,
+        "h": 67
+      }
+    },
+    {
+      "text": "Deployment Communication Discovery Security Observability Testing",
+      "confidence": 85,
+      "bbox": {
+        "x": 127,
+        "y": 371,
+        "w": 1018,
+        "h": 67
+      }
+    },
+    {
+      "text": "API style Access",
+      "confidence": 85,
+      "bbox": {
+        "x": 127,
+        "y": 506,
+        "w": 1018,
+        "h": 67
+      }
+    },
+    {
+      "text": "gateway token",
+      "confidence": 85,
+      "bbox": {
+        "x": 127,
+        "y": 641,
+        "w": 1018,
+        "h": 67
+      }
+    },
+    {
+      "text": "User i i",
+      "confidence": 85,
+      "bbox": {
+        "x": 127,
+        "y": 776,
+        "w": 1018,
+        "h": 67
+      }
+    },
+    {
+      "text": "interface Service Service",
+      "confidence": 85,
+      "bbox": {
+        "x": 127,
+        "y": 911,
+        "w": 1018,
+        "h": 67
+      }
+    },
+    {
+      "text": "Single Multiple component integration",
+      "confidence": 85,
+      "bbox": {
+        "x": 127,
+        "y": 1046,
+        "w": 1018,
+        "h": 67
+      }
+    },
+    {
+      "text": "service 7 services",
+      "confidence": 85,
+      "bbox": {
+        "x": 127,
+        "y": 1181,
+        "w": 1018,
+        "h": 67
+      }
+    },
+    {
+      "text": "Client-side —e--# Server-side",
+      "confidence": 85,
+      "bbox": {
+        "x": 127,
+        "y": 1316,
+        "w": 1018,
+        "h": 67
+      }
+    },
+    {
+      "text": "Data",
+      "confidence": 85,
+      "bbox": {
+        "x": 127,
+        "y": 1451,
+        "w": 1018,
+        "h": 67
+      }
+    },
+    {
+      "text": "\\ Remote Client side Server side",
+      "confidence": 85,
+      "bbox": {
+        "x": 127,
+        "y": 1586,
+        "w": 1018,
+        "h": 67
+      }
+    },
+    {
+      "text": "Database Messaging <---» procedure",
+      "confidence": 85,
+      "bbox": {
+        "x": 127,
+        "y": 1721,
+        "w": 1018,
+        "h": 67
+      }
+    },
+    {
+      "text": "per service invocation",
+      "confidence": 85,
+      "bbox": {
+        "x": 127,
+        "y": 1856,
+        "w": 1018,
+        "h": 67
+      }
+    },
+    {
+      "text": "Distributed tracing Health status API (REST)",
+      "confidence": 85,
+      "bbox": {
+        "x": 127,
+        "y": 1991,
+        "w": 1018,
+        "h": 67
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Microservice",
+      "target": "Dịch vụ vi mô",
+      "bbox": {
+        "x": 127,
+        "y": 101,
+        "w": 1018,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "architecture",
+      "target": "kiến trúc",
+      "bbox": {
+        "x": 127,
+        "y": 236,
+        "w": 1018,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "Deployment Communication Discovery Security Observability Testing",
+      "target": "Triển khai Giao tiếp Khám phá Bảo mật Quan sát Kiểm tra",
+      "bbox": {
+        "x": 127,
+        "y": 371,
+        "w": 1018,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "API style Access",
+      "target": "Kiểu truy cập API",
+      "bbox": {
+        "x": 127,
+        "y": 506,
+        "w": 1018,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "gateway token",
+      "target": "mã thông báo cổng",
+      "bbox": {
+        "x": 127,
+        "y": 641,
+        "w": 1018,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "User i i",
+      "target": "Người dùng i i",
+      "bbox": {
+        "x": 127,
+        "y": 776,
+        "w": 1018,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "interface Service Service",
+      "target": "giao diện Dịch vụ Dịch vụ",
+      "bbox": {
+        "x": 127,
+        "y": 911,
+        "w": 1018,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "Single Multiple component integration",
+      "target": "Tích hợp thành phần đơn và đa",
+      "bbox": {
+        "x": 127,
+        "y": 1046,
+        "w": 1018,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "service 7 services",
+      "target": "dịch vụ 7 dịch vụ",
+      "bbox": {
+        "x": 127,
+        "y": 1181,
+        "w": 1018,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "Client-side —e--# Server-side",
+      "target": "Phía khách hàng —e--# Phía máy chủ",
+      "bbox": {
+        "x": 127,
+        "y": 1316,
+        "w": 1018,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "Data",
+      "target": "Dữ liệu",
+      "bbox": {
+        "x": 127,
+        "y": 1451,
+        "w": 1018,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "\\ Remote Client side Server side",
+      "target": "Khách hàng từ xa Bên máy chủ",
+      "bbox": {
+        "x": 127,
+        "y": 1586,
+        "w": 1018,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "Database Messaging <---» procedure",
+      "target": "Tin nhắn cơ sở dữ liệu <---» quy trình",
+      "bbox": {
+        "x": 127,
+        "y": 1721,
+        "w": 1018,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "per service invocation",
+      "target": "mỗi lần gọi dịch vụ",
+      "bbox": {
+        "x": 127,
+        "y": 1856,
+        "w": 1018,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "Distributed tracing Health status API (REST)",
+      "target": "API trạng thái sức khỏe phân phối theo dõi (REST)",
+      "bbox": {
+        "x": 127,
+        "y": 1991,
+        "w": 1018,
+        "h": 67
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.95336205281888,
+    "averageConfidence": 85
+  }
+}

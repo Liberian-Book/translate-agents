@@ -1,0 +1,162 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-3-9.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-3-example-paas-and-faas-deployments-of-cloud-native-applications.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-12-3-9.vi.png",
+  "ocr": [
+    {
+      "text": "TTL Fgdn Name ProvisioningState = ResourceGroup",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 21,
+        "w": 1040,
+        "h": 24
+      }
+    },
+    {
+      "text": "172800 8776bb8bc@324e10946c . eastus.aksapp. io. @ Succeeded mc_rg-nativeapps-eastus_nca-aks_eastus",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 49,
+        "w": 1040,
+        "h": 24
+      }
+    },
+    {
+      "text": "3600 8776bb8bc@324e10946¢.eastus.aksapp.io. ['] Succeeded mc_rg-nativeapps-eastus_nca-aks_eastus",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 77,
+        "w": 1040,
+        "h": 24
+      }
+    },
+    {
+      "text": "300 cna-express.8776bb8bc@324e10946¢ . eastus.aksapp.io. cna-express Succeeded mc_rg-nativeapps-eastus_nca-aks_eastus",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 105,
+        "w": 1040,
+        "h": 24
+      }
+    },
+    {
+      "text": "300 cna-express.8776bb8bc@324e10946¢ . eastus .aksapp.io. cna-express Succeeded mc_rg-nativeapps-eastus_nca-aks_eastus",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 133,
+        "w": 1040,
+        "h": 24
+      }
+    },
+    {
+      "text": "30 cna-web.8776bb8bc@324e10946¢ . eastus . aksapp.io. cna-web Succeeded mc_rg-nativeapps-eastus_nca-aks_eastus",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 161,
+        "w": 1040,
+        "h": 24
+      }
+    },
+    {
+      "text": "300 cna-web.8776bb8bc@324e10946c¢ . eastus . aksapp.io. cna-web Succeeded mc_rg-nativeapps-eastus_nca-aks_eastus",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 189,
+        "w": 1040,
+        "h": 24
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "TTL Fgdn Name ProvisioningState = ResourceGroup",
+      "target": "Tên Fgdn TTL Trạng thái Cung cấp = Nhóm Tài nguyên",
+      "bbox": {
+        "x": 130,
+        "y": 21,
+        "w": 1040,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "172800 8776bb8bc@324e10946c . eastus.aksapp. io. @ Succeeded mc_rg-nativeapps-eastus_nca-aks_eastus",
+      "target": "172800 8776bb8bc@324e10946c . eastus.aksapp. io. @ Thành công mc_rg-nativeapps-eastus_nca-aks_eastus",
+      "bbox": {
+        "x": 130,
+        "y": 49,
+        "w": 1040,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "3600 8776bb8bc@324e10946¢.eastus.aksapp.io. ['] Succeeded mc_rg-nativeapps-eastus_nca-aks_eastus",
+      "target": "3600 8776bb8bc@324e10946¢.eastus.aksapp.io. ['] Thành công mc_rg-nativeapps-eastus_nca-aks_eastus",
+      "bbox": {
+        "x": 130,
+        "y": 77,
+        "w": 1040,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "300 cna-express.8776bb8bc@324e10946¢ . eastus.aksapp.io. cna-express Succeeded mc_rg-nativeapps-eastus_nca-aks_eastus",
+      "target": "cna-express 300. Đã thành công mc_rg-nativeapps-eastus_nca-aks_eastus",
+      "bbox": {
+        "x": 130,
+        "y": 105,
+        "w": 1040,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "300 cna-express.8776bb8bc@324e10946¢ . eastus .aksapp.io. cna-express Succeeded mc_rg-nativeapps-eastus_nca-aks_eastus",
+      "target": "300 cna-express.8776bb8bc@324e10946¢ . đông_bắc .aksapp.io. cna-express Thành công mc_rg-nativeapps-eastus_nca-aks_eastus",
+      "bbox": {
+        "x": 130,
+        "y": 133,
+        "w": 1040,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "30 cna-web.8776bb8bc@324e10946¢ . eastus . aksapp.io. cna-web Succeeded mc_rg-nativeapps-eastus_nca-aks_eastus",
+      "target": "30 cna-web.8776bb8bc@324e10946¢ . đôngus . aksapp.io. cna-web Thành công mc_rg-nativeapps-eastus_nca-aks_eastus",
+      "bbox": {
+        "x": 130,
+        "y": 161,
+        "w": 1040,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "300 cna-web.8776bb8bc@324e10946c¢ . eastus . aksapp.io. cna-web Succeeded mc_rg-nativeapps-eastus_nca-aks_eastus",
+      "target": "300 cna-web.8776bb8bc@324e10946c¢ . đôngus . aksapp.io. cna-web Thành công mc_rg-nativeapps-eastus_nca-aks_eastus",
+      "bbox": {
+        "x": 130,
+        "y": 189,
+        "w": 1040,
+        "h": 24
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.768,
+    "averageConfidence": 62
+  }
+}
