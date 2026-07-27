@@ -2,12 +2,21 @@
   "sourceImage": "/Users/zyta/zytacyberk/translate-agents/agents/agent-translate/fixtures/image-translation/assets/photo-like.png",
   "htmlFile": "/Users/zyta/zytacyberk/translate-agents/agents/agent-translate/fixtures/image-translation/diagram.html",
   "decision": "skip",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "natural",
+    "eligible": false,
+    "reason": "natural-image-without-ocr-text"
+  },
   "reason": "low-text-density",
   "outputImage": null,
   "ocr": [],
   "translations": [],
   "metrics": {
     "textDensity": 0,
-    "averageConfidence": 0
+    "averageConfidence": 0,
+    "entropy": 5.194990844851418,
+    "sharpness": 0.6398015290863376
   }
 }

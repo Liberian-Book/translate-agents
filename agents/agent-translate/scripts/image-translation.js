@@ -6,12 +6,19 @@ const sharp = require('sharp');
 const { createWorker } = require('tesseract.js');
 
 const DEFAULT_BASE_URL = 'https://api.openai.com/v1';
-const DEFAULT_MODEL = 'gpt-4o-mini';
+const DEFAULT_TEXT_MODEL = 'gpt-4o-mini';
+const DEFAULT_IMAGE_MODEL = 'gpt-image-2';
+const DEFAULT_TRANSLATION_RETRIES = 4;
+const DEFAULT_TRANSLATION_RETRY_DELAY_MS = 5000;
+const DEFAULT_IMAGE_EDIT_RETRIES = 2;
+const DEFAULT_IMAGE_EDIT_RETRY_DELAY_MS = 3000;
+const VALID_RENDERERS = new Set(['overlay', 'image-edit']);
 const MIN_AUTO_REGIONS = 2;
 const MIN_AVERAGE_CONFIDENCE = 55;
 const MIN_TEXT_DENSITY = 0.0008;
 const MAX_OVERFLOW_RATIO = 1.9;
 const FONT_FAMILY = 'Arial, Helvetica, sans-serif';
+const ELIGIBLE_IMAGE_TYPES = new Set(['diagram', 'table', 'chart', 'statistics', 'screenshot', 'labeled-illustration']);
 
 const FALLBACK_TRANSLATIONS = new Map(Object.entries({
   company: 'Công ty',
@@ -58,6 +65,10 @@ function isRemoteOrDataUrl(src) {
   return /^(https?:)?\/\//i.test(src) || /^data:/i.test(src);
 }
 
+function isTranslatedImageUrl(src) {
+  return /(?:^|\/)translated\/[^?#]+\.vi\.png(?:[?#].*)?$/i.test(src);
+}
+
 function canonicalPath(filePath) {
   try {
     return fs.realpathSync(filePath);
@@ -79,6 +90,33 @@ function resolveImagePath(htmlFile, src, allowedRoots = [path.dirname(htmlFile)]
   return resolved;
 }
 
+function readJsonFile(filePath) {
+  try {
+    return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+  } catch {
+    return null;
+  }
+}
+
+function resolveOriginalImagePath(htmlFile, translatedSrc, allowedRoots = [path.dirname(htmlFile)]) {
+  const translatedImage = resolveImagePath(htmlFile, translatedSrc, allowedRoots);
+  if (!translatedImage) return null;
+
+  const parsed = path.parse(translatedImage);
+  if (parsed.dir.split(path.sep).at(-1) !== 'translated' || !parsed.name.endsWith('.vi')) return translatedImage;
+
+  const sidecar = path.join(parsed.dir, `${parsed.name.replace(/\.vi$/, '')}.image-translation.json`);
+  const payload = readJsonFile(sidecar);
+  if (payload?.sourceImage && fs.existsSync(payload.sourceImage) && allowedRoots.some(root => isWithinRoot(payload.sourceImage, root))) {
+    return payload.sourceImage;
+  }
+
+  const sourceDir = path.dirname(parsed.dir);
+  const sourceBase = parsed.name.replace(/\.vi$/, '');
+  const candidates = ['.png', '.jpg', '.jpeg', '.webp', '.gif'].map(ext => path.join(sourceDir, `${sourceBase}${ext}`));
+  return candidates.find(candidate => fs.existsSync(candidate) && allowedRoots.some(root => isWithinRoot(candidate, root))) || null;
+}
+
 function toRelativeUrl(fromFile, targetFile) {
   let relative = path.relative(path.dirname(fromFile), targetFile).split(path.sep).join('/');
   if (!relative.startsWith('.')) relative = `./${relative}`;
@@ -96,11 +134,18 @@ function getTranslatedOutputPaths(sourceImage) {
   return { outputImage, sidecar };
 }
 
-function createSkippedResult({ htmlFile, src, reason }) {
+function createDefaultClassification(type = 'unknown', eligible = false, reason = 'not-classified') {
+  return { type, eligible, reason };
+}
+
+function createSkippedResult({ htmlFile, src, reason, rendererOptions }) {
   return {
     sourceImage: src || null,
     htmlFile,
     decision: 'skip',
+    renderer: rendererOptions?.renderer || 'overlay',
+    model: rendererOptions?.renderer === 'image-edit' ? rendererOptions.imageModel : null,
+    classification: createDefaultClassification('unknown', false, reason),
     reason,
     outputImage: null,
     ocr: [],
@@ -186,30 +231,106 @@ async function recognizeImage(worker, imagePath, metadata) {
   return collectOcrRegions(result.data, metadata);
 }
 
-function classifyImage({ regions, metadata }) {
+function isPhotoLike(stats, textDensity) {
+  if (!stats) return false;
+  const entropy = Number(stats.entropy || 0);
+  const sharpness = Number(stats.sharpness || 0);
+  return entropy >= 4 && sharpness < 2 && textDensity < 0.04;
+}
+
+function estimateStructuredType({ regions, metadata, textDensity, stats }) {
+  if (regions.length === 0) {
+    return isPhotoLike(stats, textDensity)
+      ? createDefaultClassification('natural', false, 'natural-image-without-ocr-text')
+      : createDefaultClassification('unknown', false, 'no-ocr-text');
+  }
+
+  if (isPhotoLike(stats, textDensity)) {
+    return createDefaultClassification('photo', false, 'photo-like-visuals-with-incidental-text');
+  }
+
+  const width = metadata.width || 1;
+  const height = metadata.height || 1;
+  const xs = regions.map(region => Math.round(region.bbox.x / Math.max(width, 1) * 10));
+  const ys = regions.map(region => Math.round(region.bbox.y / Math.max(height, 1) * 10));
+  const columns = new Set(xs).size;
+  const rows = new Set(ys).size;
+  const entropy = Number(stats?.entropy || 0);
+  const sharpness = Number(stats?.sharpness || 0);
+  const vectorLike = entropy > 0 && entropy < 2.5 && sharpness >= 2;
+  const eligible = true;
+
+  if (regions.length >= 6 && columns >= 2 && rows >= 2) {
+    return { type: 'table', eligible, reason: 'multi-row-column-ocr-layout' };
+  }
+  if (regions.some(region => /%|\$|\b(total|sales|market|revenue|profit|growth|rate|year)\b/i.test(region.text))) {
+    return { type: 'statistics', eligible, reason: 'statistical-labels-detected' };
+  }
+  if (regions.length >= 4 && textDensity >= MIN_TEXT_DENSITY * 4) {
+    return { type: 'screenshot', eligible, reason: 'dense-structured-text-layout' };
+  }
+  if ((metadata.width || 0) > (metadata.height || 0) * 1.4 && regions.length >= 3) {
+    return { type: 'chart', eligible, reason: 'wide-labeled-visual-layout' };
+  }
+  if (vectorLike && regions.length >= MIN_AUTO_REGIONS && textDensity >= MIN_TEXT_DENSITY * 4) {
+    return { type: 'diagram', eligible, reason: 'vector-like-clustered-labels' };
+  }
+
+  return createDefaultClassification('unknown', false, 'no-positive-structural-classification');
+}
+
+function classifyImage({ regions, metadata, stats }) {
   const imageArea = Math.max(1, (metadata.width || 1) * (metadata.height || 1));
   const textArea = regions.reduce((sum, region) => sum + (region.bbox.w * region.bbox.h), 0);
   const textDensity = textArea / imageArea;
   const averageConfidence = regions.length === 0
     ? 0
     : regions.reduce((sum, region) => sum + region.confidence, 0) / regions.length;
+  const classification = estimateStructuredType({ regions, metadata, textDensity, stats });
 
   if (regions.length === 0 || textDensity < MIN_TEXT_DENSITY) {
-    return { decision: 'skip', reason: 'low-text-density', textDensity, averageConfidence };
+    return { decision: 'skip', reason: 'low-text-density', textDensity, averageConfidence, classification };
+  }
+
+  if (!ELIGIBLE_IMAGE_TYPES.has(classification.type) || !classification.eligible) {
+    return { decision: 'skip', reason: classification.reason || 'ineligible-image-type', textDensity, averageConfidence, classification };
   }
 
   if (regions.length < MIN_AUTO_REGIONS || averageConfidence < MIN_AVERAGE_CONFIDENCE) {
-    return { decision: 'review', reason: 'low-confidence-or-too-few-regions', textDensity, averageConfidence };
+    return { decision: 'review', reason: 'low-confidence-or-too-few-regions', textDensity, averageConfidence, classification };
   }
 
-  return { decision: 'auto', reason: 'text-bearing-image', textDensity, averageConfidence };
+  return { decision: 'auto', reason: 'text-bearing-image', textDensity, averageConfidence, classification };
 }
 
 function createTranslationOptions(env = process.env) {
+  const model = env.IMAGE_TRANSLATION_TEXT_MODEL || env.OPENAI_MODEL || DEFAULT_TEXT_MODEL;
+  if (/^gpt-image/i.test(model)) {
+    throw new Error('IMAGE_TRANSLATION_TEXT_MODEL must be a chat/text model such as gpt-4o. gpt-image-* models require a separate image editing renderer, which this OCR overlay flow does not use yet.');
+  }
+
   return {
     apiKey: env.OPENAI_API_KEY,
     baseUrl: (env.OPENAI_BASE_URL || DEFAULT_BASE_URL).replace(/\/$/, ''),
-    model: env.OPENAI_MODEL || DEFAULT_MODEL,
+    model,
+    retries: Number(env.IMAGE_TRANSLATION_RETRIES || DEFAULT_TRANSLATION_RETRIES),
+    retryDelayMs: Number(env.IMAGE_TRANSLATION_RETRY_DELAY_MS || DEFAULT_TRANSLATION_RETRY_DELAY_MS),
+  };
+}
+
+function createRendererOptions({ renderer, env = process.env } = {}) {
+  const selectedRenderer = renderer || env.IMAGE_TRANSLATION_RENDERER || 'overlay';
+  if (!VALID_RENDERERS.has(selectedRenderer)) {
+    throw new Error(`Invalid image translation renderer "${selectedRenderer}". Accepted values: overlay, image-edit.`);
+  }
+
+  return {
+    renderer: selectedRenderer,
+    imageModel: env.IMAGE_TRANSLATION_IMAGE_MODEL || DEFAULT_IMAGE_MODEL,
+    apiKey: env.OPENAI_API_KEY,
+    baseUrl: (env.OPENAI_BASE_URL || DEFAULT_BASE_URL).replace(/\/$/, ''),
+    retries: Number(env.IMAGE_TRANSLATION_IMAGE_RETRIES || DEFAULT_IMAGE_EDIT_RETRIES),
+    retryDelayMs: Number(env.IMAGE_TRANSLATION_IMAGE_RETRY_DELAY_MS || DEFAULT_IMAGE_EDIT_RETRY_DELAY_MS),
   };
 }
 
@@ -224,35 +345,41 @@ async function translateText(text, options) {
 
   if (!options.apiKey) return null;
 
-  const response = await fetch(`${options.baseUrl}/chat/completions`, {
-    method: 'POST',
-    headers: {
-      Authorization: `Bearer ${options.apiKey}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      model: options.model,
-      messages: [
-        {
-          role: 'system',
-          content: [
-            'You are translating short textbook image labels from English to Vietnamese.',
-            'Return only the Vietnamese translation. No markdown. No explanations.',
-            'Keep concise label style suitable for diagrams and tables.',
-          ].join(' '),
-        },
-        { role: 'user', content: text },
-      ],
-      temperature: 0.2,
-    }),
-  });
+  const maxAttempts = Math.max(1, Number.isFinite(options.retries) ? options.retries + 1 : DEFAULT_TRANSLATION_RETRIES + 1);
+  let response;
+  for (let attempt = 0; attempt < maxAttempts; attempt += 1) {
+    response = await fetch(`${options.baseUrl}/chat/completions`, {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${options.apiKey}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        model: options.model,
+        messages: [
+          {
+            role: 'system',
+            content: [
+              'You are translating short textbook image labels from English to Vietnamese.',
+              'Return only the Vietnamese translation. No markdown. No explanations.',
+              'Keep concise label style suitable for diagrams and tables.',
+            ].join(' '),
+          },
+          { role: 'user', content: text },
+        ],
+        temperature: 0.2,
+      }),
+    });
 
-  if (!response.ok) {
-    const body = await response.text();
-    if (process.env.DEBUG_IMAGE_TRANSLATION === '1') {
-      console.warn(`Translation API failed (${response.status}): ${body.slice(0, 2000)}`);
+    if (response.ok) break;
+    if (response.status !== 429 || attempt === maxAttempts - 1) {
+      const body = await response.text();
+      if (process.env.DEBUG_IMAGE_TRANSLATION === '1') {
+        console.warn(`Translation API failed (${response.status}): ${body.slice(0, 2000)}`);
+      }
+      throw new Error(`translation-api-failed-status-${response.status}`);
     }
-    throw new Error(`translation-api-failed-status-${response.status}`);
+    await sleep(getRetryDelayMs(response, attempt, options));
   }
 
   const data = await response.json();
@@ -332,17 +459,136 @@ async function renderTranslatedImage(sourceImage, outputImage, metadata, transla
   await sharp(sourceImage).composite([{ input: overlay, top: 0, left: 0 }]).png().toFile(outputImage);
 }
 
+function getImageMimeType(sourceImage) {
+  const ext = path.extname(sourceImage).toLowerCase();
+  if (ext === '.jpg' || ext === '.jpeg') return 'image/jpeg';
+  if (ext === '.webp') return 'image/webp';
+  return 'image/png';
+}
+
+function isTransientImageEditFailure(error) {
+  const status = Number(error?.status || 0);
+  return error?.transient === true || status === 408 || status === 409 || status === 429 || status >= 500;
+}
+
+function createImageEditPrompt({ classification, translations }) {
+  const translatedLabels = translations
+    .filter(item => item.source && item.target && !item.overflow)
+    .map(item => `- ${item.source} => ${item.target}`)
+    .join('\n');
+
+  return [
+    'Translate the visible English text in this textbook image to Vietnamese.',
+    `Image type: ${classification?.type || 'diagram'}.`,
+    'Preserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.',
+    'Do not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.',
+    'Use these translations exactly when the matching source text appears:',
+    translatedLabels || '- Translate all visible English labels concisely to Vietnamese.',
+    'Return a complete edited PNG image.',
+  ].join('\n');
+}
+
+async function callImageEditApi(sourceImage, prompt, rendererOptions) {
+  if (!rendererOptions.apiKey) {
+    const error = new Error('missing-openai-api-key');
+    error.status = 401;
+    throw error;
+  }
+
+  const maxAttempts = Math.max(1, Number.isFinite(rendererOptions.retries) ? rendererOptions.retries + 1 : DEFAULT_IMAGE_EDIT_RETRIES + 1);
+  const retrySummary = { attempts: 0, transientFailures: 0 };
+  let lastError;
+
+  for (let attempt = 0; attempt < maxAttempts; attempt += 1) {
+    retrySummary.attempts = attempt + 1;
+    try {
+      const form = new FormData();
+      const imageBuffer = await sharp(sourceImage).png().toBuffer();
+      const imageName = `${path.parse(sourceImage).name}.png`;
+      form.append('model', rendererOptions.imageModel);
+      form.append('prompt', prompt);
+      form.append('image', new Blob([imageBuffer], { type: getImageMimeType(imageName) }), imageName);
+
+      const response = await fetch(`${rendererOptions.baseUrl}/images/edits`, {
+        method: 'POST',
+        headers: { Authorization: `Bearer ${rendererOptions.apiKey}` },
+        body: form,
+      });
+
+      if (!response.ok) {
+        const body = await response.text();
+        const error = new Error(`image-edit-api-failed-status-${response.status}: ${body.slice(0, 500)}`);
+        error.status = response.status;
+        error.response = response;
+        throw error;
+      }
+
+      const data = await response.json();
+      const b64 = data?.data?.[0]?.b64_json;
+      if (!b64) throw new Error('image-edit-missing-b64-json');
+      return { imageBuffer: Buffer.from(b64, 'base64'), retrySummary };
+    } catch (error) {
+      lastError = error;
+      if (!isTransientImageEditFailure(error) || attempt === maxAttempts - 1) break;
+      retrySummary.transientFailures += 1;
+      const response = error.response;
+      const delayMs = response ? getRetryDelayMs(response, attempt, rendererOptions) : rendererOptions.retryDelayMs * Math.max(1, attempt + 1);
+      await sleep(delayMs);
+    }
+  }
+
+  lastError.retrySummary = retrySummary;
+  throw lastError;
+}
+
+async function renderImageEditImage(sourceImage, outputImage, classification, translations, rendererOptions) {
+  const prompt = createImageEditPrompt({ classification, translations });
+  const { imageBuffer, retrySummary } = await callImageEditApi(sourceImage, prompt, rendererOptions);
+  fs.mkdirSync(path.dirname(outputImage), { recursive: true });
+  await sharp(imageBuffer).png().toFile(outputImage);
+  return { prompt, retrySummary };
+}
+
 function writeSidecar(sidecar, payload) {
   fs.mkdirSync(path.dirname(sidecar), { recursive: true });
   fs.writeFileSync(sidecar, `${JSON.stringify(payload, null, 2)}\n`, 'utf-8');
 }
 
-async function processImage({ htmlFile, sourceImage, worker, translationOptions }) {
+function readReusableSidecar(sidecar, rendererOptions) {
+  if (!fs.existsSync(sidecar)) return null;
+  const payload = readJsonFile(sidecar);
+  if (!payload) return null;
+  if (!payload.renderer || !payload.classification) return null;
+  if (rendererOptions?.renderer && payload.renderer !== rendererOptions.renderer) return null;
+  if (payload.decision === 'auto' && payload.outputImage && fs.existsSync(payload.outputImage)) return payload;
+  if (payload.decision === 'review' || payload.decision === 'skip') return payload;
+  return null;
+}
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+function getRetryDelayMs(response, attempt, options) {
+  const retryAfter = Number(response.headers.get('retry-after'));
+  if (Number.isFinite(retryAfter) && retryAfter > 0) return retryAfter * 1000;
+  return options.retryDelayMs * Math.max(1, attempt + 1);
+}
+
+async function processImage({ htmlFile, sourceImage, worker, translationOptions, rendererOptions, force = false }) {
   const { outputImage, sidecar } = getTranslatedOutputPaths(sourceImage);
+  const selectedRenderer = rendererOptions?.renderer || 'overlay';
+  const selectedImageModel = rendererOptions?.imageModel || DEFAULT_IMAGE_MODEL;
+  const reusable = force ? null : readReusableSidecar(sidecar, { renderer: selectedRenderer });
+  if (reusable) return reusable;
+
   const basePayload = {
     sourceImage,
     htmlFile,
     decision: 'error',
+    renderer: selectedRenderer,
+    model: selectedRenderer === 'image-edit' ? selectedImageModel : null,
+    classification: createDefaultClassification(),
     reason: null,
     outputImage: null,
     ocr: [],
@@ -351,22 +597,26 @@ async function processImage({ htmlFile, sourceImage, worker, translationOptions 
 
   try {
     if (!fs.existsSync(sourceImage)) {
-      const payload = { ...basePayload, decision: 'error', reason: 'source-image-not-found' };
+      const payload = { ...basePayload, decision: 'error', reason: 'source-image-not-found', classification: createDefaultClassification('unknown', false, 'source-image-not-found') };
       writeSidecar(sidecar, payload);
       return payload;
     }
 
     const metadata = await sharp(sourceImage).metadata();
+    const stats = await sharp(sourceImage).stats();
     const regions = await recognizeImage(worker, sourceImage, metadata);
-    const classification = classifyImage({ regions, metadata });
+    const classification = classifyImage({ regions, metadata, stats });
     const payload = {
       ...basePayload,
       decision: classification.decision,
       reason: classification.reason,
+      classification: classification.classification,
       ocr: regions,
       metrics: {
         textDensity: classification.textDensity,
         averageConfidence: classification.averageConfidence,
+        entropy: stats.entropy,
+        sharpness: stats.sharpness,
       },
     };
 
@@ -390,7 +640,33 @@ async function processImage({ htmlFile, sourceImage, worker, translationOptions 
       return payload;
     }
 
+    if (selectedRenderer === 'image-edit') {
+      try {
+        const imageEdit = await renderImageEditImage(sourceImage, outputImage, payload.classification, translations, {
+          ...rendererOptions,
+          imageModel: selectedImageModel,
+        });
+        payload.renderer = 'image-edit';
+        payload.model = selectedImageModel;
+        payload.retries = imageEdit.retrySummary;
+        payload.imageEdit = { prompt: imageEdit.prompt };
+        payload.outputImage = outputImage;
+        writeSidecar(sidecar, payload);
+        return payload;
+      } catch (error) {
+        payload.fallback = {
+          from: 'image-edit',
+          to: 'overlay',
+          reason: String(error.message || 'image-edit-error').slice(0, 160),
+          model: selectedImageModel,
+          retries: error.retrySummary || { attempts: 0, transientFailures: 0 },
+        };
+      }
+    }
+
     await renderTranslatedImage(sourceImage, outputImage, metadata, translations);
+    payload.renderer = 'overlay';
+    payload.model = null;
     payload.outputImage = outputImage;
     writeSidecar(sidecar, payload);
     return payload;
@@ -406,6 +682,7 @@ async function processHtmlFile(htmlFile, options = {}) {
   const $ = cheerio.load(html, { decodeEntities: false });
   const worker = options.worker || await createOcrWorker();
   const translationOptions = options.translationOptions || createTranslationOptions();
+  const rendererOptions = options.rendererOptions || createRendererOptions();
   const imageCache = options.imageCache || new Map();
   const allowedRoots = options.allowedRoots || getAllowedRoots(htmlFile, options.bookName, options.projectRoot);
   const processed = [];
@@ -416,23 +693,39 @@ async function processHtmlFile(htmlFile, options = {}) {
     for (const img of images) {
       const src = $(img).attr('src') || '';
       if (!src) {
-        processed.push(createSkippedResult({ htmlFile, src, reason: 'empty-src' }));
+        processed.push(createSkippedResult({ htmlFile, src, reason: 'empty-src', rendererOptions }));
         continue;
       }
       if (isRemoteOrDataUrl(src)) {
-        processed.push(createSkippedResult({ htmlFile, src, reason: src.startsWith('data:') ? 'data-url' : 'remote-image' }));
+        processed.push(createSkippedResult({ htmlFile, src, reason: src.startsWith('data:') ? 'data-url' : 'remote-image', rendererOptions }));
         continue;
       }
-      const sourceImage = resolveImagePath(htmlFile, src, allowedRoots);
+      const translatedImageUrl = isTranslatedImageUrl(src);
+      if (translatedImageUrl && !options.retranslateTranslatedImages) {
+        processed.push(createSkippedResult({ htmlFile, src, reason: 'already-translated', rendererOptions }));
+        continue;
+      }
+      if (options.retranslateTranslatedImages && !translatedImageUrl) {
+        processed.push(createSkippedResult({ htmlFile, src, reason: 'not-translated-image', rendererOptions }));
+        continue;
+      }
+      const sourceImage = options.retranslateTranslatedImages
+        ? resolveOriginalImagePath(htmlFile, src, allowedRoots)
+        : resolveImagePath(htmlFile, src, allowedRoots);
       if (!sourceImage) {
-        processed.push(createSkippedResult({ htmlFile, src, reason: 'outside-allowed-roots' }));
+        processed.push(createSkippedResult({
+          htmlFile,
+          src,
+          reason: options.retranslateTranslatedImages ? 'original-source-image-not-found' : 'outside-allowed-roots',
+          rendererOptions,
+        }));
         continue;
       }
       const cacheKey = canonicalPath(sourceImage);
       const cached = imageCache.get(cacheKey);
       const result = cached
         ? { ...cached, htmlFile }
-        : await processImage({ htmlFile, sourceImage, worker, translationOptions });
+        : await processImage({ htmlFile, sourceImage, worker, translationOptions, rendererOptions, force: options.force });
       if (!cached) imageCache.set(cacheKey, result);
       processed.push(result);
       if (result.decision === 'auto' && result.outputImage) {
@@ -452,6 +745,14 @@ async function processHtmlFile(htmlFile, options = {}) {
     processed,
     summary: summarize(processed),
   };
+}
+
+async function retranslateImagesOnly(htmlFile, options = {}) {
+  return processHtmlFile(htmlFile, {
+    ...options,
+    force: true,
+    retranslateTranslatedImages: true,
+  });
 }
 
 function summarize(processed) {
@@ -491,9 +792,12 @@ function resolveTargets(target, bookName = 'entrepreneurship', projectRoot = fin
 
 module.exports = {
   createTranslationOptions,
+  createRendererOptions,
   createOcrWorker,
   findProjectRoot,
   processHtmlFile,
+  retranslateImagesOnly,
+  resolveOriginalImagePath,
   resolveTargets,
   summarize,
 };

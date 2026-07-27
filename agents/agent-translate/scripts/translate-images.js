@@ -7,16 +7,58 @@ const {
   createOcrWorker,
   findProjectRoot,
   processHtmlFile,
+  retranslateImagesOnly,
+  createRendererOptions,
   resolveTargets,
 } = require('./image-translation');
 
+function parseArgs(args) {
+  const positional = [];
+  let retranslate = false;
+  let renderer;
+  let strict = false;
+
+  for (let i = 0; i < args.length; i += 1) {
+    const arg = args[i];
+    if (arg === '--retranslate') {
+      retranslate = true;
+      continue;
+    }
+    if (arg === '--strict') {
+      strict = true;
+      continue;
+    }
+    if (arg === '--renderer') {
+      if (!args[i + 1] || args[i + 1].startsWith('--')) {
+        throw new Error('Missing value for --renderer. Accepted values: overlay, image-edit.');
+      }
+      renderer = args[i + 1];
+      i += 1;
+      continue;
+    }
+    if (arg.startsWith('--renderer=')) {
+      renderer = arg.slice('--renderer='.length);
+      if (!renderer) {
+        throw new Error('Missing value for --renderer. Accepted values: overlay, image-edit.');
+      }
+      continue;
+    }
+    positional.push(arg);
+  }
+
+  return { positional, retranslate, renderer, strict };
+}
+
 async function main() {
-  const target = process.argv[2];
-  const bookName = process.argv[3] || 'entrepreneurship';
+  const args = process.argv.slice(2);
+  const { positional, retranslate, renderer, strict } = parseArgs(args);
+  const target = positional[0];
+  const bookName = positional[1] || 'entrepreneurship';
 
   if (!target || target === '--help' || target === '-h') {
-    console.log('Usage: node agents/agent-translate/scripts/translate-images.js <translated-html-file|chapter-number|all> [bookName]');
-    console.log('Environment: OPENAI_API_KEY optional for production-quality label translation; built-in fallback covers common demo diagram labels.');
+    console.log('Usage: node agents/agent-translate/scripts/translate-images.js <translated-html-file|chapter-number|all> [bookName] [--retranslate] [--renderer overlay|image-edit] [--strict]');
+    console.log('Environment: OPENAI_API_KEY optional; IMAGE_TRANSLATION_TEXT_MODEL overrides OPENAI_MODEL and defaults to gpt-4o-mini for OCR label translation. IMAGE_TRANSLATION_IMAGE_MODEL defaults to gpt-image-2 for --renderer image-edit.');
+    console.log('Options: --retranslate forces image-only retranslation for already translated HTML files and reuses original source assets. --renderer selects overlay or image-edit; default is overlay. --strict fails when any image is review/error.');
     process.exit(0);
   }
 
@@ -30,13 +72,15 @@ async function main() {
 
   const totals = { auto: 0, skip: 0, review: 0, error: 0 };
   const translationOptions = createTranslationOptions();
+  const rendererOptions = createRendererOptions({ renderer });
   const worker = await createOcrWorker();
   const imageCache = new Map();
-  console.log(`Translating images in ${files.length} HTML file(s).`);
+  console.log(`Translating images in ${files.length} HTML file(s) with renderer=${rendererOptions.renderer}.`);
 
   try {
     for (const file of files) {
-      const result = await processHtmlFile(file, { translationOptions, worker, imageCache, bookName, projectRoot });
+      const processFile = retranslate ? retranslateImagesOnly : processHtmlFile;
+      const result = await processFile(file, { translationOptions, rendererOptions, worker, imageCache, bookName, projectRoot });
       for (const [key, value] of Object.entries(result.summary)) {
         totals[key] = (totals[key] || 0) + value;
       }
@@ -47,6 +91,12 @@ async function main() {
   }
 
   console.log(`Done. Images: auto=${totals.auto}, skip=${totals.skip}, review=${totals.review}, error=${totals.error}`);
+  if (strict && (totals.error > 0 || totals.review > 0)) {
+    throw new Error(`Image translation finished with ${totals.error} error(s) and ${totals.review} review item(s). Fix them or rerun before building/uploading the book.`);
+  }
+  if (totals.error > 0 || totals.review > 0) {
+    console.warn(`Image translation finished with ${totals.error} error(s) and ${totals.review} review item(s). Original image references were preserved for those items. Re-run with --strict to fail on review/error decisions.`);
+  }
 }
 
 main().catch(error => {

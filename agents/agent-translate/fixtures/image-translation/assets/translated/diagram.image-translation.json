@@ -2,6 +2,13 @@
   "sourceImage": "/Users/zyta/zytacyberk/translate-agents/agents/agent-translate/fixtures/image-translation/assets/diagram.png",
   "htmlFile": "/Users/zyta/zytacyberk/translate-agents/agents/agent-translate/fixtures/image-translation/diagram.html",
   "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "diagram",
+    "eligible": true,
+    "reason": "vector-like-clustered-labels"
+  },
   "reason": "text-bearing-image",
   "outputImage": "/Users/zyta/zytacyberk/translate-agents/agents/agent-translate/fixtures/image-translation/assets/translated/diagram.vi.png",
   "ocr": [
@@ -52,6 +59,8 @@
   ],
   "metrics": {
     "textDensity": 0.1295238095238095,
-    "averageConfidence": 96
+    "averageConfidence": 96,
+    "entropy": 0.6221133957151324,
+    "sharpness": 3.043817994671524
   }
 }
