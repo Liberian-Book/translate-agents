@@ -1,24 +1,9 @@
 {
   "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-3-14.webp",
   "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-3-example-paas-and-faas-deployments-of-cloud-native-applications.html",
-  "decision": "review",
-  "reason": "low-confidence-or-too-few-regions",
+  "decision": "error",
+  "reason": "source-image-not-found",
   "outputImage": null,
-  "ocr": [
-    {
-      "text": "kuard",
-      "confidence": 91,
-      "bbox": {
-        "x": 95,
-        "y": 65,
-        "w": 761,
-        "h": 43
-      }
-    }
-  ],
-  "translations": [],
-  "metrics": {
-    "textDensity": 0.06395732920541476,
-    "averageConfidence": 91
-  }
+  "ocr": [],
+  "translations": []
 }

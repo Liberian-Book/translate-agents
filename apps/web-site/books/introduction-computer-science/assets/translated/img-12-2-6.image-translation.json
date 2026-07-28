@@ -1,44 +1,9 @@
 {
   "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-2-6.webp",
   "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-2-cloud-based-and-cloud-native-applications-deployment-technologies.html",
-  "decision": "review",
-  "reason": "low-confidence-or-too-few-regions",
+  "decision": "error",
+  "reason": "source-image-not-found",
   "outputImage": null,
-  "ocr": [
-    {
-      "text": "3 imp an. NN",
-      "confidence": 28,
-      "bbox": {
-        "x": 110,
-        "y": 67,
-        "w": 880,
-        "h": 45
-      }
-    },
-    {
-      "text": "J x, J (> on, .2 WW",
-      "confidence": 28,
-      "bbox": {
-        "x": 110,
-        "y": 156,
-        "w": 880,
-        "h": 45
-      }
-    },
-    {
-      "text": "afer»",
-      "confidence": 28,
-      "bbox": {
-        "x": 110,
-        "y": 245,
-        "w": 880,
-        "h": 45
-      }
-    }
-  ],
-  "translations": [],
-  "metrics": {
-    "textDensity": 0.19389587073608616,
-    "averageConfidence": 28
-  }
+  "ocr": [],
+  "translations": []
 }

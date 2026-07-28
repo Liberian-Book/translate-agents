@@ -1,0 +1,93 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-9-2-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/9-2-consequentialism.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "oo Pr -",
+      "confidence": 13,
+      "bbox": {
+        "x": 56,
+        "y": 96,
+        "w": 445,
+        "h": 64
+      }
+    },
+    {
+      "text": "ol SESE -",
+      "confidence": 13,
+      "bbox": {
+        "x": 56,
+        "y": 224,
+        "w": 445,
+        "h": 64
+      }
+    },
+    {
+      "text": "oo abe EN _",
+      "confidence": 13,
+      "bbox": {
+        "x": 56,
+        "y": 352,
+        "w": 445,
+        "h": 64
+      }
+    },
+    {
+      "text": "_ FR ya -",
+      "confidence": 13,
+      "bbox": {
+        "x": 56,
+        "y": 480,
+        "w": 445,
+        "h": 64
+      }
+    },
+    {
+      "text": "nN = PR —",
+      "confidence": 13,
+      "bbox": {
+        "x": 56,
+        "y": 608,
+        "w": 445,
+        "h": 64
+      }
+    },
+    {
+      "text": "SS N",
+      "confidence": 13,
+      "bbox": {
+        "x": 56,
+        "y": 736,
+        "w": 445,
+        "h": 64
+      }
+    },
+    {
+      "text": "Freviry Porth,",
+      "confidence": 13,
+      "bbox": {
+        "x": 56,
+        "y": 864,
+        "w": 445,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.4482014388489209,
+    "averageConfidence": 13,
+    "entropy": 6.854250303469598,
+    "sharpness": 14.009817187325153
+  }
+}

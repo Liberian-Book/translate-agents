@@ -1,64 +1,9 @@
 {
   "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-3-16.webp",
   "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-3-example-paas-and-faas-deployments-of-cloud-native-applications.html",
-  "decision": "review",
-  "reason": "low-confidence-or-too-few-regions",
+  "decision": "error",
+  "reason": "source-image-not-found",
   "outputImage": null,
-  "ocr": [
-    {
-      "text": "TE Wa ERE 3 BNE NT Ey FR",
-      "confidence": 49,
-      "bbox": {
-        "x": 110,
-        "y": 23,
-        "w": 882,
-        "h": 24
-      }
-    },
-    {
-      "text": "7 > GEE > |",
-      "confidence": 49,
-      "bbox": {
-        "x": 110,
-        "y": 54,
-        "w": 882,
-        "h": 24
-      }
-    },
-    {
-      "text": "| Faa$ producer | Event bus | Faas consumer! Azure",
-      "confidence": 49,
-      "bbox": {
-        "x": 110,
-        "y": 85,
-        "w": 882,
-        "h": 24
-      }
-    },
-    {
-      "text": "function ! | function | Cosmos DB",
-      "confidence": 49,
-      "bbox": {
-        "x": 110,
-        "y": 116,
-        "w": 882,
-        "h": 24
-      }
-    },
-    {
-      "text": "Ec BAVHUSNERRS. ep SEGRE oo",
-      "confidence": 49,
-      "bbox": {
-        "x": 110,
-        "y": 147,
-        "w": 882,
-        "h": 24
-      }
-    }
-  ],
-  "translations": [],
-  "metrics": {
-    "textDensity": 0.4950698823133197,
-    "averageConfidence": 49
-  }
+  "ocr": [],
+  "translations": []
 }

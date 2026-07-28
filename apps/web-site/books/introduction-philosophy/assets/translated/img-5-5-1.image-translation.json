@@ -1,0 +1,33 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-5-5-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/5-5-informal-fallacies.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "CORRELATION = CAUSATION",
+      "confidence": 77,
+      "bbox": {
+        "x": 128,
+        "y": 59,
+        "w": 1022,
+        "h": 39
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.06395945928598021,
+    "averageConfidence": 77,
+    "entropy": 1.4747118825944199,
+    "sharpness": 2.120175042825739
+  }
+}

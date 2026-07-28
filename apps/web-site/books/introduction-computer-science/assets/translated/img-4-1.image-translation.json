@@ -1,54 +1,9 @@
 {
   "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-4-1.webp",
   "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/4-introduction.html",
-  "decision": "review",
-  "reason": "low-confidence-or-too-few-regions",
+  "decision": "error",
+  "reason": "source-image-not-found",
   "outputImage": null,
-  "ocr": [
-    {
-      "text": "[4 kK 7 i",
-      "confidence": 39,
-      "bbox": {
-        "x": 175,
-        "y": 86,
-        "w": 1400,
-        "h": 57
-      }
-    },
-    {
-      "text": "Sy it 4 - J »",
-      "confidence": 39,
-      "bbox": {
-        "x": 175,
-        "y": 201,
-        "w": 1400,
-        "h": 57
-      }
-    },
-    {
-      "text": ": | » = we",
-      "confidence": 39,
-      "bbox": {
-        "x": 175,
-        "y": 316,
-        "w": 1400,
-        "h": 57
-      }
-    },
-    {
-      "text": "gir 8 LN pe",
-      "confidence": 39,
-      "bbox": {
-        "x": 175,
-        "y": 431,
-        "w": 1400,
-        "h": 57
-      }
-    }
-  ],
-  "translations": [],
-  "metrics": {
-    "textDensity": 0.2540389972144847,
-    "averageConfidence": 39
-  }
+  "ocr": [],
+  "translations": []
 }

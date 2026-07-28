@@ -1,24 +1,9 @@
 {
   "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-3-4-1.webp",
   "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/3-4-algorithmic-paradigms.html",
-  "decision": "review",
-  "reason": "low-confidence-or-too-few-regions",
+  "decision": "error",
+  "reason": "source-image-not-found",
   "outputImage": null,
-  "ocr": [
-    {
-      "text": "Target is “S\"”",
-      "confidence": 36,
-      "bbox": {
-        "x": 129,
-        "y": 24,
-        "w": 1028,
-        "h": 24
-      }
-    }
-  ],
-  "translations": [],
-  "metrics": {
-    "textDensity": 0.09795918367346938,
-    "averageConfidence": 36
-  }
+  "ocr": [],
+  "translations": []
 }

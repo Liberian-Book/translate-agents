@@ -1,0 +1,115 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-1-2-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/1-2-entrepreneurial-vision-and-goals.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/translated/img-1-2-2.vi.png",
+  "ocr": [
+    {
+      "text": "INCUBATION",
+      "confidence": 78,
+      "bbox": {
+        "x": 110,
+        "y": 94,
+        "w": 881,
+        "h": 63
+      }
+    },
+    {
+      "text": "Let subconscious work",
+      "confidence": 78,
+      "bbox": {
+        "x": 110,
+        "y": 219,
+        "w": 881,
+        "h": 63
+      }
+    },
+    {
+      "text": "through information",
+      "confidence": 78,
+      "bbox": {
+        "x": 110,
+        "y": 344,
+        "w": 881,
+        "h": 63
+      }
+    },
+    {
+      "text": "BY ™",
+      "confidence": 78,
+      "bbox": {
+        "x": 110,
+        "y": 469,
+        "w": 881,
+        "h": 63
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "INCUBATION",
+      "target": "Ủ ấm",
+      "bbox": {
+        "x": 110,
+        "y": 94,
+        "w": 881,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "Let subconscious work",
+      "target": "Để tiềm thức làm việc",
+      "bbox": {
+        "x": 110,
+        "y": 219,
+        "w": 881,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "through information",
+      "target": "thông qua thông tin",
+      "bbox": {
+        "x": 110,
+        "y": 344,
+        "w": 881,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "BY ™",
+      "target": "Bởi ™",
+      "bbox": {
+        "x": 110,
+        "y": 469,
+        "w": 881,
+        "h": 63
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.25720124562086416,
+    "averageConfidence": 78,
+    "entropy": 2.8866250491682877,
+    "sharpness": 3.0479616911751886
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nUse these translations exactly when the matching source text appears:\n- INCUBATION => Ủ ấm\n- Let subconscious work => Để tiềm thức làm việc\n- through information => thông qua thông tin\n- BY ™ => Bởi ™\nReturn a complete edited PNG image."
+  }
+}

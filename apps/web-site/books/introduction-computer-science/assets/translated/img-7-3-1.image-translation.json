@@ -2,7 +2,7 @@
   "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-7-3-1.webp",
   "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/7-3-alternative-programming-models.html",
   "decision": "error",
-  "reason": "translation-api-failed-status-429",
+  "reason": "source-image-not-found",
   "outputImage": null,
   "ocr": [],
   "translations": []

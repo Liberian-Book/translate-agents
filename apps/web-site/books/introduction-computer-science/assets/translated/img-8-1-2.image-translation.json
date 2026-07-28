@@ -1,24 +1,9 @@
 {
   "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-8-1-2.webp",
   "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/8-1-data-management-focus.html",
-  "decision": "review",
-  "reason": "low-confidence-or-too-few-regions",
+  "decision": "error",
+  "reason": "source-image-not-found",
   "outputImage": null,
-  "ocr": [
-    {
-      "text": "ol",
-      "confidence": 11,
-      "bbox": {
-        "x": 73,
-        "y": 49,
-        "w": 582,
-        "h": 33
-      }
-    }
-  ],
-  "translations": [],
-  "metrics": {
-    "textDensity": 0.06450334506569226,
-    "averageConfidence": 11
-  }
+  "ocr": [],
+  "translations": []
 }

@@ -1,0 +1,115 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-1-2-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/1-2-entrepreneurial-vision-and-goals.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/translated/img-1-2-3.vi.png",
+  "ocr": [
+    {
+      "text": "SPECIFIC",
+      "confidence": 95,
+      "bbox": {
+        "x": 50,
+        "y": 65,
+        "w": 398,
+        "h": 43
+      }
+    },
+    {
+      "text": "MEASURABLE",
+      "confidence": 95,
+      "bbox": {
+        "x": 50,
+        "y": 151,
+        "w": 398,
+        "h": 43
+      }
+    },
+    {
+      "text": "ACHIEVABLE",
+      "confidence": 95,
+      "bbox": {
+        "x": 50,
+        "y": 237,
+        "w": 398,
+        "h": 43
+      }
+    },
+    {
+      "text": "RELEVANT",
+      "confidence": 95,
+      "bbox": {
+        "x": 50,
+        "y": 323,
+        "w": 398,
+        "h": 43
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "SPECIFIC",
+      "target": "CỤ THỂ",
+      "bbox": {
+        "x": 50,
+        "y": 65,
+        "w": 398,
+        "h": 43
+      },
+      "overflow": false
+    },
+    {
+      "source": "MEASURABLE",
+      "target": "CÓ THỂ ĐO LƯỜNG",
+      "bbox": {
+        "x": 50,
+        "y": 151,
+        "w": 398,
+        "h": 43
+      },
+      "overflow": false
+    },
+    {
+      "source": "ACHIEVABLE",
+      "target": "CÓ THỂ ĐẠT ĐƯỢC",
+      "bbox": {
+        "x": 50,
+        "y": 237,
+        "w": 398,
+        "h": 43
+      },
+      "overflow": false
+    },
+    {
+      "source": "RELEVANT",
+      "target": "LIÊN QUAN",
+      "bbox": {
+        "x": 50,
+        "y": 323,
+        "w": 398,
+        "h": 43
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.25554439811410207,
+    "averageConfidence": 95,
+    "entropy": 3.4858013017874327,
+    "sharpness": 3.742081194343107
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nUse these translations exactly when the matching source text appears:\n- SPECIFIC => CỤ THỂ\n- MEASURABLE => CÓ THỂ ĐO LƯỜNG\n- ACHIEVABLE => CÓ THỂ ĐẠT ĐƯỢC\n- RELEVANT => LIÊN QUAN\nReturn a complete edited PNG image."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-6-3-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/6-3-cosmology-and-the-existence-of-god.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "ay fo. AY",
+      "confidence": 26,
+      "bbox": {
+        "x": 40,
+        "y": 96,
+        "w": 318,
+        "h": 64
+      }
+    },
+    {
+      "text": "S 1 he, a en",
+      "confidence": 26,
+      "bbox": {
+        "x": 40,
+        "y": 224,
+        "w": 318,
+        "h": 64
+      }
+    },
+    {
+      "text": "ar If, £46) i d",
+      "confidence": 26,
+      "bbox": {
+        "x": 40,
+        "y": 352,
+        "w": 318,
+        "h": 64
+      }
+    },
+    {
+      "text": "= SRN",
+      "confidence": 26,
+      "bbox": {
+        "x": 40,
+        "y": 480,
+        "w": 318,
+        "h": 64
+      }
+    },
+    {
+      "text": "Bp SWZ a",
+      "confidence": 26,
+      "bbox": {
+        "x": 40,
+        "y": 608,
+        "w": 318,
+        "h": 64
+      }
+    },
+    {
+      "text": "i 7 HAN",
+      "confidence": 26,
+      "bbox": {
+        "x": 40,
+        "y": 736,
+        "w": 318,
+        "h": 64
+      }
+    },
+    {
+      "text": "(EE",
+      "confidence": 26,
+      "bbox": {
+        "x": 40,
+        "y": 864,
+        "w": 318,
+        "h": 64
+      }
+    },
+    {
+      "text": "# mE i",
+      "confidence": 26,
+      "bbox": {
+        "x": 40,
+        "y": 992,
+        "w": 318,
+        "h": 64
+      }
+    },
+    {
+      "text": "oR [BE 1",
+      "confidence": 26,
+      "bbox": {
+        "x": 40,
+        "y": 1120,
+        "w": 318,
+        "h": 64
+      }
+    },
+    {
+      "text": "tL R |",
+      "confidence": 26,
+      "bbox": {
+        "x": 40,
+        "y": 1248,
+        "w": 318,
+        "h": 64
+      }
+    },
+    {
+      "text": "BCID",
+      "confidence": 26,
+      "bbox": {
+        "x": 40,
+        "y": 1376,
+        "w": 318,
+        "h": 64
+      }
+    },
+    {
+      "text": "AS =",
+      "confidence": 26,
+      "bbox": {
+        "x": 40,
+        "y": 1504,
+        "w": 318,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.767035175879397,
+    "averageConfidence": 26,
+    "entropy": 6.734254933617194,
+    "sharpness": 5.4606400268856765
+  }
+}

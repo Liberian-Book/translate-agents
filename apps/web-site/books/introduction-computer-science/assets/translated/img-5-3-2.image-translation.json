@@ -1,24 +1,9 @@
 {
   "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-5-3-2.webp",
   "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/5-3-machine-level-information-representation.html",
-  "decision": "review",
-  "reason": "low-confidence-or-too-few-regions",
+  "decision": "error",
+  "reason": "source-image-not-found",
   "outputImage": null,
-  "ocr": [
-    {
-      "text": "Sign-Magnitude: One's Complement Two's Complement",
-      "confidence": 72,
-      "bbox": {
-        "x": 76,
-        "y": 38,
-        "w": 608,
-        "h": 25
-      }
-    }
-  ],
-  "translations": [],
-  "metrics": {
-    "textDensity": 0.06389776357827476,
-    "averageConfidence": 72
-  }
+  "ocr": [],
+  "translations": []
 }

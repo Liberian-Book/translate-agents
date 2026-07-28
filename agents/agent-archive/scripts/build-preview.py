@@ -3,9 +3,23 @@ import shutil
 import glob
 import re
 import argparse
+from html.parser import HTMLParser
 
 COVER_EXTENSIONS = [".svg", ".png", ".webp", ".jpg", ".jpeg"]
 READER_ASSET_VERSION = "comments-3"
+
+class ImageSrcParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.srcs = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag.lower() != "img":
+            return
+        attrs_dict = dict(attrs)
+        src = attrs_dict.get("src")
+        if src:
+            self.srcs.append(src)
 
 def get_repo_root():
     return os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", ".."))
@@ -29,6 +43,32 @@ def copy_homepage_cover(book_dir):
     cover_dst = os.path.join(assets_dir, f"{book_slug}_cover{os.path.splitext(cover_src)[1]}")
     shutil.copy2(cover_src, cover_dst)
     return cover_dst
+
+def is_external_image_src(src):
+    return src.startswith(("http://", "https://", "//", "data:", "#"))
+
+def validate_local_image_refs(output_dir):
+    missing = []
+    html_paths = glob.glob(os.path.join(output_dir, "**", "*.html"), recursive=True)
+    for html_path in html_paths:
+        with open(html_path, "r", encoding="utf-8") as f:
+            parser = ImageSrcParser()
+            parser.feed(f.read())
+
+        for src in parser.srcs:
+            clean_src = src.split("#", 1)[0].split("?", 1)[0]
+            if not clean_src or is_external_image_src(clean_src):
+                continue
+            image_path = os.path.normpath(os.path.join(os.path.dirname(html_path), clean_src))
+            if not os.path.exists(image_path):
+                missing.append((os.path.relpath(html_path, output_dir), src))
+
+    if missing:
+        sample = "\n".join(f"  - {html}: {src}" for html, src in missing[:20])
+        extra = "" if len(missing) <= 20 else f"\n  ... and {len(missing) - 20} more"
+        raise FileNotFoundError(
+            f"Build produced {len(missing)} missing local image reference(s). Restore/download assets before upload:\n{sample}{extra}"
+        )
 
 def sort_html_files(file_name):
     # Extract chapter and section numbers
@@ -289,6 +329,8 @@ def build_preview(book_dir, output_dir=None):
     <p>Redirecting to <a href="{first_page}">Start Reading</a></p>
 </body>
 </html>''')
+
+    validate_local_image_refs(output_dir)
 
     print(f"\\nBuild completed successfully! You can now host the '{output_dir}' directory.")
 

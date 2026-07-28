@@ -1,0 +1,328 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-5-4-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/5-4-types-of-inferences.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/translated/img-5-4-2.vi.png",
+  "ocr": [
+    {
+      "text": "DEDUCTIVE",
+      "confidence": 60,
+      "bbox": {
+        "x": 145,
+        "y": 72,
+        "w": 1161,
+        "h": 48
+      }
+    },
+    {
+      "text": "generalization ABDUCTIVE ABDUCTIVE theory",
+      "confidence": 60,
+      "bbox": {
+        "x": 145,
+        "y": 168,
+        "w": 1161,
+        "h": 48
+      }
+    },
+    {
+      "text": "Se eo",
+      "confidence": 60,
+      "bbox": {
+        "x": 145,
+        "y": 264,
+        "w": 1161,
+        "h": 48
+      }
+    },
+    {
+      "text": "observations suppor",
+      "confidence": 60,
+      "bbox": {
+        "x": 145,
+        "y": 360,
+        "w": 1161,
+        "h": 48
+      }
+    },
+    {
+      "text": "op 4 Per",
+      "confidence": 60,
+      "bbox": {
+        "x": 145,
+        "y": 456,
+        "w": 1161,
+        "h": 48
+      }
+    },
+    {
+      "text": "observations _ ) support",
+      "confidence": 60,
+      "bbox": {
+        "x": 145,
+        "y": 552,
+        "w": 1161,
+        "h": 48
+      }
+    },
+    {
+      "text": "observations [© 8 [ support",
+      "confidence": 60,
+      "bbox": {
+        "x": 145,
+        "y": 648,
+        "w": 1161,
+        "h": 48
+      }
+    },
+    {
+      "text": "observations oncl support",
+      "confidence": 60,
+      "bbox": {
+        "x": 145,
+        "y": 744,
+        "w": 1161,
+        "h": 48
+      }
+    },
+    {
+      "text": ". IE Fr",
+      "confidence": 60,
+      "bbox": {
+        "x": 145,
+        "y": 840,
+        "w": 1161,
+        "h": 48
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "DEDUCTIVE",
+      "normalizedSource": "DEDUCTIVE",
+      "target": "SUY DIỄN",
+      "bbox": {
+        "x": 145,
+        "y": 72,
+        "w": 1161,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "generalization ABDUCTIVE ABDUCTIVE theory",
+      "normalizedSource": "generalization ABDUCTIVE ABDUCTIVE theory",
+      "target": "khái quát ABDUCTIVE lý thuyết",
+      "bbox": {
+        "x": 145,
+        "y": 168,
+        "w": 1161,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "Se eo",
+      "normalizedSource": "Se eo",
+      "target": "Se eo",
+      "bbox": {
+        "x": 145,
+        "y": 264,
+        "w": 1161,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "observations suppor",
+      "normalizedSource": "observations suppor",
+      "target": "quan sát hỗ trợ",
+      "bbox": {
+        "x": 145,
+        "y": 360,
+        "w": 1161,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "op 4 Per",
+      "normalizedSource": "op 4 Per",
+      "target": "op 4 Per",
+      "bbox": {
+        "x": 145,
+        "y": 456,
+        "w": 1161,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "observations _ ) support",
+      "normalizedSource": "observations _ ) support",
+      "target": "quan sát hỗ trợ",
+      "bbox": {
+        "x": 145,
+        "y": 552,
+        "w": 1161,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "observations [© 8 [ support",
+      "normalizedSource": "observations [ 8 [ support",
+      "target": "quan sát hỗ trợ",
+      "bbox": {
+        "x": 145,
+        "y": 648,
+        "w": 1161,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "observations oncl support",
+      "normalizedSource": "observations oncl support",
+      "target": "quan sát hỗ trợ",
+      "bbox": {
+        "x": 145,
+        "y": 744,
+        "w": 1161,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": ". IE Fr",
+      "normalizedSource": ". IE Fr",
+      "target": ". IE Fr",
+      "bbox": {
+        "x": 145,
+        "y": 840,
+        "w": 1161,
+        "h": 48
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.5760992419021365,
+    "averageConfidence": 60,
+    "entropy": 4.326137775171446,
+    "sharpness": 4.313781424613658
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- DEDUCTIVE => SUY DIỄN\n- generalization ABDUCTIVE ABDUCTIVE theory => khái quát ABDUCTIVE lý thuyết\n- Se eo => Se eo\n- observations suppor => quan sát hỗ trợ\n- op 4 Per => op 4 Per\n- observations _ ) support => quan sát hỗ trợ\n- observations [© 8 [ support (cleaned OCR: observations [ 8 [ support) => quan sát hỗ trợ\n- observations oncl support => quan sát hỗ trợ\n- . IE Fr => . IE Fr\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "SUY DIEN",
+        "confidence": 75,
+        "bbox": {
+          "x": 195,
+          "y": 97,
+          "w": 1559,
+          "h": 65
+        }
+      },
+      {
+        "text": "khai quat ~~ ABDUCTIVE ABDUCTIVE ly thuy&t",
+        "confidence": 75,
+        "bbox": {
+          "x": 195,
+          "y": 226,
+          "w": 1559,
+          "h": 65
+        }
+      },
+      {
+        "text": "ra er",
+        "confidence": 75,
+        "bbox": {
+          "x": 195,
+          "y": 355,
+          "w": 1559,
+          "h": 65
+        }
+      },
+      {
+        "text": "quan sat ho trg",
+        "confidence": 75,
+        "bbox": {
+          "x": 195,
+          "y": 484,
+          "w": 1559,
+          "h": 65
+        }
+      },
+      {
+        "text": "quan sat : 3 hé trg",
+        "confidence": 75,
+        "bbox": {
+          "x": 195,
+          "y": 613,
+          "w": 1559,
+          "h": 65
+        }
+      },
+      {
+        "text": "quan sat hd trg",
+        "confidence": 75,
+        "bbox": {
+          "x": 195,
+          "y": 742,
+          "w": 1559,
+          "h": 65
+        }
+      },
+      {
+        "text": "quan sat 3 ho trg",
+        "confidence": 75,
+        "bbox": {
+          "x": 195,
+          "y": 871,
+          "w": 1559,
+          "h": 65
+        }
+      },
+      {
+        "text": "quan sat ho trg",
+        "confidence": 75,
+        "bbox": {
+          "x": 195,
+          "y": 1000,
+          "w": 1559,
+          "h": 65
+        }
+      },
+      {
+        "text": "quan sat ho trg",
+        "confidence": 75,
+        "bbox": {
+          "x": 195,
+          "y": 1129,
+          "w": 1559,
+          "h": 65
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": [
+        "abductive"
+      ]
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

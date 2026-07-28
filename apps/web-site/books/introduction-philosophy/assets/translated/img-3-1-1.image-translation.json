@@ -1,0 +1,53 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-3-1-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/3-1-indigenous-philosophy.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "on =",
+      "confidence": 32,
+      "bbox": {
+        "x": 116,
+        "y": 120,
+        "w": 926,
+        "h": 80
+      }
+    },
+    {
+      "text": "RE ELLC",
+      "confidence": 32,
+      "bbox": {
+        "x": 116,
+        "y": 280,
+        "w": 926,
+        "h": 80
+      }
+    },
+    {
+      "text": "BE",
+      "confidence": 32,
+      "bbox": {
+        "x": 116,
+        "y": 440,
+        "w": 926,
+        "h": 80
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.1915340303848262,
+    "averageConfidence": 32,
+    "entropy": 3.090623016752943,
+    "sharpness": 2.931088202716345
+  }
+}

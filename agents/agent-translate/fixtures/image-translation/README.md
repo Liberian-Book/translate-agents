@@ -10,10 +10,10 @@ node agents/agent-translate/scripts/translate-images.js agents/agent-translate/f
 
 Expected result:
 
-- `assets/translated/diagram.image-translation.json` records `decision: "auto"`, `renderer: "overlay"`, and an eligible `classification` such as `diagram`.
+- `assets/translated/diagram.image-translation.json` records `decision: "auto"`, renderer metadata, and an eligible `classification` such as `diagram`.
 - `assets/translated/diagram.vi.png` is generated.
 - `diagram.html` rewrites the diagram image `src` to `./assets/translated/diagram.vi.png`.
-- `assets/translated/photo-like.image-translation.json` records `decision: "skip"`, `renderer: "overlay"`, and an ineligible `classification`.
+- `assets/translated/photo-like.image-translation.json` records `decision: "skip"`, renderer metadata, and an ineligible `classification`.
 - The photo-like image `src` remains `assets/photo-like.png`.
 
 This fixture uses common stakeholder labels covered by the built-in fallback dictionary, so it can run without `OPENAI_API_KEY`. Production use should set `OPENAI_API_KEY` for labels outside the fallback dictionary.

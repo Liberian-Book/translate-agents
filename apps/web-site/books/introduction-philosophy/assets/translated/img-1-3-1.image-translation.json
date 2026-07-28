@@ -1,0 +1,153 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-1-3-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/1-3-socrates-as-a-paradigmatic-historical-philosopher.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "pr y",
+      "confidence": 34,
+      "bbox": {
+        "x": 60,
+        "y": 96,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "-A yf od",
+      "confidence": 34,
+      "bbox": {
+        "x": 60,
+        "y": 224,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "Qs ey",
+      "confidence": 34,
+      "bbox": {
+        "x": 60,
+        "y": 352,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "h hi om,",
+      "confidence": 34,
+      "bbox": {
+        "x": 60,
+        "y": 480,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "aR ==\"",
+      "confidence": 34,
+      "bbox": {
+        "x": 60,
+        "y": 608,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "Nl ny Y",
+      "confidence": 34,
+      "bbox": {
+        "x": 60,
+        "y": 736,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "DRINRAL. *",
+      "confidence": 34,
+      "bbox": {
+        "x": 60,
+        "y": 864,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "ha he. J A &",
+      "confidence": 34,
+      "bbox": {
+        "x": 60,
+        "y": 992,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "AN “2 Q",
+      "confidence": 34,
+      "bbox": {
+        "x": 60,
+        "y": 1120,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "AINE",
+      "confidence": 34,
+      "bbox": {
+        "x": 60,
+        "y": 1248,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "CAN of ET oa",
+      "confidence": 34,
+      "bbox": {
+        "x": 60,
+        "y": 1376,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "~ oi ay",
+      "confidence": 34,
+      "bbox": {
+        "x": 60,
+        "y": 1504,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "— = a Na",
+      "confidence": 34,
+      "bbox": {
+        "x": 60,
+        "y": 1632,
+        "w": 480,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.832,
+    "averageConfidence": 34,
+    "entropy": 7.3243662379536545,
+    "sharpness": 1.306631240850154
+  }
+}

@@ -17,6 +17,7 @@ function parseArgs(args) {
   let retranslate = false;
   let renderer;
   let strict = false;
+  let force = false;
 
   for (let i = 0; i < args.length; i += 1) {
     const arg = args[i];
@@ -26,6 +27,10 @@ function parseArgs(args) {
     }
     if (arg === '--strict') {
       strict = true;
+      continue;
+    }
+    if (arg === '--force') {
+      force = true;
       continue;
     }
     if (arg === '--renderer') {
@@ -46,19 +51,19 @@ function parseArgs(args) {
     positional.push(arg);
   }
 
-  return { positional, retranslate, renderer, strict };
+  return { positional, retranslate, renderer, strict, force };
 }
 
 async function main() {
   const args = process.argv.slice(2);
-  const { positional, retranslate, renderer, strict } = parseArgs(args);
+  const { positional, retranslate, renderer, strict, force } = parseArgs(args);
   const target = positional[0];
   const bookName = positional[1] || 'entrepreneurship';
 
   if (!target || target === '--help' || target === '-h') {
-    console.log('Usage: node agents/agent-translate/scripts/translate-images.js <translated-html-file|chapter-number|all> [bookName] [--retranslate] [--renderer overlay|image-edit] [--strict]');
+    console.log('Usage: node agents/agent-translate/scripts/translate-images.js <translated-html-file|chapter-number|all> [bookName] [--retranslate] [--force] [--renderer overlay|image-edit] [--strict]');
     console.log('Environment: OPENAI_API_KEY optional; IMAGE_TRANSLATION_TEXT_MODEL overrides OPENAI_MODEL and defaults to gpt-4o-mini for OCR label translation. IMAGE_TRANSLATION_IMAGE_MODEL defaults to gpt-image-2 for --renderer image-edit.');
-    console.log('Options: --retranslate forces image-only retranslation for already translated HTML files and reuses original source assets. --renderer selects overlay or image-edit; default is overlay. --strict fails when any image is review/error.');
+    console.log('Options: --retranslate forces image-only retranslation for already translated HTML files and reuses original source assets. --force ignores existing sidecars for original image references. --renderer selects overlay or image-edit; default is image-edit. --strict fails when any image is review/error.');
     process.exit(0);
   }
 
@@ -80,7 +85,7 @@ async function main() {
   try {
     for (const file of files) {
       const processFile = retranslate ? retranslateImagesOnly : processHtmlFile;
-      const result = await processFile(file, { translationOptions, rendererOptions, worker, imageCache, bookName, projectRoot });
+      const result = await processFile(file, { translationOptions, rendererOptions, worker, imageCache, bookName, projectRoot, force });
       for (const [key, value] of Object.entries(result.summary)) {
         totals[key] = (totals[key] || 0) + value;
       }

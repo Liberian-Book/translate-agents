@@ -1,0 +1,243 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-12-4-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/12-4-the-frankfurt-school.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "ES Nay Zo",
+      "confidence": 26,
+      "bbox": {
+        "x": 57,
+        "y": 96,
+        "w": 456,
+        "h": 64
+      }
+    },
+    {
+      "text": "ANSE Z=\\",
+      "confidence": 26,
+      "bbox": {
+        "x": 57,
+        "y": 224,
+        "w": 456,
+        "h": 64
+      }
+    },
+    {
+      "text": "‘ i i oh Br7s 2 —_ \\",
+      "confidence": 26,
+      "bbox": {
+        "x": 57,
+        "y": 352,
+        "w": 456,
+        "h": 64
+      }
+    },
+    {
+      "text": "A Nan i",
+      "confidence": 26,
+      "bbox": {
+        "x": 57,
+        "y": 480,
+        "w": 456,
+        "h": 64
+      }
+    },
+    {
+      "text": "14% tN A Yl Ne =",
+      "confidence": 26,
+      "bbox": {
+        "x": 57,
+        "y": 608,
+        "w": 456,
+        "h": 64
+      }
+    },
+    {
+      "text": "7 2q J a oP .z £5)",
+      "confidence": 26,
+      "bbox": {
+        "x": 57,
+        "y": 736,
+        "w": 456,
+        "h": 64
+      }
+    },
+    {
+      "text": "IONS 2. &r =",
+      "confidence": 26,
+      "bbox": {
+        "x": 57,
+        "y": 864,
+        "w": 456,
+        "h": 64
+      }
+    },
+    {
+      "text": "wn raed TL a Ian ON",
+      "confidence": 26,
+      "bbox": {
+        "x": 57,
+        "y": 992,
+        "w": 456,
+        "h": 64
+      }
+    },
+    {
+      "text": ") 187 NA “iz TN i Id",
+      "confidence": 26,
+      "bbox": {
+        "x": 57,
+        "y": 1120,
+        "w": 456,
+        "h": 64
+      }
+    },
+    {
+      "text": "iis a Lees fil",
+      "confidence": 26,
+      "bbox": {
+        "x": 57,
+        "y": 1248,
+        "w": 456,
+        "h": 64
+      }
+    },
+    {
+      "text": "Gen A Vl",
+      "confidence": 26,
+      "bbox": {
+        "x": 57,
+        "y": 1376,
+        "w": 456,
+        "h": 64
+      }
+    },
+    {
+      "text": "= vi $y OF lit",
+      "confidence": 26,
+      "bbox": {
+        "x": 57,
+        "y": 1504,
+        "w": 456,
+        "h": 64
+      }
+    },
+    {
+      "text": "EE 8 NP bo",
+      "confidence": 26,
+      "bbox": {
+        "x": 57,
+        "y": 1632,
+        "w": 456,
+        "h": 64
+      }
+    },
+    {
+      "text": "AES Na To gras",
+      "confidence": 26,
+      "bbox": {
+        "x": 57,
+        "y": 1760,
+        "w": 456,
+        "h": 64
+      }
+    },
+    {
+      "text": "ONT Y= gr = 4",
+      "confidence": 26,
+      "bbox": {
+        "x": 57,
+        "y": 1888,
+        "w": 456,
+        "h": 64
+      }
+    },
+    {
+      "text": "_ =< Ne Pr 74",
+      "confidence": 26,
+      "bbox": {
+        "x": 57,
+        "y": 2016,
+        "w": 456,
+        "h": 64
+      }
+    },
+    {
+      "text": "NY A",
+      "confidence": 26,
+      "bbox": {
+        "x": 57,
+        "y": 2144,
+        "w": 456,
+        "h": 64
+      }
+    },
+    {
+      "text": "ea",
+      "confidence": 26,
+      "bbox": {
+        "x": 57,
+        "y": 2272,
+        "w": 456,
+        "h": 64
+      }
+    },
+    {
+      "text": "> Sl Ns i",
+      "confidence": 26,
+      "bbox": {
+        "x": 57,
+        "y": 2400,
+        "w": 456,
+        "h": 64
+      }
+    },
+    {
+      "text": "~ pee",
+      "confidence": 26,
+      "bbox": {
+        "x": 57,
+        "y": 2528,
+        "w": 456,
+        "h": 64
+      }
+    },
+    {
+      "text": ".— 5 by AIT",
+      "confidence": 26,
+      "bbox": {
+        "x": 57,
+        "y": 2656,
+        "w": 456,
+        "h": 64
+      }
+    },
+    {
+      "text": "— Jit",
+      "confidence": 26,
+      "bbox": {
+        "x": 57,
+        "y": 2784,
+        "w": 456,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 1.408,
+    "averageConfidence": 26,
+    "entropy": 5.080234923399985,
+    "sharpness": 15.475221179138996
+  }
+}

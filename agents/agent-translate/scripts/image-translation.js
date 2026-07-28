@@ -12,11 +12,13 @@ const DEFAULT_TRANSLATION_RETRIES = 4;
 const DEFAULT_TRANSLATION_RETRY_DELAY_MS = 5000;
 const DEFAULT_IMAGE_EDIT_RETRIES = 2;
 const DEFAULT_IMAGE_EDIT_RETRY_DELAY_MS = 3000;
+const DEFAULT_IMAGE_EDIT_VALIDATION_RETRIES = 2;
 const VALID_RENDERERS = new Set(['overlay', 'image-edit']);
 const MIN_AUTO_REGIONS = 2;
 const MIN_AVERAGE_CONFIDENCE = 55;
 const MIN_TEXT_DENSITY = 0.0008;
 const MAX_OVERFLOW_RATIO = 1.9;
+const MAX_LEFTOVER_SOURCE_WORDS = 1;
 const FONT_FAMILY = 'Arial, Helvetica, sans-serif';
 const ELIGIBLE_IMAGE_TYPES = new Set(['diagram', 'table', 'chart', 'statistics', 'screenshot', 'labeled-illustration']);
 
@@ -59,6 +61,48 @@ function stripCodeFence(text) {
 
 function stripUnexpectedHtmlTags(text) {
   return String(text || '').replace(/<[^>]+>/g, '').trim();
+}
+
+function parseJsonPayload(text) {
+  const stripped = stripCodeFence(text);
+  const start = stripped.indexOf('[');
+  const end = stripped.lastIndexOf(']');
+  if (start === -1 || end === -1 || end < start) return null;
+  try {
+    return JSON.parse(stripped.slice(start, end + 1));
+  } catch {
+    return null;
+  }
+}
+
+function cleanOcrTextForTranslation(text) {
+  return String(text || '')
+    .replace(/[©■□●○◆◇▪▫◼◻]/g, ' ')
+    .replace(/\b(?:W|MM|WM|HM)\b/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function extractEnglishWords(text) {
+  return String(text || '')
+    .toLowerCase()
+    .match(/[a-z][a-z'-]{3,}/g) || [];
+}
+
+function validateImageEditOutput(sourceRegions, outputRegions) {
+  const sourceWords = new Set(sourceRegions.flatMap(region => extractEnglishWords(region.text)));
+  const outputWords = new Set(outputRegions.flatMap(region => extractEnglishWords(region.text)));
+  const leftoverSourceWords = [...sourceWords].filter(word => outputWords.has(word));
+
+  if (leftoverSourceWords.length > MAX_LEFTOVER_SOURCE_WORDS) {
+    return {
+      ok: false,
+      reason: 'image-edit-leftover-source-english',
+      leftoverSourceWords: leftoverSourceWords.slice(0, 20),
+    };
+  }
+
+  return { ok: true, leftoverSourceWords };
 }
 
 function isRemoteOrDataUrl(src) {
@@ -151,6 +195,30 @@ function createSkippedResult({ htmlFile, src, reason, rendererOptions }) {
     ocr: [],
     translations: [],
   };
+}
+
+function normalizeContextText(text) {
+  return String(text || '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function collectImageContext($, img) {
+  const parts = [];
+  const $img = $(img);
+  const alt = normalizeContextText($img.attr('alt'));
+  if (alt) parts.push(`Image alt: ${alt}`);
+
+  const mediaAlt = normalizeContextText($img.closest('[data-type="media"]').attr('data-alt'));
+  if (mediaAlt && mediaAlt !== alt) parts.push(`Media alt: ${mediaAlt}`);
+
+  const aria = normalizeContextText($img.closest('button').attr('aria-label'));
+  if (aria && aria !== alt) parts.push(`Button label: ${aria}`);
+
+  const caption = normalizeContextText($img.closest('figure').find('figcaption.eng').first().text());
+  if (caption) parts.push(`English caption: ${caption}`);
+
+  return parts.join('\n').slice(0, 4000);
 }
 
 function normalizeBbox(raw) {
@@ -319,7 +387,7 @@ function createTranslationOptions(env = process.env) {
 }
 
 function createRendererOptions({ renderer, env = process.env } = {}) {
-  const selectedRenderer = renderer || env.IMAGE_TRANSLATION_RENDERER || 'overlay';
+  const selectedRenderer = renderer || env.IMAGE_TRANSLATION_RENDERER || 'image-edit';
   if (!VALID_RENDERERS.has(selectedRenderer)) {
     throw new Error(`Invalid image translation renderer "${selectedRenderer}". Accepted values: overlay, image-edit.`);
   }
@@ -331,6 +399,7 @@ function createRendererOptions({ renderer, env = process.env } = {}) {
     baseUrl: (env.OPENAI_BASE_URL || DEFAULT_BASE_URL).replace(/\/$/, ''),
     retries: Number(env.IMAGE_TRANSLATION_IMAGE_RETRIES || DEFAULT_IMAGE_EDIT_RETRIES),
     retryDelayMs: Number(env.IMAGE_TRANSLATION_IMAGE_RETRY_DELAY_MS || DEFAULT_IMAGE_EDIT_RETRY_DELAY_MS),
+    validationRetries: Number(env.IMAGE_TRANSLATION_IMAGE_VALIDATION_RETRIES || DEFAULT_IMAGE_EDIT_VALIDATION_RETRIES),
   };
 }
 
@@ -339,8 +408,16 @@ function fallbackTranslate(text) {
   return FALLBACK_TRANSLATIONS.get(key) || null;
 }
 
+function normalizeKnownChartTranslation(source, target) {
+  const key = cleanOcrTextForTranslation(source).toLowerCase().replace(/[^a-z\s/]/g, '').replace(/\s+/g, ' ').trim();
+  if (key === 'often sometimes rarely never n/a' || key === 'often sometimes rarely never na') {
+    return 'Thường xuyên; Thỉnh thoảng; Hiếm khi; Không bao giờ; N/A';
+  }
+  return target;
+}
+
 async function translateText(text, options) {
-  const fallback = fallbackTranslate(text);
+  const fallback = fallbackTranslate(cleanOcrTextForTranslation(text));
   if (fallback && !options.apiKey) return fallback;
 
   if (!options.apiKey) return null;
@@ -387,16 +464,75 @@ async function translateText(text, options) {
   return stripUnexpectedHtmlTags(stripCodeFence(translated));
 }
 
+async function translateRegionBatch(regions, options) {
+  if (!options.apiKey) return null;
+
+  const inputs = regions.map((region, index) => ({
+    index,
+    text: region.text,
+    normalizedText: cleanOcrTextForTranslation(region.text),
+  }));
+  const maxAttempts = Math.max(1, Number.isFinite(options.retries) ? options.retries + 1 : DEFAULT_TRANSLATION_RETRIES + 1);
+  let response;
+
+  for (let attempt = 0; attempt < maxAttempts; attempt += 1) {
+    response = await fetch(`${options.baseUrl}/chat/completions`, {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${options.apiKey}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        model: options.model,
+        messages: [
+          {
+            role: 'system',
+            content: [
+              'You translate all visible English text from one textbook image into Vietnamese.',
+              'Use the full list as context: adjacent OCR lines may be parts of one title, legend, or source note.',
+              'Return strict JSON array only. Each item must be {"index": number, "target": string}.',
+              'Keep Vietnamese concise and natural for image labels. Do not include English except proper names, acronyms, or N/A when it is the original chart category.',
+              'Ignore OCR artifacts that are only color markers or bullets, such as W, MM, WM, HM, ©, squares, or isolated symbols.',
+            ].join(' '),
+          },
+          { role: 'user', content: JSON.stringify(inputs) },
+        ],
+        temperature: 0.1,
+      }),
+    });
+
+    if (response.ok) break;
+    if (response.status !== 429 || attempt === maxAttempts - 1) {
+      const body = await response.text();
+      if (process.env.DEBUG_IMAGE_TRANSLATION === '1') {
+        console.warn(`Batch translation API failed (${response.status}): ${body.slice(0, 2000)}`);
+      }
+      throw new Error(`translation-api-failed-status-${response.status}`);
+    }
+    await sleep(getRetryDelayMs(response, attempt, options));
+  }
+
+  const data = await response.json();
+  const parsed = parseJsonPayload(data.choices?.[0]?.message?.content || '');
+  if (!Array.isArray(parsed)) return null;
+  const byIndex = new Map(parsed.map(item => [Number(item.index), stripUnexpectedHtmlTags(String(item.target || ''))]));
+  return inputs.map(item => byIndex.get(item.index) || null);
+}
+
 async function translateRegions(regions, options) {
+  const batchTargets = await translateRegionBatch(regions, options);
   const translations = [];
-  for (const region of regions) {
-    const target = await translateText(region.text, options);
+  for (let index = 0; index < regions.length; index += 1) {
+    const region = regions[index];
+    const normalizedSource = cleanOcrTextForTranslation(region.text);
+    const target = batchTargets?.[index] || await translateText(normalizedSource || region.text, options);
     if (!target) {
-      translations.push({ source: region.text, target: null, bbox: region.bbox, overflow: false, reason: 'missing-translation' });
+      translations.push({ source: region.text, normalizedSource, target: null, bbox: region.bbox, overflow: false, reason: 'missing-translation' });
       continue;
     }
-    const overflow = target.length / Math.max(region.text.length, 1) > MAX_OVERFLOW_RATIO;
-    translations.push({ source: region.text, target, bbox: region.bbox, overflow });
+    const normalizedTarget = normalizeKnownChartTranslation(normalizedSource || region.text, target);
+    const overflow = normalizedTarget.length / Math.max((normalizedSource || region.text).length, 1) > MAX_OVERFLOW_RATIO;
+    translations.push({ source: region.text, normalizedSource, target: normalizedTarget, bbox: region.bbox, overflow });
   }
   return translations;
 }
@@ -471,21 +607,33 @@ function isTransientImageEditFailure(error) {
   return error?.transient === true || status === 408 || status === 409 || status === 429 || status >= 500;
 }
 
-function createImageEditPrompt({ classification, translations }) {
+function createImageEditPrompt({ classification, translations, imageContext = null, validationFailure = null }) {
   const translatedLabels = translations
     .filter(item => item.source && item.target && !item.overflow)
-    .map(item => `- ${item.source} => ${item.target}`)
+    .map(item => {
+      const source = item.normalizedSource && item.normalizedSource !== item.source
+        ? `${item.source} (cleaned OCR: ${item.normalizedSource})`
+        : item.source;
+      return `- ${source} => ${item.target}`;
+    })
     .join('\n');
+  const validationNote = validationFailure?.leftoverSourceWords?.length
+    ? `Previous output was rejected because these English source words were still visible: ${validationFailure.leftoverSourceWords.join(', ')}. Remove or translate every one of them in the next output.`
+    : null;
 
   return [
     'Translate the visible English text in this textbook image to Vietnamese.',
     `Image type: ${classification?.type || 'diagram'}.`,
+    imageContext ? `Use this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\n${imageContext}` : null,
     'Preserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.',
     'Do not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.',
+    'Every visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.',
+    'Ignore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.',
     'Use these translations exactly when the matching source text appears:',
     translatedLabels || '- Translate all visible English labels concisely to Vietnamese.',
+    validationNote,
     'Return a complete edited PNG image.',
-  ].join('\n');
+  ].filter(Boolean).join('\n');
 }
 
 async function callImageEditApi(sourceImage, prompt, rendererOptions) {
@@ -541,8 +689,8 @@ async function callImageEditApi(sourceImage, prompt, rendererOptions) {
   throw lastError;
 }
 
-async function renderImageEditImage(sourceImage, outputImage, classification, translations, rendererOptions) {
-  const prompt = createImageEditPrompt({ classification, translations });
+async function renderImageEditImage(sourceImage, outputImage, classification, translations, rendererOptions, validationFailure = null, imageContext = null) {
+  const prompt = createImageEditPrompt({ classification, translations, imageContext, validationFailure });
   const { imageBuffer, retrySummary } = await callImageEditApi(sourceImage, prompt, rendererOptions);
   fs.mkdirSync(path.dirname(outputImage), { recursive: true });
   await sharp(imageBuffer).png().toFile(outputImage);
@@ -560,7 +708,10 @@ function readReusableSidecar(sidecar, rendererOptions) {
   if (!payload) return null;
   if (!payload.renderer || !payload.classification) return null;
   if (rendererOptions?.renderer && payload.renderer !== rendererOptions.renderer) return null;
-  if (payload.decision === 'auto' && payload.outputImage && fs.existsSync(payload.outputImage)) return payload;
+  if (payload.decision === 'auto' && payload.outputImage && fs.existsSync(payload.outputImage)) {
+    if (payload.renderer === 'image-edit' && payload.imageEdit?.validation?.ok !== true) return null;
+    return payload;
+  }
   if (payload.decision === 'review' || payload.decision === 'skip') return payload;
   return null;
 }
@@ -575,7 +726,7 @@ function getRetryDelayMs(response, attempt, options) {
   return options.retryDelayMs * Math.max(1, attempt + 1);
 }
 
-async function processImage({ htmlFile, sourceImage, worker, translationOptions, rendererOptions, force = false }) {
+async function processImage({ htmlFile, sourceImage, worker, translationOptions, rendererOptions, force = false, imageContext = null }) {
   const { outputImage, sidecar } = getTranslatedOutputPaths(sourceImage);
   const selectedRenderer = rendererOptions?.renderer || 'overlay';
   const selectedImageModel = rendererOptions?.imageModel || DEFAULT_IMAGE_MODEL;
@@ -593,6 +744,7 @@ async function processImage({ htmlFile, sourceImage, worker, translationOptions,
     outputImage: null,
     ocr: [],
     translations: [],
+    imageContext: imageContext || null,
   };
 
   try {
@@ -620,12 +772,23 @@ async function processImage({ htmlFile, sourceImage, worker, translationOptions,
       },
     };
 
-    if (classification.decision !== 'auto') {
+    const canAttemptLowConfidenceImageEdit = selectedRenderer === 'image-edit'
+      && classification.decision === 'review'
+      && classification.reason === 'low-confidence-or-too-few-regions'
+      && classification.classification?.eligible
+      && regions.length >= MIN_AUTO_REGIONS;
+
+    if (classification.decision !== 'auto' && !canAttemptLowConfidenceImageEdit) {
       writeSidecar(sidecar, payload);
       return payload;
     }
 
-    const translations = await translateRegions(regions, translationOptions);
+    if (canAttemptLowConfidenceImageEdit) {
+      payload.decision = 'auto';
+      payload.reason = 'low-confidence-image-edit-attempt';
+    }
+
+    const translations = canAttemptLowConfidenceImageEdit ? [] : await translateRegions(regions, translationOptions);
     payload.translations = translations;
     if (translations.some(item => !item.target)) {
       payload.decision = 'review';
@@ -642,15 +805,45 @@ async function processImage({ htmlFile, sourceImage, worker, translationOptions,
 
     if (selectedRenderer === 'image-edit') {
       try {
-        const imageEdit = await renderImageEditImage(sourceImage, outputImage, payload.classification, translations, {
-          ...rendererOptions,
-          imageModel: selectedImageModel,
-        });
-        payload.renderer = 'image-edit';
+        let validationFailure = null;
+        const validationAttempts = Math.max(1, Number.isFinite(rendererOptions.validationRetries) ? rendererOptions.validationRetries + 1 : DEFAULT_IMAGE_EDIT_VALIDATION_RETRIES + 1);
+
+        for (let attempt = 0; attempt < validationAttempts; attempt += 1) {
+          const imageEdit = await renderImageEditImage(sourceImage, outputImage, payload.classification, translations, {
+            ...rendererOptions,
+            imageModel: selectedImageModel,
+          }, validationFailure, imageContext);
+          const outputMetadata = await sharp(outputImage).metadata();
+          const outputRegions = await recognizeImage(worker, outputImage, outputMetadata);
+          const validationSourceRegions = canAttemptLowConfidenceImageEdit && imageContext
+            ? [{ text: imageContext }]
+            : regions;
+          const validation = validateImageEditOutput(validationSourceRegions, outputRegions);
+          payload.imageEdit = {
+            prompt: imageEdit.prompt,
+            outputOcr: outputRegions,
+            validation,
+            validationAttempt: attempt + 1,
+          };
+          if (validation.ok) {
+            payload.renderer = 'image-edit';
+            payload.model = selectedImageModel;
+            payload.retries = imageEdit.retrySummary;
+            payload.outputImage = outputImage;
+            writeSidecar(sidecar, payload);
+            return payload;
+          }
+
+          validationFailure = validation;
+          try {
+            fs.unlinkSync(outputImage);
+          } catch {}
+        }
+
+        payload.decision = 'review';
+        payload.reason = validationFailure?.reason || 'image-edit-validation-failed';
         payload.model = selectedImageModel;
-        payload.retries = imageEdit.retrySummary;
-        payload.imageEdit = { prompt: imageEdit.prompt };
-        payload.outputImage = outputImage;
+        payload.outputImage = null;
         writeSidecar(sidecar, payload);
         return payload;
       } catch (error) {
@@ -725,7 +918,15 @@ async function processHtmlFile(htmlFile, options = {}) {
       const cached = imageCache.get(cacheKey);
       const result = cached
         ? { ...cached, htmlFile }
-        : await processImage({ htmlFile, sourceImage, worker, translationOptions, rendererOptions, force: options.force });
+        : await processImage({
+          htmlFile,
+          sourceImage,
+          worker,
+          translationOptions,
+          rendererOptions,
+          force: options.force,
+          imageContext: collectImageContext($, img),
+        });
       if (!cached) imageCache.set(cacheKey, result);
       processed.push(result);
       if (result.decision === 'auto' && result.outputImage) {

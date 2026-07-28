@@ -1,94 +1,9 @@
 {
   "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-1-1-1.webp",
   "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/1-1-computer-science.html",
-  "decision": "review",
-  "reason": "low-confidence-or-too-few-regions",
+  "decision": "error",
+  "reason": "source-image-not-found",
   "outputImage": null,
-  "ocr": [
-    {
-      "text": "hat RCA",
-      "confidence": 18,
-      "bbox": {
-        "x": 50,
-        "y": 33,
-        "w": 401,
-        "h": 24
-      }
-    },
-    {
-      "text": "Al = 3 a - -",
-      "confidence": 18,
-      "bbox": {
-        "x": 50,
-        "y": 77,
-        "w": 401,
-        "h": 24
-      }
-    },
-    {
-      "text": "SALIDA Lbs br ol",
-      "confidence": 18,
-      "bbox": {
-        "x": 50,
-        "y": 121,
-        "w": 401,
-        "h": 24
-      }
-    },
-    {
-      "text": "A FFF TE FEFEREEE]",
-      "confidence": 18,
-      "bbox": {
-        "x": 50,
-        "y": 165,
-        "w": 401,
-        "h": 24
-      }
-    },
-    {
-      "text": "AT2SLIT2SLIT230",
-      "confidence": 18,
-      "bbox": {
-        "x": 50,
-        "y": 209,
-        "w": 401,
-        "h": 24
-      }
-    },
-    {
-      "text": "QLlTIsiiTIstiTE",
-      "confidence": 18,
-      "bbox": {
-        "x": 50,
-        "y": 253,
-        "w": 401,
-        "h": 24
-      }
-    },
-    {
-      "text": "a ERIE RENEE 12",
-      "confidence": 18,
-      "bbox": {
-        "x": 50,
-        "y": 297,
-        "w": 401,
-        "h": 24
-      }
-    },
-    {
-      "text": "OS TET i Je Ll ies oa RS TR",
-      "confidence": 18,
-      "bbox": {
-        "x": 50,
-        "y": 341,
-        "w": 401,
-        "h": 24
-      }
-    }
-  ],
-  "translations": [],
-  "metrics": {
-    "textDensity": 0.5649876717153928,
-    "averageConfidence": 18
-  }
+  "ocr": [],
+  "translations": []
 }

@@ -1,34 +1,9 @@
 {
   "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-2-14.webp",
   "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-2-cloud-based-and-cloud-native-applications-deployment-technologies.html",
-  "decision": "review",
-  "reason": "low-confidence-or-too-few-regions",
+  "decision": "error",
+  "reason": "source-image-not-found",
   "outputImage": null,
-  "ocr": [
-    {
-      "text": "° [ww]",
-      "confidence": 42,
-      "bbox": {
-        "x": 94,
-        "y": 52,
-        "w": 750,
-        "h": 34
-      }
-    },
-    {
-      "text": "Server",
-      "confidence": 42,
-      "bbox": {
-        "x": 94,
-        "y": 121,
-        "w": 750,
-        "h": 34
-      }
-    }
-  ],
-  "translations": [],
-  "metrics": {
-    "textDensity": 0.12628544968762923,
-    "averageConfidence": 42
-  }
+  "ocr": [],
+  "translations": []
 }

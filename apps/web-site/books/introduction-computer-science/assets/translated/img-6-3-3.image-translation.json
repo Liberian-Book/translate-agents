@@ -1,24 +1,9 @@
 {
   "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-6-3-3.webp",
   "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/6-3-processes-and-concurrency.html",
-  "decision": "review",
-  "reason": "low-confidence-or-too-few-regions",
+  "decision": "error",
+  "reason": "source-image-not-found",
   "outputImage": null,
-  "ocr": [
-    {
-      "text": "Input process, out P,",
-      "confidence": 52,
-      "bbox": {
-        "x": 75,
-        "y": 23,
-        "w": 603,
-        "h": 24
-      }
-    }
-  ],
-  "translations": [],
-  "metrics": {
-    "textDensity": 0.09944888058163028,
-    "averageConfidence": 52
-  }
+  "ocr": [],
+  "translations": []
 }

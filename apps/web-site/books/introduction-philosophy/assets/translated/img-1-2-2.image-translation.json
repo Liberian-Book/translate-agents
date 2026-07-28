@@ -1,0 +1,33 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-1-2-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/1-2-how-do-philosophers-arrive-at-truth.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "adh",
+      "confidence": 32,
+      "bbox": {
+        "x": 59,
+        "y": 96,
+        "w": 474,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.06405405405405405,
+    "averageConfidence": 32,
+    "entropy": 5.922463974915445,
+    "sharpness": 1.2301742179171435
+  }
+}

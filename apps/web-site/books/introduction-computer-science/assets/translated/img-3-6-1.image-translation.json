@@ -1,54 +1,9 @@
 {
   "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-3-6-1.webp",
   "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/3-6-computer-science-theory.html",
-  "decision": "review",
-  "reason": "low-confidence-or-too-few-regions",
+  "decision": "error",
+  "reason": "source-image-not-found",
   "outputImage": null,
-  "ocr": [
-    {
-      "text": "Bs, 0 0",
-      "confidence": 48,
-      "bbox": {
-        "x": 125,
-        "y": 43,
-        "w": 998,
-        "h": 29
-      }
-    },
-    {
-      "text": "x + oe",
-      "confidence": 48,
-      "bbox": {
-        "x": 125,
-        "y": 101,
-        "w": 998,
-        "h": 29
-      }
-    },
-    {
-      "text": "= 45 / » a Aw",
-      "confidence": 48,
-      "bbox": {
-        "x": 125,
-        "y": 159,
-        "w": 998,
-        "h": 29
-      }
-    },
-    {
-      "text": "7 \\ ND S\\N",
-      "confidence": 48,
-      "bbox": {
-        "x": 125,
-        "y": 217,
-        "w": 998,
-        "h": 29
-      }
-    }
-  ],
-  "translations": [],
-  "metrics": {
-    "textDensity": 0.2569607216421621,
-    "averageConfidence": 48
-  }
+  "ocr": [],
+  "translations": []
 }

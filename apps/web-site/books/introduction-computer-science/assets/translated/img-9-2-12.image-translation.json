@@ -1,24 +1,9 @@
 {
   "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-9-2-12.webp",
   "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/9-2-software-engineering-process.html",
-  "decision": "review",
-  "reason": "low-confidence-or-too-few-regions",
+  "decision": "error",
+  "reason": "source-image-not-found",
   "outputImage": null,
-  "ocr": [
-    {
-      "text": "PN",
-      "confidence": 55,
-      "bbox": {
-        "x": 96,
-        "y": 53,
-        "w": 771,
-        "h": 36
-      }
-    }
-  ],
-  "translations": [],
-  "metrics": {
-    "textDensity": 0.0648480430638107,
-    "averageConfidence": 55
-  }
+  "ocr": [],
+  "translations": []
 }

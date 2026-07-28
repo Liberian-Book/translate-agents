@@ -1,0 +1,22 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-6-1-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/6-1-substance.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "natural",
+    "eligible": false,
+    "reason": "natural-image-without-ocr-text"
+  },
+  "reason": "low-text-density",
+  "outputImage": null,
+  "ocr": [],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0,
+    "averageConfidence": 0,
+    "entropy": 5.754847873358813,
+    "sharpness": 1.905898158174373
+  }
+}

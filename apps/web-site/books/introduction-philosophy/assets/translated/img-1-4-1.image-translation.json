@@ -1,0 +1,280 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-1-4-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/1-4-an-overview-of-contemporary-philosophy.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/translated/img-1-4-1.vi.png",
+  "ocr": [
+    {
+      "text": "Faliel",
+      "confidence": 17,
+      "bbox": {
+        "x": 180,
+        "y": 175,
+        "w": 1439,
+        "h": 116
+      }
+    },
+    {
+      "text": "Haley Aalsiriesanis",
+      "confidence": 17,
+      "bbox": {
+        "x": 180,
+        "y": 408,
+        "w": 1439,
+        "h": 116
+      }
+    },
+    {
+      "text": "Bagh",
+      "confidence": 17,
+      "bbox": {
+        "x": 180,
+        "y": 641,
+        "w": 1439,
+        "h": 116
+      }
+    },
+    {
+      "text": "Manplially B. Fauries",
+      "confidence": 17,
+      "bbox": {
+        "x": 180,
+        "y": 874,
+        "w": 1439,
+        "h": 116
+      }
+    },
+    {
+      "text": "amphi Denign",
+      "confidence": 17,
+      "bbox": {
+        "x": 180,
+        "y": 1107,
+        "w": 1439,
+        "h": 116
+      }
+    },
+    {
+      "text": "Eilat inn",
+      "confidence": 17,
+      "bbox": {
+        "x": 180,
+        "y": 1340,
+        "w": 1439,
+        "h": 116
+      }
+    },
+    {
+      "text": "= INCE EEE SEED EON BEE END",
+      "confidence": 17,
+      "bbox": {
+        "x": 180,
+        "y": 1573,
+        "w": 1439,
+        "h": 116
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A graph presents the median mid-career salaries (10 years after graduation) of a range of college majors. The graph shows that philosophy graduates fall in the middle of the salary range. The data is as follows: Information Technology graduates earned approximately $50,000 after 10 years; Accounting graduates, approximately $48,000; Geology, approximately $45,000; Chemistry, approximately $42,000; Political Science, approximately $42,000; Marketing, approximately $42,000; Philosophy, approximately $41,000; Nutrition, approximately $41,000; Healthcare Administration, approximately $40,000; Biology, approximately $40,000; English, approximately $39,000; Hospitality & Tourism, approximately $39,000; Psychology, approximately $38,000; Graphic Design, approximately $38,000; Education, approximately $37,000; and Spanish, approximately $35,000.\nButton label: Click to enlarge image of A graph presents the median mid-career salaries (10 years after graduation) of a range of college majors. The graph shows that philosophy graduates fall in the middle of the salary range. The data is as follows: Information Technology graduates earned approximately $50,000 after 10 years; Accounting graduates, approximately $48,000; Geology, approximately $45,000; Chemistry, approximately $42,000; Political Science, approximately $42,000; Marketing, approximately $42,000; Philosophy, approximately $41,000; Nutrition, approximately $41,000; Healthcare Administration, approximately $40,000; Biology, approximately $40,000; English, approximately $39,000; Hospitality & Tourism, approximately $39,000; Psychology, approximately $38,000; Graphic Design, approximately $38,000; Education, approximately $37,000; and Spanish, approximately $35,000.\nEnglish caption: Figure 1.10 Median mid-career salaries (10 years after graduation) by college major. Philosophy majors make more, on average, than those majoring in many other areas. (source: Wall Street Journal) (attribution: Copyright Rice University, OpenStax under CC BY 4.0 license)",
+  "metrics": {
+    "textDensity": 0.4463984382312434,
+    "averageConfidence": 17,
+    "entropy": 2.903247269383428,
+    "sharpness": 3.9822476479923012
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A graph presents the median mid-career salaries (10 years after graduation) of a range of college majors. The graph shows that philosophy graduates fall in the middle of the salary range. The data is as follows: Information Technology graduates earned approximately $50,000 after 10 years; Accounting graduates, approximately $48,000; Geology, approximately $45,000; Chemistry, approximately $42,000; Political Science, approximately $42,000; Marketing, approximately $42,000; Philosophy, approximately $41,000; Nutrition, approximately $41,000; Healthcare Administration, approximately $40,000; Biology, approximately $40,000; English, approximately $39,000; Hospitality & Tourism, approximately $39,000; Psychology, approximately $38,000; Graphic Design, approximately $38,000; Education, approximately $37,000; and Spanish, approximately $35,000.\nButton label: Click to enlarge image of A graph presents the median mid-career salaries (10 years after graduation) of a range of college majors. The graph shows that philosophy graduates fall in the middle of the salary range. The data is as follows: Information Technology graduates earned approximately $50,000 after 10 years; Accounting graduates, approximately $48,000; Geology, approximately $45,000; Chemistry, approximately $42,000; Political Science, approximately $42,000; Marketing, approximately $42,000; Philosophy, approximately $41,000; Nutrition, approximately $41,000; Healthcare Administration, approximately $40,000; Biology, approximately $40,000; English, approximately $39,000; Hospitality & Tourism, approximately $39,000; Psychology, approximately $38,000; Graphic Design, approximately $38,000; Education, approximately $37,000; and Spanish, approximately $35,000.\nEnglish caption: Figure 1.10 Median mid-career salaries (10 years after graduation) by college major. Philosophy majors make more, on average, than those majoring in many other areas. (source: Wall Street Journal) (attribution: Copyright Rice University, OpenStax under CC BY 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Cong nghé thong tin",
+        "confidence": 72,
+        "bbox": {
+          "x": 139,
+          "y": 135,
+          "w": 1114,
+          "h": 90
+        }
+      },
+      {
+        "text": "Ke tosn [ime Es a",
+        "confidence": 72,
+        "bbox": {
+          "x": 139,
+          "y": 316,
+          "w": 1114,
+          "h": 90
+        }
+      },
+      {
+        "text": "Dia chat hoc",
+        "confidence": 72,
+        "bbox": {
+          "x": 139,
+          "y": 497,
+          "w": 1114,
+          "h": 90
+        }
+      },
+      {
+        "text": "Héa hoc",
+        "confidence": 72,
+        "bbox": {
+          "x": 139,
+          "y": 678,
+          "w": 1114,
+          "h": 90
+        }
+      },
+      {
+        "text": "Khoa hoc chinh tri",
+        "confidence": 72,
+        "bbox": {
+          "x": 139,
+          "y": 859,
+          "w": 1114,
+          "h": 90
+        }
+      },
+      {
+        "text": "Marketing",
+        "confidence": 72,
+        "bbox": {
+          "x": 139,
+          "y": 1040,
+          "w": 1114,
+          "h": 90
+        }
+      },
+      {
+        "text": "Triét hoc",
+        "confidence": 72,
+        "bbox": {
+          "x": 139,
+          "y": 1221,
+          "w": 1114,
+          "h": 90
+        }
+      },
+      {
+        "text": "pinh dveng EE BE",
+        "confidence": 72,
+        "bbox": {
+          "x": 139,
+          "y": 1402,
+          "w": 1114,
+          "h": 90
+        }
+      },
+      {
+        "text": "Quantriyté | |",
+        "confidence": 72,
+        "bbox": {
+          "x": 139,
+          "y": 1583,
+          "w": 1114,
+          "h": 90
+        }
+      },
+      {
+        "text": "Sinhhoe |",
+        "confidence": 72,
+        "bbox": {
+          "x": 139,
+          "y": 1764,
+          "w": 1114,
+          "h": 90
+        }
+      },
+      {
+        "text": "Tiéng Anh",
+        "confidence": 72,
+        "bbox": {
+          "x": 139,
+          "y": 1945,
+          "w": 1114,
+          "h": 90
+        }
+      },
+      {
+        "text": "Khach san & Du lich",
+        "confidence": 72,
+        "bbox": {
+          "x": 139,
+          "y": 2126,
+          "w": 1114,
+          "h": 90
+        }
+      },
+      {
+        "text": "Tam ly hoc",
+        "confidence": 72,
+        "bbox": {
+          "x": 139,
+          "y": 2307,
+          "w": 1114,
+          "h": 90
+        }
+      },
+      {
+        "text": "Thiét ké do hoa",
+        "confidence": 72,
+        "bbox": {
+          "x": 139,
+          "y": 2488,
+          "w": 1114,
+          "h": 90
+        }
+      },
+      {
+        "text": "Gido duc | — —",
+        "confidence": 72,
+        "bbox": {
+          "x": 139,
+          "y": 2669,
+          "w": 1114,
+          "h": 90
+        }
+      },
+      {
+        "text": "Tiéng Tay Ban Nha",
+        "confidence": 72,
+        "bbox": {
+          "x": 139,
+          "y": 2850,
+          "w": 1114,
+          "h": 90
+        }
+      },
+      {
+        "text": "Mic Iwong trung binh giita sy nghiép (sau 10 nam tot nghiép)",
+        "confidence": 72,
+        "bbox": {
+          "x": 139,
+          "y": 3031,
+          "w": 1114,
+          "h": 90
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": [
+        "marketing"
+      ]
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

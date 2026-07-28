@@ -1,0 +1,33 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-8-5-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/8-5-aesthetics.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "is",
+      "confidence": 25,
+      "bbox": {
+        "x": 53,
+        "y": 96,
+        "w": 426,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.06393996247654785,
+    "averageConfidence": 25,
+    "entropy": 6.974686233297689,
+    "sharpness": 1.7821948247332242
+  }
+}

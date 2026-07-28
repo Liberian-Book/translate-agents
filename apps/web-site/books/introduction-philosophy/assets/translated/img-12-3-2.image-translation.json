@@ -1,0 +1,293 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-12-3-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/12-3-continental-philosophys-challenge-to-enlightenment-theories.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "PE {5 eee",
+      "confidence": 28,
+      "bbox": {
+        "x": 104,
+        "y": 84,
+        "w": 832,
+        "h": 56
+      }
+    },
+    {
+      "text": "oF Fee NCEE hose",
+      "confidence": 28,
+      "bbox": {
+        "x": 104,
+        "y": 196,
+        "w": 832,
+        "h": 56
+      }
+    },
+    {
+      "text": "a Tc aN y",
+      "confidence": 28,
+      "bbox": {
+        "x": 104,
+        "y": 308,
+        "w": 832,
+        "h": 56
+      }
+    },
+    {
+      "text": "we Cay E- EET 9",
+      "confidence": 28,
+      "bbox": {
+        "x": 104,
+        "y": 420,
+        "w": 832,
+        "h": 56
+      }
+    },
+    {
+      "text": "Ny BT «a",
+      "confidence": 28,
+      "bbox": {
+        "x": 104,
+        "y": 532,
+        "w": 832,
+        "h": 56
+      }
+    },
+    {
+      "text": "& AGERE",
+      "confidence": 28,
+      "bbox": {
+        "x": 104,
+        "y": 644,
+        "w": 832,
+        "h": 56
+      }
+    },
+    {
+      "text": "E 8. re JN .",
+      "confidence": 28,
+      "bbox": {
+        "x": 104,
+        "y": 756,
+        "w": 832,
+        "h": 56
+      }
+    },
+    {
+      "text": "ED gor) SPs PERN",
+      "confidence": 28,
+      "bbox": {
+        "x": 104,
+        "y": 868,
+        "w": 832,
+        "h": 56
+      }
+    },
+    {
+      "text": "gh me",
+      "confidence": 28,
+      "bbox": {
+        "x": 104,
+        "y": 980,
+        "w": 832,
+        "h": 56
+      }
+    },
+    {
+      "text": "CE Ge ce |",
+      "confidence": 28,
+      "bbox": {
+        "x": 104,
+        "y": 1092,
+        "w": 832,
+        "h": 56
+      }
+    },
+    {
+      "text": "i h We § =) 0 //° p",
+      "confidence": 28,
+      "bbox": {
+        "x": 104,
+        "y": 1204,
+        "w": 832,
+        "h": 56
+      }
+    },
+    {
+      "text": "in a i % % SV Lf",
+      "confidence": 28,
+      "bbox": {
+        "x": 104,
+        "y": 1316,
+        "w": 832,
+        "h": 56
+      }
+    },
+    {
+      "text": "1 Ra ee wr. so",
+      "confidence": 28,
+      "bbox": {
+        "x": 104,
+        "y": 1428,
+        "w": 832,
+        "h": 56
+      }
+    },
+    {
+      "text": "i Nos WES Aa v",
+      "confidence": 28,
+      "bbox": {
+        "x": 104,
+        "y": 1540,
+        "w": 832,
+        "h": 56
+      }
+    },
+    {
+      "text": ": IN 7, ON Ne? 7 = y &",
+      "confidence": 28,
+      "bbox": {
+        "x": 104,
+        "y": 1652,
+        "w": 832,
+        "h": 56
+      }
+    },
+    {
+      "text": "Be 24 I ay",
+      "confidence": 28,
+      "bbox": {
+        "x": 104,
+        "y": 1764,
+        "w": 832,
+        "h": 56
+      }
+    },
+    {
+      "text": "’ AN SSR a yo .",
+      "confidence": 28,
+      "bbox": {
+        "x": 104,
+        "y": 1876,
+        "w": 832,
+        "h": 56
+      }
+    },
+    {
+      "text": "{07 ay",
+      "confidence": 28,
+      "bbox": {
+        "x": 104,
+        "y": 1988,
+        "w": 832,
+        "h": 56
+      }
+    },
+    {
+      "text": "i “e902 Cl gL «",
+      "confidence": 28,
+      "bbox": {
+        "x": 104,
+        "y": 2100,
+        "w": 832,
+        "h": 56
+      }
+    },
+    {
+      "text": "ANI) RNS, fe a",
+      "confidence": 28,
+      "bbox": {
+        "x": 104,
+        "y": 2212,
+        "w": 832,
+        "h": 56
+      }
+    },
+    {
+      "text": "ai Sof Bi. y” ~% :",
+      "confidence": 28,
+      "bbox": {
+        "x": 104,
+        "y": 2324,
+        "w": 832,
+        "h": 56
+      }
+    },
+    {
+      "text": "2 NEN x ag LA A pr",
+      "confidence": 28,
+      "bbox": {
+        "x": 104,
+        "y": 2436,
+        "w": 832,
+        "h": 56
+      }
+    },
+    {
+      "text": "ge lo NN Vd pe Ry Be “7",
+      "confidence": 28,
+      "bbox": {
+        "x": 104,
+        "y": 2548,
+        "w": 832,
+        "h": 56
+      }
+    },
+    {
+      "text": "EN KART ele # ’",
+      "confidence": 28,
+      "bbox": {
+        "x": 104,
+        "y": 2660,
+        "w": 832,
+        "h": 56
+      }
+    },
+    {
+      "text": "Fly",
+      "confidence": 28,
+      "bbox": {
+        "x": 104,
+        "y": 2772,
+        "w": 832,
+        "h": 56
+      }
+    },
+    {
+      "text": "Rl La dlls ~ —",
+      "confidence": 28,
+      "bbox": {
+        "x": 104,
+        "y": 2884,
+        "w": 832,
+        "h": 56
+      }
+    },
+    {
+      "text": "ET OP | A",
+      "confidence": 28,
+      "bbox": {
+        "x": 104,
+        "y": 2996,
+        "w": 832,
+        "h": 56
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 1.728,
+    "averageConfidence": 28,
+    "entropy": 7.408369910554029,
+    "sharpness": 5.358153452909059
+  }
+}

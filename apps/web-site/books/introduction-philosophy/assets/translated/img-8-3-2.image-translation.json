@@ -1,0 +1,43 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-8-3-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/8-3-metaethics.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "| ‘Chl To",
+      "confidence": 30,
+      "bbox": {
+        "x": 57,
+        "y": 96,
+        "w": 452,
+        "h": 64
+      }
+    },
+    {
+      "text": "mmm",
+      "confidence": 30,
+      "bbox": {
+        "x": 57,
+        "y": 224,
+        "w": 452,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.128,
+    "averageConfidence": 30,
+    "entropy": 7.106619739701273,
+    "sharpness": 8.12924438697446
+  }
+}

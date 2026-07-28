@@ -1,54 +1,9 @@
 {
   "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-14-2-24.webp",
   "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/14-2-cybersecurity-deep-dive.html",
-  "decision": "review",
-  "reason": "low-confidence-or-too-few-regions",
+  "decision": "error",
+  "reason": "source-image-not-found",
   "outputImage": null,
-  "ocr": [
-    {
-      "text": "T° %ebp",
-      "confidence": 45,
-      "bbox": {
-        "x": 93,
-        "y": 34,
-        "w": 744,
-        "h": 24
-      }
-    },
-    {
-      "text": "(rexe Joo 00 00 00 xenp [I] ava: .. [RNY",
-      "confidence": 45,
-      "bbox": {
-        "x": 93,
-        "y": 79,
-        "w": 744,
-        "h": 24
-      }
-    },
-    {
-      "text": "buffer",
-      "confidence": 45,
-      "bbox": {
-        "x": 93,
-        "y": 124,
-        "w": 744,
-        "h": 24
-      }
-    },
-    {
-      "text": "Oxbff",
-      "confidence": 45,
-      "bbox": {
-        "x": 93,
-        "y": 169,
-        "w": 744,
-        "h": 24
-      }
-    }
-  ],
-  "translations": [],
-  "metrics": {
-    "textDensity": 0.2723404255319149,
-    "averageConfidence": 45
-  }
+  "ocr": [],
+  "translations": []
 }

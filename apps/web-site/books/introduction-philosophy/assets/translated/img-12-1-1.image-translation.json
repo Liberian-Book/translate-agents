@@ -1,0 +1,93 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-12-1-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/12-1-enlightenment-social-theory.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "fi",
+      "confidence": 44,
+      "bbox": {
+        "x": 62,
+        "y": 96,
+        "w": 498,
+        "h": 64
+      }
+    },
+    {
+      "text": "Ia Va",
+      "confidence": 44,
+      "bbox": {
+        "x": 62,
+        "y": 224,
+        "w": 498,
+        "h": 64
+      }
+    },
+    {
+      "text": "RSE LTE | 4",
+      "confidence": 44,
+      "bbox": {
+        "x": 62,
+        "y": 352,
+        "w": 498,
+        "h": 64
+      }
+    },
+    {
+      "text": "Ea a | |",
+      "confidence": 44,
+      "bbox": {
+        "x": 62,
+        "y": 480,
+        "w": 498,
+        "h": 64
+      }
+    },
+    {
+      "text": "RRR oles",
+      "confidence": 44,
+      "bbox": {
+        "x": 62,
+        "y": 608,
+        "w": 498,
+        "h": 64
+      }
+    },
+    {
+      "text": "SOW NR",
+      "confidence": 44,
+      "bbox": {
+        "x": 62,
+        "y": 736,
+        "w": 498,
+        "h": 64
+      }
+    },
+    {
+      "text": "N BERS yd",
+      "confidence": 44,
+      "bbox": {
+        "x": 62,
+        "y": 864,
+        "w": 498,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.44764044943820225,
+    "averageConfidence": 44,
+    "entropy": 6.619311209862644,
+    "sharpness": 2.457466313833224
+  }
+}

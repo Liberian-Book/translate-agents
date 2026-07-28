@@ -1,0 +1,284 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-2-4-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/2-4-gathering-information-evaluating-sources-and-understanding-evidence.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "image-edit-leftover-source-english",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "This is the Border Fence Mexico built",
+      "confidence": 93,
+      "bbox": {
+        "x": 68,
+        "y": 84,
+        "w": 540,
+        "h": 56
+      }
+    },
+    {
+      "text": "on their border with Guatemala to",
+      "confidence": 93,
+      "bbox": {
+        "x": 68,
+        "y": 196,
+        "w": 540,
+        "h": 56
+      }
+    },
+    {
+      "text": "keep out freeloaders. Notice The",
+      "confidence": 93,
+      "bbox": {
+        "x": 68,
+        "y": 308,
+        "w": 540,
+        "h": 56
+      }
+    },
+    {
+      "text": "Barbed Wire & Towers with Armed",
+      "confidence": 93,
+      "bbox": {
+        "x": 68,
+        "y": 420,
+        "w": 540,
+        "h": 56
+      }
+    },
+    {
+      "text": "Guards. Shouldn’t the United States",
+      "confidence": 93,
+      "bbox": {
+        "x": 68,
+        "y": 532,
+        "w": 540,
+        "h": 56
+      }
+    },
+    {
+      "text": "have the same right as Mexico to",
+      "confidence": 93,
+      "bbox": {
+        "x": 68,
+        "y": 644,
+        "w": 540,
+        "h": 56
+      }
+    },
+    {
+      "text": "protect its border?",
+      "confidence": 93,
+      "bbox": {
+        "x": 68,
+        "y": 756,
+        "w": 540,
+        "h": 56
+      }
+    },
+    {
+      "text": "Ow 744 186 Comments 1.9K Share",
+      "confidence": 93,
+      "bbox": {
+        "x": 68,
+        "y": 868,
+        "w": 540,
+        "h": 56
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "This is the Border Fence Mexico built",
+      "normalizedSource": "This is the Border Fence Mexico built",
+      "target": "Đây là hàng rào biên giới mà Mexico xây dựng",
+      "bbox": {
+        "x": 68,
+        "y": 84,
+        "w": 540,
+        "h": 56
+      },
+      "overflow": false
+    },
+    {
+      "source": "on their border with Guatemala to",
+      "normalizedSource": "on their border with Guatemala to",
+      "target": "trên biên giới với Guatemala để",
+      "bbox": {
+        "x": 68,
+        "y": 196,
+        "w": 540,
+        "h": 56
+      },
+      "overflow": false
+    },
+    {
+      "source": "keep out freeloaders. Notice The",
+      "normalizedSource": "keep out freeloaders. Notice The",
+      "target": "ngăn chặn những kẻ ăn bám. Lưu ý về",
+      "bbox": {
+        "x": 68,
+        "y": 308,
+        "w": 540,
+        "h": 56
+      },
+      "overflow": false
+    },
+    {
+      "source": "Barbed Wire & Towers with Armed",
+      "normalizedSource": "Barbed Wire & Towers with Armed",
+      "target": "dây kẽm gai và tháp có lính vũ trang.",
+      "bbox": {
+        "x": 68,
+        "y": 420,
+        "w": 540,
+        "h": 56
+      },
+      "overflow": false
+    },
+    {
+      "source": "Guards. Shouldn’t the United States",
+      "normalizedSource": "Guards. Shouldn’t the United States",
+      "target": "Liệu Hoa Kỳ không có quyền như Mexico để",
+      "bbox": {
+        "x": 68,
+        "y": 532,
+        "w": 540,
+        "h": 56
+      },
+      "overflow": false
+    },
+    {
+      "source": "have the same right as Mexico to",
+      "normalizedSource": "have the same right as Mexico to",
+      "target": "bảo vệ biên giới của mình?",
+      "bbox": {
+        "x": 68,
+        "y": 644,
+        "w": 540,
+        "h": 56
+      },
+      "overflow": false
+    },
+    {
+      "source": "protect its border?",
+      "normalizedSource": "protect its border?",
+      "target": "Ow 744 186 Bình luận 1.9K Chia sẻ",
+      "bbox": {
+        "x": 68,
+        "y": 756,
+        "w": 540,
+        "h": 56
+      },
+      "overflow": false
+    },
+    {
+      "source": "Ow 744 186 Comments 1.9K Share",
+      "normalizedSource": "Ow 744 186 Comments 1.9K Share",
+      "target": "Ow 744 186 Bình luận 1.9K Chia sẻ",
+      "bbox": {
+        "x": 68,
+        "y": 868,
+        "w": 540,
+        "h": 56
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.5105413105413106,
+    "averageConfidence": 93,
+    "entropy": 6.28344435011968,
+    "sharpness": 2.06689157173308
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- This is the Border Fence Mexico built => Đây là hàng rào biên giới mà Mexico xây dựng\n- on their border with Guatemala to => trên biên giới với Guatemala để\n- keep out freeloaders. Notice The => ngăn chặn những kẻ ăn bám. Lưu ý về\n- Barbed Wire & Towers with Armed => dây kẽm gai và tháp có lính vũ trang.\n- Guards. Shouldn’t the United States => Liệu Hoa Kỳ không có quyền như Mexico để\n- have the same right as Mexico to => bảo vệ biên giới của mình?\n- protect its border? => Ow 744 186 Bình luận 1.9K Chia sẻ\n- Ow 744 186 Comments 1.9K Share => Ow 744 186 Bình luận 1.9K Chia sẻ\nPrevious output was rejected because these English source words were still visible: mexico, guatemala. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Day la hang rao bién gi¢i ma Mexico xay dung",
+        "confidence": 85,
+        "bbox": {
+          "x": 123,
+          "y": 153,
+          "w": 984,
+          "h": 102
+        }
+      },
+      {
+        "text": "trén bién gigi véi Guatemala dé",
+        "confidence": 85,
+        "bbox": {
+          "x": 123,
+          "y": 358,
+          "w": 984,
+          "h": 102
+        }
+      },
+      {
+        "text": "ngan chan nhirng ké an bam. Luu y vé",
+        "confidence": 85,
+        "bbox": {
+          "x": 123,
+          "y": 563,
+          "w": 984,
+          "h": 102
+        }
+      },
+      {
+        "text": "day kém gai va thap cé linh vii trang.",
+        "confidence": 85,
+        "bbox": {
+          "x": 123,
+          "y": 768,
+          "w": 984,
+          "h": 102
+        }
+      },
+      {
+        "text": "Liéu Hoa Ky khéng c6 quyén nhu Mexico dé",
+        "confidence": 85,
+        "bbox": {
+          "x": 123,
+          "y": 973,
+          "w": 984,
+          "h": 102
+        }
+      },
+      {
+        "text": "bao vé bién gigi cia minh?",
+        "confidence": 85,
+        "bbox": {
+          "x": 123,
+          "y": 1178,
+          "w": 984,
+          "h": 102
+        }
+      },
+      {
+        "text": "O® 744 186 Binh luan 1.9K Chia sé",
+        "confidence": 85,
+        "bbox": {
+          "x": 123,
+          "y": 1383,
+          "w": 984,
+          "h": 102
+        }
+      }
+    ],
+    "validation": {
+      "ok": false,
+      "reason": "image-edit-leftover-source-english",
+      "leftoverSourceWords": [
+        "mexico",
+        "guatemala"
+      ]
+    },
+    "validationAttempt": 3
+  }
+}

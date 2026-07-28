@@ -1,0 +1,33 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-9-2-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/9-2-consequentialism.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "lm",
+      "confidence": 34,
+      "bbox": {
+        "x": 173,
+        "y": 69,
+        "w": 1387,
+        "h": 46
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.0638796776880687,
+    "averageConfidence": 34,
+    "entropy": 1.7119981274663587,
+    "sharpness": 4.524550156360972
+  }
+}

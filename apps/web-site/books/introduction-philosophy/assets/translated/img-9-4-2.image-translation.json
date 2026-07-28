@@ -1,0 +1,253 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-9-4-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/9-4-virtue-ethics.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "le Takes TRS GE EGE eT SPUR <A LG 5",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 72,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "§ Le Road TE i fF. o",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 168,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "wa en Lr GE IE Cs 5 ka",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 264,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "EOE LES ak A) ie 1 gk 4 5 lw",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 360,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "CRASS devas 0 ;",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 456,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "; CRS WE 0 po hee Rd",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 552,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "fine TOE NL",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 648,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "jg A eG Le Ber J wr",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 744,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "CGE Br Qiao pd i A",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 840,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "oy SER Hey A ih §",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 936,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "gi A ae HE . Zelbi",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 1032,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "Jp FN ALTE Sy a",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 1128,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "237 3 PRE ct",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 1224,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "= PAE TR ni SI: (ese) 1B) 2 i dm) 2 |",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 1320,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "x MATERA To tee, ed)",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 1416,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "ba fF wnt | =",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 1512,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "@F eeggant SEEN a pra",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 1608,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "| vO 1",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 1704,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "3 UN",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 1800,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "j — ero",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 1896,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "ee —igt",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 1992,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "hg 3 - - — 23 —",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 2088,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "S— sa = a",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 2184,
+        "w": 640,
+        "h": 48
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 1.472,
+    "averageConfidence": 24,
+    "entropy": 7.670706587785389,
+    "sharpness": 6.658122885023529
+  }
+}

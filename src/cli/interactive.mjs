@@ -70,10 +70,9 @@ async function runRetranslateImagesFlow() {
     message: 'Nhập tệp HTML, số chương, hoặc all:',
     default: 'all',
   });
-  const renderer = await selectImageRenderer();
 
   console.log(chalk.cyan(`Đang dịch lại hình ảnh cho sách: ${selectedBook}`));
-  await runScript('agents/agent-translate/scripts/translate-images.js', [target, selectedBook, '--retranslate', '--renderer', renderer]);
+  await runScript('agents/agent-translate/scripts/translate-images.js', [target, selectedBook, '--retranslate', '--renderer', 'image-edit', '--strict']);
   console.log(chalk.green(`Hoàn tất dịch lại hình ảnh: ${selectedBook}`));
 }
 
@@ -146,8 +145,6 @@ async function runTranslationPipeline(book) {
   console.log(chalk.dim(`Thư mục dữ liệu: ${bookDir}`));
   console.log(chalk.dim(`HTML website: ${siteBookDir}`));
 
-  const imageRenderer = await selectImageRenderer();
-
   renderProgressBar({ label: steps[0], current: 0, total: steps.length });
   await runScript('agents/agent-scrape/scripts/skill-scrape.js', [bookName, startUrl]);
   renderProgressBar({ label: `Hoàn tất: ${steps[0]}`, current: 1, total: steps.length });
@@ -169,7 +166,7 @@ async function runTranslationPipeline(book) {
   renderProgressBar({ label: `Hoàn tất: ${steps[4]}`, current: 5, total: steps.length });
 
   renderProgressBar({ label: steps[5], current: 5, total: steps.length });
-  await runScript('agents/agent-translate/scripts/translate-images.js', ['all', bookName, '--renderer', imageRenderer]);
+  await runScript('agents/agent-translate/scripts/translate-images.js', ['all', bookName, '--renderer', 'image-edit', '--strict']);
   renderProgressBar({ label: `Hoàn tất: ${steps[5]}`, current: 6, total: steps.length });
 
   renderProgressBar({ label: steps[6], current: 6, total: steps.length });
@@ -187,25 +184,6 @@ async function runTranslationPipeline(book) {
   console.log(chalk.green(`Đã dịch xong: ${book.title}`));
   console.log(chalk.green(`Dữ liệu dịch: ${path.join(bookDir, 'translated')}`));
   console.log(chalk.green(`HTML website: ${siteBookDir}`));
-}
-
-async function selectImageRenderer() {
-  return select({
-    message: 'Chọn trình render dịch hình ảnh:',
-    choices: [
-      {
-        value: 'overlay',
-        name: 'overlay (mặc định, OCR + chèn chữ)',
-        description: 'An toàn hơn, giữ hành vi hiện tại.',
-      },
-      {
-        value: 'image-edit',
-        name: 'image-edit (OpenAI chỉnh ảnh)',
-        description: 'Dùng cho sơ đồ, bảng, biểu đồ, screenshot và hình minh họa có nhãn.',
-      },
-    ],
-    default: 'overlay',
-  });
 }
 
 function runPythonScript(scriptPath, args = []) {

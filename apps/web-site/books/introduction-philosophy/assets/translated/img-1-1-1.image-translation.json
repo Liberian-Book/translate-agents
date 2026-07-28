@@ -1,0 +1,43 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-1-1-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/1-1-what-is-philosophy.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Ie £4 a, BE",
+      "confidence": 35,
+      "bbox": {
+        "x": 66,
+        "y": 96,
+        "w": 525,
+        "h": 64
+      }
+    },
+    {
+      "text": "RR Poet a ie |",
+      "confidence": 35,
+      "bbox": {
+        "x": 66,
+        "y": 224,
+        "w": 525,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.12804878048780488,
+    "averageConfidence": 35,
+    "entropy": 7.153348649353575,
+    "sharpness": 2.8250155735482627
+  }
+}

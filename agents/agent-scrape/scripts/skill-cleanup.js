@@ -60,7 +60,8 @@ async function cleanupHTML() {
   if (fs.existsSync(ASSETS_DIR)) {
     const oldAssets = fs.readdirSync(ASSETS_DIR);
     for (const asset of oldAssets) {
-      fs.unlinkSync(path.join(ASSETS_DIR, asset));
+      if (asset === 'translated') continue;
+      fs.rmSync(path.join(ASSETS_DIR, asset), { recursive: true, force: true });
     }
   }
 

@@ -1,54 +1,9 @@
 {
   "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-5-3-4.webp",
   "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/5-3-machine-level-information-representation.html",
-  "decision": "review",
-  "reason": "low-confidence-or-too-few-regions",
+  "decision": "error",
+  "reason": "source-image-not-found",
   "outputImage": null,
-  "ocr": [
-    {
-      "text": "[| [TT 1 1",
-      "confidence": 40,
-      "bbox": {
-        "x": 110,
-        "y": 50,
-        "w": 882,
-        "h": 34
-      }
-    },
-    {
-      "text": "Tv [ev Lo [6 [or [oo [oo",
-      "confidence": 40,
-      "bbox": {
-        "x": 110,
-        "y": 117,
-        "w": 882,
-        "h": 34
-      }
-    },
-    {
-      "text": "[2 [+ [os [ozs [ors [-a]",
-      "confidence": 40,
-      "bbox": {
-        "x": 110,
-        "y": 184,
-        "w": 882,
-        "h": 34
-      }
-    },
-    {
-      "text": "ENE EN EN",
-      "confidence": 40,
-      "bbox": {
-        "x": 110,
-        "y": 251,
-        "w": 882,
-        "h": 34
-      }
-    }
-  ],
-  "translations": [],
-  "metrics": {
-    "textDensity": 0.2595481622046188,
-    "averageConfidence": 40
-  }
+  "ocr": [],
+  "translations": []
 }

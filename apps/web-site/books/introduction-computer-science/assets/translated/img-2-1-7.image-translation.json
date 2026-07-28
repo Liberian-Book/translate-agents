@@ -1,44 +1,9 @@
 {
   "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-2-1-7.webp",
   "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/2-1-computational-thinking.html",
-  "decision": "review",
-  "reason": "low-confidence-or-too-few-regions",
+  "decision": "error",
+  "reason": "source-image-not-found",
   "outputImage": null,
-  "ocr": [
-    {
-      "text": "EE",
-      "confidence": 25,
-      "bbox": {
-        "x": 70,
-        "y": 62,
-        "w": 563,
-        "h": 41
-      }
-    },
-    {
-      "text": "Oo —",
-      "confidence": 25,
-      "bbox": {
-        "x": 70,
-        "y": 145,
-        "w": 563,
-        "h": 41
-      }
-    },
-    {
-      "text": "[me",
-      "confidence": 25,
-      "bbox": {
-        "x": 70,
-        "y": 228,
-        "w": 563,
-        "h": 41
-      }
-    }
-  ],
-  "translations": [],
-  "metrics": {
-    "textDensity": 0.19026123175663795,
-    "averageConfidence": 25
-  }
+  "ocr": [],
+  "translations": []
 }

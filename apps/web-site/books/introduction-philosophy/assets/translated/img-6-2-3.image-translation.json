@@ -1,0 +1,53 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-6-2-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/6-2-self-and-identity.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "=a LN NE Ne",
+      "confidence": 33,
+      "bbox": {
+        "x": 61,
+        "y": 96,
+        "w": 486,
+        "h": 64
+      }
+    },
+    {
+      "text": "EF b. fe <p",
+      "confidence": 33,
+      "bbox": {
+        "x": 61,
+        "y": 224,
+        "w": 486,
+        "h": 64
+      }
+    },
+    {
+      "text": "Defind par CN Cochin le Ji Grave par 5.C Alger on 185",
+      "confidence": 33,
+      "bbox": {
+        "x": 61,
+        "y": 352,
+        "w": 486,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.19215815485996704,
+    "averageConfidence": 33,
+    "entropy": 7.319272350992833,
+    "sharpness": 14.947585848222642
+  }
+}

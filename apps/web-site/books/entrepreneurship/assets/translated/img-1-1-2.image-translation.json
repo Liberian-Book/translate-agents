@@ -1,0 +1,193 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-1-1-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/1-1-entrepreneurship-today.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "\" pp",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 58,
+        "w": 961,
+        "h": 39
+      }
+    },
+    {
+      "text": "\"4 NL ~ HYDRATING",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 136,
+        "w": 961,
+        "h": 39
+      }
+    },
+    {
+      "text": "| 3 i's JCC CEI OIL",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 214,
+        "w": 961,
+        "h": 39
+      }
+    },
+    {
+      "text": "| exfoliating = Ith Passion Fruit Oil",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 292,
+        "w": 961,
+        "h": 39
+      }
+    },
+    {
+      "text": "| 5 BEE. .",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 370,
+        "w": 961,
+        "h": 39
+      }
+    },
+    {
+      "text": "| LIP BUTTER LIP BUTTER LIPBUTTER Son",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 448,
+        "w": 961,
+        "h": 39
+      }
+    },
+    {
+      "text": "= | S with responsibly sourced but CES I er Ts ith responsibly sourced biter Dk",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 526,
+        "w": 961,
+        "h": 39
+      }
+    },
+    {
+      "text": "NON Inc",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 604,
+        "w": 961,
+        "h": 39
+      }
+    },
+    {
+      "text": "5S i 2% [OC mera AN -",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 682,
+        "w": 961,
+        "h": 39
+      }
+    },
+    {
+      "text": "} SSPE ’ “i CS Uy 5 — wep",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 760,
+        "w": 961,
+        "h": 39
+      }
+    },
+    {
+      "text": "REY ; xX S737 v 3a >",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 838,
+        "w": 961,
+        "h": 39
+      }
+    },
+    {
+      "text": "Tu a / wX, | A500 y3menss",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 916,
+        "w": 961,
+        "h": 39
+      }
+    },
+    {
+      "text": "ale | | ao,",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 994,
+        "w": 961,
+        "h": 39
+      }
+    },
+    {
+      "text": "Hol | ol NL pray",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 1072,
+        "w": 961,
+        "h": 39
+      }
+    },
+    {
+      "text": "Ww IEE Xe “op 4 Ce",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 1150,
+        "w": 961,
+        "h": 39
+      }
+    },
+    {
+      "text": "FoR So Nr",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 1228,
+        "w": 961,
+        "h": 39
+      }
+    },
+    {
+      "text": "Se Nn STAT Srna © &",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 1306,
+        "w": 961,
+        "h": 39
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 1.0915852016323846,
+    "averageConfidence": 38,
+    "entropy": 7.424669132775307,
+    "sharpness": 5.189964612554311
+  }
+}

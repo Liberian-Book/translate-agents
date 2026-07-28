@@ -1,0 +1,43 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-4-2-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/4-2-classical-philosophy.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "EEN",
+      "confidence": 31,
+      "bbox": {
+        "x": 152,
+        "y": 86,
+        "w": 1218,
+        "h": 57
+      }
+    },
+    {
+      "text": "| Momsm [Puls |",
+      "confidence": 31,
+      "bbox": {
+        "x": 152,
+        "y": 201,
+        "w": 1218,
+        "h": 57
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.12706122643201476,
+    "averageConfidence": 31,
+    "entropy": 4.2908813642116,
+    "sharpness": 2.7470755357887433
+  }
+}

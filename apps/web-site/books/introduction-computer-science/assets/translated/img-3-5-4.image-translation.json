@@ -1,64 +1,9 @@
 {
   "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-3-5-4.webp",
   "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/3-5-sample-algorithms-by-problem.html",
-  "decision": "review",
-  "reason": "low-confidence-or-too-few-regions",
+  "decision": "error",
+  "reason": "source-image-not-found",
   "outputImage": null,
-  "ocr": [
-    {
-      "text": "index 0 1 2 3",
-      "confidence": 53,
-      "bbox": {
-        "x": 62,
-        "y": 25,
-        "w": 498,
-        "h": 24
-      }
-    },
-    {
-      "text": "ro lolele] ol EH EER ER",
-      "confidence": 53,
-      "bbox": {
-        "x": 62,
-        "y": 58,
-        "w": 498,
-        "h": 24
-      }
-    },
-    {
-      "text": "key| b | lcm) IE",
-      "confidence": 53,
-      "bbox": {
-        "x": 62,
-        "y": 91,
-        "w": 498,
-        "h": 24
-      }
-    },
-    {
-      "text": "(Fag",
-      "confidence": 53,
-      "bbox": {
-        "x": 62,
-        "y": 124,
-        "w": 498,
-        "h": 24
-      }
-    },
-    {
-      "text": "collision",
-      "confidence": 53,
-      "bbox": {
-        "x": 62,
-        "y": 157,
-        "w": 498,
-        "h": 24
-      }
-    }
-  ],
-  "translations": [],
-  "metrics": {
-    "textDensity": 0.46116804543770834,
-    "averageConfidence": 53
-  }
+  "ocr": [],
+  "translations": []
 }

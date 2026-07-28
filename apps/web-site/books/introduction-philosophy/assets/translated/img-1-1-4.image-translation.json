@@ -1,0 +1,22 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-1-1-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/1-1-what-is-philosophy.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-ocr-text"
+  },
+  "reason": "low-text-density",
+  "outputImage": null,
+  "ocr": [],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0,
+    "averageConfidence": 0,
+    "entropy": 2.4579295676303445,
+    "sharpness": 2.990319793307975
+  }
+}

@@ -1,94 +1,9 @@
 {
   "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-1.webp",
   "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-introduction.html",
-  "decision": "review",
-  "reason": "low-confidence-or-too-few-regions",
+  "decision": "error",
+  "reason": "source-image-not-found",
   "outputImage": null,
-  "ocr": [
-    {
-      "text": "Sal - - =",
-      "confidence": 30,
-      "bbox": {
-        "x": 175,
-        "y": 86,
-        "w": 1401,
-        "h": 58
-      }
-    },
-    {
-      "text": "vane.",
-      "confidence": 30,
-      "bbox": {
-        "x": 175,
-        "y": 201,
-        "w": 1401,
-        "h": 58
-      }
-    },
-    {
-      "text": "AG PB",
-      "confidence": 30,
-      "bbox": {
-        "x": 175,
-        "y": 316,
-        "w": 1401,
-        "h": 58
-      }
-    },
-    {
-      "text": "Ve (HAY 5",
-      "confidence": 30,
-      "bbox": {
-        "x": 175,
-        "y": 431,
-        "w": 1401,
-        "h": 58
-      }
-    },
-    {
-      "text": "po, abl 75",
-      "confidence": 30,
-      "bbox": {
-        "x": 175,
-        "y": 546,
-        "w": 1401,
-        "h": 58
-      }
-    },
-    {
-      "text": ". ARAB",
-      "confidence": 30,
-      "bbox": {
-        "x": 175,
-        "y": 661,
-        "w": 1401,
-        "h": 58
-      }
-    },
-    {
-      "text": "YY y",
-      "confidence": 30,
-      "bbox": {
-        "x": 175,
-        "y": 776,
-        "w": 1401,
-        "h": 58
-      }
-    },
-    {
-      "text": "2 bh 9 a ‘A",
-      "confidence": 30,
-      "bbox": {
-        "x": 175,
-        "y": 891,
-        "w": 1401,
-        "h": 58
-      }
-    }
-  ],
-  "translations": [],
-  "metrics": {
-    "textDensity": 0.5163463119425498,
-    "averageConfidence": 30
-  }
+  "ocr": [],
+  "translations": []
 }

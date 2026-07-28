@@ -1,0 +1,283 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-4-3-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/4-3-jewish-christian-and-islamic-philosophy.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Of el Sel ATU ERE ls A SS WRB: \"eh",
+      "confidence": 27,
+      "bbox": {
+        "x": 60,
+        "y": 96,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "Noe, 10 Ale = Fak 4",
+      "confidence": 27,
+      "bbox": {
+        "x": 60,
+        "y": 224,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "AR can LES",
+      "confidence": 27,
+      "bbox": {
+        "x": 60,
+        "y": 352,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "3 Cu SSN ns et = Hee 7 pr i\"",
+      "confidence": 27,
+      "bbox": {
+        "x": 60,
+        "y": 480,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "ami boul bh",
+      "confidence": 27,
+      "bbox": {
+        "x": 60,
+        "y": 608,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "Eo % BE oy » FENG \"3",
+      "confidence": 27,
+      "bbox": {
+        "x": 60,
+        "y": 736,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "Pll |B =",
+      "confidence": 27,
+      "bbox": {
+        "x": 60,
+        "y": 864,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "Geer (lS",
+      "confidence": 27,
+      "bbox": {
+        "x": 60,
+        "y": 992,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "et aioifeg - . yp /",
+      "confidence": 27,
+      "bbox": {
+        "x": 60,
+        "y": 1120,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "(0 gn Ee Y.",
+      "confidence": 27,
+      "bbox": {
+        "x": 60,
+        "y": 1248,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "_— oo E/ fa [ [",
+      "confidence": 27,
+      "bbox": {
+        "x": 60,
+        "y": 1376,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "! | IEE",
+      "confidence": 27,
+      "bbox": {
+        "x": 60,
+        "y": 1504,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "+ WE a A y",
+      "confidence": 27,
+      "bbox": {
+        "x": 60,
+        "y": 1632,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "= hee TE &",
+      "confidence": 27,
+      "bbox": {
+        "x": 60,
+        "y": 1760,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "> » FR kd \\ * p>",
+      "confidence": 27,
+      "bbox": {
+        "x": 60,
+        "y": 1888,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "Al SL 1",
+      "confidence": 27,
+      "bbox": {
+        "x": 60,
+        "y": 2016,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "Es & 4",
+      "confidence": 27,
+      "bbox": {
+        "x": 60,
+        "y": 2144,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "se NNER",
+      "confidence": 27,
+      "bbox": {
+        "x": 60,
+        "y": 2272,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "a TRANG | h",
+      "confidence": 27,
+      "bbox": {
+        "x": 60,
+        "y": 2400,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "pil: h Nh | = ¥",
+      "confidence": 27,
+      "bbox": {
+        "x": 60,
+        "y": 2528,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "ey VV . fe /",
+      "confidence": 27,
+      "bbox": {
+        "x": 60,
+        "y": 2656,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "gm Aye? i i 7",
+      "confidence": 27,
+      "bbox": {
+        "x": 60,
+        "y": 2784,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "G ope i TIE",
+      "confidence": 27,
+      "bbox": {
+        "x": 60,
+        "y": 2912,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "= == - 4 acd Aggie]",
+      "confidence": 27,
+      "bbox": {
+        "x": 60,
+        "y": 3040,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "Sn ES Ts a ale BE Os",
+      "confidence": 27,
+      "bbox": {
+        "x": 60,
+        "y": 3168,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "NS Ba a]",
+      "confidence": 27,
+      "bbox": {
+        "x": 60,
+        "y": 3296,
+        "w": 480,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 1.664,
+    "averageConfidence": 27,
+    "entropy": 7.717425041133538,
+    "sharpness": 5.472944918349822
+  }
+}

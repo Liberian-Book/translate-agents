@@ -1,0 +1,166 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-8-5-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/8-5-aesthetics.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/translated/img-8-5-2.vi.png",
+  "ocr": [
+    {
+      "text": "2% Do women have to be naked to",
+      "confidence": 75,
+      "bbox": {
+        "x": 80,
+        "y": 38,
+        "w": 640,
+        "h": 25
+      }
+    },
+    {
+      "text": "p< mot (nin tho Mot Mircorm?",
+      "confidence": 75,
+      "bbox": {
+        "x": 80,
+        "y": 88,
+        "w": 640,
+        "h": 25
+      }
+    },
+    {
+      "text": "p ger In1o Tne mer. museum:",
+      "confidence": 75,
+      "bbox": {
+        "x": 80,
+        "y": 138,
+        "w": 640,
+        "h": 25
+      }
+    },
+    {
+      "text": "<7 Less than 5% of the artists in the Modern",
+      "confidence": 75,
+      "bbox": {
+        "x": 80,
+        "y": 188,
+        "w": 640,
+        "h": 25
+      }
+    },
+    {
+      "text": "= . _ Art sections are women, but 85%",
+      "confidence": 75,
+      "bbox": {
+        "x": 80,
+        "y": 238,
+        "w": 640,
+        "h": 25
+      }
+    },
+    {
+      "text": "y of the nudes are female.",
+      "confidence": 75,
+      "bbox": {
+        "x": 80,
+        "y": 288,
+        "w": 640,
+        "h": 25
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "2% Do women have to be naked to",
+      "normalizedSource": "2% Do women have to be naked to",
+      "target": "2% Phụ nữ có cần phải khỏa thân để",
+      "bbox": {
+        "x": 80,
+        "y": 38,
+        "w": 640,
+        "h": 25
+      },
+      "overflow": false
+    },
+    {
+      "source": "p< mot (nin tho Mot Mircorm?",
+      "normalizedSource": "p< mot (nin tho Mot Mircorm?",
+      "target": "p< một (nin tho Mot Mircorm?",
+      "bbox": {
+        "x": 80,
+        "y": 88,
+        "w": 640,
+        "h": 25
+      },
+      "overflow": false
+    },
+    {
+      "source": "p ger In1o Tne mer. museum:",
+      "normalizedSource": "p ger In1o Tne mer. museum:",
+      "target": "p ger In1o Tne mer. bảo tàng:",
+      "bbox": {
+        "x": 80,
+        "y": 138,
+        "w": 640,
+        "h": 25
+      },
+      "overflow": false
+    },
+    {
+      "source": "<7 Less than 5% of the artists in the Modern",
+      "normalizedSource": "<7 Less than 5% of the artists in the Modern",
+      "target": "<7 Ít hơn 5% nghệ sĩ trong các",
+      "bbox": {
+        "x": 80,
+        "y": 188,
+        "w": 640,
+        "h": 25
+      },
+      "overflow": false
+    },
+    {
+      "source": "= . _ Art sections are women, but 85%",
+      "normalizedSource": "= . _ Art sections are women, but 85%",
+      "target": "= . _ Phần Nghệ thuật là phụ nữ, nhưng 85%",
+      "bbox": {
+        "x": 80,
+        "y": 238,
+        "w": 640,
+        "h": 25
+      },
+      "overflow": false
+    },
+    {
+      "source": "y of the nudes are female.",
+      "normalizedSource": "y of the nudes are female.",
+      "target": "y của các tác phẩm khỏa thân là nữ.",
+      "bbox": {
+        "x": 80,
+        "y": 288,
+        "w": 640,
+        "h": 25
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.38095238095238093,
+    "averageConfidence": 75,
+    "entropy": 6.532018517755205,
+    "sharpness": 2.806646111575536
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "image-edit-api-failed-status-400: {\n  \"error\": {\n    \"message\": \"Your request was rejected by the safety system. If you believe this is an error, contact us at ",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

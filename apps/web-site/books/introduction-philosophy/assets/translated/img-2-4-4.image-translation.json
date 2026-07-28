@@ -1,0 +1,436 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-2-4-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/2-4-gathering-information-evaluating-sources-and-understanding-evidence.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "image-edit-leftover-source-english",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "BIL NEWS | FABULOUS = MONEY = MOTORS = TRAVEL | TECH = DEARDI",
+      "confidence": 71,
+      "bbox": {
+        "x": 68,
+        "y": 71,
+        "w": 540,
+        "h": 48
+      }
+    },
+    {
+      "text": "oT Te The TL",
+      "confidence": 71,
+      "bbox": {
+        "x": 68,
+        "y": 166,
+        "w": 540,
+        "h": 48
+      }
+    },
+    {
+      "text": "Woe emo DN) se iciccur OR Hick cut JO THICK",
+      "confidence": 71,
+      "bbox": {
+        "x": 68,
+        "y": 261,
+        "w": 540,
+        "h": 48
+      }
+    },
+    {
+      "text": "Bs PEE fer ww",
+      "confidence": 71,
+      "bbox": {
+        "x": 68,
+        "y": 356,
+        "w": 540,
+        "h": 48
+      }
+    },
+    {
+      "text": "— L Ly",
+      "confidence": 71,
+      "bbox": {
+        "x": 68,
+        "y": 451,
+        "w": 540,
+        "h": 48
+      }
+    },
+    {
+      "text": "$n ADD YER OF LOVE",
+      "confidence": 71,
+      "bbox": {
+        "x": 68,
+        "y": 546,
+        "w": 540,
+        "h": 48
+      }
+    },
+    {
+      "text": "GROAN HENGE Blundering road",
+      "confidence": 71,
+      "bbox": {
+        "x": 68,
+        "y": 641,
+        "w": 540,
+        "h": 48
+      }
+    },
+    {
+      "text": "workers drill a hole into 6000-year-old",
+      "confidence": 71,
+      "bbox": {
+        "x": 68,
+        "y": 736,
+        "w": 540,
+        "h": 48
+      }
+    },
+    {
+      "text": "site near Stonehenge in tests for",
+      "confidence": 71,
+      "bbox": {
+        "x": 68,
+        "y": 831,
+        "w": 540,
+        "h": 48
+      }
+    },
+    {
+      "text": "controversial tunnel",
+      "confidence": 71,
+      "bbox": {
+        "x": 68,
+        "y": 926,
+        "w": 540,
+        "h": 48
+      }
+    },
+    {
+      "text": "| A huge hole has been drilled through the archaeological site as",
+      "confidence": 71,
+      "bbox": {
+        "x": 68,
+        "y": 1021,
+        "w": 540,
+        "h": 48
+      }
+    },
+    {
+      "text": "part of controversial plans to build a tunnel under the tourist",
+      "confidence": 71,
+      "bbox": {
+        "x": 68,
+        "y": 1116,
+        "w": 540,
+        "h": 48
+      }
+    },
+    {
+      "text": "hot spot",
+      "confidence": 71,
+      "bbox": {
+        "x": 68,
+        "y": 1211,
+        "w": 540,
+        "h": 48
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "BIL NEWS | FABULOUS = MONEY = MOTORS = TRAVEL | TECH = DEARDI",
+      "normalizedSource": "BIL NEWS | FABULOUS = MONEY = MOTORS = TRAVEL | TECH = DEARDI",
+      "target": "BIL NEWS | TUYỆT VỜI = TIỀN = XE CỘ = DU LỊCH | CÔNG NGHỆ = DEARDI",
+      "bbox": {
+        "x": 68,
+        "y": 71,
+        "w": 540,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "oT Te The TL",
+      "normalizedSource": "oT Te The TL",
+      "target": "oT Te The TL",
+      "bbox": {
+        "x": 68,
+        "y": 166,
+        "w": 540,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "Woe emo DN) se iciccur OR Hick cut JO THICK",
+      "normalizedSource": "Woe emo DN) se iciccur OR Hick cut JO THICK",
+      "target": "Woe emo DN) se iciccur OR Hick cut JO THICK",
+      "bbox": {
+        "x": 68,
+        "y": 261,
+        "w": 540,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "Bs PEE fer ww",
+      "normalizedSource": "Bs PEE fer ww",
+      "target": "Bs PEE fer ww",
+      "bbox": {
+        "x": 68,
+        "y": 356,
+        "w": 540,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "— L Ly",
+      "normalizedSource": "— L Ly",
+      "target": "— L Ly",
+      "bbox": {
+        "x": 68,
+        "y": 451,
+        "w": 540,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "$n ADD YER OF LOVE",
+      "normalizedSource": "$n ADD YER OF LOVE",
+      "target": "$n ADD YER OF LOVE",
+      "bbox": {
+        "x": 68,
+        "y": 546,
+        "w": 540,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "GROAN HENGE Blundering road",
+      "normalizedSource": "GROAN HENGE Blundering road",
+      "target": "GROAN HENGE Đường đi lầm lỗi",
+      "bbox": {
+        "x": 68,
+        "y": 641,
+        "w": 540,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "workers drill a hole into 6000-year-old",
+      "normalizedSource": "workers drill a hole into 6000-year-old",
+      "target": "công nhân khoan một lỗ vào di tích 6000 năm tuổi",
+      "bbox": {
+        "x": 68,
+        "y": 736,
+        "w": 540,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "site near Stonehenge in tests for",
+      "normalizedSource": "site near Stonehenge in tests for",
+      "target": "gần Stonehenge trong các thử nghiệm cho",
+      "bbox": {
+        "x": 68,
+        "y": 831,
+        "w": 540,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "controversial tunnel",
+      "normalizedSource": "controversial tunnel",
+      "target": "hầm gây tranh cãi",
+      "bbox": {
+        "x": 68,
+        "y": 926,
+        "w": 540,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "| A huge hole has been drilled through the archaeological site as",
+      "normalizedSource": "| A huge hole has been drilled through the archaeological site as",
+      "target": "| Một lỗ lớn đã được khoan qua di tích khảo cổ như",
+      "bbox": {
+        "x": 68,
+        "y": 1021,
+        "w": 540,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "part of controversial plans to build a tunnel under the tourist",
+      "normalizedSource": "part of controversial plans to build a tunnel under the tourist",
+      "target": "một phần của kế hoạch gây tranh cãi để xây dựng một hầm dưới",
+      "bbox": {
+        "x": 68,
+        "y": 1116,
+        "w": 540,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "hot spot",
+      "normalizedSource": "hot spot",
+      "target": "điểm du lịch",
+      "bbox": {
+        "x": 68,
+        "y": 1211,
+        "w": 540,
+        "h": 48
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.8389915966386554,
+    "averageConfidence": 71,
+    "entropy": 5.627708272775635,
+    "sharpness": 5.093643885092396
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- BIL NEWS | FABULOUS = MONEY = MOTORS = TRAVEL | TECH = DEARDI => BIL NEWS | TUYỆT VỜI = TIỀN = XE CỘ = DU LỊCH | CÔNG NGHỆ = DEARDI\n- oT Te The TL => oT Te The TL\n- Woe emo DN) se iciccur OR Hick cut JO THICK => Woe emo DN) se iciccur OR Hick cut JO THICK\n- Bs PEE fer ww => Bs PEE fer ww\n- — L Ly => — L Ly\n- $n ADD YER OF LOVE => $n ADD YER OF LOVE\n- GROAN HENGE Blundering road => GROAN HENGE Đường đi lầm lỗi\n- workers drill a hole into 6000-year-old => công nhân khoan một lỗ vào di tích 6000 năm tuổi\n- site near Stonehenge in tests for => gần Stonehenge trong các thử nghiệm cho\n- controversial tunnel => hầm gây tranh cãi\n- | A huge hole has been drilled through the archaeological site as => | Một lỗ lớn đã được khoan qua di tích khảo cổ như\n- part of controversial plans to build a tunnel under the tourist => một phần của kế hoạch gây tranh cãi để xây dựng một hầm dưới\n- hot spot => điểm du lịch\nPrevious output was rejected because these English source words were still visible: news, deardi, stonehenge. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "| BILNEWS | TUYETVOI | TEN | XECO | DULICH | CONGNGHE | DEARDI",
+        "confidence": 64,
+        "bbox": {
+          "x": 134,
+          "y": 141,
+          "w": 1070,
+          "h": 94
+        }
+      },
+      {
+        "text": "pa SE Eth en Se At",
+        "confidence": 64,
+        "bbox": {
+          "x": 134,
+          "y": 329,
+          "w": 1070,
+          "h": 94
+        }
+      },
+      {
+        "text": "Ba rr BRN UD gonten iy on gordon afl 2 gor",
+        "confidence": 64,
+        "bbox": {
+          "x": 134,
+          "y": 517,
+          "w": 1070,
+          "h": 94
+        }
+      },
+      {
+        "text": "Bam 0 ae” a Ee Bl CAT DAY. CAT DAY CAT |",
+        "confidence": 64,
+        "bbox": {
+          "x": 134,
+          "y": 705,
+          "w": 1070,
+          "h": 94
+        }
+      },
+      {
+        "text": "GROAN HENGE Dudng di 1am loi",
+        "confidence": 64,
+        "bbox": {
+          "x": 134,
+          "y": 893,
+          "w": 1070,
+          "h": 94
+        }
+      },
+      {
+        "text": "cong nhan khoan mét 16 vao di tich 6000 nam tuoi",
+        "confidence": 64,
+        "bbox": {
+          "x": 134,
+          "y": 1081,
+          "w": 1070,
+          "h": 94
+        }
+      },
+      {
+        "text": "gan Stonehenge trong cac thir nghiém cho",
+        "confidence": 64,
+        "bbox": {
+          "x": 134,
+          "y": 1269,
+          "w": 1070,
+          "h": 94
+        }
+      },
+      {
+        "text": "ham gay tranh cai",
+        "confidence": 64,
+        "bbox": {
+          "x": 134,
+          "y": 1457,
+          "w": 1070,
+          "h": 94
+        }
+      },
+      {
+        "text": "Mot 16 16n da duoc khoan qua di tich khao ¢é nhu",
+        "confidence": 64,
+        "bbox": {
+          "x": 134,
+          "y": 1645,
+          "w": 1070,
+          "h": 94
+        }
+      },
+      {
+        "text": "mot phan cua ké hoach gay tranh cai dé xay dung mot ham dwéi",
+        "confidence": 64,
+        "bbox": {
+          "x": 134,
+          "y": 1833,
+          "w": 1070,
+          "h": 94
+        }
+      },
+      {
+        "text": "diém du lich",
+        "confidence": 64,
+        "bbox": {
+          "x": 134,
+          "y": 2021,
+          "w": 1070,
+          "h": 94
+        }
+      }
+    ],
+    "validation": {
+      "ok": false,
+      "reason": "image-edit-leftover-source-english",
+      "leftoverSourceWords": [
+        "deardi",
+        "groan",
+        "henge",
+        "stonehenge"
+      ]
+    },
+    "validationAttempt": 3
+  }
+}

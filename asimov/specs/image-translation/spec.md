@@ -33,7 +33,7 @@ The system SHALL classify low-confidence OCR, overflow-prone translations, compl
 
 ### Requirement: Image Renderer Selection
 
-The system SHALL support an image translation renderer option with exactly `overlay` and `image-edit` values, and MUST default to `overlay` when no renderer is specified.
+The system SHALL support an image translation renderer option with exactly `overlay` and `image-edit` values, and MUST default to `image-edit` when no renderer is specified.
 
 #### Scenario: Invalid renderer value
 
@@ -51,4 +51,3 @@ The system SHALL write successful image edit renderer outputs as PNG files under
 ### Requirement: Image Edit Retry Behavior
 
 The system SHALL retry OpenAI image edit requests for transient failures and MUST leave the original HTML image reference unchanged when all retry attempts fail and no overlay fallback output is generated successfully.
-

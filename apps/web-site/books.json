@@ -18,6 +18,12 @@
     "cover": "/assets/introduction-computer-science_cover.svg"
   },
   {
+    "slug": "introduction-philosophy",
+    "title": "Introduction to Philosophy",
+    "url": "/introduction-philosophy/",
+    "cover": "/assets/introduction-philosophy_cover.svg"
+  },
+  {
     "slug": "principles-finance",
     "title": "Principles of Finance",
     "url": "/principles-finance/",

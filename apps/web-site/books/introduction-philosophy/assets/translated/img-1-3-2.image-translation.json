@@ -1,0 +1,113 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-1-3-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/1-3-socrates-as-a-paradigmatic-historical-philosopher.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "EIR bio - —",
+      "confidence": 30,
+      "bbox": {
+        "x": 80,
+        "y": 86,
+        "w": 640,
+        "h": 57
+      }
+    },
+    {
+      "text": "/ 9) i 0) a # at 5",
+      "confidence": 30,
+      "bbox": {
+        "x": 80,
+        "y": 200,
+        "w": 640,
+        "h": 57
+      }
+    },
+    {
+      "text": "FE Ve ENE",
+      "confidence": 30,
+      "bbox": {
+        "x": 80,
+        "y": 314,
+        "w": 640,
+        "h": 57
+      }
+    },
+    {
+      "text": "{Al etisl",
+      "confidence": 30,
+      "bbox": {
+        "x": 80,
+        "y": 428,
+        "w": 640,
+        "h": 57
+      }
+    },
+    {
+      "text": "Aa 2",
+      "confidence": 30,
+      "bbox": {
+        "x": 80,
+        "y": 542,
+        "w": 640,
+        "h": 57
+      }
+    },
+    {
+      "text": ": H Fo) To v 3",
+      "confidence": 30,
+      "bbox": {
+        "x": 80,
+        "y": 656,
+        "w": 640,
+        "h": 57
+      }
+    },
+    {
+      "text": "| be 5)",
+      "confidence": 30,
+      "bbox": {
+        "x": 80,
+        "y": 770,
+        "w": 640,
+        "h": 57
+      }
+    },
+    {
+      "text": "spa et |",
+      "confidence": 30,
+      "bbox": {
+        "x": 80,
+        "y": 884,
+        "w": 640,
+        "h": 57
+      }
+    },
+    {
+      "text": "Bljogl ls fe : k fe oo",
+      "confidence": 30,
+      "bbox": {
+        "x": 80,
+        "y": 998,
+        "w": 640,
+        "h": 57
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.5747899159663865,
+    "averageConfidence": 30,
+    "entropy": 6.751794768362743,
+    "sharpness": 3.7728188372599845
+  }
+}

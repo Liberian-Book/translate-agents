@@ -1,34 +1,9 @@
 {
   "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-3-1-6.webp",
   "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/3-1-introduction-to-data-structures-and-algorithms.html",
-  "decision": "review",
-  "reason": "low-confidence-or-too-few-regions",
+  "decision": "error",
+  "reason": "source-image-not-found",
   "outputImage": null,
-  "ocr": [
-    {
-      "text": "TYNAN",
-      "confidence": 22,
-      "bbox": {
-        "x": 128,
-        "y": 87,
-        "w": 1022,
-        "h": 58
-      }
-    },
-    {
-      "text": "BAN",
-      "confidence": 22,
-      "bbox": {
-        "x": 128,
-        "y": 203,
-        "w": 1022,
-        "h": 58
-      }
-    }
-  ],
-  "translations": [],
-  "metrics": {
-    "textDensity": 0.12812664816399935,
-    "averageConfidence": 22
-  }
+  "ocr": [],
+  "translations": []
 }

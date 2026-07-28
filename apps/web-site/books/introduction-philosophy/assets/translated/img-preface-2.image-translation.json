@@ -1,0 +1,252 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-preface-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/preface.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/translated/img-preface-2.vi.png",
+  "ocr": [
+    {
+      "text": "Approved Ask Instructor Not Approved",
+      "confidence": 73,
+      "bbox": {
+        "x": 120,
+        "y": 40,
+        "w": 960,
+        "h": 27
+      }
+    },
+    {
+      "text": "-Q0 ©— 0-0 OO 0 =-0=0=0=-",
+      "confidence": 73,
+      "bbox": {
+        "x": 120,
+        "y": 94,
+        "w": 960,
+        "h": 27
+      }
+    },
+    {
+      "text": "Quoting & n \" Sharing Getting i He)",
+      "confidence": 73,
+      "bbox": {
+        "x": 120,
+        "y": 148,
+        "w": 960,
+        "h": 27
+      }
+    },
+    {
+      "text": "Your 7 Checking ~~ Group Reusing Posting Plagiarizing",
+      "confidence": 73,
+      "bbox": {
+        "x": 120,
+        "y": 202,
+        "w": 960,
+        "h": 27
+      }
+    },
+    {
+      "text": "Original Crediting Your Work Past Answers Others Questions & Work",
+      "confidence": 73,
+      "bbox": {
+        "x": 120,
+        "y": 256,
+        "w": 960,
+        "h": 27
+      }
+    },
+    {
+      "text": "Work Another's Answers Original to Do Answers",
+      "confidence": 73,
+      "bbox": {
+        "x": 120,
+        "y": 310,
+        "w": 960,
+        "h": 27
+      }
+    },
+    {
+      "text": "Work Online Work Your Work",
+      "confidence": 73,
+      "bbox": {
+        "x": 120,
+        "y": 364,
+        "w": 960,
+        "h": 27
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Approved Ask Instructor Not Approved",
+      "normalizedSource": "Approved Ask Instructor Not Approved",
+      "target": "Được phê duyệt Hỏi giảng viên Không được phê duyệt",
+      "bbox": {
+        "x": 120,
+        "y": 40,
+        "w": 960,
+        "h": 27
+      },
+      "overflow": false
+    },
+    {
+      "source": "-Q0 ©— 0-0 OO 0 =-0=0=0=-",
+      "normalizedSource": "-Q0 — 0-0 OO 0 =-0=0=0=-",
+      "target": "N/A",
+      "bbox": {
+        "x": 120,
+        "y": 94,
+        "w": 960,
+        "h": 27
+      },
+      "overflow": false
+    },
+    {
+      "source": "Quoting & n \" Sharing Getting i He)",
+      "normalizedSource": "Quoting & n \" Sharing Getting i He)",
+      "target": "Trích dẫn & chia sẻ",
+      "bbox": {
+        "x": 120,
+        "y": 148,
+        "w": 960,
+        "h": 27
+      },
+      "overflow": false
+    },
+    {
+      "source": "Your 7 Checking ~~ Group Reusing Posting Plagiarizing",
+      "normalizedSource": "Your 7 Checking ~~ Group Reusing Posting Plagiarizing",
+      "target": "Kiểm tra Nhóm Tái sử dụng Đăng bài Đạo văn",
+      "bbox": {
+        "x": 120,
+        "y": 202,
+        "w": 960,
+        "h": 27
+      },
+      "overflow": false
+    },
+    {
+      "source": "Original Crediting Your Work Past Answers Others Questions & Work",
+      "normalizedSource": "Original Crediting Your Work Past Answers Others Questions & Work",
+      "target": "Ghi công Công việc của bạn Câu trả lời trước Câu hỏi & Công việc của người khác",
+      "bbox": {
+        "x": 120,
+        "y": 256,
+        "w": 960,
+        "h": 27
+      },
+      "overflow": false
+    },
+    {
+      "source": "Work Another's Answers Original to Do Answers",
+      "normalizedSource": "Work Another's Answers Original to Do Answers",
+      "target": "Công việc Câu trả lời của người khác Câu trả lời gốc",
+      "bbox": {
+        "x": 120,
+        "y": 310,
+        "w": 960,
+        "h": 27
+      },
+      "overflow": false
+    },
+    {
+      "source": "Work Online Work Your Work",
+      "normalizedSource": "Work Online Work Your Work",
+      "target": "Công việc Trực tuyến Công việc của bạn",
+      "bbox": {
+        "x": 120,
+        "y": 364,
+        "w": 960,
+        "h": 27
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.44866468842729973,
+    "averageConfidence": 73,
+    "entropy": 3.779202900303062,
+    "sharpness": 5.099206576671277
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Approved Ask Instructor Not Approved => Được phê duyệt Hỏi giảng viên Không được phê duyệt\n- -Q0 ©— 0-0 OO 0 =-0=0=0=- (cleaned OCR: -Q0 — 0-0 OO 0 =-0=0=0=-) => N/A\n- Quoting & n \" Sharing Getting i He) => Trích dẫn & chia sẻ\n- Your 7 Checking ~~ Group Reusing Posting Plagiarizing => Kiểm tra Nhóm Tái sử dụng Đăng bài Đạo văn\n- Original Crediting Your Work Past Answers Others Questions & Work => Ghi công Công việc của bạn Câu trả lời trước Câu hỏi & Công việc của người khác\n- Work Another's Answers Original to Do Answers => Công việc Câu trả lời của người khác Câu trả lời gốc\n- Work Online Work Your Work => Công việc Trực tuyến Công việc của bạn\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "a oh LE Ce Sh ae Eid ta a FS Pe SRE NE ht Le CCI, ie BL",
+        "confidence": 60,
+        "bbox": {
+          "x": 217,
+          "y": 87,
+          "w": 1738,
+          "h": 58
+        }
+      },
+      {
+        "text": "Dugc phé duyét Hoi giang vién Khéng dudc phé duyét",
+        "confidence": 60,
+        "bbox": {
+          "x": 217,
+          "y": 203,
+          "w": 1738,
+          "h": 58
+        }
+      },
+      {
+        "text": "Coéng viéc Trich dan & Kiém tra Nhém ~~ Taistdung Chia sé Nh& ngudi bang bai Dao van",
+        "confidence": 60,
+        "bbox": {
+          "x": 217,
+          "y": 319,
+          "w": 1738,
+          "h": 58
+        }
+      },
+      {
+        "text": "g6c ctia ban chia sé cong viéc ciutra loi congviec cautralsi cau tra loi khac lam cau hoi & cong viéc",
+        "confidence": 60,
+        "bbox": {
+          "x": 217,
+          "y": 435,
+          "w": 1738,
+          "h": 58
+        }
+      },
+      {
+        "text": "cla ngudi khac tryc tuyén truéc cong viéc cau tra loi",
+        "confidence": 60,
+        "bbox": {
+          "x": 217,
+          "y": 551,
+          "w": 1738,
+          "h": 58
+        }
+      },
+      {
+        "text": "cong viéc gbc cla ban",
+        "confidence": 60,
+        "bbox": {
+          "x": 217,
+          "y": 667,
+          "w": 1738,
+          "h": 58
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

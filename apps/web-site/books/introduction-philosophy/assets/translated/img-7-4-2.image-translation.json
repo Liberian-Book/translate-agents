@@ -1,0 +1,43 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-7-4-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/7-4-skepticism.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "C1 Ln",
+      "confidence": 21,
+      "bbox": {
+        "x": 66,
+        "y": 84,
+        "w": 526,
+        "h": 56
+      }
+    },
+    {
+      "text": "Ee — Ey",
+      "confidence": 21,
+      "bbox": {
+        "x": 66,
+        "y": 196,
+        "w": 526,
+        "h": 56
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.12809741248097412,
+    "averageConfidence": 21,
+    "entropy": 6.592559619341046,
+    "sharpness": 4.064598167353085
+  }
+}

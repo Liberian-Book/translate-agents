@@ -1,0 +1,22 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-2-1-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/2-1-the-brain-is-an-inference-machine.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "natural",
+    "eligible": false,
+    "reason": "natural-image-without-ocr-text"
+  },
+  "reason": "low-text-density",
+  "outputImage": null,
+  "ocr": [],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0,
+    "averageConfidence": 0,
+    "entropy": 6.845517706191458,
+    "sharpness": 1.323030798032974
+  }
+}

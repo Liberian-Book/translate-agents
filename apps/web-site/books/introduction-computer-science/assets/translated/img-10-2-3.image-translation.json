@@ -1,74 +1,9 @@
 {
   "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-2-3.webp",
   "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-2-enterprise-architecture-management-frameworks.html",
-  "decision": "review",
-  "reason": "low-confidence-or-too-few-regions",
+  "decision": "error",
+  "reason": "source-image-not-found",
   "outputImage": null,
-  "ocr": [
-    {
-      "text": "High",
-      "confidence": 49,
-      "bbox": {
-        "x": 93,
-        "y": 83,
-        "w": 743,
-        "h": 56
-      }
-    },
-    {
-      "text": "8 or | ~",
-      "confidence": 49,
-      "bbox": {
-        "x": 93,
-        "y": 194,
-        "w": 743,
-        "h": 56
-      }
-    },
-    {
-      "text": "oo",
-      "confidence": 49,
-      "bbox": {
-        "x": 93,
-        "y": 305,
-        "w": 743,
-        "h": 56
-      }
-    },
-    {
-      "text": "wn",
-      "confidence": 49,
-      "bbox": {
-        "x": 93,
-        "y": 416,
-        "w": 743,
-        "h": 56
-      }
-    },
-    {
-      "text": "= Diversification Replication",
-      "confidence": 49,
-      "bbox": {
-        "x": 93,
-        "y": 527,
-        "w": 743,
-        "h": 56
-      }
-    },
-    {
-      "text": "Business process standardization",
-      "confidence": 49,
-      "bbox": {
-        "x": 93,
-        "y": 638,
-        "w": 743,
-        "h": 56
-      }
-    }
-  ],
-  "translations": [],
-  "metrics": {
-    "textDensity": 0.38721565440202504,
-    "averageConfidence": 49
-  }
+  "ocr": [],
+  "translations": []
 }

@@ -2,7 +2,7 @@
   "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-6-1-2.webp",
   "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/6-1-what-is-an-operating-system.html",
   "decision": "error",
-  "reason": "translation-api-failed-status-429",
+  "reason": "source-image-not-found",
   "outputImage": null,
   "ocr": [],
   "translations": []

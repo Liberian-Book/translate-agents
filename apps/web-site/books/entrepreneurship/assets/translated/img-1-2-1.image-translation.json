@@ -1,0 +1,163 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-1-2-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/1-2-entrepreneurial-vision-and-goals.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "ro Tha, Ty",
+      "confidence": 34,
+      "bbox": {
+        "x": 112,
+        "y": 134,
+        "w": 892,
+        "h": 89
+      }
+    },
+    {
+      "text": "i 5 L r he",
+      "confidence": 34,
+      "bbox": {
+        "x": 112,
+        "y": 312,
+        "w": 892,
+        "h": 89
+      }
+    },
+    {
+      "text": "~~ Coaching Motivation",
+      "confidence": 34,
+      "bbox": {
+        "x": 112,
+        "y": 490,
+        "w": 892,
+        "h": 89
+      }
+    },
+    {
+      "text": "and | and",
+      "confidence": 34,
+      "bbox": {
+        "x": 112,
+        "y": 668,
+        "w": 892,
+        "h": 89
+      }
+    },
+    {
+      "text": ": LL",
+      "confidence": 34,
+      "bbox": {
+        "x": 112,
+        "y": 846,
+        "w": 892,
+        "h": 89
+      }
+    },
+    {
+      "text": "3 training r b support r",
+      "confidence": 34,
+      "bbox": {
+        "x": 112,
+        "y": 1024,
+        "w": 892,
+        "h": 89
+      }
+    },
+    {
+      "text": "ey hh >",
+      "confidence": 34,
+      "bbox": {
+        "x": 112,
+        "y": 1202,
+        "w": 892,
+        "h": 89
+      }
+    },
+    {
+      "text": "oi Ty",
+      "confidence": 34,
+      "bbox": {
+        "x": 112,
+        "y": 1380,
+        "w": 892,
+        "h": 89
+      }
+    },
+    {
+      "text": "pt hk",
+      "confidence": 34,
+      "bbox": {
+        "x": 112,
+        "y": 1558,
+        "w": 892,
+        "h": 89
+      }
+    },
+    {
+      "text": "Advice",
+      "confidence": 34,
+      "bbox": {
+        "x": 112,
+        "y": 1736,
+        "w": 892,
+        "h": 89
+      }
+    },
+    {
+      "text": "and",
+      "confidence": 34,
+      "bbox": {
+        "x": 112,
+        "y": 1914,
+        "w": 892,
+        "h": 89
+      }
+    },
+    {
+      "text": "1 direction",
+      "confidence": 34,
+      "bbox": {
+        "x": 112,
+        "y": 2092,
+        "w": 892,
+        "h": 89
+      }
+    },
+    {
+      "text": "» yr",
+      "confidence": 34,
+      "bbox": {
+        "x": 112,
+        "y": 2270,
+        "w": 892,
+        "h": 89
+      }
+    },
+    {
+      "text": "= rr",
+      "confidence": 34,
+      "bbox": {
+        "x": 112,
+        "y": 2448,
+        "w": 892,
+        "h": 89
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.8939910313901346,
+    "averageConfidence": 34,
+    "entropy": 2.2677424181292736,
+    "sharpness": 2.1133938705567434
+  }
+}

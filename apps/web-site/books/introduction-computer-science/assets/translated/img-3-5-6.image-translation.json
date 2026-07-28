@@ -1,24 +1,9 @@
 {
   "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-3-5-6.webp",
   "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/3-5-sample-algorithms-by-problem.html",
-  "decision": "review",
-  "reason": "low-confidence-or-too-few-regions",
+  "decision": "error",
+  "reason": "source-image-not-found",
   "outputImage": null,
-  "ocr": [
-    {
-      "text": "EE EN / => /",
-      "confidence": 60,
-      "bbox": {
-        "x": 124,
-        "y": 67,
-        "w": 991,
-        "h": 44
-      }
-    }
-  ],
-  "translations": [],
-  "metrics": {
-    "textDensity": 0.06329657823378101,
-    "averageConfidence": 60
-  }
+  "ocr": [],
+  "translations": []
 }

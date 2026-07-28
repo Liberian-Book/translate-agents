@@ -1,0 +1,143 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-12-2-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/12-2-the-marxist-solution.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "RAE ARNG 5 SN 2 QT Se TALS 3 Crane ae",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 72,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "Rati NEN RRL ae",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 168,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "hi LE RN GP PRG BR a",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 264,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "SEE AT HS",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 360,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "BES, “hE Te TN AEE Sas",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 456,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "oy ATED En) NA CE RA FR ;",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 552,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "~n bd i SIAR 9 oa",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 648,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "«HR sma)",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 744,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": ", [HE-HISTORY OF THE WORLDHISINONE |b",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 840,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "{4 7 \"OTHER THAN THE PROGRESS OFTHE . |",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 936,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "CONSCIOUSNESS OF FREEDOM * HEGEL",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 1032,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "7 digg y",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 1128,
+        "w": 640,
+        "h": 48
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.768,
+    "averageConfidence": 31,
+    "entropy": 7.483290027616022,
+    "sharpness": 6.228636635612541
+  }
+}

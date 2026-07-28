@@ -1,0 +1,22 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-7-3-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/7-3-justification.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-ocr-text"
+  },
+  "reason": "low-text-density",
+  "outputImage": null,
+  "ocr": [],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0,
+    "averageConfidence": 0,
+    "entropy": 1.1886037607837352,
+    "sharpness": 4.24093070265686
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-9-5-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/9-5-daoism.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "ville",
+      "confidence": 33,
+      "bbox": {
+        "x": 48,
+        "y": 96,
+        "w": 384,
+        "h": 64
+      }
+    },
+    {
+      "text": "| CE",
+      "confidence": 33,
+      "bbox": {
+        "x": 48,
+        "y": 224,
+        "w": 384,
+        "h": 64
+      }
+    },
+    {
+      "text": "Ge | oo",
+      "confidence": 33,
+      "bbox": {
+        "x": 48,
+        "y": 352,
+        "w": 384,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.192,
+    "averageConfidence": 33,
+    "entropy": 7.528642619130551,
+    "sharpness": 1.7919669238883524
+  }
+}

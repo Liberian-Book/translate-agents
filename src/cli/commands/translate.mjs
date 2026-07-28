@@ -23,7 +23,7 @@ export function registerTranslateCommand(program) {
     .argument('<book>', 'tên thư mục đầu ra của sách')
     .argument('<target>', 'tệp HTML đã dịch, số chương, hoặc all')
     .option('--retranslate', 'chỉ dịch lại hình ảnh trong sách đã dịch, không dịch lại nội dung chữ')
-    .option('--renderer <renderer>', 'trình render dịch hình ảnh: overlay hoặc image-edit', 'overlay')
+    .option('--renderer <renderer>', 'trình render dịch hình ảnh: overlay hoặc image-edit', 'image-edit')
     .option('--strict', 'thoát lỗi nếu có hình ảnh cần review hoặc lỗi')
     .action(async (book, target, options) => {
       await runTranslateImages({ book, target, retranslate: options.retranslate, renderer: options.renderer, strict: options.strict });

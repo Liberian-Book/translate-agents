@@ -1,74 +1,9 @@
 {
   "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-14-2-8.webp",
   "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/14-2-cybersecurity-deep-dive.html",
-  "decision": "review",
-  "reason": "low-confidence-or-too-few-regions",
+  "decision": "error",
+  "reason": "source-image-not-found",
   "outputImage": null,
-  "ocr": [
-    {
-      "text": "ES 5 ES",
-      "confidence": 40,
-      "bbox": {
-        "x": 70,
-        "y": 33,
-        "w": 556,
-        "h": 24
-      }
-    },
-    {
-      "text": "Me",
-      "confidence": 40,
-      "bbox": {
-        "x": 70,
-        "y": 78,
-        "w": 556,
-        "h": 24
-      }
-    },
-    {
-      "text": "ss'=(¢\")\" ss'= (gy",
-      "confidence": 40,
-      "bbox": {
-        "x": 70,
-        "y": 123,
-        "w": 556,
-        "h": 24
-      }
-    },
-    {
-      "text": "EK’ = H(SS\") EK’ = H(SS\")",
-      "confidence": 40,
-      "bbox": {
-        "x": 70,
-        "y": 168,
-        "w": 556,
-        "h": 24
-      }
-    },
-    {
-      "text": "MK’ = H(EK') MK’ = H(EK’)",
-      "confidence": 40,
-      "bbox": {
-        "x": 70,
-        "y": 213,
-        "w": 556,
-        "h": 24
-      }
-    },
-    {
-      "text": "MK=HEK)- MEK=HEK)",
-      "confidence": 40,
-      "bbox": {
-        "x": 70,
-        "y": 258,
-        "w": 556,
-        "h": 24
-      }
-    }
-  ],
-  "translations": [],
-  "metrics": {
-    "textDensity": 0.4129032258064516,
-    "averageConfidence": 40
-  }
+  "ocr": [],
+  "translations": []
 }

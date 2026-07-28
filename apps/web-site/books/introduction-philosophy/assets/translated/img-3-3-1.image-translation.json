@@ -1,0 +1,53 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-3-3-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/3-3-classical-chinese-philosophy.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "rs a %",
+      "confidence": 28,
+      "bbox": {
+        "x": 53,
+        "y": 96,
+        "w": 426,
+        "h": 64
+      }
+    },
+    {
+      "text": "AE | ae",
+      "confidence": 28,
+      "bbox": {
+        "x": 53,
+        "y": 224,
+        "w": 426,
+        "h": 64
+      }
+    },
+    {
+      "text": "it ~",
+      "confidence": 28,
+      "bbox": {
+        "x": 53,
+        "y": 352,
+        "w": 426,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.19181988742964354,
+    "averageConfidence": 28,
+    "entropy": 6.555841147201136,
+    "sharpness": 9.71949949417589
+  }
+}

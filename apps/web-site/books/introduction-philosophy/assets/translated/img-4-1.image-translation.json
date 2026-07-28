@@ -1,0 +1,223 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-4-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/4-introduction.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "io h(E Hars rE CE = fo",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 96,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "CEEEEek od S=2E ADE",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 224,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "Samp ~ \" QEEEo ES ©",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 352,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "kaon, ~ gn i = i Uc = \"== ’ 1a 3",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 480,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "U7 Ia ae eee SAI IE SCN Hi",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 608,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "1) Fs, lor 7) 7] \\ Bond 721, -_r |",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 736,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "il : Zo. AS a RST ;",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 864,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "ile 5 257 HON NEA a ||",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 992,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "| Zi Lr riz — Ses",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 1120,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "3 7. Lili) eo = a rE",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 1248,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "‘ jf [75 =o SBS Eni",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 1376,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "i A =a = 5 ZZ ESP WE",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 1504,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "~~ N\\ | AR eA fT = iy =",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 1632,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "oll ; FL T= ES Ps ~ | :",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 1760,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "4 va - — -~ Por . ~~",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 1888,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "o dg | 2 br ( - ry Xe 7",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 2016,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "Fifa E = ~ YEE",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 2144,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "(Te BN Sey Dll | |",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 2272,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "Het Se Some el | I ||",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 2400,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "z= ag [Ne —o 7 Ln Bh",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 2528,
+        "w": 1400,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 1.2752179327521793,
+    "averageConfidence": 26,
+    "entropy": 6.82863960013492,
+    "sharpness": 1.4310059896398797
+  }
+}
