@@ -1,0 +1,618 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-11-1-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/11-1-the-rise-and-message-of-islam.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "image-edit-leftover-source-english",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "AEG eh ee a",
+      "confidence": 36,
+      "bbox": {
+        "x": 130,
+        "y": 105,
+        "w": 1041,
+        "h": 70
+      }
+    },
+    {
+      "text": "AN NC 2s > | BE",
+      "confidence": 36,
+      "bbox": {
+        "x": 130,
+        "y": 246,
+        "w": 1041,
+        "h": 70
+      }
+    },
+    {
+      "text": "7 i * OPE ly $ ; #",
+      "confidence": 36,
+      "bbox": {
+        "x": 130,
+        "y": 387,
+        "w": 1041,
+        "h": 70
+      }
+    },
+    {
+      "text": "k onstantinople [SS 3 ; 2",
+      "confidence": 36,
+      "bbox": {
+        "x": 130,
+        "y": 528,
+        "w": 1041,
+        "h": 70
+      }
+    },
+    {
+      "text": ") 0 3 Chr & or 2 2 ‘4",
+      "confidence": 36,
+      "bbox": {
+        "x": 130,
+        "y": 669,
+        "w": 1041,
+        "h": 70
+      }
+    },
+    {
+      "text": "TF x i S % £ Are",
+      "confidence": 36,
+      "bbox": {
+        "x": 130,
+        "y": 810,
+        "w": 1041,
+        "h": 70
+      }
+    },
+    {
+      "text": "2 Corinth'e 8 (7 .",
+      "confidence": 36,
+      "bbox": {
+        "x": 130,
+        "y": 951,
+        "w": 1041,
+        "h": 70
+      }
+    },
+    {
+      "text": "~~ a has = ASIA Wil",
+      "confidence": 36,
+      "bbox": {
+        "x": 130,
+        "y": 1092,
+        "w": 1041,
+        "h": 70
+      }
+    },
+    {
+      "text": "3 FRY, ZL",
+      "confidence": 36,
+      "bbox": {
+        "x": 130,
+        "y": 1233,
+        "w": 1041,
+        "h": 70
+      }
+    },
+    {
+      "text": "5 “bs 4 P 7a p",
+      "confidence": 36,
+      "bbox": {
+        "x": 130,
+        "y": 1374,
+        "w": 1041,
+        "h": 70
+      }
+    },
+    {
+      "text": "Woh L. pg A 1%",
+      "confidence": 36,
+      "bbox": {
+        "x": 130,
+        "y": 1515,
+        "w": 1041,
+        "h": 70
+      }
+    },
+    {
+      "text": "YO Damascu; N 8",
+      "confidence": 36,
+      "bbox": {
+        "x": 130,
+        "y": 1656,
+        "w": 1041,
+        "h": 70
+      }
+    },
+    {
+      "text": "Alexandria J 2 !",
+      "confidence": 36,
+      "bbox": {
+        "x": 130,
+        "y": 1797,
+        "w": 1041,
+        "h": 70
+      }
+    },
+    {
+      "text": "\\ Aah, 7",
+      "confidence": 36,
+      "bbox": {
+        "x": 130,
+        "y": 1938,
+        "w": 1041,
+        "h": 70
+      }
+    },
+    {
+      "text": "4 Fe AT",
+      "confidence": 36,
+      "bbox": {
+        "x": 130,
+        "y": 2079,
+        "w": 1041,
+        "h": 70
+      }
+    },
+    {
+      "text": "; ) Poi",
+      "confidence": 36,
+      "bbox": {
+        "x": 130,
+        "y": 2220,
+        "w": 1041,
+        "h": 70
+      }
+    },
+    {
+      "text": "Medina ARABIA hs i Rs ;",
+      "confidence": 36,
+      "bbox": {
+        "x": 130,
+        "y": 2361,
+        "w": 1041,
+        "h": 70
+      }
+    },
+    {
+      "text": "LJ 42",
+      "confidence": 36,
+      "bbox": {
+        "x": 130,
+        "y": 2502,
+        "w": 1041,
+        "h": 70
+      }
+    },
+    {
+      "text": "ii 4 i",
+      "confidence": 36,
+      "bbox": {
+        "x": 130,
+        "y": 2643,
+        "w": 1041,
+        "h": 70
+      }
+    },
+    {
+      "text": ") ® Mecca h",
+      "confidence": 36,
+      "bbox": {
+        "x": 130,
+        "y": 2784,
+        "w": 1041,
+        "h": 70
+      }
+    },
+    {
+      "text": "4 Arabian",
+      "confidence": 36,
+      "bbox": {
+        "x": 130,
+        "y": 2925,
+        "w": 1041,
+        "h": 70
+      }
+    },
+    {
+      "text": "Sea",
+      "confidence": 36,
+      "bbox": {
+        "x": 130,
+        "y": 3066,
+        "w": 1041,
+        "h": 70
+      }
+    },
+    {
+      "text": "AFRICA LP ~",
+      "confidence": 36,
+      "bbox": {
+        "x": 130,
+        "y": 3207,
+        "w": 1041,
+        "h": 70
+      }
+    },
+    {
+      "text": "LN Pe",
+      "confidence": 36,
+      "bbox": {
+        "x": 130,
+        "y": 3348,
+        "w": 1041,
+        "h": 70
+      }
+    },
+    {
+      "text": "Sasanian Empire 4 pe.",
+      "confidence": 36,
+      "bbox": {
+        "x": 130,
+        "y": 3489,
+        "w": 1041,
+        "h": 70
+      }
+    },
+    {
+      "text": "\\ [7] Byzantine Empire ii i Sh oo oA",
+      "confidence": 36,
+      "bbox": {
+        "x": 130,
+        "y": 3630,
+        "w": 1041,
+        "h": 70
+      }
+    },
+    {
+      "text": "boas",
+      "confidence": 36,
+      "bbox": {
+        "x": 130,
+        "y": 3771,
+        "w": 1041,
+        "h": 70
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A map is shown of the northeastern portion of Africa, southeastern Europe, and southwestern Asia. The Adriatic Sea, Mediterranean Sea, Aegean Sea, Black Sea, Red Sea, Gulf of Aden, Arabian Sea, Persian Gulf (Arabian Gulf), Caspian Sea, and Gulf of Oman are labeled. A section of southern Europe east of Italy through Greece and Turkey, south through Syria, Israel, Jordan, and extending to a northeastern portion of Egypt is highlighted orange to denote “Sasanian Empire.” A thin coastal section along the Persian Gulf of northeastern Saudi Arabia including Qatar and some of the United Arab Emirates are highlighted green to denote “Byzantine Empire.” Other lands highlighted green include areas heading north from there through Iraq, Iran, and the western portions of Pakistan and Afghanistan.\nButton label: Click to enlarge image of A map is shown of the northeastern portion of Africa, southeastern Europe, and southwestern Asia. The Adriatic Sea, Mediterranean Sea, Aegean Sea, Black Sea, Red Sea, Gulf of Aden, Arabian Sea, Persian Gulf (Arabian Gulf), Caspian Sea, and Gulf of Oman are labeled. A section of southern Europe east of Italy through Greece and Turkey, south through Syria, Israel, Jordan, and extending to a northeastern portion of Egypt is highlighted orange to denote “Sasanian Empire.” A thin coastal section along the Persian Gulf of northeastern Saudi Arabia including Qatar and some of the United Arab Emirates are highlighted green to denote “Byzantine Empire.” Other lands highlighted green include areas heading north from there through Iraq, Iran, and the western portions of Pakistan and Afghanistan.\nEnglish caption: Figure 11.4 The Byzantine and Sasanian Empires. This map shows the Byzantine (Roman) and Sasanian (Persian) Empires at the beginning of the seventh century CE. Note the long border the two empires shared, and the southern borders with Arabia that remained out of their direct control. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 1.7204670599932317,
+    "averageConfidence": 36,
+    "entropy": 4.989825237917103,
+    "sharpness": 4.096385776482581
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A map is shown of the northeastern portion of Africa, southeastern Europe, and southwestern Asia. The Adriatic Sea, Mediterranean Sea, Aegean Sea, Black Sea, Red Sea, Gulf of Aden, Arabian Sea, Persian Gulf (Arabian Gulf), Caspian Sea, and Gulf of Oman are labeled. A section of southern Europe east of Italy through Greece and Turkey, south through Syria, Israel, Jordan, and extending to a northeastern portion of Egypt is highlighted orange to denote “Sasanian Empire.” A thin coastal section along the Persian Gulf of northeastern Saudi Arabia including Qatar and some of the United Arab Emirates are highlighted green to denote “Byzantine Empire.” Other lands highlighted green include areas heading north from there through Iraq, Iran, and the western portions of Pakistan and Afghanistan.\nButton label: Click to enlarge image of A map is shown of the northeastern portion of Africa, southeastern Europe, and southwestern Asia. The Adriatic Sea, Mediterranean Sea, Aegean Sea, Black Sea, Red Sea, Gulf of Aden, Arabian Sea, Persian Gulf (Arabian Gulf), Caspian Sea, and Gulf of Oman are labeled. A section of southern Europe east of Italy through Greece and Turkey, south through Syria, Israel, Jordan, and extending to a northeastern portion of Egypt is highlighted orange to denote “Sasanian Empire.” A thin coastal section along the Persian Gulf of northeastern Saudi Arabia including Qatar and some of the United Arab Emirates are highlighted green to denote “Byzantine Empire.” Other lands highlighted green include areas heading north from there through Iraq, Iran, and the western portions of Pakistan and Afghanistan.\nEnglish caption: Figure 11.4 The Byzantine and Sasanian Empires. This map shows the Byzantine (Roman) and Sasanian (Persian) Empires at the beginning of the seventh century CE. Note the long border the two empires shared, and the southern borders with Arabia that remained out of their direct control. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: aden, byzantine. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Es (EN A a",
+        "confidence": 41,
+        "bbox": {
+          "x": 153,
+          "y": 124,
+          "w": 1220,
+          "h": 82
+        }
+      },
+      {
+        "text": "I ol oi od 2 14",
+        "confidence": 41,
+        "bbox": {
+          "x": 153,
+          "y": 289,
+          "w": 1220,
+          "h": 82
+        }
+      },
+      {
+        "text": "- Bien”} § Aral & 7 fll",
+        "confidence": 41,
+        "bbox": {
+          "x": 153,
+          "y": 454,
+          "w": 1220,
+          "h": 82
+        }
+      },
+      {
+        "text": "| garael TR il ral = { dita",
+        "confidence": 41,
+        "bbox": {
+          "x": 153,
+          "y": 619,
+          "w": 1220,
+          "h": 82
+        }
+      },
+      {
+        "text": "A A Ga Bién Pen Bié; ~ . «",
+        "confidence": 41,
+        "bbox": {
+          "x": 153,
+          "y": 784,
+          "w": 1220,
+          "h": 82
+        }
+      },
+      {
+        "text": "Constantinople Capi © > SongAydar =\" J £5",
+        "confidence": 41,
+        "bbox": {
+          "x": 153,
+          "y": 949,
+          "w": 1220,
+          "h": 82
+        }
+      },
+      {
+        "text": "— A i Dc pe J 4 f",
+        "confidence": 41,
+        "bbox": {
+          "x": 153,
+          "y": 1114,
+          "w": 1220,
+          "h": 82
+        }
+      },
+      {
+        "text": "iss 8 Bien : 3 AGP",
+        "confidence": 41,
+        "bbox": {
+          "x": 153,
+          "y": 1279,
+          "w": 1220,
+          "h": 82
+        }
+      },
+      {
+        "text": "0 = o - ~ IN po",
+        "confidence": 41,
+        "bbox": {
+          "x": 153,
+          "y": 1444,
+          "w": 1220,
+          "h": 82
+        }
+      },
+      {
+        "text": "Flt Corit VRE \\ S = CHAU A iJ)",
+        "confidence": 41,
+        "bbox": {
+          "x": 153,
+          "y": 1609,
+          "w": 1220,
+          "h": 82
+        }
+      },
+      {
+        "text": "< : J ae 1 Tr",
+        "confidence": 41,
+        "bbox": {
+          "x": 153,
+          "y": 1774,
+          "w": 1220,
+          "h": 82
+        }
+      },
+      {
+        "text": "Bién p, Sa, 4 ~",
+        "confidence": 41,
+        "bbox": {
+          "x": 153,
+          "y": 1939,
+          "w": 1220,
+          "h": 82
+        }
+      },
+      {
+        "text": "a Trung pg Cg 5",
+        "confidence": 41,
+        "bbox": {
+          "x": 153,
+          "y": 2104,
+          "w": 1220,
+          "h": 82
+        }
+      },
+      {
+        "text": "Damascus \\",
+        "confidence": 41,
+        "bbox": {
+          "x": 153,
+          "y": 2269,
+          "w": 1220,
+          "h": 82
+        }
+      },
+      {
+        "text": "Alexandria /Jerusalen x",
+        "confidence": 41,
+        "bbox": {
+          "x": 153,
+          "y": 2434,
+          "w": 1220,
+          "h": 82
+        }
+      },
+      {
+        "text": "a em",
+        "confidence": 41,
+        "bbox": {
+          "x": 153,
+          "y": 2599,
+          "w": 1220,
+          "h": 82
+        }
+      },
+      {
+        "text": "y = inh 0-map",
+        "confidence": 41,
+        "bbox": {
+          "x": 153,
+          "y": 2764,
+          "w": 1220,
+          "h": 82
+        }
+      },
+      {
+        "text": "= Medina \"ted",
+        "confidence": 41,
+        "bbox": {
+          "x": 153,
+          "y": 2929,
+          "w": 1220,
+          "h": 82
+        }
+      },
+      {
+        "text": "SG A RAP J |",
+        "confidence": 41,
+        "bbox": {
+          "x": 153,
+          "y": 3094,
+          "w": 1220,
+          "h": 82
+        }
+      },
+      {
+        "text": "A HS ON 3",
+        "confidence": 41,
+        "bbox": {
+          "x": 153,
+          "y": 3259,
+          "w": 1220,
+          "h": 82
+        }
+      },
+      {
+        "text": "Nasser",
+        "confidence": 41,
+        "bbox": {
+          "x": 153,
+          "y": 3424,
+          "w": 1220,
+          "h": 82
+        }
+      },
+      {
+        "text": "4 © Mecca oJ arity",
+        "confidence": 41,
+        "bbox": {
+          "x": 153,
+          "y": 3589,
+          "w": 1220,
+          "h": 82
+        }
+      },
+      {
+        "text": "} ) _ Bién A Rap",
+        "confidence": 41,
+        "bbox": {
+          "x": 153,
+          "y": 3754,
+          "w": 1220,
+          "h": 82
+        }
+      },
+      {
+        "text": "3 f ai?",
+        "confidence": 41,
+        "bbox": {
+          "x": 153,
+          "y": 3919,
+          "w": 1220,
+          "h": 82
+        }
+      },
+      {
+        "text": "' IN",
+        "confidence": 41,
+        "bbox": {
+          "x": 153,
+          "y": 4084,
+          "w": 1220,
+          "h": 82
+        }
+      },
+      {
+        "text": "NYS ), Po",
+        "confidence": 41,
+        "bbox": {
+          "x": 153,
+          "y": 4249,
+          "w": 1220,
+          "h": 82
+        }
+      },
+      {
+        "text": "ok ; X ot",
+        "confidence": 41,
+        "bbox": {
+          "x": 153,
+          "y": 4414,
+          "w": 1220,
+          "h": 82
+        }
+      },
+      {
+        "text": "[[] pé quéc Sasan 3) et",
+        "confidence": 41,
+        "bbox": {
+          "x": 153,
+          "y": 4579,
+          "w": 1220,
+          "h": 82
+        }
+      },
+      {
+        "text": "rd - ad Br’ =",
+        "confidence": 41,
+        "bbox": {
+          "x": 153,
+          "y": 4744,
+          "w": 1220,
+          "h": 82
+        }
+      },
+      {
+        "text": "hy Dé quéc Byzantine gC vabsan Vinh Aden",
+        "confidence": 41,
+        "bbox": {
+          "x": 153,
+          "y": 4909,
+          "w": 1220,
+          "h": 82
+        }
+      },
+      {
+        "text": "BEET } .",
+        "confidence": 41,
+        "bbox": {
+          "x": 153,
+          "y": 5074,
+          "w": 1220,
+          "h": 82
+        }
+      }
+    ],
+    "validation": {
+      "ok": false,
+      "reason": "image-edit-leftover-source-english",
+      "leftoverSourceWords": [
+        "aden",
+        "byzantine"
+      ]
+    },
+    "validationAttempt": 3
+  }
+}

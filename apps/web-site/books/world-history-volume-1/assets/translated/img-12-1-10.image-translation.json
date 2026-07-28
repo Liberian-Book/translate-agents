@@ -1,0 +1,34 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-12-1-10.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/12-1-the-indian-ocean-world-in-the-early-middle-ages.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Bh FT XK HK",
+      "confidence": 39,
+      "bbox": {
+        "x": 40,
+        "y": 73,
+        "w": 320,
+        "h": 49
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A simple drawn image of a man on a bright yellow background is seen. Four Asian characters are seen across the top. He has slanted, almond shaped eyes, large eyebrows, a moustache and goatee, and black hair is seen under his hat, which has wings sticking out each side. He wears a robe and his hands are tucked in the opposite sleeves of his robe.\nButton label: Click to enlarge image of A simple drawn image of a man on a bright yellow background is seen. Four Asian characters are seen across the top. He has slanted, almond shaped eyes, large eyebrows, a moustache and goatee, and black hair is seen under his hat, which has wings sticking out each side. He wears a robe and his hands are tucked in the opposite sleeves of his robe.\nEnglish caption: Figure 12.12 Emperor Wuzong. Emperor Wuzong, represented in an ink drawing from a Chinese encyclopedia of the early seventeenth century, engaged in widespread persecution of Buddhist monks and nuns in ninth-century (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license) China. (credit: modification of work “Emperor Wuzong of the Tang dynasty” by Baidu/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 0.06405228758169934,
+    "averageConfidence": 39,
+    "entropy": 4.409266759932507,
+    "sharpness": 2.7075553954705915
+  }
+}

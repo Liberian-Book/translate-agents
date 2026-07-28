@@ -1,0 +1,550 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-10-2-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/10-2-the-byzantine-empire-and-persia.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-10-2-3.vi.png",
+  "ocr": [
+    {
+      "text": "paw =~ Th",
+      "confidence": 37,
+      "bbox": {
+        "x": 130,
+        "y": 72,
+        "w": 1041,
+        "h": 48
+      }
+    },
+    {
+      "text": "ATLANTIC : A <4 :",
+      "confidence": 37,
+      "bbox": {
+        "x": 130,
+        "y": 168,
+        "w": 1041,
+        "h": 48
+      }
+    },
+    {
+      "text": "OCEAN > ’ ~~ By od",
+      "confidence": 37,
+      "bbox": {
+        "x": 130,
+        "y": 264,
+        "w": 1041,
+        "h": 48
+      }
+    },
+    {
+      "text": "Bay of 3 A = | Z",
+      "confidence": 37,
+      "bbox": {
+        "x": 130,
+        "y": 360,
+        "w": 1041,
+        "h": 48
+      }
+    },
+    {
+      "text": "Biscay 2 y A p=",
+      "confidence": 37,
+      "bbox": {
+        "x": 130,
+        "y": 456,
+        "w": 1041,
+        "h": 48
+      }
+    },
+    {
+      "text": "png P<] il",
+      "confidence": 37,
+      "bbox": {
+        "x": 130,
+        "y": 552,
+        "w": 1041,
+        "h": 48
+      }
+    },
+    {
+      "text": "5 (| f J * Cherson",
+      "confidence": 37,
+      "bbox": {
+        "x": 130,
+        "y": 648,
+        "w": 1041,
+        "h": 48
+      }
+    },
+    {
+      "text": ": fe Ch. Black Sea",
+      "confidence": 37,
+      "bbox": {
+        "x": 130,
+        "y": 744,
+        "w": 1041,
+        "h": 48
+      }
+    },
+    {
+      "text": "y 2 NC",
+      "confidence": 37,
+      "bbox": {
+        "x": 130,
+        "y": 840,
+        "w": 1041,
+        "h": 48
+      }
+    },
+    {
+      "text": "Roni 5 (7 AC : pl py BY ml",
+      "confidence": 37,
+      "bbox": {
+        "x": 130,
+        "y": 936,
+        "w": 1041,
+        "h": 48
+      }
+    },
+    {
+      "text": "»° REE hefsabnicap sConsaatimople (\"7",
+      "confidence": 37,
+      "bbox": {
+        "x": 130,
+        "y": 1032,
+        "w": 1041,
+        "h": 48
+      }
+    },
+    {
+      "text": "theherta . Tyrrhenian BO pred Bone be IY 4",
+      "confidence": 37,
+      "bbox": {
+        "x": 130,
+        "y": 1128,
+        "w": 1041,
+        "h": 48
+      }
+    },
+    {
+      "text": "Strait of Gibraltar Med;, 3 Lr wb Erne 5s 4 ' i s 4",
+      "confidence": 37,
+      "bbox": {
+        "x": 130,
+        "y": 1224,
+        "w": 1041,
+        "h": 48
+      }
+    },
+    {
+      "text": "5 .. a Yo , z",
+      "confidence": 37,
+      "bbox": {
+        "x": 130,
+        "y": 1320,
+        "w": 1041,
+        "h": 48
+      }
+    },
+    {
+      "text": "*. <r Cori he: SRY), eS),",
+      "confidence": 37,
+      "bbox": {
+        "x": 130,
+        "y": 1416,
+        "w": 1041,
+        "h": 48
+      }
+    },
+    {
+      "text": "v. + ©, \\@Syracuse re FE, SA Ll Antioch",
+      "confidence": 37,
+      "bbox": {
+        "x": 130,
+        "y": 1512,
+        "w": 1041,
+        "h": 48
+      }
+    },
+    {
+      "text": "ss AFRICA ER N )",
+      "confidence": 37,
+      "bbox": {
+        "x": 130,
+        "y": 1608,
+        "w": 1041,
+        "h": 48
+      }
+    },
+    {
+      "text": "= ‘ 4 Se F V",
+      "confidence": 37,
+      "bbox": {
+        "x": 130,
+        "y": 1704,
+        "w": 1041,
+        "h": 48
+      }
+    },
+    {
+      "text": "i J SER",
+      "confidence": 37,
+      "bbox": {
+        "x": 130,
+        "y": 1800,
+        "w": 1041,
+        "h": 48
+      }
+    },
+    {
+      "text": "rm IT",
+      "confidence": 37,
+      "bbox": {
+        "x": 130,
+        "y": 1896,
+        "w": 1041,
+        "h": 48
+      }
+    },
+    {
+      "text": "Jerusalem A",
+      "confidence": 37,
+      "bbox": {
+        "x": 130,
+        "y": 1992,
+        "w": 1041,
+        "h": 48
+      }
+    },
+    {
+      "text": "CT eandge",
+      "confidence": 37,
+      "bbox": {
+        "x": 130,
+        "y": 2088,
+        "w": 1041,
+        "h": 48
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A drawing of a map of the countries surrounding the Mediterranean Sea is shown. To the west the Atlantic Ocean is shown as well as the Strait of Gibraltar between Spain and Africa. The Tyrrhenian Sea is labeled by Italy, the Aegean Sea is labeled by Greece, and the Black Sea and Sea of Azov are labeled by Turkey and the Ukraine. A southern slice of Spain as well as a thin slice of northern Africa along the coast are highlighted green. Also highlighted green are Italy, Sardinia, Corsica, the western portion of Slovenia, the coastal land along Croatia, and the coastal area of Montenegro. Cities labeled on the map from west to east are: Carthehena in Spain, Ravenna, Rome, Naples, Sardinia, and Syracuse in Italy, Carthage in Africa, Thessalonica and Corinth in Greece, Constantinople in Turkey, Alexandria in Egypt, Cherson in the Ukraine, Antioch in Syria, and Jerusalem in Israel.\nButton label: Click to enlarge image of A drawing of a map of the countries surrounding the Mediterranean Sea is shown. To the west the Atlantic Ocean is shown as well as the Strait of Gibraltar between Spain and Africa. The Tyrrhenian Sea is labeled by Italy, the Aegean Sea is labeled by Greece, and the Black Sea and Sea of Azov are labeled by Turkey and the Ukraine. A southern slice of Spain as well as a thin slice of northern Africa along the coast are highlighted green. Also highlighted green are Italy, Sardinia, Corsica, the western portion of Slovenia, the coastal land along Croatia, and the coastal area of Montenegro. Cities labeled on the map from west to east are: Carthehena in Spain, Ravenna, Rome, Naples, Sardinia, and Syracuse in Italy, Carthage in Africa, Thessalonica and Corinth in Greece, Constantinople in Turkey, Alexandria in Egypt, Cherson in the Ukraine, Antioch in Syria, and Jerusalem in Israel.\nEnglish caption: Figure 10.13 The Reconquests of Justinian. Justinian’s plan to reconquer the western empire (the areas in green) proved effective with a relatively small force, but it ultimately strained his realm, which had to deal with growing problems with the Persians in the East. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 1.4012642399073043,
+    "averageConfidence": 37,
+    "entropy": 4.73594083932403,
+    "sharpness": 4.577142106835908
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A drawing of a map of the countries surrounding the Mediterranean Sea is shown. To the west the Atlantic Ocean is shown as well as the Strait of Gibraltar between Spain and Africa. The Tyrrhenian Sea is labeled by Italy, the Aegean Sea is labeled by Greece, and the Black Sea and Sea of Azov are labeled by Turkey and the Ukraine. A southern slice of Spain as well as a thin slice of northern Africa along the coast are highlighted green. Also highlighted green are Italy, Sardinia, Corsica, the western portion of Slovenia, the coastal land along Croatia, and the coastal area of Montenegro. Cities labeled on the map from west to east are: Carthehena in Spain, Ravenna, Rome, Naples, Sardinia, and Syracuse in Italy, Carthage in Africa, Thessalonica and Corinth in Greece, Constantinople in Turkey, Alexandria in Egypt, Cherson in the Ukraine, Antioch in Syria, and Jerusalem in Israel.\nButton label: Click to enlarge image of A drawing of a map of the countries surrounding the Mediterranean Sea is shown. To the west the Atlantic Ocean is shown as well as the Strait of Gibraltar between Spain and Africa. The Tyrrhenian Sea is labeled by Italy, the Aegean Sea is labeled by Greece, and the Black Sea and Sea of Azov are labeled by Turkey and the Ukraine. A southern slice of Spain as well as a thin slice of northern Africa along the coast are highlighted green. Also highlighted green are Italy, Sardinia, Corsica, the western portion of Slovenia, the coastal land along Croatia, and the coastal area of Montenegro. Cities labeled on the map from west to east are: Carthehena in Spain, Ravenna, Rome, Naples, Sardinia, and Syracuse in Italy, Carthage in Africa, Thessalonica and Corinth in Greece, Constantinople in Turkey, Alexandria in Egypt, Cherson in the Ukraine, Antioch in Syria, and Jerusalem in Israel.\nEnglish caption: Figure 10.13 The Reconquests of Justinian. Justinian’s plan to reconquer the western empire (the areas in green) proved effective with a relatively small force, but it ultimately strained his realm, which had to deal with growing problems with the Persians in the East. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: gibraltar, sardinia, ravenna, rome, naples, syracuse, thessalonica, cherson, antioch, jerusalem. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": ". B Sa PNY Ea",
+        "confidence": 35,
+        "bbox": {
+          "x": 184,
+          "y": 102,
+          "w": 1475,
+          "h": 68
+        }
+      },
+      {
+        "text": "DAI TAY ar? )",
+        "confidence": 35,
+        "bbox": {
+          "x": 184,
+          "y": 238,
+          "w": 1475,
+          "h": 68
+        }
+      },
+      {
+        "text": "DUONG ) < ’ ad hr . ~J :",
+        "confidence": 35,
+        "bbox": {
+          "x": 184,
+          "y": 374,
+          "w": 1475,
+          "h": 68
+        }
+      },
+      {
+        "text": "IN J",
+        "confidence": 35,
+        "bbox": {
+          "x": 184,
+          "y": 510,
+          "w": 1475,
+          "h": 68
+        }
+      },
+      {
+        "text": "- fy ‘",
+        "confidence": 35,
+        "bbox": {
+          "x": 184,
+          "y": 646,
+          "w": 1475,
+          "h": 68
+        }
+      },
+      {
+        "text": "Vinh os p = y Bién",
+        "confidence": 35,
+        "bbox": {
+          "x": 184,
+          "y": 782,
+          "w": 1475,
+          "h": 68
+        }
+      },
+      {
+        "text": ": Biscay 3 ’ 4 \\ v pres",
+        "confidence": 35,
+        "bbox": {
+          "x": 184,
+          "y": 918,
+          "w": 1475,
+          "h": 68
+        }
+      },
+      {
+        "text": "pu = \"",
+        "confidence": 35,
+        "bbox": {
+          "x": 184,
+          "y": 1054,
+          "w": 1475,
+          "h": 68
+        }
+      },
+      {
+        "text": "] ad << ’y \"",
+        "confidence": 35,
+        "bbox": {
+          "x": 184,
+          "y": 1190,
+          "w": 1475,
+          "h": 68
+        }
+      },
+      {
+        "text": "; ha of A RN f 9 y Ko-xon =",
+        "confidence": 35,
+        "bbox": {
+          "x": 184,
+          "y": 1326,
+          "w": 1475,
+          "h": 68
+        }
+      },
+      {
+        "text": "¢ AN",
+        "confidence": 35,
+        "bbox": {
+          "x": 184,
+          "y": 1462,
+          "w": 1475,
+          "h": 68
+        }
+      },
+      {
+        "text": "Sd = Vo Bién Den",
+        "confidence": 35,
+        "bbox": {
+          "x": 184,
+          "y": 1598,
+          "w": 1475,
+          "h": 68
+        }
+      },
+      {
+        "text": "’ : g =: == 7 ciel Eo bil,",
+        "confidence": 35,
+        "bbox": {
+          "x": 184,
+          "y": 1734,
+          "w": 1475,
+          "h": 68
+        }
+      },
+      {
+        "text": "R6-n¥ cL Cay Bo-0T ad gil",
+        "confidence": 35,
+        "bbox": {
+          "x": 184,
+          "y": 1870,
+          "w": 1475,
+          "h": 68
+        }
+      },
+      {
+        "text": "(4° ik : 4 =",
+        "confidence": 35,
+        "bbox": {
+          "x": 184,
+          "y": 2006,
+          "w": 1475,
+          "h": 68
+        }
+      },
+      {
+        "text": "Ea Na-po- hé-xa-16-ni-ca” Constan-ti-no-pon",
+        "confidence": 35,
+        "bbox": {
+          "x": 184,
+          "y": 2142,
+          "w": 1475,
+          "h": 68
+        }
+      },
+      {
+        "text": "Cac-ta-ghé-na Bién VAS a Bién + 7%",
+        "confidence": 35,
+        "bbox": {
+          "x": 184,
+          "y": 2278,
+          "w": 1475,
+          "h": 68
+        }
+      },
+      {
+        "text": "Eo bién Xic-di-nia 71yr6ni Bién a Fe yes & (of",
+        "confidence": 35,
+        "bbox": {
+          "x": 184,
+          "y": 2414,
+          "w": 1475,
+          "h": 68
+        }
+      },
+      {
+        "text": "Gibraltar Ber DY ae IT 1 o1t g Hail I-o-ni-a 0 EE 98 IN p",
+        "confidence": 35,
+        "bbox": {
+          "x": 184,
+          "y": 2550,
+          "w": 1475,
+          "h": 68
+        }
+      },
+      {
+        "text": "- ¢ e Gli % oS, oS 1 fhe TU!",
+        "confidence": 35,
+        "bbox": {
+          "x": 184,
+          "y": 2686,
+          "w": 1475,
+          "h": 68
+        }
+      },
+      {
+        "text": "“ . Xi-ra-cu-sa YT / wv ir",
+        "confidence": 35,
+        "bbox": {
+          "x": 184,
+          "y": 2822,
+          "w": 1475,
+          "h": 68
+        }
+      },
+      {
+        "text": "ARES A ®An-ti-6t",
+        "confidence": 35,
+        "bbox": {
+          "x": 184,
+          "y": 2958,
+          "w": 1475,
+          "h": 68
+        }
+      },
+      {
+        "text": "wr CHAUPHI TE = ! o£ :",
+        "confidence": 35,
+        "bbox": {
+          "x": 184,
+          "y": 3094,
+          "w": 1475,
+          "h": 68
+        }
+      },
+      {
+        "text": "Bar? - l = -7",
+        "confidence": 35,
+        "bbox": {
+          "x": 184,
+          "y": 3230,
+          "w": 1475,
+          "h": 68
+        }
+      },
+      {
+        "text": "2 gma Mn is Bién",
+        "confidence": 35,
+        "bbox": {
+          "x": 184,
+          "y": 3366,
+          "w": 1475,
+          "h": 68
+        }
+      },
+      {
+        "text": "bo -— a & R",
+        "confidence": 35,
+        "bbox": {
+          "x": 184,
+          "y": 3502,
+          "w": 1475,
+          "h": 68
+        }
+      },
+      {
+        "text": "Gié-ru-sa-lem |",
+        "confidence": 35,
+        "bbox": {
+          "x": 184,
+          "y": 3638,
+          "w": 1475,
+          "h": 68
+        }
+      },
+      {
+        "text": "A h-xan-dri-a< or\"",
+        "confidence": 35,
+        "bbox": {
+          "x": 184,
+          "y": 3774,
+          "w": 1475,
+          "h": 68
+        }
+      },
+      {
+        "text": "Gan. dria”",
+        "confidence": 35,
+        "bbox": {
+          "x": 184,
+          "y": 3910,
+          "w": 1475,
+          "h": 68
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": [
+        "gibraltar"
+      ]
+    },
+    "validationAttempt": 3
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

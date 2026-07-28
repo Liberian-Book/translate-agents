@@ -9,6 +9,17 @@ const DEFAULT_BASE_URL = 'https://api.openai.com/v1';
 const DEFAULT_MODEL = 'gpt-4o-mini';
 const TRANSLATABLE_SELECTOR = '.vn.visible';
 const TRANSLATION_RETRIES = 2;
+const LEFTOVER_PHRASE_MIN_WORDS = 2;
+const LEFTOVER_PHRASE_MAX_WORDS = 5;
+const PRESERVED_LOWERCASE_LOANWORDS = new Set([
+  'bacon',
+  'cheddar',
+  'cheesecake',
+  'feta',
+  'fontina',
+  'mozzarella',
+  'parmesan',
+]);
 
 function findProjectRoot(currentDir) {
   let dir = currentDir;
@@ -119,6 +130,87 @@ function stripCodeFence(text) {
     .trim();
 }
 
+function textFromHtml(html) {
+  const $ = cheerio.load(`<root>${html}</root>`, { decodeEntities: false });
+  return $('root').text().replace(/\s+/g, ' ').trim();
+}
+
+function normalizeForEnglishCheck(text) {
+  return text
+    .toLowerCase()
+    .replace(/[’‘]/g, "'")
+    .replace(/[^a-z0-9'\s-]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function sourceWordsForEnglishCheck(text) {
+  return Array.from(text.matchAll(/[A-Za-z][A-Za-z'-]*/g)).map(match => ({
+    word: match[0],
+  }));
+}
+
+function isLowercaseSourcePhrase(words) {
+  return words.every(({ word }) => word === word.toLowerCase());
+}
+
+function preservedEnglishGlossaryPhrases(glossaryLines) {
+  return glossaryLines
+    .map(line => line.split(/\s*=>\s*/))
+    .filter(parts => parts.length === 2)
+    .map(([key, translation]) => ({
+      key: normalizeForEnglishCheck(key),
+      translation: normalizeForEnglishCheck(translation),
+    }))
+    .filter(({ key, translation }) => key && key === translation)
+    .map(({ key }) => key);
+}
+
+function includesPreservedEnglishGlossaryPhrase(normalizedPhrase, preservedPhrases) {
+  return preservedPhrases.some(preservedPhrase => {
+    const pattern = new RegExp(`(^|\\s)${preservedPhrase.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?=\\s|$)`);
+    return pattern.test(normalizedPhrase);
+  });
+}
+
+function isPreservedLowercaseLoanwordPhrase(words) {
+  return words.every(({ word }) => PRESERVED_LOWERCASE_LOANWORDS.has(word.toLowerCase()));
+}
+
+function findLeftoverEnglishPhrase(sourceText, translatedText, glossaryLines = []) {
+  const words = sourceWordsForEnglishCheck(sourceText);
+  if (words.length < LEFTOVER_PHRASE_MIN_WORDS) return null;
+
+  const normalizedTranslated = normalizeForEnglishCheck(translatedText);
+  if (!normalizedTranslated) return null;
+  const preservedPhrases = preservedEnglishGlossaryPhrases(glossaryLines);
+
+  for (let size = Math.min(LEFTOVER_PHRASE_MAX_WORDS, words.length); size >= LEFTOVER_PHRASE_MIN_WORDS; size--) {
+    for (let i = 0; i <= words.length - size; i++) {
+      const phraseWords = words.slice(i, i + size);
+      if (!isLowercaseSourcePhrase(phraseWords)) continue;
+      if (isPreservedLowercaseLoanwordPhrase(phraseWords)) continue;
+
+      const phrase = phraseWords.map(({ word }) => word).join(' ');
+      const normalizedPhrase = normalizeForEnglishCheck(phrase);
+      if (normalizedPhrase.length < 8) continue;
+      if (includesPreservedEnglishGlossaryPhrase(normalizedPhrase, preservedPhrases)) continue;
+
+      const pattern = new RegExp(`(^|\\s)${normalizedPhrase.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?=\\s|$)`);
+      if (pattern.test(normalizedTranslated)) return phrase;
+    }
+  }
+
+  return null;
+}
+
+function validateNoLeftoverEnglish(sourceText, translatedText, glossaryLines = []) {
+  const leftover = findLeftoverEnglishPhrase(sourceText, translatedText, glossaryLines);
+  if (leftover) {
+    throw new Error(`Likely untranslated English phrase remains: "${leftover}"`);
+  }
+}
+
 function sanitizeTranslatedFragment(originalHtml, translatedHtml) {
   const cleaned = stripCodeFence(translatedHtml);
   const originalTagCount = countInlineTags(originalHtml);
@@ -224,6 +316,7 @@ async function translateHtmlFragment(fragmentHtml, glossaryLines, options, previ
         'HTML tags are replaced with placeholders like __HTML_TAG_0__. Preserve every placeholder exactly and in order.',
         'If the input has no HTML tags, return plain Vietnamese text only, with no <p>, <span>, or other tags.',
         'Only translate human-readable English text. Do not translate or alter placeholders.',
+        'Do not leave English source phrases untranslated unless they are proper nouns, names, acronyms, code, URLs, or citations.',
         'Use glossary translations exactly when a listed term appears.'
       ].join(' '),
     },
@@ -282,6 +375,7 @@ async function translatePlainText(text, glossaryLines, options) {
             'You are an academic textbook translator translating OpenStax content from English to Vietnamese.',
             'Return only Vietnamese text. No HTML. No markdown. No explanations.',
             'Use "Bạn" for you and "Chúng ta" for we.',
+            'Do not leave English source phrases untranslated unless they are proper nouns, names, acronyms, code, URLs, or citations.',
             'Use glossary translations exactly when a listed term appears.'
           ].join(' '),
         },
@@ -327,8 +421,23 @@ async function translateTextNodesFallback(el, glossaryLines, options) {
     const original = node.data;
     const leading = original.match(/^\s*/)[0];
     const trailing = original.match(/\s*$/)[0];
-    const translated = await translatePlainText(original.trim(), glossaryLines, options);
-    node.data = `${leading}${translated}${trailing}`;
+    const sourceText = original.trim();
+    let lastError = null;
+
+    for (let attempt = 1; attempt <= TRANSLATION_RETRIES + 1; attempt++) {
+      const translated = await translatePlainText(sourceText, glossaryLines, options);
+      try {
+        validateNoLeftoverEnglish(sourceText, translated, glossaryLines);
+        node.data = `${leading}${translated}${trailing}`;
+        lastError = null;
+        break;
+      } catch (error) {
+        lastError = error;
+        if (attempt > TRANSLATION_RETRIES) throw error;
+      }
+    }
+
+    if (lastError) throw lastError;
   }
 }
 
@@ -339,6 +448,7 @@ async function translateWithValidation(originalInnerHtml, glossaryLines, options
     const translated = await translateHtmlFragment(originalInnerHtml, glossaryLines, options, lastError?.message);
     try {
       validateTranslatedFragment(originalInnerHtml, translated);
+      validateNoLeftoverEnglish(textFromHtml(originalInnerHtml), textFromHtml(translated), glossaryLines);
       return translated;
     } catch (error) {
       lastError = error;

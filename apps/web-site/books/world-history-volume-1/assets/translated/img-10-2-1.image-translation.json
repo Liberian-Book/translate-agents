@@ -1,0 +1,514 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-10-2-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/10-2-the-byzantine-empire-and-persia.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "image-edit-leftover-source-english",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "“~ | oh C : {",
+      "confidence": 21,
+      "bbox": {
+        "x": 110,
+        "y": 88,
+        "w": 880,
+        "h": 59
+      }
+    },
+    {
+      "text": "| Gee Sr Ch",
+      "confidence": 21,
+      "bbox": {
+        "x": 110,
+        "y": 205,
+        "w": 880,
+        "h": 59
+      }
+    },
+    {
+      "text": "| > Se",
+      "confidence": 21,
+      "bbox": {
+        "x": 110,
+        "y": 322,
+        "w": 880,
+        "h": 59
+      }
+    },
+    {
+      "text": "j in JETT of = we TT EEE",
+      "confidence": 21,
+      "bbox": {
+        "x": 110,
+        "y": 439,
+        "w": 880,
+        "h": 59
+      }
+    },
+    {
+      "text": "; z 3 eS Th Pr 5 wee",
+      "confidence": 21,
+      "bbox": {
+        "x": 110,
+        "y": 556,
+        "w": 880,
+        "h": 59
+      }
+    },
+    {
+      "text": "5 EERE 1) Lr $ :",
+      "confidence": 21,
+      "bbox": {
+        "x": 110,
+        "y": 673,
+        "w": 880,
+        "h": 59
+      }
+    },
+    {
+      "text": "{ / EO mi | We AEN",
+      "confidence": 21,
+      "bbox": {
+        "x": 110,
+        "y": 790,
+        "w": 880,
+        "h": 59
+      }
+    },
+    {
+      "text": "7 eh ene BER ft",
+      "confidence": 21,
+      "bbox": {
+        "x": 110,
+        "y": 907,
+        "w": 880,
+        "h": 59
+      }
+    },
+    {
+      "text": "ge a I Gay EC Sa",
+      "confidence": 21,
+      "bbox": {
+        "x": 110,
+        "y": 1024,
+        "w": 880,
+        "h": 59
+      }
+    },
+    {
+      "text": "gy LE iq 7 a» HL Le Fea ‘y = 7 Per",
+      "confidence": 21,
+      "bbox": {
+        "x": 110,
+        "y": 1141,
+        "w": 880,
+        "h": 59
+      }
+    },
+    {
+      "text": "AEE ey VAAL ENR Rt es",
+      "confidence": 21,
+      "bbox": {
+        "x": 110,
+        "y": 1258,
+        "w": 880,
+        "h": 59
+      }
+    },
+    {
+      "text": "J iho od Al void RB GER Gi",
+      "confidence": 21,
+      "bbox": {
+        "x": 110,
+        "y": 1375,
+        "w": 880,
+        "h": 59
+      }
+    },
+    {
+      "text": "HERS ed ¢ fe oR ER Re",
+      "confidence": 21,
+      "bbox": {
+        "x": 110,
+        "y": 1492,
+        "w": 880,
+        "h": 59
+      }
+    },
+    {
+      "text": "of fo ia Rit Ba wR i Cy ala 1 EES 5",
+      "confidence": 21,
+      "bbox": {
+        "x": 110,
+        "y": 1609,
+        "w": 880,
+        "h": 59
+      }
+    },
+    {
+      "text": "I: ir i t WEE eo 8 BURLEY Ye 3",
+      "confidence": 21,
+      "bbox": {
+        "x": 110,
+        "y": 1726,
+        "w": 880,
+        "h": 59
+      }
+    },
+    {
+      "text": "| e2:chp)] id ; ER Lo SO el Te en RGA |",
+      "confidence": 21,
+      "bbox": {
+        "x": 110,
+        "y": 1843,
+        "w": 880,
+        "h": 59
+      }
+    },
+    {
+      "text": "Foe Ee ’ q Ras ca 5 Hot Bl ves |",
+      "confidence": 21,
+      "bbox": {
+        "x": 110,
+        "y": 1960,
+        "w": 880,
+        "h": 59
+      }
+    },
+    {
+      "text": "W JE CISTI Co ea",
+      "confidence": 21,
+      "bbox": {
+        "x": 110,
+        "y": 2077,
+        "w": 880,
+        "h": 59
+      }
+    },
+    {
+      "text": "J eRutsl - RERY Bi J TR Te By vit Ly",
+      "confidence": 21,
+      "bbox": {
+        "x": 110,
+        "y": 2194,
+        "w": 880,
+        "h": 59
+      }
+    },
+    {
+      "text": "¥ | pal yore |B TEER Je SS, ae VE HR",
+      "confidence": 21,
+      "bbox": {
+        "x": 110,
+        "y": 2311,
+        "w": 880,
+        "h": 59
+      }
+    },
+    {
+      "text": "ETE re mee rene a ORO TERE RE Ea LOO eri",
+      "confidence": 21,
+      "bbox": {
+        "x": 110,
+        "y": 2428,
+        "w": 880,
+        "h": 59
+      }
+    },
+    {
+      "text": "La a a oe 3 Xf XX Em hoor wm REM",
+      "confidence": 21,
+      "bbox": {
+        "x": 110,
+        "y": 2545,
+        "w": 880,
+        "h": 59
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A picture of a rectangle wall mosaic is shown. Ten people are shown standing in a line. They all wear some type of long, draped clothing. A white water fountain on a carved pedestal stands on the left side of the mosaic. The person farthest left is holding a red and white decorated drape open with his right hand and has short brown hair. He wears a green and brown long covering over a knee length, long sleeved, white shirt and has black tipped white shoes. The person next to him has a long white robe on with a brown square, short brown hair, black tipped white shoes, and accepts a dark, decorated chalice from the woman to his left. The woman wears a long, brown robe with jewels and tassels at the top and scenes stitched along the bottom. Her head is adorned with a jeweled crown and jeweled tassels hanging down on both sides. She wears dark shoes with circles on them. To her left is another woman in a dark, detailed robe and decorated, white shawl with a simple white headdress and red shoes. A woman is to her left in a dark, detailed long dress and large hairdo and earrings. Her left hand is shown wearing a large ring. Five men stand to her left in long detailed robes, red shoes, and short hair. Drapes are shown above their heads. The edges of the mosaic are laid with various shapes and decorations. A rounded window is seen at the left of the picture.\nButton label: Click to enlarge image of A picture of a rectangle wall mosaic is shown. Ten people are shown standing in a line. They all wear some type of long, draped clothing. A white water fountain on a carved pedestal stands on the left side of the mosaic. The person farthest left is holding a red and white decorated drape open with his right hand and has short brown hair. He wears a green and brown long covering over a knee length, long sleeved, white shirt and has black tipped white shoes. The person next to him has a long white robe on with a brown square, short brown hair, black tipped white shoes, and accepts a dark, decorated chalice from the woman to his left. The woman wears a long, brown robe with jewels and tassels at the top and scenes stitched along the bottom. Her head is adorned with a jeweled crown and jeweled tassels hanging down on both sides. She wears dark shoes with circles on them. To her left is another woman in a dark, detailed robe and decorated, white shawl with a simple white headdress and red shoes. A woman is to her left in a dark, detailed long dress and large hairdo and earrings. Her left hand is shown wearing a large ring. Five men stand to her left in long detailed robes, red shoes, and short hair. Drapes are shown above their heads. The edges of the mosaic are laid with various shapes and decorations. A rounded window is seen at the left of the picture.\nEnglish caption: Figure 10.11 Empress Theodora. This mid-sixth-century mosaic from the Basilica of San Vitale in Ravenna, Italy, depicts the empress Theodora, wife of the emperor Justinian, presenting a chalice as a symbol of her charity. Theodora’s image and the nearby panels depicting her husband emphasized their high status and Christian devotion. (credit: “Mosaic of Empress Theodora, Basilica of San Vitale, Ravenna” by Sharon Mollerus/Flickr, CC BY 2.0)",
+  "metrics": {
+    "textDensity": 1.416643929058663,
+    "averageConfidence": 21,
+    "entropy": 7.31507884839084,
+    "sharpness": 4.99628403148985
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A picture of a rectangle wall mosaic is shown. Ten people are shown standing in a line. They all wear some type of long, draped clothing. A white water fountain on a carved pedestal stands on the left side of the mosaic. The person farthest left is holding a red and white decorated drape open with his right hand and has short brown hair. He wears a green and brown long covering over a knee length, long sleeved, white shirt and has black tipped white shoes. The person next to him has a long white robe on with a brown square, short brown hair, black tipped white shoes, and accepts a dark, decorated chalice from the woman to his left. The woman wears a long, brown robe with jewels and tassels at the top and scenes stitched along the bottom. Her head is adorned with a jeweled crown and jeweled tassels hanging down on both sides. She wears dark shoes with circles on them. To her left is another woman in a dark, detailed robe and decorated, white shawl with a simple white headdress and red shoes. A woman is to her left in a dark, detailed long dress and large hairdo and earrings. Her left hand is shown wearing a large ring. Five men stand to her left in long detailed robes, red shoes, and short hair. Drapes are shown above their heads. The edges of the mosaic are laid with various shapes and decorations. A rounded window is seen at the left of the picture.\nButton label: Click to enlarge image of A picture of a rectangle wall mosaic is shown. Ten people are shown standing in a line. They all wear some type of long, draped clothing. A white water fountain on a carved pedestal stands on the left side of the mosaic. The person farthest left is holding a red and white decorated drape open with his right hand and has short brown hair. He wears a green and brown long covering over a knee length, long sleeved, white shirt and has black tipped white shoes. The person next to him has a long white robe on with a brown square, short brown hair, black tipped white shoes, and accepts a dark, decorated chalice from the woman to his left. The woman wears a long, brown robe with jewels and tassels at the top and scenes stitched along the bottom. Her head is adorned with a jeweled crown and jeweled tassels hanging down on both sides. She wears dark shoes with circles on them. To her left is another woman in a dark, detailed robe and decorated, white shawl with a simple white headdress and red shoes. A woman is to her left in a dark, detailed long dress and large hairdo and earrings. Her left hand is shown wearing a large ring. Five men stand to her left in long detailed robes, red shoes, and short hair. Drapes are shown above their heads. The edges of the mosaic are laid with various shapes and decorations. A rounded window is seen at the left of the picture.\nEnglish caption: Figure 10.11 Empress Theodora. This mid-sixth-century mosaic from the Basilica of San Vitale in Ravenna, Italy, depicts the empress Theodora, wife of the emperor Justinian, presenting a chalice as a symbol of her charity. Theodora’s image and the nearby panels depicting her husband emphasized their high status and Christian devotion. (credit: “Mosaic of Empress Theodora, Basilica of San Vitale, Ravenna” by Sharon Mollerus/Flickr, CC BY 2.0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: mosaic, long, theodora, vitale, ravenna, justinian, sharon, mollerus, flickr. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "{ / BU Ko '",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 123,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "Vi) TOR NI SS £55 i",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 287,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "/ - LULL LOE wy TVs |",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 451,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "oy | Sh LIX COIN {450 Thou akon Rl 1A KE OMA : | \\ 5 ~ sl |",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 615,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "p | / TAT X Toews He",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 779,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "/ ss 7 Jars Op) SDT ;",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 943,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "/ INE oy oa ga iB",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 1107,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "| ads Sd es yy WS ERE or",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 1271,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "[ AL “of > [5 A= = p= 5% gS J R",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 1435,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "/ 0 ql 25 £128 A ls PRE {",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 1599,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "bel 2 & PE tT >) CLA) : 1",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 1763,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "/ wn g (LPNS Vil 3",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 1927,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "8 Es | eas ie Fo Z AN + (pal i - yf",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 2091,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "i A 3 LYS IAS NV N74 i",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 2255,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "SEES 7, i Fal ke 23 . iil fi \"e",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 2419,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "ASLO EE au Feit ya",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 2583,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": ". yp 4 ¢ Ese i Big ; as 1",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 2747,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "{ A 7 Fl A Hh Lo mai Hi ’ jee",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 2911,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "j/ Ie (11 ETERS Ee TORE",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 3075,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "Soe i oo : J SEES ae LY SON OY SE os | 2°",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 3239,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "0 ay AEE ® - NLT CRE HR ts od i os os EPEC",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 3403,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "Hinh 10.11 Hoang hau Theodora. Bic tranh kham tir gilta thé ky tht séu nay trong Nha thd Thanh Vitale & Ravenna, Y, miéu ta hoang",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 3567,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "hau Theodora, vg cla hoang dé Justinian, dang dang mot chiéc chén thanh nhu biéu tugng cho long nhén tir cia ba. Hinh anh ctia Theodora",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 3731,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "va cac bic phu diéu gan dé miéu ta chdng cba ba, nhdn manh dia vi cao quy va long sting dao Kitd gido cla ho.",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 3895,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "(ngudn: “Kham hoang hau Theodora, Nha thd Thanh Vitale, Ravenna” bi Sharon Mollerus/Flickr, CC BY 2.0)",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 4059,
+          "w": 1230,
+          "h": 82
+        }
+      }
+    ],
+    "validation": {
+      "ok": false,
+      "reason": "image-edit-leftover-source-english",
+      "leftoverSourceWords": [
+        "long",
+        "theodora",
+        "vitale",
+        "ravenna",
+        "justinian",
+        "sharon",
+        "mollerus",
+        "flickr"
+      ]
+    },
+    "validationAttempt": 3
+  }
+}

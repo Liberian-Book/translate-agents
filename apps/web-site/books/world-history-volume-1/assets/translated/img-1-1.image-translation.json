@@ -1,0 +1,578 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-1-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/1-introduction.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-1-1.vi.png",
+  "ocr": [
+    {
+      "text": "NOUA ORBIS TERRARUM A ) , DELINEATIO SINGULARIg En RATIONE ACCOMMODATA",
+      "confidence": 27,
+      "bbox": {
+        "x": 175,
+        "y": 96,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "_ MERIDIANO'I i. dig — ee RUDOLPH __ wn 3 ASTRONOMICARUM ee",
+      "confidence": 27,
+      "bbox": {
+        "x": 175,
+        "y": 224,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "a : S pe =m Ee",
+      "confidence": 27,
+      "bbox": {
+        "x": 175,
+        "y": 352,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "7 A p> 7H o Ser sme BESS = 27 1",
+      "confidence": 27,
+      "bbox": {
+        "x": 175,
+        "y": 480,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "4 Post TNE Nini NR TS TR ETE a i W 1",
+      "confidence": 27,
+      "bbox": {
+        "x": 175,
+        "y": 608,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "FF [REE aN, TEI ENN, SW wo WERT fe |",
+      "confidence": 27,
+      "bbox": {
+        "x": 175,
+        "y": 736,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "Jf ERR A a if Paral wr: Te Fic NT 3 Ptunil",
+      "confidence": 27,
+      "bbox": {
+        "x": 175,
+        "y": 864,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "tk hi % 2 SL Gas EN SEE G7 Nts} 3",
+      "confidence": 27,
+      "bbox": {
+        "x": 175,
+        "y": 992,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "| EROS VER W A a aL Seales in",
+      "confidence": 27,
+      "bbox": {
+        "x": 175,
+        "y": 1120,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "EEE ec i WG |] JERE NG PEER [iE : -",
+      "confidence": 27,
+      "bbox": {
+        "x": 175,
+        "y": 1248,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "Bi SE es en",
+      "confidence": 27,
+      "bbox": {
+        "x": 175,
+        "y": 1376,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "HE Pridden ery be Ce Ee gms dit a Ht i Pr | SIT Ee en 4 in",
+      "confidence": 27,
+      "bbox": {
+        "x": 175,
+        "y": 1504,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "ESE Wooo Toul oo penal JE CR SREE EG",
+      "confidence": 27,
+      "bbox": {
+        "x": 175,
+        "y": 1632,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "BY =a OR SS IRE, [Ts pre",
+      "confidence": 27,
+      "bbox": {
+        "x": 175,
+        "y": 1760,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "£10 fh So Zh 2 Wie 7 {0 AN =i i",
+      "confidence": 27,
+      "bbox": {
+        "x": 175,
+        "y": 1888,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "4 i - bs /h ls Re ( pa \\ SH 3 \\",
+      "confidence": 27,
+      "bbox": {
+        "x": 175,
+        "y": 2016,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "4 7 Ea 8) b of LH Sa Ni Rass hi",
+      "confidence": 27,
+      "bbox": {
+        "x": 175,
+        "y": 2144,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "4 aes\" rt / he a J a3 Ta 2)",
+      "confidence": 27,
+      "bbox": {
+        "x": 175,
+        "y": 2272,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "oe) 72 A BASS Y= INS CNW 3",
+      "confidence": 27,
+      "bbox": {
+        "x": 175,
+        "y": 2400,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "AER Cor EF TENE NINN RL",
+      "confidence": 27,
+      "bbox": {
+        "x": 175,
+        "y": 2528,
+        "w": 1400,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This image shows a map of the world. The map is made up of a circle in the middle and two semicircles on either side. The margins around the map are decorated with the Germanic, double-headed imperial eagle. The Latin words “Noua orbis terrarum delineatio singulari ratione accommodata meridiano tabb. Rudolphi astronomicarum” appear above the image.\nButton label: Click to enlarge image of This image shows a map of the world. The map is made up of a circle in the middle and two semicircles on either side. The margins around the map are decorated with the Germanic, double-headed imperial eagle. The Latin words “Noua orbis terrarum delineatio singulari ratione accommodata meridiano tabb. Rudolphi astronomicarum” appear above the image.\nEnglish caption: Figure 1.1 The Whole World. This seventeenth-century projection map of the world, prepared by cartographer Philip Eckebrecht for the noted German astronomer Johannes Kepler, gives a sense of the breadth of territory this text will cover. As we see later in this chapter, maps often reflect the maker’s perception of geographical realities. (credit: modification of work “A Modern Depiction of the World” by Library of Congress/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 1.28,
+    "averageConfidence": 27,
+    "entropy": 6.555200062812219,
+    "sharpness": 5.230887391124313
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: This image shows a map of the world. The map is made up of a circle in the middle and two semicircles on either side. The margins around the map are decorated with the Germanic, double-headed imperial eagle. The Latin words “Noua orbis terrarum delineatio singulari ratione accommodata meridiano tabb. Rudolphi astronomicarum” appear above the image.\nButton label: Click to enlarge image of This image shows a map of the world. The map is made up of a circle in the middle and two semicircles on either side. The margins around the map are decorated with the Germanic, double-headed imperial eagle. The Latin words “Noua orbis terrarum delineatio singulari ratione accommodata meridiano tabb. Rudolphi astronomicarum” appear above the image.\nEnglish caption: Figure 1.1 The Whole World. This seventeenth-century projection map of the world, prepared by cartographer Philip Eckebrecht for the noted German astronomer Johannes Kepler, gives a sense of the breadth of territory this text will cover. As we see later in this chapter, maps often reflect the maker’s perception of geographical realities. (credit: modification of work “A Modern Depiction of the World” by Library of Congress/Wikimedia Commons, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "BAN PO MOI CU",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 102,
+          "w": 1481,
+          "h": 68
+        }
+      },
+      {
+        "text": "A puge piu ching JSoAR",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 238,
+          "w": 1481,
+          "h": 68
+        }
+      },
+      {
+        "text": "Mitre (C DIEU CHINH 4 Cake p 1)",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 374,
+          "w": 1481,
+          "h": 68
+        }
+      },
+      {
+        "text": "i; Tees UgC VE ps PHUONG PHAP BOC DAO CUA, $6",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 510,
+          "w": 1481,
+          "h": 68
+        }
+      },
+      {
+        "text": "7 wae Ee ZZ SRS a — amu od",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 646,
+          "w": 1481,
+          "h": 68
+        }
+      },
+      {
+        "text": "J ry S INR SE = a » CUA THIEN VAN HOC",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 782,
+          "w": 1481,
+          "h": 68
+        }
+      },
+      {
+        "text": "74 {rome CNR ATT | gt Ba = ad =",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 918,
+          "w": 1481,
+          "h": 68
+        }
+      },
+      {
+        "text": "0 REE 4 ™N i tic ox ~~ Sa ca <2 IR 7x",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 1054,
+          "w": 1481,
+          "h": 68
+        }
+      },
+      {
+        "text": "OEE EAN, Kade Sab ATH er",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 1190,
+          "w": 1481,
+          "h": 68
+        }
+      },
+      {
+        "text": "EE Wier Ne Sd Lr 250 GEN | i",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 1326,
+          "w": 1481,
+          "h": 68
+        }
+      },
+      {
+        "text": "| BST PN TE gS a EET 26 we 1",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 1462,
+          "w": 1481,
+          "h": 68
+        }
+      },
+      {
+        "text": "dl ae) fl CHAU MY. \\ A fa a) A Eh = ¥ RA ZX J 7 5 PATI",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 1598,
+          "w": 1481,
+          "h": 68
+        }
+      },
+      {
+        "text": "ay Dk Bc SEE) / Jf [hv ool » B57 {= a",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 1734,
+          "w": 1481,
+          "h": 68
+        }
+      },
+      {
+        "text": "| EE NE Lah E55 puta buoy CHAU QU ge = Serr) fr Ee had i",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 1870,
+          "w": 1481,
+          "h": 68
+        }
+      },
+      {
+        "text": "GIR i ad oad Loong \\ fT en",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 2006,
+          "w": 1481,
+          "h": 68
+        }
+      },
+      {
+        "text": "| 3 REN] RUD Lasik i of dpa HES A fT ire igi, DuoNG | A",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 2142,
+          "w": 1481,
+          "h": 68
+        }
+      },
+      {
+        "text": "i orm i= X Sn Gea) f : 2 fea (4",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 2278,
+          "w": 1481,
+          "h": 68
+        }
+      },
+      {
+        "text": "| faa Lo = : i = $ 3 CHAU PHIL So ¥ i i & 72 a | : |",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 2414,
+          "w": 1481,
+          "h": 68
+        }
+      },
+      {
+        "text": "iy | ron Eek. Ne 8 ATS vo Th Bn",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 2550,
+          "w": 1481,
+          "h": 68
+        }
+      },
+      {
+        "text": "Cl el 1 fe] 4 CHAU MY Tn SR a, tee BS) Sn En a CH :",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 2686,
+          "w": 1481,
+          "h": 68
+        }
+      },
+      {
+        "text": "ae y ' 7 RB \\T NAM { MERE: 25 {7 par puonG i Abe pat ttag 7",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 2822,
+          "w": 1481,
+          "h": 68
+        }
+      },
+      {
+        "text": "BD AL JE PRE 1",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 2958,
+          "w": 1481,
+          "h": 68
+        }
+      },
+      {
+        "text": "i | Es i / Seay & 1 Ler v iL SAA mix k es | 7",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 3094,
+          "w": 1481,
+          "h": 68
+        }
+      },
+      {
+        "text": "/ | i= 7 & NS reed @ wl LAN £ preiry 1 A",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 3230,
+          "w": 1481,
+          "h": 68
+        }
+      },
+      {
+        "text": "1% Fi tomes kere ; \\ od + : | fo bo = | |",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 3366,
+          "w": 1481,
+          "h": 68
+        }
+      },
+      {
+        "text": "1 ER A 4) 7 \\ {TERRA rN & yy |X aoc oles GALES i",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 3502,
+          "w": 1481,
+          "h": 68
+        }
+      },
+      {
+        "text": "1/6 — Go A By AUSTRALIS a ARTY CA sar eral 1",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 3638,
+          "w": 1481,
+          "h": 68
+        }
+      },
+      {
+        "text": "a —=2 Si / > 7 i p70 Nee | IN",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 3774,
+          "w": 1481,
+          "h": 68
+        }
+      },
+      {
+        "text": "78 J 1 Ss RWY/ a NS 7, / \\ Ip NN oe oa i | )",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 3910,
+          "w": 1481,
+          "h": 68
+        }
+      },
+      {
+        "text": "l/ a 7) ALD 7 a & SKS VONG © = 3 \\7 Wi \\ \\ Za § MN",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 4046,
+          "w": 1481,
+          "h": 68
+        }
+      },
+      {
+        "text": "AA 7) 4 € ; ASS i. NAM CYC\" 3 “» NE SN Co p— AA",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 4182,
+          "w": 1481,
+          "h": 68
+        }
+      },
+      {
+        "text": "; J / wy, 9 Aw. | £5) = < N 0 ad Ch h t— and \\ A",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 4318,
+          "w": 1481,
+          "h": 68
+        }
+      },
+      {
+        "text": "£55 \\ oD) c > VARY \\ ~~ B “",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 4454,
+          "w": 1481,
+          "h": 68
+        }
+      },
+      {
+        "text": "& TL) or Rl oN",
+        "confidence": 32,
+        "bbox": {
+          "x": 185,
+          "y": 4590,
+          "w": 1481,
+          "h": 68
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

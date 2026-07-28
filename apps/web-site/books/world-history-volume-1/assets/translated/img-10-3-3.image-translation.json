@@ -1,0 +1,354 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-10-3-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/10-3-the-kingdoms-of-aksum-and-himyar.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-10-3-3.vi.png",
+  "ocr": [
+    {
+      "text": "Fy NS a. | Es « vo SA ALA REY ESS Tr",
+      "confidence": 24,
+      "bbox": {
+        "x": 110,
+        "y": 82,
+        "w": 880,
+        "h": 55
+      }
+    },
+    {
+      "text": ": J SAE ANC | TR | EH « wR Zp CoS ol Sao iae Sinise rn",
+      "confidence": 24,
+      "bbox": {
+        "x": 110,
+        "y": 192,
+        "w": 880,
+        "h": 55
+      }
+    },
+    {
+      "text": "i RANE | CSR wes gin EE a 3S",
+      "confidence": 24,
+      "bbox": {
+        "x": 110,
+        "y": 302,
+        "w": 880,
+        "h": 55
+      }
+    },
+    {
+      "text": "Bo asc Si alii Re ei NB Sl",
+      "confidence": 24,
+      "bbox": {
+        "x": 110,
+        "y": 412,
+        "w": 880,
+        "h": 55
+      }
+    },
+    {
+      "text": "AE a A EN ie St my ET = NT i ah",
+      "confidence": 24,
+      "bbox": {
+        "x": 110,
+        "y": 522,
+        "w": 880,
+        "h": 55
+      }
+    },
+    {
+      "text": "S07 [EP | TORS STO He 4 Tr Va fe Shel [PR See",
+      "confidence": 24,
+      "bbox": {
+        "x": 110,
+        "y": 632,
+        "w": 880,
+        "h": 55
+      }
+    },
+    {
+      "text": "cian) | HES Caan ls Sl LAE XE Aes an /;",
+      "confidence": 24,
+      "bbox": {
+        "x": 110,
+        "y": 742,
+        "w": 880,
+        "h": 55
+      }
+    },
+    {
+      "text": "PHN ee SOO gE SBS NT Be NG BREE aN",
+      "confidence": 24,
+      "bbox": {
+        "x": 110,
+        "y": 852,
+        "w": 880,
+        "h": 55
+      }
+    },
+    {
+      "text": "$7 Fo NH en Co dE $0 Ae TESA ne OE Bf RETR RY",
+      "confidence": 24,
+      "bbox": {
+        "x": 110,
+        "y": 962,
+        "w": 880,
+        "h": 55
+      }
+    },
+    {
+      "text": "NYE SN AS =a ee Sin",
+      "confidence": 24,
+      "bbox": {
+        "x": 110,
+        "y": 1072,
+        "w": 880,
+        "h": 55
+      }
+    },
+    {
+      "text": "Ce RAL er aE § RN Dr Ra EN",
+      "confidence": 24,
+      "bbox": {
+        "x": 110,
+        "y": 1182,
+        "w": 880,
+        "h": 55
+      }
+    },
+    {
+      "text": "ir 1 Thad BN ay FANN Te ERG ST PN",
+      "confidence": 24,
+      "bbox": {
+        "x": 110,
+        "y": 1292,
+        "w": 880,
+        "h": 55
+      }
+    },
+    {
+      "text": "es 8 nr SN. RS 71 IN All PN NE ENSEAN Jp 4 |",
+      "confidence": 24,
+      "bbox": {
+        "x": 110,
+        "y": 1402,
+        "w": 880,
+        "h": 55
+      }
+    },
+    {
+      "text": "oer \\/ 4 we \\ Car mm iE A SE Zt A",
+      "confidence": 24,
+      "bbox": {
+        "x": 110,
+        "y": 1512,
+        "w": 880,
+        "h": 55
+      }
+    },
+    {
+      "text": "ANT aN SG TRIG TT Cet",
+      "confidence": 24,
+      "bbox": {
+        "x": 110,
+        "y": 1622,
+        "w": 880,
+        "h": 55
+      }
+    },
+    {
+      "text": "ESCO AYE) = gy ollliRa BE dah RA 9 Eh",
+      "confidence": 24,
+      "bbox": {
+        "x": 110,
+        "y": 1732,
+        "w": 880,
+        "h": 55
+      }
+    },
+    {
+      "text": "FE UNGTR ( NRERG Vos A] ).",
+      "confidence": 24,
+      "bbox": {
+        "x": 110,
+        "y": 1842,
+        "w": 880,
+        "h": 55
+      }
+    },
+    {
+      "text": "3 NS ee Bye?) B11 Ld So Ek fateerch < =",
+      "confidence": 24,
+      "bbox": {
+        "x": 110,
+        "y": 1952,
+        "w": 880,
+        "h": 55
+      }
+    },
+    {
+      "text": "LET oy BTC Berd Ny EAH GF TO NER SERS a 115",
+      "confidence": 24,
+      "bbox": {
+        "x": 110,
+        "y": 2062,
+        "w": 880,
+        "h": 55
+      }
+    },
+    {
+      "text": "AH] TN Nl i > faith wos EMRE ho lL",
+      "confidence": 24,
+      "bbox": {
+        "x": 110,
+        "y": 2172,
+        "w": 880,
+        "h": 55
+      }
+    },
+    {
+      "text": "i BIEL IA 2) ie £0 TU ay ati JET AY |",
+      "confidence": 24,
+      "bbox": {
+        "x": 110,
+        "y": 2282,
+        "w": 880,
+        "h": 55
+      }
+    },
+    {
+      "text": "LITE TE Sf 7 IA. oy ee A CE INST SG RE UE BR",
+      "confidence": 24,
+      "bbox": {
+        "x": 110,
+        "y": 2392,
+        "w": 880,
+        "h": 55
+      }
+    },
+    {
+      "text": "BC Ll Ne. B Re area AT HE PEER",
+      "confidence": 24,
+      "bbox": {
+        "x": 110,
+        "y": 2502,
+        "w": 880,
+        "h": 55
+      }
+    },
+    {
+      "text": "PR SL WAL CAN [ST VIR Ry ar SS Ne enna i A Bp 0 JER EAR",
+      "confidence": 24,
+      "bbox": {
+        "x": 110,
+        "y": 2612,
+        "w": 880,
+        "h": 55
+      }
+    },
+    {
+      "text": "AEE, Yl Poa ER Na cre Sil SE ARE",
+      "confidence": 24,
+      "bbox": {
+        "x": 110,
+        "y": 2722,
+        "w": 880,
+        "h": 55
+      }
+    },
+    {
+      "text": "dn Al Dh HL a OR Ke Ee gaa",
+      "confidence": 24,
+      "bbox": {
+        "x": 110,
+        "y": 2832,
+        "w": 880,
+        "h": 55
+      }
+    },
+    {
+      "text": "pa tio ig Fie ls Bota eT Bey ;",
+      "confidence": 24,
+      "bbox": {
+        "x": 110,
+        "y": 2942,
+        "w": 880,
+        "h": 55
+      }
+    },
+    {
+      "text": "Maas ORY [0 RR EE",
+      "confidence": 24,
+      "bbox": {
+        "x": 110,
+        "y": 3052,
+        "w": 880,
+        "h": 55
+      }
+    },
+    {
+      "text": "Ans gy AE ER Rl J rai Foti A ER",
+      "confidence": 24,
+      "bbox": {
+        "x": 110,
+        "y": 3162,
+        "w": 880,
+        "h": 55
+      }
+    },
+    {
+      "text": "A FEA Suda Se Ag nn iH (a3 Alt od ih Se",
+      "confidence": 24,
+      "bbox": {
+        "x": 110,
+        "y": 3272,
+        "w": 880,
+        "h": 55
+      }
+    },
+    {
+      "text": "ASE ATIVAN AA el NT ROR A",
+      "confidence": 24,
+      "bbox": {
+        "x": 110,
+        "y": 3382,
+        "w": 880,
+        "h": 55
+      }
+    },
+    {
+      "text": "FR AVA ARs AUN (AVA 80 We A DSR ANITA 120 NI E77 a7 25 EERE",
+      "confidence": 24,
+      "bbox": {
+        "x": 110,
+        "y": 3492,
+        "w": 880,
+        "h": 55
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A painting is shown of women standing along a river with dark, curly plants growing along both sides of the river. Two women in the left part of the painting are dressed in long brown and white robed clothing and cloth dressings on their heads, both tugging at a naked infant with black hair. The next three women are seen in sleeveless long dresses and short head covering holding various shaped and colored jugs and jars. The last woman is wearing long robed white clothing over a long-sleeved brown shirt, wearing a long white head covering, and holding her right hand out to another woman who is shown only halfway in the painting, wearing a long pink dress and long pink head covering. In the white-gray water there is a naked lady with long black hair and a necklace holding a naked infant with black hair. In the water a brown rectangular object with a triangle top on the right side floats next to the woman. Above the women’s heads there are beige and blue drapes and the background is a hazy purple color.\nButton label: Click to enlarge image of A painting is shown of women standing along a river with dark, curly plants growing along both sides of the river. Two women in the left part of the painting are dressed in long brown and white robed clothing and cloth dressings on their heads, both tugging at a naked infant with black hair. The next three women are seen in sleeveless long dresses and short head covering holding various shaped and colored jugs and jars. The last woman is wearing long robed white clothing over a long-sleeved brown shirt, wearing a long white head covering, and holding her right hand out to another woman who is shown only halfway in the painting, wearing a long pink dress and long pink head covering. In the white-gray water there is a naked lady with long black hair and a necklace holding a naked infant with black hair. In the water a brown rectangular object with a triangle top on the right side floats next to the woman. Above the women’s heads there are beige and blue drapes and the background is a hazy purple color.\nEnglish caption: Figure 10.17 The Finding of Moses. This wall painting from a third-century synagogue in the city of Dura-Europos, in modern-day Syria, is one of many with biblical themes. It depicts the discovery by the pharaoh’s daughter of the infant Moses in the Nile River. (credit: “Dura Europos fresco Moses from river” by Unknown/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 2.0554744525547446,
+    "averageConfidence": 24,
+    "entropy": 7.810717101965565,
+    "sharpness": 5.207309630210499
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "image-edit-api-failed-status-400: {\n  \"error\": {\n    \"message\": \"Your request was rejected by the safety system. If you believe this is an error, contact us at ",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

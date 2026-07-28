@@ -1,0 +1,557 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-11-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/11-introduction.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "image-edit-leftover-source-english",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "aa 0. [] Ea rr",
+      "confidence": 56,
+      "bbox": {
+        "x": 130,
+        "y": 90,
+        "w": 1041,
+        "h": 60
+      }
+    },
+    {
+      "text": "a WEINER",
+      "confidence": 56,
+      "bbox": {
+        "x": 130,
+        "y": 209,
+        "w": 1041,
+        "h": 60
+      }
+    },
+    {
+      "text": "Byzantine ENS Go|",
+      "confidence": 56,
+      "bbox": {
+        "x": 130,
+        "y": 328,
+        "w": 1041,
+        "h": 60
+      }
+    },
+    {
+      "text": "Empire Pact he ANY",
+      "confidence": 56,
+      "bbox": {
+        "x": 130,
+        "y": 447,
+        "w": 1041,
+        "h": 60
+      }
+    },
+    {
+      "text": "defeats of Dome of 0) ANY",
+      "confidence": 56,
+      "bbox": {
+        "x": 130,
+        "y": 566,
+        "w": 1041,
+        "h": 60
+      }
+    },
+    {
+      "text": "Persian Deathof ~~ Umar the Rock Baghdad | se = |",
+      "confidence": 56,
+      "bbox": {
+        "x": 130,
+        "y": 685,
+        "w": 1041,
+        "h": 60
+      }
+    },
+    {
+      "text": "Empire Muhammad written completed founded (== {l ya",
+      "confidence": 56,
+      "bbox": {
+        "x": 130,
+        "y": 804,
+        "w": 1041,
+        "h": 60
+      }
+    },
+    {
+      "text": "— Tyra",
+      "confidence": 56,
+      "bbox": {
+        "x": 130,
+        "y": 923,
+        "w": 1041,
+        "h": 60
+      }
+    },
+    {
+      "text": "Muhammad Islamic | I | IEE Umayyad | \\ ll Arabic",
+      "confidence": 56,
+      "bbox": {
+        "x": 130,
+        "y": 1042,
+        "w": 1041,
+        "h": 60
+      }
+    },
+    {
+      "text": "founds forces El i=l = e #7 Caliphate | SN 1 translation of",
+      "confidence": 56,
+      "bbox": {
+        "x": 130,
+        "y": 1161,
+        "w": 1041,
+        "h": 60
+      }
+    },
+    {
+      "text": "Islam capture 8. 3 = becomes ’ Fy | De Materia",
+      "confidence": 56,
+      "bbox": {
+        "x": 130,
+        "y": 1280,
+        "w": 1041,
+        "h": 60
+      }
+    },
+    {
+      "text": "Mecca 63 Se Fis world’s [ENE = Medica",
+      "confidence": 56,
+      "bbox": {
+        "x": 130,
+        "y": 1399,
+        "w": 1041,
+        "h": 60
+      }
+    },
+    {
+      "text": "Yop EE ET largest ZY | completed",
+      "confidence": 56,
+      "bbox": {
+        "x": 130,
+        "y": 1518,
+        "w": 1041,
+        "h": 60
+      }
+    },
+    {
+      "text": "= [ores (DxgEusnis empire GE:",
+      "confidence": 56,
+      "bbox": {
+        "x": 130,
+        "y": 1637,
+        "w": 1041,
+        "h": 60
+      }
+    },
+    {
+      "text": "a 1 i ¥ a No aE |",
+      "confidence": 56,
+      "bbox": {
+        "x": 130,
+        "y": 1756,
+        "w": 1041,
+        "h": 60
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "aa 0. [] Ea rr",
+      "normalizedSource": "aa 0. [] Ea rr",
+      "target": "N/A",
+      "bbox": {
+        "x": 130,
+        "y": 90,
+        "w": 1041,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "a WEINER",
+      "normalizedSource": "a WEINER",
+      "target": "a WEINER",
+      "bbox": {
+        "x": 130,
+        "y": 209,
+        "w": 1041,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "Byzantine ENS Go|",
+      "normalizedSource": "Byzantine ENS Go|",
+      "target": "Đế chế Byzantine",
+      "bbox": {
+        "x": 130,
+        "y": 328,
+        "w": 1041,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "Empire Pact he ANY",
+      "normalizedSource": "Empire Pact he ANY",
+      "target": "Pact he ANY",
+      "bbox": {
+        "x": 130,
+        "y": 447,
+        "w": 1041,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "defeats of Dome of 0) ANY",
+      "normalizedSource": "defeats of Dome of 0) ANY",
+      "target": "thất bại của Dome of 0) ANY",
+      "bbox": {
+        "x": 130,
+        "y": 566,
+        "w": 1041,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "Persian Deathof ~~ Umar the Rock Baghdad | se = |",
+      "normalizedSource": "Persian Deathof ~~ Umar the Rock Baghdad | se = |",
+      "target": "Cái chết của Umar đá Baghdad",
+      "bbox": {
+        "x": 130,
+        "y": 685,
+        "w": 1041,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "Empire Muhammad written completed founded (== {l ya",
+      "normalizedSource": "Empire Muhammad written completed founded (== {l ya",
+      "target": "Đế chế Muhammad được viết hoàn thành thành lập",
+      "bbox": {
+        "x": 130,
+        "y": 804,
+        "w": 1041,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "— Tyra",
+      "normalizedSource": "— Tyra",
+      "target": "— Tyra",
+      "bbox": {
+        "x": 130,
+        "y": 923,
+        "w": 1041,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "Muhammad Islamic | I | IEE Umayyad | \\ ll Arabic",
+      "normalizedSource": "Muhammad Islamic | I | IEE Umayyad | \\ ll Arabic",
+      "target": "Muhammad Hồi giáo",
+      "bbox": {
+        "x": 130,
+        "y": 1042,
+        "w": 1041,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "founds forces El i=l = e #7 Caliphate | SN 1 translation of",
+      "normalizedSource": "founds forces El i=l = e #7 Caliphate | SN 1 translation of",
+      "target": "thành lập lực lượng Caliphate",
+      "bbox": {
+        "x": 130,
+        "y": 1161,
+        "w": 1041,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "Islam capture 8. 3 = becomes ’ Fy | De Materia",
+      "normalizedSource": "Islam capture 8. 3 = becomes ’ Fy | De Materia",
+      "target": "Hồi giáo chiếm 8. 3 = trở thành",
+      "bbox": {
+        "x": 130,
+        "y": 1280,
+        "w": 1041,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "Mecca 63 Se Fis world’s [ENE = Medica",
+      "normalizedSource": "Mecca 63 Se Fis world’s [ENE = Medica",
+      "target": "Mecca",
+      "bbox": {
+        "x": 130,
+        "y": 1399,
+        "w": 1041,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "Yop EE ET largest ZY | completed",
+      "normalizedSource": "Yop EE ET largest ZY | completed",
+      "target": "lớn nhất",
+      "bbox": {
+        "x": 130,
+        "y": 1518,
+        "w": 1041,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "= [ores (DxgEusnis empire GE:",
+      "normalizedSource": "= [ores (DxgEusnis empire GE:",
+      "target": "N/A",
+      "bbox": {
+        "x": 130,
+        "y": 1637,
+        "w": 1041,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "a 1 i ¥ a No aE |",
+      "normalizedSource": "a 1 i ¥ a No aE |",
+      "target": "N/A",
+      "bbox": {
+        "x": 130,
+        "y": 1756,
+        "w": 1041,
+        "h": 60
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: A timeline shows events from this chapter. 610: Muhammad founds Islam; a picture of an open book on a stand is shown. 628: Byzantine Empire defeats Persian Empire. 630: Islamic forces capture Mecca; a picture of an army on horseback and soldiers marching is shown destroying idols. 632: Death of Muhammad. 644: Pact of Umar written. 691: Dome of the Rock completed; a picture of a building with a gold dome is shown. 750: Umayyad Caliphate becomes world’s largest empire. 762: Baghdad founded; a map is shown of ancient Baghdad. 1083: Arabic translation of De Materia Medica completed; a worn page of a book is shown with writing and green leaves.\nButton label: Click to enlarge image of A timeline shows events from this chapter. 610: Muhammad founds Islam; a picture of an open book on a stand is shown. 628: Byzantine Empire defeats Persian Empire. 630: Islamic forces capture Mecca; a picture of an army on horseback and soldiers marching is shown destroying idols. 632: Death of Muhammad. 644: Pact of Umar written. 691: Dome of the Rock completed; a picture of a building with a gold dome is shown. 750: Umayyad Caliphate becomes world’s largest empire. 762: Baghdad founded; a map is shown of ancient Baghdad. 1083: Arabic translation of De Materia Medica completed; a worn page of a book is shown with writing and green leaves.\nEnglish caption: Figure 11.2 Timeline: The Rise of Islam and the Caliphates. (credit “610”: modification of work “Qur'an and Rehal” by “sayyed shahab-o- din vajedi”/Wikimedia Commons, CC BY 4.0; credit “630”: modification of work “Muhammad destroying idols” by Histoire Geographie 5ieme Nathan/Wikimedia Commons, Public Domain; credit “691”: modification of work “Exterior of Dome of the Rock or Masjid Al Sakhrah, in Jerusalem” by Thekra A. Sabri/Wikimedia Commons, CC BY 2.0; credit “762”: modification of work “Baghdad 150 to 300 AH” by www.muhammadanism.org/Wikimedia Commons, Public Domain; credit “1083”: modification of work “Kitāb al-Ḥašāʾiš fī hāyūlā al-ʿilāg al-ṭibbī Or. 289” by Universitaire Bibliotheken Leiden/Leiden University Libraries, CC BY)",
+  "metrics": {
+    "textDensity": 0.9653329156989983,
+    "averageConfidence": 56,
+    "entropy": 3.193767061442486,
+    "sharpness": 5.084802049298481
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A timeline shows events from this chapter. 610: Muhammad founds Islam; a picture of an open book on a stand is shown. 628: Byzantine Empire defeats Persian Empire. 630: Islamic forces capture Mecca; a picture of an army on horseback and soldiers marching is shown destroying idols. 632: Death of Muhammad. 644: Pact of Umar written. 691: Dome of the Rock completed; a picture of a building with a gold dome is shown. 750: Umayyad Caliphate becomes world’s largest empire. 762: Baghdad founded; a map is shown of ancient Baghdad. 1083: Arabic translation of De Materia Medica completed; a worn page of a book is shown with writing and green leaves.\nButton label: Click to enlarge image of A timeline shows events from this chapter. 610: Muhammad founds Islam; a picture of an open book on a stand is shown. 628: Byzantine Empire defeats Persian Empire. 630: Islamic forces capture Mecca; a picture of an army on horseback and soldiers marching is shown destroying idols. 632: Death of Muhammad. 644: Pact of Umar written. 691: Dome of the Rock completed; a picture of a building with a gold dome is shown. 750: Umayyad Caliphate becomes world’s largest empire. 762: Baghdad founded; a map is shown of ancient Baghdad. 1083: Arabic translation of De Materia Medica completed; a worn page of a book is shown with writing and green leaves.\nEnglish caption: Figure 11.2 Timeline: The Rise of Islam and the Caliphates. (credit “610”: modification of work “Qur'an and Rehal” by “sayyed shahab-o- din vajedi”/Wikimedia Commons, CC BY 4.0; credit “630”: modification of work “Muhammad destroying idols” by Histoire Geographie 5ieme Nathan/Wikimedia Commons, Public Domain; credit “691”: modification of work “Exterior of Dome of the Rock or Masjid Al Sakhrah, in Jerusalem” by Thekra A. Sabri/Wikimedia Commons, CC BY 2.0; credit “762”: modification of work “Baghdad 150 to 300 AH” by www.muhammadanism.org/Wikimedia Commons, Public Domain; credit “1083”: modification of work “Kitāb al-Ḥašāʾiš fī hāyūlā al-ʿilāg al-ṭibbī Or. 289” by Universitaire Bibliotheken Leiden/Leiden University Libraries, CC BY)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- aa 0. [] Ea rr => N/A\n- a WEINER => a WEINER\n- Byzantine ENS Go| => Đế chế Byzantine\n- Empire Pact he ANY => Pact he ANY\n- defeats of Dome of 0) ANY => thất bại của Dome of 0) ANY\n- Persian Deathof ~~ Umar the Rock Baghdad | se = | => Cái chết của Umar đá Baghdad\n- Empire Muhammad written completed founded (== {l ya => Đế chế Muhammad được viết hoàn thành thành lập\n- — Tyra => — Tyra\n- Muhammad Islamic | I | IEE Umayyad | \\ ll Arabic => Muhammad Hồi giáo\n- founds forces El i=l = e #7 Caliphate | SN 1 translation of => thành lập lực lượng Caliphate\n- Islam capture 8. 3 = becomes ’ Fy | De Materia => Hồi giáo chiếm 8. 3 = trở thành\n- Mecca 63 Se Fis world’s [ENE = Medica => Mecca\n- Yop EE ET largest ZY | completed => lớn nhất\n- = [ores (DxgEusnis empire GE: => N/A\n- a 1 i ¥ a No aE | => N/A\nPrevious output was rejected because these English source words were still visible: byzantine, umar, baghdad, muhammad, umayyad, materia, mecca, medica. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "bé ché joi ¥ | [HINTE i",
+        "confidence": 47,
+        "bbox": {
+          "x": 166,
+          "y": 114,
+          "w": 1324,
+          "h": 76
+        }
+      },
+      {
+        "text": "Byzantine Pact <i s",
+        "confidence": 47,
+        "bbox": {
+          "x": 166,
+          "y": 266,
+          "w": 1324,
+          "h": 76
+        }
+      },
+      {
+        "text": "oe = LE",
+        "confidence": 47,
+        "bbox": {
+          "x": 166,
+          "y": 418,
+          "w": 1324,
+          "h": 76
+        }
+      },
+      {
+        "text": "that bai cla Fn a Ns",
+        "confidence": 47,
+        "bbox": {
+          "x": 166,
+          "y": 570,
+          "w": 1324,
+          "h": 76
+        }
+      },
+      {
+        "text": "P& ché Hoan thanh SS \\",
+        "confidence": 47,
+        "bbox": {
+          "x": 166,
+          "y": 722,
+          "w": 1324,
+          "h": 76
+        }
+      },
+      {
+        "text": "Céichétcta Umar Pén Da Baghdad | m=: ( ZZ)",
+        "confidence": 47,
+        "bbox": {
+          "x": 166,
+          "y": 874,
+          "w": 1324,
+          "h": 76
+        }
+      },
+      {
+        "text": "Ba Tu ase",
+        "confidence": 47,
+        "bbox": {
+          "x": 166,
+          "y": 1026,
+          "w": 1324,
+          "h": 76
+        }
+      },
+      {
+        "text": "= Muhammad dude viét (Rock) thanh lap :",
+        "confidence": 47,
+        "bbox": {
+          "x": 166,
+          "y": 1178,
+          "w": 1324,
+          "h": 76
+        }
+      },
+      {
+        "text": "610 630 == —— 750 TT — 1083",
+        "confidence": 47,
+        "bbox": {
+          "x": 166,
+          "y": 1330,
+          "w": 1324,
+          "h": 76
+        }
+      },
+      {
+        "text": "Muhammad Luc lugng ef fy [ PRA Vuong triéu gi Hoan thanh",
+        "confidence": 47,
+        "bbox": {
+          "x": 166,
+          "y": 1482,
+          "w": 1324,
+          "h": 76
+        }
+      },
+      {
+        "text": "thanh lap Hi gido [15 byl [Ba Umayyad | PSE | ban dich tiéng A Rap",
+        "confidence": 47,
+        "bbox": {
+          "x": 166,
+          "y": 1634,
+          "w": 1324,
+          "h": 76
+        }
+      },
+      {
+        "text": "Hoi gido chim | 3a Sa trothanh | 2 Ae | cia De Materia",
+        "confidence": 47,
+        "bbox": {
+          "x": 166,
+          "y": 1786,
+          "w": 1324,
+          "h": 76
+        }
+      },
+      {
+        "text": "» Mecca [FERRIS Hdmi déché PEORPER | Medica",
+        "confidence": 47,
+        "bbox": {
+          "x": 166,
+          "y": 1938,
+          "w": 1324,
+          "h": 76
+        }
+      },
+      {
+        "text": "We = BES hist 16n nhat y",
+        "confidence": 47,
+        "bbox": {
+          "x": 166,
+          "y": 2090,
+          "w": 1324,
+          "h": 76
+        }
+      },
+      {
+        "text": "i w, O88 a SDE wee thé gi6i 7\\ Pe |",
+        "confidence": 47,
+        "bbox": {
+          "x": 166,
+          "y": 2242,
+          "w": 1324,
+          "h": 76
+        }
+      },
+      {
+        "text": "—~\\ wv 5 3 FES £31574 pc",
+        "confidence": 47,
+        "bbox": {
+          "x": 166,
+          "y": 2394,
+          "w": 1324,
+          "h": 76
+        }
+      },
+      {
+        "text": "' [by | 3 SSE aE i",
+        "confidence": 47,
+        "bbox": {
+          "x": 166,
+          "y": 2546,
+          "w": 1324,
+          "h": 76
+        }
+      },
+      {
+        "text": "frome Seach S W",
+        "confidence": 47,
+        "bbox": {
+          "x": 166,
+          "y": 2698,
+          "w": 1324,
+          "h": 76
+        }
+      }
+    ],
+    "validation": {
+      "ok": false,
+      "reason": "image-edit-leftover-source-english",
+      "leftoverSourceWords": [
+        "byzantine",
+        "pact",
+        "umar",
+        "rock",
+        "baghdad",
+        "muhammad",
+        "umayyad",
+        "materia",
+        "mecca",
+        "medica"
+      ]
+    },
+    "validationAttempt": 3
+  }
+}

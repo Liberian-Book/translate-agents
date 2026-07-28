@@ -1,0 +1,298 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-12-3-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/12-3-border-states-sogdiana-korea-and-japan.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-12-3-2.vi.png",
+  "ocr": [
+    {
+      "text": "| A Pa, )",
+      "confidence": 34,
+      "bbox": {
+        "x": 90,
+        "y": 147,
+        "w": 721,
+        "h": 98
+      }
+    },
+    {
+      "text": "KL :",
+      "confidence": 34,
+      "bbox": {
+        "x": 90,
+        "y": 343,
+        "w": 721,
+        "h": 98
+      }
+    },
+    {
+      "text": "«JS",
+      "confidence": 34,
+      "bbox": {
+        "x": 90,
+        "y": 539,
+        "w": 721,
+        "h": 98
+      }
+    },
+    {
+      "text": "Ct Se",
+      "confidence": 34,
+      "bbox": {
+        "x": 90,
+        "y": 735,
+        "w": 721,
+        "h": 98
+      }
+    },
+    {
+      "text": "© at",
+      "confidence": 34,
+      "bbox": {
+        "x": 90,
+        "y": 931,
+        "w": 721,
+        "h": 98
+      }
+    },
+    {
+      "text": "Be ON",
+      "confidence": 34,
+      "bbox": {
+        "x": 90,
+        "y": 1127,
+        "w": 721,
+        "h": 98
+      }
+    },
+    {
+      "text": "Yellow Sea 4 TM.",
+      "confidence": 34,
+      "bbox": {
+        "x": 90,
+        "y": 1323,
+        "w": 721,
+        "h": 98
+      }
+    },
+    {
+      "text": "«| Baekje Silla: (",
+      "confidence": 34,
+      "bbox": {
+        "x": 90,
+        "y": 1519,
+        "w": 721,
+        "h": 98
+      }
+    },
+    {
+      "text": "So \\",
+      "confidence": 34,
+      "bbox": {
+        "x": 90,
+        "y": 1715,
+        "w": 721,
+        "h": 98
+      }
+    },
+    {
+      "text": "ol Gaya",
+      "confidence": 34,
+      "bbox": {
+        "x": 90,
+        "y": 1911,
+        "w": 721,
+        "h": 98
+      }
+    },
+    {
+      "text": "Ey % A",
+      "confidence": 34,
+      "bbox": {
+        "x": 90,
+        "y": 2107,
+        "w": 721,
+        "h": 98
+      }
+    },
+    {
+      "text": "ag",
+      "confidence": 34,
+      "bbox": {
+        "x": 90,
+        "y": 2303,
+        "w": 721,
+        "h": 98
+      }
+    },
+    {
+      "text": "FO NB]",
+      "confidence": 34,
+      "bbox": {
+        "x": 90,
+        "y": 2499,
+        "w": 721,
+        "h": 98
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A map is shown. The Yellow Sea is highlighted blue in the southwest and unlabeled blue water is shown in the east. A large section of land in the north is highlighted orange and labelled “Goguryeo.” To the south are three smaller areas labelled: Baekje (green), Silla (pink) and Gaya (yellow). The Han River is labelled. Other land shown in the northwest, northeast, and southeast is highlighted gray.\nButton label: Click to enlarge image of A map is shown. The Yellow Sea is highlighted blue in the southwest and unlabeled blue water is shown in the east. A large section of land in the north is highlighted orange and labelled “Goguryeo.” To the south are three smaller areas labelled: Baekje (green), Silla (pink) and Gaya (yellow). The Han River is labelled. Other land shown in the northwest, northeast, and southeast is highlighted gray.\nEnglish caption: Figure 12.26 The Three Kingdoms. This map shows Korea during the Three Kingdoms period. Note the locations of the three—Baekje, Silla, and Goguryeo—which all vied to unify Korea under their own rule. Eventually the Kingdom of Silla absorbed the confederacy of Gaya in 532 and allied with the Tang to defeat Baekje in 660, and then Goguryeo in 668. (credit: modification of work “Map of Goguryeo (476)” by “solicitatia”/Wikimedia Commons, CC0 1.0)",
+  "metrics": {
+    "textDensity": 0.8301977173390406,
+    "averageConfidence": 34,
+    "entropy": 2.9655866650118696,
+    "sharpness": 2.383539117173019
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A map is shown. The Yellow Sea is highlighted blue in the southwest and unlabeled blue water is shown in the east. A large section of land in the north is highlighted orange and labelled “Goguryeo.” To the south are three smaller areas labelled: Baekje (green), Silla (pink) and Gaya (yellow). The Han River is labelled. Other land shown in the northwest, northeast, and southeast is highlighted gray.\nButton label: Click to enlarge image of A map is shown. The Yellow Sea is highlighted blue in the southwest and unlabeled blue water is shown in the east. A large section of land in the north is highlighted orange and labelled “Goguryeo.” To the south are three smaller areas labelled: Baekje (green), Silla (pink) and Gaya (yellow). The Han River is labelled. Other land shown in the northwest, northeast, and southeast is highlighted gray.\nEnglish caption: Figure 12.26 The Three Kingdoms. This map shows Korea during the Three Kingdoms period. Note the locations of the three—Baekje, Silla, and Goguryeo—which all vied to unify Korea under their own rule. Eventually the Kingdom of Silla absorbed the confederacy of Gaya in 532 and allied with the Tang to defeat Baekje in 660, and then Goguryeo in 668. (credit: modification of work “Map of Goguryeo (476)” by “solicitatia”/Wikimedia Commons, CC0 1.0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Fes 5",
+        "confidence": 35,
+        "bbox": {
+          "x": 107,
+          "y": 176,
+          "w": 859,
+          "h": 117
+        }
+      },
+      {
+        "text": "> 4 Pa. )",
+        "confidence": 35,
+        "bbox": {
+          "x": 107,
+          "y": 410,
+          "w": 859,
+          "h": 117
+        }
+      },
+      {
+        "text": "oS he",
+        "confidence": 35,
+        "bbox": {
+          "x": 107,
+          "y": 644,
+          "w": 859,
+          "h": 117
+        }
+      },
+      {
+        "text": "FA",
+        "confidence": 35,
+        "bbox": {
+          "x": 107,
+          "y": 878,
+          "w": 859,
+          "h": 117
+        }
+      },
+      {
+        "text": "gid :",
+        "confidence": 35,
+        "bbox": {
+          "x": 107,
+          "y": 1112,
+          "w": 859,
+          "h": 117
+        }
+      },
+      {
+        "text": "Bién Hoang Hdi ©. k!",
+        "confidence": 35,
+        "bbox": {
+          "x": 107,
+          "y": 1346,
+          "w": 859,
+          "h": 117
+        }
+      },
+      {
+        "text": "“Bach T& ) Janla pL",
+        "confidence": 35,
+        "bbox": {
+          "x": 107,
+          "y": 1580,
+          "w": 859,
+          "h": 117
+        }
+      },
+      {
+        "text": ": y Gia Ya 3",
+        "confidence": 35,
+        "bbox": {
+          "x": 107,
+          "y": 1814,
+          "w": 859,
+          "h": 117
+        }
+      },
+      {
+        "text": "° di pes) A 2) .",
+        "confidence": 35,
+        "bbox": {
+          "x": 107,
+          "y": 2048,
+          "w": 859,
+          "h": 117
+        }
+      },
+      {
+        "text": "AY -",
+        "confidence": 35,
+        "bbox": {
+          "x": 107,
+          "y": 2282,
+          "w": 859,
+          "h": 117
+        }
+      },
+      {
+        "text": "$e ws 5",
+        "confidence": 35,
+        "bbox": {
+          "x": 107,
+          "y": 2516,
+          "w": 859,
+          "h": 117
+        }
+      },
+      {
+        "text": "RT Lo Hi -",
+        "confidence": 35,
+        "bbox": {
+          "x": 107,
+          "y": 2750,
+          "w": 859,
+          "h": 117
+        }
+      },
+      {
+        "text": "Pe tt bf ps",
+        "confidence": 35,
+        "bbox": {
+          "x": 107,
+          "y": 2984,
+          "w": 859,
+          "h": 117
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

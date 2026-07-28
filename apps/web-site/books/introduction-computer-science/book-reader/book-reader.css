@@ -1,7 +1,7 @@
 /* book-reader.css */
 body {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 0;
   height: 100vh;
   overflow: hidden;
@@ -11,6 +11,79 @@ body {
   max-width: 100%;
 }
 
+.br-site-header {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.92);
+  border-bottom: 1px solid #e2e8f0;
+  backdrop-filter: blur(14px);
+  flex: 0 0 auto;
+  z-index: 1000;
+}
+
+.br-site-header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 12px 24px;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 18px;
+}
+
+.br-site-brand {
+  color: #111111;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.br-site-logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #111111, #3182ce);
+  color: #ffffff;
+  display: grid;
+  place-items: center;
+}
+
+.br-site-book-title {
+  color: #1a202c;
+  font-size: 0.95rem;
+  font-weight: 700;
+  max-width: min(42vw, 520px);
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.br-site-nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 18px;
+}
+
+.br-site-nav a {
+  color: #4a5568;
+  font-size: 0.92rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.br-site-nav a:hover {
+  color: #111111;
+}
+
+#br-reader-layout {
+  display: flex;
+  flex: 1 1 auto;
+  min-height: 0;
+  width: 100%;
+}
+
 #br-main-content {
   flex: 6;
   padding: 40px 60px;
@@ -18,6 +91,22 @@ body {
   overflow-y: auto;
   scroll-behavior: smooth;
   line-height: 1.6;
+}
+
+.br-site-footer {
+  width: 100%;
+  background: #0f172a;
+  border-top: 1px solid rgba(226, 232, 240, 0.18);
+  flex: 0 0 auto;
+}
+
+.br-site-footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 12px 24px;
+  color: #cbd5e1;
+  font-size: 0.82rem;
+  text-align: center;
 }
 
 #br-right-panel {
@@ -223,4 +312,34 @@ body.lang-swap #br-main-content .eng.hidden:hover {
 /* Clean up original document styles if they interfere */
 body:not(.lang-swap) > .eng.hidden, body:not(.lang-swap) #br-main-content .eng.hidden {
   display: none !important;
+}
+
+@media (max-width: 800px) {
+  .br-site-header-inner {
+    grid-template-columns: 1fr auto;
+    padding: 10px 16px;
+  }
+
+  .br-site-book-title {
+    display: none;
+  }
+
+  .br-site-nav {
+    gap: 12px;
+  }
+
+  #br-reader-layout {
+    flex-direction: column;
+  }
+
+  #br-main-content {
+    flex: 1 1 auto;
+    padding: 28px 20px;
+  }
+
+  #br-right-panel {
+    flex: 0 0 42vh;
+    border-left: 0;
+    border-top: 1px solid #e1e4e8;
+  }
 }

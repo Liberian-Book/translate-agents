@@ -1,6 +1,27 @@
 document.addEventListener('DOMContentLoaded', () => {
   // 1. Restructure DOM
   const body = document.body;
+  const bookTitle = formatBookTitle(getBookIdFromPath());
+
+  const siteHeader = document.createElement('header');
+  siteHeader.className = 'br-site-header';
+  siteHeader.innerHTML = `
+    <div class="br-site-header-inner">
+      <a class="br-site-brand" href="/" aria-label="Về trang chủ Bột">
+        <span class="br-site-logo">B</span>
+        <span>Bột</span>
+      </a>
+      <div class="br-site-book-title">${escapeHtml(bookTitle)}</div>
+      <nav class="br-site-nav" aria-label="Điều hướng trang sách">
+        <a href="/">Thư viện</a>
+        <a href="https://openstax.org" target="_blank" rel="noopener">OpenStax</a>
+      </nav>
+    </div>
+  `;
+
+  const readerLayout = document.createElement('div');
+  readerLayout.id = 'br-reader-layout';
+
   const mainContent = document.createElement('div');
   mainContent.id = 'br-main-content';
 
@@ -39,9 +60,35 @@ document.addEventListener('DOMContentLoaded', () => {
     </div>
   `;
 
+  const siteFooter = document.createElement('footer');
+  siteFooter.className = 'br-site-footer';
+  siteFooter.innerHTML = `
+    <div class="br-site-footer-inner">
+      <p>&copy; 2026 Bột. Sách dịch phục vụ mục đích học tập phi thương mại.</p>
+    </div>
+  `;
+
   // Append back to body
-  body.appendChild(mainContent);
-  body.appendChild(rightPanel);
+  readerLayout.appendChild(mainContent);
+  readerLayout.appendChild(rightPanel);
+  body.appendChild(siteHeader);
+  body.appendChild(readerLayout);
+  body.appendChild(siteFooter);
+
+  function getBookIdFromPath() {
+    const parts = window.location.pathname.split('/').filter(Boolean);
+    const booksIndex = parts.indexOf('books');
+    if (booksIndex !== -1 && parts[booksIndex + 1]) return parts[booksIndex + 1];
+    return parts[0] || 'book';
+  }
+
+  function formatBookTitle(slug) {
+    return slug
+      .split(/[-_\s]+/)
+      .filter(Boolean)
+      .map(word => `${word[0].toUpperCase()}${word.slice(1)}`)
+      .join(' ');
+  }
 
   // 2. Fetch and parse Glossary
   let glossaryData = [];

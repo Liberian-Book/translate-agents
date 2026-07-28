@@ -3,6 +3,7 @@ import path from 'node:path';
 import { spawn } from 'node:child_process';
 import { input, select } from '@inquirer/prompts';
 import chalk from 'chalk';
+import { runTranslateText } from './commands/translate.mjs';
 import { printUploadResult } from './commands/upload.mjs';
 import { repoRoot } from './lib/paths.mjs';
 import { searchOpenStaxBooks } from './lib/openstax-books.mjs';
@@ -10,10 +11,11 @@ import { uploadBookToR2 } from './lib/r2-storage.mjs';
 import { runScript } from './lib/run-script.mjs';
 
 const ACTION_TRANSLATE_BOOK = 'Dịch sách';
+const ACTION_RETRANSLATE_TEXT = 'Dịch lại chữ';
 const ACTION_RETRANSLATE_IMAGES = 'Dịch lại hình ảnh';
 const ACTION_TRANSLATED_LIST = 'Danh sách đã dịch';
 const ACTION_UPLOAD_BOOK = 'Tải sách lên R2';
-const ACTIONS = [ACTION_TRANSLATE_BOOK, ACTION_RETRANSLATE_IMAGES, ACTION_TRANSLATED_LIST, ACTION_UPLOAD_BOOK];
+const ACTIONS = [ACTION_TRANSLATE_BOOK, ACTION_RETRANSLATE_TEXT, ACTION_RETRANSLATE_IMAGES, ACTION_TRANSLATED_LIST, ACTION_UPLOAD_BOOK];
 
 export async function runInteractive() {
   try {
@@ -41,6 +43,9 @@ export async function runSelectedAction({ action }) {
     case ACTION_TRANSLATE_BOOK:
       await runBookSearchFlow();
       return;
+    case ACTION_RETRANSLATE_TEXT:
+      await runRetranslateTextFlow();
+      return;
     case ACTION_RETRANSLATE_IMAGES:
       await runRetranslateImagesFlow();
       return;
@@ -53,6 +58,27 @@ export async function runSelectedAction({ action }) {
     default:
       throw new Error(`Không nhận diện được lựa chọn: ${action}`);
   }
+}
+
+async function runRetranslateTextFlow() {
+  const books = listLocalBookFolders();
+  if (books.length === 0) {
+    console.log('Không tìm thấy sách nào trong thư mục data.');
+    return;
+  }
+
+  const selectedBook = await select({
+    message: 'Chọn sách để dịch lại chữ:',
+    choices: books.map((book) => ({ value: book, name: book })),
+  });
+  const target = await input({
+    message: 'Nhập tệp HTML hoặc all:',
+    default: 'all',
+  });
+
+  console.log(chalk.cyan(`Đang dịch lại chữ cho sách: ${selectedBook}`));
+  await runTranslateText({ book: selectedBook, target, prep: true, force: true });
+  console.log(chalk.green(`Hoàn tất dịch lại chữ: ${selectedBook}`));
 }
 
 async function runRetranslateImagesFlow() {

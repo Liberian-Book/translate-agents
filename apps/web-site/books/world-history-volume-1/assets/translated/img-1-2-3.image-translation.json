@@ -1,0 +1,44 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-1-2-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/1-2-primary-sources.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "p 10m FR A i",
+      "confidence": 25,
+      "bbox": {
+        "x": 90,
+        "y": 72,
+        "w": 720,
+        "h": 48
+      }
+    },
+    {
+      "text": "v3 = Lo By i 3",
+      "confidence": 25,
+      "bbox": {
+        "x": 90,
+        "y": 169,
+        "w": 720,
+        "h": 48
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This photograph shows the Hagia Sophia at dusk. It is surrounded by four tall minarets.\nButton label: Click to enlarge image of This photograph shows the Hagia Sophia at dusk. It is surrounded by four tall minarets.\nEnglish caption: Figure 1.6 Hagia Sophia’s Minarets. Hagia Sophia has four tall minarets, which were added a thousand years after its initial construction. Minarets are towers from which the Muslim call to prayer goes out multiple times a day. (credit: “Hagia Sophia (Istanbul)” by Frank Mago/Flickr, CC BY 2.0)",
+  "metrics": {
+    "textDensity": 0.1271523178807947,
+    "averageConfidence": 25,
+    "entropy": 7.405921754514566,
+    "sharpness": 1.7383952184638365
+  }
+}

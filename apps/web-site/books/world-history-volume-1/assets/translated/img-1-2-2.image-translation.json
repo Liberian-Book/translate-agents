@@ -1,0 +1,1008 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-1-2-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/1-2-primary-sources.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-1-2-2.vi.png",
+  "ocr": [
+    {
+      "text": "Appel a rag",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 96,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "w 7 Fra Te EERE ROY",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 224,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "Se hi mi Sa AE Cra ea",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 352,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "ys Poi h Ee = ath fpr Bh pe RL",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 480,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "ges Lys . = Sah oe Sr SF ACRE EN",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 608,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "ais 10.2 org | rl AAT a Se Ra =the nd SH TH ab",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 736,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "9 i fa CF a Ls REIN NW",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 864,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "A Wiig A A Vtoo B 8 en fae ARERR AR",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 992,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "i 7 p= a oy Fi 7 = I= oN i Re Ba Ei Relat",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 1120,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "od yr cE) Wes als oR LA NAR Re kl",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 1248,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "iil P po oN fee li (gd tr Af i He EE ; AURA",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 1376,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "th iad AE SAVED Jere or Su fe Ls Li SS Sey",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 1504,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "2) Poy fs Se of joka l Sema he | Lt TEER",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 1632,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "lh Ee £09 ie A a. RTH ERS Na Ra",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 1760,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "7 %: ee ESL Ee ee EAU ie NA Xl",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 1888,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "[lo asain Bo re Tt 2 Sins Cs pC Ey edly fas AEN SN",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 2016,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "ey Go CE ON i Ee Bl De AR <5 Nay",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 2144,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "| HE ERE he St asl Ge INGE 2. pre ARs BC ee CNR",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 2272,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "TE ole ANE oe vlg oll at 4 GH C4",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 2400,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "| yp) A TNE 4 Eh = = A same. FNL ht Ty ! mi i Pot \\",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 2528,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "| GR OLR Ta EH! fs Es Gay He - . \\",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 2656,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "fi ERE RT SARE a SN qa Wa 1 Hed Cog Cal Wo",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 2784,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "(Ee oe Fgh ge CR Liege Nich =s pa hE Tih NN",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 2912,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "PERE EA AC ER EEE Gh sh ae A a Ne I «a EN",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 3040,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "iy Batra 8 GLEBE 1) © ihe HR if Biz) aes 2 Te has WIRE 5 8 5 oN",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 3168,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "Le . SR o ira i i En hs 5 yi Ta EE A Reh i i EN",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 3296,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "0s rE DC fe Fie ed oN i -",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 3424,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "~ Sn Coen Ti TEPER JOC Ea ve ag ae o",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 3552,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "gel fo Th Ea pi elle EY s Be Soc ANE §",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 3680,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "[4 Sapa, RARE Ere EE iil Se i OE LT.",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 3808,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "cE WES ee, =)",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 3936,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "anc Ca SEE Coie os i ge ¢",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 4064,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "wuts RI CCE ot 0. Vets TN ra oo",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 4192,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "PROB Ships Le ena a [i a",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 4320,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "7 a COTO CBE |",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 4448,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "= a a EA po me :",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 4576,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "A ht",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 4704,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "Ye SS NT =",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 4832,
+        "w": 1040,
+        "h": 64
+      }
+    },
+    {
+      "text": "Ne",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 4960,
+        "w": 1040,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This artwork shows four people. Each has a halo around their head. On the left, Emperor Justinian holds a miniature building. On the right, Emperor Constantine holds another miniature building. In the center, Mary holds the child Jesus in her lap.\nButton label: Click to enlarge image of This artwork shows four people. Each has a halo around their head. On the left, Emperor Justinian holds a miniature building. On the right, Emperor Constantine holds another miniature building. In the center, Mary holds the child Jesus in her lap.\nEnglish caption: Figure 1.5 Interior of Hagia Sophia. The Greek Christian iconography found in the interior of the Hagia Sophia includes halos on the figures, signifying holiness. Also note the lavish use of precious gold in this tenth-century mosaic of Mary, the child Jesus, and the emperors (left) Justinian and (right) Constantine. (credit: “Hagia Sophia Southwestern entrance mosaics 2” by “Myrabella”/Wikimedia Commons, CC0 1.0)",
+  "metrics": {
+    "textDensity": 2.496,
+    "averageConfidence": 22,
+    "entropy": 7.68604221730493,
+    "sharpness": 7.949816286726868
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: This artwork shows four people. Each has a halo around their head. On the left, Emperor Justinian holds a miniature building. On the right, Emperor Constantine holds another miniature building. In the center, Mary holds the child Jesus in her lap.\nButton label: Click to enlarge image of This artwork shows four people. Each has a halo around their head. On the left, Emperor Justinian holds a miniature building. On the right, Emperor Constantine holds another miniature building. In the center, Mary holds the child Jesus in her lap.\nEnglish caption: Figure 1.5 Interior of Hagia Sophia. The Greek Christian iconography found in the interior of the Hagia Sophia includes halos on the figures, signifying holiness. Also note the lavish use of precious gold in this tenth-century mosaic of Mary, the child Jesus, and the emperors (left) Justinian and (right) Constantine. (credit: “Hagia Sophia Southwestern entrance mosaics 2” by “Myrabella”/Wikimedia Commons, CC0 1.0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Pgh | TC",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 118,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "PRD) 4 ig - Bl",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 275,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "AA fc.",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 432,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "(ai Q W 2",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 589,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "Mi od pe rs To BS i oe",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 746,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "; ’ = (ow x - Ie ~ h Je Cl Za ANE Va 1.8",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 903,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": ": = . a 3 al \\ & SE 5 —— ~ Sw N SE hE ONE NR",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 1060,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "Wi y 7 7 Ax 1) a) “x Pete © I SN | x gush PUCK: % mi ~ NR ER TNE 3 Nery OE \\",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 1217,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "3 4 ar No Na Cg (CHUA) © RR DR Bg TRS pha",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 1374,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "bo vy #2 lof a Sr a Bd : : N a",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 1531,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "i! ped Vo Jn, Bh 28 7 hn ac hd gst ie Es Led NLS dr ile SF 3 3",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 1688,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "be ara 2 of gion, A ie Le Dee (ets Ba Ee A",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 1845,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "7 : Te 3",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 2002,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "/ >< 7 nc A FN pe lagu bs 5 QT RN PERE SNR \\%",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 2159,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "J -— | a Bi De Go Ere JE Boog Beg V2 Qs ERLAA ELAR §",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 2316,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "4 | > nt y £ on gc Ci a on XN AY NY SAE",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 2473,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "/ | > - i : A S&F i gine: hey SRG Ke 23 OL ENN RL Soult S",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 2630,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "¥ py « pe il i oe! Ga Hess = wr Ah er Na 4",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 2787,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "Ee SE are Tims LER i fu i a FN x Fol \\ No)",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 2944,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "& i i =r a i a Lo. ony Se ili : Nh NN MY 3",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 3101,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "| : Cs ns REL A HE omg a od a Ria! Ra Fr Rl SRD MOLVAS",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 3258,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "ff ANO 57 For Ji =f El Co (a wit ay i if we N \\",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 3415,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "V we 4 fo L ne Ta NE oe Lom. Ee | Wy ET SHON CARRY) (hg",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 3572,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "Es fg) Ki Cia PE 6 ES NWR es LE ZA. , HOANG § hs",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 3729,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "BOR She G4 ANCE oe HE Re jg ile = a iif ia “ O aN",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 3886,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "CE Ly GON Bo $e ml GES TBR | 2 sa] 0) J",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 4043,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "SH | by x fs iL eh EASE Lil dif: Slag 5 Cate eg Fa hd",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 4200,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "a hh : SN 4 oor A | a (oh 26 waco VL 7% SI Fo issn Zr TS) ks LEN",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 4357,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "os Sel FRY 0 VR a CARES a ihe = RN Ee ¥",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 4514,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "75 Rosa Ch nl Hi pels Be pitt i) LA Fp | BYE | XTan 2",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 4671,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "A bodies po fins Fed al pe ghd re & E = Ba Ni Sr bs Lo XT, Col",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 4828,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "| PPV ® Elns fx EES Te a mL Bai At “RR NE SE Alea Las m x",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 4985,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "/ Wei x The Cf IR pg oR toa Lg ai INN AINE i SER Er",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 5142,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "is REG a i ol Ph dian Bec iw ON Th 0A a",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 5299,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "/ ie ete PR Ee go TREN NG \\",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 5456,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "To it h Lh ’ Thal il AN SRR i oF NG: A",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 5613,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "» i pe : 5 ea 43] Gea 00 ih i DEI fa oo",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 5770,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "i Ll by i TN i 0 SRT Hi il GER NG V7 BE DEN Cel",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 5927,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "y fn rs Sa Ro Fn Zeal i le had ile Gr or",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 6084,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "Be § Arica = $e Se, el Boi pel Rik Ft A ba Eek A iS DEERE a f 5 ; a",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 6241,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "y ; 5% AE Tea ATE oe hd Se Sire ERS © or ne - i",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 6398,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "3 oe A Ny Sa $B) a ERA Ce a a poo | Lo F'",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 6555,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "£ Spi 2 RN or agen Rh ALR Lee Gi ER hd",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 6712,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": ": - ssl Eh RT ERT o a i il Jigs H RE SER \\",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 6869,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "/ . SN . is Fe ed A BE Shr : & gl gC avoaTh i (oF iiss a",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 7026,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "2 ae AD J 5777 = 3 CA LIOR TOE Hh 5 b i I |",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 7183,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "N J 7 eh I cs TOTES eo cr on Be | ‘",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 7340,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "wg Es NS = Lehi : RE Hie fe : : |",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 7497,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": ": Nd NTR Yad lk 1g fees A\\",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 7654,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "NE \\ / GI iy i fis Yi rs Sip Se A \\",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 7811,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "§ A CPR A ow :",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 7968,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "14 — TR Sh ae \\",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 8125,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "i. Shae",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 8282,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "= NN v, /",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 8439,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "AVR",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 8596,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "ah",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 8753,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "SON",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 8910,
+          "w": 1278,
+          "h": 79
+        }
+      },
+      {
+        "text": "Ni",
+        "confidence": 26,
+        "bbox": {
+          "x": 160,
+          "y": 9067,
+          "w": 1278,
+          "h": 79
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

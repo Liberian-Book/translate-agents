@@ -1,0 +1,908 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-11-2-5.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/11-2-the-arab-islamic-conquests-and-the-first-islamic-states.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-11-2-5.vi.png",
+  "ocr": [
+    {
+      "text": "va 5 Fed em ind gi | 70 SE",
+      "confidence": 24,
+      "bbox": {
+        "x": 50,
+        "y": 84,
+        "w": 400,
+        "h": 56
+      }
+    },
+    {
+      "text": "eh En | FN | + shat Ti us",
+      "confidence": 24,
+      "bbox": {
+        "x": 50,
+        "y": 196,
+        "w": 400,
+        "h": 56
+      }
+    },
+    {
+      "text": "CAN EKA Hi & row",
+      "confidence": 24,
+      "bbox": {
+        "x": 50,
+        "y": 308,
+        "w": 400,
+        "h": 56
+      }
+    },
+    {
+      "text": "CHER Koi & NSP",
+      "confidence": 24,
+      "bbox": {
+        "x": 50,
+        "y": 420,
+        "w": 400,
+        "h": 56
+      }
+    },
+    {
+      "text": "CAS NMS Gy",
+      "confidence": 24,
+      "bbox": {
+        "x": 50,
+        "y": 532,
+        "w": 400,
+        "h": 56
+      }
+    },
+    {
+      "text": ")/ SAR, Ca \\ foo",
+      "confidence": 24,
+      "bbox": {
+        "x": 50,
+        "y": 644,
+        "w": 400,
+        "h": 56
+      }
+    },
+    {
+      "text": "BA 5 Zi IN",
+      "confidence": 24,
+      "bbox": {
+        "x": 50,
+        "y": 756,
+        "w": 400,
+        "h": 56
+      }
+    },
+    {
+      "text": "SA STL Gs NETS",
+      "confidence": 24,
+      "bbox": {
+        "x": 50,
+        "y": 868,
+        "w": 400,
+        "h": 56
+      }
+    },
+    {
+      "text": "NN NNN ON sn BE",
+      "confidence": 24,
+      "bbox": {
+        "x": 50,
+        "y": 980,
+        "w": 400,
+        "h": 56
+      }
+    },
+    {
+      "text": "Hr YMoomaNe a Non) at Bo",
+      "confidence": 24,
+      "bbox": {
+        "x": 50,
+        "y": 1092,
+        "w": 400,
+        "h": 56
+      }
+    },
+    {
+      "text": "SAG TRENT",
+      "confidence": 24,
+      "bbox": {
+        "x": 50,
+        "y": 1204,
+        "w": 400,
+        "h": 56
+      }
+    },
+    {
+      "text": "BET EL a ila de",
+      "confidence": 24,
+      "bbox": {
+        "x": 50,
+        "y": 1316,
+        "w": 400,
+        "h": 56
+      }
+    },
+    {
+      "text": "ao le",
+      "confidence": 24,
+      "bbox": {
+        "x": 50,
+        "y": 1428,
+        "w": 400,
+        "h": 56
+      }
+    },
+    {
+      "text": "Se GTN pe RE",
+      "confidence": 24,
+      "bbox": {
+        "x": 50,
+        "y": 1540,
+        "w": 400,
+        "h": 56
+      }
+    },
+    {
+      "text": "YF i © ¥Y V",
+      "confidence": 24,
+      "bbox": {
+        "x": 50,
+        "y": 1652,
+        "w": 400,
+        "h": 56
+      }
+    },
+    {
+      "text": "EN TEEN | i",
+      "confidence": 24,
+      "bbox": {
+        "x": 50,
+        "y": 1764,
+        "w": 400,
+        "h": 56
+      }
+    },
+    {
+      "text": "Ser ek es | BE i",
+      "confidence": 24,
+      "bbox": {
+        "x": 50,
+        "y": 1876,
+        "w": 400,
+        "h": 56
+      }
+    },
+    {
+      "text": "Ri CEaTRBE REN 9",
+      "confidence": 24,
+      "bbox": {
+        "x": 50,
+        "y": 1988,
+        "w": 400,
+        "h": 56
+      }
+    },
+    {
+      "text": "BE oe fy Te Tos CO SR igh",
+      "confidence": 24,
+      "bbox": {
+        "x": 50,
+        "y": 2100,
+        "w": 400,
+        "h": 56
+      }
+    },
+    {
+      "text": "TN REN Sa RENE a",
+      "confidence": 24,
+      "bbox": {
+        "x": 50,
+        "y": 2212,
+        "w": 400,
+        "h": 56
+      }
+    },
+    {
+      "text": "hs gs Fe Ta a",
+      "confidence": 24,
+      "bbox": {
+        "x": 50,
+        "y": 2324,
+        "w": 400,
+        "h": 56
+      }
+    },
+    {
+      "text": "Ey Fa; Wee [Pca fo",
+      "confidence": 24,
+      "bbox": {
+        "x": 50,
+        "y": 2436,
+        "w": 400,
+        "h": 56
+      }
+    },
+    {
+      "text": "a EE Serie 4g rn",
+      "confidence": 24,
+      "bbox": {
+        "x": 50,
+        "y": 2548,
+        "w": 400,
+        "h": 56
+      }
+    },
+    {
+      "text": "SA Aza it Fon Hl) Ag",
+      "confidence": 24,
+      "bbox": {
+        "x": 50,
+        "y": 2660,
+        "w": 400,
+        "h": 56
+      }
+    },
+    {
+      "text": "Coil I Se RE",
+      "confidence": 24,
+      "bbox": {
+        "x": 50,
+        "y": 2772,
+        "w": 400,
+        "h": 56
+      }
+    },
+    {
+      "text": "ed DE mR iA",
+      "confidence": 24,
+      "bbox": {
+        "x": 50,
+        "y": 2884,
+        "w": 400,
+        "h": 56
+      }
+    },
+    {
+      "text": "ot ’ SRE Ye",
+      "confidence": 24,
+      "bbox": {
+        "x": 50,
+        "y": 2996,
+        "w": 400,
+        "h": 56
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A picture of a rounded, red and gold mosaic wall in shown. The top half of the wall shows barbell shaped red lines surrounding red and gold mosaic tiles. A thick red band of tile runs below with an inscription in scripted writing running in the middle in gold on black tile. Richly decorated arched openings show below that in gold and red and at the bottom a highly decorated wall is seen with colorful tiles and arched sections with more decorated tiles.\nButton label: Click to enlarge image of A picture of a rounded, red and gold mosaic wall in shown. The top half of the wall shows barbell shaped red lines surrounding red and gold mosaic tiles. A thick red band of tile runs below with an inscription in scripted writing running in the middle in gold on black tile. Richly decorated arched openings show below that in gold and red and at the bottom a highly decorated wall is seen with colorful tiles and arched sections with more decorated tiles.\nEnglish caption: Figure 11.17 Dome of the Rock, Interior. Mosaics inside the Dome of the Rock include depictions of the mythological Senmurv bird, popular in Sasanian Persia, while the medium of mosaic tile itself was Byzantine. Arabic inscriptions from the Quran are found throughout the interior—a distinctly Islamic feature. (credit: “Mosque Of Omar 1914” by National Geographic/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 1.7255349500713266,
+    "averageConfidence": 24,
+    "entropy": 7.618706811743323,
+    "sharpness": 7.169252228562225
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A picture of a rounded, red and gold mosaic wall in shown. The top half of the wall shows barbell shaped red lines surrounding red and gold mosaic tiles. A thick red band of tile runs below with an inscription in scripted writing running in the middle in gold on black tile. Richly decorated arched openings show below that in gold and red and at the bottom a highly decorated wall is seen with colorful tiles and arched sections with more decorated tiles.\nButton label: Click to enlarge image of A picture of a rounded, red and gold mosaic wall in shown. The top half of the wall shows barbell shaped red lines surrounding red and gold mosaic tiles. A thick red band of tile runs below with an inscription in scripted writing running in the middle in gold on black tile. Richly decorated arched openings show below that in gold and red and at the bottom a highly decorated wall is seen with colorful tiles and arched sections with more decorated tiles.\nEnglish caption: Figure 11.17 Dome of the Rock, Interior. Mosaics inside the Dome of the Rock include depictions of the mythological Senmurv bird, popular in Sasanian Persia, while the medium of mosaic tile itself was Byzantine. Arabic inscriptions from the Quran are found throughout the interior—a distinctly Islamic feature. (credit: “Mosque Of Omar 1914” by National Geographic/Wikimedia Commons, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "NCUA ey",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 178,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "4 oY ns Va 2 RET",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 416,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "po \"a i#: S38 2 rs phe ET Rn”",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 654,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "a Fas eae 7 G48 $7 Mac RN 7 SE >",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 892,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "x) > \\ Lom > Ceo | AN 4 Then ¥ fo EN FHL Naa",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 1130,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "39 ed fm GP SL tim TY | ZEN hs) ING! 7 Ba of",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 1368,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "2 ol Cones 1 5 87 55, Gb Sh RR op $8 aie 3 Aad L",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 1606,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "AP wie: NN WL i 2% da FR",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 1844,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "Al Sy 2 fii Pde, 2 ih = 7 A ow, & NCL Wr LEY",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 2082,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "NA A AXA A Ln TY Ar GM",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 2320,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "NAIA Ea Fil",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 2558,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "Ghost | AF Nona Gop oi SRL J SL RAY, Cs J EINE LF AR",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 2796,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "by bad fe SV (B PTA | TATA 2",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 3034,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "So Re Talo | | Sina V5 NN NO 2 GO ADS Gf",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 3272,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "loss. 3 3 Fe J AR | igs V BREA EZR ZN SII NE ie \\",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 3510,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "7 SEA oe tN Hint [eae Faiover\\ Lape] ler",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 3748,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "ys No Ao NC A A £2(® ne i NE SET aha ASA",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 3986,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "5567 JOTNSTENG I by",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 4224,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "AS ¢ o> 0° ocd $ LW 9) Ey iv A) fo £2 3 NC 5 7 4s EL) 5 AR: &",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 4462,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "Sad, OS w Ji CRRA Pr | Ble Nd [; AEH farce \\| AN \\",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 4700,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "NCS ON SANE J EN Eo",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 4938,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "AAA Sager?’ 3s wim AINE oo oe VEN ES HOR] EF Swe",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 5176,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "SRT PIED Rr A By dati JS ia 5 INGe0)",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 5414,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "A AE AR) Ea JE DAO. A50 ane £00) Sa",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 5652,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "Soll almzs fax 25k ACEI Es ns (~ LIOR eh",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 5890,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "Dlallics Sores Se Doe",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 6128,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "SJ Ge Noy SHRI HAE SRA ACR aRsk",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 6366,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "a [I 9 41 HAG 5 | a TE kis” 15 REASON",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 6604,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "PR he os, eda SA",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 6842,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "oA hy lel LL a! AY",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 7080,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "a REA) rk re eT od GEA Ayinect",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 7318,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "SOS HOARE Se 5 dad",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 7556,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "NA Soy ~, 25 Te Ri HEIR TE Ty EERE TRY",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 7794,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "| 5 ATI a XA feb,",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 8032,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "[41 E> wl | N77 Wo Se regi",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 8270,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "i H a | 5 - NY” NSN 27",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 8508,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "Seal | RR] §i i \" E",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 8746,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "er oc i N i 2.8 =",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 8984,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "EA te Sass e Lif oo oR i",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 9222,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "eA ul RE ee NO",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 9460,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "Pe Sa RE cali Laas ts Sidnstizciaae mn",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 9698,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "Te a SLATE PR ST pm A alr) ake pools",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 9936,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "mA RES ; gif) Por rR Gas bailin began i into LIEN",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 10174,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "ren gd Ree Td > sag 8H A Exe ER BS ei",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 10412,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "FARES LY eS Ui 35 8 pe TS Biihid",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 10650,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "on a Te Re Por RY PRR Ee has",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 10888,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "Cr yh 8 4 CRC CRT Tere AE",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 11126,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "Ts eral oy ERT {% E50 SRA pm",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 11364,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "RESERVE LA 70 Crt 1 ANQRERE GEL BY a",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 11602,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "WE ei ei OQ EH Si",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 11840,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "ae a {ort yo | j eR mem mg i she a",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 12078,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "Ri gel co Brad 4 Woe TE",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 12316,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "ma fretg of LHe eee Poon etn Pep",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 12554,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "Be sar [hah ie lion oa SARS, TAS ent Fk",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 12792,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "nl i pio He oe SOR ea Ri",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 13030,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "on 48 Sihea AEE THRO Eh on DE) «Si a hie:",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 13268,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "Re ahi ot ms ic i (fen om Sei Tee See",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 13506,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "d He AR SE {HEE",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 13744,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "; / Si Se ba",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 13982,
+          "w": 847,
+          "h": 119
+        }
+      },
+      {
+        "text": "io fea Tee",
+        "confidence": 24,
+        "bbox": {
+          "x": 106,
+          "y": 14220,
+          "w": 847,
+          "h": 119
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

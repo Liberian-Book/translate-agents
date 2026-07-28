@@ -1,0 +1,528 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-10-4-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/10-4-the-margins-of-empire.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-10-4-3.vi.png",
+  "ocr": [
+    {
+      "text": "Nt Phe",
+      "confidence": 29,
+      "bbox": {
+        "x": 90,
+        "y": 54,
+        "w": 720,
+        "h": 36
+      }
+    },
+    {
+      "text": "— — - ¥ wef TI",
+      "confidence": 29,
+      "bbox": {
+        "x": 90,
+        "y": 127,
+        "w": 720,
+        "h": 36
+      }
+    },
+    {
+      "text": "Th a vy | ee 3 ~; Ba,",
+      "confidence": 29,
+      "bbox": {
+        "x": 90,
+        "y": 200,
+        "w": 720,
+        "h": 36
+      }
+    },
+    {
+      "text": "ew Rg = : LEN",
+      "confidence": 29,
+      "bbox": {
+        "x": 90,
+        "y": 273,
+        "w": 720,
+        "h": 36
+      }
+    },
+    {
+      "text": "er Le NY ig) 4",
+      "confidence": 29,
+      "bbox": {
+        "x": 90,
+        "y": 346,
+        "w": 720,
+        "h": 36
+      }
+    },
+    {
+      "text": "PA Er yo -",
+      "confidence": 29,
+      "bbox": {
+        "x": 90,
+        "y": 419,
+        "w": 720,
+        "h": 36
+      }
+    },
+    {
+      "text": "CR 3 >",
+      "confidence": 29,
+      "bbox": {
+        "x": 90,
+        "y": 492,
+        "w": 720,
+        "h": 36
+      }
+    },
+    {
+      "text": "od a TT TB “r a Nis 5 =",
+      "confidence": 29,
+      "bbox": {
+        "x": 90,
+        "y": 565,
+        "w": 720,
+        "h": 36
+      }
+    },
+    {
+      "text": "= oe ees pA “a 3 SE",
+      "confidence": 29,
+      "bbox": {
+        "x": 90,
+        "y": 638,
+        "w": 720,
+        "h": 36
+      }
+    },
+    {
+      "text": "At li 50.3 ) & Wlae",
+      "confidence": 29,
+      "bbox": {
+        "x": 90,
+        "y": 711,
+        "w": 720,
+        "h": 36
+      }
+    },
+    {
+      "text": "5% IN ct SRY",
+      "confidence": 29,
+      "bbox": {
+        "x": 90,
+        "y": 784,
+        "w": 720,
+        "h": 36
+      }
+    },
+    {
+      "text": "- gp iB o> ) 7",
+      "confidence": 29,
+      "bbox": {
+        "x": 90,
+        "y": 857,
+        "w": 720,
+        "h": 36
+      }
+    },
+    {
+      "text": "» EoBPRS | = - er",
+      "confidence": 29,
+      "bbox": {
+        "x": 90,
+        "y": 930,
+        "w": 720,
+        "h": 36
+      }
+    },
+    {
+      "text": "x 3 . ’ —- J A Ll",
+      "confidence": 29,
+      "bbox": {
+        "x": 90,
+        "y": 1003,
+        "w": 720,
+        "h": 36
+      }
+    },
+    {
+      "text": "2 X Se vig",
+      "confidence": 29,
+      "bbox": {
+        "x": 90,
+        "y": 1076,
+        "w": 720,
+        "h": 36
+      }
+    },
+    {
+      "text": "SEER",
+      "confidence": 29,
+      "bbox": {
+        "x": 90,
+        "y": 1149,
+        "w": 720,
+        "h": 36
+      }
+    },
+    {
+      "text": "Soni",
+      "confidence": 29,
+      "bbox": {
+        "x": 90,
+        "y": 1222,
+        "w": 720,
+        "h": 36
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A picture of two silver coins is shown on a white background. The coins are round and jagged along the edge, with some details rubbed off. The coin on the left shows the profile of a woman looking to the right wearing a headdress with round circular objects around her neck. The letters “ZENOBIAAVG” can be seen going around the other edge of the coin, with the “Z” and the “E” cut off and very faded. The coin on the right shows the outline of a woman in thin flowing robes standing with an object in her right hand and a staff in the left hand. An animal is at her feet and an eight-pointed star is to her right. The words “REGINA” can be seen on the perimeter of the coin with some other letters faded and unreadable.\nButton label: Click to enlarge image of A picture of two silver coins is shown on a white background. The coins are round and jagged along the edge, with some details rubbed off. The coin on the left shows the profile of a woman looking to the right wearing a headdress with round circular objects around her neck. The letters “ZENOBIAAVG” can be seen going around the other edge of the coin, with the “Z” and the “E” cut off and very faded. The coin on the right shows the outline of a woman in thin flowing robes standing with an object in her right hand and a staff in the left hand. An animal is at her feet and an eight-pointed star is to her right. The words “REGINA” can be seen on the perimeter of the coin with some other letters faded and unreadable.\nEnglish caption: Figure 10.20 Queen Zenobia. Issued in 272 CE, this rare silver coin names its subject Zenobia and shows her as queen of Palmyra wearing a royal diadem (left). The reverse of the coin (right) says “Regina” (queen in Latin) and shows the Roman goddess Juno, wife of Jupiter, holding a dish for pouring offerings and a scepter. (credit: “Zenobia” by Classical Numismatic Group/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 1.0784140969162996,
+    "averageConfidence": 29,
+    "entropy": 6.328772359025606,
+    "sharpness": 2.371293373770182
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A picture of two silver coins is shown on a white background. The coins are round and jagged along the edge, with some details rubbed off. The coin on the left shows the profile of a woman looking to the right wearing a headdress with round circular objects around her neck. The letters “ZENOBIAAVG” can be seen going around the other edge of the coin, with the “Z” and the “E” cut off and very faded. The coin on the right shows the outline of a woman in thin flowing robes standing with an object in her right hand and a staff in the left hand. An animal is at her feet and an eight-pointed star is to her right. The words “REGINA” can be seen on the perimeter of the coin with some other letters faded and unreadable.\nButton label: Click to enlarge image of A picture of two silver coins is shown on a white background. The coins are round and jagged along the edge, with some details rubbed off. The coin on the left shows the profile of a woman looking to the right wearing a headdress with round circular objects around her neck. The letters “ZENOBIAAVG” can be seen going around the other edge of the coin, with the “Z” and the “E” cut off and very faded. The coin on the right shows the outline of a woman in thin flowing robes standing with an object in her right hand and a staff in the left hand. An animal is at her feet and an eight-pointed star is to her right. The words “REGINA” can be seen on the perimeter of the coin with some other letters faded and unreadable.\nEnglish caption: Figure 10.20 Queen Zenobia. Issued in 272 CE, this rare silver coin names its subject Zenobia and shows her as queen of Palmyra wearing a royal diadem (left). The reverse of the coin (right) says “Regina” (queen in Latin) and shows the Roman goddess Juno, wife of Jupiter, holding a dish for pouring offerings and a scepter. (credit: “Zenobia” by Classical Numismatic Group/Wikimedia Commons, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Pr os PE ——",
+        "confidence": 24,
+        "bbox": {
+          "x": 177,
+          "y": 107,
+          "w": 1413,
+          "h": 71
+        }
+      },
+      {
+        "text": "; Ree 3 \"8 D pr es es",
+        "confidence": 24,
+        "bbox": {
+          "x": 177,
+          "y": 250,
+          "w": 1413,
+          "h": 71
+        }
+      },
+      {
+        "text": "SIRE a v Ph = > LEI Fras",
+        "confidence": 24,
+        "bbox": {
+          "x": 177,
+          "y": 393,
+          "w": 1413,
+          "h": 71
+        }
+      },
+      {
+        "text": "Cy ILS IE eo LITE",
+        "confidence": 24,
+        "bbox": {
+          "x": 177,
+          "y": 536,
+          "w": 1413,
+          "h": 71
+        }
+      },
+      {
+        "text": "Prams A v nN Sa. a laa A 72) RN Poi,",
+        "confidence": 24,
+        "bbox": {
+          "x": 177,
+          "y": 679,
+          "w": 1413,
+          "h": 71
+        }
+      },
+      {
+        "text": "TOA WT SAA F oe IN 00 rg. nt iy - | | oY",
+        "confidence": 24,
+        "bbox": {
+          "x": 177,
+          "y": 822,
+          "w": 1413,
+          "h": 71
+        }
+      },
+      {
+        "text": "Gi AONE Gr Th PR (SAS BN,",
+        "confidence": 24,
+        "bbox": {
+          "x": 177,
+          "y": 965,
+          "w": 1413,
+          "h": 71
+        }
+      },
+      {
+        "text": "SETS WN pe sataagin, ‘af aera % A APY LHe 2)",
+        "confidence": 24,
+        "bbox": {
+          "x": 177,
+          "y": 1108,
+          "w": 1413,
+          "h": 71
+        }
+      },
+      {
+        "text": "SEE NS PRIVILTY EEA ve, Ny Lok RY REE Wh NY See P-",
+        "confidence": 24,
+        "bbox": {
+          "x": 177,
+          "y": 1251,
+          "w": 1413,
+          "h": 71
+        }
+      },
+      {
+        "text": "PRE. XC ae 1a. SRN AGRARE CE WS ai PR",
+        "confidence": 24,
+        "bbox": {
+          "x": 177,
+          "y": 1394,
+          "w": 1413,
+          "h": 71
+        }
+      },
+      {
+        "text": "0 x RE a (0 hE eg £ A ht REA at 8 Vd PN ;",
+        "confidence": 24,
+        "bbox": {
+          "x": 177,
+          "y": 1537,
+          "w": 1413,
+          "h": 71
+        }
+      },
+      {
+        "text": "ANS ARE a I BN PA. XR BN 1 Ai 5 17 TR",
+        "confidence": 24,
+        "bbox": {
+          "x": 177,
+          "y": 1680,
+          "w": 1413,
+          "h": 71
+        }
+      },
+      {
+        "text": "FORESEES Ur flan Fe FES \\ 5X nN GA 7, ; NB 3 ‘ Sine",
+        "confidence": 24,
+        "bbox": {
+          "x": 177,
+          "y": 1823,
+          "w": 1413,
+          "h": 71
+        }
+      },
+      {
+        "text": "&® ar a os 3 ht A Ske SN",
+        "confidence": 24,
+        "bbox": {
+          "x": 177,
+          "y": 1966,
+          "w": 1413,
+          "h": 71
+        }
+      },
+      {
+        "text": "Su SOR SANT BEE TERETE VF 19) Eres 6 SCE LGR",
+        "confidence": 24,
+        "bbox": {
+          "x": 177,
+          "y": 2109,
+          "w": 1413,
+          "h": 71
+        }
+      },
+      {
+        "text": "5 BO, = PITT oR Ke © A Ty igh i ria PER = 5",
+        "confidence": 24,
+        "bbox": {
+          "x": 177,
+          "y": 2252,
+          "w": 1413,
+          "h": 71
+        }
+      },
+      {
+        "text": "o Heal a, © ANSEL ANTE ela yg k 14 :",
+        "confidence": 24,
+        "bbox": {
+          "x": 177,
+          "y": 2395,
+          "w": 1413,
+          "h": 71
+        }
+      },
+      {
+        "text": "SN SRE Tee Shap SORES Jee 24) BE ey) : td",
+        "confidence": 24,
+        "bbox": {
+          "x": 177,
+          "y": 2538,
+          "w": 1413,
+          "h": 71
+        }
+      },
+      {
+        "text": "Bet WN 20h 8 HATING Aid eR #/ SWE a | y",
+        "confidence": 24,
+        "bbox": {
+          "x": 177,
+          "y": 2681,
+          "w": 1413,
+          "h": 71
+        }
+      },
+      {
+        "text": "Fr > Pa A % ! hs 5 5 EE iy ® by 4 Sa - A t Xit \\ & i £",
+        "confidence": 24,
+        "bbox": {
+          "x": 177,
+          "y": 2824,
+          "w": 1413,
+          "h": 71
+        }
+      },
+      {
+        "text": "oe al: % Fe ih gt Ee Ne oro at 3 | he. RE",
+        "confidence": 24,
+        "bbox": {
+          "x": 177,
+          "y": 2967,
+          "w": 1413,
+          "h": 71
+        }
+      },
+      {
+        "text": ": y CE NEAT a WA SE \\ ® i",
+        "confidence": 24,
+        "bbox": {
+          "x": 177,
+          "y": 3110,
+          "w": 1413,
+          "h": 71
+        }
+      },
+      {
+        "text": "A Foe Fy ee x EL 2)",
+        "confidence": 24,
+        "bbox": {
+          "x": 177,
+          "y": 3253,
+          "w": 1413,
+          "h": 71
+        }
+      },
+      {
+        "text": "- hay a 2 B 5 » 2 | 7 ps ”",
+        "confidence": 24,
+        "bbox": {
+          "x": 177,
+          "y": 3396,
+          "w": 1413,
+          "h": 71
+        }
+      },
+      {
+        "text": "en By A ER > oe A, | { < - 18",
+        "confidence": 24,
+        "bbox": {
+          "x": 177,
+          "y": 3539,
+          "w": 1413,
+          "h": 71
+        }
+      },
+      {
+        "text": "Vo SRL 3 a A | “id",
+        "confidence": 24,
+        "bbox": {
+          "x": 177,
+          "y": 3682,
+          "w": 1413,
+          "h": 71
+        }
+      },
+      {
+        "text": "3 » pe * RW» eS SH | By .",
+        "confidence": 24,
+        "bbox": {
+          "x": 177,
+          "y": 3825,
+          "w": 1413,
+          "h": 71
+        }
+      },
+      {
+        "text": ". ; ¢ A a NP wr",
+        "confidence": 24,
+        "bbox": {
+          "x": 177,
+          "y": 3968,
+          "w": 1413,
+          "h": 71
+        }
+      },
+      {
+        "text": "FX: Rg",
+        "confidence": 24,
+        "bbox": {
+          "x": 177,
+          "y": 4111,
+          "w": 1413,
+          "h": 71
+        }
+      },
+      {
+        "text": "3S ; * . IRVE",
+        "confidence": 24,
+        "bbox": {
+          "x": 177,
+          "y": 4254,
+          "w": 1413,
+          "h": 71
+        }
+      },
+      {
+        "text": "\\ 4 Q SF GR Pe -",
+        "confidence": 24,
+        "bbox": {
+          "x": 177,
+          "y": 4397,
+          "w": 1413,
+          "h": 71
+        }
+      },
+      {
+        "text": "iho Ang Be",
+        "confidence": 24,
+        "bbox": {
+          "x": 177,
+          "y": 4540,
+          "w": 1413,
+          "h": 71
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

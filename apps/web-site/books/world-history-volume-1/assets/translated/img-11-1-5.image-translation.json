@@ -1,0 +1,728 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-11-1-5.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/11-1-the-rise-and-message-of-islam.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-11-1-5.vi.png",
+  "ocr": [
+    {
+      "text": "Black Sea < 0",
+      "confidence": 38,
+      "bbox": {
+        "x": 110,
+        "y": 113,
+        "w": 882,
+        "h": 75
+      }
+    },
+    {
+      "text": "GEORGIA \\%,",
+      "confidence": 38,
+      "bbox": {
+        "x": 110,
+        "y": 264,
+        "w": 882,
+        "h": 75
+      }
+    },
+    {
+      "text": "A + Constantinople o Chalcedon Thilis ot",
+      "confidence": 38,
+      "bbox": {
+        "x": 110,
+        "y": 415,
+        "w": 882,
+        "h": 75
+      }
+    },
+    {
+      "text": "Trabizo",
+      "confidence": 38,
+      "bbox": {
+        "x": 110,
+        "y": 566,
+        "w": 882,
+        "h": 75
+      }
+    },
+    {
+      "text": "on aly, 78 es AR NIA r Lo»",
+      "confidence": 38,
+      "bbox": {
+        "x": 110,
+        "y": 717,
+        "w": 882,
+        "h": 75
+      }
+    },
+    {
+      "text": "a Ankara 2 4 oui =",
+      "confidence": 38,
+      "bbox": {
+        "x": 110,
+        "y": 868,
+        "w": 882,
+        "h": 75
+      }
+    },
+    {
+      "text": "Ss . —Theodoslopolis vin",
+      "confidence": 38,
+      "bbox": {
+        "x": 110,
+        "y": 1019,
+        "w": 882,
+        "h": 75
+      }
+    },
+    {
+      "text": "Wa < es : a",
+      "confidence": 38,
+      "bbox": {
+        "x": 110,
+        "y": 1170,
+        "w": 882,
+        "h": 75
+      }
+    },
+    {
+      "text": "SN Tg Sardis & Mo» er dl A {",
+      "confidence": 38,
+      "bbox": {
+        "x": 110,
+        "y": 1321,
+        "w": 882,
+        "h": 75
+      }
+    },
+    {
+      "text": "Ey “CCT pe vad",
+      "confidence": 38,
+      "bbox": {
+        "x": 110,
+        "y": 1472,
+        "w": 882,
+        "h": 75
+      }
+    },
+    {
+      "text": "0 Te «ort PY x gi artyropolis¥ ~~",
+      "confidence": 38,
+      "bbox": {
+        "x": 110,
+        "y": 1623,
+        "w": 882,
+        "h": 75
+      }
+    },
+    {
+      "text": "FO POAT 4 2 en 3",
+      "confidence": 38,
+      "bbox": {
+        "x": 110,
+        "y": 1774,
+        "w": 882,
+        "h": 75
+      }
+    },
+    {
+      "text": "5 ae “7 2 Herod == eCanzal",
+      "confidence": 38,
+      "bbox": {
+        "x": 110,
+        "y": 1925,
+        "w": 882,
+        "h": 75
+      }
+    },
+    {
+      "text": "4 ‘tioch \\@ Carr} a i",
+      "confidence": 38,
+      "bbox": {
+        "x": 110,
+        "y": 2076,
+        "w": 882,
+        "h": 75
+      }
+    },
+    {
+      "text": "SE LLG 2A surassceldlnicum ®Rayy",
+      "confidence": 38,
+      "bbox": {
+        "x": 110,
+        "y": 2227,
+        "w": 882,
+        "h": 75
+      }
+    },
+    {
+      "text": "-— a Le ZEBNN 2 ®Hamadan",
+      "confidence": 38,
+      "bbox": {
+        "x": 110,
+        "y": 2378,
+        "w": 882,
+        "h": 75
+      }
+    },
+    {
+      "text": "i. CircesfTaN,",
+      "confidence": 38,
+      "bbox": {
+        "x": 110,
+        "y": 2529,
+        "w": 882,
+        "h": 75
+      }
+    },
+    {
+      "text": "A Palmyra “AN Nihavand",
+      "confidence": 38,
+      "bbox": {
+        "x": 110,
+        "y": 2680,
+        "w": 882,
+        "h": 75
+      }
+    },
+    {
+      "text": "id R tesiphon Isfahan",
+      "confidence": 38,
+      "bbox": {
+        "x": 110,
+        "y": 2831,
+        "w": 882,
+        "h": 75
+      }
+    },
+    {
+      "text": ". ry. a WN WN",
+      "confidence": 38,
+      "bbox": {
+        "x": 110,
+        "y": 2982,
+        "w": 882,
+        "h": 75
+      }
+    },
+    {
+      "text": "+\" [Dead s >",
+      "confidence": 38,
+      "bbox": {
+        "x": 110,
+        "y": 3133,
+        "w": 882,
+        "h": 75
+      }
+    },
+    {
+      "text": "Alexand A ced Fi X.",
+      "confidence": 38,
+      "bbox": {
+        "x": 110,
+        "y": 3284,
+        "w": 882,
+        "h": 75
+      }
+    },
+    {
+      "text": "§ 4 Istakhrg",
+      "confidence": 38,
+      "bbox": {
+        "x": 110,
+        "y": 3435,
+        "w": 882,
+        "h": 75
+      }
+    },
+    {
+      "text": "Memphis oy > Sori",
+      "confidence": 38,
+      "bbox": {
+        "x": 110,
+        "y": 3586,
+        "w": 882,
+        "h": 75
+      }
+    },
+    {
+      "text": "Of",
+      "confidence": 38,
+      "bbox": {
+        "x": 110,
+        "y": 3737,
+        "w": 882,
+        "h": 75
+      }
+    },
+    {
+      "text": "Ey",
+      "confidence": 38,
+      "bbox": {
+        "x": 110,
+        "y": 3888,
+        "w": 882,
+        "h": 75
+      }
+    },
+    {
+      "text": "5 o | rogis =",
+      "confidence": 38,
+      "bbox": {
+        "x": 110,
+        "y": 4039,
+        "w": 882,
+        "h": 75
+      }
+    },
+    {
+      "text": "x KR ig",
+      "confidence": 38,
+      "bbox": {
+        "x": 110,
+        "y": 4190,
+        "w": 882,
+        "h": 75
+      }
+    },
+    {
+      "text": "EGYPT . \\ Za",
+      "confidence": 38,
+      "bbox": {
+        "x": 110,
+        "y": 4341,
+        "w": 882,
+        "h": 75
+      }
+    },
+    {
+      "text": ". » ARABIA [rs",
+      "confidence": 38,
+      "bbox": {
+        "x": 110,
+        "y": 4492,
+        "w": 882,
+        "h": 75
+      }
+    },
+    {
+      "text": "— Kavad I campaigns Sh",
+      "confidence": 38,
+      "bbox": {
+        "x": 110,
+        "y": 4643,
+        "w": 882,
+        "h": 75
+      }
+    },
+    {
+      "text": "— Khosrow I campaigns 73",
+      "confidence": 38,
+      "bbox": {
+        "x": 110,
+        "y": 4794,
+        "w": 882,
+        "h": 75
+      }
+    },
+    {
+      "text": "-» Khosrow II campaigns hs",
+      "confidence": 38,
+      "bbox": {
+        "x": 110,
+        "y": 4945,
+        "w": 882,
+        "h": 75
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A map is shown of the northeastern tip of Egypt, Arabia, and the land north up to the Black Sea, the Caspian Sea at the east and the Aegean Sea to the west. The Persian Gulf (Arabian Gulf) is seen in the southeast portion of the map and the Red Sea is seen in the southwest. Black arrows are seen throughout the map indicating “Kavad I campaigns.” A black arrow begins southeast of the city of Dvin in Armenia and heads west to Theodosiopolis then south to Amida. Southeast of Amida a black arrow begins at Dara and heads west to Edessa. In the southern portion at the city of Ctesiphon along the Tigris River a black arrow begins and travels north along the Euphrates River to Circesium and then through the city of Callinicum and north past Carrhae. Blue arrows are seen on the map indicating “Khosrow I campaigns.” Two blue arrows begin in the same area southeast of Dvin. One blue arrow heads northwest past Tbilisi in Georgia and the other heads toward Theodosiopolis and west almost reaching the city of Caesarea, and then swings back east past Amida and then heads south of Martyropolois. A blue arrow heads from south of Dara west to an area south of Edessa while a blue arrow starts in Antioch and heads east to Edessa and then on to Dara. The final blue arrow begins in Ctesiphon and heads north along the Euphrates River past Circesium and then splits, one going north almost to Edessa. The other blue arrow heads through Callinicum and then splits, one going south past Sergiopolis in Syria and the other heading west past Sura and Beroea and on to Antioch, then south to Apamea. Red dashed arrows are shown indicating “Khosrow II campaigns.” Three red dashed arrows all begin in Antioch. One heads north to Caesarea where it splits – one heading east, one heading north past Ankara and on to Chalcedon, and one heading west to Ephesus on the Aegean Sea. Another red dashed arrow leaves Antioch and heads east toward Dara and then a bit northwest to Amida, and then is also shown heading back from Dara to Antioch. The last red dashed arrow heads south from Antioch past Apamea, Damascus, Caesarea (different from the one in the north), Jerusalem and then heads west to Alexandria.\nButton label: Click to enlarge image of A map is shown of the northeastern tip of Egypt, Arabia, and the land north up to the Black Sea, the Caspian Sea at the east and the Aegean Sea to the west. The Persian Gulf (Arabian Gulf) is seen in the southeast portion of the map and the Red Sea is seen in the southwest. Black arrows are seen throughout the map indicating “Kavad I campaigns.” A black arrow begins southeast of the city of Dvin in Armenia and heads west to Theodosiopolis then south to Amida. Southeast of Amida a black arrow begins at Dara and heads west to Edessa. In the southern portion at the city of Ctesiphon along the Tigris River a black arrow begins and travels north along the Euphrates River to Circesium and then through the city of Callinicum and north past Carrhae. Blue arrows are seen on the map indicating “Khosrow I campaigns.” Two blue arrows begin in the same area southeast of Dvin. One blue arrow heads northwest past Tbilisi in Georgia and the other heads toward Theodosiopolis and west almost reaching the city of Caesarea, and then swings back east past Amida and then heads south of Martyropolois. A blue arrow heads from south of Dara west to an area south of Edessa while a blue arrow starts in Antioch and heads east to Edessa and then on to Dara. The final blue arrow begins in Ctesiphon and heads north along the Euphrates River past Circesium and then splits, one going north almost to Edessa. The other blue arrow heads through Callinicum and then splits, one going south past Sergiopolis in Syria and the other heading west past Sura and Beroea and on to Antioch, then south to Apamea. Red dashed arrows are shown indicating “Khosrow II campaigns.” Three red dashed arrows all begin in Antioch. One heads north to Caesarea where it splits – one head",
+  "metrics": {
+    "textDensity": 2.100958012600262,
+    "averageConfidence": 38,
+    "entropy": 5.096662505129643,
+    "sharpness": 5.673799497162831
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A map is shown of the northeastern tip of Egypt, Arabia, and the land north up to the Black Sea, the Caspian Sea at the east and the Aegean Sea to the west. The Persian Gulf (Arabian Gulf) is seen in the southeast portion of the map and the Red Sea is seen in the southwest. Black arrows are seen throughout the map indicating “Kavad I campaigns.” A black arrow begins southeast of the city of Dvin in Armenia and heads west to Theodosiopolis then south to Amida. Southeast of Amida a black arrow begins at Dara and heads west to Edessa. In the southern portion at the city of Ctesiphon along the Tigris River a black arrow begins and travels north along the Euphrates River to Circesium and then through the city of Callinicum and north past Carrhae. Blue arrows are seen on the map indicating “Khosrow I campaigns.” Two blue arrows begin in the same area southeast of Dvin. One blue arrow heads northwest past Tbilisi in Georgia and the other heads toward Theodosiopolis and west almost reaching the city of Caesarea, and then swings back east past Amida and then heads south of Martyropolois. A blue arrow heads from south of Dara west to an area south of Edessa while a blue arrow starts in Antioch and heads east to Edessa and then on to Dara. The final blue arrow begins in Ctesiphon and heads north along the Euphrates River past Circesium and then splits, one going north almost to Edessa. The other blue arrow heads through Callinicum and then splits, one going south past Sergiopolis in Syria and the other heading west past Sura and Beroea and on to Antioch, then south to Apamea. Red dashed arrows are shown indicating “Khosrow II campaigns.” Three red dashed arrows all begin in Antioch. One heads north to Caesarea where it splits – one heading east, one heading north past Ankara and on to Chalcedon, and one heading west to Ephesus on the Aegean Sea. Another red dashed arrow leaves Antioch and heads east toward Dara and then a bit northwest to Amida, and then is also shown heading back from Dara to Antioch. The last red dashed arrow heads south from Antioch past Apamea, Damascus, Caesarea (different from the one in the north), Jerusalem and then heads west to Alexandria.\nButton label: Click to enlarge image of A map is shown of the northeastern tip of Egypt, Arabia, and the land north up to the Black Sea, the Caspian Sea at the east and the Aegean Sea to the west. The Persian Gulf (Arabian Gulf) is seen in the southeast portion of the map and the Red Sea is seen in the southwest. Black arrows are seen throughout the map indicating “Kavad I campaigns.” A black arrow begins southeast of the city of Dvin in Armenia and heads west to Theodosiopolis then south to Amida. Southeast of Amida a black arrow begins at Dara and heads west to Edessa. In the southern portion at the city of Ctesiphon along the Tigris River a black arrow begins and travels north along the Euphrates River to Circesium and then through the city of Callinicum and north past Carrhae. Blue arrows are seen on the map indicating “Khosrow I campaigns.” Two blue arrows begin in the same area southeast of Dvin. One blue arrow heads northwest past Tbilisi in Georgia and the other heads toward Theodosiopolis and west almost reaching the city of Caesarea, and then swings back east past Amida and then heads south of Martyropolois. A blue arrow heads from south of Dara west to an area south of Edessa while a blue arrow starts in Antioch and heads east to Edessa and then on to Dara. The final blue arrow begins in Ctesiphon and heads north along the Euphrates River past Circesium and then splits, one going north almost to Edessa. The other blue arrow heads through Callinicum and then splits, one going south past Sergiopolis in Syria and the other heading west past Sura and Beroea and on to Antioch, then south to Apamea. Red dashed arrows are shown indicating “Khosrow II campaigns.” Three red dashed arrows all begin in Antioch. One heads north to Caesarea where it splits – one head\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: armenia, ctesiphon, carrhae, khosrow, caesarea, sergiopolis, syria, sura, apamea, chalcedon, ephesus, damascus, jerusalem, alexandria. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Bién Den N",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 139,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": "7S GRU-DI-A i",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 324,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": "Cons:tan-ti-nd-po-li Ke Tbicli-si 5.",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 509,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": "ns ait: =r 2 - %",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 694,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": "2 ~F AC-MENILA NC,",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 879,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": ". Ey Se An-caza © Dyin =",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 1064,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": "- pS ¥- 4 The-o-d0-si-0-po-l =) {",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 1249,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": "SIN e Xicdi & ~~",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 1434,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": "5 Ne £-phéxo zt--\") Ke-xa-réa 2",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 1619,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": "ef SOIREE Es patag oO Mictiropoli",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 1804,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": "pL ec p . enn",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 1989,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": "9 > po <A a © Can-dic",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 2174,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": "7 i “eBegoa Ne Carrhai 2",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 2359,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": "S— 4 An-tiéte Le es or we 4",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 2544,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": "er L Tpamsa Yicgiopoi 4 © Ha-ma-dan",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 2729,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": ", SA",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 2914,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": "I-RI-A Xiéc-xium 3",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 3099,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": "J # pana NE Ni-ha-vin",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 3284,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": ". fos",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 3469,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": "Damita/e) ® Da-mit NN Cg-té-xi-phon © Is-fa-han",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 3654,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": "Ké-xa-ré-a y",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 3839,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": "il -sa-l LJ",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 4024,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": "Sit rualetd 81 pion cnet",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 4209,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": "A-lé-ch-xan-dri-a®<€ <--",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 4394,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": "Yxta-ky",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 4579,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": "Mem-phit °",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 4764,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": "E «1 Bi-sa-pg",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 4949,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": "s ~ Fras",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 5134,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": "yt 84 Fain",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 5319,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": "Ay Ce Lo",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 5504,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": "AI CAP 2",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 5689,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": "A RAP Er",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 5874,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": "—> Cc chién dich cla Ca-va-dé I =",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 6059,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": "mr Rh ean =",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 6244,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": "—>» Céc chién dich cia Khd-xrd I ©",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 6429,
+          "w": 1085,
+          "h": 93
+        }
+      },
+      {
+        "text": "--» Cac chién dich cia Kho-xrd II",
+        "confidence": 38,
+        "bbox": {
+          "x": 136,
+          "y": 6614,
+          "w": 1085,
+          "h": 93
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 3
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

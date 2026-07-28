@@ -1,0 +1,528 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-12-1-7.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/12-1-the-indian-ocean-world-in-the-early-middle-ages.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-12-1-7.vi.png",
+  "ocr": [
+    {
+      "text": "\\ { b, Sea of Japan",
+      "confidence": 44,
+      "bbox": {
+        "x": 90,
+        "y": 88,
+        "w": 721,
+        "h": 58
+      }
+    },
+    {
+      "text": "RW (- SN",
+      "confidence": 44,
+      "bbox": {
+        "x": 90,
+        "y": 205,
+        "w": 721,
+        "h": 58
+      }
+    },
+    {
+      "text": "yo 3 A A ;",
+      "confidence": 44,
+      "bbox": {
+        "x": 90,
+        "y": 322,
+        "w": 721,
+        "h": 58
+      }
+    },
+    {
+      "text": "/ ar i ZR A /",
+      "confidence": 44,
+      "bbox": {
+        "x": 90,
+        "y": 439,
+        "w": 721,
+        "h": 58
+      }
+    },
+    {
+      "text": "Beijing # { & A, § /",
+      "confidence": 44,
+      "bbox": {
+        "x": 90,
+        "y": 556,
+        "w": 721,
+        "h": 58
+      }
+    },
+    {
+      "text": "Va NPV Ng § wo",
+      "confidence": 44,
+      "bbox": {
+        "x": 90,
+        "y": 673,
+        "w": 721,
+        "h": 58
+      }
+    },
+    {
+      "text": ", es, NE , rt Ee = a 3",
+      "confidence": 44,
+      "bbox": {
+        "x": 90,
+        "y": 790,
+        "w": 721,
+        "h": 58
+      }
+    },
+    {
+      "text": "BN J Ee A Co pd ie A981 PA",
+      "confidence": 44,
+      "bbox": {
+        "x": 90,
+        "y": 907,
+        "w": 721,
+        "h": 58
+      }
+    },
+    {
+      "text": "y ¥ £)s Vi 4 < hh BY Veg",
+      "confidence": 44,
+      "bbox": {
+        "x": 90,
+        "y": 1024,
+        "w": 721,
+        "h": 58
+      }
+    },
+    {
+      "text": ") g FE of ES Ti 5)",
+      "confidence": 44,
+      "bbox": {
+        "x": 90,
+        "y": 1141,
+        "w": 721,
+        "h": 58
+      }
+    },
+    {
+      "text": "( N $ / 7 Yellow Sea & a",
+      "confidence": 44,
+      "bbox": {
+        "x": 90,
+        "y": 1258,
+        "w": 721,
+        "h": 58
+      }
+    },
+    {
+      "text": "{ 7 4) aa",
+      "confidence": 44,
+      "bbox": {
+        "x": 90,
+        "y": 1375,
+        "w": 721,
+        "h": 58
+      }
+    },
+    {
+      "text": "\\ Cg Pon, Mis, \\",
+      "confidence": 44,
+      "bbox": {
+        "x": 90,
+        "y": 1492,
+        "w": 721,
+        "h": 58
+      }
+    },
+    {
+      "text": "\\ eS An ers, \\",
+      "confidence": 44,
+      "bbox": {
+        "x": 90,
+        "y": 1609,
+        "w": 721,
+        "h": 58
+      }
+    },
+    {
+      "text": "NC or = 4, HUAFYANG,",
+      "confidence": 44,
+      "bbox": {
+        "x": 90,
+        "y": 1726,
+        "w": 721,
+        "h": 58
+      }
+    },
+    {
+      "text": "p- Bian River gwi- J CANAL ——",
+      "confidence": 44,
+      "bbox": {
+        "x": 90,
+        "y": 1843,
+        "w": 721,
+        "h": 58
+      }
+    },
+    {
+      "text": "( Pe TONGJI CANAL rd ~~",
+      "confidence": 44,
+      "bbox": {
+        "x": 90,
+        "y": 1960,
+        "w": 721,
+        "h": 58
+      }
+    },
+    {
+      "text": "\\4 RAED",
+      "confidence": 44,
+      "bbox": {
+        "x": 90,
+        "y": 2077,
+        "w": 721,
+        "h": 58
+      }
+    },
+    {
+      "text": "Luoyang (ABANDONED) p Suzhor=%_ )",
+      "confidence": 44,
+      "bbox": {
+        "x": 90,
+        "y": 2194,
+        "w": 721,
+        "h": 58
+      }
+    },
+    {
+      "text": "JANGNAN CANAL % 7 ©",
+      "confidence": 44,
+      "bbox": {
+        "x": 90,
+        "y": 2311,
+        "w": 721,
+        "h": 58
+      }
+    },
+    {
+      "text": "- pt Huthou of) &: a",
+      "confidence": 44,
+      "bbox": {
+        "x": 90,
+        "y": 2428,
+        "w": 721,
+        "h": 58
+      }
+    },
+    {
+      "text": "~ LY A Hangzhou A\" zugfiane |",
+      "confidence": 44,
+      "bbox": {
+        "x": 90,
+        "y": 2545,
+        "w": 721,
+        "h": 58
+      }
+    },
+    {
+      "text": "Y pe rE) CANALS East China Sea",
+      "confidence": 44,
+      "bbox": {
+        "x": 90,
+        "y": 2662,
+        "w": 721,
+        "h": 58
+      }
+    },
+    {
+      "text": "— Ne / LEY k7",
+      "confidence": 44,
+      "bbox": {
+        "x": 90,
+        "y": 2779,
+        "w": 721,
+        "h": 58
+      }
+    },
+    {
+      "text": "/ TY { of",
+      "confidence": 44,
+      "bbox": {
+        "x": 90,
+        "y": 2896,
+        "w": 721,
+        "h": 58
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A map is shown with land in the western portion highlighted beige and water in the eastern section highlighted blue. The Sea of Japan is labelled in the northeast, the Yellow Sea is labelled in the east, and the East China Sea is labeled in the southeast. The city of Beijing is labelled in the north, the city of Luoyang is labelled in the southwest and the city of Hangzhou is labelled in the south. All are labelled with pink triangles. The cities of Suzhou and Huzhou are labelled with black dots by the East China Sea. South of Beijing, the Tanghul River is labelled, the Wei River is labelled south of that, and the Hunong River, the Middle River, and the Bian River are labelled east of the city of Luoyang. A thick orange line begins at the city of Beijing and heats east, then south along the Wei River, where it is labelled “Northern Canal.” It continues southeast along the Hunong and Middle Rivers where it is labelled the Huai-Yang Canal. It continues southeast toward the city of Suzhou where it is labelled the “Jiangnan Canal.” Then it heads east toward the East China Sea where it is labelled the “East Zhejiang Canal.” A thick purple line runs from the city of Luoyang northeast and meets up with the Southern Canal. Another thick purple line also starts at Luoyang and heads east along the Bian River and stops right before the Hui-Yang Canal.\nButton label: Click to enlarge image of A map is shown with land in the western portion highlighted beige and water in the eastern section highlighted blue. The Sea of Japan is labelled in the northeast, the Yellow Sea is labelled in the east, and the East China Sea is labeled in the southeast. The city of Beijing is labelled in the north, the city of Luoyang is labelled in the southwest and the city of Hangzhou is labelled in the south. All are labelled with pink triangles. The cities of Suzhou and Huzhou are labelled with black dots by the East China Sea. South of Beijing, the Tanghul River is labelled, the Wei River is labelled south of that, and the Hunong River, the Middle River, and the Bian River are labelled east of the city of Luoyang. A thick orange line begins at the city of Beijing and heats east, then south along the Wei River, where it is labelled “Northern Canal.” It continues southeast along the Hunong and Middle Rivers where it is labelled the Huai-Yang Canal. It continues southeast toward the city of Suzhou where it is labelled the “Jiangnan Canal.” Then it heads east toward the East China Sea where it is labelled the “East Zhejiang Canal.” A thick purple line runs from the city of Luoyang northeast and meets up with the Southern Canal. Another thick purple line also starts at Luoyang and heads east along the Bian River and stops right before the Hui-Yang Canal.\nEnglish caption: Figure 12.9 China’s Grand Canal. This map of China’s Grand Canal shows how it connects the country’s north and south, just as rivers connect the east and west. The canal became critical to centralizing control of the Sui Empire. Its primary route is shown in orange, while the purple indicates shorter-lived expansions constructed to connect the southern Chinese provinces with this important economic thoroughfare. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 1.5873076123049172,
+    "averageConfidence": 44,
+    "entropy": 4.564973615229974,
+    "sharpness": 4.091113911460925
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A map is shown with land in the western portion highlighted beige and water in the eastern section highlighted blue. The Sea of Japan is labelled in the northeast, the Yellow Sea is labelled in the east, and the East China Sea is labeled in the southeast. The city of Beijing is labelled in the north, the city of Luoyang is labelled in the southwest and the city of Hangzhou is labelled in the south. All are labelled with pink triangles. The cities of Suzhou and Huzhou are labelled with black dots by the East China Sea. South of Beijing, the Tanghul River is labelled, the Wei River is labelled south of that, and the Hunong River, the Middle River, and the Bian River are labelled east of the city of Luoyang. A thick orange line begins at the city of Beijing and heats east, then south along the Wei River, where it is labelled “Northern Canal.” It continues southeast along the Hunong and Middle Rivers where it is labelled the Huai-Yang Canal. It continues southeast toward the city of Suzhou where it is labelled the “Jiangnan Canal.” Then it heads east toward the East China Sea where it is labelled the “East Zhejiang Canal.” A thick purple line runs from the city of Luoyang northeast and meets up with the Southern Canal. Another thick purple line also starts at Luoyang and heads east along the Bian River and stops right before the Hui-Yang Canal.\nButton label: Click to enlarge image of A map is shown with land in the western portion highlighted beige and water in the eastern section highlighted blue. The Sea of Japan is labelled in the northeast, the Yellow Sea is labelled in the east, and the East China Sea is labeled in the southeast. The city of Beijing is labelled in the north, the city of Luoyang is labelled in the southwest and the city of Hangzhou is labelled in the south. All are labelled with pink triangles. The cities of Suzhou and Huzhou are labelled with black dots by the East China Sea. South of Beijing, the Tanghul River is labelled, the Wei River is labelled south of that, and the Hunong River, the Middle River, and the Bian River are labelled east of the city of Luoyang. A thick orange line begins at the city of Beijing and heats east, then south along the Wei River, where it is labelled “Northern Canal.” It continues southeast along the Hunong and Middle Rivers where it is labelled the Huai-Yang Canal. It continues southeast toward the city of Suzhou where it is labelled the “Jiangnan Canal.” Then it heads east toward the East China Sea where it is labelled the “East Zhejiang Canal.” A thick purple line runs from the city of Luoyang northeast and meets up with the Southern Canal. Another thick purple line also starts at Luoyang and heads east along the Bian River and stops right before the Hui-Yang Canal.\nEnglish caption: Figure 12.9 China’s Grand Canal. This map of China’s Grand Canal shows how it connects the country’s north and south, just as rivers connect the east and west. The canal became critical to centralizing control of the Sui Empire. Its primary route is shown in orange, while the purple indicates shorter-lived expansions constructed to connect the southern Chinese provinces with this important economic thoroughfare. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Bién Nhat Ban",
+        "confidence": 48,
+        "bbox": {
+          "x": 139,
+          "y": 136,
+          "w": 1113,
+          "h": 90
+        }
+      },
+      {
+        "text": "LJ) q",
+        "confidence": 48,
+        "bbox": {
+          "x": 139,
+          "y": 317,
+          "w": 1113,
+          "h": 90
+        }
+      },
+      {
+        "text": "1S & Gv",
+        "confidence": 48,
+        "bbox": {
+          "x": 139,
+          "y": 498,
+          "w": 1113,
+          "h": 90
+        }
+      },
+      {
+        "text": "re To =k",
+        "confidence": 48,
+        "bbox": {
+          "x": 139,
+          "y": 679,
+          "w": 1113,
+          "h": 90
+        }
+      },
+      {
+        "text": "Bic Kinh RT",
+        "confidence": 48,
+        "bbox": {
+          "x": 139,
+          "y": 860,
+          "w": 1113,
+          "h": 90
+        }
+      },
+      {
+        "text": "Gy BN Y%, 9 3",
+        "confidence": 48,
+        "bbox": {
+          "x": 139,
+          "y": 1041,
+          "w": 1113,
+          "h": 90
+        }
+      },
+      {
+        "text": "By Ho > i",
+        "confidence": 48,
+        "bbox": {
+          "x": 139,
+          "y": 1222,
+          "w": 1113,
+          "h": 90
+        }
+      },
+      {
+        "text": "ly . 3 §",
+        "confidence": 48,
+        "bbox": {
+          "x": 139,
+          "y": 1403,
+          "w": 1113,
+          "h": 90
+        }
+      },
+      {
+        "text": "= AE\"",
+        "confidence": 48,
+        "bbox": {
+          "x": 139,
+          "y": 1584,
+          "w": 1113,
+          "h": 90
+        }
+      },
+      {
+        "text": "= we [be hg:",
+        "confidence": 48,
+        "bbox": {
+          "x": 139,
+          "y": 1765,
+          "w": 1113,
+          "h": 90
+        }
+      },
+      {
+        "text": "SHE. « Io",
+        "confidence": 48,
+        "bbox": {
+          "x": 139,
+          "y": 1946,
+          "w": 1113,
+          "h": 90
+        }
+      },
+      {
+        "text": "Sf & . 4",
+        "confidence": 48,
+        "bbox": {
+          "x": 139,
+          "y": 2127,
+          "w": 1113,
+          "h": 90
+        }
+      },
+      {
+        "text": "3 et a",
+        "confidence": 48,
+        "bbox": {
+          "x": 139,
+          "y": 2308,
+          "w": 1113,
+          "h": 90
+        }
+      },
+      {
+        "text": "oang Hai i",
+        "confidence": 48,
+        "bbox": {
+          "x": 139,
+          "y": 2489,
+          "w": 1113,
+          "h": 90
+        }
+      },
+      {
+        "text": "A Pp Sono",
+        "confidence": 48,
+        "bbox": {
+          "x": 139,
+          "y": 2670,
+          "w": 1113,
+          "h": 90
+        }
+      },
+      {
+        "text": "«5 2 “ody ; 1 up, Hy A",
+        "confidence": 48,
+        "bbox": {
+          "x": 139,
+          "y": 2851,
+          "w": 1113,
+          "h": 90
+        }
+      },
+      {
+        "text": "&® % pr en” KENH HOAI-DUONG",
+        "confidence": 48,
+        "bbox": {
+          "x": 139,
+          "y": 3032,
+          "w": 1113,
+          "h": 90
+        }
+      },
+      {
+        "text": "ong Bien",
+        "confidence": 48,
+        "bbox": {
+          "x": 139,
+          "y": 3213,
+          "w": 1113,
+          "h": 90
+        }
+      },
+      {
+        "text": ", KENH THONG TE Zo on od",
+        "confidence": 48,
+        "bbox": {
+          "x": 139,
+          "y": 3394,
+          "w": 1113,
+          "h": 90
+        }
+      },
+      {
+        "text": "Lac Duong (PA BO HOANG) To Chau - :",
+        "confidence": 48,
+        "bbox": {
+          "x": 139,
+          "y": 3575,
+          "w": 1113,
+          "h": 90
+        }
+      },
+      {
+        "text": "KENH GIANG NAM FA",
+        "confidence": 48,
+        "bbox": {
+          "x": 139,
+          "y": 3756,
+          "w": 1113,
+          "h": 90
+        }
+      },
+      {
+        "text": "I Hé Chiu ® WS oe",
+        "confidence": 48,
+        "bbox": {
+          "x": 139,
+          "y": 3937,
+          "w": 1113,
+          "h": 90
+        }
+      },
+      {
+        "text": "Hang Chau A™ KNn CHIET GIANG |",
+        "confidence": 48,
+        "bbox": {
+          "x": 139,
+          "y": 4118,
+          "w": 1113,
+          "h": 90
+        }
+      },
+      {
+        "text": "PHIARONG Bién Hoa Pong - |",
+        "confidence": 48,
+        "bbox": {
+          "x": 139,
+          "y": 4299,
+          "w": 1113,
+          "h": 90
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

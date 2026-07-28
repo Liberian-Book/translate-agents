@@ -1,0 +1,568 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-12-3-6.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/12-3-border-states-sogdiana-korea-and-japan.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-12-3-6.vi.png",
+  "ocr": [
+    {
+      "text": "| EY FA TN | gp on ei pe SES pr ee)",
+      "confidence": 28,
+      "bbox": {
+        "x": 120,
+        "y": 73,
+        "w": 960,
+        "h": 49
+      }
+    },
+    {
+      "text": "wR a | Sey AR Fadl fy | £2 pO iif",
+      "confidence": 28,
+      "bbox": {
+        "x": 120,
+        "y": 170,
+        "w": 960,
+        "h": 49
+      }
+    },
+    {
+      "text": "ig A TING IE ai eh, » £ APA",
+      "confidence": 28,
+      "bbox": {
+        "x": 120,
+        "y": 267,
+        "w": 960,
+        "h": 49
+      }
+    },
+    {
+      "text": "| leat - ro ; A ju R ri LHR B | (fli [IH ii fi gis",
+      "confidence": 28,
+      "bbox": {
+        "x": 120,
+        "y": 364,
+        "w": 960,
+        "h": 49
+      }
+    },
+    {
+      "text": "Fre ul | en ged | [RUMEHEHIE YZ HIE",
+      "confidence": 28,
+      "bbox": {
+        "x": 120,
+        "y": 461,
+        "w": 960,
+        "h": 49
+      }
+    },
+    {
+      "text": "Be ge. eal oo ll TTT oN SE JHA ll)12¢ Gg il",
+      "confidence": 28,
+      "bbox": {
+        "x": 120,
+        "y": 558,
+        "w": 960,
+        "h": 49
+      }
+    },
+    {
+      "text": "aes C8 lam ol SN ar a ITE ay | |",
+      "confidence": 28,
+      "bbox": {
+        "x": 120,
+        "y": 655,
+        "w": 960,
+        "h": 49
+      }
+    },
+    {
+      "text": "iA TE CR ae. es",
+      "confidence": 28,
+      "bbox": {
+        "x": 120,
+        "y": 752,
+        "w": 960,
+        "h": 49
+      }
+    },
+    {
+      "text": "I=\", 8% all 6%, cc 9 JILIN Tie TY",
+      "confidence": 28,
+      "bbox": {
+        "x": 120,
+        "y": 849,
+        "w": 960,
+        "h": 49
+      }
+    },
+    {
+      "text": "— %Waesx=\"l 8 8 = | gs AT",
+      "confidence": 28,
+      "bbox": {
+        "x": 120,
+        "y": 946,
+        "w": 960,
+        "h": 49
+      }
+    },
+    {
+      "text": "} ~ 1 (EY 4} 1S: 4 | Pas S85 TT) ea ll",
+      "confidence": 28,
+      "bbox": {
+        "x": 120,
+        "y": 1043,
+        "w": 960,
+        "h": 49
+      }
+    },
+    {
+      "text": "J Ar / 4 | =o a) poly hed aa]",
+      "confidence": 28,
+      "bbox": {
+        "x": 120,
+        "y": 1140,
+        "w": 960,
+        "h": 49
+      }
+    },
+    {
+      "text": "—— g pram | = — 5 — o ars Red Na 7",
+      "confidence": 28,
+      "bbox": {
+        "x": 120,
+        "y": 1237,
+        "w": 960,
+        "h": 49
+      }
+    },
+    {
+      "text": "| ol ) B—_ = En — | 5 h ANS \"o",
+      "confidence": 28,
+      "bbox": {
+        "x": 120,
+        "y": 1334,
+        "w": 960,
+        "h": 49
+      }
+    },
+    {
+      "text": "| FN, : TW Gil | Wt Gh on",
+      "confidence": 28,
+      "bbox": {
+        "x": 120,
+        "y": 1431,
+        "w": 960,
+        "h": 49
+      }
+    },
+    {
+      "text": "| Go J < Da as oy | RE ae Le",
+      "confidence": 28,
+      "bbox": {
+        "x": 120,
+        "y": 1528,
+        "w": 960,
+        "h": 49
+      }
+    },
+    {
+      "text": "a A A Cs a ! EN nd",
+      "confidence": 28,
+      "bbox": {
+        "x": 120,
+        "y": 1625,
+        "w": 960,
+        "h": 49
+      }
+    },
+    {
+      "text": "REL PE ser £% h UX 4",
+      "confidence": 28,
+      "bbox": {
+        "x": 120,
+        "y": 1722,
+        "w": 960,
+        "h": 49
+      }
+    },
+    {
+      "text": "| | E. Sy Pa P Zh A a. i MEP a Ta",
+      "confidence": 28,
+      "bbox": {
+        "x": 120,
+        "y": 1819,
+        "w": 960,
+        "h": 49
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: An image in three panels is shown. In the first panel, a woman with a long face, black hair and highly ornate gray, yellow, blue, and orange robes is facing to the left and walking to the right with a yellow fan in her right hand. A dark tree with pale yellow flowers is seen at the right and more tree flowers at the top left. A multi-colored house is seen in the background with white Asian script written on a blue shade at the top of the open wall. Across the bottom are more pale yellow flowers and a small, grated house on a stick with a flared roof in the bottom right. A red oval with Asian script is seen in the bottom left. In the middle panel, a pale woman with sticks in her black hair is walking to the right in a multicolored ornate robe. The same trees and flowers are seen as in the previous panel, but the little house on a stick is in the left corner. The building behind her shows a brown wall with vertical slats at the top. The last panel shows a woman facing to the left in a very ornately decorated robe in a multitude of colors with an elaborate gold headdress with multiple projections on each side. At either side by her waist a head is seen among the clothes. The far face is pale with objects in the hair while the face in front has black curly hair and a long, pointed nose. The building behind her is brown slatted with a brown round dome at the top. The same flowery trees are on both sides and the little house on a stick is at the bottom right.\nButton label: Click to enlarge image of An image in three panels is shown. In the first panel, a woman with a long face, black hair and highly ornate gray, yellow, blue, and orange robes is facing to the left and walking to the right with a yellow fan in her right hand. A dark tree with pale yellow flowers is seen at the right and more tree flowers at the top left. A multi-colored house is seen in the background with white Asian script written on a blue shade at the top of the open wall. Across the bottom are more pale yellow flowers and a small, grated house on a stick with a flared roof in the bottom right. A red oval with Asian script is seen in the bottom left. In the middle panel, a pale woman with sticks in her black hair is walking to the right in a multicolored ornate robe. The same trees and flowers are seen as in the previous panel, but the little house on a stick is in the left corner. The building behind her shows a brown wall with vertical slats at the top. The last panel shows a woman facing to the left in a very ornately decorated robe in a multitude of colors with an elaborate gold headdress with multiple projections on each side. At either side by her waist a head is seen among the clothes. The far face is pale with objects in the hair while the face in front has black curly hair and a long, pointed nose. The building behind her is brown slatted with a brown round dome at the top. The same flowery trees are on both sides and the little house on a stick is at the bottom right.\nEnglish caption: Figure 12.30 Modern Illustrations from The Tale of Genji. In this colorful three-panel woodblock print, Genji (left) is shown entering the Gankiro Teahouse, one of the most famous brothels in nineteenth-century Yokohama. Here the artist, Utagawa Kunisada, is likely blending the sensual imagery in the story of Genji with the sensual atmosphere of the teahouse. (credit: “Prince Genji Visits the Gankirō Tea House” by Bequest of William S. Lieberman, 2005/Metropolitan Museum of Art, Public Domain)",
+  "metrics": {
+    "textDensity": 1.2270181219110379,
+    "averageConfidence": 28,
+    "entropy": 7.288759755843785,
+    "sharpness": 4.534394093652575
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: An image in three panels is shown. In the first panel, a woman with a long face, black hair and highly ornate gray, yellow, blue, and orange robes is facing to the left and walking to the right with a yellow fan in her right hand. A dark tree with pale yellow flowers is seen at the right and more tree flowers at the top left. A multi-colored house is seen in the background with white Asian script written on a blue shade at the top of the open wall. Across the bottom are more pale yellow flowers and a small, grated house on a stick with a flared roof in the bottom right. A red oval with Asian script is seen in the bottom left. In the middle panel, a pale woman with sticks in her black hair is walking to the right in a multicolored ornate robe. The same trees and flowers are seen as in the previous panel, but the little house on a stick is in the left corner. The building behind her shows a brown wall with vertical slats at the top. The last panel shows a woman facing to the left in a very ornately decorated robe in a multitude of colors with an elaborate gold headdress with multiple projections on each side. At either side by her waist a head is seen among the clothes. The far face is pale with objects in the hair while the face in front has black curly hair and a long, pointed nose. The building behind her is brown slatted with a brown round dome at the top. The same flowery trees are on both sides and the little house on a stick is at the bottom right.\nButton label: Click to enlarge image of An image in three panels is shown. In the first panel, a woman with a long face, black hair and highly ornate gray, yellow, blue, and orange robes is facing to the left and walking to the right with a yellow fan in her right hand. A dark tree with pale yellow flowers is seen at the right and more tree flowers at the top left. A multi-colored house is seen in the background with white Asian script written on a blue shade at the top of the open wall. Across the bottom are more pale yellow flowers and a small, grated house on a stick with a flared roof in the bottom right. A red oval with Asian script is seen in the bottom left. In the middle panel, a pale woman with sticks in her black hair is walking to the right in a multicolored ornate robe. The same trees and flowers are seen as in the previous panel, but the little house on a stick is in the left corner. The building behind her shows a brown wall with vertical slats at the top. The last panel shows a woman facing to the left in a very ornately decorated robe in a multitude of colors with an elaborate gold headdress with multiple projections on each side. At either side by her waist a head is seen among the clothes. The far face is pale with objects in the hair while the face in front has black curly hair and a long, pointed nose. The building behind her is brown slatted with a brown round dome at the top. The same flowery trees are on both sides and the little house on a stick is at the bottom right.\nEnglish caption: Figure 12.30 Modern Illustrations from The Tale of Genji. In this colorful three-panel woodblock print, Genji (left) is shown entering the Gankiro Teahouse, one of the most famous brothels in nineteenth-century Yokohama. Here the artist, Utagawa Kunisada, is likely blending the sensual imagery in the story of Genji with the sensual atmosphere of the teahouse. (credit: “Prince Genji Visits the Gankirō Tea House” by Bequest of William S. Lieberman, 2005/Metropolitan Museum of Art, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "iE",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 107,
+          "w": 1412,
+          "h": 71
+        }
+      },
+      {
+        "text": "Sl hol; SFR fp LER",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 250,
+          "w": 1412,
+          "h": 71
+        }
+      },
+      {
+        "text": "i Saals” JUN AR AR. gy TW",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 393,
+          "w": 1412,
+          "h": 71
+        }
+      },
+      {
+        "text": "r— Son VRS IT DSI oS ofs Saale” 315 “8 oF (PS q \"",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 536,
+          "w": 1412,
+          "h": 71
+        }
+      },
+      {
+        "text": "| sien SO a a Ao) ; a oll",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 679,
+          "w": 1412,
+          "h": 71
+        }
+      },
+      {
+        "text": "i cs Sl ged pr Nl Fhe eer i i gel 119 [- ) Ti",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 822,
+          "w": 1412,
+          "h": 71
+        }
+      },
+      {
+        "text": "& +7 a KA biliad 12 7A Zhen | SESH | 1\" Reger 2) (co 2 =| Gn",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 965,
+          "w": 1412,
+          "h": 71
+        }
+      },
+      {
+        "text": "freiimememt iin Boer 100 By | mt pS",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 1108,
+          "w": 1412,
+          "h": 71
+        }
+      },
+      {
+        "text": "mn wey m i 2 Tgtent 2 ~\\ SRS, TTT Me TT sd",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 1251,
+          "w": 1412,
+          "h": 71
+        }
+      },
+      {
+        "text": "inte Senki | L. mil oR 1 [0 Hl, iil |.",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 1394,
+          "w": 1412,
+          "h": 71
+        }
+      },
+      {
+        "text": "4 < ep V/ FX A eZ TMI Fy | B HH if lz lll] |b",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 1537,
+          "w": 1412,
+          "h": 71
+        }
+      },
+      {
+        "text": "2% (yan Tra Gankirg Bah [Lannie RHO hb ny. |",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 1680,
+          "w": 1412,
+          "h": 71
+        }
+      },
+      {
+        "text": "oH (ud ee alr =u hace: BIN TIER E e e |",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 1823,
+          "w": 1412,
+          "h": 71
+        }
+      },
+      {
+        "text": "Ne; JRE 1 Ag 1-48 ER Tedshetnser | HH Ii fa",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 1966,
+          "w": 1412,
+          "h": 71
+        }
+      },
+      {
+        "text": "id a - | mea mo NU Ea. If NI <= a)",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 2109,
+          "w": 1412,
+          "h": 71
+        }
+      },
+      {
+        "text": "Le Nie, ® | Bian 7m, Sas 5 [1 | IF; eg IH",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 2252,
+          "w": 1412,
+          "h": 71
+        }
+      },
+      {
+        "text": "| 2 LN | Fis Sos ww BL se",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 2395,
+          "w": 1412,
+          "h": 71
+        }
+      },
+      {
+        "text": "BUR le Mg 4 2 | | 159 See 9 | AL Jil WV pe.",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 2538,
+          "w": 1412,
+          "h": 71
+        }
+      },
+      {
+        "text": "i. SICA) | CaN. | 25C < ga id",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 2681,
+          "w": 1412,
+          "h": 71
+        }
+      },
+      {
+        "text": "| po Y ar ~~ SESE Nc ~ 2 oh a) : - i ml",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 2824,
+          "w": 1412,
+          "h": 71
+        }
+      },
+      {
+        "text": "—7 Rh A Re) Psa er 3 Sn gf",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 2967,
+          "w": 1412,
+          "h": 71
+        }
+      },
+      {
+        "text": "=\" Ng A ANE aa CA &\" tie",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 3110,
+          "w": 1412,
+          "h": 71
+        }
+      },
+      {
+        "text": "= be 7A \\\" Ney AN I 4 AS] I 3p @ 2 @",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 3253,
+          "w": 1412,
+          "h": 71
+        }
+      },
+      {
+        "text": "- = i < M |B = ST SN Bec - /l 5g AT 2 !",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 3396,
+          "w": 1412,
+          "h": 71
+        }
+      },
+      {
+        "text": "3 % / Se, sepa yj 0 x We py = io. i v 7m",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 3539,
+          "w": 1412,
+          "h": 71
+        }
+      },
+      {
+        "text": "7 | fig 7 | jv SE Li Hi",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 3682,
+          "w": 1412,
+          "h": 71
+        }
+      },
+      {
+        "text": "~Eq ik oO a",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 3825,
+          "w": 1412,
+          "h": 71
+        }
+      },
+      {
+        "text": "Ty» i. Y, > NER ZS “ 4",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 3968,
+          "w": 1412,
+          "h": 71
+        }
+      },
+      {
+        "text": "TE a A A died 2 Y, oR",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 4111,
+          "w": 1412,
+          "h": 71
+        }
+      },
+      {
+        "text": "I \\ 4 \\iiieses wc oo a |",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 4254,
+          "w": 1412,
+          "h": 71
+        }
+      },
+      {
+        "text": "¢q semi] Ni ; :",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 4397,
+          "w": 1412,
+          "h": 71
+        }
+      },
+      {
+        "text": "| § 4 : ? Ni",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 4540,
+          "w": 1412,
+          "h": 71
+        }
+      },
+      {
+        "text": "| 5 BRON! / | 2 :",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 4683,
+          "w": 1412,
+          "h": 71
+        }
+      },
+      {
+        "text": "wy",
+        "confidence": 30,
+        "bbox": {
+          "x": 177,
+          "y": 4826,
+          "w": 1412,
+          "h": 71
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

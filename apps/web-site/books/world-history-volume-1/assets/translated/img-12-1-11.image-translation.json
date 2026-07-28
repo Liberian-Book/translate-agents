@@ -1,0 +1,320 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-12-1-11.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/12-1-the-indian-ocean-world-in-the-early-middle-ages.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-12-1-11.vi.png",
+  "ocr": [
+    {
+      "text": "as em 4 Khitan",
+      "confidence": 41,
+      "bbox": {
+        "x": 178,
+        "y": 213,
+        "w": 1424,
+        "h": 142
+      }
+    },
+    {
+      "text": "oktiirks",
+      "confidence": 41,
+      "bbox": {
+        "x": 178,
+        "y": 498,
+        "w": 1424,
+        "h": 142
+      }
+    },
+    {
+      "text": "2 ~_ Eastern Goktiirks Mongol tribes.",
+      "confidence": 41,
+      "bbox": {
+        "x": 178,
+        "y": 783,
+        "w": 1424,
+        "h": 142
+      }
+    },
+    {
+      "text": "Uighur : Tr es",
+      "confidence": 41,
+      "bbox": {
+        "x": 178,
+        "y": 1068,
+        "w": 1424,
+        "h": 142
+      }
+    },
+    {
+      "text": "Tibetan Empire ’",
+      "confidence": 41,
+      "bbox": {
+        "x": 178,
+        "y": 1353,
+        "w": 1424,
+        "h": 142
+      }
+    },
+    {
+      "text": "ob ( |",
+      "confidence": 41,
+      "bbox": {
+        "x": 178,
+        "y": 1638,
+        "w": 1424,
+        "h": 142
+      }
+    },
+    {
+      "text": "Pe) ANS",
+      "confidence": 41,
+      "bbox": {
+        "x": 178,
+        "y": 1923,
+        "w": 1424,
+        "h": 142
+      }
+    },
+    {
+      "text": "4 A, £ ] fo g=",
+      "confidence": 41,
+      "bbox": {
+        "x": 178,
+        "y": 2208,
+        "w": 1424,
+        "h": 142
+      }
+    },
+    {
+      "text": "N \\ Is 2",
+      "confidence": 41,
+      "bbox": {
+        "x": 178,
+        "y": 2493,
+        "w": 1424,
+        "h": 142
+      }
+    },
+    {
+      "text": "Ih : Chenla hampa 3",
+      "confidence": 41,
+      "bbox": {
+        "x": 178,
+        "y": 2778,
+        "w": 1424,
+        "h": 142
+      }
+    },
+    {
+      "text": "; | - is a Vi A",
+      "confidence": 41,
+      "bbox": {
+        "x": 178,
+        "y": 3063,
+        "w": 1424,
+        "h": 142
+      }
+    },
+    {
+      "text": "2 ¢ ENE D . iE",
+      "confidence": 41,
+      "bbox": {
+        "x": 178,
+        "y": 3348,
+        "w": 1424,
+        "h": 142
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A map is shown with land highlighted in beige and water in the southwest and the east in blue. Along the north, these regions are labelled, from west to east: Western Gokturks, Eastern Gokturks, Uighur, Mongol tribes, and Khitan. Along the south, these regions are labelled, from west to east: Pyu, Chenla, and Champa. An area in the west is labelled Tibetan Empire. A round area on the east coast connected to a small round area in the west by a thin strip of land is highlighted orange and labelled “Tang dynasty.”\nButton label: Click to enlarge image of A map is shown with land highlighted in beige and water in the southwest and the east in blue. Along the north, these regions are labelled, from west to east: Western Gokturks, Eastern Gokturks, Uighur, Mongol tribes, and Khitan. Along the south, these regions are labelled, from west to east: Pyu, Chenla, and Champa. An area in the west is labelled Tibetan Empire. A round area on the east coast connected to a small round area in the west by a thin strip of land is highlighted orange and labelled “Tang dynasty.”\nEnglish caption: Figure 12.13 The Tang Dynasty. This map shows the extent of China’s Tang dynasty at its height in the eighth century. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.7662731871838111,
+    "averageConfidence": 41,
+    "entropy": 5.276635425306722,
+    "sharpness": 2.562082449362579
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A map is shown with land highlighted in beige and water in the southwest and the east in blue. Along the north, these regions are labelled, from west to east: Western Gokturks, Eastern Gokturks, Uighur, Mongol tribes, and Khitan. Along the south, these regions are labelled, from west to east: Pyu, Chenla, and Champa. An area in the west is labelled Tibetan Empire. A round area on the east coast connected to a small round area in the west by a thin strip of land is highlighted orange and labelled “Tang dynasty.”\nButton label: Click to enlarge image of A map is shown with land highlighted in beige and water in the southwest and the east in blue. Along the north, these regions are labelled, from west to east: Western Gokturks, Eastern Gokturks, Uighur, Mongol tribes, and Khitan. Along the south, these regions are labelled, from west to east: Pyu, Chenla, and Champa. An area in the west is labelled Tibetan Empire. A round area on the east coast connected to a small round area in the west by a thin strip of land is highlighted orange and labelled “Tang dynasty.”\nEnglish caption: Figure 12.13 The Tang Dynasty. This map shows the extent of China’s Tang dynasty at its height in the eighth century. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "9 Z dq",
+        "confidence": 45,
+        "bbox": {
+          "x": 125,
+          "y": 150,
+          "w": 1003,
+          "h": 100
+        }
+      },
+      {
+        "text": "= Ty = Khiét Dan",
+        "confidence": 45,
+        "bbox": {
+          "x": 125,
+          "y": 351,
+          "w": 1003,
+          "h": 100
+        }
+      },
+      {
+        "text": "phia Tay 1",
+        "confidence": 45,
+        "bbox": {
+          "x": 125,
+          "y": 552,
+          "w": 1003,
+          "h": 100
+        }
+      },
+      {
+        "text": "»: i Géc Tude Bo toc Mong C8 /W",
+        "confidence": 45,
+        "bbox": {
+          "x": 125,
+          "y": 753,
+          "w": 1003,
+          "h": 100
+        }
+      },
+      {
+        "text": "Q 2 phia Dong",
+        "confidence": 45,
+        "bbox": {
+          "x": 125,
+          "y": 954,
+          "w": 1003,
+          "h": 100
+        }
+      },
+      {
+        "text": "hd ‘ h",
+        "confidence": 45,
+        "bbox": {
+          "x": 125,
+          "y": 1155,
+          "w": 1003,
+          "h": 100
+        }
+      },
+      {
+        "text": "Duy Ngo Nhi ‘ ot]",
+        "confidence": 45,
+        "bbox": {
+          "x": 125,
+          "y": 1356,
+          "w": 1003,
+          "h": 100
+        }
+      },
+      {
+        "text": "{ ay",
+        "confidence": 45,
+        "bbox": {
+          "x": 125,
+          "y": 1557,
+          "w": 1003,
+          "h": 100
+        }
+      },
+      {
+        "text": "Lo] > %",
+        "confidence": 45,
+        "bbox": {
+          "x": 125,
+          "y": 1758,
+          "w": 1003,
+          "h": 100
+        }
+      },
+      {
+        "text": "Dé qudc Tay Tang ¢",
+        "confidence": 45,
+        "bbox": {
+          "x": 125,
+          "y": 1959,
+          "w": 1003,
+          "h": 100
+        }
+      },
+      {
+        "text": "Js ; (| 3",
+        "confidence": 45,
+        "bbox": {
+          "x": 125,
+          "y": 2160,
+          "w": 1003,
+          "h": 100
+        }
+      },
+      {
+        "text": "IN \\ y PY",
+        "confidence": 45,
+        "bbox": {
+          "x": 125,
+          "y": 2361,
+          "w": 1003,
+          "h": 100
+        }
+      },
+      {
+        "text": "LB",
+        "confidence": 45,
+        "bbox": {
+          "x": 125,
+          "y": 2562,
+          "w": 1003,
+          "h": 100
+        }
+      },
+      {
+        "text": "ANN Wor 3",
+        "confidence": 45,
+        "bbox": {
+          "x": 125,
+          "y": 2763,
+          "w": 1003,
+          "h": 100
+        }
+      },
+      {
+        "text": "“77% I Chan Lap ham Pa ¥",
+        "confidence": 45,
+        "bbox": {
+          "x": 125,
+          "y": 2964,
+          "w": 1003,
+          "h": 100
+        }
+      },
+      {
+        "text": "EE a ~~ A",
+        "confidence": 45,
+        "bbox": {
+          "x": 125,
+          "y": 3165,
+          "w": 1003,
+          "h": 100
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": [
+        "tang"
+      ]
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

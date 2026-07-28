@@ -1,0 +1,712 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-11-1-9.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/11-1-the-rise-and-message-of-islam.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "image-edit-leftover-source-english",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Re ee Nera",
+      "confidence": 26,
+      "bbox": {
+        "x": 110,
+        "y": 108,
+        "w": 880,
+        "h": 72
+      }
+    },
+    {
+      "text": "a Ey FE Ca air ae)",
+      "confidence": 26,
+      "bbox": {
+        "x": 110,
+        "y": 252,
+        "w": 880,
+        "h": 72
+      }
+    },
+    {
+      "text": "| = Te, EEE gr == Hr i 5 |",
+      "confidence": 26,
+      "bbox": {
+        "x": 110,
+        "y": 396,
+        "w": 880,
+        "h": 72
+      }
+    },
+    {
+      "text": "| H y { id y | 18 a. me a TE » BH 1 NL p",
+      "confidence": 26,
+      "bbox": {
+        "x": 110,
+        "y": 540,
+        "w": 880,
+        "h": 72
+      }
+    },
+    {
+      "text": "FAT PRE Q PRA Lf",
+      "confidence": 26,
+      "bbox": {
+        "x": 110,
+        "y": 684,
+        "w": 880,
+        "h": 72
+      }
+    },
+    {
+      "text": "lm oe ET ee Ti",
+      "confidence": 26,
+      "bbox": {
+        "x": 110,
+        "y": 828,
+        "w": 880,
+        "h": 72
+      }
+    },
+    {
+      "text": "i ey CESS | |e REE SE $=",
+      "confidence": 26,
+      "bbox": {
+        "x": 110,
+        "y": 972,
+        "w": 880,
+        "h": 72
+      }
+    },
+    {
+      "text": "Ea ed od NY i Il Nas eH AN f",
+      "confidence": 26,
+      "bbox": {
+        "x": 110,
+        "y": 1116,
+        "w": 880,
+        "h": 72
+      }
+    },
+    {
+      "text": "i alarm aal (A SE et LN",
+      "confidence": 26,
+      "bbox": {
+        "x": 110,
+        "y": 1260,
+        "w": 880,
+        "h": 72
+      }
+    },
+    {
+      "text": "hd AV To — all 4 ~ ST A Toe)",
+      "confidence": 26,
+      "bbox": {
+        "x": 110,
+        "y": 1404,
+        "w": 880,
+        "h": 72
+      }
+    },
+    {
+      "text": "Lo Wa | he Reng Ee I",
+      "confidence": 26,
+      "bbox": {
+        "x": 110,
+        "y": 1548,
+        "w": 880,
+        "h": 72
+      }
+    },
+    {
+      "text": "| Sal owl = IIR Sie",
+      "confidence": 26,
+      "bbox": {
+        "x": 110,
+        "y": 1692,
+        "w": 880,
+        "h": 72
+      }
+    },
+    {
+      "text": "I a A &PY Toe a tl ERE RE",
+      "confidence": 26,
+      "bbox": {
+        "x": 110,
+        "y": 1836,
+        "w": 880,
+        "h": 72
+      }
+    },
+    {
+      "text": "As HE i = Ph Sti ge a",
+      "confidence": 26,
+      "bbox": {
+        "x": 110,
+        "y": 1980,
+        "w": 880,
+        "h": 72
+      }
+    },
+    {
+      "text": "| 5 oiiee, 3 ly TU SEL py",
+      "confidence": 26,
+      "bbox": {
+        "x": 110,
+        "y": 2124,
+        "w": 880,
+        "h": 72
+      }
+    },
+    {
+      "text": "| = ’ 1 § = |Z = 15 CRE Td",
+      "confidence": 26,
+      "bbox": {
+        "x": 110,
+        "y": 2268,
+        "w": 880,
+        "h": 72
+      }
+    },
+    {
+      "text": "i, hee a Endl EE SRR",
+      "confidence": 26,
+      "bbox": {
+        "x": 110,
+        "y": 2412,
+        "w": 880,
+        "h": 72
+      }
+    },
+    {
+      "text": "AS rl ress",
+      "confidence": 26,
+      "bbox": {
+        "x": 110,
+        "y": 2556,
+        "w": 880,
+        "h": 72
+      }
+    },
+    {
+      "text": "I! A 3:8 <a A hr 4 a CL A & ar i",
+      "confidence": 26,
+      "bbox": {
+        "x": 110,
+        "y": 2700,
+        "w": 880,
+        "h": 72
+      }
+    },
+    {
+      "text": "I 1 Ne ata] (10) SEE a TENG ET tl",
+      "confidence": 26,
+      "bbox": {
+        "x": 110,
+        "y": 2844,
+        "w": 880,
+        "h": 72
+      }
+    },
+    {
+      "text": "oo (Qt Sind 4] | ba fd 12h J CSE",
+      "confidence": 26,
+      "bbox": {
+        "x": 110,
+        "y": 2988,
+        "w": 880,
+        "h": 72
+      }
+    },
+    {
+      "text": "Br Pe ——————— EE Bl Sm Pe eee]",
+      "confidence": 26,
+      "bbox": {
+        "x": 110,
+        "y": 3132,
+        "w": 880,
+        "h": 72
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A faded picture of a two paneled drawing is shown which depicts one scene. In the lower half of the panel on the right twenty-five men are seated on various colored horses riding toward the left on a greenish background. They all wear hats of various colors and shapes, long colorful coats with designs, belts, and many have beards. Above them a white horse walks alone with a red saddle and beaded reins followed by a brown camel with a red and black embroidered saddle. Fifteen men in colorful long coats and hats stand behind and above the animals with their hands in front of them. Across the top there are four arched panels depicting statues of men sitting cross legged with pants and crowns. They are in knocked over and some are in pieces. The left panel is a continuation of the right panel, depicting twenty-five men dressed as in solid colored long coats and various hats walking toward the left, some with bats, some with swords, and some with their fists in front of them. Toward the top there are statues of idols in pieces on the floor. Seven arched panels run along the left side of the drawing and three across the top depicting statues of men in pants and crowns in pieces. Some are knocked off of pedestals. There is a brown, pear shaped item in front of the second panel from the left which is shown on fire.\nButton label: Click to enlarge image of A faded picture of a two paneled drawing is shown which depicts one scene. In the lower half of the panel on the right twenty-five men are seated on various colored horses riding toward the left on a greenish background. They all wear hats of various colors and shapes, long colorful coats with designs, belts, and many have beards. Above them a white horse walks alone with a red saddle and beaded reins followed by a brown camel with a red and black embroidered saddle. Fifteen men in colorful long coats and hats stand behind and above the animals with their hands in front of them. Across the top there are four arched panels depicting statues of men sitting cross legged with pants and crowns. They are in knocked over and some are in pieces. The left panel is a continuation of the right panel, depicting twenty-five men dressed as in solid colored long coats and various hats walking toward the left, some with bats, some with swords, and some with their fists in front of them. Toward the top there are statues of idols in pieces on the floor. Seven arched panels run along the left side of the drawing and three across the top depicting statues of men in pants and crowns in pieces. Some are knocked off of pedestals. There is a brown, pear shaped item in front of the second panel from the left which is shown on fire.\nEnglish caption: Figure 11.12 Cleansing the Sanctuary of Mecca. In this early nineteenth-century depiction from Kashmir, India, the Muslim army triumphantly enters the sanctuary of Mecca to destroy the idols kept there, which are shown on the top and left edges of the scene. Muhammad is not himself depicted in the image, though the National Library of France, which holds this work, indicates he is depicted as a flame. (credit: “Muhammad destroying idols” by Histoire Geographie 5ieme Nathan/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 1.4111358574610244,
+    "averageConfidence": 26,
+    "entropy": 7.71962091838941,
+    "sharpness": 8.723714784163965
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A faded picture of a two paneled drawing is shown which depicts one scene. In the lower half of the panel on the right twenty-five men are seated on various colored horses riding toward the left on a greenish background. They all wear hats of various colors and shapes, long colorful coats with designs, belts, and many have beards. Above them a white horse walks alone with a red saddle and beaded reins followed by a brown camel with a red and black embroidered saddle. Fifteen men in colorful long coats and hats stand behind and above the animals with their hands in front of them. Across the top there are four arched panels depicting statues of men sitting cross legged with pants and crowns. They are in knocked over and some are in pieces. The left panel is a continuation of the right panel, depicting twenty-five men dressed as in solid colored long coats and various hats walking toward the left, some with bats, some with swords, and some with their fists in front of them. Toward the top there are statues of idols in pieces on the floor. Seven arched panels run along the left side of the drawing and three across the top depicting statues of men in pants and crowns in pieces. Some are knocked off of pedestals. There is a brown, pear shaped item in front of the second panel from the left which is shown on fire.\nButton label: Click to enlarge image of A faded picture of a two paneled drawing is shown which depicts one scene. In the lower half of the panel on the right twenty-five men are seated on various colored horses riding toward the left on a greenish background. They all wear hats of various colors and shapes, long colorful coats with designs, belts, and many have beards. Above them a white horse walks alone with a red saddle and beaded reins followed by a brown camel with a red and black embroidered saddle. Fifteen men in colorful long coats and hats stand behind and above the animals with their hands in front of them. Across the top there are four arched panels depicting statues of men sitting cross legged with pants and crowns. They are in knocked over and some are in pieces. The left panel is a continuation of the right panel, depicting twenty-five men dressed as in solid colored long coats and various hats walking toward the left, some with bats, some with swords, and some with their fists in front of them. Toward the top there are statues of idols in pieces on the floor. Seven arched panels run along the left side of the drawing and three across the top depicting statues of men in pants and crowns in pieces. Some are knocked off of pedestals. There is a brown, pear shaped item in front of the second panel from the left which is shown on fire.\nEnglish caption: Figure 11.12 Cleansing the Sanctuary of Mecca. In this early nineteenth-century depiction from Kashmir, India, the Muslim army triumphantly enters the sanctuary of Mecca to destroy the idols kept there, which are shown on the top and left edges of the scene. Muhammad is not himself depicted in the image, though the National Library of France, which holds this work, indicates he is depicted as a flame. (credit: “Muhammad destroying idols” by Histoire Geographie 5ieme Nathan/Wikimedia Commons, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: mecca, kashmir, muhammad, nathan, wikimedia, commons. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "f= TT 0 EE EF 5 6 1 GE Li | TET EER 1 0 | 1 OR [ ER 29",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 136,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "il =n @Y A Dh Summ axe ll cum aETE ~— Ps",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 317,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "! ~ 4 fe | oN | (i 1) ge A | Ef BR Lage",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 498,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "| = ua | VW VJ il (5 £23 ON Sol | >",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 679,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": ". fF = ar | § | ¢ Th",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 860,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "AF APSF 4 i ra BS",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 1041,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "ih 2 Hl gv | Fm (eprom LH [EN 8 PF andl ME AN | a= Hi",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 1222,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "| mn) [GRE CF 2 : (Wl a EY dl | - 3",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 1403,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "(Fg a ENGST RERCRETH Be",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 1584,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "I eR | Be Er STL | ims STAY We Nag UR",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 1765,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "AR SY Reh EEN ET ree NE |",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 1946,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "ll =e hel Eat TH Te ist ta ge",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 2127,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "== st ET “SI Poy hi i eal Lf Col ory = 5a Sic OER Ro",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 2308,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "Na eo Hl A RN EEE Ts WT",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 2489,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "i HER > URN CRN - R? | yc Naa SAREE Tl of BRIN I",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 2670,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "[ ob, |EnEap~0 arn Al | 0 Aull SSE sa MRE =",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 2851,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "| av 3 4 hy AS LE vied IE re] NE TET las",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 3032,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "Bad 2s s= owl oN",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 3213,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "Cre 4 Cami ASG RNS SER ”",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 3394,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "2 a deg WR Se Seg {IY EAS: WES OE YE i SUA 3",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 3575,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "7. 8 ER UE A To |e EEE ie Tam wd",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 3756,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "ER 28 IE Joao eras JR od",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 3937,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "| N Segre go AS VN 2 | Ho as) | RAR)",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 4118,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "Np Seg Tg eT Haw TANT TN bd",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 4299,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "Lal . @ ar TW Fa | i] = ¥, SY ae PPeibd",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 4480,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "DEEL ARTY Ka |S NER (ECR",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 4661,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "ECs Cay TT bell | fiH ae ESTs SS a 5",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 4842,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "| Le KOU a v7 ry Se AER wi Ji Bole a Sas | rE",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 5023,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "| a —Y { 3 be A 458 A id & : fs CPR or Nn",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 5204,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "JH Rav oe Ey A ESS Wig, o_O",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 5385,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "CTE 0 # = a I kl Rata Re SF 2 NAL: \\l",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 5566,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "p> BRA\" 5 Fol CIE aT 0 a Ya UNS, LS ig",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 5747,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "Io mal gn 0 BoM Es TE EEORT vo ARR",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 5928,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "i Fk 9 | YERy. v= © 1 | HESE- ~Ti SN Ea 10 J",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 6109,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "I LN, #5 ASSN | IEE 2 SE Oo INNS",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 6290,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "rd. a PR HIME 2S HAS fiw) Op, he: |",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 6471,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": ") | EEE: \\ ERR BL (eg) A gr AN a",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 6652,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "Sl \\ EE | bye CFTR {195",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 6833,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "— A ee BE PLY RN",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 7014,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "7 NEARER wee] (| NS Wg SF ANY BEER A AARC",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 7195,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "Hinh 11.12 Thanh tdy Dén thé Thanh dia Mecca.",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 7376,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "Trong tac phdm mé ta dau thé ky 19 nay tir Kashmir, An Do, quan doi Hai gido oai hing tién vao Dén thd Thanh dia Mecca dé pha hy cac tugng than dude ths &",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 7557,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "nhifng tudng nay dude minh hoa 8 cac canh trén va bén trai ctia canh. Nha tién tri Muhammad khong dugc miéu ta trong hinh anh,",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 7738,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "méc du Thu vién Qudc gia Phép, noi luu gilt tac pham nay, cho biét Ngai dude thé hién dui dang ngon lira.",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 7919,
+          "w": 1110,
+          "h": 91
+        }
+      },
+      {
+        "text": "(tin dung: “Muhammad phd hiy tugng than” bdi Lich si Dia ly I6p 5 NXB Nathan/Wikimedia Commons, Mién cong cong)",
+        "confidence": 39,
+        "bbox": {
+          "x": 139,
+          "y": 8100,
+          "w": 1110,
+          "h": 91
+        }
+      }
+    ],
+    "validation": {
+      "ok": false,
+      "reason": "image-edit-leftover-source-english",
+      "leftoverSourceWords": [
+        "mecca",
+        "kashmir",
+        "muhammad",
+        "nathan",
+        "wikimedia",
+        "commons"
+      ]
+    },
+    "validationAttempt": 3
+  }
+}

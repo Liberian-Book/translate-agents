@@ -1,0 +1,371 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-1-2-5.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/1-2-primary-sources.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-1-2-5.vi.png",
+  "ocr": [
+    {
+      "text": "* What is the author's background?",
+      "confidence": 88,
+      "bbox": {
+        "x": 110,
+        "y": 79,
+        "w": 876,
+        "h": 52
+      }
+    },
+    {
+      "text": "* What motivated the author to produce the source?",
+      "confidence": 88,
+      "bbox": {
+        "x": 110,
+        "y": 184,
+        "w": 876,
+        "h": 52
+      }
+    },
+    {
+      "text": "Author",
+      "confidence": 88,
+      "bbox": {
+        "x": 110,
+        "y": 289,
+        "w": 876,
+        "h": 52
+      }
+    },
+    {
+      "text": "* For whom was it written?",
+      "confidence": 88,
+      "bbox": {
+        "x": 110,
+        "y": 394,
+        "w": 876,
+        "h": 52
+      }
+    },
+    {
+      "text": "Audience * Was it meant to be public or private?",
+      "confidence": 88,
+      "bbox": {
+        "x": 110,
+        "y": 499,
+        "w": 876,
+        "h": 52
+      }
+    },
+    {
+      "text": "* Why was the document written?",
+      "confidence": 88,
+      "bbox": {
+        "x": 110,
+        "y": 604,
+        "w": 876,
+        "h": 52
+      }
+    },
+    {
+      "text": "* Was it intended to be a factual account of an event?",
+      "confidence": 88,
+      "bbox": {
+        "x": 110,
+        "y": 709,
+        "w": 876,
+        "h": 52
+      }
+    },
+    {
+      "text": "Intent * Was it meant to persuade?",
+      "confidence": 88,
+      "bbox": {
+        "x": 110,
+        "y": 814,
+        "w": 876,
+        "h": 52
+      }
+    },
+    {
+      "text": "* What was happening when the individual wrote the document?",
+      "confidence": 88,
+      "bbox": {
+        "x": 110,
+        "y": 919,
+        "w": 876,
+        "h": 52
+      }
+    },
+    {
+      "text": "* Was there any sort of intimidation or distress?",
+      "confidence": 88,
+      "bbox": {
+        "x": 110,
+        "y": 1024,
+        "w": 876,
+        "h": 52
+      }
+    },
+    {
+      "text": "Context",
+      "confidence": 88,
+      "bbox": {
+        "x": 110,
+        "y": 1129,
+        "w": 876,
+        "h": 52
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "* What is the author's background?",
+      "normalizedSource": "* What is the author's background?",
+      "target": "* Bối cảnh của tác giả là gì?",
+      "bbox": {
+        "x": 110,
+        "y": 79,
+        "w": 876,
+        "h": 52
+      },
+      "overflow": false
+    },
+    {
+      "source": "* What motivated the author to produce the source?",
+      "normalizedSource": "* What motivated the author to produce the source?",
+      "target": "* Điều gì đã thúc đẩy tác giả sản xuất nguồn tài liệu này?",
+      "bbox": {
+        "x": 110,
+        "y": 184,
+        "w": 876,
+        "h": 52
+      },
+      "overflow": false
+    },
+    {
+      "source": "Author",
+      "normalizedSource": "Author",
+      "target": "Tác giả",
+      "bbox": {
+        "x": 110,
+        "y": 289,
+        "w": 876,
+        "h": 52
+      },
+      "overflow": false
+    },
+    {
+      "source": "* For whom was it written?",
+      "normalizedSource": "* For whom was it written?",
+      "target": "* Ai là đối tượng của tài liệu này?",
+      "bbox": {
+        "x": 110,
+        "y": 394,
+        "w": 876,
+        "h": 52
+      },
+      "overflow": false
+    },
+    {
+      "source": "Audience * Was it meant to be public or private?",
+      "normalizedSource": "Audience * Was it meant to be public or private?",
+      "target": "Đối tượng * Nó được viết cho công chúng hay riêng tư?",
+      "bbox": {
+        "x": 110,
+        "y": 499,
+        "w": 876,
+        "h": 52
+      },
+      "overflow": false
+    },
+    {
+      "source": "* Why was the document written?",
+      "normalizedSource": "* Why was the document written?",
+      "target": "* Tại sao tài liệu này được viết?",
+      "bbox": {
+        "x": 110,
+        "y": 604,
+        "w": 876,
+        "h": 52
+      },
+      "overflow": false
+    },
+    {
+      "source": "* Was it intended to be a factual account of an event?",
+      "normalizedSource": "* Was it intended to be a factual account of an event?",
+      "target": "* Nó có phải là một bản tường thuật sự kiện chính xác không?",
+      "bbox": {
+        "x": 110,
+        "y": 709,
+        "w": 876,
+        "h": 52
+      },
+      "overflow": false
+    },
+    {
+      "source": "Intent * Was it meant to persuade?",
+      "normalizedSource": "Intent * Was it meant to persuade?",
+      "target": "Mục đích * Nó có nhằm thuyết phục không?",
+      "bbox": {
+        "x": 110,
+        "y": 814,
+        "w": 876,
+        "h": 52
+      },
+      "overflow": false
+    },
+    {
+      "source": "* What was happening when the individual wrote the document?",
+      "normalizedSource": "* What was happening when the individual wrote the document?",
+      "target": "* Đã có điều gì xảy ra khi cá nhân viết tài liệu này?",
+      "bbox": {
+        "x": 110,
+        "y": 919,
+        "w": 876,
+        "h": 52
+      },
+      "overflow": false
+    },
+    {
+      "source": "* Was there any sort of intimidation or distress?",
+      "normalizedSource": "* Was there any sort of intimidation or distress?",
+      "target": "* Có bất kỳ sự đe dọa hay lo lắng nào không?",
+      "bbox": {
+        "x": 110,
+        "y": 1024,
+        "w": 876,
+        "h": 52
+      },
+      "overflow": false
+    },
+    {
+      "source": "Context",
+      "normalizedSource": "Context",
+      "target": "Bối cảnh",
+      "bbox": {
+        "x": 110,
+        "y": 1129,
+        "w": 876,
+        "h": 52
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: This is a chart composed of four sections. The section at the top is labeled “Author” and includes the questions “What is the author’s background?” and “What motivated the author to produce the source?” The second section is labeled “Audience” and includes the questions “For whom was it written?” and “Was it meant to be public or private?” The third section is labeled “Intent” and includes the questions “Why was the document written?” and “Was it intended to be a factual account of an event?” and “Was it meant to persuade?” The fourth section is labeled “Context” and includes the questions “What was happening when the individual wrote the document?” and “Was there any sort of intimidation or distress?”\nButton label: Click to enlarge image of This is a chart composed of four sections. The section at the top is labeled “Author” and includes the questions “What is the author’s background?” and “What motivated the author to produce the source?” The second section is labeled “Audience” and includes the questions “For whom was it written?” and “Was it meant to be public or private?” The third section is labeled “Intent” and includes the questions “Why was the document written?” and “Was it intended to be a factual account of an event?” and “Was it meant to persuade?” The fourth section is labeled “Context” and includes the questions “What was happening when the individual wrote the document?” and “Was there any sort of intimidation or distress?”\nEnglish caption: Figure 1.8 Evaluating Primary Sources. These key questions to ask about primary sources help us evaluate the author, audience, intent, and context. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.6986259541984733,
+    "averageConfidence": 88,
+    "entropy": 2.1385979929218593,
+    "sharpness": 6.695864329064339
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: This is a chart composed of four sections. The section at the top is labeled “Author” and includes the questions “What is the author’s background?” and “What motivated the author to produce the source?” The second section is labeled “Audience” and includes the questions “For whom was it written?” and “Was it meant to be public or private?” The third section is labeled “Intent” and includes the questions “Why was the document written?” and “Was it intended to be a factual account of an event?” and “Was it meant to persuade?” The fourth section is labeled “Context” and includes the questions “What was happening when the individual wrote the document?” and “Was there any sort of intimidation or distress?”\nButton label: Click to enlarge image of This is a chart composed of four sections. The section at the top is labeled “Author” and includes the questions “What is the author’s background?” and “What motivated the author to produce the source?” The second section is labeled “Audience” and includes the questions “For whom was it written?” and “Was it meant to be public or private?” The third section is labeled “Intent” and includes the questions “Why was the document written?” and “Was it intended to be a factual account of an event?” and “Was it meant to persuade?” The fourth section is labeled “Context” and includes the questions “What was happening when the individual wrote the document?” and “Was there any sort of intimidation or distress?”\nEnglish caption: Figure 1.8 Evaluating Primary Sources. These key questions to ask about primary sources help us evaluate the author, audience, intent, and context. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- * What is the author's background? => * Bối cảnh của tác giả là gì?\n- * What motivated the author to produce the source? => * Điều gì đã thúc đẩy tác giả sản xuất nguồn tài liệu này?\n- Author => Tác giả\n- * For whom was it written? => * Ai là đối tượng của tài liệu này?\n- Audience * Was it meant to be public or private? => Đối tượng * Nó được viết cho công chúng hay riêng tư?\n- * Why was the document written? => * Tại sao tài liệu này được viết?\n- * Was it intended to be a factual account of an event? => * Nó có phải là một bản tường thuật sự kiện chính xác không?\n- Intent * Was it meant to persuade? => Mục đích * Nó có nhằm thuyết phục không?\n- * What was happening when the individual wrote the document? => * Đã có điều gì xảy ra khi cá nhân viết tài liệu này?\n- * Was there any sort of intimidation or distress? => * Có bất kỳ sự đe dọa hay lo lắng nào không?\n- Context => Bối cảnh\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "* BOi canh cla tac gia la gi?",
+        "confidence": 74,
+        "bbox": {
+          "x": 162,
+          "y": 116,
+          "w": 1298,
+          "h": 78
+        }
+      },
+      {
+        "text": "IEE © Diéu gi da thuc day tac gid san xuat nguon tai liéu nay?",
+        "confidence": 74,
+        "bbox": {
+          "x": 162,
+          "y": 271,
+          "w": 1298,
+          "h": 78
+        }
+      },
+      {
+        "text": "* Ai la doi tugng cua tai liéu nay?",
+        "confidence": 74,
+        "bbox": {
+          "x": 162,
+          "y": 426,
+          "w": 1298,
+          "h": 78
+        }
+      },
+      {
+        "text": "DREGE NO dude viét cho cong ching hay riéng tu?",
+        "confidence": 74,
+        "bbox": {
+          "x": 162,
+          "y": 581,
+          "w": 1298,
+          "h": 78
+        }
+      },
+      {
+        "text": "* Tai sao tai liéu nay dugc viét?",
+        "confidence": 74,
+        "bbox": {
+          "x": 162,
+          "y": 736,
+          "w": 1298,
+          "h": 78
+        }
+      },
+      {
+        "text": "Muc dich * No c6 phai la mot ban tudng thuat su kién chinh xac khong?",
+        "confidence": 74,
+        "bbox": {
+          "x": 162,
+          "y": 891,
+          "w": 1298,
+          "h": 78
+        }
+      },
+      {
+        "text": "all «NG c6 nham thuyét phuc khang?",
+        "confidence": 74,
+        "bbox": {
+          "x": 162,
+          "y": 1046,
+          "w": 1298,
+          "h": 78
+        }
+      },
+      {
+        "text": "* Dai cd diéu gi xay ra khi ca nhan viét tai liéu nay?",
+        "confidence": 74,
+        "bbox": {
+          "x": 162,
+          "y": 1201,
+          "w": 1298,
+          "h": 78
+        }
+      },
+      {
+        "text": "CINE © Co bat ky su de doa hay lo lang nao khong?",
+        "confidence": 74,
+        "bbox": {
+          "x": 162,
+          "y": 1356,
+          "w": 1298,
+          "h": 78
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

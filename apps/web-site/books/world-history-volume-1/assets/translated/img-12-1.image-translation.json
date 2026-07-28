@@ -1,0 +1,354 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-12-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/12-introduction.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-12-1.vi.png",
+  "ocr": [
+    {
+      "text": "1 a ger US Tal Ved & 355 od ny",
+      "confidence": 25,
+      "bbox": {
+        "x": 175,
+        "y": 96,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "SE RT Ee SE ah, 2 Ed. 1",
+      "confidence": 25,
+      "bbox": {
+        "x": 175,
+        "y": 224,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "Era Lal i",
+      "confidence": 25,
+      "bbox": {
+        "x": 175,
+        "y": 352,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "Bc mal od Ws be 5.",
+      "confidence": 25,
+      "bbox": {
+        "x": 175,
+        "y": 480,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "bi Por WH psy, Ur 4D",
+      "confidence": 25,
+      "bbox": {
+        "x": 175,
+        "y": 608,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "Fe: Lu 3 a il 2",
+      "confidence": 25,
+      "bbox": {
+        "x": 175,
+        "y": 736,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "(i i “i Ra vic)",
+      "confidence": 25,
+      "bbox": {
+        "x": 175,
+        "y": 864,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "TB be, Saad a Be PH § %.",
+      "confidence": 25,
+      "bbox": {
+        "x": 175,
+        "y": 992,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "- ES N- SU LB me gl 5 i Pie.",
+      "confidence": 25,
+      "bbox": {
+        "x": 175,
+        "y": 1120,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "3 SE a « £m Ta wr Ee -",
+      "confidence": 25,
+      "bbox": {
+        "x": 175,
+        "y": 1248,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "NC Wiig 2 oe A",
+      "confidence": 25,
+      "bbox": {
+        "x": 175,
+        "y": 1376,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "Sa oss 0S CY ho OE AEE Lg #",
+      "confidence": 25,
+      "bbox": {
+        "x": 175,
+        "y": 1504,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "ey vd Pe, 5 URNS Ste. a as 3",
+      "confidence": 25,
+      "bbox": {
+        "x": 175,
+        "y": 1632,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "Fos f AE SR, badd a",
+      "confidence": 25,
+      "bbox": {
+        "x": 175,
+        "y": 1760,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "’ Eo aT Lar | i fh",
+      "confidence": 25,
+      "bbox": {
+        "x": 175,
+        "y": 1888,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "Pi < Fd be RR : ——",
+      "confidence": 25,
+      "bbox": {
+        "x": 175,
+        "y": 2016,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "| Z4 J ME a",
+      "confidence": 25,
+      "bbox": {
+        "x": 175,
+        "y": 2144,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "; = = Ed E g",
+      "confidence": 25,
+      "bbox": {
+        "x": 175,
+        "y": 2272,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "SER & E §",
+      "confidence": 25,
+      "bbox": {
+        "x": 175,
+        "y": 2400,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "Gh Si = g EH \\",
+      "confidence": 25,
+      "bbox": {
+        "x": 175,
+        "y": 2528,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "Ep rep TIE, : =",
+      "confidence": 25,
+      "bbox": {
+        "x": 175,
+        "y": 2656,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "me of La CERES WE rere Ci em - =",
+      "confidence": 25,
+      "bbox": {
+        "x": 175,
+        "y": 2784,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "9 asd —— > # = ——————————,",
+      "confidence": 25,
+      "bbox": {
+        "x": 175,
+        "y": 2912,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "= nie ae",
+      "confidence": 25,
+      "bbox": {
+        "x": 175,
+        "y": 3040,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "Cals EE) mm Ses BE I REE ar dil",
+      "confidence": 25,
+      "bbox": {
+        "x": 175,
+        "y": 3168,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "Sapan® Conon os ON Zee 7 CE OR RIES TN Bean 2 $ = TL ——",
+      "confidence": 25,
+      "bbox": {
+        "x": 175,
+        "y": 3296,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "1a eed ee Ce Er aman Se a",
+      "confidence": 25,
+      "bbox": {
+        "x": 175,
+        "y": 3424,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "¢ Ee 2 agp TE Sos SSIES sent eet TES e Eo a",
+      "confidence": 25,
+      "bbox": {
+        "x": 175,
+        "y": 3552,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "i 5 % oN fe CHT ey EN a TR AT Senate",
+      "confidence": 25,
+      "bbox": {
+        "x": 175,
+        "y": 3680,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "§ Ea a ssh EE a ETERS",
+      "confidence": 25,
+      "bbox": {
+        "x": 175,
+        "y": 3808,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "oc DEL a SS Sa SE Se TE ae",
+      "confidence": 25,
+      "bbox": {
+        "x": 175,
+        "y": 3936,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "2 BV RHE es ne ee SHI pe SR en kha",
+      "confidence": 25,
+      "bbox": {
+        "x": 175,
+        "y": 4064,
+        "w": 1400,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: In the background of this picture, a light brown brick building is seen with ten pointed arched openings, one taller than the others on the right. Tall trees with long trunks are in front of the building. A tan, pebbled walkway is seen on the right surrounding a square pool of water with a small sprayer in the middle. To the left, green grass is bordered by yellow flowers with small lanterns at the corners. A bench is seen on the path and a sign with Iranian writing attached to a tree is located in the left forefront.\nButton label: Click to enlarge image of In the background of this picture, a light brown brick building is seen with ten pointed arched openings, one taller than the others on the right. Tall trees with long trunks are in front of the building. A tan, pebbled walkway is seen on the right surrounding a square pool of water with a small sprayer in the middle. To the left, green grass is bordered by yellow flowers with small lanterns at the corners. A bench is seen on the path and a sign with Iranian writing attached to a tree is located in the left forefront.\nEnglish caption: Figure 12.1 A Caravansary. Along the Silk Roads, caravansaries were vital outposts where merchants traveling between Turkey and China could stay and meet other traders to exchange goods, commodities, and ideas. The Shah Abbasi caravansary shown here is now a national heritage site in Nishapur, in modern Iran. (credit: modification of work “Abbasi caravanserai of Nishapur” by Sonia Sevilla/Wikimedia Commons, CC0 1.0)",
+  "metrics": {
+    "textDensity": 2.048,
+    "averageConfidence": 25,
+    "entropy": 6.4713802258484066,
+    "sharpness": 5.228330416801806
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

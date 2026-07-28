@@ -1,0 +1,23 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-1-2-7.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/1-2-primary-sources.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-ocr-text"
+  },
+  "reason": "low-text-density",
+  "outputImage": null,
+  "ocr": [],
+  "translations": [],
+  "imageContext": "Image alt: Photograph of Chinua Achebe.\nButton label: Click to enlarge image of Photograph of Chinua Achebe.\nEnglish caption: Figure 1.10 Chinua Achebe. This is a photo of the young Chinua Achebe in Lagos, Nigeria, in 1966. (credit: “Chinua Achebe, 1966” by The New York Times/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 0,
+    "averageConfidence": 0,
+    "entropy": 7.308292172387155,
+    "sharpness": 3.1284097346895705
+  }
+}

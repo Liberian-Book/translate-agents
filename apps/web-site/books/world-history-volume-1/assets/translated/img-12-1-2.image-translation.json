@@ -1,0 +1,209 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-12-1-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/12-1-the-indian-ocean-world-in-the-early-middle-ages.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "image-edit-leftover-source-english",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "oR 1321-1398 CE",
+      "confidence": 51,
+      "bbox": {
+        "x": 90,
+        "y": 99,
+        "w": 721,
+        "h": 66
+      }
+    },
+    {
+      "text": "oo",
+      "confidence": 51,
+      "bbox": {
+        "x": 90,
+        "y": 231,
+        "w": 721,
+        "h": 66
+      }
+    },
+    {
+      "text": "Bombay : \\)",
+      "confidence": 51,
+      "bbox": {
+        "x": 90,
+        "y": 363,
+        "w": 721,
+        "h": 66
+      }
+    },
+    {
+      "text": "Arabian Sea | 3",
+      "confidence": 51,
+      "bbox": {
+        "x": 90,
+        "y": 495,
+        "w": 721,
+        "h": 66
+      }
+    },
+    {
+      "text": "Goa A Bay of 0",
+      "confidence": 51,
+      "bbox": {
+        "x": 90,
+        "y": 627,
+        "w": 721,
+        "h": 66
+      }
+    },
+    {
+      "text": "Bengal as",
+      "confidence": 51,
+      "bbox": {
+        "x": 90,
+        "y": 759,
+        "w": 721,
+        "h": 66
+      }
+    },
+    {
+      "text": "Calicut Madras Hs",
+      "confidence": 51,
+      "bbox": {
+        "x": 90,
+        "y": 891,
+        "w": 721,
+        "h": 66
+      }
+    },
+    {
+      "text": "ik Eh Tranquebar j i",
+      "confidence": 51,
+      "bbox": {
+        "x": 90,
+        "y": 1023,
+        "w": 721,
+        "h": 66
+      }
+    },
+    {
+      "text": "ab",
+      "confidence": 51,
+      "bbox": {
+        "x": 90,
+        "y": 1155,
+        "w": 721,
+        "h": 66
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A map is shown. Land is highlighted beige and water blue. In the southwest, the Arabian Sea is labelled, and in the southeast the Bay of Bengal is labelled. The top half of the map is land and an upside down triangle shaped mass sticks out in the lower half. Most of this land is highlighted orange except for a “U” shaped section at the southern tip and a circle section in the east. These cities are labelled within the orange area, from north to south: Lahore, Delhi, Ahmadabad, Bombay, Daulatabad, Goa, Madras, and Tranquebar. Along the southwestern coast, Calicut and Cochin are labelled outside of the orange area.\nButton label: Click to enlarge image of A map is shown. Land is highlighted beige and water blue. In the southwest, the Arabian Sea is labelled, and in the southeast the Bay of Bengal is labelled. The top half of the map is land and an upside down triangle shaped mass sticks out in the lower half. Most of this land is highlighted orange except for a “U” shaped section at the southern tip and a circle section in the east. These cities are labelled within the orange area, from north to south: Lahore, Delhi, Ahmadabad, Bombay, Daulatabad, Goa, Madras, and Tranquebar. Along the southwestern coast, Calicut and Cochin are labelled outside of the orange area.\nEnglish caption: Figure 12.4 The Delhi Sultanate. The orange shading shows the Delhi Sultanate in 1330, at its greatest extent. Its size allowed it to control much of the Indian Ocean trade on the western side of the subcontinent. However, the absence of larger cities in the center and south-center of the subcontinent meant that Indigenous peoples there were less likely to come into contact with Islam and its practitioners, so this region was not under the control of an Islamic state. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.5782625954940577,
+    "averageConfidence": 51,
+    "entropy": 4.564081483224072,
+    "sharpness": 3.79931599461048
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A map is shown. Land is highlighted beige and water blue. In the southwest, the Arabian Sea is labelled, and in the southeast the Bay of Bengal is labelled. The top half of the map is land and an upside down triangle shaped mass sticks out in the lower half. Most of this land is highlighted orange except for a “U” shaped section at the southern tip and a circle section in the east. These cities are labelled within the orange area, from north to south: Lahore, Delhi, Ahmadabad, Bombay, Daulatabad, Goa, Madras, and Tranquebar. Along the southwestern coast, Calicut and Cochin are labelled outside of the orange area.\nButton label: Click to enlarge image of A map is shown. Land is highlighted beige and water blue. In the southwest, the Arabian Sea is labelled, and in the southeast the Bay of Bengal is labelled. The top half of the map is land and an upside down triangle shaped mass sticks out in the lower half. Most of this land is highlighted orange except for a “U” shaped section at the southern tip and a circle section in the east. These cities are labelled within the orange area, from north to south: Lahore, Delhi, Ahmadabad, Bombay, Daulatabad, Goa, Madras, and Tranquebar. Along the southwestern coast, Calicut and Cochin are labelled outside of the orange area.\nEnglish caption: Figure 12.4 The Delhi Sultanate. The orange shading shows the Delhi Sultanate in 1330, at its greatest extent. Its size allowed it to control much of the Indian Ocean trade on the western side of the subcontinent. However, the absence of larger cities in the center and south-center of the subcontinent meant that Indigenous peoples there were less likely to come into contact with Islam and its practitioners, so this region was not under the control of an Islamic state. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: bengal, bombay, madras, tranquebar, calicut, cochin. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "fa 2% endl",
+        "confidence": 42,
+        "bbox": {
+          "x": 131,
+          "y": 144,
+          "w": 1050,
+          "h": 96
+        }
+      },
+      {
+        "text": "~ <U 1321-1398 Cong nguyén",
+        "confidence": 42,
+        "bbox": {
+          "x": 131,
+          "y": 336,
+          "w": 1050,
+          "h": 96
+        }
+      },
+      {
+        "text": "oN 3",
+        "confidence": 42,
+        "bbox": {
+          "x": 131,
+          "y": 528,
+          "w": 1050,
+          "h": 96
+        }
+      },
+      {
+        "text": "\\_g = Bn",
+        "confidence": 42,
+        "bbox": {
+          "x": 131,
+          "y": 720,
+          "w": 1050,
+          "h": 96
+        }
+      },
+      {
+        "text": "Goa A A",
+        "confidence": 42,
+        "bbox": {
+          "x": 131,
+          "y": 912,
+          "w": 1050,
+          "h": 96
+        }
+      },
+      {
+        "text": "Calicut ® Madras 3 ;",
+        "confidence": 42,
+        "bbox": {
+          "x": 131,
+          "y": 1104,
+          "w": 1050,
+          "h": 96
+        }
+      },
+      {
+        "text": "E eh Tranquebar J",
+        "confidence": 42,
+        "bbox": {
+          "x": 131,
+          "y": 1296,
+          "w": 1050,
+          "h": 96
+        }
+      },
+      {
+        "text": "hl b %",
+        "confidence": 42,
+        "bbox": {
+          "x": 131,
+          "y": 1488,
+          "w": 1050,
+          "h": 96
+        }
+      }
+    ],
+    "validation": {
+      "ok": false,
+      "reason": "image-edit-leftover-source-english",
+      "leftoverSourceWords": [
+        "madras",
+        "tranquebar",
+        "calicut"
+      ]
+    },
+    "validationAttempt": 3
+  }
+}

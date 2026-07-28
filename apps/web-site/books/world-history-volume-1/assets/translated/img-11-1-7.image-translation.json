@@ -1,0 +1,498 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-11-1-7.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/11-1-the-rise-and-message-of-islam.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-11-1-7.vi.png",
+  "ocr": [
+    {
+      "text": ". & 2 ia 3",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 77,
+        "w": 960,
+        "h": 51
+      }
+    },
+    {
+      "text": "r= i EF kro",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 180,
+        "w": 960,
+        "h": 51
+      }
+    },
+    {
+      "text": "- HEEL he er J Jats aloes i",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 283,
+        "w": 960,
+        "h": 51
+      }
+    },
+    {
+      "text": "Ter p= i I A ka Bal [i ..",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 386,
+        "w": 960,
+        "h": 51
+      }
+    },
+    {
+      "text": "preg L TE iit Xam USS p- BR i",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 489,
+        "w": 960,
+        "h": 51
+      }
+    },
+    {
+      "text": "Ee Aasimaak Ei aE a Ee Rg , :",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 592,
+        "w": 960,
+        "h": 51
+      }
+    },
+    {
+      "text": "he ee ng a",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 695,
+        "w": 960,
+        "h": 51
+      }
+    },
+    {
+      "text": "Ae TT Ce va Tlic oe ee eer Wi 3",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 798,
+        "w": 960,
+        "h": 51
+      }
+    },
+    {
+      "text": "LL mae me ES RA pa | 4 4.8 fil ear as",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 901,
+        "w": 960,
+        "h": 51
+      }
+    },
+    {
+      "text": "od CR a ; Grits Ea no Esme i",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 1004,
+        "w": 960,
+        "h": 51
+      }
+    },
+    {
+      "text": "Tiley PIES Ee, HG a AE",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 1107,
+        "w": 960,
+        "h": 51
+      }
+    },
+    {
+      "text": "SEB i cp rE CRG",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 1210,
+        "w": 960,
+        "h": 51
+      }
+    },
+    {
+      "text": "gl Bo any Lut Tp SCR SI Dhan",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 1313,
+        "w": 960,
+        "h": 51
+      }
+    },
+    {
+      "text": "ae FraN TRE hl Se De sah 0 ea RE SE h",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 1416,
+        "w": 960,
+        "h": 51
+      }
+    },
+    {
+      "text": "l Worse ss 1 ETRE hs bps (A",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 1519,
+        "w": 960,
+        "h": 51
+      }
+    },
+    {
+      "text": "s BR Ra She Ret he eR Be ay",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 1622,
+        "w": 960,
+        "h": 51
+      }
+    },
+    {
+      "text": "Bor By i wh ThE ET NL",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 1725,
+        "w": 960,
+        "h": 51
+      }
+    },
+    {
+      "text": "EN Te ls re Ee gers",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 1828,
+        "w": 960,
+        "h": 51
+      }
+    },
+    {
+      "text": "BON TEN La cr ae TL ER a Mf",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 1931,
+        "w": 960,
+        "h": 51
+      }
+    },
+    {
+      "text": "{ Chil py a a SE A Re EER es",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 2034,
+        "w": 960,
+        "h": 51
+      }
+    },
+    {
+      "text": "Me IRAE EES SA ABE BT ei)",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 2137,
+        "w": 960,
+        "h": 51
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A picture of a very large gathering area is shown. The open area inside is filled with people, most of them wearing white head coverings. In the center of the people stands a short square building that is covered in black. The perimeter of the area is two tiered with arched openings all around and lights and people showing from within. Lights show along the top and on the back wall three domed projections stand along the top of the wall. Five tall slim towers also rise up from the top wall and are lit up and carved with designs. In the background a dark sky is seen and a city with tall lit up buildings.\nButton label: Click to enlarge image of A picture of a very large gathering area is shown. The open area inside is filled with people, most of them wearing white head coverings. In the center of the people stands a short square building that is covered in black. The perimeter of the area is two tiered with arched openings all around and lights and people showing from within. Lights show along the top and on the back wall three domed projections stand along the top of the wall. Five tall slim towers also rise up from the top wall and are lit up and carved with designs. In the background a dark sky is seen and a city with tall lit up buildings.\nEnglish caption: Figure 11.10 The Sacred Mosque in Mecca. This photo shows the sacred mosque in Mecca, Islam’s holiest site, with a large crowd of pilgrims surrounding the Kaaba, the black-shrouded building in the center. (credit: modification of work “Mekke Suudi Arabistan” by “Konevi”/Pxhere, CC0 1.0)",
+  "metrics": {
+    "textDensity": 1.3325038880248834,
+    "averageConfidence": 25,
+    "entropy": 7.61466810433194,
+    "sharpness": 8.124008587449536
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A picture of a very large gathering area is shown. The open area inside is filled with people, most of them wearing white head coverings. In the center of the people stands a short square building that is covered in black. The perimeter of the area is two tiered with arched openings all around and lights and people showing from within. Lights show along the top and on the back wall three domed projections stand along the top of the wall. Five tall slim towers also rise up from the top wall and are lit up and carved with designs. In the background a dark sky is seen and a city with tall lit up buildings.\nButton label: Click to enlarge image of A picture of a very large gathering area is shown. The open area inside is filled with people, most of them wearing white head coverings. In the center of the people stands a short square building that is covered in black. The perimeter of the area is two tiered with arched openings all around and lights and people showing from within. Lights show along the top and on the back wall three domed projections stand along the top of the wall. Five tall slim towers also rise up from the top wall and are lit up and carved with designs. In the background a dark sky is seen and a city with tall lit up buildings.\nEnglish caption: Figure 11.10 The Sacred Mosque in Mecca. This photo shows the sacred mosque in Mecca, Islam’s holiest site, with a large crowd of pilgrims surrounding the Kaaba, the black-shrouded building in the center. (credit: modification of work “Mekke Suudi Arabistan” by “Konevi”/Pxhere, CC0 1.0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: kaaba, mekke, suudi, arabistan, konevi, pxhere. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "2 Eg",
+        "confidence": 24,
+        "bbox": {
+          "x": 172,
+          "y": 110,
+          "w": 1372,
+          "h": 73
+        }
+      },
+      {
+        "text": "ii B rms ; :",
+        "confidence": 24,
+        "bbox": {
+          "x": 172,
+          "y": 257,
+          "w": 1372,
+          "h": 73
+        }
+      },
+      {
+        "text": "Bl HE ini — =",
+        "confidence": 24,
+        "bbox": {
+          "x": 172,
+          "y": 404,
+          "w": 1372,
+          "h": 73
+        }
+      },
+      {
+        "text": "ow f el \\ | EERES be Fe: ; TAL [I 2",
+        "confidence": 24,
+        "bbox": {
+          "x": 172,
+          "y": 551,
+          "w": 1372,
+          "h": 73
+        }
+      },
+      {
+        "text": "— 3 dH 1 Wom b: po Sey | j",
+        "confidence": 24,
+        "bbox": {
+          "x": 172,
+          "y": 698,
+          "w": 1372,
+          "h": 73
+        }
+      },
+      {
+        "text": "pl i HH ro. Co es fa i",
+        "confidence": 24,
+        "bbox": {
+          "x": 172,
+          "y": 845,
+          "w": 1372,
+          "h": 73
+        }
+      },
+      {
+        "text": "TRAE. hos Be es mS ESR SIT = Shon Nr SE",
+        "confidence": 24,
+        "bbox": {
+          "x": 172,
+          "y": 992,
+          "w": 1372,
+          "h": 73
+        }
+      },
+      {
+        "text": "NY Fit Ia gly pub ha 3 LENO re) 2 7 Ed Al i) RL bo mae h Cok —",
+        "confidence": 24,
+        "bbox": {
+          "x": 172,
+          "y": 1139,
+          "w": 1372,
+          "h": 73
+        }
+      },
+      {
+        "text": "4 i el CA Ns o= AR EE ee a Le Cle LBL Bh a SILL LL Bis wy if",
+        "confidence": 24,
+        "bbox": {
+          "x": 172,
+          "y": 1286,
+          "w": 1372,
+          "h": 73
+        }
+      },
+      {
+        "text": "de Re ae 00 3p i",
+        "confidence": 24,
+        "bbox": {
+          "x": 172,
+          "y": 1433,
+          "w": 1372,
+          "h": 73
+        }
+      },
+      {
+        "text": "| = [7 ade hb Saag IEC PE ny Yi) Sa ey a 2 H LN",
+        "confidence": 24,
+        "bbox": {
+          "x": 172,
+          "y": 1580,
+          "w": 1372,
+          "h": 73
+        }
+      },
+      {
+        "text": "JE a a Ble A Pp S CRAG",
+        "confidence": 24,
+        "bbox": {
+          "x": 172,
+          "y": 1727,
+          "w": 1372,
+          "h": 73
+        }
+      },
+      {
+        "text": "Tid ” ou't grt AY i [1 cg A sel AT Wy WTR IC Hg Shy N 1 J; gi ORE Si",
+        "confidence": 24,
+        "bbox": {
+          "x": 172,
+          "y": 1874,
+          "w": 1372,
+          "h": 73
+        }
+      },
+      {
+        "text": "5 [ | i fs i \" chro Sit Luni bs Hr HTT fei or on 8: a wi i ON",
+        "confidence": 24,
+        "bbox": {
+          "x": 172,
+          "y": 2021,
+          "w": 1372,
+          "h": 73
+        }
+      },
+      {
+        "text": ") 85 V hsatr SA SEER aE a RA] EOL ST YO Wy os A SUTTER",
+        "confidence": 24,
+        "bbox": {
+          "x": 172,
+          "y": 2168,
+          "w": 1372,
+          "h": 73
+        }
+      },
+      {
+        "text": "ih Ul gE POL rr Bein dee sl Sp RE Voy. > a, :",
+        "confidence": 24,
+        "bbox": {
+          "x": 172,
+          "y": 2315,
+          "w": 1372,
+          "h": 73
+        }
+      },
+      {
+        "text": "J oo SH a ae ES I RE <n SR SR esas CS",
+        "confidence": 24,
+        "bbox": {
+          "x": 172,
+          "y": 2462,
+          "w": 1372,
+          "h": 73
+        }
+      },
+      {
+        "text": "Jp CLI Sarge TI in gl Tat Bh 4h PETTR, o, 1 SRNR Sh ARE RR Ss, PR,",
+        "confidence": 24,
+        "bbox": {
+          "x": 172,
+          "y": 2609,
+          "w": 1372,
+          "h": 73
+        }
+      },
+      {
+        "text": "All nine Bo EE Te SU CRE Td",
+        "confidence": 24,
+        "bbox": {
+          "x": 172,
+          "y": 2756,
+          "w": 1372,
+          "h": 73
+        }
+      },
+      {
+        "text": "4 lf Ty Af AA Ir er A Re ARR LA GE ECR Rr Ne ru RE UR TR",
+        "confidence": 24,
+        "bbox": {
+          "x": 172,
+          "y": 2903,
+          "w": 1372,
+          "h": 73
+        }
+      },
+      {
+        "text": "LE EN ee RAG ei eR RE",
+        "confidence": 24,
+        "bbox": {
+          "x": 172,
+          "y": 3050,
+          "w": 1372,
+          "h": 73
+        }
+      },
+      {
+        "text": "THE 4 EAN NT Ae AT fat a es RR Fe Vidar REA Eu of",
+        "confidence": 24,
+        "bbox": {
+          "x": 172,
+          "y": 3197,
+          "w": 1372,
+          "h": 73
+        }
+      },
+      {
+        "text": "FE 1 GAG RE ANE Beal haat PA CEES ph a aS I EAA SR",
+        "confidence": 24,
+        "bbox": {
+          "x": 172,
+          "y": 3344,
+          "w": 1372,
+          "h": 73
+        }
+      },
+      {
+        "text": "ANE Gh AW Lr Re Gr Win 8 Ss EE V7 SLATER Sag",
+        "confidence": 24,
+        "bbox": {
+          "x": 172,
+          "y": 3491,
+          "w": 1372,
+          "h": 73
+        }
+      },
+      {
+        "text": "Coa WR BNR ae TAA fe LATE fe RATS TPs afl 23 JT AS STR Th wee STE ACh Jy Sr RR SE DT",
+        "confidence": 24,
+        "bbox": {
+          "x": 172,
+          "y": 3638,
+          "w": 1372,
+          "h": 73
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 2
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

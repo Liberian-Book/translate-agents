@@ -1,0 +1,273 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-1-3-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/1-3-causation-and-interpretation-in-history.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-1-3-1.vi.png",
+  "ocr": [
+    {
+      "text": "The professor assigned it, and the",
+      "confidence": 95,
+      "bbox": {
+        "x": 165,
+        "y": 94,
+        "w": 1320,
+        "h": 63
+      }
+    },
+    {
+      "text": "material will appear on the test.",
+      "confidence": 95,
+      "bbox": {
+        "x": 165,
+        "y": 219,
+        "w": 1320,
+        "h": 63
+      }
+    },
+    {
+      "text": "I want to do well in school so",
+      "confidence": 95,
+      "bbox": {
+        "x": 165,
+        "y": 344,
+        "w": 1320,
+        "h": 63
+      }
+    },
+    {
+      "text": "that I can be successful.",
+      "confidence": 95,
+      "bbox": {
+        "x": 165,
+        "y": 469,
+        "w": 1320,
+        "h": 63
+      }
+    },
+    {
+      "text": "Society tells me that an",
+      "confidence": 95,
+      "bbox": {
+        "x": 165,
+        "y": 594,
+        "w": 1320,
+        "h": 63
+      }
+    },
+    {
+      "text": "Tertiary education will help me",
+      "confidence": 95,
+      "bbox": {
+        "x": 165,
+        "y": 719,
+        "w": 1320,
+        "h": 63
+      }
+    },
+    {
+      "text": "realize my full potential.",
+      "confidence": 95,
+      "bbox": {
+        "x": 165,
+        "y": 844,
+        "w": 1320,
+        "h": 63
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "The professor assigned it, and the",
+      "normalizedSource": "The professor assigned it, and the",
+      "target": "Giáo sư đã giao nó, và",
+      "bbox": {
+        "x": 165,
+        "y": 94,
+        "w": 1320,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "material will appear on the test.",
+      "normalizedSource": "material will appear on the test.",
+      "target": "nội dung sẽ xuất hiện trong bài kiểm tra.",
+      "bbox": {
+        "x": 165,
+        "y": 219,
+        "w": 1320,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "I want to do well in school so",
+      "normalizedSource": "I want to do well in school so",
+      "target": "Tôi muốn học tốt để",
+      "bbox": {
+        "x": 165,
+        "y": 344,
+        "w": 1320,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "that I can be successful.",
+      "normalizedSource": "that I can be successful.",
+      "target": "tôi có thể thành công.",
+      "bbox": {
+        "x": 165,
+        "y": 469,
+        "w": 1320,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "Society tells me that an",
+      "normalizedSource": "Society tells me that an",
+      "target": "Xã hội nói với tôi rằng",
+      "bbox": {
+        "x": 165,
+        "y": 594,
+        "w": 1320,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "Tertiary education will help me",
+      "normalizedSource": "Tertiary education will help me",
+      "target": "Giáo dục đại học sẽ giúp tôi",
+      "bbox": {
+        "x": 165,
+        "y": 719,
+        "w": 1320,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "realize my full potential.",
+      "normalizedSource": "realize my full potential.",
+      "target": "thực hiện tiềm năng của mình.",
+      "bbox": {
+        "x": 165,
+        "y": 844,
+        "w": 1320,
+        "h": 63
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: This is a triangle-shaped chart consisting of three sections. The top of the triangle is labeled “Primary” and says “The professor assigned it and the material will appear on the test.” The middle of chart is labeled “Secondary” and says “I want to do well in school so that I can be successful.” The bottom of the chart is labeled “Tertiary” and says “Society tells me that an education will help me realize my full potential.”\nButton label: Click to enlarge image of This is a triangle-shaped chart consisting of three sections. The top of the triangle is labeled “Primary” and says “The professor assigned it and the material will appear on the test.” The middle of chart is labeled “Secondary” and says “I want to do well in school so that I can be successful.” The bottom of the chart is labeled “Tertiary” and says “Society tells me that an education will help me realize my full potential.”\nEnglish caption: Figure 1.11 Causation Explained. This causation chart answers the question, “Why are you reading?” on three levels. The primary level is the most immediate. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.45,
+    "averageConfidence": 95,
+    "entropy": 2.1880144168098923,
+    "sharpness": 3.784346020659485
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: This is a triangle-shaped chart consisting of three sections. The top of the triangle is labeled “Primary” and says “The professor assigned it and the material will appear on the test.” The middle of chart is labeled “Secondary” and says “I want to do well in school so that I can be successful.” The bottom of the chart is labeled “Tertiary” and says “Society tells me that an education will help me realize my full potential.”\nButton label: Click to enlarge image of This is a triangle-shaped chart consisting of three sections. The top of the triangle is labeled “Primary” and says “The professor assigned it and the material will appear on the test.” The middle of chart is labeled “Secondary” and says “I want to do well in school so that I can be successful.” The bottom of the chart is labeled “Tertiary” and says “Society tells me that an education will help me realize my full potential.”\nEnglish caption: Figure 1.11 Causation Explained. This causation chart answers the question, “Why are you reading?” on three levels. The primary level is the most immediate. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- The professor assigned it, and the => Giáo sư đã giao nó, và\n- material will appear on the test. => nội dung sẽ xuất hiện trong bài kiểm tra.\n- I want to do well in school so => Tôi muốn học tốt để\n- that I can be successful. => tôi có thể thành công.\n- Society tells me that an => Xã hội nói với tôi rằng\n- Tertiary education will help me => Giáo dục đại học sẽ giúp tôi\n- realize my full potential. => thực hiện tiềm năng của mình.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Giao su da giao no, va",
+        "confidence": 76,
+        "bbox": {
+          "x": 182,
+          "y": 104,
+          "w": 1456,
+          "h": 69
+        }
+      },
+      {
+        "text": "ndi dung sé xuat hién trong bai kiém tra.",
+        "confidence": 76,
+        "bbox": {
+          "x": 182,
+          "y": 242,
+          "w": 1456,
+          "h": 69
+        }
+      },
+      {
+        "text": "T6i mudn hoc tot dé",
+        "confidence": 76,
+        "bbox": {
+          "x": 182,
+          "y": 380,
+          "w": 1456,
+          "h": 69
+        }
+      },
+      {
+        "text": "tdi c6 thé thanh cong.",
+        "confidence": 76,
+        "bbox": {
+          "x": 182,
+          "y": 518,
+          "w": 1456,
+          "h": 69
+        }
+      },
+      {
+        "text": "Xa hoi ni vai toi rang",
+        "confidence": 76,
+        "bbox": {
+          "x": 182,
+          "y": 656,
+          "w": 1456,
+          "h": 69
+        }
+      },
+      {
+        "text": "Eek de Giao duc dai hoc sé giup toi",
+        "confidence": 76,
+        "bbox": {
+          "x": 182,
+          "y": 794,
+          "w": 1456,
+          "h": 69
+        }
+      },
+      {
+        "text": "nang cao by ie? iio",
+        "confidence": 76,
+        "bbox": {
+          "x": 182,
+          "y": 932,
+          "w": 1456,
+          "h": 69
+        }
+      },
+      {
+        "text": "thuc hién tiém nang ctia minh.",
+        "confidence": 76,
+        "bbox": {
+          "x": 182,
+          "y": 1070,
+          "w": 1456,
+          "h": 69
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

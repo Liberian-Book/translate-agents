@@ -1,0 +1,591 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-11-1-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/11-1-the-rise-and-message-of-islam.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "image-edit-leftover-source-english",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "SF",
+      "confidence": 41,
+      "bbox": {
+        "x": 110,
+        "y": 89,
+        "w": 881,
+        "h": 60
+      }
+    },
+    {
+      "text": "PRESS a OE Nags 7 iPr",
+      "confidence": 41,
+      "bbox": {
+        "x": 110,
+        "y": 208,
+        "w": 881,
+        "h": 60
+      }
+    },
+    {
+      "text": "A 55 E 7 fat",
+      "confidence": 41,
+      "bbox": {
+        "x": 110,
+        "y": 327,
+        "w": 881,
+        "h": 60
+      }
+    },
+    {
+      "text": "s ~ % [+3 Apter",
+      "confidence": 41,
+      "bbox": {
+        "x": 110,
+        "y": 446,
+        "w": 881,
+        "h": 60
+      }
+    },
+    {
+      "text": "et {> )",
+      "confidence": 41,
+      "bbox": {
+        "x": 110,
+        "y": 565,
+        "w": 881,
+        "h": 60
+      }
+    },
+    {
+      "text": "Ss a A A 3",
+      "confidence": 41,
+      "bbox": {
+        "x": 110,
+        "y": 684,
+        "w": 881,
+        "h": 60
+      }
+    },
+    {
+      "text": "a, Go fa",
+      "confidence": 41,
+      "bbox": {
+        "x": 110,
+        "y": 803,
+        "w": 881,
+        "h": 60
+      }
+    },
+    {
+      "text": "yy oo A %",
+      "confidence": 41,
+      "bbox": {
+        "x": 110,
+        "y": 922,
+        "w": 881,
+        "h": 60
+      }
+    },
+    {
+      "text": "Sea ® Damascus =",
+      "confidence": 41,
+      "bbox": {
+        "x": 110,
+        "y": 1041,
+        "w": 881,
+        "h": 60
+      }
+    },
+    {
+      "text": "lexandri J — AR oN =",
+      "confidence": 41,
+      "bbox": {
+        "x": 110,
+        "y": 1160,
+        "w": 881,
+        "h": 60
+      }
+    },
+    {
+      "text": "% = <q Petra Be 3",
+      "confidence": 41,
+      "bbox": {
+        "x": 110,
+        "y": 1279,
+        "w": 881,
+        "h": 60
+      }
+    },
+    {
+      "text": "Memphis $0 . Ao",
+      "confidence": 41,
+      "bbox": {
+        "x": 110,
+        "y": 1398,
+        "w": 881,
+        "h": 60
+      }
+    },
+    {
+      "text": "N\\ re a",
+      "confidence": 41,
+      "bbox": {
+        "x": 110,
+        "y": 1517,
+        "w": 881,
+        "h": 60
+      }
+    },
+    {
+      "text": "EGYPT \\ >, nic Vid (Sg :",
+      "confidence": 41,
+      "bbox": {
+        "x": 110,
+        "y": 1636,
+        "w": 881,
+        "h": 60
+      }
+    },
+    {
+      "text": "Begnice \\ ES 3",
+      "confidence": 41,
+      "bbox": {
+        "x": 110,
+        "y": 1755,
+        "w": 881,
+        "h": 60
+      }
+    },
+    {
+      "text": "# WMecea",
+      "confidence": 41,
+      "bbox": {
+        "x": 110,
+        "y": 1874,
+        "w": 881,
+        "h": 60
+      }
+    },
+    {
+      "text": "1 & Arabian",
+      "confidence": 41,
+      "bbox": {
+        "x": 110,
+        "y": 1993,
+        "w": 881,
+        "h": 60
+      }
+    },
+    {
+      "text": "1) \\ » Sea",
+      "confidence": 41,
+      "bbox": {
+        "x": 110,
+        "y": 2112,
+        "w": 881,
+        "h": 60
+      }
+    },
+    {
+      "text": "AFRICA “~- Jyerot ', KINGDOM OF",
+      "confidence": 41,
+      "bbox": {
+        "x": 110,
+        "y": 2231,
+        "w": 881,
+        "h": 60
+      }
+    },
+    {
+      "text": ". TES) jad A IMYAR",
+      "confidence": 41,
+      "bbox": {
+        "x": 110,
+        "y": 2350,
+        "w": 881,
+        "h": 60
+      }
+    },
+    {
+      "text": "2 KI (GDOM OF AN",
+      "confidence": 41,
+      "bbox": {
+        "x": 110,
+        "y": 2469,
+        "w": 881,
+        "h": 60
+      }
+    },
+    {
+      "text": "‘© JAKSUM \\ =",
+      "confidence": 41,
+      "bbox": {
+        "x": 110,
+        "y": 2588,
+        "w": 881,
+        "h": 60
+      }
+    },
+    {
+      "text": ": NY 2 hot, Np",
+      "confidence": 41,
+      "bbox": {
+        "x": 110,
+        "y": 2707,
+        "w": 881,
+        "h": 60
+      }
+    },
+    {
+      "text": "DS Se ~ oa Maleo",
+      "confidence": 41,
+      "bbox": {
+        "x": 110,
+        "y": 2826,
+        "w": 881,
+        "h": 60
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A map of southern Europe, northern Africa, and southwestern Asia is shown. The Adriatic Sea, Mediterranean Sea, Aegean Sea, Black Sea, Caspian Sea, Red Sea, Gulf of Aden, Persian Gulf, Gulf of Oman, and the Arabian Sea are labeled. An oval area in eastern Africa at the southern end of the Red Sea is highlighted orange and labeled “Kingdom of Aksum.” Most of the country of Yemen is highlighted green indicating the “Kingdom of Himyar.” A red dotted line heads north from the city of Aden along the Gulf of Aden in Yemen to the city of Mecca, then Petra in Arabia, crossing west to Africa to the city of Memphis. One line splits off and goes north toward Alexandria on the coast of the Mediterranean Sea. The other red dotted line heads south through Egypt along the Nile River through Lake Nasser and down to the city of Meroe and then veers off southwest into Africa. Another red dotted line starts at the city of Maleo which sits on the African side across the Gulf of Aden from the city of Aden. The line heads north to the city of Aksum and then Adulis which is on the western side of the Red Sea. Then the line meets up with the other red dotted line in Meroe. A purple line begins in Memphis in northern Africa and heads south in the Red Sea with stops in Berenice on the western side of the Red Sea, then Adulis, and then Aden and ending with two arrows in the Arabian Sea, one heading northeast and one heading south. Other cities labeled from north to south include: Damascus, Jerusalem, and Roha.\nButton label: Click to enlarge image of A map of southern Europe, northern Africa, and southwestern Asia is shown. The Adriatic Sea, Mediterranean Sea, Aegean Sea, Black Sea, Caspian Sea, Red Sea, Gulf of Aden, Persian Gulf, Gulf of Oman, and the Arabian Sea are labeled. An oval area in eastern Africa at the southern end of the Red Sea is highlighted orange and labeled “Kingdom of Aksum.” Most of the country of Yemen is highlighted green indicating the “Kingdom of Himyar.” A red dotted line heads north from the city of Aden along the Gulf of Aden in Yemen to the city of Mecca, then Petra in Arabia, crossing west to Africa to the city of Memphis. One line splits off and goes north toward Alexandria on the coast of the Mediterranean Sea. The other red dotted line heads south through Egypt along the Nile River through Lake Nasser and down to the city of Meroe and then veers off southwest into Africa. Another red dotted line starts at the city of Maleo which sits on the African side across the Gulf of Aden from the city of Aden. The line heads north to the city of Aksum and then Adulis which is on the western side of the Red Sea. Then the line meets up with the other red dotted line in Meroe. A purple line begins in Memphis in northern Africa and heads south in the Red Sea with stops in Berenice on the western side of the Red Sea, then Adulis, and then Aden and ending with two arrows in the Arabian Sea, one heading northeast and one heading south. Other cities labeled from north to south include: Damascus, Jerusalem, and Roha.\nEnglish caption: Figure 11.6 Himyar and Aksum. The Arabian Kingdom of Himyar (shaded green) and the African Kingdom of Aksum (orange) both played important roles in the overland and oversea Silk Roads trade, bringing goods northward to markets in Egypt, Palestine, and beyond. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 1.5466598394382167,
+    "averageConfidence": 41,
+    "entropy": 4.931709500968282,
+    "sharpness": 4.803639676993804
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A map of southern Europe, northern Africa, and southwestern Asia is shown. The Adriatic Sea, Mediterranean Sea, Aegean Sea, Black Sea, Caspian Sea, Red Sea, Gulf of Aden, Persian Gulf, Gulf of Oman, and the Arabian Sea are labeled. An oval area in eastern Africa at the southern end of the Red Sea is highlighted orange and labeled “Kingdom of Aksum.” Most of the country of Yemen is highlighted green indicating the “Kingdom of Himyar.” A red dotted line heads north from the city of Aden along the Gulf of Aden in Yemen to the city of Mecca, then Petra in Arabia, crossing west to Africa to the city of Memphis. One line splits off and goes north toward Alexandria on the coast of the Mediterranean Sea. The other red dotted line heads south through Egypt along the Nile River through Lake Nasser and down to the city of Meroe and then veers off southwest into Africa. Another red dotted line starts at the city of Maleo which sits on the African side across the Gulf of Aden from the city of Aden. The line heads north to the city of Aksum and then Adulis which is on the western side of the Red Sea. Then the line meets up with the other red dotted line in Meroe. A purple line begins in Memphis in northern Africa and heads south in the Red Sea with stops in Berenice on the western side of the Red Sea, then Adulis, and then Aden and ending with two arrows in the Arabian Sea, one heading northeast and one heading south. Other cities labeled from north to south include: Damascus, Jerusalem, and Roha.\nButton label: Click to enlarge image of A map of southern Europe, northern Africa, and southwestern Asia is shown. The Adriatic Sea, Mediterranean Sea, Aegean Sea, Black Sea, Caspian Sea, Red Sea, Gulf of Aden, Persian Gulf, Gulf of Oman, and the Arabian Sea are labeled. An oval area in eastern Africa at the southern end of the Red Sea is highlighted orange and labeled “Kingdom of Aksum.” Most of the country of Yemen is highlighted green indicating the “Kingdom of Himyar.” A red dotted line heads north from the city of Aden along the Gulf of Aden in Yemen to the city of Mecca, then Petra in Arabia, crossing west to Africa to the city of Memphis. One line splits off and goes north toward Alexandria on the coast of the Mediterranean Sea. The other red dotted line heads south through Egypt along the Nile River through Lake Nasser and down to the city of Meroe and then veers off southwest into Africa. Another red dotted line starts at the city of Maleo which sits on the African side across the Gulf of Aden from the city of Aden. The line heads north to the city of Aksum and then Adulis which is on the western side of the Red Sea. Then the line meets up with the other red dotted line in Meroe. A purple line begins in Memphis in northern Africa and heads south in the Red Sea with stops in Berenice on the western side of the Red Sea, then Adulis, and then Aden and ending with two arrows in the Arabian Sea, one heading northeast and one heading south. Other cities labeled from north to south include: Damascus, Jerusalem, and Roha.\nEnglish caption: Figure 11.6 Himyar and Aksum. The Arabian Kingdom of Himyar (shaded green) and the African Kingdom of Aksum (orange) both played important roles in the overland and oversea Silk Roads trade, bringing goods northward to markets in Egypt, Palestine, and beyond. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: himyar, nasser. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "—— 2a TS SJ oS —",
+        "confidence": 38,
+        "bbox": {
+          "x": 152,
+          "y": 124,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "ey >? { oe “& ZBién",
+        "confidence": 38,
+        "bbox": {
+          "x": 152,
+          "y": 289,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "y 2X - Aswic-Kol",
+        "confidence": 38,
+        "bbox": {
+          "x": 152,
+          "y": 454,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "- CA = = ou",
+        "confidence": 38,
+        "bbox": {
+          "x": 152,
+          "y": 619,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "* % 9 Bién Den % [\\y o Bién Ayidar",
+        "confidence": 38,
+        "bbox": {
+          "x": 152,
+          "y": 784,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "ARE 3 fo :",
+        "confidence": 38,
+        "bbox": {
+          "x": 152,
+          "y": 949,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "NY 3 oF “bien © =",
+        "confidence": 38,
+        "bbox": {
+          "x": 152,
+          "y": 1114,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "or LK Foi seman {",
+        "confidence": 38,
+        "bbox": {
+          "x": 152,
+          "y": 1279,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "5 TINS degen 3 B",
+        "confidence": 38,
+        "bbox": {
+          "x": 152,
+          "y": 1444,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "pl © Oo Rane » > ie 2 CHAU A",
+        "confidence": 38,
+        "bbox": {
+          "x": 152,
+          "y": 1609,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "7 TAX",
+        "confidence": 38,
+        "bbox": {
+          "x": 152,
+          "y": 1774,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "Dig Trung en J oo > A",
+        "confidence": 38,
+        "bbox": {
+          "x": 152,
+          "y": 1939,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "a ®Damit ©) 8 « 5",
+        "confidence": 38,
+        "bbox": {
+          "x": 152,
+          "y": 2104,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "So [| itruien IN Ny",
+        "confidence": 38,
+        "bbox": {
+          "x": 152,
+          "y": 2269,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "Memphis <3 §> 2 F F",
+        "confidence": 38,
+        "bbox": {
+          "x": 152,
+          "y": 2434,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "‘ ng SS fo",
+        "confidence": 38,
+        "bbox": {
+          "x": 152,
+          "y": 2599,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "AS ate",
+        "confidence": 38,
+        "bbox": {
+          "x": 152,
+          "y": 2764,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "P A og bs g 5 3",
+        "confidence": 38,
+        "bbox": {
+          "x": 152,
+          "y": 2929,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "AICA 3 A RAP XE UT CS Vinh Omen ane",
+        "confidence": 38,
+        "bbox": {
+          "x": 152,
+          "y": 3094,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "Berenice @\\Z A",
+        "confidence": 38,
+        "bbox": {
+          "x": 152,
+          "y": 3259,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "A He \\ wi",
+        "confidence": 38,
+        "bbox": {
+          "x": 152,
+          "y": 3424,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "4 passer Mecca",
+        "confidence": 38,
+        "bbox": {
+          "x": 152,
+          "y": 3589,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "; A Bién A Rap",
+        "confidence": 38,
+        "bbox": {
+          "x": 152,
+          "y": 3754,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "CHANT PIER i Yeeros J. VUONG QUOC",
+        "confidence": 38,
+        "bbox": {
+          "x": 152,
+          "y": 3919,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "of BY \"Sadie | Sam HTMYARD",
+        "confidence": 38,
+        "bbox": {
+          "x": 152,
+          "y": 4084,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": ": pr HIM 3",
+        "confidence": 38,
+        "bbox": {
+          "x": 152,
+          "y": 4249,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "/ YUONG Qu pe",
+        "confidence": 38,
+        "bbox": {
+          "x": 152,
+          "y": 4414,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "4 % AKSUM TAL pide =",
+        "confidence": 38,
+        "bbox": {
+          "x": 152,
+          "y": 4579,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "4 Ly . det -",
+        "confidence": 38,
+        "bbox": {
+          "x": 152,
+          "y": 4744,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": ": ¥ Robe ® 1, NS",
+        "confidence": 38,
+        "bbox": {
+          "x": 152,
+          "y": 4909,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "(3 S < _ Ze Maleo",
+        "confidence": 38,
+        "bbox": {
+          "x": 152,
+          "y": 5074,
+          "w": 1219,
+          "h": 83
+        }
+      }
+    ],
+    "validation": {
+      "ok": false,
+      "reason": "image-edit-leftover-source-english",
+      "leftoverSourceWords": [
+        "aksum",
+        "mecca",
+        "memphis",
+        "maleo",
+        "berenice"
+      ]
+    },
+    "validationAttempt": 3
+  }
+}

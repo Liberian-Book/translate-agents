@@ -1,0 +1,730 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-11-1-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/11-1-the-rise-and-message-of-islam.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "image-edit-leftover-source-english",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "2 ENCE x ©",
+      "confidence": 23,
+      "bbox": {
+        "x": 110,
+        "y": 99,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "rh eR i ;",
+      "confidence": 23,
+      "bbox": {
+        "x": 110,
+        "y": 231,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "111 Erg (i) ey i .",
+      "confidence": 23,
+      "bbox": {
+        "x": 110,
+        "y": 363,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "ILA Wet th Gl AT",
+      "confidence": 23,
+      "bbox": {
+        "x": 110,
+        "y": 495,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "4 Vi Fi hw gh! Ls 23 oli pa",
+      "confidence": 23,
+      "bbox": {
+        "x": 110,
+        "y": 627,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "Eg iy ran I fii] if (py bia, J L or og",
+      "confidence": 23,
+      "bbox": {
+        "x": 110,
+        "y": 759,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "A ra Ginn LA BAL Hoe oF Ive Ayr Te A",
+      "confidence": 23,
+      "bbox": {
+        "x": 110,
+        "y": 891,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "a de aoa alles Ral Ear ny bo",
+      "confidence": 23,
+      "bbox": {
+        "x": 110,
+        "y": 1023,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "i iv; TREN Za fs £00 GY",
+      "confidence": 23,
+      "bbox": {
+        "x": 110,
+        "y": 1155,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "po 0 GS i= Wy Ts a",
+      "confidence": 23,
+      "bbox": {
+        "x": 110,
+        "y": 1287,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "CEs) La Ah pes 1 i I (0g i RS a ) 2 f 5",
+      "confidence": 23,
+      "bbox": {
+        "x": 110,
+        "y": 1419,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "ad. Sa ed i ley 7 UE 4 Hoyts SAN He HY SH ET 4",
+      "confidence": 23,
+      "bbox": {
+        "x": 110,
+        "y": 1551,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "BE oo EN ae wr Las AL (if aA WA Vhs RE",
+      "confidence": 23,
+      "bbox": {
+        "x": 110,
+        "y": 1683,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "ale es BRE (Fa Rg iN. A, ANY EE 5",
+      "confidence": 23,
+      "bbox": {
+        "x": 110,
+        "y": 1815,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "Slide Tae Le Ve TT I a RE Bo Seo",
+      "confidence": 23,
+      "bbox": {
+        "x": 110,
+        "y": 1947,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "= nl bY ma ad ET Fit nen, as",
+      "confidence": 23,
+      "bbox": {
+        "x": 110,
+        "y": 2079,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "car SA Sud ml EE ay - or",
+      "confidence": 23,
+      "bbox": {
+        "x": 110,
+        "y": 2211,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "Sr aw a Tu, Th Ta i oath",
+      "confidence": 23,
+      "bbox": {
+        "x": 110,
+        "y": 2343,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "= For Oo HE 73 Ea 0 Sh at] Fars Er ha pie Sn Hea",
+      "confidence": 23,
+      "bbox": {
+        "x": 110,
+        "y": 2475,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "=p Re --14 Jl fe re ied",
+      "confidence": 23,
+      "bbox": {
+        "x": 110,
+        "y": 2607,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "i er EER TT EE TRON i",
+      "confidence": 23,
+      "bbox": {
+        "x": 110,
+        "y": 2739,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "= Te, oi LW Th",
+      "confidence": 23,
+      "bbox": {
+        "x": 110,
+        "y": 2871,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "al Ty oT EE",
+      "confidence": 23,
+      "bbox": {
+        "x": 110,
+        "y": 3003,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "a gall Jefe 1. Fe a",
+      "confidence": 23,
+      "bbox": {
+        "x": 110,
+        "y": 3135,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "ena 4 = 1 5 = Us fe BA",
+      "confidence": 23,
+      "bbox": {
+        "x": 110,
+        "y": 3267,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "a 4 Gs | ae 7 wh",
+      "confidence": 23,
+      "bbox": {
+        "x": 110,
+        "y": 3399,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "Ea i 2 i, y 3 Lig i Je i or",
+      "confidence": 23,
+      "bbox": {
+        "x": 110,
+        "y": 3531,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "Ci gd i ih I =",
+      "confidence": 23,
+      "bbox": {
+        "x": 110,
+        "y": 3663,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "spi —— me J SECC | MEP ~",
+      "confidence": 23,
+      "bbox": {
+        "x": 110,
+        "y": 3795,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "pi LE SE",
+      "confidence": 23,
+      "bbox": {
+        "x": 110,
+        "y": 3927,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "i Oy a FE ple vl Te aa i»",
+      "confidence": 23,
+      "bbox": {
+        "x": 110,
+        "y": 4059,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "Si an ee",
+      "confidence": 23,
+      "bbox": {
+        "x": 110,
+        "y": 4191,
+        "w": 880,
+        "h": 66
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A picture of various buildings built tightly next to each other within square-shaped high brick walls is shown along the backdrop of a tall, brown, rocky mountain with a blue sky in the background. The buildings are various shapes, sizes, and colors, with one of the buildings running the length of the area in the back and taller than the rest. The buildings have windows throughout and are various shades of brown, black, and white. The brick wall around the buildings is brown and has two rounded and one square column in front, one rounded one on the left front corner, and a square tower on the left side rising higher than the wall. Between two of the columns on the front there is a cemented walkway coming out and running the length of the enclosure toward the right of the picture into an area with green trees of various sizes and shapes. Some of the trees are within smaller stone walls, and some rise higher behind the buildings. More short, windowed structures are seen in the far right of the picture. The terrain in the forefront of the picture is rocky and barren. One small building sits on the mountain in the background behind the walled enclosure.\nButton label: Click to enlarge image of A picture of various buildings built tightly next to each other within square-shaped high brick walls is shown along the backdrop of a tall, brown, rocky mountain with a blue sky in the background. The buildings are various shapes, sizes, and colors, with one of the buildings running the length of the area in the back and taller than the rest. The buildings have windows throughout and are various shades of brown, black, and white. The brick wall around the buildings is brown and has two rounded and one square column in front, one rounded one on the left front corner, and a square tower on the left side rising higher than the wall. Between two of the columns on the front there is a cemented walkway coming out and running the length of the enclosure toward the right of the picture into an area with green trees of various sizes and shapes. Some of the trees are within smaller stone walls, and some rise higher behind the buildings. More short, windowed structures are seen in the far right of the picture. The terrain in the forefront of the picture is rocky and barren. One small building sits on the mountain in the background behind the walled enclosure.\nEnglish caption: Figure 11.5 St. Catherine’s Monastery. Perhaps the most famous Christian monastery of the Arabian Peninsula is St. Catherine’s, constructed in the sixth century CE and adjacent to Mount Sinai (in the background of the photo), where the prophet Moses is said to have received from God the religious laws known as the “Ten Commandments.” (credit: “Saint Catherine's Monastery on the Sinai Peninsula in Egypt” by Joonas Plaan/Wikimedia Commons, CC BY 2.0)",
+  "metrics": {
+    "textDensity": 2.048,
+    "averageConfidence": 23,
+    "entropy": 7.760752888163552,
+    "sharpness": 9.344832996772377
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A picture of various buildings built tightly next to each other within square-shaped high brick walls is shown along the backdrop of a tall, brown, rocky mountain with a blue sky in the background. The buildings are various shapes, sizes, and colors, with one of the buildings running the length of the area in the back and taller than the rest. The buildings have windows throughout and are various shades of brown, black, and white. The brick wall around the buildings is brown and has two rounded and one square column in front, one rounded one on the left front corner, and a square tower on the left side rising higher than the wall. Between two of the columns on the front there is a cemented walkway coming out and running the length of the enclosure toward the right of the picture into an area with green trees of various sizes and shapes. Some of the trees are within smaller stone walls, and some rise higher behind the buildings. More short, windowed structures are seen in the far right of the picture. The terrain in the forefront of the picture is rocky and barren. One small building sits on the mountain in the background behind the walled enclosure.\nButton label: Click to enlarge image of A picture of various buildings built tightly next to each other within square-shaped high brick walls is shown along the backdrop of a tall, brown, rocky mountain with a blue sky in the background. The buildings are various shapes, sizes, and colors, with one of the buildings running the length of the area in the back and taller than the rest. The buildings have windows throughout and are various shades of brown, black, and white. The brick wall around the buildings is brown and has two rounded and one square column in front, one rounded one on the left front corner, and a square tower on the left side rising higher than the wall. Between two of the columns on the front there is a cemented walkway coming out and running the length of the enclosure toward the right of the picture into an area with green trees of various sizes and shapes. Some of the trees are within smaller stone walls, and some rise higher behind the buildings. More short, windowed structures are seen in the far right of the picture. The terrain in the forefront of the picture is rocky and barren. One small building sits on the mountain in the background behind the walled enclosure.\nEnglish caption: Figure 11.5 St. Catherine’s Monastery. Perhaps the most famous Christian monastery of the Arabian Peninsula is St. Catherine’s, constructed in the sixth century CE and adjacent to Mount Sinai (in the background of the photo), where the prophet Moses is said to have received from God the religious laws known as the “Ten Commandments.” (credit: “Saint Catherine's Monastery on the Sinai Peninsula in Egypt” by Joonas Plaan/Wikimedia Commons, CC BY 2.0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: moses, wikimedia, commons. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "GAT ER",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 130,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "ow Bt Leo ACHE RG",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 304,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "OU 4 pi Avs de gil ¢ SUROR A",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 478,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "t (a 7 dial 17 REN a Beg 7 Mort Vic Cress)",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 652,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "A he pe pA f ny I ol 5 spl fh G7 San",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 826,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "Ag EAE SIE UE Te SE",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 1000,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "d Uris, Ry ET SE YAR po :",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 1174,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "A AE re ESE Wl ge it RE SEN AR RE",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 1348,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "ciate x FES SR Wh=: =k § NEE fo TY Cy TR CANE AT",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 1522,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "6 RR PR CRN OI ES (gl RRP A",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 1696,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "tit ple hs te en PAE Gl TR OE GN EY Bi ETC",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 1870,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "i Cg als, dg Eee Wiad N APR a",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 2044,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "HEY Gk Slee rs PX nl wae Mma QE RS VS PE Gn",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 2218,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "AE. SRG. hE Ae, 5s TAR 2 1) 7 PRG ATR NWR Spe",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 2392,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "dey ORE TT NR Ce & SE SE t",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 2566,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "LL ET el RE CH arse A SRR Se VS Te 3",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 2740,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "I RRENEE TT eR SAT iE GF pnt WA SESE SE Th. ea Age:",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 2914,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "Be DL ER ees rE ST RE TT AI RE Ee SG ae TG,",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 3088,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "Geog on ee WTR Rage HW a Be A",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 3262,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "VE es ve I TL CEN, Rabies BT a NE I aa Re SU Ce Ee",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 3436,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "Fae |r Ee = i A 20) RR hee",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 3610,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "cree FES eg (1 » | L 8 AT = — * 2 1 pe SEDER TE",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 3784,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "ps £ = (EEE. rN WC BLY (mn A IE “wa ew",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 3958,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "Cf A | Vee Ed CT eee",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 4132,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "BS fel Ei, ae i SE = dO",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 4306,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "Cra Se 2 [oP war Si wt oe",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 4480,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "Ee —® pi = 4 Soh = he",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 4654,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "Ee Re EE, Rae ode Sa aa",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 4828,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "eee = CC ThE 7’ So ; Lo.",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 5002,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "jee’ EC 3 TEN 7 J Bo a en Ra",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 5176,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "er ay ~ PN 5 @ PE Fin: oF en 38",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 5350,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "A s IP oie, 5 Fa» : 2 : PIS NE",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 5524,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "Hinh 11.5 Tu vién Thanh Catherine.",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 5698,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "C6 18 tu vién Kité giao ndi tiéng nhét trén ban dao A Rap La tu vién Thanh Catherine, dugc xdy dung vao thé ky",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 5872,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "thir sau CE va nam sét ni Sinai (6 phia nén clia bic anh), ndi tién tri M6-sé dudc cho la da nhan tif Thién Chia céc",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 6046,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "luat tn gido dugc biét dén véi tén goi “Mudi Diéu Ran.”",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 6220,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "(tin dung: “Tu vién Thanh Catherine trén ban dao Sinai & Ai Cap” bdi Joonas Plaan/trén Kho di liu tri thic ty do, gidy phép CC BY 2.0)",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 6394,
+          "w": 1158,
+          "h": 87
+        }
+      }
+    ],
+    "validation": {
+      "ok": false,
+      "reason": "image-edit-leftover-source-english",
+      "leftoverSourceWords": [
+        "catherine",
+        "sinai",
+        "joonas",
+        "plaan"
+      ]
+    },
+    "validationAttempt": 3
+  }
+}

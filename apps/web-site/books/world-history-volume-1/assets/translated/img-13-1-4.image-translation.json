@@ -1,0 +1,426 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-13-1-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/13-1-the-post-roman-west-in-the-early-middle-ages.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "image-edit-leftover-source-english",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Re ; H ¢",
+      "confidence": 23,
+      "bbox": {
+        "x": 75,
+        "y": 72,
+        "w": 600,
+        "h": 48
+      }
+    },
+    {
+      "text": "BR. 0er ; J",
+      "confidence": 23,
+      "bbox": {
+        "x": 75,
+        "y": 168,
+        "w": 600,
+        "h": 48
+      }
+    },
+    {
+      "text": "es S",
+      "confidence": 23,
+      "bbox": {
+        "x": 75,
+        "y": 264,
+        "w": 600,
+        "h": 48
+      }
+    },
+    {
+      "text": "con, ERE",
+      "confidence": 23,
+      "bbox": {
+        "x": 75,
+        "y": 360,
+        "w": 600,
+        "h": 48
+      }
+    },
+    {
+      "text": "79 eH NG .",
+      "confidence": 23,
+      "bbox": {
+        "x": 75,
+        "y": 456,
+        "w": 600,
+        "h": 48
+      }
+    },
+    {
+      "text": "CALEY A D,",
+      "confidence": 23,
+      "bbox": {
+        "x": 75,
+        "y": 552,
+        "w": 600,
+        "h": 48
+      }
+    },
+    {
+      "text": "CARRE ERE CT",
+      "confidence": 23,
+      "bbox": {
+        "x": 75,
+        "y": 648,
+        "w": 600,
+        "h": 48
+      }
+    },
+    {
+      "text": "- TTI LLLLY l lid ho",
+      "confidence": 23,
+      "bbox": {
+        "x": 75,
+        "y": 744,
+        "w": 600,
+        "h": 48
+      }
+    },
+    {
+      "text": "rai AE i Ls =",
+      "confidence": 23,
+      "bbox": {
+        "x": 75,
+        "y": 840,
+        "w": 600,
+        "h": 48
+      }
+    },
+    {
+      "text": "LX T ESAT Ee.",
+      "confidence": 23,
+      "bbox": {
+        "x": 75,
+        "y": 936,
+        "w": 600,
+        "h": 48
+      }
+    },
+    {
+      "text": "Se Po ETC aly",
+      "confidence": 23,
+      "bbox": {
+        "x": 75,
+        "y": 1032,
+        "w": 600,
+        "h": 48
+      }
+    },
+    {
+      "text": "Fon nes en od, Ti 3 a",
+      "confidence": 23,
+      "bbox": {
+        "x": 75,
+        "y": 1128,
+        "w": 600,
+        "h": 48
+      }
+    },
+    {
+      "text": "a An Cpe. AES Ter",
+      "confidence": 23,
+      "bbox": {
+        "x": 75,
+        "y": 1224,
+        "w": 600,
+        "h": 48
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A gray pencil drawing of a large building is shown with mountains in the background. The terrain in the front and sides of the building is bare, rocky, with only two small houses seen in the far right. Seven figures are shown standing in the left foreground in long dresses, white shirts with dark pants, and all wearing hats. The building is several tiers built on top of each other. The roofs appear tiled with peaks at every tier. Crosses sit at some of the peaks and toward the top of the building dragon like projections sit atop four peaks. Windows are seen along the lower levels as well as a door with a round room on the right of the building with two more round tiers on top.\nButton label: Click to enlarge image of A gray pencil drawing of a large building is shown with mountains in the background. The terrain in the front and sides of the building is bare, rocky, with only two small houses seen in the far right. Seven figures are shown standing in the left foreground in long dresses, white shirts with dark pants, and all wearing hats. The building is several tiers built on top of each other. The roofs appear tiled with peaks at every tier. Crosses sit at some of the peaks and toward the top of the building dragon like projections sit atop four peaks. Windows are seen along the lower levels as well as a door with a round room on the right of the building with two more round tiers on top.\nEnglish caption: Figure 13.7 Borgund Stave Church. This nineteenth-century rendering of Borgund Stave Church was made by the Norwegian author Christian Tønsberg. (credit: “Franz Wilhelm Schiertz Borgunds Kirke i Lærdal i Sogn” by Norge fremstillet i Tegninger fra Digitalarkivet/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 0.832,
+    "averageConfidence": 23,
+    "entropy": 6.88179132368532,
+    "sharpness": 1.489785247145521
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A gray pencil drawing of a large building is shown with mountains in the background. The terrain in the front and sides of the building is bare, rocky, with only two small houses seen in the far right. Seven figures are shown standing in the left foreground in long dresses, white shirts with dark pants, and all wearing hats. The building is several tiers built on top of each other. The roofs appear tiled with peaks at every tier. Crosses sit at some of the peaks and toward the top of the building dragon like projections sit atop four peaks. Windows are seen along the lower levels as well as a door with a round room on the right of the building with two more round tiers on top.\nButton label: Click to enlarge image of A gray pencil drawing of a large building is shown with mountains in the background. The terrain in the front and sides of the building is bare, rocky, with only two small houses seen in the far right. Seven figures are shown standing in the left foreground in long dresses, white shirts with dark pants, and all wearing hats. The building is several tiers built on top of each other. The roofs appear tiled with peaks at every tier. Crosses sit at some of the peaks and toward the top of the building dragon like projections sit atop four peaks. Windows are seen along the lower levels as well as a door with a round room on the right of the building with two more round tiers on top.\nEnglish caption: Figure 13.7 Borgund Stave Church. This nineteenth-century rendering of Borgund Stave Church was made by the Norwegian author Christian Tønsberg. (credit: “Franz Wilhelm Schiertz Borgunds Kirke i Lærdal i Sogn” by Norge fremstillet i Tegninger fra Digitalarkivet/Wikimedia Commons, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: borgund, christian, franz, wilhelm, schiertz, sogn, digitalarkivet, wikimedia, commons. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Wy, MR A",
+        "confidence": 40,
+        "bbox": {
+          "x": 140,
+          "y": 135,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "rss afl or ad \" ag",
+        "confidence": 40,
+        "bbox": {
+          "x": 140,
+          "y": 315,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "p : RRR |i B ] Rg",
+        "confidence": 40,
+        "bbox": {
+          "x": 140,
+          "y": 495,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "{ EE SO bra Wek",
+        "confidence": 40,
+        "bbox": {
+          "x": 140,
+          "y": 675,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "; “ely 5 TR ih A I Or ~ eS xy",
+        "confidence": 40,
+        "bbox": {
+          "x": 140,
+          "y": 855,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "ik SX My 7 A 6 i 3 aE",
+        "confidence": 40,
+        "bbox": {
+          "x": 140,
+          "y": 1035,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "EO ity pe 7 Sey NN ERE",
+        "confidence": 40,
+        "bbox": {
+          "x": 140,
+          "y": 1215,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "Ei oni ZA Wu, \\. i. 2",
+        "confidence": 40,
+        "bbox": {
+          "x": 140,
+          "y": 1395,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "Ps NY oli GHEE eV Sa",
+        "confidence": 40,
+        "bbox": {
+          "x": 140,
+          "y": 1575,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "cpa HAE N 3 | a Ee) N AERA 5",
+        "confidence": 40,
+        "bbox": {
+          "x": 140,
+          "y": 1755,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "; EROS © Ui 4 | da | HN] a : =",
+        "confidence": 40,
+        "bbox": {
+          "x": 140,
+          "y": 1935,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "AMV AR AIRE py gE, eT",
+        "confidence": 40,
+        "bbox": {
+          "x": 140,
+          "y": 2115,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "AN 7 % | id a i \\ =o aie",
+        "confidence": 40,
+        "bbox": {
+          "x": 140,
+          "y": 2295,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "CA ANE 1 eg SEE",
+        "confidence": 40,
+        "bbox": {
+          "x": 140,
+          "y": 2475,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "a er & LLL M | 1d = Lud iw 34 Eg",
+        "confidence": 40,
+        "bbox": {
+          "x": 140,
+          "y": 2655,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "PS cia TTT a | i | oe",
+        "confidence": 40,
+        "bbox": {
+          "x": 140,
+          "y": 2835,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "25 a oi To PER CPE nk]",
+        "confidence": 40,
+        "bbox": {
+          "x": 140,
+          "y": 3015,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "a 5 mT Cd pr = ga a SUA",
+        "confidence": 40,
+        "bbox": {
+          "x": 140,
+          "y": 3195,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "EEE Re ae Te",
+        "confidence": 40,
+        "bbox": {
+          "x": 140,
+          "y": 3375,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "[pcs = — ER, PRE en NF",
+        "confidence": 40,
+        "bbox": {
+          "x": 140,
+          "y": 3555,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "= DE ~ enn. Ras Sivan ves",
+        "confidence": 40,
+        "bbox": {
+          "x": 140,
+          "y": 3735,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "Hinh 13.7 Nha tho Borgund Stave.",
+        "confidence": 40,
+        "bbox": {
+          "x": 140,
+          "y": 3915,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "Ban vé vé Nha thd Borgund Stave tir thé ky XIX nay duoc thuc hién béi tac gia ngudi Na Uy Christian Tgnsberg.",
+        "confidence": 40,
+        "bbox": {
+          "x": 140,
+          "y": 4095,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "(ngudn: “Franz Wilhelm Schiertz Nha ther Borgund & Laerdal tai Sogn” béi Na Uy dug thé hién trong céc ban vé",
+        "confidence": 40,
+        "bbox": {
+          "x": 140,
+          "y": 4275,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "tur Digitalarkivet/Wikimedia Commons, Pham vi cong cong)",
+        "confidence": 40,
+        "bbox": {
+          "x": 140,
+          "y": 4455,
+          "w": 1122,
+          "h": 90
+        }
+      }
+    ],
+    "validation": {
+      "ok": false,
+      "reason": "image-edit-leftover-source-english",
+      "leftoverSourceWords": [
+        "borgund",
+        "stave",
+        "christian",
+        "franz",
+        "wilhelm",
+        "schiertz",
+        "sogn",
+        "digitalarkivet",
+        "wikimedia",
+        "commons"
+      ]
+    },
+    "validationAttempt": 3
+  }
+}

@@ -28,5 +28,11 @@
     "title": "Principles of Finance",
     "url": "/principles-finance/",
     "cover": "/assets/principles-finance_cover.svg"
+  },
+  {
+    "slug": "world-history-volume-1",
+    "title": "World History, Volume 1: to 1500",
+    "url": "/world-history-volume-1/",
+    "cover": "/assets/world-history-volume-1_cover.svg"
   }
 ]

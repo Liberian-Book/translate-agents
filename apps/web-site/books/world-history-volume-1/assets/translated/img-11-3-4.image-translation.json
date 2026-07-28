@@ -1,0 +1,681 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-11-3-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/11-3-islamization-and-religious-rule-under-islam.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "image-edit-leftover-source-english",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "(A = ~ RRA,",
+      "confidence": 24,
+      "bbox": {
+        "x": 90,
+        "y": 110,
+        "w": 720,
+        "h": 73
+      }
+    },
+    {
+      "text": "hi ) : hac i ET & A",
+      "confidence": 24,
+      "bbox": {
+        "x": 90,
+        "y": 256,
+        "w": 720,
+        "h": 73
+      }
+    },
+    {
+      "text": "NT NFR SVC RS Fire hh rfl |",
+      "confidence": 24,
+      "bbox": {
+        "x": 90,
+        "y": 402,
+        "w": 720,
+        "h": 73
+      }
+    },
+    {
+      "text": "ALAR EE C5 os Sige ly 8",
+      "confidence": 24,
+      "bbox": {
+        "x": 90,
+        "y": 548,
+        "w": 720,
+        "h": 73
+      }
+    },
+    {
+      "text": "RSE A Sh RTE SRE NR SS SC Pn |",
+      "confidence": 24,
+      "bbox": {
+        "x": 90,
+        "y": 694,
+        "w": 720,
+        "h": 73
+      }
+    },
+    {
+      "text": "ESE Fo HEA ad lee A] We a",
+      "confidence": 24,
+      "bbox": {
+        "x": 90,
+        "y": 840,
+        "w": 720,
+        "h": 73
+      }
+    },
+    {
+      "text": "520 fon, Flin e [ 5 RR",
+      "confidence": 24,
+      "bbox": {
+        "x": 90,
+        "y": 986,
+        "w": 720,
+        "h": 73
+      }
+    },
+    {
+      "text": "SCRE OE | EEL Soir",
+      "confidence": 24,
+      "bbox": {
+        "x": 90,
+        "y": 1132,
+        "w": 720,
+        "h": 73
+      }
+    },
+    {
+      "text": "57 CRP a SO ne | JB mt fe’",
+      "confidence": 24,
+      "bbox": {
+        "x": 90,
+        "y": 1278,
+        "w": 720,
+        "h": 73
+      }
+    },
+    {
+      "text": "Fa PRN ST Re PW pe",
+      "confidence": 24,
+      "bbox": {
+        "x": 90,
+        "y": 1424,
+        "w": 720,
+        "h": 73
+      }
+    },
+    {
+      "text": "3 FL oC) 1], PvE ur i hi] - 4 bd gi Sl Pe FR FA",
+      "confidence": 24,
+      "bbox": {
+        "x": 90,
+        "y": 1570,
+        "w": 720,
+        "h": 73
+      }
+    },
+    {
+      "text": "ws Za, 5 a HET 4a So Bt nly de ¥ BE",
+      "confidence": 24,
+      "bbox": {
+        "x": 90,
+        "y": 1716,
+        "w": 720,
+        "h": 73
+      }
+    },
+    {
+      "text": "fron Po ™ rN = = Th SH",
+      "confidence": 24,
+      "bbox": {
+        "x": 90,
+        "y": 1862,
+        "w": 720,
+        "h": 73
+      }
+    },
+    {
+      "text": "Foc NE LAN WW Fe [| GF IS",
+      "confidence": 24,
+      "bbox": {
+        "x": 90,
+        "y": 2008,
+        "w": 720,
+        "h": 73
+      }
+    },
+    {
+      "text": "Boy i ere ESR pera! i= i [",
+      "confidence": 24,
+      "bbox": {
+        "x": 90,
+        "y": 2154,
+        "w": 720,
+        "h": 73
+      }
+    },
+    {
+      "text": "FN Pa FS TS age |",
+      "confidence": 24,
+      "bbox": {
+        "x": 90,
+        "y": 2300,
+        "w": 720,
+        "h": 73
+      }
+    },
+    {
+      "text": "BE © dol cde tai ff YC feed ig",
+      "confidence": 24,
+      "bbox": {
+        "x": 90,
+        "y": 2446,
+        "w": 720,
+        "h": 73
+      }
+    },
+    {
+      "text": "HE STA gh eS",
+      "confidence": 24,
+      "bbox": {
+        "x": 90,
+        "y": 2592,
+        "w": 720,
+        "h": 73
+      }
+    },
+    {
+      "text": "ki Gr R= fe SNOB TNE",
+      "confidence": 24,
+      "bbox": {
+        "x": 90,
+        "y": 2738,
+        "w": 720,
+        "h": 73
+      }
+    },
+    {
+      "text": "8 SEE ETE Ny ly: © Ex, “a Af",
+      "confidence": 24,
+      "bbox": {
+        "x": 90,
+        "y": 2884,
+        "w": 720,
+        "h": 73
+      }
+    },
+    {
+      "text": "/ % by ER Ww, nN",
+      "confidence": 24,
+      "bbox": {
+        "x": 90,
+        "y": 3030,
+        "w": 720,
+        "h": 73
+      }
+    },
+    {
+      "text": "Jira ae RE RE NS pave |",
+      "confidence": 24,
+      "bbox": {
+        "x": 90,
+        "y": 3176,
+        "w": 720,
+        "h": 73
+      }
+    },
+    {
+      "text": "Cie Je go = BE i TR",
+      "confidence": 24,
+      "bbox": {
+        "x": 90,
+        "y": 3322,
+        "w": 720,
+        "h": 73
+      }
+    },
+    {
+      "text": "hil a i MSE Glam | 8",
+      "confidence": 24,
+      "bbox": {
+        "x": 90,
+        "y": 3468,
+        "w": 720,
+        "h": 73
+      }
+    },
+    {
+      "text": "pb wT DR ae rE |",
+      "confidence": 24,
+      "bbox": {
+        "x": 90,
+        "y": 3614,
+        "w": 720,
+        "h": 73
+      }
+    },
+    {
+      "text": "WRAL AR SRM EER.",
+      "confidence": 24,
+      "bbox": {
+        "x": 90,
+        "y": 3760,
+        "w": 720,
+        "h": 73
+      }
+    },
+    {
+      "text": "(tl BPEL EE ala dE FT",
+      "confidence": 24,
+      "bbox": {
+        "x": 90,
+        "y": 3906,
+        "w": 720,
+        "h": 73
+      }
+    },
+    {
+      "text": "lies Sis | a Bo im Ee",
+      "confidence": 24,
+      "bbox": {
+        "x": 90,
+        "y": 4052,
+        "w": 720,
+        "h": 73
+      }
+    },
+    {
+      "text": "PR TR alr sae: JE TR",
+      "confidence": 24,
+      "bbox": {
+        "x": 90,
+        "y": 4198,
+        "w": 720,
+        "h": 73
+      }
+    },
+    {
+      "text": "tea Hast SR a Ses",
+      "confidence": 24,
+      "bbox": {
+        "x": 90,
+        "y": 4344,
+        "w": 720,
+        "h": 73
+      }
+    },
+    {
+      "text": "bo AE, Ry NT mai 1",
+      "confidence": 24,
+      "bbox": {
+        "x": 90,
+        "y": 4490,
+        "w": 720,
+        "h": 73
+      }
+    },
+    {
+      "text": "rE ro tse RTS Er A a ENT er",
+      "confidence": 24,
+      "bbox": {
+        "x": 90,
+        "y": 4636,
+        "w": 720,
+        "h": 73
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A picture of a drawing is shown. Six bearded men are seated on the ground facing a seventh bearded man on the right who is extending his hand out toward the ground. They all wear long solid-colored robes and various turbans on their heads. All of them have black, almond-shaped eyes and black beards, except for one man who has a white beard. One of the men holds two thin white and brown items in his hands. Behind them are shown thirty-three squares in three rows of nine and one row of seven at the top, partially hidden by a green and yellow lattice archway. Inside the square sit stacks of brown books in front of yellow and pink jugs. Red and gold designs are shown across the top of the picture with a gridded gold pyramid shown above the designs in the middle.\nButton label: Click to enlarge image of A picture of a drawing is shown. Six bearded men are seated on the ground facing a seventh bearded man on the right who is extending his hand out toward the ground. They all wear long solid-colored robes and various turbans on their heads. All of them have black, almond-shaped eyes and black beards, except for one man who has a white beard. One of the men holds two thin white and brown items in his hands. Behind them are shown thirty-three squares in three rows of nine and one row of seven at the top, partially hidden by a green and yellow lattice archway. Inside the square sit stacks of brown books in front of yellow and pink jugs. Red and gold designs are shown across the top of the picture with a gridded gold pyramid shown above the designs in the middle.\nEnglish caption: Figure 11.21 A Member of the Ulama as Teacher. This thirteenth-century image of a group of students learning from a teacher (far right) in a library depicts religious education in the Abbasid period. (credit: “Les Makamat de Hariri” by Bibliothèque nationale de France/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 2.0446389496717723,
+    "averageConfidence": 24,
+    "entropy": 7.3039475196746935,
+    "sharpness": 4.277503903203867
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A picture of a drawing is shown. Six bearded men are seated on the ground facing a seventh bearded man on the right who is extending his hand out toward the ground. They all wear long solid-colored robes and various turbans on their heads. All of them have black, almond-shaped eyes and black beards, except for one man who has a white beard. One of the men holds two thin white and brown items in his hands. Behind them are shown thirty-three squares in three rows of nine and one row of seven at the top, partially hidden by a green and yellow lattice archway. Inside the square sit stacks of brown books in front of yellow and pink jugs. Red and gold designs are shown across the top of the picture with a gridded gold pyramid shown above the designs in the middle.\nButton label: Click to enlarge image of A picture of a drawing is shown. Six bearded men are seated on the ground facing a seventh bearded man on the right who is extending his hand out toward the ground. They all wear long solid-colored robes and various turbans on their heads. All of them have black, almond-shaped eyes and black beards, except for one man who has a white beard. One of the men holds two thin white and brown items in his hands. Behind them are shown thirty-three squares in three rows of nine and one row of seven at the top, partially hidden by a green and yellow lattice archway. Inside the square sit stacks of brown books in front of yellow and pink jugs. Red and gold designs are shown across the top of the picture with a gridded gold pyramid shown above the designs in the middle.\nEnglish caption: Figure 11.21 A Member of the Ulama as Teacher. This thirteenth-century image of a group of students learning from a teacher (far right) in a library depicts religious education in the Abbasid period. (credit: “Les Makamat de Hariri” by Bibliothèque nationale de France/Wikimedia Commons, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: wikimedia, commons. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "LEB",
+        "confidence": 40,
+        "bbox": {
+          "x": 124,
+          "y": 152,
+          "w": 995,
+          "h": 101
+        }
+      },
+      {
+        "text": "© d & 4. To 5 A d A",
+        "confidence": 40,
+        "bbox": {
+          "x": 124,
+          "y": 354,
+          "w": 995,
+          "h": 101
+        }
+      },
+      {
+        "text": "Se I CL ss NE —",
+        "confidence": 40,
+        "bbox": {
+          "x": 124,
+          "y": 556,
+          "w": 995,
+          "h": 101
+        }
+      },
+      {
+        "text": "INERT ONESELF ONE &",
+        "confidence": 40,
+        "bbox": {
+          "x": 124,
+          "y": 758,
+          "w": 995,
+          "h": 101
+        }
+      },
+      {
+        "text": "BA § A 7 \\7 SV HE 5 NN EN VN > 7a",
+        "confidence": 40,
+        "bbox": {
+          "x": 124,
+          "y": 960,
+          "w": 995,
+          "h": 101
+        }
+      },
+      {
+        "text": "3D we’ IC UD WDE",
+        "confidence": 40,
+        "bbox": {
+          "x": 124,
+          "y": 1162,
+          "w": 995,
+          "h": 101
+        }
+      },
+      {
+        "text": "Pal Ig Vo came | am SH pam REE",
+        "confidence": 40,
+        "bbox": {
+          "x": 124,
+          "y": 1364,
+          "w": 995,
+          "h": 101
+        }
+      },
+      {
+        "text": "TAG TAS ya hen = Ed wm Wn NO) NANA",
+        "confidence": 40,
+        "bbox": {
+          "x": 124,
+          "y": 1566,
+          "w": 995,
+          "h": 101
+        }
+      },
+      {
+        "text": "TAS De as Jl TE 4 te = s & [= RS Es",
+        "confidence": 40,
+        "bbox": {
+          "x": 124,
+          "y": 1768,
+          "w": 995,
+          "h": 101
+        }
+      },
+      {
+        "text": "Ch Ia a RARE 1) i Sof | eel] | LN)",
+        "confidence": 40,
+        "bbox": {
+          "x": 124,
+          "y": 1970,
+          "w": 995,
+          "h": 101
+        }
+      },
+      {
+        "text": "i Ca f ; EN ¥ pom = ~ ¥",
+        "confidence": 40,
+        "bbox": {
+          "x": 124,
+          "y": 2172,
+          "w": 995,
+          "h": 101
+        }
+      },
+      {
+        "text": "F : P= wn | a of [ERE - = : 3",
+        "confidence": 40,
+        "bbox": {
+          "x": 124,
+          "y": 2374,
+          "w": 995,
+          "h": 101
+        }
+      },
+      {
+        "text": "A PE",
+        "confidence": 40,
+        "bbox": {
+          "x": 124,
+          "y": 2576,
+          "w": 995,
+          "h": 101
+        }
+      },
+      {
+        "text": "rd : cE er i. x a",
+        "confidence": 40,
+        "bbox": {
+          "x": 124,
+          "y": 2778,
+          "w": 995,
+          "h": 101
+        }
+      },
+      {
+        "text": "i LT cf) 45 BP ¥_i\" = = ee | |] | 15% :",
+        "confidence": 40,
+        "bbox": {
+          "x": 124,
+          "y": 2980,
+          "w": 995,
+          "h": 101
+        }
+      },
+      {
+        "text": "rey \"fs : War Eo",
+        "confidence": 40,
+        "bbox": {
+          "x": 124,
+          "y": 3182,
+          "w": 995,
+          "h": 101
+        }
+      },
+      {
+        "text": "Git Nea Gm XS 50 A x py 2% bi=3 on",
+        "confidence": 40,
+        "bbox": {
+          "x": 124,
+          "y": 3384,
+          "w": 995,
+          "h": 101
+        }
+      },
+      {
+        "text": "5 | pa SNe IAN $ 4 f = 0 \\i",
+        "confidence": 40,
+        "bbox": {
+          "x": 124,
+          "y": 3586,
+          "w": 995,
+          "h": 101
+        }
+      },
+      {
+        "text": "V.aalia NINA TL et A |",
+        "confidence": 40,
+        "bbox": {
+          "x": 124,
+          "y": 3788,
+          "w": 995,
+          "h": 101
+        }
+      },
+      {
+        "text": "7 ER WRN 7 WARE RNR), NL E/ i,",
+        "confidence": 40,
+        "bbox": {
+          "x": 124,
+          "y": 3990,
+          "w": 995,
+          "h": 101
+        }
+      },
+      {
+        "text": "i Ze Res So 4 NAW A ra a",
+        "confidence": 40,
+        "bbox": {
+          "x": 124,
+          "y": 4192,
+          "w": 995,
+          "h": 101
+        }
+      },
+      {
+        "text": "|| Eas gh EN | am <2 RN 7 i a5 4 ah Eo : i",
+        "confidence": 40,
+        "bbox": {
+          "x": 124,
+          "y": 4394,
+          "w": 995,
+          "h": 101
+        }
+      },
+      {
+        "text": "J] ERE NEI ANG pS | PETE pe aN) 0",
+        "confidence": 40,
+        "bbox": {
+          "x": 124,
+          "y": 4596,
+          "w": 995,
+          "h": 101
+        }
+      },
+      {
+        "text": "Jl] [7 a me SN) ely Jl Wl [4 Q",
+        "confidence": 40,
+        "bbox": {
+          "x": 124,
+          "y": 4798,
+          "w": 995,
+          "h": 101
+        }
+      },
+      {
+        "text": "[14S GEE Pres Yo Sef RE p= Ned oN X75 ly gs i fod ACES BY ZN",
+        "confidence": 40,
+        "bbox": {
+          "x": 124,
+          "y": 5000,
+          "w": 995,
+          "h": 101
+        }
+      },
+      {
+        "text": "ono CEE Be ea Sa a o)",
+        "confidence": 40,
+        "bbox": {
+          "x": 124,
+          "y": 5202,
+          "w": 995,
+          "h": 101
+        }
+      },
+      {
+        "text": "| oe Dl TY |",
+        "confidence": 40,
+        "bbox": {
+          "x": 124,
+          "y": 5404,
+          "w": 995,
+          "h": 101
+        }
+      },
+      {
+        "text": "Hinh 11.21 Mot thanh vién cua gi6i Ulama lam gido vién.",
+        "confidence": 40,
+        "bbox": {
+          "x": 124,
+          "y": 5606,
+          "w": 995,
+          "h": 101
+        }
+      },
+      {
+        "text": "Hinh &nh thé ky tht mudi ba nay vé mot nhom hoc sinh dang hoc tit mot gido vién",
+        "confidence": 40,
+        "bbox": {
+          "x": 124,
+          "y": 5808,
+          "w": 995,
+          "h": 101
+        }
+      },
+      {
+        "text": "(ngoai cing bén phai) trong mot thu vién mo ta gido duc ton gido thai ky Abbasid.",
+        "confidence": 40,
+        "bbox": {
+          "x": 124,
+          "y": 6010,
+          "w": 995,
+          "h": 101
+        }
+      },
+      {
+        "text": "(ngudn: “Nhiing cudc d6i thoai ctia Hariri” bgi Thu vién Qudc gia Phép/",
+        "confidence": 40,
+        "bbox": {
+          "x": 124,
+          "y": 6212,
+          "w": 995,
+          "h": 101
+        }
+      },
+      {
+        "text": "Wikimedia Commons, Mién cong cong)",
+        "confidence": 40,
+        "bbox": {
+          "x": 124,
+          "y": 6414,
+          "w": 995,
+          "h": 101
+        }
+      }
+    ],
+    "validation": {
+      "ok": false,
+      "reason": "image-edit-leftover-source-english",
+      "leftoverSourceWords": [
+        "ulama",
+        "abbasid",
+        "hariri",
+        "wikimedia",
+        "commons"
+      ]
+    },
+    "validationAttempt": 3
+  }
+}

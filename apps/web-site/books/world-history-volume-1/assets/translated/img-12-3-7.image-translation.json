@@ -1,0 +1,244 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-12-3-7.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/12-3-border-states-sogdiana-korea-and-japan.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "image-edit-leftover-source-english",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "f\\-a Seas pe es a",
+      "confidence": 26,
+      "bbox": {
+        "x": 90,
+        "y": 72,
+        "w": 720,
+        "h": 48
+      }
+    },
+    {
+      "text": "fi ¥",
+      "confidence": 26,
+      "bbox": {
+        "x": 90,
+        "y": 168,
+        "w": 720,
+        "h": 48
+      }
+    },
+    {
+      "text": "” ; | = BI",
+      "confidence": 26,
+      "bbox": {
+        "x": 90,
+        "y": 264,
+        "w": 720,
+        "h": 48
+      }
+    },
+    {
+      "text": "ore Mg Foe Mi",
+      "confidence": 26,
+      "bbox": {
+        "x": 90,
+        "y": 360,
+        "w": 720,
+        "h": 48
+      }
+    },
+    {
+      "text": "EET EL ee -",
+      "confidence": 26,
+      "bbox": {
+        "x": 90,
+        "y": 456,
+        "w": 720,
+        "h": 48
+      }
+    },
+    {
+      "text": "seseet io Mi) eal iw",
+      "confidence": 26,
+      "bbox": {
+        "x": 90,
+        "y": 552,
+        "w": 720,
+        "h": 48
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A picture of a wooden structure set in the water on the backdrop of a modern city and mountains is shown. The blue sky is also seen in the far back. In the water, three brown sticks stand upright, the middle one taller and supporting a horizontal brown beam and another rounded beam above. The top of the rounded beam is green and decorated with designs. In between the two beams, a dark brown rectangle sits with ornate gold designs within.\nButton label: Click to enlarge image of A picture of a wooden structure set in the water on the backdrop of a modern city and mountains is shown. The blue sky is also seen in the far back. In the water, three brown sticks stand upright, the middle one taller and supporting a horizontal brown beam and another rounded beam above. The top of the rounded beam is green and decorated with designs. In between the two beams, a dark brown rectangle sits with ornate gold designs within.\nEnglish caption: Figure 12.31 The Itsukushima Shrine. Originally built in the twelfth century, the Itsukushima Shrine pictured here is an important Shinto symbol of the indigenous religion of Japan and a UNESCO World Heritage Site. The prominence of shrines such as this shows that the religion is still a vibrant aspect of cultural life in Japan today. (credit: “The torii gate at the Itsukushima Shrine in Miyajima” by Balon Greyjoy/Wikimedia Commons, CC0 1.0)",
+  "metrics": {
+    "textDensity": 0.384,
+    "averageConfidence": 26,
+    "entropy": 7.384334346104879,
+    "sharpness": 6.094093082293644
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A picture of a wooden structure set in the water on the backdrop of a modern city and mountains is shown. The blue sky is also seen in the far back. In the water, three brown sticks stand upright, the middle one taller and supporting a horizontal brown beam and another rounded beam above. The top of the rounded beam is green and decorated with designs. In between the two beams, a dark brown rectangle sits with ornate gold designs within.\nButton label: Click to enlarge image of A picture of a wooden structure set in the water on the backdrop of a modern city and mountains is shown. The blue sky is also seen in the far back. In the water, three brown sticks stand upright, the middle one taller and supporting a horizontal brown beam and another rounded beam above. The top of the rounded beam is green and decorated with designs. In between the two beams, a dark brown rectangle sits with ornate gold designs within.\nEnglish caption: Figure 12.31 The Itsukushima Shrine. Originally built in the twelfth century, the Itsukushima Shrine pictured here is an important Shinto symbol of the indigenous religion of Japan and a UNESCO World Heritage Site. The prominence of shrines such as this shows that the religion is still a vibrant aspect of cultural life in Japan today. (credit: “The torii gate at the Itsukushima Shrine in Miyajima” by Balon Greyjoy/Wikimedia Commons, CC0 1.0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: itsukushima, unesco, torii, miyajima, balon, greyjoy, wikimedia, commons. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "ci RSE 3 rn IRN rat Ea roy",
+        "confidence": 48,
+        "bbox": {
+          "x": 154,
+          "y": 123,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "or a ST et elie] |) Crt agin st FRIST Ett er SA SE",
+        "confidence": 48,
+        "bbox": {
+          "x": 154,
+          "y": 287,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "Be Rreimel cena ae ET mar IR Ea ml ST SH \\",
+        "confidence": 48,
+        "bbox": {
+          "x": 154,
+          "y": 451,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "LE 3 EET | | £ EYE SR asia J REE Re | re]",
+        "confidence": 48,
+        "bbox": {
+          "x": 154,
+          "y": 615,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "ian km ee or CARNE Te Ee a El ST tL eee Ee",
+        "confidence": 48,
+        "bbox": {
+          "x": 154,
+          "y": 779,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "a ey St meyer (| | Sheet es So ae el uf Ll) ). Cs REY Ege Soave]",
+        "confidence": 48,
+        "bbox": {
+          "x": 154,
+          "y": 943,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "CF Lee Lem daa ee a",
+        "confidence": 48,
+        "bbox": {
+          "x": 154,
+          "y": 1107,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "Avie Paes RC mae eR Es mene 7 See",
+        "confidence": 48,
+        "bbox": {
+          "x": 154,
+          "y": 1271,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": ": : = == Ea SE ieaE Seam =",
+        "confidence": 48,
+        "bbox": {
+          "x": 154,
+          "y": 1435,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "1 12 Dén Itsukushima.",
+        "confidence": 48,
+        "bbox": {
+          "x": 154,
+          "y": 1599,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "Puc xady dung ban dau vao thé ky thi mudi hai, Dén Itsukushima duoc chup trong hinh 13 mét biéu twgng Thant dao quan",
+        "confidence": 48,
+        "bbox": {
+          "x": 154,
+          "y": 1763,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "trong cla ton gido ban dia Nhat Ban va la Di san Thé gidi cia UNESCO. Su ndi bat cla cac dén the nhu thé nay cho thay rang",
+        "confidence": 48,
+        "bbox": {
+          "x": 154,
+          "y": 1927,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "ton gido van la mot khia canh sng dong cla doi séng van héa & Nhat Ban ngay nay.",
+        "confidence": 48,
+        "bbox": {
+          "x": 154,
+          "y": 2091,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "(ngudn: “Céng torii tai Dén Itsukushima & Miyajima” béi Greyjoy Balon/Wikimedia Commons, CCO 1.0)",
+        "confidence": 48,
+        "bbox": {
+          "x": 154,
+          "y": 2255,
+          "w": 1230,
+          "h": 82
+        }
+      }
+    ],
+    "validation": {
+      "ok": false,
+      "reason": "image-edit-leftover-source-english",
+      "leftoverSourceWords": [
+        "itsukushima",
+        "unesco",
+        "torii",
+        "miyajima",
+        "balon",
+        "greyjoy",
+        "wikimedia",
+        "commons"
+      ]
+    },
+    "validationAttempt": 3
+  }
+}

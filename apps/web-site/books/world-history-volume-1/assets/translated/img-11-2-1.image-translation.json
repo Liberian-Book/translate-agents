@@ -1,0 +1,583 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-11-2-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/11-2-the-arab-islamic-conquests-and-the-first-islamic-states.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "image-edit-leftover-source-english",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "RL",
+      "confidence": 35,
+      "bbox": {
+        "x": 130,
+        "y": 106,
+        "w": 1039,
+        "h": 70
+      }
+    },
+    {
+      "text": "ES AN NN TE",
+      "confidence": 35,
+      "bbox": {
+        "x": 130,
+        "y": 247,
+        "w": 1039,
+        "h": 70
+      }
+    },
+    {
+      "text": "i § ™ Zi",
+      "confidence": 35,
+      "bbox": {
+        "x": 130,
+        "y": 388,
+        "w": 1039,
+        "h": 70
+      }
+    },
+    {
+      "text": "ERAN EUROPE) >. 4 |",
+      "confidence": 35,
+      "bbox": {
+        "x": 130,
+        "y": 529,
+        "w": 1039,
+        "h": 70
+      }
+    },
+    {
+      "text": "of 3 oa Black Sea d KX ”",
+      "confidence": 35,
+      "bbox": {
+        "x": 130,
+        "y": 670,
+        "w": 1039,
+        "h": 70
+      }
+    },
+    {
+      "text": "onstantinople Oo Enis",
+      "confidence": 35,
+      "bbox": {
+        "x": 130,
+        "y": 811,
+        "w": 1039,
+        "h": 70
+      }
+    },
+    {
+      "text": ". “x LT eT",
+      "confidence": 35,
+      "bbox": {
+        "x": 130,
+        "y": 952,
+        "w": 1039,
+        "h": 70
+      }
+    },
+    {
+      "text": "8A Hobe (2",
+      "confidence": 35,
+      "bbox": {
+        "x": 130,
+        "y": 1093,
+        "w": 1039,
+        "h": 70
+      }
+    },
+    {
+      "text": "NJ Rh, 298 & ASTA L",
+      "confidence": 35,
+      "bbox": {
+        "x": 130,
+        "y": 1234,
+        "w": 1039,
+        "h": 70
+      }
+    },
+    {
+      "text": "oe hi: Sey FC do,",
+      "confidence": 35,
+      "bbox": {
+        "x": 130,
+        "y": 1375,
+        "w": 1039,
+        "h": 70
+      }
+    },
+    {
+      "text": "< ar , ee od",
+      "confidence": 35,
+      "bbox": {
+        "x": 130,
+        "y": 1516,
+        "w": 1039,
+        "h": 70
+      }
+    },
+    {
+      "text": ": Cg eo Mosul",
+      "confidence": 35,
+      "bbox": {
+        "x": 130,
+        "y": 1657,
+        "w": 1039,
+        "h": 70
+      }
+    },
+    {
+      "text": "7 Sea Damascus'® 22 5",
+      "confidence": 35,
+      "bbox": {
+        "x": 130,
+        "y": 1798,
+        "w": 1039,
+        "h": 70
+      }
+    },
+    {
+      "text": "| “7 \\@.Ctesiphon",
+      "confidence": 35,
+      "bbox": {
+        "x": 130,
+        "y": 1939,
+        "w": 1039,
+        "h": 70
+      }
+    },
+    {
+      "text": "Alexandria rusalem RN Ny 4",
+      "confidence": 35,
+      "bbox": {
+        "x": 130,
+        "y": 2080,
+        "w": 1039,
+        "h": 70
+      }
+    },
+    {
+      "text": "J J B eer",
+      "confidence": 35,
+      "bbox": {
+        "x": 130,
+        "y": 2221,
+        "w": 1039,
+        "h": 70
+      }
+    },
+    {
+      "text": "EGYPT 3 spores Ws h",
+      "confidence": 35,
+      "bbox": {
+        "x": 130,
+        "y": 2362,
+        "w": 1039,
+        "h": 70
+      }
+    },
+    {
+      "text": "Medina ARABIA oN on |",
+      "confidence": 35,
+      "bbox": {
+        "x": 130,
+        "y": 2503,
+        "w": 1039,
+        "h": 70
+      }
+    },
+    {
+      "text": "H Muscat",
+      "confidence": 35,
+      "bbox": {
+        "x": 130,
+        "y": 2644,
+        "w": 1039,
+        "h": 70
+      }
+    },
+    {
+      "text": "® Mecca li",
+      "confidence": 35,
+      "bbox": {
+        "x": 130,
+        "y": 2785,
+        "w": 1039,
+        "h": 70
+      }
+    },
+    {
+      "text": "Arabian",
+      "confidence": 35,
+      "bbox": {
+        "x": 130,
+        "y": 2926,
+        "w": 1039,
+        "h": 70
+      }
+    },
+    {
+      "text": "sea",
+      "confidence": 35,
+      "bbox": {
+        "x": 130,
+        "y": 3067,
+        "w": 1039,
+        "h": 70
+      }
+    },
+    {
+      "text": "AFRICA h",
+      "confidence": 35,
+      "bbox": {
+        "x": 130,
+        "y": 3208,
+        "w": 1039,
+        "h": 70
+      }
+    },
+    {
+      "text": "3 it =3",
+      "confidence": 35,
+      "bbox": {
+        "x": 130,
+        "y": 3349,
+        "w": 1039,
+        "h": 70
+      }
+    },
+    {
+      "text": "y 2 sd, urd ™ a",
+      "confidence": 35,
+      "bbox": {
+        "x": 130,
+        "y": 3490,
+        "w": 1039,
+        "h": 70
+      }
+    },
+    {
+      "text": "YER",
+      "confidence": 35,
+      "bbox": {
+        "x": 130,
+        "y": 3631,
+        "w": 1039,
+        "h": 70
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A map of southern Europe, northern Africa, and southwestern Asia is shown. The Adriatic Sea, Mediterranean Sea, the Aegean Sea, the Black Sea, the Caspian Sea, the Red Sea, the Gulf of Aden, the Persian Gulf (Arabian Gulf), the Gulf of Oman, and the Arabian Sea are labeled. The northern coastline of Africa, all of the Arabian peninsula, and the land extending north from there to Turkey and then east through Iran and into Afghanistan and Pakistan is highlighted orange and labeled “Islamic Caliphate.” The cities labeled on the map from west to east are: Alexandria, Constantinople, Damascus, Jerusalem, Medina, Mecca, Mosul, Ctesiphon, Aden, and Muscat.\nButton label: Click to enlarge image of A map of southern Europe, northern Africa, and southwestern Asia is shown. The Adriatic Sea, Mediterranean Sea, the Aegean Sea, the Black Sea, the Caspian Sea, the Red Sea, the Gulf of Aden, the Persian Gulf (Arabian Gulf), the Gulf of Oman, and the Arabian Sea are labeled. The northern coastline of Africa, all of the Arabian peninsula, and the land extending north from there to Turkey and then east through Iran and into Afghanistan and Pakistan is highlighted orange and labeled “Islamic Caliphate.” The cities labeled on the map from west to east are: Alexandria, Constantinople, Damascus, Jerusalem, Medina, Mecca, Mosul, Ctesiphon, Aden, and Muscat.\nEnglish caption: Figure 11.13 The Eighth-Century Islamic Caliphate. This map shows the extent the new Islamic caliphate had achieved by the end of its first dynasty, the Umayyads. During the eighth century CE, the Umayyads ruled the world’s largest empire. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 1.6542270277836097,
+    "averageConfidence": 35,
+    "entropy": 4.504733508685604,
+    "sharpness": 3.765135038743435
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A map of southern Europe, northern Africa, and southwestern Asia is shown. The Adriatic Sea, Mediterranean Sea, the Aegean Sea, the Black Sea, the Caspian Sea, the Red Sea, the Gulf of Aden, the Persian Gulf (Arabian Gulf), the Gulf of Oman, and the Arabian Sea are labeled. The northern coastline of Africa, all of the Arabian peninsula, and the land extending north from there to Turkey and then east through Iran and into Afghanistan and Pakistan is highlighted orange and labeled “Islamic Caliphate.” The cities labeled on the map from west to east are: Alexandria, Constantinople, Damascus, Jerusalem, Medina, Mecca, Mosul, Ctesiphon, Aden, and Muscat.\nButton label: Click to enlarge image of A map of southern Europe, northern Africa, and southwestern Asia is shown. The Adriatic Sea, Mediterranean Sea, the Aegean Sea, the Black Sea, the Caspian Sea, the Red Sea, the Gulf of Aden, the Persian Gulf (Arabian Gulf), the Gulf of Oman, and the Arabian Sea are labeled. The northern coastline of Africa, all of the Arabian peninsula, and the land extending north from there to Turkey and then east through Iran and into Afghanistan and Pakistan is highlighted orange and labeled “Islamic Caliphate.” The cities labeled on the map from west to east are: Alexandria, Constantinople, Damascus, Jerusalem, Medina, Mecca, Mosul, Ctesiphon, Aden, and Muscat.\nEnglish caption: Figure 11.13 The Eighth-Century Islamic Caliphate. This map shows the extent the new Islamic caliphate had achieved by the end of its first dynasty, the Umayyads. During the eighth century CE, the Umayyads ruled the world’s largest empire. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: oman, alexandria, constantinople, medina, mecca, ctesiphon, muscat. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "24 CL aL. AV A pe. i.",
+        "confidence": 37,
+        "bbox": {
+          "x": 152,
+          "y": 124,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "oO § a5 Ne Atal a",
+        "confidence": 37,
+        "bbox": {
+          "x": 152,
+          "y": 289,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "AEN CHAU AW FS >a i § @ str Kaylhi",
+        "confidence": 37,
+        "bbox": {
+          "x": 152,
+          "y": 454,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "N Cx P wy Ae) N Kivi Cy",
+        "confidence": 37,
+        "bbox": {
+          "x": 152,
+          "y": 619,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "3 % 3 Bién Den Wt o",
+        "confidence": 37,
+        "bbox": {
+          "x": 152,
+          "y": 784,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": ": ( Lo 2 Sons tinople Te @",
+        "confidence": 37,
+        "bbox": {
+          "x": 152,
+          "y": 949,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "I mt A 4 ON Z",
+        "confidence": 37,
+        "bbox": {
+          "x": 152,
+          "y": 1114,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "= &, XY Bién & { Ns",
+        "confidence": 37,
+        "bbox": {
+          "x": 152,
+          "y": 1279,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": ". ST Megean: AU A",
+        "confidence": 37,
+        "bbox": {
+          "x": 152,
+          "y": 1444,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "po» Rpi 3s < 2 ~~ CHAU A",
+        "confidence": 37,
+        "bbox": {
+          "x": 152,
+          "y": 1609,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "% Big, 5 a, pid Mosul",
+        "confidence": 37,
+        "bbox": {
+          "x": 152,
+          "y": 1774,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "“a a al Fp",
+        "confidence": 37,
+        "bbox": {
+          "x": 152,
+          "y": 1939,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "“ng Bg; Damas o Be Ry ;",
+        "confidence": 37,
+        "bbox": {
+          "x": 152,
+          "y": 2104,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "“a (EienaeAIem “4, De Ctesiphon",
+        "confidence": 37,
+        "bbox": {
+          "x": 152,
+          "y": 2269,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "Alexandria /® gid Circe %)",
+        "confidence": 37,
+        "bbox": {
+          "x": 152,
+          "y": 2434,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "b Ce",
+        "confidence": 37,
+        "bbox": {
+          "x": 152,
+          "y": 2599,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "Ai Cap 8 , Kl . Vinh Oman chitupln Be",
+        "confidence": 37,
+        "bbox": {
+          "x": 152,
+          "y": 2764,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": ". \\= \\._®Medina |",
+        "confidence": 37,
+        "bbox": {
+          "x": 152,
+          "y": 2929,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "Hi 5)",
+        "confidence": 37,
+        "bbox": {
+          "x": 152,
+          "y": 3094,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "ANaser \\_©* ny po",
+        "confidence": 37,
+        "bbox": {
+          "x": 152,
+          "y": 3259,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "© Mecca A 5 a",
+        "confidence": 37,
+        "bbox": {
+          "x": 152,
+          "y": 3424,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "— Bién A Rap",
+        "confidence": 37,
+        "bbox": {
+          "x": 152,
+          "y": 3589,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "CHAU PHI W",
+        "confidence": 37,
+        "bbox": {
+          "x": 152,
+          "y": 3754,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "4 Ade: o>",
+        "confidence": 37,
+        "bbox": {
+          "x": 152,
+          "y": 3919,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "b] Sy 62 Vinh? Vinh inh Aden Si",
+        "confidence": 37,
+        "bbox": {
+          "x": 152,
+          "y": 4084,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "Bab Mandeb",
+        "confidence": 37,
+        "bbox": {
+          "x": 152,
+          "y": 4249,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "-Mandeb",
+        "confidence": 37,
+        "bbox": {
+          "x": 152,
+          "y": 4414,
+          "w": 1219,
+          "h": 83
+        }
+      },
+      {
+        "text": "IT, Vas a",
+        "confidence": 37,
+        "bbox": {
+          "x": 152,
+          "y": 4579,
+          "w": 1219,
+          "h": 83
+        }
+      }
+    ],
+    "validation": {
+      "ok": false,
+      "reason": "image-edit-leftover-source-english",
+      "leftoverSourceWords": [
+        "aden",
+        "oman",
+        "alexandria",
+        "medina",
+        "mecca",
+        "mosul",
+        "ctesiphon"
+      ]
+    },
+    "validationAttempt": 3
+  }
+}

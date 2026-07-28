@@ -1,0 +1,369 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-1-3-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/1-3-causation-and-interpretation-in-history.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-1-3-4.vi.png",
+  "ocr": [
+    {
+      "text": "progressive le To",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 62,
+        "w": 875,
+        "h": 41
+      }
+    },
+    {
+      "text": "Int tati y",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 145,
+        "w": 875,
+        "h": 41
+      }
+    },
+    {
+      "text": "nterpretation « Scholarship highlighted political changes.",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 228,
+        "w": 875,
+        "h": 41
+      }
+    },
+    {
+      "text": "* History is moved by ideas, which drive",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 311,
+        "w": 875,
+        "h": 41
+      }
+    },
+    {
+      "text": "Intellectual people to make particular choices.",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 394,
+        "w": 875,
+        "h": 41
+      }
+    },
+    {
+      "text": "History * Scholarship investigated the history of human thought",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 477,
+        "w": 875,
+        "h": 41
+      }
+    },
+    {
+      "text": "and considered philosophical questions.",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 560,
+        "w": 875,
+        "h": 41
+      }
+    },
+    {
+      "text": "Social * History is moved by all people and not just elites.",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 643,
+        "w": 875,
+        "h": 41
+      }
+    },
+    {
+      "text": "History * Scholarship looked at issues affecting all classes and often",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 726,
+        "w": 875,
+        "h": 41
+      }
+    },
+    {
+      "text": "included consideration of gender.",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 809,
+        "w": 875,
+        "h": 41
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "progressive le To",
+      "normalizedSource": "progressive le To",
+      "target": "tiến bộ le To",
+      "bbox": {
+        "x": 109,
+        "y": 62,
+        "w": 875,
+        "h": 41
+      },
+      "overflow": false
+    },
+    {
+      "source": "Int tati y",
+      "normalizedSource": "Int tati y",
+      "target": "Int tati y",
+      "bbox": {
+        "x": 109,
+        "y": 145,
+        "w": 875,
+        "h": 41
+      },
+      "overflow": false
+    },
+    {
+      "source": "nterpretation « Scholarship highlighted political changes.",
+      "normalizedSource": "nterpretation « Scholarship highlighted political changes.",
+      "target": "Nghiên cứu đã làm nổi bật những thay đổi chính trị.",
+      "bbox": {
+        "x": 109,
+        "y": 228,
+        "w": 875,
+        "h": 41
+      },
+      "overflow": false
+    },
+    {
+      "source": "* History is moved by ideas, which drive",
+      "normalizedSource": "* History is moved by ideas, which drive",
+      "target": "* Lịch sử được thúc đẩy bởi những ý tưởng, điều này dẫn dắt",
+      "bbox": {
+        "x": 109,
+        "y": 311,
+        "w": 875,
+        "h": 41
+      },
+      "overflow": false
+    },
+    {
+      "source": "Intellectual people to make particular choices.",
+      "normalizedSource": "Intellectual people to make particular choices.",
+      "target": "những người trí thức đưa ra những lựa chọn cụ thể.",
+      "bbox": {
+        "x": 109,
+        "y": 394,
+        "w": 875,
+        "h": 41
+      },
+      "overflow": false
+    },
+    {
+      "source": "History * Scholarship investigated the history of human thought",
+      "normalizedSource": "History * Scholarship investigated the history of human thought",
+      "target": "Lịch sử * Nghiên cứu đã điều tra lịch sử tư tưởng nhân loại",
+      "bbox": {
+        "x": 109,
+        "y": 477,
+        "w": 875,
+        "h": 41
+      },
+      "overflow": false
+    },
+    {
+      "source": "and considered philosophical questions.",
+      "normalizedSource": "and considered philosophical questions.",
+      "target": "và xem xét các câu hỏi triết học.",
+      "bbox": {
+        "x": 109,
+        "y": 560,
+        "w": 875,
+        "h": 41
+      },
+      "overflow": false
+    },
+    {
+      "source": "Social * History is moved by all people and not just elites.",
+      "normalizedSource": "Social * History is moved by all people and not just elites.",
+      "target": "Xã hội * Lịch sử được thúc đẩy bởi tất cả mọi người chứ không chỉ giới tinh hoa.",
+      "bbox": {
+        "x": 109,
+        "y": 643,
+        "w": 875,
+        "h": 41
+      },
+      "overflow": false
+    },
+    {
+      "source": "History * Scholarship looked at issues affecting all classes and often",
+      "normalizedSource": "History * Scholarship looked at issues affecting all classes and often",
+      "target": "Lịch sử * Nghiên cứu đã xem xét các vấn đề ảnh hưởng đến tất cả các tầng lớp và thường",
+      "bbox": {
+        "x": 109,
+        "y": 726,
+        "w": 875,
+        "h": 41
+      },
+      "overflow": false
+    },
+    {
+      "source": "included consideration of gender.",
+      "normalizedSource": "included consideration of gender.",
+      "target": "bao gồm cả việc xem xét giới tính.",
+      "bbox": {
+        "x": 109,
+        "y": 809,
+        "w": 875,
+        "h": 41
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: This is a chart composed of three sections. The first section is labeled “Progressive Interpretation” and says “History moves in one direction toward more democratic values in society. Scholarship highlighted political changes.” The second section is labeled “Intellectual History” and says “History is moved by ideas, which drive people to make particular choices. Scholarship investigated the history of human thought and philosophy.” The third section is labeled “Social History” and says “History is moved by all people and not just elites. Scholarship looked at issues affecting all classes and often included consideration of gender.”\nButton label: Click to enlarge image of This is a chart composed of three sections. The first section is labeled “Progressive Interpretation” and says “History moves in one direction toward more democratic values in society. Scholarship highlighted political changes.” The second section is labeled “Intellectual History” and says “History is moved by ideas, which drive people to make particular choices. Scholarship investigated the history of human thought and philosophy.” The third section is labeled “Social History” and says “History is moved by all people and not just elites. Scholarship looked at issues affecting all classes and often included consideration of gender.”\nEnglish caption: Figure 1.14 Trends in Historical Thought. Historians’ thinking has led from the progressive school of interpretation to the more contemporary fields of intellectual and social history. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.6342844210905979,
+    "averageConfidence": 86,
+    "entropy": 3.506016060418915,
+    "sharpness": 6.137184281910229
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: This is a chart composed of three sections. The first section is labeled “Progressive Interpretation” and says “History moves in one direction toward more democratic values in society. Scholarship highlighted political changes.” The second section is labeled “Intellectual History” and says “History is moved by ideas, which drive people to make particular choices. Scholarship investigated the history of human thought and philosophy.” The third section is labeled “Social History” and says “History is moved by all people and not just elites. Scholarship looked at issues affecting all classes and often included consideration of gender.”\nButton label: Click to enlarge image of This is a chart composed of three sections. The first section is labeled “Progressive Interpretation” and says “History moves in one direction toward more democratic values in society. Scholarship highlighted political changes.” The second section is labeled “Intellectual History” and says “History is moved by ideas, which drive people to make particular choices. Scholarship investigated the history of human thought and philosophy.” The third section is labeled “Social History” and says “History is moved by all people and not just elites. Scholarship looked at issues affecting all classes and often included consideration of gender.”\nEnglish caption: Figure 1.14 Trends in Historical Thought. Historians’ thinking has led from the progressive school of interpretation to the more contemporary fields of intellectual and social history. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- progressive le To => tiến bộ le To\n- Int tati y => Int tati y\n- nterpretation « Scholarship highlighted political changes. => Nghiên cứu đã làm nổi bật những thay đổi chính trị.\n- * History is moved by ideas, which drive => * Lịch sử được thúc đẩy bởi những ý tưởng, điều này dẫn dắt\n- Intellectual people to make particular choices. => những người trí thức đưa ra những lựa chọn cụ thể.\n- History * Scholarship investigated the history of human thought => Lịch sử * Nghiên cứu đã điều tra lịch sử tư tưởng nhân loại\n- and considered philosophical questions. => và xem xét các câu hỏi triết học.\n- Social * History is moved by all people and not just elites. => Xã hội * Lịch sử được thúc đẩy bởi tất cả mọi người chứ không chỉ giới tinh hoa.\n- History * Scholarship looked at issues affecting all classes and often => Lịch sử * Nghiên cứu đã xem xét các vấn đề ảnh hưởng đến tất cả các tầng lớp và thường\n- included consideration of gender. => bao gồm cả việc xem xét giới tính.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "hE e Lich st tién vé mot hung duy nhat nham hudng tdi cac",
+        "confidence": 75,
+        "bbox": {
+          "x": 188,
+          "y": 101,
+          "w": 1502,
+          "h": 67
+        }
+      },
+      {
+        "text": "fl ge : gia tri dan cha hon trong xa hoi.",
+        "confidence": 75,
+        "bbox": {
+          "x": 188,
+          "y": 235,
+          "w": 1502,
+          "h": 67
+        }
+      },
+      {
+        "text": "ine « Nghién ctu da lam ndi bat nhiing thay déi chinh tri.",
+        "confidence": 75,
+        "bbox": {
+          "x": 188,
+          "y": 369,
+          "w": 1502,
+          "h": 67
+        }
+      },
+      {
+        "text": "e Lich str dugc thic day bai nhitng y tudng, diéu nay dan dat",
+        "confidence": 75,
+        "bbox": {
+          "x": 188,
+          "y": 503,
+          "w": 1502,
+          "h": 67
+        }
+      },
+      {
+        "text": "nhitng ngudi tri thie dua ra nhiing lua chon cu thé.",
+        "confidence": 75,
+        "bbox": {
+          "x": 188,
+          "y": 637,
+          "w": 1502,
+          "h": 67
+        }
+      },
+      {
+        "text": "e Nghién cltu da diéu tra lich st tu tudng nhan loai",
+        "confidence": 75,
+        "bbox": {
+          "x": 188,
+          "y": 771,
+          "w": 1502,
+          "h": 67
+        }
+      },
+      {
+        "text": "va xem xét cac cau hai triét hoc.",
+        "confidence": 75,
+        "bbox": {
+          "x": 188,
+          "y": 905,
+          "w": 1502,
+          "h": 67
+        }
+      },
+      {
+        "text": "e Lich sir dugc thic dy bi tat ca moi ngudi chi khdng chi",
+        "confidence": 75,
+        "bbox": {
+          "x": 188,
+          "y": 1039,
+          "w": 1502,
+          "h": 67
+        }
+      },
+      {
+        "text": "gidi tinh hoa.",
+        "confidence": 75,
+        "bbox": {
+          "x": 188,
+          "y": 1173,
+          "w": 1502,
+          "h": 67
+        }
+      },
+      {
+        "text": "* Nghién clru da xem xét cac van dé anh hudng dén tat ca cac",
+        "confidence": 75,
+        "bbox": {
+          "x": 188,
+          "y": 1307,
+          "w": 1502,
+          "h": 67
+        }
+      },
+      {
+        "text": "tang 6p va thudng bao gom ca viéc xem xét gidi tinh.",
+        "confidence": 75,
+        "bbox": {
+          "x": 188,
+          "y": 1441,
+          "w": 1502,
+          "h": 67
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

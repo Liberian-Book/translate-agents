@@ -1,0 +1,398 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-11-2-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/11-2-the-arab-islamic-conquests-and-the-first-islamic-states.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-11-2-4.vi.png",
+  "ocr": [
+    {
+      "text": "LS",
+      "confidence": 25,
+      "bbox": {
+        "x": 90,
+        "y": 81,
+        "w": 720,
+        "h": 54
+      }
+    },
+    {
+      "text": "oS.",
+      "confidence": 25,
+      "bbox": {
+        "x": 90,
+        "y": 189,
+        "w": 720,
+        "h": 54
+      }
+    },
+    {
+      "text": "eal A",
+      "confidence": 25,
+      "bbox": {
+        "x": 90,
+        "y": 297,
+        "w": 720,
+        "h": 54
+      }
+    },
+    {
+      "text": "Pie aaa",
+      "confidence": 25,
+      "bbox": {
+        "x": 90,
+        "y": 405,
+        "w": 720,
+        "h": 54
+      }
+    },
+    {
+      "text": "i ro La ER",
+      "confidence": 25,
+      "bbox": {
+        "x": 90,
+        "y": 513,
+        "w": 720,
+        "h": 54
+      }
+    },
+    {
+      "text": "ee eee",
+      "confidence": 25,
+      "bbox": {
+        "x": 90,
+        "y": 621,
+        "w": 720,
+        "h": 54
+      }
+    },
+    {
+      "text": "ee ee BE Tee",
+      "confidence": 25,
+      "bbox": {
+        "x": 90,
+        "y": 729,
+        "w": 720,
+        "h": 54
+      }
+    },
+    {
+      "text": "Foil [lif 00 yl Hip RAN",
+      "confidence": 25,
+      "bbox": {
+        "x": 90,
+        "y": 837,
+        "w": 720,
+        "h": 54
+      }
+    },
+    {
+      "text": ": [Lew J at EE BE 0 TH HE SL 0",
+      "confidence": 25,
+      "bbox": {
+        "x": 90,
+        "y": 945,
+        "w": 720,
+        "h": 54
+      }
+    },
+    {
+      "text": "3 em a = : et ETRY",
+      "confidence": 25,
+      "bbox": {
+        "x": 90,
+        "y": 1053,
+        "w": 720,
+        "h": 54
+      }
+    },
+    {
+      "text": "as EE Tr on EEE rae eho",
+      "confidence": 25,
+      "bbox": {
+        "x": 90,
+        "y": 1161,
+        "w": 720,
+        "h": 54
+      }
+    },
+    {
+      "text": "aE fe] PLE | {i Efe",
+      "confidence": 25,
+      "bbox": {
+        "x": 90,
+        "y": 1269,
+        "w": 720,
+        "h": 54
+      }
+    },
+    {
+      "text": "g Ll ee Il 4s ph | ES EE EE EF YX",
+      "confidence": 25,
+      "bbox": {
+        "x": 90,
+        "y": 1377,
+        "w": 720,
+        "h": 54
+      }
+    },
+    {
+      "text": "p= ea lL EEE 1 DL RE",
+      "confidence": 25,
+      "bbox": {
+        "x": 90,
+        "y": 1485,
+        "w": 720,
+        "h": 54
+      }
+    },
+    {
+      "text": "et 1 LiL. Sul",
+      "confidence": 25,
+      "bbox": {
+        "x": 90,
+        "y": 1593,
+        "w": 720,
+        "h": 54
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A picture of a hexagonal building is shown against a blue sky and on a bright white stone pavement. Three sides of the building are showing in the front, the bottom half decorated with various shapes of white mosaic tiles and the top with half blue mosaic tiles. Arched decorated windows surround the building in the middle with the blue tiles. An arched blue doorway with white columns for support is seen on the left and on the right side of the building. The top of the building is a gold gridded dome atop a green circular base with scaffolding surrounding the green base. A statue in the shape of a “Y” is located atop the gold dome. Smaller buildings with arched openings are seen in the right and left background as well as trees.\nButton label: Click to enlarge image of A picture of a hexagonal building is shown against a blue sky and on a bright white stone pavement. Three sides of the building are showing in the front, the bottom half decorated with various shapes of white mosaic tiles and the top with half blue mosaic tiles. Arched decorated windows surround the building in the middle with the blue tiles. An arched blue doorway with white columns for support is seen on the left and on the right side of the building. The top of the building is a gold gridded dome atop a green circular base with scaffolding surrounding the green base. A statue in the shape of a “Y” is located atop the gold dome. Smaller buildings with arched openings are seen in the right and left background as well as trees.\nEnglish caption: Figure 11.16 Dome of the Rock, Exterior. The Dome of the Rock mosque in the Old City in Jerusalem is one of Islam’s holiest sites. Its hexagonal shape is very unusual, but it had a precedent in nearby Byzantine Christian churches. (credit: “Exterior of Dome of the Rock or Masjid Al Sakhrah, in Jerusalem” by Thekra A. Sabri/Wikimedia Commons, CC BY 2.0)",
+  "metrics": {
+    "textDensity": 0.9585798816568047,
+    "averageConfidence": 25,
+    "entropy": 7.107163357432,
+    "sharpness": 4.646873275228837
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A picture of a hexagonal building is shown against a blue sky and on a bright white stone pavement. Three sides of the building are showing in the front, the bottom half decorated with various shapes of white mosaic tiles and the top with half blue mosaic tiles. Arched decorated windows surround the building in the middle with the blue tiles. An arched blue doorway with white columns for support is seen on the left and on the right side of the building. The top of the building is a gold gridded dome atop a green circular base with scaffolding surrounding the green base. A statue in the shape of a “Y” is located atop the gold dome. Smaller buildings with arched openings are seen in the right and left background as well as trees.\nButton label: Click to enlarge image of A picture of a hexagonal building is shown against a blue sky and on a bright white stone pavement. Three sides of the building are showing in the front, the bottom half decorated with various shapes of white mosaic tiles and the top with half blue mosaic tiles. Arched decorated windows surround the building in the middle with the blue tiles. An arched blue doorway with white columns for support is seen on the left and on the right side of the building. The top of the building is a gold gridded dome atop a green circular base with scaffolding surrounding the green base. A statue in the shape of a “Y” is located atop the gold dome. Smaller buildings with arched openings are seen in the right and left background as well as trees.\nEnglish caption: Figure 11.16 Dome of the Rock, Exterior. The Dome of the Rock mosque in the Old City in Jerusalem is one of Islam’s holiest sites. Its hexagonal shape is very unusual, but it had a precedent in nearby Byzantine Christian churches. (credit: “Exterior of Dome of the Rock or Masjid Al Sakhrah, in Jerusalem” by Thekra A. Sabri/Wikimedia Commons, CC BY 2.0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "IN",
+        "confidence": 25,
+        "bbox": {
+          "x": 145,
+          "y": 130,
+          "w": 1157,
+          "h": 87
+        }
+      },
+      {
+        "text": "AEE ERRERN",
+        "confidence": 25,
+        "bbox": {
+          "x": 145,
+          "y": 304,
+          "w": 1157,
+          "h": 87
+        }
+      },
+      {
+        "text": "TERRE",
+        "confidence": 25,
+        "bbox": {
+          "x": 145,
+          "y": 478,
+          "w": 1157,
+          "h": 87
+        }
+      },
+      {
+        "text": "y Pp Ep \\",
+        "confidence": 25,
+        "bbox": {
+          "x": 145,
+          "y": 652,
+          "w": 1157,
+          "h": 87
+        }
+      },
+      {
+        "text": "el Ta [Tn",
+        "confidence": 25,
+        "bbox": {
+          "x": 145,
+          "y": 826,
+          "w": 1157,
+          "h": 87
+        }
+      },
+      {
+        "text": "5. Lis SAN Ld",
+        "confidence": 25,
+        "bbox": {
+          "x": 145,
+          "y": 1000,
+          "w": 1157,
+          "h": 87
+        }
+      },
+      {
+        "text": "Re RT",
+        "confidence": 25,
+        "bbox": {
+          "x": 145,
+          "y": 1174,
+          "w": 1157,
+          "h": 87
+        }
+      },
+      {
+        "text": "Bs a Tord Sef Gl a ew SRT =",
+        "confidence": 25,
+        "bbox": {
+          "x": 145,
+          "y": 1348,
+          "w": 1157,
+          "h": 87
+        }
+      },
+      {
+        "text": "PE aE ss a",
+        "confidence": 25,
+        "bbox": {
+          "x": 145,
+          "y": 1522,
+          "w": 1157,
+          "h": 87
+        }
+      },
+      {
+        "text": "4 Fade a se a CS gs TT",
+        "confidence": 25,
+        "bbox": {
+          "x": 145,
+          "y": 1696,
+          "w": 1157,
+          "h": 87
+        }
+      },
+      {
+        "text": "F EC rw a ro he mn",
+        "confidence": 25,
+        "bbox": {
+          "x": 145,
+          "y": 1870,
+          "w": 1157,
+          "h": 87
+        }
+      },
+      {
+        "text": "= sus Of YR Soi rN aE EE",
+        "confidence": 25,
+        "bbox": {
+          "x": 145,
+          "y": 2044,
+          "w": 1157,
+          "h": 87
+        }
+      },
+      {
+        "text": "ome fd BEAL EE fH Thee keh i ENE",
+        "confidence": 25,
+        "bbox": {
+          "x": 145,
+          "y": 2218,
+          "w": 1157,
+          "h": 87
+        }
+      },
+      {
+        "text": "i ili Lo |B HH Hg BL fs 1 em Ni",
+        "confidence": 25,
+        "bbox": {
+          "x": 145,
+          "y": 2392,
+          "w": 1157,
+          "h": 87
+        }
+      },
+      {
+        "text": "Lm) |) Bo fst Ba 0 pd FL be EE hd fd Eh EY OW",
+        "confidence": 25,
+        "bbox": {
+          "x": 145,
+          "y": 2566,
+          "w": 1157,
+          "h": 87
+        }
+      },
+      {
+        "text": "E. Ge = == EE oT ol — Ais = = — a hs ap",
+        "confidence": 25,
+        "bbox": {
+          "x": 145,
+          "y": 2740,
+          "w": 1157,
+          "h": 87
+        }
+      },
+      {
+        "text": "fe Gg | el A fo aa (= OR f= co Ee ET Yas",
+        "confidence": 25,
+        "bbox": {
+          "x": 145,
+          "y": 2914,
+          "w": 1157,
+          "h": 87
+        }
+      },
+      {
+        "text": "Sire El ! MECH d oN Ne § 0 IEEE TER",
+        "confidence": 25,
+        "bbox": {
+          "x": 145,
+          "y": 3088,
+          "w": 1157,
+          "h": 87
+        }
+      },
+      {
+        "text": "S| ERY EE looill [Bllooill i Broil. Hil ® eee",
+        "confidence": 25,
+        "bbox": {
+          "x": 145,
+          "y": 3262,
+          "w": 1157,
+          "h": 87
+        }
+      },
+      {
+        "text": "melo Lite LTEICE CSN EES SSN SEO Ry CL 1idil",
+        "confidence": 25,
+        "bbox": {
+          "x": 145,
+          "y": 3436,
+          "w": 1157,
+          "h": 87
+        }
+      },
+      {
+        "text": "; = v BE 7 So a Ty EN",
+        "confidence": 25,
+        "bbox": {
+          "x": 145,
+          "y": 3610,
+          "w": 1157,
+          "h": 87
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

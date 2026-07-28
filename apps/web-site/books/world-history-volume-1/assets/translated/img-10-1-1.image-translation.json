@@ -1,0 +1,648 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-10-1-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/10-1-the-eastward-shift.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "image-edit-leftover-source-english",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "SCY Al",
+      "confidence": 30,
+      "bbox": {
+        "x": 65,
+        "y": 117,
+        "w": 520,
+        "h": 78
+      }
+    },
+    {
+      "text": "Wow iY a",
+      "confidence": 30,
+      "bbox": {
+        "x": 65,
+        "y": 273,
+        "w": 520,
+        "h": 78
+      }
+    },
+    {
+      "text": "fo A - = Shi",
+      "confidence": 30,
+      "bbox": {
+        "x": 65,
+        "y": 429,
+        "w": 520,
+        "h": 78
+      }
+    },
+    {
+      "text": "BE po a To Yard ia",
+      "confidence": 30,
+      "bbox": {
+        "x": 65,
+        "y": 585,
+        "w": 520,
+        "h": 78
+      }
+    },
+    {
+      "text": "IS £ JN BS iE —",
+      "confidence": 30,
+      "bbox": {
+        "x": 65,
+        "y": 741,
+        "w": 520,
+        "h": 78
+      }
+    },
+    {
+      "text": "[SAN NN AES i",
+      "confidence": 30,
+      "bbox": {
+        "x": 65,
+        "y": 897,
+        "w": 520,
+        "h": 78
+      }
+    },
+    {
+      "text": "Es Na Re a ©",
+      "confidence": 30,
+      "bbox": {
+        "x": 65,
+        "y": 1053,
+        "w": 520,
+        "h": 78
+      }
+    },
+    {
+      "text": "== a) LAS \\\\g | es 35, =",
+      "confidence": 30,
+      "bbox": {
+        "x": 65,
+        "y": 1209,
+        "w": 520,
+        "h": 78
+      }
+    },
+    {
+      "text": "ih 4a Bd beh Ta oe § = He",
+      "confidence": 30,
+      "bbox": {
+        "x": 65,
+        "y": 1365,
+        "w": 520,
+        "h": 78
+      }
+    },
+    {
+      "text": "Ee TY 8 E8 = o",
+      "confidence": 30,
+      "bbox": {
+        "x": 65,
+        "y": 1521,
+        "w": 520,
+        "h": 78
+      }
+    },
+    {
+      "text": "Ji 2 wo Ca EN | Ti, A",
+      "confidence": 30,
+      "bbox": {
+        "x": 65,
+        "y": 1677,
+        "w": 520,
+        "h": 78
+      }
+    },
+    {
+      "text": "RR 5 i J",
+      "confidence": 30,
+      "bbox": {
+        "x": 65,
+        "y": 1833,
+        "w": 520,
+        "h": 78
+      }
+    },
+    {
+      "text": "mes IL at Ee oh",
+      "confidence": 30,
+      "bbox": {
+        "x": 65,
+        "y": 1989,
+        "w": 520,
+        "h": 78
+      }
+    },
+    {
+      "text": "Rese) i Bt |",
+      "confidence": 30,
+      "bbox": {
+        "x": 65,
+        "y": 2145,
+        "w": 520,
+        "h": 78
+      }
+    },
+    {
+      "text": "fm be ll | bE a. 1H it",
+      "confidence": 30,
+      "bbox": {
+        "x": 65,
+        "y": 2301,
+        "w": 520,
+        "h": 78
+      }
+    },
+    {
+      "text": "a wl TER Ta RL oa",
+      "confidence": 30,
+      "bbox": {
+        "x": 65,
+        "y": 2457,
+        "w": 520,
+        "h": 78
+      }
+    },
+    {
+      "text": "i hid 4) lh LA oe | ! a",
+      "confidence": 30,
+      "bbox": {
+        "x": 65,
+        "y": 2613,
+        "w": 520,
+        "h": 78
+      }
+    },
+    {
+      "text": "HH Eo CE ARLE 95",
+      "confidence": 30,
+      "bbox": {
+        "x": 65,
+        "y": 2769,
+        "w": 520,
+        "h": 78
+      }
+    },
+    {
+      "text": "AES Hie ki Ten 9 mm 197%",
+      "confidence": 30,
+      "bbox": {
+        "x": 65,
+        "y": 2925,
+        "w": 520,
+        "h": 78
+      }
+    },
+    {
+      "text": "Cad Sdn TRY tic A",
+      "confidence": 30,
+      "bbox": {
+        "x": 65,
+        "y": 3081,
+        "w": 520,
+        "h": 78
+      }
+    },
+    {
+      "text": "CE a fl RX",
+      "confidence": 30,
+      "bbox": {
+        "x": 65,
+        "y": 3237,
+        "w": 520,
+        "h": 78
+      }
+    },
+    {
+      "text": "Bi: 5 ra i = i;",
+      "confidence": 30,
+      "bbox": {
+        "x": 65,
+        "y": 3393,
+        "w": 520,
+        "h": 78
+      }
+    },
+    {
+      "text": "Pe To : ee £7 3 rT",
+      "confidence": 30,
+      "bbox": {
+        "x": 65,
+        "y": 3549,
+        "w": 520,
+        "h": 78
+      }
+    },
+    {
+      "text": "= Bie JS",
+      "confidence": 30,
+      "bbox": {
+        "x": 65,
+        "y": 3705,
+        "w": 520,
+        "h": 78
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A picture of a stone carving of four men standing together on a short pedestal is shown on a corner where two marble walls meet. The carving is a maroon color and two of the men face left, while two men are behind them facing right. There is a crack running between the two pairs. All four men are shown in dress armor and capes, flat, round hats on their heads, almond shaped eyes, very flat noses, and holding a sword at their sides with their left hands. Both sets of men show the man on the left draping his right arm on the left shoulder of the other man. The left foot of the man furthest in the background as well as his half of the pedestal is all white. The marble wall behind them is various colors of green, yellow, white, and brown.\nButton label: Click to enlarge image of A picture of a stone carving of four men standing together on a short pedestal is shown on a corner where two marble walls meet. The carving is a maroon color and two of the men face left, while two men are behind them facing right. There is a crack running between the two pairs. All four men are shown in dress armor and capes, flat, round hats on their heads, almond shaped eyes, very flat noses, and holding a sword at their sides with their left hands. Both sets of men show the man on the left draping his right arm on the left shoulder of the other man. The left foot of the man furthest in the background as well as his half of the pedestal is all white. The marble wall behind them is various colors of green, yellow, white, and brown.\nEnglish caption: Figure 10.4 The Four Tetrarchs. This sculptural portrait of the Roman tetrarchs from St. Mark’s Basilica in Venice shows the cooperation the four co-rulers hoped to achieve. The figures, carved in about 300 CE, are for the most part indistinguishable, and their rigid features contrast with the idealism of the classical style that had been prevalent in early Roman society. (credit: “Portrait of the Four Tetrarchs” by Jean-Pol Grandmont/Wikimedia Commons, CC BY 4.0)",
+  "metrics": {
+    "textDensity": 1.536,
+    "averageConfidence": 30,
+    "entropy": 7.842388187535107,
+    "sharpness": 6.828081221987299
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A picture of a stone carving of four men standing together on a short pedestal is shown on a corner where two marble walls meet. The carving is a maroon color and two of the men face left, while two men are behind them facing right. There is a crack running between the two pairs. All four men are shown in dress armor and capes, flat, round hats on their heads, almond shaped eyes, very flat noses, and holding a sword at their sides with their left hands. Both sets of men show the man on the left draping his right arm on the left shoulder of the other man. The left foot of the man furthest in the background as well as his half of the pedestal is all white. The marble wall behind them is various colors of green, yellow, white, and brown.\nButton label: Click to enlarge image of A picture of a stone carving of four men standing together on a short pedestal is shown on a corner where two marble walls meet. The carving is a maroon color and two of the men face left, while two men are behind them facing right. There is a crack running between the two pairs. All four men are shown in dress armor and capes, flat, round hats on their heads, almond shaped eyes, very flat noses, and holding a sword at their sides with their left hands. Both sets of men show the man on the left draping his right arm on the left shoulder of the other man. The left foot of the man furthest in the background as well as his half of the pedestal is all white. The marble wall behind them is various colors of green, yellow, white, and brown.\nEnglish caption: Figure 10.4 The Four Tetrarchs. This sculptural portrait of the Roman tetrarchs from St. Mark’s Basilica in Venice shows the cooperation the four co-rulers hoped to achieve. The figures, carved in about 300 CE, are for the most part indistinguishable, and their rigid features contrast with the idealism of the classical style that had been prevalent in early Roman society. (credit: “Portrait of the Four Tetrarchs” by Jean-Pol Grandmont/Wikimedia Commons, CC BY 4.0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: jean-pol, grandmont, wikimedia, commons. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "<u ¢ ET og BET “",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 185,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "§ EL Rail NY",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 431,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "NE es ile | ER an",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 677,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "Fr ' i 2 on) 3 on — 3 x N",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 923,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "( oR ) | 54 we Lp. Vik Be a JIN:",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 1169,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "> Ee GE RE UE OTE",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 1415,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "= Ei AR = Ek Wb i AY",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 1661,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "4 Aan SRE) SN",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 1907,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "ARE 0 pC",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 2153,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "SANT Ra",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 2399,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "SANA 2N\\ BS AR",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 2645,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "Qo fa NRE NN, Ro TA AE ————",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 2891,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "EIS NN hi UE e——",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 3137,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "oN i LE AN Rs : Ws",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 3383,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "Th bd Rk =3 = ;",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 3629,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": ":. = 237 h) & = hot 23",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 3875,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "Balad A = wl ee | | 0% ii Ree",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 4121,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "ATT ior Rp i § A ) / § Ts : Ch",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 4367,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "PR RR Ih LR i | i :",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 4613,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "I lh dE Ro il ).",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 4859,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "a NEN yh",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 5105,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "& 07 ota Ba {4",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 5351,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "Eo NE * i aman",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 5597,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "= 5 Bx 5 FTL ae Af",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 5843,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "HY EA i Es",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 6089,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "E : ¥ io WR pa 3",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 6335,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "oo i CE CYTE",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 6581,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "J il D AN % § Np » . a HEY be Aa¥ \"> ~",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 6827,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "Hinh 10.4 Ti Pai Vuong",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 7073,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "Bic chan dung diéu khéc cac hoang dé Tt Pai Vuong La Ma tu",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 7319,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "Vuong cung thanh dudng Thanh Mac & Venice nay cho thy su hgp tac",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 7565,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "ma bén vi dong cai tri hy vong dat dugc. Cac bc tugng, dugc cham",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 7811,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "khac vao khodng ndm 300 CN, phan 16n khong thé phan biét, va cac",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 8057,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "dudng nét cling nhéc clia ho tuong phan véi chi nghia ly tudng cla",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 8303,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "phong cach cé dién da thinh hanh trong xa hoi La Ma thsi ky dau.",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 8549,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "(nguén: “Chan dung Tit Pai Vuong” bdi Gidng-Pon Grdng-moéng/",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 8795,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "Wikimedia Cong dong, CC BY 4.0)",
+        "confidence": 45,
+        "bbox": {
+          "x": 102,
+          "y": 9041,
+          "w": 818,
+          "h": 123
+        }
+      }
+    ],
+    "validation": {
+      "ok": false,
+      "reason": "image-edit-leftover-source-english",
+      "leftoverSourceWords": [
+        "venice",
+        "wikimedia"
+      ]
+    },
+    "validationAttempt": 3
+  }
+}

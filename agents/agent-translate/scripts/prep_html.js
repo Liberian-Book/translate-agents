@@ -11,26 +11,39 @@ function prepFile(inFile, outFile) {
         $('head').append('\n<style>\n.eng.hidden { display: none; }\n.vn.visible { color: #000; }\n</style>\n');
     }
 
-    const tagsToDuplicate = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'li', 'caption', 'figcaption', 'th', 'td'];
+    const selectorsToDuplicate = [
+        'h1',
+        'h2',
+        'h3',
+        'h4',
+        'h5',
+        'h6',
+        'p',
+        'li',
+        'caption',
+        'figcaption',
+        'th',
+        'td',
+        'dt',
+        'dd',
+        '[data-type="question-stem"]',
+        '[data-type="answer-content"]',
+    ];
+    const duplicatableSelector = selectorsToDuplicate.join(', ');
 
-    tagsToDuplicate.forEach(tagName => {
-        $(tagName).each(function() {
+    selectorsToDuplicate.forEach(selector => {
+        $(selector).each(function() {
             const el = $(this);
-            
-            // Check if it contains another duplicatable tag
-            let containsBlock = false;
-            for (const childTag of tagsToDuplicate) {
-                if (el.find(childTag).length > 0) {
-                    containsBlock = true;
-                    break;
-                }
-            }
-            
-            if (containsBlock) return;
+
+            // Translate leaf display nodes only. Duplicating both a container and
+            // its child would duplicate visible content in the reader.
+            if (el.find(duplicatableSelector).length > 0) return;
             
             // Skip if already prepped
             if (el.hasClass('eng') && el.hasClass('hidden')) return;
             if (el.hasClass('vn') && el.hasClass('visible')) return;
+            if (el.closest('.eng.hidden, .vn.visible').length > 0) return;
+            if (!el.text().trim()) return;
 
             const clone = el.clone();
 

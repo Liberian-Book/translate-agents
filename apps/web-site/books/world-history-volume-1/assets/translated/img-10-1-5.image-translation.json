@@ -1,0 +1,398 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-10-1-5.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/10-1-the-eastward-shift.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-10-1-5.vi.png",
+  "ocr": [
+    {
+      "text": "N = ha _— E 3 .",
+      "confidence": 28,
+      "bbox": {
+        "x": 130,
+        "y": 133,
+        "w": 1041,
+        "h": 88
+      }
+    },
+    {
+      "text": "La ho t",
+      "confidence": 28,
+      "bbox": {
+        "x": 130,
+        "y": 310,
+        "w": 1041,
+        "h": 88
+      }
+    },
+    {
+      "text": "iy de “]",
+      "confidence": 28,
+      "bbox": {
+        "x": 130,
+        "y": 487,
+        "w": 1041,
+        "h": 88
+      }
+    },
+    {
+      "text": "30 ed = l co Eb",
+      "confidence": 28,
+      "bbox": {
+        "x": 130,
+        "y": 664,
+        "w": 1041,
+        "h": 88
+      }
+    },
+    {
+      "text": "p IEE 4 SoHE",
+      "confidence": 28,
+      "bbox": {
+        "x": 130,
+        "y": 841,
+        "w": 1041,
+        "h": 88
+      }
+    },
+    {
+      "text": "’ S25 at OF y PROILC",
+      "confidence": 28,
+      "bbox": {
+        "x": 130,
+        "y": 1018,
+        "w": 1041,
+        "h": 88
+      }
+    },
+    {
+      "text": "i Tend SoBe” Joie",
+      "confidence": 28,
+      "bbox": {
+        "x": 130,
+        "y": 1195,
+        "w": 1041,
+        "h": 88
+      }
+    },
+    {
+      "text": "; Ss i OB 7 IB iE",
+      "confidence": 28,
+      "bbox": {
+        "x": 130,
+        "y": 1372,
+        "w": 1041,
+        "h": 88
+      }
+    },
+    {
+      "text": "- mens - g | \"",
+      "confidence": 28,
+      "bbox": {
+        "x": 130,
+        "y": 1549,
+        "w": 1041,
+        "h": 88
+      }
+    },
+    {
+      "text": "y py” A |",
+      "confidence": 28,
+      "bbox": {
+        "x": 130,
+        "y": 1726,
+        "w": 1041,
+        "h": 88
+      }
+    },
+    {
+      "text": "J NN =",
+      "confidence": 28,
+      "bbox": {
+        "x": 130,
+        "y": 1903,
+        "w": 1041,
+        "h": 88
+      }
+    },
+    {
+      "text": "Wort = ”",
+      "confidence": 28,
+      "bbox": {
+        "x": 130,
+        "y": 2080,
+        "w": 1041,
+        "h": 88
+      }
+    },
+    {
+      "text": ": i on — Lo",
+      "confidence": 28,
+      "bbox": {
+        "x": 130,
+        "y": 2257,
+        "w": 1041,
+        "h": 88
+      }
+    },
+    {
+      "text": "ma 55g me IES — Ay",
+      "confidence": 28,
+      "bbox": {
+        "x": 130,
+        "y": 2434,
+        "w": 1041,
+        "h": 88
+      }
+    },
+    {
+      "text": "7 J Le iC ey 0",
+      "confidence": 28,
+      "bbox": {
+        "x": 130,
+        "y": 2611,
+        "w": 1041,
+        "h": 88
+      }
+    },
+    {
+      "text": "s - TEN i —— Ll Wg",
+      "confidence": 28,
+      "bbox": {
+        "x": 130,
+        "y": 2788,
+        "w": 1041,
+        "h": 88
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A drawing and a picture of a column is shown. (a) The first is a drawing of a greenish column made of three intertwined snakes, their jaws open, tongues sticking out, and each facing a different direction. There is a small heart shaped piece missing at the bottom. The floor is brown and the background is pale green. The words “Columna anea friceps m Hippodromo” appear to the left of the column in cursive. (b) A picture of a broken column is shown. The intertwined pieces are dark gray and start out thinner at the bottom and get thicker toward the broken top. The column is shown on a flat, white pedestal, in an oval recess in the ground surrounded by black swirly gates. A shadow of the column is shown at the bottom left of the picture. In the background there is a tall beige spire as well as trees, buildings, and lampposts along the road going from the column to the spire.\nButton label: Click to enlarge image of A drawing and a picture of a column is shown. (a) The first is a drawing of a greenish column made of three intertwined snakes, their jaws open, tongues sticking out, and each facing a different direction. There is a small heart shaped piece missing at the bottom. The floor is brown and the background is pale green. The words “Columna anea friceps m Hippodromo” appear to the left of the column in cursive. (b) A picture of a broken column is shown. The intertwined pieces are dark gray and start out thinner at the bottom and get thicker toward the broken top. The column is shown on a flat, white pedestal, in an oval recess in the ground surrounded by black swirly gates. A shadow of the column is shown at the bottom left of the picture. In the background there is a tall beige spire as well as trees, buildings, and lampposts along the road going from the column to the spire.\nEnglish caption: Figure 10.8 The Serpent Column. A drawing from the sixteenth century (a) shows the Serpent Column as it looked in antiquity. The photo (b) shows the column as it stands today in Istanbul. (credit a: modification of work “Freshfield Album, Serpent Column (fol 6)” by Trinity College Library/Wikimedia Commons, Public Domain; credit b: modification of work “Snake column Hippodrome Constantinople 2007 by “Gryffindor”/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 1.0195623971814232,
+    "averageConfidence": 28,
+    "entropy": 6.6008733451599255,
+    "sharpness": 2.5539771475894812
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A drawing and a picture of a column is shown. (a) The first is a drawing of a greenish column made of three intertwined snakes, their jaws open, tongues sticking out, and each facing a different direction. There is a small heart shaped piece missing at the bottom. The floor is brown and the background is pale green. The words “Columna anea friceps m Hippodromo” appear to the left of the column in cursive. (b) A picture of a broken column is shown. The intertwined pieces are dark gray and start out thinner at the bottom and get thicker toward the broken top. The column is shown on a flat, white pedestal, in an oval recess in the ground surrounded by black swirly gates. A shadow of the column is shown at the bottom left of the picture. In the background there is a tall beige spire as well as trees, buildings, and lampposts along the road going from the column to the spire.\nButton label: Click to enlarge image of A drawing and a picture of a column is shown. (a) The first is a drawing of a greenish column made of three intertwined snakes, their jaws open, tongues sticking out, and each facing a different direction. There is a small heart shaped piece missing at the bottom. The floor is brown and the background is pale green. The words “Columna anea friceps m Hippodromo” appear to the left of the column in cursive. (b) A picture of a broken column is shown. The intertwined pieces are dark gray and start out thinner at the bottom and get thicker toward the broken top. The column is shown on a flat, white pedestal, in an oval recess in the ground surrounded by black swirly gates. A shadow of the column is shown at the bottom left of the picture. In the background there is a tall beige spire as well as trees, buildings, and lampposts along the road going from the column to the spire.\nEnglish caption: Figure 10.8 The Serpent Column. A drawing from the sixteenth century (a) shows the Serpent Column as it looked in antiquity. The photo (b) shows the column as it stands today in Istanbul. (credit a: modification of work “Freshfield Album, Serpent Column (fol 6)” by Trinity College Library/Wikimedia Commons, Public Domain; credit b: modification of work “Snake column Hippodrome Constantinople 2007 by “Gryffindor”/Wikimedia Commons, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "PN cartanb ~",
+        "confidence": 28,
+        "bbox": {
+          "x": 136,
+          "y": 139,
+          "w": 1088,
+          "h": 92
+        }
+      },
+      {
+        "text": ". dl 3",
+        "confidence": 28,
+        "bbox": {
+          "x": 136,
+          "y": 324,
+          "w": 1088,
+          "h": 92
+        }
+      },
+      {
+        "text": "go B",
+        "confidence": 28,
+        "bbox": {
+          "x": 136,
+          "y": 509,
+          "w": 1088,
+          "h": 92
+        }
+      },
+      {
+        "text": "BEE ’",
+        "confidence": 28,
+        "bbox": {
+          "x": 136,
+          "y": 694,
+          "w": 1088,
+          "h": 92
+        }
+      },
+      {
+        "text": ": oa Ee",
+        "confidence": 28,
+        "bbox": {
+          "x": 136,
+          "y": 879,
+          "w": 1088,
+          "h": 92
+        }
+      },
+      {
+        "text": "(Celt = | a on",
+        "confidence": 28,
+        "bbox": {
+          "x": 136,
+          "y": 1064,
+          "w": 1088,
+          "h": 92
+        }
+      },
+      {
+        "text": "She DEEL",
+        "confidence": 28,
+        "bbox": {
+          "x": 136,
+          "y": 1249,
+          "w": 1088,
+          "h": 92
+        }
+      },
+      {
+        "text": "Cotman ty 2 EH PY GENER.",
+        "confidence": 28,
+        "bbox": {
+          "x": 136,
+          "y": 1434,
+          "w": 1088,
+          "h": 92
+        }
+      },
+      {
+        "text": "on coict eG NORING",
+        "confidence": 28,
+        "bbox": {
+          "x": 136,
+          "y": 1619,
+          "w": 1088,
+          "h": 92
+        }
+      },
+      {
+        "text": "ruing dua nga. EB Lele f Seite",
+        "confidence": 28,
+        "bbox": {
+          "x": 136,
+          "y": 1804,
+          "w": 1088,
+          "h": 92
+        }
+      },
+      {
+        "text": "saith gC",
+        "confidence": 28,
+        "bbox": {
+          "x": 136,
+          "y": 1989,
+          "w": 1088,
+          "h": 92
+        }
+      },
+      {
+        "text": "; al i - .",
+        "confidence": 28,
+        "bbox": {
+          "x": 136,
+          "y": 2174,
+          "w": 1088,
+          "h": 92
+        }
+      },
+      {
+        "text": "| bl =",
+        "confidence": 28,
+        "bbox": {
+          "x": 136,
+          "y": 2359,
+          "w": 1088,
+          "h": 92
+        }
+      },
+      {
+        "text": "Ear",
+        "confidence": 28,
+        "bbox": {
+          "x": 136,
+          "y": 2544,
+          "w": 1088,
+          "h": 92
+        }
+      },
+      {
+        "text": "ITER E——— i 7% =",
+        "confidence": 28,
+        "bbox": {
+          "x": 136,
+          "y": 2729,
+          "w": 1088,
+          "h": 92
+        }
+      },
+      {
+        "text": "Cpr SgW : Tn",
+        "confidence": 28,
+        "bbox": {
+          "x": 136,
+          "y": 2914,
+          "w": 1088,
+          "h": 92
+        }
+      },
+      {
+        "text": "For gif ORs 0 3",
+        "confidence": 28,
+        "bbox": {
+          "x": 136,
+          "y": 3099,
+          "w": 1088,
+          "h": 92
+        }
+      },
+      {
+        "text": "ai = Ta a * Ha a",
+        "confidence": 28,
+        "bbox": {
+          "x": 136,
+          "y": 3284,
+          "w": 1088,
+          "h": 92
+        }
+      },
+      {
+        "text": "i SE Rite oe ar Se — NS",
+        "confidence": 28,
+        "bbox": {
+          "x": 136,
+          "y": 3469,
+          "w": 1088,
+          "h": 92
+        }
+      },
+      {
+        "text": "(a) ENE",
+        "confidence": 28,
+        "bbox": {
+          "x": 136,
+          "y": 3654,
+          "w": 1088,
+          "h": 92
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

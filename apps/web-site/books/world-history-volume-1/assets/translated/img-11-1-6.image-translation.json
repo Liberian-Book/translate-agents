@@ -1,0 +1,128 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-11-1-6.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/11-1-the-rise-and-message-of-islam.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-11-1-6.vi.png",
+  "ocr": [
+    {
+      "text": "BEY",
+      "confidence": 20,
+      "bbox": {
+        "x": 90,
+        "y": 94,
+        "w": 720,
+        "h": 63
+      }
+    },
+    {
+      "text": "SOAs",
+      "confidence": 20,
+      "bbox": {
+        "x": 90,
+        "y": 220,
+        "w": 720,
+        "h": 63
+      }
+    },
+    {
+      "text": "Vib ol I 7 ui HE",
+      "confidence": 20,
+      "bbox": {
+        "x": 90,
+        "y": 346,
+        "w": 720,
+        "h": 63
+      }
+    },
+    {
+      "text": "Foe Tere ePeTol",
+      "confidence": 20,
+      "bbox": {
+        "x": 90,
+        "y": 472,
+        "w": 720,
+        "h": 63
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: An image of a plaque is shown. Across the top and bottom a blue stripe shows with a pattern of white fluted diamonds throughout. In the image, two figures are shown on a yellow background. The man on the left wears a green robe with a light blue cloak, both with gold trim. He has reddish brown hair, a beard, blue shoes and appears to be falling. The man on the right has a brown beard, large eyes, wears a white-spotted, blue robe and a green cloak, both with gold trim, a blue helmet and blue shoes. His right hand holds a long brown sword over his head and his left hand is pulling the hair of the other figure. A blue and red domed crown falls to the ground between the two men. Short green hills can be seen in the lower background and in the left corner the blue half of a semicircle displays a gold crescent moon and four stars of varying sizes. The letters “ERACLIVS REX” are etched in brown on the right above the second figure and the letters “COSDRE” are etched behind the cloak of the figure on the left.\nButton label: Click to enlarge image of An image of a plaque is shown. Across the top and bottom a blue stripe shows with a pattern of white fluted diamonds throughout. In the image, two figures are shown on a yellow background. The man on the left wears a green robe with a light blue cloak, both with gold trim. He has reddish brown hair, a beard, blue shoes and appears to be falling. The man on the right has a brown beard, large eyes, wears a white-spotted, blue robe and a green cloak, both with gold trim, a blue helmet and blue shoes. His right hand holds a long brown sword over his head and his left hand is pulling the hair of the other figure. A blue and red domed crown falls to the ground between the two men. Short green hills can be seen in the lower background and in the left corner the blue half of a semicircle displays a gold crescent moon and four stars of varying sizes. The letters “ERACLIVS REX” are etched in brown on the right above the second figure and the letters “COSDRE” are etched behind the cloak of the figure on the left.\nEnglish caption: Figure 11.9 The Victorious Emperor Heraclius. This inlaid copper plaque is a twelfth-century depiction of the Byzantine emperor Heraclius (right) overcoming the Persian Sasanian Shahenshah Khosrow II (left) during the war between the two sides. Note the symbolism of the heroic warrior-ruler Heraclius knocking the crown from the head of his rival. Despite the short-lived victory of the Byzantines in the war, depictions of their success remained popular images throughout the Middle Ages. (credit: \"Sassanid King Khosrau II submitting to the Byzantine Emperor Heraclius\" by \"Jastrow\"/Louvre Museum/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 0.2561626429479034,
+    "averageConfidence": 20,
+    "entropy": 7.407967100843962,
+    "sharpness": 3.3503447647960654
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: An image of a plaque is shown. Across the top and bottom a blue stripe shows with a pattern of white fluted diamonds throughout. In the image, two figures are shown on a yellow background. The man on the left wears a green robe with a light blue cloak, both with gold trim. He has reddish brown hair, a beard, blue shoes and appears to be falling. The man on the right has a brown beard, large eyes, wears a white-spotted, blue robe and a green cloak, both with gold trim, a blue helmet and blue shoes. His right hand holds a long brown sword over his head and his left hand is pulling the hair of the other figure. A blue and red domed crown falls to the ground between the two men. Short green hills can be seen in the lower background and in the left corner the blue half of a semicircle displays a gold crescent moon and four stars of varying sizes. The letters “ERACLIVS REX” are etched in brown on the right above the second figure and the letters “COSDRE” are etched behind the cloak of the figure on the left.\nButton label: Click to enlarge image of An image of a plaque is shown. Across the top and bottom a blue stripe shows with a pattern of white fluted diamonds throughout. In the image, two figures are shown on a yellow background. The man on the left wears a green robe with a light blue cloak, both with gold trim. He has reddish brown hair, a beard, blue shoes and appears to be falling. The man on the right has a brown beard, large eyes, wears a white-spotted, blue robe and a green cloak, both with gold trim, a blue helmet and blue shoes. His right hand holds a long brown sword over his head and his left hand is pulling the hair of the other figure. A blue and red domed crown falls to the ground between the two men. Short green hills can be seen in the lower background and in the left corner the blue half of a semicircle displays a gold crescent moon and four stars of varying sizes. The letters “ERACLIVS REX” are etched in brown on the right above the second figure and the letters “COSDRE” are etched behind the cloak of the figure on the left.\nEnglish caption: Figure 11.9 The Victorious Emperor Heraclius. This inlaid copper plaque is a twelfth-century depiction of the Byzantine emperor Heraclius (right) overcoming the Persian Sasanian Shahenshah Khosrow II (left) during the war between the two sides. Note the symbolism of the heroic warrior-ruler Heraclius knocking the crown from the head of his rival. Despite the short-lived victory of the Byzantines in the war, depictions of their success remained popular images throughout the Middle Ages. (credit: \"Sassanid King Khosrau II submitting to the Byzantine Emperor Heraclius\" by \"Jastrow\"/Louvre Museum/Wikimedia Commons, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "PEEL STAY",
+        "confidence": 29,
+        "bbox": {
+          "x": 134,
+          "y": 141,
+          "w": 1073,
+          "h": 94
+        }
+      },
+      {
+        "text": "No i",
+        "confidence": 29,
+        "bbox": {
+          "x": 134,
+          "y": 329,
+          "w": 1073,
+          "h": 94
+        }
+      },
+      {
+        "text": "STF hay",
+        "confidence": 29,
+        "bbox": {
+          "x": 134,
+          "y": 517,
+          "w": 1073,
+          "h": 94
+        }
+      },
+      {
+        "text": "vy » SCI EIET CET A",
+        "confidence": 29,
+        "bbox": {
+          "x": 134,
+          "y": 705,
+          "w": 1073,
+          "h": 94
+        }
+      },
+      {
+        "text": "Ta",
+        "confidence": 29,
+        "bbox": {
+          "x": 134,
+          "y": 893,
+          "w": 1073,
+          "h": 94
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}
