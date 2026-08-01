@@ -2,6 +2,7 @@
 # Configuration for Cloudflare Pages deployment
 
 name = "books"
+compatibility_date = "2026-07-29"
 pages_build_output_dir = "../../dist/site"
 
 [[d1_databases]]

@@ -6,7 +6,7 @@ import argparse
 from html.parser import HTMLParser
 
 COVER_EXTENSIONS = [".svg", ".png", ".webp", ".jpg", ".jpeg"]
-READER_ASSET_VERSION = "comments-3"
+READER_ASSET_VERSION = "toc-accordion-1"
 
 class ImageSrcParser(HTMLParser):
     def __init__(self):

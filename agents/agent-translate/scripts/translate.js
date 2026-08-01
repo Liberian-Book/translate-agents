@@ -58,9 +58,10 @@ function parseCsvLine(text) {
 
 function loadGlossary(bookDir) {
   const glossary = new Map();
+  const analyzedDir = path.join(bookDir, '03-analyzed');
   const paths = [
     path.join(bookDir, 'glossary.csv'),
-    path.join(bookDir, '03-analyzed', `${path.basename(bookDir)}-glossary-candidates.csv`),
+    ...listAnalyzedGlossaryCsvs(analyzedDir),
   ];
 
   for (const filePath of paths) {
@@ -93,6 +94,14 @@ function loadGlossary(bookDir) {
   }
 
   return glossary;
+}
+
+function listAnalyzedGlossaryCsvs(analyzedDir) {
+  if (!fs.existsSync(analyzedDir)) return [];
+  return fs.readdirSync(analyzedDir)
+    .filter(file => file.endsWith('.csv'))
+    .map(file => path.join(analyzedDir, file))
+    .sort();
 }
 
 function relevantGlossary($, el, glossary) {

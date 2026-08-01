@@ -30,6 +30,8 @@ document.addEventListener('DOMContentLoaded', () => {
     mainContent.appendChild(body.firstChild);
   }
 
+  const tocSidebar = createBookToc(window.BOOK_PAGES || []);
+
   // Create Right Panel
   const rightPanel = document.createElement('div');
   rightPanel.id = 'br-right-panel';
@@ -69,6 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
   `;
 
   // Append back to body
+  readerLayout.appendChild(tocSidebar);
   readerLayout.appendChild(mainContent);
   readerLayout.appendChild(rightPanel);
   body.appendChild(siteHeader);
@@ -88,6 +91,213 @@ document.addEventListener('DOMContentLoaded', () => {
       .filter(Boolean)
       .map(word => `${word[0].toUpperCase()}${word.slice(1)}`)
       .join(' ');
+  }
+
+  function createBookToc(pages) {
+    const nav = document.createElement('nav');
+    nav.id = 'br-toc-sidebar';
+    nav.setAttribute('aria-label', 'Mục lục sách');
+
+    if (!Array.isArray(pages) || pages.length === 0) {
+      nav.innerHTML = '<h2>Mục lục</h2><p class="br-toc-empty">Chưa có mục lục.</p>';
+      return nav;
+    }
+
+    const currentFile = getCurrentFileName();
+    const currentBookPath = getCurrentBookRelativePath();
+    const tocItems = buildTocItems(pages, currentBookPath, currentFile).map(item => {
+      if (item.type === 'chapter') {
+        const links = item.pages.map(page => renderTocLink(page)).join('');
+        return `
+          <li class="br-toc-chapter">
+            <details${item.isCurrent ? ' open' : ''}>
+              <summary><span class="br-toc-chapter-number">${escapeHtml(item.chapter)}</span><span>${escapeHtml(item.title)}</span></summary>
+              <ol class="br-toc-sublist">${links}</ol>
+            </details>
+          </li>
+        `;
+      }
+
+      return renderTocLink(item.page);
+    }).join('');
+
+    nav.innerHTML = `
+      <h2>Mục lục</h2>
+      <ol class="br-toc-list">${tocItems}</ol>
+    `;
+    persistTocNavigation(nav);
+    enableTocAccordion(nav);
+    restoreActiveTocItem(nav, currentBookPath);
+    return nav;
+  }
+
+  function persistTocNavigation(nav) {
+    nav.querySelectorAll('.br-toc-link[data-toc-path]').forEach(link => {
+      link.addEventListener('click', () => {
+        try {
+          window.localStorage.setItem('br-active-toc-path', link.dataset.tocPath || '');
+        } catch (_error) {
+          // Local storage can be unavailable in strict browser modes; navigation still works.
+        }
+      });
+    });
+  }
+
+  function restoreActiveTocItem(nav, currentBookPath) {
+    const storedPath = getStoredActiveTocPath();
+    const activePath = storedPath === currentBookPath ? storedPath : currentBookPath;
+    const activeLink = nav.querySelector(`.br-toc-link[data-toc-path="${cssEscape(activePath)}"]`) || nav.querySelector('.br-toc-link[aria-current="page"]');
+    if (!activeLink) return;
+
+    nav.querySelectorAll('.br-toc-link.is-current').forEach(link => {
+      link.classList.remove('is-current');
+      link.removeAttribute('aria-current');
+    });
+
+    activeLink.classList.add('is-current');
+    activeLink.setAttribute('aria-current', 'page');
+    activeLink.closest('details')?.setAttribute('open', '');
+    requestAnimationFrame(() => activeLink.scrollIntoView({ block: 'nearest' }));
+  }
+
+  function getStoredActiveTocPath() {
+    try {
+      const stored = window.localStorage.getItem('br-active-toc-path');
+      return stored ? normalizePath(stored) : '';
+    } catch (_error) {
+      return '';
+    }
+  }
+
+  function enableTocAccordion(nav) {
+    nav.querySelectorAll('.br-toc-chapter summary').forEach(summary => {
+      summary.addEventListener('click', event => {
+        event.preventDefault();
+        const details = summary.closest('details');
+        if (!details || details.open) return;
+
+        nav.querySelectorAll('.br-toc-chapter details[open]').forEach(openDetails => {
+          openDetails.removeAttribute('open');
+        });
+        details.setAttribute('open', '');
+      });
+    });
+  }
+
+  function buildTocItems(pages, currentBookPath, currentFile) {
+    const items = [];
+    const chapterItems = new Map();
+
+    for (const page of pages) {
+      const tocPage = getTocPage(page, currentBookPath, currentFile);
+      const chapter = getPageChapter(tocPage.manifestHref);
+
+      if (!chapter) {
+        items.push({ type: 'page', page: tocPage });
+        continue;
+      }
+
+      if (!chapterItems.has(chapter)) {
+        const chapterItem = {
+          type: 'chapter',
+          chapter,
+          title: `Chapter ${chapter}`,
+          pages: [],
+          isCurrent: false,
+        };
+        chapterItems.set(chapter, chapterItem);
+        items.push(chapterItem);
+      }
+
+      const chapterItem = chapterItems.get(chapter);
+      chapterItem.pages.push(tocPage);
+      chapterItem.isCurrent = chapterItem.isCurrent || tocPage.isCurrent;
+    }
+
+    return items;
+  }
+
+  function getTocPage(page, currentBookPath, currentFile) {
+    const manifestHref = getPageHref(page);
+    const fileName = getFileNameFromPath(manifestHref);
+    return {
+      href: getDocumentRelativePageHref(manifestHref),
+      label: getPageLabel(page, manifestHref),
+      isCurrent: normalizePath(manifestHref) === currentBookPath || normalizePath(fileName) === normalizePath(currentFile),
+      manifestHref,
+    };
+  }
+
+  function renderTocLink(page) {
+    return `
+      <li>
+        <a class="br-toc-link${page.isCurrent ? ' is-current' : ''}" href="${escapeHtml(page.href)}" data-toc-path="${escapeHtml(normalizePath(page.manifestHref))}"${page.isCurrent ? ' aria-current="page"' : ''}>
+          ${escapeHtml(page.label)}
+        </a>
+      </li>
+    `;
+  }
+
+  function getPageHref(page) {
+    if (typeof page === 'string') return page;
+    return page?.url || page?.href || page?.file || '';
+  }
+
+  function getPageLabel(page, href) {
+    if (page && typeof page === 'object' && page.title) return page.title;
+    const fileName = getFileNameFromPath(href).replace(/\.html$/, '');
+    const numbered = fileName.match(/^(\d+)-(\d+)-(.+)$/);
+    if (numbered) return `${numbered[1]}.${numbered[2]} ${formatBookTitle(numbered[3])}`;
+    return formatBookTitle(fileName);
+  }
+
+  function getPageChapter(href) {
+    const fileName = getFileNameFromPath(href);
+    return fileName.match(/^(\d+)(?:-|$)/)?.[1] || null;
+  }
+
+  function getCurrentFileName() {
+    const pathname = window.location.pathname.replace(/\/$/, '/index.html');
+    return getFileNameFromPath(pathname);
+  }
+
+  function getCurrentBookRelativePath() {
+    const parts = window.location.pathname.split('/').filter(Boolean);
+    const booksIndex = parts.indexOf('books');
+    const bookIndex = booksIndex !== -1 ? booksIndex + 1 : 0;
+    return normalizePath(parts.slice(bookIndex + 1).join('/') || 'index.html');
+  }
+
+  function getDocumentRelativePageHref(href) {
+    const cleanHref = String(href || '');
+    if (!cleanHref || /^[a-z][a-z0-9+.-]*:/i.test(cleanHref) || cleanHref.startsWith('#') || cleanHref.startsWith('/')) {
+      return cleanHref;
+    }
+
+    const currentPath = getCurrentBookRelativePath();
+    const currentDirDepth = Math.max(currentPath.split('/').length - 1, 0);
+    return `${'../'.repeat(currentDirDepth)}${cleanHref.replace(/^\.\//, '')}`;
+  }
+
+  function normalizePath(value) {
+    return String(value || '')
+      .split('#')[0]
+      .split('?')[0]
+      .replace(/^\.\//, '')
+      .replace(/^\//, '')
+      .replace(/\/index\.html$/, '')
+      .replace(/\.html$/, '')
+      .replace(/\/$/, '');
+  }
+
+  function cssEscape(value) {
+    if (window.CSS && typeof window.CSS.escape === 'function') return window.CSS.escape(value);
+    return String(value).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
+  }
+
+  function getFileNameFromPath(value) {
+    const clean = String(value || '').split('#')[0].split('?')[0];
+    return clean.split('/').filter(Boolean).pop() || 'index.html';
   }
 
   // 2. Fetch and parse Glossary

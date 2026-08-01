@@ -1,0 +1,42 @@
+# Proposal: add-book-toc-sidebar
+
+## Why
+
+Book pages currently rely on previous/next navigation and page content links, which makes it hard to jump across sections from within a book. A left-side table of contents gives readers persistent orientation and faster navigation while reading generated static books.
+
+## Appetite
+
+S (≤1d)
+
+## Scope
+
+### In scope
+
+- Add a desktop left-side table of contents to generated book pages.
+- Build the TOC from the existing generated `BOOK_PAGES` manifest so it is available on every generated book page.
+- Highlight the current page in the TOC.
+- Preserve existing previous/next navigation and right-side reader panel behavior.
+- Add responsive behavior so the TOC remains usable on mobile without covering content.
+- Add E2E coverage for TOC visibility, navigation, and current-page state.
+
+### Out of scope
+
+- Scraping OpenStax's live full-book TOC again.
+- Introducing new dependencies.
+- Redesigning the homepage or book cards.
+- Adding nested chapter hierarchy beyond what can be safely derived from the existing page manifest.
+- Changing translation, scrape, cleanup, or review pipeline behavior.
+
+## Capabilities
+
+1. **book-toc-sidebar** — Generated book pages expose a left-side table of contents derived from `BOOK_PAGES` with relative links and current-page highlighting.
+
+## UI Impact & E2E
+
+- **User-visible UI behavior affected?** YES
+- **E2E required?** REQUIRED
+- **Justification**: This changes the primary reading layout and navigation behavior; browser coverage should verify the generated static site shows the TOC and links work after `build:site`.
+
+## Risk Level
+
+LOW — the change is limited to generated reader assets and E2E coverage, uses existing manifest data, and does not change storage, APIs, or deployment shape.

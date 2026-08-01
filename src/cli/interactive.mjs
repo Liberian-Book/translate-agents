@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { spawn } from 'node:child_process';
-import { input, select } from '@inquirer/prompts';
+import { checkbox, input, select } from '@inquirer/prompts';
 import chalk from 'chalk';
 import { runTranslateText } from './commands/translate.mjs';
 import { printUploadResult } from './commands/upload.mjs';
@@ -154,6 +154,7 @@ async function runTranslationPipeline(book) {
   const siteBookDir = path.join(repoRoot, 'apps', 'web-site', 'books', bookName);
   const cleanDir = path.join(bookDir, 'clean');
   const prepDir = path.join(bookDir, 'prep');
+  let selectedChapters = 'all';
   const steps = [
     'Tải sách từ OpenStax',
     'Làm sạch HTML và tải tài nguyên',
@@ -179,20 +180,43 @@ async function runTranslationPipeline(book) {
   await runScript('agents/agent-scrape/scripts/skill-cleanup.js', [bookName]);
   renderProgressBar({ label: `Hoàn tất: ${steps[1]}`, current: 2, total: steps.length });
 
+  selectedChapters = await selectChaptersForTranslation({ cleanDir });
+  if (selectedChapters !== 'all') {
+    console.log(chalk.cyan(`Chỉ dịch chương: ${selectedChapters.join(', ')}`));
+  }
+
   renderProgressBar({ label: steps[2], current: 2, total: steps.length });
-  await runScript('agents/agent-analyze/scripts/term-extract.js', [bookName, 'all']);
+  if (selectedChapters === 'all') {
+    await runScript('agents/agent-analyze/scripts/term-extract.js', [bookName, 'all']);
+  } else {
+    for (const chapter of selectedChapters) {
+      await runScript('agents/agent-analyze/scripts/term-extract.js', [bookName, chapter]);
+    }
+  }
   renderProgressBar({ label: `Hoàn tất: ${steps[2]}`, current: 3, total: steps.length });
 
   renderProgressBar({ label: steps[3], current: 3, total: steps.length });
-  await prepareCleanFiles({ cleanDir, prepDir });
+  await prepareCleanFiles({ cleanDir, prepDir, chapters: selectedChapters });
   renderProgressBar({ label: `Hoàn tất: ${steps[3]}`, current: 4, total: steps.length });
 
   renderProgressBar({ label: steps[4], current: 4, total: steps.length });
-  await runScript('agents/agent-translate/scripts/translate.js', [bookName]);
+  if (selectedChapters === 'all') {
+    await runScript('agents/agent-translate/scripts/translate.js', [bookName]);
+  } else {
+    for (const file of listChapterHtmlFiles(cleanDir, selectedChapters)) {
+      await runScript('agents/agent-translate/scripts/translate.js', [bookName, file]);
+    }
+  }
   renderProgressBar({ label: `Hoàn tất: ${steps[4]}`, current: 5, total: steps.length });
 
   renderProgressBar({ label: steps[5], current: 5, total: steps.length });
-  await runScript('agents/agent-translate/scripts/translate-images.js', ['all', bookName, '--renderer', 'image-edit', '--strict']);
+  if (selectedChapters === 'all') {
+    await runScript('agents/agent-translate/scripts/translate-images.js', ['all', bookName, '--renderer', 'image-edit', '--strict']);
+  } else {
+    for (const chapter of selectedChapters) {
+      await runScript('agents/agent-translate/scripts/translate-images.js', [chapter, bookName, '--renderer', 'image-edit', '--strict']);
+    }
+  }
   renderProgressBar({ label: `Hoàn tất: ${steps[5]}`, current: 6, total: steps.length });
 
   renderProgressBar({ label: steps[6], current: 6, total: steps.length });
@@ -236,13 +260,13 @@ function runPythonScript(scriptPath, args = []) {
   });
 }
 
-async function prepareCleanFiles({ cleanDir, prepDir }) {
+async function prepareCleanFiles({ cleanDir, prepDir, chapters = 'all' }) {
   if (!fs.existsSync(cleanDir)) {
     throw new Error(`Không tìm thấy thư mục clean: ${cleanDir}`);
   }
 
   fs.mkdirSync(prepDir, { recursive: true });
-  const files = fs.readdirSync(cleanDir).filter((file) => file.endsWith('.html'));
+  const files = listChapterHtmlFiles(cleanDir, chapters);
   if (files.length === 0) {
     throw new Error(`Không có tệp HTML nào trong thư mục clean: ${cleanDir}`);
   }
@@ -259,6 +283,78 @@ async function prepareCleanFiles({ cleanDir, prepDir }) {
       path.join(prepDir, file),
     ]);
   }
+}
+
+async function selectChaptersForTranslation({ cleanDir }) {
+  const chapters = listCleanChapters(cleanDir);
+  if (chapters.length === 0) {
+    console.log(chalk.yellow('Không nhận diện được chương theo tên file; sẽ dịch toàn bộ sách.'));
+    return 'all';
+  }
+
+  const allValue = '__all__';
+  const selected = await checkbox({
+    message: 'Chọn chương muốn dịch:',
+    required: true,
+    choices: [
+      { name: 'Tất cả chương', value: allValue, checked: true },
+      ...chapters.map((chapter) => ({
+        name: `Chương ${chapter.chapter} (${chapter.files.length} tệp)`,
+        value: chapter.chapter,
+      })),
+    ],
+  });
+
+  if (selected.includes(allValue)) return 'all';
+  return selected.sort((a, b) => Number(a) - Number(b));
+}
+
+function listCleanChapters(cleanDir) {
+  if (!fs.existsSync(cleanDir)) return [];
+
+  const chapters = new Map();
+  for (const file of fs.readdirSync(cleanDir).filter((entry) => entry.endsWith('.html'))) {
+    const chapter = getChapterFromHtmlFile(file);
+    if (!chapter) continue;
+    if (!chapters.has(chapter)) chapters.set(chapter, []);
+    chapters.get(chapter).push(file);
+  }
+
+  return [...chapters.entries()]
+    .map(([chapter, files]) => ({
+      chapter,
+      files: files.sort(sortHtmlFiles),
+    }))
+    .sort((a, b) => Number(a.chapter) - Number(b.chapter));
+}
+
+function listChapterHtmlFiles(cleanDir, chapters = 'all') {
+  const files = fs.readdirSync(cleanDir)
+    .filter((file) => file.endsWith('.html'))
+    .sort(sortHtmlFiles);
+
+  if (chapters === 'all') return files;
+
+  const chapterSet = new Set(chapters.map(String));
+  return files.filter((file) => chapterSet.has(getChapterFromHtmlFile(file)));
+}
+
+function getChapterFromHtmlFile(file) {
+  return file.match(/^(\d+)(?:-|$)/)?.[1] || null;
+}
+
+function sortHtmlFiles(a, b) {
+  const aParts = a.match(/^(\d+)(?:-(\d+))?/) || [];
+  const bParts = b.match(/^(\d+)(?:-(\d+))?/) || [];
+  const aChapter = Number(aParts[1] || Number.MAX_SAFE_INTEGER);
+  const bChapter = Number(bParts[1] || Number.MAX_SAFE_INTEGER);
+  if (aChapter !== bChapter) return aChapter - bChapter;
+
+  const aSection = Number(aParts[2] || 0);
+  const bSection = Number(bParts[2] || 0);
+  if (aSection !== bSection) return aSection - bSection;
+
+  return a.localeCompare(b);
 }
 
 function renderProgressBar({ label, current, total }) {
