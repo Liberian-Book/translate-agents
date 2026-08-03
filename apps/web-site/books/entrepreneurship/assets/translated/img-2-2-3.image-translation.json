@@ -1,0 +1,258 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-2-2-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/2-2-the-process-of-becoming-an-entrepreneur.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/translated/img-2-2-3.vi.png",
+  "ocr": [
+    {
+      "text": "= 7 Lede itd » 7 FE | |",
+      "confidence": 34,
+      "bbox": {
+        "x": 130,
+        "y": 82,
+        "w": 1040,
+        "h": 55
+      }
+    },
+    {
+      "text": "F=f gw of Sin = 8",
+      "confidence": 34,
+      "bbox": {
+        "x": 130,
+        "y": 192,
+        "w": 1040,
+        "h": 55
+      }
+    },
+    {
+      "text": "ST) EE",
+      "confidence": 34,
+      "bbox": {
+        "x": 130,
+        "y": 302,
+        "w": 1040,
+        "h": 55
+      }
+    },
+    {
+      "text": "L i Se WN,",
+      "confidence": 34,
+      "bbox": {
+        "x": 130,
+        "y": 412,
+        "w": 1040,
+        "h": 55
+      }
+    },
+    {
+      "text": ".l- J | ELS",
+      "confidence": 34,
+      "bbox": {
+        "x": 130,
+        "y": 522,
+        "w": 1040,
+        "h": 55
+      }
+    },
+    {
+      "text": "Be ST ¥ L$ J >",
+      "confidence": 34,
+      "bbox": {
+        "x": 130,
+        "y": 632,
+        "w": 1040,
+        "h": 55
+      }
+    },
+    {
+      "text": "Li VV. A comm El ~ ia",
+      "confidence": 34,
+      "bbox": {
+        "x": 130,
+        "y": 742,
+        "w": 1040,
+        "h": 55
+      }
+    },
+    {
+      "text": ") @ So (b) (c)",
+      "confidence": 34,
+      "bbox": {
+        "x": 130,
+        "y": 852,
+        "w": 1040,
+        "h": 55
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: (a) Patent for the cotton gin with illustrations. (b) Sketch of a telegraph. (c) Photo of a sewing machine.\nButton label: Click to enlarge image of (a) Patent for the cotton gin with illustrations. (b) Sketch of a telegraph. (c) Photo of a sewing machine.\nEnglish caption: Figure 2.14 Inventions abounded during the First Industrial Revolution. (a) A US patent was granted to Eli Whitney in 1794 for the cotton gin. (b) This sketch shows Samuel Morse’s telegraph. (c) Elias Howe invented the sewing machine. (credit (a): modification of “Patent for Cotton Gin (1794)” by “Gamaliel”/Wikimedia Commons, Public Domain; credit (b): modification of “Morse telegraph” by Unknown/Wikimedia Commons, Public Domain; credit (c): modification of “Elias Howe Sewing Machine 1846” by Unknown/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 0.5131195335276968,
+    "averageConfidence": 34,
+    "entropy": 5.716256160716512,
+    "sharpness": 2.6533515849771074
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: (a) Patent for the cotton gin with illustrations. (b) Sketch of a telegraph. (c) Photo of a sewing machine.\nButton label: Click to enlarge image of (a) Patent for the cotton gin with illustrations. (b) Sketch of a telegraph. (c) Photo of a sewing machine.\nEnglish caption: Figure 2.14 Inventions abounded during the First Industrial Revolution. (a) A US patent was granted to Eli Whitney in 1794 for the cotton gin. (b) This sketch shows Samuel Morse’s telegraph. (c) Elias Howe invented the sewing machine. (credit (a): modification of “Patent for Cotton Gin (1794)” by “Gamaliel”/Wikimedia Commons, Public Domain; credit (b): modification of “Morse telegraph” by Unknown/Wikimedia Commons, Public Domain; credit (c): modification of “Elias Howe Sewing Machine 1846” by Unknown/Wikimedia Commons, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "mm",
+        "confidence": 36,
+        "bbox": {
+          "x": 173,
+          "y": 109,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "pe Biing séing ché Ra i",
+        "confidence": 36,
+        "bbox": {
+          "x": 173,
+          "y": 255,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "a danh cho may tich bong 4 [4 i",
+        "confidence": 36,
+        "bbox": {
+          "x": 173,
+          "y": 401,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "Co s6TX , 4thing3 | :",
+        "confidence": 36,
+        "bbox": {
+          "x": 173,
+          "y": 547,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "j em Ns nam 1794 | : '",
+        "confidence": 36,
+        "bbox": {
+          "x": 173,
+          "y": 693,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "¥ = Ry ‘ o",
+        "confidence": 36,
+        "bbox": {
+          "x": 173,
+          "y": 839,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "= (8 lo",
+        "confidence": 36,
+        "bbox": {
+          "x": 173,
+          "y": 985,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "| 5 & 2 5 Yau / | PP",
+        "confidence": 36,
+        "bbox": {
+          "x": 173,
+          "y": 1131,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "\\ E BE | he Ts)",
+        "confidence": 36,
+        "bbox": {
+          "x": 173,
+          "y": 1277,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "& 115 NE \\ Ab",
+        "confidence": 36,
+        "bbox": {
+          "x": 173,
+          "y": 1423,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "Bo, : | 5 i | | I \\ § \\ De",
+        "confidence": 36,
+        "bbox": {
+          "x": 173,
+          "y": 1569,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "@ [ene = i y A) | a 9,7 >",
+        "confidence": 36,
+        "bbox": {
+          "x": 173,
+          "y": 1715,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "L os Vo lial ,",
+        "confidence": 36,
+        "bbox": {
+          "x": 173,
+          "y": 1861,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "ii Sa pS i bs) PE RERE JON + 98 Z 4 —— = a = Fog ds",
+        "confidence": 36,
+        "bbox": {
+          "x": 173,
+          "y": 2007,
+          "w": 1380,
+          "h": 73
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}
