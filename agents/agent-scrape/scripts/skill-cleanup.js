@@ -24,6 +24,7 @@ if (chapterName) {
 }
 
 const BASE_URL = 'https://openstax.org';
+const PROGRESS_WIDTH = 24;
 
 if (!fs.existsSync(CLEAN_DIR)) fs.mkdirSync(CLEAN_DIR, { recursive: true });
 if (!fs.existsSync(ASSETS_DIR)) fs.mkdirSync(ASSETS_DIR, { recursive: true });
@@ -43,6 +44,7 @@ async function downloadImage(url, filepath) {
       writer.on('error', reject);
     });
   } catch (error) {
+    clearProgressLine();
     console.error(`⚠️ Lỗi tải ảnh ${url}: ${error.message}`);
   }
 }
@@ -54,7 +56,7 @@ async function cleanupHTML() {
   }
 
   const files = fs.readdirSync(RAW_DIR).filter(file => file.endsWith('.html'));
-  console.log(`Tìm thấy ${files.length} file trong raw. Bắt đầu làm sạch và tải ảnh...`);
+  console.log(`Làm sạch HTML và tải tài nguyên: ${files.length} file`);
 
   // Xoá trắng thư mục assets cũ để tránh rác (tuỳ chọn, nhưng an toàn hơn khi test lại quy tắc đặt tên)
   if (fs.existsSync(ASSETS_DIR)) {
@@ -67,6 +69,7 @@ async function cleanupHTML() {
 
   for (let index = 0; index < files.length; index++) {
     const file = files[index];
+    renderProgress({ current: index, total: files.length, label: file });
     const rawFilePath = path.join(RAW_DIR, file);
     const cleanFilePath = path.join(CLEAN_DIR, file);
 
@@ -122,7 +125,6 @@ async function cleanupHTML() {
 
         const imgPath = path.join(ASSETS_DIR, newFileName);
         
-        console.log(`  - Đang tải ảnh: ${newFileName}`);
         await downloadImage(fullUrl, imgPath);
 
         // Đổi đường dẫn trong HTML sang file mới
@@ -133,13 +135,28 @@ async function cleanupHTML() {
       
       const finalHTML = $clean.html();
       fs.writeFileSync(cleanFilePath, finalHTML, 'utf8');
-      console.log(`[${index + 1}/${files.length}] Đã làm sạch và tải ảnh: ${file}`);
     } else {
+      clearProgressLine();
       console.warn(`[${index + 1}/${files.length}] ⚠️ Cảnh báo: Không thể trích xuất nội dung chính cho ${file}`);
     }
   }
 
+  renderProgress({ current: files.length, total: files.length, label: 'Hoàn tất' });
+  process.stdout.write('\n');
   console.log('✅ Hoàn tất quá trình Cleanup & Tải ảnh với quy tắc đặt tên mới!');
+}
+
+function renderProgress({ current, total, label }) {
+  const safeTotal = Math.max(total, 1);
+  const filled = Math.round((current / safeTotal) * PROGRESS_WIDTH);
+  const empty = PROGRESS_WIDTH - filled;
+  const percent = Math.round((current / safeTotal) * 100);
+  const count = `${Math.min(current, total)}/${total}`;
+  process.stdout.write(`\r\x1b[2K[${'#'.repeat(filled)}${'-'.repeat(empty)}] ${percent}% ${count} ${label}`);
+}
+
+function clearProgressLine() {
+  process.stdout.write('\r\x1b[2K');
 }
 
 cleanupHTML();

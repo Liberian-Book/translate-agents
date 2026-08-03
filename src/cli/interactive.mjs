@@ -152,9 +152,12 @@ async function runTranslationPipeline(book) {
   const startUrl = await resolveBookStartUrl(book);
   const bookDir = path.join(repoRoot, 'data', bookName);
   const siteBookDir = path.join(repoRoot, 'apps', 'web-site', 'books', bookName);
+  const rawDir = path.join(bookDir, 'raw');
   const cleanDir = path.join(bookDir, 'clean');
   const prepDir = path.join(bookDir, 'prep');
   let selectedChapters = 'all';
+  let skipScrape = false;
+  let skipCleanup = false;
   const steps = [
     'Tải sách từ OpenStax',
     'Làm sạch HTML và tải tài nguyên',
@@ -172,12 +175,42 @@ async function runTranslationPipeline(book) {
   console.log(chalk.dim(`Thư mục dữ liệu: ${bookDir}`));
   console.log(chalk.dim(`HTML website: ${siteBookDir}`));
 
+  if (hasHtmlFiles(rawDir)) {
+    const scrapeChoice = await select({
+      message: 'Đã có dữ liệu scrape cho sách này. Bạn muốn làm gì?',
+      choices: [
+        { name: 'Bỏ qua scrape, dùng dữ liệu hiện có', value: 'skip' },
+        { name: 'Scrape lại từ OpenStax', value: 'rescrape' },
+      ],
+    });
+    skipScrape = scrapeChoice === 'skip';
+  }
+
   renderProgressBar({ label: steps[0], current: 0, total: steps.length });
-  await runScript('agents/agent-scrape/scripts/skill-scrape.js', [bookName, startUrl]);
+  if (skipScrape) {
+    console.log(chalk.yellow('Bỏ qua scrape; dùng dữ liệu raw hiện có.'));
+  } else {
+    await runGuidedScript('agents/agent-scrape/scripts/skill-scrape.js', [bookName, startUrl]);
+  }
   renderProgressBar({ label: `Hoàn tất: ${steps[0]}`, current: 1, total: steps.length });
 
+  if (hasHtmlFiles(cleanDir)) {
+    const cleanupChoice = await select({
+      message: 'Đã có dữ liệu clean cho sách này. Bạn muốn làm gì?',
+      choices: [
+        { name: 'Bỏ qua cleanup, dùng dữ liệu hiện có', value: 'skip' },
+        { name: 'Chạy cleanup lại', value: 'rerun' },
+      ],
+    });
+    skipCleanup = cleanupChoice === 'skip';
+  }
+
   renderProgressBar({ label: steps[1], current: 1, total: steps.length });
-  await runScript('agents/agent-scrape/scripts/skill-cleanup.js', [bookName]);
+  if (skipCleanup) {
+    console.log(chalk.yellow('Bỏ qua cleanup; dùng dữ liệu clean hiện có.'));
+  } else {
+    await runGuidedScript('agents/agent-scrape/scripts/skill-cleanup.js', [bookName]);
+  }
   renderProgressBar({ label: `Hoàn tất: ${steps[1]}`, current: 2, total: steps.length });
 
   selectedChapters = await selectChaptersForTranslation({ cleanDir });
@@ -187,10 +220,10 @@ async function runTranslationPipeline(book) {
 
   renderProgressBar({ label: steps[2], current: 2, total: steps.length });
   if (selectedChapters === 'all') {
-    await runScript('agents/agent-analyze/scripts/term-extract.js', [bookName, 'all']);
+    await runGuidedScript('agents/agent-analyze/scripts/term-extract.js', [bookName, 'all']);
   } else {
     for (const chapter of selectedChapters) {
-      await runScript('agents/agent-analyze/scripts/term-extract.js', [bookName, chapter]);
+      await runGuidedScript('agents/agent-analyze/scripts/term-extract.js', [bookName, chapter]);
     }
   }
   renderProgressBar({ label: `Hoàn tất: ${steps[2]}`, current: 3, total: steps.length });
@@ -201,26 +234,20 @@ async function runTranslationPipeline(book) {
 
   renderProgressBar({ label: steps[4], current: 4, total: steps.length });
   if (selectedChapters === 'all') {
-    await runScript('agents/agent-translate/scripts/translate.js', [bookName]);
+    await runGuidedScript('agents/agent-translate/scripts/translate.js', [bookName]);
   } else {
     for (const file of listChapterHtmlFiles(cleanDir, selectedChapters)) {
-      await runScript('agents/agent-translate/scripts/translate.js', [bookName, file]);
+      await runGuidedScript('agents/agent-translate/scripts/translate.js', [bookName, file]);
     }
   }
   renderProgressBar({ label: `Hoàn tất: ${steps[4]}`, current: 5, total: steps.length });
 
   renderProgressBar({ label: steps[5], current: 5, total: steps.length });
-  if (selectedChapters === 'all') {
-    await runScript('agents/agent-translate/scripts/translate-images.js', ['all', bookName, '--renderer', 'image-edit', '--strict']);
-  } else {
-    for (const chapter of selectedChapters) {
-      await runScript('agents/agent-translate/scripts/translate-images.js', [chapter, bookName, '--renderer', 'image-edit', '--strict']);
-    }
-  }
+  await runImageTranslationForChapters({ bookName, cleanDir, chapters: selectedChapters });
   renderProgressBar({ label: `Hoàn tất: ${steps[5]}`, current: 6, total: steps.length });
 
   renderProgressBar({ label: steps[6], current: 6, total: steps.length });
-  await runPythonScript('agents/agent-archive/scripts/build-preview.py', [bookDir]);
+  await runGuidedPythonScript('agents/agent-archive/scripts/build-preview.py', [bookDir]);
   renderProgressBar({ label: `Hoàn tất: ${steps[6]}`, current: 7, total: steps.length });
 
   renderProgressBar({ label: steps[7], current: 7, total: steps.length });
@@ -236,28 +263,99 @@ async function runTranslationPipeline(book) {
   console.log(chalk.green(`HTML website: ${siteBookDir}`));
 }
 
-function runPythonScript(scriptPath, args = []) {
+async function runGuidedScript(scriptPath, args = []) {
+  try {
+    return await runScript(scriptPath, args, { stdio: 'pipe' });
+  } catch (error) {
+    printCapturedScriptOutput(error);
+    throw error;
+  }
+}
+
+function runGuidedPythonScript(scriptPath, args = []) {
   const commandArgs = [path.join(repoRoot, scriptPath), ...args];
 
   return new Promise((resolve, reject) => {
     const child = spawn('python3', commandArgs, {
       cwd: repoRoot,
       env: process.env,
-      stdio: 'inherit',
+      stdio: ['ignore', 'pipe', 'pipe'],
+    });
+    let stdout = '';
+    let stderr = '';
+
+    child.stdout?.on('data', (chunk) => {
+      stdout += chunk.toString();
+    });
+    child.stderr?.on('data', (chunk) => {
+      stderr += chunk.toString();
     });
 
     child.on('error', reject);
     child.on('close', (code) => {
       if (code === 0) {
-        resolve();
+        resolve({ stdout, stderr });
         return;
       }
 
       const error = new Error(`Python script exited with code ${code}`);
       error.exitCode = code;
+      error.stdout = stdout;
+      error.stderr = stderr;
+      printCapturedScriptOutput(error);
       reject(error);
     });
   });
+}
+
+function printCapturedScriptOutput(error) {
+  const output = [error.stdout, error.stderr].filter(Boolean).join('\n').trim();
+  if (!output) return;
+
+  process.stdout.write('\r\x1b[2K');
+  console.error(chalk.red('Chi tiết lỗi từ script:'));
+  console.error(output);
+}
+
+function printImageTranslationSummary(result) {
+  const output = [result?.stdout, result?.stderr].filter(Boolean).join('\n');
+  const match = output.match(/Done\. Images: auto=(\d+), skip=(\d+), review=(\d+), error=(\d+)/);
+  if (!match) return;
+
+  const review = Number(match[3]);
+  const error = Number(match[4]);
+  if (review > 0 || error > 0) {
+    process.stdout.write('\n');
+    console.log(chalk.yellow(`Dịch hình ảnh cần xem lại: review=${review}, error=${error}. Ảnh gốc được giữ cho các mục này.`));
+  }
+}
+
+async function runImageTranslationForChapters({ bookName, cleanDir, chapters = 'all' }) {
+  const targets = chapters === 'all'
+    ? listCleanChapters(cleanDir).map((chapter) => chapter.chapter)
+    : chapters;
+
+  if (targets.length === 0) {
+    const result = await runGuidedScript('agents/agent-translate/scripts/translate-images.js', ['all', bookName, '--renderer', 'image-edit']);
+    printImageTranslationSummary(result);
+    return;
+  }
+
+  for (let index = 0; index < targets.length; index += 1) {
+    const chapter = targets[index];
+    renderProgressBar({
+      label: `Dịch hình ảnh chương ${chapter} (${index + 1}/${targets.length})`,
+      current: index,
+      total: targets.length,
+    });
+    const result = await runGuidedScript('agents/agent-translate/scripts/translate-images.js', [chapter, bookName, '--renderer', 'image-edit']);
+    printImageTranslationSummary(result);
+    renderProgressBar({
+      label: `Hoàn tất hình ảnh chương ${chapter} (${index + 1}/${targets.length})`,
+      current: index + 1,
+      total: targets.length,
+    });
+  }
 }
 
 async function prepareCleanFiles({ cleanDir, prepDir, chapters = 'all' }) {
@@ -278,11 +376,16 @@ async function prepareCleanFiles({ cleanDir, prepDir, chapters = 'all' }) {
       current: index,
       total: files.length,
     });
-    await runScript('agents/agent-translate/scripts/prep_html.js', [
+    await runGuidedScript('agents/agent-translate/scripts/prep_html.js', [
       path.join(cleanDir, file),
       path.join(prepDir, file),
     ]);
   }
+  renderProgressBar({
+    label: 'Hoàn tất chuẩn bị tệp song ngữ',
+    current: files.length,
+    total: files.length,
+  });
 }
 
 async function selectChaptersForTranslation({ cleanDir }) {
@@ -294,7 +397,7 @@ async function selectChaptersForTranslation({ cleanDir }) {
 
   const allValue = '__all__';
   const selected = await checkbox({
-    message: 'Chọn chương muốn dịch:',
+    message: 'Chọn chương muốn dịch (chọn chương cụ thể sẽ ưu tiên hơn tất cả chương):',
     required: true,
     choices: [
       { name: 'Tất cả chương', value: allValue, checked: true },
@@ -305,8 +408,12 @@ async function selectChaptersForTranslation({ cleanDir }) {
     ],
   });
 
-  if (selected.includes(allValue)) return 'all';
-  return selected.sort((a, b) => Number(a) - Number(b));
+  const selectedChapterNumbers = selected
+    .filter((chapter) => chapter !== allValue)
+    .sort((a, b) => Number(a) - Number(b));
+
+  if (selectedChapterNumbers.length > 0) return selectedChapterNumbers;
+  return 'all';
 }
 
 function listCleanChapters(cleanDir) {
@@ -357,13 +464,19 @@ function sortHtmlFiles(a, b) {
   return a.localeCompare(b);
 }
 
+function hasHtmlFiles(dir) {
+  if (!fs.existsSync(dir)) return false;
+  return fs.readdirSync(dir).some((entry) => entry.endsWith('.html'));
+}
+
 function renderProgressBar({ label, current, total }) {
   const width = 24;
   const safeTotal = Math.max(total, 1);
   const filled = Math.round((current / safeTotal) * width);
   const empty = width - filled;
   const percent = Math.round((current / safeTotal) * 100);
-  process.stdout.write(`\r\x1b[2K[${'#'.repeat(filled)}${'-'.repeat(empty)}] ${percent}% ${label}\n`);
+  const suffix = current >= total || label.startsWith('Hoàn tất') ? '\n' : '';
+  process.stdout.write(`\r\x1b[2K[${'#'.repeat(filled)}${'-'.repeat(empty)}] ${percent}% ${label}${suffix}`);
 }
 
 async function resolveBookStartUrl(book) {
