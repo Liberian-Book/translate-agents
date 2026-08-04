@@ -89,14 +89,14 @@
     "textDensity": 0.44956369982547995,
     "averageConfidence": 39,
     "entropy": 7.065015633981602,
-    "sharpness": 1.9265504832464706
+    "sharpness": 1.9265504832464038
   },
   "imageEdit": {
     "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: (a) Photo of Dave Gilboa. (b) Photo of a Warby Parker retail store.\nButton label: Click to enlarge image of (a) Photo of Dave Gilboa. (b) Photo of a Warby Parker retail store.\nEnglish caption: Figure 1.2 (a) Co-founder and co-CEO Dave Gilboa helped push (b) Warby Parker to become a successful entrepreneurial venture. (credit (a): modification of “775208326EC00084_TechCrunch” by TechCrunch/Flickr, CC BY 2.0; credit (b): modification of “Warby Parker Aventura Mall” by Phillip Pessar/Flickr, CC BY 2.0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: warby, parker. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
     "outputOcr": [
       {
-        "text": "fg ord v0 GIO HAN fg PHA vO 6101 HAN",
-        "confidence": 37,
+        "text": "vg ~~ WPHAVO ne",
+        "confidence": 39,
         "bbox": {
           "x": 203,
           "y": 93,
@@ -105,8 +105,8 @@
         }
       },
       {
-        "text": "ig PHA vO GIOT HAN ¥- ) fg PHA VO KiNH MAT THOI TRANG a",
-        "confidence": 37,
+        "text": "™ PHAVO z - i",
+        "confidence": 39,
         "bbox": {
           "x": 203,
           "y": 217,
@@ -115,8 +115,8 @@
         }
       },
       {
-        "text": "< RE i Eo",
-        "confidence": 37,
+        "text": ". § PHAVO a # PHA VO — Tas . S— LL i",
+        "confidence": 39,
         "bbox": {
           "x": 203,
           "y": 341,
@@ -125,8 +125,8 @@
         }
       },
       {
-        "text": "fg PHA VO GIOTHAN wa [i PHA VO GIOT HAY — LL hi",
-        "confidence": 37,
+        "text": "- he § PHA a Ts |",
+        "confidence": 39,
         "bbox": {
           "x": 203,
           "y": 465,
@@ -135,8 +135,8 @@
         }
       },
       {
-        "text": "« BLL | PHA VO SP. Su .",
-        "confidence": 37,
+        "text": "WPHAVO == = * | a",
+        "confidence": 39,
         "bbox": {
           "x": 203,
           "y": 589,
@@ -145,8 +145,8 @@
         }
       },
       {
-        "text": "> a | x x 0) fr pl pa | :",
-        "confidence": 37,
+        "text": "ITN IN FEEL =",
+        "confidence": 39,
         "bbox": {
           "x": 203,
           "y": 713,
@@ -155,21 +155,11 @@
         }
       },
       {
-        "text": "- aN EEL D= Ea] 1",
-        "confidence": 37,
+        "text": "= — By add",
+        "confidence": 39,
         "bbox": {
           "x": 203,
           "y": 837,
-          "w": 1624,
-          "h": 62
-        }
-      },
-      {
-        "text": "i § § | ir",
-        "confidence": 37,
-        "bbox": {
-          "x": 203,
-          "y": 961,
           "w": 1624,
           "h": 62
         }

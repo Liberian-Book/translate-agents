@@ -57,7 +57,7 @@
     {
       "source": "INCUBATION",
       "normalizedSource": "INCUBATION",
-      "target": "THỜI GIAN Ủ",
+      "target": "ẤM Ủ",
       "bbox": {
         "x": 110,
         "y": 94,
@@ -69,7 +69,7 @@
     {
       "source": "Let subconscious work",
       "normalizedSource": "Let subconscious work",
-      "target": "Để tiềm thức làm việc",
+      "target": "Để tiềm thức hoạt động",
       "bbox": {
         "x": 110,
         "y": 219,
@@ -81,7 +81,7 @@
     {
       "source": "through information",
       "normalizedSource": "through information",
-      "target": "thông qua thông tin",
+      "target": "thông tin qua đó",
       "bbox": {
         "x": 110,
         "y": 344,
@@ -111,11 +111,11 @@
     "sharpness": 3.0479616911752383
   },
   "imageEdit": {
-    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: Four gears in the head of a person in the creative thinking process are labeled preparation (plan and gather information), incubation (let subconscious work through information), illumination (identify “aha moment” solutions), and verification (test and implement).\nButton label: Click to enlarge image of Four gears in the head of a person in the creative thinking process are labeled preparation (plan and gather information), incubation (let subconscious work through information), illumination (identify “aha moment” solutions), and verification (test and implement).\nEnglish caption: Figure 1.8 These are the four steps of the creative thinking process. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- INCUBATION => THỜI GIAN Ủ\n- Let subconscious work => Để tiềm thức làm việc\n- through information => thông qua thông tin\n- BY ™ => BỞI ™\nReturn a complete edited PNG image.",
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: Four gears in the head of a person in the creative thinking process are labeled preparation (plan and gather information), incubation (let subconscious work through information), illumination (identify “aha moment” solutions), and verification (test and implement).\nButton label: Click to enlarge image of Four gears in the head of a person in the creative thinking process are labeled preparation (plan and gather information), incubation (let subconscious work through information), illumination (identify “aha moment” solutions), and verification (test and implement).\nEnglish caption: Figure 1.8 These are the four steps of the creative thinking process. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- INCUBATION => ẤM Ủ\n- Let subconscious work => Để tiềm thức hoạt động\n- through information => thông tin qua đó\n- BY ™ => BỞI ™\nReturn a complete edited PNG image.",
     "outputOcr": [
       {
-        "text": "THOT GIAN U",
-        "confidence": 77,
+        "text": "AM U",
+        "confidence": 78,
         "bbox": {
           "x": 149,
           "y": 127,
@@ -124,8 +124,8 @@
         }
       },
       {
-        "text": "Dé tiem thurc lam viéc",
-        "confidence": 77,
+        "text": "DE tiém thirc hoat dong",
+        "confidence": 78,
         "bbox": {
           "x": 149,
           "y": 296,
@@ -134,8 +134,8 @@
         }
       },
       {
-        "text": "KHAI SANG",
-        "confidence": 77,
+        "text": "thong tin qua dé",
+        "confidence": 78,
         "bbox": {
           "x": 149,
           "y": 465,
@@ -144,8 +144,8 @@
         }
       },
       {
-        "text": "Xac dinh cac giai phap",
-        "confidence": 77,
+        "text": "my",
+        "confidence": 78,
         "bbox": {
           "x": 149,
           "y": 634,
@@ -155,7 +155,7 @@
       },
       {
         "text": "KIEM CHUNG",
-        "confidence": 77,
+        "confidence": 78,
         "bbox": {
           "x": 149,
           "y": 803,
@@ -164,8 +164,8 @@
         }
       },
       {
-        "text": "Thi nghiém va trién khai",
-        "confidence": 77,
+        "text": "Kiém tra va trién khai",
+        "confidence": 78,
         "bbox": {
           "x": 149,
           "y": 972,

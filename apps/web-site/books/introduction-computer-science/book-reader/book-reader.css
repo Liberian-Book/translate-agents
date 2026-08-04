@@ -11,6 +11,12 @@ body {
   max-width: 100%;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .br-site-header {
   width: 100%;
   background: rgba(255, 255, 255, 0.92);
@@ -81,6 +87,7 @@ body {
   display: flex;
   flex: 1 1 auto;
   min-height: 0;
+  min-width: 0;
   width: 100%;
 }
 
@@ -175,11 +182,83 @@ body {
 
 #br-main-content {
   flex: 6 1 0;
+  min-width: 0;
   padding: 40px 60px;
   background-color: #ffffff;
   overflow-y: auto;
+  overflow-x: hidden;
   scroll-behavior: smooth;
   line-height: 1.6;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+#br-main-content img,
+#br-main-content svg,
+#br-eng-content img,
+#br-eng-content svg {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+#br-main-content figure,
+#br-main-content .os-figure,
+#br-main-content .os-table,
+#br-main-content [data-type="media"],
+#br-main-content .image-button-wrapper,
+#br-eng-content figure,
+#br-eng-content .os-figure,
+#br-eng-content .os-table,
+#br-eng-content [data-type="media"],
+#br-eng-content .image-button-wrapper {
+  max-width: 100%;
+}
+
+#br-main-content figure,
+#br-main-content .os-figure,
+#br-eng-content figure,
+#br-eng-content .os-figure {
+  margin-left: 0;
+  margin-right: 0;
+  overflow: hidden;
+}
+
+#br-main-content .image-button-wrapper,
+#br-eng-content .image-button-wrapper {
+  background: transparent;
+  border: 0;
+  display: block;
+  padding: 0;
+  width: 100%;
+}
+
+#br-main-content figcaption,
+#br-main-content .os-caption-container,
+#br-eng-content figcaption,
+#br-eng-content .os-caption-container {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+
+#br-main-content table,
+#br-eng-content table {
+  max-width: 100%;
+  table-layout: auto;
+}
+
+#br-main-content .os-table,
+#br-eng-content .os-table {
+  overflow-x: auto;
+}
+
+#br-main-content pre,
+#br-main-content code,
+#br-eng-content pre,
+#br-eng-content code {
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
 }
 
 .br-site-footer {

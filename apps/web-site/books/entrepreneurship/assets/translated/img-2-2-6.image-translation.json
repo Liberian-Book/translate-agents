@@ -99,13 +99,13 @@
     "textDensity": 0.5072512647554807,
     "averageConfidence": 28,
     "entropy": 6.9697207570316095,
-    "sharpness": 1.790409570064329
+    "sharpness": 1.7904095700643292
   },
   "imageEdit": {
     "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: Road sign with arrows pointing in opposite directions.\nButton label: Click to enlarge image of Road sign with arrows pointing in opposite directions.\nEnglish caption: Figure 2.17 Your entrepreneurial process may involve changing directions many times. (credit: modification of “this way or that” by Robert Couse-Baker/Flickr, CC BY 2.0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
     "outputOcr": [
       {
-        "text": "(ew",
+        "text": "&&= Trai Ee",
         "confidence": 23,
         "bbox": {
           "x": 146,
@@ -115,7 +115,7 @@
         }
       },
       {
-        "text": "Phai 3",
+        "text": "IN | re",
         "confidence": 23,
         "bbox": {
           "x": 146,
@@ -125,7 +125,7 @@
         }
       },
       {
-        "text": "TT — be",
+        "text": "Leese cE",
         "confidence": 23,
         "bbox": {
           "x": 146,
@@ -135,7 +135,7 @@
         }
       },
       {
-        "text": "1 ; - o vd B g \" 4",
+        "text": "ET",
         "confidence": 23,
         "bbox": {
           "x": 146,
@@ -145,7 +145,7 @@
         }
       },
       {
-        "text": "Bs J",
+        "text": "5 1 al",
         "confidence": 23,
         "bbox": {
           "x": 146,
@@ -155,7 +155,7 @@
         }
       },
       {
-        "text": "KB",
+        "text": "< EE Ball] NCE Fs IPEpRS—— =\" Phat",
         "confidence": 23,
         "bbox": {
           "x": 146,
@@ -165,7 +165,7 @@
         }
       },
       {
-        "text": "RB eT om RE Rea Se Pa Cb RN Sea",
+        "text": "DER ¢ om. SEE ON Sl in Ni i Boi Ma Seb Sa",
         "confidence": 23,
         "bbox": {
           "x": 146,
@@ -175,7 +175,7 @@
         }
       },
       {
-        "text": "= a A I Ts ea 0 SA ps 3 Sar tr",
+        "text": "= =. I al (A",
         "confidence": 23,
         "bbox": {
           "x": 146,
@@ -185,7 +185,7 @@
         }
       },
       {
-        "text": "J | op RE PRE SN Sa a YE a",
+        "text": "er — » Tae EE",
         "confidence": 23,
         "bbox": {
           "x": 146,
@@ -195,7 +195,7 @@
         }
       },
       {
-        "text": "Bc V NET SAN Sg ARS EE HN CE",
+        "text": "= - : rr - «amps",
         "confidence": 23,
         "bbox": {
           "x": 146,
@@ -205,7 +205,7 @@
         }
       },
       {
-        "text": "pease LIN ey ave. Wi Re Se",
+        "text": "er” Qi spare . Saar ig",
         "confidence": 23,
         "bbox": {
           "x": 146,
@@ -215,11 +215,251 @@
         }
       },
       {
-        "text": "Sirti SMT Ee Cl 8 ES Cs COS SER Rl Sp SE",
+        "text": "== 8a | —— a - ma SE 4 ¥ :",
         "confidence": 23,
         "bbox": {
           "x": 146,
           "y": 2033,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "Bo 2 RRR",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 2206,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "ged 3 et HE ad",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 2379,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "po Te oe pe a",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 2552,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "= RY ee i 3",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 2725,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "a Pr | ay ¥ ;",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 2898,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "— g a ERC tN ERS BT a 2 pA",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 3071,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "— eT og (Ea Shi er a :",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 3244,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "_o a li ee 7 ; ee i ae ded",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 3417,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "By REE he et lk SR SHR en et aie Rat",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 3590,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "= EA SE A Er Re AE ARNE ed TE Cpl",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 3763,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "ona Ge EE nd TE RTA HG IPL 2",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 3936,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "ir he : Ps CA Ba IPERS",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 4109,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "SATS AE om SR Ll 2 MERA RES TE i TR",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 4282,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "3 EE a SENS i < J SREY SENS CF Re Oh ut Shr FSO 3",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 4455,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "Ea BET ee Re N Va ET Oe Rata ER Rp TIRANA R SL Sa",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 4628,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "Ag HET EREE CRN Ur i 3 TS BSS TSAR, Sax Fai ANT ie ERE pA Ga xemrig",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 4801,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "Ce RR : < = Sue Es ESR A Gilt",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 4974,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "SE Reng WEL : OTTER Cn SNA I",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 5147,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "Ces En Dog weer Bale GEER",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 5320,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "Cina Sree SS | ION A a saa PARTI Bee Und",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 5493,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "ie asa RC A Be OS a had, 7 Sn dra om TEN a SN SRS A BERN",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 5666,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "ea Sa ee FBT a ee",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 5839,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "or i WC Se ZS yy Fa COATES Gi NA CAP & Ce SEA RB Tn BT",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 6012,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "neal SG te eR TY Tr ATES Silas I Ene VS penton os eg",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 6185,
           "w": 1165,
           "h": 86
         }
