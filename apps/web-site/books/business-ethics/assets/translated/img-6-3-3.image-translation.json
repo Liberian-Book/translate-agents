@@ -1,0 +1,17 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-6-3-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/6-3-an-organized-workforce.html",
+  "decision": "error",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "not-classified"
+  },
+  "reason": "fetch failed",
+  "outputImage": null,
+  "ocr": [],
+  "translations": [],
+  "imageContext": "Image alt: The graph is titled “Employee Productivity and Compensation, 1950 to 2010. The y-axis shows percentages from 0 to 250 percent, increasing by 25 percent increments. The x-axis shows years from 1950 to 2010, increasing by 10 year increments. The trend line for productivity starts at 0 percent and increases steadily overall to almost 250 percent. There are slight decreases around 1974 and 1982, and larger increases around 1983 and 2005. The trend line for hourly compensation starts at 0 percent and steadily increases in line with productivity until about 1974 at about 100%. It then fluctuates and decreases to about 80 percent around 1990 to 1995. Then it begins to increase again until reaching about 120 percent.\nButton label: Click to enlarge image of The graph is titled “Employee Productivity and Compensation, 1950 to 2010. The y-axis shows percentages from 0 to 250 percent, increasing by 25 percent increments. The x-axis shows years from 1950 to 2010, increasing by 10 year increments. The trend line for productivity starts at 0 percent and increases steadily overall to almost 250 percent. There are slight decreases around 1974 and 1982, and larger increases around 1983 and 2005. The trend line for hourly compensation starts at 0 percent and steadily increases in line with productivity until about 1974 at about 100%. It then fluctuates and decreases to about 80 percent around 1990 to 1995. Then it begins to increase again until reaching about 120 percent.\nEnglish caption: Figure 6.12 In the last four decades, wages in the United States have not kept up with productivity. According to the Economic Policy Institute, from 1948 to 1973, hourly compensation rose 91 percent, which closely follows productivity gains of 97 percent. However, from 1973 to 2013, hourly compensation rose only 9 percent, whereas productivity rose 74 percent in the same period. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)"
+}

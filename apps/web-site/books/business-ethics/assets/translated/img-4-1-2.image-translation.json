@@ -1,0 +1,17 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-4-1-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/4-1-corporate-law-and-corporate-responsibility.html",
+  "decision": "error",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "not-classified"
+  },
+  "reason": "fetch failed",
+  "outputImage": null,
+  "ocr": [],
+  "translations": [],
+  "imageContext": "Image alt: A diagram showing typical stakeholders. In the center is a circle labeled “Business Corporations”. Around the “Business Corporations” circle are six circles labeled “Government”, “Environment”, “Community”, “Media”, “Customers”, and “Employees”.\nButton label: Click to enlarge image of A diagram showing typical stakeholders. In the center is a circle labeled “Business Corporations”. Around the “Business Corporations” circle are six circles labeled “Government”, “Environment”, “Community”, “Media”, “Customers”, and “Employees”.\nEnglish caption: Figure 4.3 A corporation’s typical stakeholders include (but are not limited to) its customers or clients, the community in which it operates, the natural environment, its employees, the media, and the government. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)"
+}

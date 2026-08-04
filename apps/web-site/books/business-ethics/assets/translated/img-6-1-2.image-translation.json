@@ -1,0 +1,174 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-6-1-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/6-1-the-workplace-environment-and-working-conditions.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-6-1-2.vi.png",
+  "ocr": [
+    {
+      "text": "4 Li. p",
+      "confidence": 35,
+      "bbox": {
+        "x": 80,
+        "y": 105,
+        "w": 640,
+        "h": 70
+      }
+    },
+    {
+      "text": "N i 9 Zz ) i",
+      "confidence": 35,
+      "bbox": {
+        "x": 80,
+        "y": 246,
+        "w": 640,
+        "h": 70
+      }
+    },
+    {
+      "text": "fs 3 1 k",
+      "confidence": 35,
+      "bbox": {
+        "x": 80,
+        "y": 387,
+        "w": 640,
+        "h": 70
+      }
+    },
+    {
+      "text": "Ls E] 4",
+      "confidence": 35,
+      "bbox": {
+        "x": 80,
+        "y": 528,
+        "w": 640,
+        "h": 70
+      }
+    },
+    {
+      "text": "— tN a I. CT \\ FY",
+      "confidence": 35,
+      "bbox": {
+        "x": 80,
+        "y": 669,
+        "w": 640,
+        "h": 70
+      }
+    },
+    {
+      "text": "rN N\\A AEE \\ ga",
+      "confidence": 35,
+      "bbox": {
+        "x": 80,
+        "y": 810,
+        "w": 640,
+        "h": 70
+      }
+    },
+    {
+      "text": "F i AN Eee ACE RE",
+      "confidence": 35,
+      "bbox": {
+        "x": 80,
+        "y": 951,
+        "w": 640,
+        "h": 70
+      }
+    },
+    {
+      "text": "ye CRY ET RI",
+      "confidence": 35,
+      "bbox": {
+        "x": 80,
+        "y": 1092,
+        "w": 640,
+        "h": 70
+      }
+    },
+    {
+      "text": "oN BL",
+      "confidence": 35,
+      "bbox": {
+        "x": 80,
+        "y": 1233,
+        "w": 640,
+        "h": 70
+      }
+    },
+    {
+      "text": "\\ fr J)",
+      "confidence": 35,
+      "bbox": {
+        "x": 80,
+        "y": 1374,
+        "w": 640,
+        "h": 70
+      }
+    },
+    {
+      "text": "er ® 7",
+      "confidence": 35,
+      "bbox": {
+        "x": 80,
+        "y": 1515,
+        "w": 640,
+        "h": 70
+      }
+    },
+    {
+      "text": "2 V Bk/",
+      "confidence": 35,
+      "bbox": {
+        "x": 80,
+        "y": 1656,
+        "w": 640,
+        "h": 70
+      }
+    },
+    {
+      "text": "Ls Bh |",
+      "confidence": 35,
+      "bbox": {
+        "x": 80,
+        "y": 1797,
+        "w": 640,
+        "h": 70
+      }
+    },
+    {
+      "text": "rE | I |",
+      "confidence": 35,
+      "bbox": {
+        "x": 80,
+        "y": 1938,
+        "w": 640,
+        "h": 70
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This image shows a teenage boy who is missing an arm.\nButton label: Click to enlarge image of This image shows a teenage boy who is missing an arm.\nEnglish caption: Figure 6.3 Harry McShane, who celebrated his sixteenth birthday a month or so before this photo was taken by social reformer and photographer Lewis Wickes Hine, lost his left arm as a result of a workplace injury in May 1908 in Cincinnati, Ohio. McShane had already been working in the factory for more than two years. Before federal safety regulations (such as OSHA and FLSA), catastrophic injuries on the job were common, as was the presence of children in the workforce. McShane received no compensation for his injuries. (credit: modification of “Lewis Wickes Hines - Harry McShane 1908” by “Fordmadoxfraud”/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 0.8919226393629124,
+    "averageConfidence": 35,
+    "entropy": 6.837110254411527,
+    "sharpness": 1.3314666635489019
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "image-edit-api-failed-status-400: {\n  \"error\": {\n    \"message\": \"Your request was rejected by the safety system. If you believe this is an error, contact us at ",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

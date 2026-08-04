@@ -1,0 +1,17 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-6-3-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/6-3-an-organized-workforce.html",
+  "decision": "error",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "not-classified"
+  },
+  "reason": "fetch failed",
+  "outputImage": null,
+  "ocr": [],
+  "translations": [],
+  "imageContext": "Image alt: The graph is titled “Percentage of U.S. Workers Who Are Union Members, 1983 to 2017.” The y-axis shows percentages from 10 to 25 percent, increasing by 5 percent increments. The x-axis shows years from 1980 to 2020, increasing by 10 year increments. The trend line starts at 20 percent and declines to just above 10 percent from 1983 to 2017. The decline from 1983 to about 1990 is more rapid and goes down to about 16 percent. The changes after that are more gradual, other than a decrease from about 16 percent to 14 percent from around 1994 to 1999. There is also a slight increase around 2006 to 2008 from about 12 percent to 12.5 percent.\nButton label: Click to enlarge image of The graph is titled “Percentage of U.S. Workers Who Are Union Members, 1983 to 2017.” The y-axis shows percentages from 10 to 25 percent, increasing by 5 percent increments. The x-axis shows years from 1980 to 2020, increasing by 10 year increments. The trend line starts at 20 percent and declines to just above 10 percent from 1983 to 2017. The decline from 1983 to about 1990 is more rapid and goes down to about 16 percent. The changes after that are more gradual, other than a decrease from about 16 percent to 14 percent from around 1994 to 1999. There is also a slight increase around 2006 to 2008 from about 12 percent to 12.5 percent.\nEnglish caption: Figure 6.11 Union membership in the United States has steadily declined since 1980. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)"
+}

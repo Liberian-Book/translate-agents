@@ -1,0 +1,34 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-2-2-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/2-2-ethical-advice-for-nobles-and-civil-servants-in-ancient-china.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "IU) | e | ’ A Er)",
+      "confidence": 38,
+      "bbox": {
+        "x": 80,
+        "y": 72,
+        "w": 640,
+        "h": 48
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A photo of a statue depicting Confucius that is in front of the Confucius Temple.\nButton label: Click to enlarge image of A photo of a statue depicting Confucius that is in front of the Confucius Temple.\nEnglish caption: Figure 2.4 Confucius (Kung Fu-tzu or Master Kung), depicted here in front of the Confucius Temple in Beijing, lived during a turbulent period in China’s history. He sought to end violence and chaos through a return to order, harmony, and reverence, especially within the family. (credit: “KongZi, Confucius Temple with Gold Roof, Main Statue” by “klarititemplateshop.com”/Flickr, CC BY 2.0)",
+  "metrics": {
+    "textDensity": 0.064,
+    "averageConfidence": 38,
+    "entropy": 6.948062895338808,
+    "sharpness": 1.7731432274193535
+  }
+}

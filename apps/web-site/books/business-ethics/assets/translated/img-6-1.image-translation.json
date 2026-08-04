@@ -1,0 +1,134 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-6-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/6-introduction.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-6-1.vi.png",
+  "ocr": [
+    {
+      "text": "g x , -_ 5 pr ee",
+      "confidence": 34,
+      "bbox": {
+        "x": 175,
+        "y": 86,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "= ha ha va ll or",
+      "confidence": 34,
+      "bbox": {
+        "x": 175,
+        "y": 201,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "- g T= 7 La + - 4 a ’",
+      "confidence": 34,
+      "bbox": {
+        "x": 175,
+        "y": 316,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "Ca lhl NS 5",
+      "confidence": 34,
+      "bbox": {
+        "x": 175,
+        "y": 431,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "— 1 =f 2 YZ, §",
+      "confidence": 34,
+      "bbox": {
+        "x": 175,
+        "y": 546,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": ") € “Se TTL 8",
+      "confidence": 34,
+      "bbox": {
+        "x": 175,
+        "y": 661,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "| SEE Sh! Uy",
+      "confidence": 34,
+      "bbox": {
+        "x": 175,
+        "y": 776,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "4 . < = rom , a",
+      "confidence": 34,
+      "bbox": {
+        "x": 175,
+        "y": 891,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "es Come",
+      "confidence": 34,
+      "bbox": {
+        "x": 175,
+        "y": 1006,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "\\ YY o> : @",
+      "confidence": 34,
+      "bbox": {
+        "x": 175,
+        "y": 1121,
+        "w": 1400,
+        "h": 57
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This image shows twenty-three White men and one Black man in suits sitting around a large boardroom-style table.\nButton label: Click to enlarge image of This image shows twenty-three White men and one Black man in suits sitting around a large boardroom-style table.\nEnglish caption: Figure 6.1 Fifty years ago, corporate and regulatory boardrooms were almost exclusively male and White, as this meeting of the Federal Open Market Committee, an executive committee of the Federal Reserve banking system, demonstrates. How much has this changed today? (credit: modification of “FOMC meeting, 1970s” by Harris & Ewing/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 0.6350974930362117,
+    "averageConfidence": 34,
+    "entropy": 6.123234692822734,
+    "sharpness": 2.01032942349058
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

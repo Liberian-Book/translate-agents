@@ -125,7 +125,7 @@
     {
       "source": "financial status once I get",
       "normalizedSource": "financial status once I get",
-      "target": "tình trạng tài chính của tôi khi tôi đến đó?",
+      "target": "tình trạng tài chính của mình khi tôi đến đó?",
       "bbox": {
         "x": 130,
         "y": 371,
@@ -152,14 +152,14 @@
     "textDensity": 0.3820408163265306,
     "averageConfidence": 83,
     "entropy": 3.58235428943226,
-    "sharpness": 4.191927941713746
+    "sharpness": 4.19192794171381
   },
   "imageEdit": {
-    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: During a Trial Run, you may ask: How can I afford to achieve my goal and maintain my financial status once I get there? Potential Obstacles include Limited or little access to appropriate or adequate capital, Limited or few connections to obtain capital, and Limited negotiation experience or knowledge.\nButton label: Click to enlarge image of During a Trial Run, you may ask: How can I afford to achieve my goal and maintain my financial status once I get there? Potential Obstacles include Limited or little access to appropriate or adequate capital, Limited or few connections to obtain capital, and Limited negotiation experience or knowledge.\nEnglish caption: Figure 2.9 During a trial run, you can use a limited market to test your product or service. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Trial Run | ™ => Chạy thử | ™\n- Reflection Questions => Câu hỏi phản ánh\n- + How can I afford to achieve => + Làm thế nào tôi có thể đủ khả năng để đạt được\n- my goal and maintain my => mục tiêu của mình và duy trì\n- financial status once I get => tình trạng tài chính của tôi khi tôi đến đó?\n- there? => ?\nReturn a complete edited PNG image.",
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: During a Trial Run, you may ask: How can I afford to achieve my goal and maintain my financial status once I get there? Potential Obstacles include Limited or little access to appropriate or adequate capital, Limited or few connections to obtain capital, and Limited negotiation experience or knowledge.\nButton label: Click to enlarge image of During a Trial Run, you may ask: How can I afford to achieve my goal and maintain my financial status once I get there? Potential Obstacles include Limited or little access to appropriate or adequate capital, Limited or few connections to obtain capital, and Limited negotiation experience or knowledge.\nEnglish caption: Figure 2.9 During a trial run, you can use a limited market to test your product or service. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Trial Run | ™ => Chạy thử | ™\n- Reflection Questions => Câu hỏi phản ánh\n- + How can I afford to achieve => + Làm thế nào tôi có thể đủ khả năng để đạt được\n- my goal and maintain my => mục tiêu của mình và duy trì\n- financial status once I get => tình trạng tài chính của mình khi tôi đến đó?\n- there? => ?\nReturn a complete edited PNG image.",
     "outputOcr": [
       {
-        "text": "m AL",
-        "confidence": 79,
+        "text": "Chay thr mn ™",
+        "confidence": 75,
         "bbox": {
           "x": 204,
           "y": 92,
@@ -168,8 +168,8 @@
         }
       },
       {
-        "text": "Chay thir n ™",
-        "confidence": 79,
+        "text": "Cau hoi phan anh",
+        "confidence": 75,
         "bbox": {
           "x": 204,
           "y": 215,
@@ -178,8 +178,8 @@
         }
       },
       {
-        "text": "Cau hoi phan anh",
-        "confidence": 79,
+        "text": "e Lam thé nao tdi co thé du kha",
+        "confidence": 75,
         "bbox": {
           "x": 204,
           "y": 338,
@@ -188,8 +188,8 @@
         }
       },
       {
-        "text": "+ Lam thé nao toi c6 thé du",
-        "confidence": 79,
+        "text": "nang dé dat dugc",
+        "confidence": 75,
         "bbox": {
           "x": 204,
           "y": 461,
@@ -198,8 +198,8 @@
         }
       },
       {
-        "text": "kha nang dé dat dugc",
-        "confidence": 79,
+        "text": "muc tiéu cia minh va duy tri",
+        "confidence": 75,
         "bbox": {
           "x": 204,
           "y": 584,
@@ -208,8 +208,8 @@
         }
       },
       {
-        "text": "muc tiéu cia minh va duy tri",
-        "confidence": 79,
+        "text": "tinh trang tai chinh cia minh - i",
+        "confidence": 75,
         "bbox": {
           "x": 204,
           "y": 707,
@@ -218,21 +218,11 @@
         }
       },
       {
-        "text": "tinh trang tai chinh cua toi",
-        "confidence": 79,
+        "text": "khi toi dén dé?",
+        "confidence": 75,
         "bbox": {
           "x": 204,
           "y": 830,
-          "w": 1634,
-          "h": 62
-        }
-      },
-      {
-        "text": "khi toi dén dé?",
-        "confidence": 79,
-        "bbox": {
-          "x": 204,
-          "y": 953,
           "w": 1634,
           "h": 62
         }

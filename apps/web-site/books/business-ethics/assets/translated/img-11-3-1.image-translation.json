@@ -1,0 +1,469 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-11-3-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/11-3-becoming-an-ethical-professional.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "image-edit-leftover-source-english",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Best U.S. Employers as Ranked by Employees",
+      "confidence": 94,
+      "bbox": {
+        "x": 128,
+        "y": 66,
+        "w": 1020,
+        "h": 44
+      }
+    },
+    {
+      "text": "Costco 9.58",
+      "confidence": 94,
+      "bbox": {
+        "x": 128,
+        "y": 154,
+        "w": 1020,
+        "h": 44
+      }
+    },
+    {
+      "text": "Google 9.57",
+      "confidence": 94,
+      "bbox": {
+        "x": 128,
+        "y": 242,
+        "w": 1020,
+        "h": 44
+      }
+    },
+    {
+      "text": "REI 9.53",
+      "confidence": 94,
+      "bbox": {
+        "x": 128,
+        "y": 330,
+        "w": 1020,
+        "h": 44
+      }
+    },
+    {
+      "text": "Memorial Hermann Health System 9.45",
+      "confidence": 94,
+      "bbox": {
+        "x": 128,
+        "y": 418,
+        "w": 1020,
+        "h": 44
+      }
+    },
+    {
+      "text": "United Services Automobile Association 9.42",
+      "confidence": 94,
+      "bbox": {
+        "x": 128,
+        "y": 506,
+        "w": 1020,
+        "h": 44
+      }
+    },
+    {
+      "text": "MD Anderson Cancer Center 9.40",
+      "confidence": 94,
+      "bbox": {
+        "x": 128,
+        "y": 594,
+        "w": 1020,
+        "h": 44
+      }
+    },
+    {
+      "text": "Penn Medicine 9.34",
+      "confidence": 94,
+      "bbox": {
+        "x": 128,
+        "y": 682,
+        "w": 1020,
+        "h": 44
+      }
+    },
+    {
+      "text": "Mayo Clinic 9.32",
+      "confidence": 94,
+      "bbox": {
+        "x": 128,
+        "y": 770,
+        "w": 1020,
+        "h": 44
+      }
+    },
+    {
+      "text": "City of Austin 9.31",
+      "confidence": 94,
+      "bbox": {
+        "x": 128,
+        "y": 858,
+        "w": 1020,
+        "h": 44
+      }
+    },
+    {
+      "text": "Wegmans Food Markets 9.30",
+      "confidence": 94,
+      "bbox": {
+        "x": 128,
+        "y": 946,
+        "w": 1020,
+        "h": 44
+      }
+    },
+    {
+      "text": "Sources: McCarthy, Niall. “America’s Best Large Employers.” Statista. May 10, 2017. Kalogeropoulos, Demitrios. “Why Costco Doesn't Worry",
+      "confidence": 94,
+      "bbox": {
+        "x": 128,
+        "y": 1034,
+        "w": 1020,
+        "h": 44
+      }
+    },
+    {
+      "text": "about Paying Workers $13 an Hour.” The Motley Fool. Apr 29, 2015.",
+      "confidence": 94,
+      "bbox": {
+        "x": 128,
+        "y": 1122,
+        "w": 1020,
+        "h": 44
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Best U.S. Employers as Ranked by Employees",
+      "normalizedSource": "Best U.S. Employers as Ranked by Employees",
+      "target": "Nhà tuyển dụng tốt nhất tại Mỹ theo đánh giá của nhân viên",
+      "bbox": {
+        "x": 128,
+        "y": 66,
+        "w": 1020,
+        "h": 44
+      },
+      "overflow": false
+    },
+    {
+      "source": "Costco 9.58",
+      "normalizedSource": "Costco 9.58",
+      "target": "Costco 9.58",
+      "bbox": {
+        "x": 128,
+        "y": 154,
+        "w": 1020,
+        "h": 44
+      },
+      "overflow": false
+    },
+    {
+      "source": "Google 9.57",
+      "normalizedSource": "Google 9.57",
+      "target": "Google 9.57",
+      "bbox": {
+        "x": 128,
+        "y": 242,
+        "w": 1020,
+        "h": 44
+      },
+      "overflow": false
+    },
+    {
+      "source": "REI 9.53",
+      "normalizedSource": "REI 9.53",
+      "target": "REI 9.53",
+      "bbox": {
+        "x": 128,
+        "y": 330,
+        "w": 1020,
+        "h": 44
+      },
+      "overflow": false
+    },
+    {
+      "source": "Memorial Hermann Health System 9.45",
+      "normalizedSource": "Memorial Hermann Health System 9.45",
+      "target": "Hệ thống Y tế Memorial Hermann 9.45",
+      "bbox": {
+        "x": 128,
+        "y": 418,
+        "w": 1020,
+        "h": 44
+      },
+      "overflow": false
+    },
+    {
+      "source": "United Services Automobile Association 9.42",
+      "normalizedSource": "United Services Automobile Association 9.42",
+      "target": "Hiệp hội Ô tô Dịch vụ Liên bang 9.42",
+      "bbox": {
+        "x": 128,
+        "y": 506,
+        "w": 1020,
+        "h": 44
+      },
+      "overflow": false
+    },
+    {
+      "source": "MD Anderson Cancer Center 9.40",
+      "normalizedSource": "MD Anderson Cancer Center 9.40",
+      "target": "Trung tâm Ung thư MD Anderson 9.40",
+      "bbox": {
+        "x": 128,
+        "y": 594,
+        "w": 1020,
+        "h": 44
+      },
+      "overflow": false
+    },
+    {
+      "source": "Penn Medicine 9.34",
+      "normalizedSource": "Penn Medicine 9.34",
+      "target": "Y học Penn 9.34",
+      "bbox": {
+        "x": 128,
+        "y": 682,
+        "w": 1020,
+        "h": 44
+      },
+      "overflow": false
+    },
+    {
+      "source": "Mayo Clinic 9.32",
+      "normalizedSource": "Mayo Clinic 9.32",
+      "target": "Bệnh viện Mayo 9.32",
+      "bbox": {
+        "x": 128,
+        "y": 770,
+        "w": 1020,
+        "h": 44
+      },
+      "overflow": false
+    },
+    {
+      "source": "City of Austin 9.31",
+      "normalizedSource": "City of Austin 9.31",
+      "target": "Thành phố Austin 9.31",
+      "bbox": {
+        "x": 128,
+        "y": 858,
+        "w": 1020,
+        "h": 44
+      },
+      "overflow": false
+    },
+    {
+      "source": "Wegmans Food Markets 9.30",
+      "normalizedSource": "Wegmans Food Markets 9.30",
+      "target": "Chợ thực phẩm Wegmans 9.30",
+      "bbox": {
+        "x": 128,
+        "y": 946,
+        "w": 1020,
+        "h": 44
+      },
+      "overflow": false
+    },
+    {
+      "source": "Sources: McCarthy, Niall. “America’s Best Large Employers.” Statista. May 10, 2017. Kalogeropoulos, Demitrios. “Why Costco Doesn't Worry",
+      "normalizedSource": "Sources: McCarthy, Niall. “America’s Best Large Employers.” Statista. May 10, 2017. Kalogeropoulos, Demitrios. “Why Costco Doesn't Worry",
+      "target": "Nguồn: McCarthy, Niall. “Nhà tuyển dụng lớn nhất nước Mỹ.” Statista. Ngày 10 tháng 5 năm 2017. Kalogeropoulos, Demitrios. “Tại sao Costco không lo lắng",
+      "bbox": {
+        "x": 128,
+        "y": 1034,
+        "w": 1020,
+        "h": 44
+      },
+      "overflow": false
+    },
+    {
+      "source": "about Paying Workers $13 an Hour.” The Motley Fool. Apr 29, 2015.",
+      "normalizedSource": "about Paying Workers $13 an Hour.” The Motley Fool. Apr 29, 2015.",
+      "target": "về việc trả lương cho công nhân 13 đô la một giờ.” The Motley Fool. Ngày 29 tháng 4 năm 2015.",
+      "bbox": {
+        "x": 128,
+        "y": 1122,
+        "w": 1020,
+        "h": 44
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: This bar chart is titled “Best U.S. Employers as Ranked by Employees.” The left side lists employers and the bar extends to the right, with a ranking for each company out of 10. From the best ranked company down, the chart shows Costco with 9.58, Google with 9.57, REI with 9.53, Memorial Hermann Health System with 9.45, United States Automobile Association with 9.42, MD Anderson Cancer Center with 9.40, Penn Medicine with 9.34, Mayo Clinic with 9.34, City of Austin with 9.31, and Wegmans Food Markets with 9.30.\nButton label: Click to enlarge image of This bar chart is titled “Best U.S. Employers as Ranked by Employees.” The left side lists employers and the bar extends to the right, with a ranking for each company out of 10. From the best ranked company down, the chart shows Costco with 9.58, Google with 9.57, REI with 9.53, Memorial Hermann Health System with 9.45, United States Automobile Association with 9.42, MD Anderson Cancer Center with 9.40, Penn Medicine with 9.34, Mayo Clinic with 9.34, City of Austin with 9.31, and Wegmans Food Markets with 9.30.\nEnglish caption: Figure 11.5 With insurance coverage for part-time workers, higher-than-industry-average pay, and an overall employee satisfaction rating of 9.58 of a possible 10, Costco is often rated the best large employer to work for by Forbes and Statista. It is not just a generous employer; it is efficient, too, operating on a profit margin that meets the norm in the retail grocery business. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.8304900181488203,
+    "averageConfidence": 94,
+    "entropy": 2.16914871319932,
+    "sharpness": 5.402692244214974
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: This bar chart is titled “Best U.S. Employers as Ranked by Employees.” The left side lists employers and the bar extends to the right, with a ranking for each company out of 10. From the best ranked company down, the chart shows Costco with 9.58, Google with 9.57, REI with 9.53, Memorial Hermann Health System with 9.45, United States Automobile Association with 9.42, MD Anderson Cancer Center with 9.40, Penn Medicine with 9.34, Mayo Clinic with 9.34, City of Austin with 9.31, and Wegmans Food Markets with 9.30.\nButton label: Click to enlarge image of This bar chart is titled “Best U.S. Employers as Ranked by Employees.” The left side lists employers and the bar extends to the right, with a ranking for each company out of 10. From the best ranked company down, the chart shows Costco with 9.58, Google with 9.57, REI with 9.53, Memorial Hermann Health System with 9.45, United States Automobile Association with 9.42, MD Anderson Cancer Center with 9.40, Penn Medicine with 9.34, Mayo Clinic with 9.34, City of Austin with 9.31, and Wegmans Food Markets with 9.30.\nEnglish caption: Figure 11.5 With insurance coverage for part-time workers, higher-than-industry-average pay, and an overall employee satisfaction rating of 9.58 of a possible 10, Costco is often rated the best large employer to work for by Forbes and Statista. It is not just a generous employer; it is efficient, too, operating on a profit margin that meets the norm in the retail grocery business. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Best U.S. Employers as Ranked by Employees => Nhà tuyển dụng tốt nhất tại Mỹ theo đánh giá của nhân viên\n- Costco 9.58 => Costco 9.58\n- Google 9.57 => Google 9.57\n- REI 9.53 => REI 9.53\n- Memorial Hermann Health System 9.45 => Hệ thống Y tế Memorial Hermann 9.45\n- United Services Automobile Association 9.42 => Hiệp hội Ô tô Dịch vụ Liên bang 9.42\n- MD Anderson Cancer Center 9.40 => Trung tâm Ung thư MD Anderson 9.40\n- Penn Medicine 9.34 => Y học Penn 9.34\n- Mayo Clinic 9.32 => Bệnh viện Mayo 9.32\n- City of Austin 9.31 => Thành phố Austin 9.31\n- Wegmans Food Markets 9.30 => Chợ thực phẩm Wegmans 9.30\n- Sources: McCarthy, Niall. “America’s Best Large Employers.” Statista. May 10, 2017. Kalogeropoulos, Demitrios. “Why Costco Doesn't Worry => Nguồn: McCarthy, Niall. “Nhà tuyển dụng lớn nhất nước Mỹ.” Statista. Ngày 10 tháng 5 năm 2017. Kalogeropoulos, Demitrios. “Tại sao Costco không lo lắng\n- about Paying Workers $13 an Hour.” The Motley Fool. Apr 29, 2015. => về việc trả lương cho công nhân 13 đô la một giờ.” The Motley Fool. Ngày 29 tháng 4 năm 2015.\nPrevious output was rejected because these English source words were still visible: costco, google, memorial, hermann, anderson, penn, mayo, austin, wegmans, mccarthy, niall, statista, kalogeropoulos, demitrios, motley, fool. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Nha tuyén dung tét nhat tai My theo danh gia cia nhan vién",
+        "confidence": 85,
+        "bbox": {
+          "x": 191,
+          "y": 99,
+          "w": 1528,
+          "h": 66
+        }
+      },
+      {
+        "text": "Costco 9.58",
+        "confidence": 85,
+        "bbox": {
+          "x": 191,
+          "y": 231,
+          "w": 1528,
+          "h": 66
+        }
+      },
+      {
+        "text": "Google 9.57",
+        "confidence": 85,
+        "bbox": {
+          "x": 191,
+          "y": 363,
+          "w": 1528,
+          "h": 66
+        }
+      },
+      {
+        "text": "REI 9.53",
+        "confidence": 85,
+        "bbox": {
+          "x": 191,
+          "y": 495,
+          "w": 1528,
+          "h": 66
+        }
+      },
+      {
+        "text": "Hé théng Y t&€ Memorial Hermann 9.45",
+        "confidence": 85,
+        "bbox": {
+          "x": 191,
+          "y": 627,
+          "w": 1528,
+          "h": 66
+        }
+      },
+      {
+        "text": "Hiép hoi O to Dich vu Lién bang 9.42",
+        "confidence": 85,
+        "bbox": {
+          "x": 191,
+          "y": 759,
+          "w": 1528,
+          "h": 66
+        }
+      },
+      {
+        "text": "Trung tdm Ung thu MD Anderson 9.40",
+        "confidence": 85,
+        "bbox": {
+          "x": 191,
+          "y": 891,
+          "w": 1528,
+          "h": 66
+        }
+      },
+      {
+        "text": "Y hoc Penn 9.34",
+        "confidence": 85,
+        "bbox": {
+          "x": 191,
+          "y": 1023,
+          "w": 1528,
+          "h": 66
+        }
+      },
+      {
+        "text": "Bénh vién Mayo 9.32",
+        "confidence": 85,
+        "bbox": {
+          "x": 191,
+          "y": 1155,
+          "w": 1528,
+          "h": 66
+        }
+      },
+      {
+        "text": "Thanh phd Austin 9.31",
+        "confidence": 85,
+        "bbox": {
+          "x": 191,
+          "y": 1287,
+          "w": 1528,
+          "h": 66
+        }
+      },
+      {
+        "text": "Chg thuc pham Wegmans 9.30",
+        "confidence": 85,
+        "bbox": {
+          "x": 191,
+          "y": 1419,
+          "w": 1528,
+          "h": 66
+        }
+      },
+      {
+        "text": "Nguén: McCarthy, Niall. “Nha tuyén dung [6n nhat nude My.” Statista. Ngay 10 thing 5 nam 2017. Kalogeropoulos, Demitrios. “Tai sao Costco khong lo ling",
+        "confidence": 85,
+        "bbox": {
+          "x": 191,
+          "y": 1551,
+          "w": 1528,
+          "h": 66
+        }
+      },
+      {
+        "text": "vé viéc tra luong cho cong nhan 13 d6 la mat gid.” The Motley Fool. Ngay 29 thang 4 nam 2015.",
+        "confidence": 85,
+        "bbox": {
+          "x": 191,
+          "y": 1683,
+          "w": 1528,
+          "h": 66
+        }
+      }
+    ],
+    "validation": {
+      "ok": false,
+      "reason": "image-edit-leftover-source-english",
+      "leftoverSourceWords": [
+        "costco",
+        "google",
+        "memorial",
+        "hermann",
+        "anderson",
+        "penn",
+        "mayo",
+        "austin",
+        "wegmans",
+        "mccarthy",
+        "niall",
+        "statista",
+        "kalogeropoulos",
+        "demitrios",
+        "motley",
+        "fool"
+      ]
+    },
+    "validationAttempt": 3
+  }
+}

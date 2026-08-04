@@ -1,0 +1,17 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-3-3-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/3-3-ethical-decision-making-and-prioritizing-stakeholders.html",
+  "decision": "error",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "not-classified"
+  },
+  "reason": "fetch failed",
+  "outputImage": null,
+  "ocr": [],
+  "translations": [],
+  "imageContext": "Image alt: This is a matrix chart showing the relationship between stakeholder power and stakeholder interest. The y-axis is labeled “Stakeholder power” and the x-axis is labeled “Stakeholder interest.” The graph area is divided into four even boxes, showing two columns and two rows. On top of two columns from left to right are the labels “Low interest” and “High interest” and to the right of the two rows from top to bottom are the labels “High power” and “Low power.” The box where low interest and high power intersect says “Keep satisfied, meet needs.” The box where high interest and high power intersect says “Keep engaged, manage closely.” The box where low interest and low power intersect says “Monitor lightly.” The box where high interest and low power interest says “Keep informed, respect interests.”\nButton label: Click to enlarge image of This is a matrix chart showing the relationship between stakeholder power and stakeholder interest. The y-axis is labeled “Stakeholder power” and the x-axis is labeled “Stakeholder interest.” The graph area is divided into four even boxes, showing two columns and two rows. On top of two columns from left to right are the labels “Low interest” and “High interest” and to the right of the two rows from top to bottom are the labels “High power” and “Low power.” The box where low interest and high power intersect says “Keep satisfied, meet needs.” The box where high interest and high power intersect says “Keep engaged, manage closely.” The box where low interest and low power intersect says “Monitor lightly.” The box where high interest and low power interest says “Keep informed, respect interests.”\nEnglish caption: Figure 3.5 Stakeholder priority can be expressed as a relationship between the stakeholder group’s influence or power and the interest the stakeholder takes in the relationship. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)"
+}

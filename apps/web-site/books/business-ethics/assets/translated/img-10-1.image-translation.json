@@ -1,0 +1,148 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-10-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/10-introduction.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-10-1.vi.png",
+  "ocr": [
+    {
+      "text": "ET",
+      "confidence": 27,
+      "bbox": {
+        "x": 175,
+        "y": 86,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "p—CE",
+      "confidence": 27,
+      "bbox": {
+        "x": 175,
+        "y": 201,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "am Te",
+      "confidence": 27,
+      "bbox": {
+        "x": 175,
+        "y": 316,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "Res",
+      "confidence": 27,
+      "bbox": {
+        "x": 175,
+        "y": 431,
+        "w": 1400,
+        "h": 57
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This image shows a human hand on the left and a robot hand on the right. Their index fingers are touching in the middle.\nButton label: Click to enlarge image of This image shows a human hand on the left and a robot hand on the right. Their index fingers are touching in the middle.\nEnglish caption: Figure 10.1 Ethical managers will understand new business models and the new economies being driven by technological advances and the rise of robotics and artificial intelligence in the workplace. (credit: modification of “hand robot human divine spark” by “geralt”/Pixabay, CC0)",
+  "metrics": {
+    "textDensity": 0.2540389972144847,
+    "averageConfidence": 27,
+    "entropy": 6.231277521288575,
+    "sharpness": 1.7758760648824836
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: This image shows a human hand on the left and a robot hand on the right. Their index fingers are touching in the middle.\nButton label: Click to enlarge image of This image shows a human hand on the left and a robot hand on the right. Their index fingers are touching in the middle.\nEnglish caption: Figure 10.1 Ethical managers will understand new business models and the new economies being driven by technological advances and the rise of robotics and artificial intelligence in the workplace. (credit: modification of “hand robot human divine spark” by “geralt”/Pixabay, CC0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Sm ha)",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 96,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "—— ee",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 224,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "pe i ———— \\",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 352,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "em ———__",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 480,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "- GE",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 608,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "a a A a Co",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 736,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "\\ Yi Lr",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 864,
+          "w": 1566,
+          "h": 64
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

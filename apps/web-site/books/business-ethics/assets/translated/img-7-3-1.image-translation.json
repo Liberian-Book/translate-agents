@@ -1,0 +1,74 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-7-3-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/7-3-contributing-to-a-positive-work-atmosphere.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-7-3-1.vi.png",
+  "ocr": [
+    {
+      "text": "= pARY.: g EY",
+      "confidence": 41,
+      "bbox": {
+        "x": 80,
+        "y": 77,
+        "w": 640,
+        "h": 52
+      }
+    },
+    {
+      "text": "== | 37 | v7) 53, Yo",
+      "confidence": 41,
+      "bbox": {
+        "x": 80,
+        "y": 180,
+        "w": 640,
+        "h": 52
+      }
+    },
+    {
+      "text": "7) hot) - -",
+      "confidence": 41,
+      "bbox": {
+        "x": 80,
+        "y": 283,
+        "w": 640,
+        "h": 52
+      }
+    },
+    {
+      "text": "ESE",
+      "confidence": 41,
+      "bbox": {
+        "x": 80,
+        "y": 386,
+        "w": 640,
+        "h": 52
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: The image shows lego figure heads stacked in five columns, with four heads in each column. The heads show a variety of expressions.\nButton label: Click to enlarge image of The image shows lego figure heads stacked in five columns, with four heads in each column. The heads show a variety of expressions.\nEnglish caption: Figure 7.6 Which type of personality are you? (credit: Jackson Ceszyk/Flickr, CC BY 4.0)",
+  "metrics": {
+    "textDensity": 0.25838509316770186,
+    "averageConfidence": 41,
+    "entropy": 7.047044879960595,
+    "sharpness": 1.8534429720139203
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

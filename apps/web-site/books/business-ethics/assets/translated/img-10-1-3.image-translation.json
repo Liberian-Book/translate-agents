@@ -1,0 +1,44 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-10-1-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/10-1-more-telecommuting-or-less.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "nr",
+      "confidence": 46,
+      "bbox": {
+        "x": 80,
+        "y": 64,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "Ee y",
+      "confidence": 46,
+      "bbox": {
+        "x": 80,
+        "y": 149,
+        "w": 640,
+        "h": 43
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This photo shows a smartphone set up on a tripod for a video conference.\nButton label: Click to enlarge image of This photo shows a smartphone set up on a tripod for a video conference.\nEnglish caption: Figure 10.4 Telecommuting is more likely to succeed when remote employees are provided with the right technology, are empowered by inclusion in the corporate culture, and interact with colleagues in a manner that clearly expresses their expectations, values, and trust. (credit: modification of “daily bw: hanging out with my coworkers” by Mike McCune/Flickr, CC BY 2.0)",
+  "metrics": {
+    "textDensity": 0.12883895131086143,
+    "averageConfidence": 46,
+    "entropy": 6.666350175401021,
+    "sharpness": 2.0162727030215457
+  }
+}

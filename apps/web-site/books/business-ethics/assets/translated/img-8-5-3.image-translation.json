@@ -1,0 +1,84 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-8-5-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/8-5-animal-rights-and-the-implications-for-business.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-8-5-3.vi.png",
+  "ocr": [
+    {
+      "text": "N Viele BSN |",
+      "confidence": 37,
+      "bbox": {
+        "x": 80,
+        "y": 72,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "ME if 2A : £0 { ) os :",
+      "confidence": 37,
+      "bbox": {
+        "x": 80,
+        "y": 168,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "No” i — 2",
+      "confidence": 37,
+      "bbox": {
+        "x": 80,
+        "y": 264,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "Ana 4A j 0",
+      "confidence": 37,
+      "bbox": {
+        "x": 80,
+        "y": 360,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "& => Av |",
+      "confidence": 37,
+      "bbox": {
+        "x": 80,
+        "y": 456,
+        "w": 640,
+        "h": 48
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This image shows a person holding a dog and talking to another person.\nButton label: Click to enlarge image of This image shows a person holding a dog and talking to another person.\nEnglish caption: Figure 8.13 Through local events such as this one in Redondo Beach, California, the Beagle Freedom Project aims to raise awareness of the conditions prevalent for many dogs used in laboratory experimentation. (credit: modification of “JennyOetzell_46150” by “TEDxRB”/Flickr, CC BY 2.0)",
+  "metrics": {
+    "textDensity": 0.32,
+    "averageConfidence": 37,
+    "entropy": 7.527356243226677,
+    "sharpness": 2.964506729606846
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

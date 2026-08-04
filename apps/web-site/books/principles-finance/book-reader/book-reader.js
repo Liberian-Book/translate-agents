@@ -346,13 +346,7 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     .catch(err => console.error('Error fetching glossary:', err));
 
-  // 3. Highlight Terms by default
-  const termElements = mainContent.querySelectorAll('[data-type="term"]');
-  termElements.forEach(el => {
-    el.classList.add('br-highlight-term');
-  });
-
-  // 4. State for EN/VN mode
+  // 3. State for EN/VN mode
   let isEnMode = false;
   const swapBtn = document.getElementById('br-swap-btn');
   const readingTitle = document.getElementById('br-reading-title');

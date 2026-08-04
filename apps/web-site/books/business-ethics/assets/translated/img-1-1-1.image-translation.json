@@ -1,0 +1,189 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-1-1-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/1-1-being-a-professional-of-integrity.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-1-1-1.vi.png",
+  "ocr": [
+    {
+      "text": "Com ors C ters",
+      "confidence": 59,
+      "bbox": {
+        "x": 76,
+        "y": 87,
+        "w": 607,
+        "h": 58
+      }
+    },
+    {
+      "text": "Com ity NL)",
+      "confidence": 59,
+      "bbox": {
+        "x": 76,
+        "y": 203,
+        "w": 607,
+        "h": 58
+      }
+    },
+    {
+      "text": "Endl 1 re) L) 4s",
+      "confidence": 59,
+      "bbox": {
+        "x": 76,
+        "y": 319,
+        "w": 607,
+        "h": 58
+      }
+    },
+    {
+      "text": "Gove nent [) R ors",
+      "confidence": 59,
+      "bbox": {
+        "x": 76,
+        "y": 435,
+        "w": 607,
+        "h": 58
+      }
+    },
+    {
+      "text": "/ En) ees",
+      "confidence": 59,
+      "bbox": {
+        "x": 76,
+        "y": 551,
+        "w": 607,
+        "h": 58
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Com ors C ters",
+      "normalizedSource": "Com ors C ters",
+      "target": "Điểm giao nhau",
+      "bbox": {
+        "x": 76,
+        "y": 87,
+        "w": 607,
+        "h": 58
+      },
+      "overflow": false
+    },
+    {
+      "source": "Com ity NL)",
+      "normalizedSource": "Com ity NL)",
+      "target": "Thành phố NL",
+      "bbox": {
+        "x": 76,
+        "y": 203,
+        "w": 607,
+        "h": 58
+      },
+      "overflow": false
+    },
+    {
+      "source": "Endl 1 re) L) 4s",
+      "normalizedSource": "Endl 1 re) L) 4s",
+      "target": "Kết thúc 1 re) L) 4s",
+      "bbox": {
+        "x": 76,
+        "y": 319,
+        "w": 607,
+        "h": 58
+      },
+      "overflow": false
+    },
+    {
+      "source": "Gove nent [) R ors",
+      "normalizedSource": "Gove nent [) R ors",
+      "target": "Chính phủ và Nguồn lực",
+      "bbox": {
+        "x": 76,
+        "y": 435,
+        "w": 607,
+        "h": 58
+      },
+      "overflow": false
+    },
+    {
+      "source": "/ En) ees",
+      "normalizedSource": "/ En) ees",
+      "target": "/ Vi) ees",
+      "bbox": {
+        "x": 76,
+        "y": 551,
+        "w": 607,
+        "h": 58
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: A diagram with “Company” labeled in the center, and “Clients”, “Customers”, “Suppliers”, “Investors”, “Retailers”, “Employees”, “Media”, “Government”, “Environment”, “Community”, and “Competitors” labeled clockwise around the “Company” label.\nButton label: Click to enlarge image of A diagram with “Company” labeled in the center, and “Clients”, “Customers”, “Suppliers”, “Investors”, “Retailers”, “Employees”, “Media”, “Government”, “Environment”, “Community”, and “Competitors” labeled clockwise around the “Company” label.\nEnglish caption: Figure 1.2 Stakeholders are the individuals and entities affected by a business’s decisions, including clients, customers, suppliers, investors, retailers, employees, the media, the government, members of the surrounding community, the environment, and even competitors. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.32033644152308577,
+    "averageConfidence": 59,
+    "entropy": 2.347595169332635,
+    "sharpness": 3.1613562028369135
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A diagram with “Company” labeled in the center, and “Clients”, “Customers”, “Suppliers”, “Investors”, “Retailers”, “Employees”, “Media”, “Government”, “Environment”, “Community”, and “Competitors” labeled clockwise around the “Company” label.\nButton label: Click to enlarge image of A diagram with “Company” labeled in the center, and “Clients”, “Customers”, “Suppliers”, “Investors”, “Retailers”, “Employees”, “Media”, “Government”, “Environment”, “Community”, and “Competitors” labeled clockwise around the “Company” label.\nEnglish caption: Figure 1.2 Stakeholders are the individuals and entities affected by a business’s decisions, including clients, customers, suppliers, investors, retailers, employees, the media, the government, members of the surrounding community, the environment, and even competitors. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Com ors C ters => Điểm giao nhau\n- Com ity NL) => Thành phố NL\n- Endl 1 re) L) 4s => Kết thúc 1 re) L) 4s\n- Gove nent [) R ors => Chính phủ và Nguồn lực\n- / En) ees => / Vi) ees\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "D L Kha ang",
+        "confidence": 46,
+        "bbox": {
+          "x": 129,
+          "y": 147,
+          "w": 1028,
+          "h": 98
+        }
+      },
+      {
+        "text": "Con o N ap",
+        "confidence": 46,
+        "bbox": {
+          "x": 129,
+          "y": 343,
+          "w": 1028,
+          "h": 98
+        }
+      },
+      {
+        "text": "ine",
+        "confidence": 46,
+        "bbox": {
+          "x": 129,
+          "y": 539,
+          "w": 1028,
+          "h": 98
+        }
+      },
+      {
+        "text": "id :",
+        "confidence": 46,
+        "bbox": {
+          "x": 129,
+          "y": 735,
+          "w": 1028,
+          "h": 98
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

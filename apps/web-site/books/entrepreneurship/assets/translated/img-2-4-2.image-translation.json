@@ -152,58 +152,58 @@
     "textDensity": 0.3864935064935065,
     "averageConfidence": 79,
     "entropy": 3.566728619414789,
-    "sharpness": 3.797446224294039
+    "sharpness": 3.7974462242940334
   },
   "imageEdit": {
     "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: The lean strategy canvas includes problems, solutions, value propositions, customer relationships, customer segments, metrics, channels, cost structure, and revenue streams.\nButton label: Click to enlarge image of The lean strategy canvas includes problems, solutions, value propositions, customer relationships, customer segments, metrics, channels, cost structure, and revenue streams.\nEnglish caption: Figure 2.23 Here is an example of Lean Strategy Canvas, a framework to assist in developing the business model, and competitive advantage and related areas aligning the product and market for the venture. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Customer => Khách hàng\n- Relationships => Mối quan hệ\n- Value Customer => Giá trị khách hàng\n- Propositions Segments => Đề xuất phân khúc\n- Channels => Kênh\n- Cos EHS => Cos EHS\nReturn a complete edited PNG image.",
     "outputOcr": [
       {
-        "text": "Co",
-        "confidence": 81,
+        "text": "Moi quan hé",
+        "confidence": 76,
         "bbox": {
           "x": 217,
           "y": 87,
-          "w": 1738,
+          "w": 1736,
           "h": 58
         }
       },
       {
-        "text": "khach hang",
-        "confidence": 81,
+        "text": "- khach hang",
+        "confidence": 76,
         "bbox": {
           "x": 217,
           "y": 203,
-          "w": 1738,
+          "w": 1736,
           "h": 58
         }
       },
       {
-        "text": "Dé xuat Phan khuc",
-        "confidence": 81,
+        "text": "bé xuat Phan khtc",
+        "confidence": 76,
         "bbox": {
           "x": 217,
           "y": 319,
-          "w": 1738,
+          "w": 1736,
           "h": 58
         }
       },
       {
         "text": "gia tri khach hang",
-        "confidence": 81,
+        "confidence": 76,
         "bbox": {
           "x": 217,
           "y": 435,
-          "w": 1738,
+          "w": 1736,
           "h": 58
         }
       },
       {
         "text": "Kénh",
-        "confidence": 81,
+        "confidence": 76,
         "bbox": {
           "x": 217,
           "y": 551,
-          "w": 1738,
+          "w": 1736,
           "h": 58
         }
       }

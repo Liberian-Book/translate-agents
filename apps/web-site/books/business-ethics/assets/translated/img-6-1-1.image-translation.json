@@ -1,0 +1,231 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-6-1-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/6-1-the-workplace-environment-and-working-conditions.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-6-1-1.vi.png",
+  "ocr": [
+    {
+      "text": "+» 100 or more total employees",
+      "confidence": 90,
+      "bbox": {
+        "x": 80,
+        "y": 50,
+        "w": 640,
+        "h": 33
+      }
+    },
+    {
+      "text": "+ 50 or more employees laid off",
+      "confidence": 90,
+      "bbox": {
+        "x": 80,
+        "y": 116,
+        "w": 640,
+        "h": 33
+      }
+    },
+    {
+      "text": "+» Does not include",
+      "confidence": 90,
+      "bbox": {
+        "x": 80,
+        "y": 182,
+        "w": 640,
+        "h": 33
+      }
+    },
+    {
+      "text": "part-time workers (<20 hours)",
+      "confidence": 90,
+      "bbox": {
+        "x": 80,
+        "y": 248,
+        "w": 640,
+        "h": 33
+      }
+    },
+    {
+      "text": "+» Does not include",
+      "confidence": 90,
+      "bbox": {
+        "x": 80,
+        "y": 314,
+        "w": 640,
+        "h": 33
+      }
+    },
+    {
+      "text": "new workers (<6 months)",
+      "confidence": 90,
+      "bbox": {
+        "x": 80,
+        "y": 380,
+        "w": 640,
+        "h": 33
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "+» 100 or more total employees",
+      "normalizedSource": "+» 100 or more total employees",
+      "target": "+» 100 hoặc nhiều hơn tổng số nhân viên",
+      "bbox": {
+        "x": 80,
+        "y": 50,
+        "w": 640,
+        "h": 33
+      },
+      "overflow": false
+    },
+    {
+      "source": "+ 50 or more employees laid off",
+      "normalizedSource": "+ 50 or more employees laid off",
+      "target": "+ 50 hoặc nhiều hơn nhân viên bị sa thải",
+      "bbox": {
+        "x": 80,
+        "y": 116,
+        "w": 640,
+        "h": 33
+      },
+      "overflow": false
+    },
+    {
+      "source": "+» Does not include",
+      "normalizedSource": "+» Does not include",
+      "target": "+» Không bao gồm",
+      "bbox": {
+        "x": 80,
+        "y": 182,
+        "w": 640,
+        "h": 33
+      },
+      "overflow": false
+    },
+    {
+      "source": "part-time workers (<20 hours)",
+      "normalizedSource": "part-time workers (<20 hours)",
+      "target": "nhân viên bán thời gian (<20 giờ)",
+      "bbox": {
+        "x": 80,
+        "y": 248,
+        "w": 640,
+        "h": 33
+      },
+      "overflow": false
+    },
+    {
+      "source": "+» Does not include",
+      "normalizedSource": "+» Does not include",
+      "target": "+» Không bao gồm",
+      "bbox": {
+        "x": 80,
+        "y": 314,
+        "w": 640,
+        "h": 33
+      },
+      "overflow": false
+    },
+    {
+      "source": "new workers (<6 months)",
+      "normalizedSource": "new workers (<6 months)",
+      "target": "nhân viên mới (<6 tháng)",
+      "bbox": {
+        "x": 80,
+        "y": 380,
+        "w": 640,
+        "h": 33
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: This figure shows four boxes total, with two on the left and two on the right. The boxes on the left each have an arrow that points toward the corresponding box on the right. The first box on the left says “Notice required (60 days)” and its corresponding box on the right has two bullets that say “100 or more total employees” and “50 or more employees laid off.” The second box on the left says “Exceptions” and its corresponding box on the right has two bullets that say “Does not include part-time workers (less than 20 hours)” and “Does not include new workers (less than six months).”\nButton label: Click to enlarge image of This figure shows four boxes total, with two on the left and two on the right. The boxes on the left each have an arrow that points toward the corresponding box on the right. The first box on the left says “Notice required (60 days)” and its corresponding box on the right has two bullets that say “100 or more total employees” and “50 or more employees laid off.” The second box on the left says “Exceptions” and its corresponding box on the right has two bullets that say “Does not include part-time workers (less than 20 hours)” and “Does not include new workers (less than six months).”\nEnglish caption: Figure 6.2 The WARN law mandates advance notice of mass layoffs to workers so that they can adequately prepare for such an event. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.3816867469879518,
+    "averageConfidence": 90,
+    "entropy": 3.219685763880989,
+    "sharpness": 3.971549728450674
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: This figure shows four boxes total, with two on the left and two on the right. The boxes on the left each have an arrow that points toward the corresponding box on the right. The first box on the left says “Notice required (60 days)” and its corresponding box on the right has two bullets that say “100 or more total employees” and “50 or more employees laid off.” The second box on the left says “Exceptions” and its corresponding box on the right has two bullets that say “Does not include part-time workers (less than 20 hours)” and “Does not include new workers (less than six months).”\nButton label: Click to enlarge image of This figure shows four boxes total, with two on the left and two on the right. The boxes on the left each have an arrow that points toward the corresponding box on the right. The first box on the left says “Notice required (60 days)” and its corresponding box on the right has two bullets that say “100 or more total employees” and “50 or more employees laid off.” The second box on the left says “Exceptions” and its corresponding box on the right has two bullets that say “Does not include part-time workers (less than 20 hours)” and “Does not include new workers (less than six months).”\nEnglish caption: Figure 6.2 The WARN law mandates advance notice of mass layoffs to workers so that they can adequately prepare for such an event. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- +» 100 or more total employees => +» 100 hoặc nhiều hơn tổng số nhân viên\n- + 50 or more employees laid off => + 50 hoặc nhiều hơn nhân viên bị sa thải\n- +» Does not include => +» Không bao gồm\n- part-time workers (<20 hours) => nhân viên bán thời gian (<20 giờ)\n- +» Does not include => +» Không bao gồm\n- new workers (<6 months) => nhân viên mới (<6 tháng)\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "+ 100 hoc nhiéu hon téng s6 nhan vién",
+        "confidence": 76,
+        "bbox": {
+          "x": 174,
+          "y": 108,
+          "w": 1394,
+          "h": 72
+        }
+      },
+      {
+        "text": "* 50 hodc nhiéu hon nhan vién bi sa thai",
+        "confidence": 76,
+        "bbox": {
+          "x": 174,
+          "y": 252,
+          "w": 1394,
+          "h": 72
+        }
+      },
+      {
+        "text": "* Khong bao gom",
+        "confidence": 76,
+        "bbox": {
+          "x": 174,
+          "y": 396,
+          "w": 1394,
+          "h": 72
+        }
+      },
+      {
+        "text": "nhan vién ban thai gian (<20 gio)",
+        "confidence": 76,
+        "bbox": {
+          "x": 174,
+          "y": 540,
+          "w": 1394,
+          "h": 72
+        }
+      },
+      {
+        "text": "* Khong bao gom",
+        "confidence": 76,
+        "bbox": {
+          "x": 174,
+          "y": 684,
+          "w": 1394,
+          "h": 72
+        }
+      },
+      {
+        "text": "nhan vién mdi (<6 thang)",
+        "confidence": 76,
+        "bbox": {
+          "x": 174,
+          "y": 828,
+          "w": 1394,
+          "h": 72
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

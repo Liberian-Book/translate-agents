@@ -1,0 +1,44 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-9-3-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/9-3-the-insurance-industry.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "NATIONAL FLOOD",
+      "confidence": 96,
+      "bbox": {
+        "x": 50,
+        "y": 51,
+        "w": 400,
+        "h": 34
+      }
+    },
+    {
+      "text": "INSURANCE PROGRAM",
+      "confidence": 96,
+      "bbox": {
+        "x": 50,
+        "y": 119,
+        "w": 400,
+        "h": 34
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This graphic shows the logo for the National Flood Insurance Program. It has the outline of three houses with wavy lines below them to represent water. Below the lines it says National Flood Insurance Program.\nButton label: Click to enlarge image of This graphic shows the logo for the National Flood Insurance Program. It has the outline of three houses with wavy lines below them to represent water. Below the lines it says National Flood Insurance Program.\nEnglish caption: Figure 9.4 The National Flood Insurance Program in the United States is part of the Federal Emergency Management Agency (FEMA). (credit: modification of “National Flood Insurance Program 50th Anniversary Logo – white background” by FEMA/fema.gov, Public Domain)",
+  "metrics": {
+    "textDensity": 0.12860520094562647,
+    "averageConfidence": 96,
+    "entropy": 4.021816069915076,
+    "sharpness": 5.080571165782834
+  }
+}

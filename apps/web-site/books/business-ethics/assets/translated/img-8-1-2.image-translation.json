@@ -1,0 +1,17 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-8-1-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/8-1-diversity-and-inclusion-in-the-workforce.html",
+  "decision": "error",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "not-classified"
+  },
+  "reason": "fetch failed",
+  "outputImage": null,
+  "ocr": [],
+  "translations": [],
+  "imageContext": "Image alt: This graphic shows three pie charts and is titled “Google Workforce by Gender.” The chart on the left is “Overall” and is broken down into 69 percent men and 31 percent women. The chart in the middle is “Technology” and is broken down into 80 percent men and 20 percent women. The chart on the right is “Leadership” and is broken down into 75 percent men and 25 percent women.\nButton label: Click to enlarge image of This graphic shows three pie charts and is titled “Google Workforce by Gender.” The chart on the left is “Overall” and is broken down into 69 percent men and 31 percent women. The chart in the middle is “Technology” and is broken down into 80 percent men and 20 percent women. The chart on the right is “Leadership” and is broken down into 75 percent men and 25 percent women.\nEnglish caption: Figure 8.3 Google is emblematic of the technology sector, and this graphic shows just how far from equality and diversity the industry remains. (credit: attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)"
+}

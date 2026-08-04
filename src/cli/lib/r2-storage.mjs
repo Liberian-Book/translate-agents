@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { ListObjectsV2Command, PutObjectCommand, S3Client } from '@aws-sdk/client-s3';
+import { DeleteObjectsCommand, ListObjectsV2Command, PutObjectCommand, S3Client } from '@aws-sdk/client-s3';
 import { getDataBookPath } from './paths.mjs';
 import { loadR2Config } from './r2-config.mjs';
 
@@ -58,6 +58,47 @@ export async function uploadBookToR2(bookName, options = {}) {
   return result;
 }
 
+export async function deleteRemoteBook(bookName, options = {}) {
+  const safeBookName = validateBookName(bookName);
+  const config = options.config ?? loadR2Config();
+  const client = options.client ?? createR2Client(config);
+  const prefix = `${BOOKS_PREFIX}${safeBookName}/`;
+  const keys = await listObjectKeys(client, config.bucket, prefix);
+  const result = {
+    bookName: safeBookName,
+    prefix,
+    attempted: keys.length,
+    deleted: 0,
+    failed: [],
+  };
+
+  for (let index = 0; index < keys.length; index += 1000) {
+    const batch = keys.slice(index, index + 1000);
+    try {
+      const response = await client.send(new DeleteObjectsCommand({
+        Bucket: config.bucket,
+        Delete: {
+          Objects: batch.map((Key) => ({ Key })),
+          Quiet: false,
+        },
+      }));
+      result.deleted += response.Deleted?.length ?? 0;
+      for (const failure of response.Errors ?? []) {
+        result.failed.push({
+          key: failure.Key,
+          error: failure.Message || failure.Code || 'delete-failed',
+        });
+      }
+    } catch (error) {
+      for (const key of batch) {
+        result.failed.push({ key, error: error.message });
+      }
+    }
+  }
+
+  return result;
+}
+
 export function validateBookName(bookName) {
   const value = String(bookName ?? '').trim();
   if (!SAFE_BOOK_NAME_PATTERN.test(value) || value.includes('..')) {
@@ -91,6 +132,27 @@ export async function listRemoteBooks(options = {}) {
   } while (continuationToken);
 
   return books;
+}
+
+async function listObjectKeys(client, bucket, prefix) {
+  const keys = [];
+  let continuationToken;
+
+  do {
+    const response = await client.send(new ListObjectsV2Command({
+      Bucket: bucket,
+      Prefix: prefix,
+      ContinuationToken: continuationToken,
+    }));
+
+    for (const object of response.Contents ?? []) {
+      if (object.Key) keys.push(object.Key);
+    }
+
+    continuationToken = response.IsTruncated ? response.NextContinuationToken : undefined;
+  } while (continuationToken);
+
+  return keys;
 }
 
 async function listRegularFiles(rootDir) {

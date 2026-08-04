@@ -1,0 +1,94 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-2-5-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/2-5-deontology-ethics-as-duty.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-2-5-1.vi.png",
+  "ocr": [
+    {
+      "text": "Crifit",
+      "confidence": 39,
+      "bbox": {
+        "x": 80,
+        "y": 70,
+        "w": 640,
+        "h": 47
+      }
+    },
+    {
+      "text": "‘8 reinen Bernunt",
+      "confidence": 39,
+      "bbox": {
+        "x": 80,
+        "y": 164,
+        "w": 640,
+        "h": 47
+      }
+    },
+    {
+      "text": "¥ Soro Kant",
+      "confidence": 39,
+      "bbox": {
+        "x": 80,
+        "y": 258,
+        "w": 640,
+        "h": 47
+      }
+    },
+    {
+      "text": "a {id",
+      "confidence": 39,
+      "bbox": {
+        "x": 80,
+        "y": 352,
+        "w": 640,
+        "h": 47
+      }
+    },
+    {
+      "text": "$ ® Higa,",
+      "confidence": 39,
+      "bbox": {
+        "x": 80,
+        "y": 446,
+        "w": 640,
+        "h": 47
+      }
+    },
+    {
+      "text": "4 wis Sn Bc fertdy",
+      "confidence": 39,
+      "bbox": {
+        "x": 80,
+        "y": 540,
+        "w": 640,
+        "h": 47
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: Part A shows a painting depicting Immanuel Kant. Part B shows a print copy of Immanuel Kant’s Critique of Pure Reason, written in German.\nButton label: Click to enlarge image of Part A shows a painting depicting Immanuel Kant. Part B shows a print copy of Immanuel Kant’s Critique of Pure Reason, written in German.\nEnglish caption: Figure 2.9 First published in 1781, Immanuel Kant’s Critique of Pure Reason provided a new system for understanding experience and reality. It defended religious faith against atheism and the scientific method against the skepticism of the Enlightenment. (credit a: modification of “Immanuel Kant (1724-1804)” by “Daube aus Böblingen”/Wikimedia Commons, Public Domain; credit b: modification of “Title page of 1781 edition of Immanuel Kant's Critique of Pure Reason” by “Tomisti”/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 0.38564102564102565,
+    "averageConfidence": 39,
+    "entropy": 4.885679642538889,
+    "sharpness": 4.47357941981032
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

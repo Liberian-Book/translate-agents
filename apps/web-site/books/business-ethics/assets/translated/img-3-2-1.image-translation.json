@@ -1,0 +1,204 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-3-2-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/3-2-weighing-stakeholder-claims.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-3-2-1.vi.png",
+  "ocr": [
+    {
+      "text": "4 Be So rr : n fale",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 57,
+        "w": 640,
+        "h": 38
+      }
+    },
+    {
+      "text": "Ee ay es a { \\ 1",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 133,
+        "w": 640,
+        "h": 38
+      }
+    },
+    {
+      "text": "TE — ATT TIN TH ECAR A 7",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 209,
+        "w": 640,
+        "h": 38
+      }
+    },
+    {
+      "text": "Om w= p— @ : .",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 285,
+        "w": 640,
+        "h": 38
+      }
+    },
+    {
+      "text": "Tres : ~ a AN",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 361,
+        "w": 640,
+        "h": 38
+      }
+    },
+    {
+      "text": "—_—— ER y — Sksp",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 437,
+        "w": 640,
+        "h": 38
+      }
+    },
+    {
+      "text": "5. | B CAS ¢ =A",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 513,
+        "w": 640,
+        "h": 38
+      }
+    },
+    {
+      "text": "Ne, |W V A | E 3 ®",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 589,
+        "w": 640,
+        "h": 38
+      }
+    },
+    {
+      "text": "oe TR \\ &- | = Sl 108 = Se",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 665,
+        "w": 640,
+        "h": 38
+      }
+    },
+    {
+      "text": "ey. N |. =F | IEE",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 741,
+        "w": 640,
+        "h": 38
+      }
+    },
+    {
+      "text": "Re i) Iw ————=/ 55 J) Copm—",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 817,
+        "w": 640,
+        "h": 38
+      }
+    },
+    {
+      "text": "sess J Nmap Sas",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 893,
+        "w": 640,
+        "h": 38
+      }
+    },
+    {
+      "text": "Loven dn RE Sl i",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 969,
+        "w": 640,
+        "h": 38
+      }
+    },
+    {
+      "text": "SOL ee",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 1045,
+        "w": 640,
+        "h": 38
+      }
+    },
+    {
+      "text": "Se :",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 1121,
+        "w": 640,
+        "h": 38
+      }
+    },
+    {
+      "text": "aa SAN Ee flip, a",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 1197,
+        "w": 640,
+        "h": 38
+      }
+    },
+    {
+      "text": "eC <a el EN ae 2 aR staal UL BE [Ge ER",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 1273,
+        "w": 640,
+        "h": 38
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This image shows a Ford Edsel car from 1958.\nButton label: Click to enlarge image of This image shows a Ford Edsel car from 1958.\nEnglish caption: Figure 3.3 This Edsel Pacer was manufactured in 1958, the first year of production of the ill-fated Ford model, which ceased production in November 1959. (credit: modification of “Edsel Pacer 2-door Hardtop 1958 front” by “Redsimon”/Wikimedia Commons, CC BY 2.5)",
+  "metrics": {
+    "textDensity": 1.088,
+    "averageConfidence": 31,
+    "entropy": 7.186255022774276,
+    "sharpness": 8.10576061187635
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

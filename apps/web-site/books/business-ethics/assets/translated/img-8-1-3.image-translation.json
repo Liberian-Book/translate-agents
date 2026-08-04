@@ -1,0 +1,17 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-8-1-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/8-1-diversity-and-inclusion-in-the-workforce.html",
+  "decision": "error",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "not-classified"
+  },
+  "reason": "fetch failed",
+  "outputImage": null,
+  "ocr": [],
+  "translations": [],
+  "imageContext": "Image alt: This graphic shows two sets of bar graphs titled “Likelihood of Financial Performance above Industry Median by Company Diversity Quartile.” The first set of charts on the left shows “Gender-diverse companies.” The bar on the right shows the first quartile and says 54 on it. The bar on the left shows the fourth quartile and says 47 on it. This section is shorter than the right bar, but above the bar is a section that says plus 15 percent that goes up to the height of the bar on the right. The second set of charts on the right shows “Ethically diverse companies.” The bar on the right shows the first quartile and says 58 on it. The bar on the left shows the fourth quartile and says 43 on it. This section is shorter than the right bar, but above the bar is a section that says plus 35 percent that goes up to the height of the bar on the right.\nButton label: Click to enlarge image of This graphic shows two sets of bar graphs titled “Likelihood of Financial Performance above Industry Median by Company Diversity Quartile.” The first set of charts on the left shows “Gender-diverse companies.” The bar on the right shows the first quartile and says 54 on it. The bar on the left shows the fourth quartile and says 47 on it. This section is shorter than the right bar, but above the bar is a section that says plus 15 percent that goes up to the height of the bar on the right. The second set of charts on the right shows “Ethically diverse companies.” The bar on the right shows the first quartile and says 58 on it. The bar on the left shows the fourth quartile and says 43 on it. This section is shorter than the right bar, but above the bar is a section that says plus 35 percent that goes up to the height of the bar on the right.\nEnglish caption: Figure 8.4 Companies with gender and ethnic diversity generally outperform those without it. (credit: attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)"
+}

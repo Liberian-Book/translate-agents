@@ -1,0 +1,94 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-3-1-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/3-1-adopting-a-stakeholder-orientation.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-3-1-1.vi.png",
+  "ocr": [
+    {
+      "text": "a A E Sale N",
+      "confidence": 27,
+      "bbox": {
+        "x": 80,
+        "y": 57,
+        "w": 640,
+        "h": 38
+      }
+    },
+    {
+      "text": "&4 J [ bd y | a on) i",
+      "confidence": 27,
+      "bbox": {
+        "x": 80,
+        "y": 133,
+        "w": 640,
+        "h": 38
+      }
+    },
+    {
+      "text": "yor GL x",
+      "confidence": 27,
+      "bbox": {
+        "x": 80,
+        "y": 209,
+        "w": 640,
+        "h": 38
+      }
+    },
+    {
+      "text": "£330 to A :",
+      "confidence": 27,
+      "bbox": {
+        "x": 80,
+        "y": 285,
+        "w": 640,
+        "h": 38
+      }
+    },
+    {
+      "text": "Fay",
+      "confidence": 27,
+      "bbox": {
+        "x": 80,
+        "y": 361,
+        "w": 640,
+        "h": 38
+      }
+    },
+    {
+      "text": "oI",
+      "confidence": 27,
+      "bbox": {
+        "x": 80,
+        "y": 437,
+        "w": 640,
+        "h": 38
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This image shows a group of men and women sitting around a table in discussion.\nButton label: Click to enlarge image of This image shows a group of men and women sitting around a table in discussion.\nEnglish caption: Figure 3.2 Maryland’s former Lieutenant Governor, Anthony Brown, hosts a 2014 small-business stakeholder roundtable discussion. Governments consider local businesses to be stakeholders in economic decision-making. Small businesses have their own local and regional stakeholders, who are influenced by the products and services they offer and the decisions they make in building their businesses. (credit: modification of “Lt. Governor Host MBE_Small Business Stakeholders Roundtable Discussion” by “Maryland GovPics”/Flickr, CC BY 2.0)",
+  "metrics": {
+    "textDensity": 0.384,
+    "averageConfidence": 27,
+    "entropy": 7.073711978388019,
+    "sharpness": 2.0081195856582297
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

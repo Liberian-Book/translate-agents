@@ -1,0 +1,184 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-7-2-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/7-2-loyalty-to-the-brand-and-to-customers.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-7-2-1.vi.png",
+  "ocr": [
+    {
+      "text": "ry 1 A Bo go %",
+      "confidence": 32,
+      "bbox": {
+        "x": 80,
+        "y": 50,
+        "w": 640,
+        "h": 34
+      }
+    },
+    {
+      "text": "— 4 Y Pe Wh a",
+      "confidence": 32,
+      "bbox": {
+        "x": 80,
+        "y": 117,
+        "w": 640,
+        "h": 34
+      }
+    },
+    {
+      "text": "ST SY GFN . 1 7 a & :",
+      "confidence": 32,
+      "bbox": {
+        "x": 80,
+        "y": 184,
+        "w": 640,
+        "h": 34
+      }
+    },
+    {
+      "text": "=, =) Sls N= =",
+      "confidence": 32,
+      "bbox": {
+        "x": 80,
+        "y": 251,
+        "w": 640,
+        "h": 34
+      }
+    },
+    {
+      "text": "4 iS % & bl in g",
+      "confidence": 32,
+      "bbox": {
+        "x": 80,
+        "y": 318,
+        "w": 640,
+        "h": 34
+      }
+    },
+    {
+      "text": "© Ya BARES is",
+      "confidence": 32,
+      "bbox": {
+        "x": 80,
+        "y": 385,
+        "w": 640,
+        "h": 34
+      }
+    },
+    {
+      "text": "we. NA = Be =, Ly WY h",
+      "confidence": 32,
+      "bbox": {
+        "x": 80,
+        "y": 452,
+        "w": 640,
+        "h": 34
+      }
+    },
+    {
+      "text": "» A a pi J > x i“, 0s I \\",
+      "confidence": 32,
+      "bbox": {
+        "x": 80,
+        "y": 519,
+        "w": 640,
+        "h": 34
+      }
+    },
+    {
+      "text": "ad 5\" Jz \"3 - Len ACY We",
+      "confidence": 32,
+      "bbox": {
+        "x": 80,
+        "y": 586,
+        "w": 640,
+        "h": 34
+      }
+    },
+    {
+      "text": "FETE La WRT",
+      "confidence": 32,
+      "bbox": {
+        "x": 80,
+        "y": 653,
+        "w": 640,
+        "h": 34
+      }
+    },
+    {
+      "text": "Pe 5 I a USTON ; 4 > g",
+      "confidence": 32,
+      "bbox": {
+        "x": 80,
+        "y": 720,
+        "w": 640,
+        "h": 34
+      }
+    },
+    {
+      "text": "© Pp Ley \\ — DN 3",
+      "confidence": 32,
+      "bbox": {
+        "x": 80,
+        "y": 787,
+        "w": 640,
+        "h": 34
+      }
+    },
+    {
+      "text": "EONS 7 JULES , IL :",
+      "confidence": 32,
+      "bbox": {
+        "x": 80,
+        "y": 854,
+        "w": 640,
+        "h": 34
+      }
+    },
+    {
+      "text": "ES Sma COO : ;",
+      "confidence": 32,
+      "bbox": {
+        "x": 80,
+        "y": 921,
+        "w": 640,
+        "h": 34
+      }
+    },
+    {
+      "text": "“ik ] 1D0°T Expy eae L :",
+      "confidence": 32,
+      "bbox": {
+        "x": 80,
+        "y": 988,
+        "w": 640,
+        "h": 34
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: The image shows seven women smiling. The one in the center is wearing a shirt that says “Customer Success.”\nButton label: Click to enlarge image of The image shows seven women smiling. The one in the center is wearing a shirt that says “Customer Success.”\nEnglish caption: Figure 7.5 These Cisco employees, part of a newly formed Virtual Customer Success team in India, help promote the brand and perhaps promote change as well. Women have been underrepresented in STEM careers (science, technology, engineering, math), and this group takes pride in the fact that they are part of a gender-balanced team. This photo was submitted as part of the annual #WeAreCisco #LoveWhereYouWork contest, with the hashtag #womenintech and the photo caption “Sorry, we’re busy making a difference.” (credit: modification of work by Shojana Ravi/Cisco, CC BY 4.0, used with the permission of https://thenetwork.cisco.com)",
+  "metrics": {
+    "textDensity": 0.9737470167064439,
+    "averageConfidence": 32,
+    "entropy": 7.640760803398734,
+    "sharpness": 5.2307849852346004
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

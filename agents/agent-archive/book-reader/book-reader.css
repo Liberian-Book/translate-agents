@@ -386,15 +386,15 @@ body.lang-swap #br-main-content .eng.hidden:hover {
 
 /* Term highlights */
 .br-highlight-term {
-  color: #d73a49 !important;
-  font-weight: bold;
+  color: inherit !important;
+  font-weight: inherit;
   cursor: pointer;
-  border-bottom: 1px dashed #d73a49;
+  border-bottom: none;
   transition: background-color 0.2s;
 }
 
 .br-highlight-term:hover {
-  background-color: #ffebed;
+  background-color: transparent;
   border-radius: 2px;
 }
 

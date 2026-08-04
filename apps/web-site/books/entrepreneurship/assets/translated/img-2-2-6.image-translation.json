@@ -99,14 +99,14 @@
     "textDensity": 0.5072512647554807,
     "averageConfidence": 28,
     "entropy": 6.9697207570316095,
-    "sharpness": 1.7904095700643843
+    "sharpness": 1.790409570064329
   },
   "imageEdit": {
     "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: Road sign with arrows pointing in opposite directions.\nButton label: Click to enlarge image of Road sign with arrows pointing in opposite directions.\nEnglish caption: Figure 2.17 Your entrepreneurial process may involve changing directions many times. (credit: modification of “this way or that” by Robert Couse-Baker/Flickr, CC BY 2.0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
     "outputOcr": [
       {
-        "text": "4= BENTRAI — a",
-        "confidence": 35,
+        "text": "(ew",
+        "confidence": 23,
         "bbox": {
           "x": 146,
           "y": 130,
@@ -115,8 +115,8 @@
         }
       },
       {
-        "text": "_ BEN.PHAI =p",
-        "confidence": 35,
+        "text": "Phai 3",
+        "confidence": 23,
         "bbox": {
           "x": 146,
           "y": 303,
@@ -125,8 +125,8 @@
         }
       },
       {
-        "text": "= © Ee —",
-        "confidence": 35,
+        "text": "TT — be",
+        "confidence": 23,
         "bbox": {
           "x": 146,
           "y": 476,
@@ -135,8 +135,8 @@
         }
       },
       {
-        "text": "HN =",
-        "confidence": 35,
+        "text": "1 ; - o vd B g \" 4",
+        "confidence": 23,
         "bbox": {
           "x": 146,
           "y": 649,
@@ -145,11 +145,81 @@
         }
       },
       {
-        "text": "Ee Yo aa PRC SEN",
-        "confidence": 35,
+        "text": "Bs J",
+        "confidence": 23,
         "bbox": {
           "x": 146,
           "y": 822,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "KB",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 995,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "RB eT om RE Rea Se Pa Cb RN Sea",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 1168,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "= a A I Ts ea 0 SA ps 3 Sar tr",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 1341,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "J | op RE PRE SN Sa a YE a",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 1514,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "Bc V NET SAN Sg ARS EE HN CE",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 1687,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "pease LIN ey ave. Wi Re Se",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 1860,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "Sirti SMT Ee Cl 8 ES Cs COS SER Rl Sp SE",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 2033,
           "w": 1165,
           "h": 86
         }

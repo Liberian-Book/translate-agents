@@ -1,0 +1,194 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-7-4-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/7-4-financial-integrity.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-7-4-1.vi.png",
+  "ocr": [
+    {
+      "text": "gd jd",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 70,
+        "w": 640,
+        "h": 47
+      }
+    },
+    {
+      "text": "Pe TE ¥ Cad",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 163,
+        "w": 640,
+        "h": 47
+      }
+    },
+    {
+      "text": "dg En Wy ne %",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 256,
+        "w": 640,
+        "h": 47
+      }
+    },
+    {
+      "text": "REF | yo 4",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 349,
+        "w": 640,
+        "h": 47
+      }
+    },
+    {
+      "text": "fe Ne",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 442,
+        "w": 640,
+        "h": 47
+      }
+    },
+    {
+      "text": "EN ed » ol",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 535,
+        "w": 640,
+        "h": 47
+      }
+    },
+    {
+      "text": "Hg g |",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 628,
+        "w": 640,
+        "h": 47
+      }
+    },
+    {
+      "text": "i > = ™ E re = #\\",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 721,
+        "w": 640,
+        "h": 47
+      }
+    },
+    {
+      "text": "TR es ’",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 814,
+        "w": 640,
+        "h": 47
+      }
+    },
+    {
+      "text": "4. li",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 907,
+        "w": 640,
+        "h": 47
+      }
+    },
+    {
+      "text": "wig 0 @",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 1000,
+        "w": 640,
+        "h": 47
+      }
+    },
+    {
+      "text": "RAN 25932740,",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 1093,
+        "w": 640,
+        "h": 47
+      }
+    },
+    {
+      "text": "= a Dor al",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 1186,
+        "w": 640,
+        "h": 47
+      }
+    },
+    {
+      "text": "es",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 1279,
+        "w": 640,
+        "h": 47
+      }
+    },
+    {
+      "text": "3 hg =",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 1372,
+        "w": 640,
+        "h": 47
+      }
+    },
+    {
+      "text": "TH p",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 1465,
+        "w": 640,
+        "h": 47
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This image shows a stack of 100 dollar bills half in a clasp envelope.\nButton label: Click to enlarge image of This image shows a stack of 100 dollar bills half in a clasp envelope.\nEnglish caption: Figure 7.7 “Under the table” and “off the books” are terms applied to payments that are really bribes. (credit: modification of “Graft for Everyone!” by Chris Potter/Flickr, CC BY 2.0)",
+  "metrics": {
+    "textDensity": 1.0301369863013699,
+    "averageConfidence": 28,
+    "entropy": 6.770194651981001,
+    "sharpness": 2.8101889733836103
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

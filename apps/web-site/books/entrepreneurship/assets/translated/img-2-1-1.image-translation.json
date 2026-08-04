@@ -339,14 +339,14 @@
     "textDensity": 2.048,
     "averageConfidence": 20,
     "entropy": 7.136436608889198,
-    "sharpness": 3.18400684724222
+    "sharpness": 3.1840068472422094
   },
   "imageEdit": {
-    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: Photo of a person white-water rafting.\nButton label: Click to enlarge image of Photo of a person white-water rafting.\nEnglish caption: Figure 2.2 For some, preparing for an entrepreneurial journey may seem like going on a river-rafting adventure that combines beautiful scenery with some exciting, but perhaps frightening, challenges. (credit: “Hands Up” by Jeramey Jannene/Flickr, CC BY 2.0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: hands, jeramey, jannene, flickr. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: Photo of a person white-water rafting.\nButton label: Click to enlarge image of Photo of a person white-water rafting.\nEnglish caption: Figure 2.2 For some, preparing for an entrepreneurial journey may seem like going on a river-rafting adventure that combines beautiful scenery with some exciting, but perhaps frightening, challenges. (credit: “Hands Up” by Jeramey Jannene/Flickr, CC BY 2.0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: jeramey, jannene, flickr. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
     "outputOcr": [
       {
-        "text": "oe a a 5",
-        "confidence": 38,
+        "text": "Ps BRE SET sm. : BR rt 2 Ex",
+        "confidence": 35,
         "bbox": {
           "x": 145,
           "y": 130,
@@ -355,8 +355,8 @@
         }
       },
       {
-        "text": "MR SER TE TL ml a 4%",
-        "confidence": 38,
+        "text": "SE rea Se SR rr EI al a Bhai",
+        "confidence": 35,
         "bbox": {
           "x": 145,
           "y": 304,
@@ -365,8 +365,8 @@
         }
       },
       {
-        "text": "STR ER eC ARENOR A A ns TE ee",
-        "confidence": 38,
+        "text": "“ig b= > ey es pat « we Io, ? < SHES PETER ES a Nell a 2",
+        "confidence": 35,
         "bbox": {
           "x": 145,
           "y": 478,
@@ -375,8 +375,8 @@
         }
       },
       {
-        "text": "Ne Td TER ee",
-        "confidence": 38,
+        "text": "cE RR EIR Re VRE ee ECR, PS a EP Te ll Sie LG Ne rH ASW SEE",
+        "confidence": 35,
         "bbox": {
           "x": 145,
           "y": 652,
@@ -385,8 +385,8 @@
         }
       },
       {
-        "text": "ve ce Pots hol x TN Se 5 as A eo. a ae",
-        "confidence": 38,
+        "text": "ro PR Rt SERN se CT EL EG Set",
+        "confidence": 35,
         "bbox": {
           "x": 145,
           "y": 826,
@@ -395,8 +395,8 @@
         }
       },
       {
-        "text": "NE SERRE > TUR RE a CRRA Br",
-        "confidence": 38,
+        "text": "ean Sia 2 Eo BL TN Palade Se",
+        "confidence": 35,
         "bbox": {
           "x": 145,
           "y": 1000,
@@ -405,8 +405,8 @@
         }
       },
       {
-        "text": "Pac en SER Ed ir TE Hen & +2 os Sev 555) Fr = 5% s is",
-        "confidence": 38,
+        "text": "a RIG FR er eR SET a Ca eR",
+        "confidence": 35,
         "bbox": {
           "x": 145,
           "y": 1174,
@@ -415,8 +415,8 @@
         }
       },
       {
-        "text": "ei 2 Cos 5 oo ~ BAR ae : ny aa = Eo",
-        "confidence": 38,
+        "text": "io 2 el EE ei Rg en,",
+        "confidence": 35,
         "bbox": {
           "x": 145,
           "y": 1348,
@@ -425,8 +425,8 @@
         }
       },
       {
-        "text": "to PR ee CEE tex “CEE EC PR em a",
-        "confidence": 38,
+        "text": "Pong 5% {Re Had Ee g 7 Bis ae Pi",
+        "confidence": 35,
         "bbox": {
           "x": 145,
           "y": 1522,
@@ -435,8 +435,8 @@
         }
       },
       {
-        "text": "esr i ay : te Fe 4, 27 FE Ci wir RS ee",
-        "confidence": 38,
+        "text": "pi Cas ER Er aC md",
+        "confidence": 35,
         "bbox": {
           "x": 145,
           "y": 1696,
@@ -445,8 +445,8 @@
         }
       },
       {
-        "text": "grt OTE x a 5 SEGRE So",
-        "confidence": 38,
+        "text": "ai SA SRT = TON ii = SNTRE AE",
+        "confidence": 35,
         "bbox": {
           "x": 145,
           "y": 1870,
@@ -455,8 +455,8 @@
         }
       },
       {
-        "text": "EE ly 7 iG 5 Co SPREE or 7 of RE: a BAS Ea",
-        "confidence": 38,
+        "text": "BRIE I pr Ey SN ake er Ch RC",
+        "confidence": 35,
         "bbox": {
           "x": 145,
           "y": 2044,
@@ -465,8 +465,8 @@
         }
       },
       {
-        "text": "Ay Ea oa RR I YE",
-        "confidence": 38,
+        "text": "0.5% WH Ed ws Tow [5 GE Pe =",
+        "confidence": 35,
         "bbox": {
           "x": 145,
           "y": 2218,
@@ -475,8 +475,8 @@
         }
       },
       {
-        "text": "ahi. : p< i 43 = 5 on 5\" in % 2 r \" 5 * a Fike",
-        "confidence": 38,
+        "text": "= oe 3 Reo ni TRS EDR. 3: = SR",
+        "confidence": 35,
         "bbox": {
           "x": 145,
           "y": 2392,
@@ -485,8 +485,8 @@
         }
       },
       {
-        "text": "Hinh 2.2 D6i voi mot s6 ngudri, chuén bi cho hanh trinh khéi nghiép c6 thé",
-        "confidence": 38,
+        "text": "Pra et EY. 5 Ea AB rt Te",
+        "confidence": 35,
         "bbox": {
           "x": 145,
           "y": 2566,
@@ -495,8 +495,8 @@
         }
       },
       {
-        "text": "giébng nhw tham gia mét cudc phiéu lwu chéo bé trén séng, noi két hop gira khung",
-        "confidence": 38,
+        "text": "Es Rs aC Les",
+        "confidence": 35,
         "bbox": {
           "x": 145,
           "y": 2740,
@@ -505,8 +505,8 @@
         }
       },
       {
-        "text": "canh thién nhién twoi dep va nhirng thir thach tha vi nhwng co thé dang so.",
-        "confidence": 38,
+        "text": "5X pt : 33 So fo xX . i es 5 0 Pex:",
+        "confidence": 35,
         "bbox": {
           "x": 145,
           "y": 2914,
@@ -515,11 +515,51 @@
         }
       },
       {
-        "text": "(ngudn: “Gio Tay Lén” b&i Gié-ra-may Gian-né/Phlickr, CC BY 2.0)",
-        "confidence": 38,
+        "text": "Lad i CR Re a RI RA an 8",
+        "confidence": 35,
         "bbox": {
           "x": 145,
           "y": 3088,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "Hinh 2.2 D6i véi mot sé ngudi, viéc chuan bi cho hanh trinh khéi nghiép c6 thé",
+        "confidence": 35,
+        "bbox": {
+          "x": 145,
+          "y": 3262,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "giéng nhu tham gia mét cudc phiéu luvu chéo thuyén vuot thac, két hop canh quan",
+        "confidence": 35,
+        "bbox": {
+          "x": 145,
+          "y": 3436,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "tuyét dep vai nhirng théach thirc tha vi, nhung c6 1€ cling dang so.",
+        "confidence": 35,
+        "bbox": {
+          "x": 145,
+          "y": 3610,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "(nguén: “Gio Tay Lén” clia Gié-ra-may Gian-né/Anh trén Fi-lo, CC BY 2.0)",
+        "confidence": 35,
+        "bbox": {
+          "x": 145,
+          "y": 3784,
           "w": 1158,
           "h": 87
         }

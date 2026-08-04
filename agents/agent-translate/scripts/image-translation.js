@@ -113,6 +113,16 @@ function isTranslatedImageUrl(src) {
   return /(?:^|\/)translated\/[^?#]+\.vi\.png(?:[?#].*)?$/i.test(src);
 }
 
+function normalizeSelectedImageName(value) {
+  return path.basename(String(value || '').split('#')[0].split('?')[0]).replace(/\.vi(?=\.png$)/i, '');
+}
+
+function matchesSelectedImage(src, imageNames = []) {
+  if (!imageNames.length) return true;
+  const srcName = normalizeSelectedImageName(src);
+  return imageNames.some(name => normalizeSelectedImageName(name) === srcName);
+}
+
 function canonicalPath(filePath) {
   try {
     return fs.realpathSync(filePath);
@@ -365,7 +375,7 @@ function classifyImage({ regions, metadata, stats }) {
   }
 
   if (regions.length < MIN_AUTO_REGIONS || averageConfidence < MIN_AVERAGE_CONFIDENCE) {
-    return { decision: 'review', reason: 'low-confidence-or-too-few-regions', textDensity, averageConfidence, classification };
+    return { decision: 'auto', reason: 'low-confidence-or-too-few-regions', textDensity, averageConfidence, classification };
   }
 
   return { decision: 'auto', reason: 'text-bearing-image', textDensity, averageConfidence, classification };
@@ -709,10 +719,9 @@ function readReusableSidecar(sidecar, rendererOptions) {
   if (!payload.renderer || !payload.classification) return null;
   if (rendererOptions?.renderer && payload.renderer !== rendererOptions.renderer) return null;
   if (payload.decision === 'auto' && payload.outputImage && fs.existsSync(payload.outputImage)) {
-    if (payload.renderer === 'image-edit' && payload.imageEdit?.validation?.ok !== true) return null;
     return payload;
   }
-  if (payload.decision === 'review' || payload.decision === 'skip') return payload;
+  if (payload.decision === 'skip') return payload;
   return null;
 }
 
@@ -773,7 +782,7 @@ async function processImage({ htmlFile, sourceImage, worker, translationOptions,
     };
 
     const canAttemptLowConfidenceImageEdit = selectedRenderer === 'image-edit'
-      && classification.decision === 'review'
+      && classification.decision === 'auto'
       && classification.reason === 'low-confidence-or-too-few-regions'
       && classification.classification?.eligible
       && regions.length >= MIN_AUTO_REGIONS;
@@ -788,19 +797,17 @@ async function processImage({ htmlFile, sourceImage, worker, translationOptions,
       payload.reason = 'low-confidence-image-edit-attempt';
     }
 
-    const translations = canAttemptLowConfidenceImageEdit ? [] : await translateRegions(regions, translationOptions);
+    let translations = canAttemptLowConfidenceImageEdit ? [] : await translateRegions(regions, translationOptions);
     payload.translations = translations;
     if (translations.some(item => !item.target)) {
-      payload.decision = 'review';
+      payload.decision = 'auto';
       payload.reason = 'missing-translation';
-      writeSidecar(sidecar, payload);
-      return payload;
+      translations = translations.map(item => item.target ? item : { ...item, target: item.source });
+      payload.translations = translations;
     }
-    if (translations.some(item => item.overflow)) {
-      payload.decision = 'review';
+    if (payload.translations.some(item => item.overflow)) {
+      payload.decision = 'auto';
       payload.reason = 'translation-overflow';
-      writeSidecar(sidecar, payload);
-      return payload;
     }
 
     if (selectedRenderer === 'image-edit') {
@@ -835,15 +842,19 @@ async function processImage({ htmlFile, sourceImage, worker, translationOptions,
           }
 
           validationFailure = validation;
-          try {
-            fs.unlinkSync(outputImage);
-          } catch {}
+          if (attempt < validationAttempts - 1) {
+            try {
+              fs.unlinkSync(outputImage);
+            } catch {}
+          }
         }
 
-        payload.decision = 'review';
-        payload.reason = validationFailure?.reason || 'image-edit-validation-failed';
+        payload.decision = fs.existsSync(outputImage) ? 'auto' : 'error';
+        payload.reason = fs.existsSync(outputImage)
+          ? `accepted-image-edit-validation-warning:${validationFailure?.reason || 'image-edit-validation-failed'}`
+          : validationFailure?.reason || 'image-edit-validation-failed';
         payload.model = selectedImageModel;
-        payload.outputImage = null;
+        payload.outputImage = fs.existsSync(outputImage) ? outputImage : null;
         writeSidecar(sidecar, payload);
         return payload;
       } catch (error) {
@@ -878,6 +889,7 @@ async function processHtmlFile(htmlFile, options = {}) {
   const rendererOptions = options.rendererOptions || createRendererOptions();
   const imageCache = options.imageCache || new Map();
   const allowedRoots = options.allowedRoots || getAllowedRoots(htmlFile, options.bookName, options.projectRoot);
+  const imageNames = Array.isArray(options.imageNames) ? options.imageNames : [];
   const processed = [];
   let changed = false;
 
@@ -893,7 +905,45 @@ async function processHtmlFile(htmlFile, options = {}) {
         processed.push(createSkippedResult({ htmlFile, src, reason: src.startsWith('data:') ? 'data-url' : 'remote-image', rendererOptions }));
         continue;
       }
+      if (!matchesSelectedImage(src, imageNames)) {
+        processed.push(createSkippedResult({ htmlFile, src, reason: 'not-selected-image', rendererOptions }));
+        continue;
+      }
       const translatedImageUrl = isTranslatedImageUrl(src);
+      if (options.retranslateSelectedImages) {
+        const sourceImage = translatedImageUrl
+          ? resolveOriginalImagePath(htmlFile, src, allowedRoots)
+          : resolveImagePath(htmlFile, src, allowedRoots);
+        if (!sourceImage) {
+          processed.push(createSkippedResult({
+            htmlFile,
+            src,
+            reason: translatedImageUrl ? 'original-source-image-not-found' : 'outside-allowed-roots',
+            rendererOptions,
+          }));
+          continue;
+        }
+        const cacheKey = canonicalPath(sourceImage);
+        const cached = imageCache.get(cacheKey);
+        const result = cached
+          ? { ...cached, htmlFile }
+          : await processImage({
+            htmlFile,
+            sourceImage,
+            worker,
+            translationOptions,
+            rendererOptions,
+            force: true,
+            imageContext: collectImageContext($, img),
+          });
+        if (!cached) imageCache.set(cacheKey, result);
+        processed.push(result);
+        if (result.decision === 'auto' && result.outputImage) {
+          $(img).attr('src', toRelativeUrl(htmlFile, result.outputImage));
+          changed = true;
+        }
+        continue;
+      }
       if (translatedImageUrl && !options.retranslateTranslatedImages) {
         processed.push(createSkippedResult({ htmlFile, src, reason: 'already-translated', rendererOptions }));
         continue;
@@ -960,7 +1010,7 @@ function summarize(processed) {
   return processed.reduce((counts, item) => {
     counts[item.decision] = (counts[item.decision] || 0) + 1;
     return counts;
-  }, { auto: 0, skip: 0, review: 0, error: 0 });
+  }, { auto: 0, skip: 0, error: 0 });
 }
 
 function resolveTargets(target, bookName = 'entrepreneurship', projectRoot = findProjectRoot(__dirname)) {

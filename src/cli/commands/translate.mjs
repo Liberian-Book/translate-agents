@@ -97,7 +97,7 @@ export function registerTranslateCommand(program) {
     .argument('<target>', 'tệp HTML đã dịch, số chương, hoặc all')
     .option('--retranslate', 'chỉ dịch lại hình ảnh trong sách đã dịch, không dịch lại nội dung chữ')
     .option('--renderer <renderer>', 'trình render dịch hình ảnh: overlay hoặc image-edit', 'image-edit')
-    .option('--strict', 'thoát lỗi nếu có hình ảnh cần review hoặc lỗi')
+    .option('--strict', 'thoát lỗi nếu có lỗi dịch hình ảnh')
     .action(async (book, target, options) => {
       await runTranslateImages({ book, target, retranslate: options.retranslate, renderer: options.renderer, strict: options.strict });
     });

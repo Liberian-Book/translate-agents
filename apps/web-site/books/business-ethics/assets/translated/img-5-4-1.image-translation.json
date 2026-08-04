@@ -1,0 +1,74 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-5-4-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/5-4-are-the-values-central-to-business-ethics-universal.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-5-4-1.vi.png",
+  "ocr": [
+    {
+      "text": ". TT — |",
+      "confidence": 39,
+      "bbox": {
+        "x": 80,
+        "y": 64,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "Ca Lode",
+      "confidence": 39,
+      "bbox": {
+        "x": 80,
+        "y": 149,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "Happiness i$ a,",
+      "confidence": 39,
+      "bbox": {
+        "x": 80,
+        "y": 234,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "Prece of cy",
+      "confidence": 39,
+      "bbox": {
+        "x": 80,
+        "y": 319,
+        "w": 640,
+        "h": 43
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This image shows a knife cutting into a piece of cake. The knife says happiness is a piece of cake.\nButton label: Click to enlarge image of This image shows a knife cutting into a piece of cake. The knife says happiness is a piece of cake.\nEnglish caption: Figure 5.7 The pursuit of happiness is as near a universal human trait as we can find. It is not a coincidence that it appears in the American Declaration of Independence (1776), which was written by Thomas Jefferson and inspired by the British Enlightenment philosopher John Locke. However, the nature of human happiness is subjective. For example, everyone must eat to survive, but not everyone would agree that eating chocolate-raspberry cake brings happiness. (credit: “Happiness Is a Piece of Cake Close Up Photography” by Antonio Quagliata/Pexels, CC0)",
+  "metrics": {
+    "textDensity": 0.25767790262172285,
+    "averageConfidence": 39,
+    "entropy": 6.790702225145651,
+    "sharpness": 0.7356195987018047
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

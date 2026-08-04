@@ -1,0 +1,114 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-5-4-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/5-4-are-the-values-central-to-business-ethics-universal.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-5-4-2.vi.png",
+  "ocr": [
+    {
+      "text": "Lg tas Ning Tl o-~",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 66,
+        "w": 640,
+        "h": 44
+      }
+    },
+    {
+      "text": "= SE",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 153,
+        "w": 640,
+        "h": 44
+      }
+    },
+    {
+      "text": "Ly IR a",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 240,
+        "w": 640,
+        "h": 44
+      }
+    },
+    {
+      "text": "Ma 0 y | a B-",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 327,
+        "w": 640,
+        "h": 44
+      }
+    },
+    {
+      "text": "” ny Bs “ly",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 414,
+        "w": 640,
+        "h": 44
+      }
+    },
+    {
+      "text": "8-7 LES",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 501,
+        "w": 640,
+        "h": 44
+      }
+    },
+    {
+      "text": "| \\ Bn",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 588,
+        "w": 640,
+        "h": 44
+      }
+    },
+    {
+      "text": "ill [—==30,",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 675,
+        "w": 640,
+        "h": 44
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This image shows a billboard on the side of a building that says love is all you need.\nButton label: Click to enlarge image of This image shows a billboard on the side of a building that says love is all you need.\nEnglish caption: Figure 5.8 If there is anything that transcends time, place, and culture, it is love. The search for a universally applied set of ethics always comes back to it. But what does love look like in a business setting? (credit: “Love Is All You Need Signage” by Jacqueline Smith/Pexels, CC0)",
+  "metrics": {
+    "textDensity": 0.5157509157509158,
+    "averageConfidence": 28,
+    "entropy": 7.0845548480938305,
+    "sharpness": 2.828495344436274
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

@@ -165,7 +165,7 @@
     {
       "source": "| =: + How can I manage and juggle",
       "normalizedSource": "| =: + How can I manage and juggle",
-      "target": "+ Làm thế nào tôi có thể quản lý và cân bằng",
+      "target": "| =: + Làm thế nào tôi có thể quản lý và cân bằng",
       "bbox": {
         "x": 130,
         "y": 371,
@@ -225,7 +225,7 @@
     {
       "source": "should I grow the venture?",
       "normalizedSource": "should I grow the venture?",
-      "target": "N/A",
+      "target": "như thế nào?",
       "bbox": {
         "x": 130,
         "y": 761,
@@ -240,6 +240,6 @@
     "textDensity": 0.636734693877551,
     "averageConfidence": 70,
     "entropy": 3.9828246817705804,
-    "sharpness": 4.73137911209722
+    "sharpness": 4.731379112097254
   }
 }

@@ -1,0 +1,17 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-6-2-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/6-2-what-constitutes-a-fair-wage.html",
+  "decision": "error",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "not-classified"
+  },
+  "reason": "fetch failed",
+  "outputImage": null,
+  "ocr": [],
+  "translations": [],
+  "imageContext": "Image alt: A map of the United States is titled “Minimum Wage by State, 2017.” The states are colored in to show minimum wage. States with a minimum wage between $7.25 and $7.99 are Idaho, Utah, Wyoming, New Mexico, Texas, Oklahoma, Kansas, North Dakota, Iowa, Wisconsin Missouri, Louisiana, Mississippi, Alabama, Tennessee, Kentucky, Indiana, New Hampshire, Pennsylvania, Virginia, North Carolina, South Carolina, and Georgia. States with a minimum wage between $8.00 and $8.74 are Nevada, Montana, South Dakota, Illinois, Arkansas, Ohio, New Jersey, Delaware, and Florida. States with a minimum wage between $8.75 and $9.49 are Hawaii, Colorado, Nebraska, Michigan, West Virginia, Maine, and Maryland. States with a minimum wage between $9.50 and $10.24 are Oregon, Alaska, Arizona, Minnesota, New York, Vermont, Connecticut, and Rhode Island. States with a minimum wage between $10.25 and $11.50 are Washington, California, Massachusetts, and Washington, DC.\nButton label: Click to enlarge image of A map of the United States is titled “Minimum Wage by State, 2017.” The states are colored in to show minimum wage. States with a minimum wage between $7.25 and $7.99 are Idaho, Utah, Wyoming, New Mexico, Texas, Oklahoma, Kansas, North Dakota, Iowa, Wisconsin Missouri, Louisiana, Mississippi, Alabama, Tennessee, Kentucky, Indiana, New Hampshire, Pennsylvania, Virginia, North Carolina, South Carolina, and Georgia. States with a minimum wage between $8.00 and $8.74 are Nevada, Montana, South Dakota, Illinois, Arkansas, Ohio, New Jersey, Delaware, and Florida. States with a minimum wage between $8.75 and $9.49 are Hawaii, Colorado, Nebraska, Michigan, West Virginia, Maine, and Maryland. States with a minimum wage between $9.50 and $10.24 are Oregon, Alaska, Arizona, Minnesota, New York, Vermont, Connecticut, and Rhode Island. States with a minimum wage between $10.25 and $11.50 are Washington, California, Massachusetts, and Washington, DC.\nEnglish caption: Figure 6.9 As of 2017, there is a patchwork quilt of state-level minimum wage laws. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)"
+}

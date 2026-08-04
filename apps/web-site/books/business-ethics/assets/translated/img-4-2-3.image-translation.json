@@ -1,0 +1,17 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-4-2-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/4-2-sustainability-business-and-the-environment.html",
+  "decision": "error",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "not-classified"
+  },
+  "reason": "fetch failed",
+  "outputImage": null,
+  "ocr": [],
+  "translations": [],
+  "imageContext": "Image alt: A chart titled “Countries with the Most ISO 14000-Certified Companies”. Countries are listed from top to bottom by the number of certified companies, as follows: “Japan 2,600”, “Germany 1,600”, “UK 1, 200”, “Sweden 650”, “Taiwan 500”, “USA 590”, “Netherlands 475”, “Korea 460”, “Switzerland 400”, and “France 360”.\nButton label: Click to enlarge image of A chart titled “Countries with the Most ISO 14000-Certified Companies”. Countries are listed from top to bottom by the number of certified companies, as follows: “Japan 2,600”, “Germany 1,600”, “UK 1, 200”, “Sweden 650”, “Taiwan 500”, “USA 590”, “Netherlands 475”, “Korea 460”, “Switzerland 400”, and “France 360”.\nEnglish caption: Figure 4.8 According to recent reports, close to fifteen thousand companies worldwide have chosen to be ISO 14000 certified, including Nissan, Ford, and IBM. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)"
+}

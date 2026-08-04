@@ -1,0 +1,291 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-11-2-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/11-2-committing-to-an-ethical-view.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "chart",
+    "eligible": true,
+    "reason": "wide-labeled-visual-layout"
+  },
+  "reason": "image-edit-leftover-source-english",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Ey =",
+      "confidence": 30,
+      "bbox": {
+        "x": 180,
+        "y": 153,
+        "w": 1440,
+        "h": 102
+      }
+    },
+    {
+      "text": "oo",
+      "confidence": 30,
+      "bbox": {
+        "x": 180,
+        "y": 357,
+        "w": 1440,
+        "h": 102
+      }
+    },
+    {
+      "text": "Je” 2 . 9 “5",
+      "confidence": 30,
+      "bbox": {
+        "x": 180,
+        "y": 561,
+        "w": 1440,
+        "h": 102
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A map of the United States is titled “Largest Private Employers by State.” States where the largest employer is Walmart are Arizona, Montana, Wyoming, Kansas, Oklahoma, Texas, Missouri, Arkansas, Louisiana, Mississippi, Alabama, Tennessee, Kentucky, Illinois, Indiana, Ohio, West Virginia, Virginia, New Hampshire, South Carolina, Georgia, and Florida. States where the largest employer is the healthcare industry are Alaska, Oregon, Idaho, Utah, North Dakota, South Dakota, Minnesota, Pennsylvania, Delaware, Vermont, Massachusetts, Rhode Island, and Connecticut. States where the largest employer is the state university system are California, New Mexico, Nebraska, Iowa, Wisconsin, Michigan, New York, Maryland, and North Carolina. States where the largest employer is listed as other are Washington, Nevada, Colorado, Maine, and New Jersey.\nButton label: Click to enlarge image of A map of the United States is titled “Largest Private Employers by State.” States where the largest employer is Walmart are Arizona, Montana, Wyoming, Kansas, Oklahoma, Texas, Missouri, Arkansas, Louisiana, Mississippi, Alabama, Tennessee, Kentucky, Illinois, Indiana, Ohio, West Virginia, Virginia, New Hampshire, South Carolina, Georgia, and Florida. States where the largest employer is the healthcare industry are Alaska, Oregon, Idaho, Utah, North Dakota, South Dakota, Minnesota, Pennsylvania, Delaware, Vermont, Massachusetts, Rhode Island, and Connecticut. States where the largest employer is the state university system are California, New Mexico, Nebraska, Iowa, Wisconsin, Michigan, New York, Maryland, and North Carolina. States where the largest employer is listed as other are Washington, Nevada, Colorado, Maine, and New Jersey.\nEnglish caption: Figure 11.3 According to Walmart, ninety percent of people in the United States live within ten miles of one of its stores.15 What does this say about the nature of for-profit business in the United States? What might such a map have looked like one hundred years ago? (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.19184952978056427,
+    "averageConfidence": 30,
+    "entropy": 3.417174529913609,
+    "sharpness": 5.18015654974915
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: chart.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A map of the United States is titled “Largest Private Employers by State.” States where the largest employer is Walmart are Arizona, Montana, Wyoming, Kansas, Oklahoma, Texas, Missouri, Arkansas, Louisiana, Mississippi, Alabama, Tennessee, Kentucky, Illinois, Indiana, Ohio, West Virginia, Virginia, New Hampshire, South Carolina, Georgia, and Florida. States where the largest employer is the healthcare industry are Alaska, Oregon, Idaho, Utah, North Dakota, South Dakota, Minnesota, Pennsylvania, Delaware, Vermont, Massachusetts, Rhode Island, and Connecticut. States where the largest employer is the state university system are California, New Mexico, Nebraska, Iowa, Wisconsin, Michigan, New York, Maryland, and North Carolina. States where the largest employer is listed as other are Washington, Nevada, Colorado, Maine, and New Jersey.\nButton label: Click to enlarge image of A map of the United States is titled “Largest Private Employers by State.” States where the largest employer is Walmart are Arizona, Montana, Wyoming, Kansas, Oklahoma, Texas, Missouri, Arkansas, Louisiana, Mississippi, Alabama, Tennessee, Kentucky, Illinois, Indiana, Ohio, West Virginia, Virginia, New Hampshire, South Carolina, Georgia, and Florida. States where the largest employer is the healthcare industry are Alaska, Oregon, Idaho, Utah, North Dakota, South Dakota, Minnesota, Pennsylvania, Delaware, Vermont, Massachusetts, Rhode Island, and Connecticut. States where the largest employer is the state university system are California, New Mexico, Nebraska, Iowa, Wisconsin, Michigan, New York, Maryland, and North Carolina. States where the largest employer is listed as other are Washington, Nevada, Colorado, Maine, and New Jersey.\nEnglish caption: Figure 11.3 According to Walmart, ninety percent of people in the United States live within ten miles of one of its stores.15 What does this say about the nature of for-profit business in the United States? What might such a map have looked like one hundred years ago? (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: walmart, oklahoma, mississippi, alabama, virginia, carolina, georgia, delaware, vermont, connecticut, maryland, washington, nevada, colorado, maine, jersey. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": ": Nha tuyén dung tu nhan l6n nhat theo tiéu bang",
+        "confidence": 58,
+        "bbox": {
+          "x": 149,
+          "y": 127,
+          "w": 1192,
+          "h": 84
+        }
+      },
+      {
+        "text": ": A New Hampshire",
+        "confidence": 58,
+        "bbox": {
+          "x": 149,
+          "y": 296,
+          "w": 1192,
+          "h": 84
+        }
+      },
+      {
+        "text": "Vermont",
+        "confidence": 58,
+        "bbox": {
+          "x": 149,
+          "y": 465,
+          "w": 1192,
+          "h": 84
+        }
+      },
+      {
+        "text": "WE Nasachusets",
+        "confidence": 58,
+        "bbox": {
+          "x": 149,
+          "y": 634,
+          "w": 1192,
+          "h": 84
+        }
+      },
+      {
+        "text": "Rind nd",
+        "confidence": 58,
+        "bbox": {
+          "x": 149,
+          "y": 803,
+          "w": 1192,
+          "h": 84
+        }
+      },
+      {
+        "text": "’) Comectiat",
+        "confidence": 58,
+        "bbox": {
+          "x": 149,
+          "y": 972,
+          "w": 1192,
+          "h": 84
+        }
+      },
+      {
+        "text": "3 New J",
+        "confidence": 58,
+        "bbox": {
+          "x": 149,
+          "y": 1141,
+          "w": 1192,
+          "h": 84
+        }
+      },
+      {
+        "text": "; Nevada F abl",
+        "confidence": 58,
+        "bbox": {
+          "x": 149,
+          "y": 1310,
+          "w": 1192,
+          "h": 84
+        }
+      },
+      {
+        "text": "q - 50 Delaware",
+        "confidence": 58,
+        "bbox": {
+          "x": 149,
+          "y": 1479,
+          "w": 1192,
+          "h": 84
+        }
+      },
+      {
+        "text": "Colorado |e) Sl A a",
+        "confidence": 58,
+        "bbox": {
+          "x": 149,
+          "y": 1648,
+          "w": 1192,
+          "h": 84
+        }
+      },
+      {
+        "text": "Virginia ~=§",
+        "confidence": 58,
+        "bbox": {
+          "x": 149,
+          "y": 1817,
+          "w": 1192,
+          "h": 84
+        }
+      },
+      {
+        "text": "fe Arizona Oklahoma South",
+        "confidence": 58,
+        "bbox": {
+          "x": 149,
+          "y": 1986,
+          "w": 1192,
+          "h": 84
+        }
+      },
+      {
+        "text": "Carolina",
+        "confidence": 58,
+        "bbox": {
+          "x": 149,
+          "y": 2155,
+          "w": 1192,
+          "h": 84
+        }
+      },
+      {
+        "text": "Mississippi | Alabama Georgia",
+        "confidence": 58,
+        "bbox": {
+          "x": 149,
+          "y": 2324,
+          "w": 1192,
+          "h": 84
+        }
+      },
+      {
+        "text": "Louisiana 3",
+        "confidence": 58,
+        "bbox": {
+          "x": 149,
+          "y": 2493,
+          "w": 1192,
+          "h": 84
+        }
+      },
+      {
+        "text": "& : , Sy) 1",
+        "confidence": 58,
+        "bbox": {
+          "x": 149,
+          "y": 2662,
+          "w": 1192,
+          "h": 84
+        }
+      },
+      {
+        "text": "IS Q _r",
+        "confidence": 58,
+        "bbox": {
+          "x": 149,
+          "y": 2831,
+          "w": 1192,
+          "h": 84
+        }
+      },
+      {
+        "text": "- - ps b",
+        "confidence": 58,
+        "bbox": {
+          "x": 149,
+          "y": 3000,
+          "w": 1192,
+          "h": 84
+        }
+      },
+      {
+        "text": ". 2 Hawaii “> { \\",
+        "confidence": 58,
+        "bbox": {
+          "x": 149,
+          "y": 3169,
+          "w": 1192,
+          "h": 84
+        }
+      },
+      {
+        "text": "I] Walmart [| Nganh y té [|] Hé théng trusng dai hoc cong lap [| Khéac",
+        "confidence": 58,
+        "bbox": {
+          "x": 149,
+          "y": 3338,
+          "w": 1192,
+          "h": 84
+        }
+      },
+      {
+        "text": "Hinh 11.3 Theo Walmart, chin mudi phan trém ngudi dan & Hoa Ky séng trong pham vi mudi d&m (16 km) tif mét trong cc cla hang ctia ho.™",
+        "confidence": 58,
+        "bbox": {
+          "x": 149,
+          "y": 3507,
+          "w": 1192,
+          "h": 84
+        }
+      }
+    ],
+    "validation": {
+      "ok": false,
+      "reason": "image-edit-leftover-source-english",
+      "leftoverSourceWords": [
+        "walmart",
+        "arizona",
+        "oklahoma",
+        "louisiana",
+        "mississippi",
+        "alabama",
+        "virginia",
+        "hampshire",
+        "south",
+        "carolina",
+        "georgia",
+        "delaware",
+        "vermont",
+        "nevada",
+        "colorado"
+      ]
+    },
+    "validationAttempt": 3
+  }
+}

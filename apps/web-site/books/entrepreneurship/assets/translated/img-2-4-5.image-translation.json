@@ -125,19 +125,19 @@
     {
       "source": "recovery",
       "normalizedSource": "recovery",
-      "target": "thời gian phục hồi",
+      "target": "phục hồi",
       "bbox": {
         "x": 97,
         "y": 613,
         "w": 773,
         "h": 65
       },
-      "overflow": true
+      "overflow": false
     },
     {
       "source": "timeline",
       "normalizedSource": "timeline",
-      "target": "thời gian biểu",
+      "target": "thời gian",
       "bbox": {
         "x": 97,
         "y": 742,
@@ -152,6 +152,6 @@
     "textDensity": 0.3867171565571436,
     "averageConfidence": 96,
     "entropy": 3.29594017495765,
-    "sharpness": 4.917283884414608
+    "sharpness": 4.917283884414628
   }
 }

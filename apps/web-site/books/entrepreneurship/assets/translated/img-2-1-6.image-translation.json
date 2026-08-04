@@ -306,14 +306,14 @@
     "textDensity": 0.8248275862068966,
     "averageConfidence": 86,
     "entropy": 3.742820243807728,
-    "sharpness": 4.560074576797391
+    "sharpness": 4.560074576797339
   },
   "imageEdit": {
     "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A drawing of a man shows he is in the Preparation stage. He asks himself the following Reflection Questions: What do I want to accomplish now and in the future? What will I offer, create, or change that might have an impact on the world? Is there a better way to solve a problem or address an issue? What are the conditions of my target market or environment? Potential Obstacles are Lack of ideas or inspiration, Idea or venture already exists, Unrealistic expectations for the “perfect” or “right” solution, Fear of risks, and Being too practical or too logical.\nButton label: Click to enlarge image of A drawing of a man shows he is in the Preparation stage. He asks himself the following Reflection Questions: What do I want to accomplish now and in the future? What will I offer, create, or change that might have an impact on the world? Is there a better way to solve a problem or address an issue? What are the conditions of my target market or environment? Potential Obstacles are Lack of ideas or inspiration, Idea or venture already exists, Unrealistic expectations for the “perfect” or “right” solution, Fear of risks, and Being too practical or too logical.\nEnglish caption: Figure 2.7 In preparing for your venture, you need to ask what you want to accomplish, what you want to offer, and who you want to target. You also need to consider what potential obstacles might present challenges. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Preparation i ] => Chuẩn bị i ]\n- Reflection Questions => Câu hỏi phản ánh\n- to + What do I want to accomplish => Tôi muốn đạt được điều gì\n- <Q now and in the future? => bây giờ và trong tương lai?\n- oO « What will I offer, create, or => Tôi sẽ cung cấp, tạo ra, hoặc\n- change that might have an => thay đổi điều gì có thể\n- impact on the world? => ảnh hưởng đến thế giới?\n- + Is there a better way to solve => Có cách nào tốt hơn để giải quyết\n- a problem or address an => một vấn đề hoặc giải quyết một\n- issue? => vấn đề?\n- + What are the conditions of => Điều kiện của thị trường mục tiêu\n- my target market or => hoặc môi trường của tôi?\n- environment? => môi trường\nReturn a complete edited PNG image.",
     "outputOcr": [
       {
-        "text": "Chuan bi",
-        "confidence": 72,
+        "text": "iE)",
+        "confidence": 71,
         "bbox": {
           "x": 188,
           "y": 101,
@@ -322,8 +322,8 @@
         }
       },
       {
-        "text": "Cau hoi phan anh",
-        "confidence": 72,
+        "text": "Chuan bi",
+        "confidence": 71,
         "bbox": {
           "x": 188,
           "y": 235,
@@ -332,8 +332,8 @@
         }
       },
       {
-        "text": "Co « T6i mudn dat dugc diéu gi",
-        "confidence": 72,
+        "text": "Cau héi phan anh Nhirng tré ngai tiém an",
+        "confidence": 71,
         "bbox": {
           "x": 188,
           "y": 369,
@@ -342,8 +342,8 @@
         }
       },
       {
-        "text": "Fo bay gio va trong tuong lai?",
-        "confidence": 72,
+        "text": "Oo + Toi muon dat duoc diéu gi « Thiéuy tudng hodc cam hing",
+        "confidence": 71,
         "bbox": {
           "x": 188,
           "y": 503,
@@ -352,8 +352,8 @@
         }
       },
       {
-        "text": "« Toi sé cung cap, tao ra, hoic",
-        "confidence": 72,
+        "text": "Oo bay gio va trong tuong lai? « Y tudng hodc du an da ton tai",
+        "confidence": 71,
         "bbox": {
           "x": 188,
           "y": 637,
@@ -362,8 +362,8 @@
         }
       },
       {
-        "text": "thay déi diéu gi c6 thé",
-        "confidence": 72,
+        "text": "+ Toi sé cung cap, tao ra, hoac + Ky vong khéng thuc té€ doi vai",
+        "confidence": 71,
         "bbox": {
           "x": 188,
           "y": 771,
@@ -372,8 +372,8 @@
         }
       },
       {
-        "text": "anh hudng dén thé gici?",
-        "confidence": 72,
+        "text": "0 thay d&i diéu gi c6 thé gidi phap “hoan hao” hoac",
+        "confidence": 71,
         "bbox": {
           "x": 188,
           "y": 905,
@@ -382,8 +382,8 @@
         }
       },
       {
-        "text": "« C6 cach nao tot hon dé giai quyét",
-        "confidence": 72,
+        "text": "Eds anh huang dén thé gici? “ding”",
+        "confidence": 71,
         "bbox": {
           "x": 188,
           "y": 1039,
@@ -392,8 +392,8 @@
         }
       },
       {
-        "text": "mot van dé hodc giai quyét mot",
-        "confidence": 72,
+        "text": "«+ C6 cach nao tot hon dé giai quyét + Néi sg rtiro",
+        "confidence": 71,
         "bbox": {
           "x": 188,
           "y": 1173,
@@ -402,8 +402,8 @@
         }
       },
       {
-        "text": "van dé?",
-        "confidence": 72,
+        "text": "mot van dé hodc giai quyét mot + Qua thuc té hoac qua logic",
+        "confidence": 71,
         "bbox": {
           "x": 188,
           "y": 1307,
@@ -412,8 +412,8 @@
         }
       },
       {
-        "text": "« Diéu kién cla thi trudng muc tiéu",
-        "confidence": 72,
+        "text": "van dé?",
+        "confidence": 71,
         "bbox": {
           "x": 188,
           "y": 1441,
@@ -422,11 +422,21 @@
         }
       },
       {
-        "text": "hodc mai trudng cua toi?",
-        "confidence": 72,
+        "text": "+ Diéu kién cla thi trudng muc tiéu",
+        "confidence": 71,
         "bbox": {
           "x": 188,
           "y": 1575,
+          "w": 1502,
+          "h": 67
+        }
+      },
+      {
+        "text": "hoac moi trudng cua toi?",
+        "confidence": 71,
+        "bbox": {
+          "x": 188,
+          "y": 1709,
           "w": 1502,
           "h": 67
         }

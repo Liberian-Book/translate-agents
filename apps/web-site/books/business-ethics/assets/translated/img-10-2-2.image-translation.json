@@ -1,0 +1,440 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-10-2-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/10-2-workplace-campuses.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-10-2-2.vi.png",
+  "ocr": [
+    {
+      "text": "ETN Ew et, Sa : 8",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 67,
+        "w": 639,
+        "h": 45
+      }
+    },
+    {
+      "text": "SRE NE NL Se",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 156,
+        "w": 639,
+        "h": 45
+      }
+    },
+    {
+      "text": "SRS ae : a *",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 245,
+        "w": 639,
+        "h": 45
+      }
+    },
+    {
+      "text": "= - oar 73 — = RD : % ~ =:",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 334,
+        "w": 639,
+        "h": 45
+      }
+    },
+    {
+      "text": "=e \\ = — z tas Et &",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 423,
+        "w": 639,
+        "h": 45
+      }
+    },
+    {
+      "text": "PTR 2 - AE",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 512,
+        "w": 639,
+        "h": 45
+      }
+    },
+    {
+      "text": "7 LF - a",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 601,
+        "w": 639,
+        "h": 45
+      }
+    },
+    {
+      "text": "3 2 i? ANE — — ») WS",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 690,
+        "w": 639,
+        "h": 45
+      }
+    },
+    {
+      "text": "on rR LE",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 779,
+        "w": 639,
+        "h": 45
+      }
+    },
+    {
+      "text": "1: S eB \\\\",
+      "confidence": 31,
+      "bbox": {
+        "x": 80,
+        "y": 868,
+        "w": 639,
+        "h": 45
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This image shows a rendering of a large, ring-shaped building.\nButton label: Click to enlarge image of This image shows a rendering of a large, ring-shaped building.\nEnglish caption: Figure 10.6 This likeness of the Apple Ring provides a sense of the scale of the building, which boasts a four-story cafeteria. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.6449594250878113,
+    "averageConfidence": 31,
+    "entropy": 6.510274376771122,
+    "sharpness": 5.385565549342834
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: This image shows a rendering of a large, ring-shaped building.\nButton label: Click to enlarge image of This image shows a rendering of a large, ring-shaped building.\nEnglish caption: Figure 10.6 This likeness of the Apple Ring provides a sense of the scale of the building, which boasts a four-story cafeteria. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: rice, openstax. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "» aw > - > ee Te a a wn Bry. \\ \"YH ~ Pm Ear -3 Fo",
+        "confidence": 39,
+        "bbox": {
+          "x": 150,
+          "y": 126,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "> ~~\" 5 P Lod x0N SANE an a",
+        "confidence": 39,
+        "bbox": {
+          "x": 150,
+          "y": 294,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "ye x SER A ae PEE 3 En",
+        "confidence": 39,
+        "bbox": {
+          "x": 150,
+          "y": 462,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "> Nir} SS Doar AACE, = by",
+        "confidence": 39,
+        "bbox": {
+          "x": 150,
+          "y": 630,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "SERA ARS = Sas ee ©",
+        "confidence": 39,
+        "bbox": {
+          "x": 150,
+          "y": 798,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "B— 5 = = 0. SO",
+        "confidence": 39,
+        "bbox": {
+          "x": 150,
+          "y": 966,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "Se ig 4 \\ f SN) on",
+        "confidence": 39,
+        "bbox": {
+          "x": 150,
+          "y": 1134,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "J ( \\ =) ) = oN So ~ ass",
+        "confidence": 39,
+        "bbox": {
+          "x": 150,
+          "y": 1302,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "LEP | \\ | |= bh PE",
+        "confidence": 39,
+        "bbox": {
+          "x": 150,
+          "y": 1470,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "== ) AW pp $ 7 ow",
+        "confidence": 39,
+        "bbox": {
+          "x": 150,
+          "y": 1638,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "- \\ =p <p I SOR. “a ox 57",
+        "confidence": 39,
+        "bbox": {
+          "x": 150,
+          "y": 1806,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "SE, Sm ASCH",
+        "confidence": 39,
+        "bbox": {
+          "x": 150,
+          "y": 1974,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "——-— = : Se",
+        "confidence": 39,
+        "bbox": {
+          "x": 150,
+          "y": 2142,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "yr av ‘@ < J Eh hi «Tg AS Ne v -",
+        "confidence": 39,
+        "bbox": {
+          "x": 150,
+          "y": 2310,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "EN == AY, : - Ne",
+        "confidence": 39,
+        "bbox": {
+          "x": 150,
+          "y": 2478,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "Ge AN ye » 3",
+        "confidence": 39,
+        "bbox": {
+          "x": 150,
+          "y": 2646,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "Poa lf <r WW wee. TE ®",
+        "confidence": 39,
+        "bbox": {
+          "x": 150,
+          "y": 2814,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "=O0Y eT = 7, id IT",
+        "confidence": 39,
+        "bbox": {
+          "x": 150,
+          "y": 2982,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "—\" ~ 2 A - La p j NN",
+        "confidence": 39,
+        "bbox": {
+          "x": 150,
+          "y": 3150,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "J A SS == SSS p= ~ yy 4",
+        "confidence": 39,
+        "bbox": {
+          "x": 150,
+          "y": 3318,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "yr ASS Q == == SS ph; 2 | 5",
+        "confidence": 39,
+        "bbox": {
+          "x": 150,
+          "y": 3486,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "« a - = === = % KR",
+        "confidence": 39,
+        "bbox": {
+          "x": 150,
+          "y": 3654,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "\\ A Ee pS =SSSl Ee a ===: == 2) X",
+        "confidence": 39,
+        "bbox": {
+          "x": 150,
+          "y": 3822,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "\\ Se TT ee eee = a",
+        "confidence": 39,
+        "bbox": {
+          "x": 150,
+          "y": 3990,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "\\ ae Sea x",
+        "confidence": 39,
+        "bbox": {
+          "x": 150,
+          "y": 4158,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "5 Eas — ===. A",
+        "confidence": 39,
+        "bbox": {
+          "x": 150,
+          "y": 4326,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "——— ree == -",
+        "confidence": 39,
+        "bbox": {
+          "x": 150,
+          "y": 4494,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "2 x i ) bh",
+        "confidence": 39,
+        "bbox": {
+          "x": 150,
+          "y": 4662,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "Hinh 10.6 Hinh anh m6 phdng Cong vién Tao cho thay quy md cla toa nha nay, trong dé cé6 mét nha an bén tang.",
+        "confidence": 39,
+        "bbox": {
+          "x": 150,
+          "y": 4830,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "(ngudn: Ban quyén Bai hoc Gao, Md Sdch, theo gidy phép CC BY NC-SA 4.0)",
+        "confidence": 39,
+        "bbox": {
+          "x": 150,
+          "y": 4998,
+          "w": 1200,
+          "h": 84
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": [
+        "nc-sa"
+      ]
+    },
+    "validationAttempt": 3
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

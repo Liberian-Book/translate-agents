@@ -239,7 +239,7 @@
     {
       "source": "Pre-Launch « Small market | + Build market + Plan for + Redesign or",
       "normalizedSource": "Pre-Launch « Small market | + Build market + Plan for + Redesign or",
-      "target": "Trước khi ra mắt « Thị trường nhỏ | + Xây dựng thị trường + Lập kế hoạch cho + Thiết kế lại hoặc",
+      "target": "Trước khi ra mắt « Thị trường nhỏ | + Xây dựng thị trường + Kế hoạch cho + Thiết kế lại hoặc",
       "bbox": {
         "x": 130,
         "y": 238,
@@ -251,7 +251,7 @@
     {
       "source": "+ Discovery entry and scale future create new",
       "normalizedSource": "+ Discovery entry and scale future create new",
-      "target": "+ Khám phá đầu vào và quy mô tương lai tạo ra mới",
+      "target": "+ Khám phá đầu vào và quy mô tương lai tạo mới",
       "bbox": {
         "x": 130,
         "y": 374,
@@ -263,7 +263,7 @@
     {
       "source": "+ Research * Manage, test, | to fit + Reap return venture",
       "normalizedSource": "+ Research * Manage, test, | to fit + Reap return venture",
-      "target": "+ Nghiên cứu * Quản lý, thử nghiệm, | để phù hợp + Thu hồi lợi nhuận từ dự án",
+      "target": "+ Nghiên cứu * Quản lý, thử nghiệm, | để phù hợp + Thu hồi lợi nhuận đầu tư",
       "bbox": {
         "x": 130,
         "y": 510,
@@ -275,7 +275,7 @@
     {
       "source": "+ Define and monitor |+ Manage, test, on investment;",
       "normalizedSource": "+ Define and monitor |+ Manage, test, on investment;",
-      "target": "+ Định nghĩa và giám sát | + Quản lý, thử nghiệm, trên đầu tư;",
+      "target": "+ Định nghĩa và theo dõi |+ Quản lý, thử nghiệm, trên đầu tư;",
       "bbox": {
         "x": 130,
         "y": 646,
@@ -287,7 +287,7 @@
     {
       "source": "Opportunity progress and monitor 1]",
       "normalizedSource": "Opportunity progress and monitor 1]",
-      "target": "Cơ hội tiến triển và giám sát 1]",
+      "target": "Cơ hội tiến triển và theo dõi 1]",
       "bbox": {
         "x": 130,
         "y": 782,
@@ -359,14 +359,14 @@
     {
       "source": "wv ad",
       "normalizedSource": "wv ad",
-      "target": "quảng cáo wv",
+      "target": "wv ad",
       "bbox": {
         "x": 130,
         "y": 1598,
         "w": 1042,
         "h": 68
       },
-      "overflow": true
+      "overflow": false
     },
     {
       "source": "mr",
@@ -482,6 +482,6 @@
     "textDensity": 1.346099775827349,
     "averageConfidence": 68,
     "entropy": 4.535749059830778,
-    "sharpness": 4.789480375847948
+    "sharpness": 4.789480375847945
   }
 }

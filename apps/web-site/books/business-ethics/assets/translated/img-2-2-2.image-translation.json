@@ -1,0 +1,314 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-2-2-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/2-2-ethical-advice-for-nobles-and-civil-servants-in-ancient-china.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-2-2-2.vi.png",
+  "ocr": [
+    {
+      "text": "EE LEK AR FES ER EE ). | +",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 73,
+        "w": 640,
+        "h": 49
+      }
+    },
+    {
+      "text": "ib BRE * hi 4 8 bE )",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 171,
+        "w": 640,
+        "h": 49
+      }
+    },
+    {
+      "text": "7 TRE EZ AC A PEE es oh AMIR 2] od 2 0 ht 1 CR i 2)",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 269,
+        "w": 640,
+        "h": 49
+      }
+    },
+    {
+      "text": "ERAT Bi jie 22 | A EF EA XE 07 4 SF Te AT",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 367,
+        "w": 640,
+        "h": 49
+      }
+    },
+    {
+      "text": "El rT EEN TIERS Al = (VE SET Es AE EEE I",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 465,
+        "w": 640,
+        "h": 49
+      }
+    },
+    {
+      "text": "5 HA ER CL AA CRIN iach",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 563,
+        "w": 640,
+        "h": 49
+      }
+    },
+    {
+      "text": "i eas 7 RARE REE im 27 i aE 2)",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 661,
+        "w": 640,
+        "h": 49
+      }
+    },
+    {
+      "text": "XE BONAR el 7 BE 2 FEE 2 dr",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 759,
+        "w": 640,
+        "h": 49
+      }
+    },
+    {
+      "text": "REAR O 7 Eide ml CM Ena VT T Edn yee",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 857,
+        "w": 640,
+        "h": 49
+      }
+    },
+    {
+      "text": "EW BF i Ee Leto Sluis 55 i sal LHS",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 955,
+        "w": 640,
+        "h": 49
+      }
+    },
+    {
+      "text": "RE 2 PAGE) Ee Tc OA 0 (0 mR 6 Fs A) mE a",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 1053,
+        "w": 640,
+        "h": 49
+      }
+    },
+    {
+      "text": "en TAZ |g aR Rlee rel | A218 RICE i",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 1151,
+        "w": 640,
+        "h": 49
+      }
+    },
+    {
+      "text": "geen EH EE 0 EE a O |",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 1249,
+        "w": 640,
+        "h": 49
+      }
+    },
+    {
+      "text": "rl Sl ERE re BE Ry a",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 1347,
+        "w": 640,
+        "h": 49
+      }
+    },
+    {
+      "text": "JTC 06 REC A RE 2% 15 73 EE SPR 1 ER)",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 1445,
+        "w": 640,
+        "h": 49
+      }
+    },
+    {
+      "text": "SFE mi SE (2 A TACK HAIR 22 1B 7 RNR VER A AR]",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 1543,
+        "w": 640,
+        "h": 49
+      }
+    },
+    {
+      "text": "Baws ERORRMENGNR RARKAS IS ne dave in el",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 1641,
+        "w": 640,
+        "h": 49
+      }
+    },
+    {
+      "text": "i ; iA] Ez Re KEL 5 JA A BER LARA O 43",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 1739,
+        "w": 640,
+        "h": 49
+      }
+    },
+    {
+      "text": "el Se TT ET rel AY",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 1837,
+        "w": 640,
+        "h": 49
+      }
+    },
+    {
+      "text": "86 ER LIRR) O ERE KH EY RE Of ie RF oF",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 1935,
+        "w": 640,
+        "h": 49
+      }
+    },
+    {
+      "text": "EAE pen SEL Dd El",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 2033,
+        "w": 640,
+        "h": 49
+      }
+    },
+    {
+      "text": "1 HE | a 8 q NL i",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 2131,
+        "w": 640,
+        "h": 49
+      }
+    },
+    {
+      "text": "hl tae EI Rh all UR",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 2229,
+        "w": 640,
+        "h": 49
+      }
+    },
+    {
+      "text": "Blo LEC 2 A ETI] SK 0 1) Ht Ham od",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 2327,
+        "w": 640,
+        "h": 49
+      }
+    },
+    {
+      "text": "ZH I | mt JE | es eA 0 4 ER AA 1%",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 2425,
+        "w": 640,
+        "h": 49
+      }
+    },
+    {
+      "text": "MH eB OR PE",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 2523,
+        "w": 640,
+        "h": 49
+      }
+    },
+    {
+      "text": "| Ee Ia = 4 BU SEE Tiga Pr BE | iE",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 2621,
+        "w": 640,
+        "h": 49
+      }
+    },
+    {
+      "text": "RA BB 2 eT GT 16 1H A EA 7 40 Fu",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 2719,
+        "w": 640,
+        "h": 49
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A piece of bamboo has Chinese characters written in ink that are organized into columns.\nButton label: Click to enlarge image of A piece of bamboo has Chinese characters written in ink that are organized into columns.\nEnglish caption: Figure 2.5 The Analects of Confucius is a collection of Confucius’s teachings and sayings regarding the virtuous life and how to attain harmony. They were compiled by his followers and written with ink and brush on strips of bamboo. (credit: “Rongo Analects 02” by “Fukutaro”/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 1.7963993453355156,
+    "averageConfidence": 29,
+    "entropy": 6.9733289848591085,
+    "sharpness": 6.053397211847651
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

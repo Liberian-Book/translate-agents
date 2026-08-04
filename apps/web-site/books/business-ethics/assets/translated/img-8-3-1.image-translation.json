@@ -1,0 +1,17 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-8-3-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/8-3-sexual-identification-and-orientation.html",
+  "decision": "error",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "not-classified"
+  },
+  "reason": "fetch failed",
+  "outputImage": null,
+  "ocr": [],
+  "translations": [],
+  "imageContext": "Image alt: A map of the United States is titled “States the Prohibit Sexual Orientation Discrimination.” The states are colored in to show states that prohibit sexual orientation discrimination in public and private workplaces. States that prohibit sexual orientation discrimination in both private and public workplaces are California, Colorado, Connecticut, Hawaii, Illinois, Iowa, Maine, Maryland, Massachusetts, Minnesota, Nevada, New Hampshire, New Jersey, New Mexico, New York, Oregon, Rhode Island, Vermont, Washington, and Wisconsin. States that prohibit sexual orientation discrimination in public workplaces are Delaware, Indiana, Michigan, Montana, and Pennsylvania.\nButton label: Click to enlarge image of A map of the United States is titled “States the Prohibit Sexual Orientation Discrimination.” The states are colored in to show states that prohibit sexual orientation discrimination in public and private workplaces. States that prohibit sexual orientation discrimination in both private and public workplaces are California, Colorado, Connecticut, Hawaii, Illinois, Iowa, Maine, Maryland, Massachusetts, Minnesota, Nevada, New Hampshire, New Jersey, New Mexico, New York, Oregon, Rhode Island, Vermont, Washington, and Wisconsin. States that prohibit sexual orientation discrimination in public workplaces are Delaware, Indiana, Michigan, Montana, and Pennsylvania.\nEnglish caption: Figure 8.7 In addition to federal laws, many states have laws that provide protections and guarantees to LGBTQ people. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)"
+}

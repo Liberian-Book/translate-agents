@@ -1,0 +1,44 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-11-3-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/11-3-becoming-an-ethical-professional.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Bar 8",
+      "confidence": 53,
+      "bbox": {
+        "x": 80,
+        "y": 64,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "= A A OF my I=",
+      "confidence": 53,
+      "bbox": {
+        "x": 80,
+        "y": 149,
+        "w": 640,
+        "h": 43
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This image shows a hand-painted sign that says “Abuse of power comes as no surprise.”\nButton label: Click to enlarge image of This image shows a hand-painted sign that says “Abuse of power comes as no surprise.”\nEnglish caption: Figure 11.6 Abuse of power may not come as a surprise, but it should not be “business as usual.” A firm should balance profitability with responsibility to society in a way that lifts the communities and neighborhoods of which we are part. (credit: modification of “Los Angeles Women's March (Unsplash)” by Samantha Sophia/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 0.12908067542213883,
+    "averageConfidence": 53,
+    "entropy": 5.940892416765564,
+    "sharpness": 3.9175211068072815
+  }
+}

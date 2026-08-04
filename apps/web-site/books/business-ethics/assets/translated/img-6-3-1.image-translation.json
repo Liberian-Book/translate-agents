@@ -1,0 +1,214 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-6-3-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/6-3-an-organized-workforce.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-6-3-1.vi.png",
+  "ocr": [
+    {
+      "text": ". States with Right-to-Work Laws",
+      "confidence": 48,
+      "bbox": {
+        "x": 130,
+        "y": 107,
+        "w": 1040,
+        "h": 71
+      }
+    },
+    {
+      "text": "2. Pa",
+      "confidence": 48,
+      "bbox": {
+        "x": 130,
+        "y": 249,
+        "w": 1040,
+        "h": 71
+      }
+    },
+    {
+      "text": "Ta :",
+      "confidence": 48,
+      "bbox": {
+        "x": 130,
+        "y": 391,
+        "w": 1040,
+        "h": 71
+      }
+    },
+    {
+      "text": "Cp (TB ’",
+      "confidence": 48,
+      "bbox": {
+        "x": 130,
+        "y": 533,
+        "w": 1040,
+        "h": 71
+      }
+    },
+    {
+      "text": "Ny DC",
+      "confidence": 48,
+      "bbox": {
+        "x": 130,
+        "y": 675,
+        "w": 1040,
+        "h": 71
+      }
+    },
+    {
+      "text": "oa) 2",
+      "confidence": 48,
+      "bbox": {
+        "x": 130,
+        "y": 817,
+        "w": 1040,
+        "h": 71
+      }
+    },
+    {
+      "text": "BEEN",
+      "confidence": 48,
+      "bbox": {
+        "x": 130,
+        "y": 959,
+        "w": 1040,
+        "h": 71
+      }
+    },
+    {
+      "text": "- States with",
+      "confidence": 48,
+      "bbox": {
+        "x": 130,
+        "y": 1101,
+        "w": 1040,
+        "h": 71
+      }
+    },
+    {
+      "text": "j right-to-work",
+      "confidence": 48,
+      "bbox": {
+        "x": 130,
+        "y": 1243,
+        "w": 1040,
+        "h": 71
+      }
+    },
+    {
+      "text": "i laws",
+      "confidence": 48,
+      "bbox": {
+        "x": 130,
+        "y": 1385,
+        "w": 1040,
+        "h": 71
+      }
+    },
+    {
+      "text": "IN { oy La States without",
+      "confidence": 48,
+      "bbox": {
+        "x": 130,
+        "y": 1527,
+        "w": 1040,
+        "h": 71
+      }
+    },
+    {
+      "text": ". Lo ¥ TPS \\ right-to-work",
+      "confidence": 48,
+      "bbox": {
+        "x": 130,
+        "y": 1669,
+        "w": 1040,
+        "h": 71
+      }
+    },
+    {
+      "text": ". N'Y Sa 7 ’ taws",
+      "confidence": 48,
+      "bbox": {
+        "x": 130,
+        "y": 1811,
+        "w": 1040,
+        "h": 71
+      }
+    },
+    {
+      "text": "i Wa ¥,",
+      "confidence": 48,
+      "bbox": {
+        "x": 130,
+        "y": 1953,
+        "w": 1040,
+        "h": 71
+      }
+    },
+    {
+      "text": "P< he > { 9",
+      "confidence": 48,
+      "bbox": {
+        "x": 130,
+        "y": 2095,
+        "w": 1040,
+        "h": 71
+      }
+    },
+    {
+      "text": "Aor Js",
+      "confidence": 48,
+      "bbox": {
+        "x": 130,
+        "y": 2237,
+        "w": 1040,
+        "h": 71
+      }
+    },
+    {
+      "text": "Source: National Conference of State Legislatures. “Right-to-Work Resources.” http://www.ncsl.org/research/labor-and-employment/right-to-",
+      "confidence": 48,
+      "bbox": {
+        "x": 130,
+        "y": 2379,
+        "w": 1040,
+        "h": 71
+      }
+    },
+    {
+      "text": "work-laws-and-bills.aspx.",
+      "confidence": 48,
+      "bbox": {
+        "x": 130,
+        "y": 2521,
+        "w": 1040,
+        "h": 71
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A map of the United States is titled “States with Right-to-Work Laws.” The states with right-to-work laws are Nevada, Idaho, Utah, Arizona, Wyoming, North Dakota, South Dakota, Nebraska, Kansas, Oklahoma, Texas, Iowa, Missouri, Arkansas, Louisiana, Mississippi, Alabama, Tennessee, Kentucky, Indianapolis, Michigan, Wisconsin, West Virginia, Virginia, North Carolina, South Carolina, Georgia, and Florida. The states without right-to-work laws are Alaska, Hawaii, Washington, Oregon, California, Montana, Colorado, New Mexico, Minnesota, Illinois, Ohio, Main, Vermont, New Hampshire, Massachusetts, Connecticut, Rhode Island, New York, New Jersey, Pennsylvania, Maryland, Delaware, and Washington, DC.\nButton label: Click to enlarge image of A map of the United States is titled “States with Right-to-Work Laws.” The states with right-to-work laws are Nevada, Idaho, Utah, Arizona, Wyoming, North Dakota, South Dakota, Nebraska, Kansas, Oklahoma, Texas, Iowa, Missouri, Arkansas, Louisiana, Mississippi, Alabama, Tennessee, Kentucky, Indianapolis, Michigan, Wisconsin, West Virginia, Virginia, North Carolina, South Carolina, Georgia, and Florida. The states without right-to-work laws are Alaska, Hawaii, Washington, Oregon, California, Montana, Colorado, New Mexico, Minnesota, Illinois, Ohio, Main, Vermont, New Hampshire, Massachusetts, Connecticut, Rhode Island, New York, New Jersey, Pennsylvania, Maryland, Delaware, and Washington, DC.\nEnglish caption: Figure 6.10 Right-to-work states have typically been clustered in the South and Southeast, where unions have been traditionally less prevalent. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 1.1500562429696288,
+    "averageConfidence": 48,
+    "entropy": 3.091567488378132,
+    "sharpness": 5.616915480398203
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

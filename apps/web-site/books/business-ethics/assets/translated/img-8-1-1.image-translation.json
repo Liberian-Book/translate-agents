@@ -1,0 +1,17 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-8-1-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/8-1-diversity-and-inclusion-in-the-workforce.html",
+  "decision": "error",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "not-classified"
+  },
+  "reason": "fetch failed",
+  "outputImage": null,
+  "ocr": [],
+  "translations": [],
+  "imageContext": "Image alt: This graphic shows four pie charts. Two are titled “Workforce Makeup by Race, 2010 to 2050” and two are titled “Workforce Makeup by Ethnicity, 2010 to 2050.” For workforce makeup by race, the left chart is for 2010 and is broken down into 81 percent White, 12 percent Black, 5 percent Asian, and 2 percent all other. The right chart is for projected 2050 and is broken down into 75 percent White, 12 percent Black, 8 percent Asian, and 5 percent all other. For workforce makeup by ethnicity, the left chart is for 2010 and is broken down into 85 percent non-Hispanic and 15 percent Hispanic. The right chart is for projected 2050 and is broken down into 70 percent non-Hispanic and 30 percent Hispanic.\nButton label: Click to enlarge image of This graphic shows four pie charts. Two are titled “Workforce Makeup by Race, 2010 to 2050” and two are titled “Workforce Makeup by Ethnicity, 2010 to 2050.” For workforce makeup by race, the left chart is for 2010 and is broken down into 81 percent White, 12 percent Black, 5 percent Asian, and 2 percent all other. The right chart is for projected 2050 and is broken down into 75 percent White, 12 percent Black, 8 percent Asian, and 5 percent all other. For workforce makeup by ethnicity, the left chart is for 2010 and is broken down into 85 percent non-Hispanic and 15 percent Hispanic. The right chart is for projected 2050 and is broken down into 70 percent non-Hispanic and 30 percent Hispanic.\nEnglish caption: Figure 8.2 There is a distinct contrast in workforce demographics between 2010 and projected numbers for 2050. (credit: attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)"
+}

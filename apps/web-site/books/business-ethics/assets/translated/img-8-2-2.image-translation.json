@@ -1,0 +1,17 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-8-2-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/8-2-accommodating-different-abilities-and-faiths.html",
+  "decision": "error",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "not-classified"
+  },
+  "reason": "fetch failed",
+  "outputImage": null,
+  "ocr": [],
+  "translations": [],
+  "imageContext": "Image alt: This graphic is a 2019 calendar showing all 12 months. Holidays and observances are shaded in on the calendar. Shaded in federal U.S. holidays are New Year’s Day on January 1, Martin Luther King Jr. Day on January 21, Presidents’ Day on February 18, Memorial Day on May 27, Independence Day on July 4, Labor Day on September 2, Columbus/Indigenous Peoples’ Day on October 14, Veterans Day on November 11, Thanksgiving on November 28, and Christmas on December 25. Other shaded in holidays are Lunar New Year on February 5, Pesach/Passover from April 20 to April 27, Good Friday on April 19, Easter on April 21, Orthodox Easter on April 28, Ramadan from May 6 to June 4, Laylat al-Qadr from May 31 to June 1, Eid al-Fitr from June 3 to June 4, Juneteenth on June 19, Rosh Hashanah on September 30 to October 1, Yom Kippur on October 9, Diwali on October 23, and Chanukah from December 23 to December 30.\nButton label: Click to enlarge image of This graphic is a 2019 calendar showing all 12 months. Holidays and observances are shaded in on the calendar. Shaded in federal U.S. holidays are New Year’s Day on January 1, Martin Luther King Jr. Day on January 21, Presidents’ Day on February 18, Memorial Day on May 27, Independence Day on July 4, Labor Day on September 2, Columbus/Indigenous Peoples’ Day on October 14, Veterans Day on November 11, Thanksgiving on November 28, and Christmas on December 25. Other shaded in holidays are Lunar New Year on February 5, Pesach/Passover from April 20 to April 27, Good Friday on April 19, Easter on April 21, Orthodox Easter on April 28, Ramadan from May 6 to June 4, Laylat al-Qadr from May 31 to June 1, Eid al-Fitr from June 3 to June 4, Juneteenth on June 19, Rosh Hashanah on September 30 to October 1, Yom Kippur on October 9, Diwali on October 23, and Chanukah from December 23 to December 30.\nEnglish caption: Figure 8.6 This calendar shows the significant number of holidays and observances an employer must consider with regard to time-off policies, including holidays of the three major religions, secular days, and other traditional days off. It may be a challenge to give everyone all preferred days off. (credit: modification of “2019 Calendar” by “Firkin”/openclipart, Public Domain)"
+}

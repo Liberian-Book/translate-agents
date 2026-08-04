@@ -1,0 +1,264 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-6-4-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/6-4-privacy-in-the-workplace.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-6-4-1.vi.png",
+  "ocr": [
+    {
+      "text": "Lsmarl - Lompose Mall = accountsnipgmail.com = Mozilla Firefox (Private Biowsing)l _=15lx]",
+      "confidence": 44,
+      "bbox": {
+        "x": 110,
+        "y": 54,
+        "w": 880,
+        "h": 36
+      }
+    },
+    {
+      "text": "(gd (© CX [CR ree ceogeconinat iam sete rama [ IE BEE—s",
+      "confidence": 44,
+      "bbox": {
+        "x": 110,
+        "y": 126,
+        "w": 880,
+        "h": 36
+      }
+    },
+    {
+      "text": "Ie",
+      "confidence": 44,
+      "bbox": {
+        "x": 110,
+        "y": 198,
+        "w": 880,
+        "h": 36
+      }
+    },
+    {
+      "text": "bas To: DealsrRoom@wal stroettrace. cc E",
+      "confidence": 44,
+      "bbox": {
+        "x": 110,
+        "y": 270,
+        "w": 880,
+        "h": 36
+      }
+    },
+    {
+      "text": "Stand",
+      "confidence": 44,
+      "bbox": {
+        "x": 110,
+        "y": 342,
+        "w": 880,
+        "h": 36
+      }
+    },
+    {
+      "text": "Chats Add Ce | Add Box.",
+      "confidence": 44,
+      "bbox": {
+        "x": 110,
+        "y": 414,
+        "w": 880,
+        "h": 36
+      }
+    },
+    {
+      "text": "; su wee Coe ||",
+      "confidence": 44,
+      "bbox": {
+        "x": 110,
+        "y": 486,
+        "w": 880,
+        "h": 36
+      }
+    },
+    {
+      "text": "i yl # susch ste",
+      "confidence": 44,
+      "bbox": {
+        "x": 110,
+        "y": 558,
+        "w": 880,
+        "h": 36
+      }
+    },
+    {
+      "text": "wg Py = BIUFT RD E@EEEEGES Cekspeligy",
+      "confidence": 44,
+      "bbox": {
+        "x": 110,
+        "y": 630,
+        "w": 880,
+        "h": 36
+      }
+    },
+    {
+      "text": "= a in = «Blain Tex;",
+      "confidence": 44,
+      "bbox": {
+        "x": 110,
+        "y": 702,
+        "w": 880,
+        "h": 36
+      }
+    },
+    {
+      "text": "a < bear Hagen",
+      "confidence": 44,
+      "bbox": {
+        "x": 110,
+        "y": 774,
+        "w": 880,
+        "h": 36
+      }
+    },
+    {
+      "text": "5 his Holl Jon,",
+      "confidence": 44,
+      "bbox": {
+        "x": 110,
+        "y": 846,
+        "w": 880,
+        "h": 36
+      }
+    },
+    {
+      "text": "AR Tess Plans buy 1000 stock shores of cu company",
+      "confidence": 44,
+      "bbox": {
+        "x": 110,
+        "y": 918,
+        "w": 880,
+        "h": 36
+      }
+    },
+    {
+      "text": "Doe nk anys, sacacee | wi db ha sock",
+      "confidence": 44,
+      "bbox": {
+        "x": 110,
+        "y": 990,
+        "w": 880,
+        "h": 36
+      }
+    },
+    {
+      "text": "4 = And ofcourse it is illegal lo trade stock with pre knovdedge -)",
+      "confidence": 44,
+      "bbox": {
+        "x": 110,
+        "y": 1062,
+        "w": 880,
+        "h": 36
+      }
+    },
+    {
+      "text": "4 Tom rm] | Use my ccd ber",
+      "confidence": 44,
+      "bbox": {
+        "x": 110,
+        "y": 1134,
+        "w": 880,
+        "h": 36
+      }
+    },
+    {
+      "text": "234 Sk78 3 47",
+      "confidence": 44,
+      "bbox": {
+        "x": 110,
+        "y": 1206,
+        "w": 880,
+        "h": 36
+      }
+    },
+    {
+      "text": "e 7 which vis 1070",
+      "confidence": 44,
+      "bbox": {
+        "x": 110,
+        "y": 1278,
+        "w": 880,
+        "h": 36
+      }
+    },
+    {
+      "text": "- bt a end The secur code on th bc : 123.",
+      "confidence": 44,
+      "bbox": {
+        "x": 110,
+        "y": 1350,
+        "w": 880,
+        "h": 36
+      }
+    },
+    {
+      "text": "oie Gra t: ate",
+      "confidence": 44,
+      "bbox": {
+        "x": 110,
+        "y": 1422,
+        "w": 880,
+        "h": 36
+      }
+    },
+    {
+      "text": "in sme",
+      "confidence": 44,
+      "bbox": {
+        "x": 110,
+        "y": 1494,
+        "w": 880,
+        "h": 36
+      }
+    },
+    {
+      "text": "[ome",
+      "confidence": 44,
+      "bbox": {
+        "x": 110,
+        "y": 1566,
+        "w": 880,
+        "h": 36
+      }
+    },
+    {
+      "text": "| @stort| @ seal canpose eai-te..| Be Bam",
+      "confidence": 44,
+      "bbox": {
+        "x": 110,
+        "y": 1638,
+        "w": 880,
+        "h": 36
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: Left shows a surveillance camera. Right shows an e-mail sharing insider information about a stock purchase.\nButton label: Click to enlarge image of Left shows a surveillance camera. Right shows an e-mail sharing insider information about a stock purchase.\nEnglish caption: Figure 6.14 Electronic monitoring often captures data from cameras, computers, and listening devices. This information can then be used against employees accused of violating company policy, raising privacy concerns. (credit left: modification of “Surveillance video cameras, Gdynia” by Paweł Zdziarski/Wikimedia Commons, CC 2.5; credit right: credit: modification of “Keylogger-screen-capture-example” by \"FlippyFlink\"/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 1.4785714285714286,
+    "averageConfidence": 44,
+    "entropy": 5.682630659168353,
+    "sharpness": 6.924036907446029
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

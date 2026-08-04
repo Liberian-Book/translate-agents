@@ -1,0 +1,178 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-10-1-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/10-1-more-telecommuting-or-less.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "image-edit-leftover-source-english",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Percentage of Employers Offering Telework Options",
+      "confidence": 90,
+      "bbox": {
+        "x": 130,
+        "y": 35,
+        "w": 1040,
+        "h": 24
+      }
+    },
+    {
+      "text": "United China India dbl France German",
+      "confidence": 90,
+      "bbox": {
+        "x": 130,
+        "y": 82,
+        "w": 1040,
+        "h": 24
+      }
+    },
+    {
+      "text": "States Kingdom y",
+      "confidence": 90,
+      "bbox": {
+        "x": 130,
+        "y": 129,
+        "w": 1040,
+        "h": 24
+      }
+    },
+    {
+      "text": "Source: Hess, Ken. “Death of the Office and Rise of the Telecommuter.” Consumerization: BYOD. ZD Net. June 2, 2014. (Some data from Intuit.)",
+      "confidence": 90,
+      "bbox": {
+        "x": 130,
+        "y": 176,
+        "w": 1040,
+        "h": 24
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Percentage of Employers Offering Telework Options",
+      "normalizedSource": "Percentage of Employers Offering Telework Options",
+      "target": "Tỷ lệ nhà tuyển dụng cung cấp tùy chọn làm việc từ xa",
+      "bbox": {
+        "x": 130,
+        "y": 35,
+        "w": 1040,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "United China India dbl France German",
+      "normalizedSource": "United China India dbl France German",
+      "target": "Mỹ Trung Ấn Độ Pháp Đức",
+      "bbox": {
+        "x": 130,
+        "y": 82,
+        "w": 1040,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "States Kingdom y",
+      "normalizedSource": "States Kingdom y",
+      "target": "Vương quốc Anh",
+      "bbox": {
+        "x": 130,
+        "y": 129,
+        "w": 1040,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "Source: Hess, Ken. “Death of the Office and Rise of the Telecommuter.” Consumerization: BYOD. ZD Net. June 2, 2014. (Some data from Intuit.)",
+      "normalizedSource": "Source: Hess, Ken. “Death of the Office and Rise of the Telecommuter.” Consumerization: BYOD. ZD Net. June 2, 2014. (Some data from Intuit.)",
+      "target": "Nguồn: Hess, Ken. “Cái chết của văn phòng và sự trỗi dậy của người làm việc từ xa.” Consumerization: BYOD. ZD Net. Ngày 2 tháng 6 năm 2014. (Một số dữ liệu từ Intuit.)",
+      "bbox": {
+        "x": 130,
+        "y": 176,
+        "w": 1040,
+        "h": 24
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: This graphic is titled “Percentage of Employers Offering Telework Options.” It shows six circle charts in a row. From left to right they are United States, 90 percent; China, 85 percent; India, 77 percent; United Kingdom, 72 percent; France, 71 percent; and Germany 71 percent.\nButton label: Click to enlarge image of This graphic is titled “Percentage of Employers Offering Telework Options.” It shows six circle charts in a row. From left to right they are United States, 90 percent; China, 85 percent; India, 77 percent; United Kingdom, 72 percent; France, 71 percent; and Germany 71 percent.\nEnglish caption: Figure 10.2 As more employers provide the opportunity for telework, fewer people are commuting to a corporate office every day. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.2612244897959184,
+    "averageConfidence": 90,
+    "entropy": 3.1284127201652154,
+    "sharpness": 5.490388762744463
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: This graphic is titled “Percentage of Employers Offering Telework Options.” It shows six circle charts in a row. From left to right they are United States, 90 percent; China, 85 percent; India, 77 percent; United Kingdom, 72 percent; France, 71 percent; and Germany 71 percent.\nButton label: Click to enlarge image of This graphic is titled “Percentage of Employers Offering Telework Options.” It shows six circle charts in a row. From left to right they are United States, 90 percent; China, 85 percent; India, 77 percent; United Kingdom, 72 percent; France, 71 percent; and Germany 71 percent.\nEnglish caption: Figure 10.2 As more employers provide the opportunity for telework, fewer people are commuting to a corporate office every day. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Percentage of Employers Offering Telework Options => Tỷ lệ nhà tuyển dụng cung cấp tùy chọn làm việc từ xa\n- United China India dbl France German => Mỹ Trung Ấn Độ Pháp Đức\n- States Kingdom y => Vương quốc Anh\n- Source: Hess, Ken. “Death of the Office and Rise of the Telecommuter.” Consumerization: BYOD. ZD Net. June 2, 2014. (Some data from Intuit.) => Nguồn: Hess, Ken. “Cái chết của văn phòng và sự trỗi dậy của người làm việc từ xa.” Consumerization: BYOD. ZD Net. Ngày 2 tháng 6 năm 2014. (Một số dữ liệu từ Intuit.)\nPrevious output was rejected because these English source words were still visible: hess, consumerization, intuit. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Ty |& nha tuyén dung cung cap tly chon lam viéc tir xa",
+        "confidence": 74,
+        "bbox": {
+          "x": 217,
+          "y": 87,
+          "w": 1738,
+          "h": 58
+        }
+      },
+      {
+        "text": "My Trung AnDo oe Php Dic",
+        "confidence": 74,
+        "bbox": {
+          "x": 217,
+          "y": 203,
+          "w": 1738,
+          "h": 58
+        }
+      },
+      {
+        "text": ": Anh",
+        "confidence": 74,
+        "bbox": {
+          "x": 217,
+          "y": 319,
+          "w": 1738,
+          "h": 58
+        }
+      },
+      {
+        "text": "Nguén: Hess, Ken. “Cai chét clia vin phong va su tri day cia ngudi 1am viéc tir xa.” Tiéu dung héa cong nghé thdng tin: BYOD. ZD Net. Ngay 2 thang 6 nim 2014.",
+        "confidence": 74,
+        "bbox": {
+          "x": 217,
+          "y": 435,
+          "w": 1738,
+          "h": 58
+        }
+      },
+      {
+        "text": "(Mbt s6 dit liéu tir Intuit.)",
+        "confidence": 74,
+        "bbox": {
+          "x": 217,
+          "y": 551,
+          "w": 1738,
+          "h": 58
+        }
+      }
+    ],
+    "validation": {
+      "ok": false,
+      "reason": "image-edit-leftover-source-english",
+      "leftoverSourceWords": [
+        "hess",
+        "byod",
+        "intuit"
+      ]
+    },
+    "validationAttempt": 3
+  }
+}

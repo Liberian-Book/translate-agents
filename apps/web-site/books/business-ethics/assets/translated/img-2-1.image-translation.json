@@ -1,0 +1,34 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-2-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/2-introduction.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "df",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 86,
+        "w": 1400,
+        "h": 57
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A photo of a statue depicting the figure of Justice.\nButton label: Click to enlarge image of A photo of a statue depicting the figure of Justice.\nEnglish caption: Figure 2.1 Their accuracy and practical use in the marketplace made scales, held aloft here by the figure of Justice in Bruges, Belgium, a common symbol in jurisprudence and law in the East and the West. Even today, the concept of counterbalancing different ideas and philosophies underlies many approaches to the law and ethics. (credit: modification of “Golden Lady Justice” by Emmanuel Huybrechts/Flickr, CC BY 2.0)",
+  "metrics": {
+    "textDensity": 0.06350974930362117,
+    "averageConfidence": 26,
+    "entropy": 5.576757052720495,
+    "sharpness": 1.32567580595817
+  }
+}

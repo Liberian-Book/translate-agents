@@ -1,0 +1,471 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-10-2-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/10-2-workplace-campuses.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "image-edit-leftover-source-english",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "AAR»",
+      "confidence": 27,
+      "bbox": {
+        "x": 80,
+        "y": 72,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "des fr § PR all io",
+      "confidence": 27,
+      "bbox": {
+        "x": 80,
+        "y": 168,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "wi TERE",
+      "confidence": 27,
+      "bbox": {
+        "x": 80,
+        "y": 264,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "AFH oud] 58 Ar as",
+      "confidence": 27,
+      "bbox": {
+        "x": 80,
+        "y": 360,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "Mii 1 ra dei a |",
+      "confidence": 27,
+      "bbox": {
+        "x": 80,
+        "y": 456,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "ant WHEL Gn Cals",
+      "confidence": 27,
+      "bbox": {
+        "x": 80,
+        "y": 552,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "% ui Wak ES | $F | GAT",
+      "confidence": 27,
+      "bbox": {
+        "x": 80,
+        "y": 648,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "; EE Tog Ea] i ff",
+      "confidence": 27,
+      "bbox": {
+        "x": 80,
+        "y": 744,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "h ih “ul x Won ied wiih oo ; = 1h",
+      "confidence": 27,
+      "bbox": {
+        "x": 80,
+        "y": 840,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "Ee? gh: } Bi <a. os Te",
+      "confidence": 27,
+      "bbox": {
+        "x": 80,
+        "y": 936,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "Ee past pslY LcAt",
+      "confidence": 27,
+      "bbox": {
+        "x": 80,
+        "y": 1032,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "Tine elt a",
+      "confidence": 27,
+      "bbox": {
+        "x": 80,
+        "y": 1128,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "SN v Eall gaat Siu",
+      "confidence": 27,
+      "bbox": {
+        "x": 80,
+        "y": 1224,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "3 N \\ - A f gp? 3 | & L |",
+      "confidence": 27,
+      "bbox": {
+        "x": 80,
+        "y": 1320,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "aN er",
+      "confidence": 27,
+      "bbox": {
+        "x": 80,
+        "y": 1416,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "io NR: anim =",
+      "confidence": 27,
+      "bbox": {
+        "x": 80,
+        "y": 1512,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "D Nes dnly og fa",
+      "confidence": 27,
+      "bbox": {
+        "x": 80,
+        "y": 1608,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "4 & Ts",
+      "confidence": 27,
+      "bbox": {
+        "x": 80,
+        "y": 1704,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "h : CAT 3",
+      "confidence": 27,
+      "bbox": {
+        "x": 80,
+        "y": 1800,
+        "w": 640,
+        "h": 48
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This photo shows a garden next to a building with benches and walkways.\nButton label: Click to enlarge image of This photo shows a garden next to a building with benches and walkways.\nEnglish caption: Figure 10.5 This herb garden at the Googleplex, Google’s headquarters, is an outdoor area where workers can sit and contemplate nature. The garden is part of a farm-to-table program to teach Googlers about how their food is grown. (credit: “Googleplex” by Pamela Carls/Flickr, CC BY 2.0)",
+  "metrics": {
+    "textDensity": 1.216,
+    "averageConfidence": 27,
+    "entropy": 7.443391716908081,
+    "sharpness": 5.31383662142966
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: This photo shows a garden next to a building with benches and walkways.\nButton label: Click to enlarge image of This photo shows a garden next to a building with benches and walkways.\nEnglish caption: Figure 10.5 This herb garden at the Googleplex, Google’s headquarters, is an outdoor area where workers can sit and contemplate nature. The garden is part of a farm-to-table program to teach Googlers about how their food is grown. (credit: “Googleplex” by Pamela Carls/Flickr, CC BY 2.0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: google, pamela, carls, flickr. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "FT. I= =)",
+        "confidence": 42,
+        "bbox": {
+          "x": 145,
+          "y": 130,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "AT! LI | Jl ph 2",
+        "confidence": 42,
+        "bbox": {
+          "x": 145,
+          "y": 304,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "Cig ” 2 —",
+        "confidence": 42,
+        "bbox": {
+          "x": 145,
+          "y": 478,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "fF i dl i B FE 7g Ed - $2",
+        "confidence": 42,
+        "bbox": {
+          "x": 145,
+          "y": 652,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "[ i Lg alg a (BN gl y.. | ei cl",
+        "confidence": 42,
+        "bbox": {
+          "x": 145,
+          "y": 826,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "ETE ES VTA ge die ee",
+        "confidence": 42,
+        "bbox": {
+          "x": 145,
+          "y": 1000,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "— Bh yo i | i | ble l rs gs / li | i A",
+        "confidence": 42,
+        "bbox": {
+          "x": 145,
+          "y": 1174,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "wid Et ES BU (| J",
+        "confidence": 42,
+        "bbox": {
+          "x": 145,
+          "y": 1348,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "—Y.1 Hi og Rupe d WE mr Femme § 1 l",
+        "confidence": 42,
+        "bbox": {
+          "x": 145,
+          "y": 1522,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "i bd A et { i! w | i - i { af a Jil IL 9 RN yf ! Pr lo",
+        "confidence": 42,
+        "bbox": {
+          "x": 145,
+          "y": 1696,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "Bi 08S Jbl Bal Flys, WIL TH SN = ie ill",
+        "confidence": 42,
+        "bbox": {
+          "x": 145,
+          "y": 1870,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "el i} amg « fami EE CNC PE LAY",
+        "confidence": 42,
+        "bbox": {
+          "x": 145,
+          "y": 2044,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "Cora en AI oO eNES",
+        "confidence": 42,
+        "bbox": {
+          "x": 145,
+          "y": 2218,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "i Th iy ol a RARE ES rr aati 4",
+        "confidence": 42,
+        "bbox": {
+          "x": 145,
+          "y": 2392,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "Jy He LE AEE S-« : ]",
+        "confidence": 42,
+        "bbox": {
+          "x": 145,
+          "y": 2566,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "ZEENT dm al G { »",
+        "confidence": 42,
+        "bbox": {
+          "x": 145,
+          "y": 2740,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "CHR |\" SSR Ep 4",
+        "confidence": 42,
+        "bbox": {
+          "x": 145,
+          "y": 2914,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "S 2 z ~ % \\ 1 25 |] “he Le i r == 4",
+        "confidence": 42,
+        "bbox": {
+          "x": 145,
+          "y": 3088,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "Rigs \\ HR ae IR 8",
+        "confidence": 42,
+        "bbox": {
+          "x": 145,
+          "y": 3262,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "NE © e 3 are 4 =",
+        "confidence": 42,
+        "bbox": {
+          "x": 145,
+          "y": 3436,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "Hinh 10.5 Khu vuran thao mac nay tai Googleplex, tru s& cia Google, 1a mot khu vic ngoai trdi",
+        "confidence": 42,
+        "bbox": {
+          "x": 145,
+          "y": 3610,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "nai nhan vién c6 thé ngdi va chiém ngudng thién nhién. Khu vudn la mot phén cia chuang trinh tur",
+        "confidence": 42,
+        "bbox": {
+          "x": 145,
+          "y": 3784,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "ndng trai d&n ban &n nhdm giup Googler hiéu vé cach thie thyc phdm cla ho dugc trong.",
+        "confidence": 42,
+        "bbox": {
+          "x": 145,
+          "y": 3958,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "(ngudn: “Googleplex” cua Pamela Carls/Flickr, CC BY 2.0)",
+        "confidence": 42,
+        "bbox": {
+          "x": 145,
+          "y": 4132,
+          "w": 1158,
+          "h": 87
+        }
+      }
+    ],
+    "validation": {
+      "ok": false,
+      "reason": "image-edit-leftover-source-english",
+      "leftoverSourceWords": [
+        "googleplex",
+        "google",
+        "pamela",
+        "carls",
+        "flickr"
+      ]
+    },
+    "validationAttempt": 3
+  }
+}

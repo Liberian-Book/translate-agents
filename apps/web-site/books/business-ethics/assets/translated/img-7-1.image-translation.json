@@ -1,0 +1,174 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-7-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/7-introduction.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-7-1.vi.png",
+  "ocr": [
+    {
+      "text": "eas 3 Tors ss",
+      "confidence": 35,
+      "bbox": {
+        "x": 175,
+        "y": 86,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "ER AEA a",
+      "confidence": 35,
+      "bbox": {
+        "x": 175,
+        "y": 201,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "aE — . =",
+      "confidence": 35,
+      "bbox": {
+        "x": 175,
+        "y": 316,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "SN “= hy if x gos. * . L |",
+      "confidence": 35,
+      "bbox": {
+        "x": 175,
+        "y": 431,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "Pi IA wv © - 2 7",
+      "confidence": 35,
+      "bbox": {
+        "x": 175,
+        "y": 546,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "hi (ONT —— il",
+      "confidence": 35,
+      "bbox": {
+        "x": 175,
+        "y": 661,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "TREE ; ‘ms 27",
+      "confidence": 35,
+      "bbox": {
+        "x": 175,
+        "y": 776,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "A a Se \\ ih A pT 3%",
+      "confidence": 35,
+      "bbox": {
+        "x": 175,
+        "y": 891,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "ie 2 rn Fo —-— ui) SN J NY ul",
+      "confidence": 35,
+      "bbox": {
+        "x": 175,
+        "y": 1006,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "BN AS Hi hog os 'y : 7",
+      "confidence": 35,
+      "bbox": {
+        "x": 175,
+        "y": 1121,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "; re it US Fl) LER BN Ly vl 0",
+      "confidence": 35,
+      "bbox": {
+        "x": 175,
+        "y": 1236,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "A ge Pes ad if - al Z 4 # bi I Fa 1 I",
+      "confidence": 35,
+      "bbox": {
+        "x": 175,
+        "y": 1351,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "§ v Lee Ni LL",
+      "confidence": 35,
+      "bbox": {
+        "x": 175,
+        "y": 1466,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "4% nb ® | ~ yy NS — \\",
+      "confidence": 35,
+      "bbox": {
+        "x": 175,
+        "y": 1581,
+        "w": 1400,
+        "h": 57
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This is a collage of different photos showing employees doing their jobs, in a variety of workplaces. Clockwise from the top left: A room is filled with people at rows of desks with computers. People wearing chef outfits are around a table with cooking tools. People at a table are listening to someone writing on a board during a meeting. A room is filled with sewing machines in a row with people working at each machine. A person is working on a laptop outside. People are gathered in a circle and talking. A person wearing a construction hat and vest is using a jackhammer.\nButton label: Click to enlarge image of This is a collage of different photos showing employees doing their jobs, in a variety of workplaces. Clockwise from the top left: A room is filled with people at rows of desks with computers. People wearing chef outfits are around a table with cooking tools. People at a table are listening to someone writing on a board during a meeting. A room is filled with sewing machines in a row with people working at each machine. A person is working on a laptop outside. People are gathered in a circle and talking. A person wearing a construction hat and vest is using a jackhammer.\nEnglish caption: Figure 7.1 What responsibilities do employees have to coworkers and to the company, as well as to themselves, when they are on the job? (credit, clockwise from top left): modification of “Call Centre 2006” by “AaronY”/Wikimedia Commons, CC BY 2.0; credit: modification of “los bolleros” by Agustín Ruiz/Flickr, CC BY 2.0; credit: modification of “Training” by Cory Zanker/Flickr, CC BY 4.0; credit: modification of “Afghan women at a textile factory in Kabul” by Andrea Salazar/Wikimedia Commons, Public Domain; credit: modification of “GenoPheno” by Cory Zanker/Flickr, CC BY 4.0; credit: modification of “Group” by Cory Zanker/Flickr, CC BY 4.0; credit: modification of “doin’ work” by Nick Allen/Flickr, CC BY 2.0)",
+  "metrics": {
+    "textDensity": 0.8891364902506964,
+    "averageConfidence": 35,
+    "entropy": 7.59326420191428,
+    "sharpness": 2.313445976104759
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

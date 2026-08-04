@@ -11,6 +11,7 @@ const TRANSLATABLE_SELECTOR = '.vn.visible';
 const TRANSLATION_RETRIES = 2;
 const LEFTOVER_PHRASE_MIN_WORDS = 2;
 const LEFTOVER_PHRASE_MAX_WORDS = 5;
+const PROGRESS_PREFIX = '__CYBERK_TRANSLATE_PROGRESS__';
 const PRESERVED_LOWERCASE_LOANWORDS = new Set([
   'bacon',
   'cheddar',
@@ -144,6 +145,11 @@ function textFromHtml(html) {
   return $('root').text().replace(/\s+/g, ' ').trim();
 }
 
+function emitProgress(event) {
+  if (process.env.CYBERK_PROGRESS !== '1') return;
+  process.stdout.write(`${PROGRESS_PREFIX}${JSON.stringify(event)}\n`);
+}
+
 function normalizeForEnglishCheck(text) {
   return text
     .toLowerCase()
@@ -153,8 +159,16 @@ function normalizeForEnglishCheck(text) {
     .trim();
 }
 
+function stripUrlLikeTextForEnglishCheck(text) {
+  return text
+    .replace(/https?:\/\/\S+/gi, ' ')
+    .replace(/www\.\S+/gi, ' ')
+    .replace(/\b\S+@\S+\.\S+\b/g, ' ')
+    .replace(/\b[a-z0-9-]+(?:\.[a-z0-9-]+)+\b/gi, ' ');
+}
+
 function sourceWordsForEnglishCheck(text) {
-  return Array.from(text.matchAll(/[A-Za-z][A-Za-z'-]*/g)).map(match => ({
+  return Array.from(stripUrlLikeTextForEnglishCheck(text).matchAll(/[A-Za-z][A-Za-z'-]*/g)).map(match => ({
     word: match[0],
   }));
 }
@@ -220,6 +234,10 @@ function validateNoLeftoverEnglish(sourceText, translatedText, glossaryLines = [
   }
 }
 
+function isLeftoverEnglishValidationError(error) {
+  return error?.message?.startsWith('Likely untranslated English phrase remains:');
+}
+
 function sanitizeTranslatedFragment(originalHtml, translatedHtml) {
   const cleaned = stripCodeFence(translatedHtml);
   const originalTagCount = countInlineTags(originalHtml);
@@ -268,6 +286,15 @@ function stripUnexpectedHtmlTags(text) {
 }
 
 function validatePlaceholders(text, tags) {
+  const expectedTokens = new Set(tags.map(({ token }) => token));
+  const actualTokens = Array.from(text.matchAll(/__HTML_TAG_\d+__/g)).map(match => match[0]);
+
+  for (const token of actualTokens) {
+    if (!expectedTokens.has(token)) {
+      throw new Error(`Unexpected placeholder ${token}`);
+    }
+  }
+
   for (const { token } of tags) {
     const matches = text.match(new RegExp(token, 'g')) || [];
     if (matches.length !== 1) {
@@ -326,6 +353,7 @@ async function translateHtmlFragment(fragmentHtml, glossaryLines, options, previ
         'If the input has no HTML tags, return plain Vietnamese text only, with no <p>, <span>, or other tags.',
         'Only translate human-readable English text. Do not translate or alter placeholders.',
         'Do not leave English source phrases untranslated unless they are proper nouns, names, acronyms, code, URLs, or citations.',
+        'Lowercase descriptive phrases are not proper nouns; translate them into Vietnamese.',
         'Use glossary translations exactly when a listed term appears.'
       ].join(' '),
     },
@@ -333,7 +361,7 @@ async function translateHtmlFragment(fragmentHtml, glossaryLines, options, previ
       role: 'user',
       content: [
         `Glossary:\n${glossaryText}`,
-        previousError ? `Previous output failed validation: ${previousError}. Try again and preserve the exact inline HTML structure.` : '',
+        previousError ? `Previous output failed validation: ${previousError}. Translate any quoted lowercase source phrase into Vietnamese and preserve the exact inline HTML structure.` : '',
         `HTML fragment to translate:\n${tokenized}`,
       ].filter(Boolean).join('\n\n'),
     },
@@ -367,7 +395,7 @@ async function translateHtmlFragment(fragmentHtml, glossaryLines, options, previ
   return sanitizeTranslatedFragment(fragmentHtml, restored);
 }
 
-async function translatePlainText(text, glossaryLines, options) {
+async function translatePlainText(text, glossaryLines, options, previousError = null) {
   const glossaryText = glossaryLines.length > 0 ? glossaryLines.join('\n') : 'No approved glossary terms for this text.';
   const response = await fetch(`${options.baseUrl}/chat/completions`, {
     method: 'POST',
@@ -385,12 +413,17 @@ async function translatePlainText(text, glossaryLines, options) {
             'Return only Vietnamese text. No HTML. No markdown. No explanations.',
             'Use "Bạn" for you and "Chúng ta" for we.',
             'Do not leave English source phrases untranslated unless they are proper nouns, names, acronyms, code, URLs, or citations.',
+            'Lowercase descriptive phrases are not proper nouns; translate them into Vietnamese.',
             'Use glossary translations exactly when a listed term appears.'
           ].join(' '),
         },
         {
           role: 'user',
-          content: `Glossary:\n${glossaryText}\n\nText to translate:\n${text}`,
+          content: [
+            `Glossary:\n${glossaryText}`,
+            previousError ? `Previous output failed validation: ${previousError}. Translate any quoted lowercase source phrase into Vietnamese.` : '',
+            `Text to translate:\n${text}`,
+          ].filter(Boolean).join('\n\n'),
         },
       ],
       temperature: 0.2,
@@ -434,7 +467,7 @@ async function translateTextNodesFallback(el, glossaryLines, options) {
     let lastError = null;
 
     for (let attempt = 1; attempt <= TRANSLATION_RETRIES + 1; attempt++) {
-      const translated = await translatePlainText(sourceText, glossaryLines, options);
+      const translated = await translatePlainText(sourceText, glossaryLines, options, lastError?.message);
       try {
         validateNoLeftoverEnglish(sourceText, translated, glossaryLines);
         node.data = `${leading}${translated}${trailing}`;
@@ -442,7 +475,15 @@ async function translateTextNodesFallback(el, glossaryLines, options) {
         break;
       } catch (error) {
         lastError = error;
-        if (attempt > TRANSLATION_RETRIES) throw error;
+        if (attempt > TRANSLATION_RETRIES) {
+          if (isLeftoverEnglishValidationError(error) && !options.strictValidation) {
+            console.warn(`  ⚠️ Accepting text-node translation after repeated validation warning: ${error.message}`);
+            node.data = `${leading}${translated}${trailing}`;
+            lastError = null;
+            break;
+          }
+          throw error;
+        }
       }
     }
 
@@ -461,7 +502,13 @@ async function translateWithValidation(originalInnerHtml, glossaryLines, options
       return translated;
     } catch (error) {
       lastError = error;
-      if (attempt > TRANSLATION_RETRIES) throw error;
+      if (attempt > TRANSLATION_RETRIES) {
+        if (isLeftoverEnglishValidationError(error) && !options.strictValidation) {
+          console.warn(`  ⚠️ Accepting fragment translation after repeated validation warning: ${error.message}`);
+          return translated;
+        }
+        throw error;
+      }
     }
   }
 
@@ -472,6 +519,8 @@ async function translateFile(inputPath, outputPath, glossary, options) {
   const html = fs.readFileSync(inputPath, 'utf-8');
   const $ = cheerio.load(html, { decodeEntities: false });
   const elements = $(TRANSLATABLE_SELECTOR).toArray();
+  const translatableCount = countTranslatableElements($, elements);
+  let translatedBlocks = 0;
 
   for (let i = 0; i < elements.length; i++) {
     const el = elements[i];
@@ -492,6 +541,14 @@ async function translateFile(inputPath, outputPath, glossary, options) {
         throw new Error(`${path.basename(inputPath)} block ${i + 1}/${elements.length}: ${fallbackError.message}; source="${source}"`);
       }
     }
+
+    translatedBlocks += 1;
+    emitProgress({
+      type: 'block',
+      file: path.basename(inputPath),
+      fileBlock: translatedBlocks,
+      fileBlocks: translatableCount,
+    });
   }
 
   fs.mkdirSync(path.dirname(outputPath), { recursive: true });
@@ -499,12 +556,22 @@ async function translateFile(inputPath, outputPath, glossary, options) {
   console.log(`Translated ${path.basename(inputPath)} (${elements.length} blocks)`);
 }
 
+function countTranslatableElements($, elements) {
+  return elements.filter(el => $(el).text().trim()).length;
+}
+
+function countTranslatableBlocks(inputPath) {
+  const html = fs.readFileSync(inputPath, 'utf-8');
+  const $ = cheerio.load(html, { decodeEntities: false });
+  return countTranslatableElements($, $(TRANSLATABLE_SELECTOR).toArray());
+}
+
 async function main() {
   const bookName = process.argv[2];
-  const singleFile = process.argv[3];
+  const requestedFiles = process.argv.slice(3);
 
   if (!bookName || bookName === '--help' || bookName === '-h') {
-    console.log('Usage: node translate.js <bookName> [fileName.html]');
+    console.log('Usage: node translate.js <bookName> [fileName.html ...]');
     console.log('Environment: OPENAI_API_KEY required; OPENAI_MODEL and OPENAI_BASE_URL optional.');
     process.exit(0);
   }
@@ -529,9 +596,9 @@ async function main() {
     process.exit(1);
   }
 
-  const files = singleFile
-    ? [singleFile]
-    : fs.readdirSync(prepDir).filter(file => file.endsWith('.html'));
+  const files = requestedFiles.length > 0
+    ? requestedFiles
+    : fs.readdirSync(prepDir).filter(file => file.endsWith('.html')).sort();
 
   const glossary = loadGlossary(bookDir);
   const options = {
@@ -539,19 +606,40 @@ async function main() {
     baseUrl: (process.env.OPENAI_BASE_URL || DEFAULT_BASE_URL).replace(/\/$/, ''),
     model: process.env.OPENAI_MODEL || DEFAULT_MODEL,
     force: process.env.FORCE_TRANSLATE === '1',
+    strictValidation: process.env.STRICT_TRANSLATION_VALIDATION === '1',
   };
 
   console.log(`Translating ${files.length} file(s) with ${options.model}. Loaded ${glossary.size} approved glossary terms.`);
 
+  let totalBlocks = 0;
+  const filesToTranslate = [];
   for (const file of files) {
     const inputPath = path.join(prepDir, file);
     const outputPath = path.join(translatedDir, file);
     if (!fs.existsSync(inputPath)) throw new Error(`Prep file not found: ${inputPath}`);
-    if (!options.force && fs.existsSync(outputPath)) {
-      console.log(`Skipping existing translation ${file}`);
-      continue;
-    }
+    if (!options.force && fs.existsSync(outputPath)) continue;
+    const blocks = countTranslatableBlocks(inputPath);
+    totalBlocks += blocks;
+    filesToTranslate.push({ file, blocks });
+  }
+
+  emitProgress({ type: 'start', files: filesToTranslate.length, totalBlocks });
+
+  let completedBlocks = 0;
+  for (const { file, blocks } of filesToTranslate) {
+    const inputPath = path.join(prepDir, file);
+    const outputPath = path.join(translatedDir, file);
+    emitProgress({ type: 'fileStart', file, blocks, completedBlocks, totalBlocks });
     await translateFile(inputPath, outputPath, glossary, options);
+    completedBlocks += blocks;
+    emitProgress({ type: 'fileDone', file, completedBlocks, totalBlocks });
+  }
+
+  for (const file of files) {
+    const outputPath = path.join(translatedDir, file);
+    if (!options.force && fs.existsSync(outputPath) && !filesToTranslate.some(entry => entry.file === file)) {
+      console.log(`Skipping existing translation ${file}`);
+    }
   }
 
   console.log(`Done. Output: ${translatedDir}`);

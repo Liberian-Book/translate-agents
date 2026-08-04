@@ -1,7 +1,7 @@
 {
   "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-1-2-6.webp",
   "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/1-2-primary-sources.html",
-  "decision": "auto",
+  "decision": "skip",
   "renderer": "image-edit",
   "model": "gpt-image-2",
   "classification": {
@@ -9,8 +9,8 @@
     "eligible": true,
     "reason": "statistical-labels-detected"
   },
-  "reason": "low-confidence-image-edit-attempt",
-  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-1-2-6.vi.png",
+  "reason": "photo-without-translatable-labels",
+  "outputImage": null,
   "ocr": [
     {
       "text": "; 5 Ses 0 aflER",

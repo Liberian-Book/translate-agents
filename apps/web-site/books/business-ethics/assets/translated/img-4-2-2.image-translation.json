@@ -1,0 +1,104 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-4-2-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/4-2-sustainability-business-and-the-environment.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-4-2-2.vi.png",
+  "ocr": [
+    {
+      "text": "i d LZ 2",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 65,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "EY \\ \\,",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 152,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "5) CL ——",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 239,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "IN oN = Fi pA",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 326,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "I >= POIRG",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 413,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "|= —=h J i OY",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 500,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "as eee BW",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 587,
+        "w": 640,
+        "h": 43
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: Four stacks of coins and a jar full of coins. The stacks grow in size from left to right. On top of each stack and on top of the jar are plant sprouts increasing in size from left to right.\nButton label: Click to enlarge image of Four stacks of coins and a jar full of coins. The stacks grow in size from left to right. On top of each stack and on top of the jar are plant sprouts increasing in size from left to right.\nEnglish caption: Figure 4.7 Sustainability can create long-term cost savings for companies. (credit: work by Nattanan Kanchanaprat/Pixabay, CC0)",
+  "metrics": {
+    "textDensity": 0.44510166358595193,
+    "averageConfidence": 24,
+    "entropy": 7.4008115563083265,
+    "sharpness": 3.0395091273717534
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

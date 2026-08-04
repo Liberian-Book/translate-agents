@@ -16,10 +16,14 @@ export function runScript(scriptPath, args = [], options = {}) {
 
     if (captureOutput) {
       child.stdout?.on('data', (chunk) => {
-        stdout += chunk.toString();
+        const text = chunk.toString();
+        stdout += text;
+        options.onStdout?.(text);
       });
       child.stderr?.on('data', (chunk) => {
-        stderr += chunk.toString();
+        const text = chunk.toString();
+        stderr += text;
+        options.onStderr?.(text);
       });
     }
 

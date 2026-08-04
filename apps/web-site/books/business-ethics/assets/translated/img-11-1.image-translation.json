@@ -1,0 +1,340 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-11-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/11-introduction.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-11-1.vi.png",
+  "ocr": [
+    {
+      "text": "Re fo",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 86,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "eT y",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 201,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "rsh 1",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 316,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "A oo DE vo",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 431,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "—— . ee",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 546,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "S . oo i",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 661,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "A — - J ER",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 776,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "i i pp | .",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 891,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "I Oy a",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 1006,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "pe? pages TT y Ee",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 1121,
+        "w": 1400,
+        "h": 57
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This image looks down the middle of an open road with clouds in the sky and open landscape on either side of the road.\nButton label: Click to enlarge image of This image looks down the middle of an open road with clouds in the sky and open landscape on either side of the road.\nEnglish caption: Figure 11.1 Business ethics starts right where you are and leads you down the road of life with a set of standards and rules to follow. (credit: modification of “We're on the Road to Nowhere” by Marc Dalmulder/Flickr, CC BY 2.0)",
+  "metrics": {
+    "textDensity": 0.6350974930362117,
+    "averageConfidence": 26,
+    "entropy": 7.164804373263905,
+    "sharpness": 2.5953879881370896
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: This image looks down the middle of an open road with clouds in the sky and open landscape on either side of the road.\nButton label: Click to enlarge image of This image looks down the middle of an open road with clouds in the sky and open landscape on either side of the road.\nEnglish caption: Figure 11.1 Business ethics starts right where you are and leads you down the road of life with a set of standards and rules to follow. (credit: modification of “We're on the Road to Nowhere” by Marc Dalmulder/Flickr, CC BY 2.0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: marc, dalmulder. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "- = - 5 oe >",
+        "confidence": 43,
+        "bbox": {
+          "x": 196,
+          "y": 96,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "> Wo - ~ Raa",
+        "confidence": 43,
+        "bbox": {
+          "x": 196,
+          "y": 224,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": ": SEN | os SS Ba he Add:",
+        "confidence": 43,
+        "bbox": {
+          "x": 196,
+          "y": 352,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "- : 3 3 Le ' ra 7 Pe",
+        "confidence": 43,
+        "bbox": {
+          "x": 196,
+          "y": 480,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "- - a SH a ny ) - ~ _— ¥",
+        "confidence": 43,
+        "bbox": {
+          "x": 196,
+          "y": 608,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "- g ~~ Y Eh - a .",
+        "confidence": 43,
+        "bbox": {
+          "x": 196,
+          "y": 736,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "—s— — 8 -e y oo Ne — i a",
+        "confidence": 43,
+        "bbox": {
+          "x": 196,
+          "y": 864,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "EJ - go a - > a a= 2 .",
+        "confidence": 43,
+        "bbox": {
+          "x": 196,
+          "y": 992,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "Fo - = $ Fv see dln Fv . - THEE,",
+        "confidence": 43,
+        "bbox": {
+          "x": 196,
+          "y": 1120,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "J ha So lle Te po es eT 2",
+        "confidence": 43,
+        "bbox": {
+          "x": 196,
+          "y": 1248,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "= S— A re RTE.",
+        "confidence": 43,
+        "bbox": {
+          "x": 196,
+          "y": 1376,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "ear = oh So a = eri, 3 >= Te",
+        "confidence": 43,
+        "bbox": {
+          "x": 196,
+          "y": 1504,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "DE SE mee RR RN Te =",
+        "confidence": 43,
+        "bbox": {
+          "x": 196,
+          "y": 1632,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": ": or CL — . -",
+        "confidence": 43,
+        "bbox": {
+          "x": 196,
+          "y": 1760,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "Caan — i a ati >",
+        "confidence": 43,
+        "bbox": {
+          "x": 196,
+          "y": 1888,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "mm a Ss S : ;",
+        "confidence": 43,
+        "bbox": {
+          "x": 196,
+          "y": 2016,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "= ve pd re A",
+        "confidence": 43,
+        "bbox": {
+          "x": 196,
+          "y": 2144,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "A 7 ~~ Se",
+        "confidence": 43,
+        "bbox": {
+          "x": 196,
+          "y": 2272,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "Hinh 11.1 Dao dlc kinh doanh bat dau ngay tir noi ban dang & va dan ban di trén con dwdng clia cudc doi véi mot bo tiéu chudn va quy tac can tuan theo.",
+        "confidence": 43,
+        "bbox": {
+          "x": 196,
+          "y": 2400,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "(nguén: chinh slra tir “Ching ta dang trén con dwéng dén vo dinh” bai Tran Ban Huy/ Flickr, CC BY 2.0)",
+        "confidence": 43,
+        "bbox": {
+          "x": 196,
+          "y": 2528,
+          "w": 1566,
+          "h": 64
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": [
+        "flickr"
+      ]
+    },
+    "validationAttempt": 3
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

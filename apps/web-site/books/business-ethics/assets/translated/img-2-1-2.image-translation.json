@@ -1,0 +1,44 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-2-1-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/2-1-the-concept-of-ethical-business-in-ancient-athens.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "B TT ) § |",
+      "confidence": 37,
+      "bbox": {
+        "x": 80,
+        "y": 72,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "# oe: - B",
+      "confidence": 37,
+      "bbox": {
+        "x": 80,
+        "y": 168,
+        "w": 640,
+        "h": 48
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A painting depicting a woman on the left, Penelope, and a man on the right, Odysseus. Another person is behind Odysseus looking back at them.\nButton label: Click to enlarge image of A painting depicting a woman on the left, Penelope, and a man on the right, Odysseus. Another person is behind Odysseus looking back at them.\nEnglish caption: Figure 2.3 Penelope and Odysseus in a scene from Homer’s Odyssey, as depicted in 1802 by the German painter Johann Tischbein. For the ancient Greeks, Penelope represented all the virtues of a loving, dutiful partner. She remained faithful to her husband Odysseus despite his absence of some twenty years during and after the Trojan War. (credit: “Odysseus and Penelope” by H. R. Wacker and James Steakley/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 0.12821368948247078,
+    "averageConfidence": 37,
+    "entropy": 6.4573801150945656,
+    "sharpness": 1.2579801566618585
+  }
+}

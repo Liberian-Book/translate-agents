@@ -1,0 +1,285 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-6-2-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/6-2-what-constitutes-a-fair-wage.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-6-2-2.vi.png",
+  "ocr": [
+    {
+      "text": "Nominal versus Real Minimum Wage",
+      "confidence": 75,
+      "bbox": {
+        "x": 110,
+        "y": 78,
+        "w": 880,
+        "h": 52
+      }
+    },
+    {
+      "text": "$12.00 [] I EE E—",
+      "confidence": 75,
+      "bbox": {
+        "x": 110,
+        "y": 182,
+        "w": 880,
+        "h": 52
+      }
+    },
+    {
+      "text": "o TT",
+      "confidence": 75,
+      "bbox": {
+        "x": 110,
+        "y": 286,
+        "w": 880,
+        "h": 52
+      }
+    },
+    {
+      "text": "sop pT |",
+      "confidence": 75,
+      "bbox": {
+        "x": 110,
+        "y": 390,
+        "w": 880,
+        "h": 52
+      }
+    },
+    {
+      "text": "ee: Nominal Minimum Wage em Real Minimum Wage",
+      "confidence": 75,
+      "bbox": {
+        "x": 110,
+        "y": 494,
+        "w": 880,
+        "h": 52
+      }
+    },
+    {
+      "text": "Sources: U.S. Department of Labor. History of Federal Minimum Wage Rates under the Fair Labor Standards Act,",
+      "confidence": 75,
+      "bbox": {
+        "x": 110,
+        "y": 598,
+        "w": 880,
+        "h": 52
+      }
+    },
+    {
+      "text": "1938-2009. (Some data from CPI Inflation Calculator, https://data.bls.gov/cgi-bin/cpicalc.pl.)",
+      "confidence": 75,
+      "bbox": {
+        "x": 110,
+        "y": 702,
+        "w": 880,
+        "h": 52
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Nominal versus Real Minimum Wage",
+      "normalizedSource": "Nominal versus Real Minimum Wage",
+      "target": "Lương tối thiểu danh nghĩa so với lương tối thiểu thực tế",
+      "bbox": {
+        "x": 110,
+        "y": 78,
+        "w": 880,
+        "h": 52
+      },
+      "overflow": false
+    },
+    {
+      "source": "$12.00 [] I EE E—",
+      "normalizedSource": "$12.00 [] I EE E—",
+      "target": "$12.00 [] I EE E—",
+      "bbox": {
+        "x": 110,
+        "y": 182,
+        "w": 880,
+        "h": 52
+      },
+      "overflow": false
+    },
+    {
+      "source": "o TT",
+      "normalizedSource": "o TT",
+      "target": "o TT",
+      "bbox": {
+        "x": 110,
+        "y": 286,
+        "w": 880,
+        "h": 52
+      },
+      "overflow": false
+    },
+    {
+      "source": "sop pT |",
+      "normalizedSource": "sop pT |",
+      "target": "sop pT |",
+      "bbox": {
+        "x": 110,
+        "y": 390,
+        "w": 880,
+        "h": 52
+      },
+      "overflow": false
+    },
+    {
+      "source": "ee: Nominal Minimum Wage em Real Minimum Wage",
+      "normalizedSource": "ee: Nominal Minimum Wage em Real Minimum Wage",
+      "target": "Lương tối thiểu danh nghĩa và lương tối thiểu thực tế",
+      "bbox": {
+        "x": 110,
+        "y": 494,
+        "w": 880,
+        "h": 52
+      },
+      "overflow": false
+    },
+    {
+      "source": "Sources: U.S. Department of Labor. History of Federal Minimum Wage Rates under the Fair Labor Standards Act,",
+      "normalizedSource": "Sources: U.S. Department of Labor. History of Federal Minimum Wage Rates under the Fair Labor Standards Act,",
+      "target": "Nguồn: Bộ Lao động Hoa Kỳ. Lịch sử các mức lương tối thiểu liên bang theo Đạo luật Tiêu chuẩn Lao động Công bằng,",
+      "bbox": {
+        "x": 110,
+        "y": 598,
+        "w": 880,
+        "h": 52
+      },
+      "overflow": false
+    },
+    {
+      "source": "1938-2009. (Some data from CPI Inflation Calculator, https://data.bls.gov/cgi-bin/cpicalc.pl.)",
+      "normalizedSource": "1938-2009. (Some data from CPI Inflation Calculator, https://data.bls.gov/cgi-bin/cpicalc.pl.)",
+      "target": "1938-2009. (Một số dữ liệu từ Máy tính lạm phát CPI, https://data.bls.gov/cgi-bin/cpicalc.pl.)",
+      "bbox": {
+        "x": 110,
+        "y": 702,
+        "w": 880,
+        "h": 52
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: This graph is titled “Nominal versus Real Minimum Wage.” The y-axis shows dollars, starting at 0 and increasing by two dollar increments. The x-axis shows years from 1940 to 2010, increasing by 10 year increments. The trend line for nominal minimum wage starts at about $5.70 in 1940 and fluctuates between this and about $4.00 until it spikes in 1950 to $8.00. There is a slight decrease, then it jumps again around 1955 to about $9.00. It goes back toward $8.00 in 1960, then steadily increases until another jump around 1968 to about $11.50. It decreases over the next few years back to about $9.00, then goes back up to around $10.00 until about 1980. Then a steady decrease to about $7.00 occurs from about 1980 to 1988. Around 1990, it goes back up to about $8.00, then fluctuates between about $8.00 and $7.50 until about 2000. There is a decline to about $6.00 until 2005, and then it increase back to just above $8.00 around 2010 before declining around. The trend line for real minimum wage is an increasing trend line. It starts at close to $0.00 in 1940 and steadily increases, with one period of no change around 1950 to 1965, to close to $2.00 around 1968. From about 1968 to 1973 there is no change. Then it steadily increases again until there is a large jump from about 1976 to 1980 when it reaches close to $4.00. Most of the time from 1980 to 1990 shows no change. Then it increases again from about 1989 to 1996, reaching about $5.50. There is no change until about 2006 when it increases to $7.25 around 2008. Then it shows no change from there.\nButton label: Click to enlarge image of This graph is titled “Nominal versus Real Minimum Wage.” The y-axis shows dollars, starting at 0 and increasing by two dollar increments. The x-axis shows years from 1940 to 2010, increasing by 10 year increments. The trend line for nominal minimum wage starts at about $5.70 in 1940 and fluctuates between this and about $4.00 until it spikes in 1950 to $8.00. There is a slight decrease, then it jumps again around 1955 to about $9.00. It goes back toward $8.00 in 1960, then steadily increases until another jump around 1968 to about $11.50. It decreases over the next few years back to about $9.00, then goes back up to around $10.00 until about 1980. Then a steady decrease to about $7.00 occurs from about 1980 to 1988. Around 1990, it goes back up to about $8.00, then fluctuates between about $8.00 and $7.50 until about 2000. There is a decline to about $6.00 until 2005, and then it increase back to just above $8.00 around 2010 before declining around. The trend line for real minimum wage is an increasing trend line. It starts at close to $0.00 in 1940 and steadily increases, with one period of no change around 1950 to 1965, to close to $2.00 around 1968. From about 1968 to 1973 there is no change. Then it steadily increases again until there is a large jump from about 1976 to 1980 when it reaches close to $4.00. Most of the time from 1980 to 1990 shows no change. Then it increases again from about 1989 to 1996, reaching about $5.50. There is no change until about 2006 when it increases to $7.25 around 2008. Then it shows no change from there.\nEnglish caption: Figure 6.8 The graph contrasts the U.S. nominal wage (dollar amount) and the real wage (dollar amount’s purchasing power) over the last seventy-five years, indicating a steady decline in purchasing power experienced by most workers. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.448,
+    "averageConfidence": 75,
+    "entropy": 1.7715128025847662,
+    "sharpness": 5.193410919666623
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: This graph is titled “Nominal versus Real Minimum Wage.” The y-axis shows dollars, starting at 0 and increasing by two dollar increments. The x-axis shows years from 1940 to 2010, increasing by 10 year increments. The trend line for nominal minimum wage starts at about $5.70 in 1940 and fluctuates between this and about $4.00 until it spikes in 1950 to $8.00. There is a slight decrease, then it jumps again around 1955 to about $9.00. It goes back toward $8.00 in 1960, then steadily increases until another jump around 1968 to about $11.50. It decreases over the next few years back to about $9.00, then goes back up to around $10.00 until about 1980. Then a steady decrease to about $7.00 occurs from about 1980 to 1988. Around 1990, it goes back up to about $8.00, then fluctuates between about $8.00 and $7.50 until about 2000. There is a decline to about $6.00 until 2005, and then it increase back to just above $8.00 around 2010 before declining around. The trend line for real minimum wage is an increasing trend line. It starts at close to $0.00 in 1940 and steadily increases, with one period of no change around 1950 to 1965, to close to $2.00 around 1968. From about 1968 to 1973 there is no change. Then it steadily increases again until there is a large jump from about 1976 to 1980 when it reaches close to $4.00. Most of the time from 1980 to 1990 shows no change. Then it increases again from about 1989 to 1996, reaching about $5.50. There is no change until about 2006 when it increases to $7.25 around 2008. Then it shows no change from there.\nButton label: Click to enlarge image of This graph is titled “Nominal versus Real Minimum Wage.” The y-axis shows dollars, starting at 0 and increasing by two dollar increments. The x-axis shows years from 1940 to 2010, increasing by 10 year increments. The trend line for nominal minimum wage starts at about $5.70 in 1940 and fluctuates between this and about $4.00 until it spikes in 1950 to $8.00. There is a slight decrease, then it jumps again around 1955 to about $9.00. It goes back toward $8.00 in 1960, then steadily increases until another jump around 1968 to about $11.50. It decreases over the next few years back to about $9.00, then goes back up to around $10.00 until about 1980. Then a steady decrease to about $7.00 occurs from about 1980 to 1988. Around 1990, it goes back up to about $8.00, then fluctuates between about $8.00 and $7.50 until about 2000. There is a decline to about $6.00 until 2005, and then it increase back to just above $8.00 around 2010 before declining around. The trend line for real minimum wage is an increasing trend line. It starts at close to $0.00 in 1940 and steadily increases, with one period of no change around 1950 to 1965, to close to $2.00 around 1968. From about 1968 to 1973 there is no change. Then it steadily increases again until there is a large jump from about 1976 to 1980 when it reaches close to $4.00. Most of the time from 1980 to 1990 shows no change. Then it increases again from about 1989 to 1996, reaching about $5.50. There is no change until about 2006 when it increases to $7.25 around 2008. Then it shows no change from there.\nEnglish caption: Figure 6.8 The graph contrasts the U.S. nominal wage (dollar amount) and the real wage (dollar amount’s purchasing power) over the last seventy-five years, indicating a steady decline in purchasing power experienced by most workers. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Nominal versus Real Minimum Wage => Lương tối thiểu danh nghĩa so với lương tối thiểu thực tế\n- $12.00 [] I EE E— => $12.00 [] I EE E—\n- o TT => o TT\n- sop pT | => sop pT |\n- ee: Nominal Minimum Wage em Real Minimum Wage => Lương tối thiểu danh nghĩa và lương tối thiểu thực tế\n- Sources: U.S. Department of Labor. History of Federal Minimum Wage Rates under the Fair Labor Standards Act, => Nguồn: Bộ Lao động Hoa Kỳ. Lịch sử các mức lương tối thiểu liên bang theo Đạo luật Tiêu chuẩn Lao động Công bằng,\n- 1938-2009. (Some data from CPI Inflation Calculator, https://data.bls.gov/cgi-bin/cpicalc.pl.) => 1938-2009. (Một số dữ liệu từ Máy tính lạm phát CPI, https://data.bls.gov/cgi-bin/cpicalc.pl.)\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Luang tdi thiu danh nghia so véi luong tdi thiéu thuc té",
+        "confidence": 65,
+        "bbox": {
+          "x": 163,
+          "y": 116,
+          "w": 1306,
+          "h": 77
+        }
+      },
+      {
+        "text": "$1200 477 Sa Sr Fee ee",
+        "confidence": 65,
+        "bbox": {
+          "x": 163,
+          "y": 270,
+          "w": 1306,
+          "h": 77
+        }
+      },
+      {
+        "text": "$10.00 an, AA",
+        "confidence": 65,
+        "bbox": {
+          "x": 163,
+          "y": 424,
+          "w": 1306,
+          "h": 77
+        }
+      },
+      {
+        "text": "$8.00 N | = = EE",
+        "confidence": 65,
+        "bbox": {
+          "x": 163,
+          "y": 578,
+          "w": 1306,
+          "h": 77
+        }
+      },
+      {
+        "text": "$4.00 = EE",
+        "confidence": 65,
+        "bbox": {
+          "x": 163,
+          "y": 732,
+          "w": 1306,
+          "h": 77
+        }
+      },
+      {
+        "text": "me | i0NG t6i thi€u danh nghfa === Luong tdi thiéu thyc té",
+        "confidence": 65,
+        "bbox": {
+          "x": 163,
+          "y": 886,
+          "w": 1306,
+          "h": 77
+        }
+      },
+      {
+        "text": "Ngudn: Bo Lao dong Hoa Ky. Lich sir cac mic luong t8i thiéu lién bang theo Dao luat Tiéu chun Lao dong Céng bing,",
+        "confidence": 65,
+        "bbox": {
+          "x": 163,
+          "y": 1040,
+          "w": 1306,
+          "h": 77
+        }
+      },
+      {
+        "text": "1938-2009. (Mbt s6 dif liéu tir May tinh lam phat CPI, https://data.bls.gov/cgi-bin/cpicalc.pl.)",
+        "confidence": 65,
+        "bbox": {
+          "x": 163,
+          "y": 1194,
+          "w": 1306,
+          "h": 77
+        }
+      }
+    ],
+    "validation": {
+      "ok": false,
+      "reason": "image-edit-leftover-source-english",
+      "leftoverSourceWords": [
+        "data",
+        "https",
+        "cgi-bin",
+        "cpicalc"
+      ]
+    },
+    "validationAttempt": 1
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-8-4-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/8-4-income-inequalities.html",
+  "decision": "error",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "not-classified"
+  },
+  "reason": "fetch failed",
+  "outputImage": null,
+  "ocr": [],
+  "translations": [],
+  "imageContext": "Image alt: This bar chart is titled “Average U.S. Income, 2015.” The y-axis is labeled “Income” and starts at 0 dollars and increases by 1,000,000 dollars up to 8,000,000 dollars. The x-axis is labeled “Earners” and shows income for earners in the bottom 90 percent, top 10 percent, top 5 percent, top 1 percent, and top 0.1 percent. The bar for bottom 90 percent is barely visible. The bar for top 10 percent is up to about 300,000. The bar for top 5 percent is up to about 500,000. The bar for top 1 percent is up to about 1,400,000. The bar for top 0.1 percent is up to about 6,800,0000.\nButton label: Click to enlarge image of This bar chart is titled “Average U.S. Income, 2015.” The y-axis is labeled “Income” and starts at 0 dollars and increases by 1,000,000 dollars up to 8,000,000 dollars. The x-axis is labeled “Earners” and shows income for earners in the bottom 90 percent, top 10 percent, top 5 percent, top 1 percent, and top 0.1 percent. The bar for bottom 90 percent is barely visible. The bar for top 10 percent is up to about 300,000. The bar for top 5 percent is up to about 500,000. The bar for top 1 percent is up to about 1,400,000. The bar for top 0.1 percent is up to about 6,800,0000.\nEnglish caption: Figure 8.9 The 2015 data show the significant income disparity existing in the United States today—a gap that has increased significantly since 1980. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)"
+}

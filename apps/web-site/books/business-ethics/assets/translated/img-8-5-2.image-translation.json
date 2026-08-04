@@ -1,0 +1,114 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-8-5-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/8-5-animal-rights-and-the-implications-for-business.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-8-5-2.vi.png",
+  "ocr": [
+    {
+      "text": "a i bik Mo! COR: NMA ol 8",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 48,
+        "w": 640,
+        "h": 32
+      }
+    },
+    {
+      "text": "ee OOOH ha Wo : EE | i ad",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 112,
+        "w": 640,
+        "h": 32
+      }
+    },
+    {
+      "text": ": oe oR \\ i Rel ti HE",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 176,
+        "w": 640,
+        "h": 32
+      }
+    },
+    {
+      "text": "Co OTN al",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 240,
+        "w": 640,
+        "h": 32
+      }
+    },
+    {
+      "text": "se ALY JAE Ah Jd | V J ‘8",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 304,
+        "w": 640,
+        "h": 32
+      }
+    },
+    {
+      "text": "Cp Ohl",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 368,
+        "w": 640,
+        "h": 32
+      }
+    },
+    {
+      "text": "YY ANY pei ar i",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 432,
+        "w": 640,
+        "h": 32
+      }
+    },
+    {
+      "text": "\\ YE A ANY el hy! 0",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 496,
+        "w": 640,
+        "h": 32
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This image shows a chimpanzee locked up in a cage.\nButton label: Click to enlarge image of This image shows a chimpanzee locked up in a cage.\nEnglish caption: Figure 8.12 This is Tommy the Chimpanzee’s “home,” a stretch of the word by any definition. The question in the court case brought on behalf of Tommy and Kiko, another chimpanzee, is whether animals should have the right of habeas corpus to be freed from involuntary confinement. (credit: From the film Unlocking The Cage. Directed by Chris Hegedus and D A Pennebaker. Copyrighted © 2015 Pennebaker Hegedus Films, Inc. All Rights Reserved. Used with permission.)",
+  "metrics": {
+    "textDensity": 0.512,
+    "averageConfidence": 29,
+    "entropy": 6.717322437445546,
+    "sharpness": 3.054984391417213
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}
