@@ -27,7 +27,6 @@ body {
 }
 
 .br-site-header-inner {
-  max-width: 1200px;
   margin: 0 auto;
   padding: 12px 24px;
   display: grid;
@@ -244,12 +243,35 @@ body {
 
 #br-main-content table,
 #br-eng-content table {
-  max-width: 100%;
+  border-collapse: collapse;
+  max-width: none;
+  min-width: 760px;
   table-layout: auto;
+  width: 100%;
+}
+
+#br-main-content th,
+#br-main-content td,
+#br-eng-content th,
+#br-eng-content td {
+  border: 1px solid #cbd5e1;
+  min-width: 12rem;
+  overflow-wrap: normal;
+  padding: 6px 10px;
+  vertical-align: top;
+  word-break: normal;
+}
+
+#br-main-content th,
+#br-eng-content th {
+  background: #f8fafc;
+  font-weight: 700;
 }
 
 #br-main-content .os-table,
 #br-eng-content .os-table {
+  display: block;
+  max-width: 100%;
   overflow-x: auto;
 }
 
@@ -259,22 +281,6 @@ body {
 #br-eng-content code {
   overflow-wrap: anywhere;
   white-space: pre-wrap;
-}
-
-.br-site-footer {
-  width: 100%;
-  background: #0f172a;
-  border-top: 1px solid rgba(226, 232, 240, 0.18);
-  flex: 0 0 auto;
-}
-
-.br-site-footer-inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 12px 24px;
-  color: #cbd5e1;
-  font-size: 0.82rem;
-  text-align: center;
 }
 
 #br-right-panel {
@@ -296,7 +302,7 @@ body {
 }
 
 #br-comment-section {
-  flex: 4;
+  flex: 5;
   min-height: 0;
   padding: 16px 20px;
   overflow: hidden;
@@ -310,16 +316,6 @@ body {
   font-weight: 700;
   margin-bottom: 8px;
   color: #24292e;
-}
-
-#br-selected-line {
-  font-size: 0.85rem;
-  color: #586069;
-  background: #f6f8fa;
-  border: 1px solid #e1e4e8;
-  border-radius: 4px;
-  padding: 8px;
-  margin-bottom: 10px;
 }
 
 #br-comment-form {

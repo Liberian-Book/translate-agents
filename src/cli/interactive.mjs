@@ -224,6 +224,15 @@ async function runRetranslateImagesFlow() {
     const result = await runGuidedScript('agents/agent-translate/scripts/translate-images.js', args);
     printImageTranslationSummary(result);
   }
+
+  renderProgressBar({ label: 'Tạo HTML tĩnh', current: 0, total: 1 });
+  await runGuidedPythonScript('agents/agent-archive/scripts/build-preview.py', [bookDir]);
+  renderProgressBar({ label: 'Hoàn tất: Tạo HTML tĩnh', current: 1, total: 1 });
+
+  renderProgressBar({ label: 'Tạo website', current: 0, total: 1 });
+  await runGuidedScript('scripts/build-site.mjs');
+  renderProgressBar({ label: 'Hoàn tất: Tạo website', current: 1, total: 1 });
+
   renderProgressBar({ label: 'Hoàn tất: Dịch lại hình ảnh', current: 1, total: 1 });
   console.log(chalk.green(`Hoàn tất dịch lại hình ảnh: ${selectedBook}`));
 }

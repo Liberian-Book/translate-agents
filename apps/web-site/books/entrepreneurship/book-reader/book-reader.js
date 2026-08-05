@@ -42,14 +42,11 @@ document.addEventListener('DOMContentLoaded', () => {
         <button id="br-next-btn" title="Trang sau" style="background: #e1e4e8; color: #333; border: none; padding: 6px 10px; border-radius: 4px; cursor: pointer; font-weight: bold;">&rarr;</button>
       </div>
       <h3 style="margin: 0; font-size: 1.1rem; color: #333; flex-grow: 1; text-align: center;">Trình đọc sách</h3>
-      <button id="br-swap-btn" style="background: #0366d6; color: white; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer; font-weight: bold;">Đổi sang EN</button>
     </div>
     <div id="br-eng-section">
       <div id="br-eng-content">Di chuột lên văn bản để xem bản dịch tại đây.</div>
     </div>
     <div id="br-comment-section">
-      <div class="br-comment-title">Bình luận</div>
-      <div id="br-selected-line">Nhấp vào một dòng để bình luận.</div>
       <form id="br-comment-form">
         <label for="br-comment-name">Tên</label>
         <input id="br-comment-name" name="username" type="text" placeholder="Tên của bạn" maxlength="80" required>
@@ -62,21 +59,12 @@ document.addEventListener('DOMContentLoaded', () => {
     </div>
   `;
 
-  const siteFooter = document.createElement('footer');
-  siteFooter.className = 'br-site-footer';
-  siteFooter.innerHTML = `
-    <div class="br-site-footer-inner">
-      <p>&copy; 2026 Bột. Sách dịch phục vụ mục đích học tập phi thương mại.</p>
-    </div>
-  `;
-
   // Append back to body
   readerLayout.appendChild(tocSidebar);
   readerLayout.appendChild(mainContent);
   readerLayout.appendChild(rightPanel);
   body.appendChild(siteHeader);
   body.appendChild(readerLayout);
-  body.appendChild(siteFooter);
 
   function getBookIdFromPath() {
     const parts = window.location.pathname.split('/').filter(Boolean);
@@ -348,10 +336,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // 3. State for EN/VN mode
   let isEnMode = false;
-  const swapBtn = document.getElementById('br-swap-btn');
-  const readingTitle = document.getElementById('br-reading-title');
   const engContentPanel = document.getElementById('br-eng-content');
-  const selectedLineContainer = document.getElementById('br-selected-line');
   const commentList = document.getElementById('br-comment-list');
   const commentForm = document.getElementById('br-comment-form');
   const commentNameInput = document.getElementById('br-comment-name');
@@ -413,7 +398,6 @@ document.addEventListener('DOMContentLoaded', () => {
     if (selectedCommentElement) selectedCommentElement.classList.remove('br-selected-line');
     selectedCommentElement = el;
     selectedCommentElement.classList.add('br-selected-line');
-    selectedLineContainer.textContent = el.textContent.trim().slice(0, 180) || 'Dòng đã chọn';
     commentStatus.textContent = '';
     renderComments();
   }
@@ -480,21 +464,6 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   loadComments();
-
-  swapBtn.addEventListener('click', () => {
-    isEnMode = !isEnMode;
-    if (isEnMode) {
-      document.body.classList.add('lang-swap');
-      swapBtn.textContent = 'Đổi sang VN';
-      if (readingTitle) readingTitle.textContent = 'Bản dịch tiếng Việt';
-    } else {
-      document.body.classList.remove('lang-swap');
-      swapBtn.textContent = 'Đổi sang EN';
-      if (readingTitle) readingTitle.textContent = 'Original English';
-    }
-    // Clear panels on swap
-    engContentPanel.innerHTML = 'Di chuột lên văn bản để xem bản dịch tại đây.';
-  });
 
   // 4.5 Navigation Logic
   let chapterFiles = [];

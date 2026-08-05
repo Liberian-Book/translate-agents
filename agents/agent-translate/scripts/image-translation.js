@@ -21,6 +21,8 @@ const MAX_OVERFLOW_RATIO = 1.9;
 const MAX_LEFTOVER_SOURCE_WORDS = 1;
 const FONT_FAMILY = 'Arial, Helvetica, sans-serif';
 const ELIGIBLE_IMAGE_TYPES = new Set(['diagram', 'table', 'chart', 'statistics', 'screenshot', 'labeled-illustration']);
+const IMPORTANT_CONTEXT_KEYWORDS = /\b(?:process|framework|canvas|diagram|chart|table|map|model|matrix|flow|workflow|cycle|life cycle|lifecycle|phases?|stages?|steps?|timeline|mind map|strategic|design thinking)\b/i;
+const IMAGE_CONTEXT_LABEL_PATTERN = /\b(?:includes?|shows?|with|areas? of|extending to|from|to|back to|such as)\b/i;
 
 const FALLBACK_TRANSLATIONS = new Map(Object.entries({
   company: 'Công ty',
@@ -229,6 +231,19 @@ function collectImageContext($, img) {
   if (caption) parts.push(`English caption: ${caption}`);
 
   return parts.join('\n').slice(0, 4000);
+}
+
+function isImportantTextFigureContext(imageContext) {
+  const context = normalizeContextText(imageContext);
+  if (!context || !IMPORTANT_CONTEXT_KEYWORDS.test(context)) return false;
+
+  const englishWords = extractEnglishWords(context);
+  const uniqueWords = new Set(englishWords.filter(word => ![
+    'image', 'media', 'button', 'label', 'click', 'enlarge', 'figure', 'caption',
+    'copyright', 'rice', 'university', 'openstax', 'under', 'license', 'attribution',
+  ].includes(word)));
+
+  return uniqueWords.size >= 4 && IMAGE_CONTEXT_LABEL_PATTERN.test(context);
 }
 
 function normalizeBbox(raw) {
@@ -712,12 +727,13 @@ function writeSidecar(sidecar, payload) {
   fs.writeFileSync(sidecar, `${JSON.stringify(payload, null, 2)}\n`, 'utf-8');
 }
 
-function readReusableSidecar(sidecar, rendererOptions) {
+function readReusableSidecar(sidecar, rendererOptions, imageContext = null) {
   if (!fs.existsSync(sidecar)) return null;
   const payload = readJsonFile(sidecar);
   if (!payload) return null;
   if (!payload.renderer || !payload.classification) return null;
   if (rendererOptions?.renderer && payload.renderer !== rendererOptions.renderer) return null;
+  if (payload.decision === 'skip' && rendererOptions?.renderer === 'image-edit' && isImportantTextFigureContext(imageContext)) return null;
   if (payload.decision === 'auto' && payload.outputImage && fs.existsSync(payload.outputImage)) {
     return payload;
   }
@@ -739,7 +755,7 @@ async function processImage({ htmlFile, sourceImage, worker, translationOptions,
   const { outputImage, sidecar } = getTranslatedOutputPaths(sourceImage);
   const selectedRenderer = rendererOptions?.renderer || 'overlay';
   const selectedImageModel = rendererOptions?.imageModel || DEFAULT_IMAGE_MODEL;
-  const reusable = force ? null : readReusableSidecar(sidecar, { renderer: selectedRenderer });
+  const reusable = force ? null : readReusableSidecar(sidecar, { renderer: selectedRenderer }, imageContext);
   if (reusable) return reusable;
 
   const basePayload = {
@@ -767,6 +783,16 @@ async function processImage({ htmlFile, sourceImage, worker, translationOptions,
     const stats = await sharp(sourceImage).stats();
     const regions = await recognizeImage(worker, sourceImage, metadata);
     const classification = classifyImage({ regions, metadata, stats });
+    const contextForcedImageEdit = selectedRenderer === 'image-edit'
+      && classification.decision === 'skip'
+      && isImportantTextFigureContext(imageContext)
+      && classification.classification?.type !== 'photo'
+      && classification.classification?.type !== 'natural';
+    if (contextForcedImageEdit) {
+      classification.decision = 'auto';
+      classification.reason = 'html-context-important-text-figure';
+      classification.classification = createDefaultClassification('diagram', true, 'html-context-important-text-figure');
+    }
     const payload = {
       ...basePayload,
       decision: classification.decision,
@@ -787,7 +813,7 @@ async function processImage({ htmlFile, sourceImage, worker, translationOptions,
       && classification.classification?.eligible
       && regions.length >= MIN_AUTO_REGIONS;
 
-    if (classification.decision !== 'auto' && !canAttemptLowConfidenceImageEdit) {
+    if (classification.decision !== 'auto' && !canAttemptLowConfidenceImageEdit && !contextForcedImageEdit) {
       writeSidecar(sidecar, payload);
       return payload;
     }
@@ -797,7 +823,7 @@ async function processImage({ htmlFile, sourceImage, worker, translationOptions,
       payload.reason = 'low-confidence-image-edit-attempt';
     }
 
-    let translations = canAttemptLowConfidenceImageEdit ? [] : await translateRegions(regions, translationOptions);
+    let translations = canAttemptLowConfidenceImageEdit || contextForcedImageEdit ? [] : await translateRegions(regions, translationOptions);
     payload.translations = translations;
     if (translations.some(item => !item.target)) {
       payload.decision = 'auto';
@@ -822,7 +848,7 @@ async function processImage({ htmlFile, sourceImage, worker, translationOptions,
           }, validationFailure, imageContext);
           const outputMetadata = await sharp(outputImage).metadata();
           const outputRegions = await recognizeImage(worker, outputImage, outputMetadata);
-          const validationSourceRegions = canAttemptLowConfidenceImageEdit && imageContext
+          const validationSourceRegions = (canAttemptLowConfidenceImageEdit || contextForcedImageEdit) && imageContext
             ? [{ text: imageContext }]
             : regions;
           const validation = validateImageEditOutput(validationSourceRegions, outputRegions);
@@ -1046,6 +1072,7 @@ module.exports = {
   createRendererOptions,
   createOcrWorker,
   findProjectRoot,
+  isImportantTextFigureContext,
   processHtmlFile,
   retranslateImagesOnly,
   resolveOriginalImagePath,
