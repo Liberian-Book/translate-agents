@@ -47,11 +47,19 @@ Nhận HTML đã chuẩn bị cấu trúc song ngữ — mỗi đoạn văn bả
 7. **Feature Box** → Dịch là **"mục chuyên đề"** hoặc **"khung nội dung"** (tuyệt đối KHÔNG dịch "hộp tính năng").
 8. **Văn hóa Mỹ:** Khi gặp thương hiệu, sự kiện, thành ngữ phương Tây → thêm mô tả gọn theo chỉ dẫn trong file Analysis. Không dịch nghĩa đen thành ngữ (vd: "better mousetrap" ≠ "bẫy chuột tốt hơn").
 
+### Nhóm B2: Quy tắc QA nghiệm thu Chương 0–2 (BẮT BUỘC cho bản dịch mới)
+
+9. **Quy tắc 1 lần chú giải tiếng Anh:** Thuật ngữ gốc tiếng Anh chỉ được viết kèm trong ngoặc đơn đúng 1 lần khi xuất hiện lần đầu trong bài, ví dụ `hệ sinh thái khởi nghiệp (entrepreneurial ecosystem)`. Các lần sau dùng 100% tiếng Việt, không lặp lại tiếng Anh đơn lẻ trong thân câu. Acronym phổ biến như `IPO`, `ROI`, `BMC` có thể giữ theo glossary.
+10. **Phân biệt `credit`:** Trong chú thích hình ảnh, `(credit: ...)` phải dịch là `(Nguồn ảnh: ...)`; tuyệt đối không dịch là `(tín dụng: ...)`. Chỉ dùng `tín dụng` trong ngữ cảnh ngân hàng/tài chính như `line of credit`, `credit card`, `credit history`.
+11. **Tiêu đề `<h1>`–`<h6>`:** Dịch tiêu đề theo kiểu viết hoa tiêu đề/cụm tiêu đề tiếng Việt, tối thiểu không để chữ đầu dòng viết thường. Ví dụ: `Đạt được Sự Cân bằng`, `Quan điểm Lịch sử`.
+12. **Thuật ngữ đã chuẩn hóa từ QA:** Dùng các bản dịch đã nghiệm thu sau khi gặp term tương ứng: `due diligence` → `thẩm định kỹ lưỡng`; `lifestyle venture` → `doanh nghiệp phục vụ lối sống`; `harvesting/harvest` trong ngữ cảnh exit → `thoái vốn` hoặc `hiện thực hóa giá trị`; `value proposition` → `giá trị đề xuất`; `divergent thinking` → `tư duy phân kỳ`; `benchmarking` → `so sánh chuẩn`; `cash management` → `quản lý dòng tiền`; `framework` → `khuôn khổ làm việc`.
+13. **Không để sót cụm tiếng Anh mô tả:** Các cụm như `entrepreneurial mindset`, `angel investor`, `venture capitalist`, `milestones`, `breakeven point`, `bootstrapping`, `prototype`, `soft launch`, `intrapreneurs`, `e-commerce`, `Business Model Canvas` phải được dịch sang tiếng Việt theo glossary hoặc bản chuẩn QA; chỉ kèm tiếng Anh ở lần đầu nếu cần.
+
 ### Nhóm C: Nguyên tắc thực thi (Cách làm việc)
 
-9. **Dịch từng phần, tuần tự:** Xử lý từng cặp thẻ `eng hidden` / `vn visible` một — hoàn thành cặp này rồi mới chuyển sang cặp tiếp theo. KHÔNG cố dịch cả file một lượt. Mục đích: giữ context window tập trung, tránh quá tải dẫn đến mất thẻ hoặc bỏ sót nội dung.
-10. **Không tạo file trung gian:** Tuyệt đối không tạo thêm file hay viết script để phục vụ dịch. Dịch trực tiếp, ghi thẳng vào HTML.
-11. **Con người chịu trách nhiệm cuối cùng:** AI là công cụ hỗ trợ đọc và dịch thô. Trách nhiệm chất lượng thuộc về đội ngũ dịch thuật — không được tự tin quá mức, hãy ghi chú khi không chắc chắn.
+14. **Dịch từng phần, tuần tự:** Xử lý từng cặp thẻ `eng hidden` / `vn visible` một — hoàn thành cặp này rồi mới chuyển sang cặp tiếp theo. KHÔNG cố dịch cả file một lượt. Mục đích: giữ context window tập trung, tránh quá tải dẫn đến mất thẻ hoặc bỏ sót nội dung.
+15. **Không tạo file trung gian:** Tuyệt đối không tạo thêm file hay viết script để phục vụ dịch. Dịch trực tiếp, ghi thẳng vào HTML.
+16. **Con người chịu trách nhiệm cuối cùng:** AI là công cụ hỗ trợ đọc và dịch thô. Trách nhiệm chất lượng thuộc về đội ngũ dịch thuật — không được tự tin quá mức, hãy ghi chú khi không chắc chắn.
 
 ### Nhóm D: Anti-patterns (Lỗi HAY GẶP — Kinh nghiệm từ chapters 1–13)
 
@@ -64,6 +72,9 @@ Nhận HTML đã chuẩn bị cấu trúc song ngữ — mỗi đoạn văn bả
 | Caption/subtitle đảo thứ tự | Cặp eng/vn bị đảo (vn trước eng) | Kiểm tra id — vn luôn có hậu tố `-vn` |
 | Thuật ngữ hallucination | Dịch khác với glossary.csv | Luôn tra glossary trước, không phán đoán |
 | Câu bị động cứng nhắc | Dịch sát cấu trúc bị động tiếng Anh | Chuyển sang chủ động khi tiếng Việt tự nhiên hơn |
+| Lặp tiếng Anh sau lần đầu | Dùng lại `(entrepreneurship)`, `(franchisee)` nhiều lần | Chỉ giữ ngoặc tiếng Anh ở lần đầu; các lần sau dùng tiếng Việt |
+| `credit` trong caption bị dịch sai | `(credit: ...)` thành `(tín dụng: ...)` | Với `<figcaption>`, luôn dùng `(Nguồn ảnh: ...)` |
+| Heading viết thường | `<h3>đạt được sự cân bằng</h3>` | Viết hoa tiêu đề: `Đạt được Sự Cân bằng` |
 
 ---
 

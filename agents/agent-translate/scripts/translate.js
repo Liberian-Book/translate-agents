@@ -12,6 +12,14 @@ const TRANSLATION_RETRIES = 2;
 const LEFTOVER_PHRASE_MIN_WORDS = 2;
 const LEFTOVER_PHRASE_MAX_WORDS = 5;
 const PROGRESS_PREFIX = '__CYBERK_TRANSLATE_PROGRESS__';
+const QA_STYLE_GUIDE = [
+  'Apply the single English mention rule: include the original English term in parentheses only on the first meaningful mention in the file; later mentions must be Vietnamese-only.',
+  'Do not repeat standalone English terms in Vietnamese sentences unless they are proper nouns, acronyms, code, URLs, citations, or explicitly preserved by the glossary.',
+  'For image captions, translate "(credit: ...)" as "(Nguồn ảnh: ...)". Never translate photo credits as "tín dụng"; use "tín dụng" only for finance/banking credit contexts.',
+  'Translate headings h1-h6 with Vietnamese title-style capitalization; never leave a heading starting with a lowercase letter.',
+  'Prefer established entrepreneurship terms: due diligence => thẩm định kỹ lưỡng; lifestyle venture => doanh nghiệp phục vụ lối sống; harvesting/harvest in exit contexts => thoái vốn/hiện thực hóa giá trị; value proposition => giá trị đề xuất; divergent thinking => tư duy phân kỳ; cash management => quản lý dòng tiền; benchmarking => so sánh chuẩn; framework => khuôn khổ làm việc.',
+  'Translate common terms when they appear: entrepreneurial ecosystem => hệ sinh thái khởi nghiệp; franchisee => bên nhận nhượng quyền; entrepreneurial mindset => tư duy doanh nhân; angel investor => nhà đầu tư thiên thần; venture capitalist => nhà đầu tư mạo hiểm; milestones => các cột mốc quan trọng; breakeven point => điểm hòa vốn; initial public offering (IPO) => phát hành cổ phiếu lần đầu ra công chúng (IPO); return on investment (ROI) => tỷ suất lợi nhuận trên đầu tư (ROI); bootstrapping => tự huy động vốn; prototype => mẫu thử nghiệm; soft launch => ra mắt thử nghiệm; intrapreneurs => doanh nhân nội bộ; e-commerce => thương mại điện tử; Business Model Canvas (BMC) => Mô hình Kinh doanh Canvas (BMC).'
+];
 const PRESERVED_LOWERCASE_LOANWORDS = new Set([
   'bacon',
   'cheddar',
@@ -105,7 +113,15 @@ function listAnalyzedGlossaryCsvs(analyzedDir) {
     .sort();
 }
 
-function relevantGlossary($, el, glossary) {
+function stripEnglishParenthetical(translation, key) {
+  const escapedKey = key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return translation
+    .replace(new RegExp(`\\s*\\(${escapedKey}\\)`, 'i'), '')
+    .replace(/\s*\([a-z][a-z\s-]{2,}\)/gi, '')
+    .trim();
+}
+
+function glossaryTermKeys($, el, glossary) {
   const terms = new Map();
   $(el).find('[data-type="term"]').each((_index, termEl) => {
     const key = $(termEl).text().trim().toLowerCase();
@@ -115,7 +131,33 @@ function relevantGlossary($, el, glossary) {
     }
   });
 
-  return Array.from(terms.entries()).map(([key, translation]) => `${key} => ${translation}`);
+  return Array.from(terms.entries());
+}
+
+function relevantGlossary(termKeys, termMentions) {
+  return termKeys.map(([key, translation]) => {
+    const count = termMentions.get(key.toLowerCase()) || 0;
+    if (count === 0) return `${key} => ${translation}`;
+
+    const vietnameseOnly = stripEnglishParenthetical(translation, key);
+    return `${key} => ${vietnameseOnly || translation} (repeat mention: Vietnamese only; do not include the original English term again)`;
+  });
+}
+
+function recordGlossaryMentions(termKeys, termMentions) {
+  termKeys.forEach(([key]) => {
+    key = key.toLowerCase();
+    termMentions.set(key, (termMentions.get(key) || 0) + 1);
+  });
+}
+
+function translationSystemPrompt(extraRules = []) {
+  return [
+    'You are an academic textbook translator translating OpenStax content from English to Vietnamese.',
+    ...QA_STYLE_GUIDE,
+    ...extraRules,
+    'Use glossary translations exactly when a listed term appears, except when a glossary line explicitly says this is a repeat mention and asks for Vietnamese only.'
+  ].join(' ');
 }
 
 function countInlineTags(html) {
@@ -339,23 +381,58 @@ function validateTranslatedFragment(originalHtml, translatedHtml) {
   }
 }
 
+function capitalizeFirstVietnameseLetter(text) {
+  return text.replace(/(^|[>\s])([a-zàáảãạăằắẳẵặâầấẩẫậèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵđ])/, (_match, prefix, letter) => `${prefix}${letter.toUpperCase()}`);
+}
+
+function normalizeHeadingFragment(html) {
+  const $ = cheerio.load(`<root>${html}</root>`, { decodeEntities: false });
+  const root = $('root');
+  const firstTextNode = root.contents().toArray().find(node => node.type === 'text' && node.data.trim());
+  if (firstTextNode) {
+    firstTextNode.data = capitalizeFirstVietnameseLetter(firstTextNode.data);
+    return root.html();
+  }
+
+  const firstElement = root.find('*').toArray().find(node => $(node).text().trim());
+  if (!firstElement) return capitalizeFirstVietnameseLetter(html);
+
+  const textNode = collectTextNodes(firstElement).find(node => node.data && node.data.trim());
+  if (textNode) textNode.data = capitalizeFirstVietnameseLetter(textNode.data);
+  return root.html();
+}
+
+function normalizePhotoCreditInCaption(html) {
+  return html.replace(/\((?:credit|tín dụng|ghi công)\s*:/gi, '(Nguồn ảnh:');
+}
+
+function normalizeTranslatedElement($, el) {
+  const tagName = (el.tagName || '').toLowerCase();
+  const isHeading = /^h[1-6]$/.test(tagName);
+  const isCaption = tagName === 'figcaption' || $(el).closest('figcaption').length > 0;
+  let html = $(el).html() || '';
+
+  if (isHeading) html = normalizeHeadingFragment(html);
+  if (isCaption) html = normalizePhotoCreditInCaption(html);
+
+  $(el).html(html);
+}
+
 async function translateHtmlFragment(fragmentHtml, glossaryLines, options, previousError = null) {
   const { tokenized, tags } = tokenizeHtmlTags(fragmentHtml);
   const glossaryText = glossaryLines.length > 0 ? glossaryLines.join('\n') : 'No approved glossary terms for this fragment.';
   const messages = [
     {
       role: 'system',
-      content: [
-        'You are an academic textbook translator translating OpenStax content from English to Vietnamese.',
+      content: translationSystemPrompt([
         'Translate naturally for Vietnamese students using "Bạn" for you and "Chúng ta" for we.',
         'Return only the translated INNER HTML fragment. No wrapper tags. No markdown. No explanations.',
         'HTML tags are replaced with placeholders like __HTML_TAG_0__. Preserve every placeholder exactly and in order.',
         'If the input has no HTML tags, return plain Vietnamese text only, with no <p>, <span>, or other tags.',
         'Only translate human-readable English text. Do not translate or alter placeholders.',
         'Do not leave English source phrases untranslated unless they are proper nouns, names, acronyms, code, URLs, or citations.',
-        'Lowercase descriptive phrases are not proper nouns; translate them into Vietnamese.',
-        'Use glossary translations exactly when a listed term appears.'
-      ].join(' '),
+        'Lowercase descriptive phrases are not proper nouns; translate them into Vietnamese.'
+      ]),
     },
     {
       role: 'user',
@@ -408,14 +485,12 @@ async function translatePlainText(text, glossaryLines, options, previousError = 
       messages: [
         {
           role: 'system',
-          content: [
-            'You are an academic textbook translator translating OpenStax content from English to Vietnamese.',
+          content: translationSystemPrompt([
             'Return only Vietnamese text. No HTML. No markdown. No explanations.',
             'Use "Bạn" for you and "Chúng ta" for we.',
             'Do not leave English source phrases untranslated unless they are proper nouns, names, acronyms, code, URLs, or citations.',
-            'Lowercase descriptive phrases are not proper nouns; translate them into Vietnamese.',
-            'Use glossary translations exactly when a listed term appears.'
-          ].join(' '),
+            'Lowercase descriptive phrases are not proper nouns; translate them into Vietnamese.'
+          ]),
         },
         {
           role: 'user',
@@ -520,6 +595,7 @@ async function translateFile(inputPath, outputPath, glossary, options) {
   const $ = cheerio.load(html, { decodeEntities: false });
   const elements = $(TRANSLATABLE_SELECTOR).toArray();
   const translatableCount = countTranslatableElements($, elements);
+  const termMentions = new Map();
   let translatedBlocks = 0;
 
   for (let i = 0; i < elements.length; i++) {
@@ -528,7 +604,8 @@ async function translateFile(inputPath, outputPath, glossary, options) {
     const text = $(el).text().trim();
     if (!text) continue;
 
-    const glossaryLines = relevantGlossary($, el, glossary);
+    const termKeys = glossaryTermKeys($, el, glossary);
+    const glossaryLines = relevantGlossary(termKeys, termMentions);
     try {
       const translated = await translateWithValidation(originalInnerHtml, glossaryLines, options);
       $(el).html(translated);
@@ -541,6 +618,9 @@ async function translateFile(inputPath, outputPath, glossary, options) {
         throw new Error(`${path.basename(inputPath)} block ${i + 1}/${elements.length}: ${fallbackError.message}; source="${source}"`);
       }
     }
+
+    normalizeTranslatedElement($, el);
+    recordGlossaryMentions(termKeys, termMentions);
 
     translatedBlocks += 1;
     emitProgress({
