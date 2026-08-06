@@ -79,7 +79,7 @@
     {
       "source": "J L) : Potential Obstacles",
       "normalizedSource": "J L) : Potential Obstacles",
-      "target": "J L) : Các trở ngại tiềm ẩn",
+      "target": "J L) : Các trở ngại tiềm tàng",
       "bbox": {
         "x": 130,
         "y": 137,
@@ -130,14 +130,14 @@
     "textDensity": 0.3183673469387755,
     "averageConfidence": 66,
     "entropy": 3.84974146238892,
-    "sharpness": 4.542882510081858
+    "sharpness": 4.542882510081793
   },
   "imageEdit": {
-    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: During Navigation, you should ask the following questions: How should I prepare for or deal with any potential obstacles or challenges, such as having no money or no solid business idea? What are some alternative routes to achieve my goals or dreams? Potential Obstacles include Limited outlook for the appropriate strategies, goals, or opportunities.\nButton label: Click to enlarge image of During Navigation, you should ask the following questions: How should I prepare for or deal with any potential obstacles or challenges, such as having no money or no solid business idea? What are some alternative routes to achieve my goals or dreams? Potential Obstacles include Limited outlook for the appropriate strategies, goals, or opportunities.\nEnglish caption: Figure 2.11 Navigation involves being prepared for and making changes when faced with obstacles. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Navigation 7 - => Điều hướng 7 -\n- J L) : Potential Obstacles => J L) : Các trở ngại tiềm ẩn\n- | = + Limited outlook for the => | = + Triển vọng hạn chế cho\n- S NN 2 appropriate strategies, => các chiến lược thích hợp,\n- goals, or opportunities => mục tiêu, hoặc cơ hội\nReturn a complete edited PNG image.",
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: During Navigation, you should ask the following questions: How should I prepare for or deal with any potential obstacles or challenges, such as having no money or no solid business idea? What are some alternative routes to achieve my goals or dreams? Potential Obstacles include Limited outlook for the appropriate strategies, goals, or opportunities.\nButton label: Click to enlarge image of During Navigation, you should ask the following questions: How should I prepare for or deal with any potential obstacles or challenges, such as having no money or no solid business idea? What are some alternative routes to achieve my goals or dreams? Potential Obstacles include Limited outlook for the appropriate strategies, goals, or opportunities.\nEnglish caption: Figure 2.11 Navigation involves being prepared for and making changes when faced with obstacles. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Navigation 7 - => Điều hướng 7 -\n- J L) : Potential Obstacles => J L) : Các trở ngại tiềm tàng\n- | = + Limited outlook for the => | = + Triển vọng hạn chế cho\n- S NN 2 appropriate strategies, => các chiến lược thích hợp,\n- goals, or opportunities => mục tiêu, hoặc cơ hội\nReturn a complete edited PNG image.",
     "outputOcr": [
       {
-        "text": "biéu huéng m1 =",
-        "confidence": 65,
+        "text": "biéu huéng i] ]",
+        "confidence": 61,
         "bbox": {
           "x": 204,
           "y": 92,
@@ -146,8 +146,8 @@
         }
       },
       {
-        "text": "§ Cac tré ngai tiém an",
-        "confidence": 65,
+        "text": "IE ~ 29 =",
+        "confidence": 61,
         "bbox": {
           "x": 204,
           "y": 215,
@@ -156,8 +156,8 @@
         }
       },
       {
-        "text": "» Tri€n vong han ché cho",
-        "confidence": 65,
+        "text": "=F Cau héi suy ngam",
+        "confidence": 61,
         "bbox": {
           "x": 204,
           "y": 338,
@@ -166,8 +166,8 @@
         }
       },
       {
-        "text": "cac chién lugc thich hap,",
-        "confidence": 65,
+        "text": "EE AEN + Téi nén chuan bj hodc xt ly",
+        "confidence": 61,
         "bbox": {
           "x": 204,
           "y": 461,
@@ -176,11 +176,81 @@
         }
       },
       {
-        "text": "muc tiéu, hoac co hoi",
-        "confidence": 65,
+        "text": "XN ie = ON nhurth&nao 6! virbat ky",
+        "confidence": 61,
         "bbox": {
           "x": 204,
           "y": 584,
+          "w": 1634,
+          "h": 62
+        }
+      },
+      {
+        "text": "AN Shea= tré ngai hodc thach thirc tiem",
+        "confidence": 61,
+        "bbox": {
+          "x": 204,
+          "y": 707,
+          "w": 1634,
+          "h": 62
+        }
+      },
+      {
+        "text": "N <> g tang nao, chang han nhu",
+        "confidence": 61,
+        "bbox": {
+          "x": 204,
+          "y": 830,
+          "w": 1634,
+          "h": 62
+        }
+      },
+      {
+        "text": "NC khong cé tién hodc khong cd",
+        "confidence": 61,
+        "bbox": {
+          "x": 204,
+          "y": 953,
+          "w": 1634,
+          "h": 62
+        }
+      },
+      {
+        "text": "y tudng kinh doanh ving chac?",
+        "confidence": 61,
+        "bbox": {
+          "x": 204,
+          "y": 1076,
+          "w": 1634,
+          "h": 62
+        }
+      },
+      {
+        "text": "+ Mot s6 con dudng thay thé dé",
+        "confidence": 61,
+        "bbox": {
+          "x": 204,
+          "y": 1199,
+          "w": 1634,
+          "h": 62
+        }
+      },
+      {
+        "text": "dat dugc muc tiéu hoac vdc mo",
+        "confidence": 61,
+        "bbox": {
+          "x": 204,
+          "y": 1322,
+          "w": 1634,
+          "h": 62
+        }
+      },
+      {
+        "text": "cla toi la gi?",
+        "confidence": 61,
+        "bbox": {
+          "x": 204,
+          "y": 1445,
           "w": 1634,
           "h": 62
         }

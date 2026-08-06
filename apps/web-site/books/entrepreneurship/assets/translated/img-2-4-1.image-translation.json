@@ -137,7 +137,7 @@
     {
       "source": "Key Resources Channels",
       "normalizedSource": "Key Resources Channels",
-      "target": "Tài nguyên chính Kênh",
+      "target": "Tài nguyên chính kênh",
       "bbox": {
         "x": 130,
         "y": 356,
@@ -152,98 +152,88 @@
     "textDensity": 0.3864935064935065,
     "averageConfidence": 74,
     "entropy": 3.4903143151932454,
-    "sharpness": 4.150888817495872
+    "sharpness": 4.150888817495866
   },
   "imageEdit": {
-    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: The business model canvas includes a framework of key partners, key activities, value propositions, customer relationships, customer segments, key resources, channels, cost structure, and revenue streams.\nButton label: Click to enlarge image of The business model canvas includes a framework of key partners, key activities, value propositions, customer relationships, customer segments, key resources, channels, cost structure, and revenue streams.\nEnglish caption: Figure 2.22 Here is an example of a Business Model Canvas with a framework to identify key components of the venture. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- THE BUSINESS MODEL CANVAS => MÔ HÌNH KINH DOANH\n- — Customer => — Khách hàng\n- gyi Relationships => Mối quan hệ\n- Fe BErTTe Value Customer => Giá trị đề xuất của khách hàng\n- y Propositions Segments => Phân khúc\n- Key Resources Channels => Tài nguyên chính Kênh\nReturn a complete edited PNG image.",
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: The business model canvas includes a framework of key partners, key activities, value propositions, customer relationships, customer segments, key resources, channels, cost structure, and revenue streams.\nButton label: Click to enlarge image of The business model canvas includes a framework of key partners, key activities, value propositions, customer relationships, customer segments, key resources, channels, cost structure, and revenue streams.\nEnglish caption: Figure 2.22 Here is an example of a Business Model Canvas with a framework to identify key components of the venture. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- THE BUSINESS MODEL CANVAS => MÔ HÌNH KINH DOANH\n- — Customer => — Khách hàng\n- gyi Relationships => Mối quan hệ\n- Fe BErTTe Value Customer => Giá trị đề xuất của khách hàng\n- y Propositions Segments => Phân khúc\n- Key Resources Channels => Tài nguyên chính kênh\nReturn a complete edited PNG image.",
     "outputOcr": [
       {
         "text": "MO HINH KINH DOANH",
-        "confidence": 66,
+        "confidence": 73,
         "bbox": {
-          "x": 217,
+          "x": 216,
           "y": 87,
-          "w": 1736,
+          "w": 1731,
           "h": 58
         }
       },
       {
-        "text": "5 : Méi quan hé",
-        "confidence": 66,
+        "text": ": : M@Gi quan hé",
+        "confidence": 73,
         "bbox": {
-          "x": 217,
+          "x": 216,
           "y": 203,
-          "w": 1736,
+          "w": 1731,
           "h": 58
         }
       },
       {
-        "text": "Hesrddpy sath a vi khach hang",
-        "confidence": 66,
+        "text": "Hoat d hinh :",
+        "confidence": 73,
         "bbox": {
-          "x": 217,
+          "x": 216,
           "y": 319,
-          "w": 1736,
+          "w": 1731,
           "h": 58
         }
       },
       {
-        "text": "1a tri i 4",
-        "confidence": 66,
+        "text": "aie Gia tri Phan khuc",
+        "confidence": 73,
         "bbox": {
-          "x": 217,
+          "x": 216,
           "y": 435,
-          "w": 1736,
+          "w": 1731,
           "h": 58
         }
       },
       {
-        "text": "NL Ope dB wud Phan khuc",
-        "confidence": 66,
+        "text": "Doi tac chinh ) :",
+        "confidence": 73,
         "bbox": {
-          "x": 217,
+          "x": 216,
           "y": 551,
-          "w": 1736,
+          "w": 1731,
           "h": 58
         }
       },
       {
-        "text": "Doi tac chinh é Sh = khach hang",
-        "confidence": 66,
+        "text": "os eat dé xuéit clia khach hang khach hang",
+        "confidence": 73,
         "bbox": {
-          "x": 217,
+          "x": 216,
           "y": 667,
-          "w": 1736,
-          "h": 58
-        }
-      },
-      {
-        "text": "khach hang",
-        "confidence": 66,
-        "bbox": {
-          "x": 217,
-          "y": 783,
-          "w": 1736,
+          "w": 1731,
           "h": 58
         }
       },
       {
         "text": "Tai nguyén chinh Kénh",
-        "confidence": 66,
+        "confidence": 73,
         "bbox": {
-          "x": 217,
-          "y": 899,
-          "w": 1736,
+          "x": 216,
+          "y": 783,
+          "w": 1731,
           "h": 58
         }
       },
       {
-        "text": "Ca cau chi phi Dong doanh thu",
-        "confidence": 66,
+        "text": "Cao cau chi phi Dong doanh thu",
+        "confidence": 73,
         "bbox": {
-          "x": 217,
-          "y": 1015,
-          "w": 1736,
+          "x": 216,
+          "y": 899,
+          "w": 1731,
           "h": 58
         }
       }

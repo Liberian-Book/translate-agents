@@ -129,7 +129,7 @@
     {
       "source": "Business Plan (| ™",
       "normalizedSource": "Business Plan (| ™",
-      "target": "Kế hoạch Kinh doanh",
+      "target": "Kế hoạch Kinh doanh (| ™",
       "bbox": {
         "x": 130,
         "y": 137,
@@ -141,7 +141,7 @@
     {
       "source": "Fe E",
       "normalizedSource": "Fe E",
-      "target": "N/A",
+      "target": "Fe E",
       "bbox": {
         "x": 130,
         "y": 215,
@@ -177,7 +177,7 @@
     {
       "source": "Ee——— the related operational and",
       "normalizedSource": "Ee——— the related operational and",
-      "target": "N/A",
+      "target": "Ee——— các trách nhiệm vận hành và",
       "bbox": {
         "x": 130,
         "y": 449,
@@ -213,7 +213,7 @@
     {
       "source": "+ How quickly (or slowly)",
       "normalizedSource": "+ How quickly (or slowly)",
-      "target": "+ Tôi nên phát triển dự án nhanh chóng (hay chậm rãi)",
+      "target": "+ Tôi nên phát triển dự án nhanh chóng (hay chậm chạp)?",
       "bbox": {
         "x": 130,
         "y": 683,
@@ -240,14 +240,14 @@
     "textDensity": 0.636734693877551,
     "averageConfidence": 70,
     "entropy": 3.9828246817705804,
-    "sharpness": 4.731379112097237
+    "sharpness": 4.731379112097242
   },
   "imageEdit": {
-    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: When constructing a Business Plan, ask the following questions: How can I manage and juggle the related operational and administrative responsibilities for the venture? How quickly (or slowly) should I grow the venture? Potential Obstacles include Limited experience or knowledge of the operational and administrative needs of a business, and Limited access to resources and a support system.\nButton label: Click to enlarge image of When constructing a Business Plan, ask the following questions: How can I manage and juggle the related operational and administrative responsibilities for the venture? How quickly (or slowly) should I grow the venture? Potential Obstacles include Limited experience or knowledge of the operational and administrative needs of a business, and Limited access to resources and a support system.\nEnglish caption: Figure 2.10 Writing a business plan before launching a venture can give you important insights into your idea and can help you modify your business before launch to give it a better chance of success. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- als => N/A\n- Business Plan (| ™ => Kế hoạch Kinh doanh\n- Fe E => N/A\n- - A — Reflection Questions => - A — Câu hỏi phản ánh\n- | =: + How can I manage and juggle => | =: + Làm thế nào tôi có thể quản lý và cân bằng\n- Ee——— the related operational and => N/A\n- -—, administrative responsibilities => -—, trách nhiệm hành chính\n- © for the venture? (cleaned OCR: for the venture?) => cho dự án?\n- should I grow the venture? => như thế nào?\nReturn a complete edited PNG image.",
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: When constructing a Business Plan, ask the following questions: How can I manage and juggle the related operational and administrative responsibilities for the venture? How quickly (or slowly) should I grow the venture? Potential Obstacles include Limited experience or knowledge of the operational and administrative needs of a business, and Limited access to resources and a support system.\nButton label: Click to enlarge image of When constructing a Business Plan, ask the following questions: How can I manage and juggle the related operational and administrative responsibilities for the venture? How quickly (or slowly) should I grow the venture? Potential Obstacles include Limited experience or knowledge of the operational and administrative needs of a business, and Limited access to resources and a support system.\nEnglish caption: Figure 2.10 Writing a business plan before launching a venture can give you important insights into your idea and can help you modify your business before launch to give it a better chance of success. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- als => N/A\n- Business Plan (| ™ => Kế hoạch Kinh doanh (| ™\n- Fe E => Fe E\n- - A — Reflection Questions => - A — Câu hỏi phản ánh\n- | =: + How can I manage and juggle => | =: + Làm thế nào tôi có thể quản lý và cân bằng\n- Ee——— the related operational and => Ee——— các trách nhiệm vận hành và\n- -—, administrative responsibilities => -—, trách nhiệm hành chính\n- © for the venture? (cleaned OCR: for the venture?) => cho dự án?\n- should I grow the venture? => như thế nào?\nReturn a complete edited PNG image.",
     "outputOcr": [
       {
-        "text": "Ké& hoach Kinh doanh \" ™",
-        "confidence": 68,
+        "text": "Ké hoach Kinh doanh | ™",
+        "confidence": 76,
         "bbox": {
           "x": 204,
           "y": 92,
@@ -256,8 +256,8 @@
         }
       },
       {
-        "text": "oT — HH =",
-        "confidence": 68,
+        "text": "———— Cau héi phan anh",
+        "confidence": 76,
         "bbox": {
           "x": 204,
           "y": 215,
@@ -266,8 +266,8 @@
         }
       },
       {
-        "text": "- rT —— Cau hoi phan anh",
-        "confidence": 68,
+        "text": "== |= | | * Lam thé nao t6i co thé quan ly va",
+        "confidence": 76,
         "bbox": {
           "x": 204,
           "y": 338,
@@ -276,8 +276,8 @@
         }
       },
       {
-        "text": "= * Lam thé nao téi c6 thé quan ly",
-        "confidence": 68,
+        "text": "=== can bang cac trach nhiém van hanh",
+        "confidence": 76,
         "bbox": {
           "x": 204,
           "y": 461,
@@ -286,8 +286,8 @@
         }
       },
       {
-        "text": "SE=== va can bang cac trach nhiém",
-        "confidence": 68,
+        "text": "[J va trach nhiém hanh chinh",
+        "confidence": 76,
         "bbox": {
           "x": 204,
           "y": 584,
@@ -296,8 +296,8 @@
         }
       },
       {
-        "text": "ee van hanh va trach nhiém",
-        "confidence": 68,
+        "text": "cho dy an?",
+        "confidence": 76,
         "bbox": {
           "x": 204,
           "y": 707,
@@ -306,8 +306,8 @@
         }
       },
       {
-        "text": "ad hanh chinh lién quan",
-        "confidence": 68,
+        "text": "* Tdi nén phat trién du &n",
+        "confidence": 76,
         "bbox": {
           "x": 204,
           "y": 830,
@@ -316,31 +316,11 @@
         }
       },
       {
-        "text": "cho du én?",
-        "confidence": 68,
+        "text": "nhu thé nao?",
+        "confidence": 76,
         "bbox": {
           "x": 204,
           "y": 953,
-          "w": 1634,
-          "h": 62
-        }
-      },
-      {
-        "text": "Toi nén phat trién du én",
-        "confidence": 68,
-        "bbox": {
-          "x": 204,
-          "y": 1076,
-          "w": 1634,
-          "h": 62
-        }
-      },
-      {
-        "text": "nhu thé nao?",
-        "confidence": 68,
-        "bbox": {
-          "x": 204,
-          "y": 1199,
           "w": 1634,
           "h": 62
         }

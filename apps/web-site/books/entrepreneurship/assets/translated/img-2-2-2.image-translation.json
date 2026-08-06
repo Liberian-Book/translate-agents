@@ -359,348 +359,368 @@
     "textDensity": 2.1746192893401015,
     "averageConfidence": 30,
     "entropy": 6.39391733870616,
-    "sharpness": 5.925142579763622
+    "sharpness": 5.925142579763795
   },
   "imageEdit": {
-    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: (a) Copy of a draft of the Frame of Government in Pennsylvania by William Penn. (b) Painting of Benjamin Franklin, shown operating a printing press.\nButton label: Click to enlarge image of (a) Copy of a draft of the Frame of Government in Pennsylvania by William Penn. (b) Painting of Benjamin Franklin, shown operating a printing press.\nEnglish caption: Figure 2.13 (a) William Penn founded the Commonwealth of Pennsylvania as a sanctuary for persecuted Quakers. This colony could be considered an early form of social entrepreneurship. Shown is his first draft of The Frame of Government in Pennsylvania. (b) As one of the country’s founders, Benjamin Franklin contributed to the Declaration of Independence. His accomplishments as a printer, writer, postmaster, diplomat, and scientist (he contributed to the understanding of electricity) epitomize serial entrepreneurship. In this painting by Charles Mills, a young Ben Franklin is seen operating a printing press. (credit (a): modification of “William Penn - The First Draft of the Frame of Government - c1681” by University of Pennsylvania/Wikimedia Commons, Public Domain; credit (b): modification of “Franklin the printer” by Library of Congress/Wikimedia Commons, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: pennsylvania, william, penn, benjamin, franklin, charles, mills. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: (a) Copy of a draft of the Frame of Government in Pennsylvania by William Penn. (b) Painting of Benjamin Franklin, shown operating a printing press.\nButton label: Click to enlarge image of (a) Copy of a draft of the Frame of Government in Pennsylvania by William Penn. (b) Painting of Benjamin Franklin, shown operating a printing press.\nEnglish caption: Figure 2.13 (a) William Penn founded the Commonwealth of Pennsylvania as a sanctuary for persecuted Quakers. This colony could be considered an early form of social entrepreneurship. Shown is his first draft of The Frame of Government in Pennsylvania. (b) As one of the country’s founders, Benjamin Franklin contributed to the Declaration of Independence. His accomplishments as a printer, writer, postmaster, diplomat, and scientist (he contributed to the understanding of electricity) epitomize serial entrepreneurship. In this painting by Charles Mills, a young Ben Franklin is seen operating a printing press. (credit (a): modification of “William Penn - The First Draft of the Frame of Government - c1681” by University of Pennsylvania/Wikimedia Commons, Public Domain; credit (b): modification of “Franklin the printer” by Library of Congress/Wikimedia Commons, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: pennsylvania, william, penn, benjamin, franklin, this, charles, mills. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
     "outputOcr": [
       {
-        "text": "Lin Ferg cia chink quyén",
-        "confidence": 66,
+        "text": "- Bdn Rfung chink quyén",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 117,
-          "w": 1289,
+          "w": 1288,
           "h": 78
         }
       },
       {
-        "text": "thuge _Khéi hi vugng chung’ Pennsylvania",
-        "confidence": 66,
+        "text": "! ciia Pennsylvania",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 273,
-          "w": 1289,
+          "w": 1288,
           "h": 78
         }
       },
       {
-        "text": "Mac dink la, d trank nhang sit hoa vd bit d3ng phat sinh t& vige cdc bo luat khdc nhau .",
-        "confidence": 66,
+        "text": "Vili chive So fing nguoi hign tai va tuomg lai, cu din cia fink nay, ude gude :",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 429,
-          "w": 1289,
+          "w": 1288,
           "h": 78
         }
       },
       {
-        "text": "i eR) RT Eon Ve hii a oie et hes EAE de .",
-        "confidence": 66,
+        "text": "Tiiuge. Vuong & dbuttdrtng: Efwait rugly Ghitmg iw tag of digi Gey driv-nds Gand ig jeri sage adc il { !",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 585,
-          "w": 1289,
+          "w": 1288,
           "h": 78
         }
       },
       {
-        "text": "bao dim, ring ching ta sé khong theo khudn mdi hay thé ché cia bit kj ai ma mink",
-        "confidence": 66,
+        "text": "guyén, Gi hu imeby dist tare Gharé br i oii Lig cia erga fia; bi Siac i bauig. - a & aX v : |",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 741,
-          "w": 1289,
+          "w": 1288,
           "h": 78
         }
       },
       {
-        "text": "khng he in de tao didu kién ch hg jt i 4 Fi thudn F i C7 ta |",
-        "confidence": 66,
+        "text": "Rhinf: cae think Pidn ¢ i chéfuge tia cig 1A fide ca fiagér i fueién, Gad rig 46.0 Uetric. & 0 ithcng. oe BE WE = iL - c",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 897,
-          "w": 1289,
+          "w": 1288,
           "h": 78
         }
       },
       {
-        "text": "tuyen bi va thiét lap cde nguyen thc vildinh dang dusi day, dé quan ly Kh: Think vicon",
-        "confidence": 66,
+        "text": "Chink quyén uérdic dthing, S6iting aig fie 6 oeiclllFng ule. diy seskbhomicne dik dik dd. y — Py =",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 1053,
-          "w": 1289,
+          "w": 1288,
           "h": 78
         }
       },
       {
-        "text": "i Avy Ne Le A te 7, bob The A dh 7 TR ]",
-        "confidence": 66,
+        "text": "chinfi quyén. dup romps. Cac idgaf G ly di id fiois dn 10k bing Eeak Gp Qigua 56 abn Giana, 5 wr bit aE 5] 3",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 1209,
-          "w": 1289,
+          "w": 1288,
           "h": 78
         }
       },
       {
-        "text": "W vay, du tién va trade tidn, ching ta quy dink, ring khéng ai cu tri trong Khéi",
-        "confidence": 66,
+        "text": "va hh Rgewén. ac, Viusiglin uling ai ni; 4 mee nidg ais df. & de ching Gay cit dniufingt bg dd afi. | | bees 3 -\" \\",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 1365,
-          "w": 1289,
+          "w": 1288,
           "h": 78
         }
       },
       {
-        "text": "Think vig ching ody vi, be 31 L32 ns 24 bi. lis phd, B gir ha hay Bt te, di =",
-        "confidence": 66,
+        "text": "asin Gacdisy fon. bl; id doniny, & cin Gi Gn 466 fic iid ofc frGia ding aden Gi toa dai séciag. = |",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 1521,
-          "w": 1289,
+          "w": 1288,
           "h": 78
         }
       },
       {
-        "text": "vé gust hole tai Eg phat chiu thiét hai, i tién hodc hinh phat nao Wie, bai bat ky E",
-        "confidence": 66,
+        "text": "chink dgu éde: Gihicadn 4é ugk afinnd a’ figs 6¢ oé @ via vee wit ic dng fadu fié fio dies cabling 3",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 1677,
-          "w": 1289,
+          "w": 1288,
           "h": 78
         }
       },
       {
-        "text": "I le RE EE Se Be /",
-        "confidence": 66,
+        "text": "Gud chittg Judi ding hing &giie chia cl ai duzalibgfiedi ds tied of rj dy, ee fui aug Edere vdy :",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 1833,
-          "w": 1289,
+          "w": 1288,
           "h": 78
         }
       },
       {
-        "text": "hodc cach the Pir) Chia Tréi cia ho; va khong ai bi bug phai phai tha gia hogc duy",
-        "confidence": 66,
+        "text": "ta 4é hing. bi. bis Go it td Khidria din va thict die ring niet dn, Ga Git fis GE RE Eatin ha",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 1989,
-          "w": 1289,
+          "w": 1288,
           "h": 78
         }
       },
       {
-        "text": "tri bit kj su the phiong ton gido nao, hay bi nfyuc ma, lam kh dé, hoge bi long",
-        "confidence": 66,
+        "text": "sing say. Ge le dicniy vii kRigg, Garién, Ging oad dt age bo die fugly: Ging oi wtf igs Goad: rs",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 2145,
-          "w": 1289,
+          "w": 1288,
           "h": 78
         }
       },
       {
-        "text": "cach déi\" ed tiéu cuc khac, vi quan diém hodc nigm tin ton gido cia ho.",
-        "confidence": 66,
+        "text": "vi uli; dE idee £ FRR: of Guinn ag lids be fifinie oa iis « Cupid us, lagi ly gr GER gs ~N - Lo",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 2301,
-          "w": 1289,
+          "w": 1288,
           "h": 78
         }
       },
       {
-        "text": "Va gqugén ty do do, bao gim ca tic do Khong tuin phuc, hot gid thoit khsi, bit kj Ry, BEV",
-        "confidence": 66,
+        "text": "5¢ 2 tat fed fui Agwpieq Ei fdehify, bie iia, sd 1at€ G. gliyén dadiin b. vir Kas, pATAPRL Whee",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 2457,
-          "w": 1289,
+          "w": 1288,
           "h": 78
         }
       },
       {
-        "text": "ink thitc the phugng ton gido nio, ma bit ky ai, ngay lic nay, khpng the theo Long = (Was",
-        "confidence": 66,
+        "text": "N 8 We EH | te",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 2613,
-          "w": 1289,
+          "w": 1288,
           "h": 78
         }
       },
       {
-        "text": "iim chip has, 2 Fhong Bao 910 bi sim plow, Kode bi dat si bak ky irk ning, ——",
-        "confidence": 66,
+        "text": "[& Ctr Gi Sate SS lie SIME a - C0) ) 1 \\",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 2769,
-          "w": 1289,
+          "w": 1288,
           "h": 78
         }
       },
       {
-        "text": "| han, ché, hode hinh phit tring phat nao. oi < -",
-        "confidence": 66,
+        "text": "Gi tht fen man Gia tig Penasyhfis da bi Gs ugg + ais idiatt 4 \\7 \\",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 2925,
-          "w": 1289,
+          "w": 1288,
           "h": 78
         }
       },
       {
-        "text": "Va dé viée tu do ton gido do khing tro thank 5 cho bung th: th moi ngusi",
-        "confidence": 66,
+        "text": "‘ ad Ny =r] d J \\",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 3081,
-          "w": 1289,
+          "w": 1288,
           "h": 78
         }
       },
       {
-        "text": "cu tri trong Khoi Think ving chung nay, vao bit kj lic nao, du phdi, bing chink",
-        "confidence": 66,
+        "text": "Vi vdy ti Kfiag dialog thidt di ring hing ngicdi ny va Adu dug cia ho, v !",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 3237,
-          "w": 1289,
+          "w": 1288,
           "h": 78
         }
       },
       {
-        "text": "con ngudi cia ho, hodc qua cic dai din do ho bdu, cing hau thing qua rhiang",
-        "confidence": 66,
+        "text": "sé ug fink Eling RE 6 6.f side & &éa oust ajo wn ts, 0. iwecas fe ban hank X",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 3393,
-          "w": 1289,
+          "w": 1288,
           "h": 78
         }
       },
       {
-        "text": "lugt fA sé co ban cho tit ca.",
-        "confidence": 66,
+        "text": "sé cb 22} cd nhitng quyén tu do tn trén; va t6i thiét lip, 2G Enbidmseat bln ausih = fi 7",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 3549,
-          "w": 1289,
+          "w": 1288,
           "h": 78
         }
       },
       {
-        "text": "Va thim quyén t6i cao cia vige lap phap la trong Hsi dong, dug hoi hop",
-        "confidence": 66,
+        "text": "va quy dink ring diy sé li Rfungechc # quovénit.ic i iy trong moiehé hg; va bmp",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 3705,
-          "w": 1289,
+          "w": 1288,
           "h": 78
         }
       },
       {
-        "text": "va tich ly quyén han cia ngusi din, ditge ndm gia trong tay ho; ma tie dé",
-        "confidence": 66,
+        "text": "ring \\fiong chink quyén hod ludt no tréafe we vi duce thick lip dong thuri",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 3861,
-          "w": 1289,
+          "w": 1288,
           "h": 78
         }
       },
       {
-        "text": "moi cich céng bing va hau hét nhing lugt l¢ hi ich va cin thiét du duge",
-        "confidence": 66,
+        "text": "hode di gu lai voi Kung chink gicyén nay.",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 4017,
-          "w": 1289,
+          "w": 1288,
           "h": 78
         }
       },
       {
-        "text": "xudt phit.",
-        "confidence": 66,
+        "text": "; TT ah She Ari EATER | i",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 4173,
-          "w": 1289,
+          "w": 1288,
           "h": 78
         }
       },
       {
-        "text": "Hinh 2.13 (a) William Penn thanh lap Khai Thinh vugng chung Pennsylvania nhu mét noi tri 4n cho nhitng ngusi Quaker bi bic hai. Thudc dia nay c6 thé dugc coi la",
-        "confidence": 66,
+        "text": "ema ea ATE 7 rig P",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 4329,
-          "w": 1289,
+          "w": 1288,
           "h": 78
         }
       },
       {
-        "text": "mét dang sém cla tinh than kinh doanh xa héi. Day la ban thao dau tién cla dng vé Ban khung cia chinh quyén thuéc Pennsylvania. (b) La mét trong nhitng ngudi sang lap",
-        "confidence": 66,
+        "text": "wy TT io 7",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 4485,
-          "w": 1289,
+          "w": 1288,
           "h": 78
         }
       },
       {
-        "text": "dat nudc, Benjamin Franklin da gép phan vio Tuyén ngén Dc lap. Nhiing thanh tuu cua dng véi tu cach 1a nha in, nha van, ngudi ding dau hé théng buu chinh, nha ngoai giao",
-        "confidence": 66,
+        "text": "Hinh 2.13 (a) Mt ngudi séng ap Pennsylvania dé lap nén Khoi Lién higp Pennsylvania (b) La mét trong nhitng ngudi sang lap quéc gia, mot nha tu tudng da dong gop vao",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 4641,
-          "w": 1289,
+          "w": 1288,
           "h": 78
         }
       },
       {
-        "text": "va nha khoa hoc (6ng da déng gop vao sf hiéu biét vé dién) Ia hién than cla tinh than kinh doanh néi tiép. Trong bic tranh ctia Charles Mills, mét chang trai tré Benjamin",
-        "confidence": 66,
+        "text": "nhu mét noi tri &n cho nhiing ngudi Quaker bi bic hai. Thudc dia nay cd th dugc xem Tuyén ngén Doc Iap. Nhiing thanh tuu cia éng véi tu céch 1a the in, nha vin, ngusi",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 4797,
-          "w": 1289,
+          "w": 1288,
           "h": 78
         }
       },
       {
-        "text": "Franklin duoc thay dang van hanh may in.",
-        "confidence": 66,
+        "text": "1a mét hinh thirc khdi nghiép xd hdi sém. Hinh anh Ia ban thao du tién cla 6ng vé lam buu chinh, nha ngoai giao va nha khoa hoc (ng da gép phan vao su hiéu biét vé",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 4953,
-          "w": 1289,
+          "w": 1288,
           "h": 78
         }
       },
       {
-        "text": "(ngudn (a): chinh stra tir “William Penn - Ban thao dau tién cia Ban khung ctia chinh quyén - c1681” b&i Dai hoc Pennsylvania/Wikimedia Commons, thuc pham vi céng céng;",
-        "confidence": 66,
+        "text": "Ban khung chinh quyén & Pennsylvania dién) la hinh mau clia khdi nghiép néi tiép. Trong bic tranh nay, mét chang trai tré dugc",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 5109,
-          "w": 1289,
+          "w": 1288,
           "h": 78
         }
       },
       {
-        "text": "ngudn (b): chinh stra tir “Franklin, nha in” b&i Thu vién Quéc héi/Wikimedia Commons, thuéc pham vi céng céng)",
-        "confidence": 66,
+        "text": "thay dang van hanh méy in",
+        "confidence": 50,
         "bbox": {
           "x": 161,
           "y": 5265,
-          "w": 1289,
+          "w": 1288,
+          "h": 78
+        }
+      },
+      {
+        "text": "(ngudn (a): dung lai tif “Ban thao dau tién vé Khung chinh quyén — khoang nim 1681\" ctia Dai hoc Pennsylvania/Wikimedia Commons, céng cong)",
+        "confidence": 50,
+        "bbox": {
+          "x": 161,
+          "y": 5421,
+          "w": 1288,
+          "h": 78
+        }
+      },
+      {
+        "text": "(nguén (b): diing lai tir “Ngui thg in\" cia Thu vién Quéc héi/Wikimedia Commons, céng céng)",
+        "confidence": 50,
+        "bbox": {
+          "x": 161,
+          "y": 5577,
+          "w": 1288,
           "h": 78
         }
       }
@@ -710,12 +730,6 @@
       "reason": "image-edit-leftover-source-english",
       "leftoverSourceWords": [
         "pennsylvania",
-        "william",
-        "penn",
-        "benjamin",
-        "franklin",
-        "charles",
-        "mills",
         "wikimedia",
         "commons"
       ]

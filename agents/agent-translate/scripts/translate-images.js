@@ -8,6 +8,7 @@ const {
   findProjectRoot,
   processHtmlFile,
   retranslateImagesOnly,
+  rewireExistingImagesOnly,
   createRendererOptions,
   resolveTargets,
 } = require('./image-translation');
@@ -18,6 +19,7 @@ function parseArgs(args) {
   let renderer;
   let strict = false;
   let force = false;
+  let rewireOnly = false;
   let images = [];
 
   for (let i = 0; i < args.length; i += 1) {
@@ -32,6 +34,10 @@ function parseArgs(args) {
     }
     if (arg === '--force') {
       force = true;
+      continue;
+    }
+    if (arg === '--rewire-only') {
+      rewireOnly = true;
       continue;
     }
     if (arg === '--renderer') {
@@ -64,17 +70,17 @@ function parseArgs(args) {
     positional.push(arg);
   }
 
-  return { positional, retranslate, renderer, strict, force, images };
+  return { positional, retranslate, renderer, strict, force, rewireOnly, images };
 }
 
 async function main() {
   const args = process.argv.slice(2);
-  const { positional, retranslate, renderer, strict, force, images } = parseArgs(args);
+  const { positional, retranslate, renderer, strict, force, rewireOnly, images } = parseArgs(args);
   const target = positional[0];
   const bookName = positional[1] || 'entrepreneurship';
 
   if (!target || target === '--help' || target === '-h') {
-    console.log('Usage: node agents/agent-translate/scripts/translate-images.js <translated-html-file|chapter-number|all> [bookName] [--retranslate] [--force] [--images img-1.webp,img-2.vi.png] [--renderer overlay|image-edit] [--strict]');
+    console.log('Usage: node agents/agent-translate/scripts/translate-images.js <translated-html-file|chapter-number|all> [bookName] [--retranslate] [--rewire-only] [--force] [--images img-1.webp,img-2.vi.png] [--renderer overlay|image-edit] [--strict]');
     console.log('Environment: OPENAI_API_KEY optional; IMAGE_TRANSLATION_TEXT_MODEL overrides OPENAI_MODEL and defaults to gpt-4o-mini for OCR label translation. IMAGE_TRANSLATION_IMAGE_MODEL defaults to gpt-image-2 for --renderer image-edit.');
     console.log('Options: --retranslate forces image-only retranslation for already translated HTML files and reuses original source assets. --force ignores existing sidecars for original image references. --renderer selects overlay or image-edit; default is image-edit. --strict fails when any image has an error.');
     process.exit(0);
@@ -91,13 +97,13 @@ async function main() {
   const totals = { auto: 0, skip: 0, error: 0 };
   const translationOptions = createTranslationOptions();
   const rendererOptions = createRendererOptions({ renderer });
-  const worker = await createOcrWorker();
+  const worker = rewireOnly ? null : await createOcrWorker();
   const imageCache = new Map();
   console.log(`Translating images in ${files.length} HTML file(s) with renderer=${rendererOptions.renderer}.`);
 
   try {
     for (const file of files) {
-      const processFile = retranslate && images.length === 0 ? retranslateImagesOnly : processHtmlFile;
+      const processFile = rewireOnly ? rewireExistingImagesOnly : (retranslate && images.length === 0 ? retranslateImagesOnly : processHtmlFile);
       const result = await processFile(file, {
         translationOptions,
         rendererOptions,
@@ -115,7 +121,7 @@ async function main() {
       console.log(`Image translation ${path.basename(file)}: auto=${result.summary.auto}, skip=${result.summary.skip}, error=${result.summary.error}`);
     }
   } finally {
-    await worker.terminate();
+    if (worker) await worker.terminate();
   }
 
   console.log(`Done. Images: auto=${totals.auto}, skip=${totals.skip}, error=${totals.error}`);

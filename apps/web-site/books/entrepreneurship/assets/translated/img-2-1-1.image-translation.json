@@ -339,14 +339,14 @@
     "textDensity": 2.048,
     "averageConfidence": 20,
     "entropy": 7.136436608889198,
-    "sharpness": 3.1840068472421925
+    "sharpness": 3.1840068472422205
   },
   "imageEdit": {
-    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: Photo of a person white-water rafting.\nButton label: Click to enlarge image of Photo of a person white-water rafting.\nEnglish caption: Figure 2.2 For some, preparing for an entrepreneurial journey may seem like going on a river-rafting adventure that combines beautiful scenery with some exciting, but perhaps frightening, challenges. (credit: “Hands Up” by Jeramey Jannene/Flickr, CC BY 2.0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: hands, jeramey, jannene, flickr. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: Photo of a person white-water rafting.\nButton label: Click to enlarge image of Photo of a person white-water rafting.\nEnglish caption: Figure 2.2 For some, preparing for an entrepreneurial journey may seem like going on a river-rafting adventure that combines beautiful scenery with some exciting, but perhaps frightening, challenges. (credit: “Hands Up” by Jeramey Jannene/Flickr, CC BY 2.0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: jeramey, jannene, flickr. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
     "outputOcr": [
       {
-        "text": "ee rE nial whe",
-        "confidence": 38,
+        "text": "per ne TR ce",
+        "confidence": 37,
         "bbox": {
           "x": 145,
           "y": 130,
@@ -355,8 +355,8 @@
         }
       },
       {
-        "text": "FAA RR Gee ER a TAR SE",
-        "confidence": 38,
+        "text": "es PE E a oie ae Tn ig EN GE 8",
+        "confidence": 37,
         "bbox": {
           "x": 145,
           "y": 304,
@@ -365,8 +365,8 @@
         }
       },
       {
-        "text": "CE CE Sa ames mR ania nt DE ;",
-        "confidence": 38,
+        "text": "So a eM RM aR ee 0",
+        "confidence": 37,
         "bbox": {
           "x": 145,
           "y": 478,
@@ -375,8 +375,8 @@
         }
       },
       {
-        "text": "RE A Ei E Tn NR Don SE a",
-        "confidence": 38,
+        "text": "ori ea = NRE rll ox ae P. = vi Sd",
+        "confidence": 37,
         "bbox": {
           "x": 145,
           "y": 652,
@@ -385,8 +385,8 @@
         }
       },
       {
-        "text": "hs ee Saat CE SC bo",
-        "confidence": 38,
+        "text": "wr dN a asco ele ain NG",
+        "confidence": 37,
         "bbox": {
           "x": 145,
           "y": 826,
@@ -395,8 +395,8 @@
         }
       },
       {
-        "text": "“EEG. - TD ey ARS 0 ~~ TE Xe<3 \"wr fo CL SNR fag EST",
-        "confidence": 38,
+        "text": "HOS FE i em BBL hgh ¥ 2 OR eR rE wy “",
+        "confidence": 37,
         "bbox": {
           "x": 145,
           "y": 1000,
@@ -405,8 +405,8 @@
         }
       },
       {
-        "text": "aM i re SRT ¥ aE = “NL. SO. Cha re a a",
-        "confidence": 38,
+        "text": "Boe Gy BU on Pea i si",
+        "confidence": 37,
         "bbox": {
           "x": 145,
           "y": 1174,
@@ -415,8 +415,8 @@
         }
       },
       {
-        "text": "re Ee aa TT Nh ome Cs",
-        "confidence": 38,
+        "text": "dr TPA OU x 3 he Wl a Bs id",
+        "confidence": 37,
         "bbox": {
           "x": 145,
           "y": 1348,
@@ -425,8 +425,8 @@
         }
       },
       {
-        "text": "ae ene % 5S RY S an i dh",
-        "confidence": 38,
+        "text": "Cs SRR PY hE A SR eg",
+        "confidence": 37,
         "bbox": {
           "x": 145,
           "y": 1522,
@@ -435,8 +435,8 @@
         }
       },
       {
-        "text": "A RT Ape ie Ne ¥ p= AR oS Cet gure =",
-        "confidence": 38,
+        "text": "a5 ARS HEE i 3 7. . \\ Au ts Rol bet",
+        "confidence": 37,
         "bbox": {
           "x": 145,
           "y": 1696,
@@ -445,8 +445,8 @@
         }
       },
       {
-        "text": "ro Gy Be wr SAE TE SNE",
-        "confidence": 38,
+        "text": "Aer BF ioe bine Sr",
+        "confidence": 37,
         "bbox": {
           "x": 145,
           "y": 1870,
@@ -455,8 +455,8 @@
         }
       },
       {
-        "text": "ia AR id to TY we ae pa",
-        "confidence": 38,
+        "text": "BEA Es i LEE oe = eg aA",
+        "confidence": 37,
         "bbox": {
           "x": 145,
           "y": 2044,
@@ -465,8 +465,8 @@
         }
       },
       {
-        "text": "3 he BR SLT SR i LR Ss (Ree 0",
-        "confidence": 38,
+        "text": "RS PT Cle SPCR | Eo TE",
+        "confidence": 37,
         "bbox": {
           "x": 145,
           "y": 2218,
@@ -475,8 +475,8 @@
         }
       },
       {
-        "text": "2 i . RT AE EB I ie LS FR Dh ER NS",
-        "confidence": 38,
+        "text": "Ze RAE RD Rs bs SR I LN Re",
+        "confidence": 37,
         "bbox": {
           "x": 145,
           "y": 2392,
@@ -485,8 +485,8 @@
         }
       },
       {
-        "text": "% k ak rE tes as St CN 35% aE CRI",
-        "confidence": 38,
+        "text": "Bas, BEC Ce SL oT IE Ee BE LE i Ly",
+        "confidence": 37,
         "bbox": {
           "x": 145,
           "y": 2566,
@@ -495,8 +495,8 @@
         }
       },
       {
-        "text": "Hinh 2.2 D&i véi mot s8 ngudi, viéc chun bi cho hanh trinh khéi nghiép c6 thé",
-        "confidence": 38,
+        "text": "ae) _ ER NR FT Re 6 hk NR",
+        "confidence": 37,
         "bbox": {
           "x": 145,
           "y": 2740,
@@ -505,8 +505,8 @@
         }
       },
       {
-        "text": "gidng nhu tham gia mot cudc phiéu luu chéo thuyén vugt thac, két hgp gira khung canh",
-        "confidence": 38,
+        "text": "Hinh 2.2 Gi véi mot s6 ngudi, viéc chudn bi cho hanh trinh khdi nghiép co thé",
+        "confidence": 37,
         "bbox": {
           "x": 145,
           "y": 2914,
@@ -515,8 +515,8 @@
         }
       },
       {
-        "text": "dep va mot s6 th(r thach th vi, nhung c6 I€ cling déng sg.",
-        "confidence": 38,
+        "text": "ging nhu tham gia mot cudc phiéu luu 16i song két hop canh quan tuyét dep vi nhu",
+        "confidence": 37,
         "bbox": {
           "x": 145,
           "y": 3088,
@@ -525,11 +525,21 @@
         }
       },
       {
-        "text": "(ngudn: “Gig Tay Lén” bdi Gié-rami Gian-né/Flickr, CC BY 2.0)",
-        "confidence": 38,
+        "text": "{tng thir thach thu vi, nhung c6 |& cling dang so.",
+        "confidence": 37,
         "bbox": {
           "x": 145,
           "y": 3262,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "(ngudn: “Gio Tay Lén” bai Giérémé Gianéné/Flicho, CC BY 2.0)",
+        "confidence": 37,
+        "bbox": {
+          "x": 145,
+          "y": 3436,
           "w": 1158,
           "h": 87
         }
@@ -537,9 +547,7 @@
     ],
     "validation": {
       "ok": true,
-      "leftoverSourceWords": [
-        "flickr"
-      ]
+      "leftoverSourceWords": []
     },
     "validationAttempt": 2
   },

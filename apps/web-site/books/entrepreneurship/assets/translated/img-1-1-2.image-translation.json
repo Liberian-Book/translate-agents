@@ -189,188 +189,198 @@
     "textDensity": 1.0915852016323846,
     "averageConfidence": 38,
     "entropy": 7.424669132775307,
-    "sharpness": 5.189964612554432
+    "sharpness": 5.189964612554033
   },
   "imageEdit": {
     "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: Photo of Burt’s Bees products, including lip butter, exfoliating clay mask, and lip oil.\nButton label: Click to enlarge image of Photo of Burt’s Bees products, including lip butter, exfoliating clay mask, and lip oil.\nEnglish caption: Figure 1.3 The Burt’s Bees product line grew from an idea for a lifestyle entrepreneurial venture into a major company. (credit: “Burt’s Bees” by Carol Bleistine/Flickr, CC BY 4.0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
     "outputOcr": [
       {
-        "text": "ines po) DAU DUONG",
-        "confidence": 44,
+        "text": "DAU DUONG MOI",
+        "confidence": 51,
         "bbox": {
           "x": 197,
           "y": 96,
-          "w": 1577,
+          "w": 1578,
           "h": 64
         }
       },
       {
-        "text": "i otine n £ MOI",
-        "confidence": 44,
+        "text": "l CAP AM",
+        "confidence": 51,
         "bbox": {
           "x": 197,
           "y": 224,
-          "w": 1577,
+          "w": 1578,
           "h": 64
         }
       },
       {
-        "text": "|| chiét xudt Lidu tring R- - 3",
-        "confidence": 44,
+        "text": "AT NA 1 :",
+        "confidence": 51,
         "bbox": {
           "x": 197,
           "y": 352,
-          "w": 1577,
+          "w": 1578,
           "h": 64
         }
       },
       {
-        "text": "\\ Chanh Day",
-        "confidence": 44,
+        "text": "MAT N& “ “adh g",
+        "confidence": 51,
         "bbox": {
           "x": 197,
           "y": 480,
-          "w": 1577,
+          "w": 1578,
           "h": 64
         }
       },
       {
-        "text": ", - 5 n Ng",
-        "confidence": 44,
+        "text": "uf DAT SET Chanh Day",
+        "confidence": 51,
         "bbox": {
           "x": 197,
           "y": 608,
-          "w": 1577,
+          "w": 1578,
           "h": 64
         }
       },
       {
-        "text": "5 Neural +] SON DUGNG MOI SON DUGNG MOI SON DUGNG MOI QA",
-        "confidence": 44,
+        "text": "TAY TE BAO CHET pe",
+        "confidence": 51,
         "bbox": {
           "x": 197,
           "y": 736,
-          "w": 1577,
+          "w": 1578,
           "h": 64
         }
       },
       {
-        "text": "gStRetCiitp eaitrachinhigm véi nguén bo cé trach nhigm v&i nguén bo c6 trach nhiém QIN,",
-        "confidence": 44,
+        "text": "véi Chiét xudt \" - 3 ” » 5 WN Y ; y",
+        "confidence": 51,
         "bbox": {
           "x": 197,
           "y": 864,
-          "w": 1577,
+          "w": 1578,
           "h": 64
         }
       },
       {
-        "text": "100% TY NHIEN ’ gil _— = N a Ly",
-        "confidence": 44,
+        "text": "100% Cay Phi SAP DUGNG MOI SAP DUGNG MOI SAP DUGNG MOI Tn",
+        "confidence": 51,
         "bbox": {
           "x": 197,
           "y": 992,
-          "w": 1577,
+          "w": 1578,
           "h": 64
         }
       },
       {
-        "text": "— em y \\ £ ~",
-        "confidence": 44,
+        "text": "Ty nhien S dudc cung cp cé trach nhiém dugc cung cap c6 trach nhiém dugc cung cap c6 trach nhiém | AYE 2D",
+        "confidence": 51,
         "bbox": {
           "x": 197,
           "y": 1120,
-          "w": 1577,
+          "w": 1578,
           "h": 64
         }
       },
       {
-        "text": "—_— aD 22 - / \"ti G0 Bqond Benny Tt0igy IY ME",
-        "confidence": 44,
+        "text": "p SRA",
+        "confidence": 51,
         "bbox": {
           "x": 197,
           "y": 1248,
-          "w": 1577,
+          "w": 1578,
           "h": 64
         }
       },
       {
-        "text": "go> m JZ By 44, » ROW WIW 10HD BN BAT",
-        "confidence": 44,
+        "text": "00% TY NHIEN 100% TY NHIEN _ EOEEETIEN =) \\D) Sk",
+        "confidence": 51,
         "bbox": {
           "x": 197,
           "y": 1376,
-          "w": 1577,
+          "w": 1578,
           "h": 64
         }
       },
       {
-        "text": ". i >S Ca 7 Op g ' IOW9NQNA NOS",
-        "confidence": 44,
+        "text": "py - ) 2",
+        "confidence": 51,
         "bbox": {
           "x": 197,
           "y": 1504,
-          "w": 1577,
+          "w": 1578,
           "h": 64
         }
       },
       {
-        "text": "MAT NA DAT SET Ho &\\ a 7 ¢ 08 Ths s",
-        "confidence": 44,
+        "text": "| TH a 7 AA DE aon tinh 0; un 15 100%r TV. NHIEN",
+        "confidence": 51,
         "bbox": {
           "x": 197,
           "y": 1632,
-          "w": 1577,
+          "w": 1578,
           "h": 64
         }
       },
       {
-        "text": "TAY TE BAO CHET | 8 eee Any 0 Hoa (ii Huong",
-        "confidence": 44,
+        "text": "— ox ; Phy 2 1 .",
+        "confidence": 51,
         "bbox": {
           "x": 197,
           "y": 1760,
-          "w": 1577,
+          "w": 1578,
           "h": 64
         }
       },
       {
-        "text": "ON PO \\ VGH \\ A",
-        "confidence": 44,
+        "text": "® (oun 4 7 275",
+        "confidence": 51,
         "bbox": {
           "x": 197,
           "y": 1888,
-          "w": 1577,
+          "w": 1578,
           "h": 64
         }
       },
       {
-        "text": "oo SS cope S Sp rng i i! &MAT ONG",
-        "confidence": 44,
+        "text": "i 60 Vm by & MAT",
+        "confidence": 51,
         "bbox": {
           "x": 197,
           "y": 2016,
-          "w": 1577,
+          "w": 1578,
           "h": 64
         }
       },
       {
-        "text": "— ne XR 2 Yor ———",
-        "confidence": 44,
+        "text": "TAYTEBAO CHET A etd sing We Tdi SHP DUG",
+        "confidence": 51,
         "bbox": {
           "x": 197,
           "y": 2144,
-          "w": 1577,
+          "w": 1578,
           "h": 64
         }
       },
       {
-        "text": "—— ‘ aos \\ Er \\ STAT S. THA",
-        "confidence": 44,
+        "text": "/ Sh SowO Ts \\ B Gy, \\ So",
+        "confidence": 51,
         "bbox": {
           "x": 197,
           "y": 2272,
-          "w": 1577,
+          "w": 1578,
+          "h": 64
+        }
+      },
+      {
+        "text": "— \\ ot \\ Rp x Moy \\ tong ti 4, 30",
+        "confidence": 51,
+        "bbox": {
+          "x": 197,
+          "y": 2400,
+          "w": 1578,
           "h": 64
         }
       }

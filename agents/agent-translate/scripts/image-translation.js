@@ -741,6 +741,26 @@ function readReusableSidecar(sidecar, rendererOptions, imageContext = null) {
   return null;
 }
 
+function readExistingTranslatedImage(sourceImage, rendererOptions = {}) {
+  const { outputImage, sidecar } = getTranslatedOutputPaths(sourceImage);
+  const payload = readReusableSidecar(sidecar, rendererOptions);
+  if (payload?.decision === 'auto' && payload.outputImage && fs.existsSync(payload.outputImage)) return payload;
+  if (fs.existsSync(outputImage)) {
+    return {
+      sourceImage,
+      decision: 'auto',
+      renderer: rendererOptions.renderer || 'existing',
+      model: null,
+      classification: createDefaultClassification('unknown', true, 'existing-translated-image'),
+      reason: 'existing-translated-image',
+      outputImage,
+      ocr: [],
+      translations: [],
+    };
+  }
+  return null;
+}
+
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
@@ -1024,6 +1044,61 @@ async function processHtmlFile(htmlFile, options = {}) {
   };
 }
 
+async function rewireExistingImagesOnly(htmlFile, options = {}) {
+  const html = fs.readFileSync(htmlFile, 'utf-8');
+  const $ = cheerio.load(html, { decodeEntities: false });
+  const rendererOptions = options.rendererOptions || createRendererOptions();
+  const allowedRoots = options.allowedRoots || getAllowedRoots(htmlFile, options.bookName, options.projectRoot);
+  const imageNames = Array.isArray(options.imageNames) ? options.imageNames : [];
+  const processed = [];
+  let changed = false;
+
+  for (const img of $('img').toArray()) {
+    const src = $(img).attr('src') || '';
+    if (!src) {
+      processed.push(createSkippedResult({ htmlFile, src, reason: 'empty-src', rendererOptions }));
+      continue;
+    }
+    if (isRemoteOrDataUrl(src)) {
+      processed.push(createSkippedResult({ htmlFile, src, reason: src.startsWith('data:') ? 'data-url' : 'remote-image', rendererOptions }));
+      continue;
+    }
+    if (!matchesSelectedImage(src, imageNames)) {
+      processed.push(createSkippedResult({ htmlFile, src, reason: 'not-selected-image', rendererOptions }));
+      continue;
+    }
+    if (isTranslatedImageUrl(src)) {
+      processed.push(createSkippedResult({ htmlFile, src, reason: 'already-translated', rendererOptions }));
+      continue;
+    }
+
+    const sourceImage = resolveImagePath(htmlFile, src, allowedRoots);
+    if (!sourceImage) {
+      processed.push(createSkippedResult({ htmlFile, src, reason: 'outside-allowed-roots', rendererOptions }));
+      continue;
+    }
+
+    const result = readExistingTranslatedImage(sourceImage, { renderer: rendererOptions.renderer });
+    if (!result) {
+      processed.push(createSkippedResult({ htmlFile, src, reason: 'no-existing-translated-image', rendererOptions }));
+      continue;
+    }
+
+    processed.push({ ...result, htmlFile });
+    $(img).attr('src', toRelativeUrl(htmlFile, result.outputImage));
+    changed = true;
+  }
+
+  if (changed) fs.writeFileSync(htmlFile, $.html(), 'utf-8');
+
+  return {
+    htmlFile,
+    changed,
+    processed,
+    summary: summarize(processed),
+  };
+}
+
 async function retranslateImagesOnly(htmlFile, options = {}) {
   return processHtmlFile(htmlFile, {
     ...options,
@@ -1075,6 +1150,7 @@ module.exports = {
   isImportantTextFigureContext,
   processHtmlFile,
   retranslateImagesOnly,
+  rewireExistingImagesOnly,
   resolveOriginalImagePath,
   resolveTargets,
   summarize,

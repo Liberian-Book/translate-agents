@@ -69,158 +69,148 @@
     "textDensity": 0.3208955223880597,
     "averageConfidence": 34,
     "entropy": 6.062038087147812,
-    "sharpness": 2.098571904091344
+    "sharpness": 2.0985719040914628
   },
   "imageEdit": {
-    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: (a) Photo of a 1873 prototype of a typewriter. (b) Photo of an early airplane.\nButton label: Click to enlarge image of (a) Photo of a 1873 prototype of a typewriter. (b) Photo of an early airplane.\nEnglish caption: Figure 2.15 (a) The first commercially successful typewriter was produced by Christopher Latham Sholes and Carlos S. Glidden; this is their 1873 prototype model. (b) The Wright brothers are among the best-known pioneers of early flight. In this photo, Orville flies over their air field in 1904. (credit (a): modification of “Sholes typewriter” by George Iles/Wikimedia Commons, Public Domain; credit (b): modification of “1904WrightFlyer” by “DonFB”/Wikimedia Commons, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: christopher, latham, sholes, carlos, glidden, wright, orville, george, iles, wikimedia, commons, donfb. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: (a) Photo of a 1873 prototype of a typewriter. (b) Photo of an early airplane.\nButton label: Click to enlarge image of (a) Photo of a 1873 prototype of a typewriter. (b) Photo of an early airplane.\nEnglish caption: Figure 2.15 (a) The first commercially successful typewriter was produced by Christopher Latham Sholes and Carlos S. Glidden; this is their 1873 prototype model. (b) The Wright brothers are among the best-known pioneers of early flight. In this photo, Orville flies over their air field in 1904. (credit (a): modification of “Sholes typewriter” by George Iles/Wikimedia Commons, Public Domain; credit (b): modification of “1904WrightFlyer” by “DonFB”/Wikimedia Commons, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: christopher, latham, sholes, carlos, glidden, wright, orville, george, iles, wikimedia, commons, wrightflyer, donfb. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
     "outputOcr": [
       {
-        "text": "oa Wy Las — : on",
-        "confidence": 52,
+        "text": "Oc) - de re J",
+        "confidence": 53,
         "bbox": {
-          "x": 187,
+          "x": 188,
           "y": 101,
-          "w": 1499,
+          "w": 1500,
           "h": 67
         }
       },
       {
-        "text": "p OC ~> i :",
-        "confidence": 52,
+        "text": "p- ['s — / = 15 dl)",
+        "confidence": 53,
         "bbox": {
-          "x": 187,
+          "x": 188,
           "y": 235,
-          "w": 1499,
+          "w": 1500,
           "h": 67
         }
       },
       {
-        "text": "Oy i / i= Rete : ¢ 0 i",
-        "confidence": 52,
+        "text": ": | | +i Tig",
+        "confidence": 53,
         "bbox": {
-          "x": 187,
+          "x": 188,
           "y": 369,
-          "w": 1499,
+          "w": 1500,
           "h": 67
         }
       },
       {
-        "text": ") i fo Le E gy -",
-        "confidence": 52,
+        "text": "| iJ SNIRV aN a I",
+        "confidence": 53,
         "bbox": {
-          "x": 187,
+          "x": 188,
           "y": 503,
-          "w": 1499,
+          "w": 1500,
           "h": 67
         }
       },
       {
-        "text": "| TSO TO : 2",
-        "confidence": 52,
+        "text": "$ | * Aven J",
+        "confidence": 53,
         "bbox": {
-          "x": 187,
+          "x": 188,
           "y": 637,
-          "w": 1499,
+          "w": 1500,
           "h": 67
         }
       },
       {
-        "text": "Rr rs atl f Re. 5 Ea < .",
-        "confidence": 52,
+        "text": "f ESS va 1",
+        "confidence": 53,
         "bbox": {
-          "x": 187,
+          "x": 188,
           "y": 771,
-          "w": 1499,
+          "w": 1500,
           "h": 67
         }
       },
       {
-        "text": "/ > 33 55S pats FI © OP SaaS Pn [BE",
-        "confidence": 52,
+        "text": "\\ i \\ - 2 A ee dis",
+        "confidence": 53,
         "bbox": {
-          "x": 187,
+          "x": 188,
           "y": 905,
-          "w": 1499,
+          "w": 1500,
           "h": 67
         }
       },
       {
-        "text": "RE235551380% THR Yl TN ry Src EE Te us ib EAR i te",
-        "confidence": 52,
+        "text": "RL AATUPAY th VL HM x Nod SA 2",
+        "confidence": 53,
         "bbox": {
-          "x": 187,
+          "x": 188,
           "y": 1039,
-          "w": 1499,
+          "w": 1500,
           "h": 67
         }
       },
       {
-        "text": "YYYYY | 3 PS GN ty 0 OE OD (500 50 4 Ms a ae Bn) 2",
-        "confidence": 52,
+        "text": "BE IPA ah od BRE as. TUE SNR: ©",
+        "confidence": 53,
         "bbox": {
-          "x": 187,
+          "x": 188,
           "y": 1173,
-          "w": 1499,
+          "w": 1500,
           "h": 67
         }
       },
       {
-        "text": "Hinh 2.15 (a) May danh chit thwong mai thanh cng dau tién duoc ché tao bai Christopher Latham Sholes va Carlos S. Glidden;",
-        "confidence": 52,
+        "text": "RE £3451 14 340 Cy re a Oe",
+        "confidence": 53,
         "bbox": {
-          "x": 187,
+          "x": 188,
           "y": 1307,
-          "w": 1499,
+          "w": 1500,
           "h": 67
         }
       },
       {
-        "text": "day 1a mau nguyén mau cla ho tir nam 1873.",
-        "confidence": 52,
+        "text": "ve 2AM v | Ti iu we EOVGEANT Airy Sw SG BO 0 ons Te Gl OR Poa",
+        "confidence": 53,
         "bbox": {
-          "x": 187,
+          "x": 188,
           "y": 1441,
-          "w": 1499,
+          "w": 1500,
           "h": 67
         }
       },
       {
-        "text": "(b) Anh em nha Wright la nhitng ngudi tién phong cla nganh hang khéng du tién néi tiéng nhat. Trong bic anh nay, Orville bay trén",
-        "confidence": 52,
+        "text": "Chiéc méy d4nh chit thuong mai dau tién dugc san xuét béi Anh em nha Wright 1a mot trong nhiing ngudi tién phong",
+        "confidence": 53,
         "bbox": {
-          "x": 187,
+          "x": 188,
           "y": 1575,
-          "w": 1499,
+          "w": 1500,
           "h": 67
         }
       },
       {
-        "text": "san bay cla ho vao nim 1904.",
-        "confidence": 52,
+        "text": "Christopher Latham Sholes va Carlos S. Glidden; dy 1a mau ndi tiéng nhit trong linh vuc hang khong so khai. Trong",
+        "confidence": 53,
         "bbox": {
-          "x": 187,
+          "x": 188,
           "y": 1709,
-          "w": 1499,
+          "w": 1500,
           "h": 67
         }
       },
       {
-        "text": "(ngudn (a): chinh stra tr “May danh chit ctia Sholes” bi George lles/ Wikimedia Commons, Mién céng cng;",
-        "confidence": 52,
+        "text": "nguyén mau nam 1873 cia ho. btic anh nay, Orville bay trén sin bay cia ho vao nim 1904.",
+        "confidence": 53,
         "bbox": {
-          "x": 187,
+          "x": 188,
           "y": 1843,
-          "w": 1499,
-          "h": 67
-        }
-      },
-      {
-        "text": "ngudn (b): chinh stra tir “1904WrightFlyer” bi “DonFB\"/ Wikimedia Commons, Mién céng cong)",
-        "confidence": 52,
-        "bbox": {
-          "x": 187,
-          "y": 1977,
-          "w": 1499,
+          "w": 1500,
           "h": 67
         }
       }
@@ -235,12 +225,7 @@
         "carlos",
         "glidden",
         "wright",
-        "orville",
-        "george",
-        "wikimedia",
-        "commons",
-        "wrightflyer",
-        "donfb"
+        "orville"
       ]
     },
     "validationAttempt": 3

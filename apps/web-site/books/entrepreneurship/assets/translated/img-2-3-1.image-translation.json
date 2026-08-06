@@ -309,318 +309,338 @@
     "textDensity": 1.8536828963795255,
     "averageConfidence": 27,
     "entropy": 6.846141417787294,
-    "sharpness": 1.3540118892801183
+    "sharpness": 1.3540118892801196
   },
   "imageEdit": {
     "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: Photo of a person reading a map while sitting in a field.\nButton label: Click to enlarge image of Photo of a person reading a map while sitting in a field.\nEnglish caption: Figure 2.21 There are many different pathways you can take on your entrepreneurial journey. (credit: “Explorer” by Sakeeb Sabakka/Flickr, CC BY 2.0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
     "outputOcr": [
       {
-        "text": "“ > - Low + ala",
+        "text": "LL - -",
         "confidence": 27,
         "bbox": {
           "x": 154,
           "y": 123,
-          "w": 1228,
+          "w": 1230,
           "h": 82
         }
       },
       {
-        "text": "pres TRA",
+        "text": "PY ’ pe",
         "confidence": 27,
         "bbox": {
           "x": 154,
           "y": 287,
-          "w": 1228,
+          "w": 1230,
           "h": 82
         }
       },
       {
-        "text": "abr = ) -",
+        "text": "« yr 4 o",
         "confidence": 27,
         "bbox": {
           "x": 154,
           "y": 451,
-          "w": 1228,
+          "w": 1230,
           "h": 82
         }
       },
       {
-        "text": "As ¢",
+        "text": "’ 3 - } . . | ye N",
         "confidence": 27,
         "bbox": {
           "x": 154,
           "y": 615,
-          "w": 1228,
+          "w": 1230,
           "h": 82
         }
       },
       {
-        "text": ". J. it . - C ye N [y",
+        "text": "FELL TAGE “",
         "confidence": 27,
         "bbox": {
           "x": 154,
           "y": 779,
-          "w": 1228,
+          "w": 1230,
           "h": 82
         }
       },
       {
-        "text": "Yr y ; AN 1 Na",
+        "text": "1 MAT JY \" ov ) NS a .",
         "confidence": 27,
         "bbox": {
           "x": 154,
           "y": 943,
-          "w": 1228,
+          "w": 1230,
           "h": 82
         }
       },
       {
-        "text": "5 w= 414 £4 4 . pew",
+        "text": "2 870 dad PTT LT Te",
         "confidence": 27,
         "bbox": {
           "x": 154,
           "y": 1107,
-          "w": 1228,
+          "w": 1230,
           "h": 82
         }
       },
       {
-        "text": ". . pe . ¥",
+        "text": "} I7aV, pE=2 | BaF 1. z ~~",
         "confidence": 27,
         "bbox": {
           "x": 154,
           "y": 1271,
-          "w": 1228,
+          "w": 1230,
           "h": 82
         }
       },
       {
-        "text": "rk 85 Ee p $a A SA",
+        "text": "wy (4 : LX as - yy f ARE . W",
         "confidence": 27,
         "bbox": {
           "x": 154,
           "y": 1435,
-          "w": 1228,
+          "w": 1230,
           "h": 82
         }
       },
       {
-        "text": "ERR 4 | R J KR ACR ~~ Ww",
+        "text": "\\ URAL SPER IRAN Cr SR Sn, |",
         "confidence": 27,
         "bbox": {
           "x": 154,
           "y": 1599,
-          "w": 1228,
+          "w": 1230,
           "h": 82
         }
       },
       {
-        "text": "\\L AL SPER Ve ho. « live WN",
+        "text": "ay at Tr : 5 ’",
         "confidence": 27,
         "bbox": {
           "x": 154,
           "y": 1763,
-          "w": 1228,
+          "w": 1230,
           "h": 82
         }
       },
       {
-        "text": ", AL",
+        "text": "kL IY ARAN £37 WNT WEN A",
         "confidence": 27,
         "bbox": {
           "x": 154,
           "y": 1927,
-          "w": 1228,
+          "w": 1230,
           "h": 82
         }
       },
       {
-        "text": "AL f ty PB Rs Ad : cd 4 :",
+        "text": "ow at IRE 15,3 2 Se Sd». A & ‘A",
         "confidence": 27,
         "bbox": {
           "x": 154,
           "y": 2091,
-          "w": 1228,
+          "w": 1230,
           "h": 82
         }
       },
       {
-        "text": "ot K 4 SEL FX : 5 4 IS pe, iv",
+        "text": "AN UE | a",
         "confidence": 27,
         "bbox": {
           "x": 154,
           "y": 2255,
-          "w": 1228,
+          "w": 1230,
           "h": 82
         }
       },
       {
-        "text": "deat Aras © LET i",
+        "text": ": /, oe. bv; - A -~ i 0 &",
         "confidence": 27,
         "bbox": {
           "x": 154,
           "y": 2419,
-          "w": 1228,
+          "w": 1230,
           "h": 82
         }
       },
       {
-        "text": "oh nN ~ ZA ~ y | “AP” nt",
+        "text": "h 78 “Xi X A \\",
         "confidence": 27,
         "bbox": {
           "x": 154,
           "y": 2583,
-          "w": 1228,
+          "w": 1230,
           "h": 82
         }
       },
       {
-        "text": "PR | 4 S YX",
+        "text": "Ach AVA y =r INS 4 Fat ¢",
         "confidence": 27,
         "bbox": {
           "x": 154,
           "y": 2747,
-          "w": 1228,
+          "w": 1230,
           "h": 82
         }
       },
       {
-        "text": "oN £27) \\ No# y so",
+        "text": "/ . i Ee SAPO",
         "confidence": 27,
         "bbox": {
           "x": 154,
           "y": 2911,
-          "w": 1228,
+          "w": 1230,
           "h": 82
         }
       },
       {
-        "text": "x 4 NE ed PN",
+        "text": ". 7 ~~ 7 aN net Xi ¢ -",
         "confidence": 27,
         "bbox": {
           "x": 154,
           "y": 3075,
-          "w": 1228,
+          "w": 1230,
           "h": 82
         }
       },
       {
-        "text": ". . = NN 0",
+        "text": "AN -— \" Ml Al :",
         "confidence": 27,
         "bbox": {
           "x": 154,
           "y": 3239,
-          "w": 1228,
+          "w": 1230,
           "h": 82
         }
       },
       {
-        "text": "Vj CAN RY Cc ge Te",
+        "text": "a , ) & [£ ) SYR AN a LTR",
         "confidence": 27,
         "bbox": {
           "x": 154,
           "y": 3403,
-          "w": 1228,
+          "w": 1230,
           "h": 82
         }
       },
       {
-        "text": "SAR V2 FR \\ = ® XBR, ARS",
+        "text": "N Wii AN ge ~% w= Cu oe as SONI bio",
         "confidence": 27,
         "bbox": {
           "x": 154,
           "y": 3567,
-          "w": 1228,
+          "w": 1230,
           "h": 82
         }
       },
       {
-        "text": "= oo SF Pr",
+        "text": "wry OT SL oo. =u f NY GE AR",
         "confidence": 27,
         "bbox": {
           "x": 154,
           "y": 3731,
-          "w": 1228,
+          "w": 1230,
           "h": 82
         }
       },
       {
-        "text": "ANAS P= LS 7 py, NT \" JE IER NER ANA",
+        "text": "SEPP ( == ) UB + 5 ANE rd 7 7 Rr",
         "confidence": 27,
         "bbox": {
           "x": 154,
           "y": 3895,
-          "w": 1228,
+          "w": 1230,
           "h": 82
         }
       },
       {
-        "text": "b= 4 E 1) ANS Ld ROX SN 4 Sl EZ BST) TR ea",
+        "text": "A a -- $Y \\ /8% SEEN Vl TAT AIR PES HF ENE",
         "confidence": 27,
         "bbox": {
           "x": 154,
           "y": 4059,
-          "w": 1228,
+          "w": 1230,
           "h": 82
         }
       },
       {
-        "text": "iN Ha Jl AE WBNS Plas is 2X03",
+        "text": "? NS on x CEC RAN | BE A a =",
         "confidence": 27,
         "bbox": {
           "x": 154,
           "y": 4223,
-          "w": 1228,
+          "w": 1230,
           "h": 82
         }
       },
       {
-        "text": "0A 0 S sm Sher Sa LEE",
+        "text": "% 3 \\p HY! PRR AL Sle TR cy HN",
         "confidence": 27,
         "bbox": {
           "x": 154,
           "y": 4387,
-          "w": 1228,
+          "w": 1230,
           "h": 82
         }
       },
       {
-        "text": "i mo | A NY 8 NF 7 SER LER NP 7 =f) Xo",
+        "text": "; : / N PRE hn CR en Wy",
         "confidence": 27,
         "bbox": {
           "x": 154,
           "y": 4551,
-          "w": 1228,
+          "w": 1230,
           "h": 82
         }
       },
       {
-        "text": "% fT py (do v Pp \\ A SEAN NN SATA",
+        "text": "NEE 1 x \\C ASSL CN YT",
         "confidence": 27,
         "bbox": {
           "x": 154,
           "y": 4715,
-          "w": 1228,
+          "w": 1230,
           "h": 82
         }
       },
       {
-        "text": "LL Aan nr ks ee Rat oe ol ic trea, (IRE",
+        "text": "CR Se A — lh. ox 2 ICE Se SRNR S3E ORS",
         "confidence": 27,
         "bbox": {
           "x": 154,
           "y": 4879,
-          "w": 1228,
+          "w": 1230,
           "h": 82
         }
       },
       {
-        "text": "TUE RE © Co MRR Seow WRENS WE SPIES Tas RRR New pb Fat $38 CN YEA AA",
+        "text": "AAR A CDA seme RS 2 LN RT HS Wg 2",
         "confidence": 27,
         "bbox": {
           "x": 154,
           "y": 5043,
-          "w": 1228,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "Ct it Sn a, PSA Se Reo AE FT",
+        "confidence": 27,
+        "bbox": {
+          "x": 154,
+          "y": 5207,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "SORES it © Sobel] Lo Sie SAF SNA BE a SRL TRE ly ed a RETR DRT IR 44 ASST:",
+        "confidence": 27,
+        "bbox": {
+          "x": 154,
+          "y": 5371,
+          "w": 1230,
           "h": 82
         }
       }

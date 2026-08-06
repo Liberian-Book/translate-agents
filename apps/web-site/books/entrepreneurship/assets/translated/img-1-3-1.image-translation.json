@@ -59,13 +59,13 @@
     "textDensity": 0.25757162346521145,
     "averageConfidence": 30,
     "entropy": 7.1326248118894,
-    "sharpness": 3.80854205399237
+    "sharpness": 3.8085420539922836
   },
   "imageEdit": {
     "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: Photo of a row of VEORIDE bikes.\nButton label: Click to enlarge image of Photo of a row of VEORIDE bikes.\nEnglish caption: Figure 1.10 A bike-sharing program in Pella, Iowa, allows users to access bikes at a variety of locations. (credit: “Corral of VeoRide Dockless Bike Share” by “paul.wasneski”/Flickr, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
     "outputOcr": [
       {
-        "text": "IN 8",
+        "text": "IRB",
         "confidence": 29,
         "bbox": {
           "x": 154,
@@ -75,7 +75,7 @@
         }
       },
       {
-        "text": "EH :",
+        "text": "N § oS aA J o£",
         "confidence": 29,
         "bbox": {
           "x": 154,
@@ -85,7 +85,7 @@
         }
       },
       {
-        "text": "! . - : Py at _X a (aw m",
+        "text": "A J oo & ed <I a \\; hb rT \"= nN ™",
         "confidence": 29,
         "bbox": {
           "x": 154,
@@ -95,7 +95,7 @@
         }
       },
       {
-        "text": "Ay Ee 4 ami-- WE,",
+        "text": "al ~ | & Bg 1: A = a. i EF",
         "confidence": 29,
         "bbox": {
           "x": 154,
@@ -105,7 +105,7 @@
         }
       },
       {
-        "text": "oo IPN Nd AE LT AT LL",
+        "text": "— y Ay LT Oy Te > Ep",
         "confidence": 29,
         "bbox": {
           "x": 154,
@@ -115,7 +115,7 @@
         }
       },
       {
-        "text": "ress) NEE",
+        "text": "Lp es ] 5 AV. 5 TA v7)",
         "confidence": 29,
         "bbox": {
           "x": 154,
@@ -125,7 +125,7 @@
         }
       },
       {
-        "text": "1 [.L oti -w a 2 2 \\ LY & 7/4 i",
+        "text": "(1 > AR Ne",
         "confidence": 29,
         "bbox": {
           "x": 154,
@@ -135,7 +135,7 @@
         }
       },
       {
-        "text": "\\ Avs J AY 4 VEO ~~ 5 fay NUT",
+        "text": "| hl | IS id WNT",
         "confidence": 29,
         "bbox": {
           "x": 154,
@@ -145,7 +145,7 @@
         }
       },
       {
-        "text": "Cy BYE ag EIEN",
+        "text": "{> sera iy WN",
         "confidence": 29,
         "bbox": {
           "x": 154,
@@ -155,7 +155,7 @@
         }
       },
       {
-        "text": "N\\A \\ SAT",
+        "text": "NATL",
         "confidence": 29,
         "bbox": {
           "x": 154,
@@ -165,7 +165,7 @@
         }
       },
       {
-        "text": "3 ~~] > / = A ZZ",
+        "text": "E ‘ I => A mm” Z",
         "confidence": 29,
         "bbox": {
           "x": 154,

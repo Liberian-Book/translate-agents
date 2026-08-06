@@ -143,7 +143,7 @@
     {
       "source": "customers, location(s), or",
       "normalizedSource": "customers, location(s), or",
-      "target": "khách hàng, địa điểm hoặc",
+      "target": "khách hàng, địa điểm, hoặc",
       "bbox": {
         "x": 130,
         "y": 277,
@@ -218,98 +218,98 @@
     "textDensity": 0.5791304347826087,
     "averageConfidence": 83,
     "entropy": 3.746745863078104,
-    "sharpness": 4.683122195760076
+    "sharpness": 4.683122195760078
   },
   "imageEdit": {
-    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: For the Assessment step, one must ask the following Reflection Questions: Where will I find partners, customers, location(s), or other key resources? Who can help me achieve my goal(s) and maintain a healthy business operational status? Potential Obstacles such as Limited connections, Partners without skills and resources that match your needs or goals, and Limited education or experience should also be considered.\nButton label: Click to enlarge image of For the Assessment step, one must ask the following Reflection Questions: Where will I find partners, customers, location(s), or other key resources? Who can help me achieve my goal(s) and maintain a healthy business operational status? Potential Obstacles such as Limited connections, Partners without skills and resources that match your needs or goals, and Limited education or experience should also be considered.\nEnglish caption: Figure 2.8 Assessing relationships and resources allows for reflection on your idea and intentions. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Assessment (| ™ => Đánh giá (| ™\n- (4) Reflection Questions => (4) Câu hỏi phản ánh\n- + Where will I find partners, => + Tôi sẽ tìm đối tác,\n- customers, location(s), or => khách hàng, địa điểm hoặc\n- other key resources? => các nguồn lực quan trọng khác?\n- + Who can help me achieve => + Ai có thể giúp tôi đạt được\n- my goal(s) and maintain a => mục tiêu và duy trì\n- healthy business operational => trạng thái hoạt động kinh doanh\n- status? => lành mạnh?\nReturn a complete edited PNG image.",
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: For the Assessment step, one must ask the following Reflection Questions: Where will I find partners, customers, location(s), or other key resources? Who can help me achieve my goal(s) and maintain a healthy business operational status? Potential Obstacles such as Limited connections, Partners without skills and resources that match your needs or goals, and Limited education or experience should also be considered.\nButton label: Click to enlarge image of For the Assessment step, one must ask the following Reflection Questions: Where will I find partners, customers, location(s), or other key resources? Who can help me achieve my goal(s) and maintain a healthy business operational status? Potential Obstacles such as Limited connections, Partners without skills and resources that match your needs or goals, and Limited education or experience should also be considered.\nEnglish caption: Figure 2.8 Assessing relationships and resources allows for reflection on your idea and intentions. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Assessment (| ™ => Đánh giá (| ™\n- (4) Reflection Questions => (4) Câu hỏi phản ánh\n- + Where will I find partners, => + Tôi sẽ tìm đối tác,\n- customers, location(s), or => khách hàng, địa điểm, hoặc\n- other key resources? => các nguồn lực quan trọng khác?\n- + Who can help me achieve => + Ai có thể giúp tôi đạt được\n- my goal(s) and maintain a => mục tiêu và duy trì\n- healthy business operational => trạng thái hoạt động kinh doanh\n- status? => lành mạnh?\nReturn a complete edited PNG image.",
     "outputOcr": [
       {
-        "text": "Panh gia mn ™",
-        "confidence": 76,
+        "text": "Panh gia i] ™",
+        "confidence": 75,
         "bbox": {
           "x": 211,
           "y": 90,
-          "w": 1686,
+          "w": 1685,
           "h": 60
         }
       },
       {
-        "text": "(3 Cau héi phan anh",
-        "confidence": 76,
+        "text": "(3) (4) Cau héi phan anh",
+        "confidence": 75,
         "bbox": {
           "x": 211,
-          "y": 209,
-          "w": 1686,
+          "y": 210,
+          "w": 1685,
           "h": 60
         }
       },
       {
-        "text": "» Toi sé tim doi tac,",
-        "confidence": 76,
+        "text": "* Toi sé tim doi tac,",
+        "confidence": 75,
         "bbox": {
           "x": 211,
-          "y": 328,
-          "w": 1686,
+          "y": 330,
+          "w": 1685,
           "h": 60
         }
       },
       {
-        "text": "khach hang, dia diém hoc",
-        "confidence": 76,
+        "text": "khach hang, dia diém, hoac",
+        "confidence": 75,
         "bbox": {
           "x": 211,
-          "y": 447,
-          "w": 1686,
+          "y": 450,
+          "w": 1685,
           "h": 60
         }
       },
       {
-        "text": "cac nguén luc quan trong khac?",
-        "confidence": 76,
+        "text": "céc nguén luc quan trong khac?",
+        "confidence": 75,
         "bbox": {
           "x": 211,
-          "y": 566,
-          "w": 1686,
+          "y": 570,
+          "w": 1685,
           "h": 60
         }
       },
       {
-        "text": "* Ai cé thé gilp toi dat dugc",
-        "confidence": 76,
+        "text": "* Ai c6 thé gilp toi dat dugc",
+        "confidence": 75,
         "bbox": {
           "x": 211,
-          "y": 685,
-          "w": 1686,
+          "y": 690,
+          "w": 1685,
           "h": 60
         }
       },
       {
         "text": "muc tiéu va duy tri",
-        "confidence": 76,
+        "confidence": 75,
         "bbox": {
           "x": 211,
-          "y": 804,
-          "w": 1686,
+          "y": 810,
+          "w": 1685,
           "h": 60
         }
       },
       {
         "text": "trang thai hoat dong kinh doanh",
-        "confidence": 76,
+        "confidence": 75,
         "bbox": {
           "x": 211,
-          "y": 923,
-          "w": 1686,
+          "y": 930,
+          "w": 1685,
           "h": 60
         }
       },
       {
         "text": "lanh manh?",
-        "confidence": 76,
+        "confidence": 75,
         "bbox": {
           "x": 211,
-          "y": 1042,
-          "w": 1686,
+          "y": 1050,
+          "w": 1685,
           "h": 60
         }
       }

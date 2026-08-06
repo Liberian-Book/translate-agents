@@ -99,128 +99,208 @@
     "textDensity": 0.5131195335276968,
     "averageConfidence": 34,
     "entropy": 5.716256160716512,
-    "sharpness": 2.6533515849771314
+    "sharpness": 2.653351584977082
   },
   "imageEdit": {
     "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: (a) Patent for the cotton gin with illustrations. (b) Sketch of a telegraph. (c) Photo of a sewing machine.\nButton label: Click to enlarge image of (a) Patent for the cotton gin with illustrations. (b) Sketch of a telegraph. (c) Photo of a sewing machine.\nEnglish caption: Figure 2.14 Inventions abounded during the First Industrial Revolution. (a) A US patent was granted to Eli Whitney in 1794 for the cotton gin. (b) This sketch shows Samuel Morse’s telegraph. (c) Elias Howe invented the sewing machine. (credit (a): modification of “Patent for Cotton Gin (1794)” by “Gamaliel”/Wikimedia Commons, Public Domain; credit (b): modification of “Morse telegraph” by Unknown/Wikimedia Commons, Public Domain; credit (c): modification of “Elias Howe Sewing Machine 1846” by Unknown/Wikimedia Commons, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
     "outputOcr": [
       {
-        "text": "ai Re il",
-        "confidence": 31,
+        "text": "Mm",
+        "confidence": 40,
         "bbox": {
           "x": 173,
           "y": 109,
-          "w": 1381,
+          "w": 1380,
           "h": 73
         }
       },
       {
-        "text": "om 2 rg T0) no RAS di 1",
-        "confidence": 31,
+        "text": "ah pay a An",
+        "confidence": 40,
         "bbox": {
           "x": 173,
           "y": 255,
-          "w": 1381,
+          "w": 1380,
           "h": 73
         }
       },
       {
-        "text": "Ei ' May tich bing rt Ble",
-        "confidence": 31,
+        "text": "¢ Bangsangché [7",
+        "confidence": 40,
         "bbox": {
           "x": 173,
           "y": 401,
-          "w": 1381,
+          "w": 1380,
           "h": 73
         }
       },
       {
-        "text": "[six wil rs alt |",
-        "confidence": 31,
+        "text": "| / mdy tach bong he lta FEE",
+        "confidence": 40,
         "bbox": {
           "x": 173,
           "y": 547,
-          "w": 1381,
+          "w": 1380,
           "h": 73
         }
       },
       {
-        "text": "Ea v nda | I",
-        "confidence": 31,
+        "text": "i SX [Nady 14 thing 3 | C a |",
+        "confidence": 40,
         "bbox": {
           "x": 173,
           "y": 693,
-          "w": 1381,
+          "w": 1380,
           "h": 73
         }
       },
       {
-        "text": "No@Q | I =e iv",
-        "confidence": 31,
+        "text": "§ Ta 5 | 3 niim 1794 | Ih I is M",
+        "confidence": 40,
         "bbox": {
           "x": 173,
           "y": 839,
-          "w": 1381,
+          "w": 1380,
           "h": 73
         }
       },
       {
-        "text": "1 Fay SAR TMT? CIE STTAERS A — 3 &",
-        "confidence": 31,
+        "text": "At IN i",
+        "confidence": 40,
         "bbox": {
           "x": 173,
           "y": 985,
-          "w": 1381,
+          "w": 1380,
           "h": 73
         }
       },
       {
-        "text": "y 181 i ANA",
-        "confidence": 31,
+        "text": "| 9°09 | EE",
+        "confidence": 40,
         "bbox": {
           "x": 173,
           "y": 1131,
-          "w": 1381,
+          "w": 1380,
           "h": 73
         }
       },
       {
-        "text": "g 11 IE g WA -, eo)",
-        "confidence": 31,
+        "text": ": % JIT ED Ta TS DS TT CT",
+        "confidence": 40,
         "bbox": {
           "x": 173,
           "y": 1277,
-          "w": 1381,
+          "w": 1380,
           "h": 73
         }
       },
       {
-        "text": "0 AY ree Ea y | ir : oy AY <",
-        "confidence": 31,
+        "text": "[ Jes an am Ga ;",
+        "confidence": 40,
         "bbox": {
           "x": 173,
           "y": 1423,
-          "w": 1381,
+          "w": 1380,
           "h": 73
         }
       },
       {
-        "text": "By > 4 i fa N :",
-        "confidence": 31,
+        "text": "2) i i ENA, ®",
+        "confidence": 40,
         "bbox": {
           "x": 173,
           "y": 1569,
-          "w": 1381,
+          "w": 1380,
           "h": 73
         }
       },
       {
-        "text": "ERROR Sh Se i",
-        "confidence": 31,
+        "text": "2, 4 A NY We ae =)",
+        "confidence": 40,
         "bbox": {
           "x": 173,
           "y": 1715,
-          "w": 1381,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "ba 1! | H WATE",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 1861,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "g., 4% 5 i ! = AN",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 2007,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "© EER Ig] EB 4 ’",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 2153,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "Fos 4% 3 1 | J Ys r \\ NN",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 2299,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "; [i= 5 4 os CQ, R72 D>",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 2445,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "g | L go N |",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 2591,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "I & : Nt > oe",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 2737,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "Eo Poca J ee————————— ‘",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 2883,
+          "w": 1380,
           "h": 73
         }
       }

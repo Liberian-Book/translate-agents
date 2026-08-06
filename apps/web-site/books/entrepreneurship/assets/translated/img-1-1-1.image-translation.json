@@ -89,87 +89,109 @@
     "textDensity": 0.44956369982547995,
     "averageConfidence": 39,
     "entropy": 7.065015633981602,
-    "sharpness": 1.9265504832464038
+    "sharpness": 1.926550483246409
   },
   "imageEdit": {
-    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: (a) Photo of Dave Gilboa. (b) Photo of a Warby Parker retail store.\nButton label: Click to enlarge image of (a) Photo of Dave Gilboa. (b) Photo of a Warby Parker retail store.\nEnglish caption: Figure 1.2 (a) Co-founder and co-CEO Dave Gilboa helped push (b) Warby Parker to become a successful entrepreneurial venture. (credit (a): modification of “775208326EC00084_TechCrunch” by TechCrunch/Flickr, CC BY 2.0; credit (b): modification of “Warby Parker Aventura Mall” by Phillip Pessar/Flickr, CC BY 2.0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: warby, parker. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: (a) Photo of Dave Gilboa. (b) Photo of a Warby Parker retail store.\nButton label: Click to enlarge image of (a) Photo of Dave Gilboa. (b) Photo of a Warby Parker retail store.\nEnglish caption: Figure 1.2 (a) Co-founder and co-CEO Dave Gilboa helped push (b) Warby Parker to become a successful entrepreneurial venture. (credit (a): modification of “775208326EC00084_TechCrunch” by TechCrunch/Flickr, CC BY 2.0; credit (b): modification of “Warby Parker Aventura Mall” by Phillip Pessar/Flickr, CC BY 2.0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
     "outputOcr": [
       {
-        "text": "vg ~~ WPHAVO ne",
-        "confidence": 39,
+        "text": "§ DOT PHA ig pOT PHA",
+        "confidence": 46,
         "bbox": {
           "x": 203,
           "y": 93,
-          "w": 1624,
+          "w": 1623,
           "h": 62
         }
       },
       {
-        "text": "™ PHAVO z - i",
-        "confidence": 39,
+        "text": "- PARKER |",
+        "confidence": 46,
         "bbox": {
           "x": 203,
           "y": 217,
-          "w": 1624,
+          "w": 1623,
           "h": 62
         }
       },
       {
-        "text": ". § PHAVO a # PHA VO — Tas . S— LL i",
-        "confidence": 39,
+        "text": "i DOT PHA a, A W DOT PH) —_— MAT |",
+        "confidence": 46,
         "bbox": {
           "x": 203,
           "y": 341,
-          "w": 1624,
+          "w": 1623,
           "h": 62
         }
       },
       {
-        "text": "- he § PHA a Ts |",
-        "confidence": 39,
+        "text": "‘ DOT PHA gly DOT PHA — — A",
+        "confidence": 46,
         "bbox": {
           "x": 203,
           "y": 465,
-          "w": 1624,
+          "w": 1623,
           "h": 62
         }
       },
       {
-        "text": "WPHAVO == = * | a",
-        "confidence": 39,
+        "text": "° - h TE m——",
+        "confidence": 46,
         "bbox": {
           "x": 203,
           "y": 589,
-          "w": 1624,
+          "w": 1623,
           "h": 62
         }
       },
       {
-        "text": "ITN IN FEEL =",
-        "confidence": 39,
+        "text": ". Ik i DOT PHI Ars | | |",
+        "confidence": 46,
         "bbox": {
           "x": 203,
           "y": 713,
-          "w": 1624,
+          "w": 1623,
           "h": 62
         }
       },
       {
-        "text": "= — By add",
-        "confidence": 39,
+        "text": "SEES >",
+        "confidence": 46,
         "bbox": {
           "x": 203,
           "y": 837,
-          "w": 1624,
+          "w": 1623,
+          "h": 62
+        }
+      },
+      {
+        "text": "=n Ah | » Fi = EL |",
+        "confidence": 46,
+        "bbox": {
+          "x": 203,
+          "y": 961,
+          "w": 1623,
+          "h": 62
+        }
+      },
+      {
+        "text": "~~ Co . 3 : - L - E = ng |",
+        "confidence": 46,
+        "bbox": {
+          "x": 203,
+          "y": 1085,
+          "w": 1623,
           "h": 62
         }
       }
     ],
     "validation": {
       "ok": true,
-      "leftoverSourceWords": []
+      "leftoverSourceWords": [
+        "parker"
+      ]
     },
-    "validationAttempt": 2
+    "validationAttempt": 1
   },
   "retries": {
     "attempts": 1,

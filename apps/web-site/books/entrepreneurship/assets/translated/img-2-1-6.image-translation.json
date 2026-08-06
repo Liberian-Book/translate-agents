@@ -147,7 +147,7 @@
     {
       "source": "Preparation i ]",
       "normalizedSource": "Preparation i ]",
-      "target": "Chuẩn bị",
+      "target": "Chuẩn bị i ]",
       "bbox": {
         "x": 130,
         "y": 70,
@@ -207,7 +207,7 @@
     {
       "source": "change that might have an",
       "normalizedSource": "change that might have an",
-      "target": "thay đổi điều gì có thể ảnh hưởng",
+      "target": "thay đổi điều gì có thể ảnh hưởng đến",
       "bbox": {
         "x": 130,
         "y": 535,
@@ -219,7 +219,7 @@
     {
       "source": "impact on the world?",
       "normalizedSource": "impact on the world?",
-      "target": "đến thế giới?",
+      "target": "thế giới?",
       "bbox": {
         "x": 130,
         "y": 628,
@@ -306,14 +306,14 @@
     "textDensity": 0.8248275862068966,
     "averageConfidence": 86,
     "entropy": 3.742820243807728,
-    "sharpness": 4.560074576797339
+    "sharpness": 4.560074576797389
   },
   "imageEdit": {
-    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A drawing of a man shows he is in the Preparation stage. He asks himself the following Reflection Questions: What do I want to accomplish now and in the future? What will I offer, create, or change that might have an impact on the world? Is there a better way to solve a problem or address an issue? What are the conditions of my target market or environment? Potential Obstacles are Lack of ideas or inspiration, Idea or venture already exists, Unrealistic expectations for the “perfect” or “right” solution, Fear of risks, and Being too practical or too logical.\nButton label: Click to enlarge image of A drawing of a man shows he is in the Preparation stage. He asks himself the following Reflection Questions: What do I want to accomplish now and in the future? What will I offer, create, or change that might have an impact on the world? Is there a better way to solve a problem or address an issue? What are the conditions of my target market or environment? Potential Obstacles are Lack of ideas or inspiration, Idea or venture already exists, Unrealistic expectations for the “perfect” or “right” solution, Fear of risks, and Being too practical or too logical.\nEnglish caption: Figure 2.7 In preparing for your venture, you need to ask what you want to accomplish, what you want to offer, and who you want to target. You also need to consider what potential obstacles might present challenges. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Preparation i ] => Chuẩn bị\n- Reflection Questions => Câu hỏi phản ánh\n- to + What do I want to accomplish => Tôi muốn đạt được điều gì\n- <Q now and in the future? => <Q bây giờ và trong tương lai?\n- oO « What will I offer, create, or => Tôi sẽ cung cấp, tạo ra, hoặc\n- change that might have an => thay đổi điều gì có thể ảnh hưởng\n- impact on the world? => đến thế giới?\n- + Is there a better way to solve => Có cách nào tốt hơn để giải quyết\n- a problem or address an => một vấn đề hoặc giải quyết một\n- issue? => vấn đề?\n- + What are the conditions of => Điều kiện của thị trường mục tiêu hoặc\n- my target market or => môi trường của tôi là gì?\n- environment? => môi trường?\nReturn a complete edited PNG image.",
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A drawing of a man shows he is in the Preparation stage. He asks himself the following Reflection Questions: What do I want to accomplish now and in the future? What will I offer, create, or change that might have an impact on the world? Is there a better way to solve a problem or address an issue? What are the conditions of my target market or environment? Potential Obstacles are Lack of ideas or inspiration, Idea or venture already exists, Unrealistic expectations for the “perfect” or “right” solution, Fear of risks, and Being too practical or too logical.\nButton label: Click to enlarge image of A drawing of a man shows he is in the Preparation stage. He asks himself the following Reflection Questions: What do I want to accomplish now and in the future? What will I offer, create, or change that might have an impact on the world? Is there a better way to solve a problem or address an issue? What are the conditions of my target market or environment? Potential Obstacles are Lack of ideas or inspiration, Idea or venture already exists, Unrealistic expectations for the “perfect” or “right” solution, Fear of risks, and Being too practical or too logical.\nEnglish caption: Figure 2.7 In preparing for your venture, you need to ask what you want to accomplish, what you want to offer, and who you want to target. You also need to consider what potential obstacles might present challenges. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Preparation i ] => Chuẩn bị i ]\n- Reflection Questions => Câu hỏi phản ánh\n- to + What do I want to accomplish => Tôi muốn đạt được điều gì\n- <Q now and in the future? => <Q bây giờ và trong tương lai?\n- oO « What will I offer, create, or => Tôi sẽ cung cấp, tạo ra, hoặc\n- change that might have an => thay đổi điều gì có thể ảnh hưởng đến\n- impact on the world? => thế giới?\n- + Is there a better way to solve => Có cách nào tốt hơn để giải quyết\n- a problem or address an => một vấn đề hoặc giải quyết một\n- issue? => vấn đề?\n- + What are the conditions of => Điều kiện của thị trường mục tiêu hoặc\n- my target market or => môi trường của tôi là gì?\n- environment? => môi trường?\nReturn a complete edited PNG image.",
     "outputOcr": [
       {
-        "text": "Chuan bi",
-        "confidence": 70,
+        "text": "Chuan bij 1 -",
+        "confidence": 68,
         "bbox": {
           "x": 188,
           "y": 101,
@@ -322,8 +322,8 @@
         }
       },
       {
-        "text": "Cau héi phan anh Nhirng tré ngai tiém an",
-        "confidence": 70,
+        "text": "Cau hoi phan anh",
+        "confidence": 68,
         "bbox": {
           "x": 188,
           "y": 235,
@@ -332,8 +332,8 @@
         }
       },
       {
-        "text": "Oo + Toi muén dat dugc diéu gi » Thiéu y tudng hodc cam hing",
-        "confidence": 70,
+        "text": "Co e T6i mudn dat duoc diéu gi",
+        "confidence": 68,
         "bbox": {
           "x": 188,
           "y": 369,
@@ -342,8 +342,8 @@
         }
       },
       {
-        "text": "Fo bay gid va trong tuong lai? * Y tudng hoic du an",
-        "confidence": 70,
+        "text": "bay gio va trong tuong lai?",
+        "confidence": 68,
         "bbox": {
           "x": 188,
           "y": 503,
@@ -352,8 +352,8 @@
         }
       },
       {
-        "text": "+ T6i sé cung cap, tao ra, hoac da ton tai",
-        "confidence": 70,
+        "text": "Oo Tdi sé cung cap, tao ra, hodc",
+        "confidence": 68,
         "bbox": {
           "x": 188,
           "y": 637,
@@ -362,8 +362,8 @@
         }
       },
       {
-        "text": "thay doi dieu gi c6 thé anh hudéng + Ky vong khong thuc t&",
-        "confidence": 70,
+        "text": "thay d6i diéu gi c6 thé anh huéng dén",
+        "confidence": 68,
         "bbox": {
           "x": 188,
           "y": 771,
@@ -372,8 +372,8 @@
         }
       },
       {
-        "text": "decrliicgiol vé giai phap “hoan hao”",
-        "confidence": 70,
+        "text": "Q thé gisi?",
+        "confidence": 68,
         "bbox": {
           "x": 188,
           "y": 905,
@@ -382,8 +382,8 @@
         }
       },
       {
-        "text": "+ C6 cach nao tot hon dé giai quyét h 9 ole bo \"",
-        "confidence": 70,
+        "text": "e C6 cach nao tét hon dé giai quyét",
+        "confidence": 68,
         "bbox": {
           "x": 188,
           "y": 1039,
@@ -392,8 +392,8 @@
         }
       },
       {
-        "text": "mot van dé hodc giai quyét mot Qt]",
-        "confidence": 70,
+        "text": "mot van dé hodc gidi quyét mot",
+        "confidence": 68,
         "bbox": {
           "x": 188,
           "y": 1173,
@@ -402,8 +402,8 @@
         }
       },
       {
-        "text": "ear + Sgrdiro",
-        "confidence": 70,
+        "text": "van dé?",
+        "confidence": 68,
         "bbox": {
           "x": 188,
           "y": 1307,
@@ -412,8 +412,8 @@
         }
       },
       {
-        "text": "+ Didu kién cla thi trudng muc tidu hogc | * Qua thuc té hodc",
-        "confidence": 70,
+        "text": "» Diéu kién cla thj trudng muc tiéu hodc",
+        "confidence": 68,
         "bbox": {
           "x": 188,
           "y": 1441,
@@ -422,8 +422,8 @@
         }
       },
       {
-        "text": "moi truong cla toi la gi? qua logic",
-        "confidence": 70,
+        "text": "moi truong cla toi la gi?",
+        "confidence": 68,
         "bbox": {
           "x": 188,
           "y": 1575,

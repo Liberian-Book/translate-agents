@@ -108,49 +108,49 @@
     "textDensity": 0.25554439811410207,
     "averageConfidence": 95,
     "entropy": 3.4858013017874327,
-    "sharpness": 3.742081194343132
+    "sharpness": 3.7420811943431884
   },
   "imageEdit": {
     "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: SMART goals are specific, measurable, achievable, relevant, and timely.\nButton label: Click to enlarge image of SMART goals are specific, measurable, achievable, relevant, and timely.\nEnglish caption: Figure 1.9 Creating SMART goals can help you realize your vision. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- SPECIFIC => CỤ THỂ\n- MEASURABLE => CÓ THỂ ĐO LƯỜNG\n- ACHIEVABLE => CÓ THỂ ĐẠT ĐƯỢC\n- RELEVANT => LIÊN QUAN\nReturn a complete edited PNG image.",
     "outputOcr": [
       {
         "text": "CU THE",
-        "confidence": 78,
+        "confidence": 84,
         "bbox": {
           "x": 120,
           "y": 157,
-          "w": 963,
-          "h": 104
+          "w": 962,
+          "h": 105
         }
       },
       {
-        "text": "CO THE PO LUONG",
-        "confidence": 78,
+        "text": "CO THE PO LUGNG",
+        "confidence": 84,
         "bbox": {
           "x": 120,
           "y": 366,
-          "w": 963,
-          "h": 104
+          "w": 962,
+          "h": 105
         }
       },
       {
-        "text": "cO THE PAT UCC",
-        "confidence": 78,
+        "text": "CO THE PAT PUCGC",
+        "confidence": 84,
         "bbox": {
           "x": 120,
           "y": 575,
-          "w": 963,
-          "h": 104
+          "w": 962,
+          "h": 105
         }
       },
       {
         "text": "LIEN QUAN",
-        "confidence": 78,
+        "confidence": 84,
         "bbox": {
           "x": 120,
           "y": 784,
-          "w": 963,
-          "h": 104
+          "w": 962,
+          "h": 105
         }
       }
     ],

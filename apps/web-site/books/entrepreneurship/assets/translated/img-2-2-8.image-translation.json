@@ -29,48 +29,68 @@
     "textDensity": 0.06446280991735537,
     "averageConfidence": 87,
     "entropy": 4.322915733602713,
-    "sharpness": 3.9392050296534094
+    "sharpness": 3.939205029653454
   },
   "imageEdit": {
     "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: diagram.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: The Business Life Cycle moves from startup to launch to growth to maturity to harvest and then can either enter rebirth or death. A curved line shows this progression.\nButton label: Click to enlarge image of The Business Life Cycle moves from startup to launch to growth to maturity to harvest and then can either enter rebirth or death. A curved line shows this progression.\nEnglish caption: Figure 2.19 This image demonstrates the phases a business moves through from origination through the death of the business. The purple dashed line represents sales, or success of the business’s products. We see the most sales dollars in the growth and maturity phases. At this point, the owner or entrepreneurial team must make decisions for the rebirth of the business, at which time the business returns to the growth phase. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
     "outputOcr": [
       {
-        "text": "Chu Ky Song Cua Doanh Nghiép",
-        "confidence": 71,
+        "text": "Chu ky song cia doanh nghiép",
+        "confidence": 70,
         "bbox": {
-          "x": 206,
+          "x": 205,
           "y": 92,
-          "w": 1644,
+          "w": 1643,
           "h": 61
         }
       },
       {
-        "text": "| Kh&i Nghiép a Ma hu |",
-        "confidence": 71,
+        "text": "| Khai nghiép da ma | Th | Noacl |",
+        "confidence": 70,
         "bbox": {
-          "x": 206,
-          "y": 214,
-          "w": 1644,
+          "x": 205,
+          "y": 215,
+          "w": 1643,
           "h": 61
         }
       },
       {
-        "text": "{eo",
-        "confidence": 71,
+        "text": "wv",
+        "confidence": 70,
         "bbox": {
-          "x": 206,
-          "y": 336,
-          "w": 1644,
+          "x": 205,
+          "y": 338,
+          "w": 1643,
           "h": 61
         }
       },
       {
-        "text": "Thai Gian",
-        "confidence": 71,
+        "text": "Cc |",
+        "confidence": 70,
         "bbox": {
-          "x": 206,
-          "y": 458,
-          "w": 1644,
+          "x": 205,
+          "y": 461,
+          "w": 1643,
+          "h": 61
+        }
+      },
+      {
+        "text": "—mmmmmmm—— |",
+        "confidence": 70,
+        "bbox": {
+          "x": 205,
+          "y": 584,
+          "w": 1643,
+          "h": 61
+        }
+      },
+      {
+        "text": "Thai gian",
+        "confidence": 70,
+        "bbox": {
+          "x": 205,
+          "y": 707,
+          "w": 1643,
           "h": 61
         }
       }

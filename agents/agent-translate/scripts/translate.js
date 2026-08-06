@@ -593,6 +593,7 @@ async function translateWithValidation(originalInnerHtml, glossaryLines, options
 async function translateFile(inputPath, outputPath, glossary, options) {
   const html = fs.readFileSync(inputPath, 'utf-8');
   const $ = cheerio.load(html, { decodeEntities: false });
+  const existingImageSources = loadExistingImageSources(outputPath);
   const elements = $(TRANSLATABLE_SELECTOR).toArray();
   const translatableCount = countTranslatableElements($, elements);
   const termMentions = new Map();
@@ -632,12 +633,36 @@ async function translateFile(inputPath, outputPath, glossary, options) {
   }
 
   fs.mkdirSync(path.dirname(outputPath), { recursive: true });
+  preserveExistingImageSources($, existingImageSources, path.basename(outputPath));
   fs.writeFileSync(outputPath, $.html(), 'utf-8');
   console.log(`Translated ${path.basename(inputPath)} (${elements.length} blocks)`);
 }
 
 function countTranslatableElements($, elements) {
   return elements.filter(el => $(el).text().trim()).length;
+}
+
+function loadExistingImageSources(outputPath) {
+  if (!fs.existsSync(outputPath)) return null;
+
+  const html = fs.readFileSync(outputPath, 'utf-8');
+  const $ = cheerio.load(html, { decodeEntities: false });
+  return $('img').toArray().map(img => $(img).attr('src') || '');
+}
+
+function preserveExistingImageSources($, existingImageSources, fileName) {
+  if (!existingImageSources) return;
+
+  const images = $('img').toArray();
+  if (images.length !== existingImageSources.length) {
+    console.warn(`  ⚠️ Not preserving image srcs in ${fileName}: image count changed (${existingImageSources.length} -> ${images.length})`);
+    return;
+  }
+
+  images.forEach((img, index) => {
+    const src = existingImageSources[index];
+    if (src) $(img).attr('src', src);
+  });
 }
 
 function countTranslatableBlocks(inputPath) {

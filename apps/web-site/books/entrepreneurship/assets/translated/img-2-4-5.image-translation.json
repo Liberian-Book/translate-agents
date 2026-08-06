@@ -152,14 +152,14 @@
     "textDensity": 0.3867171565571436,
     "averageConfidence": 96,
     "entropy": 3.29594017495765,
-    "sharpness": 4.917283884414579
+    "sharpness": 4.917283884414585
   },
   "imageEdit": {
     "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: Mind map that shows a disaster action plan with arrows extending to such areas as assess action plan results, hurricane, tornado, develop recovery plan, volcano eruption, identify solutions, research resources, flood, designate delivery methods, forest fire, create recovery timeline, earthquake, and monitor recovery efforts.\nButton label: Click to enlarge image of Mind map that shows a disaster action plan with arrows extending to such areas as assess action plan results, hurricane, tornado, develop recovery plan, volcano eruption, identify solutions, research resources, flood, designate delivery methods, forest fire, create recovery timeline, earthquake, and monitor recovery efforts.\nEnglish caption: Figure 2.26 From this mind map of disasters that occur and actions to take, we could focus on one action area that matches our interests, passions and skills. After selecting an area of interest, we could create another mind map focused on our area of interest to identify solution sets. Next, we could apply one of the frameworks listed in Table 2.3. From there we could create an action plan of actions needed to become more informed about the idea or solutions. As you can see, an action plan fits into multiple areas. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Develop => Phát triển\n- Create => Tạo\n- timeline => thời gian biểu\nReturn a complete edited PNG image.",
     "outputOcr": [
       {
         "text": "Phat trién",
-        "confidence": 60,
+        "confidence": 72,
         "bbox": {
           "x": 137,
           "y": 138,
@@ -169,80 +169,80 @@
       },
       {
         "text": "ké hoach",
-        "confidence": 60,
+        "confidence": 72,
         "bbox": {
           "x": 137,
-          "y": 321,
+          "y": 322,
           "w": 1098,
           "h": 92
         }
       },
       {
-        "text": "phuc hdi",
-        "confidence": 60,
+        "text": "| oy | i",
+        "confidence": 72,
         "bbox": {
           "x": 137,
-          "y": 504,
+          "y": 506,
           "w": 1098,
           "h": 92
         }
       },
       {
-        "text": "Gidm sat pe",
-        "confidence": 60,
+        "text": "Phun trao |",
+        "confidence": 72,
         "bbox": {
           "x": 137,
-          "y": 687,
+          "y": 690,
           "w": 1098,
           "h": 92
         }
       },
       {
-        "text": "nd luc phuc | am",
-        "confidence": 60,
+        "text": "nui lta |",
+        "confidence": 72,
         "bbox": {
           "x": 137,
-          "y": 870,
+          "y": 874,
           "w": 1098,
           "h": 92
         }
       },
       {
-        "text": "hoi p nh \\",
-        "confidence": 60,
+        "text": "1 heg )",
+        "confidence": 72,
         "bbox": {
           "x": 137,
-          "y": 1053,
+          "y": 1058,
           "w": 1098,
           "h": 92
         }
       },
       {
-        "text": "[ Nghién ctu)",
-        "confidence": 60,
+        "text": "Tao thoi",
+        "confidence": 72,
         "bbox": {
           "x": 137,
-          "y": 1236,
+          "y": 1242,
           "w": 1098,
           "h": 92
         }
       },
       {
-        "text": "\\ ngudn luc |",
-        "confidence": 60,
+        "text": "gian biéu",
+        "confidence": 72,
         "bbox": {
           "x": 137,
-          "y": 1419,
+          "y": 1426,
           "w": 1098,
           "h": 92
         }
       },
       {
-        "text": "Chéy rimg",
-        "confidence": 60,
+        "text": "phuc hoi",
+        "confidence": 72,
         "bbox": {
           "x": 137,
-          "y": 1602,
+          "y": 1610,
           "w": 1098,
           "h": 92
         }
