@@ -21,12 +21,17 @@ Review Agent sở hữu 4 kỹ năng chính để rà soát bản dịch ở cá
 - **Cách dùng:** Bạn gọi các Script tự động (như `glossary-check.py`) để đối chiếu hàng loạt các file HTML với từ điển. Nếu có lỗi, Script sẽ trả về báo cáo lỗi từ vựng.
 - **Lưu ý:** Đây là bước kiểm tra "cứng". Không được phép linh động sửa thuật ngữ đã chốt trong glossary trừ khi có sự phê duyệt của con người.
 
-### 3. `skill-semantic-check.md` (Kiểm tra Ngữ nghĩa & Rủi ro)
+### 3. `translation-quality-check.py` (Cổng chất lượng deterministic)
+- **Mục đích:** Chặn các lỗi máy có thể phát hiện chắc chắn trước khi tốn công review ngữ nghĩa: còn cụm tiếng Anh không được allowlist, thiếu hard term từ `termbase.json`, source echo, hoặc cụm song ngữ như `calculated risk rủi ro`.
+- **Cách dùng:** Chạy `python3 agents/agent-review/scripts/translation-quality-check.py <book> <chapter-number|all|file.html>` sau integrity/glossary và trước semantic review.
+- **Lưu ý:** Nếu report không PASS, chỉ tiếp tục khi có waiver ghi rõ lý do bằng `--waive "lý do"`.
+
+### 4. `skill-semantic-check.md` (Kiểm tra Ngữ nghĩa & Rủi ro)
 - **Mục đích:** Đối chiếu bản dịch với Báo cáo Phân tích Rủi ro (`*-translate-analysis.md` do Analyze Agent tạo ra ở Phase 3).
 - **Cách dùng:** Bạn kiểm tra xem Translate Agent có tuân thủ các quy định về xử lý tên riêng (ví dụ: giải thích *Cratejoy, TOMS, Airbnb*), văn phong (truyền cảm hứng hay học thuật), và cấu trúc câu phức tạp hay không.
 - **Lưu ý:** Bước này thiên về sự tinh tế trong văn hóa và bối cảnh. Nếu thấy Translate Agent dịch quá cứng nhắc hoặc bỏ sót chú thích ngữ cảnh, phải gắn cờ ngay lập tức.
 
-### 4. `skill-review.md` (Tạo Báo cáo Phản biện)
+### 5. `skill-review.md` (Tạo Báo cáo Phản biện)
 - **Mục đích:** Tổng hợp mọi lỗi tìm được (từ Glossary Check và Semantic Check) vào một Bảng Review chuẩn xác theo `review-template.md`.
 - **Cách dùng:** Sử dụng kỹ năng này để tạo file `[tên-file]-semantic-review-round-1.md`.
 - **Lưu ý Protocol (Vòng lặp Iteration):**
@@ -51,7 +56,12 @@ Khi có lệnh "Chạy review cho Chương [X]", hãy tuân thủ trình tự sa
 - Mục tiêu: Bắt **100% vi phạm thuật ngữ** so với `glossary.csv`.
 - Output: File `chapter-[X]-glossary-summary.md` trong `06-reviews/`.
 
-### Bước 3 — Semantic & Risk Check (→ `skill-semantic-check.md`)
+### Bước 3 — Translation Quality Gate (deterministic)
+- Chạy lệnh: `python3 agents/agent-review/scripts/translation-quality-check.py entrepreneurship <chapter-number|all|file.html>`
+- Mục tiêu: Bắt lỗi thiếu hard term, source echo, English leak, và mixed bilingual fragments trước semantic review.
+- **Luật:** Nếu report FAIL, dừng semantic review cho file đó trừ khi có waiver rõ ràng trong report.
+
+### Bước 4 — Semantic & Risk Check (→ `skill-semantic-check.md`)
 - **Nạp context BẮT BUỘC:** Đọc TẤT CẢ file `*-translate-analysis.md` trong `03-analyzed/` của chương đó.
 - **Đọc từng file translated HTML** và đối chiếu với analysis. Tập trung vào:
   - Ngữ nghĩa (semantic accuracy): dịch sai ý, dịch word-by-word vô nghĩa
@@ -59,18 +69,19 @@ Khi có lệnh "Chạy review cho Chương [X]", hãy tuân thủ trình tự sa
   - Văn phong (tone): xưng hô Bạn/Chúng ta, giọng học thuật
   - Cấu trúc HTML (structure): eng/vn pair balance, img src local vs CDN, inline tag bảo toàn
 
-### Bước 4 — Sinh Báo cáo (→ `skill-review.md`)
+### Bước 5 — Sinh Báo cáo (→ `skill-review.md`)
 - **BẮT BUỘC:** Chạy lệnh `python3 agents/agent-review/scripts/start-review-round.py <đường_dẫn_file_html>` trước khi viết báo cáo. Script tự đếm round và sinh file `round-[X].md` mới (không bao giờ đè file cũ).
 - Ghi TẤT CẢ lỗi từ Bước 2 (prefix `G-`) + Bước 3 (prefix `S-`) + Bước 1 nếu có lỗi nhỏ không cần dịch lại toàn bộ (prefix `I-`) vào file vừa sinh.
 - Nếu không có lỗi, ghi chú "Không phát hiện lỗi" vào file đó.
 
-### Bước 5 — Verify & Close
+### Bước 6 — Verify & Close
 - Sau khi Translate Agent sửa, chạy lại các Bước 1, 2, 3 để xác nhận.
 - Chỉ đóng chapter khi: integrity check PASS + glossary 100% + semantic issues = 0 + archive eng/vn balance OK.
 
 > ⚠️ **Checklist chống lọt:**
 > - [ ] Integrity check đã chạy và PASS? (script tự động)
 > - [ ] Glossary check đã chạy? (script tự động)
+> - [ ] Translation-quality check PASS hoặc WAIVED có lý do?
 > - [ ] Semantic check đã đọc analysis files?
 > - [ ] Mỗi file HTML có review round file tương ứng?
 > - [ ] Archive bilingual eng=vn balance? VN-only 0 eng leak?

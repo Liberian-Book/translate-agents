@@ -8,10 +8,10 @@
 
 ## High-Value Paths
 
-- Source glossary: `../entrepreneurship/glossary.csv`.
+- Source glossary: usually `../<book>/glossary.csv`; this workspace currently uses `../web-site/entrepreneurship/glossary.csv`.
 - Canonical progress tracker for the book: `../entrepreneurship/tasks.md`.
 - Workflow intent: `workflow/master-workflow.md`.
-- Translation rules the repo already depends on: `book-reader/skills/skill-translate.md`.
+- Translation rules the repo already depends on: `agents/agent-translate/skills/skill-translate.md`.
 
 ## Commands
 
@@ -19,8 +19,10 @@
 - Scrape raw OpenStax HTML: `node agents/agent-scrape/scripts/skill-scrape.js entrepreneurship <start-url>`.
 - Clean raw HTML and download assets: `node agents/agent-scrape/scripts/skill-cleanup.js entrepreneurship`.
 - Extract chapter glossary candidates: `node agents/agent-analyze/scripts/term-extract.js <chapter-number>`.
+- Build book termbase after glossary approval: `node agents/agent-analyze/scripts/build-termbase.js <bookName>`.
 - Prepare one HTML file for bilingual translation: `node agents/agent-translate/scripts/prep_html.js <input-html> <output-html>`.
 - Run glossary QA for one chapter or all chapters: `python3 agents/agent-review/scripts/glossary-check.py <chapter-number|all>`.
+- Run deterministic translation QA before semantic review/export: `python3 agents/agent-review/scripts/translation-quality-check.py <bookName> <chapter-number|all|file.html>`.
 - Start a new semantic review round for one translated file: `python3 agents/agent-review/scripts/start-review-round.py ../entrepreneurship/chapter-<N>/05-translated/<file>.html`.
 - Apply accepted review edits back into HTML: `python3 agents/agent-translate/scripts/apply-review-fixes.py <review.md> <translated.html>`.
 - Export translated HTML to DOCX (Vietnamese only): `node agents/agent-export/scripts/export-docx.js <file|chapter-number|all> [bookName]`. Output goes to `../<bookName>/docx/`.
@@ -44,4 +46,5 @@
 ## Working Conventions
 
 - Preserve the repo's append-only review history: semantic review files are round-based in `06-reviews`, created via `start-review-round.py` rather than overwritten.
-- For translation edits, keep `eng hidden` blocks untouched and only change `vn visible` content while preserving inline tags and IDs, per `book-reader/skills/skill-translate.md`.
+- For translation edits, keep `eng hidden` blocks untouched and only change `vn visible` content while preserving inline tags and IDs, per `agents/agent-translate/skills/skill-translate.md`.
+- Future books must approve glossary rows and build `termbase.json` before translation; deterministic QA must PASS or be explicitly WAIVED before semantic review/export is treated as complete.

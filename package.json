@@ -10,8 +10,10 @@
     "translate": "node agents/agent-translate/scripts/translate.js",
     "translate:images": "node agents/agent-translate/scripts/translate-images.js",
     "terms": "node agents/agent-analyze/scripts/term-extract.js",
+    "termbase": "node agents/agent-analyze/scripts/build-termbase.js",
     "review:integrity": "python3 agents/agent-review/scripts/integrity-check.py",
     "review:glossary": "python3 agents/agent-review/scripts/glossary-check.py",
+    "review:quality": "python3 agents/agent-review/scripts/translation-quality-check.py",
     "review:start": "python3 agents/agent-review/scripts/start-review-round.py",
     "review:apply": "python3 agents/agent-translate/scripts/apply-review-fixes.py",
     "build:book": "python3 agents/agent-archive/scripts/build-preview.py",
@@ -38,6 +40,7 @@
     "tesseract.js": "^7.0.0"
   },
   "devDependencies": {
-    "@playwright/test": "^1.61.1"
+    "@playwright/test": "^1.61.1",
+    "wrangler": "^4.29.1"
   }
 }

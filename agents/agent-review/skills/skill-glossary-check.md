@@ -124,3 +124,19 @@ agents/agent-review/scripts/glossary-check all
 **Vị trí:** `agents/agent-review/scripts/glossary-check`
 **Yêu cầu:** Python 3.8+ (không cần thư viện ngoài)
 **Output:** Ghi file review vào `chapter-N/06-reviews/` theo đúng format ở trên.
+
+## Cổng chất lượng bổ sung: Translation Quality Check
+
+Sau khi chạy integrity và glossary check, chạy thêm cổng deterministic QA trước semantic review:
+
+```bash
+python3 agents/agent-review/scripts/translation-quality-check.py entrepreneurship <chapter-number|all|file.html>
+```
+
+Script này đọc `termbase.json`, chỉ quét các block `vn visible`, và báo lỗi chặn khi:
+- thiếu bản dịch bắt buộc của `hardTerms`
+- còn nguyên cụm source tiếng Anh trong bản dịch
+- có cụm song ngữ như `calculated risk rủi ro`
+- có cụm tiếng Anh không nằm trong `protectedTerms` hoặc `allowlist`
+
+Nếu có false positive hợp lệ, phải chạy lại với `--waive "lý do"` để ghi waiver vào report; không được bỏ qua âm thầm.

@@ -20,6 +20,12 @@ const QA_STYLE_GUIDE = [
   'Prefer established entrepreneurship terms: due diligence => thẩm định kỹ lưỡng; lifestyle venture => doanh nghiệp phục vụ lối sống; harvesting/harvest in exit contexts => thoái vốn/hiện thực hóa giá trị; value proposition => giá trị đề xuất; divergent thinking => tư duy phân kỳ; cash management => quản lý dòng tiền; benchmarking => so sánh chuẩn; framework => khuôn khổ làm việc.',
   'Translate common terms when they appear: entrepreneurial ecosystem => hệ sinh thái khởi nghiệp; franchisee => bên nhận nhượng quyền; entrepreneurial mindset => tư duy doanh nhân; angel investor => nhà đầu tư thiên thần; venture capitalist => nhà đầu tư mạo hiểm; milestones => các cột mốc quan trọng; breakeven point => điểm hòa vốn; initial public offering (IPO) => phát hành cổ phiếu lần đầu ra công chúng (IPO); return on investment (ROI) => tỷ suất lợi nhuận trên đầu tư (ROI); bootstrapping => tự huy động vốn; prototype => mẫu thử nghiệm; soft launch => ra mắt thử nghiệm; intrapreneurs => doanh nhân nội bộ; e-commerce => thương mại điện tử; Business Model Canvas (BMC) => Mô hình Kinh doanh Canvas (BMC).'
 ];
+const META_RESPONSE_PATTERNS = [
+  /xin lỗi[,\s]+nhưng/i,
+  /không thể (?:truy cập|dịch|giúp|thực hiện)/i,
+  /(?:văn bản|nội dung).{0,80}(?:không đầy đủ|không đủ|cần dịch)/i,
+  /(?:i'?m sorry|i cannot|i can'?t).{0,80}(?:translate|access|help)/i,
+];
 const PRESERVED_LOWERCASE_LOANWORDS = new Set([
   'bacon',
   'cheddar',
@@ -105,6 +111,38 @@ function loadGlossary(bookDir) {
   return glossary;
 }
 
+function bookDirCandidates(projectRoot, bookName) {
+  return [
+    path.join(projectRoot, 'data', bookName),
+    path.join(projectRoot, '..', bookName),
+    path.join(projectRoot, '..', 'web-site', bookName),
+  ];
+}
+
+function resolveTranslationBookDir(projectRoot, bookName) {
+  const candidates = bookDirCandidates(projectRoot, bookName);
+  const withPrep = candidates.find(candidate => fs.existsSync(path.join(candidate, 'prep')));
+  if (withPrep) return withPrep;
+  const withClean = candidates.find(candidate => fs.existsSync(path.join(candidate, 'clean')));
+  if (withClean) return withClean;
+  return candidates.find(candidate => fs.existsSync(candidate)) || candidates[0];
+}
+
+function resolveTermbaseBookDir(projectRoot, bookName, fallbackBookDir) {
+  const candidates = [fallbackBookDir, ...bookDirCandidates(projectRoot, bookName)].filter(Boolean);
+  const withTermbase = candidates.find(candidate => fs.existsSync(path.join(candidate, 'termbase.json')));
+  if (withTermbase) return withTermbase;
+  const withGlossary = candidates.find(candidate => fs.existsSync(path.join(candidate, 'glossary.csv')));
+  if (withGlossary) return withGlossary;
+  return candidates.find(candidate => fs.existsSync(candidate)) || candidates[0];
+}
+
+function loadTermbase(bookDir) {
+  const termbasePath = path.join(bookDir, 'termbase.json');
+  if (!fs.existsSync(termbasePath)) return null;
+  return JSON.parse(fs.readFileSync(termbasePath, 'utf8'));
+}
+
 function listAnalyzedGlossaryCsvs(analyzedDir) {
   if (!fs.existsSync(analyzedDir)) return [];
   return fs.readdirSync(analyzedDir)
@@ -142,6 +180,39 @@ function relevantGlossary(termKeys, termMentions) {
     const vietnameseOnly = stripEnglishParenthetical(translation, key);
     return `${key} => ${vietnameseOnly || translation} (repeat mention: Vietnamese only; do not include the original English term again)`;
   });
+}
+
+function termMatchesSource(term, sourceText) {
+  const searchableSource = stripUrlLikeTextForEnglishCheck(sourceText);
+  const candidates = [term.source, ...(term.variants || [])].filter(Boolean);
+  return candidates.some(candidate => {
+    const escaped = candidate.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const flags = term.caseSensitive ? '' : 'i';
+    return new RegExp(`(^|[^A-Za-z])${escaped}(?=$|[^A-Za-z])`, flags).test(searchableSource);
+  });
+}
+
+function applicableTermbaseLines(sourceText, termbase) {
+  if (!termbase) return [];
+
+  const hard = (termbase.hardTerms || [])
+    .filter(term => termMatchesSource(term, sourceText))
+    .slice(0, 20)
+    .map(term => `HARD: ${term.source} => ${term.target}`);
+  const soft = (termbase.softPhrases || [])
+    .filter(term => termMatchesSource(term, sourceText))
+    .slice(0, 10)
+    .map(term => `SOFT: ${term.source} => ${term.target}`);
+  const protectedTerms = (termbase.protectedTerms || [])
+    .filter(term => sourceText.toLowerCase().includes(term.toLowerCase()))
+    .slice(0, 20)
+    .map(term => `PROTECT: ${term}`);
+  const allowlist = (termbase.allowlist || [])
+    .filter(term => sourceText.toLowerCase().includes(term.toLowerCase()))
+    .slice(0, 20)
+    .map(term => `ALLOW: ${term}`);
+
+  return [...hard, ...soft, ...protectedTerms, ...allowlist];
 }
 
 function recordGlossaryMentions(termKeys, termMentions) {
@@ -276,8 +347,92 @@ function validateNoLeftoverEnglish(sourceText, translatedText, glossaryLines = [
   }
 }
 
+function validateNoMetaResponse(translatedText) {
+  const normalized = translatedText.replace(/\s+/g, ' ').trim();
+  const pattern = META_RESPONSE_PATTERNS.find(candidate => candidate.test(normalized));
+  if (pattern) {
+    throw new Error('Translation API returned assistant meta-response instead of translated content');
+  }
+}
+
+function hardTermAcceptedTargets(target, source) {
+  const targets = target.split('/').map(option => option.trim()).filter(Boolean);
+  const sourcePattern = source
+    ? new RegExp(`\\s*\\(${source.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\)`, 'i')
+    : null;
+
+  for (const option of [...targets]) {
+    const withoutSourceParenthetical = sourcePattern ? option.replace(sourcePattern, '').trim() : option;
+    if (withoutSourceParenthetical && withoutSourceParenthetical !== option) targets.push(withoutSourceParenthetical);
+  }
+
+  return Array.from(new Set(targets.map(option => option.toLowerCase())));
+}
+
+function removeAcceptedHardTargets(text, acceptedTargets) {
+  return acceptedTargets.reduce((result, target) => {
+    if (!target) return result;
+    return result.replace(new RegExp(target.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi'), ' ');
+  }, text);
+}
+
+function hardSourceRemains(translatedText, source) {
+  const normalizedTerm = normalizeForEnglishCheck(source);
+  if (!normalizedTerm) return false;
+  const escaped = source.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const sourcePattern = new RegExp(`(^|[^A-Za-z])(${escaped})(?=$|[^A-Za-z])`, 'gi');
+
+  for (const match of translatedText.matchAll(sourcePattern)) {
+    const value = match[2];
+    // Capitalized source terms are usually part of preserved proper names, titles, or citations.
+    if (value !== value.toLowerCase()) continue;
+    return true;
+  }
+
+  return false;
+}
+
+function validateHardTermbaseTerms(sourceText, translatedText, termbaseLines = []) {
+  const normalizedSource = normalizeForEnglishCheck(stripUrlLikeTextForEnglishCheck(sourceText));
+  const translatedLower = translatedText.toLowerCase();
+
+  for (const line of termbaseLines) {
+    const match = line.match(/^HARD:\s*(.+?)\s*=>\s*(.+)$/);
+    if (!match) continue;
+    const source = match[1].trim();
+    const target = match[2].trim();
+    const normalizedTerm = normalizeForEnglishCheck(source);
+    if (!normalizedTerm || !normalizedSource.includes(normalizedTerm)) continue;
+
+    const acceptedTargets = hardTermAcceptedTargets(target, source);
+    const translatedWithoutAcceptedTargets = stripUrlLikeTextForEnglishCheck(removeAcceptedHardTargets(translatedText, acceptedTargets));
+    if (hardSourceRemains(translatedWithoutAcceptedTargets, source)) {
+      throw new Error(`Hard term source remains in translation: "${source}"`);
+    }
+    if (acceptedTargets.length > 0 && !acceptedTargets.some(option => translatedLower.includes(option))) {
+      throw new Error(`Hard term target missing: "${source}" => "${target}"`);
+    }
+  }
+}
+
 function isLeftoverEnglishValidationError(error) {
   return error?.message?.startsWith('Likely untranslated English phrase remains:');
+}
+
+function isHardTermTargetMissingError(error) {
+  return error?.message?.startsWith('Hard term target missing:');
+}
+
+function isNonStrictValidationWarning(error) {
+  return isLeftoverEnglishValidationError(error) || isHardTermTargetMissingError(error);
+}
+
+function warnAcceptedValidation(message) {
+  if (process.env.TRANSLATION_DEBUG_WARNINGS === '1') console.warn(message);
+}
+
+function warnFallback(message) {
+  if (process.env.TRANSLATION_DEBUG_WARNINGS === '1') console.warn(message);
 }
 
 function sanitizeTranslatedFragment(originalHtml, translatedHtml) {
@@ -406,6 +561,14 @@ function normalizePhotoCreditInCaption(html) {
   return html.replace(/\((?:credit|tín dụng|ghi công)\s*:/gi, '(Nguồn ảnh:');
 }
 
+function normalizeKnownTermLeaks(html) {
+  return html
+    .replace(/<em([^>]*)>\s*calculated\s+risk\s*<\/em>\s*rủi ro/gi, '<em$1>rủi ro có tính toán</em>')
+    .replace(/<em([^>]*)>\s*calculated\s*<\/em>\s*risk\s*rủi ro/gi, '<em$1>rủi ro có tính toán</em>')
+    .replace(/\bcalculated\s+risk\s+rủi ro\b/gi, 'rủi ro có tính toán')
+    .replace(/\bcalculated\s+risk\b/gi, 'rủi ro có tính toán');
+}
+
 function normalizeTranslatedElement($, el) {
   const tagName = (el.tagName || '').toLowerCase();
   const isHeading = /^h[1-6]$/.test(tagName);
@@ -414,13 +577,15 @@ function normalizeTranslatedElement($, el) {
 
   if (isHeading) html = normalizeHeadingFragment(html);
   if (isCaption) html = normalizePhotoCreditInCaption(html);
+  html = normalizeKnownTermLeaks(html);
 
   $(el).html(html);
 }
 
-async function translateHtmlFragment(fragmentHtml, glossaryLines, options, previousError = null) {
+async function translateHtmlFragment(fragmentHtml, glossaryLines, termbaseLines, options, previousError = null) {
   const { tokenized, tags } = tokenizeHtmlTags(fragmentHtml);
   const glossaryText = glossaryLines.length > 0 ? glossaryLines.join('\n') : 'No approved glossary terms for this fragment.';
+  const termbaseText = termbaseLines.length > 0 ? termbaseLines.join('\n') : 'No termbase entries matched this fragment.';
   const messages = [
     {
       role: 'system',
@@ -429,6 +594,7 @@ async function translateHtmlFragment(fragmentHtml, glossaryLines, options, previ
         'Return only the translated INNER HTML fragment. No wrapper tags. No markdown. No explanations.',
         'HTML tags are replaced with placeholders like __HTML_TAG_0__. Preserve every placeholder exactly and in order.',
         'If the input has no HTML tags, return plain Vietnamese text only, with no <p>, <span>, or other tags.',
+        'If the input is a sentence fragment, single word, URL, or partial phrase, translate or preserve it directly. Never ask for more context.',
         'Only translate human-readable English text. Do not translate or alter placeholders.',
         'Do not leave English source phrases untranslated unless they are proper nouns, names, acronyms, code, URLs, or citations.',
         'Lowercase descriptive phrases are not proper nouns; translate them into Vietnamese.'
@@ -438,6 +604,7 @@ async function translateHtmlFragment(fragmentHtml, glossaryLines, options, previ
       role: 'user',
       content: [
         `Glossary:\n${glossaryText}`,
+        `Termbase:\n${termbaseText}`,
         previousError ? `Previous output failed validation: ${previousError}. Translate any quoted lowercase source phrase into Vietnamese and preserve the exact inline HTML structure.` : '',
         `HTML fragment to translate:\n${tokenized}`,
       ].filter(Boolean).join('\n\n'),
@@ -465,15 +632,17 @@ async function translateHtmlFragment(fragmentHtml, glossaryLines, options, previ
   const data = await response.json();
   const content = data.choices?.[0]?.message?.content?.trim();
   if (!content) throw new Error('Translation API returned empty content');
+  validateNoMetaResponse(content);
 
   const cleaned = stripUnexpectedHtmlTags(stripCodeFence(content));
   validatePlaceholders(cleaned, tags);
   const restored = restoreHtmlTags(cleaned, tags);
-  return sanitizeTranslatedFragment(fragmentHtml, restored);
+  return normalizeKnownTermLeaks(sanitizeTranslatedFragment(fragmentHtml, restored));
 }
 
-async function translatePlainText(text, glossaryLines, options, previousError = null) {
+async function translatePlainText(text, glossaryLines, termbaseLines, options, previousError = null) {
   const glossaryText = glossaryLines.length > 0 ? glossaryLines.join('\n') : 'No approved glossary terms for this text.';
+  const termbaseText = termbaseLines.length > 0 ? termbaseLines.join('\n') : 'No termbase entries matched this text.';
   const response = await fetch(`${options.baseUrl}/chat/completions`, {
     method: 'POST',
     headers: {
@@ -488,6 +657,7 @@ async function translatePlainText(text, glossaryLines, options, previousError = 
           content: translationSystemPrompt([
             'Return only Vietnamese text. No HTML. No markdown. No explanations.',
             'Use "Bạn" for you and "Chúng ta" for we.',
+            'If the input is a sentence fragment, single word, URL, or partial phrase, translate or preserve it directly. Never ask for more context.',
             'Do not leave English source phrases untranslated unless they are proper nouns, names, acronyms, code, URLs, or citations.',
             'Lowercase descriptive phrases are not proper nouns; translate them into Vietnamese.'
           ]),
@@ -496,6 +666,7 @@ async function translatePlainText(text, glossaryLines, options, previousError = 
           role: 'user',
           content: [
             `Glossary:\n${glossaryText}`,
+            `Termbase:\n${termbaseText}`,
             previousError ? `Previous output failed validation: ${previousError}. Translate any quoted lowercase source phrase into Vietnamese.` : '',
             `Text to translate:\n${text}`,
           ].filter(Boolean).join('\n\n'),
@@ -513,7 +684,8 @@ async function translatePlainText(text, glossaryLines, options, previousError = 
   const data = await response.json();
   const content = data.choices?.[0]?.message?.content?.trim();
   if (!content) throw new Error('Translation API returned empty content');
-  return stripUnexpectedHtmlTags(stripCodeFence(content));
+  validateNoMetaResponse(content);
+  return normalizeKnownTermLeaks(stripUnexpectedHtmlTags(stripCodeFence(content)));
 }
 
 function collectTextNodes(node, textNodes = []) {
@@ -531,7 +703,7 @@ function collectTextNodes(node, textNodes = []) {
   return textNodes;
 }
 
-async function translateTextNodesFallback(el, glossaryLines, options) {
+async function translateTextNodesFallback(el, glossaryLines, termbase, options) {
   const textNodes = collectTextNodes(el).filter(node => node.data && node.data.trim());
 
   for (const node of textNodes) {
@@ -542,17 +714,20 @@ async function translateTextNodesFallback(el, glossaryLines, options) {
     let lastError = null;
 
     for (let attempt = 1; attempt <= TRANSLATION_RETRIES + 1; attempt++) {
-      const translated = await translatePlainText(sourceText, glossaryLines, options, lastError?.message);
+      let translated = '';
       try {
+        const termbaseLines = applicableTermbaseLines(sourceText, termbase);
+        translated = await translatePlainText(sourceText, glossaryLines, termbaseLines, options, lastError?.message);
         validateNoLeftoverEnglish(sourceText, translated, glossaryLines);
+        validateHardTermbaseTerms(sourceText, translated, termbaseLines);
         node.data = `${leading}${translated}${trailing}`;
         lastError = null;
         break;
       } catch (error) {
         lastError = error;
         if (attempt > TRANSLATION_RETRIES) {
-          if (isLeftoverEnglishValidationError(error) && !options.strictValidation) {
-            console.warn(`  ⚠️ Accepting text-node translation after repeated validation warning: ${error.message}`);
+          if (isNonStrictValidationWarning(error) && !options.strictValidation) {
+            warnAcceptedValidation(`  ⚠️ Accepting text-node translation after repeated validation warning: ${error.message}`);
             node.data = `${leading}${translated}${trailing}`;
             lastError = null;
             break;
@@ -566,20 +741,21 @@ async function translateTextNodesFallback(el, glossaryLines, options) {
   }
 }
 
-async function translateWithValidation(originalInnerHtml, glossaryLines, options) {
+async function translateWithValidation(originalInnerHtml, glossaryLines, termbaseLines, options) {
   let lastError = null;
 
   for (let attempt = 1; attempt <= TRANSLATION_RETRIES + 1; attempt++) {
-    const translated = await translateHtmlFragment(originalInnerHtml, glossaryLines, options, lastError?.message);
+    const translated = await translateHtmlFragment(originalInnerHtml, glossaryLines, termbaseLines, options, lastError?.message);
     try {
       validateTranslatedFragment(originalInnerHtml, translated);
       validateNoLeftoverEnglish(textFromHtml(originalInnerHtml), textFromHtml(translated), glossaryLines);
+      validateHardTermbaseTerms(textFromHtml(originalInnerHtml), textFromHtml(translated), termbaseLines);
       return translated;
     } catch (error) {
       lastError = error;
       if (attempt > TRANSLATION_RETRIES) {
-        if (isLeftoverEnglishValidationError(error) && !options.strictValidation) {
-          console.warn(`  ⚠️ Accepting fragment translation after repeated validation warning: ${error.message}`);
+        if (isNonStrictValidationWarning(error) && !options.strictValidation) {
+          warnAcceptedValidation(`  ⚠️ Accepting fragment translation after repeated validation warning: ${error.message}`);
           return translated;
         }
         throw error;
@@ -590,7 +766,7 @@ async function translateWithValidation(originalInnerHtml, glossaryLines, options
   throw lastError;
 }
 
-async function translateFile(inputPath, outputPath, glossary, options) {
+async function translateFile(inputPath, outputPath, glossary, termbase, options) {
   const html = fs.readFileSync(inputPath, 'utf-8');
   const $ = cheerio.load(html, { decodeEntities: false });
   const existingImageSources = loadExistingImageSources(outputPath);
@@ -607,13 +783,14 @@ async function translateFile(inputPath, outputPath, glossary, options) {
 
     const termKeys = glossaryTermKeys($, el, glossary);
     const glossaryLines = relevantGlossary(termKeys, termMentions);
+    const termbaseLines = applicableTermbaseLines(textFromHtml(originalInnerHtml), termbase);
     try {
-      const translated = await translateWithValidation(originalInnerHtml, glossaryLines, options);
+      const translated = await translateWithValidation(originalInnerHtml, glossaryLines, termbaseLines, options);
       $(el).html(translated);
     } catch (error) {
-      console.warn(`  ⚠️ Fragment translation failed in ${path.basename(inputPath)} block ${i + 1}/${elements.length}; falling back to text-node translation: ${error.message}`);
+      warnFallback(`  ⚠️ Fragment translation failed in ${path.basename(inputPath)} block ${i + 1}/${elements.length}; falling back to text-node translation: ${error.message}`);
       try {
-        await translateTextNodesFallback(el, glossaryLines, options);
+        await translateTextNodesFallback(el, glossaryLines, termbase, options);
       } catch (fallbackError) {
         const source = text.replace(/\s+/g, ' ').slice(0, 160);
         throw new Error(`${path.basename(inputPath)} block ${i + 1}/${elements.length}: ${fallbackError.message}; source="${source}"`);
@@ -692,7 +869,8 @@ async function main() {
     process.exit(1);
   }
 
-  const bookDir = path.join(projectRoot, 'data', bookName);
+  const bookDir = resolveTranslationBookDir(projectRoot, bookName);
+  const termbaseBookDir = resolveTermbaseBookDir(projectRoot, bookName, bookDir);
   const prepDir = path.join(bookDir, 'prep');
   const translatedDir = path.join(bookDir, 'translated');
 
@@ -706,6 +884,7 @@ async function main() {
     : fs.readdirSync(prepDir).filter(file => file.endsWith('.html')).sort();
 
   const glossary = loadGlossary(bookDir);
+  const termbase = loadTermbase(termbaseBookDir);
   const options = {
     apiKey,
     baseUrl: (process.env.OPENAI_BASE_URL || DEFAULT_BASE_URL).replace(/\/$/, ''),
@@ -714,7 +893,8 @@ async function main() {
     strictValidation: process.env.STRICT_TRANSLATION_VALIDATION === '1',
   };
 
-  console.log(`Translating ${files.length} file(s) with ${options.model}. Loaded ${glossary.size} approved glossary terms.`);
+  const termbaseCount = termbase ? (termbase.hardTerms || []).length + (termbase.softPhrases || []).length : 0;
+  console.log(`Translating ${files.length} file(s) with ${options.model}. Loaded ${glossary.size} approved glossary terms and ${termbaseCount} termbase entries.`);
 
   let totalBlocks = 0;
   const filesToTranslate = [];
@@ -735,7 +915,7 @@ async function main() {
     const inputPath = path.join(prepDir, file);
     const outputPath = path.join(translatedDir, file);
     emitProgress({ type: 'fileStart', file, blocks, completedBlocks, totalBlocks });
-    await translateFile(inputPath, outputPath, glossary, options);
+    await translateFile(inputPath, outputPath, glossary, termbase, options);
     completedBlocks += blocks;
     emitProgress({ type: 'fileDone', file, completedBlocks, totalBlocks });
   }

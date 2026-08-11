@@ -56,6 +56,12 @@ Các AI Agents sẽ đóng vai trò thực hiện công việc nặng nhọc (Sc
     - [3] Giữ nguyên tiếng Anh (Chuyên môn cao)
 - **Quyết định:** Con người chỉ việc chọn phương án (hoặc bổ sung nếu chưa ưng ý). Phương án được chọn sẽ chốt cứng vào cột `translation` của **`glossary.csv`**. Toàn bộ quá trình dịch sau này bắt buộc phải theo bảng từ này.
 
+### 🤖 Agent-Analyze: Build Termbase
+
+- Sau khi glossary có các dòng `status=approved`, chạy `node agents/agent-analyze/scripts/build-termbase.js <book>`.
+- Output là `termbase.json` trong thư mục sách, gồm `hardTerms`, `softPhrases`, `protectedTerms`, và `allowlist`.
+- Các từ/cụm dễ lọt như `franchise`, `franchisee`, `Types of Entrepreneurs`, `calculated risk` phải được approved trong glossary trước khi dịch để termbase biến chúng thành điều kiện kiểm tra.
+
 ---
 
 ## Phase 3: Phân tích Rủi ro Văn hóa (Translation Analysis)
@@ -80,7 +86,7 @@ Các AI Agents sẽ đóng vai trò thực hiện công việc nặng nhọc (Sc
 ### 🤖 Agent-Translate
 
 - **Hành động 1:** Chạy script `skill-prep-translation.js` để nhân bản các thẻ HTML thành cấu trúc song ngữ — lưu vào `../[book]/chapter-{N}/04-prep/`.
-- **Hành động 2:** Đọc **`glossary.csv`** + báo cáo rủi ro trong `../[book]/chapter-{N}/03-analyzed/`. Thực hiện dịch ghi đè văn bản vào các thẻ `vn visible`.
+- **Hành động 2:** Đọc **`glossary.csv`**, **`termbase.json`** + báo cáo rủi ro trong `../[book]/chapter-{N}/03-analyzed/`. Thực hiện dịch ghi đè văn bản vào các thẻ `vn visible`.
 - **Hành động 3:** Đảm bảo dịch đủ các file, bao gồm cả discussion, review question, discuss questions ...etc.
 - Lưu kết quả vào `../[book]/chapter-{N}/05-translated/`.
 
@@ -94,18 +100,21 @@ Các AI Agents sẽ đóng vai trò thực hiện công việc nặng nhọc (Sc
 
 ### 🤖 Agent-Review
 
-Thực hiện quy trình kiểm định chất lượng bản dịch (Quality Assurance) theo 3 bước tuần tự:
+Thực hiện quy trình kiểm định chất lượng bản dịch (Quality Assurance) theo 4 bước tuần tự:
 
 1. **Kiểm tra tính toàn vẹn (Integrity Check):**
    - Chạy script `python3 agents/agent-review/scripts/integrity-check.py <chapter-number>` để đối chiếu cấu trúc thẻ giữa `02-clean/` và `05-translated/`.
    - **Tiêu chí PASS:** Chỉ cần đảm bảo khớp đủ số lượng thẻ cấu trúc (tags) tương ứng từ bản gốc sạch sang bản dịch (không bị mất thẻ hoặc gộp đoạn văn). Không bắt buộc kiểm tra tỷ lệ dung lượng file.
 2. **Kiểm tra thuật ngữ (Glossary Check):**
-   - Chạy script `python3 agents/agent-review/scripts/glossary-check.py <chapter-number|all>` để đối chiếu bản dịch với Single Source of Truth (`glossary.csv`).
-3. **Phản biện ngữ nghĩa (Semantic Review):**
+    - Chạy script `python3 agents/agent-review/scripts/glossary-check.py <chapter-number|all>` để đối chiếu bản dịch với Single Source of Truth (`glossary.csv`).
+3. **Translation Quality Gate:**
+    - Chạy script `python3 agents/agent-review/scripts/translation-quality-check.py <book> <chapter-number|all|file.html>` để bắt hard term bị thiếu, source echo, English leak, và cụm song ngữ.
+    - **Tiêu chí PASS:** report phải PASS hoặc WAIVED có lý do rõ ràng trước khi semantic review/export được xem là hoàn tất.
+4. **Phản biện ngữ nghĩa (Semantic Review):**
    - Chạy script `python3 agents/agent-review/scripts/start-review-round.py ../entrepreneurship/chapter-<N>/05-translated/<file>.html` để khởi tạo file báo cáo review ngữ nghĩa `[file]-semantic-review-round-[N].md` trong thư mục `06-reviews/`.
    - Đối chiếu bản dịch với báo cáo rủi ro văn hóa/ngữ cảnh `[section]-translate-analysis.md` trong `03-analyzed/`. Phát hiện các lỗi dịch sai ý, dịch word-by-word vô nghĩa, mất ngữ cảnh văn hóa, xưng hô sai quy ước hoặc lỗi cặp song ngữ không cân bằng.
    - Các lỗi được ghi nhận dưới dạng bảng phản biện. Translate Agent hoặc kỹ sư sẽ chỉnh sửa bản dịch (chỉ chỉnh sửa `vn visible`, giữ nguyên `eng hidden` và các thẻ inline/ID).
-   - Áp dụng các thay đổi đã thống nhất trở lại HTML bằng script `python3 agents/agent-translate/scripts/apply-review-fixes.py <review.md> <translated.html>`.
+    - Áp dụng các thay đổi đã thống nhất trở lại HTML bằng script `python3 agents/agent-translate/scripts/apply-review-fixes.py <review.md> <translated.html>`, sau đó chạy lại translation-quality check trước khi export/archive.
 
 ### 🛑 Human-in-the-Loop: Chốt hạ (Final Approval)
 

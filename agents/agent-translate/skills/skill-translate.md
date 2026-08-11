@@ -11,10 +11,11 @@ Trước khi bắt đầu dịch bất kỳ section nào, Agent **phải** nhậ
 | # | File | Đường dẫn | Mục đích |
 |---|------|-----------|----------|
 | 1 | **Glossary** | `data/[book]/glossary.csv` | Bảng thuật ngữ chốt — tra cột `key` → dùng cột `translation` |
-| 2 | **Analysis** | `data/[book]/chapter-{N}/03-analyzed/[section]-translate-analysis.md` | Báo cáo rủi ro văn hóa, thuật ngữ, cấu trúc câu cho section này |
-| 3 | **HTML** | `data/[book]/chapter-{N}/04-prep/[section].html` | Nội dung cần dịch (đã nhân đôi cấu trúc song ngữ) |
+| 2 | **Termbase** | `data/[book]/termbase.json` | Danh sách `hardTerms`, `softPhrases`, `protectedTerms`, `allowlist` đã build từ glossary |
+| 3 | **Analysis** | `data/[book]/chapter-{N}/03-analyzed/[section]-translate-analysis.md` | Báo cáo rủi ro văn hóa, thuật ngữ, cấu trúc câu cho section này |
+| 4 | **HTML** | `data/[book]/chapter-{N}/04-prep/[section].html` | Nội dung cần dịch (đã nhân đôi cấu trúc song ngữ) |
 
-> ⚠️ Nếu thiếu glossary hoặc analysis → DỪNG LẠI, yêu cầu bổ sung. Không dịch khi thiếu context.
+> ⚠️ Nếu thiếu glossary, termbase hoặc analysis → DỪNG LẠI, yêu cầu bổ sung. Không dịch khi thiếu context.
 
 ---
 
@@ -43,6 +44,11 @@ Nhận HTML đã chuẩn bị cấu trúc song ngữ — mỗi đoạn văn bả
 
 4. **Đọc hiểu trước khi dịch:** Tuyệt đối KHÔNG dịch mù. Phải đọc toàn bộ nội dung section + báo cáo Analysis trước khi bắt đầu dịch câu đầu tiên — để hiểu mạch lập luận, ngữ cảnh, và ý nghĩa thực sự của từng khái niệm.
 5. **Glossary là luật:** Tra cột `key` trong `glossary.csv` để tìm term → dùng giá trị cột `translation` làm bản dịch chính thức. Tuyệt đối không tự ý dịch khác. Nếu gặp term **chưa có** trong glossary → ghi chú đề xuất để bổ sung, không tự quyết.
+5a. **Termbase là cổng chặn:** Dùng `termbase.json` để phân biệt:
+   - `hardTerms`: bắt buộc dùng đúng bản dịch approved khi source xuất hiện, ví dụ `franchise` → `nhượng quyền thương mại`, `franchisee` → `bên nhận nhượng quyền`, `calculated risk` → `rủi ro có tính toán`.
+   - `softPhrases`: ưu tiên dùng bản dịch gợi ý nhưng có thể điều chỉnh cho tự nhiên nếu không làm sai nghĩa.
+   - `protectedTerms`: giữ nguyên tiếng Anh vì là tên riêng, acronym, URL, code hoặc nhãn cần bảo toàn.
+   - `allowlist`: các cụm tiếng Anh được phép còn lại khi QA quét rò rỉ tiếng Anh.
 6. **Văn phong:** Xưng hô **"Bạn"** (dịch "you") và **"Chúng ta"** (dịch "we"). Hành văn mạch lạc, tự nhiên, truyền cảm hứng. Tránh dịch word-by-word.
 7. **Feature Box** → Dịch là **"mục chuyên đề"** hoặc **"khung nội dung"** (tuyệt đối KHÔNG dịch "hộp tính năng").
 8. **Văn hóa Mỹ:** Khi gặp thương hiệu, sự kiện, thành ngữ phương Tây → thêm mô tả gọn theo chỉ dẫn trong file Analysis. Không dịch nghĩa đen thành ngữ (vd: "better mousetrap" ≠ "bẫy chuột tốt hơn").
@@ -71,6 +77,8 @@ Nhận HTML đã chuẩn bị cấu trúc song ngữ — mỗi đoạn văn bả
 | Mất `<span data-type="term">` | LLM tự ý bỏ inline tag khi dịch | Đếm số tag trước/sau dịch phải bằng nhau |
 | Caption/subtitle đảo thứ tự | Cặp eng/vn bị đảo (vn trước eng) | Kiểm tra id — vn luôn có hậu tố `-vn` |
 | Thuật ngữ hallucination | Dịch khác với glossary.csv | Luôn tra glossary trước, không phán đoán |
+| Bỏ sót cụm hard term | Để nguyên `franchise`, `franchisee`, `Types of Entrepreneurs` hoặc dịch lệch | Build và nạp `termbase.json` trước khi dịch |
+| Dính cụm song ngữ | Gộp source + target như `calculated risk rủi ro` | Không copy cụm tiếng Anh trừ khi thuộc protected/allowlist |
 | Câu bị động cứng nhắc | Dịch sát cấu trúc bị động tiếng Anh | Chuyển sang chủ động khi tiếng Việt tự nhiên hơn |
 | Lặp tiếng Anh sau lần đầu | Dùng lại `(entrepreneurship)`, `(franchisee)` nhiều lần | Chỉ giữ ngoặc tiếng Anh ở lần đầu; các lần sau dùng tiếng Việt |
 | `credit` trong caption bị dịch sai | `(credit: ...)` thành `(tín dụng: ...)` | Với `<figcaption>`, luôn dùng `(Nguồn ảnh: ...)` |

@@ -17,6 +17,14 @@ Script này sẽ:
 - Tự động bỏ qua các tên riêng (`class="no-emphasis"`).
 - Xuất file CSV nháp tại `../[book]/chapter-1/03-analyzed/chapter-1-new-glossary.csv`.
 
+Sau khi con người duyệt và chốt các dòng `status=approved` trong `glossary.csv`, bắt buộc tạo termbase trước khi dịch:
+
+```bash
+node agents/agent-analyze/scripts/build-termbase.js entrepreneurship
+```
+
+Termbase được ghi thành `termbase.json` trong thư mục sách, tách `hardTerms`, `softPhrases`, `protectedTerms`, và `allowlist`. Các thuật ngữ/cụm từ bắt buộc như `franchise`, `franchisee`, `Types of Entrepreneurs`, `calculated risk` phải nằm trong glossary đã approved trước khi build termbase.
+
 ## Bước 2: Nhờ LLM dịch (Prompt Template)
 
 Sao chép toàn bộ nội dung bên dưới và gửi cho LLM. Kèm theo file CSV nháp được tạo ra ở Bước 1 để AI dịch những cột còn trống.
