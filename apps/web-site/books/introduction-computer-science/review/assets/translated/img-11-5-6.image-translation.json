@@ -1,0 +1,582 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-5-6.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-5-sample-native-wad-with-react-native-and-node-or-django.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-11-5-6.vi.png",
+  "ocr": [
+    {
+      "text": "a Fle Edt Mew Haigate Code Analyze Befactoe Buld",
+      "confidence": 57,
+      "bbox": {
+        "x": 70,
+        "y": 133,
+        "w": 560,
+        "h": 89
+      }
+    },
+    {
+      "text": "A mapp vr DPwdSapizav | Bb & @& i ene Qf",
+      "confidence": 57,
+      "bbox": {
+        "x": 70,
+        "y": 310,
+        "w": 560,
+        "h": 89
+      }
+    },
+    {
+      "text": "i Device Manages a — a",
+      "confidence": 57,
+      "bbox": {
+        "x": 70,
+        "y": 487,
+        "w": 560,
+        "h": 89
+      }
+    },
+    {
+      "text": "<4 Virtual Physical x",
+      "confidence": 57,
+      "bbox": {
+        "x": 70,
+        "y": 664,
+        "w": 560,
+        "h": 89
+      }
+    },
+    {
+      "text": "} Geatedevee 7 z",
+      "confidence": 57,
+      "bbox": {
+        "x": 70,
+        "y": 841,
+        "w": 560,
+        "h": 89
+      }
+    },
+    {
+      "text": "Emulator: [ly Pixel § API 26 & -",
+      "confidence": 57,
+      "bbox": {
+        "x": 70,
+        "y": 1018,
+        "w": 560,
+        "h": 89
+      }
+    },
+    {
+      "text": "fa :",
+      "confidence": 57,
+      "bbox": {
+        "x": 70,
+        "y": 1195,
+        "w": 560,
+        "h": 89
+      }
+    },
+    {
+      "text": "= [URE RC UO JE TC TT >",
+      "confidence": 57,
+      "bbox": {
+        "x": 70,
+        "y": 1372,
+        "w": 560,
+        "h": 89
+      }
+    },
+    {
+      "text": "Welcome to",
+      "confidence": 57,
+      "bbox": {
+        "x": 70,
+        "y": 1549,
+        "w": 560,
+        "h": 89
+      }
+    },
+    {
+      "text": "React Native",
+      "confidence": 57,
+      "bbox": {
+        "x": 70,
+        "y": 1726,
+        "w": 560,
+        "h": 89
+      }
+    },
+    {
+      "text": "Step One",
+      "confidence": 57,
+      "bbox": {
+        "x": 70,
+        "y": 1903,
+        "w": 560,
+        "h": 89
+      }
+    },
+    {
+      "text": "E61 App Js to change this screen and then",
+      "confidence": 57,
+      "bbox": {
+        "x": 70,
+        "y": 2080,
+        "w": 560,
+        "h": 89
+      }
+    },
+    {
+      "text": "come back to see your eds.",
+      "confidence": 57,
+      "bbox": {
+        "x": 70,
+        "y": 2257,
+        "w": 560,
+        "h": 89
+      }
+    },
+    {
+      "text": "See Your Changes",
+      "confidence": 57,
+      "bbox": {
+        "x": 70,
+        "y": 2434,
+        "w": 560,
+        "h": 89
+      }
+    },
+    {
+      "text": "Doubt tap R ea your keyboard to reload",
+      "confidence": 57,
+      "bbox": {
+        "x": 70,
+        "y": 2611,
+        "w": 560,
+        "h": 89
+      }
+    },
+    {
+      "text": "your app's code.",
+      "confidence": 57,
+      "bbox": {
+        "x": 70,
+        "y": 2788,
+        "w": 560,
+        "h": 89
+      }
+    },
+    {
+      "text": "H ll Debug",
+      "confidence": 57,
+      "bbox": {
+        "x": 70,
+        "y": 2965,
+        "w": 560,
+        "h": 89
+      }
+    },
+    {
+      "text": "i Press Cend or Ctrl + M or Shake your",
+      "confidence": 57,
+      "bbox": {
+        "x": 70,
+        "y": 3142,
+        "w": 560,
+        "h": 89
+      }
+    },
+    {
+      "text": "o device 10 open the React Native debug n",
+      "confidence": 57,
+      "bbox": {
+        "x": 70,
+        "y": 3319,
+        "w": 560,
+        "h": 89
+      }
+    },
+    {
+      "text": "menu. =",
+      "confidence": 57,
+      "bbox": {
+        "x": 70,
+        "y": 3496,
+        "w": 560,
+        "h": 89
+      }
+    },
+    {
+      "text": "H + IB",
+      "confidence": 57,
+      "bbox": {
+        "x": 70,
+        "y": 3673,
+        "w": 560,
+        "h": 89
+      }
+    },
+    {
+      "text": "= Learn More x",
+      "confidence": 57,
+      "bbox": {
+        "x": 70,
+        "y": 3850,
+        "w": 560,
+        "h": 89
+      }
+    },
+    {
+      "text": "Read the docs to discover what to do next H",
+      "confidence": 57,
+      "bbox": {
+        "x": 70,
+        "y": 4027,
+        "w": 560,
+        "h": 89
+      }
+    },
+    {
+      "text": "i Es H",
+      "confidence": 57,
+      "bbox": {
+        "x": 70,
+        "y": 4204,
+        "w": 560,
+        "h": 89
+      }
+    },
+    {
+      "text": "Upgrade Astistat: Upgrade project dicen AGP 7.1.0 ¥ a —|&",
+      "confidence": 57,
+      "bbox": {
+        "x": 70,
+        "y": 4381,
+        "w": 560,
+        "h": 89
+      }
+    },
+    {
+      "text": "T1000 © frotlems OF Terminad | AF Upgrade Assistant | @ Applospection 1 Profle A Bid",
+      "confidence": 57,
+      "bbox": {
+        "x": 70,
+        "y": 4558,
+        "w": 560,
+        "h": 89
+      }
+    },
+    {
+      "text": "[0] fa unexpected packet was received before the handshake. (11 minutes ago} ee",
+      "confidence": 57,
+      "bbox": {
+        "x": 70,
+        "y": 4735,
+        "w": 560,
+        "h": 89
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "a Fle Edt Mew Haigate Code Analyze Befactoe Buld",
+      "target": "Mã phân tích nhà máy Fle Edt Mew Haigate",
+      "bbox": {
+        "x": 70,
+        "y": 133,
+        "w": 560,
+        "h": 89
+      },
+      "overflow": false
+    },
+    {
+      "source": "A mapp vr DPwdSapizav | Bb & @& i ene Qf",
+      "target": "Bản đồ vr DPwdSapizav | Bb & @& i ene Qf",
+      "bbox": {
+        "x": 70,
+        "y": 310,
+        "w": 560,
+        "h": 89
+      },
+      "overflow": false
+    },
+    {
+      "source": "i Device Manages a — a",
+      "target": "Thiết bị i Quản lý một — một",
+      "bbox": {
+        "x": 70,
+        "y": 487,
+        "w": 560,
+        "h": 89
+      },
+      "overflow": false
+    },
+    {
+      "source": "<4 Virtual Physical x",
+      "target": "4 Ảo Vật lý x",
+      "bbox": {
+        "x": 70,
+        "y": 664,
+        "w": 560,
+        "h": 89
+      },
+      "overflow": false
+    },
+    {
+      "source": "} Geatedevee 7 z",
+      "target": "} Geatedevee 7 z",
+      "bbox": {
+        "x": 70,
+        "y": 841,
+        "w": 560,
+        "h": 89
+      },
+      "overflow": false
+    },
+    {
+      "source": "Emulator: [ly Pixel § API 26 & -",
+      "target": "Trình giả lập: [ly Pixel § API 26 & -",
+      "bbox": {
+        "x": 70,
+        "y": 1018,
+        "w": 560,
+        "h": 89
+      },
+      "overflow": false
+    },
+    {
+      "source": "fa :",
+      "target": "fa :",
+      "bbox": {
+        "x": 70,
+        "y": 1195,
+        "w": 560,
+        "h": 89
+      },
+      "overflow": false
+    },
+    {
+      "source": "= [URE RC UO JE TC TT >",
+      "target": "= [URE RC UO JE TC TT >",
+      "bbox": {
+        "x": 70,
+        "y": 1372,
+        "w": 560,
+        "h": 89
+      },
+      "overflow": false
+    },
+    {
+      "source": "Welcome to",
+      "target": "Chào mừng đến với",
+      "bbox": {
+        "x": 70,
+        "y": 1549,
+        "w": 560,
+        "h": 89
+      },
+      "overflow": false
+    },
+    {
+      "source": "React Native",
+      "target": "React Native",
+      "bbox": {
+        "x": 70,
+        "y": 1726,
+        "w": 560,
+        "h": 89
+      },
+      "overflow": false
+    },
+    {
+      "source": "Step One",
+      "target": "Bước Một",
+      "bbox": {
+        "x": 70,
+        "y": 1903,
+        "w": 560,
+        "h": 89
+      },
+      "overflow": false
+    },
+    {
+      "source": "E61 App Js to change this screen and then",
+      "target": "E61 Ứng dụng Js để thay đổi màn hình này và sau đó",
+      "bbox": {
+        "x": 70,
+        "y": 2080,
+        "w": 560,
+        "h": 89
+      },
+      "overflow": false
+    },
+    {
+      "source": "come back to see your eds.",
+      "target": "trở lại xem EDS của bạn.",
+      "bbox": {
+        "x": 70,
+        "y": 2257,
+        "w": 560,
+        "h": 89
+      },
+      "overflow": false
+    },
+    {
+      "source": "See Your Changes",
+      "target": "Xem Thay Đổi Của Bạn",
+      "bbox": {
+        "x": 70,
+        "y": 2434,
+        "w": 560,
+        "h": 89
+      },
+      "overflow": false
+    },
+    {
+      "source": "Doubt tap R ea your keyboard to reload",
+      "target": "Nhấn R trên bàn phím để tải lại",
+      "bbox": {
+        "x": 70,
+        "y": 2611,
+        "w": 560,
+        "h": 89
+      },
+      "overflow": false
+    },
+    {
+      "source": "your app's code.",
+      "target": "mã ứng dụng của bạn.",
+      "bbox": {
+        "x": 70,
+        "y": 2788,
+        "w": 560,
+        "h": 89
+      },
+      "overflow": false
+    },
+    {
+      "source": "H ll Debug",
+      "target": "Gỡ lỗi H ll",
+      "bbox": {
+        "x": 70,
+        "y": 2965,
+        "w": 560,
+        "h": 89
+      },
+      "overflow": false
+    },
+    {
+      "source": "i Press Cend or Ctrl + M or Shake your",
+      "target": "Nhấn Cend hoặc Ctrl + M hoặc Lắc tay bạn",
+      "bbox": {
+        "x": 70,
+        "y": 3142,
+        "w": 560,
+        "h": 89
+      },
+      "overflow": false
+    },
+    {
+      "source": "o device 10 open the React Native debug n",
+      "target": "thiết bị 10 mở gỡ lỗi React Native",
+      "bbox": {
+        "x": 70,
+        "y": 3319,
+        "w": 560,
+        "h": 89
+      },
+      "overflow": false
+    },
+    {
+      "source": "menu. =",
+      "target": "thực đơn.",
+      "bbox": {
+        "x": 70,
+        "y": 3496,
+        "w": 560,
+        "h": 89
+      },
+      "overflow": false
+    },
+    {
+      "source": "H + IB",
+      "target": "H + IB",
+      "bbox": {
+        "x": 70,
+        "y": 3673,
+        "w": 560,
+        "h": 89
+      },
+      "overflow": false
+    },
+    {
+      "source": "= Learn More x",
+      "target": "= Tìm Hiểu Thêm x",
+      "bbox": {
+        "x": 70,
+        "y": 3850,
+        "w": 560,
+        "h": 89
+      },
+      "overflow": false
+    },
+    {
+      "source": "Read the docs to discover what to do next H",
+      "target": "Đọc tài liệu để khám phá các bước tiếp theo",
+      "bbox": {
+        "x": 70,
+        "y": 4027,
+        "w": 560,
+        "h": 89
+      },
+      "overflow": false
+    },
+    {
+      "source": "i Es H",
+      "target": "i Es H",
+      "bbox": {
+        "x": 70,
+        "y": 4204,
+        "w": 560,
+        "h": 89
+      },
+      "overflow": false
+    },
+    {
+      "source": "Upgrade Astistat: Upgrade project dicen AGP 7.1.0 ¥ a —|&",
+      "target": "Nâng cấp Astistat: Nâng cấp dự án dicen AGP 7.1.0",
+      "bbox": {
+        "x": 70,
+        "y": 4381,
+        "w": 560,
+        "h": 89
+      },
+      "overflow": false
+    },
+    {
+      "source": "T1000 © frotlems OF Terminad | AF Upgrade Assistant | @ Applospection 1 Profle A Bid",
+      "target": "T1000 © frotlems OF Terminad | Trợ lý nâng cấp | @ Applospection 1 Profle A Bid",
+      "bbox": {
+        "x": 70,
+        "y": 4558,
+        "w": 560,
+        "h": 89
+      },
+      "overflow": false
+    },
+    {
+      "source": "[0] fa unexpected packet was received before the handshake. (11 minutes ago} ee",
+      "target": "Gói không mong đợi đã được nhận trước khi bắt tay.",
+      "bbox": {
+        "x": 70,
+        "y": 4735,
+        "w": 560,
+        "h": 89
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 1.7350180505415163,
+    "averageConfidence": 57
+  }
+}

@@ -1,0 +1,638 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-12-1-8.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/12-1-the-indian-ocean-world-in-the-early-middle-ages.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-12-1-8.vi.png",
+  "ocr": [
+    {
+      "text": "Se",
+      "confidence": 23,
+      "bbox": {
+        "x": 90,
+        "y": 52,
+        "w": 720,
+        "h": 35
+      }
+    },
+    {
+      "text": "ET — ra es »",
+      "confidence": 23,
+      "bbox": {
+        "x": 90,
+        "y": 122,
+        "w": 720,
+        "h": 35
+      }
+    },
+    {
+      "text": "Hois z a aT — —",
+      "confidence": 23,
+      "bbox": {
+        "x": 90,
+        "y": 192,
+        "w": 720,
+        "h": 35
+      }
+    },
+    {
+      "text": "Fs ra NGO Ea Sw 5 ele rs a",
+      "confidence": 23,
+      "bbox": {
+        "x": 90,
+        "y": 262,
+        "w": 720,
+        "h": 35
+      }
+    },
+    {
+      "text": "ea VT ve ie 0 ~~ A 2X RIE AN he",
+      "confidence": 23,
+      "bbox": {
+        "x": 90,
+        "y": 332,
+        "w": 720,
+        "h": 35
+      }
+    },
+    {
+      "text": "Bd TE Ham I 9 i? SRT RN SAREE ea",
+      "confidence": 23,
+      "bbox": {
+        "x": 90,
+        "y": 402,
+        "w": 720,
+        "h": 35
+      }
+    },
+    {
+      "text": "yo EEL = a li Foes \\ = Ge Zi",
+      "confidence": 23,
+      "bbox": {
+        "x": 90,
+        "y": 472,
+        "w": 720,
+        "h": 35
+      }
+    },
+    {
+      "text": "ii Te SE in A ee i SVE",
+      "confidence": 23,
+      "bbox": {
+        "x": 90,
+        "y": 542,
+        "w": 720,
+        "h": 35
+      }
+    },
+    {
+      "text": "TTL 1 ie FE",
+      "confidence": 23,
+      "bbox": {
+        "x": 90,
+        "y": 612,
+        "w": 720,
+        "h": 35
+      }
+    },
+    {
+      "text": "aa = I ——— all TT eee",
+      "confidence": 23,
+      "bbox": {
+        "x": 90,
+        "y": 682,
+        "w": 720,
+        "h": 35
+      }
+    },
+    {
+      "text": "= Ea 8 a a = Ts dd 2",
+      "confidence": 23,
+      "bbox": {
+        "x": 90,
+        "y": 752,
+        "w": 720,
+        "h": 35
+      }
+    },
+    {
+      "text": "EES laa GT REE",
+      "confidence": 23,
+      "bbox": {
+        "x": 90,
+        "y": 822,
+        "w": 720,
+        "h": 35
+      }
+    },
+    {
+      "text": "2 San ma c= EY if EE £)",
+      "confidence": 23,
+      "bbox": {
+        "x": 90,
+        "y": 892,
+        "w": 720,
+        "h": 35
+      }
+    },
+    {
+      "text": ". £ANR — EERE yi ent =e ES",
+      "confidence": 23,
+      "bbox": {
+        "x": 90,
+        "y": 962,
+        "w": 720,
+        "h": 35
+      }
+    },
+    {
+      "text": "PRG + sre Seno. al a Ba RR",
+      "confidence": 23,
+      "bbox": {
+        "x": 90,
+        "y": 1032,
+        "w": 720,
+        "h": 35
+      }
+    },
+    {
+      "text": "SRE fon bp WIE pe JET Ter AY fe SA",
+      "confidence": 23,
+      "bbox": {
+        "x": 90,
+        "y": 1102,
+        "w": 720,
+        "h": 35
+      }
+    },
+    {
+      "text": "RLY Na did Wicd, Ne Rr Fe N17 Bay 7 i) SIAM",
+      "confidence": 23,
+      "bbox": {
+        "x": 90,
+        "y": 1172,
+        "w": 720,
+        "h": 35
+      }
+    },
+    {
+      "text": "Weil Pres TE ids goa Be Slo",
+      "confidence": 23,
+      "bbox": {
+        "x": 90,
+        "y": 1242,
+        "w": 720,
+        "h": 35
+      }
+    },
+    {
+      "text": "Ty rob die © : ih Es B=",
+      "confidence": 23,
+      "bbox": {
+        "x": 90,
+        "y": 1312,
+        "w": 720,
+        "h": 35
+      }
+    },
+    {
+      "text": "= Va ES a= SEN Bes 5",
+      "confidence": 23,
+      "bbox": {
+        "x": 90,
+        "y": 1382,
+        "w": 720,
+        "h": 35
+      }
+    },
+    {
+      "text": "Sf FA Se - r=",
+      "confidence": 23,
+      "bbox": {
+        "x": 90,
+        "y": 1452,
+        "w": 720,
+        "h": 35
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: An image shows a yellow-greenish river running horizontally across the image. The top half of the image shows beige skies and hills, various green trees, brown roads, and various sized houses. Along the top shore of the river at the left, a long line of people stand dressed in bright long robes looking at the water. Behind them is a building with a brown roof and open sides. People are gathered inside. A fence runs from the building to the right along the water, the length of the image. At the left, there is a long boat with a tall rectangular sail with blue, black, and red designs on a beige background. The bottom is flat and a tent is on the left with a triangle top and no sides. People are underneath it dressed in brown and blue long robes. The walls of the middle are rows of decorated squares and the right side is taller with flags flying at the edge. Two other long, thin, flat boats are seen to the right with six people on one and seventeen on the other. A large boat is docked at the shore across the bottom. In the forefront, a long line of people is seen in the bottom left, with trees obscuring some of them. A portico is seen in the middle forefront in red, green, and blue colors and more buildings are seen in the bottom right.\nButton label: Click to enlarge image of An image shows a yellow-greenish river running horizontally across the image. The top half of the image shows beige skies and hills, various green trees, brown roads, and various sized houses. Along the top shore of the river at the left, a long line of people stand dressed in bright long robes looking at the water. Behind them is a building with a brown roof and open sides. People are gathered inside. A fence runs from the building to the right along the water, the length of the image. At the left, there is a long boat with a tall rectangular sail with blue, black, and red designs on a beige background. The bottom is flat and a tent is on the left with a triangle top and no sides. People are underneath it dressed in brown and blue long robes. The walls of the middle are rows of decorated squares and the right side is taller with flags flying at the edge. Two other long, thin, flat boats are seen to the right with six people on one and seventeen on the other. A large boat is docked at the shore across the bottom. In the forefront, a long line of people is seen in the bottom left, with trees obscuring some of them. A portico is seen in the middle forefront in red, green, and blue colors and more buildings are seen in the bottom right.\nEnglish caption: Figure 12.10 Touring the Grand Canal. This image from a larger scroll shows the canal as it looked in the late eighteenth century. Created by court painter Xu Yang in 1770, the scroll commemorates the emperor’s 1751 tour of south China. Here you can see the emperor’s large touring boat moving through the city of Suzhou on a now defunct portion of the canal. (credit: “The Qianlong Emperor’s Southern Inspection Tour, Scroll Six: Entering Suzhou along the Grand Canal” by Purchase, The Dillon Fund Gift, 1988/Metropolitan Museum of Art, Public Domain)",
+  "metrics": {
+    "textDensity": 1.348623853211009,
+    "averageConfidence": 23,
+    "entropy": 6.423736765438662,
+    "sharpness": 3.5462929673102765
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: An image shows a yellow-greenish river running horizontally across the image. The top half of the image shows beige skies and hills, various green trees, brown roads, and various sized houses. Along the top shore of the river at the left, a long line of people stand dressed in bright long robes looking at the water. Behind them is a building with a brown roof and open sides. People are gathered inside. A fence runs from the building to the right along the water, the length of the image. At the left, there is a long boat with a tall rectangular sail with blue, black, and red designs on a beige background. The bottom is flat and a tent is on the left with a triangle top and no sides. People are underneath it dressed in brown and blue long robes. The walls of the middle are rows of decorated squares and the right side is taller with flags flying at the edge. Two other long, thin, flat boats are seen to the right with six people on one and seventeen on the other. A large boat is docked at the shore across the bottom. In the forefront, a long line of people is seen in the bottom left, with trees obscuring some of them. A portico is seen in the middle forefront in red, green, and blue colors and more buildings are seen in the bottom right.\nButton label: Click to enlarge image of An image shows a yellow-greenish river running horizontally across the image. The top half of the image shows beige skies and hills, various green trees, brown roads, and various sized houses. Along the top shore of the river at the left, a long line of people stand dressed in bright long robes looking at the water. Behind them is a building with a brown roof and open sides. People are gathered inside. A fence runs from the building to the right along the water, the length of the image. At the left, there is a long boat with a tall rectangular sail with blue, black, and red designs on a beige background. The bottom is flat and a tent is on the left with a triangle top and no sides. People are underneath it dressed in brown and blue long robes. The walls of the middle are rows of decorated squares and the right side is taller with flags flying at the edge. Two other long, thin, flat boats are seen to the right with six people on one and seventeen on the other. A large boat is docked at the shore across the bottom. In the forefront, a long line of people is seen in the bottom left, with trees obscuring some of them. A portico is seen in the middle forefront in red, green, and blue colors and more buildings are seen in the bottom right.\nEnglish caption: Figure 12.10 Touring the Grand Canal. This image from a larger scroll shows the canal as it looked in the late eighteenth century. Created by court painter Xu Yang in 1770, the scroll commemorates the emperor’s 1751 tour of south China. Here you can see the emperor’s large touring boat moving through the city of Suzhou on a now defunct portion of the canal. (credit: “The Qianlong Emperor’s Southern Inspection Tour, Scroll Six: Entering Suzhou along the Grand Canal” by Purchase, The Dillon Fund Gift, 1988/Metropolitan Museum of Art, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "I IE | et TE © TE 0m wwvww———",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 105,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "E alii adres a i mc",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 245,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "Rae i Lege gi cy | aS ore 2, = =",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 385,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "¢ y k- odie” * Lito Es",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 525,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "Se EC CA Ge Saki AW iba, oe Ledges",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 665,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "Ae i Pra > “i A XV a ea S— oe ed",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 805,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "a NI lil Se aes a OP oo 2s",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 945,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "RY NR CC NET ANAL SOU eer 6 ZA #1 EN ag BRE SE TEE",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 1085,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "MIRAUEATN +, IgE. Wicy ah aa (Pree —— 2) ae EAM dy 2G IN RR BR as ==",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 1225,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "A V 3 fn 15 ROVE 1s WoW = As ca m— IH Vrms bi |",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 1365,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "\\/ 5 AY i #4 HE a) Ey Vader Pos Sale Ade “Sy Nem x =",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 1505,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "== ak Yall ie fa Wi, Y= aN he =",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 1645,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "aR Ea ok SE Wi Sal] S—- i) SN ——¥ ol he =",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 1785,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "a £5500 UD: ve. 5 55 0 ~ NPY Sa RR Vy i DS HIB ERG WEE JERE a : er",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 1925,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "es BN imei ern (TTA) Dn ls 5 Ole. Jie ‘af Hiei Ras EN BERINAERE RE © = - 0 o =",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 2065,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "REE Ee FEN UE Aa rE = EE EE i = ==",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 2205,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "Vad pf Re aia BEE ZH Ss lege Se Tow A AEA bi TE reesn BE",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 2345,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "XW ky ALR Je a RR Eee Tf le f=",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 2485,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "/ A Sm——\" BR LE Andis ee JT Ne = ky",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 2625,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "2 a ad EEA ha BTR REE Fas = == oe EY pie: ake a",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 2765,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "Eo PRT Td Lsgankiy oa mr SERIES TE nae ETL EEN 1p lee LE ie",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 2905,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "A WL pes ES —— Te hk, AK Ea iy TERS iE ol",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 3045,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "EE SX RR ABE: oS pA bE = rea ee As ah) PNR 2",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 3185,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "Laie Hl 7 mpaapasgEumErsas eR AL BNE eh a Nel Tn SaaS",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 3325,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "se = — Amd EREsERisAnsasncnd nase (NETS eae A ae AR fo SAAR",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 3465,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "a Nea a 2 eh Ea 7 \\ ay 2 SUNN",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 3605,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "re = Amel RIAN Ai [TIES 2 SIRE A",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 3745,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "E = Li a — = ES : Fae A HATS A id LHL 2 nal ; 4 SN) » ~~",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 3885,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "Za eo = rT CEN” i ” o>. 15",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 4025,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "= Ny ae sR IE a yo one ARERR SREREELY Fs io |",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 4165,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "= mam Hf YelEas Te Ty eet |. = gr Sale R = > inf iin",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 4305,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "Fe I A RV 7 \\ RYE APNEA SA A NI ps Pe 3 a",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 4445,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "ea 2 bli NE: LUI A Ae as 2h) ae) 7 1 LAE See = Te —",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 4585,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "RIT RR RR i ES Ce UN Eo Se 1 WS, SE Ba",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 4725,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "eed Lew Fi i ihe od REN AOL Se ilo) | = = =) =",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 4865,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "EE Rax Fa sR of fh fies p22 RE ag I es or td a == = =",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 5005,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "AER CG ante Ra te le pe Phy Be emaa | cas © = ==",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 5145,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "a. wd aa 8) Bn RAR Re wf pi fag fa ama :",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 5285,
+          "w": 1442,
+          "h": 70
+        }
+      },
+      {
+        "text": "aa RN Noe",
+        "confidence": 24,
+        "bbox": {
+          "x": 180,
+          "y": 5425,
+          "w": 1442,
+          "h": 70
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

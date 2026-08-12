@@ -1,0 +1,124 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-12-3-8.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/12-3-border-states-sogdiana-korea-and-japan.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-12-3-8.vi.png",
+  "ocr": [
+    {
+      "text": "TUR Es a ee",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 71,
+        "w": 1040,
+        "h": 47
+      }
+    },
+    {
+      "text": "2 ie oc TEE NA ora Saw me Te ase",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 166,
+        "w": 1040,
+        "h": 47
+      }
+    },
+    {
+      "text": "Sa wm Eee Comes wee LL Cp =",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 261,
+        "w": 1040,
+        "h": 47
+      }
+    },
+    {
+      "text": "oe LENE EE Bel gr",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 356,
+        "w": 1040,
+        "h": 47
+      }
+    },
+    {
+      "text": "= ey EB Seam Bok 5. TE",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 451,
+        "w": 1040,
+        "h": 47
+      }
+    },
+    {
+      "text": "= i : LE] NY wo : EY io oo oe Aa Tey",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 546,
+        "w": 1040,
+        "h": 47
+      }
+    },
+    {
+      "text": "wie. gE BW SR",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 641,
+        "w": 1040,
+        "h": 47
+      }
+    },
+    {
+      "text": "ET amen EEE 2 SL i Se i",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 736,
+        "w": 1040,
+        "h": 47
+      }
+    },
+    {
+      "text": "e yA fic 1 os a : Ls YA ae i . -",
+      "confidence": 22,
+      "bbox": {
+        "x": 130,
+        "y": 831,
+        "w": 1040,
+        "h": 47
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A faded image on a yellow cracked background is shown. At the left, two figures in orange robes with faces obscured are moving toward the left with bows and arrows and black sheathed swords at their belts. A figure in a green robe and winged gold helmet stands next holding a thin spear with a black sword at his belt. Below him a figure with a similar helmet and orange robe shoots a bow and arrow to the right. To the right of the figure in green is a green figure in a yellow robe and winged helmet shooting a bow and arrow while a black object explodes in front of him with red fire surrounding it. At the bottom right, a black horse is shown bleeding from the belly with its hind legs kicking in the air. A faded and obscure figure with arrows is seen on the horse’s back. A brown branch with a few green leaves is shown behind the horse. Arrows are drawn throughout the image.\nButton label: Click to enlarge image of A faded image on a yellow cracked background is shown. At the left, two figures in orange robes with faces obscured are moving toward the left with bows and arrows and black sheathed swords at their belts. A figure in a green robe and winged gold helmet stands next holding a thin spear with a black sword at his belt. Below him a figure with a similar helmet and orange robe shoots a bow and arrow to the right. To the right of the figure in green is a green figure in a yellow robe and winged helmet shooting a bow and arrow while a black object explodes in front of him with red fire surrounding it. At the bottom right, a black horse is shown bleeding from the belly with its hind legs kicking in the air. A faded and obscure figure with arrows is seen on the horse’s back. A brown branch with a few green leaves is shown behind the horse. Arrows are drawn throughout the image.\nEnglish caption: Figure 12.32 The First Mongol Invasion of Japan. This scene from an illustrated scroll called Mōko Shūrai Ekotoba from the late thirteenth or early fourteenth century shows the first Mongol invasion of Japan in 1274. It depicts the combatants using arrows as well as bombs. (credit: “Mōko Shūrai Ekotoba 2” by Unknown/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 0.5716216216216217,
+    "averageConfidence": 22,
+    "entropy": 7.195629674766678,
+    "sharpness": 12.125735348517367
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

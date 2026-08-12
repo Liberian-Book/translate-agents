@@ -1,0 +1,393 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-6-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-6-sample-ethereum-blockchain-web-2-0-web-3-0-application.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-11-6-4.vi.png",
+  "ocr": [
+    {
+      "text": "2_deploy_contracts. js",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 76,
+        "w": 1040,
+        "h": 51
+      }
+    },
+    {
+      "text": "Deploying 'TodoList'",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 178,
+        "w": 1040,
+        "h": 51
+      }
+    },
+    {
+      "text": "> transaction hash: 0x11c7eff2b2697b933933b306e4799345f54faab03b37ccf1f0282489e3918ae7",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 280,
+        "w": 1040,
+        "h": 51
+      }
+    },
+    {
+      "text": "- Blocks: 0 Seconds: 0",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 382,
+        "w": 1040,
+        "h": 51
+      }
+    },
+    {
+      "text": "> Blocks: 0 Seconds: 0",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 484,
+        "w": 1040,
+        "h": 51
+      }
+    },
+    {
+      "text": "> contract address: 0x9A93A9951c1lcAcFOCecc320Fa6aD4e05d55a2d02",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 586,
+        "w": 1040,
+        "h": 51
+      }
+    },
+    {
+      "text": "> block number: 3",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 688,
+        "w": 1040,
+        "h": 51
+      }
+    },
+    {
+      "text": "> block timestamp: 1643697826",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 790,
+        "w": 1040,
+        "h": 51
+      }
+    },
+    {
+      "text": "> account: 0x68387F6A38ACD2fe38246D9B8F78Ce64390C992C",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 892,
+        "w": 1040,
+        "h": 51
+      }
+    },
+    {
+      "text": "> balance: 99.98513256",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 994,
+        "w": 1040,
+        "h": 51
+      }
+    },
+    {
+      "text": "> gas used: 509091 (0x7c4a3)",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 1096,
+        "w": 1040,
+        "h": 51
+      }
+    },
+    {
+      "text": "> gas price: 20 gwei",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 1198,
+        "w": 1040,
+        "h": 51
+      }
+    },
+    {
+      "text": "> value sent: 0 ETH",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 1300,
+        "w": 1040,
+        "h": 51
+      }
+    },
+    {
+      "text": "> total cost: 0.01018182 ETH",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 1402,
+        "w": 1040,
+        "h": 51
+      }
+    },
+    {
+      "text": "- Saving migration to chain.",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 1504,
+        "w": 1040,
+        "h": 51
+      }
+    },
+    {
+      "text": "> Saving migration to chain.",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 1606,
+        "w": 1040,
+        "h": 51
+      }
+    },
+    {
+      "text": "> Saving artifacts",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 1708,
+        "w": 1040,
+        "h": 51
+      }
+    },
+    {
+      "text": "> Total cost: 0.01018182 ETH",
+      "confidence": 89,
+      "bbox": {
+        "x": 130,
+        "y": 1810,
+        "w": 1040,
+        "h": 51
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "2_deploy_contracts. js",
+      "target": "2_triển_khai_hợp_đồng.js",
+      "bbox": {
+        "x": 130,
+        "y": 76,
+        "w": 1040,
+        "h": 51
+      },
+      "overflow": false
+    },
+    {
+      "source": "Deploying 'TodoList'",
+      "target": "Triển khai 'Danh sách công việc'",
+      "bbox": {
+        "x": 130,
+        "y": 178,
+        "w": 1040,
+        "h": 51
+      },
+      "overflow": false
+    },
+    {
+      "source": "> transaction hash: 0x11c7eff2b2697b933933b306e4799345f54faab03b37ccf1f0282489e3918ae7",
+      "target": "băm giao dịch: 0x11c7eff2b2697b933933b306e4799345f54faab03b37ccf1f0282489e3918ae7",
+      "bbox": {
+        "x": 130,
+        "y": 280,
+        "w": 1040,
+        "h": 51
+      },
+      "overflow": false
+    },
+    {
+      "source": "- Blocks: 0 Seconds: 0",
+      "target": "- Khối: 0 Giây: 0",
+      "bbox": {
+        "x": 130,
+        "y": 382,
+        "w": 1040,
+        "h": 51
+      },
+      "overflow": false
+    },
+    {
+      "source": "> Blocks: 0 Seconds: 0",
+      "target": "Khối: 0 Giây: 0",
+      "bbox": {
+        "x": 130,
+        "y": 484,
+        "w": 1040,
+        "h": 51
+      },
+      "overflow": false
+    },
+    {
+      "source": "> contract address: 0x9A93A9951c1lcAcFOCecc320Fa6aD4e05d55a2d02",
+      "target": "địa chỉ hợp đồng: 0x9A93A9951c1lcAcFOCecc320Fa6aD4e05d55a2d02",
+      "bbox": {
+        "x": 130,
+        "y": 586,
+        "w": 1040,
+        "h": 51
+      },
+      "overflow": false
+    },
+    {
+      "source": "> block number: 3",
+      "target": "số khối: 3",
+      "bbox": {
+        "x": 130,
+        "y": 688,
+        "w": 1040,
+        "h": 51
+      },
+      "overflow": false
+    },
+    {
+      "source": "> block timestamp: 1643697826",
+      "target": "thời gian khối: 1643697826",
+      "bbox": {
+        "x": 130,
+        "y": 790,
+        "w": 1040,
+        "h": 51
+      },
+      "overflow": false
+    },
+    {
+      "source": "> account: 0x68387F6A38ACD2fe38246D9B8F78Ce64390C992C",
+      "target": "tài khoản: 0x68387F6A38ACD2fe38246D9B8F78Ce64390C992C",
+      "bbox": {
+        "x": 130,
+        "y": 892,
+        "w": 1040,
+        "h": 51
+      },
+      "overflow": false
+    },
+    {
+      "source": "> balance: 99.98513256",
+      "target": "số dư: 99.98513256",
+      "bbox": {
+        "x": 130,
+        "y": 994,
+        "w": 1040,
+        "h": 51
+      },
+      "overflow": false
+    },
+    {
+      "source": "> gas used: 509091 (0x7c4a3)",
+      "target": "khí đã sử dụng: 509091 (0x7c4a3)",
+      "bbox": {
+        "x": 130,
+        "y": 1096,
+        "w": 1040,
+        "h": 51
+      },
+      "overflow": false
+    },
+    {
+      "source": "> gas price: 20 gwei",
+      "target": "giá gas: 20 gwei",
+      "bbox": {
+        "x": 130,
+        "y": 1198,
+        "w": 1040,
+        "h": 51
+      },
+      "overflow": false
+    },
+    {
+      "source": "> value sent: 0 ETH",
+      "target": "giá trị gửi: 0 ETH",
+      "bbox": {
+        "x": 130,
+        "y": 1300,
+        "w": 1040,
+        "h": 51
+      },
+      "overflow": false
+    },
+    {
+      "source": "> total cost: 0.01018182 ETH",
+      "target": "tổng chi phí: 0.01018182 ETH",
+      "bbox": {
+        "x": 130,
+        "y": 1402,
+        "w": 1040,
+        "h": 51
+      },
+      "overflow": false
+    },
+    {
+      "source": "- Saving migration to chain.",
+      "target": "Lưu di chuyển đến chuỗi.",
+      "bbox": {
+        "x": 130,
+        "y": 1504,
+        "w": 1040,
+        "h": 51
+      },
+      "overflow": false
+    },
+    {
+      "source": "> Saving migration to chain.",
+      "target": "Lưu di chuyển vào chuỗi.",
+      "bbox": {
+        "x": 130,
+        "y": 1606,
+        "w": 1040,
+        "h": 51
+      },
+      "overflow": false
+    },
+    {
+      "source": "> Saving artifacts",
+      "target": "Lưu trữ hiện vật",
+      "bbox": {
+        "x": 130,
+        "y": 1708,
+        "w": 1040,
+        "h": 51
+      },
+      "overflow": false
+    },
+    {
+      "source": "> Total cost: 0.01018182 ETH",
+      "target": "Tổng chi phí: 0.01018182 ETH",
+      "bbox": {
+        "x": 130,
+        "y": 1810,
+        "w": 1040,
+        "h": 51
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 1.1529042386185244,
+    "averageConfidence": 89
+  }
+}

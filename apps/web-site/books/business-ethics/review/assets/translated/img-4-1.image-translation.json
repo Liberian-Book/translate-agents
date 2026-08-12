@@ -1,0 +1,44 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-4-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/4-introduction.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "is 5h dad Wi Se Gs 2 A",
+      "confidence": 41,
+      "bbox": {
+        "x": 175,
+        "y": 86,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "oe \\ 5",
+      "confidence": 41,
+      "bbox": {
+        "x": 175,
+        "y": 201,
+        "w": 1400,
+        "h": 57
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A tree grows centered in front of a row of houses. The tree’s roots spread out underground, extending the width of the row of houses in both directions.\nButton label: Click to enlarge image of A tree grows centered in front of a row of houses. The tree’s roots spread out underground, extending the width of the row of houses in both directions.\nEnglish caption: Figure 4.1 The Japanese concept of nemawashi broadly means “laying the groundwork” or “building strong roots.” In a business ethics context, nemawashi means building a strong foundation for an action or project by reaching out to all stakeholders and seeking their input, demonstrating how much the organization values their opinion as it builds support from the ground up. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.12701949860724235,
+    "averageConfidence": 41,
+    "entropy": 7.239881698471436,
+    "sharpness": 2.566229342950105
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-9-1-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/9-1-entrepreneurship-and-start-up-culture.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-9-1-1.vi.png",
+  "ocr": [
+    {
+      "text": "fi phdps 37 EN RR ag y",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 64,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "Sani on eR AR | 1 ~~ < RTE RI",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 149,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "ae ——— = aod r sed |",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 234,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "Cia 2 g",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 319,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "hy ie Zn TO :",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 404,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "ip —",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 489,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "Gull",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 574,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "Err",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 659,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "Ek | il gil",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 744,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "1 | TA I Ls. TT",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 829,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "{i Be | k LN",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 914,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "opt eT he ig",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 999,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "Sonata ol ON = mE Te E08 Ts",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 1084,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": ": SS CRORE & DEIR",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 1169,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "AR Eo gaa",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 1254,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "a i Pa A AE Rta",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 1339,
+        "w": 640,
+        "h": 43
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This image shows a small wooden garage in a backyard.\nButton label: Click to enlarge image of This image shows a small wooden garage in a backyard.\nEnglish caption: Figure 9.2 Hewlett-Packard has restored the original garage in Palo Alto, California, in which its two cofounders, Bill Hewlett and David Packard, former Stanford University classmates, began work in 1938 on the electrical switches and sound oscillators that became their new company’s first products. (credit: “HP Garage in Silicon Valley” by “MGA73bot2”/Wikimedia Commons, CC BY 2.0)",
+  "metrics": {
+    "textDensity": 1.0345864661654136,
+    "averageConfidence": 26,
+    "entropy": 7.142357373591949,
+    "sharpness": 5.144121587000983
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

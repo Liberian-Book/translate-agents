@@ -1,0 +1,33 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-6-2-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/6-2-self-and-identity.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "IM 4",
+      "confidence": 38,
+      "bbox": {
+        "x": 180,
+        "y": 150,
+        "w": 1441,
+        "h": 100
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.06406013205900644,
+    "averageConfidence": 38,
+    "entropy": 0.844621479511261,
+    "sharpness": 3.313239781683092
+  }
+}

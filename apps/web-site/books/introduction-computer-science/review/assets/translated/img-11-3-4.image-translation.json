@@ -1,0 +1,57 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-3-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-3-sample-responsive-wad-with-bootstrap-react-and-node.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-11-3-4.vi.png",
+  "ocr": [
+    {
+      "text": "Edit src/App. is and save to reload.",
+      "confidence": 93,
+      "bbox": {
+        "x": 90,
+        "y": 56,
+        "w": 720,
+        "h": 37
+      }
+    },
+    {
+      "text": "Learn React",
+      "confidence": 93,
+      "bbox": {
+        "x": 90,
+        "y": 130,
+        "w": 720,
+        "h": 37
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Edit src/App. is and save to reload.",
+      "target": "Chỉnh sửa src/App.js và lưu để tải lại.",
+      "bbox": {
+        "x": 90,
+        "y": 56,
+        "w": 720,
+        "h": 37
+      },
+      "overflow": false
+    },
+    {
+      "source": "Learn React",
+      "target": "Học React",
+      "bbox": {
+        "x": 90,
+        "y": 130,
+        "w": 720,
+        "h": 37
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.12731182795698925,
+    "averageConfidence": 93
+  }
+}

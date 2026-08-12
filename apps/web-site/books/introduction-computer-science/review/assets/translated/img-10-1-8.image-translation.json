@@ -1,0 +1,267 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-1-8.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-1-patterns-management.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-10-1-8.vi.png",
+  "ocr": [
+    {
+      "text": "Architecture Continuum",
+      "confidence": 87,
+      "bbox": {
+        "x": 124,
+        "y": 80,
+        "w": 994,
+        "h": 53
+      }
+    },
+    {
+      "text": "Generic Specific",
+      "confidence": 87,
+      "bbox": {
+        "x": 124,
+        "y": 186,
+        "w": 994,
+        "h": 53
+      }
+    },
+    {
+      "text": "Foundation Common Industry Organization",
+      "confidence": 87,
+      "bbox": {
+        "x": 124,
+        "y": 292,
+        "w": 994,
+        "h": 53
+      }
+    },
+    {
+      "text": "; systems h :",
+      "confidence": 87,
+      "bbox": {
+        "x": 124,
+        "y": 398,
+        "w": 994,
+        "h": 53
+      }
+    },
+    {
+      "text": "architectures ’ architectures architectures",
+      "confidence": 87,
+      "bbox": {
+        "x": 124,
+        "y": 504,
+        "w": 994,
+        "h": 53
+      }
+    },
+    {
+      "text": "architectures",
+      "confidence": 87,
+      "bbox": {
+        "x": 124,
+        "y": 610,
+        "w": 994,
+        "h": 53
+      }
+    },
+    {
+      "text": "Guides and Guides and Guides and Guides and",
+      "confidence": 87,
+      "bbox": {
+        "x": 124,
+        "y": 716,
+        "w": 994,
+        "h": 53
+      }
+    },
+    {
+      "text": "supports supports supports supports",
+      "confidence": 87,
+      "bbox": {
+        "x": 124,
+        "y": 822,
+        "w": 994,
+        "h": 53
+      }
+    },
+    {
+      "text": "Generic Specific",
+      "confidence": 87,
+      "bbox": {
+        "x": 124,
+        "y": 928,
+        "w": 994,
+        "h": 53
+      }
+    },
+    {
+      "text": "Products and Systems Industry Organization",
+      "confidence": 87,
+      "bbox": {
+        "x": 124,
+        "y": 1034,
+        "w": 994,
+        "h": 53
+      }
+    },
+    {
+      "text": "services solutions solutions solutions",
+      "confidence": 87,
+      "bbox": {
+        "x": 124,
+        "y": 1140,
+        "w": 994,
+        "h": 53
+      }
+    },
+    {
+      "text": "Solutions Continuum",
+      "confidence": 87,
+      "bbox": {
+        "x": 124,
+        "y": 1246,
+        "w": 994,
+        "h": 53
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Architecture Continuum",
+      "target": "Liên tục Kiến trúc",
+      "bbox": {
+        "x": 124,
+        "y": 80,
+        "w": 994,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "Generic Specific",
+      "target": "Chung Cụ thể",
+      "bbox": {
+        "x": 124,
+        "y": 186,
+        "w": 994,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "Foundation Common Industry Organization",
+      "target": "Tổ chức Ngành Công nghiệp Chung",
+      "bbox": {
+        "x": 124,
+        "y": 292,
+        "w": 994,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "; systems h :",
+      "target": "hệ thống",
+      "bbox": {
+        "x": 124,
+        "y": 398,
+        "w": 994,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "architectures ’ architectures architectures",
+      "target": "kiến trúc kiến trúc kiến trúc",
+      "bbox": {
+        "x": 124,
+        "y": 504,
+        "w": 994,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "architectures",
+      "target": "kiến trúc",
+      "bbox": {
+        "x": 124,
+        "y": 610,
+        "w": 994,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "Guides and Guides and Guides and Guides and",
+      "target": "Hướng dẫn và Hướng dẫn và Hướng dẫn và Hướng dẫn và",
+      "bbox": {
+        "x": 124,
+        "y": 716,
+        "w": 994,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "supports supports supports supports",
+      "target": "hỗ trợ hỗ trợ hỗ trợ hỗ trợ",
+      "bbox": {
+        "x": 124,
+        "y": 822,
+        "w": 994,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "Generic Specific",
+      "target": "Chung Cụ thể",
+      "bbox": {
+        "x": 124,
+        "y": 928,
+        "w": 994,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "Products and Systems Industry Organization",
+      "target": "Tổ chức Ngành Sản phẩm và Hệ thống",
+      "bbox": {
+        "x": 124,
+        "y": 1034,
+        "w": 994,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "services solutions solutions solutions",
+      "target": "giải pháp dịch vụ giải pháp giải pháp",
+      "bbox": {
+        "x": 124,
+        "y": 1140,
+        "w": 994,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "Solutions Continuum",
+      "target": "Liên tục Giải pháp",
+      "bbox": {
+        "x": 124,
+        "y": 1246,
+        "w": 994,
+        "h": 53
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.7665735405389674,
+    "averageConfidence": 87
+  }
+}

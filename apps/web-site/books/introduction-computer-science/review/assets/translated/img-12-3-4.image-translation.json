@@ -1,0 +1,267 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-3-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-3-example-paas-and-faas-deployments-of-cloud-native-applications.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-12-3-4.vi.png",
+  "ocr": [
+    {
+      "text": "// This is your Prisma schema file,",
+      "confidence": 91,
+      "bbox": {
+        "x": 90,
+        "y": 69,
+        "w": 719,
+        "h": 46
+      }
+    },
+    {
+      "text": "// learn more about it in the docs: https://pris.ly/d/prisma-schema",
+      "confidence": 91,
+      "bbox": {
+        "x": 90,
+        "y": 162,
+        "w": 719,
+        "h": 46
+      }
+    },
+    {
+      "text": "generator client {",
+      "confidence": 91,
+      "bbox": {
+        "x": 90,
+        "y": 255,
+        "w": 719,
+        "h": 46
+      }
+    },
+    {
+      "text": "provider = \"prisma-client-js\"",
+      "confidence": 91,
+      "bbox": {
+        "x": 90,
+        "y": 348,
+        "w": 719,
+        "h": 46
+      }
+    },
+    {
+      "text": "datasource db {",
+      "confidence": 91,
+      "bbox": {
+        "x": 90,
+        "y": 441,
+        "w": 719,
+        "h": 46
+      }
+    },
+    {
+      "text": "provider = \"postgresql\"",
+      "confidence": 91,
+      "bbox": {
+        "x": 90,
+        "y": 534,
+        "w": 719,
+        "h": 46
+      }
+    },
+    {
+      "text": "url = env(\"DATABASE_URL\")",
+      "confidence": 91,
+      "bbox": {
+        "x": 90,
+        "y": 627,
+        "w": 719,
+        "h": 46
+      }
+    },
+    {
+      "text": "model inventory f{",
+      "confidence": 91,
+      "bbox": {
+        "x": 90,
+        "y": 720,
+        "w": 719,
+        "h": 46
+      }
+    },
+    {
+      "text": "id Int @id",
+      "confidence": 91,
+      "bbox": {
+        "x": 90,
+        "y": 813,
+        "w": 719,
+        "h": 46
+      }
+    },
+    {
+      "text": "name String",
+      "confidence": 91,
+      "bbox": {
+        "x": 90,
+        "y": 906,
+        "w": 719,
+        "h": 46
+      }
+    },
+    {
+      "text": "quantity Int",
+      "confidence": 91,
+      "bbox": {
+        "x": 90,
+        "y": 999,
+        "w": 719,
+        "h": 46
+      }
+    },
+    {
+      "text": "date DateTime",
+      "confidence": 91,
+      "bbox": {
+        "x": 90,
+        "y": 1092,
+        "w": 719,
+        "h": 46
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "// This is your Prisma schema file,",
+      "target": "Đây là tệp lược đồ Prisma của bạn,",
+      "bbox": {
+        "x": 90,
+        "y": 69,
+        "w": 719,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "// learn more about it in the docs: https://pris.ly/d/prisma-schema",
+      "target": "// tìm hiểu thêm về nó trong tài liệu: https://pris.ly/d/prisma-schema",
+      "bbox": {
+        "x": 90,
+        "y": 162,
+        "w": 719,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "generator client {",
+      "target": "máy phát khách hàng",
+      "bbox": {
+        "x": 90,
+        "y": 255,
+        "w": 719,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "provider = \"prisma-client-js\"",
+      "target": "nhà cung cấp = \"prisma-client-js\"",
+      "bbox": {
+        "x": 90,
+        "y": 348,
+        "w": 719,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "datasource db {",
+      "target": "nguồn dữ liệu db",
+      "bbox": {
+        "x": 90,
+        "y": 441,
+        "w": 719,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "provider = \"postgresql\"",
+      "target": "nhà cung cấp = \"postgresql\"",
+      "bbox": {
+        "x": 90,
+        "y": 534,
+        "w": 719,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "url = env(\"DATABASE_URL\")",
+      "target": "url = env(\"ĐỊA_CHỈ_CSDL\")",
+      "bbox": {
+        "x": 90,
+        "y": 627,
+        "w": 719,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "model inventory f{",
+      "target": "mô hình tồn kho",
+      "bbox": {
+        "x": 90,
+        "y": 720,
+        "w": 719,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "id Int @id",
+      "target": "id Số nguyên @id",
+      "bbox": {
+        "x": 90,
+        "y": 813,
+        "w": 719,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "name String",
+      "target": "tên Chuỗi",
+      "bbox": {
+        "x": 90,
+        "y": 906,
+        "w": 719,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "quantity Int",
+      "target": "số lượng Nguyên tố",
+      "bbox": {
+        "x": 90,
+        "y": 999,
+        "w": 719,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "date DateTime",
+      "target": "ngày GiờNgày",
+      "bbox": {
+        "x": 90,
+        "y": 1092,
+        "w": 719,
+        "h": 46
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.7624822053288917,
+    "averageConfidence": 91
+  }
+}

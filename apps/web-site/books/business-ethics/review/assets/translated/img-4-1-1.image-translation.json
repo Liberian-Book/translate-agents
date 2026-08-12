@@ -1,0 +1,44 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-4-1-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/4-1-corporate-law-and-corporate-responsibility.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Share-",
+      "confidence": 94,
+      "bbox": {
+        "x": 80,
+        "y": 73,
+        "w": 640,
+        "h": 49
+      }
+    },
+    {
+      "text": "holders",
+      "confidence": 94,
+      "bbox": {
+        "x": 80,
+        "y": 170,
+        "w": 640,
+        "h": 49
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A diagram showing the relationship of corporate directors to limited liability. A large centered circle is labeled “Corporation”. Just overlapping the “Corporation” circle on the left edge is a circle labeled “Directors”. Just overlapping the “Corporation” circle on the top edge is a circle labeled “Shareholders”. Just overlapping the “Corporation” circle on the right edge is a circle labeled “Officers”. An arrow extends from the “Shareholders” circle to the “Directors” circle. An arrow extends from the “Directors” circle to the “Officers” circle. Inside the bottom edge of the “Corporation” circle is a circle labeled “Liability is limited to corporate assets”.\nButton label: Click to enlarge image of A diagram showing the relationship of corporate directors to limited liability. A large centered circle is labeled “Corporation”. Just overlapping the “Corporation” circle on the left edge is a circle labeled “Directors”. Just overlapping the “Corporation” circle on the top edge is a circle labeled “Shareholders”. Just overlapping the “Corporation” circle on the right edge is a circle labeled “Officers”. An arrow extends from the “Shareholders” circle to the “Directors” circle. An arrow extends from the “Directors” circle to the “Officers” circle. Inside the bottom edge of the “Corporation” circle is a circle labeled “Liability is limited to corporate assets”.\nEnglish caption: Figure 4.2 Corporate shareholders elect directors who appoint the company’s officers—all of whom benefit from limited liability. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.12894736842105264,
+    "averageConfidence": 94,
+    "entropy": 3.060541544575244,
+    "sharpness": 2.5911122786793075
+  }
+}

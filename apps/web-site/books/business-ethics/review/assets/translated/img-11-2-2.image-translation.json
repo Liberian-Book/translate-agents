@@ -1,0 +1,44 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-11-2-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/11-2-committing-to-an-ethical-view.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "- — Z pa 2 52 p=",
+      "confidence": 40,
+      "bbox": {
+        "x": 80,
+        "y": 64,
+        "w": 640,
+        "h": 42
+      }
+    },
+    {
+      "text": "& > = ~ = SAE",
+      "confidence": 40,
+      "bbox": {
+        "x": 80,
+        "y": 149,
+        "w": 640,
+        "h": 42
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This image shows a row of six doors along the wall of an empty room.\nButton label: Click to enlarge image of This image shows a row of six doors along the wall of an empty room.\nEnglish caption: Figure 11.4 Which values are important to you? Which will you choose to act on in your career? (credit: modification of “doors choices choose open decision” by qimono/Pixabay, CC0)",
+  "metrics": {
+    "textDensity": 0.12655367231638417,
+    "averageConfidence": 40,
+    "entropy": 7.352702541687904,
+    "sharpness": 2.3170149433322407
+  }
+}

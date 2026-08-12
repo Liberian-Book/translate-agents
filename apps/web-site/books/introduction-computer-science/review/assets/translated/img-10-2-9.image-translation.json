@@ -1,0 +1,561 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-2-9.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-2-enterprise-architecture-management-frameworks.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-10-2-9.vi.png",
+  "ocr": [
+    {
+      "text": "Enabler #5: Enabler #1:",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 104,
+        "w": 1038,
+        "h": 69
+      }
+    },
+    {
+      "text": "EAM is a reference architecture (i.e., a Incremental Best practice",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 242,
+        "w": 1038,
+        "h": 69
+      }
+    },
+    {
+      "text": "self-contained architecture style) for EA iterative process patterns,",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 380,
+        "w": 1038,
+        "h": 69
+      }
+    },
+    {
+      "text": "enterprise artifact types, and",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 518,
+        "w": 1038,
+        "h": 69
+      }
+    },
+    {
+      "text": "Enablers 1 - 5 are architectural patterns that transformation organization/",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 656,
+        "w": 1038,
+        "h": 69
+      }
+    },
+    {
+      "text": "help implement the EAM reference architecture methodology location models",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 794,
+        "w": 1038,
+        "h": 69
+      }
+    },
+    {
+      "text": "Li",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 932,
+        "w": 1038,
+        "h": 69
+      }
+    },
+    {
+      "text": "Vision Business 0) _—",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 1070,
+        "w": 1038,
+        "h": 69
+      }
+    },
+    {
+      "text": "and solution Capabilities",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 1208,
+        "w": 1038,
+        "h": 69
+      }
+    },
+    {
+      "text": "strategy development implementations",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 1346,
+        "w": 1038,
+        "h": 69
+      }
+    },
+    {
+      "text": "include agile",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 1484,
+        "w": 1038,
+        "h": 69
+      }
+    },
+    {
+      "text": "activities (i.e.,",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 1622,
+        "w": 1038,
+        "h": 69
+      }
+    },
+    {
+      "text": "process pattern",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 1760,
+        "w": 1038,
+        "h": 69
+      }
+    },
+    {
+      "text": "P instances) and",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 1898,
+        "w": 1038,
+        "h": 69
+      }
+    },
+    {
+      "text": "\\ their associated",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 2036,
+        "w": 1038,
+        "h": 69
+      }
+    },
+    {
+      "text": "i i artifacts (i.e.,",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 2174,
+        "w": 1038,
+        "h": 69
+      }
+    },
+    {
+      "text": "Business Business artifact type",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 2312,
+        "w": 1038,
+        "h": 69
+      }
+    },
+    {
+      "text": "solution solution fi",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 2450,
+        "w": 1038,
+        "h": 69
+      }
+    },
+    {
+      "text": "maintenance refactoring Hl instances)",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 2588,
+        "w": 1038,
+        "h": 69
+      }
+    },
+    {
+      "text": "Enabler #3: p' 3",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 2726,
+        "w": 1038,
+        "h": 69
+      }
+    },
+    {
+      "text": "Extensible od ®",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 2864,
+        "w": 1038,
+        "h": 69
+      }
+    },
+    {
+      "text": "Enablers 4 - 5 provide necessary support for Framework for Enabler #4:",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 3002,
+        "w": 1038,
+        "h": 69
+      }
+    },
+    {
+      "text": "Enabler 1 traceable and Enabler #2: Design and",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 3140,
+        "w": 1038,
+        "h": 69
+      }
+    },
+    {
+      "text": "reusable artifact ~~ Best pratices runtime tools",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 3278,
+        "w": 1038,
+        "h": 69
+      }
+    },
+    {
+      "text": "types and knowledge",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 3416,
+        "w": 1038,
+        "h": 69
+      }
+    },
+    {
+      "text": "methodologies base",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 3554,
+        "w": 1038,
+        "h": 69
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Enabler #5: Enabler #1:",
+      "target": "Yếu tố hỗ trợ #5: Yếu tố hỗ trợ #1:",
+      "bbox": {
+        "x": 130,
+        "y": 104,
+        "w": 1038,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "EAM is a reference architecture (i.e., a Incremental Best practice",
+      "target": "EAM là kiến trúc tham chiếu (tức là, một thực tiễn tốt nhất theo từng giai đoạn)",
+      "bbox": {
+        "x": 130,
+        "y": 242,
+        "w": 1038,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "self-contained architecture style) for EA iterative process patterns,",
+      "target": "kiến trúc tự chứa cho các mẫu quy trình lặp lại EA",
+      "bbox": {
+        "x": 130,
+        "y": 380,
+        "w": 1038,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "enterprise artifact types, and",
+      "target": "các loại đối tượng doanh nghiệp, và",
+      "bbox": {
+        "x": 130,
+        "y": 518,
+        "w": 1038,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "Enablers 1 - 5 are architectural patterns that transformation organization/",
+      "target": "Các yếu tố 1 - 5 là các mẫu kiến trúc giúp tổ chức chuyển đổi.",
+      "bbox": {
+        "x": 130,
+        "y": 656,
+        "w": 1038,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "help implement the EAM reference architecture methodology location models",
+      "target": "giúp triển khai mô hình vị trí kiến trúc tham chiếu EAM",
+      "bbox": {
+        "x": 130,
+        "y": 794,
+        "w": 1038,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "Li",
+      "target": "Li",
+      "bbox": {
+        "x": 130,
+        "y": 932,
+        "w": 1038,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "Vision Business 0) _—",
+      "target": "Tầm nhìn Kinh doanh",
+      "bbox": {
+        "x": 130,
+        "y": 1070,
+        "w": 1038,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "and solution Capabilities",
+      "target": "và khả năng giải pháp",
+      "bbox": {
+        "x": 130,
+        "y": 1208,
+        "w": 1038,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "strategy development implementations",
+      "target": "triển khai phát triển chiến lược",
+      "bbox": {
+        "x": 130,
+        "y": 1346,
+        "w": 1038,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "include agile",
+      "target": "bao gồm linh hoạt",
+      "bbox": {
+        "x": 130,
+        "y": 1484,
+        "w": 1038,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "activities (i.e.,",
+      "target": "hoạt động (tức là,",
+      "bbox": {
+        "x": 130,
+        "y": 1622,
+        "w": 1038,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "process pattern",
+      "target": "mô hình quy trình",
+      "bbox": {
+        "x": 130,
+        "y": 1760,
+        "w": 1038,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "P instances) and",
+      "target": "các trường hợp P) và",
+      "bbox": {
+        "x": 130,
+        "y": 1898,
+        "w": 1038,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "\\ their associated",
+      "target": "các liên kết của chúng",
+      "bbox": {
+        "x": 130,
+        "y": 2036,
+        "w": 1038,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "i i artifacts (i.e.,",
+      "target": "di vật (tức là,",
+      "bbox": {
+        "x": 130,
+        "y": 2174,
+        "w": 1038,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "Business Business artifact type",
+      "target": "Loại đối tượng kinh doanh",
+      "bbox": {
+        "x": 130,
+        "y": 2312,
+        "w": 1038,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "solution solution fi",
+      "target": "giải pháp giải pháp fi",
+      "bbox": {
+        "x": 130,
+        "y": 2450,
+        "w": 1038,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "maintenance refactoring Hl instances)",
+      "target": "bảo trì tái cấu trúc các thể hiện Hl",
+      "bbox": {
+        "x": 130,
+        "y": 2588,
+        "w": 1038,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "Enabler #3: p' 3",
+      "target": "Yếu tố kích hoạt #3: p' 3",
+      "bbox": {
+        "x": 130,
+        "y": 2726,
+        "w": 1038,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "Extensible od ®",
+      "target": "Mở rộng od ®",
+      "bbox": {
+        "x": 130,
+        "y": 2864,
+        "w": 1038,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "Enablers 4 - 5 provide necessary support for Framework for Enabler #4:",
+      "target": "Yếu tố hỗ trợ 4 - 5 cung cấp hỗ trợ cần thiết cho Khung cho Yếu tố #4:",
+      "bbox": {
+        "x": 130,
+        "y": 3002,
+        "w": 1038,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "Enabler 1 traceable and Enabler #2: Design and",
+      "target": "Yếu tố 1 có thể theo dõi và Yếu tố #2: Thiết kế và",
+      "bbox": {
+        "x": 130,
+        "y": 3140,
+        "w": 1038,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "reusable artifact ~~ Best pratices runtime tools",
+      "target": "tài nguyên tái sử dụng ~~ Công cụ thực thi tốt nhất",
+      "bbox": {
+        "x": 130,
+        "y": 3278,
+        "w": 1038,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "types and knowledge",
+      "target": "loại và kiến thức",
+      "bbox": {
+        "x": 130,
+        "y": 3416,
+        "w": 1038,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "methodologies base",
+      "target": "cơ sở phương pháp luận",
+      "bbox": {
+        "x": 130,
+        "y": 3554,
+        "w": 1038,
+        "h": 69
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 1.663677029887136,
+    "averageConfidence": 86
+  }
+}

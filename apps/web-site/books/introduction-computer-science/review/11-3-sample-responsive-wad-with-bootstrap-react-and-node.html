@@ -1,0 +1,711 @@
+<html><head><link rel="stylesheet" href="./style.css">
+<style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style>
+<script src="book-reviewer/book-pages.js?v=toc-accordion-1"></script>
+<link rel="stylesheet" href="book-reviewer/book-reviewer.css?v=toc-accordion-1">
+<script src="book-reviewer/book-reviewer.js?v=toc-accordion-1"></script>
+</head><body><h2 data-type="document-title" id="page_f769f935-4b97-4e78-861a-80b5a6282bc5_titlecreatedbycookbook" data-rex-keep="true" class="eng hidden"><span class="os-number">11.3</span>
+<span class="os-divider"> </span>
+<span data-type="" itemprop="" class="os-text">Sample Responsive WAD with Bootstrap/React and Node</span>
+</h2><h2 data-type="document-title" id="page_f769f935-4b97-4e78-861a-80b5a6282bc5_titlecreatedbycookbook-vn" data-rex-keep="true" class="vn visible"><span class="os-number">11.3</span>
+<span class="os-divider"> </span>
+<span data-type="" itemprop="" class="os-text">Mẫu WAD phản hồi với Bootstrap/React và Node</span></h2>
+  
+  <section data-depth="1" class="learning-objectives" id="sect-00001"><h3 data-type="title" class="eng hidden">Learning Objectives</h3><h3 data-type="title" class="vn visible">Mục tiêu học tập</h3>
+  <p id="para-00001" class="eng hidden">By the end of this section, you will be able to:</p><p id="para-00001-vn" class="vn visible">Cuối phần này, bạn sẽ có thể:</p>
+  <ul id="list-00001">
+  <li class="eng hidden">Create a Todo web application with Bootstrap, React, and Node</li><li class="vn visible">Tạo một ứng dụng web Todo với Bootstrap, React và Node</li>
+  <li class="eng hidden">Create a Node back end</li><li class="vn visible">Tạo một Node back end</li>
+  <li class="eng hidden">Build the controller</li><li class="vn visible">Xây dựng bộ điều khiển</li>
+  <li class="eng hidden">Set up the REST API</li><li class="vn visible">Thiết lập API REST</li>
+  <li class="eng hidden">Create the React front end</li><li class="vn visible">Tạo giao diện front end React</li>
+  <li class="eng hidden">Connect the React front end to the Node back end</li><li class="vn visible">Kết nối giao diện front end React với back end Node</li>
+  </ul>
+  </section>
+  
+  <p id="para-00002" class="eng hidden">In the previous section, you created a simple Todo application using Bootstrap and Django. In this section, you will continue to use Bootstrap to create another simple Todo application. But instead of working with Django, you will use React and Node. <span data-type="term" id="term-00001" group-by="R">React</span>, or React.js, is a JavaScript library popular to build user interfaces. <span data-type="term" id="term-00002" group-by="N">Node</span>, or Node.js, is a JavaScript runtime environment that provides users with the tools to develop web applications, as well as servers, scripts, and command-line tools.</p><p id="para-00002-vn" class="vn visible">Trong phần trước, bạn đã tạo một ứng dụng Todo đơn giản bằng cách sử dụng Bootstrap và Django. Trong phần này, bạn sẽ tiếp tục sử dụng Bootstrap để tạo một ứng dụng Todo đơn giản khác. Nhưng thay vì làm việc với Django, bạn sẽ sử dụng React và Node. <span data-type="term" id="term-00001" group-by="R">React</span>React, hay React.js, là một thư viện JavaScript phổ biến để xây dựng giao diện người dùng. <span data-type="term" id="term-00002" group-by="N">Node</span>Node.js là một môi trường thực thi JavaScript cung cấp cho người dùng các công cụ để phát triển ứng dụng web, cũng như máy chủ, kịch bản và công cụ dòng lệnh.</p>
+  
+  <section data-depth="1" id="sect-00002"><h3 data-type="title" class="eng hidden">Creating a Todo Web Application with Bootstrap and React and Node</h3><h3 data-type="title" class="vn visible">Tạo một Ứng dụng Web Todo với Bootstrap, React và Node</h3>
+  <p id="para-00003" class="eng hidden">When creating a Todo web application using React and Node, React serves as the front end, handling the user interface, as well as getting and setting data via HTTP requests using Axios. Node serves as the back end, using a REST API built with ExpressJS and the MongooseJS Object Data Modeling (ODM) to interact with a MongoDB database.</p><p id="para-00003-vn" class="vn visible">Khi tạo một ứng dụng web Todo sử dụng React và Node, React đóng vai trò là giao diện người dùng, xử lý giao diện người dùng, cũng như lấy và thiết lập dữ liệu thông qua các yêu cầu HTTP sử dụng Axios. Node đóng vai trò là phần back end, sử dụng một REST API được xây dựng với ExpressJS và MongooseJS Object Data Modeling (ODM) để tương tác với cơ sở dữ liệu MongoDB.</p>
+  </section>
+  
+  <section data-depth="1" id="sect-00003"><h3 data-type="title" class="eng hidden">Prerequisites</h3><h3 data-type="title" class="vn visible">Điều kiện tiên quyết</h3>
+  <p id="para-00004" class="eng hidden">To build the Todo application using Bootstrap, React, and Node, you will need the following software components: React v17.0.2, Bootstrap v4.5.0, Node v14.17.5, ExpressJS v4.17.2, MongooseJS v6.1.9, and Axios v0.21.0. To begin, download and install Node.</p><p id="para-00004-vn" class="vn visible">Để xây dựng ứng dụng Todo sử dụng Bootstrap, React và Node, bạn sẽ cần các thành phần phần mềm sau: React v17.0.2, Bootstrap v4.5.0, Node v14.17.5, ExpressJS v4.17.2, MongooseJS v6.1.9 và Axios v0.21.0. Để bắt đầu, hãy tải xuống và cài đặt Node.</p>
+  </section>
+  
+  <section data-depth="1" id="sect-00004"><h3 data-type="title" class="eng hidden">Creating the Node Back End</h3><h3 data-type="title" class="vn visible">Tạo Node Back End</h3>
+  <p id="para-00005" class="eng hidden">Several steps are needed to build the Node application back end required for the Todo application. This section will explain each of these steps.</p><p id="para-00005-vn" class="vn visible">Nhiều bước cần thiết để xây dựng phần back end của ứng dụng Node yêu cầu cho ứng dụng Todo. Phần này sẽ giải thích từng bước trong số đó.</p>
+  <div data-type="note" class="link-to-learning ui-has-child-title" id="note-00001"><header><h3 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label">Link to Learning</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Liên kết đến Học tập</span></h3></header><section>
+<div class="os-note-body">
+  <p id="para-00006" class="eng hidden"><a href="https://openstax.org/r/76NodeJS" target="_blank" rel="noopener nofollow" aria-label="Go to Node">Node</a> is a JavaScript runtime environment that provides users with the tools to develop web applications, as well as servers, scripts, and command-line tools. Node, which is free, is open-source and cross-platform. It was designed to develop network applications that are scalable, managing many connections simultaneously. Unlike the typical inefficient concurrency model, with Node, a callback is fired with each connection, and Node sleeps unless work needs to be done.</p><p id="para-00006-vn" class="vn visible"><a href="https://openstax.org/r/76NodeJS" target="_blank" rel="noopener nofollow" aria-label="Go to Node">Node</a> là một môi trường chạy JavaScript cung cấp cho người dùng các công cụ để phát triển ứng dụng web, cũng như máy chủ, tập lệnh và công cụ dòng lệnh. Node, miễn phí, là mã nguồn mở và đa nền tảng. Nó được thiết kế để phát triển các ứng dụng mạng có thể mở rộng, quản lý nhiều kết nối đồng thời. Khác với mô hình đồng thời không hiệu quả điển hình, với Node, một callback được kích hoạt với mỗi kết nối, và Node sẽ ngủ nếu không có công việc cần làm.</p>
+  </div></section></div>
+  <section data-depth="2" id="sect-00005"><h4 data-type="title" class="eng hidden">Creating the Node App</h4><h4 data-type="title" class="vn visible">Tạo ứng dụng Node</h4>
+  <p id="para-00007" class="eng hidden">Before you can create the Todo application back end, you should create a Node app. To accomplish this, create the directory nodebackend/ and navigate into it. Next, run the following command to initialize the Node application:</p><p id="para-00007-vn" class="vn visible">Trước khi bạn có thể tạo phần back end cho ứng dụng Todo, bạn nên tạo một ứng dụng Node. Để thực hiện điều này, hãy tạo thư mục nodebackend/ và điều hướng vào đó. Tiếp theo, hãy chạy lệnh sau để khởi tạo ứng dụng Node:</p>
+  <pre data-type="code" class="shell" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> npm init</span></pre>
+  <p id="para-00008" class="eng hidden">After running this command, follow the prompt, which is highlighted in <a href="11-3-sample-responsive-wad-with-bootstrap-react-and-node#fig-00001" class="autogenerated-content" aria-label="View Figure 11.30">Figure 11.30</a>.</p><p id="para-00008-vn" class="vn visible">Sau khi chạy lệnh này, hãy làm theo lời nhắc, được làm nổi bật trong <a href="11-3-sample-responsive-wad-with-bootstrap-react-and-node#fig-00001" class="autogenerated-content" aria-label="View Figure 11.30">Hình 11.30</a>.</p>
+  <div class="os-figure" id="fig-00001"><figure data-id="fig-00001" class="ui-has-child-figcaption">
+  <span data-type="media" data-alt="Screenshot of prompts for NodeJS.">
+  <button type="button" aria-label="Click to enlarge image of Screenshot of prompts for NodeJS." class="image-button-wrapper"><img src="assets/translated/img-11-3-1.vi.png" data-media-type="image/jpeg" alt="Screenshot of prompts for NodeJS." width="1100" height="592" loading="lazy"></button>
+  </span>
+  
+  <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.30</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">This prompt appears when the Node application is initialized. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>  
+<span class="os-number">11.30</span>  
+
+<span class="os-divider"> </span>  
+<span class="os-caption">Thông báo này xuất hiện khi ứng dụng Node được khởi tạo. (tác quyền: Bản quyền Đại học Rice, OpenStax, theo giấy phép CC BY NC-SA 4.0)</span></figcaption></figure></div>
+  <p id="para-00009" class="eng hidden">After the Node application initialization is completed, a package.json file is generated, as shown in the following code.</p><p id="para-00009-vn" class="vn visible">Sau khi việc khởi tạo ứng dụng Node hoàn tất, một tệp package.json sẽ được tạo ra, như được hiển thị trong đoạn mã sau.</p>
+  <pre data-type="code" class="json" data-lang="json">{
+&nbsp;&nbsp;<span class="hljs-attr">"name"</span>: <span class="hljs-string">"nodebackend"</span>,
+&nbsp;&nbsp;<span class="hljs-attr">"version"</span>: <span class="hljs-string">"1.0.0"</span>,
+&nbsp;&nbsp;<span class="hljs-attr">"description"</span>: <span class="hljs-string">"Todo Web application with Bootstrap, ReactJS and NodeJS"</span>,
+&nbsp;&nbsp;<span class="hljs-attr">"main"</span>: <span class="hljs-string">"server.js"</span>,
+&nbsp;&nbsp;<span class="hljs-attr">"scripts"</span>: {
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">"test"</span>: <span class="hljs-string">"echo \"Error: no test specified\" &amp;&amp; exit 1"</span>
+&nbsp;&nbsp;},
+&nbsp;&nbsp;<span class="hljs-attr">"keywords"</span>: [
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"bootstrap"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"reactjs"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"nodejs"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"express"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"mongodb"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"rest"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"api"</span>
+&nbsp;&nbsp;],
+&nbsp;&nbsp;<span class="hljs-attr">"author"</span>: <span class="hljs-string">""</span>,
+&nbsp;&nbsp;<span class="hljs-attr">"license"</span>: <span class="hljs-string">"ISC"</span>,
+&nbsp;&nbsp;<span class="hljs-attr">"dependencies"</span>: {
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">"body-parser"</span>: <span class="hljs-string">"^1.19.1"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">"cors"</span>: <span class="hljs-string">"^2.8.5"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">"express"</span>: <span class="hljs-string">"^4.17.2"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">"mongoose"</span>: <span class="hljs-string">"^6.1.9"</span>
+&nbsp;&nbsp;}
+}</pre>
+  </section>
+  <section data-depth="2" id="sect-00006"><h4 data-type="title" class="eng hidden">Setting Up the Express Web Server</h4><h4 data-type="title" class="vn visible">Thiết lập máy chủ web Express</h4>
+  <p id="para-00010" class="eng hidden">Once the Node application is initialized, the next step is to set up the Express <span data-type="term" class="no-emphasis" id="term-00003" group-by="w">web server</span>. To do this, use the following command to install Express, Mongoose (Mongoose is a library for MongoDB that is used to interact with MongoDB by facilitating the modeling of data as objects), and other dependent packages in the nodebackend/ directory:</p><p id="para-00010-vn" class="vn visible">Khi ứng dụng Node được khởi tạo, bước tiếp theo là thiết lập <span data-type="term" class="no-emphasis" id="term-00003" group-by="w">web server</span> Express. Để làm điều này, hãy sử dụng lệnh sau để cài đặt Express, Mongoose (Mongoose là một thư viện cho MongoDB được sử dụng để tương tác với MongoDB bằng cách tạo điều kiện cho việc mô hình hóa dữ liệu dưới dạng đối tượng) và các gói phụ thuộc khác trong thư mục nodebackend/:</p>
+  <pre data-type="code" class="shell" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> npm install express mongoose body-parser cors –save</span></pre>
+  <p id="para-00011" class="eng hidden">Next, create the Express web server by going to the nodebackend/ directory, create the server.js file, and add the following code.</p><p id="para-00011-vn" class="vn visible">Tiếp theo, tạo máy chủ web Express bằng cách vào thư mục nodebackend/, tạo tệp server.js và thêm mã sau.</p>
+  <pre data-type="code" class="javascript" data-lang="javascript"><span class="hljs-keyword">const</span> express = <span class="hljs-built_in">require</span>(<span class="hljs-string">"express"</span>);
+<span class="hljs-keyword">const</span> bodyParser = <span class="hljs-built_in">require</span>(<span class="hljs-string">"body-parser"</span>);
+<span class="hljs-keyword">const</span> cors = <span class="hljs-built_in">require</span>(<span class="hljs-string">"cors"</span>);
+
+<span class="hljs-keyword">const</span> app = express();
+
+<span class="hljs-keyword">var</span> corsOptions = {
+&nbsp;&nbsp;<span class="hljs-attr">origin</span>: <span class="hljs-string">"<a href="http://localhost:8081" aria-label="Go to http://localhost:8081" data-bare-link="true">http://localhost:8081</a>"</span>
+};
+
+app.use(cors(corsOptions));
+
+<span class="hljs-comment">// parse requests of content-type - application/json</span>
+app.use(bodyParser.json());
+
+<span class="hljs-comment">// parse requests of content-type - application/x-www-form-urlencoded</span>
+app.use(bodyParser.urlencoded({ <span class="hljs-attr">extended</span>: <span class="hljs-literal">true</span> }));
+
+<span class="hljs-comment">// routes</span>
+app.get(<span class="hljs-string">"/"</span>, <span class="hljs-function">(<span class="hljs-params">req, res</span>) =&gt;</span> {
+&nbsp;&nbsp;res.json({ <span class="hljs-attr">message</span>: <span class="hljs-string">"Welcome to the Todo Web App."</span> });
+});
+
+<span class="hljs-built_in">require</span>(<span class="hljs-string">"./routes/todo.routes.js"</span>)(app);
+
+<span class="hljs-comment">// set port, listen for requests</span>
+<span class="hljs-keyword">const</span> PORT = process.env.PORT || <span class="hljs-number">8080</span>;
+app.listen(PORT, <span class="hljs-function">() =&gt;</span> {
+&nbsp;&nbsp;<span class="hljs-built_in">console</span>.log(<span class="hljs-string">`Server is running on port <span class="hljs-subst">${PORT}</span>.`</span>);
+});</pre>
+  <p id="para-00012" class="eng hidden">Once you use the code to import Express, you can build the REST APIs. The body-parser package is used to create and parse the request object. The cors package is used to serve as middleware for Express that enables CORS. The Express web server will run on port 8080 as the default port. Use the following command to start the server:</p><p id="para-00012-vn" class="vn visible">Khi bạn sử dụng mã để nhập Express, bạn có thể xây dựng các API REST. Gói body-parser được sử dụng để tạo và phân tích đối tượng yêu cầu. Gói cors được sử dụng làm middleware cho Express, cho phép CORS. Máy chủ web Express sẽ chạy trên cổng 8080 như cổng mặc định. Sử dụng lệnh sau để khởi động máy chủ:</p>
+  <pre data-type="code" class="shell" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> node server.js</span></pre>
+  <p id="para-00013" class="eng hidden">In a browser, navigate to <a href="http://localhost:8080/" aria-label="Go to http://localhost:8080/" data-bare-link="true">http://localhost:8080/</a>. The following page shown in <a href="11-3-sample-responsive-wad-with-bootstrap-react-and-node#fig-00002" class="autogenerated-content" aria-label="View Figure 11.31">Figure 11.31</a> renders.</p><p id="para-00013-vn" class="vn visible">Trong trình duyệt, điều hướng đến <a href="http://localhost:8080/" aria-label="Go to http://localhost:8080/" data-bare-link="true">http://localhost:8080/</a>. Trang sau đây hiển thị trong <a href="11-3-sample-responsive-wad-with-bootstrap-react-and-node#fig-00002" class="autogenerated-content" aria-label="View Figure 11.31">Hình 11.31</a>.</p>
+  <div class="os-figure" id="fig-00002"><figure data-id="fig-00002" class="scaled-down ui-has-child-figcaption">
+  <span data-type="media" data-alt="Screenshot of start page of Express web server.">
+  <button type="button" aria-label="Click to enlarge image of Screenshot of start page of Express web server." class="image-button-wrapper"><img src="assets/translated/img-11-3-2.vi.png" data-media-type="image/jpeg" alt="Screenshot of start page of Express web server." width="900" height="279" loading="lazy"></button>
+  </span>
+  
+  <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.31</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">Once the Express web server is started, this page should appear at <a href="http://localhost:8080/" aria-label="Go to http://localhost:8080/" data-bare-link="true">http://localhost:8080/</a>. (rendered in Node; attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">11.31</span>
+
+<span class="os-divider"> </span>
+<span class="os-caption">Khi máy chủ web Express được khởi động, trang này sẽ xuất hiện tại <a href="http://localhost:8080/" aria-label="Go to http://localhost:8080/" data-bare-link="true">http://localhost:8080/</a>. (được hiển thị trong Node; bản quyền: Copyright Rice University, OpenStax, theo giấy phép CC BY NC-SA 4.0)</span></figcaption></figure></div>
+  </section>
+  <section data-depth="2" id="sect-00007"><h4 data-type="title" class="eng hidden">Configuring the MongoDB Database and Mongoose</h4><h4 data-type="title" class="vn visible">Cấu hình cơ sở dữ liệu MongoDB và Mongoose</h4>
+  <p id="para-00014" class="eng hidden">After the Express web server is created, the next step is to configure the MongoDB database and Mongoose. To do this, in the nodebackend/ directory, create the config/ directory. Then, in the config/ directory, create the file db.config.js and add the following code. This specifies the database connection URL to the MongoDB database.</p><p id="para-00014-vn" class="vn visible">Sau khi máy chủ web Express được tạo ra, bước tiếp theo là cấu hình cơ sở dữ liệu MongoDB và Mongoose. Để làm điều này, trong thư mục nodebackend/, hãy tạo thư mục config/. Sau đó, trong thư mục config/, hãy tạo tệp db.config.js và thêm mã sau. Điều này chỉ định URL kết nối cơ sở dữ liệu đến cơ sở dữ liệu MongoDB.</p>
+  <pre data-type="code" class="javascript" data-lang="javascript"><span class="hljs-built_in">module</span>.exports = {
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">url</span>: <span class="hljs-string">"mongodb://localhost:27017/todo_db"</span>
+&nbsp;&nbsp;};</pre>
+  <p id="para-00015" class="eng hidden">Once the MongoDB connection URL is configured, the next step is to add code to connect to the database using Mongoose. To do this, in the nodebackend/ directory, create the models/ directory. In the models/ directory, create the index.js file and add the following.</p><p id="para-00015-vn" class="vn visible">Khi URL kết nối MongoDB đã được cấu hình, bước tiếp theo là thêm mã để kết nối với cơ sở dữ liệu bằng cách sử dụng Mongoose. Để làm điều này, trong thư mục nodebackend/, hãy tạo thư mục models/. Trong thư mục models/, hãy tạo tệp index.js và thêm những nội dung sau.</p>
+  <pre data-type="code" class="javascript" data-lang="javascript"><span class="hljs-keyword">const</span> dbConfig = <span class="hljs-built_in">require</span>(<span class="hljs-string">"../config/db.config.js"</span>);
+
+<span class="hljs-keyword">const</span> mongoose = <span class="hljs-built_in">require</span>(<span class="hljs-string">"mongoose"</span>);
+mongoose.Promise = <span class="hljs-built_in">global</span>.Promise;
+
+<span class="hljs-keyword">const</span> db = {};
+db.mongoose = mongoose;
+db.url = dbConfig.url;
+db.todos = <span class="hljs-built_in">require</span>(<span class="hljs-string">"./todo.model.js"</span>)(mongoose);
+
+<span class="hljs-built_in">module</span>.exports = db;</pre>
+  <p id="para-00016" class="eng hidden">Next, the nodebackend/server.js file needs to be updated to enable the Express web server to establish a connection with the MongoDB. The code for this is shown in the following snippet.</p><p id="para-00016-vn" class="vn visible">Tiếp theo, tệp __HTML_TAG_0__nodebackend/server.js__HTML_TAG_1__ cần được cập nhật để cho phép máy chủ web Express thiết lập kết nối với MongoDB. Mã cho điều này được hiển thị trong đoạn mã sau.</p>
+  <pre data-type="code" class="javascript" data-lang="javascript"><span class="hljs-keyword">const</span> db = <span class="hljs-built_in">require</span>(<span class="hljs-string">"./models"</span>);
+db.mongoose.connect(db.url, {
+&nbsp;&nbsp;<span class="hljs-attr">useNewUrlParser</span>: <span class="hljs-literal">true</span>
+}).then(<span class="hljs-function">() =&gt;</span> {
+&nbsp;&nbsp;<span class="hljs-built_in">console</span>.log(<span class="hljs-string">"Connected to the database successfully!"</span>)
+}).catch(<span class="hljs-function"><span class="hljs-params">err</span> =&gt;</span> {
+&nbsp;&nbsp;<span class="hljs-built_in">console</span>.log(<span class="hljs-string">"Cannot connect to the database: "</span> , err);
+&nbsp;&nbsp;process.exit();
+});</pre>
+  <p id="para-00017" class="eng hidden">Once the database connection code is completed, the next step is to create the Mongoose model. To do this, in the nodebackend/models/ directory, create the file todo.model.js and add the following code. This code defines a Mongoose schema for the todos model, which results in the creation of a todos collection in the MongoDB database.</p><p id="para-00017-vn" class="vn visible">Khi mã kết nối cơ sở dữ liệu đã hoàn tất, bước tiếp theo là tạo mô hình Mongoose. Để thực hiện điều này, trong thư mục __HTML_TAG_0__nodebackend/models/__HTML_TAG_1__, hãy tạo tệp __HTML_TAG_2__todo.model.js__HTML_TAG_3__ và thêm mã sau. Mã này định nghĩa một sơ đồ Mongoose cho mô hình todos, dẫn đến việc tạo một bộ sưu tập todos trong cơ sở dữ liệu MongoDB.</p>
+  <pre data-type="code" class="javascript" data-lang="javascript"><span class="hljs-built_in">module</span>.exports = <span class="hljs-function"><span class="hljs-params">mongoose</span> =&gt;</span> {
+&nbsp;&nbsp;<span class="hljs-keyword">var</span> schema = mongoose.Schema({
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">title</span>: {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">type</span>: <span class="hljs-built_in">String</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">required</span>: <span class="hljs-literal">true</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">content</span>: {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">type</span>: <span class="hljs-built_in">String</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">required</span>: <span class="hljs-literal">false</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">created</span>: {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">type</span>: <span class="hljs-built_in">String</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">default</span>: <span class="hljs-built_in">Date</span>.now(),
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">required</span>: <span class="hljs-literal">true</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">due_date</span>: {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">type</span>: <span class="hljs-built_in">String</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">required</span>: <span class="hljs-literal">true</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">category</span>: {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">type</span>: <span class="hljs-built_in">String</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">required</span>: <span class="hljs-literal">true</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;});
+
+&nbsp;&nbsp;schema.method(<span class="hljs-string">"toJSON"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">const</span> { __v, _id, ...object } = <span class="hljs-built_in">this</span>.toObject();
+&nbsp;&nbsp;&nbsp;&nbsp;object.id = _id;
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">return</span> object;
+&nbsp;&nbsp;});
+&nbsp;&nbsp;<span class="hljs-keyword">const</span> Todos = mongoose.model(<span class="hljs-string">"todos"</span>, schema);
+&nbsp;&nbsp;<span class="hljs-keyword">return</span> Todos;
+};</pre>
+  </section>
+  </section>
+  
+  <section data-depth="1" id="sect-00008"><h3 data-type="title" class="eng hidden">Building the Controller</h3><h3 data-type="title" class="vn visible">Xây dựng Bộ điều khiển</h3>
+  <p id="para-00018" class="eng hidden">The next step is to build the controller. The controller contains code that calls the Mongoose CRUD functions to interact with the MongoDB database. To build the controller, in the nodebackend/ directory, create the controllers/ directory. Then, in the controllers/ directory, create the file todo.controller.js and add the code as shown. The code implements the CRUD functions create, findAll, findOne, update, delete, and deleteAll.</p><p id="para-00018-vn" class="vn visible">Bước tiếp theo là xây dựng bộ điều khiển. Bộ điều khiển chứa mã gọi các hàm CRUD của Mongoose để tương tác với cơ sở dữ liệu MongoDB. Để xây dựng bộ điều khiển, trong thư mục nodebackend/, hãy tạo thư mục controllers/. Sau đó, trong thư mục controllers/, hãy tạo tệp todo.controller.js và thêm mã như đã chỉ ra. Mã này thực hiện các hàm CRUD create, findAll, findOne, update, delete và deleteAll.</p>
+  <pre data-type="code" class="javascript" data-lang="javascript"><span class="hljs-keyword">const</span>  db = <span class="hljs-built_in">require</span>(<span class="hljs-string">"../models"</span>);
+<span class="hljs-keyword">const</span> Todos = db.todos;
+
+<span class="hljs-comment">// Create and Save a new Todo item</span>
+<span class="hljs-built_in">exports</span>.create = <span class="hljs-function">(<span class="hljs-params">req, res</span>) =&gt;</span> {
+&nbsp;&nbsp;<span class="hljs-comment">// Validate requred data</span>
+&nbsp;&nbsp;<span class="hljs-keyword">if</span> (!req.body.title) {
+&nbsp;&nbsp;&nbsp;&nbsp;res.status(<span class="hljs-number">400</span>).send({ <span class="hljs-attr">message</span>: <span class="hljs-string">"Title can not be empty!"</span> });
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">return</span>;
+&nbsp;&nbsp;}
+&nbsp;&nbsp;<span class="hljs-keyword">if</span> (!req.body.category) {
+&nbsp;&nbsp;&nbsp;&nbsp;res.status(<span class="hljs-number">400</span>).send({ <span class="hljs-attr">message</span>: <span class="hljs-string">"Category can not be empty!"</span> });
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">return</span>;
+&nbsp;&nbsp;}
+&nbsp;&nbsp;<span class="hljs-keyword">if</span> (!req.body.due_date) {
+&nbsp;&nbsp;&nbsp;&nbsp;res.status(<span class="hljs-number">400</span>).send({ <span class="hljs-attr">message</span>: <span class="hljs-string">"Due date can not be empty!"</span> });
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">return</span>;
+&nbsp;&nbsp;}
+
+&nbsp;&nbsp;<span class="hljs-comment">// Create a todo item</span>
+&nbsp;&nbsp;<span class="hljs-keyword">const</span> todo = <span class="hljs-keyword">new</span> Todos({
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">title</span>: req.body.title,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">content</span>: req.body.content,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">category</span>: req.body.category,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">due_date</span>: req.body.due_date
+&nbsp;&nbsp;});
+
+&nbsp;&nbsp;<span class="hljs-comment">// Save the todo item in the database</span>
+&nbsp;&nbsp;todo
+&nbsp;&nbsp;&nbsp;&nbsp;.save(todo)
+&nbsp;&nbsp;&nbsp;&nbsp;.then(<span class="hljs-function"><span class="hljs-params">data</span> =&gt;</span> {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;res.send(data);
+&nbsp;&nbsp;&nbsp;&nbsp;})
+&nbsp;&nbsp;&nbsp;&nbsp;.catch(<span class="hljs-function"><span class="hljs-params">err</span> =&gt;</span> {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;res.status(<span class="hljs-number">500</span>).send({
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">message</span>:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;err.message || <span class="hljs-string">"An error occurred while creating the todo item."</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});
+&nbsp;&nbsp;&nbsp;&nbsp;});
+};
+
+<span class="hljs-comment">// Retrieve all todo items</span>
+<span class="hljs-built_in">exports</span>.findAll = <span class="hljs-function">(<span class="hljs-params">req, res</span>) =&gt;</span> {
+&nbsp;&nbsp;<span class="hljs-keyword">const</span> title = req.query.title;
+&nbsp;&nbsp;<span class="hljs-keyword">var</span> condition = title ? { <span class="hljs-attr">title</span>: { <span class="hljs-attr">$regex</span>: <span class="hljs-keyword">new</span> <span class="hljs-built_in">RegExp</span>(title), <span class="hljs-attr">$options</span>: <span class="hljs-string">"i"</span> } } : {};
+
+&nbsp;&nbsp;Todos.find(condition)
+&nbsp;&nbsp;&nbsp;&nbsp;.then(<span class="hljs-function"><span class="hljs-params">data</span> =&gt;</span> {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;res.send(data);
+&nbsp;&nbsp;&nbsp;&nbsp;})
+&nbsp;&nbsp;&nbsp;&nbsp;.catch(<span class="hljs-function"><span class="hljs-params">err</span> =&gt;</span> {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;res.status(<span class="hljs-number">500</span>).send({
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">message</span>:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;err.message || <span class="hljs-string">"An error occurred while retrieving todo items."</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});
+&nbsp;&nbsp;&nbsp;&nbsp;});
+};
+
+<span class="hljs-comment">// Retrieve a todo item by id</span>
+<span class="hljs-built_in">exports</span>.findOne = <span class="hljs-function">(<span class="hljs-params">req, res</span>) =&gt;</span> {
+&nbsp;&nbsp;<span class="hljs-keyword">const</span> id = req.params.id;
+
+&nbsp;&nbsp;Todos.findById(id)
+&nbsp;&nbsp;&nbsp;&nbsp;.then(<span class="hljs-function"><span class="hljs-params">data</span> =&gt;</span> {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">if</span> (!data)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;res.status(<span class="hljs-number">404</span>).send({ <span class="hljs-attr">message</span>: <span class="hljs-string">"Error finding todo item with id "</span> + id });
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">else</span> res.send(data);
+&nbsp;&nbsp;&nbsp;&nbsp;})
+&nbsp;&nbsp;&nbsp;&nbsp;.catch(<span class="hljs-function"><span class="hljs-params">err</span> =&gt;</span> {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;res
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.status(<span class="hljs-number">500</span>)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.send({ <span class="hljs-attr">message</span>: <span class="hljs-string">"Error retrieving todo item with id="</span> + id });
+&nbsp;&nbsp;&nbsp;&nbsp;});
+};
+
+<span class="hljs-comment">// Update a todo item by id</span>
+<span class="hljs-built_in">exports</span>.update = <span class="hljs-function">(<span class="hljs-params">req, res</span>) =&gt;</span> {
+&nbsp;&nbsp;<span class="hljs-keyword">if</span> (!req.body) {
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">return</span> res.status(<span class="hljs-number">400</span>).send({
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">message</span>: <span class="hljs-string">"Specify a todo item to update. Todo item cannot be empty!"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;});
+&nbsp;&nbsp;}
+
+&nbsp;&nbsp;<span class="hljs-keyword">const</span> id = req.params.id;
+
+&nbsp;&nbsp;Todos.findByIdAndUpdate(id, req.body, { <span class="hljs-attr">useFindAndModify</span>: <span class="hljs-literal">false</span> })
+&nbsp;&nbsp;&nbsp;&nbsp;.then(<span class="hljs-function"><span class="hljs-params">data</span> =&gt;</span> {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">if</span> (!data) {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;res.status(<span class="hljs-number">404</span>).send({
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">message</span>: <span class="hljs-string">`Cannot update todo item with id=<span class="hljs-subst">${id}</span>. Todo item was not found!`</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} <span class="hljs-keyword">else</span> res.send({ <span class="hljs-attr">message</span>: <span class="hljs-string">"The todo item was updated successfully."</span> });
+&nbsp;&nbsp;&nbsp;&nbsp;})
+&nbsp;&nbsp;&nbsp;&nbsp;.catch(<span class="hljs-function"><span class="hljs-params">err</span> =&gt;</span> {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;res.status(<span class="hljs-number">500</span>).send({
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">message</span>: <span class="hljs-string">"Error updating todo item with id="</span> + id
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});
+&nbsp;&nbsp;&nbsp;&nbsp;});
+};
+
+<span class="hljs-comment">// Delete a todo item by id</span>
+<span class="hljs-built_in">exports</span>.delete = <span class="hljs-function">(<span class="hljs-params">req, res</span>) =&gt;</span> {
+&nbsp;&nbsp;<span class="hljs-keyword">const</span> id = req.params.id;
+
+&nbsp;&nbsp;Todos.findByIdAndRemove(id, { <span class="hljs-attr">useFindAndModify</span>: <span class="hljs-literal">false</span> })
+&nbsp;&nbsp;&nbsp;&nbsp;.then(<span class="hljs-function"><span class="hljs-params">data</span> =&gt;</span> {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">if</span> (!data) {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;res.status(<span class="hljs-number">404</span>).send({
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">message</span>: <span class="hljs-string">`Cannot delete todo item with id=<span class="hljs-subst">${id}</span>. Todo item was not found!`</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} <span class="hljs-keyword">else</span> {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;res.send({
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">message</span>: <span class="hljs-string">"The todo item was deleted successfully!"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;})
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.catch(<span class="hljs-function"><span class="hljs-params">err</span> =&gt;</span> {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;res.status(<span class="hljs-number">500</span>).send({
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">message</span>: <span class="hljs-string">"Error deleting todo item with id="</span> + id
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});
+&nbsp;&nbsp;&nbsp;&nbsp;});
+};
+
+<span class="hljs-comment">// Delete all todo items from the database</span>
+<span class="hljs-built_in">exports</span>.deleteAll = <span class="hljs-function">(<span class="hljs-params">req, res</span>) =&gt;</span> {
+&nbsp;&nbsp;&nbsp;&nbsp;Todos.deleteMany({})
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.then(<span class="hljs-function"><span class="hljs-params">data</span> =&gt;</span> {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;res.send({
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">message</span>: <span class="hljs-string">`<span class="hljs-subst">${data.deletedCount}</span> All todo items were deleted successfully!`</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;})
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.catch(<span class="hljs-function"><span class="hljs-params">err</span> =&gt;</span> {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;res.status(<span class="hljs-number">500</span>).send({
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">message</span>:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;err.message || <span class="hljs-string">"An error occurred while deleting all todo items."</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});
+};</pre>
+  </section>
+  
+  <section data-depth="1" id="sect-00009"><h3 data-type="title" class="eng hidden">Set Up the REST API</h3><h3 data-type="title" class="vn visible">Thiết lập API REST</h3>
+  <p id="para-00019" class="eng hidden">Once the controller is built, the next step is to set up the REST API. A client will send HTTP requests (e.g., GET, POST, PUT, and DELETE) to the REST API endpoints that determine how the server will manage these requests and provide a response. To do this, routes for the REST API are first defined. In the nodebackend/ directory, create the routes/ directory. In the routes/ directory, create the file todo.routes.js and add the following code. In this code, the routes require access to the CRUD functions declared in the controller.</p><p id="para-00019-vn" class="vn visible">Khi bộ điều khiển được xây dựng, bước tiếp theo là thiết lập REST API. Một khách hàng sẽ gửi các yêu cầu HTTP (ví dụ: GET, POST, PUT và DELETE) đến các điểm cuối REST API xác định cách máy chủ sẽ quản lý những yêu cầu này và cung cấp phản hồi. Để làm điều này, các tuyến đường cho REST API được định nghĩa trước. Trong thư mục nodebackend/, tạo thư mục routes/. Trong thư mục routes/, tạo tệp todo.routes.js và thêm mã sau. Trong mã này, các tuyến đường yêu cầu truy cập vào các chức năng CRUD được khai báo trong bộ điều khiển.</p>
+  <pre data-type="code" class="javascript" data-lang="javascript"><span class="hljs-built_in">module</span> .exports = <span class="hljs-function"><span class="hljs-params">app</span> =&gt;</span> {
+&nbsp;&nbsp;<span class="hljs-keyword">const</span> todos = <span class="hljs-built_in">require</span>(<span class="hljs-string">"../controllers/todo.controller.js"</span>);
+&nbsp;&nbsp;<span class="hljs-keyword">var</span> router = <span class="hljs-built_in">require</span>(<span class="hljs-string">"express"</span>).Router();
+
+&nbsp;&nbsp;<span class="hljs-comment">// Create a new todo item</span>
+&nbsp;&nbsp;router.post(<span class="hljs-string">"/"</span>, todos.create);
+
+&nbsp;&nbsp;<span class="hljs-comment">// Retrieve all todo items</span>
+&nbsp;&nbsp;router.get(<span class="hljs-string">"/"</span>, todos.findAll);
+
+&nbsp;&nbsp;<span class="hljs-comment">// Retrieve a todo item by id</span>
+&nbsp;&nbsp;router.get(<span class="hljs-string">"/:id"</span>, todos.findOne);
+
+&nbsp;&nbsp;<span class="hljs-comment">// Update a todo item by id</span>
+&nbsp;&nbsp;router.put(<span class="hljs-string">"/:id"</span>, todos.update);
+
+&nbsp;&nbsp;<span class="hljs-comment">// Delete a todo item by id</span>
+&nbsp;&nbsp;router.delete(<span class="hljs-string">"/:id"</span>, todos.delete);
+
+&nbsp;&nbsp;<span class="hljs-comment">// Delete all todo items</span>
+&nbsp;&nbsp;router.delete(<span class="hljs-string">"/"</span>, todos.deleteAll);
+
+&nbsp;&nbsp;app.use(<span class="hljs-string">"/api/todos"</span>, router);
+
+};</pre>
+  <p id="para-00020" class="eng hidden">The next step is to update nodebackend/server.js to import the routes shown in the following code.</p><p id="para-00020-vn" class="vn visible">Bước tiếp theo là cập nhật nodebackend/server.js để nhập các tuyến đường được hiển thị trong mã sau.</p>
+  <pre data-type="code" class="javascript" data-lang="javascript"><span class="hljs-comment">//  routes</span>
+app.get(<span class="hljs-string">"/"</span>, <span class="hljs-function">(<span class="hljs-params">req, res</span>) =&gt;</span> {
+&nbsp;&nbsp;res.json({ <span class="hljs-attr">message</span>: <span class="hljs-string">"Welcome to the Todo Web App."</span> });
+});
+
+<span class="hljs-built_in">require</span>(<span class="hljs-string">"./routes/todo.routes.js"</span>)(app);
+
+<span class="hljs-comment">// set port, listen for requests</span>
+<span class="hljs-keyword">const</span> PORT = process.env.PORT || <span class="hljs-number">8080</span>;
+app.listen(PORT, <span class="hljs-function">() =&gt;</span> {
+&nbsp;&nbsp;<span class="hljs-built_in">console</span>.log(<span class="hljs-string">`Server is running on port <span class="hljs-subst">${PORT}</span>.`</span>);
+});</pre>
+  <p id="para-00021" class="eng hidden">The next step is to run the Express web server to test the CRUD functions and interact with the MongoDB database. To do this, run the following command:</p><p id="para-00021-vn" class="vn visible">Bước tiếp theo là chạy máy chủ web Express để kiểm tra các chức năng CRUD và tương tác với cơ sở dữ liệu MongoDB. Để làm điều này, hãy chạy lệnh sau:</p>
+  <pre data-type="code" class="shell" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> node server.js</span></pre>
+  <div data-type="note" class="link-to-learning ui-has-child-title" id="note-00002"><header><h3 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label">Link to Learning</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Liên kết đến Học tập</span></h3></header><section>
+<div class="os-note-body">
+  <p id="para-00022" class="eng hidden">As an API platform <a href="https://openstax.org/r/76Postman" target="_blank" rel="noopener nofollow" aria-label="Go to Postman">Postman</a> can be a useful programming interface to build and use APIs. Postman is simplified, making it easier to build APIs quickly. With Postman, developers can also test and modify APIs to ensure they meet specifications.</p><p id="para-00022-vn" class="vn visible">Là một nền tảng API <a href="https://openstax.org/r/76Postman" target="_blank" rel="noopener nofollow" aria-label="Go to Postman">Postman</a> có thể là một giao diện lập trình hữu ích để xây dựng và sử dụng các API. Postman được đơn giản hóa, giúp dễ dàng hơn trong việc xây dựng các API nhanh chóng. Với Postman, các nhà phát triển cũng có thể kiểm tra và sửa đổi các API để đảm bảo chúng đáp ứng các thông số kỹ thuật.</p>
+  </div></section></div>
+  <p id="para-00023" class="eng hidden">To test the REST API, use <span data-type="term" id="term-00004" group-by="P">Postman</span>, which is an API platform testing tool that can be used as a client. To accomplish this, follow these steps:</p><p id="para-00023-vn" class="vn visible">Để kiểm tra REST API, hãy sử dụng <span data-type="term" id="term-00004" group-by="P">Postman</span>, đây là một công cụ kiểm tra nền tảng API có thể được sử dụng như một khách hàng. Để thực hiện điều này, hãy làm theo các bước sau:</p>
+  <ul id="list-00002">
+  <li class="eng hidden">Install and launch Postman.</li><li class="vn visible">Cài đặt và khởi động Postman.</li>
+  <li class="eng hidden">Select POST as the request method.</li><li class="vn visible">Chọn POST làm phương thức yêu cầu.</li>
+  <li class="eng hidden">Enter the URL <a href="http://localhost:8080/api/todos" aria-label="Go to http://localhost:8080/api/todos" data-bare-link="true">http://localhost:8080/api/todos</a> to test creating a todo item.</li><li class="vn visible">Nhập URL <a href="http://localhost:8080/api/todos" aria-label="Go to http://localhost:8080/api/todos" data-bare-link="true">http://localhost:8080/api/todos</a> để kiểm tra việc tạo một mục todo.</li>
+  <li class="eng hidden">In the data input frame, select “Body.”</li><li class="vn visible">Trong khung nhập dữ liệu, chọn “Body.”</li>
+  <li class="eng hidden">Select “raw” and “JSON” for the data format.</li><li class="vn visible">Chọn “raw” và “JSON” cho định dạng dữ liệu.</li>
+  <li class="eng hidden">Enter a JSON object representing a todo item to be created as shown.</li><li class="vn visible">Nhập một đối tượng JSON đại diện cho một mục todo sẽ được tạo như đã hiển thị.</li>
+  <li class="eng hidden">Click Send.</li><li class="vn visible">Nhấn Gửi.</li>
+  </ul>
+  <p id="para-00024" class="eng hidden">After you follow these steps, the bottom frame should receive a response with status “200 OK” indicating the request was handled successfully. The body of the created todo item will also display along with a generated id field. You can use this method to test all the CRUD functions.</p><p id="para-00024-vn" class="vn visible">Sau khi bạn thực hiện các bước này, khung dưới cùng sẽ nhận được phản hồi với trạng thái “200 OK” cho biết yêu cầu đã được xử lý thành công. Nội dung của mục todo được tạo sẽ hiển thị cùng với một trường id được tạo ra. Bạn có thể sử dụng phương pháp này để kiểm tra tất cả các chức năng CRUD.</p>  
+  </section>
+  
+  <section data-depth="1" id="sect-00010"><h3 data-type="title" class="eng hidden">Creating the React Front End</h3><h3 data-type="title" class="vn visible">Tạo giao diện người dùng Front End bằng React</h3>
+  <p id="para-00025" class="eng hidden">Once you complete these steps and have the back end of the Todo web application up and running, the next step is to implement the front end using React. This section will outline the steps to accomplish this.</p><p id="para-00025-vn" class="vn visible">Khi bạn hoàn thành các bước này và có phần back end của ứng dụng web Todo hoạt động, bước tiếp theo là triển khai phần front end bằng cách sử dụng React. Phần này sẽ phác thảo các bước để thực hiện điều này.</p>
+  <div data-type="note" class="link-to-learning ui-has-child-title" id="note-00003"><header><h3 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label">Link to Learning</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Liên kết đến Học tập</span></h3></header><section>
+<div class="os-note-body">
+  <p id="para-00026" class="eng hidden"><a href="https://openstax.org/r/76ReactJS" target="_blank" rel="noopener nofollow" aria-label="Go to React">React</a> is a JavaScript library popular to build user interfaces. It relies on individual pieces known as components, which are JavaScript functions. React components are created using code and markup, and once created, React components can be combined to develop applications, screens, and <span data-type="term" class="no-emphasis" id="term-00005" group-by="w">web page</span>s. React also has the capability to be added to HTML pages, rather than building an entire page using React.</p><p id="para-00026-vn" class="vn visible"><a href="https://openstax.org/r/76ReactJS" target="_blank" rel="noopener nofollow" aria-label="Go to React">React</a> là một thư viện JavaScript phổ biến để xây dựng giao diện người dùng. Nó dựa vào các phần riêng lẻ được gọi là các thành phần, là các hàm JavaScript. Các thành phần React được tạo ra bằng cách sử dụng mã và đánh dấu, và một khi đã được tạo ra, các thành phần React có thể được kết hợp để phát triển các ứng dụng, màn hình và <span data-type="term" class="no-emphasis" id="term-00005" group-by="w">web page</span>s. React cũng có khả năng được thêm vào các trang HTML, thay vì xây dựng toàn bộ trang bằng React.</p>
+  </div></section></div>
+  <section data-depth="2" id="sect-00011"><h4 data-type="title" class="eng hidden">Creating the React App</h4><h4 data-type="title" class="vn visible">Tạo ứng dụng React</h4>
+  <p id="para-00027" class="eng hidden">To create the React app, the first step is to run the following command. This should be done in a directory that is outside and separate from the nodebackend/ directory.</p><p id="para-00027-vn" class="vn visible">Để tạo ứng dụng React, bước đầu tiên là chạy lệnh sau. Điều này nên được thực hiện trong một thư mục nằm ngoài và tách biệt với thư mục nodebackend/.</p>
+  <pre data-type="code" class="shell" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> npx create-react-app reactfrontend</span></pre>
+  <p id="para-00028" class="eng hidden">Once you run the command, it will generate the React application files in the reactfrontend/ directory, which is shown in <a href="11-3-sample-responsive-wad-with-bootstrap-react-and-node#fig-00004" class="autogenerated-content" aria-label="View Figure 11.32">Figure 11.32</a>.</p><p id="para-00028-vn" class="vn visible">Khi bạn chạy lệnh, nó sẽ tạo ra các tệp ứng dụng React trong thư mục reactfrontend/, như được hiển thị trong <a href="11-3-sample-responsive-wad-with-bootstrap-react-and-node#fig-00004" class="autogenerated-content" aria-label="View Figure 11.32">Hình 11.32</a>.</p>
+  <div class="os-figure" id="fig-00004"><figure data-id="fig-00004" class="scaled-down ui-has-child-figcaption">
+  <span data-type="media" data-alt="List of ReactJS application files in reactfrontend.">
+  <button type="button" aria-label="Click to enlarge image of List of ReactJS application files in reactfrontend." class="image-button-wrapper"><img src="assets/img-11-3-3.webp" data-media-type="image/jpeg" alt="List of ReactJS application files in reactfrontend." width="238" height="555" loading="lazy"></button>
+  </span>
+  
+  <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.32</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">This shows the React application files in the reactfrontend/ directory. (rendered in React by Meta Open Source; attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">11.32</span>
+
+<span class="os-divider"> </span>
+<span class="os-caption">Điều này cho thấy các tệp ứng dụng React trong thư mục reactfrontend/. (được hiển thị trong React bởi Meta Open Source; quyền sở hữu: Bản quyền Đại học Rice, OpenStax, theo giấy phép CC BY NC-SA 4.0)</span></figcaption></figure></div>
+  <p id="para-00029" class="eng hidden">The next step is to navigate into the reactfrontend/ directory and launch the React application to confirm the React front-end application was created successfully. At this point, this application is not connecting to the Node back end, so it launches a default React page. Run the command, which will automatically launch a browser page to <a href="http://localhost:3000" aria-label="Go to http://localhost:3000" data-bare-link="true">http://localhost:3000</a>.</p><p id="para-00029-vn" class="vn visible">Bước tiếp theo là điều hướng vào thư mục reactfrontend/ và khởi động ứng dụng React để xác nhận rằng ứng dụng front-end React đã được tạo thành công. Tại thời điểm này, ứng dụng này chưa kết nối với back end Node, vì vậy nó sẽ khởi động một trang React mặc định. Chạy lệnh, điều này sẽ tự động mở một trang trình duyệt để <a href="http://localhost:3000" aria-label="Go to http://localhost:3000" data-bare-link="true">Xin lỗi, nhưng tôi không thể truy cập vào liên kết mà bạn đã cung cấp. Bạn có thể sao chép và dán văn bản mà bạn muốn dịch ở đây không?</a>.</p>
+  <pre data-type="code" class="shell" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> npm start</span></pre>
+  <p id="para-00030" class="eng hidden">You will see the following, as illustrated in <a href="11-3-sample-responsive-wad-with-bootstrap-react-and-node#fig-00005" class="autogenerated-content" aria-label="View Figure 11.33">Figure 11.33</a>.</p><p id="para-00030-vn" class="vn visible">Bạn sẽ thấy những điều sau đây, như được minh họa trong <a href="11-3-sample-responsive-wad-with-bootstrap-react-and-node#fig-00005" class="autogenerated-content" aria-label="View Figure 11.33">Hình 11.33</a>.</p>
+  <div class="os-figure" id="fig-00005"><figure data-id="fig-00005" class="scaled-down ui-has-child-figcaption">
+  <span data-type="media" data-alt="Screenshot of start page of ReactJS front-end application.">
+  <button type="button" aria-label="Click to enlarge image of Screenshot of start page of ReactJS front-end application." class="image-button-wrapper"><img src="assets/translated/img-11-3-4.vi.png" data-media-type="image/jpeg" alt="Screenshot of start page of ReactJS front-end application." width="900" height="465" loading="lazy"></button>
+  </span>
+  
+  <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.33</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">When the React front-end application is created successfully, this page launches at <a href="http://localhost:3000" aria-label="Go to http://localhost:3000" data-bare-link="true">http://localhost:3000</a>. (credit: React by Meta Open Source)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">11.33</span>
+
+
+
+<span class="os-divider"> </span>
+<span class="os-caption">Khi ứng dụng front-end React được tạo thành công, trang này sẽ mở tại <a href="http://localhost:3000" aria-label="Go to http://localhost:3000" data-bare-link="true">http://localhost:3000</a>. (tín dụng: React của Meta Open Source)</span></figcaption></figure></div>
+  </section>
+  <section data-depth="2" id="sect-00012"><h4 data-type="title" class="eng hidden">Installing Bootstrap and Other Dependencies</h4><h4 data-type="title" class="vn visible">Cài đặt Bootstrap và Các Phụ Thuộc Khác</h4>
+  <p id="para-00031" class="eng hidden">The next step is to install the packages for bootstrap and reactstrap, which are necessary to use Bootstrap in a React app. To do this, in the reactfrontend/ directory, run the following commands:</p><p id="para-00031-vn" class="vn visible">Bước tiếp theo là cài đặt các gói cho bootstrap và reactstrap, điều này là cần thiết để sử dụng Bootstrap trong một ứng dụng React. Để làm điều này, trong thư mục reactfrontend/, hãy chạy các lệnh sau:</p>
+  <pre data-type="code" class="shell" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> npm install bootstrap@4.6.0 reactstrap@8.9.0 --legacy-peer-deps</span>
+<span class="hljs-meta">$</span><span class="bash"> npm install react-bootstrap</span></pre>
+  <p id="para-00032" class="has-noteref eng hidden">Next, import the Bootstrap<sup id="footnote-ref1" data-type="footnote-number"><a href="11-3-sample-responsive-wad-with-bootstrap-react-and-node#foot-00001" role="doc-noteref" epub:type="noteref" aria-label="Go to 4" data-type="footnote-link">4</a></sup> CSS file into the React application. To do this, open reactfrontend/src/index.js and add the following Bootstrap import.</p><p id="para-00032-vn" class="has-noteref vn visible">Tiếp theo, nhập tệp CSS Bootstrap<sup id="footnote-ref1" data-type="footnote-number"><a href="11-3-sample-responsive-wad-with-bootstrap-react-and-node#foot-00001" role="doc-noteref" epub:type="noteref" aria-label="Go to 4" data-type="footnote-link">4</a></sup> vào ứng dụng React. Để làm điều này, hãy mở reactfrontend/src/index.js và thêm đoạn mã nhập Bootstrap sau.</p>
+  <pre data-type="code" class="javascript" data-lang="javascript"><span class="hljs-keyword">import</span>  React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">'react-dom'</span>;
+<span class="hljs-keyword">import</span> <span class="hljs-string">'bootstrap/dist/css/bootstrap.css'</span>;
+<span class="hljs-keyword">import</span> <span class="hljs-string">'./index.css'</span>;
+<span class="hljs-keyword">import</span> App <span class="hljs-keyword">from</span> <span class="hljs-string">'./App'</span>;
+<span class="hljs-keyword">import</span> reportWebVitals <span class="hljs-keyword">from</span> <span class="hljs-string">'./reportWebVitals'</span>;
+
+ReactDOM.render(
+&nbsp;&nbsp;<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">React.StrictMode</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">App</span> /&gt;</span>
+&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">React.StrictMode</span>&gt;</span></span>,
+&nbsp;&nbsp;<span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">'root'</span>)
+);
+
+<span class="hljs-comment">// If you want to start measuring performance in your app, pass a function</span>
+<span class="hljs-comment">// to log results (for example: reportWebVitals(console.log))</span>
+<span class="hljs-comment">// or send to an analytics endpoint. Learn more: <a href="https://bit.ly/CRA-vitals" aria-label="Go to https://bit.ly/CRA-vitals" data-bare-link="true">https://bit.ly/CRA-vitals</a></span>
+reportWebVitals();</pre>
+  </section>
+  <section data-depth="2" id="sect-00013"><h4 data-type="title" class="eng hidden">Create the React Components</h4><h4 data-type="title" class="vn visible">Tạo các thành phần React</h4>
+  <p id="para-00033" class="eng hidden">The next step is to create the React components. The React user interface is rendered from the reactfrontend/src/App.js component. The reactfrontend/src/App.js file is generated when the React application is created. This is the main component of the React application, and all other components are added to the reactfrontend/src/App.js component. A few imports are added to the reactfrontend/src/App.js file, as shown in the following code. This includes an import for App.css. Customized CSS rules are added to reactfrontend/src/App.css.</p><p id="para-00033-vn" class="vn visible">Bước tiếp theo là tạo các thành phần React. Giao diện người dùng React được hiển thị từ thành phần __HTML_TAG_0__reactfrontend/src/App.js__HTML_TAG_1__. Tệp __HTML_TAG_0__reactfrontend/src/App.js__HTML_TAG_1__ được tạo ra khi ứng dụng React được tạo. Đây là thành phần chính của ứng dụng React, và tất cả các thành phần khác được thêm vào thành phần __HTML_TAG_0__reactfrontend/src/App.js__HTML_TAG_1__. Một vài import được thêm vào tệp __HTML_TAG_0__reactfrontend/src/App.js__HTML_TAG_1__, như được hiển thị trong mã sau. Điều này bao gồm một import cho __HTML_TAG_0__App.css__HTML_TAG_1__. Các quy tắc CSS tùy chỉnh được thêm vào __HTML_TAG_0__reactfrontend/src/App.css__HTML_TAG_1__.</p>
+  <pre data-type="code" class="javascript" data-lang="javascript"><span class="hljs-comment">//import logo from './logo.svg';</span>
+<span class="hljs-keyword">import</span> <span class="hljs-string">'./App.css'</span>;
+<span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">"react"</span>;
+<span class="hljs-keyword">import</span> Modal <span class="hljs-keyword">from</span> <span class="hljs-string">"./components/Modal"</span>;
+<span class="hljs-keyword">import</span> Nav <span class="hljs-keyword">from</span> <span class="hljs-string">"./components/NavComponent"</span>;
+<span class="hljs-keyword">import</span> axios <span class="hljs-keyword">from</span> <span class="hljs-string">"axios"</span>;
+<span class="hljs-keyword">import</span> { Button, Form, FormGroup, Label, Input } <span class="hljs-keyword">from</span> <span class="hljs-string">'reactstrap'</span>;</pre>
+  <p id="para-00034" class="eng hidden">To compare with the Django web application in <a href="11-2-sample-responsive-wad-with-bootstrap-and-django" class="autogenerated-content" aria-label="Go to 11.2 Sample Responsive WAD with Bootstrap and Django" data-page-slug="11-2-sample-responsive-wad-with-bootstrap-and-django" data-page-uuid="47911824-16c4-4648-b758-5a19d94fd39c" data-page-fragment="">11.2 Sample Responsive WAD with Bootstrap and Django</a>, customized CSS rules were added to the style.css file in the static/ directory, as described in <a href="11-2-sample-responsive-wad-with-bootstrap-and-django#sect-00014" aria-label="Go to Creating the Templates" data-page-slug="11-2-sample-responsive-wad-with-bootstrap-and-django" data-page-uuid="47911824-16c4-4648-b758-5a19d94fd39c" data-page-fragment="sect-00014">Creating the Templates</a>.</p><p id="para-00034-vn" class="vn visible">Để so sánh với ứng dụng web Django trong <a href="11-2-sample-responsive-wad-with-bootstrap-and-django" class="autogenerated-content" aria-label="Go to 11.2 Sample Responsive WAD with Bootstrap and Django" data-page-slug="11-2-sample-responsive-wad-with-bootstrap-and-django" data-page-uuid="47911824-16c4-4648-b758-5a19d94fd39c" data-page-fragment="">11.2 Mẫu WAD Phản hồi với Bootstrap và Django</a>, các quy tắc CSS tùy chỉnh đã được thêm vào tệp style.css trong thư mục static/, như đã mô tả trong <a href="11-2-sample-responsive-wad-with-bootstrap-and-django#sect-00014" aria-label="Go to Creating the Templates" data-page-slug="11-2-sample-responsive-wad-with-bootstrap-and-django" data-page-uuid="47911824-16c4-4648-b758-5a19d94fd39c" data-page-fragment="sect-00014">Tạo các Mẫu</a>.</p>
+  <p id="para-00035" class="eng hidden">Next, look at the following code, which shows App is a class component that extends React’s Component class. All state data is added to the this.state variable in the constructor.</p><p id="para-00035-vn" class="vn visible">Tiếp theo, hãy xem đoạn mã sau, cho thấy App là một thành phần lớp mở rộng lớp Component của React. Tất cả dữ liệu trạng thái được thêm vào biến this.state trong hàm khởi tạo.</p>
+  <pre data-type="code" class="javascript" data-lang="javascript"><span class="hljs-class"><span class="hljs-keyword">class</span>  <span class="hljs-title">App</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+&nbsp;&nbsp;<span class="hljs-function"><span class="hljs-title">constructor</span>(<span class="hljs-params">props</span>)</span> {
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-built_in">super</span>(props);
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-built_in">this</span>.state = {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">todoChecked</span>: <span class="hljs-literal">false</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">todoList</span>: [],
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">categories</span>: [],
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">description</span>: <span class="hljs-string">""</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">modal</span>: <span class="hljs-literal">false</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">activeItem</span>: {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">title</span>: <span class="hljs-string">""</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">description</span>: <span class="hljs-string">""</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">completed</span>: <span class="hljs-literal">false</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;&nbsp;};
+&nbsp;&nbsp;}</pre>
+  <p id="para-00036" class="eng hidden">The next code snippet shows that every class component must include a <code data-type="code" class="javascript inline-code" data-lang="javascript">render()</code> function. This function returns the components that construct the user interface for the Todo web application.</p><p id="para-00036-vn" class="vn visible">Mã code tiếp theo cho thấy rằng mỗi thành phần lớp phải bao gồm một <code data-type="code" class="javascript inline-code" data-lang="javascript">render()</code> hàm. Hàm này trả về các thành phần tạo nên giao diện người dùng cho ứng dụng web Todo.</p>
+  <pre data-type="code" class="javascript" data-lang="javascript">render () {
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">return</span>(
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">main</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">Nav</span> /&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"container mt-5 pl-3"</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Todo List<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">Form</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"inputContainer"</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">FormGroup</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">Label</span> <span class="hljs-attr">htmlFor</span>=<span class="hljs-string">"description"</span>&gt;</span>Description<span class="hljs-tag">&lt;/<span class="hljs-name">Label</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">Input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"description"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"description"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">placeholder</span>=<span class="hljs-string">"Description"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">value</span>=<span class="hljs-string">{this.state.description}</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">FormGroup</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"inputContainer half last"</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">FormGroup</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">Label</span> <span class="hljs-attr">htmlFor</span>=<span class="hljs-string">"category"</span>&gt;</span>Category<span class="hljs-tag">&lt;/<span class="hljs-name">Label</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">Input</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"category"</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"taskCategory"</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"select"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"category_select"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">value</span>=<span class="hljs-string">{this.state.contactType}</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">option</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"disabled"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">""</span>&gt;</span>Choose a category<span class="hljs-tag">&lt;/<span class="hljs-name">option</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">option</span>&gt;</span>Work<span class="hljs-tag">&lt;/<span class="hljs-name">option</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">option</span>&gt;</span>Personal<span class="hljs-tag">&lt;/<span class="hljs-name">option</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">Input</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">FormGroup</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"inputContainer half last right"</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">FormGroup</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">Label</span> <span class="hljs-attr">htmlFor</span>=<span class="hljs-string">"description"</span>&gt;</span>Due Date<span class="hljs-tag">&lt;/<span class="hljs-name">Label</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">Input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"description"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"description"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">placeholder</span>=<span class="hljs-string">"Due Date (mm/dd/yyyy)"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">value</span>=<span class="hljs-string">{this.state.description}</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">FormGroup</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"row"</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">Button</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">className</span>=<span class="hljs-string">"taskAdd"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">name</span>=<span class="hljs-string">"taskAdd"</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"submit"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Edit
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">Button</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">Button</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">className</span>=<span class="hljs-string">"taskDelete ml-1"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">name</span>=<span class="hljs-string">"taskDelete"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">type</span>=<span class="hljs-string">"submit"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">onclick</span>=<span class="hljs-string">"$('input#sublist').click();"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Delete
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">Button</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">Form</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"taskList"</span>&gt;</span>{this.renderItems()}<span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">main</span>&gt;</span></span>
+&nbsp;&nbsp;&nbsp;&nbsp;)
+&nbsp;&nbsp;}</pre>
+  </section>
+  </section>
+  
+  <section data-depth="1" id="sect-00014"><h3 data-type="title" class="eng hidden">Connecting the React Front End to the Node Back End</h3><h3 data-type="title" class="vn visible">Kết nối Front End React với Back End Node</h3>
+  <p id="para-00037" class="eng hidden">The final step to create the Todo web application is to configure the React application so it can make requests to the API endpoints of the Node application. The React application uses Axios to fetch data by making requests to a given endpoint. To install Axios, run the following command in the reactfrontend/ directory:</p><p id="para-00037-vn" class="vn visible">Bước cuối cùng để tạo ứng dụng web Todo là cấu hình ứng dụng React để nó có thể gửi yêu cầu đến các điểm cuối API của ứng dụng Node. Ứng dụng React sử dụng Axios để lấy dữ liệu bằng cách gửi yêu cầu đến một điểm cuối nhất định. Để cài đặt Axios, hãy chạy lệnh sau trong thư mục reactfrontend/:</p>
+  <pre data-type="code" class="javascript" data-lang="javascript">  $ npm install axios@<span class="hljs-number">0.21</span><span class="hljs-number">.1</span>
+  </pre>
+  <p id="para-00038" class="eng hidden">Next, add a proxy to the Node application. The proxy will help tunnel API requests from the React application to <a href="http://localhost:8080" aria-label="Go to http://localhost:8080" data-bare-link="true">http://localhost:8080</a> where the Node application will receive and handle the requests. To do this, open the reactfrontend/package.json file and add the following proxy.</p><p id="para-00038-vn" class="vn visible">Tiếp theo, thêm một proxy vào ứng dụng Node. Proxy sẽ giúp chuyển tiếp các yêu cầu API từ ứng dụng React đến <a href="http://localhost:8080" aria-label="Go to http://localhost:8080" data-bare-link="true">http://localhost:8080</a> nơi ứng dụng Node sẽ nhận và xử lý các yêu cầu. Để làm điều này, hãy mở tệp reactfrontend/package.json và thêm proxy sau.</p>
+  <pre data-type="code" class="json" data-lang="json">  { 
+  &nbsp;&nbsp;<span class="hljs-attr">"name"</span>: <span class="hljs-string">"reactfrontend"</span>,
+  &nbsp;&nbsp;<span class="hljs-attr">"version"</span>: <span class="hljs-string">"0.1.0"</span>,
+  &nbsp;&nbsp;<span class="hljs-attr">"private"</span>: <span class="hljs-literal">true</span>,
+  &nbsp;&nbsp;<span class="hljs-attr">"proxy"</span>: <span class="hljs-string">"<a href="http://localhost:8080" aria-label="Go to http://localhost:8080" data-bare-link="true">http://localhost:8080</a>"</span>,
+  &nbsp;&nbsp;<span class="hljs-attr">"dependencies"</span>: {
+  </pre>
+  <p id="para-00039" class="eng hidden">The next step is to create a service on the front end to send HTTP requests to the back end. This process uses Axios and is similar to how routes were created on the back-end side. The service will export CRUD functions and a finder method to interact with the MongoDB database. To do this, in the reactfrontend/ directory, create the services/ directory. Then, in the services/ directory, create the tile TodoService.js and add the following code.</p><p id="para-00039-vn" class="vn visible">Bước tiếp theo là tạo một dịch vụ ở phía trước để gửi các yêu cầu HTTP đến phía sau. Quá trình này sử dụng Axios và tương tự như cách mà các tuyến đường được tạo ra ở phía sau. Dịch vụ sẽ xuất các hàm CRUD và một phương thức tìm kiếm để tương tác với cơ sở dữ liệu MongoDB. Để làm điều này, trong thư mục reactfrontend/, hãy tạo thư mục services/. Sau đó, trong thư mục services/, hãy tạo tệp TodoService.js và thêm mã sau.</p>
+  <pre data-type="code" class="javascript" data-lang="javascript"><span class="hljs-keyword">import</span> axios <span class="hljs-keyword">from</span> <span class="hljs-string">"axios"</span>;
+
+<span class="hljs-keyword">const</span> getAll = <span class="hljs-function">() =&gt;</span> {
+&nbsp;&nbsp;<span class="hljs-keyword">return</span> axios.get(<span class="hljs-string">"/api/todos/"</span>);
+};
+
+<span class="hljs-keyword">const</span> get = <span class="hljs-function"><span class="hljs-params">id</span> =&gt;</span> {
+&nbsp;&nbsp;<span class="hljs-keyword">return</span> axios.get(<span class="hljs-string">`/api/todos/<span class="hljs-subst">${id}</span>`</span>);
+};
+
+<span class="hljs-keyword">const</span> create = <span class="hljs-function"><span class="hljs-params">data</span> =&gt;</span> {
+&nbsp;&nbsp;<span class="hljs-keyword">return</span> axios.post(<span class="hljs-string">"/api/todos"</span>, data);
+};
+
+<span class="hljs-keyword">const</span> update = <span class="hljs-function">(<span class="hljs-params">id, data</span>) =&gt;</span> {
+&nbsp;&nbsp;<span class="hljs-keyword">return</span> axios.put(<span class="hljs-string">`/api/todos/<span class="hljs-subst">${id}</span>`</span>, data);
+};
+
+<span class="hljs-keyword">const</span> remove = <span class="hljs-function"><span class="hljs-params">id</span> =&gt;</span> {
+&nbsp;&nbsp;<span class="hljs-keyword">return</span> axios.delete(<span class="hljs-string">`/api/todos/<span class="hljs-subst">${id}</span>`</span>);
+};
+
+<span class="hljs-keyword">const</span> removeAll = <span class="hljs-function">() =&gt;</span> {
+&nbsp;&nbsp;<span class="hljs-keyword">return</span> axios.delete(<span class="hljs-string">`/api/todos`</span>);
+};
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+&nbsp;&nbsp;getAll,
+&nbsp;&nbsp;get,
+&nbsp;&nbsp;create,
+&nbsp;&nbsp;update,
+&nbsp;&nbsp;remove,
+&nbsp;&nbsp;removeAll
+};</pre>
+  <p id="para-00040" class="eng hidden">Finally, to complete this step, update reactfrontend/App.js to the following to call the services.</p><p id="para-00040-vn" class="vn visible">Cuối cùng, để hoàn thành bước này, hãy cập nhật reactfrontend/App.js thành như sau để gọi các dịch vụ.</p>
+  <pre data-type="code" class="javascript" data-lang="javascript">handleSubmit = <span class="hljs-function">(<span class="hljs-params">item</span>) =&gt;</span> {
+&nbsp;&nbsp;<span class="hljs-keyword">var</span> data = {
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">id</span>: item.id,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">title</span>: item.title,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">content</span>: item.content,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">due_date</span>: item.due_date,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">category</span>: item.category
+&nbsp;&nbsp;};
+
+&nbsp;&nbsp;TodoService.create(data)
+&nbsp;&nbsp;&nbsp;&nbsp;.then(<span class="hljs-function">(<span class="hljs-params">res</span>) =&gt;</span> <span class="hljs-built_in">this</span>.refreshList())
+&nbsp;&nbsp;&nbsp;&nbsp;.catch(<span class="hljs-function">(<span class="hljs-params">err</span>) =&gt;</span> <span class="hljs-built_in">console</span>.log(err));
+};
+handleUpdate = <span class="hljs-function">(<span class="hljs-params">item</span>) =&gt;</span> {
+&nbsp;&nbsp;<span class="hljs-keyword">var</span> data = {
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">id</span>: item.id,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">title</span>: item.title,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">content</span>: item.content,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">due_date</span>: item.due_date,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">category</span>: item.category
+&nbsp;&nbsp;};
+&nbsp;&nbsp;TodoService.update(item.id, data)
+&nbsp;&nbsp;&nbsp;&nbsp;.then(<span class="hljs-function">(<span class="hljs-params">res</span>) =&gt;</span> <span class="hljs-built_in">this</span>.refreshList())
+&nbsp;&nbsp;&nbsp;&nbsp;.catch(<span class="hljs-function">(<span class="hljs-params">err</span>) =&gt;</span> <span class="hljs-built_in">console</span>.log(err));
+};
+handleDelete = <span class="hljs-function">(<span class="hljs-params">item</span>) =&gt;</span> {
+&nbsp;&nbsp;TodoService.remove(item.id)
+&nbsp;&nbsp;&nbsp;&nbsp;.then(<span class="hljs-function">(<span class="hljs-params">res</span>) =&gt;</span> <span class="hljs-built_in">this</span>.refreshList())
+&nbsp;&nbsp;&nbsp;&nbsp;.catch(<span class="hljs-function">(<span class="hljs-params">err</span>) =&gt;</span> <span class="hljs-built_in">console</span>.log(err));
+};
+refreshList = <span class="hljs-function">() =&gt;</span> {
+&nbsp;&nbsp;TodoService.getAll()
+&nbsp;&nbsp;.then(<span class="hljs-function">(<span class="hljs-params">res</span>) =&gt;</span> <span class="hljs-built_in">this</span>.setState({ <span class="hljs-attr">todoList</span>: res.data }))
+&nbsp;&nbsp;.catch(<span class="hljs-function">(<span class="hljs-params">err</span>) =&gt;</span> <span class="hljs-built_in">console</span>.log(err));
+}</pre>
+  <p id="para-00041" class="eng hidden">Once this is completed, run both the Express <span data-type="term" class="no-emphasis" id="term-00006" group-by="w">web server</span> and the React app using the following commands:</p><p id="para-00041-vn" class="vn visible">Khi việc này hoàn tất, hãy chạy cả <span data-type="term" class="no-emphasis" id="term-00006" group-by="w">web server</span> Express và ứng dụng React bằng cách sử dụng các lệnh sau:</p>
+  <pre data-type="code" class="shell" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> node server.js</span>
+<span class="hljs-meta">$</span><span class="bash"> npm start</span></pre>
+  <p id="para-00042" class="eng hidden">When this is done, use the form shown in <a href="11-3-sample-responsive-wad-with-bootstrap-react-and-node#fig-00006" class="autogenerated-content" aria-label="View Figure 11.34">Figure 11.34</a> to create a new todo item.</p><p id="para-00042-vn" class="vn visible">Khi việc này hoàn tất, hãy sử dụng biểu mẫu được hiển thị trong <a href="11-3-sample-responsive-wad-with-bootstrap-react-and-node#fig-00006" class="autogenerated-content" aria-label="View Figure 11.34">Hình 11.34</a> để tạo một mục todo mới.</p>
+  <div class="os-figure" id="fig-00006"><figure data-id="fig-00006" class="ui-has-child-figcaption">
+  <span data-type="media" data-alt="Screenshot of Todo List form to create items.">
+  <button type="button" aria-label="Click to enlarge image of Screenshot of Todo List form to create items." class="image-button-wrapper"><img src="assets/img-11-3-5.webp" data-media-type="image/jpeg" alt="Screenshot of Todo List form to create items." width="1300" height="790" loading="lazy"></button>
+  </span>
+  
+  <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.34</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">Once the Todo web application is created using Bootstrap with React and Node, this form can be used to create todo items. (rendered using Bootstrap, under MIT license copyrighted 2018 Twitter, with React by Meta Open Source and Node; attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>  
+<span class="os-number">11.34</span>  
+
+<span class="os-divider"> </span>  
+<span class="os-caption">Khi ứng dụng web Todo được tạo ra bằng Bootstrap với React và Node, biểu mẫu này có thể được sử dụng để tạo các mục todo. (được hiển thị bằng Bootstrap, theo giấy phép MIT bản quyền 2018 Twitter, với React của Meta Open Source và Node; ghi nhận: Bản quyền Đại học Rice, OpenStax, theo giấy phép CC BY NC-SA 4.0)</span></figcaption></figure></div>
+  </section>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </body></html>

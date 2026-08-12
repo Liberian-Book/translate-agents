@@ -1,0 +1,760 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-12-1-9.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/12-1-the-indian-ocean-world-in-the-early-middle-ages.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-12-1-9.vi.png",
+  "ocr": [
+    {
+      "text": "TG J ali",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 102,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "| ; vai Tue, eo",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 238,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "Rd «eal JR oy fis, Ee",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 374,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "3 i = BF hoa Sa DE ae",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 510,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "le oT of] Se Eh Neuer Ta",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 646,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "sil + HB EN Et HS LOR bi",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 782,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "bia ae ZR A #3060 = SAS Ei ne RH ie i J",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 918,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "i 3:49 dhe al Ne 5 RE :",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 1054,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": ": Bm Lawl S\\N WER A Lore Ge Oli",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 1190,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "35 NG 2 ALES a = = Td = mkt Pr ~ |",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 1326,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "tet i\" DE = ea SE an Peg -",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 1462,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "“5 { ary Non 2 ® NG: 0",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 1598,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "- fl a \\ SUA CR se VET Tre oll ns",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 1734,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "ES =F ie ey oy 5 V",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 1870,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": ". Ly Sl Sa ora 2",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 2006,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "i - : = Lo Hw aT a &, TN = ol 5 A £0 My",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 2142,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "| LH 5 JE Laan ay No ile font",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 2278,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "5 i 'S Ls al ad lr Soa @ ad",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 2414,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "= Hi Poa = La 5 Ih - 1 \\ I 5h ie :",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 2550,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "par La Wi a fn",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 2686,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "BY i: to AR i CE a AN We it RET al ile i",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 2822,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "fa Aa = ut Aa",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 2958,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "Se - i Ie. le i cee A flo fo",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 3094,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "= | i oa Le - 2 a Ap “in 5 JiR! oy Las",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 3230,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "50 a # len Ii T2y Ja Loli",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 3366,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "| Ee So ll 1 i Te baal Lei",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 3502,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "on JE ha a IRM be a LE",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 3638,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "¥ ji : J : SE Aly ills at i i ol Tk he",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 3774,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "Cia Bl 28 fh - \\ oN = 7) we El i Ii a !",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 3910,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "ee GE Jie SR sw Ey as I Lia",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 4046,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "Ll H pi ih] 4 RS RET f AN TL JE Sl SH Al | (RI {hh",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 4182,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "SO Fe sk be Ie fs 7, SAN G jy el il",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 4318,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "rh —— fo WEL | —ai [f= 7S Ni Wi 7 ie fib 1 1d",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 4454,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "ai de E> PANS Tigi o oh Jo Jr MUIR \\ Lh a",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 4590,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "PRE dos Si All LY dh",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 4726,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "L = Noa ee l= IA) fy i |",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 4862,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "sh == Nee WERE) 5",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 4998,
+        "w": 960,
+        "h": 68
+      }
+    },
+    {
+      "text": "SEAT Rae T for",
+      "confidence": 25,
+      "bbox": {
+        "x": 120,
+        "y": 5134,
+        "w": 960,
+        "h": 68
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A worn image of a gray paper is seen with ragged edges and stains all over on a pale orange background. The left third of the image is Asian script written in columns in black ink. The right two thirds of the image show a faded drawing of a person in robes with circles behind them sitting in front of a short table. People in various types of clothing are located above, below, and to the right of the seated figure and a patterned square design with leaves in the middle is seen throughout the left side. Decorative swirls and people floating are seen along the top.\nButton label: Click to enlarge image of A worn image of a gray paper is seen with ragged edges and stains all over on a pale orange background. The left third of the image is Asian script written in columns in black ink. The right two thirds of the image show a faded drawing of a person in robes with circles behind them sitting in front of a short table. People in various types of clothing are located above, below, and to the right of the seated figure and a patterned square design with leaves in the middle is seen throughout the left side. Decorative swirls and people floating are seen along the top.\nEnglish caption: Figure 12.11 The First Block-Printed Book. This is a page from the Diamond Sutra, the world’s first block-printed book, made in China in 868. Note the image of the Buddha in the center, and consider how the production of multiple copies of documents such as this could lead to wider knowledge of Buddhism. (credit: modification of work “Jingangjing” by British Library/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 2.423446658851114,
+    "averageConfidence": 25,
+    "entropy": 7.082579538458958,
+    "sharpness": 15.896839757403407
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A worn image of a gray paper is seen with ragged edges and stains all over on a pale orange background. The left third of the image is Asian script written in columns in black ink. The right two thirds of the image show a faded drawing of a person in robes with circles behind them sitting in front of a short table. People in various types of clothing are located above, below, and to the right of the seated figure and a patterned square design with leaves in the middle is seen throughout the left side. Decorative swirls and people floating are seen along the top.\nButton label: Click to enlarge image of A worn image of a gray paper is seen with ragged edges and stains all over on a pale orange background. The left third of the image is Asian script written in columns in black ink. The right two thirds of the image show a faded drawing of a person in robes with circles behind them sitting in front of a short table. People in various types of clothing are located above, below, and to the right of the seated figure and a patterned square design with leaves in the middle is seen throughout the left side. Decorative swirls and people floating are seen along the top.\nEnglish caption: Figure 12.11 The First Block-Printed Book. This is a page from the Diamond Sutra, the world’s first block-printed book, made in China in 868. Note the image of the Buddha in the center, and consider how the production of multiple copies of documents such as this could lead to wider knowledge of Buddhism. (credit: modification of work “Jingangjing” by British Library/Wikimedia Commons, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "\\ ¥, | vi hl Fr",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 127,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "Ten ss. ATCT SEE es ACR |",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 296,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "Gi EEN",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 465,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "coopzgp NN Elsie Bh Hw bee =",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 634,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "5 : 5 RIS fede (AN Se SN Nes d= = J",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 803,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "a E EB FF 8 AZURN cod ds Pips \\ SH, SE ro Is or in",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 972,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "AER a sea Ce Yo",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 1141,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "RE eT a) durin",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 1310,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "CREA DN SN SR RY NE NT Ta i Je",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 1479,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "E BAIR Re PA GIT SAAR HAR Cogs BAN 3 iF ADS",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 1648,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": ": Wo (INE ANS Mis SI or DRC! ARE 6% of =i",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 1817,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "+ BF be Lory Snel (A",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 1986,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "Yoyo She, ANE SA WN CT Es LL Ne ON RE te a Tl ES",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 2155,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "FERRER A Lp pel Ei",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 2324,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "Seo: hag TQ Rall Zl) RG Si ER",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 2493,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "8&5 E Eg BL Bui R27 NEA I DE Ly N75 RN v7 JAN edt NL 1 A",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 2662,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "1H Re Ay 2) Sh i TR i",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 2831,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "gf 025% & Eee i A fe val ym Gola a",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 3000,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "FEEL: pale a a SR SN Na",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 3169,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "EE BN Sen TE aes ag Soke",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 3338,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "LBL Cer wa BET EY Sd Leah",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 3507,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "EE ERERE ANY AN ol ll I Fad at j a",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 3676,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "Ea fo Ne NL Al Fate al) Tea,",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 3845,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "£7 ¢ 23 po dutanchevitl I EO",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 4014,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "HERE Te Na =e Cn",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 4183,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "BE aides. x 5 ELA NNN JC i A | }",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 4352,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "ie g ; FRR I Es) T= Ti Nh a By TAY JA sal ] dil i}",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 4521,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "EC £0 LL) ER FEN a ie 7 Hil \\",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 4690,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "ef 2 LEONE Ree ANZ NOEL J",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 4859,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": ": : hh Mi (E15 ) Sante 7): ZN TR = AS",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 5028,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "BORE Ma EC Em NANT JR 5 aN Ww",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 5197,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "yok. so ocr SEs ZNSE OR Sa",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 5366,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "Tr ret Tepe Rh SORE CRAB EBLE 1 TT (Dp a retry ar WC skid - fd alga",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 5535,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "a ERT oa 4 ALC i srt cheat 122 faa",
+        "confidence": 24,
+        "bbox": {
+          "x": 149,
+          "y": 5704,
+          "w": 1190,
+          "h": 85
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": [
+        "pale"
+      ]
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

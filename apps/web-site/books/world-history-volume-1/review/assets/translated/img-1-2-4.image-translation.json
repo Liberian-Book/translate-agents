@@ -1,0 +1,168 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-1-2-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/1-2-primary-sources.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-1-2-4.vi.png",
+  "ocr": [
+    {
+      "text": "‘BRERA RNY YY ° <= Cw",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 89,
+        "w": 880,
+        "h": 59
+      }
+    },
+    {
+      "text": "Ral 1 LL LR alo. WIT",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 208,
+        "w": 880,
+        "h": 59
+      }
+    },
+    {
+      "text": "Sih oy",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 327,
+        "w": 880,
+        "h": 59
+      }
+    },
+    {
+      "text": "Bh She. LN )",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 446,
+        "w": 880,
+        "h": 59
+      }
+    },
+    {
+      "text": "oe oN SH ¢ Bsns re SL p A =",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 565,
+        "w": 880,
+        "h": 59
+      }
+    },
+    {
+      "text": "Las ele Gf",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 684,
+        "w": 880,
+        "h": 59
+      }
+    },
+    {
+      "text": "Be a [CT Ng IE",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 803,
+        "w": 880,
+        "h": 59
+      }
+    },
+    {
+      "text": "Lim LCOS al",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 922,
+        "w": 880,
+        "h": 59
+      }
+    },
+    {
+      "text": "We TES BR Edi 1s = Be ——-— oT »",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 1041,
+        "w": 880,
+        "h": 59
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This photograph shows the interior of Hagia Sophia. The building has richly decorated dome ceilings. Medallions bearing Arabic writing are on the walls.\nButton label: Click to enlarge image of This photograph shows the interior of Hagia Sophia. The building has richly decorated dome ceilings. Medallions bearing Arabic writing are on the walls.\nEnglish caption: Figure 1.7 Hagia Sophia’s Many Influences. Muslims consider themselves the heirs of Judaism and Christianity, and until recently, you could still see the early Greek iconography in the interior of Hagia Sophia. Now it is covered during prayer times by large medallions bearing Arabic writing. (credit: “Hagia Sophia Istanbul 2013 13” by Karelj/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 0.5725067385444744,
+    "averageConfidence": 20,
+    "entropy": 7.593747647712007,
+    "sharpness": 4.174182377801009
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: This photograph shows the interior of Hagia Sophia. The building has richly decorated dome ceilings. Medallions bearing Arabic writing are on the walls.\nButton label: Click to enlarge image of This photograph shows the interior of Hagia Sophia. The building has richly decorated dome ceilings. Medallions bearing Arabic writing are on the walls.\nEnglish caption: Figure 1.7 Hagia Sophia’s Many Influences. Muslims consider themselves the heirs of Judaism and Christianity, and until recently, you could still see the early Greek iconography in the interior of Hagia Sophia. Now it is covered during prayer times by large medallions bearing Arabic writing. (credit: “Hagia Sophia Istanbul 2013 13” by Karelj/Wikimedia Commons, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "TARE SE fy ¥",
+        "confidence": 36,
+        "bbox": {
+          "x": 153,
+          "y": 124,
+          "w": 1222,
+          "h": 82
+        }
+      },
+      {
+        "text": "A) (5 5) a G7 : [ie on = \\ 4",
+        "confidence": 36,
+        "bbox": {
+          "x": 153,
+          "y": 289,
+          "w": 1222,
+          "h": 82
+        }
+      },
+      {
+        "text": ": sia =gvpwen | SEE)",
+        "confidence": 36,
+        "bbox": {
+          "x": 153,
+          "y": 454,
+          "w": 1222,
+          "h": 82
+        }
+      },
+      {
+        "text": "=2 = i Re = ~~. : | is =",
+        "confidence": 36,
+        "bbox": {
+          "x": 153,
+          "y": 619,
+          "w": 1222,
+          "h": 82
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

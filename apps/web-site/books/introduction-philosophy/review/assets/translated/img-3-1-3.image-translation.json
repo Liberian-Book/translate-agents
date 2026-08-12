@@ -1,0 +1,351 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-3-1-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/3-1-indigenous-philosophy.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "image-edit-leftover-source-english",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Gulf of Mexico",
+      "confidence": 58,
+      "bbox": {
+        "x": 116,
+        "y": 140,
+        "w": 930,
+        "h": 93
+      }
+    },
+    {
+      "text": "NY ~",
+      "confidence": 58,
+      "bbox": {
+        "x": 116,
+        "y": 326,
+        "w": 930,
+        "h": 93
+      }
+    },
+    {
+      "text": "Itza",
+      "confidence": 58,
+      "bbox": {
+        "x": 116,
+        "y": 512,
+        "w": 930,
+        "h": 93
+      }
+    },
+    {
+      "text": "A Uxmg (4",
+      "confidence": 58,
+      "bbox": {
+        "x": 116,
+        "y": 698,
+        "w": 930,
+        "h": 93
+      }
+    },
+    {
+      "text": "50s! acan",
+      "confidence": 58,
+      "bbox": {
+        "x": 116,
+        "y": 884,
+        "w": 930,
+        "h": 93
+      }
+    },
+    {
+      "text": "i an Yuc ula",
+      "confidence": 58,
+      "bbox": {
+        "x": 116,
+        "y": 1070,
+        "w": 930,
+        "h": 93
+      }
+    },
+    {
+      "text": "Pacific Ocean -",
+      "confidence": 58,
+      "bbox": {
+        "x": 116,
+        "y": 1256,
+        "w": 930,
+        "h": 93
+      }
+    },
+    {
+      "text": "[0 Maya Civilization, 900 A.D. |",
+      "confidence": 58,
+      "bbox": {
+        "x": 116,
+        "y": 1442,
+        "w": 930,
+        "h": 93
+      }
+    },
+    {
+      "text": "Bl Aztec Empire, 1521 A.D. a",
+      "confidence": 58,
+      "bbox": {
+        "x": 116,
+        "y": 1628,
+        "w": 930,
+        "h": 93
+      }
+    },
+    {
+      "text": "oN",
+      "confidence": 58,
+      "bbox": {
+        "x": 116,
+        "y": 1814,
+        "w": 930,
+        "h": 93
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Gulf of Mexico",
+      "normalizedSource": "Gulf of Mexico",
+      "target": "Vịnh Mexico",
+      "bbox": {
+        "x": 116,
+        "y": 140,
+        "w": 930,
+        "h": 93
+      },
+      "overflow": false
+    },
+    {
+      "source": "NY ~",
+      "normalizedSource": "NY ~",
+      "target": "NY ~",
+      "bbox": {
+        "x": 116,
+        "y": 326,
+        "w": 930,
+        "h": 93
+      },
+      "overflow": false
+    },
+    {
+      "source": "Itza",
+      "normalizedSource": "Itza",
+      "target": "Itza",
+      "bbox": {
+        "x": 116,
+        "y": 512,
+        "w": 930,
+        "h": 93
+      },
+      "overflow": false
+    },
+    {
+      "source": "A Uxmg (4",
+      "normalizedSource": "A Uxmg (4",
+      "target": "A Uxmg (4",
+      "bbox": {
+        "x": 116,
+        "y": 698,
+        "w": 930,
+        "h": 93
+      },
+      "overflow": false
+    },
+    {
+      "source": "50s! acan",
+      "normalizedSource": "50s! acan",
+      "target": "50s! acan",
+      "bbox": {
+        "x": 116,
+        "y": 884,
+        "w": 930,
+        "h": 93
+      },
+      "overflow": false
+    },
+    {
+      "source": "i an Yuc ula",
+      "normalizedSource": "i an Yuc ula",
+      "target": "i an Yuc ula",
+      "bbox": {
+        "x": 116,
+        "y": 1070,
+        "w": 930,
+        "h": 93
+      },
+      "overflow": false
+    },
+    {
+      "source": "Pacific Ocean -",
+      "normalizedSource": "Pacific Ocean -",
+      "target": "Thái Bình Dương -",
+      "bbox": {
+        "x": 116,
+        "y": 1256,
+        "w": 930,
+        "h": 93
+      },
+      "overflow": false
+    },
+    {
+      "source": "[0 Maya Civilization, 900 A.D. |",
+      "normalizedSource": "[0 Maya Civilization, 900 A.D. |",
+      "target": "[0 Nền văn minh Maya, 900 A.D. |",
+      "bbox": {
+        "x": 116,
+        "y": 1442,
+        "w": 930,
+        "h": 93
+      },
+      "overflow": false
+    },
+    {
+      "source": "Bl Aztec Empire, 1521 A.D. a",
+      "normalizedSource": "Bl Aztec Empire, 1521 A.D. a",
+      "target": "Bl Đế chế Aztec, 1521 A.D. a",
+      "bbox": {
+        "x": 116,
+        "y": 1628,
+        "w": 930,
+        "h": 93
+      },
+      "overflow": false
+    },
+    {
+      "source": "oN",
+      "normalizedSource": "oN",
+      "target": "oN",
+      "bbox": {
+        "x": 116,
+        "y": 1814,
+        "w": 930,
+        "h": 93
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.6394498173475808,
+    "averageConfidence": 58,
+    "entropy": 2.957973983429838,
+    "sharpness": 4.261324553436042
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Gulf of Mexico => Vịnh Mexico\n- NY ~ => NY ~\n- Itza => Itza\n- A Uxmg (4 => A Uxmg (4\n- 50s! acan => 50s! acan\n- i an Yuc ula => i an Yuc ula\n- Pacific Ocean - => Thái Bình Dương -\n- [0 Maya Civilization, 900 A.D. | => [0 Nền văn minh Maya, 900 A.D. |\n- Bl Aztec Empire, 1521 A.D. a => Bl Đế chế Aztec, 1521 A.D. a\n- oN => oN\nPrevious output was rejected because these English source words were still visible: mexico, itza, maya, aztec. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Vinh Mexico",
+        "confidence": 62,
+        "bbox": {
+          "x": 125,
+          "y": 150,
+          "w": 1003,
+          "h": 100
+        }
+      },
+      {
+        "text": "78 Itza",
+        "confidence": 62,
+        "bbox": {
+          "x": 125,
+          "y": 351,
+          "w": 1003,
+          "h": 100
+        }
+      },
+      {
+        "text": "; Uxma (74",
+        "confidence": 62,
+        "bbox": {
+          "x": 125,
+          "y": 552,
+          "w": 1003,
+          "h": 100
+        }
+      },
+      {
+        "text": "acan",
+        "confidence": 62,
+        "bbox": {
+          "x": 125,
+          "y": 753,
+          "w": 1003,
+          "h": 100
+        }
+      },
+      {
+        "text": "C 3 a : Bd",
+        "confidence": 62,
+        "bbox": {
+          "x": 125,
+          "y": 954,
+          "w": 1003,
+          "h": 100
+        }
+      },
+      {
+        "text": "“ ai >",
+        "confidence": 62,
+        "bbox": {
+          "x": 125,
+          "y": 1155,
+          "w": 1003,
+          "h": 100
+        }
+      },
+      {
+        "text": "Thdi Binh Duong 7,",
+        "confidence": 62,
+        "bbox": {
+          "x": 125,
+          "y": 1356,
+          "w": 1003,
+          "h": 100
+        }
+      },
+      {
+        "text": "I N&n van minh Maya, 900 A.D. W",
+        "confidence": 62,
+        "bbox": {
+          "x": 125,
+          "y": 1557,
+          "w": 1003,
+          "h": 100
+        }
+      },
+      {
+        "text": "Bl Dé ché Aztec, 1521 A.D. &",
+        "confidence": 62,
+        "bbox": {
+          "x": 125,
+          "y": 1758,
+          "w": 1003,
+          "h": 100
+        }
+      }
+    ],
+    "validation": {
+      "ok": false,
+      "reason": "image-edit-leftover-source-english",
+      "leftoverSourceWords": [
+        "mexico",
+        "itza",
+        "acan",
+        "maya",
+        "aztec"
+      ]
+    },
+    "validationAttempt": 3
+  }
+}

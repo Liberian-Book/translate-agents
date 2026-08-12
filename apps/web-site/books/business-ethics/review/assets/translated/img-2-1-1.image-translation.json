@@ -1,0 +1,324 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-2-1-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/2-1-the-concept-of-ethical-business-in-ancient-athens.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-2-1-1.vi.png",
+  "ocr": [
+    {
+      "text": "ARISTOTELIS DE",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 68,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "os MORIBVS AD NICOMACHVM",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 159,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "Tl Lian necsa",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 250,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "CPE CL Gracas Latina eregion refiondent,interprece 0.1 o 1 vs",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 341,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "ATARI S10 Lanz ixosmeiulden Annottonbus&",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 432,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "AR / Sa TuEOD, 271 Got Scholf,",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 523,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "\\ ALLA LIBER PRIMYS»",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 614,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "—\\g Trisndutprolgomens decaca: Selina philiphie Edhice:",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 705,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "/ J tet mia pe",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 796,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "| i y Quiers auditrenseffs sptsss.",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 887,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "{i A AL fox =",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 978,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "i PRES ni « Ep sa, ry",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 1069,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "A A a Sp] RE oN en",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 1160,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "TN J k Nizaimaaads 77) Fron",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 1251,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "ie Rf Lal Eerie \\ ©) Ei",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 1342,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "+ hy ja BER A i",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 1433,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "Sr hE imme TE",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 1524,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "A BR doe pre gen",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 1615,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": ": NW? forsee Enema",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 1706,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "5 ” rT 0 Soe RE er A LL",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 1797,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "Po Waid, maa yin 8 ve ie ‘entirecicNT wedicing ins £3, bons vale",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 1888,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "Pp: Paps ny ye, yd verry wdouans rdf dari eauinewisianis",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 1979,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "CE a A",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 2070,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "BRETT i",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 2161,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "Ee CRE IE",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 2252,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "£ oe Ee I TS",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 2343,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "“o CE LIE",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 2434,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "Xx i 20S ining iy mie wir 789 omaBus fac card qos pope eed oh",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 2525,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "= oe Aremmoiy rs enero By dpb tincat az qug cs fubledre fun, Sib",
+      "confidence": 29,
+      "bbox": {
+        "x": 80,
+        "y": 2616,
+        "w": 640,
+        "h": 45
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: Part A is a statue depicting Aristotle. Part B shows a print copy of Aristotle’s Nicomachean Ethics.\nButton label: Click to enlarge image of Part A is a statue depicting Aristotle. Part B shows a print copy of Aristotle’s Nicomachean Ethics.\nEnglish caption: Figure 2.2 Nicomachean Ethics, by the ancient Greek philosopher Aristotle (a), is a rough collection of Aristotle’s lecture notes to his students on how to live the virtuous life and achieve happiness; it is the oldest surviving treatment of ethics in the West. The collection was possibly named after Aristotle’s son. This 1566 edition (b) was printed in both Greek and Latin. (credit a: modification of “Aristotle Altemps Inv8575” by “Jastrow”/Wikimedia Commons, Public Domain; credit b: modification of “Aristotelis De Moribus ad Nicomachum” by \"Aavindraa\"/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 1.8445229681978799,
+    "averageConfidence": 29,
+    "entropy": 6.888993403466884,
+    "sharpness": 8.623624845930124
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

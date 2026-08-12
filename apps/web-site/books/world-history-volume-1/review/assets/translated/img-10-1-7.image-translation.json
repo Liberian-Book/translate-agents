@@ -1,0 +1,918 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-10-1-7.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/10-1-the-eastward-shift.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-10-1-7.vi.png",
+  "ocr": [
+    {
+      "text": "20 A 10 R 0 — 10 D 20 po] LT 2 EE AY",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 125,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "FEE RCT Re v == q",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 292,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "Lice, {",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 459,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "8 5 ? : iS",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 626,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "A ¥ L¥ ¢ NORTH Sk4 p $8 pacts A",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 793,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "; Eaa-N PR",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 960,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "5 JA 002 5 co a V ©",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 1127,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "; VE Rn Cy SR A i",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 1294,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "aS) LW [) pls Sond, Si L a2 ae me",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 1461,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "HES ATG deedanie Sp elogP | Se",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 1628,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "Q a SSL ops od urgenCk, pre",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 1795,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "fr PR ® y =",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 1962,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "/ SA Trad HR has, oY gompards P|",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 2129,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "Soa Se end hh 4 IX _pede, | NR",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 2296,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "P / TREN a Wi |} Pesady \\e N= Ap",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 2463,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "pia i, Ty EE (RITA",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 2630,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "{fgtaine\\) SEECRINGDOMS OF THE GER\" 53",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 2797,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "& \\ [yore CAE verona, 95 { FA",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 2964,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "NE THES Spies dpde | S (| aii\\eads",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 3131,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "5 NEW Ea md VR I giana pani BOT ge",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 3298,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "| Soe Nn soning ERT SARs “P| ew [9",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 3465,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "hol raga,” ena 2s gus” xa - agi ie, 5 Et x riaeP SS",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 3632,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "J 2 i Ig oe mses) dg ; pelt daca Pears i 40",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 3799,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "Zolegty race va PO atm RL Zo",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 3966,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "Na frezsmn A mepe. fl gy oN AX",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 4133,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "© Gr mE gg mca ly 0 Stdinta oS IRN TE 4",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 4300,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "Orit, + OTHSY Pltercrs, % {J 1 TRS a ph",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 4467,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "“a 3 £53 a Se 7",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 4634,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "c Za Coxthage < 3 c",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 4801,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "RGus, GS NPAPRS 0 RAZ 5 gate A",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 4968,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "” ie x SEN 25 etl",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 5135,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "The Germanic Kingdoms and the NR putvada; ¥ = 5 E A",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 5302,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "i ad boo | 5 N eM ANE: b .",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 5469,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "a of. i c Ke Vest D 5",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 5636,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "FG la nds he Tatter at white SNe pIRE |",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 5803,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "aly “checkered, ALY as. oF A oo) AL Cex BM arid SS",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 5970,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "EE Ef rl ony 7 meee,",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 6137,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "o Scale 1:30900000, ) rE w",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 6304,
+        "w": 1040,
+        "h": 83
+      }
+    },
+    {
+      "text": "0 B ° C Longiudo Bast io of Greenwich D a RI BER",
+      "confidence": 31,
+      "bbox": {
+        "x": 130,
+        "y": 6471,
+        "w": 1040,
+        "h": 83
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A historical map of Europe is shown with longitude and latitude lines running throughout. It is labeled “The Germanic Kingdoms and the East Roman Empire in 526.” A scale is shown under a paragraph written about the map under the title. The map shows Europe, the northern area of Africa, the North Sea, the Atlantic Ocean, the Mediterranean Sea, and the Black Sea. Ireland is outlined with light brown and labeled “Scots.” The northern half of the United Kingdom is outlined in light blue and labeled “Picts.” The southern western half of the United Kingdom is outlined in bright yellow and labeled “Britons” while the eastern half is highlighted pink and labeled “Angles and Saxons.” Denmark and the northern portion of Germany are highlighted pink as well and labeled with “Jutes” and Saxons” respectively. The rest of Germany, the Netherlands, Belgium, and France are highlighted yellow and labeled “Kingdom of the Franks.” A rounded “T” shaped area below that is highlighted dark yellow and labeled “Burgundians.” Portugal is highlighted pale brown and labeled “Sueves.” Spain and southern France are highlighted pale orange and labeled “Kingdom of the West Goths.” A slice of northern Spain is highlighted a cream color and labeled “Basques.” Italy, Sicily, and a large area to the east of Italy are also highlighted pale orange and labeled “Kingdom of the East Goths.” A thin area of northern Africa is highlighted pale blue and labeled “Kingdom of the Vandals.” Greece, Turkey, and a thin area of northeastern Africa are outlined in pale green and labeled “East Roman Empire.” The eastern area of Europe that is left is labeled “Slavic Peoples” with one area in southern Poland labeled “Lombards” with the word highlighted yellow and south of that in the Ukraine an area labeled “Gepids” with the word underlined in pale pink. Many cities and rivers are labeled throughout the map.\nButton label: Click to enlarge image of A historical map of Europe is shown with longitude and latitude lines running throughout. It is labeled “The Germanic Kingdoms and the East Roman Empire in 526.” A scale is shown under a paragraph written about the map under the title. The map shows Europe, the northern area of Africa, the North Sea, the Atlantic Ocean, the Mediterranean Sea, and the Black Sea. Ireland is outlined with light brown and labeled “Scots.” The northern half of the United Kingdom is outlined in light blue and labeled “Picts.” The southern western half of the United Kingdom is outlined in bright yellow and labeled “Britons” while the eastern half is highlighted pink and labeled “Angles and Saxons.” Denmark and the northern portion of Germany are highlighted pink as well and labeled with “Jutes” and Saxons” respectively. The rest of Germany, the Netherlands, Belgium, and France are highlighted yellow and labeled “Kingdom of the Franks.” A rounded “T” shaped area below that is highlighted dark yellow and labeled “Burgundians.” Portugal is highlighted pale brown and labeled “Sueves.” Spain and southern France are highlighted pale orange and labeled “Kingdom of the West Goths.” A slice of northern Spain is highlighted a cream color and labeled “Basques.” Italy, Sicily, and a large area to the east of Italy are also highlighted pale orange and labeled “Kingdom of the East Goths.” A thin area of northern Africa is highlighted pale blue and labeled “Kingdom of the Vandals.” Greece, Turkey, and a thin area of northeastern Africa are outlined in pale green and labeled “East Roman Empire.” The eastern area of Europe that is left is labeled “Slavic Peoples” with one area in southern Poland labeled “Lombards” with the word highlighted yellow and south of that in the Ukraine an area labeled “Gepids” with the word underlined in pale pink. Many cities and rivers are labeled throughout the map.\nEnglish caption: Figure 10.10 Germanic Kingdoms. The increasing influx of Germanic peoples into the western empire brought about a fracturing of Roman power as a series of i",
+  "metrics": {
+    "textDensity": 2.482837967401726,
+    "averageConfidence": 31,
+    "entropy": 6.924161003538757,
+    "sharpness": 5.373160677401025
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A historical map of Europe is shown with longitude and latitude lines running throughout. It is labeled “The Germanic Kingdoms and the East Roman Empire in 526.” A scale is shown under a paragraph written about the map under the title. The map shows Europe, the northern area of Africa, the North Sea, the Atlantic Ocean, the Mediterranean Sea, and the Black Sea. Ireland is outlined with light brown and labeled “Scots.” The northern half of the United Kingdom is outlined in light blue and labeled “Picts.” The southern western half of the United Kingdom is outlined in bright yellow and labeled “Britons” while the eastern half is highlighted pink and labeled “Angles and Saxons.” Denmark and the northern portion of Germany are highlighted pink as well and labeled with “Jutes” and Saxons” respectively. The rest of Germany, the Netherlands, Belgium, and France are highlighted yellow and labeled “Kingdom of the Franks.” A rounded “T” shaped area below that is highlighted dark yellow and labeled “Burgundians.” Portugal is highlighted pale brown and labeled “Sueves.” Spain and southern France are highlighted pale orange and labeled “Kingdom of the West Goths.” A slice of northern Spain is highlighted a cream color and labeled “Basques.” Italy, Sicily, and a large area to the east of Italy are also highlighted pale orange and labeled “Kingdom of the East Goths.” A thin area of northern Africa is highlighted pale blue and labeled “Kingdom of the Vandals.” Greece, Turkey, and a thin area of northeastern Africa are outlined in pale green and labeled “East Roman Empire.” The eastern area of Europe that is left is labeled “Slavic Peoples” with one area in southern Poland labeled “Lombards” with the word highlighted yellow and south of that in the Ukraine an area labeled “Gepids” with the word underlined in pale pink. Many cities and rivers are labeled throughout the map.\nButton label: Click to enlarge image of A historical map of Europe is shown with longitude and latitude lines running throughout. It is labeled “The Germanic Kingdoms and the East Roman Empire in 526.” A scale is shown under a paragraph written about the map under the title. The map shows Europe, the northern area of Africa, the North Sea, the Atlantic Ocean, the Mediterranean Sea, and the Black Sea. Ireland is outlined with light brown and labeled “Scots.” The northern half of the United Kingdom is outlined in light blue and labeled “Picts.” The southern western half of the United Kingdom is outlined in bright yellow and labeled “Britons” while the eastern half is highlighted pink and labeled “Angles and Saxons.” Denmark and the northern portion of Germany are highlighted pink as well and labeled with “Jutes” and Saxons” respectively. The rest of Germany, the Netherlands, Belgium, and France are highlighted yellow and labeled “Kingdom of the Franks.” A rounded “T” shaped area below that is highlighted dark yellow and labeled “Burgundians.” Portugal is highlighted pale brown and labeled “Sueves.” Spain and southern France are highlighted pale orange and labeled “Kingdom of the West Goths.” A slice of northern Spain is highlighted a cream color and labeled “Basques.” Italy, Sicily, and a large area to the east of Italy are also highlighted pale orange and labeled “Kingdom of the East Goths.” A thin area of northern Africa is highlighted pale blue and labeled “Kingdom of the Vandals.” Greece, Turkey, and a thin area of northeastern Africa are outlined in pale green and labeled “East Roman Empire.” The eastern area of Europe that is left is labeled “Slavic Peoples” with one area in southern Poland labeled “Lombards” with the word highlighted yellow and south of that in the Ukraine an area labeled “Gepids” with the word underlined in pale pink. Many cities and rivers are labeled throughout the map.\nEnglish caption: Figure 10.10 Germanic Kingdoms. The increasing influx of Germanic peoples into the western empire brought about a fracturing of Roman power as a series of i\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "20 A 10 B 0 C 10 [DREREHCO E 30 F 40",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 135,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "Re Bic Cyc) 1. 5 Ea v",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 315,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "WP Ngoi a ¢",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 495,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "+ & Pie-tg Me Nae Son",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 675,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "ly Ae Newsi § ia",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 855,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "bon © Gs ry Giugtd 5X 7",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 1035,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "a ¥ ) bor Bién Bic fois : hi a",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 1215,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "+ Nguoi § 7 Nguoi § 0mm :",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 1395,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "Roses | of dnd Be ali 4 Yeus lo",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 1575,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "i i go News Saxong Ei Saxonel $s 2 1. & 50",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 1755,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "3 Briton Jaki ig € uy, avy ? Pl",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 1935,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "eT aa Dy by.",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 2115,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "8 Zag coogrey 3 Thuringi % Lids bo se an",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 2295,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "S RE Mainz TT FE eo,",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 2475,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "IN §\\rg , (| o Ratisbon \\ NgwiLom-bdc 2",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 2655,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "I § Orléans o oa ll ( 4 . wl",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 2835,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "2% Nantes poe: pe 4 NSC",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 3015,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "vi Coo Tal ov NI Ard |",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 3195,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "GIL Sah) Str ba STR oi Gép-it |",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 3375,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "S VUNG qUoC Af VUONG QUOC Cla t Np GE) ody",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 3555,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "\\ [CUA NGUOL 3} eGenea | “670, NGUOLONG G01 flo ién Pen",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 3735,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "~ (Bsn PHRANC 7. Fe Yale le X p",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 3915,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "< $ Newi poor Gr J Rhin gE NE Novae",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 4095,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "[> Sueve i jel | Toutolb fm : Ta <3 4 * Naisus",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 4275,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "Er Ra EN : %,",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 4455,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "40 Jr Za i Fe “ . 140",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 4635,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "> 5 p I } i oY",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 4815,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "fo oy i \\ : rsica | Ria pol? Thessalonica 2 > a 5",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 4995,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "ie _lais x SEL ui",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 5175,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "b=\" VUONG QUOC CUA\" Quin dioBiles Sardinia NN) a Quoc 14",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 5355,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "t = DIN 53Q ONG",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 5535,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "NGUOT TAY op © R 9 0 Dhge yg pHU",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 5715,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "Cordoba, : P 2 2 ary ISpON \\",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 5895,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "Mil f Ea IT",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 6075,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "Malaga Carthagens > «f 00, , PE",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 6255,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "S yo we. (Gg",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 6435,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "g R Ceuta tig | = ie &",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 6615,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "/X J a ne",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 6795,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": ". # Viling quot cia ngusi Vindal 215, .",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 6975,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "Cac vuong quoc German va RD Dry \\ A",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 7155,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "DE qudc La Ma Dong phuong nim 526 VOUONG quae 4. “4 TRUNG HAI 3",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 7335,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "Si tram vio ngdy cing ting ca cde bg the German vio dE qui | ry a OC ie)",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 7515,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "phutong Tay da ddn dén su phan chia quyén luc La Ma khi chudi A NGUOrT [TR a 4 Quo & 0",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 7695,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "cde vlong quée German dugc thanh IGp trén cde lank the trude day 17 h pis Magna $= PE AN",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 7875,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "tre thufe. S6ndy cho bid cde viong qui German tong tng vio 'ANDAL 2 OIE & oT Alerandria",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 8055,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "er es 2 y a Bi |",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 8235,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "100 0 1007 306 300 400 500 600 asl Ee",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 8415,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "Dim a §",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 8595,
+          "w": 1120,
+          "h": 90
+        }
+      },
+      {
+        "text": "30 B 0 C Kinh dg Dong 10 clia Greenwich D 20 E 30",
+        "confidence": 43,
+        "bbox": {
+          "x": 140,
+          "y": 8775,
+          "w": 1120,
+          "h": 90
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

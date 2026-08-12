@@ -1,0 +1,93 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-10-2-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/10-2-environmental-ethics.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "=~, 57 SS",
+      "confidence": 27,
+      "bbox": {
+        "x": 80,
+        "y": 64,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "BER \\ aaa ates on » | —",
+      "confidence": 27,
+      "bbox": {
+        "x": 80,
+        "y": 149,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": ", = * Ee pr —",
+      "confidence": 27,
+      "bbox": {
+        "x": 80,
+        "y": 234,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "or pe S",
+      "confidence": 27,
+      "bbox": {
+        "x": 80,
+        "y": 319,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "SA iy Be 5p | re Te —",
+      "confidence": 27,
+      "bbox": {
+        "x": 80,
+        "y": 404,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "ee: lee [ore A A",
+      "confidence": 27,
+      "bbox": {
+        "x": 80,
+        "y": 489,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "Sai at e Sa aS",
+      "confidence": 27,
+      "bbox": {
+        "x": 80,
+        "y": 574,
+        "w": 640,
+        "h": 43
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.45178236397748595,
+    "averageConfidence": 27,
+    "entropy": 6.370180743149831,
+    "sharpness": 0.9731379420579422
+  }
+}

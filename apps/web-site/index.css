@@ -185,7 +185,7 @@ main {
   border: none;
   cursor: pointer;
   text-align: center;
-  margin-top: auto; /* push button to the bottom of the info block */
+  margin-top: auto;
 }
 
 .btn-read:hover {
@@ -233,4 +233,5 @@ footer {
     margin: 0 auto;
     gap: 24px;
   }
+
 }

@@ -1,0 +1,645 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-3-15.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-3-example-paas-and-faas-deployments-of-cloud-native-applications.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-12-3-15.vi.png",
+  "ocr": [
+    {
+      "text": "0) Octant © Filter by labels 4 2 Apply YAML (@) [All Namespaces]",
+      "confidence": 57,
+      "bbox": {
+        "x": 130,
+        "y": 93,
+        "w": 1041,
+        "h": 62
+      }
+    },
+    {
+      "text": "ee — i © kubesystem Kubernetes.io/metadata name kube-system Active",
+      "confidence": 57,
+      "bbox": {
+        "x": 130,
+        "y": 217,
+        "w": 1041,
+        "h": 62
+      }
+    },
+    {
+      "text": "f=) | cluster overview",
+      "confidence": 57,
+      "bbox": {
+        "x": 130,
+        "y": 341,
+        "w": 1041,
+        "h": 62
+      }
+    },
+    {
+      "text": "Aspleatons (8) Namespaces i © kubernetes dashboard ( acdormmanager kbermetesefmoteeconcis ) ® Active",
+      "confidence": 57,
+      "bbox": {
+        "x": 130,
+        "y": 465,
+        "w": 1041,
+        "h": 62
+      }
+    },
+    {
+      "text": "B Custom Resources",
+      "confidence": 57,
+      "bbox": {
+        "x": 130,
+        "y": 589,
+        "w": 1041,
+        "h": 62
+      }
+    },
+    {
+      "text": "[22] tems per pose",
+      "confidence": 57,
+      "bbox": {
+        "x": 130,
+        "y": 713,
+        "w": 1041,
+        "h": 62
+      }
+    },
+    {
+      "text": "Namespace % Custom Resource Definitions",
+      "confidence": 57,
+      "bbox": {
+        "x": 130,
+        "y": 837,
+        "w": 1041,
+        "h": 62
+      }
+    },
+    {
+      "text": "Guerin",
+      "confidence": 57,
+      "bbox": {
+        "x": 130,
+        "y": 961,
+        "w": 1041,
+        "h": 62
+      }
+    },
+    {
+      "text": "RBAC >",
+      "confidence": 57,
+      "bbox": {
+        "x": 130,
+        "y": 1085,
+        "w": 1041,
+        "h": 62
+      }
+    },
+    {
+      "text": "[E & Cluster Roles",
+      "confidence": 57,
+      "bbox": {
+        "x": 130,
+        "y": 1209,
+        "w": 1041,
+        "h": 62
+      }
+    },
+    {
+      "text": "Goer | © Webhooks >",
+      "confidence": 57,
+      "bbox": {
+        "x": 130,
+        "y": 1333,
+        "w": 1041,
+        "h": 62
+      }
+    },
+    {
+      "text": "oueniew",
+      "confidence": 57,
+      "bbox": {
+        "x": 130,
+        "y": 1457,
+        "w": 1041,
+        "h": 62
+      }
+    },
+    {
+      "text": "& Nodes Name; v | Ase",
+      "confidence": 57,
+      "bbox": {
+        "x": 130,
+        "y": 1581,
+        "w": 1041,
+        "h": 62
+      }
+    },
+    {
+      "text": "oh) E storage > i | ® admin 274d",
+      "confidence": 57,
+      "bbox": {
+        "x": 130,
+        "y": 1705,
+        "w": 1041,
+        "h": 62
+      }
+    },
+    {
+      "text": "Pugs",
+      "confidence": 57,
+      "bbox": {
+        "x": 130,
+        "y": 1829,
+        "w": 1041,
+        "h": 62
+      }
+    },
+    {
+      "text": "SERN i @ cluster-admin 274d",
+      "confidence": 57,
+      "bbox": {
+        "x": 130,
+        "y": 1953,
+        "w": 1041,
+        "h": 62
+      }
+    },
+    {
+      "text": "i © edit 274d",
+      "confidence": 57,
+      "bbox": {
+        "x": 130,
+        "y": 2077,
+        "w": 1041,
+        "h": 62
+      }
+    },
+    {
+      "text": ": @ kubeadm:get-nodes 274d",
+      "confidence": 57,
+      "bbox": {
+        "x": 130,
+        "y": 2201,
+        "w": 1041,
+        "h": 62
+      }
+    },
+    {
+      "text": "| @ kubernetes-dashboard 274d",
+      "confidence": 57,
+      "bbox": {
+        "x": 130,
+        "y": 2325,
+        "w": 1041,
+        "h": 62
+      }
+    },
+    {
+      "text": "i | @ systemaggregate-to-admin 274d",
+      "confidence": 57,
+      "bbox": {
+        "x": 130,
+        "y": 2449,
+        "w": 1041,
+        "h": 62
+      }
+    },
+    {
+      "text": "i © systemaggregate-to-edit 274d",
+      "confidence": 57,
+      "bbox": {
+        "x": 130,
+        "y": 2573,
+        "w": 1041,
+        "h": 62
+      }
+    },
+    {
+      "text": "{| © systemaggregate-to-view 2744",
+      "confidence": 57,
+      "bbox": {
+        "x": 130,
+        "y": 2697,
+        "w": 1041,
+        "h": 62
+      }
+    },
+    {
+      "text": "i © systemauth-delegator. 274d",
+      "confidence": 57,
+      "bbox": {
+        "x": 130,
+        "y": 2821,
+        "w": 1041,
+        "h": 62
+      }
+    },
+    {
+      "text": "Cluster Overview",
+      "confidence": 57,
+      "bbox": {
+        "x": 130,
+        "y": 2945,
+        "w": 1041,
+        "h": 62
+      }
+    },
+    {
+      "text": "i: © systembasic-user 274d",
+      "confidence": 57,
+      "bbox": {
+        "x": 130,
+        "y": 3069,
+        "w": 1041,
+        "h": 62
+      }
+    },
+    {
+      "text": "Cluster modulo is used to display al",
+      "confidence": 57,
+      "bbox": {
+        "x": 130,
+        "y": 3193,
+        "w": 1041,
+        "h": 62
+      }
+    },
+    {
+      "text": "cluster relatea resources lemsperpage 10 v 1-100f65tems",
+      "confidence": 57,
+      "bbox": {
+        "x": 130,
+        "y": 3317,
+        "w": 1041,
+        "h": 62
+      }
+    },
+    {
+      "text": "Cluster Role Bindings",
+      "confidence": 57,
+      "bbox": {
+        "x": 130,
+        "y": 3441,
+        "w": 1041,
+        "h": 62
+      }
+    },
+    {
+      "text": "Name v tebe v | ace Y Rolekind vy Rolename",
+      "confidence": 57,
+      "bbox": {
+        "x": 130,
+        "y": 3565,
+        "w": 1041,
+        "h": 62
+      }
+    },
+    {
+      "text": "© : | o duster-admin 274d ClusterRole cluster-admin",
+      "confidence": 57,
+      "bbox": {
+        "x": 130,
+        "y": 3689,
+        "w": 1041,
+        "h": 62
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "0) Octant © Filter by labels 4 2 Apply YAML (@) [All Namespaces]",
+      "target": "0) Octant © Lọc theo nhãn 4 2 Áp dụng YAML (@) [Tất cả không gian tên]",
+      "bbox": {
+        "x": 130,
+        "y": 93,
+        "w": 1041,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "ee — i © kubesystem Kubernetes.io/metadata name kube-system Active",
+      "target": "kube-system Hoạt động",
+      "bbox": {
+        "x": 130,
+        "y": 217,
+        "w": 1041,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "f=) | cluster overview",
+      "target": "tổng quan cụm",
+      "bbox": {
+        "x": 130,
+        "y": 341,
+        "w": 1041,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "Aspleatons (8) Namespaces i © kubernetes dashboard ( acdormmanager kbermetesefmoteeconcis ) ® Active",
+      "target": "Aspleatons (8) Tên miền i © bảng điều khiển kubernetes (acdormmanager kbermetesefmoteeconcis) ® Đang hoạt động",
+      "bbox": {
+        "x": 130,
+        "y": 465,
+        "w": 1041,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "B Custom Resources",
+      "target": "Tài nguyên tùy chỉnh B",
+      "bbox": {
+        "x": 130,
+        "y": 589,
+        "w": 1041,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "[22] tems per pose",
+      "target": "số lượng mỗi tư thế",
+      "bbox": {
+        "x": 130,
+        "y": 713,
+        "w": 1041,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "Namespace % Custom Resource Definitions",
+      "target": "Không gian tên % Định nghĩa Tài nguyên Tùy chỉnh",
+      "bbox": {
+        "x": 130,
+        "y": 837,
+        "w": 1041,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "Guerin",
+      "target": "Guerin",
+      "bbox": {
+        "x": 130,
+        "y": 961,
+        "w": 1041,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "RBAC >",
+      "target": "RBAC",
+      "bbox": {
+        "x": 130,
+        "y": 1085,
+        "w": 1041,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "[E & Cluster Roles",
+      "target": "[Các vai trò E & Cluster]",
+      "bbox": {
+        "x": 130,
+        "y": 1209,
+        "w": 1041,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "Goer | © Webhooks >",
+      "target": "Người dùng | © Webhooks >",
+      "bbox": {
+        "x": 130,
+        "y": 1333,
+        "w": 1041,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "oueniew",
+      "target": "oueniew",
+      "bbox": {
+        "x": 130,
+        "y": 1457,
+        "w": 1041,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "& Nodes Name; v | Ase",
+      "target": "& Tên Nút; v | Ase",
+      "bbox": {
+        "x": 130,
+        "y": 1581,
+        "w": 1041,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "oh) E storage > i | ® admin 274d",
+      "target": "Lưu trữ E > i | ® quản trị 274d",
+      "bbox": {
+        "x": 130,
+        "y": 1705,
+        "w": 1041,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "Pugs",
+      "target": "Chó Pug",
+      "bbox": {
+        "x": 130,
+        "y": 1829,
+        "w": 1041,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "SERN i @ cluster-admin 274d",
+      "target": "SERN i @ quản trị viên cụm 274d",
+      "bbox": {
+        "x": 130,
+        "y": 1953,
+        "w": 1041,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "i © edit 274d",
+      "target": "i © chỉnh sửa 274d",
+      "bbox": {
+        "x": 130,
+        "y": 2077,
+        "w": 1041,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": ": @ kubeadm:get-nodes 274d",
+      "target": "lấy-nút",
+      "bbox": {
+        "x": 130,
+        "y": 2201,
+        "w": 1041,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "| @ kubernetes-dashboard 274d",
+      "target": "@ bảng điều khiển kubernetes 274d",
+      "bbox": {
+        "x": 130,
+        "y": 2325,
+        "w": 1041,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "i | @ systemaggregate-to-admin 274d",
+      "target": "i | @ hệ thống tổng hợp đến quản trị viên 274d",
+      "bbox": {
+        "x": 130,
+        "y": 2449,
+        "w": 1041,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "i © systemaggregate-to-edit 274d",
+      "target": "hệ thống tổng hợp - chỉnh sửa 274d",
+      "bbox": {
+        "x": 130,
+        "y": 2573,
+        "w": 1041,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "{| © systemaggregate-to-view 2744",
+      "target": "Hệ thống tổng hợp để xem 2744",
+      "bbox": {
+        "x": 130,
+        "y": 2697,
+        "w": 1041,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "i © systemauth-delegator. 274d",
+      "target": "hệ thống ủy quyền",
+      "bbox": {
+        "x": 130,
+        "y": 2821,
+        "w": 1041,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "Cluster Overview",
+      "target": "Tổng quan Cụm",
+      "bbox": {
+        "x": 130,
+        "y": 2945,
+        "w": 1041,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "i: © systembasic-user 274d",
+      "target": "i: © hệ thống cơ bản-người dùng 274d",
+      "bbox": {
+        "x": 130,
+        "y": 3069,
+        "w": 1041,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "Cluster modulo is used to display al",
+      "target": "Mô-đun cụm được sử dụng để hiển thị tất cả",
+      "bbox": {
+        "x": 130,
+        "y": 3193,
+        "w": 1041,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "cluster relatea resources lemsperpage 10 v 1-100f65tems",
+      "target": "tập hợp tài nguyên số lượng mục mỗi trang 10 v 1-100",
+      "bbox": {
+        "x": 130,
+        "y": 3317,
+        "w": 1041,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "Cluster Role Bindings",
+      "target": "Liên kết vai trò cụm",
+      "bbox": {
+        "x": 130,
+        "y": 3441,
+        "w": 1041,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "Name v tebe v | ace Y Rolekind vy Rolename",
+      "target": "Tên v tebe v | vai trò Y Tên vai trò",
+      "bbox": {
+        "x": 130,
+        "y": 3565,
+        "w": 1041,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "© : | o duster-admin 274d ClusterRole cluster-admin",
+      "target": "© : | o duster-admin 274d ClusterRole cluster-admin",
+      "bbox": {
+        "x": 130,
+        "y": 3689,
+        "w": 1041,
+        "h": 62
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 1.9203689469638738,
+    "averageConfidence": 57
+  }
+}

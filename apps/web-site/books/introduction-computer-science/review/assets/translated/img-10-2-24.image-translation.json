@@ -1,0 +1,183 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-2-24.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-2-enterprise-architecture-management-frameworks.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-10-2-24.vi.png",
+  "ocr": [
+    {
+      "text": "Product",
+      "confidence": 95,
+      "bbox": {
+        "x": 87,
+        "y": 49,
+        "w": 695,
+        "h": 33
+      }
+    },
+    {
+      "text": "Client focus Risk and",
+      "confidence": 95,
+      "bbox": {
+        "x": 87,
+        "y": 115,
+        "w": 695,
+        "h": 33
+      }
+    },
+    {
+      "text": "(client and Sales financial",
+      "confidence": 95,
+      "bbox": {
+        "x": 87,
+        "y": 181,
+        "w": 695,
+        "h": 33
+      }
+    },
+    {
+      "text": "channel management",
+      "confidence": 95,
+      "bbox": {
+        "x": 87,
+        "y": 247,
+        "w": 695,
+        "h": 33
+      }
+    },
+    {
+      "text": "management)",
+      "confidence": 95,
+      "bbox": {
+        "x": 87,
+        "y": 313,
+        "w": 695,
+        "h": 33
+      }
+    },
+    {
+      "text": "Service",
+      "confidence": 95,
+      "bbox": {
+        "x": 87,
+        "y": 379,
+        "w": 695,
+        "h": 33
+      }
+    },
+    {
+      "text": "Business management and support",
+      "confidence": 95,
+      "bbox": {
+        "x": 87,
+        "y": 445,
+        "w": 695,
+        "h": 33
+      }
+    },
+    {
+      "text": "(information technology, etc.)",
+      "confidence": 95,
+      "bbox": {
+        "x": 87,
+        "y": 511,
+        "w": 695,
+        "h": 33
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Product",
+      "target": "Sản phẩm",
+      "bbox": {
+        "x": 87,
+        "y": 49,
+        "w": 695,
+        "h": 33
+      },
+      "overflow": false
+    },
+    {
+      "source": "Client focus Risk and",
+      "target": "Tập trung vào khách hàng Rủi ro và",
+      "bbox": {
+        "x": 87,
+        "y": 115,
+        "w": 695,
+        "h": 33
+      },
+      "overflow": false
+    },
+    {
+      "source": "(client and Sales financial",
+      "target": "Tài chính khách hàng và bán hàng",
+      "bbox": {
+        "x": 87,
+        "y": 181,
+        "w": 695,
+        "h": 33
+      },
+      "overflow": false
+    },
+    {
+      "source": "channel management",
+      "target": "quản lý kênh",
+      "bbox": {
+        "x": 87,
+        "y": 247,
+        "w": 695,
+        "h": 33
+      },
+      "overflow": false
+    },
+    {
+      "source": "management)",
+      "target": "quản lý",
+      "bbox": {
+        "x": 87,
+        "y": 313,
+        "w": 695,
+        "h": 33
+      },
+      "overflow": false
+    },
+    {
+      "source": "Service",
+      "target": "Dịch vụ",
+      "bbox": {
+        "x": 87,
+        "y": 379,
+        "w": 695,
+        "h": 33
+      },
+      "overflow": false
+    },
+    {
+      "source": "Business management and support",
+      "target": "Quản lý và hỗ trợ doanh nghiệp",
+      "bbox": {
+        "x": 87,
+        "y": 445,
+        "w": 695,
+        "h": 33
+      },
+      "overflow": false
+    },
+    {
+      "source": "(information technology, etc.)",
+      "target": "(công nghệ thông tin, v.v.)",
+      "bbox": {
+        "x": 87,
+        "y": 511,
+        "w": 695,
+        "h": 33
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.51497375733251,
+    "averageConfidence": 95
+  }
+}

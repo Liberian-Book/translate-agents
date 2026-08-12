@@ -1,0 +1,183 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-13-3-5.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/13-3-big-cloud-paas-mainstream-capabilities.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-13-3-5.vi.png",
+  "ocr": [
+    {
+      "text": "Hyperledger Fabric ordering service",
+      "confidence": 90,
+      "bbox": {
+        "x": 50,
+        "y": 80,
+        "w": 400,
+        "h": 53
+      }
+    },
+    {
+      "text": "Member",
+      "confidence": 90,
+      "bbox": {
+        "x": 50,
+        "y": 187,
+        "w": 400,
+        "h": 53
+      }
+    },
+    {
+      "text": "Peer",
+      "confidence": 90,
+      "bbox": {
+        "x": 50,
+        "y": 294,
+        "w": 400,
+        "h": 53
+      }
+    },
+    {
+      "text": "node",
+      "confidence": 90,
+      "bbox": {
+        "x": 50,
+        "y": 401,
+        "w": 400,
+        "h": 53
+      }
+    },
+    {
+      "text": "AWS private link",
+      "confidence": 90,
+      "bbox": {
+        "x": 50,
+        "y": 508,
+        "w": 400,
+        "h": 53
+      }
+    },
+    {
+      "text": "VPC :",
+      "confidence": 90,
+      "bbox": {
+        "x": 50,
+        "y": 615,
+        "w": 400,
+        "h": 53
+      }
+    },
+    {
+      "text": "AWS",
+      "confidence": 90,
+      "bbox": {
+        "x": 50,
+        "y": 722,
+        "w": 400,
+        "h": 53
+      }
+    },
+    {
+      "text": "client",
+      "confidence": 90,
+      "bbox": {
+        "x": 50,
+        "y": 829,
+        "w": 400,
+        "h": 53
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Hyperledger Fabric ordering service",
+      "target": "Dịch vụ sắp xếp Hyperledger Fabric",
+      "bbox": {
+        "x": 50,
+        "y": 80,
+        "w": 400,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "Member",
+      "target": "Thành viên",
+      "bbox": {
+        "x": 50,
+        "y": 187,
+        "w": 400,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "Peer",
+      "target": "Bạn bè",
+      "bbox": {
+        "x": 50,
+        "y": 294,
+        "w": 400,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "node",
+      "target": "nút",
+      "bbox": {
+        "x": 50,
+        "y": 401,
+        "w": 400,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "AWS private link",
+      "target": "Liên kết riêng AWS",
+      "bbox": {
+        "x": 50,
+        "y": 508,
+        "w": 400,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "VPC :",
+      "target": "VPC:",
+      "bbox": {
+        "x": 50,
+        "y": 615,
+        "w": 400,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "AWS",
+      "target": "AWS",
+      "bbox": {
+        "x": 50,
+        "y": 722,
+        "w": 400,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "client",
+      "target": "khách hàng",
+      "bbox": {
+        "x": 50,
+        "y": 829,
+        "w": 400,
+        "h": 53
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.5093093093093093,
+    "averageConfidence": 90
+  }
+}

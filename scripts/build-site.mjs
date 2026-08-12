@@ -10,6 +10,14 @@ const assetsDir = path.join(siteDir, 'assets');
 const distDir = path.join(repoRoot, 'dist', 'site');
 const manifestPath = path.join(siteDir, 'books.json');
 const coverExtensions = ['.svg', '.png', '.webp', '.jpg', '.jpeg'];
+const vietnameseBookTitles = new Map([
+  ['business-ethics', 'Đạo đức kinh doanh'],
+  ['entrepreneurship', 'Khởi nghiệp'],
+  ['introduction-computer-science', 'Nhập môn Khoa học máy tính'],
+  ['introduction-philosophy', 'Nhập môn Triết học'],
+  ['principles-finance', 'Nguyên lý Tài chính'],
+  ['world-history-volume-1', 'Lịch sử Thế giới, Tập 1: Đến năm 1500'],
+]);
 
 const junkEntries = new Set([
   '.DS_Store',
@@ -120,6 +128,11 @@ async function findBookTitle(sourceDataPath, slug) {
 
   try {
     const metadata = JSON.parse(await fs.readFile(metadataPath, 'utf8'));
+    const vietnameseTitle = findVietnameseTitle(metadata);
+    if (vietnameseTitle) return vietnameseTitle;
+
+    if (vietnameseBookTitles.has(slug)) return vietnameseBookTitles.get(slug);
+
     if (typeof metadata.title === 'string' && metadata.title.trim()) {
       return metadata.title.trim();
     }
@@ -129,7 +142,14 @@ async function findBookTitle(sourceDataPath, slug) {
     }
   }
 
+  if (vietnameseBookTitles.has(slug)) return vietnameseBookTitles.get(slug);
+
   return formatTitle(slug);
+}
+
+function findVietnameseTitle(metadata) {
+  const title = metadata?.titleVi || metadata?.vietnameseTitle || metadata?.translatedTitle || metadata?.displayTitleVi;
+  return typeof title === 'string' && title.trim() ? title.trim() : '';
 }
 
 async function pathExists(filePath) {

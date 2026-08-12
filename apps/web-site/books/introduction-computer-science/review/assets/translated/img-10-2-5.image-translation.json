@@ -1,0 +1,288 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-2-5.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-2-enterprise-architecture-management-frameworks.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-10-2-5.vi.png",
+  "ocr": [
+    {
+      "text": "Client Distributor Manufacturing",
+      "confidence": 95,
+      "bbox": {
+        "x": 130,
+        "y": 137,
+        "w": 1038,
+        "h": 91
+      }
+    },
+    {
+      "text": "Dreams Market Asset management",
+      "confidence": 95,
+      "bbox": {
+        "x": 130,
+        "y": 320,
+        "w": 1038,
+        "h": 91
+      }
+    },
+    {
+      "text": "Planning Private service Product development",
+      "confidence": 95,
+      "bbox": {
+        "x": 130,
+        "y": 503,
+        "w": 1038,
+        "h": 91
+      }
+    },
+    {
+      "text": "Tracking Field management Account admin",
+      "confidence": 95,
+      "bbox": {
+        "x": 130,
+        "y": 686,
+        "w": 1038,
+        "h": 91
+      }
+    },
+    {
+      "text": "Admin-distributor",
+      "confidence": 95,
+      "bbox": {
+        "x": 130,
+        "y": 869,
+        "w": 1038,
+        "h": 91
+      }
+    },
+    {
+      "text": "Advisor Distribution",
+      "confidence": 95,
+      "bbox": {
+        "x": 130,
+        "y": 1052,
+        "w": 1038,
+        "h": 91
+      }
+    },
+    {
+      "text": "Client aquisition Product distribution",
+      "confidence": 95,
+      "bbox": {
+        "x": 130,
+        "y": 1235,
+        "w": 1038,
+        "h": 91
+      }
+    },
+    {
+      "text": "Financial planning",
+      "confidence": 95,
+      "bbox": {
+        "x": 130,
+        "y": 1418,
+        "w": 1038,
+        "h": 91
+      }
+    },
+    {
+      "text": "Practice management",
+      "confidence": 95,
+      "bbox": {
+        "x": 130,
+        "y": 1601,
+        "w": 1038,
+        "h": 91
+      }
+    },
+    {
+      "text": "Corporate Technology",
+      "confidence": 95,
+      "bbox": {
+        "x": 130,
+        "y": 1784,
+        "w": 1038,
+        "h": 91
+      }
+    },
+    {
+      "text": "Human capital management Solution planning",
+      "confidence": 95,
+      "bbox": {
+        "x": 130,
+        "y": 1967,
+        "w": 1038,
+        "h": 91
+      }
+    },
+    {
+      "text": "Finance Solution building",
+      "confidence": 95,
+      "bbox": {
+        "x": 130,
+        "y": 2150,
+        "w": 1038,
+        "h": 91
+      }
+    },
+    {
+      "text": "Legal compliance Solution execution",
+      "confidence": 95,
+      "bbox": {
+        "x": 130,
+        "y": 2333,
+        "w": 1038,
+        "h": 91
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Client Distributor Manufacturing",
+      "target": "Khách hàng Nhà phân phối Sản xuất",
+      "bbox": {
+        "x": 130,
+        "y": 137,
+        "w": 1038,
+        "h": 91
+      },
+      "overflow": false
+    },
+    {
+      "source": "Dreams Market Asset management",
+      "target": "Quản lý tài sản Thị trường Giấc mơ",
+      "bbox": {
+        "x": 130,
+        "y": 320,
+        "w": 1038,
+        "h": 91
+      },
+      "overflow": false
+    },
+    {
+      "source": "Planning Private service Product development",
+      "target": "Lập kế hoạch Dịch vụ riêng Phát triển sản phẩm",
+      "bbox": {
+        "x": 130,
+        "y": 503,
+        "w": 1038,
+        "h": 91
+      },
+      "overflow": false
+    },
+    {
+      "source": "Tracking Field management Account admin",
+      "target": "Quản lý theo dõi Tài khoản quản trị viên",
+      "bbox": {
+        "x": 130,
+        "y": 686,
+        "w": 1038,
+        "h": 91
+      },
+      "overflow": false
+    },
+    {
+      "source": "Admin-distributor",
+      "target": "Quản trị viên-phân phối",
+      "bbox": {
+        "x": 130,
+        "y": 869,
+        "w": 1038,
+        "h": 91
+      },
+      "overflow": false
+    },
+    {
+      "source": "Advisor Distribution",
+      "target": "Phân bố Cố vấn",
+      "bbox": {
+        "x": 130,
+        "y": 1052,
+        "w": 1038,
+        "h": 91
+      },
+      "overflow": false
+    },
+    {
+      "source": "Client aquisition Product distribution",
+      "target": "Tiếp nhận khách hàng Phân phối sản phẩm",
+      "bbox": {
+        "x": 130,
+        "y": 1235,
+        "w": 1038,
+        "h": 91
+      },
+      "overflow": false
+    },
+    {
+      "source": "Financial planning",
+      "target": "Kế hoạch tài chính",
+      "bbox": {
+        "x": 130,
+        "y": 1418,
+        "w": 1038,
+        "h": 91
+      },
+      "overflow": false
+    },
+    {
+      "source": "Practice management",
+      "target": "Quản lý thực hành",
+      "bbox": {
+        "x": 130,
+        "y": 1601,
+        "w": 1038,
+        "h": 91
+      },
+      "overflow": false
+    },
+    {
+      "source": "Corporate Technology",
+      "target": "Công nghệ Doanh nghiệp",
+      "bbox": {
+        "x": 130,
+        "y": 1784,
+        "w": 1038,
+        "h": 91
+      },
+      "overflow": false
+    },
+    {
+      "source": "Human capital management Solution planning",
+      "target": "Kế hoạch giải pháp quản lý nguồn nhân lực",
+      "bbox": {
+        "x": 130,
+        "y": 1967,
+        "w": 1038,
+        "h": 91
+      },
+      "overflow": false
+    },
+    {
+      "source": "Finance Solution building",
+      "target": "Xây dựng giải pháp tài chính",
+      "bbox": {
+        "x": 130,
+        "y": 2150,
+        "w": 1038,
+        "h": 91
+      },
+      "overflow": false
+    },
+    {
+      "source": "Legal compliance Solution execution",
+      "target": "Tuân thủ pháp lý Thực hiện giải pháp",
+      "bbox": {
+        "x": 130,
+        "y": 2333,
+        "w": 1038,
+        "h": 91
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.8284023109782259,
+    "averageConfidence": 95
+  }
+}

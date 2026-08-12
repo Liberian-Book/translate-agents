@@ -1,0 +1,23 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-1-2-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/1-2-ethics-and-profitability.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "natural",
+    "eligible": false,
+    "reason": "natural-image-without-ocr-text"
+  },
+  "reason": "low-text-density",
+  "outputImage": null,
+  "ocr": [],
+  "translations": [],
+  "imageContext": "Image alt: An image of Warren buffet on the left and Barack Obama on the right. Both are seated and facing each other.\nButton label: Click to enlarge image of An image of Warren buffet on the left and Barack Obama on the right. Both are seated and facing each other.\nEnglish caption: Figure 1.4 Warren Buffett, shown here with President Barack Obama in June 2010, is an investor and philanthropist who was born in 1930 in Omaha, Nebraska. Through his leadership of Berkshire Hathaway, he has become one of the most successful investors in the world and one of the wealthiest people in the United States, with an estimated total net worth of almost $80 billion. (credit: “President Barack Obama and Warren Buffett in the Oval Office” by Pete Souza/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 0,
+    "averageConfidence": 0,
+    "entropy": 7.348263383144513,
+    "sharpness": 1.6088103853162712
+  }
+}

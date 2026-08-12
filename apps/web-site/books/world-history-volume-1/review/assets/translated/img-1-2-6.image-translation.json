@@ -1,0 +1,500 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-1-2-6.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/1-2-primary-sources.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "photo-without-translatable-labels",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "; 5 Ses 0 aflER",
+      "confidence": 24,
+      "bbox": {
+        "x": 120,
+        "y": 96,
+        "w": 960,
+        "h": 64
+      }
+    },
+    {
+      "text": "SRN — A",
+      "confidence": 24,
+      "bbox": {
+        "x": 120,
+        "y": 224,
+        "w": 960,
+        "h": 64
+      }
+    },
+    {
+      "text": "a Bee Eo SS ad Es",
+      "confidence": 24,
+      "bbox": {
+        "x": 120,
+        "y": 352,
+        "w": 960,
+        "h": 64
+      }
+    },
+    {
+      "text": "a es 3 = a - = = i",
+      "confidence": 24,
+      "bbox": {
+        "x": 120,
+        "y": 480,
+        "w": 960,
+        "h": 64
+      }
+    },
+    {
+      "text": "sili er Rr Ea",
+      "confidence": 24,
+      "bbox": {
+        "x": 120,
+        "y": 608,
+        "w": 960,
+        "h": 64
+      }
+    },
+    {
+      "text": "a EE . ie",
+      "confidence": 24,
+      "bbox": {
+        "x": 120,
+        "y": 736,
+        "w": 960,
+        "h": 64
+      }
+    },
+    {
+      "text": "BE a ed it gs —— : Eh",
+      "confidence": 24,
+      "bbox": {
+        "x": 120,
+        "y": 864,
+        "w": 960,
+        "h": 64
+      }
+    },
+    {
+      "text": "a ee ~ a 8",
+      "confidence": 24,
+      "bbox": {
+        "x": 120,
+        "y": 992,
+        "w": 960,
+        "h": 64
+      }
+    },
+    {
+      "text": "» $ L3 tana i her, Eo",
+      "confidence": 24,
+      "bbox": {
+        "x": 120,
+        "y": 1120,
+        "w": 960,
+        "h": 64
+      }
+    },
+    {
+      "text": "Sw Es :",
+      "confidence": 24,
+      "bbox": {
+        "x": 120,
+        "y": 1248,
+        "w": 960,
+        "h": 64
+      }
+    },
+    {
+      "text": "ml",
+      "confidence": 24,
+      "bbox": {
+        "x": 120,
+        "y": 1376,
+        "w": 960,
+        "h": 64
+      }
+    },
+    {
+      "text": "Wa\" SS Sen sawse Ss Tess",
+      "confidence": 24,
+      "bbox": {
+        "x": 120,
+        "y": 1504,
+        "w": 960,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This photograph shows an aerial view of an island with mountains in the background. There is a large splash in the water near the island.\nButton label: Click to enlarge image of This photograph shows an aerial view of an island with mountains in the background. There is a large splash in the water near the island.\nEnglish caption: Figure 1.9 Pearl Harbor under Attack. This photograph of Pearl Harbor, Hawaii, was taken from a Japanese plane on December 7, 1941, shortly after the beginning of the torpedo attack on the U.S. fleet anchored there. (credit: “Attack on Pearl Harbor Japanese planes view” by Naval History and Heritage Command/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 0.768,
+    "averageConfidence": 24,
+    "entropy": 7.4867030791938305,
+    "sharpness": 3.3218407905208047
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: This photograph shows an aerial view of an island with mountains in the background. There is a large splash in the water near the island.\nButton label: Click to enlarge image of This photograph shows an aerial view of an island with mountains in the background. There is a large splash in the water near the island.\nEnglish caption: Figure 1.9 Pearl Harbor under Attack. This photograph of Pearl Harbor, Hawaii, was taken from a Japanese plane on December 7, 1941, shortly after the beginning of the torpedo attack on the U.S. fleet anchored there. (credit: “Attack on Pearl Harbor Japanese planes view” by Naval History and Heritage Command/Wikimedia Commons, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: pearl, hawaii, wikimedia, commons. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Hinh 1.9 Tran Chau Cang bj tan cong.",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 123,
+          "w": 1229,
+          "h": 82
+        }
+      },
+      {
+        "text": "Bic anh nay vé Tran Chau Cang, Hawai, dugc chup tif mgt may bay ctia Nhat vo ngay 7 thang 12 nam 1941,",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 287,
+          "w": 1229,
+          "h": 82
+        }
+      },
+      {
+        "text": "ngay sau khi bat dau cudc tan cong bang ngu 16i vao ham ddi Hoa Ky dang neo dau tai do.",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 451,
+          "w": 1229,
+          "h": 82
+        }
+      },
+      {
+        "text": "(ngudn: “Cudc tan cong vao Tran Chau Cang géc nhin tir may bay Nhat” o",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 615,
+          "w": 1229,
+          "h": 82
+        }
+      },
+      {
+        "text": "bi Bd Tu lénh Lich str va Di san Hai quan/Moi ngudi déng gop Wikimedia, Mién cong cong) bie 2",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 779,
+          "w": 1229,
+          "h": 82
+        }
+      },
+      {
+        "text": "eT Rr OR — = Wot aad",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 943,
+          "w": 1229,
+          "h": 82
+        }
+      },
+      {
+        "text": "ro = pr 4",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 1107,
+          "w": 1229,
+          "h": 82
+        }
+      },
+      {
+        "text": "rs x",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 1271,
+          "w": 1229,
+          "h": 82
+        }
+      },
+      {
+        "text": ": A For",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 1435,
+          "w": 1229,
+          "h": 82
+        }
+      },
+      {
+        "text": "= La \" - 3 - Am",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 1599,
+          "w": 1229,
+          "h": 82
+        }
+      },
+      {
+        "text": "pr. = - do shi = p— = Cop d pies",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 1763,
+          "w": 1229,
+          "h": 82
+        }
+      },
+      {
+        "text": "g = rs” % NE LY A a IP.",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 1927,
+          "w": 1229,
+          "h": 82
+        }
+      },
+      {
+        "text": "= pt RT - \\ BR A Se - g 2",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 2091,
+          "w": 1229,
+          "h": 82
+        }
+      },
+      {
+        "text": "4 2 / wos % 3%, ST Pe 2",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 2255,
+          "w": 1229,
+          "h": 82
+        }
+      },
+      {
+        "text": "is : SBS ~ Noma Te SEIT",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 2419,
+          "w": 1229,
+          "h": 82
+        }
+      },
+      {
+        "text": "el ly Xe EN -",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 2583,
+          "w": 1229,
+          "h": 82
+        }
+      },
+      {
+        "text": ": py > E> we ps",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 2747,
+          "w": 1229,
+          "h": 82
+        }
+      },
+      {
+        "text": "tia a , Ball = = RS =",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 2911,
+          "w": 1229,
+          "h": 82
+        }
+      },
+      {
+        "text": "ah Toil a — A",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 3075,
+          "w": 1229,
+          "h": 82
+        }
+      },
+      {
+        "text": "“a BC Cf fr ~~~ a =",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 3239,
+          "w": 1229,
+          "h": 82
+        }
+      },
+      {
+        "text": "- We a pt i gon",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 3403,
+          "w": 1229,
+          "h": 82
+        }
+      },
+      {
+        "text": "3 ar WW ==1.4 = Lo a = Pa",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 3567,
+          "w": 1229,
+          "h": 82
+        }
+      },
+      {
+        "text": "a * =. a a og",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 3731,
+          "w": 1229,
+          "h": 82
+        }
+      },
+      {
+        "text": "-— PC ns fr aa",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 3895,
+          "w": 1229,
+          "h": 82
+        }
+      },
+      {
+        "text": "< S— be 2% SN",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 4059,
+          "w": 1229,
+          "h": 82
+        }
+      },
+      {
+        "text": "Eo He",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 4223,
+          "w": 1229,
+          "h": 82
+        }
+      },
+      {
+        "text": "a ND ac oo \\ oP]",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 4387,
+          "w": 1229,
+          "h": 82
+        }
+      },
+      {
+        "text": "Pads 2 SE :",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 4551,
+          "w": 1229,
+          "h": 82
+        }
+      },
+      {
+        "text": "a ve OE",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 4715,
+          "w": 1229,
+          "h": 82
+        }
+      },
+      {
+        "text": "i) Cirelaae | ’ 5a",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 4879,
+          "w": 1229,
+          "h": 82
+        }
+      },
+      {
+        "text": "& Bo SR Na =) EH",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 5043,
+          "w": 1229,
+          "h": 82
+        }
+      },
+      {
+        "text": "- ’ SEALS fo Sel) XE” Ges",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 5207,
+          "w": 1229,
+          "h": 82
+        }
+      },
+      {
+        "text": "pl “... han Zoe saa =A = ot EE QS",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 5371,
+          "w": 1229,
+          "h": 82
+        }
+      },
+      {
+        "text": "3 vA a Ri : iy a la 3 2, 3 NS",
+        "confidence": 44,
+        "bbox": {
+          "x": 154,
+          "y": 5535,
+          "w": 1229,
+          "h": 82
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": [
+        "wikimedia"
+      ]
+    },
+    "validationAttempt": 2
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

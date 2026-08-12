@@ -1,0 +1,187 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-1-2-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/1-2-ethics-and-profitability.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-1-2-2.vi.png",
+  "ocr": [
+    {
+      "text": "Considering Stakeholder Impact",
+      "confidence": 72,
+      "bbox": {
+        "x": 120,
+        "y": 66,
+        "w": 959,
+        "h": 44
+      }
+    },
+    {
+      "text": "Stakeholders Interests and Goufs Impact of Action/Decision",
+      "confidence": 72,
+      "bbox": {
+        "x": 120,
+        "y": 154,
+        "w": 959,
+        "h": 44
+      }
+    },
+    {
+      "text": "(in order of perceived priority) of Stakeholder on Stakeholder",
+      "confidence": 72,
+      "bbox": {
+        "x": 120,
+        "y": 242,
+        "w": 959,
+        "h": 44
+      }
+    },
+    {
+      "text": "oo FE a",
+      "confidence": 72,
+      "bbox": {
+        "x": 120,
+        "y": 330,
+        "w": 959,
+        "h": 44
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Considering Stakeholder Impact",
+      "normalizedSource": "Considering Stakeholder Impact",
+      "target": "Xem xét tác động của các bên liên quan",
+      "bbox": {
+        "x": 120,
+        "y": 66,
+        "w": 959,
+        "h": 44
+      },
+      "overflow": false
+    },
+    {
+      "source": "Stakeholders Interests and Goufs Impact of Action/Decision",
+      "normalizedSource": "Stakeholders Interests and Goufs Impact of Action/Decision",
+      "target": "Lợi ích của các bên liên quan và tác động của hành động/quyết định",
+      "bbox": {
+        "x": 120,
+        "y": 154,
+        "w": 959,
+        "h": 44
+      },
+      "overflow": false
+    },
+    {
+      "source": "(in order of perceived priority) of Stakeholder on Stakeholder",
+      "normalizedSource": "(in order of perceived priority) of Stakeholder on Stakeholder",
+      "target": "(theo thứ tự ưu tiên cảm nhận) của các bên liên quan đối với các bên liên quan",
+      "bbox": {
+        "x": 120,
+        "y": 242,
+        "w": 959,
+        "h": 44
+      },
+      "overflow": false
+    },
+    {
+      "source": "oo FE a",
+      "normalizedSource": "oo FE a",
+      "target": "N/A",
+      "bbox": {
+        "x": 120,
+        "y": 330,
+        "w": 959,
+        "h": 44
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: An image of a legal pad with a drawn diagram. The diagram is labeled “Considering Stakeholder Impact” and divided into three columns. The first column is labeled “Stakeholders (in order of perceived priority)”. The second column is labeled “Interests and Goals of Stakeholder”. The third column is labeled “Impact of Action/Decision on Stakeholder”.\nButton label: Click to enlarge image of An image of a legal pad with a drawn diagram. The diagram is labeled “Considering Stakeholder Impact” and divided into three columns. The first column is labeled “Stakeholders (in order of perceived priority)”. The second column is labeled “Interests and Goals of Stakeholder”. The third column is labeled “Impact of Action/Decision on Stakeholder”.\nEnglish caption: Figure 1.5 Imagine you are the CEO of a mid-sized firm—about five hundred employees—and your company is publicly traded. To understand what matters most to all your stakeholders, complete the preceding exercise to evaluate the impact of a particular action or decision. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.2550192793511501,
+    "averageConfidence": 72,
+    "entropy": 3.571675644729112,
+    "sharpness": 3.0324769124745425
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: An image of a legal pad with a drawn diagram. The diagram is labeled “Considering Stakeholder Impact” and divided into three columns. The first column is labeled “Stakeholders (in order of perceived priority)”. The second column is labeled “Interests and Goals of Stakeholder”. The third column is labeled “Impact of Action/Decision on Stakeholder”.\nButton label: Click to enlarge image of An image of a legal pad with a drawn diagram. The diagram is labeled “Considering Stakeholder Impact” and divided into three columns. The first column is labeled “Stakeholders (in order of perceived priority)”. The second column is labeled “Interests and Goals of Stakeholder”. The third column is labeled “Impact of Action/Decision on Stakeholder”.\nEnglish caption: Figure 1.5 Imagine you are the CEO of a mid-sized firm—about five hundred employees—and your company is publicly traded. To understand what matters most to all your stakeholders, complete the preceding exercise to evaluate the impact of a particular action or decision. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Considering Stakeholder Impact => Xem xét tác động của các bên liên quan\n- Stakeholders Interests and Goufs Impact of Action/Decision => Lợi ích của các bên liên quan và tác động của hành động/quyết định\n- (in order of perceived priority) of Stakeholder on Stakeholder => (theo thứ tự ưu tiên cảm nhận) của các bên liên quan đối với các bên liên quan\n- oo FE a => N/A\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Xem xét tdc dong cla cdc bén lién quan",
+        "confidence": 65,
+        "bbox": {
+          "x": 185,
+          "y": 102,
+          "w": 1479,
+          "h": 68
+        }
+      },
+      {
+        "text": "fe hon [ia Loi {ch cla cdc bén lién quan fe dn Sar [1 A Sv di",
+        "confidence": 65,
+        "bbox": {
+          "x": 185,
+          "y": 238,
+          "w": 1479,
+          "h": 68
+        }
+      },
+      {
+        "text": "Chc bén lién quan ‘ q Téc dong clio. hanh ddng/quyét dinh",
+        "confidence": 65,
+        "bbox": {
+          "x": 185,
+          "y": 374,
+          "w": 1479,
+          "h": 68
+        }
+      },
+      {
+        "text": "Nr",
+        "confidence": 65,
+        "bbox": {
+          "x": 185,
+          "y": 510,
+          "w": 1479,
+          "h": 68
+        }
+      },
+      {
+        "text": "(theo thi tut uu tién cam nhin) VET i 861 vi cic bén lien quan",
+        "confidence": 65,
+        "bbox": {
+          "x": 185,
+          "y": 646,
+          "w": 1479,
+          "h": 68
+        }
+      },
+      {
+        "text": "cdc bén lién quan",
+        "confidence": 65,
+        "bbox": {
+          "x": 185,
+          "y": 782,
+          "w": 1479,
+          "h": 68
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

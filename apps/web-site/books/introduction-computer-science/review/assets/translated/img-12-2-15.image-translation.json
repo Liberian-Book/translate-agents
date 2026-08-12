@@ -1,0 +1,9 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-2-15.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-2-cloud-based-and-cloud-native-applications-deployment-technologies.html",
+  "decision": "error",
+  "reason": "source-image-not-found",
+  "outputImage": null,
+  "ocr": [],
+  "translations": []
+}

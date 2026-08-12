@@ -1,0 +1,173 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-4-2-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/4-2-classical-philosophy.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "al",
+      "confidence": 25,
+      "bbox": {
+        "x": 60,
+        "y": 96,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "© LE -",
+      "confidence": 25,
+      "bbox": {
+        "x": 60,
+        "y": 224,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "ol a",
+      "confidence": 25,
+      "bbox": {
+        "x": 60,
+        "y": 352,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "2 2% an, i - i EE",
+      "confidence": 25,
+      "bbox": {
+        "x": 60,
+        "y": 480,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "Ll may a I — §U Tay Tal",
+      "confidence": 25,
+      "bbox": {
+        "x": 60,
+        "y": 608,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "[J I cs DNNUN NYT ¥",
+      "confidence": 25,
+      "bbox": {
+        "x": 60,
+        "y": 736,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "TL pipe RATE TE",
+      "confidence": 25,
+      "bbox": {
+        "x": 60,
+        "y": 864,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "45 Ry fl SER WOE LE",
+      "confidence": 25,
+      "bbox": {
+        "x": 60,
+        "y": 992,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "; & J Err R= aT",
+      "confidence": 25,
+      "bbox": {
+        "x": 60,
+        "y": 1120,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "LO id pbs 2 gids, Mi -",
+      "confidence": 25,
+      "bbox": {
+        "x": 60,
+        "y": 1248,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "Ay BY TM RE a So",
+      "confidence": 25,
+      "bbox": {
+        "x": 60,
+        "y": 1376,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "LW Plt A De Sa TT SLR",
+      "confidence": 25,
+      "bbox": {
+        "x": 60,
+        "y": 1504,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "SU = ER 3 Sa",
+      "confidence": 25,
+      "bbox": {
+        "x": 60,
+        "y": 1632,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "ERY i = )",
+      "confidence": 25,
+      "bbox": {
+        "x": 60,
+        "y": 1760,
+        "w": 480,
+        "h": 64
+      }
+    },
+    {
+      "text": "TT ee. :",
+      "confidence": 25,
+      "bbox": {
+        "x": 60,
+        "y": 1888,
+        "w": 480,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.96,
+    "averageConfidence": 25,
+    "entropy": 7.55772691173479,
+    "sharpness": 5.834742182274613
+  }
+}

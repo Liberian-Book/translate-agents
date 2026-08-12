@@ -1,0 +1,93 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-2-1-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/2-1-the-brain-is-an-inference-machine.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "ee\" \\ . b",
+      "confidence": 42,
+      "bbox": {
+        "x": 80,
+        "y": 96,
+        "w": 640,
+        "h": 64
+      }
+    },
+    {
+      "text": "p id",
+      "confidence": 42,
+      "bbox": {
+        "x": 80,
+        "y": 224,
+        "w": 640,
+        "h": 64
+      }
+    },
+    {
+      "text": "& gp NR % v",
+      "confidence": 42,
+      "bbox": {
+        "x": 80,
+        "y": 352,
+        "w": 640,
+        "h": 64
+      }
+    },
+    {
+      "text": "< \"4 ~ J abs",
+      "confidence": 42,
+      "bbox": {
+        "x": 80,
+        "y": 480,
+        "w": 640,
+        "h": 64
+      }
+    },
+    {
+      "text": "XL)",
+      "confidence": 42,
+      "bbox": {
+        "x": 80,
+        "y": 608,
+        "w": 640,
+        "h": 64
+      }
+    },
+    {
+      "text": "\\ B ya — :",
+      "confidence": 42,
+      "bbox": {
+        "x": 80,
+        "y": 736,
+        "w": 640,
+        "h": 64
+      }
+    },
+    {
+      "text": "nn :",
+      "confidence": 42,
+      "bbox": {
+        "x": 80,
+        "y": 864,
+        "w": 640,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.448,
+    "averageConfidence": 42,
+    "entropy": 7.6754871669836575,
+    "sharpness": 1.4103424296729543
+  }
+}

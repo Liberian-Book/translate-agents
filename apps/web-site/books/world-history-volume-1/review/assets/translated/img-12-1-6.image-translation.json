@@ -1,0 +1,128 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-12-1-6.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/12-1-the-indian-ocean-world-in-the-early-middle-ages.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-12-1-6.vi.png",
+  "ocr": [
+    {
+      "text": "Ne ain SJ",
+      "confidence": 25,
+      "bbox": {
+        "x": 178,
+        "y": 213,
+        "w": 1424,
+        "h": 142
+      }
+    },
+    {
+      "text": "Een",
+      "confidence": 25,
+      "bbox": {
+        "x": 178,
+        "y": 498,
+        "w": 1424,
+        "h": 142
+      }
+    },
+    {
+      "text": "Ad",
+      "confidence": 25,
+      "bbox": {
+        "x": 178,
+        "y": 783,
+        "w": 1424,
+        "h": 142
+      }
+    },
+    {
+      "text": ". OD x ya",
+      "confidence": 25,
+      "bbox": {
+        "x": 178,
+        "y": 1068,
+        "w": 1424,
+        "h": 142
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A map is shown. Land is shown in beige in the west and water is shown in blue in the east and southwest. A backward “C” shaped area with a long, thin portion sticking out toward the west is shown highlighted in gold on the east coast. It is labelled “Sui Dynasty.”\nButton label: Click to enlarge image of A map is shown. Land is shown in beige in the west and water is shown in blue in the east and southwest. A backward “C” shaped area with a long, thin portion sticking out toward the west is shown highlighted in gold on the east coast. It is labelled “Sui Dynasty.”\nEnglish caption: Figure 12.8 The Sui Dynasty. This map shows the extent of the Sui dynasty in 609. Like the Qin before them, the Sui pursued empire-building and vast public works projects such as the Grand Canal, which was vital to the movement of Sui armies during campaigns in the south. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.25542439572793707,
+    "averageConfidence": 25,
+    "entropy": 5.09659682593383,
+    "sharpness": 1.8417999977413597
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A map is shown. Land is shown in beige in the west and water is shown in blue in the east and southwest. A backward “C” shaped area with a long, thin portion sticking out toward the west is shown highlighted in gold on the east coast. It is labelled “Sui Dynasty.”\nButton label: Click to enlarge image of A map is shown. Land is shown in beige in the west and water is shown in blue in the east and southwest. A backward “C” shaped area with a long, thin portion sticking out toward the west is shown highlighted in gold on the east coast. It is labelled “Sui Dynasty.”\nEnglish caption: Figure 12.8 The Sui Dynasty. This map shows the extent of the Sui dynasty in 609. Like the Qin before them, the Sui pursued empire-building and vast public works projects such as the Grand Canal, which was vital to the movement of Sui armies during campaigns in the south. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "aap ST",
+        "confidence": 40,
+        "bbox": {
+          "x": 125,
+          "y": 150,
+          "w": 1003,
+          "h": 100
+        }
+      },
+      {
+        "text": "Bel",
+        "confidence": 40,
+        "bbox": {
+          "x": 125,
+          "y": 351,
+          "w": 1003,
+          "h": 100
+        }
+      },
+      {
+        "text": "SI \\ 19 | y",
+        "confidence": 40,
+        "bbox": {
+          "x": 125,
+          "y": 552,
+          "w": 1003,
+          "h": 100
+        }
+      },
+      {
+        "text": "er) wo",
+        "confidence": 40,
+        "bbox": {
+          "x": 125,
+          "y": 753,
+          "w": 1003,
+          "h": 100
+        }
+      },
+      {
+        "text": "Ag",
+        "confidence": 40,
+        "bbox": {
+          "x": 125,
+          "y": 954,
+          "w": 1003,
+          "h": 100
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

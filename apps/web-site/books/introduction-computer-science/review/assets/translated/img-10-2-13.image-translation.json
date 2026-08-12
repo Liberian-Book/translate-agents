@@ -1,0 +1,225 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-2-13.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-2-enterprise-architecture-management-frameworks.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-10-2-13.vi.png",
+  "ocr": [
+    {
+      "text": "Trust",
+      "confidence": 82,
+      "bbox": {
+        "x": 74,
+        "y": 66,
+        "w": 590,
+        "h": 44
+      }
+    },
+    {
+      "text": "models",
+      "confidence": 82,
+      "bbox": {
+        "x": 74,
+        "y": 153,
+        "w": 590,
+        "h": 44
+      }
+    },
+    {
+      "text": "Business a | /",
+      "confidence": 82,
+      "bbox": {
+        "x": 74,
+        "y": 240,
+        "w": 590,
+        "h": 44
+      }
+    },
+    {
+      "text": "models a8",
+      "confidence": 82,
+      "bbox": {
+        "x": 74,
+        "y": 327,
+        "w": 590,
+        "h": 44
+      }
+    },
+    {
+      "text": "Orchestration Integration",
+      "confidence": 82,
+      "bbox": {
+        "x": 74,
+        "y": 414,
+        "w": 590,
+        "h": 44
+      }
+    },
+    {
+      "text": "models",
+      "confidence": 82,
+      "bbox": {
+        "x": 74,
+        "y": 501,
+        "w": 590,
+        "h": 44
+      }
+    },
+    {
+      "text": "Shared",
+      "confidence": 82,
+      "bbox": {
+        "x": 74,
+        "y": 588,
+        "w": 590,
+        "h": 44
+      }
+    },
+    {
+      "text": "services",
+      "confidence": 82,
+      "bbox": {
+        "x": 74,
+        "y": 675,
+        "w": 590,
+        "h": 44
+      }
+    },
+    {
+      "text": "Business",
+      "confidence": 82,
+      "bbox": {
+        "x": 74,
+        "y": 762,
+        "w": 590,
+        "h": 44
+      }
+    },
+    {
+      "text": "networks",
+      "confidence": 82,
+      "bbox": {
+        "x": 74,
+        "y": 849,
+        "w": 590,
+        "h": 44
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Trust",
+      "target": "Tin tưởng",
+      "bbox": {
+        "x": 74,
+        "y": 66,
+        "w": 590,
+        "h": 44
+      },
+      "overflow": false
+    },
+    {
+      "source": "models",
+      "target": "mô hình",
+      "bbox": {
+        "x": 74,
+        "y": 153,
+        "w": 590,
+        "h": 44
+      },
+      "overflow": false
+    },
+    {
+      "source": "Business a | /",
+      "target": "Doanh nghiệp a | /",
+      "bbox": {
+        "x": 74,
+        "y": 240,
+        "w": 590,
+        "h": 44
+      },
+      "overflow": false
+    },
+    {
+      "source": "models a8",
+      "target": "mô hình a8",
+      "bbox": {
+        "x": 74,
+        "y": 327,
+        "w": 590,
+        "h": 44
+      },
+      "overflow": false
+    },
+    {
+      "source": "Orchestration Integration",
+      "target": "Tích hợp điều phối",
+      "bbox": {
+        "x": 74,
+        "y": 414,
+        "w": 590,
+        "h": 44
+      },
+      "overflow": false
+    },
+    {
+      "source": "models",
+      "target": "mô hình",
+      "bbox": {
+        "x": 74,
+        "y": 501,
+        "w": 590,
+        "h": 44
+      },
+      "overflow": false
+    },
+    {
+      "source": "Shared",
+      "target": "Chia sẻ",
+      "bbox": {
+        "x": 74,
+        "y": 588,
+        "w": 590,
+        "h": 44
+      },
+      "overflow": false
+    },
+    {
+      "source": "services",
+      "target": "dịch vụ",
+      "bbox": {
+        "x": 74,
+        "y": 675,
+        "w": 590,
+        "h": 44
+      },
+      "overflow": false
+    },
+    {
+      "source": "Business",
+      "target": "Kinh doanh",
+      "bbox": {
+        "x": 74,
+        "y": 762,
+        "w": 590,
+        "h": 44
+      },
+      "overflow": false
+    },
+    {
+      "source": "networks",
+      "target": "mạng lưới",
+      "bbox": {
+        "x": 74,
+        "y": 849,
+        "w": 590,
+        "h": 44
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.6442518637640589,
+    "averageConfidence": 82
+  }
+}

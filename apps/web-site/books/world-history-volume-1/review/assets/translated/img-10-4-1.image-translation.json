@@ -1,0 +1,766 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-10-4-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/10-4-the-margins-of-empire.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "image-edit-leftover-source-english",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Ty ~~",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 114,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "Fr ee x. a <",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 266,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "GHANA",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 418,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "=~ Turfan",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 570,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "Sy Tes 5 Kucha °",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 722,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "A Cashgar",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 874,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "Bactra Figs CHINA",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 1026,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "HINDU-K y 5)",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 1178,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "ARA",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 1330,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "ARA",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 1482,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "Strait of i axila",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 1634,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "Hormuz ARA [A IA = a,",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 1786,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "a fi =",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 1938,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": ", EDROSI <",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 2090,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "§ Mathura",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 2242,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "rary ¢",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 2394,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "Barbaricum's Jjjair alteta o",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 2546,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "4 WESTERN ® SSR Shim",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 2698,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "SATRAPS ® Vidisa y",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 2850,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "Barygaza © Kundina . A",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 3002,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "Pure © Pratishth: hampa )",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 3154,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "Arabian Ie Pratishthana",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 3306,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "beg SATAVAHANA :",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 3458,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "EMPIRE '® Amgravati",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 3610,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "5 Bay of (",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 3762,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "Bengal {4",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 3914,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "PANDYAN o",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 4066,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "- KINGDOM CHOLAS $",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 4218,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "a “5 TAMRAPARNI",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 4370,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "% KINGDOM .",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 4522,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "oe",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 4674,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "nov !",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 4826,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "Po",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 4978,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "ol",
+      "confidence": 52,
+      "bbox": {
+        "x": 90,
+        "y": 5130,
+        "w": 721,
+        "h": 76
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A map is shown of China on the eastern side of the map and land going west and south from there. The Gulf of Oman, the Arabian Sea, the Laccadive Sea, and the Bay of Bengal are shown along the bottom of the map. There is an arrow shaped area west of China highlighted green in the northwest portion of the map labeled “Kushan Empire.” Within the green area there are areas labeled from north to south: Bactria, Pamir, Hindu-Kush, Gandhara, and Arachosia. Cities labeled within this area from north to south are: Kapisa, Pushklavati, Kashgar, Bactra, Surkh Kotal, Begram, and Taxila. Above the green highlighted area there are two labels for “Sogdiana” and “Ferghana. To the east in China the cities of Kucha and Turfan are labeled. West of the green area is a label for “Gedrosia.” South of the highlighted area are the labels for: Western Satraps, Satavahana Empire, Pandyan Kingdom, Cholas, and on an island at the southern part of the map in the Bay of Bengal there is a label for Tamraparni Kingdom. South of the green area the following cities are labeled, from north to south: Mathura, Barbaricum, Ujjain, Saketa, Pataliputra, Vidisa, Barygaza, Kundina, Champa, Pune, Pratishthana, and Amaravati.\nButton label: Click to enlarge image of A map is shown of China on the eastern side of the map and land going west and south from there. The Gulf of Oman, the Arabian Sea, the Laccadive Sea, and the Bay of Bengal are shown along the bottom of the map. There is an arrow shaped area west of China highlighted green in the northwest portion of the map labeled “Kushan Empire.” Within the green area there are areas labeled from north to south: Bactria, Pamir, Hindu-Kush, Gandhara, and Arachosia. Cities labeled within this area from north to south are: Kapisa, Pushklavati, Kashgar, Bactra, Surkh Kotal, Begram, and Taxila. Above the green highlighted area there are two labels for “Sogdiana” and “Ferghana. To the east in China the cities of Kucha and Turfan are labeled. West of the green area is a label for “Gedrosia.” South of the highlighted area are the labels for: Western Satraps, Satavahana Empire, Pandyan Kingdom, Cholas, and on an island at the southern part of the map in the Bay of Bengal there is a label for Tamraparni Kingdom. South of the green area the following cities are labeled, from north to south: Mathura, Barbaricum, Ujjain, Saketa, Pataliputra, Vidisa, Barygaza, Kundina, Champa, Pune, Pratishthana, and Amaravati.\nEnglish caption: Figure 10.18 The Kushan Empire. At its greatest extent in the mid-second century, the Kushan Empire stretched from modern-day Uzbekistan to northern India, with two capital cities: Kapisa and Pushklavati. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 2.1766037735849055,
+    "averageConfidence": 52,
+    "entropy": 4.638020616679569,
+    "sharpness": 5.241081318733722
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A map is shown of China on the eastern side of the map and land going west and south from there. The Gulf of Oman, the Arabian Sea, the Laccadive Sea, and the Bay of Bengal are shown along the bottom of the map. There is an arrow shaped area west of China highlighted green in the northwest portion of the map labeled “Kushan Empire.” Within the green area there are areas labeled from north to south: Bactria, Pamir, Hindu-Kush, Gandhara, and Arachosia. Cities labeled within this area from north to south are: Kapisa, Pushklavati, Kashgar, Bactra, Surkh Kotal, Begram, and Taxila. Above the green highlighted area there are two labels for “Sogdiana” and “Ferghana. To the east in China the cities of Kucha and Turfan are labeled. West of the green area is a label for “Gedrosia.” South of the highlighted area are the labels for: Western Satraps, Satavahana Empire, Pandyan Kingdom, Cholas, and on an island at the southern part of the map in the Bay of Bengal there is a label for Tamraparni Kingdom. South of the green area the following cities are labeled, from north to south: Mathura, Barbaricum, Ujjain, Saketa, Pataliputra, Vidisa, Barygaza, Kundina, Champa, Pune, Pratishthana, and Amaravati.\nButton label: Click to enlarge image of A map is shown of China on the eastern side of the map and land going west and south from there. The Gulf of Oman, the Arabian Sea, the Laccadive Sea, and the Bay of Bengal are shown along the bottom of the map. There is an arrow shaped area west of China highlighted green in the northwest portion of the map labeled “Kushan Empire.” Within the green area there are areas labeled from north to south: Bactria, Pamir, Hindu-Kush, Gandhara, and Arachosia. Cities labeled within this area from north to south are: Kapisa, Pushklavati, Kashgar, Bactra, Surkh Kotal, Begram, and Taxila. Above the green highlighted area there are two labels for “Sogdiana” and “Ferghana. To the east in China the cities of Kucha and Turfan are labeled. West of the green area is a label for “Gedrosia.” South of the highlighted area are the labels for: Western Satraps, Satavahana Empire, Pandyan Kingdom, Cholas, and on an island at the southern part of the map in the Bay of Bengal there is a label for Tamraparni Kingdom. South of the green area the following cities are labeled, from north to south: Mathura, Barbaricum, Ujjain, Saketa, Pataliputra, Vidisa, Barygaza, Kundina, Champa, Pune, Pratishthana, and Amaravati.\nEnglish caption: Figure 10.18 The Kushan Empire. At its greatest extent in the mid-second century, the Kushan Empire stretched from modern-day Uzbekistan to northern India, with two capital cities: Kapisa and Pushklavati. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: bengal, kushan, arachosia, begram, ferghana, satavahana, pandyan, barbaricum, ujjain, pataliputra, vidisa, barygaza, kundina, pune. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "SOGDIANA Q",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 155,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": "(SOGDIANA",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 361,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": "To",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 567,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": "5 FERGANA] — ° urfan",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 773,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": "Kapisa AWS = . Kucha °",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 979,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": "BACTRIA PAMIR §",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 1185,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": "(BACTRIA) (PAMIR)",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 1391,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": "Bactra © 3",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 1597,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": "HINDU-KUSH Hay",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 1803,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": "3 © Begram TRUNG QUGC",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 2009,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": "(HINDU-KUSH) _— Gs NpHARA (TRUNG QUGC)",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 2215,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": ") ie ay",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 2421,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": "Eo bién © Taxila",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 2627,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": "Hormuz ARACHOSIA = x \\_ %,, I> L",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 2833,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": ": (aracHosiA) DE QUOC at, 7",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 3039,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": "BR 5 es",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 3245,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": "GEDROSIA KUSHAN = Ps",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 3451,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": "1, (GEDROSIA) ©! Mathura",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 3657,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": "“ay",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 3863,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": "Orgy",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 4069,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": "Barbaricum Ujjain aketa ®",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 4275,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": "4 CAC sATRAP © A Pataliputra",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 4481,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": "PHIA TAY © Vidisa",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 4687,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": "bag] Kant te 5",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 4893,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": "ampa",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 5099,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": "lage ry P",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 5305,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": "Bit E QuiC %",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 5511,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": "= 0 SATAVAHANA |",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 5717,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": "A Rap Amaravati :",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 5923,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": "Vinh",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 6129,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": "VUONG QUOC : Bengal .",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 6335,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": "_ PANDYAN UONG TRIEU 3",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 6541,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": "Ay CHOLAS i",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 6747,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": "Ey 0",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 6953,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": ". fe) J VUONG QUOC ;",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 7159,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": "E = TAMRAPARNI or",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 7365,
+          "w": 977,
+          "h": 103
+        }
+      },
+      {
+        "text": "HE a)",
+        "confidence": 56,
+        "bbox": {
+          "x": 122,
+          "y": 7571,
+          "w": 977,
+          "h": 103
+        }
+      }
+    ],
+    "validation": {
+      "ok": false,
+      "reason": "image-edit-leftover-source-english",
+      "leftoverSourceWords": [
+        "bengal",
+        "kushan",
+        "bactria",
+        "pamir",
+        "hindu-kush",
+        "arachosia",
+        "kapisa",
+        "bactra",
+        "begram",
+        "taxila",
+        "sogdiana",
+        "kucha",
+        "gedrosia",
+        "satavahana",
+        "pandyan",
+        "cholas",
+        "tamraparni",
+        "mathura",
+        "barbaricum",
+        "ujjain"
+      ]
+    },
+    "validationAttempt": 3
+  }
+}

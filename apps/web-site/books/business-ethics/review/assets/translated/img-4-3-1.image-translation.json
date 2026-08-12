@@ -1,0 +1,114 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-4-3-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/4-3-government-and-the-private-sector.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-4-3-1.vi.png",
+  "ocr": [
+    {
+      "text": "ol {BN | 1735 re",
+      "confidence": 39,
+      "bbox": {
+        "x": 120,
+        "y": 81,
+        "w": 960,
+        "h": 54
+      }
+    },
+    {
+      "text": "Sle EE EE 4 : |",
+      "confidence": 39,
+      "bbox": {
+        "x": 120,
+        "y": 189,
+        "w": 960,
+        "h": 54
+      }
+    },
+    {
+      "text": "% | fli iL SE 5 K Ig [ . |",
+      "confidence": 39,
+      "bbox": {
+        "x": 120,
+        "y": 297,
+        "w": 960,
+        "h": 54
+      }
+    },
+    {
+      "text": "lly” TT SRY Hr",
+      "confidence": 39,
+      "bbox": {
+        "x": 120,
+        "y": 405,
+        "w": 960,
+        "h": 54
+      }
+    },
+    {
+      "text": "4 n 'm | S [7 IN i X 7; ¥ — m— 2 a Z L",
+      "confidence": 39,
+      "bbox": {
+        "x": 120,
+        "y": 513,
+        "w": 960,
+        "h": 54
+      }
+    },
+    {
+      "text": "3 \\L J J / ul | ( [ | == | NF y",
+      "confidence": 39,
+      "bbox": {
+        "x": 120,
+        "y": 621,
+        "w": 960,
+        "h": 54
+      }
+    },
+    {
+      "text": "y = y \\/ ; i ii 1 | | |",
+      "confidence": 39,
+      "bbox": {
+        "x": 120,
+        "y": 729,
+        "w": 960,
+        "h": 54
+      }
+    },
+    {
+      "text": "NOT RAonACINTEREST",
+      "confidence": 39,
+      "bbox": {
+        "x": 120,
+        "y": 837,
+        "w": 960,
+        "h": 54
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A banner held by people that reads “Keystone XL pipeline not in our “national interest”.”\nButton label: Click to enlarge image of A banner held by people that reads “Keystone XL pipeline not in our “national interest”.”\nEnglish caption: Figure 4.10 Groups across the political spectrum have come together to protest the proposed Keystone pipeline route. (credit: modification of “Protest against the proposed KeystoneXL tar sands pipeline” by Fibonacci Blue/Flickr, CC BY 2.0)",
+  "metrics": {
+    "textDensity": 0.5112426035502958,
+    "averageConfidence": 39,
+    "entropy": 7.781837701797485,
+    "sharpness": 5.180929612112003
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

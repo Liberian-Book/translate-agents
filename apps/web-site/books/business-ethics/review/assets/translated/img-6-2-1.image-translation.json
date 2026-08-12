@@ -1,0 +1,213 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-6-2-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/6-2-what-constitutes-a-fair-wage.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "image-edit-leftover-source-english",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Median Household Worth prior to and after the Great Recession",
+      "confidence": 83,
+      "bbox": {
+        "x": 87,
+        "y": 95,
+        "w": 696,
+        "h": 63
+      }
+    },
+    {
+      "text": "Lower Middle Upper",
+      "confidence": 83,
+      "bbox": {
+        "x": 87,
+        "y": 221,
+        "w": 696,
+        "h": 63
+      }
+    },
+    {
+      "text": "income income income",
+      "confidence": 83,
+      "bbox": {
+        "x": 87,
+        "y": 347,
+        "w": 696,
+        "h": 63
+      }
+    },
+    {
+      "text": "Source: Kochhar, Rakesh, and Anthony Cilluffo. “How Wealth Inequality Has Changed in the U.S.",
+      "confidence": 83,
+      "bbox": {
+        "x": 87,
+        "y": 473,
+        "w": 696,
+        "h": 63
+      }
+    },
+    {
+      "text": "since the Great Recession, by Race, Ethnicity and Income.” Pew Research Center. Nov 1, 2017.",
+      "confidence": 83,
+      "bbox": {
+        "x": 87,
+        "y": 599,
+        "w": 696,
+        "h": 63
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Median Household Worth prior to and after the Great Recession",
+      "normalizedSource": "Median Household Worth prior to and after the Great Recession",
+      "target": "Giá trị hộ gia đình trung vị trước và sau cuộc suy thoái lớn",
+      "bbox": {
+        "x": 87,
+        "y": 95,
+        "w": 696,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "Lower Middle Upper",
+      "normalizedSource": "Lower Middle Upper",
+      "target": "Thấp Trung Cao",
+      "bbox": {
+        "x": 87,
+        "y": 221,
+        "w": 696,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "income income income",
+      "normalizedSource": "income income income",
+      "target": "thu nhập thu nhập thu nhập",
+      "bbox": {
+        "x": 87,
+        "y": 347,
+        "w": 696,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "Source: Kochhar, Rakesh, and Anthony Cilluffo. “How Wealth Inequality Has Changed in the U.S.",
+      "normalizedSource": "Source: Kochhar, Rakesh, and Anthony Cilluffo. “How Wealth Inequality Has Changed in the U.S.",
+      "target": "Nguồn: Kochhar, Rakesh, và Anthony Cilluffo. “Cách mà sự bất bình đẳng tài sản đã thay đổi ở Mỹ",
+      "bbox": {
+        "x": 87,
+        "y": 473,
+        "w": 696,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "since the Great Recession, by Race, Ethnicity and Income.” Pew Research Center. Nov 1, 2017.",
+      "normalizedSource": "since the Great Recession, by Race, Ethnicity and Income.” Pew Research Center. Nov 1, 2017.",
+      "target": "kể từ cuộc suy thoái lớn, theo chủng tộc, dân tộc và thu nhập.” Pew Research Center. Ngày 1 tháng 11, 2017.",
+      "bbox": {
+        "x": 87,
+        "y": 599,
+        "w": 696,
+        "h": 63
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: This chart is a bar chart titled “Median Household Worth prior to and after the Great Recession.” The label for the y-axis is “Median household net worth (in dollars) and the values start at 0 and increase by 100,000 up to 900,000. The labels for the x-axis are “Lower income,” “Middle income,” and “Upper income.” There are bar graphs for the years 2007, 2013, and 2016 for each income group listed on the x-axis. All of the lower income graphs are below 100,000. The one for 2007 reaches about 20,000 and the ones for 2013 and 2016 decrease slightly from that. The middle income graphs range from about 160,000 to 100,000. The one for 2007 is at about 160,000, then 2013 is at about 100,000, and then 2016 is at about 110,000. The upper income graphs range from about 660,000 to 810,000. The one for 2007 is at about 740,00, then 2013 is at about 660,000, and then 2016 is at about 810,000.\nButton label: Click to enlarge image of This chart is a bar chart titled “Median Household Worth prior to and after the Great Recession.” The label for the y-axis is “Median household net worth (in dollars) and the values start at 0 and increase by 100,000 up to 900,000. The labels for the x-axis are “Lower income,” “Middle income,” and “Upper income.” There are bar graphs for the years 2007, 2013, and 2016 for each income group listed on the x-axis. All of the lower income graphs are below 100,000. The one for 2007 reaches about 20,000 and the ones for 2013 and 2016 decrease slightly from that. The middle income graphs range from about 160,000 to 100,000. The one for 2007 is at about 160,000, then 2013 is at about 100,000, and then 2016 is at about 110,000. The upper income graphs range from about 660,000 to 810,000. The one for 2007 is at about 740,00, then 2013 is at about 660,000, and then 2016 is at about 810,000.\nEnglish caption: Figure 6.7 Stagnant income has been the reality for lower- and middle-income American adults, with income in 2016 actually lower than it was 10 years before. This has not been the case for upper-income adults. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.3197969543147208,
+    "averageConfidence": 83,
+    "entropy": 2.1399971712853585,
+    "sharpness": 5.309413337371724
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: This chart is a bar chart titled “Median Household Worth prior to and after the Great Recession.” The label for the y-axis is “Median household net worth (in dollars) and the values start at 0 and increase by 100,000 up to 900,000. The labels for the x-axis are “Lower income,” “Middle income,” and “Upper income.” There are bar graphs for the years 2007, 2013, and 2016 for each income group listed on the x-axis. All of the lower income graphs are below 100,000. The one for 2007 reaches about 20,000 and the ones for 2013 and 2016 decrease slightly from that. The middle income graphs range from about 160,000 to 100,000. The one for 2007 is at about 160,000, then 2013 is at about 100,000, and then 2016 is at about 110,000. The upper income graphs range from about 660,000 to 810,000. The one for 2007 is at about 740,00, then 2013 is at about 660,000, and then 2016 is at about 810,000.\nButton label: Click to enlarge image of This chart is a bar chart titled “Median Household Worth prior to and after the Great Recession.” The label for the y-axis is “Median household net worth (in dollars) and the values start at 0 and increase by 100,000 up to 900,000. The labels for the x-axis are “Lower income,” “Middle income,” and “Upper income.” There are bar graphs for the years 2007, 2013, and 2016 for each income group listed on the x-axis. All of the lower income graphs are below 100,000. The one for 2007 reaches about 20,000 and the ones for 2013 and 2016 decrease slightly from that. The middle income graphs range from about 160,000 to 100,000. The one for 2007 is at about 160,000, then 2013 is at about 100,000, and then 2016 is at about 110,000. The upper income graphs range from about 660,000 to 810,000. The one for 2007 is at about 740,00, then 2013 is at about 660,000, and then 2016 is at about 810,000.\nEnglish caption: Figure 6.7 Stagnant income has been the reality for lower- and middle-income American adults, with income in 2016 actually lower than it was 10 years before. This has not been the case for upper-income adults. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Median Household Worth prior to and after the Great Recession => Giá trị hộ gia đình trung vị trước và sau cuộc suy thoái lớn\n- Lower Middle Upper => Thấp Trung Cao\n- income income income => thu nhập thu nhập thu nhập\n- Source: Kochhar, Rakesh, and Anthony Cilluffo. “How Wealth Inequality Has Changed in the U.S. => Nguồn: Kochhar, Rakesh, và Anthony Cilluffo. “Cách mà sự bất bình đẳng tài sản đã thay đổi ở Mỹ\n- since the Great Recession, by Race, Ethnicity and Income.” Pew Research Center. Nov 1, 2017. => kể từ cuộc suy thoái lớn, theo chủng tộc, dân tộc và thu nhập.” Pew Research Center. Ngày 1 tháng 11, 2017.\nPrevious output was rejected because these English source words were still visible: kochhar, rakesh, anthony, cilluffo. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Gia tri hd gia dinh trung vi trudc va sau cudc suy thoai Ié6n",
+        "confidence": 79,
+        "bbox": {
+          "x": 132,
+          "y": 143,
+          "w": 1054,
+          "h": 95
+        }
+      },
+      {
+        "text": "iE",
+        "confidence": 79,
+        "bbox": {
+          "x": 132,
+          "y": 334,
+          "w": 1054,
+          "h": 95
+        }
+      },
+      {
+        "text": "Thap Trung Cao",
+        "confidence": 79,
+        "bbox": {
+          "x": 132,
+          "y": 525,
+          "w": 1054,
+          "h": 95
+        }
+      },
+      {
+        "text": "thu nhap thu nhap thu nhap",
+        "confidence": 79,
+        "bbox": {
+          "x": 132,
+          "y": 716,
+          "w": 1054,
+          "h": 95
+        }
+      },
+      {
+        "text": "Ngudn: Kochhar, Rakesh, va Anthony Cilluffo. “Cach ma su bat binh déng tai san da thay déi & My",
+        "confidence": 79,
+        "bbox": {
+          "x": 132,
+          "y": 907,
+          "w": 1054,
+          "h": 95
+        }
+      },
+      {
+        "text": "ké tir cue suy thodi 16n, theo chung tdc, dan toc va thu nhap.” Pew Research Center. Ngay 1 thang 11, 2017.",
+        "confidence": 79,
+        "bbox": {
+          "x": 132,
+          "y": 1098,
+          "w": 1054,
+          "h": 95
+        }
+      }
+    ],
+    "validation": {
+      "ok": false,
+      "reason": "image-edit-leftover-source-english",
+      "leftoverSourceWords": [
+        "kochhar",
+        "rakesh",
+        "anthony",
+        "cilluffo",
+        "research",
+        "center"
+      ]
+    },
+    "validationAttempt": 3
+  }
+}

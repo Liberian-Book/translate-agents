@@ -1,0 +1,154 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-4-1-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/4-1-corporate-law-and-corporate-responsibility.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-4-1-3.vi.png",
+  "ocr": [
+    {
+      "text": "(A) RE Ua Eo : (a b= he",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 83,
+        "w": 1040,
+        "h": 55
+      }
+    },
+    {
+      "text": "SAE CTR Sy BRET a oe Ca",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 194,
+        "w": 1040,
+        "h": 55
+      }
+    },
+    {
+      "text": "Far § a> an a",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 305,
+        "w": 1040,
+        "h": 55
+      }
+    },
+    {
+      "text": "=~ QAO, bg. 1a KS x",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 416,
+        "w": 1040,
+        "h": 55
+      }
+    },
+    {
+      "text": "= Er IY) es",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 527,
+        "w": 1040,
+        "h": 55
+      }
+    },
+    {
+      "text": "am EEE TE ey AR .",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 638,
+        "w": 1040,
+        "h": 55
+      }
+    },
+    {
+      "text": "= fon Vee se a / il",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 749,
+        "w": 1040,
+        "h": 55
+      }
+    },
+    {
+      "text": "Tee oeay— Te e.3 I= ;",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 860,
+        "w": 1040,
+        "h": 55
+      }
+    },
+    {
+      "text": "> : 5 ar EE N",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 971,
+        "w": 1040,
+        "h": 55
+      }
+    },
+    {
+      "text": "==. 4 = Na 4",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 1082,
+        "w": 1040,
+        "h": 55
+      }
+    },
+    {
+      "text": "Zr AR | #",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 1193,
+        "w": 1040,
+        "h": 55
+      }
+    },
+    {
+      "text": "LL] & § = a",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 1304,
+        "w": 1040,
+        "h": 55
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: Part A shows a line of people assembling products. Part B shows Henry Ford.\nButton label: Click to enlarge image of Part A shows a line of people assembling products. Part B shows Henry Ford.\nEnglish caption: Figure 4.4 In 1913, workers are shown laboring on a Ford assembly line (a) in Highland Park, Michigan. In Dodge v. Ford Motor Company (1919), the Michigan Supreme Court ruled that Henry Ford (b) must operate the Ford Motor Company primarily in the profit-maximizing interests of its shareholders rather than in the broader interests of his workers and customers. (credit a: modification of “Ford assembly line - 1913” by unknown/Wikimedia Commons, Public Domain; credit b: modification of “Portrait of Henry Ford” by Hartsook/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 0.76410998552822,
+    "averageConfidence": 30,
+    "entropy": 7.08176392943642,
+    "sharpness": 4.845687498777071
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

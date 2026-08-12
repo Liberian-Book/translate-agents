@@ -1,0 +1,138 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-11-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/11-introduction.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-11-3.vi.png",
+  "ocr": [
+    {
+      "text": "oi WE Ea",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 90,
+        "w": 881,
+        "h": 60
+      }
+    },
+    {
+      "text": "ZY *'Y A fF",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 210,
+        "w": 881,
+        "h": 60
+      }
+    },
+    {
+      "text": "Rr i wy 3 k > Fo ) is",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 330,
+        "w": 881,
+        "h": 60
+      }
+    },
+    {
+      "text": "I v Pd",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 450,
+        "w": 881,
+        "h": 60
+      }
+    },
+    {
+      "text": "PER gree TT.",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 570,
+        "w": 881,
+        "h": 60
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A map of the world is shown. A thin, oval area along Africa’s northern coastline is highlighted purple. Most of Spain is also highlighted as well as the countries of Saudi Arabia, Israel, Palestine, Lebanon, Syria, Iraq, Iran, Yemen, Oman, Kuwait, Bahrain, Qatar, United Arab Emirates, and the western portions of Afghanistan and Pakistan.\nButton label: Click to enlarge image of A map of the world is shown. A thin, oval area along Africa’s northern coastline is highlighted purple. Most of Spain is also highlighted as well as the countries of Saudi Arabia, Israel, Palestine, Lebanon, Syria, Iraq, Iran, Yemen, Oman, Kuwait, Bahrain, Qatar, United Arab Emirates, and the western portions of Afghanistan and Pakistan.\nEnglish caption: Figure 11.3 Locator Map: The Rise of Islam and the Caliphates. (credit: modification of work “World map blank shorelines” by Maciej Jaros/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 0.3200726612170754,
+    "averageConfidence": 27,
+    "entropy": 2.6134824601758737,
+    "sharpness": 1.618371926125295
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A map of the world is shown. A thin, oval area along Africa’s northern coastline is highlighted purple. Most of Spain is also highlighted as well as the countries of Saudi Arabia, Israel, Palestine, Lebanon, Syria, Iraq, Iran, Yemen, Oman, Kuwait, Bahrain, Qatar, United Arab Emirates, and the western portions of Afghanistan and Pakistan.\nButton label: Click to enlarge image of A map of the world is shown. A thin, oval area along Africa’s northern coastline is highlighted purple. Most of Spain is also highlighted as well as the countries of Saudi Arabia, Israel, Palestine, Lebanon, Syria, Iraq, Iran, Yemen, Oman, Kuwait, Bahrain, Qatar, United Arab Emirates, and the western portions of Afghanistan and Pakistan.\nEnglish caption: Figure 11.3 Locator Map: The Rise of Islam and the Caliphates. (credit: modification of work “World map blank shorelines” by Maciej Jaros/Wikimedia Commons, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "SE",
+        "confidence": 34,
+        "bbox": {
+          "x": 152,
+          "y": 124,
+          "w": 1215,
+          "h": 83
+        }
+      },
+      {
+        "text": "NET Dh",
+        "confidence": 34,
+        "bbox": {
+          "x": 152,
+          "y": 290,
+          "w": 1215,
+          "h": 83
+        }
+      },
+      {
+        "text": ": 4 CY",
+        "confidence": 34,
+        "bbox": {
+          "x": 152,
+          "y": 456,
+          "w": 1215,
+          "h": 83
+        }
+      },
+      {
+        "text": "’ Pie",
+        "confidence": 34,
+        "bbox": {
+          "x": 152,
+          "y": 622,
+          "w": 1215,
+          "h": 83
+        }
+      },
+      {
+        "text": "J ew.",
+        "confidence": 34,
+        "bbox": {
+          "x": 152,
+          "y": 788,
+          "w": 1215,
+          "h": 83
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

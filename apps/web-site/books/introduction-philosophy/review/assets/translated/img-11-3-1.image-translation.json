@@ -1,0 +1,323 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-11-3-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/11-3-political-legitimacy-and-duty.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "ed potest Ee eer RN Areas",
+      "confidence": 26,
+      "bbox": {
+        "x": 50,
+        "y": 96,
+        "w": 402,
+        "h": 64
+      }
+    },
+    {
+      "text": "= J dE Yea.",
+      "confidence": 26,
+      "bbox": {
+        "x": 50,
+        "y": 224,
+        "w": 402,
+        "h": 64
+      }
+    },
+    {
+      "text": "- / Es aN",
+      "confidence": 26,
+      "bbox": {
+        "x": 50,
+        "y": 352,
+        "w": 402,
+        "h": 64
+      }
+    },
+    {
+      "text": ": AR LR LP",
+      "confidence": 26,
+      "bbox": {
+        "x": 50,
+        "y": 480,
+        "w": 402,
+        "h": 64
+      }
+    },
+    {
+      "text": "J SERN \\",
+      "confidence": 26,
+      "bbox": {
+        "x": 50,
+        "y": 608,
+        "w": 402,
+        "h": 64
+      }
+    },
+    {
+      "text": "HO City Ga",
+      "confidence": 26,
+      "bbox": {
+        "x": 50,
+        "y": 736,
+        "w": 402,
+        "h": 64
+      }
+    },
+    {
+      "text": "SP er Lei",
+      "confidence": 26,
+      "bbox": {
+        "x": 50,
+        "y": 864,
+        "w": 402,
+        "h": 64
+      }
+    },
+    {
+      "text": "Ce Te a \\T",
+      "confidence": 26,
+      "bbox": {
+        "x": 50,
+        "y": 992,
+        "w": 402,
+        "h": 64
+      }
+    },
+    {
+      "text": "Taka Bie, hime Erie A",
+      "confidence": 26,
+      "bbox": {
+        "x": 50,
+        "y": 1120,
+        "w": 402,
+        "h": 64
+      }
+    },
+    {
+      "text": "JR a LA EEE",
+      "confidence": 26,
+      "bbox": {
+        "x": 50,
+        "y": 1248,
+        "w": 402,
+        "h": 64
+      }
+    },
+    {
+      "text": "me SEEN aT WIT,",
+      "confidence": 26,
+      "bbox": {
+        "x": 50,
+        "y": 1376,
+        "w": 402,
+        "h": 64
+      }
+    },
+    {
+      "text": "LET, Ye",
+      "confidence": 26,
+      "bbox": {
+        "x": 50,
+        "y": 1504,
+        "w": 402,
+        "h": 64
+      }
+    },
+    {
+      "text": "Bi A Naa eR i",
+      "confidence": 26,
+      "bbox": {
+        "x": 50,
+        "y": 1632,
+        "w": 402,
+        "h": 64
+      }
+    },
+    {
+      "text": "oF i, \\ Se / | ©",
+      "confidence": 26,
+      "bbox": {
+        "x": 50,
+        "y": 1760,
+        "w": 402,
+        "h": 64
+      }
+    },
+    {
+      "text": "\"or 48 (oalpmyzr 8 ii",
+      "confidence": 26,
+      "bbox": {
+        "x": 50,
+        "y": 1888,
+        "w": 402,
+        "h": 64
+      }
+    },
+    {
+      "text": "Lie em",
+      "confidence": 26,
+      "bbox": {
+        "x": 50,
+        "y": 2016,
+        "w": 402,
+        "h": 64
+      }
+    },
+    {
+      "text": "ar7er FORMED EL Lg",
+      "confidence": 26,
+      "bbox": {
+        "x": 50,
+        "y": 2144,
+        "w": 402,
+        "h": 64
+      }
+    },
+    {
+      "text": "= | 49 Page pA Cont” —_—_———|",
+      "confidence": 26,
+      "bbox": {
+        "x": 50,
+        "y": 2272,
+        "w": 402,
+        "h": 64
+      }
+    },
+    {
+      "text": "To 2ts2n Becaroras TIA Bens",
+      "confidence": 26,
+      "bbox": {
+        "x": 50,
+        "y": 2400,
+        "w": 402,
+        "h": 64
+      }
+    },
+    {
+      "text": "ms bs = |",
+      "confidence": 26,
+      "bbox": {
+        "x": 50,
+        "y": 2528,
+        "w": 402,
+        "h": 64
+      }
+    },
+    {
+      "text": "= = wad Cpr —_— =",
+      "confidence": 26,
+      "bbox": {
+        "x": 50,
+        "y": 2656,
+        "w": 402,
+        "h": 64
+      }
+    },
+    {
+      "text": "Sy | 5 Zs owes 8 (WEI 9 |",
+      "confidence": 26,
+      "bbox": {
+        "x": 50,
+        "y": 2784,
+        "w": 402,
+        "h": 64
+      }
+    },
+    {
+      "text": "SB LAE or i \\ Iu",
+      "confidence": 26,
+      "bbox": {
+        "x": 50,
+        "y": 2912,
+        "w": 402,
+        "h": 64
+      }
+    },
+    {
+      "text": "pos EX) > (ir 5 Mie ALAC",
+      "confidence": 26,
+      "bbox": {
+        "x": 50,
+        "y": 3040,
+        "w": 402,
+        "h": 64
+      }
+    },
+    {
+      "text": "LAAN stig Ret | ) Sad |",
+      "confidence": 26,
+      "bbox": {
+        "x": 50,
+        "y": 3168,
+        "w": 402,
+        "h": 64
+      }
+    },
+    {
+      "text": "re IN IS ri |",
+      "confidence": 26,
+      "bbox": {
+        "x": 50,
+        "y": 3296,
+        "w": 402,
+        "h": 64
+      }
+    },
+    {
+      "text": "Ws v= ST",
+      "confidence": 26,
+      "bbox": {
+        "x": 50,
+        "y": 3424,
+        "w": 402,
+        "h": 64
+      }
+    },
+    {
+      "text": "ied Sm 1k ’",
+      "confidence": 26,
+      "bbox": {
+        "x": 50,
+        "y": 3552,
+        "w": 402,
+        "h": 64
+      }
+    },
+    {
+      "text": "EEN) Ae) | |",
+      "confidence": 26,
+      "bbox": {
+        "x": 50,
+        "y": 3680,
+        "w": 402,
+        "h": 64
+      }
+    },
+    {
+      "text": "_— lee. |",
+      "confidence": 26,
+      "bbox": {
+        "x": 50,
+        "y": 3808,
+        "w": 402,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 1.9219123505976095,
+    "averageConfidence": 26,
+    "entropy": 7.646010804921389,
+    "sharpness": 15.20149940966829
+  }
+}

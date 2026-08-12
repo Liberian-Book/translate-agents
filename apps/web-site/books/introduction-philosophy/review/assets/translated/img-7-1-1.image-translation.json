@@ -1,0 +1,73 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-7-1-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/7-1-what-epistemology-studies.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "= a Be",
+      "confidence": 36,
+      "bbox": {
+        "x": 68,
+        "y": 70,
+        "w": 547,
+        "h": 47
+      }
+    },
+    {
+      "text": "Eh",
+      "confidence": 36,
+      "bbox": {
+        "x": 68,
+        "y": 164,
+        "w": 547,
+        "h": 47
+      }
+    },
+    {
+      "text": "AN 3 Bo",
+      "confidence": 36,
+      "bbox": {
+        "x": 68,
+        "y": 258,
+        "w": 547,
+        "h": 47
+      }
+    },
+    {
+      "text": "\\ WN 72 |",
+      "confidence": 36,
+      "bbox": {
+        "x": 68,
+        "y": 352,
+        "w": 547,
+        "h": 47
+      }
+    },
+    {
+      "text": "Lif",
+      "confidence": 36,
+      "bbox": {
+        "x": 68,
+        "y": 446,
+        "w": 547,
+        "h": 47
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.32015551371330087,
+    "averageConfidence": 36,
+    "entropy": 7.424699788913131,
+    "sharpness": 1.9699165907477378
+  }
+}

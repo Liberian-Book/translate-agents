@@ -1,0 +1,83 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-11-4-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/11-4-political-ideologies.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "¥ It",
+      "confidence": 34,
+      "bbox": {
+        "x": 80,
+        "y": 73,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "oh",
+      "confidence": 34,
+      "bbox": {
+        "x": 80,
+        "y": 170,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "+ | (ti",
+      "confidence": 34,
+      "bbox": {
+        "x": 80,
+        "y": 267,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "hi | oy A",
+      "confidence": 34,
+      "bbox": {
+        "x": 80,
+        "y": 364,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "5g = — - oa VF SW 5: YR",
+      "confidence": 34,
+      "bbox": {
+        "x": 80,
+        "y": 461,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "rs a FEAT",
+      "confidence": 34,
+      "bbox": {
+        "x": 80,
+        "y": 558,
+        "w": 640,
+        "h": 48
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.3808264462809917,
+    "averageConfidence": 34,
+    "entropy": 5.442699544801144,
+    "sharpness": 0.5743938057783993
+  }
+}

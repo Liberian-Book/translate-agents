@@ -1,0 +1,328 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-1-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/1-introduction.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-1-1.vi.png",
+  "ocr": [
+    {
+      "text": "= = S30 7 me",
+      "confidence": 30,
+      "bbox": {
+        "x": 175,
+        "y": 86,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "== = (3 SP eae",
+      "confidence": 30,
+      "bbox": {
+        "x": 175,
+        "y": 201,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "4 ge. \"5 J) esto",
+      "confidence": 30,
+      "bbox": {
+        "x": 175,
+        "y": 316,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "En: Seg Ee 2% —— eee",
+      "confidence": 30,
+      "bbox": {
+        "x": 175,
+        "y": 431,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "aa = < 7 eae",
+      "confidence": 30,
+      "bbox": {
+        "x": 175,
+        "y": 546,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "NS. |",
+      "confidence": 30,
+      "bbox": {
+        "x": 175,
+        "y": 661,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "I “he",
+      "confidence": 30,
+      "bbox": {
+        "x": 175,
+        "y": 776,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "et WV. J RY ho < ===",
+      "confidence": 30,
+      "bbox": {
+        "x": 175,
+        "y": 891,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "E I VL AN 3 i J il ’ Fo \\ La",
+      "confidence": 30,
+      "bbox": {
+        "x": 175,
+        "y": 1006,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "PY | . (Ee",
+      "confidence": 30,
+      "bbox": {
+        "x": 175,
+        "y": 1121,
+        "w": 1400,
+        "h": 57
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: Two hands shaking over a wooden surface.\nButton label: Click to enlarge image of Two hands shaking over a wooden surface.\nEnglish caption: Figure 1.1 Each of us makes innumerable decisions every day. In a business context, these choices have consequences for ourselves and others whom we must take into account in our decision-making process. (credit: modification of “business paper office laptop” by “rawpixel”/Pixabay, CC0)",
+  "metrics": {
+    "textDensity": 0.6350974930362117,
+    "averageConfidence": 30,
+    "entropy": 7.527386072630179,
+    "sharpness": 5.362786668091437
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: Two hands shaking over a wooden surface.\nButton label: Click to enlarge image of Two hands shaking over a wooden surface.\nEnglish caption: Figure 1.1 Each of us makes innumerable decisions every day. In a business context, these choices have consequences for ourselves and others whom we must take into account in our decision-making process. (credit: modification of “business paper office laptop” by “rawpixel”/Pixabay, CC0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "ee — = Pe” ~~ 7 = Em",
+        "confidence": 32,
+        "bbox": {
+          "x": 196,
+          "y": 96,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "een 208%? ~ No =",
+        "confidence": 32,
+        "bbox": {
+          "x": 196,
+          "y": 225,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "=— Brea CCIE 55557 ee",
+        "confidence": 32,
+        "bbox": {
+          "x": 196,
+          "y": 354,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "= pris a) PD 2° oS Po Ee",
+        "confidence": 32,
+        "bbox": {
+          "x": 196,
+          "y": 483,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "# = mae EE 57 2 A a",
+        "confidence": 32,
+        "bbox": {
+          "x": 196,
+          "y": 612,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "E png ctr 4S 7” 2 z — = Se",
+        "confidence": 32,
+        "bbox": {
+          "x": 196,
+          "y": 741,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "er co A “2 = ==",
+        "confidence": 32,
+        "bbox": {
+          "x": 196,
+          "y": 870,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "Ho ubnbsn ’ — Hop dong 8 2 —",
+        "confidence": 32,
+        "bbox": {
+          "x": 196,
+          "y": 999,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "RAE, : —",
+        "confidence": 32,
+        "bbox": {
+          "x": 196,
+          "y": 1128,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "\\c & Béo co tai chinh =",
+        "confidence": 32,
+        "bbox": {
+          "x": 196,
+          "y": 1257,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "E hang quy",
+        "confidence": 32,
+        "bbox": {
+          "x": 196,
+          "y": 1386,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "\\ r, p So'sdoh hid sult hing nm",
+        "confidence": 32,
+        "bbox": {
+          "x": 196,
+          "y": 1515,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "ors pronto, STAGE NY] \\ 3 IE ome",
+        "confidence": 32,
+        "bbox": {
+          "x": 196,
+          "y": 1644,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "oop cmc PRA EEN(Y = 3 %& |e :",
+        "confidence": 32,
+        "bbox": {
+          "x": 196,
+          "y": 1773,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": ": worw a AN oy FF | NR Ca —",
+        "confidence": 32,
+        "bbox": {
+          "x": 196,
+          "y": 1902,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "AT \\ dey | | NX ee <",
+        "confidence": 32,
+        "bbox": {
+          "x": 196,
+          "y": 2031,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "UR es i Poti, J aN Dy bdo doanh thu",
+        "confidence": 32,
+        "bbox": {
+          "x": 196,
+          "y": 2160,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "Hm Pr = | © 2 gy [ - Sah EE Es",
+        "confidence": 32,
+        "bbox": {
+          "x": 196,
+          "y": 2289,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "vse ment, || | vn - wR oe",
+        "confidence": 32,
+        "bbox": {
+          "x": 196,
+          "y": 2418,
+          "w": 1566,
+          "h": 64
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

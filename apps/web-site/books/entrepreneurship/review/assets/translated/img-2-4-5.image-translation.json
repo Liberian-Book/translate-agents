@@ -1,0 +1,261 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-2-4-5.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/2-4-frameworks-to-inform-your-entrepreneurial-path.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "translation-overflow",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/translated/img-2-4-5.vi.png",
+  "ocr": [
+    {
+      "text": "Develop",
+      "confidence": 96,
+      "bbox": {
+        "x": 97,
+        "y": 97,
+        "w": 773,
+        "h": 65
+      }
+    },
+    {
+      "text": "recovery",
+      "confidence": 96,
+      "bbox": {
+        "x": 97,
+        "y": 226,
+        "w": 773,
+        "h": 65
+      }
+    },
+    {
+      "text": "plan",
+      "confidence": 96,
+      "bbox": {
+        "x": 97,
+        "y": 355,
+        "w": 773,
+        "h": 65
+      }
+    },
+    {
+      "text": "Create",
+      "confidence": 96,
+      "bbox": {
+        "x": 97,
+        "y": 484,
+        "w": 773,
+        "h": 65
+      }
+    },
+    {
+      "text": "recovery",
+      "confidence": 96,
+      "bbox": {
+        "x": 97,
+        "y": 613,
+        "w": 773,
+        "h": 65
+      }
+    },
+    {
+      "text": "timeline",
+      "confidence": 96,
+      "bbox": {
+        "x": 97,
+        "y": 742,
+        "w": 773,
+        "h": 65
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Develop",
+      "normalizedSource": "Develop",
+      "target": "Phát triển",
+      "bbox": {
+        "x": 97,
+        "y": 97,
+        "w": 773,
+        "h": 65
+      },
+      "overflow": false
+    },
+    {
+      "source": "recovery",
+      "normalizedSource": "recovery",
+      "target": "kế hoạch phục hồi",
+      "bbox": {
+        "x": 97,
+        "y": 226,
+        "w": 773,
+        "h": 65
+      },
+      "overflow": true
+    },
+    {
+      "source": "plan",
+      "normalizedSource": "plan",
+      "target": "kế hoạch",
+      "bbox": {
+        "x": 97,
+        "y": 355,
+        "w": 773,
+        "h": 65
+      },
+      "overflow": true
+    },
+    {
+      "source": "Create",
+      "normalizedSource": "Create",
+      "target": "Tạo",
+      "bbox": {
+        "x": 97,
+        "y": 484,
+        "w": 773,
+        "h": 65
+      },
+      "overflow": false
+    },
+    {
+      "source": "recovery",
+      "normalizedSource": "recovery",
+      "target": "thời gian phục hồi",
+      "bbox": {
+        "x": 97,
+        "y": 613,
+        "w": 773,
+        "h": 65
+      },
+      "overflow": true
+    },
+    {
+      "source": "timeline",
+      "normalizedSource": "timeline",
+      "target": "thời gian biểu",
+      "bbox": {
+        "x": 97,
+        "y": 742,
+        "w": 773,
+        "h": 65
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: Mind map that shows a disaster action plan with arrows extending to such areas as assess action plan results, hurricane, tornado, develop recovery plan, volcano eruption, identify solutions, research resources, flood, designate delivery methods, forest fire, create recovery timeline, earthquake, and monitor recovery efforts.\nButton label: Click to enlarge image of Mind map that shows a disaster action plan with arrows extending to such areas as assess action plan results, hurricane, tornado, develop recovery plan, volcano eruption, identify solutions, research resources, flood, designate delivery methods, forest fire, create recovery timeline, earthquake, and monitor recovery efforts.\nEnglish caption: Figure 2.26 From this mind map of disasters that occur and actions to take, we could focus on one action area that matches our interests, passions and skills. After selecting an area of interest, we could create another mind map focused on our area of interest to identify solution sets. Next, we could apply one of the frameworks listed in Table 2.3. From there we could create an action plan of actions needed to become more informed about the idea or solutions. As you can see, an action plan fits into multiple areas. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.3867171565571436,
+    "averageConfidence": 96,
+    "entropy": 3.29594017495765,
+    "sharpness": 4.917283884414585
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: Mind map that shows a disaster action plan with arrows extending to such areas as assess action plan results, hurricane, tornado, develop recovery plan, volcano eruption, identify solutions, research resources, flood, designate delivery methods, forest fire, create recovery timeline, earthquake, and monitor recovery efforts.\nButton label: Click to enlarge image of Mind map that shows a disaster action plan with arrows extending to such areas as assess action plan results, hurricane, tornado, develop recovery plan, volcano eruption, identify solutions, research resources, flood, designate delivery methods, forest fire, create recovery timeline, earthquake, and monitor recovery efforts.\nEnglish caption: Figure 2.26 From this mind map of disasters that occur and actions to take, we could focus on one action area that matches our interests, passions and skills. After selecting an area of interest, we could create another mind map focused on our area of interest to identify solution sets. Next, we could apply one of the frameworks listed in Table 2.3. From there we could create an action plan of actions needed to become more informed about the idea or solutions. As you can see, an action plan fits into multiple areas. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Develop => Phát triển\n- Create => Tạo\n- timeline => thời gian biểu\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Phat trién",
+        "confidence": 72,
+        "bbox": {
+          "x": 137,
+          "y": 138,
+          "w": 1098,
+          "h": 92
+        }
+      },
+      {
+        "text": "ké hoach",
+        "confidence": 72,
+        "bbox": {
+          "x": 137,
+          "y": 322,
+          "w": 1098,
+          "h": 92
+        }
+      },
+      {
+        "text": "| oy | i",
+        "confidence": 72,
+        "bbox": {
+          "x": 137,
+          "y": 506,
+          "w": 1098,
+          "h": 92
+        }
+      },
+      {
+        "text": "Phun trao |",
+        "confidence": 72,
+        "bbox": {
+          "x": 137,
+          "y": 690,
+          "w": 1098,
+          "h": 92
+        }
+      },
+      {
+        "text": "nui lta |",
+        "confidence": 72,
+        "bbox": {
+          "x": 137,
+          "y": 874,
+          "w": 1098,
+          "h": 92
+        }
+      },
+      {
+        "text": "1 heg )",
+        "confidence": 72,
+        "bbox": {
+          "x": 137,
+          "y": 1058,
+          "w": 1098,
+          "h": 92
+        }
+      },
+      {
+        "text": "Tao thoi",
+        "confidence": 72,
+        "bbox": {
+          "x": 137,
+          "y": 1242,
+          "w": 1098,
+          "h": 92
+        }
+      },
+      {
+        "text": "gian biéu",
+        "confidence": 72,
+        "bbox": {
+          "x": 137,
+          "y": 1426,
+          "w": 1098,
+          "h": 92
+        }
+      },
+      {
+        "text": "phuc hoi",
+        "confidence": 72,
+        "bbox": {
+          "x": 137,
+          "y": 1610,
+          "w": 1098,
+          "h": 92
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

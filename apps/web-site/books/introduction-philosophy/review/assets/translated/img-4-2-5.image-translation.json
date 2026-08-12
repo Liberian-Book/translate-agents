@@ -1,0 +1,243 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-4-2-5.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/4-2-classical-philosophy.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Cr a N®",
+      "confidence": 24,
+      "bbox": {
+        "x": 51,
+        "y": 96,
+        "w": 410,
+        "h": 64
+      }
+    },
+    {
+      "text": "Ble se —_— ENE YS",
+      "confidence": 24,
+      "bbox": {
+        "x": 51,
+        "y": 224,
+        "w": 410,
+        "h": 64
+      }
+    },
+    {
+      "text": "a 1 Tl ee",
+      "confidence": 24,
+      "bbox": {
+        "x": 51,
+        "y": 352,
+        "w": 410,
+        "h": 64
+      }
+    },
+    {
+      "text": "Rea hE MRL 3",
+      "confidence": 24,
+      "bbox": {
+        "x": 51,
+        "y": 480,
+        "w": 410,
+        "h": 64
+      }
+    },
+    {
+      "text": "Nz 4 Lf) 2% A",
+      "confidence": 24,
+      "bbox": {
+        "x": 51,
+        "y": 608,
+        "w": 410,
+        "h": 64
+      }
+    },
+    {
+      "text": "SEIS { NBS oxrs",
+      "confidence": 24,
+      "bbox": {
+        "x": 51,
+        "y": 736,
+        "w": 410,
+        "h": 64
+      }
+    },
+    {
+      "text": "\\ \\ rs NS Jy Xi",
+      "confidence": 24,
+      "bbox": {
+        "x": 51,
+        "y": 864,
+        "w": 410,
+        "h": 64
+      }
+    },
+    {
+      "text": "CY ISR Ng) l=",
+      "confidence": 24,
+      "bbox": {
+        "x": 51,
+        "y": 992,
+        "w": 410,
+        "h": 64
+      }
+    },
+    {
+      "text": "SEINE RE 17) eas)",
+      "confidence": 24,
+      "bbox": {
+        "x": 51,
+        "y": 1120,
+        "w": 410,
+        "h": 64
+      }
+    },
+    {
+      "text": "7% HONE & \\) = | oe",
+      "confidence": 24,
+      "bbox": {
+        "x": 51,
+        "y": 1248,
+        "w": 410,
+        "h": 64
+      }
+    },
+    {
+      "text": "2d a IN Fav",
+      "confidence": 24,
+      "bbox": {
+        "x": 51,
+        "y": 1376,
+        "w": 410,
+        "h": 64
+      }
+    },
+    {
+      "text": "OF RCNA WY ¢ 5 3",
+      "confidence": 24,
+      "bbox": {
+        "x": 51,
+        "y": 1504,
+        "w": 410,
+        "h": 64
+      }
+    },
+    {
+      "text": "EY Cf. iis",
+      "confidence": 24,
+      "bbox": {
+        "x": 51,
+        "y": 1632,
+        "w": 410,
+        "h": 64
+      }
+    },
+    {
+      "text": "Cp fe",
+      "confidence": 24,
+      "bbox": {
+        "x": 51,
+        "y": 1760,
+        "w": 410,
+        "h": 64
+      }
+    },
+    {
+      "text": "Yo ¢ Co Fan So, 88.",
+      "confidence": 24,
+      "bbox": {
+        "x": 51,
+        "y": 1888,
+        "w": 410,
+        "h": 64
+      }
+    },
+    {
+      "text": "0B tomane cl Dnamecone Lor ig",
+      "confidence": 24,
+      "bbox": {
+        "x": 51,
+        "y": 2016,
+        "w": 410,
+        "h": 64
+      }
+    },
+    {
+      "text": "3 somene et Dien fer Ne Sof dug Jf. 2",
+      "confidence": 24,
+      "bbox": {
+        "x": 51,
+        "y": 2144,
+        "w": 410,
+        "h": 64
+      }
+    },
+    {
+      "text": "STREET A",
+      "confidence": 24,
+      "bbox": {
+        "x": 51,
+        "y": 2272,
+        "w": 410,
+        "h": 64
+      }
+    },
+    {
+      "text": "ENS AEY) LN dr",
+      "confidence": 24,
+      "bbox": {
+        "x": 51,
+        "y": 2400,
+        "w": 410,
+        "h": 64
+      }
+    },
+    {
+      "text": "bE 90 bE ig",
+      "confidence": 24,
+      "bbox": {
+        "x": 51,
+        "y": 2528,
+        "w": 410,
+        "h": 64
+      }
+    },
+    {
+      "text": "HDLC OER SES",
+      "confidence": 24,
+      "bbox": {
+        "x": 51,
+        "y": 2656,
+        "w": 410,
+        "h": 64
+      }
+    },
+    {
+      "text": "Pe JOR YS 7 CRN eS",
+      "confidence": 24,
+      "bbox": {
+        "x": 51,
+        "y": 2784,
+        "w": 410,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 1.409375,
+    "averageConfidence": 24,
+    "entropy": 7.429942454371485,
+    "sharpness": 5.910103420736095
+  }
+}

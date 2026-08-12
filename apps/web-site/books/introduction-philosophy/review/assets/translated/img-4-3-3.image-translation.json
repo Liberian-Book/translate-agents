@@ -1,0 +1,143 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-4-3-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/4-3-jewish-christian-and-islamic-philosophy.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "8 BS Se Wg TOE Lo A ph Pon” A",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 70,
+        "w": 640,
+        "h": 46
+      }
+    },
+    {
+      "text": "RR I LR",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 163,
+        "w": 640,
+        "h": 46
+      }
+    },
+    {
+      "text": "3 RE J b . Hau St",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 256,
+        "w": 640,
+        "h": 46
+      }
+    },
+    {
+      "text": "ed 152 ag ly Ti ONAL NRRE OF",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 349,
+        "w": 640,
+        "h": 46
+      }
+    },
+    {
+      "text": "LV, id LADY 1 ; os § [ Sil ,",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 442,
+        "w": 640,
+        "h": 46
+      }
+    },
+    {
+      "text": "9 Co ol yey",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 535,
+        "w": 640,
+        "h": 46
+      }
+    },
+    {
+      "text": "LAD 0 NE",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 628,
+        "w": 640,
+        "h": 46
+      }
+    },
+    {
+      "text": "7 Tai TE f \\y 1 a",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 721,
+        "w": 640,
+        "h": 46
+      }
+    },
+    {
+      "text": "AV / 3 3 WN p 1",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 814,
+        "w": 640,
+        "h": 46
+      }
+    },
+    {
+      "text": "Py NN.",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 907,
+        "w": 640,
+        "h": 46
+      }
+    },
+    {
+      "text": "Vo, ¥ A",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 1000,
+        "w": 640,
+        "h": 46
+      }
+    },
+    {
+      "text": "LL yh ls",
+      "confidence": 24,
+      "bbox": {
+        "x": 80,
+        "y": 1093,
+        "w": 640,
+        "h": 46
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.7613793103448275,
+    "averageConfidence": 24,
+    "entropy": 7.393551587498223,
+    "sharpness": 2.842531312887856
+  }
+}

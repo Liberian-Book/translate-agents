@@ -1,0 +1,298 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-6-1-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/6-1-the-workplace-environment-and-working-conditions.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-6-1-4.vi.png",
+  "ocr": [
+    {
+      "text": "amy £ op Erte EE",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 54,
+        "w": 640,
+        "h": 36
+      }
+    },
+    {
+      "text": "5. Po [ysl Tiare Ee",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 126,
+        "w": 640,
+        "h": 36
+      }
+    },
+    {
+      "text": "Ra fy TREE ber ar ce",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 198,
+        "w": 640,
+        "h": 36
+      }
+    },
+    {
+      "text": "= eden",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 270,
+        "w": 640,
+        "h": 36
+      }
+    },
+    {
+      "text": "wm Le",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 342,
+        "w": 640,
+        "h": 36
+      }
+    },
+    {
+      "text": "= lbp AEE",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 414,
+        "w": 640,
+        "h": 36
+      }
+    },
+    {
+      "text": "Ran Fe",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 486,
+        "w": 640,
+        "h": 36
+      }
+    },
+    {
+      "text": "ad",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 558,
+        "w": 640,
+        "h": 36
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This image shows a room with a shuffleboard table and a foosball table.\nButton label: Click to enlarge image of This image shows a room with a shuffleboard table and a foosball table.\nEnglish caption: Figure 6.5 Workplace or clubhouse? Some companies offer playful perks in an effort to attract the best employees and increase worker satisfaction. (credit: work by Jason Putsche Photography/Spark Baltimore, CC BY 4.0)",
+  "metrics": {
+    "textDensity": 0.5097345132743363,
+    "averageConfidence": 26,
+    "entropy": 7.311716026455542,
+    "sharpness": 3.287754145674646
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: This image shows a room with a shuffleboard table and a foosball table.\nButton label: Click to enlarge image of This image shows a room with a shuffleboard table and a foosball table.\nEnglish caption: Figure 6.5 Workplace or clubhouse? Some companies offer playful perks in an effort to attract the best employees and increase worker satisfaction. (credit: work by Jason Putsche Photography/Spark Baltimore, CC BY 4.0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "i == ee \\ . y CE a Rey oa A",
+        "confidence": 29,
+        "bbox": {
+          "x": 167,
+          "y": 113,
+          "w": 1334,
+          "h": 75
+        }
+      },
+      {
+        "text": ". —— — | Re NL Be ; ho oe ©",
+        "confidence": 29,
+        "bbox": {
+          "x": 167,
+          "y": 264,
+          "w": 1334,
+          "h": 75
+        }
+      },
+      {
+        "text": "i PE Samos EEE",
+        "confidence": 29,
+        "bbox": {
+          "x": 167,
+          "y": 415,
+          "w": 1334,
+          "h": 75
+        }
+      },
+      {
+        "text": "Spek] a Ae ga team N = Sd oo po El bere Ye",
+        "confidence": 29,
+        "bbox": {
+          "x": 167,
+          "y": 566,
+          "w": 1334,
+          "h": 75
+        }
+      },
+      {
+        "text": "= Ce Re",
+        "confidence": 29,
+        "bbox": {
+          "x": 167,
+          "y": 717,
+          "w": 1334,
+          "h": 75
+        }
+      },
+      {
+        "text": "Een (F EY Digenesih TNE",
+        "confidence": 29,
+        "bbox": {
+          "x": 167,
+          "y": 868,
+          "w": 1334,
+          "h": 75
+        }
+      },
+      {
+        "text": "| | i cenit Sag Nm i I il pa) gl Tl I =",
+        "confidence": 29,
+        "bbox": {
+          "x": 167,
+          "y": 1019,
+          "w": 1334,
+          "h": 75
+        }
+      },
+      {
+        "text": "ot CE £ 5 SE 8 FET Ea } > oy es fos",
+        "confidence": 29,
+        "bbox": {
+          "x": 167,
+          "y": 1170,
+          "w": 1334,
+          "h": 75
+        }
+      },
+      {
+        "text": "® peal ELS AR IES Se",
+        "confidence": 29,
+        "bbox": {
+          "x": 167,
+          "y": 1321,
+          "w": 1334,
+          "h": 75
+        }
+      },
+      {
+        "text": "Rs Fares PE NT Ras Se is & Wes SAT T",
+        "confidence": 29,
+        "bbox": {
+          "x": 167,
+          "y": 1472,
+          "w": 1334,
+          "h": 75
+        }
+      },
+      {
+        "text": "\\ lk bss = oe TS ot Rox",
+        "confidence": 29,
+        "bbox": {
+          "x": 167,
+          "y": 1623,
+          "w": 1334,
+          "h": 75
+        }
+      },
+      {
+        "text": "; fF <1 = ne, ——",
+        "confidence": 29,
+        "bbox": {
+          "x": 167,
+          "y": 1774,
+          "w": 1334,
+          "h": 75
+        }
+      },
+      {
+        "text": "} a be. a",
+        "confidence": 29,
+        "bbox": {
+          "x": 167,
+          "y": 1925,
+          "w": 1334,
+          "h": 75
+        }
+      },
+      {
+        "text": "= ar =\", ~—",
+        "confidence": 29,
+        "bbox": {
+          "x": 167,
+          "y": 2076,
+          "w": 1334,
+          "h": 75
+        }
+      },
+      {
+        "text": "=\" Fer ~~ Ee :",
+        "confidence": 29,
+        "bbox": {
+          "x": 167,
+          "y": 2227,
+          "w": 1334,
+          "h": 75
+        }
+      },
+      {
+        "text": "SN Ee EN",
+        "confidence": 29,
+        "bbox": {
+          "x": 167,
+          "y": 2378,
+          "w": 1334,
+          "h": 75
+        }
+      },
+      {
+        "text": "2 Re = 15",
+        "confidence": 29,
+        "bbox": {
+          "x": 167,
+          "y": 2529,
+          "w": 1334,
+          "h": 75
+        }
+      },
+      {
+        "text": "EO = pe",
+        "confidence": 29,
+        "bbox": {
+          "x": 167,
+          "y": 2680,
+          "w": 1334,
+          "h": 75
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

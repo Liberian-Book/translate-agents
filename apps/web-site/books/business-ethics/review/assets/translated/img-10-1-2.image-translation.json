@@ -1,0 +1,333 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-10-1-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/10-1-more-telecommuting-or-less.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "translation-overflow",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "or",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 50,
+        "w": 1040,
+        "h": 33
+      }
+    },
+    {
+      "text": "Employee Benefits yp. § fd, ar",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 117,
+        "w": 1040,
+        "h": 33
+      }
+    },
+    {
+      "text": "« Saves time ATI Ge e",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 184,
+        "w": 1040,
+        "h": 33
+      }
+    },
+    {
+      "text": ". . {; \" LEG Teg",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 251,
+        "w": 1040,
+        "h": 33
+      }
+    },
+    {
+      "text": "Reduces spending on gas ATER 3057",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 318,
+        "w": 1040,
+        "h": 33
+      }
+    },
+    {
+      "text": "+ Decreases stress >, #3 Other Benefits",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 385,
+        "w": 1040,
+        "h": 33
+      }
+    },
+    {
+      "text": "f le I",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 452,
+        "w": 1040,
+        "h": 33
+      }
+    },
+    {
+      "text": "Improvesioriclifebalance GE - Reduces greenhouse emissions",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 519,
+        "w": 1040,
+        "h": 33
+      }
+    },
+    {
+      "text": "bors + Decreases dependence on oil imports",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 586,
+        "w": 1040,
+        "h": 33
+      }
+    },
+    {
+      "text": "SiR + Aligns with future trending (Bring Your",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 653,
+        "w": 1040,
+        "h": 33
+      }
+    },
+    {
+      "text": "Employer Benefits Ju A - Own Device, Software as a Service)",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 720,
+        "w": 1040,
+        "h": 33
+      }
+    },
+    {
+      "text": "* Reduces spending on",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 787,
+        "w": 1040,
+        "h": 33
+      }
+    },
+    {
+      "text": "real estate, utilities, overhead",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 854,
+        "w": 1040,
+        "h": 33
+      }
+    },
+    {
+      "text": "« Increases employee productivity",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 921,
+        "w": 1040,
+        "h": 33
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "or",
+      "normalizedSource": "or",
+      "target": "hoặc",
+      "bbox": {
+        "x": 130,
+        "y": 50,
+        "w": 1040,
+        "h": 33
+      },
+      "overflow": true
+    },
+    {
+      "source": "Employee Benefits yp. § fd, ar",
+      "normalizedSource": "Employee Benefits yp. § fd, ar",
+      "target": "Lợi ích của nhân viên",
+      "bbox": {
+        "x": 130,
+        "y": 117,
+        "w": 1040,
+        "h": 33
+      },
+      "overflow": false
+    },
+    {
+      "source": "« Saves time ATI Ge e",
+      "normalizedSource": "« Saves time ATI Ge e",
+      "target": "Tiết kiệm thời gian",
+      "bbox": {
+        "x": 130,
+        "y": 184,
+        "w": 1040,
+        "h": 33
+      },
+      "overflow": false
+    },
+    {
+      "source": ". . {; \" LEG Teg",
+      "normalizedSource": ". . {; \" LEG Teg",
+      "target": "Giảm chi tiêu cho xăng",
+      "bbox": {
+        "x": 130,
+        "y": 251,
+        "w": 1040,
+        "h": 33
+      },
+      "overflow": false
+    },
+    {
+      "source": "Reduces spending on gas ATER 3057",
+      "normalizedSource": "Reduces spending on gas ATER 3057",
+      "target": "Giảm căng thẳng",
+      "bbox": {
+        "x": 130,
+        "y": 318,
+        "w": 1040,
+        "h": 33
+      },
+      "overflow": false
+    },
+    {
+      "source": "+ Decreases stress >, #3 Other Benefits",
+      "normalizedSource": "+ Decreases stress >, #3 Other Benefits",
+      "target": "Lợi ích khác",
+      "bbox": {
+        "x": 130,
+        "y": 385,
+        "w": 1040,
+        "h": 33
+      },
+      "overflow": false
+    },
+    {
+      "source": "f le I",
+      "normalizedSource": "f le I",
+      "target": "Cải thiện cân bằng cuộc sống",
+      "bbox": {
+        "x": 130,
+        "y": 452,
+        "w": 1040,
+        "h": 33
+      },
+      "overflow": true
+    },
+    {
+      "source": "Improvesioriclifebalance GE - Reduces greenhouse emissions",
+      "normalizedSource": "Improvesioriclifebalance GE - Reduces greenhouse emissions",
+      "target": "Giảm khí thải nhà kính",
+      "bbox": {
+        "x": 130,
+        "y": 519,
+        "w": 1040,
+        "h": 33
+      },
+      "overflow": false
+    },
+    {
+      "source": "bors + Decreases dependence on oil imports",
+      "normalizedSource": "bors + Decreases dependence on oil imports",
+      "target": "Giảm phụ thuộc vào nhập khẩu dầu",
+      "bbox": {
+        "x": 130,
+        "y": 586,
+        "w": 1040,
+        "h": 33
+      },
+      "overflow": false
+    },
+    {
+      "source": "SiR + Aligns with future trending (Bring Your",
+      "normalizedSource": "SiR + Aligns with future trending (Bring Your",
+      "target": "Phù hợp với xu hướng tương lai",
+      "bbox": {
+        "x": 130,
+        "y": 653,
+        "w": 1040,
+        "h": 33
+      },
+      "overflow": false
+    },
+    {
+      "source": "Employer Benefits Ju A - Own Device, Software as a Service)",
+      "normalizedSource": "Employer Benefits Ju A - Own Device, Software as a Service)",
+      "target": "Lợi ích của nhà tuyển dụng - Thiết bị cá nhân, Phần mềm như một dịch vụ",
+      "bbox": {
+        "x": 130,
+        "y": 720,
+        "w": 1040,
+        "h": 33
+      },
+      "overflow": false
+    },
+    {
+      "source": "* Reduces spending on",
+      "normalizedSource": "* Reduces spending on",
+      "target": "Giảm chi tiêu cho",
+      "bbox": {
+        "x": 130,
+        "y": 787,
+        "w": 1040,
+        "h": 33
+      },
+      "overflow": false
+    },
+    {
+      "source": "real estate, utilities, overhead",
+      "normalizedSource": "real estate, utilities, overhead",
+      "target": "bất động sản, tiện ích, chi phí chung",
+      "bbox": {
+        "x": 130,
+        "y": 854,
+        "w": 1040,
+        "h": 33
+      },
+      "overflow": false
+    },
+    {
+      "source": "« Increases employee productivity",
+      "normalizedSource": "« Increases employee productivity",
+      "target": "Tăng năng suất của nhân viên",
+      "bbox": {
+        "x": 130,
+        "y": 921,
+        "w": 1040,
+        "h": 33
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: This graphic has a photo in the center and three boxes branching off of it. The photo in the center shows a woman working outside on a laptop. One box is titled “Employee Benefits” and the bulleted points are saves time; reduces spending on gas; decreases stress; and improves work-life balance. The next box is titled “Employer Benefits” and the bulleted points are reduces spending on real estate, utilities, overhead; and increases employee productivity. The last box is titled “Other Benefits” and the bulleted points are reduces greenhouse emissions; decreases dependence on oil imports; and aligns with future trending (Bring Your Own Device, Software as a Service).\nButton label: Click to enlarge image of This graphic has a photo in the center and three boxes branching off of it. The photo in the center shows a woman working outside on a laptop. One box is titled “Employee Benefits” and the bulleted points are saves time; reduces spending on gas; decreases stress; and improves work-life balance. The next box is titled “Employer Benefits” and the bulleted points are reduces spending on real estate, utilities, overhead; and increases employee productivity. The last box is titled “Other Benefits” and the bulleted points are reduces greenhouse emissions; decreases dependence on oil imports; and aligns with future trending (Bring Your Own Device, Software as a Service).\nEnglish caption: Figure 10.3 Telecommuting is becoming more common around the world. The phenomenon stands to benefit remote workers and also their employers. (credit photograph: Cory Zanker/Flickr, CC BY 4.0; figure attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.8884615384615384,
+    "averageConfidence": 66,
+    "entropy": 4.2690575342094235,
+    "sharpness": 6.146575011696276
+  }
+}

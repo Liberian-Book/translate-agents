@@ -1,0 +1,141 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-2-10.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-2-cloud-based-and-cloud-native-applications-deployment-technologies.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-12-2-10.vi.png",
+  "ocr": [
+    {
+      "text": "nction Platform as",
+      "confidence": 71,
+      "bbox": {
+        "x": 90,
+        "y": 45,
+        "w": 718,
+        "h": 30
+      }
+    },
+    {
+      "text": "asl a Service (PaaS)",
+      "confidence": 71,
+      "bbox": {
+        "x": 90,
+        "y": 105,
+        "w": 718,
+        "h": 30
+      }
+    },
+    {
+      "text": "Service (FaaS)",
+      "confidence": 71,
+      "bbox": {
+        "x": 90,
+        "y": 165,
+        "w": 718,
+        "h": 30
+      }
+    },
+    {
+      "text": "Container as a Service (CaaS)",
+      "confidence": 71,
+      "bbox": {
+        "x": 90,
+        "y": 225,
+        "w": 718,
+        "h": 30
+      }
+    },
+    {
+      "text": "Infrastructure as a Service (IaaS)",
+      "confidence": 71,
+      "bbox": {
+        "x": 90,
+        "y": 285,
+        "w": 718,
+        "h": 30
+      }
+    },
+    {
+      "text": "earemecl_ ura machine] unkerets | comers",
+      "confidence": 71,
+      "bbox": {
+        "x": 90,
+        "y": 345,
+        "w": 718,
+        "h": 30
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "nction Platform as",
+      "target": "Nền tảng như một dịch vụ",
+      "bbox": {
+        "x": 90,
+        "y": 45,
+        "w": 718,
+        "h": 30
+      },
+      "overflow": false
+    },
+    {
+      "source": "asl a Service (PaaS)",
+      "target": "Nền tảng như một dịch vụ (PaaS)",
+      "bbox": {
+        "x": 90,
+        "y": 105,
+        "w": 718,
+        "h": 30
+      },
+      "overflow": false
+    },
+    {
+      "source": "Service (FaaS)",
+      "target": "Dịch vụ (FaaS)",
+      "bbox": {
+        "x": 90,
+        "y": 165,
+        "w": 718,
+        "h": 30
+      },
+      "overflow": false
+    },
+    {
+      "source": "Container as a Service (CaaS)",
+      "target": "Container như một Dịch vụ (CaaS)",
+      "bbox": {
+        "x": 90,
+        "y": 225,
+        "w": 718,
+        "h": 30
+      },
+      "overflow": false
+    },
+    {
+      "source": "Infrastructure as a Service (IaaS)",
+      "target": "Hạ tầng như một dịch vụ (IaaS)",
+      "bbox": {
+        "x": 90,
+        "y": 285,
+        "w": 718,
+        "h": 30
+      },
+      "overflow": false
+    },
+    {
+      "source": "earemecl_ ura machine] unkerets | comers",
+      "target": "máy lọc nước",
+      "bbox": {
+        "x": 90,
+        "y": 345,
+        "w": 718,
+        "h": 30
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.3837861915367483,
+    "averageConfidence": 71
+  }
+}

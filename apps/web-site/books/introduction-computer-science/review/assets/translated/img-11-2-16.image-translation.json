@@ -1,0 +1,330 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-2-16.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-2-sample-responsive-wad-with-bootstrap-and-django.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-11-2-16.vi.png",
+  "ocr": [
+    {
+      "text": "Django REST framework",
+      "confidence": 84,
+      "bbox": {
+        "x": 120,
+        "y": 138,
+        "w": 960,
+        "h": 92
+      }
+    },
+    {
+      "text": "Todo List opions",
+      "confidence": 84,
+      "bbox": {
+        "x": 120,
+        "y": 322,
+        "w": 960,
+        "h": 92
+      }
+    },
+    {
+      "text": "GET /api/todos/",
+      "confidence": 84,
+      "bbox": {
+        "x": 120,
+        "y": 506,
+        "w": 960,
+        "h": 92
+      }
+    },
+    {
+      "text": "HTTP 200 OK",
+      "confidence": 84,
+      "bbox": {
+        "x": 120,
+        "y": 690,
+        "w": 960,
+        "h": 92
+      }
+    },
+    {
+      "text": "Allow: GET, POST, HEAD, OPTIONS",
+      "confidence": 84,
+      "bbox": {
+        "x": 120,
+        "y": 874,
+        "w": 960,
+        "h": 92
+      }
+    },
+    {
+      "text": "Content-Type: application/json",
+      "confidence": 84,
+      "bbox": {
+        "x": 120,
+        "y": 1058,
+        "w": 960,
+        "h": 92
+      }
+    },
+    {
+      "text": "Vary: Accept",
+      "confidence": 84,
+      "bbox": {
+        "x": 120,
+        "y": 1242,
+        "w": 960,
+        "h": 92
+      }
+    },
+    {
+      "text": "\"id\" : 3,",
+      "confidence": 84,
+      "bbox": {
+        "x": 120,
+        "y": 1426,
+        "w": 960,
+        "h": 92
+      }
+    },
+    {
+      "text": "\"title\" : \"Write an article on how to create a Django Web application,\"",
+      "confidence": 84,
+      "bbox": {
+        "x": 120,
+        "y": 1610,
+        "w": 960,
+        "h": 92
+      }
+    },
+    {
+      "text": "\"content\" : \"Write an article on how to create a Django Web application, ~- - 2022-01-31 work\",",
+      "confidence": 84,
+      "bbox": {
+        "x": 120,
+        "y": 1794,
+        "w": 960,
+        "h": 92
+      }
+    },
+    {
+      "text": "\"created\" : \"2022-01-31\",",
+      "confidence": 84,
+      "bbox": {
+        "x": 120,
+        "y": 1978,
+        "w": 960,
+        "h": 92
+      }
+    },
+    {
+      "text": "\"due_date\" : \"2022-01-31\",",
+      "confidence": 84,
+      "bbox": {
+        "x": 120,
+        "y": 2162,
+        "w": 960,
+        "h": 92
+      }
+    },
+    {
+      "text": "\"category\" : 3",
+      "confidence": 84,
+      "bbox": {
+        "x": 120,
+        "y": 2346,
+        "w": 960,
+        "h": 92
+      }
+    },
+    {
+      "text": "Created mm/dd/yyyy",
+      "confidence": 84,
+      "bbox": {
+        "x": 120,
+        "y": 2530,
+        "w": 960,
+        "h": 92
+      }
+    },
+    {
+      "text": "Due date mm/dd/yyyy",
+      "confidence": 84,
+      "bbox": {
+        "x": 120,
+        "y": 2714,
+        "w": 960,
+        "h": 92
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Django REST framework",
+      "target": "Khung REST Django",
+      "bbox": {
+        "x": 120,
+        "y": 138,
+        "w": 960,
+        "h": 92
+      },
+      "overflow": false
+    },
+    {
+      "source": "Todo List opions",
+      "target": "Tùy chọn danh sách công việc",
+      "bbox": {
+        "x": 120,
+        "y": 322,
+        "w": 960,
+        "h": 92
+      },
+      "overflow": false
+    },
+    {
+      "source": "GET /api/todos/",
+      "target": "LẤY /api/todos/",
+      "bbox": {
+        "x": 120,
+        "y": 506,
+        "w": 960,
+        "h": 92
+      },
+      "overflow": false
+    },
+    {
+      "source": "HTTP 200 OK",
+      "target": "HTTP 200 Thành công",
+      "bbox": {
+        "x": 120,
+        "y": 690,
+        "w": 960,
+        "h": 92
+      },
+      "overflow": false
+    },
+    {
+      "source": "Allow: GET, POST, HEAD, OPTIONS",
+      "target": "Cho phép: GET, POST, HEAD, OPTIONS",
+      "bbox": {
+        "x": 120,
+        "y": 874,
+        "w": 960,
+        "h": 92
+      },
+      "overflow": false
+    },
+    {
+      "source": "Content-Type: application/json",
+      "target": "Loại nội dung: ứng dụng/json",
+      "bbox": {
+        "x": 120,
+        "y": 1058,
+        "w": 960,
+        "h": 92
+      },
+      "overflow": false
+    },
+    {
+      "source": "Vary: Accept",
+      "target": "Chấp nhận",
+      "bbox": {
+        "x": 120,
+        "y": 1242,
+        "w": 960,
+        "h": 92
+      },
+      "overflow": false
+    },
+    {
+      "source": "\"id\" : 3,",
+      "target": "\"id\" : 3,",
+      "bbox": {
+        "x": 120,
+        "y": 1426,
+        "w": 960,
+        "h": 92
+      },
+      "overflow": false
+    },
+    {
+      "source": "\"title\" : \"Write an article on how to create a Django Web application,\"",
+      "target": "\"Tiêu đề\" : \"Viết một bài báo về cách tạo ứng dụng web Django\"",
+      "bbox": {
+        "x": 120,
+        "y": 1610,
+        "w": 960,
+        "h": 92
+      },
+      "overflow": false
+    },
+    {
+      "source": "\"content\" : \"Write an article on how to create a Django Web application, ~- - 2022-01-31 work\",",
+      "target": "\"Nội dung\" : \"Viết một bài báo về cách tạo ứng dụng Web Django, ~- - 2022-01-31 công việc\"",
+      "bbox": {
+        "x": 120,
+        "y": 1794,
+        "w": 960,
+        "h": 92
+      },
+      "overflow": false
+    },
+    {
+      "source": "\"created\" : \"2022-01-31\",",
+      "target": "\"tạo\" : \"2022-01-31\"",
+      "bbox": {
+        "x": 120,
+        "y": 1978,
+        "w": 960,
+        "h": 92
+      },
+      "overflow": false
+    },
+    {
+      "source": "\"due_date\" : \"2022-01-31\",",
+      "target": "\"ngày_hạn\" : \"2022-01-31\"",
+      "bbox": {
+        "x": 120,
+        "y": 2162,
+        "w": 960,
+        "h": 92
+      },
+      "overflow": false
+    },
+    {
+      "source": "\"category\" : 3",
+      "target": "\"thể loại\" : 3",
+      "bbox": {
+        "x": 120,
+        "y": 2346,
+        "w": 960,
+        "h": 92
+      },
+      "overflow": false
+    },
+    {
+      "source": "Created mm/dd/yyyy",
+      "target": "Ngày tạo mm/dd/yyyy",
+      "bbox": {
+        "x": 120,
+        "y": 2530,
+        "w": 960,
+        "h": 92
+      },
+      "overflow": false
+    },
+    {
+      "source": "Due date mm/dd/yyyy",
+      "target": "Hạn chót mm/dd/yyyy",
+      "bbox": {
+        "x": 120,
+        "y": 2714,
+        "w": 960,
+        "h": 92
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.9575021682567216,
+    "averageConfidence": 84
+  }
+}

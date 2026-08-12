@@ -1,0 +1,435 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-1-12.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-1-modern-web-applications-architectures.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-11-1-12.vi.png",
+  "ocr": [
+    {
+      "text": "Web 2.0 and 3.0 Hybrid Architecture",
+      "confidence": 56,
+      "bbox": {
+        "x": 117,
+        "y": 162,
+        "w": 934,
+        "h": 108
+      }
+    },
+    {
+      "text": "JSON i (v] —",
+      "confidence": 56,
+      "bbox": {
+        "x": 117,
+        "y": 379,
+        "w": 934,
+        "h": 108
+      }
+    },
+    {
+      "text": "XML ! API",
+      "confidence": 56,
+      "bbox": {
+        "x": 117,
+        "y": 596,
+        "w": 934,
+        "h": 108
+      }
+    },
+    {
+      "text": "; gateway API(s) Datastore(s)",
+      "confidence": 56,
+      "bbox": {
+        "x": 117,
+        "y": 813,
+        "w": 934,
+        "h": 108
+      }
+    },
+    {
+      "text": "Pass, JSON RPC",
+      "confidence": 56,
+      "bbox": {
+        "x": 117,
+        "y": 1030,
+        "w": 934,
+        "h": 108
+      }
+    },
+    {
+      "text": "HH]",
+      "confidence": 56,
+      "bbox": {
+        "x": 117,
+        "y": 1247,
+        "w": 934,
+        "h": 108
+      }
+    },
+    {
+      "text": "H No",
+      "confidence": 56,
+      "bbox": {
+        "x": 117,
+        "y": 1464,
+        "w": 934,
+        "h": 108
+      }
+    },
+    {
+      "text": "User Browser Internet Web",
+      "confidence": 56,
+      "bbox": {
+        "x": 117,
+        "y": 1681,
+        "w": 934,
+        "h": 108
+      }
+    },
+    {
+      "text": "' server",
+      "confidence": 56,
+      "bbox": {
+        "x": 117,
+        "y": 1898,
+        "w": 934,
+        "h": 108
+      }
+    },
+    {
+      "text": "! Provider",
+      "confidence": 56,
+      "bbox": {
+        "x": 117,
+        "y": 2115,
+        "w": 934,
+        "h": 108
+      }
+    },
+    {
+      "text": "© te",
+      "confidence": 56,
+      "bbox": {
+        "x": 117,
+        "y": 2332,
+        "w": 934,
+        "h": 108
+      }
+    },
+    {
+      "text": "i Signer | |",
+      "confidence": 56,
+      "bbox": {
+        "x": 117,
+        "y": 2549,
+        "w": 934,
+        "h": 108
+      }
+    },
+    {
+      "text": ": [ Smart",
+      "confidence": 56,
+      "bbox": {
+        "x": 117,
+        "y": 2766,
+        "w": 934,
+        "h": 108
+      }
+    },
+    {
+      "text": "H I contract(S)",
+      "confidence": 56,
+      "bbox": {
+        "x": 117,
+        "y": 2983,
+        "w": 934,
+        "h": 108
+      }
+    },
+    {
+      "text": "i i Blockchain",
+      "confidence": 56,
+      "bbox": {
+        "x": 117,
+        "y": 3200,
+        "w": 934,
+        "h": 108
+      }
+    },
+    {
+      "text": "| Low)",
+      "confidence": 56,
+      "bbox": {
+        "x": 117,
+        "y": 3417,
+        "w": 934,
+        "h": 108
+      }
+    },
+    {
+      "text": ": [ Block(S)",
+      "confidence": 56,
+      "bbox": {
+        "x": 117,
+        "y": 3634,
+        "w": 934,
+        "h": 108
+      }
+    },
+    {
+      "text": "] Ed",
+      "confidence": 56,
+      "bbox": {
+        "x": 117,
+        "y": 3851,
+        "w": 934,
+        "h": 108
+      }
+    },
+    {
+      "text": "! \\ Blockchain !",
+      "confidence": 56,
+      "bbox": {
+        "x": 117,
+        "y": 4068,
+        "w": 934,
+        "h": 108
+      }
+    },
+    {
+      "text": "tT",
+      "confidence": 56,
+      "bbox": {
+        "x": 117,
+        "y": 4285,
+        "w": 934,
+        "h": 108
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Web 2.0 and 3.0 Hybrid Architecture",
+      "target": "Kiến trúc lai Web 2.0 và 3.0",
+      "bbox": {
+        "x": 117,
+        "y": 162,
+        "w": 934,
+        "h": 108
+      },
+      "overflow": false
+    },
+    {
+      "source": "JSON i (v] —",
+      "target": "JSON i (v] —",
+      "bbox": {
+        "x": 117,
+        "y": 379,
+        "w": 934,
+        "h": 108
+      },
+      "overflow": false
+    },
+    {
+      "source": "XML ! API",
+      "target": "XML ! API",
+      "bbox": {
+        "x": 117,
+        "y": 596,
+        "w": 934,
+        "h": 108
+      },
+      "overflow": false
+    },
+    {
+      "source": "; gateway API(s) Datastore(s)",
+      "target": "cổng API(s) Kho dữ liệu(s)",
+      "bbox": {
+        "x": 117,
+        "y": 813,
+        "w": 934,
+        "h": 108
+      },
+      "overflow": false
+    },
+    {
+      "source": "Pass, JSON RPC",
+      "target": "Chuyển tiếp, JSON RPC",
+      "bbox": {
+        "x": 117,
+        "y": 1030,
+        "w": 934,
+        "h": 108
+      },
+      "overflow": false
+    },
+    {
+      "source": "HH]",
+      "target": "HH",
+      "bbox": {
+        "x": 117,
+        "y": 1247,
+        "w": 934,
+        "h": 108
+      },
+      "overflow": false
+    },
+    {
+      "source": "H No",
+      "target": "H Không",
+      "bbox": {
+        "x": 117,
+        "y": 1464,
+        "w": 934,
+        "h": 108
+      },
+      "overflow": false
+    },
+    {
+      "source": "User Browser Internet Web",
+      "target": "Trình duyệt Người dùng Internet Web",
+      "bbox": {
+        "x": 117,
+        "y": 1681,
+        "w": 934,
+        "h": 108
+      },
+      "overflow": false
+    },
+    {
+      "source": "' server",
+      "target": "máy chủ",
+      "bbox": {
+        "x": 117,
+        "y": 1898,
+        "w": 934,
+        "h": 108
+      },
+      "overflow": false
+    },
+    {
+      "source": "! Provider",
+      "target": "Nhà cung cấp",
+      "bbox": {
+        "x": 117,
+        "y": 2115,
+        "w": 934,
+        "h": 108
+      },
+      "overflow": false
+    },
+    {
+      "source": "© te",
+      "target": "© te",
+      "bbox": {
+        "x": 117,
+        "y": 2332,
+        "w": 934,
+        "h": 108
+      },
+      "overflow": false
+    },
+    {
+      "source": "i Signer | |",
+      "target": "Người ký",
+      "bbox": {
+        "x": 117,
+        "y": 2549,
+        "w": 934,
+        "h": 108
+      },
+      "overflow": false
+    },
+    {
+      "source": ": [ Smart",
+      "target": "Thông minh",
+      "bbox": {
+        "x": 117,
+        "y": 2766,
+        "w": 934,
+        "h": 108
+      },
+      "overflow": false
+    },
+    {
+      "source": "H I contract(S)",
+      "target": "H I hợp đồng(S)",
+      "bbox": {
+        "x": 117,
+        "y": 2983,
+        "w": 934,
+        "h": 108
+      },
+      "overflow": false
+    },
+    {
+      "source": "i i Blockchain",
+      "target": "Công nghệ chuỗi khối",
+      "bbox": {
+        "x": 117,
+        "y": 3200,
+        "w": 934,
+        "h": 108
+      },
+      "overflow": false
+    },
+    {
+      "source": "| Low)",
+      "target": "Thấp",
+      "bbox": {
+        "x": 117,
+        "y": 3417,
+        "w": 934,
+        "h": 108
+      },
+      "overflow": false
+    },
+    {
+      "source": ": [ Block(S)",
+      "target": "Khối(S)",
+      "bbox": {
+        "x": 117,
+        "y": 3634,
+        "w": 934,
+        "h": 108
+      },
+      "overflow": false
+    },
+    {
+      "source": "] Ed",
+      "target": "Ed",
+      "bbox": {
+        "x": 117,
+        "y": 3851,
+        "w": 934,
+        "h": 108
+      },
+      "overflow": false
+    },
+    {
+      "source": "! \\ Blockchain !",
+      "target": "Chuỗi khối",
+      "bbox": {
+        "x": 117,
+        "y": 4068,
+        "w": 934,
+        "h": 108
+      },
+      "overflow": false
+    },
+    {
+      "source": "tT",
+      "target": "tT",
+      "bbox": {
+        "x": 117,
+        "y": 4285,
+        "w": 934,
+        "h": 108
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 1.2756722850610065,
+    "averageConfidence": 56
+  }
+}

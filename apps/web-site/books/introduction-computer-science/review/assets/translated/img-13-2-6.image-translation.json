@@ -1,0 +1,120 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-13-2-6.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/13-2-big-cloud-iaas-mainstream-capabilities.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-13-2-6.vi.png",
+  "ocr": [
+    {
+      "text": "| Application code |",
+      "confidence": 81,
+      "bbox": {
+        "x": 50,
+        "y": 75,
+        "w": 400,
+        "h": 50
+      }
+    },
+    {
+      "text": "BE",
+      "confidence": 81,
+      "bbox": {
+        "x": 50,
+        "y": 175,
+        "w": 400,
+        "h": 50
+      }
+    },
+    {
+      "text": "| System library |",
+      "confidence": 81,
+      "bbox": {
+        "x": 50,
+        "y": 275,
+        "w": 400,
+        "h": 50
+      }
+    },
+    {
+      "text": "Operating system's kernel",
+      "confidence": 81,
+      "bbox": {
+        "x": 50,
+        "y": 375,
+        "w": 400,
+        "h": 50
+      }
+    },
+    {
+      "text": "Hardware",
+      "confidence": 81,
+      "bbox": {
+        "x": 50,
+        "y": 475,
+        "w": 400,
+        "h": 50
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "| Application code |",
+      "target": "Mã ứng dụng",
+      "bbox": {
+        "x": 50,
+        "y": 75,
+        "w": 400,
+        "h": 50
+      },
+      "overflow": false
+    },
+    {
+      "source": "BE",
+      "target": "BE",
+      "bbox": {
+        "x": 50,
+        "y": 175,
+        "w": 400,
+        "h": 50
+      },
+      "overflow": false
+    },
+    {
+      "source": "| System library |",
+      "target": "Thư viện hệ thống",
+      "bbox": {
+        "x": 50,
+        "y": 275,
+        "w": 400,
+        "h": 50
+      },
+      "overflow": false
+    },
+    {
+      "source": "Operating system's kernel",
+      "target": "Nhân hệ điều hành",
+      "bbox": {
+        "x": 50,
+        "y": 375,
+        "w": 400,
+        "h": 50
+      },
+      "overflow": false
+    },
+    {
+      "source": "Hardware",
+      "target": "Phần cứng",
+      "bbox": {
+        "x": 50,
+        "y": 475,
+        "w": 400,
+        "h": 50
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.3189792663476874,
+    "averageConfidence": 81
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-11-3-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/11-3-islamization-and-religious-rule-under-islam.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-11-3-2.vi.png",
+  "ocr": [
+    {
+      "text": "Ge (OSmleR. f 7",
+      "confidence": 31,
+      "bbox": {
+        "x": 110,
+        "y": 106,
+        "w": 880,
+        "h": 70
+      }
+    },
+    {
+      "text": "wo PL ff i",
+      "confidence": 31,
+      "bbox": {
+        "x": 110,
+        "y": 247,
+        "w": 880,
+        "h": 70
+      }
+    },
+    {
+      "text": "oisTRICT SE : : AN",
+      "confidence": 31,
+      "bbox": {
+        "x": 110,
+        "y": 388,
+        "w": 880,
+        "h": 70
+      }
+    },
+    {
+      "text": "ono | . at ik ee aN »",
+      "confidence": 31,
+      "bbox": {
+        "x": 110,
+        "y": 529,
+        "w": 880,
+        "h": 70
+      }
+    },
+    {
+      "text": "150 209500 AH | ( 8 4 d )",
+      "confidence": 31,
+      "bbox": {
+        "x": 110,
+        "y": 670,
+        "w": 880,
+        "h": 70
+      }
+    },
+    {
+      "text": "andioog (8",
+      "confidence": 31,
+      "bbox": {
+        "x": 110,
+        "y": 811,
+        "w": 880,
+        "h": 70
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A drawing of a map labeled “Baghdad between 150 and 300 A.H.” is shown. A scale is shown under the map title. The map is yellow with a black double lined border. Rivers are highlighted with tiny blue dots, canals highlighted with blue lines, and roads drawn in black. In the middle of the map is a circle labeled “The Round City.” Inside the circle are “E” shaped drawings in various directions. Four lines extend out of the Round City and connect with other lines to indicate roads that run all around the circle in various directions. Some of the roads are labeled. Labeled canals that connect and overlap are drawn all around the circle with some extending out far right on the map. The River Tigris is shown snaking down from the top left and ending at the bottom right of the map. Several district areas are labeled and various small shapes are drawn around the map.\nButton label: Click to enlarge image of A drawing of a map labeled “Baghdad between 150 and 300 A.H.” is shown. A scale is shown under the map title. The map is yellow with a black double lined border. Rivers are highlighted with tiny blue dots, canals highlighted with blue lines, and roads drawn in black. In the middle of the map is a circle labeled “The Round City.” Inside the circle are “E” shaped drawings in various directions. Four lines extend out of the Round City and connect with other lines to indicate roads that run all around the circle in various directions. Some of the roads are labeled. Labeled canals that connect and overlap are drawn all around the circle with some extending out far right on the map. The River Tigris is shown snaking down from the top left and ending at the bottom right of the map. Several district areas are labeled and various small shapes are drawn around the map.\nEnglish caption: Figure 11.19 Baghdad between 767 and 913 CE (150 and 300 AH). The Abbasid capital in Baghdad was designed to be the greatest city in the region, if not the world. As this map from the 1880s shows, it was constructed with a circular layout, and those who lived inside the walls of the main city, closest to the caliph’s palace, enjoyed special prestige. (credit: “Baghdad 150 to 300 AH” by www.muhammadanism.org/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 0.3813847900113507,
+    "averageConfidence": 31,
+    "entropy": 3.9678162026175414,
+    "sharpness": 8.364637237163448
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A drawing of a map labeled “Baghdad between 150 and 300 A.H.” is shown. A scale is shown under the map title. The map is yellow with a black double lined border. Rivers are highlighted with tiny blue dots, canals highlighted with blue lines, and roads drawn in black. In the middle of the map is a circle labeled “The Round City.” Inside the circle are “E” shaped drawings in various directions. Four lines extend out of the Round City and connect with other lines to indicate roads that run all around the circle in various directions. Some of the roads are labeled. Labeled canals that connect and overlap are drawn all around the circle with some extending out far right on the map. The River Tigris is shown snaking down from the top left and ending at the bottom right of the map. Several district areas are labeled and various small shapes are drawn around the map.\nButton label: Click to enlarge image of A drawing of a map labeled “Baghdad between 150 and 300 A.H.” is shown. A scale is shown under the map title. The map is yellow with a black double lined border. Rivers are highlighted with tiny blue dots, canals highlighted with blue lines, and roads drawn in black. In the middle of the map is a circle labeled “The Round City.” Inside the circle are “E” shaped drawings in various directions. Four lines extend out of the Round City and connect with other lines to indicate roads that run all around the circle in various directions. Some of the roads are labeled. Labeled canals that connect and overlap are drawn all around the circle with some extending out far right on the map. The River Tigris is shown snaking down from the top left and ending at the bottom right of the map. Several district areas are labeled and various small shapes are drawn around the map.\nEnglish caption: Figure 11.19 Baghdad between 767 and 913 CE (150 and 300 AH). The Abbasid capital in Baghdad was designed to be the greatest city in the region, if not the world. As this map from the 1880s shows, it was constructed with a circular layout, and those who lived inside the walls of the main city, closest to the caliph’s palace, enjoyed special prestige. (credit: “Baghdad 150 to 300 AH” by www.muhammadanism.org/Wikimedia Commons, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "- saris dari. wf",
+        "confidence": 41,
+        "bbox": {
+          "x": 140,
+          "y": 135,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "_ Song TE = 7",
+        "confidence": 41,
+        "bbox": {
+          "x": 140,
+          "y": 315,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "— Kurdy: 2 |",
+        "confidence": 41,
+        "bbox": {
+          "x": 140,
+          "y": 495,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "oki elf y",
+        "confidence": 41,
+        "bbox": {
+          "x": 140,
+          "y": 675,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "= on = A RD) a",
+        "confidence": 41,
+        "bbox": {
+          "x": 140,
+          "y": 855,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "Ea \\ 474 MN QUAN NAHR BUK 5",
+        "confidence": 41,
+        "bbox": {
+          "x": 140,
+          "y": 1035,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "< UAN KATRABBUL SA r LANA 7",
+        "confidence": 41,
+        "bbox": {
+          "x": 140,
+          "y": 1215,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "QUA | Jd EK ——",
+        "confidence": 41,
+        "bbox": {
+          "x": 140,
+          "y": 1395,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "i a é | Ji : N= (J J NZ! =~ es ai =",
+        "confidence": 41,
+        "bbox": {
+          "x": 140,
+          "y": 1575,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "Wa Ry oi [= 2A Ne",
+        "confidence": 41,
+        "bbox": {
+          "x": 140,
+          "y": 1755,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "Se Sek o> (Ne),",
+        "confidence": 41,
+        "bbox": {
+          "x": 140,
+          "y": 1935,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "RA 1% TE NAG",
+        "confidence": 41,
+        "bbox": {
+          "x": 140,
+          "y": 2115,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "a 7 SLL THANH E||= ) ~",
+        "confidence": 41,
+        "bbox": {
+          "x": 140,
+          "y": 2295,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "NS sm ay, (ll 3 Tron ’ 9 fs, N\\QUAN KALWADHA",
+        "confidence": 41,
+        "bbox": {
+          "x": 140,
+          "y": 2475,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "Doi mr G00) \\ \\e % rm $ 94 5 Nu",
+        "confidence": 41,
+        "bbox": {
+          "x": 140,
+          "y": 2655,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "EC",
+        "confidence": 41,
+        "bbox": {
+          "x": 140,
+          "y": 2835,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "a NK 4 | “\\",
+        "confidence": 41,
+        "bbox": {
+          "x": 140,
+          "y": 3015,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "NN ~ 3 aT \\ \\ “ \\",
+        "confidence": 41,
+        "bbox": {
+          "x": 140,
+          "y": 3195,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "% : AN NT",
+        "confidence": 41,
+        "bbox": {
+          "x": 140,
+          "y": 3375,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "BAGHDAD ¥ 8",
+        "confidence": 41,
+        "bbox": {
+          "x": 140,
+          "y": 3555,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "khoang giita | iN",
+        "confidence": 41,
+        "bbox": {
+          "x": 140,
+          "y": 3735,
+          "w": 1122,
+          "h": 90
+        }
+      },
+      {
+        "text": "Xem trang 464.",
+        "confidence": 41,
+        "bbox": {
+          "x": 140,
+          "y": 3915,
+          "w": 1122,
+          "h": 90
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": [
+        "baghdad"
+      ]
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

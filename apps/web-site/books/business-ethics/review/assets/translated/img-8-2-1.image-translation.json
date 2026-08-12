@@ -1,0 +1,114 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-8-2-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/8-2-accommodating-different-abilities-and-faiths.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-8-2-1.vi.png",
+  "ocr": [
+    {
+      "text": "iE LY al =| at",
+      "confidence": 38,
+      "bbox": {
+        "x": 80,
+        "y": 63,
+        "w": 640,
+        "h": 42
+      }
+    },
+    {
+      "text": "~ EE",
+      "confidence": 38,
+      "bbox": {
+        "x": 80,
+        "y": 147,
+        "w": 640,
+        "h": 42
+      }
+    },
+    {
+      "text": "Tad A gi |",
+      "confidence": 38,
+      "bbox": {
+        "x": 80,
+        "y": 231,
+        "w": 640,
+        "h": 42
+      }
+    },
+    {
+      "text": "oF 4 - g",
+      "confidence": 38,
+      "bbox": {
+        "x": 80,
+        "y": 315,
+        "w": 640,
+        "h": 42
+      }
+    },
+    {
+      "text": "— = A ON 9) J 8",
+      "confidence": 38,
+      "bbox": {
+        "x": 80,
+        "y": 399,
+        "w": 640,
+        "h": 42
+      }
+    },
+    {
+      "text": "= 8 he 2 ji 7 =",
+      "confidence": 38,
+      "bbox": {
+        "x": 80,
+        "y": 483,
+        "w": 640,
+        "h": 42
+      }
+    },
+    {
+      "text": "NAN,",
+      "confidence": 38,
+      "bbox": {
+        "x": 80,
+        "y": 567,
+        "w": 640,
+        "h": 42
+      }
+    },
+    {
+      "text": "5 — VS",
+      "confidence": 38,
+      "bbox": {
+        "x": 80,
+        "y": 651,
+        "w": 640,
+        "h": 42
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This image shows a man sitting in a chair and a dog grabbing keys from a table with its mouth.\nButton label: Click to enlarge image of This image shows a man sitting in a chair and a dog grabbing keys from a table with its mouth.\nEnglish caption: Figure 8.5 A person with a service dog can usually perform all the essential function of the job, with some assistance. (credit: “DSC_004” by Aberdeen Proving Ground/Flickr, CC BY 2.0)",
+  "metrics": {
+    "textDensity": 0.5100569259962049,
+    "averageConfidence": 38,
+    "entropy": 7.090289333988039,
+    "sharpness": 2.135868402855424
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

@@ -1,0 +1,372 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-2-31.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-2-enterprise-architecture-management-frameworks.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-10-2-31.vi.png",
+  "ocr": [
+    {
+      "text": "Digital customer + Develop architecture strategy for customer life cycle",
+      "confidence": 84,
+      "bbox": {
+        "x": 128,
+        "y": 104,
+        "w": 1027,
+        "h": 69
+      }
+    },
+    {
+      "text": "experience architect + Collaborate on digital product and design service",
+      "confidence": 84,
+      "bbox": {
+        "x": 128,
+        "y": 242,
+        "w": 1027,
+        "h": 69
+      }
+    },
+    {
+      "text": "+ Guide customer-facing technology choices",
+      "confidence": 84,
+      "bbox": {
+        "x": 128,
+        "y": 380,
+        "w": 1027,
+        "h": 69
+      }
+    },
+    {
+      "text": "Digital customer experience",
+      "confidence": 84,
+      "bbox": {
+        "x": 128,
+        "y": 518,
+        "w": 1027,
+        "h": 69
+      }
+    },
+    {
+      "text": "Digitize end-to-end IDIEfiEF2 [Frees Sim Create",
+      "confidence": 84,
+      "bbox": {
+        "x": 128,
+        "y": 656,
+        "w": 1027,
+        "h": 69
+      }
+    },
+    {
+      "text": ": services as part of the :",
+      "confidence": 84,
+      "bbox": {
+        "x": 128,
+        "y": 794,
+        "w": 1027,
+        "h": 69
+      }
+    },
+    {
+      "text": "customer experience trusted machines",
+      "confidence": 84,
+      "bbox": {
+        "x": 128,
+        "y": 932,
+        "w": 1027,
+        "h": 69
+      }
+    },
+    {
+      "text": "value ecosystem",
+      "confidence": 84,
+      "bbox": {
+        "x": 128,
+        "y": 1070,
+        "w": 1027,
+        "h": 69
+      }
+    },
+    {
+      "text": "Customer",
+      "confidence": 84,
+      "bbox": {
+        "x": 128,
+        "y": 1208,
+        "w": 1027,
+        "h": 69
+      }
+    },
+    {
+      "text": "] Source enhanced",
+      "confidence": 84,
+      "bbox": {
+        "x": 128,
+        "y": 1346,
+        "w": 1027,
+        "h": 69
+      }
+    },
+    {
+      "text": "amm operational capabilities Drive rapid customer- Digitize for agility over",
+      "confidence": 84,
+      "bbox": {
+        "x": 128,
+        "y": 1484,
+        "w": 1027,
+        "h": 69
+      }
+    },
+    {
+      "text": "smn within a dynamic centric innovation efficiency",
+      "confidence": 84,
+      "bbox": {
+        "x": 128,
+        "y": 1622,
+        "w": 1027,
+        "h": 69
+      }
+    },
+    {
+      "text": "pret ecosystem",
+      "confidence": 84,
+      "bbox": {
+        "x": 128,
+        "y": 1760,
+        "w": 1027,
+        "h": 69
+      }
+    },
+    {
+      "text": "Enterprise Digital operational excellence",
+      "confidence": 84,
+      "bbox": {
+        "x": 128,
+        "y": 1898,
+        "w": 1027,
+        "h": 69
+      }
+    },
+    {
+      "text": "Io, 0) + Guide integration with ecosystem partners",
+      "confidence": 84,
+      "bbox": {
+        "x": 128,
+        "y": 2036,
+        "w": 1027,
+        "h": 69
+      }
+    },
+    {
+      "text": "Digital operational Pai = + Support innovation with technology and prototyping",
+      "confidence": 84,
+      "bbox": {
+        "x": 128,
+        "y": 2174,
+        "w": 1027,
+        "h": 69
+      }
+    },
+    {
+      "text": "excellence architect + Codevelop holistic agility strategy",
+      "confidence": 84,
+      "bbox": {
+        "x": 128,
+        "y": 2312,
+        "w": 1027,
+        "h": 69
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Digital customer + Develop architecture strategy for customer life cycle",
+      "target": "Khách hàng kỹ thuật số + Phát triển chiến lược kiến trúc cho vòng đời khách hàng",
+      "bbox": {
+        "x": 128,
+        "y": 104,
+        "w": 1027,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "experience architect + Collaborate on digital product and design service",
+      "target": "kiến trúc sư trải nghiệm + Hợp tác trong sản phẩm kỹ thuật số và dịch vụ thiết kế",
+      "bbox": {
+        "x": 128,
+        "y": 242,
+        "w": 1027,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "+ Guide customer-facing technology choices",
+      "target": "+ Hướng dẫn lựa chọn công nghệ cho khách hàng",
+      "bbox": {
+        "x": 128,
+        "y": 380,
+        "w": 1027,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "Digital customer experience",
+      "target": "Trải nghiệm khách hàng số",
+      "bbox": {
+        "x": 128,
+        "y": 518,
+        "w": 1027,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "Digitize end-to-end IDIEfiEF2 [Frees Sim Create",
+      "target": "Số hóa IDIEfiEF2 từ đầu đến cuối [Tạo Sim Miễn phí]",
+      "bbox": {
+        "x": 128,
+        "y": 656,
+        "w": 1027,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": ": services as part of the :",
+      "target": "dịch vụ như một phần của",
+      "bbox": {
+        "x": 128,
+        "y": 794,
+        "w": 1027,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "customer experience trusted machines",
+      "target": "trải nghiệm khách hàng máy móc đáng tin cậy",
+      "bbox": {
+        "x": 128,
+        "y": 932,
+        "w": 1027,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "value ecosystem",
+      "target": "hệ sinh thái giá trị",
+      "bbox": {
+        "x": 128,
+        "y": 1070,
+        "w": 1027,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "Customer",
+      "target": "Khách hàng",
+      "bbox": {
+        "x": 128,
+        "y": 1208,
+        "w": 1027,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "] Source enhanced",
+      "target": "Nguồn được cải thiện",
+      "bbox": {
+        "x": 128,
+        "y": 1346,
+        "w": 1027,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "amm operational capabilities Drive rapid customer- Digitize for agility over",
+      "target": "khả năng vận hành của amm Tăng tốc độ phục vụ khách hàng - Số hóa để linh hoạt hơn",
+      "bbox": {
+        "x": 128,
+        "y": 1484,
+        "w": 1027,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "smn within a dynamic centric innovation efficiency",
+      "target": "hiệu quả đổi mới tập trung động của smn",
+      "bbox": {
+        "x": 128,
+        "y": 1622,
+        "w": 1027,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "pret ecosystem",
+      "target": "hệ sinh thái pret",
+      "bbox": {
+        "x": 128,
+        "y": 1760,
+        "w": 1027,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "Enterprise Digital operational excellence",
+      "target": "Xuất sắc vận hành số doanh nghiệp",
+      "bbox": {
+        "x": 128,
+        "y": 1898,
+        "w": 1027,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "Io, 0) + Guide integration with ecosystem partners",
+      "target": "Hướng dẫn tích hợp với các đối tác trong hệ sinh thái",
+      "bbox": {
+        "x": 128,
+        "y": 2036,
+        "w": 1027,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "Digital operational Pai = + Support innovation with technology and prototyping",
+      "target": "Hoạt động số Pai = + Hỗ trợ đổi mới với công nghệ và tạo mẫu",
+      "bbox": {
+        "x": 128,
+        "y": 2174,
+        "w": 1027,
+        "h": 69
+      },
+      "overflow": false
+    },
+    {
+      "source": "excellence architect + Codevelop holistic agility strategy",
+      "target": "kiến trúc xuất sắc + Phát triển chiến lược linh hoạt toàn diện",
+      "bbox": {
+        "x": 128,
+        "y": 2312,
+        "w": 1027,
+        "h": 69
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 1.0846442655718223,
+    "averageConfidence": 84
+  }
+}

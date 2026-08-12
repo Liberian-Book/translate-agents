@@ -1,0 +1,295 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-10-3-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/10-3-alternatives-to-traditional-patterns-of-work.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-10-3-2.vi.png",
+  "ocr": [
+    {
+      "text": "Employment Relationships",
+      "confidence": 82,
+      "bbox": {
+        "x": 110,
+        "y": 38,
+        "w": 879,
+        "h": 25
+      }
+    },
+    {
+      "text": "Employees Non-employees i",
+      "confidence": 82,
+      "bbox": {
+        "x": 110,
+        "y": 89,
+        "w": 879,
+        "h": 25
+      }
+    },
+    {
+      "text": "(Contractors, Freelancers, Gig workers)",
+      "confidence": 82,
+      "bbox": {
+        "x": 110,
+        "y": 140,
+        "w": 879,
+        "h": 25
+      }
+    },
+    {
+      "text": "« Full-time + Part-time",
+      "confidence": 82,
+      "bbox": {
+        "x": 110,
+        "y": 191,
+        "w": 879,
+        "h": 25
+      }
+    },
+    {
+      "text": "« Single employer » Multiple employers (clients)",
+      "confidence": 82,
+      "bbox": {
+        "x": 110,
+        "y": 242,
+        "w": 879,
+        "h": 25
+      }
+    },
+    {
+      "text": "« Benefits + No benefits",
+      "confidence": 82,
+      "bbox": {
+        "x": 110,
+        "y": 293,
+        "w": 879,
+        "h": 25
+      }
+    },
+    {
+      "text": "« Employment taxes are split between » Employment taxes must be paid entirely",
+      "confidence": 82,
+      "bbox": {
+        "x": 110,
+        "y": 344,
+        "w": 879,
+        "h": 25
+      }
+    },
+    {
+      "text": "employee and employer by employee",
+      "confidence": 82,
+      "bbox": {
+        "x": 110,
+        "y": 395,
+        "w": 879,
+        "h": 25
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Employment Relationships",
+      "normalizedSource": "Employment Relationships",
+      "target": "Mối quan hệ lao động",
+      "bbox": {
+        "x": 110,
+        "y": 38,
+        "w": 879,
+        "h": 25
+      },
+      "overflow": false
+    },
+    {
+      "source": "Employees Non-employees i",
+      "normalizedSource": "Employees Non-employees i",
+      "target": "Nhân viên Không phải nhân viên",
+      "bbox": {
+        "x": 110,
+        "y": 89,
+        "w": 879,
+        "h": 25
+      },
+      "overflow": false
+    },
+    {
+      "source": "(Contractors, Freelancers, Gig workers)",
+      "normalizedSource": "(Contractors, Freelancers, Gig workers)",
+      "target": "(Nhà thầu, Freelancer, Người làm việc theo hợp đồng)",
+      "bbox": {
+        "x": 110,
+        "y": 140,
+        "w": 879,
+        "h": 25
+      },
+      "overflow": false
+    },
+    {
+      "source": "« Full-time + Part-time",
+      "normalizedSource": "« Full-time + Part-time",
+      "target": "« Toàn thời gian + Bán thời gian",
+      "bbox": {
+        "x": 110,
+        "y": 191,
+        "w": 879,
+        "h": 25
+      },
+      "overflow": false
+    },
+    {
+      "source": "« Single employer » Multiple employers (clients)",
+      "normalizedSource": "« Single employer » Multiple employers (clients)",
+      "target": "« Một nhà tuyển dụng » Nhiều nhà tuyển dụng (khách hàng)",
+      "bbox": {
+        "x": 110,
+        "y": 242,
+        "w": 879,
+        "h": 25
+      },
+      "overflow": false
+    },
+    {
+      "source": "« Benefits + No benefits",
+      "normalizedSource": "« Benefits + No benefits",
+      "target": "« Phúc lợi + Không có phúc lợi",
+      "bbox": {
+        "x": 110,
+        "y": 293,
+        "w": 879,
+        "h": 25
+      },
+      "overflow": false
+    },
+    {
+      "source": "« Employment taxes are split between » Employment taxes must be paid entirely",
+      "normalizedSource": "« Employment taxes are split between » Employment taxes must be paid entirely",
+      "target": "« Thuế lao động được chia giữa » Thuế lao động phải được trả hoàn toàn",
+      "bbox": {
+        "x": 110,
+        "y": 344,
+        "w": 879,
+        "h": 25
+      },
+      "overflow": false
+    },
+    {
+      "source": "employee and employer by employee",
+      "normalizedSource": "employee and employer by employee",
+      "target": "nhân viên và nhà tuyển dụng bởi nhân viên",
+      "bbox": {
+        "x": 110,
+        "y": 395,
+        "w": 879,
+        "h": 25
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: This graphic is a two column chart titled “Employee Relationships.” The column on the left is titled “Employees” and the bulleted points are full-time; single employer; benefits; and employment taxes are split between employee and employer. The column on the right is titled “Non-employees (Contractors, Freelancers, Gig workers)” and the bulleted points are part-time; multiple employers (clients); no benefits; and employment taxes must be paid entirely by employee.\nButton label: Click to enlarge image of This graphic is a two column chart titled “Employee Relationships.” The column on the left is titled “Employees” and the bulleted points are full-time; single employer; benefits; and employment taxes are split between employee and employer. The column on the right is titled “Non-employees (Contractors, Freelancers, Gig workers)” and the bulleted points are part-time; multiple employers (clients); no benefits; and employment taxes must be paid entirely by employee.\nEnglish caption: Figure 10.8 Different models of work include widely varying terms and conditions, but the two most basic divisions are listed. Of course, someone might also be an employee who works part-time and may or may not receive benefits, or a contractor might have a standing contract with a client that provides some benefits, although the contractor is not considered an employee. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.5046170450337703,
+    "averageConfidence": 82,
+    "entropy": 2.7939428082208906,
+    "sharpness": 5.122453112527198
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: This graphic is a two column chart titled “Employee Relationships.” The column on the left is titled “Employees” and the bulleted points are full-time; single employer; benefits; and employment taxes are split between employee and employer. The column on the right is titled “Non-employees (Contractors, Freelancers, Gig workers)” and the bulleted points are part-time; multiple employers (clients); no benefits; and employment taxes must be paid entirely by employee.\nButton label: Click to enlarge image of This graphic is a two column chart titled “Employee Relationships.” The column on the left is titled “Employees” and the bulleted points are full-time; single employer; benefits; and employment taxes are split between employee and employer. The column on the right is titled “Non-employees (Contractors, Freelancers, Gig workers)” and the bulleted points are part-time; multiple employers (clients); no benefits; and employment taxes must be paid entirely by employee.\nEnglish caption: Figure 10.8 Different models of work include widely varying terms and conditions, but the two most basic divisions are listed. Of course, someone might also be an employee who works part-time and may or may not receive benefits, or a contractor might have a standing contract with a client that provides some benefits, although the contractor is not considered an employee. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Employment Relationships => Mối quan hệ lao động\n- Employees Non-employees i => Nhân viên Không phải nhân viên\n- (Contractors, Freelancers, Gig workers) => (Nhà thầu, Freelancer, Người làm việc theo hợp đồng)\n- « Full-time + Part-time => « Toàn thời gian + Bán thời gian\n- « Single employer » Multiple employers (clients) => « Một nhà tuyển dụng » Nhiều nhà tuyển dụng (khách hàng)\n- « Benefits + No benefits => « Phúc lợi + Không có phúc lợi\n- « Employment taxes are split between » Employment taxes must be paid entirely => « Thuế lao động được chia giữa » Thuế lao động phải được trả hoàn toàn\n- employee and employer by employee => nhân viên và nhà tuyển dụng bởi nhân viên\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Mai quan hé lao dong",
+        "confidence": 74,
+        "bbox": {
+          "x": 217,
+          "y": 87,
+          "w": 1733,
+          "h": 58
+        }
+      },
+      {
+        "text": "Nhan vién Khong phai nhan vién",
+        "confidence": 74,
+        "bbox": {
+          "x": 217,
+          "y": 203,
+          "w": 1733,
+          "h": 58
+        }
+      },
+      {
+        "text": "(Nha thau, Freelancer, Ngugi lam viéc theo hop déng)",
+        "confidence": 74,
+        "bbox": {
+          "x": 217,
+          "y": 319,
+          "w": 1733,
+          "h": 58
+        }
+      },
+      {
+        "text": "Toan thdi gian Ban thai gian",
+        "confidence": 74,
+        "bbox": {
+          "x": 217,
+          "y": 435,
+          "w": 1733,
+          "h": 58
+        }
+      },
+      {
+        "text": "+ Mét nha tuyén dung + Nhiéu nha tuyén dung (khach hang)",
+        "confidence": 74,
+        "bbox": {
+          "x": 217,
+          "y": 551,
+          "w": 1733,
+          "h": 58
+        }
+      },
+      {
+        "text": "e Phuc lgi » Khong c6 phuc lgi",
+        "confidence": 74,
+        "bbox": {
+          "x": 217,
+          "y": 667,
+          "w": 1733,
+          "h": 58
+        }
+      },
+      {
+        "text": "+ Thué lao dong dugc chia gilra + Thué lao déng phai dugc tra hoan toan",
+        "confidence": 74,
+        "bbox": {
+          "x": 217,
+          "y": 783,
+          "w": 1733,
+          "h": 58
+        }
+      },
+      {
+        "text": "nhan vién va nha tuyén dung ~ bdi nhan vién",
+        "confidence": 74,
+        "bbox": {
+          "x": 217,
+          "y": 899,
+          "w": 1733,
+          "h": 58
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

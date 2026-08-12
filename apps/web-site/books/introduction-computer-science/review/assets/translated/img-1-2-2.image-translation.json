@@ -1,0 +1,208 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-1-2-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/1-2-computer-science-across-the-disciplines.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-1-2-2.vi.png",
+  "ocr": [
+    {
+      "text": "Percent of U.S. Adults Who",
+      "confidence": 86,
+      "bbox": {
+        "x": 64,
+        "y": 74,
+        "w": 514,
+        "h": 49
+      }
+    },
+    {
+      "text": "Get Their News from Social Media",
+      "confidence": 86,
+      "bbox": {
+        "x": 64,
+        "y": 173,
+        "w": 514,
+        "h": 49
+      }
+    },
+    {
+      "text": "W Often MM Sometimes WM Rarely © Never HM N/A",
+      "confidence": 86,
+      "bbox": {
+        "x": 64,
+        "y": 272,
+        "w": 514,
+        "h": 49
+      }
+    },
+    {
+      "text": "Source: Survey of U.S. adults conducted Aug. 31-Sept. 7, 2020.",
+      "confidence": 86,
+      "bbox": {
+        "x": 64,
+        "y": 371,
+        "w": 514,
+        "h": 49
+      }
+    },
+    {
+      "text": "“News Use Across Social Media Platforms in 2020\"",
+      "confidence": 86,
+      "bbox": {
+        "x": 64,
+        "y": 470,
+        "w": 514,
+        "h": 49
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Percent of U.S. Adults Who",
+      "normalizedSource": "Percent of U.S. Adults Who",
+      "target": "Tỷ lệ người lớn ở Mỹ",
+      "bbox": {
+        "x": 64,
+        "y": 74,
+        "w": 514,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "Get Their News from Social Media",
+      "normalizedSource": "Get Their News from Social Media",
+      "target": "Nhận tin tức từ mạng xã hội",
+      "bbox": {
+        "x": 64,
+        "y": 173,
+        "w": 514,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "W Often MM Sometimes WM Rarely © Never HM N/A",
+      "normalizedSource": "Often Sometimes Rarely Never N/A",
+      "target": "Thường xuyên; Thỉnh thoảng; Hiếm khi; Không bao giờ; N/A",
+      "bbox": {
+        "x": 64,
+        "y": 272,
+        "w": 514,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "Source: Survey of U.S. adults conducted Aug. 31-Sept. 7, 2020.",
+      "normalizedSource": "Source: Survey of U.S. adults conducted Aug. 31-Sept. 7, 2020.",
+      "target": "Nguồn: Khảo sát người lớn ở Mỹ thực hiện từ 31 tháng 8 đến 7 tháng 9, 2020.",
+      "bbox": {
+        "x": 64,
+        "y": 371,
+        "w": 514,
+        "h": 49
+      },
+      "overflow": false
+    },
+    {
+      "source": "“News Use Across Social Media Platforms in 2020\"",
+      "normalizedSource": "“News Use Across Social Media Platforms in 2020\"",
+      "target": "“Sử dụng tin tức trên các nền tảng mạng xã hội năm 2020\"",
+      "bbox": {
+        "x": 64,
+        "y": 470,
+        "w": 514,
+        "h": 49
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.31842962333616537,
+    "averageConfidence": 86,
+    "entropy": 2.643392258316453,
+    "sharpness": 6.164392101023013
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Percent of U.S. Adults Who => Tỷ lệ người lớn ở Mỹ\n- Get Their News from Social Media => Nhận tin tức từ mạng xã hội\n- W Often MM Sometimes WM Rarely © Never HM N/A (cleaned OCR: Often Sometimes Rarely Never N/A) => Thường xuyên; Thỉnh thoảng; Hiếm khi; Không bao giờ; N/A\n- Source: Survey of U.S. adults conducted Aug. 31-Sept. 7, 2020. => Nguồn: Khảo sát người lớn ở Mỹ thực hiện từ 31 tháng 8 đến 7 tháng 9, 2020.\n- “News Use Across Social Media Platforms in 2020\" => “Sử dụng tin tức trên các nền tảng mạng xã hội năm 2020\"\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Ty Ié ngu@i l6n & My",
+        "confidence": 74,
+        "bbox": {
+          "x": 128,
+          "y": 147,
+          "w": 1024,
+          "h": 98
+        }
+      },
+      {
+        "text": "Nhan tin tirc tir mang xa hoi",
+        "confidence": 74,
+        "bbox": {
+          "x": 128,
+          "y": 344,
+          "w": 1024,
+          "h": 98
+        }
+      },
+      {
+        "text": "0 Thuong xuyén [Ml Thinh thoang [Ml Hiém khi [ Khéng bao giv [ll N/A",
+        "confidence": 74,
+        "bbox": {
+          "x": 128,
+          "y": 541,
+          "w": 1024,
+          "h": 98
+        }
+      },
+      {
+        "text": "Nguon: Khao sat nguai lén & My thuc hién",
+        "confidence": 74,
+        "bbox": {
+          "x": 128,
+          "y": 738,
+          "w": 1024,
+          "h": 98
+        }
+      },
+      {
+        "text": "tr 31 thang 8 dén 7 thang 9, 2020.",
+        "confidence": 74,
+        "bbox": {
+          "x": 128,
+          "y": 935,
+          "w": 1024,
+          "h": 98
+        }
+      },
+      {
+        "text": "“Str dung tin tlre trén cac nén tang mang xa hi nam 2020”",
+        "confidence": 74,
+        "bbox": {
+          "x": 128,
+          "y": 1132,
+          "w": 1024,
+          "h": 98
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

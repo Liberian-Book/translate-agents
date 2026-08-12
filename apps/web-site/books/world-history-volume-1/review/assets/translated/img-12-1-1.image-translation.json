@@ -1,0 +1,800 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-12-1-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/12-1-the-indian-ocean-world-in-the-early-middle-ages.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-12-1-1.vi.png",
+  "ocr": [
+    {
+      "text": "Ee",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 101,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "rd a ] BE Eo & = :",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 236,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "wi od &",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 371,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "XT a a ie [3 \"i ee i",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 506,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "A TS 0 { orsench WN :",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 641,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": ": aN Ts Gl aes =",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 776,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "i a NE | y D Eire Lae",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 911,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "A ee R= 4 © sini :",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 1046,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "BT lg [= aN a =",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 1181,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "SALE ed, 15 ery yf T= -",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 1316,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "laa Siz, on, o < = ol",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 1451,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "{SS TE 2 Sh 4 .",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 1586,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "gs 3 1%; Nishapur Li",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 1721,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "bor NE Cena 4 un we os",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 1856,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "72 NTE a iL 7 .",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 1991,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "3 hi S\\ CTR Jahan \"e fa :",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 2126,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "VT AEE GHAZNAVID'EMBIRERESSONEL~/ ~",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 2261,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "? E = SpE Zn pa Ps 7 Co 7",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 2396,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "3 Whee C2",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 2531,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "Sa 4 rig si",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 2666,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "S=2N pit Se) Ae",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 2801,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "\\ = 7! a BD < re",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 2936,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "hy, OY 4 — LAR Ta a",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 3071,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "Bb sot oi ar Th Cas",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 3206,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "“WL LL on a",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 3341,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "SY i Tr Wediie spr",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 3476,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "dL lh EC",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 3611,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "A \\ y | ey 2)",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 3746,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "ZN \\ _— ata",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 3881,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "\\ ON #5 CA",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 4016,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "Di, Bi AY ;",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 4151,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "Vi hd N 7\" 2 it aly",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 4286,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "A iE 4 ; ras",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 4421,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "4 B77 7 25 i “ y \\ 7 EF \\",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 4556,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "57 fA \\",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 4691,
+        "w": 880,
+        "h": 67
+      }
+    },
+    {
+      "text": "TH) > 0",
+      "confidence": 27,
+      "bbox": {
+        "x": 110,
+        "y": 4826,
+        "w": 880,
+        "h": 67
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A map is shown. Green areas with some white and brown bumpy regions are shown in an upside down “U” shape with blue in the lower middle. In the middle, a large area is highlighted in gold and labelled “Ghaznavid Empire.” Within this area, these cities are labelled with black dots, from west to east: Teheran, Ispahan, Nishapur, Merv, Herat, Zaranj, Balkh, Ghazni, Kabut, and Lahore. These cities are labelled with a white and black dot: Somnath, Mathura, and Kannauj. The city of Shiraz is labelled outside this highlighted area in the west, and Urgench, Bukhara, and Samarcanda are labelled in the north. All three are labelled with a black and white dot.\nButton label: Click to enlarge image of A map is shown. Green areas with some white and brown bumpy regions are shown in an upside down “U” shape with blue in the lower middle. In the middle, a large area is highlighted in gold and labelled “Ghaznavid Empire.” Within this area, these cities are labelled with black dots, from west to east: Teheran, Ispahan, Nishapur, Merv, Herat, Zaranj, Balkh, Ghazni, Kabut, and Lahore. These cities are labelled with a white and black dot: Somnath, Mathura, and Kannauj. The city of Shiraz is labelled outside this highlighted area in the west, and Urgench, Bukhara, and Samarcanda are labelled in the north. All three are labelled with a black and white dot.\nEnglish caption: Figure 12.3 The Ghaznavid Dynasty. At its height, the Ghaznavid Empire encompassed a vast swath of central Asia and included parts of modern Iran, Afghanistan, and the historical region of Turkestan. With several vital trade centers such as Samarkand and Merv, the state for a time played a key role in maintaining Silk Roads connections between the East and West. (credit: “Map of the Ghaznavid Empire” by Unknown, created in DEMIS World Map Server/Wikimedia Commons, CC BY 4.0)",
+  "metrics": {
+    "textDensity": 2.291686460807601,
+    "averageConfidence": 27,
+    "entropy": 6.459540402021958,
+    "sharpness": 4.626647620205764
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A map is shown. Green areas with some white and brown bumpy regions are shown in an upside down “U” shape with blue in the lower middle. In the middle, a large area is highlighted in gold and labelled “Ghaznavid Empire.” Within this area, these cities are labelled with black dots, from west to east: Teheran, Ispahan, Nishapur, Merv, Herat, Zaranj, Balkh, Ghazni, Kabut, and Lahore. These cities are labelled with a white and black dot: Somnath, Mathura, and Kannauj. The city of Shiraz is labelled outside this highlighted area in the west, and Urgench, Bukhara, and Samarcanda are labelled in the north. All three are labelled with a black and white dot.\nButton label: Click to enlarge image of A map is shown. Green areas with some white and brown bumpy regions are shown in an upside down “U” shape with blue in the lower middle. In the middle, a large area is highlighted in gold and labelled “Ghaznavid Empire.” Within this area, these cities are labelled with black dots, from west to east: Teheran, Ispahan, Nishapur, Merv, Herat, Zaranj, Balkh, Ghazni, Kabut, and Lahore. These cities are labelled with a white and black dot: Somnath, Mathura, and Kannauj. The city of Shiraz is labelled outside this highlighted area in the west, and Urgench, Bukhara, and Samarcanda are labelled in the north. All three are labelled with a black and white dot.\nEnglish caption: Figure 12.3 The Ghaznavid Dynasty. At its height, the Ghaznavid Empire encompassed a vast swath of central Asia and included parts of modern Iran, Afghanistan, and the historical region of Turkestan. With several vital trade centers such as Samarkand and Merv, the state for a time played a key role in maintaining Silk Roads connections between the East and West. (credit: “Map of the Ghaznavid Empire” by Unknown, created in DEMIS World Map Server/Wikimedia Commons, CC BY 4.0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "a = £3 > g fi yo RCN",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 132,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "aiifiand ~ Gr £3 AED ey my, 2",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 308,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "a a 7 pr a a a a Se gi",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 484,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "~~ “3 yr A",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 660,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "Cr By \\ So rT er 2s",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 836,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "; STEN Vim FS pi =,",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 1012,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "\\ pr (L172 1 ~ | U-ro-ghénch I ae Bats",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 1188,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "is ge me EN h- ) C= ag TAZA id 5 :",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 1364,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "Ls Sg NT Er A Bukha-ra- B+ Crh",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 1540,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "Cate Te A » © sam3seianhill /",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 1716,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "/ FL oe, : 97 2 A 7 2 y",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 1892,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "Ela 57 ~ a Vc vr 97 ra ~",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 2068,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "EE Tee rots Le oe] WY he =",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 2244,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "/ 7 i 7 et y 3 = gees =",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 2420,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "5 Cans mY © Té-hé- i-sha-| ” ; ZIAD",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 2596,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "5 , 2% 1d i ! ran Ni-sha-pua ert os Cacbln 7 7; Ves Voi 3",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 2772,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "£ J oA EG eB Z J Gago-ni | yf é 7",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 2948,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "A en SANG “7 Glxpachan I’ Pe / r 7 ho a= :",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 3124,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "br PNR 3 DE QUOC GHAZNAVID = =f Ge",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 3300,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": ": Nes AB J J o : ZT ) 4",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 3476,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "EE. 7 ne.",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 3652,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "GEE, FZ Z thu- Li FR",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 3828,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "9 Lies 7 poo 2H 2 Tn",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 4004,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "A = \\ yo 2, Ca-na-uj ZENE;",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 4180,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "./ (tg 4 “a ~ J oh (er or",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 4356,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "k 3 gm Co EY 4 7 7 5 Fe De",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 4532,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "& Pn < VY) SIAL 5",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 4708,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "hn % y 3 J ey - fr) hg po",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 4884,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "2% ) o ) Ph us J ire 7 ee",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 5060,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "Bh ; 3 TP",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 5236,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "lh 4 — , RR E",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 5412,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "AY Wa",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 5588,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "/ S v AES . (nf Fo Nd i",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 5764,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "BAND ir o ne 4 & 2 J",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 5940,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "Td A 5 k LL 0a",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 6116,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "7 die % > 4 ; No A",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 6292,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "Vr 7 ) = s i : 7 vw",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 6468,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "Waal % ¢ a TA",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 6644,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "of of 4 g s bl",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 6820,
+          "w": 1147,
+          "h": 88
+        }
+      },
+      {
+        "text": "TH fbr ( ; IN’ 5 Bo",
+        "confidence": 28,
+        "bbox": {
+          "x": 143,
+          "y": 6996,
+          "w": 1147,
+          "h": 88
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": [
+        "ghaznavid"
+      ]
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

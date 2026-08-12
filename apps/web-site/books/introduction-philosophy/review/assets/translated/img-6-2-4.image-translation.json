@@ -1,0 +1,193 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-6-2-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/6-2-self-and-identity.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "SORRY A 4 SARA £7 PE HRTN ye",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 93,
+        "w": 640,
+        "h": 62
+      }
+    },
+    {
+      "text": "We AN RES",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 217,
+        "w": 640,
+        "h": 62
+      }
+    },
+    {
+      "text": "1 dy we / : ’ 3",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 341,
+        "w": 640,
+        "h": 62
+      }
+    },
+    {
+      "text": "LT, 7 pA 7% 2 1! JRA ©",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 465,
+        "w": 640,
+        "h": 62
+      }
+    },
+    {
+      "text": "ERY hommes J % 18",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 589,
+        "w": 640,
+        "h": 62
+      }
+    },
+    {
+      "text": "xh yy & HD wy y",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 713,
+        "w": 640,
+        "h": 62
+      }
+    },
+    {
+      "text": "Voi BW J",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 837,
+        "w": 640,
+        "h": 62
+      }
+    },
+    {
+      "text": "2 - Vo { \\ .",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 961,
+        "w": 640,
+        "h": 62
+      }
+    },
+    {
+      "text": "A 0 a oe dE B. I",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 1085,
+        "w": 640,
+        "h": 62
+      }
+    },
+    {
+      "text": "15S Zoe a RH",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 1209,
+        "w": 640,
+        "h": 62
+      }
+    },
+    {
+      "text": "2 Ear\" ) of A",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 1333,
+        "w": 640,
+        "h": 62
+      }
+    },
+    {
+      "text": "4 0 gx NY NYE) 3 A",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 1457,
+        "w": 640,
+        "h": 62
+      }
+    },
+    {
+      "text": "7 tx yng RO CE",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 1581,
+        "w": 640,
+        "h": 62
+      }
+    },
+    {
+      "text": "4 » ’ 2 VAN €. >",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 1705,
+        "w": 640,
+        "h": 62
+      }
+    },
+    {
+      "text": "RA oy R x any",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 1829,
+        "w": 640,
+        "h": 62
+      }
+    },
+    {
+      "text": "or 3 # d ge : a NY Vk",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 1953,
+        "w": 640,
+        "h": 62
+      }
+    },
+    {
+      "text": "[7 al VE] 5 30 A SANA",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 2077,
+        "w": 640,
+        "h": 62
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 1.0838046272493573,
+    "averageConfidence": 28,
+    "entropy": 7.590555996750481,
+    "sharpness": 1.9781310741629956
+  }
+}

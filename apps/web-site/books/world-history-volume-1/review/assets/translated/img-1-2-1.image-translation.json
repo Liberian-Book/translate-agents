@@ -1,0 +1,44 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-1-2-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/1-2-primary-sources.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "FTE",
+      "confidence": 23,
+      "bbox": {
+        "x": 90,
+        "y": 63,
+        "w": 720,
+        "h": 42
+      }
+    },
+    {
+      "text": "fii MRM omg",
+      "confidence": 23,
+      "bbox": {
+        "x": 90,
+        "y": 147,
+        "w": 720,
+        "h": 42
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This is an image of the Hagia Sophia. It is a large building with many windows, arches, and domes.\nButton label: Click to enlarge image of This is an image of the Hagia Sophia. It is a large building with many windows, arches, and domes.\nEnglish caption: Figure 1.4 Exterior of Hagia Sophia. Note the domes and archways in this drawing of the exterior of the Hagia Sophia. Such architectural features were particularly hard to build during the sixth century and often collapsed because the engineering was flawed. Thanks to their durability, those of Hagia Sophia were a marvel at the time it was built. (credit: “Saint Sophia, Constantinopolis” by ETH Library/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 0.12873563218390804,
+    "averageConfidence": 23,
+    "entropy": 4.3850824813125655,
+    "sharpness": 5.193235191449021
+  }
+}

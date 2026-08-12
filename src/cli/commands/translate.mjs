@@ -25,7 +25,7 @@ export async function runTranslateText({ book, target = 'all', prep = true, forc
   });
 
   if (build) {
-    await runPythonScript('agents/agent-archive/scripts/build-preview.py', [bookDir]);
+    await buildStaticBookSite(bookDir);
   }
 
   console.log(chalk.green(`Thư mục sách: ${formatBookOutput(book)}`));
@@ -63,13 +63,22 @@ function normalizeHtmlTarget(target) {
   return `${trimmed}.html`;
 }
 
-export async function runTranslateImages({ book, target, retranslate = false, renderer, strict = false }) {
+async function buildStaticBookSite(bookDir) {
+  await runPythonScript('agents/agent-archive/scripts/build-preview.py', [bookDir]);
+  await runScript('scripts/build-site.mjs');
+}
+
+export async function runTranslateImages({ book, target, retranslate = false, renderer, strict = false, build = true }) {
+  const bookDir = getDataBookPath(book);
   const args = [target, book];
   if (retranslate) args.push('--retranslate');
   if (renderer) args.push('--renderer', renderer);
   if (strict) args.push('--strict');
 
   await runScript('agents/agent-translate/scripts/translate-images.js', args);
+  if (build) {
+    await buildStaticBookSite(bookDir);
+  }
   console.log(chalk.green(`Thư mục sách: ${formatBookOutput(book)}`));
 }
 
@@ -80,12 +89,12 @@ export function registerTranslateCommand(program) {
 
   translate
     .command('text')
-    .description('Chỉ dịch nội dung chữ cho một sách, không dịch hình ảnh/build/upload')
+    .description('Dịch nội dung chữ và tự cập nhật HTML tĩnh, bìa sách, manifest website')
     .argument('<book>', 'tên thư mục đầu ra của sách')
     .argument('[target]', 'tệp HTML trong clean/prep cần dịch, hoặc all', 'all')
     .option('--force', 'dịch lại kể cả khi tệp translated đã tồn tại')
     .option('--no-prep', 'không chạy lại bước chuẩn bị song ngữ trước khi dịch')
-    .option('--no-build', 'không cập nhật HTML tĩnh trong apps/web-site/books sau khi dịch')
+    .option('--no-build', 'không cập nhật HTML tĩnh/bìa sách/manifest website sau khi dịch')
     .action(async (book, target, options) => {
       await runTranslateText({ book, target, prep: options.prep, force: options.force, build: options.build });
     });
@@ -98,7 +107,8 @@ export function registerTranslateCommand(program) {
     .option('--retranslate', 'chỉ dịch lại hình ảnh trong sách đã dịch, không dịch lại nội dung chữ')
     .option('--renderer <renderer>', 'trình render dịch hình ảnh: overlay hoặc image-edit', 'image-edit')
     .option('--strict', 'thoát lỗi nếu có lỗi dịch hình ảnh')
+    .option('--no-build', 'không cập nhật HTML tĩnh/bìa sách/manifest website sau khi dịch hình ảnh')
     .action(async (book, target, options) => {
-      await runTranslateImages({ book, target, retranslate: options.retranslate, renderer: options.renderer, strict: options.strict });
+      await runTranslateImages({ book, target, retranslate: options.retranslate, renderer: options.renderer, strict: options.strict, build: options.build });
     });
 }

@@ -1,0 +1,17 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-8-4-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/8-4-income-inequalities.html",
+  "decision": "error",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "not-classified"
+  },
+  "reason": "fetch failed",
+  "outputImage": null,
+  "ocr": [],
+  "translations": [],
+  "imageContext": "Image alt: This bar chart is titled “Median Net Worth of Families by Income Tier and it shows worth for lower income, middle income, and upper income families by year. The y-axis is labeled “Median household net worth in dollars.” It starts at 0 dollars and increases by 100,000 dollars up to 800,000 dollars. The x-axis shows the years 1983, 1992, 2001, 2007, 2010, and 2013. For 1983, the bar for lower income is at about 20,000, middle income is at about 100,000, and upper income is at about 330,000. For 1992, the bar for lower income is at about 25,000, middle income is at about 100,000, and upper income is at about 350,000. For 2001, the bar for lower income is at about 30,000, middle income is at about 140,000, and upper income is at about 600,000. For 2007, the bar for lower income is at about 25,000, middle income is at about 170,000, and upper income is at about 730,000. For 2010, the bar for lower income is at about 20,000, middle income is at about 100,000, and upper income is at about 600,000. For 2013, the bar for lower income is at about 20,000, middle income is at about 100,000, and upper income is at about 650,000.\nButton label: Click to enlarge image of This bar chart is titled “Median Net Worth of Families by Income Tier and it shows worth for lower income, middle income, and upper income families by year. The y-axis is labeled “Median household net worth in dollars.” It starts at 0 dollars and increases by 100,000 dollars up to 800,000 dollars. The x-axis shows the years 1983, 1992, 2001, 2007, 2010, and 2013. For 1983, the bar for lower income is at about 20,000, middle income is at about 100,000, and upper income is at about 330,000. For 1992, the bar for lower income is at about 25,000, middle income is at about 100,000, and upper income is at about 350,000. For 2001, the bar for lower income is at about 30,000, middle income is at about 140,000, and upper income is at about 600,000. For 2007, the bar for lower income is at about 25,000, middle income is at about 170,000, and upper income is at about 730,000. For 2010, the bar for lower income is at about 20,000, middle income is at about 100,000, and upper income is at about 600,000. For 2013, the bar for lower income is at about 20,000, middle income is at about 100,000, and upper income is at about 650,000.\nEnglish caption: Figure 8.10 Lower- and middle-class wealth has remained stagnant or shrunk for the past thirty-five years while upper-class wealth has doubled. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)"
+}

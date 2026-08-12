@@ -1,0 +1,141 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-1-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-1-patterns-management.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-10-1-2.vi.png",
+  "ocr": [
+    {
+      "text": "Returns",
+      "confidence": 81,
+      "bbox": {
+        "x": 90,
+        "y": 39,
+        "w": 720,
+        "h": 26
+      }
+    },
+    {
+      "text": "shanpaempens Asks ==",
+      "confidence": 81,
+      "bbox": {
+        "x": 90,
+        "y": 91,
+        "w": 720,
+        "h": 26
+      }
+    },
+    {
+      "text": "-instance: SingleObject",
+      "confidence": 81,
+      "bbox": {
+        "x": 90,
+        "y": 143,
+        "w": 720,
+        "h": 26
+      }
+    },
+    {
+      "text": "+main() : void -SingleObject ()",
+      "confidence": 81,
+      "bbox": {
+        "x": 90,
+        "y": 195,
+        "w": 720,
+        "h": 26
+      }
+    },
+    {
+      "text": "+getinstance():SingleObject",
+      "confidence": 81,
+      "bbox": {
+        "x": 90,
+        "y": 247,
+        "w": 720,
+        "h": 26
+      }
+    },
+    {
+      "text": "+showMessage():void",
+      "confidence": 81,
+      "bbox": {
+        "x": 90,
+        "y": 299,
+        "w": 720,
+        "h": 26
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Returns",
+      "target": "Trả hàng",
+      "bbox": {
+        "x": 90,
+        "y": 39,
+        "w": 720,
+        "h": 26
+      },
+      "overflow": false
+    },
+    {
+      "source": "shanpaempens Asks ==",
+      "target": "shanpaempens Hỏi",
+      "bbox": {
+        "x": 90,
+        "y": 91,
+        "w": 720,
+        "h": 26
+      },
+      "overflow": false
+    },
+    {
+      "source": "-instance: SingleObject",
+      "target": "-thể: Đối tượng đơn lẻ",
+      "bbox": {
+        "x": 90,
+        "y": 143,
+        "w": 720,
+        "h": 26
+      },
+      "overflow": false
+    },
+    {
+      "source": "+main() : void -SingleObject ()",
+      "target": "+main() : void -Đối tượng đơn ()",
+      "bbox": {
+        "x": 90,
+        "y": 195,
+        "w": 720,
+        "h": 26
+      },
+      "overflow": false
+    },
+    {
+      "source": "+getinstance():SingleObject",
+      "target": "+lấyThểHiện():ĐốiTượngĐơn",
+      "bbox": {
+        "x": 90,
+        "y": 247,
+        "w": 720,
+        "h": 26
+      },
+      "overflow": false
+    },
+    {
+      "source": "+showMessage():void",
+      "target": "+hiểnThịTinNhắn():void",
+      "bbox": {
+        "x": 90,
+        "y": 299,
+        "w": 720,
+        "h": 26
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.381651376146789,
+    "averageConfidence": 81
+  }
+}

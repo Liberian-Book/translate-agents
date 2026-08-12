@@ -1,0 +1,176 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-7-1-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/7-1-what-epistemology-studies.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/translated/img-7-1-2.vi.png",
+  "ocr": [
+    {
+      "text": "gy rr —-—",
+      "confidence": 55,
+      "bbox": {
+        "x": 136,
+        "y": 106,
+        "w": 1086,
+        "h": 71
+      }
+    },
+    {
+      "text": "S CID",
+      "confidence": 55,
+      "bbox": {
+        "x": 136,
+        "y": 247,
+        "w": 1086,
+        "h": 71
+      }
+    },
+    {
+      "text": "NG a",
+      "confidence": 55,
+      "bbox": {
+        "x": 136,
+        "y": 388,
+        "w": 1086,
+        "h": 71
+      }
+    },
+    {
+      "text": "3 Friction (gears + chain)",
+      "confidence": 55,
+      "bbox": {
+        "x": 136,
+        "y": 529,
+        "w": 1086,
+        "h": 71
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "gy rr —-—",
+      "normalizedSource": "gy rr —-—",
+      "target": "gy rr —-—",
+      "bbox": {
+        "x": 136,
+        "y": 106,
+        "w": 1086,
+        "h": 71
+      },
+      "overflow": false
+    },
+    {
+      "source": "S CID",
+      "normalizedSource": "S CID",
+      "target": "S CID",
+      "bbox": {
+        "x": 136,
+        "y": 247,
+        "w": 1086,
+        "h": 71
+      },
+      "overflow": false
+    },
+    {
+      "source": "NG a",
+      "normalizedSource": "NG a",
+      "target": "NG a",
+      "bbox": {
+        "x": 136,
+        "y": 388,
+        "w": 1086,
+        "h": 71
+      },
+      "overflow": false
+    },
+    {
+      "source": "3 Friction (gears + chain)",
+      "normalizedSource": "3 Friction (gears + chain)",
+      "target": "3 Ma sát (bánh răng + xích)",
+      "bbox": {
+        "x": 136,
+        "y": 529,
+        "w": 1086,
+        "h": 71
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.25769128579950773,
+    "averageConfidence": 55,
+    "entropy": 2.379498069500187,
+    "sharpness": 7.52882011207501
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- gy rr —-— => gy rr —-—\n- S CID => S CID\n- NG a => NG a\n- 3 Friction (gears + chain) => 3 Ma sát (bánh răng + xích)\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "= Trong lyc (Trai Dat + xe dap)",
+        "confidence": 75,
+        "bbox": {
+          "x": 156,
+          "y": 121,
+          "w": 1245,
+          "h": 81
+        }
+      },
+      {
+        "text": "Luc can lan (banh xe + dudng) \\ Ss a",
+        "confidence": 75,
+        "bbox": {
+          "x": 156,
+          "y": 283,
+          "w": 1245,
+          "h": 81
+        }
+      },
+      {
+        "text": "Kir,",
+        "confidence": 75,
+        "bbox": {
+          "x": 156,
+          "y": 445,
+          "w": 1245,
+          "h": 81
+        }
+      },
+      {
+        "text": "ARES)",
+        "confidence": 75,
+        "bbox": {
+          "x": 156,
+          "y": 607,
+          "w": 1245,
+          "h": 81
+        }
+      },
+      {
+        "text": "Ma sat (banh rang + xich)",
+        "confidence": 75,
+        "bbox": {
+          "x": 156,
+          "y": 769,
+          "w": 1245,
+          "h": 81
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

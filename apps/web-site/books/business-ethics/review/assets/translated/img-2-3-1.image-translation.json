@@ -1,0 +1,17 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-2-3-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/2-3-comparing-the-virtue-ethics-of-east-and-west.html",
+  "decision": "error",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "not-classified"
+  },
+  "reason": "fetch failed",
+  "outputImage": null,
+  "ocr": [],
+  "translations": [],
+  "imageContext": "Image alt: A chart has four rows and three columns. The first row is a header and labels the table as “Control.” The second row is a header row. The first column header is blank, the second is “Aristotle” and the third is “Confucius.” Under the first column, the categories are “Characteristics” and “Behavior.” Under the column “Aristotle” are the words “phrónēsis, self-restraint, temperance” and “virtuous living, harmony, happiness.” Under the column “Confucius” are the words “self-regulation, ability, courage” and “junzi, ru (humanity).”\nButton label: Click to enlarge image of A chart has four rows and three columns. The first row is a header and labels the table as “Control.” The second row is a header row. The first column header is blank, the second is “Aristotle” and the third is “Confucius.” Under the first column, the categories are “Characteristics” and “Behavior.” Under the column “Aristotle” are the words “phrónēsis, self-restraint, temperance” and “virtuous living, harmony, happiness.” Under the column “Confucius” are the words “self-regulation, ability, courage” and “junzi, ru (humanity).”\nEnglish caption: Figure 2.6 The Aristotelian and Confucian systems of virtue ethics have in common the theme of control, as this comparison shows. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)"
+}

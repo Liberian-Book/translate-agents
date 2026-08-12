@@ -1,0 +1,180 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-12-1-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/12-1-enlightenment-social-theory.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/translated/img-12-1-3.vi.png",
+  "ocr": [
+    {
+      "text": "WHOLE POPULATION A NEGROES",
+      "confidence": 60,
+      "bbox": {
+        "x": 56,
+        "y": 26,
+        "w": 451,
+        "h": 24
+      }
+    },
+    {
+      "text": "OF PHILA. Fl OF 7TH.WARD",
+      "confidence": 60,
+      "bbox": {
+        "x": 56,
+        "y": 61,
+        "w": 451,
+        "h": 24
+      }
+    },
+    {
+      "text": "ER rs rsova service = a",
+      "confidence": 60,
+      "bbox": {
+        "x": 56,
+        "y": 96,
+        "w": 451,
+        "h": 24
+      }
+    },
+    {
+      "text": "TRADE & TRANSZUALYION",
+      "confidence": 60,
+      "bbox": {
+        "x": 56,
+        "y": 131,
+        "w": 451,
+        "h": 24
+      }
+    },
+    {
+      "text": "MANUFACTURING & MECHAN| ALT DUSTRIES",
+      "confidence": 60,
+      "bbox": {
+        "x": 56,
+        "y": 166,
+        "w": 451,
+        "h": 24
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "WHOLE POPULATION A NEGROES",
+      "normalizedSource": "WHOLE POPULATION A NEGROES",
+      "target": "TỔNG CỘNG DÂN SỐ NGƯỜI MÀU",
+      "bbox": {
+        "x": 56,
+        "y": 26,
+        "w": 451,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "OF PHILA. Fl OF 7TH.WARD",
+      "normalizedSource": "OF PHILA. Fl OF 7TH.WARD",
+      "target": "CỦA PHILA. KHU VỰC 7",
+      "bbox": {
+        "x": 56,
+        "y": 61,
+        "w": 451,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "ER rs rsova service = a",
+      "normalizedSource": "ER rs rsova service = a",
+      "target": "DỊCH VỤ ER rs rsova = a",
+      "bbox": {
+        "x": 56,
+        "y": 96,
+        "w": 451,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "TRADE & TRANSZUALYION",
+      "normalizedSource": "TRADE & TRANSZUALYION",
+      "target": "THƯƠNG MẠI & CHUYỂN ĐỔI",
+      "bbox": {
+        "x": 56,
+        "y": 131,
+        "w": 451,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "MANUFACTURING & MECHAN| ALT DUSTRIES",
+      "normalizedSource": "MANUFACTURING & MECHAN| ALT DUSTRIES",
+      "target": "CÔNG NGHIỆP & CÔNG NGHỆ MECHAN| ALT",
+      "bbox": {
+        "x": 56,
+        "y": 166,
+        "w": 451,
+        "h": 24
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.4422002157074223,
+    "averageConfidence": 60,
+    "entropy": 5.027358626481146,
+    "sharpness": 9.026919325973518
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- WHOLE POPULATION A NEGROES => TỔNG CỘNG DÂN SỐ NGƯỜI MÀU\n- OF PHILA. Fl OF 7TH.WARD => CỦA PHILA. KHU VỰC 7\n- ER rs rsova service = a => DỊCH VỤ ER rs rsova = a\n- TRADE & TRANSZUALYION => THƯƠNG MẠI & CHUYỂN ĐỔI\n- MANUFACTURING & MECHAN| ALT DUSTRIES => CÔNG NGHIỆP & CÔNG NGHỆ MECHAN| ALT\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "TONG CONG DAN sO All NGUGI MAU",
+        "confidence": 77,
+        "bbox": {
+          "x": 202,
+          "y": 93,
+          "w": 1618,
+          "h": 62
+        }
+      },
+      {
+        "text": "CUA PHILA. of KHU VUC 7",
+        "confidence": 77,
+        "bbox": {
+          "x": 202,
+          "y": 217,
+          "w": 1618,
+          "h": 62
+        }
+      },
+      {
+        "text": "CONG NGHIEP & CONG NGHES",
+        "confidence": 77,
+        "bbox": {
+          "x": 202,
+          "y": 341,
+          "w": 1618,
+          "h": 62
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": [
+        "phila"
+      ]
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

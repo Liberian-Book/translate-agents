@@ -1,0 +1,124 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-9-4-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/9-4-ethical-issues-in-the-provision-of-health-care.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-9-4-2.vi.png",
+  "ocr": [
+    {
+      "text": ": 53 i 1. Md",
+      "confidence": 33,
+      "bbox": {
+        "x": 80,
+        "y": 52,
+        "w": 640,
+        "h": 34
+      }
+    },
+    {
+      "text": "AR sa jase 1mm 17 7 Ds a",
+      "confidence": 33,
+      "bbox": {
+        "x": 80,
+        "y": 121,
+        "w": 640,
+        "h": 34
+      }
+    },
+    {
+      "text": "=—==y - Vo Hw pope prom 48 a ’ 0 J",
+      "confidence": 33,
+      "bbox": {
+        "x": 80,
+        "y": 190,
+        "w": 640,
+        "h": 34
+      }
+    },
+    {
+      "text": "= git 7 sila ape 1 ved By biked ig",
+      "confidence": 33,
+      "bbox": {
+        "x": 80,
+        "y": 259,
+        "w": 640,
+        "h": 34
+      }
+    },
+    {
+      "text": "77 — ar, pH + i = :",
+      "confidence": 33,
+      "bbox": {
+        "x": 80,
+        "y": 328,
+        "w": 640,
+        "h": 34
+      }
+    },
+    {
+      "text": ". Ls im > al) - i",
+      "confidence": 33,
+      "bbox": {
+        "x": 80,
+        "y": 397,
+        "w": 640,
+        "h": 34
+      }
+    },
+    {
+      "text": "2 GE. Ed i |",
+      "confidence": 33,
+      "bbox": {
+        "x": 80,
+        "y": 466,
+        "w": 640,
+        "h": 34
+      }
+    },
+    {
+      "text": "Sit i",
+      "confidence": 33,
+      "bbox": {
+        "x": 80,
+        "y": 535,
+        "w": 640,
+        "h": 34
+      }
+    },
+    {
+      "text": "Ea |",
+      "confidence": 33,
+      "bbox": {
+        "x": 80,
+        "y": 604,
+        "w": 640,
+        "h": 34
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This image shows the Anthem Inc. building lit up at night.\nButton label: Click to enlarge image of This image shows the Anthem Inc. building lit up at night.\nEnglish caption: Figure 9.6 Anthem Inc. (formerly WellPoint, Inc.), headquartered in Indianapolis, Indiana, is one of the largest health care vendors in the nation, with more than fifty thousand employees and nearly $2.5 billion in net revenue in fiscal year 2016. (credit: modification of “Company headquarters on Monument Circle in Indianapolis” by Serge Melki/Wikimedia Commons, CC BY 2.0)",
+  "metrics": {
+    "textDensity": 0.5693023255813954,
+    "averageConfidence": 33,
+    "entropy": 7.231328721114551,
+    "sharpness": 4.9710497789462815
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

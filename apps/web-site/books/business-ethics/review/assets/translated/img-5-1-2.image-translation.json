@@ -1,0 +1,23 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-5-1-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/5-1-the-relationship-between-business-ethics-and-culture.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "natural",
+    "eligible": false,
+    "reason": "natural-image-without-ocr-text"
+  },
+  "reason": "low-text-density",
+  "outputImage": null,
+  "ocr": [],
+  "translations": [],
+  "imageContext": "Image alt: This image shows a person hiking up a snow-covered mountain. The moon is half-full and off to the right of the mountain and the hiker. It appears very large in the sky and very close to the hiker.\nButton label: Click to enlarge image of This image shows a person hiking up a snow-covered mountain. The moon is half-full and off to the right of the mountain and the hiker. It appears very large in the sky and very close to the hiker.\nEnglish caption: Figure 5.3 Ethical decision-making in a global context requires a broad perspective. Business leaders need to know themselves, their organization’s mission, and the impact of their decisions on local communities. They also must be open to varying degrees of risk. (credit: “accomplishment action adventure atmosphere” by unknown/Pixabay, CC0)",
+  "metrics": {
+    "textDensity": 0,
+    "averageConfidence": 0,
+    "entropy": 5.833871318242018,
+    "sharpness": 1.2503496717186717
+  }
+}

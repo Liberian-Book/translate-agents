@@ -1,0 +1,323 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-8-3-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/8-3-metaethics.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Tis EE STEN ee. |",
+      "confidence": 27,
+      "bbox": {
+        "x": 55,
+        "y": 96,
+        "w": 441,
+        "h": 64
+      }
+    },
+    {
+      "text": "= Sos LOND) oP RK a sas =",
+      "confidence": 27,
+      "bbox": {
+        "x": 55,
+        "y": 224,
+        "w": 441,
+        "h": 64
+      }
+    },
+    {
+      "text": "ET aS OEY a SA",
+      "confidence": 27,
+      "bbox": {
+        "x": 55,
+        "y": 352,
+        "w": 441,
+        "h": 64
+      }
+    },
+    {
+      "text": "1 te “Tat IR",
+      "confidence": 27,
+      "bbox": {
+        "x": 55,
+        "y": 480,
+        "w": 441,
+        "h": 64
+      }
+    },
+    {
+      "text": "72> JL as ) He =",
+      "confidence": 27,
+      "bbox": {
+        "x": 55,
+        "y": 608,
+        "w": 441,
+        "h": 64
+      }
+    },
+    {
+      "text": "See Xx i 7 HELD",
+      "confidence": 27,
+      "bbox": {
+        "x": 55,
+        "y": 736,
+        "w": 441,
+        "h": 64
+      }
+    },
+    {
+      "text": "Br AY. SY) wn",
+      "confidence": 27,
+      "bbox": {
+        "x": 55,
+        "y": 864,
+        "w": 441,
+        "h": 64
+      }
+    },
+    {
+      "text": "J 202 A Se 2 SERNA",
+      "confidence": 27,
+      "bbox": {
+        "x": 55,
+        "y": 992,
+        "w": 441,
+        "h": 64
+      }
+    },
+    {
+      "text": "n= Sry 5 a",
+      "confidence": 27,
+      "bbox": {
+        "x": 55,
+        "y": 1120,
+        "w": 441,
+        "h": 64
+      }
+    },
+    {
+      "text": "il he. WAR Re NC dare |",
+      "confidence": 27,
+      "bbox": {
+        "x": 55,
+        "y": 1248,
+        "w": 441,
+        "h": 64
+      }
+    },
+    {
+      "text": "| TN Ra Ne |",
+      "confidence": 27,
+      "bbox": {
+        "x": 55,
+        "y": 1376,
+        "w": 441,
+        "h": 64
+      }
+    },
+    {
+      "text": "il RL #78 RARE Og qh",
+      "confidence": 27,
+      "bbox": {
+        "x": 55,
+        "y": 1504,
+        "w": 441,
+        "h": 64
+      }
+    },
+    {
+      "text": "© PRegen AU Vegi ANU",
+      "confidence": 27,
+      "bbox": {
+        "x": 55,
+        "y": 1632,
+        "w": 441,
+        "h": 64
+      }
+    },
+    {
+      "text": "bps > oT SER ad EN |",
+      "confidence": 27,
+      "bbox": {
+        "x": 55,
+        "y": 1760,
+        "w": 441,
+        "h": 64
+      }
+    },
+    {
+      "text": "eg ERE AST DR",
+      "confidence": 27,
+      "bbox": {
+        "x": 55,
+        "y": 1888,
+        "w": 441,
+        "h": 64
+      }
+    },
+    {
+      "text": "| Phy = SST gs si A Sl",
+      "confidence": 27,
+      "bbox": {
+        "x": 55,
+        "y": 2016,
+        "w": 441,
+        "h": 64
+      }
+    },
+    {
+      "text": "§ GET opp promslionst or po ale ode",
+      "confidence": 27,
+      "bbox": {
+        "x": 55,
+        "y": 2144,
+        "w": 441,
+        "h": 64
+      }
+    },
+    {
+      "text": "! Sen ai i . oo",
+      "confidence": 27,
+      "bbox": {
+        "x": 55,
+        "y": 2272,
+        "w": 441,
+        "h": 64
+      }
+    },
+    {
+      "text": "{ or mara CE ae | &",
+      "confidence": 27,
+      "bbox": {
+        "x": 55,
+        "y": 2400,
+        "w": 441,
+        "h": 64
+      }
+    },
+    {
+      "text": "WE) Sew BY SE ‘",
+      "confidence": 27,
+      "bbox": {
+        "x": 55,
+        "y": 2528,
+        "w": 441,
+        "h": 64
+      }
+    },
+    {
+      "text": "I SOs rg ae | Se",
+      "confidence": 27,
+      "bbox": {
+        "x": 55,
+        "y": 2656,
+        "w": 441,
+        "h": 64
+      }
+    },
+    {
+      "text": "Lom, Oa Rp RIE |",
+      "confidence": 27,
+      "bbox": {
+        "x": 55,
+        "y": 2784,
+        "w": 441,
+        "h": 64
+      }
+    },
+    {
+      "text": "Ci ENE oe WINN",
+      "confidence": 27,
+      "bbox": {
+        "x": 55,
+        "y": 2912,
+        "w": 441,
+        "h": 64
+      }
+    },
+    {
+      "text": "Las CT aR 17 i a",
+      "confidence": 27,
+      "bbox": {
+        "x": 55,
+        "y": 3040,
+        "w": 441,
+        "h": 64
+      }
+    },
+    {
+      "text": "SLA EGTA ST Rl",
+      "confidence": 27,
+      "bbox": {
+        "x": 55,
+        "y": 3168,
+        "w": 441,
+        "h": 64
+      }
+    },
+    {
+      "text": "SEF =% FAR See",
+      "confidence": 27,
+      "bbox": {
+        "x": 55,
+        "y": 3296,
+        "w": 441,
+        "h": 64
+      }
+    },
+    {
+      "text": "ea) EN oe EN A)",
+      "confidence": 27,
+      "bbox": {
+        "x": 55,
+        "y": 3424,
+        "w": 441,
+        "h": 64
+      }
+    },
+    {
+      "text": "ATA IEEE =",
+      "confidence": 27,
+      "bbox": {
+        "x": 55,
+        "y": 3552,
+        "w": 441,
+        "h": 64
+      }
+    },
+    {
+      "text": "RE TR Se",
+      "confidence": 27,
+      "bbox": {
+        "x": 55,
+        "y": 3680,
+        "w": 441,
+        "h": 64
+      }
+    },
+    {
+      "text": "ly ea",
+      "confidence": 27,
+      "bbox": {
+        "x": 55,
+        "y": 3808,
+        "w": 441,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 1.9208711433756807,
+    "averageConfidence": 27,
+    "entropy": 7.753295865375549,
+    "sharpness": 19.60369656101166
+  }
+}

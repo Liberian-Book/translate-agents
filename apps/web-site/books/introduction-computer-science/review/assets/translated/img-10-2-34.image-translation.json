@@ -1,0 +1,1107 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-2-34.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-2-enterprise-architecture-management-frameworks.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-10-2-34.vi.png",
+  "ocr": [
+    {
+      "text": "Business Business",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 189,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "j= < Mail event Audie user Partners event gmail Instant messaging io jiont Thick S &",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 442,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "0 E Phone ! iness users VOIP gg Client 5 &",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 695,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "Qo © 3",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 948,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "wc [oc]",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 1201,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "50 } oa",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 1454,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "gate!",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 1707,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "USPS phone netw: F) net",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 1960,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "Pro | handlers nt HQ Translation",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 2213,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "H Digitization Citrix server _ Authentication a bsite services Z",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 2466,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "E services components server ow J",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 2719,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "g Swill BERT Portal Ul B28 ZS 3",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 2972,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "= [13 Web fi oa g",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 3225,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "g PBX server = 3",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 3478,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "bl Configurable fra Portal be = 3",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 3731,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "= interaction work activity <— 5s 3)",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 3984,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "Product Rating Claims services Portal ~ 2",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 4237,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "workbench workbench workbench server = =",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 4490,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "g uw Billing REMOTE «| SE",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 4743,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "= workbench workbench servers }",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 4996,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "BPMS runtime i",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 5249,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "5 BPM, Workflow / STP engine BP",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 5502,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "bl",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 5755,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "= |& BPM workspace ework ©",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 6008,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "£ = BPM Core Processes I",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 6261,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "S = Sales & Und po ve Claim A",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 6514,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "g b| marketing pospenting Rs processing 3",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 6767,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "= BE Product Finance & M K 2",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 7020,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "0m = development accounting RESON ©",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 7273,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "ol [= . 3",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 7526,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "iL 3 BPM Supporting Processes o",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 7779,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "® \" Search / 1 Agent/employee 3 al",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 8032,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "= Audit | Reporting BQ",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 8285,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "g ook-ups maintenanc",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 8538,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "— d Product Legal",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 8791,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "ce maintenance compliance",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 9044,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "© 3 Rules-based Custom business services to support @",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 9297,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "5 £ 2 services framework BPM core and supporting processes 3 Z",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 9550,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "©v hel",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 9803,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "55 3 Product External 5 a",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 10056,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "52 5 Sap selector = corporate 3 Z",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 10309,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "55 2 - Product Service § 3 applications |3 2",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 10562,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "gE & information bus =z 23",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 10815,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "ad ay QZ",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 11068,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "be) publisher pes [els",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 11321,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "is E ig",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 11574,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "28 Shared Supporting Other ce 23",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 11827,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "© services systems syste| ent =",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 12080,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "Cx 1 bus = 3s",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 12333,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "2g £3 SiS)",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 12586,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "£5 hie “iE External 3S",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 12839,
+        "w": 1040,
+        "h": 126
+      }
+    },
+    {
+      "text": "Ei IM capabilities RDBMS DM/DW/BI/KM . reeds =a",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 13092,
+        "w": 1040,
+        "h": 126
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Business Business",
+      "target": "Kinh doanh Kinh doanh",
+      "bbox": {
+        "x": 130,
+        "y": 189,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "j= < Mail event Audie user Partners event gmail Instant messaging io jiont Thick S &",
+      "target": "j= < Sự kiện Mail Người dùng Audie Sự kiện đối tác gmail Nhắn tin tức thì io jiont Thick S &",
+      "bbox": {
+        "x": 130,
+        "y": 442,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "0 E Phone ! iness users VOIP gg Client 5 &",
+      "target": "Người dùng điện thoại VOIP",
+      "bbox": {
+        "x": 130,
+        "y": 695,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "Qo © 3",
+      "target": "Qo © 3",
+      "bbox": {
+        "x": 130,
+        "y": 948,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "wc [oc]",
+      "target": "wc [oc]",
+      "bbox": {
+        "x": 130,
+        "y": 1201,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "50 } oa",
+      "target": "50 } oa",
+      "bbox": {
+        "x": 130,
+        "y": 1454,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "gate!",
+      "target": "cổng!",
+      "bbox": {
+        "x": 130,
+        "y": 1707,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "USPS phone netw: F) net",
+      "target": "Mạng điện thoại USPS: F) mạng",
+      "bbox": {
+        "x": 130,
+        "y": 1960,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "Pro | handlers nt HQ Translation",
+      "target": "Pro | xử lý nt HQ Dịch thuật",
+      "bbox": {
+        "x": 130,
+        "y": 2213,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "H Digitization Citrix server _ Authentication a bsite services Z",
+      "target": "Máy chủ Citrix số hóa _ Xác thực dịch vụ trang web",
+      "bbox": {
+        "x": 130,
+        "y": 2466,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "E services components server ow J",
+      "target": "Máy chủ thành phần dịch vụ điện tử",
+      "bbox": {
+        "x": 130,
+        "y": 2719,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "g Swill BERT Portal Ul B28 ZS 3",
+      "target": "g Swill BERT Cổng Ul B28 ZS 3",
+      "bbox": {
+        "x": 130,
+        "y": 2972,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "= [13 Web fi oa g",
+      "target": "= [13 Web fi oa g",
+      "bbox": {
+        "x": 130,
+        "y": 3225,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "g PBX server = 3",
+      "target": "máy chủ PBX = 3",
+      "bbox": {
+        "x": 130,
+        "y": 3478,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "bl Configurable fra Portal be = 3",
+      "target": "cấu hình fra Portal be = 3",
+      "bbox": {
+        "x": 130,
+        "y": 3731,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "= interaction work activity <— 5s 3)",
+      "target": "= hoạt động tương tác công việc <— 5s 3)",
+      "bbox": {
+        "x": 130,
+        "y": 3984,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "Product Rating Claims services Portal ~ 2",
+      "target": "Dịch vụ Đánh giá Sản phẩm Cổng thông tin ~ 2",
+      "bbox": {
+        "x": 130,
+        "y": 4237,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "workbench workbench workbench server = =",
+      "target": "bàn làm việc bàn làm việc bàn làm việc máy chủ",
+      "bbox": {
+        "x": 130,
+        "y": 4490,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "g uw Billing REMOTE «| SE",
+      "target": "Hóa đơn từ xa",
+      "bbox": {
+        "x": 130,
+        "y": 4743,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "= workbench workbench servers }",
+      "target": "bàn làm việc máy chủ bàn làm việc",
+      "bbox": {
+        "x": 130,
+        "y": 4996,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "BPMS runtime i",
+      "target": "Thời gian chạy BPMS",
+      "bbox": {
+        "x": 130,
+        "y": 5249,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "5 BPM, Workflow / STP engine BP",
+      "target": "5 BPM, Quy trình làm việc / Động cơ STP BP",
+      "bbox": {
+        "x": 130,
+        "y": 5502,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "bl",
+      "target": "bl",
+      "bbox": {
+        "x": 130,
+        "y": 5755,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "= |& BPM workspace ework ©",
+      "target": "= |& Không gian làm việc BPM ework ©",
+      "bbox": {
+        "x": 130,
+        "y": 6008,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "£ = BPM Core Processes I",
+      "target": "£ = Quy trình cốt lõi BPM I",
+      "bbox": {
+        "x": 130,
+        "y": 6261,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "S = Sales & Und po ve Claim A",
+      "target": "S = Doanh số & Đã gửi yêu cầu A",
+      "bbox": {
+        "x": 130,
+        "y": 6514,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "g b| marketing pospenting Rs processing 3",
+      "target": "chi phí tiếp thị Rs xử lý 3",
+      "bbox": {
+        "x": 130,
+        "y": 6767,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "= BE Product Finance & M K 2",
+      "target": "Tài chính sản phẩm BE & M K 2",
+      "bbox": {
+        "x": 130,
+        "y": 7020,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "0m = development accounting RESON ©",
+      "target": "0m = kế toán phát triển RESON ©",
+      "bbox": {
+        "x": 130,
+        "y": 7273,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "ol [= . 3",
+      "target": "ol [= . 3",
+      "bbox": {
+        "x": 130,
+        "y": 7526,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "iL 3 BPM Supporting Processes o",
+      "target": "Quy trình hỗ trợ iL 3 BPM",
+      "bbox": {
+        "x": 130,
+        "y": 7779,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "® \" Search / 1 Agent/employee 3 al",
+      "target": "Tìm kiếm / Nhân viên 3 al",
+      "bbox": {
+        "x": 130,
+        "y": 8032,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "= Audit | Reporting BQ",
+      "target": "= Kiểm toán | Báo cáo BQ",
+      "bbox": {
+        "x": 130,
+        "y": 8285,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "g ook-ups maintenanc",
+      "target": "bảo trì tìm kiếm",
+      "bbox": {
+        "x": 130,
+        "y": 8538,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "— d Product Legal",
+      "target": "— d Sản phẩm hợp pháp",
+      "bbox": {
+        "x": 130,
+        "y": 8791,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "ce maintenance compliance",
+      "target": "tuân thủ bảo trì CE",
+      "bbox": {
+        "x": 130,
+        "y": 9044,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "© 3 Rules-based Custom business services to support @",
+      "target": "© 3 Dịch vụ kinh doanh tùy chỉnh dựa trên quy tắc để hỗ trợ @",
+      "bbox": {
+        "x": 130,
+        "y": 9297,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "5 £ 2 services framework BPM core and supporting processes 3 Z",
+      "target": "Khung dịch vụ 5 £ 2 BPM và các quy trình hỗ trợ cốt lõi 3 Z",
+      "bbox": {
+        "x": 130,
+        "y": 9550,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "©v hel",
+      "target": "©v hel",
+      "bbox": {
+        "x": 130,
+        "y": 9803,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "55 3 Product External 5 a",
+      "target": "Sản phẩm bên ngoài",
+      "bbox": {
+        "x": 130,
+        "y": 10056,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "52 5 Sap selector = corporate 3 Z",
+      "target": "52 5 Bộ chọn sap = doanh nghiệp 3 Z",
+      "bbox": {
+        "x": 130,
+        "y": 10309,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "55 2 - Product Service § 3 applications |3 2",
+      "target": "55 2 - Dịch vụ sản phẩm § 3 ứng dụng |3 2",
+      "bbox": {
+        "x": 130,
+        "y": 10562,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "gE & information bus =z 23",
+      "target": "gE & bus thông tin =z 23",
+      "bbox": {
+        "x": 130,
+        "y": 10815,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "ad ay QZ",
+      "target": "ad ay QZ",
+      "bbox": {
+        "x": 130,
+        "y": 11068,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "be) publisher pes [els",
+      "target": "nhà xuất bản",
+      "bbox": {
+        "x": 130,
+        "y": 11321,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "is E ig",
+      "target": "là E ig",
+      "bbox": {
+        "x": 130,
+        "y": 11574,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "28 Shared Supporting Other ce 23",
+      "target": "28 Hỗ trợ Chia sẻ Khác ce 23",
+      "bbox": {
+        "x": 130,
+        "y": 11827,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "© services systems syste| ent =",
+      "target": "© dịch vụ hệ thống hệ thống",
+      "bbox": {
+        "x": 130,
+        "y": 12080,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "Cx 1 bus = 3s",
+      "target": "Cx 1 xe buýt = 3s",
+      "bbox": {
+        "x": 130,
+        "y": 12333,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "2g £3 SiS)",
+      "target": "2g £3 SiS)",
+      "bbox": {
+        "x": 130,
+        "y": 12586,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "£5 hie “iE External 3S",
+      "target": "£5 hiệ \"iE Bên ngoài 3S",
+      "bbox": {
+        "x": 130,
+        "y": 12839,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    },
+    {
+      "source": "Ei IM capabilities RDBMS DM/DW/BI/KM . reeds =a",
+      "target": "Khả năng Ei IM RDBMS DM/DW/BI/KM. reeds =a",
+      "bbox": {
+        "x": 130,
+        "y": 13092,
+        "w": 1040,
+        "h": 126
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 3.3195693476884105,
+    "averageConfidence": 62
+  }
+}

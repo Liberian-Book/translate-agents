@@ -1,0 +1,134 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-3-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/3-introduction.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-3-1.vi.png",
+  "ocr": [
+    {
+      "text": "rt ——",
+      "confidence": 30,
+      "bbox": {
+        "x": 175,
+        "y": 86,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "— Ci TT p— | |",
+      "confidence": 30,
+      "bbox": {
+        "x": 175,
+        "y": 201,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": ". ES iy, ll Zi",
+      "confidence": 30,
+      "bbox": {
+        "x": 175,
+        "y": 316,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": ". 0 (8 ” STAR v To | / y",
+      "confidence": 30,
+      "bbox": {
+        "x": 175,
+        "y": 431,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "| 7 dE CHS COFFETmmsn",
+      "confidence": 30,
+      "bbox": {
+        "x": 175,
+        "y": 546,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "I m= Si SEER NN",
+      "confidence": 30,
+      "bbox": {
+        "x": 175,
+        "y": 661,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "= . WN ba © gs he00: pd -» ¥ a",
+      "confidence": 30,
+      "bbox": {
+        "x": 175,
+        "y": 776,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "we =r | Be lp © \\ode 50 5 1",
+      "confidence": 30,
+      "bbox": {
+        "x": 175,
+        "y": 891,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "er ol ; Wo 4 is ° bl 4 JL] | = - >",
+      "confidence": 30,
+      "bbox": {
+        "x": 175,
+        "y": 1006,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "amet oul, & L7l 4 ES . I= — a",
+      "confidence": 30,
+      "bbox": {
+        "x": 175,
+        "y": 1121,
+        "w": 1400,
+        "h": 57
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This image shows the inside of a Starbucks Coffee store.\nButton label: Click to enlarge image of This image shows the inside of a Starbucks Coffee store.\nEnglish caption: Figure 3.1 Starbucks, based in Seattle, Washington, is a company with more than 250,000 employees and locations across the globe. It directly affects countless stakeholders beyond its institutional investors and millions of customers, from coffee growers and milk producers, to urban and suburban communities and developers, to local, state, and national governments. (credit: modification of “StarbucksVaughanMills” by “Raysonho”/Wikimedia Commons, CC0)",
+  "metrics": {
+    "textDensity": 0.6350974930362117,
+    "averageConfidence": 30,
+    "entropy": 6.957168432716571,
+    "sharpness": 2.8946175659909685
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

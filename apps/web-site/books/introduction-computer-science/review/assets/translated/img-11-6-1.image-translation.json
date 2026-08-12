@@ -1,0 +1,351 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-6-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-6-sample-ethereum-blockchain-web-2-0-web-3-0-application.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-11-6-1.vi.png",
+  "ocr": [
+    {
+      "text": "MNEMONIC HD PATH",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 107,
+        "w": 1041,
+        "h": 71
+      }
+    },
+    {
+      "text": "machine detail logic upgrade attitude taxi boy tuition oven rest middle stem m/44'/60'/0'/8/account_index",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 249,
+        "w": 1041,
+        "h": 71
+      }
+    },
+    {
+      "text": "ADDRESS BALANCE TX COUNT INDEX",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 391,
+        "w": 1041,
+        "h": 71
+      }
+    },
+    {
+      "text": "0x58387F6A38ACD2fe38246D988F78Ce64390C992C 100.00 ETH 0 0 &",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 533,
+        "w": 1041,
+        "h": 71
+      }
+    },
+    {
+      "text": "ADDRESS BALANCE TX COUNT INDEX",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 675,
+        "w": 1041,
+        "h": 71
+      }
+    },
+    {
+      "text": "0x3ea9Ee43B85F0B16a64b27c67891632D3dB8e5AE 100.00 ETH 0 1 &",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 817,
+        "w": 1041,
+        "h": 71
+      }
+    },
+    {
+      "text": "ADDRESS BALANCE TX COUNT INDEX",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 959,
+        "w": 1041,
+        "h": 71
+      }
+    },
+    {
+      "text": "0x47d64e29da2768F11Acb2484b24d1911dcCD63A0 100.00 ETH 0 2 &",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 1101,
+        "w": 1041,
+        "h": 71
+      }
+    },
+    {
+      "text": "ADDRESS BALANCE TX COUNT INDEX",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 1243,
+        "w": 1041,
+        "h": 71
+      }
+    },
+    {
+      "text": "0x5E65AC88169b4847D7a94F1FC559Ac6C882df5fc 100.00 ETH 0 3 &",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 1385,
+        "w": 1041,
+        "h": 71
+      }
+    },
+    {
+      "text": "ADDRESS BALANCE TX COUNT INDEX",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 1527,
+        "w": 1041,
+        "h": 71
+      }
+    },
+    {
+      "text": "0xC6EE3c310974326A36c276aC32b2518ADb158765 100.00 ETH 0 4 g",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 1669,
+        "w": 1041,
+        "h": 71
+      }
+    },
+    {
+      "text": "ADDRESS BALANCE TX COUNT INDEX",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 1811,
+        "w": 1041,
+        "h": 71
+      }
+    },
+    {
+      "text": "0xCf26b86b29B4611ad9b7bcf83b08ADeEB2Cf5A5a 100.00 ETH 0 5 &",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 1953,
+        "w": 1041,
+        "h": 71
+      }
+    },
+    {
+      "text": "ADDRESS BALANCE TX COUNT INDEX",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 2095,
+        "w": 1041,
+        "h": 71
+      }
+    },
+    {
+      "text": "0x430961863fD700CBe7eE164784E12aB1DC635C80 100.00 ETH 0 6 &",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 2237,
+        "w": 1041,
+        "h": 71
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "MNEMONIC HD PATH",
+      "target": "ĐƯỜNG DẪN HD MNEMONIC",
+      "bbox": {
+        "x": 130,
+        "y": 107,
+        "w": 1041,
+        "h": 71
+      },
+      "overflow": false
+    },
+    {
+      "source": "machine detail logic upgrade attitude taxi boy tuition oven rest middle stem m/44'/60'/0'/8/account_index",
+      "target": "chi tiết máy logic nâng cấp thái độ taxi cậu bé học phí lò nướng nghỉ giữa thân m/44'/60'/0'/8/chỉ_số_tài_khoản",
+      "bbox": {
+        "x": 130,
+        "y": 249,
+        "w": 1041,
+        "h": 71
+      },
+      "overflow": false
+    },
+    {
+      "source": "ADDRESS BALANCE TX COUNT INDEX",
+      "target": "ĐỊA CHỈ SỐ DƯ SỐ GIAO DỊCH SỐ THỨ TỰ",
+      "bbox": {
+        "x": 130,
+        "y": 391,
+        "w": 1041,
+        "h": 71
+      },
+      "overflow": false
+    },
+    {
+      "source": "0x58387F6A38ACD2fe38246D988F78Ce64390C992C 100.00 ETH 0 0 &",
+      "target": "0x58387F6A38ACD2fe38246D988F78Ce64390C992C 100.00 ETH 0 0 &",
+      "bbox": {
+        "x": 130,
+        "y": 533,
+        "w": 1041,
+        "h": 71
+      },
+      "overflow": false
+    },
+    {
+      "source": "ADDRESS BALANCE TX COUNT INDEX",
+      "target": "ĐỊA CHỈ SỐ DƯ SỐ GIAO DỊCH SỐ THỨ TỰ",
+      "bbox": {
+        "x": 130,
+        "y": 675,
+        "w": 1041,
+        "h": 71
+      },
+      "overflow": false
+    },
+    {
+      "source": "0x3ea9Ee43B85F0B16a64b27c67891632D3dB8e5AE 100.00 ETH 0 1 &",
+      "target": "0x3ea9Ee43B85F0B16a64b27c67891632D3dB8e5AE 100.00 ETH 0 1 &",
+      "bbox": {
+        "x": 130,
+        "y": 817,
+        "w": 1041,
+        "h": 71
+      },
+      "overflow": false
+    },
+    {
+      "source": "ADDRESS BALANCE TX COUNT INDEX",
+      "target": "ĐỊA CHỈ SỐ DƯ SỐ GIAO DỊCH SỐ THỨ TỰ",
+      "bbox": {
+        "x": 130,
+        "y": 959,
+        "w": 1041,
+        "h": 71
+      },
+      "overflow": false
+    },
+    {
+      "source": "0x47d64e29da2768F11Acb2484b24d1911dcCD63A0 100.00 ETH 0 2 &",
+      "target": "0x47d64e29da2768F11Acb2484b24d1911dcCD63A0 100.00 ETH 0 2 &",
+      "bbox": {
+        "x": 130,
+        "y": 1101,
+        "w": 1041,
+        "h": 71
+      },
+      "overflow": false
+    },
+    {
+      "source": "ADDRESS BALANCE TX COUNT INDEX",
+      "target": "ĐỊA CHỈ SỐ DƯ SỐ GIAO DỊCH CHỈ SỐ",
+      "bbox": {
+        "x": 130,
+        "y": 1243,
+        "w": 1041,
+        "h": 71
+      },
+      "overflow": false
+    },
+    {
+      "source": "0x5E65AC88169b4847D7a94F1FC559Ac6C882df5fc 100.00 ETH 0 3 &",
+      "target": "0x5E65AC88169b4847D7a94F1FC559Ac6C882df5fc 100.00 ETH 0 3 &",
+      "bbox": {
+        "x": 130,
+        "y": 1385,
+        "w": 1041,
+        "h": 71
+      },
+      "overflow": false
+    },
+    {
+      "source": "ADDRESS BALANCE TX COUNT INDEX",
+      "target": "ĐỊA CHỈ SỐ DƯ SỐ GIAO DỊCH SỐ THỨ TỰ",
+      "bbox": {
+        "x": 130,
+        "y": 1527,
+        "w": 1041,
+        "h": 71
+      },
+      "overflow": false
+    },
+    {
+      "source": "0xC6EE3c310974326A36c276aC32b2518ADb158765 100.00 ETH 0 4 g",
+      "target": "0xC6EE3c310974326A36c276aC32b2518ADb158765 100.00 ETH 0 4 g",
+      "bbox": {
+        "x": 130,
+        "y": 1669,
+        "w": 1041,
+        "h": 71
+      },
+      "overflow": false
+    },
+    {
+      "source": "ADDRESS BALANCE TX COUNT INDEX",
+      "target": "ĐỊA CHỈ SỐ DƯ SỐ GIAO DỊCH CHỈ SỐ",
+      "bbox": {
+        "x": 130,
+        "y": 1811,
+        "w": 1041,
+        "h": 71
+      },
+      "overflow": false
+    },
+    {
+      "source": "0xCf26b86b29B4611ad9b7bcf83b08ADeEB2Cf5A5a 100.00 ETH 0 5 &",
+      "target": "0xCf26b86b29B4611ad9b7bcf83b08ADeEB2Cf5A5a 100.00 ETH 0 5 &",
+      "bbox": {
+        "x": 130,
+        "y": 1953,
+        "w": 1041,
+        "h": 71
+      },
+      "overflow": false
+    },
+    {
+      "source": "ADDRESS BALANCE TX COUNT INDEX",
+      "target": "ĐỊA CHỈ SỐ DƯ SỐ GIAO DỊCH SỐ THỨ TỰ",
+      "bbox": {
+        "x": 130,
+        "y": 2095,
+        "w": 1041,
+        "h": 71
+      },
+      "overflow": false
+    },
+    {
+      "source": "0x430961863fD700CBe7eE164784E12aB1DC635C80 100.00 ETH 0 6 &",
+      "target": "0x430961863fD700CBe7eE164784E12aB1DC635C80 100.00 ETH 0 6 &",
+      "bbox": {
+        "x": 130,
+        "y": 2237,
+        "w": 1041,
+        "h": 71
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 1.02131981449015,
+    "averageConfidence": 83
+  }
+}

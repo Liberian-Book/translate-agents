@@ -1,0 +1,164 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-9-2-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/9-2-the-influence-of-advertising.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-9-2-1.vi.png",
+  "ocr": [
+    {
+      "text": "Ne 4d 3",
+      "confidence": 36,
+      "bbox": {
+        "x": 50,
+        "y": 77,
+        "w": 400,
+        "h": 52
+      }
+    },
+    {
+      "text": "oe 1",
+      "confidence": 36,
+      "bbox": {
+        "x": 50,
+        "y": 180,
+        "w": 400,
+        "h": 52
+      }
+    },
+    {
+      "text": "N LU",
+      "confidence": 36,
+      "bbox": {
+        "x": 50,
+        "y": 283,
+        "w": 400,
+        "h": 52
+      }
+    },
+    {
+      "text": "i DOUBLE THE TASTE. DOUBLE THE ENJOVMEN",
+      "confidence": 36,
+      "bbox": {
+        "x": 50,
+        "y": 386,
+        "w": 400,
+        "h": 52
+      }
+    },
+    {
+      "text": "ae DOUBLE",
+      "confidence": 36,
+      "bbox": {
+        "x": 50,
+        "y": 489,
+        "w": 400,
+        "h": 52
+      }
+    },
+    {
+      "text": "CT Sy Chicken McDeluee i ’",
+      "confidence": 36,
+      "bbox": {
+        "x": 50,
+        "y": 592,
+        "w": 400,
+        "h": 52
+      }
+    },
+    {
+      "text": "= ha.",
+      "confidence": 36,
+      "bbox": {
+        "x": 50,
+        "y": 695,
+        "w": 400,
+        "h": 52
+      }
+    },
+    {
+      "text": "Bes pe OA",
+      "confidence": 36,
+      "bbox": {
+        "x": 50,
+        "y": 798,
+        "w": 400,
+        "h": 52
+      }
+    },
+    {
+      "text": "M3 4 ny AY |",
+      "confidence": 36,
+      "bbox": {
+        "x": 50,
+        "y": 901,
+        "w": 400,
+        "h": 52
+      }
+    },
+    {
+      "text": "li) Tema To",
+      "confidence": 36,
+      "bbox": {
+        "x": 50,
+        "y": 1004,
+        "w": 400,
+        "h": 52
+      }
+    },
+    {
+      "text": "EB 4 La ro",
+      "confidence": 36,
+      "bbox": {
+        "x": 50,
+        "y": 1107,
+        "w": 400,
+        "h": 52
+      }
+    },
+    {
+      "text": "So Padi pally",
+      "confidence": 36,
+      "bbox": {
+        "x": 50,
+        "y": 1210,
+        "w": 400,
+        "h": 52
+      }
+    },
+    {
+      "text": "ER a ~",
+      "confidence": 36,
+      "bbox": {
+        "x": 50,
+        "y": 1313,
+        "w": 400,
+        "h": 52
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This image shows an advertisement for McDonald’s Doubles. It says “Double the taste. Double the enjoyment.” It shows four sandwiches: the Double Spicy Chicken McDeluxe, the Double McChicken, the Mega Mac, and the Double Filet-O-Fish.\nButton label: Click to enlarge image of This image shows an advertisement for McDonald’s Doubles. It says “Double the taste. Double the enjoyment.” It shows four sandwiches: the Double Spicy Chicken McDeluxe, the Double McChicken, the Mega Mac, and the Double Filet-O-Fish.\nEnglish caption: Figure 9.3 When an unwise purchase is made appealing, where does the consumer’s responsibility for decision-making lie? Furthermore, if the purchase is spurred by children who are responding to advertising specifically directed at them, is consumer responsibility diminished? (credit: “Big Burgers - Asia (5490379696)” by Kinoko kokonotsu/Wikimedia Commons, CC BY 2.0)",
+  "metrics": {
+    "textDensity": 0.8384496124031008,
+    "averageConfidence": 36,
+    "entropy": 7.290160428045056,
+    "sharpness": 3.8620118895969915
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

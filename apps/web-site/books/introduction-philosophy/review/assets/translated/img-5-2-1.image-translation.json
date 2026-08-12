@@ -1,0 +1,163 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-5-2-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/5-2-logical-statements.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "La yo.",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 71,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "’ pr ct \"",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 166,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "3d +2 DANES £3 —.",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 261,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "18 il UN A : < A",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 356,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "3 ) NE & AR",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 451,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "4 SR sR Ene Vf “ § Woh",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 546,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "5 MS YI Cn MS) OW EN %",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 641,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "oN Ea ¥ Joi EN a(S OA Ub TASER",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 736,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "foe ae ON i 5",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 831,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "G0 Wi slhe gd i Gadre SER",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 926,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "£3 fer IR kar BPR Sy SR a",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 1021,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "SS A £7 pn A RON",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 1116,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "ty TANG He aod SA hE NL",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 1211,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "SAAT CR APY Wo) th 2 Wd as A Ty 1 SY Se",
+      "confidence": 26,
+      "bbox": {
+        "x": 80,
+        "y": 1306,
+        "w": 640,
+        "h": 48
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.9050505050505051,
+    "averageConfidence": 26,
+    "entropy": 6.76115119503811,
+    "sharpness": 4.808002631702462
+  }
+}

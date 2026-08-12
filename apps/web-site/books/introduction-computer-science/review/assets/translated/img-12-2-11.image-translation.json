@@ -1,0 +1,120 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-2-11.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-2-cloud-based-and-cloud-native-applications-deployment-technologies.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-12-2-11.vi.png",
+  "ocr": [
+    {
+      "text": "Bare metal Virtual machines Unikernels Containers",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 46,
+        "w": 1042,
+        "h": 31
+      }
+    },
+    {
+      "text": "mee)",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 107,
+        "w": 1042,
+        "h": 31
+      }
+    },
+    {
+      "text": "| Binsibs",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 168,
+        "w": 1042,
+        "h": 31
+      }
+    },
+    {
+      "text": "ouestos",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 229,
+        "w": 1042,
+        "h": 31
+      }
+    },
+    {
+      "text": "Los JI vemos J] esos JJ restos |",
+      "confidence": 62,
+      "bbox": {
+        "x": 130,
+        "y": 290,
+        "w": 1042,
+        "h": 31
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Bare metal Virtual machines Unikernels Containers",
+      "target": "Máy ảo bare metal Unikernels Container",
+      "bbox": {
+        "x": 130,
+        "y": 46,
+        "w": 1042,
+        "h": 31
+      },
+      "overflow": false
+    },
+    {
+      "source": "mee)",
+      "target": "mee)",
+      "bbox": {
+        "x": 130,
+        "y": 107,
+        "w": 1042,
+        "h": 31
+      },
+      "overflow": false
+    },
+    {
+      "source": "| Binsibs",
+      "target": "Binsibs",
+      "bbox": {
+        "x": 130,
+        "y": 168,
+        "w": 1042,
+        "h": 31
+      },
+      "overflow": false
+    },
+    {
+      "source": "ouestos",
+      "target": "ouestos",
+      "bbox": {
+        "x": 130,
+        "y": 229,
+        "w": 1042,
+        "h": 31
+      },
+      "overflow": false
+    },
+    {
+      "source": "Los JI vemos J] esos JJ restos |",
+      "target": "Những di tích đó",
+      "bbox": {
+        "x": 130,
+        "y": 290,
+        "w": 1042,
+        "h": 31
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.3230406746031746,
+    "averageConfidence": 62
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-7-4-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/7-4-skepticism.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Ss",
+      "confidence": 20,
+      "bbox": {
+        "x": 80,
+        "y": 74,
+        "w": 640,
+        "h": 49
+      }
+    },
+    {
+      "text": "ol",
+      "confidence": 20,
+      "bbox": {
+        "x": 80,
+        "y": 173,
+        "w": 640,
+        "h": 49
+      }
+    },
+    {
+      "text": "SEN (11)",
+      "confidence": 20,
+      "bbox": {
+        "x": 80,
+        "y": 272,
+        "w": 640,
+        "h": 49
+      }
+    },
+    {
+      "text": "LF y — NN Eh ¢",
+      "confidence": 20,
+      "bbox": {
+        "x": 80,
+        "y": 371,
+        "w": 640,
+        "h": 49
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.25413290113452186,
+    "averageConfidence": 20,
+    "entropy": 6.128392921527848,
+    "sharpness": 1.8215598924969918
+  }
+}

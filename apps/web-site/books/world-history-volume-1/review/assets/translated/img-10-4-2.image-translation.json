@@ -1,0 +1,400 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-10-4-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/10-4-the-margins-of-empire.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "image-edit-leftover-source-english",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "iss TE",
+      "confidence": 22,
+      "bbox": {
+        "x": 65,
+        "y": 104,
+        "w": 520,
+        "h": 69
+      }
+    },
+    {
+      "text": "| Ey",
+      "confidence": 22,
+      "bbox": {
+        "x": 65,
+        "y": 243,
+        "w": 520,
+        "h": 69
+      }
+    },
+    {
+      "text": "hes Ai",
+      "confidence": 22,
+      "bbox": {
+        "x": 65,
+        "y": 382,
+        "w": 520,
+        "h": 69
+      }
+    },
+    {
+      "text": "TRS a",
+      "confidence": 22,
+      "bbox": {
+        "x": 65,
+        "y": 521,
+        "w": 520,
+        "h": 69
+      }
+    },
+    {
+      "text": "SNe AY li 1",
+      "confidence": 22,
+      "bbox": {
+        "x": 65,
+        "y": 660,
+        "w": 520,
+        "h": 69
+      }
+    },
+    {
+      "text": "NZ)",
+      "confidence": 22,
+      "bbox": {
+        "x": 65,
+        "y": 799,
+        "w": 520,
+        "h": 69
+      }
+    },
+    {
+      "text": "ANH | ®",
+      "confidence": 22,
+      "bbox": {
+        "x": 65,
+        "y": 938,
+        "w": 520,
+        "h": 69
+      }
+    },
+    {
+      "text": "i i HW",
+      "confidence": 22,
+      "bbox": {
+        "x": 65,
+        "y": 1077,
+        "w": 520,
+        "h": 69
+      }
+    },
+    {
+      "text": "NE",
+      "confidence": 22,
+      "bbox": {
+        "x": 65,
+        "y": 1216,
+        "w": 520,
+        "h": 69
+      }
+    },
+    {
+      "text": "PRN Sd",
+      "confidence": 22,
+      "bbox": {
+        "x": 65,
+        "y": 1355,
+        "w": 520,
+        "h": 69
+      }
+    },
+    {
+      "text": "PE",
+      "confidence": 22,
+      "bbox": {
+        "x": 65,
+        "y": 1494,
+        "w": 520,
+        "h": 69
+      }
+    },
+    {
+      "text": "gir ”~ jy",
+      "confidence": 22,
+      "bbox": {
+        "x": 65,
+        "y": 1633,
+        "w": 520,
+        "h": 69
+      }
+    },
+    {
+      "text": "HL",
+      "confidence": 22,
+      "bbox": {
+        "x": 65,
+        "y": 1772,
+        "w": 520,
+        "h": 69
+      }
+    },
+    {
+      "text": "Higa Acs.",
+      "confidence": 22,
+      "bbox": {
+        "x": 65,
+        "y": 1911,
+        "w": 520,
+        "h": 69
+      }
+    },
+    {
+      "text": "it Ee",
+      "confidence": 22,
+      "bbox": {
+        "x": 65,
+        "y": 2050,
+        "w": 520,
+        "h": 69
+      }
+    },
+    {
+      "text": "BEE —— ee",
+      "confidence": 22,
+      "bbox": {
+        "x": 65,
+        "y": 2189,
+        "w": 520,
+        "h": 69
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A picture of a golden-black sculpture is shown on a black background. The bare left foot of the man in long flowing robes stands on an ornately carved, square pedestal. His bare right foot is behind him. He is missing his hands and there is a flat circular disc behind his head. He wears a beaded head dressing with a small dome on top of his head, wears earrings, and has a plump, stoic face.\nButton label: Click to enlarge image of A picture of a golden-black sculpture is shown on a black background. The bare left foot of the man in long flowing robes stands on an ornately carved, square pedestal. His bare right foot is behind him. He is missing his hands and there is a flat circular disc behind his head. He wears a beaded head dressing with a small dome on top of his head, wears earrings, and has a plump, stoic face.\nEnglish caption: Figure 10.19 The Buddha. This skillfully made third-century sculpture, about three feet high, depicts the Buddha in human form. The flowing drapery of his dress may have been influenced by the Greek toga, suggesting the multiethnic makeup of the region of Gandhara where it was made. (credit: “Buddha” by Purchase, Denise and Andrew Saul Gift, in honor of Maxwell K. Hearn, 2014/The Metropolitan Museum of Art, Public Domain)",
+  "metrics": {
+    "textDensity": 1.0186851211072665,
+    "averageConfidence": 22,
+    "entropy": 5.916550753827323,
+    "sharpness": 3.560519567317465
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A picture of a golden-black sculpture is shown on a black background. The bare left foot of the man in long flowing robes stands on an ornately carved, square pedestal. His bare right foot is behind him. He is missing his hands and there is a flat circular disc behind his head. He wears a beaded head dressing with a small dome on top of his head, wears earrings, and has a plump, stoic face.\nButton label: Click to enlarge image of A picture of a golden-black sculpture is shown on a black background. The bare left foot of the man in long flowing robes stands on an ornately carved, square pedestal. His bare right foot is behind him. He is missing his hands and there is a flat circular disc behind his head. He wears a beaded head dressing with a small dome on top of his head, wears earrings, and has a plump, stoic face.\nEnglish caption: Figure 10.19 The Buddha. This skillfully made third-century sculpture, about three feet high, depicts the Buddha in human form. The flowing drapery of his dress may have been influenced by the Greek toga, suggesting the multiethnic makeup of the region of Gandhara where it was made. (credit: “Buddha” by Purchase, Denise and Andrew Saul Gift, in honor of Maxwell K. Hearn, 2014/The Metropolitan Museum of Art, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: gandhara, denise, andrew, saul, maxwell, hearn. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "pro. Xa 2",
+        "confidence": 65,
+        "bbox": {
+          "x": 109,
+          "y": 174,
+          "w": 868,
+          "h": 116
+        }
+      },
+      {
+        "text": "fr Ae 5 \\",
+        "confidence": 65,
+        "bbox": {
+          "x": 109,
+          "y": 406,
+          "w": 868,
+          "h": 116
+        }
+      },
+      {
+        "text": "ay ne",
+        "confidence": 65,
+        "bbox": {
+          "x": 109,
+          "y": 638,
+          "w": 868,
+          "h": 116
+        }
+      },
+      {
+        "text": "FN 4",
+        "confidence": 65,
+        "bbox": {
+          "x": 109,
+          "y": 870,
+          "w": 868,
+          "h": 116
+        }
+      },
+      {
+        "text": "= LA)",
+        "confidence": 65,
+        "bbox": {
+          "x": 109,
+          "y": 1102,
+          "w": 868,
+          "h": 116
+        }
+      },
+      {
+        "text": "tN",
+        "confidence": 65,
+        "bbox": {
+          "x": 109,
+          "y": 1334,
+          "w": 868,
+          "h": 116
+        }
+      },
+      {
+        "text": "i ANNC , J AES",
+        "confidence": 65,
+        "bbox": {
+          "x": 109,
+          "y": 1566,
+          "w": 868,
+          "h": 116
+        }
+      },
+      {
+        "text": "RY 1",
+        "confidence": 65,
+        "bbox": {
+          "x": 109,
+          "y": 1798,
+          "w": 868,
+          "h": 116
+        }
+      },
+      {
+        "text": "NR fl,",
+        "confidence": 65,
+        "bbox": {
+          "x": 109,
+          "y": 2030,
+          "w": 868,
+          "h": 116
+        }
+      },
+      {
+        "text": "WS",
+        "confidence": 65,
+        "bbox": {
+          "x": 109,
+          "y": 2262,
+          "w": 868,
+          "h": 116
+        }
+      },
+      {
+        "text": "1G vig Bi",
+        "confidence": 65,
+        "bbox": {
+          "x": 109,
+          "y": 2494,
+          "w": 868,
+          "h": 116
+        }
+      },
+      {
+        "text": "ir so",
+        "confidence": 65,
+        "bbox": {
+          "x": 109,
+          "y": 2726,
+          "w": 868,
+          "h": 116
+        }
+      },
+      {
+        "text": "ey]",
+        "confidence": 65,
+        "bbox": {
+          "x": 109,
+          "y": 2958,
+          "w": 868,
+          "h": 116
+        }
+      },
+      {
+        "text": "Hinh 10.19 irc Phat. Tac phdm diéu khac tir thé ky thir ba nay",
+        "confidence": 65,
+        "bbox": {
+          "x": 109,
+          "y": 3190,
+          "w": 868,
+          "h": 116
+        }
+      },
+      {
+        "text": "dugc ché tac mot cach tai tinh, cao khoang ba feet, mo ta Bic Phat",
+        "confidence": 65,
+        "bbox": {
+          "x": 109,
+          "y": 3422,
+          "w": 868,
+          "h": 116
+        }
+      },
+      {
+        "text": "dudi hinh dang con ngudi. Nhirng nép gap mém mai cta trang phuc",
+        "confidence": 65,
+        "bbox": {
+          "x": 109,
+          "y": 3654,
+          "w": 868,
+          "h": 116
+        }
+      },
+      {
+        "text": "6 thé chiu anh hudng tir do choang toga cua Hy Lap, ggi y thanh",
+        "confidence": 65,
+        "bbox": {
+          "x": 109,
+          "y": 3886,
+          "w": 868,
+          "h": 116
+        }
+      },
+      {
+        "text": "phan da dan tdc cla ving Gandhara, noi tac phdm dugc tao ra.",
+        "confidence": 65,
+        "bbox": {
+          "x": 109,
+          "y": 4118,
+          "w": 868,
+          "h": 116
+        }
+      },
+      {
+        "text": "(tin dung: “Dc Phat” bai quy hién tang clia Dé-nai va An-dréu Sau, dé vinh",
+        "confidence": 65,
+        "bbox": {
+          "x": 109,
+          "y": 4350,
+          "w": 868,
+          "h": 116
+        }
+      },
+      {
+        "text": "danh Mac-xoen K& Hon, 2014/Bao tang Nghé thudt Metropolitan, Mién Cng cong)",
+        "confidence": 65,
+        "bbox": {
+          "x": 109,
+          "y": 4582,
+          "w": 868,
+          "h": 116
+        }
+      }
+    ],
+    "validation": {
+      "ok": false,
+      "reason": "image-edit-leftover-source-english",
+      "leftoverSourceWords": [
+        "feet",
+        "toga",
+        "gandhara",
+        "metropolitan"
+      ]
+    },
+    "validationAttempt": 3
+  }
+}

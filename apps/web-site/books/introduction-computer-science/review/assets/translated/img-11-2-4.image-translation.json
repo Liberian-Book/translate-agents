@@ -1,0 +1,183 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-2-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-2-sample-responsive-wad-with-bootstrap-and-django.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-11-2-4.vi.png",
+  "ocr": [
+    {
+      "text": "django View release notes for Django 2.1",
+      "confidence": 92,
+      "bbox": {
+        "x": 110,
+        "y": 79,
+        "w": 881,
+        "h": 53
+      }
+    },
+    {
+      "text": "Jo] \\",
+      "confidence": 92,
+      "bbox": {
+        "x": 110,
+        "y": 184,
+        "w": 881,
+        "h": 53
+      }
+    },
+    {
+      "text": "The install worked successfully! Congratulations!",
+      "confidence": 92,
+      "bbox": {
+        "x": 110,
+        "y": 289,
+        "w": 881,
+        "h": 53
+      }
+    },
+    {
+      "text": "You are seeing this page because DEBUG-True isin",
+      "confidence": 92,
+      "bbox": {
+        "x": 110,
+        "y": 394,
+        "w": 881,
+        "h": 53
+      }
+    },
+    {
+      "text": "your settings file and you have not configured any",
+      "confidence": 92,
+      "bbox": {
+        "x": 110,
+        "y": 499,
+        "w": 881,
+        "h": 53
+      }
+    },
+    {
+      "text": "URLs.",
+      "confidence": 92,
+      "bbox": {
+        "x": 110,
+        "y": 604,
+        "w": 881,
+        "h": 53
+      }
+    },
+    {
+      "text": "Django Documentation © Tutorial: A Polling App Django Community",
+      "confidence": 92,
+      "bbox": {
+        "x": 110,
+        "y": 709,
+        "w": 881,
+        "h": 53
+      }
+    },
+    {
+      "text": "Topics, references & how-to's Get started with Django Connect, get help or contribute",
+      "confidence": 92,
+      "bbox": {
+        "x": 110,
+        "y": 814,
+        "w": 881,
+        "h": 53
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "django View release notes for Django 2.1",
+      "target": "Ghi chú phát hành Django 2.1",
+      "bbox": {
+        "x": 110,
+        "y": 79,
+        "w": 881,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "Jo] \\",
+      "target": "Jo",
+      "bbox": {
+        "x": 110,
+        "y": 184,
+        "w": 881,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "The install worked successfully! Congratulations!",
+      "target": "Cài đặt thành công! Chúc mừng!",
+      "bbox": {
+        "x": 110,
+        "y": 289,
+        "w": 881,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "You are seeing this page because DEBUG-True isin",
+      "target": "Bạn đang thấy trang này vì DEBUG-True isin",
+      "bbox": {
+        "x": 110,
+        "y": 394,
+        "w": 881,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "your settings file and you have not configured any",
+      "target": "tệp cấu hình của bạn và bạn chưa cấu hình bất kỳ cái nào",
+      "bbox": {
+        "x": 110,
+        "y": 499,
+        "w": 881,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "URLs.",
+      "target": "URL.",
+      "bbox": {
+        "x": 110,
+        "y": 604,
+        "w": 881,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "Django Documentation © Tutorial: A Polling App Django Community",
+      "target": "Tài liệu Django © Hướng dẫn: Ứng dụng Khảo sát Cộng đồng Django",
+      "bbox": {
+        "x": 110,
+        "y": 709,
+        "w": 881,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "Topics, references & how-to's Get started with Django Connect, get help or contribute",
+      "target": "Chủ đề, tài liệu tham khảo & hướng dẫn Bắt đầu với Django Kết nối, nhận trợ giúp hoặc đóng góp",
+      "bbox": {
+        "x": 110,
+        "y": 814,
+        "w": 881,
+        "h": 53
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.5164033803502281,
+    "averageConfidence": 92
+  }
+}

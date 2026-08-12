@@ -1,0 +1,700 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-11-3-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/11-3-islamization-and-religious-rule-under-islam.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-11-3-3.vi.png",
+  "ocr": [
+    {
+      "text": "| LW [¥ ~",
+      "confidence": 29,
+      "bbox": {
+        "x": 65,
+        "y": 114,
+        "w": 520,
+        "h": 76
+      }
+    },
+    {
+      "text": ": NY NP WEL NEL,",
+      "confidence": 29,
+      "bbox": {
+        "x": 65,
+        "y": 266,
+        "w": 520,
+        "h": 76
+      }
+    },
+    {
+      "text": "I WL NE Milder",
+      "confidence": 29,
+      "bbox": {
+        "x": 65,
+        "y": 418,
+        "w": 520,
+        "h": 76
+      }
+    },
+    {
+      "text": "(NB Ee",
+      "confidence": 29,
+      "bbox": {
+        "x": 65,
+        "y": 570,
+        "w": 520,
+        "h": 76
+      }
+    },
+    {
+      "text": "NG NRE Cn",
+      "confidence": 29,
+      "bbox": {
+        "x": 65,
+        "y": 722,
+        "w": 520,
+        "h": 76
+      }
+    },
+    {
+      "text": "9 los > aul di -",
+      "confidence": 29,
+      "bbox": {
+        "x": 65,
+        "y": 874,
+        "w": 520,
+        "h": 76
+      }
+    },
+    {
+      "text": "I] Chel, REC",
+      "confidence": 29,
+      "bbox": {
+        "x": 65,
+        "y": 1026,
+        "w": 520,
+        "h": 76
+      }
+    },
+    {
+      "text": "\\ ie |",
+      "confidence": 29,
+      "bbox": {
+        "x": 65,
+        "y": 1178,
+        "w": 520,
+        "h": 76
+      }
+    },
+    {
+      "text": "- Bolas Jn",
+      "confidence": 29,
+      "bbox": {
+        "x": 65,
+        "y": 1330,
+        "w": 520,
+        "h": 76
+      }
+    },
+    {
+      "text": "Fe i Bk a",
+      "confidence": 29,
+      "bbox": {
+        "x": 65,
+        "y": 1482,
+        "w": 520,
+        "h": 76
+      }
+    },
+    {
+      "text": "SiR = 53 Ly, AE",
+      "confidence": 29,
+      "bbox": {
+        "x": 65,
+        "y": 1634,
+        "w": 520,
+        "h": 76
+      }
+    },
+    {
+      "text": "io SE 63 | oe Fai. we",
+      "confidence": 29,
+      "bbox": {
+        "x": 65,
+        "y": 1786,
+        "w": 520,
+        "h": 76
+      }
+    },
+    {
+      "text": "5a, EEG ar",
+      "confidence": 29,
+      "bbox": {
+        "x": 65,
+        "y": 1938,
+        "w": 520,
+        "h": 76
+      }
+    },
+    {
+      "text": "RY > poe Sa",
+      "confidence": 29,
+      "bbox": {
+        "x": 65,
+        "y": 2090,
+        "w": 520,
+        "h": 76
+      }
+    },
+    {
+      "text": ". IX ses : u",
+      "confidence": 29,
+      "bbox": {
+        "x": 65,
+        "y": 2242,
+        "w": 520,
+        "h": 76
+      }
+    },
+    {
+      "text": "BE < PI",
+      "confidence": 29,
+      "bbox": {
+        "x": 65,
+        "y": 2394,
+        "w": 520,
+        "h": 76
+      }
+    },
+    {
+      "text": "3 wn; Mdm erasalesn dt",
+      "confidence": 29,
+      "bbox": {
+        "x": 65,
+        "y": 2546,
+        "w": 520,
+        "h": 76
+      }
+    },
+    {
+      "text": "N \\/ ies",
+      "confidence": 29,
+      "bbox": {
+        "x": 65,
+        "y": 2698,
+        "w": 520,
+        "h": 76
+      }
+    },
+    {
+      "text": "SN eh ETA",
+      "confidence": 29,
+      "bbox": {
+        "x": 65,
+        "y": 2850,
+        "w": 520,
+        "h": 76
+      }
+    },
+    {
+      "text": "“a Yr)",
+      "confidence": 29,
+      "bbox": {
+        "x": 65,
+        "y": 3002,
+        "w": 520,
+        "h": 76
+      }
+    },
+    {
+      "text": "i Ie age Wo",
+      "confidence": 29,
+      "bbox": {
+        "x": 65,
+        "y": 3154,
+        "w": 520,
+        "h": 76
+      }
+    },
+    {
+      "text": "ky —ublal Sloayaplic",
+      "confidence": 29,
+      "bbox": {
+        "x": 65,
+        "y": 3306,
+        "w": 520,
+        "h": 76
+      }
+    },
+    {
+      "text": "oer",
+      "confidence": 29,
+      "bbox": {
+        "x": 65,
+        "y": 3458,
+        "w": 520,
+        "h": 76
+      }
+    },
+    {
+      "text": "Lite IX Gain El",
+      "confidence": 29,
+      "bbox": {
+        "x": 65,
+        "y": 3610,
+        "w": 520,
+        "h": 76
+      }
+    },
+    {
+      "text": "| bg raglan, Alerts pms",
+      "confidence": 29,
+      "bbox": {
+        "x": 65,
+        "y": 3762,
+        "w": 520,
+        "h": 76
+      }
+    },
+    {
+      "text": "- 3 al",
+      "confidence": 29,
+      "bbox": {
+        "x": 65,
+        "y": 3914,
+        "w": 520,
+        "h": 76
+      }
+    },
+    {
+      "text": "Lass x A",
+      "confidence": 29,
+      "bbox": {
+        "x": 65,
+        "y": 4066,
+        "w": 520,
+        "h": 76
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A yellowed and worn page is shown from a book. A green plant is drawn with five stalks and round bulbs amid leaves is shown at the top left with another green plant with white flowers and green leaves drawn below it. The roots are exposed on the plant below. Scripted writing is written along the right side of the page in a column, right justified. Some writing is also along the bottom and two notes are made along the right side of the page.\nButton label: Click to enlarge image of A yellowed and worn page is shown from a book. A green plant is drawn with five stalks and round bulbs amid leaves is shown at the top left with another green plant with white flowers and green leaves drawn below it. The roots are exposed on the plant below. Scripted writing is written along the right side of the page in a column, right justified. Some writing is also along the bottom and two notes are made along the right side of the page.\nEnglish caption: Figure 11.20 The Abbasid Translation Movement. This is a page from an Arabic translation of the first-century Greek physician Dioscorides’s treatise, De materia medica (On Medical Material). It dates from the eleventh century, but many manuscripts like it were first rendered from the original Greek into Arabic during the Abbasid Translation Movement. (credit: “Kitāb al-Ḥašāʾiš fī hāyūlā al-ʿilāg al-ṭibbī Or. 289” by Universitaire Bibliotheken Leiden/Leiden University LibrariesK, CC BY)",
+  "metrics": {
+    "textDensity": 1.7334741288278774,
+    "averageConfidence": 29,
+    "entropy": 6.651675102089939,
+    "sharpness": 2.596281125271104
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A yellowed and worn page is shown from a book. A green plant is drawn with five stalks and round bulbs amid leaves is shown at the top left with another green plant with white flowers and green leaves drawn below it. The roots are exposed on the plant below. Scripted writing is written along the right side of the page in a column, right justified. Some writing is also along the bottom and two notes are made along the right side of the page.\nButton label: Click to enlarge image of A yellowed and worn page is shown from a book. A green plant is drawn with five stalks and round bulbs amid leaves is shown at the top left with another green plant with white flowers and green leaves drawn below it. The roots are exposed on the plant below. Scripted writing is written along the right side of the page in a column, right justified. Some writing is also along the bottom and two notes are made along the right side of the page.\nEnglish caption: Figure 11.20 The Abbasid Translation Movement. This is a page from an Arabic translation of the first-century Greek physician Dioscorides’s treatise, De materia medica (On Medical Material). It dates from the eleventh century, but many manuscripts like it were first rendered from the original Greek into Arabic during the Abbasid Translation Movement. (credit: “Kitāb al-Ḥašāʾiš fī hāyūlā al-ʿilāg al-ṭibbī Or. 289” by Universitaire Bibliotheken Leiden/Leiden University LibrariesK, CC BY)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "\" ~ === — BESS aE — TEE —— |",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 182,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "} id. 0% () Se TE",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 424,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "0b SE J sich j bi",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 666,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "i 7 NT Ns NY Cie, Hl",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 908,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "'N 1 y | \\ 1 7. va cac phuo ap |",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 1150,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "f \\! AEA 75 don gian pric Fs",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 1392,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "J | NF wd loai thus va",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 1634,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "| of NY NGA thin phn cic",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 1876,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "i \\ & ; « ching cing véi p",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 2118,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "¥ A i \\ [ BZ r nhiing mo ta vé",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 2360,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "N 14 SMA i AY",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 2602,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "A © 3 y *bénh tat va cdc",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 2844,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "2 i 4 ' loai thuéc don",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 3086,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "1 ; § / ; gian 3 cdc hgp i",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 3328,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "i : i chat A ching. Hg",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 3570,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "pa : Day la sich cia ;",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 3812,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "L Ce EC Fh Dioscorides.",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 4054,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "BE OP NOD Calin",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 4296,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "| ht @ ) [UT",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 4538,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "EES de 5 0 C6 tinh dm va kho 6",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 4780,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "it $7 a ge 267 8 mic db vita pha. (",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 5022,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "Re x WN PO Cochutrccbinh",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 5264,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "i + lanh dda day va i",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 5506,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "RE ve 3 © rudt,dam dm da day il",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 5748,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "4 “a, } va da day, hd rd tieu I",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 5990,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "| & \\ ? 7 hda va giam day hai, |",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 6232,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "LL ar \\ 4 itp lam sach phoi ' ¥",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 6474,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "| SNA \\/_ aim Ma Bik eb",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 6716,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "= 2 7 N= cho binh thing kh,",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 6958,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "§ Pia a iai doc do ran cn, Bo",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 7200,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "ye. Li Z : 4 khi dap ngoai da, it",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 7442,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "| UN To cd ich cho cdc vét + {|",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 7684,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "LR nd thuong va loét. | i",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 7926,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "{ ¥ Cay tit la lan {{",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 8168,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "Cay nay cd tinh 4m A |",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 8410,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "| va khé va cé ich rel",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 8652,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "i : cho ho va bgnh phdi. chy |||",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 8894,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "i Diy [a phan thi tu va phan cudi cia quyén sich 2 |",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 9136,
+          "w": 831,
+          "h": 121
+        }
+      },
+      {
+        "text": "i % Sul",
+        "confidence": 44,
+        "bbox": {
+          "x": 104,
+          "y": 9378,
+          "w": 831,
+          "h": 121
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": [
+        "dioscorides"
+      ]
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

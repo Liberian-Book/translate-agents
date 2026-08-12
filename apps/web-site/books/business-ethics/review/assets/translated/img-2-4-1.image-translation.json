@@ -1,0 +1,164 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-2-4-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/2-4-utilitarianism-the-greatest-good-for-the-greatest-number.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-2-4-1.vi.png",
+  "ocr": [
+    {
+      "text": "Be a SE sire toa",
+      "confidence": 18,
+      "bbox": {
+        "x": 80,
+        "y": 62,
+        "w": 640,
+        "h": 41
+      }
+    },
+    {
+      "text": "Le a LH me — TER x Ws i",
+      "confidence": 18,
+      "bbox": {
+        "x": 80,
+        "y": 144,
+        "w": 640,
+        "h": 41
+      }
+    },
+    {
+      "text": "£03 % P= wit",
+      "confidence": 18,
+      "bbox": {
+        "x": 80,
+        "y": 226,
+        "w": 640,
+        "h": 41
+      }
+    },
+    {
+      "text": "Ee AS A SN pe. Lo",
+      "confidence": 18,
+      "bbox": {
+        "x": 80,
+        "y": 308,
+        "w": 640,
+        "h": 41
+      }
+    },
+    {
+      "text": "ee EEE aI",
+      "confidence": 18,
+      "bbox": {
+        "x": 80,
+        "y": 390,
+        "w": 640,
+        "h": 41
+      }
+    },
+    {
+      "text": "ser ba wy Sy BR",
+      "confidence": 18,
+      "bbox": {
+        "x": 80,
+        "y": 472,
+        "w": 640,
+        "h": 41
+      }
+    },
+    {
+      "text": "1 Loa ] er. 0 aR",
+      "confidence": 18,
+      "bbox": {
+        "x": 80,
+        "y": 554,
+        "w": 640,
+        "h": 41
+      }
+    },
+    {
+      "text": "a BR ee. a",
+      "confidence": 18,
+      "bbox": {
+        "x": 80,
+        "y": 636,
+        "w": 640,
+        "h": 41
+      }
+    },
+    {
+      "text": "8... ae. al",
+      "confidence": 18,
+      "bbox": {
+        "x": 80,
+        "y": 718,
+        "w": 640,
+        "h": 41
+      }
+    },
+    {
+      "text": "5 mea. sameor BRramam, Snoring",
+      "confidence": 18,
+      "bbox": {
+        "x": 80,
+        "y": 800,
+        "w": 640,
+        "h": 41
+      }
+    },
+    {
+      "text": "= i Bema vy Crd Ase dese msin |",
+      "confidence": 18,
+      "bbox": {
+        "x": 80,
+        "y": 882,
+        "w": 640,
+        "h": 41
+      }
+    },
+    {
+      "text": "pros i — 5 Seep En EI or",
+      "confidence": 18,
+      "bbox": {
+        "x": 80,
+        "y": 964,
+        "w": 640,
+        "h": 41
+      }
+    },
+    {
+      "text": "SL re ln Eel PE BE ne. 1 an NO - _SN w",
+      "confidence": 18,
+      "bbox": {
+        "x": 80,
+        "y": 1046,
+        "w": 640,
+        "h": 41
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A drawing depicting Jeremy Bentham’s corpse laid out on a table and mostly covered by a sheet.\nButton label: Click to enlarge image of A drawing depicting Jeremy Bentham’s corpse laid out on a table and mostly covered by a sheet.\nEnglish caption: Figure 2.7 At his request, Jeremy Bentham’s corpse was laid out for public dissection, as depicted here by H.H. Pickersgill in 1832. Today, his body is on display as an “auto-icon” at University College, London, a university he endowed with about half his estate. His preserved head is also kept at the college, separate from the rest of the body.) (credit: “Mortal Remains of Jeremy Bentham, 1832” by Weld Taylor and H. H. Pickersgill/Wikimedia Commons, CC BY 4.0)",
+  "metrics": {
+    "textDensity": 0.8295719844357977,
+    "averageConfidence": 18,
+    "entropy": 7.051758164510829,
+    "sharpness": 6.76560236940891
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

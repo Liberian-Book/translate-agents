@@ -1,0 +1,430 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-12-3-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/12-3-border-states-sogdiana-korea-and-japan.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "image-edit-leftover-source-english",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Lomas 5 5",
+      "confidence": 42,
+      "bbox": {
+        "x": 110,
+        "y": 92,
+        "w": 881,
+        "h": 61
+      }
+    },
+    {
+      "text": "RUSSIA \\w i",
+      "confidence": 42,
+      "bbox": {
+        "x": 110,
+        "y": 214,
+        "w": 881,
+        "h": 61
+      }
+    },
+    {
+      "text": "; La Perouse tr PACIFIC",
+      "confidence": 42,
+      "bbox": {
+        "x": 110,
+        "y": 336,
+        "w": 881,
+        "h": 61
+      }
+    },
+    {
+      "text": "Vi ) hf OCEAN",
+      "confidence": 42,
+      "bbox": {
+        "x": 110,
+        "y": 458,
+        "w": 881,
+        "h": 61
+      }
+    },
+    {
+      "text": "i, ugar Strait",
+      "confidence": 42,
+      "bbox": {
+        "x": 110,
+        "y": 580,
+        "w": 881,
+        "h": 61
+      }
+    },
+    {
+      "text": "z lig . nll",
+      "confidence": 42,
+      "bbox": {
+        "x": 110,
+        "y": 702,
+        "w": 881,
+        "h": 61
+      }
+    },
+    {
+      "text": "4 CHINA WAS",
+      "confidence": 42,
+      "bbox": {
+        "x": 110,
+        "y": 824,
+        "w": 881,
+        "h": 61
+      }
+    },
+    {
+      "text": "; 2 Basin",
+      "confidence": 42,
+      "bbox": {
+        "x": 110,
+        "y": 946,
+        "w": 881,
+        "h": 61
+      }
+    },
+    {
+      "text": "MONGOLIA et “JAPAN",
+      "confidence": 42,
+      "bbox": {
+        "x": 110,
+        "y": 1068,
+        "w": 881,
+        "h": 61
+      }
+    },
+    {
+      "text": "NORTH Basin",
+      "confidence": 42,
+      "bbox": {
+        "x": 110,
+        "y": 1190,
+        "w": 881,
+        "h": 61
+      }
+    },
+    {
+      "text": "KOREA ogg",
+      "confidence": 42,
+      "bbox": {
+        "x": 110,
+        "y": 1312,
+        "w": 881,
+        "h": 61
+      }
+    },
+    {
+      "text": "Fyoniyand Tsushima © \\",
+      "confidence": 42,
+      "bbox": {
+        "x": 110,
+        "y": 1434,
+        "w": 881,
+        "h": 61
+      }
+    },
+    {
+      "text": "Je Log Seoul), BSI J",
+      "confidence": 42,
+      "bbox": {
+        "x": 110,
+        "y": 1556,
+        "w": 881,
+        "h": 61
+      }
+    },
+    {
+      "text": "; sObTH) Jf",
+      "confidence": 42,
+      "bbox": {
+        "x": 110,
+        "y": 1678,
+        "w": 881,
+        "h": 61
+      }
+    },
+    {
+      "text": "KOREA ' %",
+      "confidence": 42,
+      "bbox": {
+        "x": 110,
+        "y": 1800,
+        "w": 881,
+        "h": 61
+      }
+    },
+    {
+      "text": ": AF",
+      "confidence": 42,
+      "bbox": {
+        "x": 110,
+        "y": 1922,
+        "w": 881,
+        "h": 61
+      }
+    },
+    {
+      "text": "IE] ee",
+      "confidence": 42,
+      "bbox": {
+        "x": 110,
+        "y": 2044,
+        "w": 881,
+        "h": 61
+      }
+    },
+    {
+      "text": "Pp & An",
+      "confidence": 42,
+      "bbox": {
+        "x": 110,
+        "y": 2166,
+        "w": 881,
+        "h": 61
+      }
+    },
+    {
+      "text": "S270 of I",
+      "confidence": 42,
+      "bbox": {
+        "x": 110,
+        "y": 2288,
+        "w": 881,
+        "h": 61
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A map is shown with land in beige and water in blue. Mongolia is labelled in the west and Russia, China, North Korea, and South Korea are labelled in the middle and Japan is labelled in the east. The Pacific Ocean is labelled in the east and the Sea of Japan is labelled between China and Japan. Along the coast of the Sea of Japan, the city of Vladivostok is labelled in southeastern Russia. P’yongyang is labelled in North Korea and Seoul is labelled in South Korea. The city of Tokyo is labelled on Japan’s east coast. In Japan, form the north to the south, these areas are labelled: Strait of Tartary, Sakhalin, La Perouse Strait, Hokkaido, Tsugaru Strait, Honshu, Shikkoku, Kanmon Strait and Kyushu. In the Sea of Japan these labels are shown: Japan Basin, Yamato Basin, and Tsushima Basin.\nButton label: Click to enlarge image of A map is shown with land in beige and water in blue. Mongolia is labelled in the west and Russia, China, North Korea, and South Korea are labelled in the middle and Japan is labelled in the east. The Pacific Ocean is labelled in the east and the Sea of Japan is labelled between China and Japan. Along the coast of the Sea of Japan, the city of Vladivostok is labelled in southeastern Russia. P’yongyang is labelled in North Korea and Seoul is labelled in South Korea. The city of Tokyo is labelled on Japan’s east coast. In Japan, form the north to the south, these areas are labelled: Strait of Tartary, Sakhalin, La Perouse Strait, Hokkaido, Tsugaru Strait, Honshu, Shikkoku, Kanmon Strait and Kyushu. In the Sea of Japan these labels are shown: Japan Basin, Yamato Basin, and Tsushima Basin.\nEnglish caption: Figure 12.27 Japan, Korea, and China in Context. This modern map of Japan and Korea shows their proximity to each other and to China. Their closeness explains how Buddhism and other cultural elements such as writing were able to spread from China to Korea and then to Japan in the premodern period. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 1.2138881359639737,
+    "averageConfidence": 42,
+    "entropy": 3.9869309696368873,
+    "sharpness": 4.038956595783738
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A map is shown with land in beige and water in blue. Mongolia is labelled in the west and Russia, China, North Korea, and South Korea are labelled in the middle and Japan is labelled in the east. The Pacific Ocean is labelled in the east and the Sea of Japan is labelled between China and Japan. Along the coast of the Sea of Japan, the city of Vladivostok is labelled in southeastern Russia. P’yongyang is labelled in North Korea and Seoul is labelled in South Korea. The city of Tokyo is labelled on Japan’s east coast. In Japan, form the north to the south, these areas are labelled: Strait of Tartary, Sakhalin, La Perouse Strait, Hokkaido, Tsugaru Strait, Honshu, Shikkoku, Kanmon Strait and Kyushu. In the Sea of Japan these labels are shown: Japan Basin, Yamato Basin, and Tsushima Basin.\nButton label: Click to enlarge image of A map is shown with land in beige and water in blue. Mongolia is labelled in the west and Russia, China, North Korea, and South Korea are labelled in the middle and Japan is labelled in the east. The Pacific Ocean is labelled in the east and the Sea of Japan is labelled between China and Japan. Along the coast of the Sea of Japan, the city of Vladivostok is labelled in southeastern Russia. P’yongyang is labelled in North Korea and Seoul is labelled in South Korea. The city of Tokyo is labelled on Japan’s east coast. In Japan, form the north to the south, these areas are labelled: Strait of Tartary, Sakhalin, La Perouse Strait, Hokkaido, Tsugaru Strait, Honshu, Shikkoku, Kanmon Strait and Kyushu. In the Sea of Japan these labels are shown: Japan Basin, Yamato Basin, and Tsushima Basin.\nEnglish caption: Figure 12.27 Japan, Korea, and China in Context. This modern map of Japan and Korea shows their proximity to each other and to China. Their closeness explains how Buddhism and other cultural elements such as writing were able to spread from China to Korea and then to Japan in the premodern period. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: vladivostok, seoul. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "AD [re i",
+        "confidence": 45,
+        "bbox": {
+          "x": 151,
+          "y": 125,
+          "w": 1204,
+          "h": 84
+        }
+      },
+      {
+        "text": "SS i",
+        "confidence": 45,
+        "bbox": {
+          "x": 151,
+          "y": 292,
+          "w": 1204,
+          "h": 84
+        }
+      },
+      {
+        "text": "NGA wn J :",
+        "confidence": 45,
+        "bbox": {
+          "x": 151,
+          "y": 459,
+          "w": 1204,
+          "h": 84
+        }
+      },
+      {
+        "text": ": ET THAI BINH",
+        "confidence": 45,
+        "bbox": {
+          "x": 151,
+          "y": 626,
+          "w": 1204,
+          "h": 84
+        }
+      },
+      {
+        "text": "«9 oo DUONG",
+        "confidence": 45,
+        "bbox": {
+          "x": 151,
+          "y": 793,
+          "w": 1204,
+          "h": 84
+        }
+      },
+      {
+        "text": "3 Eo bién Tsugaru",
+        "confidence": 45,
+        "bbox": {
+          "x": 151,
+          "y": 960,
+          "w": 1204,
+          "h": 84
+        }
+      },
+      {
+        "text": "rr TRUNG Qu oc Vladivostok a",
+        "confidence": 45,
+        "bbox": {
+          "x": 151,
+          "y": 1127,
+          "w": 1204,
+          "h": 84
+        }
+      },
+      {
+        "text": "Nhit Bin",
+        "confidence": 45,
+        "bbox": {
+          "x": 151,
+          "y": 1294,
+          "w": 1204,
+          "h": 84
+        }
+      },
+      {
+        "text": "p 2 BIEN *NHAT BAN",
+        "confidence": 45,
+        "bbox": {
+          "x": 151,
+          "y": 1461,
+          "w": 1204,
+          "h": 84
+        }
+      },
+      {
+        "text": "bo TERN Yo Sw 0",
+        "confidence": 45,
+        "bbox": {
+          "x": 151,
+          "y": 1628,
+          "w": 1204,
+          "h": 84
+        }
+      },
+      {
+        "text": "BAC dio Honshu = \"+ X",
+        "confidence": 45,
+        "bbox": {
+          "x": 151,
+          "y": 1795,
+          "w": 1204,
+          "h": 84
+        }
+      },
+      {
+        "text": "~HA Bi Es",
+        "confidence": 45,
+        "bbox": {
+          "x": 151,
+          "y": 1962,
+          "w": 1204,
+          "h": 84
+        }
+      },
+      {
+        "text": "ni] Seoul 2h ar EK",
+        "confidence": 45,
+        "bbox": {
+          "x": 151,
+          "y": 2129,
+          "w": 1204,
+          "h": 84
+        }
+      },
+      {
+        "text": "i & E ey",
+        "confidence": 45,
+        "bbox": {
+          "x": 151,
+          "y": 2296,
+          "w": 1204,
+          "h": 84
+        }
+      },
+      {
+        "text": "HAN Bali ¥) Rd ge",
+        "confidence": 45,
+        "bbox": {
+          "x": 151,
+          "y": 2463,
+          "w": 1204,
+          "h": 84
+        }
+      },
+      {
+        "text": "UOC 7\" ddoKyushu Ee",
+        "confidence": 45,
+        "bbox": {
+          "x": 151,
+          "y": 2630,
+          "w": 1204,
+          "h": 84
+        }
+      },
+      {
+        "text": "Ste aw",
+        "confidence": 45,
+        "bbox": {
+          "x": 151,
+          "y": 2797,
+          "w": 1204,
+          "h": 84
+        }
+      },
+      {
+        "text": "rd] oh",
+        "confidence": 45,
+        "bbox": {
+          "x": 151,
+          "y": 2964,
+          "w": 1204,
+          "h": 84
+        }
+      },
+      {
+        "text": "> EK 3",
+        "confidence": 45,
+        "bbox": {
+          "x": 151,
+          "y": 3131,
+          "w": 1204,
+          "h": 84
+        }
+      },
+      {
+        "text": "1 by oH :",
+        "confidence": 45,
+        "bbox": {
+          "x": 151,
+          "y": 3298,
+          "w": 1204,
+          "h": 84
+        }
+      }
+    ],
+    "validation": {
+      "ok": false,
+      "reason": "image-edit-leftover-source-english",
+      "leftoverSourceWords": [
+        "vladivostok",
+        "seoul",
+        "tsugaru",
+        "honshu"
+      ]
+    },
+    "validationAttempt": 3
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-11-3-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/11-3-political-legitimacy-and-duty.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "oN =",
+      "confidence": 33,
+      "bbox": {
+        "x": 80,
+        "y": 64,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "3 Sug” y",
+      "confidence": 33,
+      "bbox": {
+        "x": 80,
+        "y": 149,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": ". \" \\ A i [ yi >",
+      "confidence": 33,
+      "bbox": {
+        "x": 80,
+        "y": 234,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "3 > zs =",
+      "confidence": 33,
+      "bbox": {
+        "x": 80,
+        "y": 319,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "Bla eg",
+      "confidence": 33,
+      "bbox": {
+        "x": 80,
+        "y": 404,
+        "w": 640,
+        "h": 43
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.32209737827715357,
+    "averageConfidence": 33,
+    "entropy": 7.147432520985603,
+    "sharpness": 1.728457278189252
+  }
+}

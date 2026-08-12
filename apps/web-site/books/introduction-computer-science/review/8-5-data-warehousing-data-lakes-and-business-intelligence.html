@@ -1,0 +1,254 @@
+<html><head><link rel="stylesheet" href="./style.css">
+<style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style>
+<script src="book-reviewer/book-pages.js?v=toc-accordion-1"></script>
+<link rel="stylesheet" href="book-reviewer/book-reviewer.css?v=toc-accordion-1">
+<script src="book-reviewer/book-reviewer.js?v=toc-accordion-1"></script>
+</head><body><h2 data-type="document-title" id="page_e786f206-2760-47d6-85c8-185fa1efab2e_titlecreatedbycookbook" data-rex-keep="true" class="eng hidden"><span class="os-number">8.5</span>
+<span class="os-divider"> </span>
+<span data-type="" itemprop="" class="os-text">Data Warehousing, Data Lakes, and Business Intelligence</span>
+</h2><h2 data-type="document-title" id="page_e786f206-2760-47d6-85c8-185fa1efab2e_titlecreatedbycookbook-vn" data-rex-keep="true" class="vn visible"><span class="os-number">8.5</span>
+<span class="os-divider"> </span>
+<span data-type="" itemprop="" class="os-text">Kho Dữ Liệu, Hồ Dữ Liệu và Trí Tuệ Doanh Nghiệp</span></h2>
+    
+    <section data-depth="1" class="learning-objectives" id="sect-00001"><h3 data-type="title" class="eng hidden">Learning Objectives</h3><h3 data-type="title" class="vn visible">Mục tiêu học tập</h3>
+    <p id="para-00001" class="eng hidden">By the end of this section, you will be able to:</p><p id="para-00001-vn" class="vn visible">Cuối phần này, bạn sẽ có khả năng:</p>
+    <ul id="list-00001">
+    <li class="eng hidden">Outline the characteristics of data warehouses</li><li class="vn visible">Phác thảo các đặc điểm của kho dữ liệu</li>
+    <li class="eng hidden">Explain the extraction, transformation, and loading (ETL) process</li><li class="vn visible">Giải thích quy trình trích xuất, chuyển đổi và tải (ETL)</li>
+    <li class="eng hidden">Discuss data marts</li><li class="vn visible">Thảo luận về các kho dữ liệu</li>
+    <li class="eng hidden">Describe the technology behind virtual data warehouses and data marts</li><li class="vn visible">Mô tả công nghệ đứng sau kho dữ liệu ảo và các kho dữ liệu nhỏ.</li>
+    <li class="eng hidden">Summarize the nature of operational data stores</li><li class="vn visible">Tóm tắt bản chất của các kho dữ liệu hoạt động</li>
+    <li class="eng hidden">Identify data lakes and their functionality</li><li class="vn visible">Xác định hồ dữ liệu và chức năng của chúng</li>
+    <li class="eng hidden">Compare business intelligence and related tools</li><li class="vn visible">So sánh trí tuệ doanh nghiệp và các công cụ liên quan</li>
+    </ul>
+    </section>
+    
+    <p id="para-00002" class="eng hidden">With the proliferation of data, new techniques that store and handle the data are required. Data warehousing and data lakes are used for storing big data. Business intelligence analyzes gathered data in data warehouses and data lakes to improve strategic decision-making.</p><p id="para-00002-vn" class="vn visible">Với sự gia tăng của dữ liệu, các kỹ thuật mới để lưu trữ và xử lý dữ liệu là cần thiết. Kho dữ liệu và hồ dữ liệu được sử dụng để lưu trữ dữ liệu lớn. Trí tuệ doanh nghiệp phân tích dữ liệu đã được thu thập trong kho dữ liệu và hồ dữ liệu để cải thiện việc ra quyết định chiến lược.</p>
+    
+    <section data-depth="1" id="sect-00002"><h3 data-type="title" class="eng hidden">Data Warehouse Characteristics</h3><h3 data-type="title" class="vn visible">Đặc điểm của Kho Dữ Liệu</h3>
+    <p id="para-00003" class="eng hidden">In the late 1980s, the concept of data warehouse started at IBM when researchers Barry Devlin and Paul Murphy developed the first business warehouse. A <span data-type="term" id="term-00001" group-by="d">data warehouse</span> centralizes an enterprise’s data from its databases. It supports the flow of data from operational systems to analytics/decision systems by creating a single repository of data from various sources both internal and external. In most cases, a data warehouse is a relational database that stores processed data that are optimized for gathering business insights. It collects data with predetermined structures and schema coming from <span data-type="term" class="no-emphasis" id="term-00002" group-by="t">transaction</span>al systems and business applications, and the data are typically used for operational reporting and analysis. A data warehouse is a collection of data designed to support management’s decision-making process and is meant to be:</p><p id="para-00003-vn" class="vn visible">Vào cuối những năm 1980, khái niệm data warehouse bắt đầu tại IBM khi các nhà nghiên cứu Barry Devlin và Paul Murphy phát triển data warehouse đầu tiên cho doanh nghiệp. A <span data-type="term" id="term-00001" group-by="d">data warehouse</span> tập trung dữ liệu của một doanh nghiệp từ các cơ sở dữ liệu của nó. Nó hỗ trợ luồng dữ liệu từ các hệ thống vận hành đến các hệ thống phân tích/quyết định bằng cách tạo ra một kho dữ liệu duy nhất từ nhiều nguồn khác nhau, cả nội bộ và bên ngoài. Trong hầu hết các trường hợp, một data warehouse là một cơ sở dữ liệu quan hệ lưu trữ dữ liệu đã được xử lý, được tối ưu hóa để thu thập thông tin kinh doanh. Nó thu thập dữ liệu với các cấu trúc và sơ đồ đã được xác định trước đến từ <span data-type="term" class="no-emphasis" id="term-00002" group-by="t">transaction</span>Tất cả các hệ thống và ứng dụng kinh doanh, và dữ liệu thường được sử dụng cho báo cáo và phân tích hoạt động. Một data warehouse là một tập hợp dữ liệu được thiết kế để hỗ trợ quá trình ra quyết định của ban quản lý và được dự định là:</p>
+    <ul id="list-00002">
+    <li class="eng hidden">Subject-oriented: data are organized based on subjects such as products.</li><li class="vn visible">Hướng theo chủ đề: dữ liệu được tổ chức dựa trên các chủ đề như sản phẩm.</li>
+    <li class="eng hidden">Integrated: it integrates data from multiple resources and different formats.</li><li class="vn visible">Tích hợp: nó tích hợp dữ liệu từ nhiều nguồn và định dạng khác nhau.</li>
+    <li class="eng hidden">Time-variant: it stores a time series of periodic snapshots to always be up-to-date.</li><li class="vn visible">Thời gian biến đổi: nó lưu trữ một chuỗi thời gian của các bức ảnh định kỳ để luôn được cập nhật.</li>
+    <li class="eng hidden">Nonvolatile: data are read-only to complete the process of updating or removing data.</li><li class="vn visible">Không bay hơi: dữ liệu chỉ có thể được đọc để hoàn thành quá trình cập nhật hoặc xóa dữ liệu.</li>
+    </ul>
+    <p id="para-00004" class="eng hidden">Data warehouse supports the types of decision-making at the operational, tactical, and strategic levels. Operational decisions happen frequently based on day-to-day operations and are structured based on a specific predefined role (i.e., limited). Tactical-level decisions occur with greater frequency (i.e., monthly) and are semistructured based on the data requirement. The strategic level has the highest level of organizational business decisions, and their decisions are unstructured and/or infrequent.</p><p id="para-00004-vn" class="vn visible">Kho dữ liệu hỗ trợ các loại quyết định ở các cấp độ vận hành, chiến thuật và chiến lược. Các quyết định vận hành xảy ra thường xuyên dựa trên các hoạt động hàng ngày và được cấu trúc dựa trên một vai trò đã được xác định trước (tức là, hạn chế). Các quyết định ở cấp độ chiến thuật xảy ra với tần suất lớn hơn (tức là, hàng tháng) và được bán cấu trúc dựa trên yêu cầu dữ liệu. Cấp độ chiến lược có cấp độ quyết định kinh doanh tổ chức cao nhất, và các quyết định của họ là không cấu trúc và/hoặc không thường xuyên.</p>
+    <p id="para-00005" class="eng hidden">In designing a data warehouse, many schemas can be adopted such as star schema, snowflake schema, and fact constellation. A <span data-type="term" id="term-00003" group-by="s">star schema</span> is a <span data-type="term" class="no-emphasis" id="term-00004" group-by="d">data model</span> with one large fact table connected to smaller tables. The fact table contains keys referring to each dimension table as shown in <a href="8-5-data-warehousing-data-lakes-and-business-intelligence#fig-00001" class="autogenerated-content" aria-label="View Figure 8.19">Figure 8.19</a>.</p><p id="para-00005-vn" class="vn visible">Trong việc thiết kế một kho dữ liệu, nhiều sơ đồ có thể được áp dụng như sơ đồ sao, sơ đồ bông tuyết và chòm sao sự kiện. Một <span data-type="term" id="term-00003" group-by="s">sơ đồ sao</span> là một <span data-type="term" class="no-emphasis" id="term-00004" group-by="d">data model</span> với một bảng sự kiện lớn được kết nối với các bảng nhỏ hơn. Bảng sự kiện chứa các khóa tham chiếu đến mỗi bảng chiều như được thể hiện trong <a href="8-5-data-warehousing-data-lakes-and-business-intelligence#fig-00001" class="autogenerated-content" aria-label="View Figure 8.19">Hình 8.19</a>.</p>
+    <div class="os-figure" id="fig-00001"><figure data-id="fig-00001" class="scaled-down ui-has-child-figcaption">
+    <span data-type="media" data-alt="Illustration of a star schema with Fact Table (DepKey, PrKey, StudentKey), connected to Department Table (DepKey, Dname, Dcode), Program Table (PrKey, Pname, Pcode), and Student Table (StudentKey, Snumber, Sname, DoB).">
+    <button type="button" aria-label="Click to enlarge image of Illustration of a star schema with Fact Table (DepKey, PrKey, StudentKey), connected to Department Table (DepKey, Dname, Dcode), Program Table (PrKey, Pname, Pcode), and Student Table (StudentKey, Snumber, Sname, DoB)." class="image-button-wrapper"><img src="assets/img-8-5-1.webp" data-media-type="image/jpeg" alt="Illustration of a star schema with Fact Table (DepKey, PrKey, StudentKey), connected to Department Table (DepKey, Dname, Dcode), Program Table (PrKey, Pname, Pcode), and Student Table (StudentKey, Snumber, Sname, DoB)." width="814" height="586" loading="lazy"></button>
+    </span>
+    
+    <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">8.19</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">A graphic shows an example of a star schema. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>  
+<span class="os-number">8.19</span>  
+
+<span class="os-divider"> </span>  
+<span class="os-caption">Một đồ họa cho thấy một ví dụ về sơ đồ sao. (tác quyền: Bản quyền Đại học Rice, OpenStax, theo giấy phép CC BY NC-SA 4.0)</span></figcaption></figure></div>
+    <p id="para-00006" class="eng hidden">The <span data-type="term" id="term-00005" group-by="s">snowflake schema</span> is a data model that normalizes the dimension table (<a href="8-5-data-warehousing-data-lakes-and-business-intelligence#fig-00002" class="autogenerated-content" aria-label="View Figure 8.20">Figure 8.20</a>). It has one fact table, and it creates smaller tables with primary–foreign key relationships. A <span data-type="term" id="term-00006" group-by="f">fact constellation</span> has more than one fact table connected to other smaller dimension tables.</p><p id="para-00006-vn" class="vn visible">Mô hình <span data-type="term" id="term-00005" group-by="s">snowflake schema</span> là một mô hình dữ liệu chuẩn hóa bảng chiều (<a href="8-5-data-warehousing-data-lakes-and-business-intelligence#fig-00002" class="autogenerated-content" aria-label="View Figure 8.20">Hình 8.20</a>). Nó có một bảng thực tế và tạo ra các bảng nhỏ hơn với các mối quan hệ khóa chính–khóa ngoại. Một <span data-type="term" id="term-00006" group-by="f">fact constellation</span> có nhiều hơn một bảng thực tế được kết nối với các bảng chiều nhỏ hơn khác.</p>
+    <div class="os-figure" id="fig-00002"><figure data-id="fig-00002" class="ui-has-child-figcaption">
+    <span data-type="media" data-alt="Illustration of snowflake schema, connecting Sales Dimension with: Customer Dimension (Name SubDimension), Time Dimension (Month SubDimension), Product Dimension (SKU SubDimension, Category SubDimension), Company Dimension (DepartmentList SubDimension, RegionList SubDimension).">
+    <button type="button" aria-label="Click to enlarge image of Illustration of snowflake schema, connecting Sales Dimension with: Customer Dimension (Name SubDimension), Time Dimension (Month SubDimension), Product Dimension (SKU SubDimension, Category SubDimension), Company Dimension (DepartmentList SubDimension, RegionList SubDimension)." class="image-button-wrapper"><img src="assets/img-8-5-2.webp" data-media-type="image/jpeg" alt="Illustration of snowflake schema, connecting Sales Dimension with: Customer Dimension (Name SubDimension), Time Dimension (Month SubDimension), Product Dimension (SKU SubDimension, Category SubDimension), Company Dimension (DepartmentList SubDimension, RegionList SubDimension)." width="1146" height="1031" loading="lazy"></button>
+    </span>
+    
+    <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">8.20</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">This graphic is an example of a snowflake schema. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible">
+  <span class="os-title-label">Hình ảnh </span>
+<span class="os-number">8.20</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">Đồ họa này là một ví dụ về sơ đồ bông tuyết.</span>
+</figcaption></figure></div>
+    </section>
+    
+    <section data-depth="1" id="sect-00003"><h3 data-type="title" class="eng hidden">Extraction, Transformation, and Loading Process</h3><h3 data-type="title" class="vn visible">Quá trình Trích xuất, Chuyển đổi và Tải dữ liệu</h3>
+    <p id="para-00008" class="eng hidden">After designing the schema, the next process to start is <span data-type="term" id="term-00007" group-by="e">extraction, transformation, and loading (ETL)</span>, which is <span data-type="term" class="no-emphasis" id="term-00008" group-by="d">data integration</span> that combines data from multiple sources, fixes the data format, and loads the data into a data warehouse. The first step is extracting the data from the system, which can be full or incremental extraction. Extraction uses <span data-type="term" id="term-00009" group-by="c">change data capture (CDC)</span>, which is a technology that detects any data update event.</p><p id="para-00008-vn" class="vn visible">Sau khi thiết kế sơ đồ, quy trình tiếp theo để bắt đầu là <span data-type="term" id="term-00007" group-by="e">extraction, transformation, and loading (ETL)</span>, đây là <span data-type="term" class="no-emphasis" id="term-00008" group-by="d">data integration</span> kết hợp dữ liệu từ nhiều nguồn khác nhau, sửa định dạng dữ liệu và tải dữ liệu vào kho dữ liệu. Bước đầu tiên là trích xuất dữ liệu từ hệ thống, có thể là trích xuất toàn bộ hoặc trích xuất gia tăng. Việc trích xuất sử dụng <span data-type="term" id="term-00009" group-by="c">change data capture (CDC)</span>, đây là một công nghệ phát hiện bất kỳ sự kiện cập nhật dữ liệu nào.</p>
+    <p id="para-00009" class="eng hidden">The second step is transforming the data, which includes formatting the data to be consistent, cleansing the data to get rid of missing data, aggregating data by merging some <span data-type="term" class="no-emphasis" id="term-00010" group-by="a">attribute</span>s, and enriching by adding external data. The last step is loading the data in parallel as fact and dimension tables to the data warehouse as shown in <a href="8-5-data-warehousing-data-lakes-and-business-intelligence#fig-00003" class="autogenerated-content" aria-label="View Figure 8.21">Figure 8.21</a>. ETL steps will make changes to the data, which should be documented for better understanding and future maintenance. The documentation includes structural <span data-type="term" class="no-emphasis" id="term-00011" group-by="m">metadata</span> about the data structure and semantic metadata about the meaning.</p><p id="para-00009-vn" class="vn visible">Bước thứ hai là chuyển đổi dữ liệu, bao gồm định dạng dữ liệu cho nhất quán, làm sạch dữ liệu để loại bỏ dữ liệu bị thiếu, tổng hợp dữ liệu bằng cách hợp nhất một số <span data-type="term" class="no-emphasis" id="term-00010" group-by="a">attribute</span>s, và làm phong phú bằng cách thêm dữ liệu bên ngoài. Bước cuối cùng là tải dữ liệu song song dưới dạng bảng thực tế và bảng chiều vào kho dữ liệu như được thể hiện trong <a href="8-5-data-warehousing-data-lakes-and-business-intelligence#fig-00003" class="autogenerated-content" aria-label="View Figure 8.21">Figure 8.21</a>. Các bước ETL sẽ thực hiện các thay đổi đối với dữ liệu, điều này nên được tài liệu hóa để hiểu rõ hơn và bảo trì trong tương lai. Tài liệu bao gồm <span data-type="term" class="no-emphasis" id="term-00011" group-by="m">metadata</span> cấu trúc về cấu trúc dữ liệu và metadata ngữ nghĩa về ý nghĩa.</p>
+    <div class="os-figure" id="fig-00003"><figure data-id="fig-00003" class="scaled-down ui-has-child-figcaption">
+    <span data-type="media" data-alt="Illustration of RDBMS, External data, Codasyl, and Email going through ETL Process, then to Staging area, then through an ETL Process, ending at a Data Warehouse.">
+    <button type="button" aria-label="Click to enlarge image of Illustration of RDBMS, External data, Codasyl, and Email going through ETL Process, then to Staging area, then through an ETL Process, ending at a Data Warehouse." class="image-button-wrapper"><img src="assets/img-8-5-3.webp" data-media-type="image/jpeg" alt="Illustration of RDBMS, External data, Codasyl, and Email going through ETL Process, then to Staging area, then through an ETL Process, ending at a Data Warehouse." width="900" height="484" loading="lazy"></button>
+    </span>
+    
+    <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">8.21</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">The extraction, transformation, and loading (ETL) steps of data are shown as the data makes its way to the data warehouse. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>  
+<span class="os-number">8.21</span>  
+
+<span class="os-divider"> </span>  
+<span class="os-caption">Các bước trích xuất, chuyển đổi và tải (ETL) dữ liệu được hiển thị khi dữ liệu di chuyển đến kho dữ liệu. (tác quyền: Bản quyền Đại học Rice, OpenStax, theo giấy phép CC BY NC-SA 4.0)</span></figcaption></figure></div>
+    </section>
+    
+    <section data-depth="1" id="sect-00004"><h3 data-type="title" class="eng hidden">Data Marts</h3><h3 data-type="title" class="vn visible">Data Marts</h3>
+    <p id="para-00010" class="eng hidden">A <span data-type="term" id="term-00012" group-by="d">data mart</span> is a scaled-down version of a data warehouse aimed at meeting the information needs of a homogeneous small group of end users such as a department or business unit. It provides focused content and improves query performance. Dependent data marts pull their data directly from a central data warehouse. Independent data marts are stand-alone systems drawing data directly from the operational systems, external sources, or a combination of both.</p><p id="para-00010-vn" class="vn visible">Một <span data-type="term" id="term-00012" group-by="d">data mart</span> là phiên bản thu nhỏ của một kho dữ liệu nhằm đáp ứng nhu cầu thông tin của một nhóm người dùng cuối đồng nhất nhỏ như một phòng ban hoặc đơn vị kinh doanh. Nó cung cấp nội dung tập trung và cải thiện hiệu suất truy vấn. Các data mart phụ thuộc lấy dữ liệu trực tiếp từ một kho dữ liệu trung tâm. Các data mart độc lập là các hệ thống độc lập lấy dữ liệu trực tiếp từ các hệ thống vận hành, các nguồn bên ngoài, hoặc sự kết hợp của cả hai.</p>
+    <div data-type="note" class="global-tech ui-has-child-title" id="note-00002"><header><h3 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label">Global Issues in Technology</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Các Vấn Đề Toàn Cầu Trong Công Nghệ</span></h3></header><section>
+<div class="os-note-body"><h4 data-type="title" class="os-subtitle eng hidden">
+  <span class="os-subtitle-label">Storing Data</span>
+</h4><h4 data-type="title" class="os-subtitle vn visible"><span class="os-subtitle-label">Lưu trữ Dữ liệu</span></h4>
+    <p id="para-00011" class="eng hidden">For the past decade, the trend has been to store data in any shape or form without knowing whether it will be used in the future. This has been facilitated by the advent of cloud technology that has allowed people to store unlimited amounts of data at low cost into data lakes. The amount of data stored will keep increasing over the next few decades as daily usage of computer processes keeps increasing.</p><p id="para-00011-vn" class="vn visible">Trong suốt thập kỷ qua, xu hướng là lưu trữ dữ liệu dưới bất kỳ hình thức nào mà không biết liệu nó có được sử dụng trong tương lai hay không. Điều này đã được tạo điều kiện bởi sự ra đời của công nghệ đám mây, cho phép mọi người lưu trữ một lượng dữ liệu không giới hạn với chi phí thấp vào các hồ dữ liệu. Lượng dữ liệu được lưu trữ sẽ tiếp tục tăng lên trong vài thập kỷ tới khi việc sử dụng các quy trình máy tính hàng ngày ngày càng tăng.</p>
+    <p id="para-00012" class="eng hidden">What are some of the global issues you foresee with today’s ability to store an unlimited amount of data that may be analyzed at a later time?</p><p id="para-00012-vn" class="vn visible">Bạn thấy những vấn đề toàn cầu nào có thể xảy ra với khả năng lưu trữ một lượng dữ liệu không giới hạn ngày nay mà có thể được phân tích vào một thời điểm sau đó?</p>
+    </div></section></div>
+    </section>
+    
+    <section data-depth="1" id="sect-00005"><h3 data-type="title" class="eng hidden">Virtual Data Warehouses and Virtual Data Marts</h3><h3 data-type="title" class="vn visible">Kho Dữ Liệu Ảo và Chợ Dữ Liệu Ảo</h3>
+    <p id="para-00013" class="eng hidden">A virtual data mart has no physical data but provides a single point of access to a set of underlying physical data stores; data are only accessed (“pulled”) at query time. A <span data-type="term" id="term-00014" group-by="v">virtual data warehouse</span> can be built as a set of SQL views directly on the underlying operational data sources as an extra layer on top of a collection of physical independent data marts. The metadata model contains the schema mappings between the schemas of the underlying data stores and the schema of the virtual data warehouse (involves query reformulation). A <span data-type="term" id="term-00015" group-by="v">virtual data mart</span> is usually defined as a single SQL view. There can be virtual-independent versus virtual-dependent data marts. Disadvantages are the extra processing capacity from the underlying (operational) data sources and the fact that it is not possible to keep track of historical data.</p><p id="para-00013-vn" class="vn visible">Một kho dữ liệu ảo không có dữ liệu vật lý nhưng cung cấp một điểm truy cập duy nhất vào một tập hợp các kho dữ liệu vật lý cơ sở; dữ liệu chỉ được truy cập (“kéo”) vào thời điểm truy vấn. Một <span data-type="term" id="term-00014" group-by="v">kho dữ liệu ảo</span> có thể được xây dựng như một tập hợp các chế độ xem SQL trực tiếp trên các nguồn dữ liệu hoạt động cơ sở như một lớp bổ sung trên một tập hợp các kho dữ liệu độc lập vật lý. Mô hình siêu dữ liệu chứa các ánh xạ lược đồ giữa các lược đồ của các kho dữ liệu cơ sở và lược đồ của kho dữ liệu ảo (bao gồm việc tái cấu trúc truy vấn). Một <span data-type="term" id="term-00015" group-by="v">kho dữ liệu ảo</span> thường được định nghĩa là một chế độ xem SQL duy nhất. Có thể có các kho dữ liệu ảo độc lập so với các kho dữ liệu ảo phụ thuộc. Nhược điểm là khả năng xử lý bổ sung từ các nguồn dữ liệu cơ sở (hoạt động) và thực tế là không thể theo dõi dữ liệu lịch sử.</p>
+    </section>
+    
+    <section data-depth="1" id="sect-00006"><h3 data-type="title" class="eng hidden">Operational Data Stores</h3><h3 data-type="title" class="vn visible">Cửa hàng dữ liệu vận hành</h3>
+    <p id="para-00014" class="eng hidden">An <span data-type="term" id="term-00016" group-by="o">operational data store (ODS)</span> is a staging area that provides query facilities. It is good for analysis tools that need data that are closer to real time. More complex analyses are still conducted on the actual data warehouse.</p><p id="para-00014-vn" class="vn visible">Một <span data-type="term" id="term-00016" group-by="o">kho dữ liệu hoạt động (ODS)</span> là một khu vực tạm thời cung cấp các tiện ích truy vấn. Nó rất tốt cho các công cụ phân tích cần dữ liệu gần với thời gian thực. Các phân tích phức tạp hơn vẫn được thực hiện trên kho dữ liệu thực tế.</p>
+    </section>
+    
+    <section data-depth="1" id="sect-00007"><h3 data-type="title" class="eng hidden">Data Lakes</h3><h3 data-type="title" class="vn visible">Hồ dữ liệu</h3>
+    <p id="para-00015" class="eng hidden">A <span data-type="term" id="term-00017" group-by="d">data lake</span> stores all of an enterprise’s structured and <span data-type="term" class="no-emphasis" id="term-00018" group-by="u">unstructured data</span> at any scale. Data lakes are large data repositories that store raw data and can be set up without having to first define the data structure and schema. They allow users to run analytics without having to move the data to a separate analytics system, enabling businesses to gain insights from new sources of data not available for analysis before. For example, by building machine learning models using data from log files (e.g., log files generated by an application that writes to operating system event), click-streams (e.g., information about visited pages on the Web), social media (e.g., LinkedIn), and IoT devices (e.g., smartwatch). By making all of the enterprise data readily available for analysis, computer/<span data-type="term" class="no-emphasis" id="term-00019" group-by="d">data scientist</span>s can answer a new set of business questions or tackle old questions with new data. <a href="8-5-data-warehousing-data-lakes-and-business-intelligence#fig-00004" class="autogenerated-content" aria-label="View Figure 8.22">Figure 8.22</a> shows an example of a data lake process.</p><p id="para-00015-vn" class="vn visible">Một <span data-type="term" id="term-00017" group-by="d">data lake</span> lưu trữ tất cả dữ liệu có cấu trúc và <span data-type="term" class="no-emphasis" id="term-00018" group-by="u">unstructured data</span> của một doanh nghiệp ở bất kỳ quy mô nào. Data lake là các kho dữ liệu lớn lưu trữ dữ liệu thô và có thể được thiết lập mà không cần phải định nghĩa trước cấu trúc và sơ đồ dữ liệu. Chúng cho phép người dùng thực hiện phân tích mà không cần phải di chuyển dữ liệu đến một hệ thống phân tích riêng biệt, giúp doanh nghiệp có được những hiểu biết từ các nguồn dữ liệu mới mà trước đây không có sẵn để phân tích. Ví dụ, bằng cách xây dựng các mô hình học máy sử dụng dữ liệu từ các tệp nhật ký (ví dụ: tệp nhật ký được tạo bởi một ứng dụng ghi vào sự kiện của hệ điều hành), luồng nhấp chuột (ví dụ: thông tin về các trang đã truy cập trên Web), mạng xã hội (ví dụ: LinkedIn) và các thiết bị IoT (ví dụ: đồng hồ thông minh). Bằng cách làm cho tất cả dữ liệu của doanh nghiệp sẵn có để phân tích, các <span data-type="term" class="no-emphasis" id="term-00019" group-by="d">data scientist</span> có thể trả lời một tập hợp các câu hỏi kinh doanh mới hoặc giải quyết các câu hỏi cũ với dữ liệu mới. <a href="8-5-data-warehousing-data-lakes-and-business-intelligence#fig-00004" class="autogenerated-content" aria-label="View Figure 8.22">Hình 8.22</a> cho thấy một ví dụ về quy trình data lake.</p>
+    <div class="os-figure" id="fig-00004"><figure data-id="fig-00004" class="scaled-down ui-has-child-figcaption">
+    <span data-type="media" data-alt="Illustration of Type of Data, Structured, and Semi- and unstructured loading to a Raw data lake where data is cleaned, standardized, and aggregated to a refined data lake.">
+    <button type="button" aria-label="Click to enlarge image of Illustration of Type of Data, Structured, and Semi- and unstructured loading to a Raw data lake where data is cleaned, standardized, and aggregated to a refined data lake." class="image-button-wrapper"><img src="assets/img-8-5-4.webp" data-media-type="image/jpeg" alt="Illustration of Type of Data, Structured, and Semi- and unstructured loading to a Raw data lake where data is cleaned, standardized, and aggregated to a refined data lake." width="936" height="638" loading="lazy"></button>
+    </span>
+    
+    <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">8.22</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">A data lake stores structured, semistructured, and unstructured data. The store process stores the data as raw data lake then applies many processes such as cleansing and aggregation to load the data as a refined data lake. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>  
+<span class="os-number">8.22</span>  
+
+<span class="os-divider"> </span>  
+<span class="os-caption">Một hồ dữ liệu lưu trữ dữ liệu có cấu trúc, dữ liệu bán cấu trúc và dữ liệu không có cấu trúc. Quy trình lưu trữ lưu trữ dữ liệu dưới dạng hồ dữ liệu thô, sau đó áp dụng nhiều quy trình như làm sạch và tổng hợp để tải dữ liệu dưới dạng hồ dữ liệu tinh chế. (tín dụng: Bản quyền Đại học Rice, OpenStax, theo giấy phép CC BY NC-SA 4.0)</span></figcaption></figure></div>
+    <section data-depth="2" id="sect-00008"><h4 data-type="title" class="eng hidden">Data Warehouses vs. Data Lakes</h4><h4 data-type="title" class="vn visible">Kho Dữ Liệu So Với Hồ Dữ Liệu</h4>
+    <p id="para-00016" class="eng hidden">A data lake is an architectural approach specifically designed to handle data of every variety, ingestion velocity, and storage volume. A data lake allows the storage of massive amounts of data into a central location so it's readily available to be categorized, processed, analyzed, and consumed by diverse groups within an organization. Because data can be stored as-is, there is no need to convert it to a predefined schema as typically required in traditional RDBMS-driven architectures. Consumer usage patterns and the sourcing of the data itself directly influence how data are collected, stored, processed, moved, transformed, automated, and visualized. Data are the ultimate asset with boundless usage patterns now being generated and consumed by humans, machines, devices, sensors, and applications. There are some differences between data warehouse and data lakes listed in <a href="8-5-data-warehousing-data-lakes-and-business-intelligence#table-00001" class="autogenerated-content" aria-label="View Table 8.11">Table 8.11</a>.</p><p id="para-00016-vn" class="vn visible">Một hồ dữ liệu là một phương pháp kiến trúc được thiết kế đặc biệt để xử lý dữ liệu của mọi loại, tốc độ thu thập và khối lượng lưu trữ. Một hồ dữ liệu cho phép lưu trữ một lượng lớn dữ liệu vào một vị trí trung tâm để nó có sẵn để được phân loại, xử lý, phân tích và tiêu thụ bởi các nhóm đa dạng trong một tổ chức. Bởi vì dữ liệu có thể được lưu trữ như hiện tại, không cần phải chuyển đổi nó sang một sơ đồ đã được định nghĩa trước như thường thấy trong các kiến trúc dựa trên RDBMS truyền thống. Các mẫu sử dụng của người tiêu dùng và nguồn gốc của chính dữ liệu ảnh hưởng trực tiếp đến cách dữ liệu được thu thập, lưu trữ, xử lý, di chuyển, chuyển đổi, tự động hóa và trực quan hóa. Dữ liệu là tài sản cuối cùng với các mẫu sử dụng vô hạn hiện đang được tạo ra và tiêu thụ bởi con người, máy móc, thiết bị, cảm biến và ứng dụng. Có một số khác biệt giữa kho dữ liệu và hồ dữ liệu được liệt kê trong <a href="8-5-data-warehousing-data-lakes-and-business-intelligence#table-00001" class="autogenerated-content" aria-label="View Table 8.11">Bảng 8.11</a>.</p>
+    <div class="os-table" id="table-00001"><table data-id="table-00001" data-summary=" "><thead>
+    <tr valign="top" class="header-row">
+    <th data-valign="top" data-align="center" scope="col" class="eng hidden">Characteristic</th><th data-valign="top" data-align="center" scope="col" class="vn visible">Đặc điểm</th>
+    <th data-valign="top" data-align="center" scope="col" class="eng hidden">Data Warehouse</th><th data-valign="top" data-align="center" scope="col" class="vn visible">Kho Dữ Liệu</th>
+    <th data-valign="top" data-align="center" scope="col" class="eng hidden">Data Lake</th><th data-valign="top" data-align="center" scope="col" class="vn visible">Hồ dữ liệu</th>
+    </tr>
+    </thead><tbody>
+    <tr valign="top">
+    <td data-valign="top" data-align="left" class="eng hidden">Data</td><td data-valign="top" data-align="left" class="vn visible">Dữ liệu</td>
+    <td data-valign="top" data-align="left" class="eng hidden">Relational</td><td data-valign="top" data-align="left" class="vn visible">Quan hệ</td>
+    <td data-valign="top" data-align="left" class="eng hidden">Nonrelational and relational</td><td data-valign="top" data-align="left" class="vn visible">Không quan hệ và quan hệ</td>
+    </tr>
+    <tr valign="top">
+    <td data-valign="top" data-align="left" class="eng hidden">Schema</td><td data-valign="top" data-align="left" class="vn visible">Sơ đồ</td>
+    <td data-valign="top" data-align="left" class="eng hidden">Schema-on-write<span data-type="newline"><br></span>
+    Designed before the implementation</td><td data-valign="top" data-align="left" class="vn visible">Schema-on-write<span data-type="newline"><br></span> Được thiết kế trước khi triển khai</td>
+    <td data-valign="top" data-align="left" class="eng hidden">Schema-on-write<span data-type="newline"><br></span>
+    Written at the time of analysis</td><td data-valign="top" data-align="left" class="vn visible">Schema-on-write<span data-type="newline"><br></span> Được viết vào thời điểm phân tích</td>
+    </tr>
+    <tr valign="top">
+    <td data-valign="top" data-align="left" class="eng hidden">Storage</td><td data-valign="top" data-align="left" class="vn visible">Lưu trữ</td>
+    <td data-valign="top" data-align="left" class="eng hidden">Expensive</td><td data-valign="top" data-align="left" class="vn visible">Đắt đỏ</td>
+    <td data-valign="top" data-align="left" class="eng hidden">Low cost</td><td data-valign="top" data-align="left" class="vn visible">Chi phí thấp</td>
+    </tr>
+    <tr valign="top">
+    <td data-valign="top" data-align="left" class="eng hidden">Performance</td><td data-valign="top" data-align="left" class="vn visible">Hiệu suất</td>
+    <td data-valign="top" data-align="left" class="eng hidden">Fastest query results</td><td data-valign="top" data-align="left" class="vn visible">Kết quả truy vấn nhanh nhất</td>
+    <td data-valign="top" data-align="left" class="eng hidden">Query results getting faster</td><td data-valign="top" data-align="left" class="vn visible">Kết quả truy vấn ngày càng nhanh hơn</td>
+    </tr>
+    <tr valign="top">
+    <td data-valign="top" data-align="left" class="eng hidden">Users</td><td data-valign="top" data-align="left" class="vn visible">Người dùng</td>
+    <td data-valign="top" data-align="left" class="eng hidden">Decision-makers</td><td data-valign="top" data-align="left" class="vn visible">Người ra quyết định</td>
+    <td data-valign="top" data-align="left" class="eng hidden">Data scientist</td><td data-valign="top" data-align="left" class="vn visible">Nhà khoa học dữ liệu</td>
+    </tr>
+    <tr valign="top">
+    <td data-valign="top" data-align="left" class="eng hidden">Analysis</td><td data-valign="top" data-align="left" class="vn visible">Phân tích</td>
+    <td data-valign="top" data-align="left" class="eng hidden">Batch reporting, business intelligence, and visualization</td><td data-valign="top" data-align="left" class="vn visible">Báo cáo theo lô, trí tuệ doanh nghiệp và trực quan hóa</td>
+    <td data-valign="top" data-align="left" class="eng hidden">Machine learning, predictive analysis</td><td data-valign="top" data-align="left" class="vn visible">Học máy, phân tích dự đoán</td>
+    </tr>
+    </tbody></table><div class="os-caption-container">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">8.11</span>
+  <span class="os-divider"> </span>
+<span class="os-title" data-type="title">Difference between a Data Warehouse and a Data Lake</span>
+
+  <span class="os-divider"> </span>
+</div>
+</div>
+    </section>
+    <section data-depth="2" id="sect-00009"><h4 data-type="title" class="eng hidden">Data Lake Development</h4><h4 data-type="title" class="vn visible">Phát triển Hồ Dữ Liệu</h4>
+    <p id="para-00017" class="eng hidden">A traditional approach to information management is no longer suitable due to cost and the inability to adapt. Seventy percent of development costs from ETL include an effort to consolidate, prepare, standardize, and transform data for downstream analytics. Costs involve initial capital investment for <span data-type="term" class="no-emphasis" id="term-00020" group-by="h">hardware</span>, software licensing for databases, data integration, and analytics platforms. There is a need to react to emerging changes in the proliferation of data, new and emerging technologies, and cloud-based integrated service platforms. Traditional data storage and analytic tools can no longer provide the agility and flexibility required to deliver relevant business insights and competitive advantage. <a href="8-5-data-warehousing-data-lakes-and-business-intelligence#fig-00005" class="autogenerated-content" aria-label="View Figure 8.23">Figure 8.23</a> shows the timeline of a data lake.</p><p id="para-00017-vn" class="vn visible">Một phương pháp truyền thống để quản lý thông tin không còn phù hợp do chi phí và khả năng thích ứng. Bảy mươi phần trăm chi phí phát triển từ ETL bao gồm nỗ lực để hợp nhất, chuẩn bị, tiêu chuẩn hóa và chuyển đổi dữ liệu cho phân tích hạ nguồn. Chi phí bao gồm đầu tư vốn ban đầu cho <span data-type="term" class="no-emphasis" id="term-00020" group-by="h">hardware</span>, giấy phép phần mềm cho cơ sở dữ liệu, tích hợp dữ liệu và các nền tảng phân tích. Có nhu cầu phản ứng với những thay đổi mới nổi trong sự gia tăng dữ liệu, công nghệ mới và đang nổi lên, và các nền tảng dịch vụ tích hợp dựa trên đám mây. Các công cụ lưu trữ dữ liệu và phân tích truyền thống không còn cung cấp sự linh hoạt và nhanh nhẹn cần thiết để cung cấp những hiểu biết kinh doanh liên quan và lợi thế cạnh tranh. <a href="8-5-data-warehousing-data-lakes-and-business-intelligence#fig-00005" class="autogenerated-content" aria-label="View Figure 8.23">Hình 8.23</a> cho thấy dòng thời gian của một hồ dữ liệu.</p>
+    <div class="os-figure" id="fig-00005"><figure data-id="fig-00005" class="ui-has-child-figcaption">
+    <span data-type="media" data-alt="Timeline: 1990s Enterprise data warehouse (EDW); Hadoop data lake mid-2000s; late 2000s 10% data in cloud EDW; 75% data in cloud EDW, data lake, data mesh today.">
+    <button type="button" aria-label="Click to enlarge image of Timeline: 1990s Enterprise data warehouse (EDW); Hadoop data lake mid-2000s; late 2000s 10% data in cloud EDW; 75% data in cloud EDW, data lake, data mesh today." class="image-button-wrapper"><img src="assets/img-8-5-5.webp" data-media-type="image/jpeg" alt="Timeline: 1990s Enterprise data warehouse (EDW); Hadoop data lake mid-2000s; late 2000s 10% data in cloud EDW; 75% data in cloud EDW, data lake, data mesh today." width="1240" height="230" loading="lazy"></button>
+    </span>
+    
+    <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">8.23</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">An illustration of a data lake shows its evolution from an on-premises tool to a cloud version to a hybrid model. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>  
+<span class="os-number">8.23</span>  
+
+<span class="os-divider"> </span>  
+<span class="os-caption">Một minh họa về hồ dữ liệu cho thấy sự phát triển của nó từ một công cụ tại chỗ sang phiên bản đám mây và sau đó là mô hình lai. (tín dụng: Bản quyền Đại học Rice, OpenStax, theo giấy phép CC BY NC-SA 4.0)</span></figcaption></figure></div>
+    </section>
+    <section data-depth="2" id="sect-00010"><h4 data-type="title" class="eng hidden">From Data Lakes to Data Swamps</h4><h4 data-type="title" class="vn visible">Từ Hồ Dữ Liệu đến Đầm Lầy Dữ Liệu</h4>
+    <p id="para-00018" class="eng hidden">A common challenge with the data lake architecture is that without the appropriate data quality and governance framework in place, when terabytes of structured and unstructured data flow into the data lakes, it often becomes extremely difficult to sort through their content. Data lakes can turn into data swamps as the stored data become too messy to be usable. A <span data-type="term" id="term-00021" group-by="d">data swamp</span> is data stored without organization to make retrieval easy. Many organizations are now calling for more data governance and metadata management practices to prevent data swamps from forming.</p><p id="para-00018-vn" class="vn visible">Một thách thức phổ biến với kiến trúc hồ dữ liệu là nếu không có khung quản lý chất lượng dữ liệu và quản trị thích hợp, khi hàng terabyte dữ liệu có cấu trúc và không có cấu trúc chảy vào các hồ dữ liệu, thường rất khó để phân loại nội dung của chúng. Các hồ dữ liệu có thể biến thành <span data-type="term" id="term-00021" group-by="d">đầm dữ liệu</span> khi dữ liệu được lưu trữ trở nên quá lộn xộn để có thể sử dụng. Nhiều tổ chức hiện nay đang kêu gọi nhiều hơn về quản trị dữ liệu và thực hành quản lý siêu dữ liệu để ngăn chặn sự hình thành của các đầm dữ liệu.</p>
+    <div data-type="note" class="link-to-learning ui-has-child-title" id="note-00003"><header><h3 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label">Link to Learning</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Liên kết đến Học tập</span></h3></header><section>
+<div class="os-note-body">
+    <p id="para-00019" class="eng hidden">Data lakes are used to collect very large amounts of both relational and nonrelational data, such as a streaming service collecting data on users’ watching habits, while data warehousing collects relational data, such as when a retailer collects data to use to analyze shoppers’ habits and to control inventory.</p><p id="para-00019-vn" class="vn visible">Các hồ dữ liệu được sử dụng để thu thập một lượng rất lớn cả dữ liệu quan hệ và phi quan hệ, chẳng hạn như một dịch vụ phát trực tuyến thu thập dữ liệu về thói quen xem của người dùng, trong khi kho dữ liệu thu thập dữ liệu quan hệ, chẳng hạn như khi một nhà bán lẻ thu thập dữ liệu để phân tích thói quen mua sắm của khách hàng và kiểm soát hàng tồn kho.</p>
+    <p id="para-00020" class="eng hidden">Where does business intelligence fit into this data system? Business intelligence analyzes this data to help in making decisions. They use data for marketing and targeted sales in particular.</p><p id="para-00020-vn" class="vn visible">Trí tuệ doanh nghiệp phù hợp ở đâu trong hệ thống dữ liệu này? Trí tuệ doanh nghiệp phân tích dữ liệu này để hỗ trợ trong việc ra quyết định. Họ sử dụng dữ liệu cho tiếp thị và bán hàng mục tiêu đặc biệt.</p>
+    <p id="para-00021" class="eng hidden">It can be confusing to understand the ins and outs of each process and how they relate to each other. A blog post about <a href="https://openstax.org/r/76DataSystems" target="_blank" rel="noopener nofollow" aria-label="Go to the difference between data lakes, data warehouses, and databases">the difference between data lakes, data warehouses, and databases</a> does a great job of distinguishing each and how each contributes to the use of understanding data.</p><p id="para-00021-vn" class="vn visible">Thật khó hiểu để nắm bắt những điều phức tạp của từng quy trình và cách chúng liên quan đến nhau. Một bài viết trên blog về <a href="https://openstax.org/r/76DataSystems" target="_blank" rel="noopener nofollow" aria-label="Go to the difference between data lakes, data warehouses, and databases">sự khác biệt giữa hồ dữ liệu, kho dữ liệu và cơ sở dữ liệu</a> làm rất tốt việc phân biệt từng loại và cách mỗi loại góp phần vào việc hiểu dữ liệu.</p>
+    </div></section></div>
+    </section>
+    </section>
+    
+    <section data-depth="1" id="sect-00011"><h3 data-type="title" class="eng hidden">Business Intelligence</h3><h3 data-type="title" class="vn visible">Trí tuệ doanh nghiệp</h3>
+    <p id="para-00022" class="eng hidden">The main goal of the data warehouse is to support decision-making. In order to do that, we need intelligent tools. The set of activities, techniques, and tools aimed at understanding patterns in past data to predict the future is called <span data-type="term" id="term-00022" group-by="b">business intelligence (BI)</span>. Modern BI is facilitated through <a href="https://openstax.org/r/76Tableau" target="_blank" rel="noopener nofollow" aria-label="Go to Tableau">Tableau</a>, <a href="https://openstax.org/r/76ClickView" target="_blank" rel="noopener nofollow" aria-label="Go to ClickView">ClickView</a>, and Microsoft Power BI. The quality of data controls the quality of results, which means that bad data gives bad insights (remember GIGO). BI techniques include query and reporting, which provide a graphical user interface (GUI) in which the user can graphically design a report and pivot table, which is a data summarization tool. In addition, one of the BI tools is <span data-type="term" class="no-emphasis" id="term-00023" group-by="o">online analytical processing (OLAP)</span>. OLAP is a computer-based approach to analyzing data that enables users to extract and view data from multiple dimensions. It is used to analyze large volumes of data and is commonly used in BI applications. OLAP allows users to perform complex analysis of data by providing a multidimensional view of the data. It can aggregate data across multiple dimensions, such as time, location, product, and customer, enabling users to see trends and relationships that might be hidden in a traditional two-dimensional view of the data.</p><p id="para-00022-vn" class="vn visible">Mục tiêu chính của kho dữ liệu là hỗ trợ việc ra quyết định. Để làm được điều đó, chúng ta cần các công cụ thông minh. Tập hợp các hoạt động, kỹ thuật và công cụ nhằm hiểu các mẫu trong dữ liệu quá khứ để dự đoán tương lai được gọi là <span data-type="term" id="term-00022" group-by="b">business intelligence (BI)</span>. BI hiện đại được hỗ trợ thông qua <a href="https://openstax.org/r/76Tableau" target="_blank" rel="noopener nofollow" aria-label="Go to Tableau">Tableau</a>, <a href="https://openstax.org/r/76ClickView" target="_blank" rel="noopener nofollow" aria-label="Go to ClickView">ClickView</a>, và Microsoft Power BI. Chất lượng dữ liệu kiểm soát chất lượng kết quả, có nghĩa là dữ liệu kém sẽ cho ra những thông tin sai lệch (hãy nhớ GIGO). Các kỹ thuật BI bao gồm truy vấn và báo cáo, cung cấp một giao diện người dùng đồ họa (GUI) mà trong đó người dùng có thể thiết kế đồ họa một báo cáo và bảng xoay, là một công cụ tóm tắt dữ liệu. Ngoài ra, một trong những công cụ BI là <span data-type="term" class="no-emphasis" id="term-00023" group-by="o">online analytical processing (OLAP)</span>. OLAP là một phương pháp dựa trên máy tính để phân tích dữ liệu cho phép người dùng trích xuất và xem dữ liệu từ nhiều chiều khác nhau. Nó được sử dụng để phân tích khối lượng lớn dữ liệu và thường được sử dụng trong các ứng dụng BI. OLAP cho phép người dùng thực hiện phân tích phức tạp của dữ liệu bằng cách cung cấp một cái nhìn đa chiều về dữ liệu. Nó có thể tổng hợp dữ liệu qua nhiều chiều khác nhau, chẳng hạn như thời gian, địa điểm, sản phẩm và khách hàng, cho phép người dùng thấy được các xu hướng và mối quan hệ có thể bị ẩn trong cái nhìn hai chiều truyền thống của dữ liệu.</p>
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </body></html>

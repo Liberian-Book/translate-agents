@@ -1,0 +1,54 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-2-6-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/2-6-a-theory-of-justice.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "diagram",
+    "eligible": true,
+    "reason": "vector-like-clustered-labels"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-2-6-1.vi.png",
+  "ocr": [
+    {
+      "text": "IL",
+      "confidence": 26,
+      "bbox": {
+        "x": 79,
+        "y": 88,
+        "w": 631,
+        "h": 59
+      }
+    },
+    {
+      "text": "ts 4)",
+      "confidence": 26,
+      "bbox": {
+        "x": 79,
+        "y": 205,
+        "w": 631,
+        "h": 59
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: An illustration depicts a basic figure of a person, all in gray. The figure is labeled original position. To the right of the figure is a wall labeled veil of ignorance. On the other side of the wall, to the right, are eight figures with more details than the first. One figure has medium to light skin tone and a dress. One has medium to dark skin tone and a cane. One has light skin tone. One has light skin tone and a service dog. One has medium to dark skin tone. One has medium to light skin tone and a dress with a dollar sign on it. One has dark skin tone and a dress. One has dark skin tone and is in a wheelchair.\nButton label: Click to enlarge image of An illustration depicts a basic figure of a person, all in gray. The figure is labeled original position. To the right of the figure is a wall labeled veil of ignorance. On the other side of the wall, to the right, are eight figures with more details than the first. One figure has medium to light skin tone and a dress. One has medium to dark skin tone and a cane. One has light skin tone. One has light skin tone and a service dog. One has medium to dark skin tone. One has medium to light skin tone and a dress with a dollar sign on it. One has dark skin tone and a dress. One has dark skin tone and is in a wheelchair.\nEnglish caption: Figure 2.10 The “veil of ignorance” in Rawls’s “original position.” Those in the original position have no idea who they will be once the veil (wall) has been lifted. Rawls thought such ignorance would motivate people in the community to choose fairly. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.12874500507489578,
+    "averageConfidence": 26,
+    "entropy": 2.2884301270714786,
+    "sharpness": 3.042964433087454
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

@@ -1,0 +1,430 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-10-1-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/10-1-the-eastward-shift.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-10-1-3.vi.png",
+  "ocr": [
+    {
+      "text": "gga hs 0 .",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 96,
+        "w": 1041,
+        "h": 64
+      }
+    },
+    {
+      "text": "2 a 7 E Ne vl rs",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 224,
+        "w": 1041,
+        "h": 64
+      }
+    },
+    {
+      "text": "SN ~ Hig ob a |",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 352,
+        "w": 1041,
+        "h": 64
+      }
+    },
+    {
+      "text": "DF SEE. ET SE.",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 480,
+        "w": 1041,
+        "h": 64
+      }
+    },
+    {
+      "text": "4 RENE 5 = aA",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 608,
+        "w": 1041,
+        "h": 64
+      }
+    },
+    {
+      "text": "Western OPE et on.",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 736,
+        "w": 1041,
+        "h": 64
+      }
+    },
+    {
+      "text": "Roman © J co",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 864,
+        "w": 1041,
+        "h": 64
+      }
+    },
+    {
+      "text": ". y Es is a Foe RE Cm Are",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 992,
+        "w": 1041,
+        "h": 64
+      }
+    },
+    {
+      "text": "s \\ NA ] Le We",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 1120,
+        "w": 1041,
+        "h": 64
+      }
+    },
+    {
+      "text": "e O° - y Bladi 4 na",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 1248,
+        "w": 1041,
+        "h": 64
+      }
+    },
+    {
+      "text": "le, = - — —",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 1376,
+        "w": 1041,
+        "h": 64
+      }
+    },
+    {
+      "text": "a TES Eg",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 1504,
+        "w": 1041,
+        "h": 64
+      }
+    },
+    {
+      "text": "fins} Fis 5 = Paina",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 1632,
+        "w": 1041,
+        "h": 64
+      }
+    },
+    {
+      "text": "4 Cr, Yam Ye",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 1760,
+        "w": 1041,
+        "h": 64
+      }
+    },
+    {
+      "text": "Tag, \" L 3",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 1888,
+        "w": 1041,
+        "h": 64
+      }
+    },
+    {
+      "text": "ASIA",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 2016,
+        "w": 1041,
+        "h": 64
+      }
+    },
+    {
+      "text": "£ ARABIAN pe",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 2144,
+        "w": 1041,
+        "h": 64
+      }
+    },
+    {
+      "text": "\\ PENINSULA Eo N",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 2272,
+        "w": 1041,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A map is shown with an inset on the right. The map on the left has Europe labeled at the top and Africa and Asia labeled along the bottom with the Mediterranean Sea in the middle. A sliver of north Africa along the Mediterranean Sea is highlighted pink along with Portugal, Spain, France, Belgium, small western and southern parts of Germany, Switzerland, Italy, Montenegro, Bosnia, Croatia, Slovenia, Austria, a small southern slice of the Czech Republic, a western area in Slovakia, the western portion of Hungary, a small northern portion of Serbia, and the western portion of Montenegro. This is labeled “Western Roman Empire.” A northeastern sliver of Africa along the Mediterranean is highlighted green along with a small northern portion of Jordan, Israel, Lebanon, most of Syria, the western three fourths of Turkey, Bulgaria, Greece, Kosovo, most of Serbia, small slices of southeastern and southwestern Romania, Albania, a small southeastern portion of Bosnia and Macedonia. This is labeled “Eastern Roman Empire. The city of Constantinople is labeled. The city is then shown in an inset to the right. This inset is gray in color and shows the city along the Black Sea with various black squares along the waterways. The inset is labeled “Constantinople.”\nButton label: Click to enlarge image of A map is shown with an inset on the right. The map on the left has Europe labeled at the top and Africa and Asia labeled along the bottom with the Mediterranean Sea in the middle. A sliver of north Africa along the Mediterranean Sea is highlighted pink along with Portugal, Spain, France, Belgium, small western and southern parts of Germany, Switzerland, Italy, Montenegro, Bosnia, Croatia, Slovenia, Austria, a small southern slice of the Czech Republic, a western area in Slovakia, the western portion of Hungary, a small northern portion of Serbia, and the western portion of Montenegro. This is labeled “Western Roman Empire.” A northeastern sliver of Africa along the Mediterranean is highlighted green along with a small northern portion of Jordan, Israel, Lebanon, most of Syria, the western three fourths of Turkey, Bulgaria, Greece, Kosovo, most of Serbia, small slices of southeastern and southwestern Romania, Albania, a small southeastern portion of Bosnia and Macedonia. This is labeled “Eastern Roman Empire. The city of Constantinople is labeled. The city is then shown in an inset to the right. This inset is gray in color and shows the city along the Black Sea with various black squares along the waterways. The inset is labeled “Constantinople.”\nEnglish caption: Figure 10.6 The Roman Empire Moves East. Constantinople’s location shifted the empire’s geographic focus eastward. The city was near the sites of frequent Roman military campaigns in the lower Danube and significantly closer than Rome to the frontiers along the Euphrates (in modern Iraq). It was also a hub of trade and travel because it was connected to western Europe, the Near East, and the Balkans. (credit: modification of work “Political Europe” by CIA/The World Factbook, Public Domain; credit inset: modification of work “Constantinople. Stambool” by Maps of the Society for the Diffusion of Useful Knowledge/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 1.1507828895663663,
+    "averageConfidence": 30,
+    "entropy": 5.100122658433975,
+    "sharpness": 4.638150973035829
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A map is shown with an inset on the right. The map on the left has Europe labeled at the top and Africa and Asia labeled along the bottom with the Mediterranean Sea in the middle. A sliver of north Africa along the Mediterranean Sea is highlighted pink along with Portugal, Spain, France, Belgium, small western and southern parts of Germany, Switzerland, Italy, Montenegro, Bosnia, Croatia, Slovenia, Austria, a small southern slice of the Czech Republic, a western area in Slovakia, the western portion of Hungary, a small northern portion of Serbia, and the western portion of Montenegro. This is labeled “Western Roman Empire.” A northeastern sliver of Africa along the Mediterranean is highlighted green along with a small northern portion of Jordan, Israel, Lebanon, most of Syria, the western three fourths of Turkey, Bulgaria, Greece, Kosovo, most of Serbia, small slices of southeastern and southwestern Romania, Albania, a small southeastern portion of Bosnia and Macedonia. This is labeled “Eastern Roman Empire. The city of Constantinople is labeled. The city is then shown in an inset to the right. This inset is gray in color and shows the city along the Black Sea with various black squares along the waterways. The inset is labeled “Constantinople.”\nButton label: Click to enlarge image of A map is shown with an inset on the right. The map on the left has Europe labeled at the top and Africa and Asia labeled along the bottom with the Mediterranean Sea in the middle. A sliver of north Africa along the Mediterranean Sea is highlighted pink along with Portugal, Spain, France, Belgium, small western and southern parts of Germany, Switzerland, Italy, Montenegro, Bosnia, Croatia, Slovenia, Austria, a small southern slice of the Czech Republic, a western area in Slovakia, the western portion of Hungary, a small northern portion of Serbia, and the western portion of Montenegro. This is labeled “Western Roman Empire.” A northeastern sliver of Africa along the Mediterranean is highlighted green along with a small northern portion of Jordan, Israel, Lebanon, most of Syria, the western three fourths of Turkey, Bulgaria, Greece, Kosovo, most of Serbia, small slices of southeastern and southwestern Romania, Albania, a small southeastern portion of Bosnia and Macedonia. This is labeled “Eastern Roman Empire. The city of Constantinople is labeled. The city is then shown in an inset to the right. This inset is gray in color and shows the city along the Black Sea with various black squares along the waterways. The inset is labeled “Constantinople.”\nEnglish caption: Figure 10.6 The Roman Empire Moves East. Constantinople’s location shifted the empire’s geographic focus eastward. The city was near the sites of frequent Roman military campaigns in the lower Danube and significantly closer than Rome to the frontiers along the Euphrates (in modern Iraq). It was also a hub of trade and travel because it was connected to western Europe, the Near East, and the Balkans. (credit: modification of work “Political Europe” by CIA/The World Factbook, Public Domain; credit inset: modification of work “Constantinople. Stambool” by Maps of the Society for the Diffusion of Useful Knowledge/Wikimedia Commons, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "FFA he ly =",
+        "confidence": 36,
+        "bbox": {
+          "x": 160,
+          "y": 118,
+          "w": 1279,
+          "h": 79
+        }
+      },
+      {
+        "text": "1 : re Na ep ES RYE TF)",
+        "confidence": 36,
+        "bbox": {
+          "x": 160,
+          "y": 275,
+          "w": 1279,
+          "h": 79
+        }
+      },
+      {
+        "text": "» 3 BT CRG nr 5",
+        "confidence": 36,
+        "bbox": {
+          "x": 160,
+          "y": 432,
+          "w": 1279,
+          "h": 79
+        }
+      },
+      {
+        "text": "8) 4 Erg / LI GE NR ND A RE -",
+        "confidence": 36,
+        "bbox": {
+          "x": 160,
+          "y": 589,
+          "w": 1279,
+          "h": 79
+        }
+      },
+      {
+        "text": "ls! VAZER Bea.",
+        "confidence": 36,
+        "bbox": {
+          "x": 160,
+          "y": 746,
+          "w": 1279,
+          "h": 79
+        }
+      },
+      {
+        "text": "8 = A a = gr ; 1",
+        "confidence": 36,
+        "bbox": {
+          "x": 160,
+          "y": 903,
+          "w": 1279,
+          "h": 79
+        }
+      },
+      {
+        "text": ": : AU AU ode 8 ese ae SG",
+        "confidence": 36,
+        "bbox": {
+          "x": 160,
+          "y": 1060,
+          "w": 1279,
+          "h": 79
+        }
+      },
+      {
+        "text": "| Déché La Ma CHAU AU Ce oon. 0",
+        "confidence": 36,
+        "bbox": {
+          "x": 160,
+          "y": 1217,
+          "w": 1279,
+          "h": 79
+        }
+      },
+      {
+        "text": "x= “ae: Hila hay #",
+        "confidence": 36,
+        "bbox": {
+          "x": 160,
+          "y": 1374,
+          "w": 1279,
+          "h": 79
+        }
+      },
+      {
+        "text": "Viens es svar ACF INS Rk 3 Nie",
+        "confidence": 36,
+        "bbox": {
+          "x": 160,
+          "y": 1531,
+          "w": 1279,
+          "h": 79
+        }
+      },
+      {
+        "text": ": A f= [ por mes Sy E+",
+        "confidence": 36,
+        "bbox": {
+          "x": 160,
+          "y": 1688,
+          "w": 1279,
+          "h": 79
+        }
+      },
+      {
+        "text": "J [ 9 yp pe v7 a Constantinople",
+        "confidence": 36,
+        "bbox": {
+          "x": 160,
+          "y": 1845,
+          "w": 1279,
+          "h": 79
+        }
+      },
+      {
+        "text": "= Ls : ri : E me",
+        "confidence": 36,
+        "bbox": {
+          "x": 160,
+          "y": 2002,
+          "w": 1279,
+          "h": 79
+        }
+      },
+      {
+        "text": "st Lf x5 ig",
+        "confidence": 36,
+        "bbox": {
+          "x": 160,
+          "y": 2159,
+          "w": 1279,
+          "h": 79
+        }
+      },
+      {
+        "text": "4 JER. Bién",
+        "confidence": 36,
+        "bbox": {
+          "x": 160,
+          "y": 2316,
+          "w": 1279,
+          "h": 79
+        }
+      },
+      {
+        "text": "a ad oe , Den",
+        "confidence": 36,
+        "bbox": {
+          "x": 160,
+          "y": 2473,
+          "w": 1279,
+          "h": 79
+        }
+      },
+      {
+        "text": "= 3; iE =",
+        "confidence": 36,
+        "bbox": {
+          "x": 160,
+          "y": 2630,
+          "w": 1279,
+          "h": 79
+        }
+      },
+      {
+        "text": "ig, D; Bam, 4 &",
+        "confidence": 36,
+        "bbox": {
+          "x": 160,
+          "y": 2787,
+          "w": 1279,
+          "h": 79
+        }
+      },
+      {
+        "text": "CHAU A 2",
+        "confidence": 36,
+        "bbox": {
+          "x": 160,
+          "y": 2944,
+          "w": 1279,
+          "h": 79
+        }
+      },
+      {
+        "text": "A BAN PAO",
+        "confidence": 36,
+        "bbox": {
+          "x": 160,
+          "y": 3101,
+          "w": 1279,
+          "h": 79
+        }
+      },
+      {
+        "text": "R \\ ARAP z",
+        "confidence": 36,
+        "bbox": {
+          "x": 160,
+          "y": 3258,
+          "w": 1279,
+          "h": 79
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": [
+        "constantinople"
+      ]
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

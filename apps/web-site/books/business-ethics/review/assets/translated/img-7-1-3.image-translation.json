@@ -1,0 +1,17 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-7-1-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/7-1-loyalty-to-the-company.html",
+  "decision": "error",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "not-classified"
+  },
+  "reason": "fetch failed",
+  "outputImage": null,
+  "ocr": [],
+  "translations": [],
+  "imageContext": "Image alt: This graphic shows three boxes. The first one is titled “Non-Compete Clause.” It says “The Employee agrees that for a period of one year after the Employee no longer works for the Company, the Employee will not engage in the same or similar activities as were performed for the Company in any business within a 100-mile radius of the Company.” The second one is titled “Nonsolicitation of Customers/Employees Clause.” It says “The Employee agrees that for a period of two years after the Employee no longer works for the Company, the Employee will not solicit customer, clients, and/or employees of the Company. The third one is titled “Confidentiality/Non-Disclosure Clause.” It says “Employee agrees that during employment with the Company and following the termination of such employment for an unlimited term, the Employee shall not misappropriate, divulge, disclose, or make use of any confidential information, intellectual property, or trade secrets.”\nButton label: Click to enlarge image of This graphic shows three boxes. The first one is titled “Non-Compete Clause.” It says “The Employee agrees that for a period of one year after the Employee no longer works for the Company, the Employee will not engage in the same or similar activities as were performed for the Company in any business within a 100-mile radius of the Company.” The second one is titled “Nonsolicitation of Customers/Employees Clause.” It says “The Employee agrees that for a period of two years after the Employee no longer works for the Company, the Employee will not solicit customer, clients, and/or employees of the Company. The third one is titled “Confidentiality/Non-Disclosure Clause.” It says “Employee agrees that during employment with the Company and following the termination of such employment for an unlimited term, the Employee shall not misappropriate, divulge, disclose, or make use of any confidential information, intellectual property, or trade secrets.”\nEnglish caption: Figure 7.4 Common clauses found in employment contracts include those restricting competition and solicitation upon termination of the contract, as well as requiring confidentiality during and after employment. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)"
+}

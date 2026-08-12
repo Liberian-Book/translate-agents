@@ -1,0 +1,183 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-1-5.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-1-patterns-management.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-10-1-5.vi.png",
+  "ocr": [
+    {
+      "text": "Solution Architecture",
+      "confidence": 56,
+      "bbox": {
+        "x": 104,
+        "y": 86,
+        "w": 832,
+        "h": 58
+      }
+    },
+    {
+      "text": "cl +",
+      "confidence": 56,
+      "bbox": {
+        "x": 104,
+        "y": 201,
+        "w": 832,
+        "h": 58
+      }
+    },
+    {
+      "text": "wv",
+      "confidence": 56,
+      "bbox": {
+        "x": 104,
+        "y": 316,
+        "w": 832,
+        "h": 58
+      }
+    },
+    {
+      "text": "ol & Level",
+      "confidence": 56,
+      "bbox": {
+        "x": 104,
+        "y": 431,
+        "w": 832,
+        "h": 58
+      }
+    },
+    {
+      "text": "s of",
+      "confidence": 56,
+      "bbox": {
+        "x": 104,
+        "y": 546,
+        "w": 832,
+        "h": 58
+      }
+    },
+    {
+      "text": "© abstraction",
+      "confidence": 56,
+      "bbox": {
+        "x": 104,
+        "y": 661,
+        "w": 832,
+        "h": 58
+      }
+    },
+    {
+      "text": "£ Ne",
+      "confidence": 56,
+      "bbox": {
+        "x": 104,
+        "y": 776,
+        "w": 832,
+        "h": 58
+      }
+    },
+    {
+      "text": "QQ",
+      "confidence": 56,
+      "bbox": {
+        "x": 104,
+        "y": 891,
+        "w": 832,
+        "h": 58
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Solution Architecture",
+      "target": "Kiến trúc Giải pháp",
+      "bbox": {
+        "x": 104,
+        "y": 86,
+        "w": 832,
+        "h": 58
+      },
+      "overflow": false
+    },
+    {
+      "source": "cl +",
+      "target": "cl +",
+      "bbox": {
+        "x": 104,
+        "y": 201,
+        "w": 832,
+        "h": 58
+      },
+      "overflow": false
+    },
+    {
+      "source": "wv",
+      "target": "wv",
+      "bbox": {
+        "x": 104,
+        "y": 316,
+        "w": 832,
+        "h": 58
+      },
+      "overflow": false
+    },
+    {
+      "source": "ol & Level",
+      "target": "Dầu & Mức",
+      "bbox": {
+        "x": 104,
+        "y": 431,
+        "w": 832,
+        "h": 58
+      },
+      "overflow": false
+    },
+    {
+      "source": "s of",
+      "target": "của",
+      "bbox": {
+        "x": 104,
+        "y": 546,
+        "w": 832,
+        "h": 58
+      },
+      "overflow": false
+    },
+    {
+      "source": "© abstraction",
+      "target": "© trừu tượng",
+      "bbox": {
+        "x": 104,
+        "y": 661,
+        "w": 832,
+        "h": 58
+      },
+      "overflow": false
+    },
+    {
+      "source": "£ Ne",
+      "target": "£ Ne",
+      "bbox": {
+        "x": 104,
+        "y": 776,
+        "w": 832,
+        "h": 58
+      },
+      "overflow": false
+    },
+    {
+      "source": "QQ",
+      "target": "QQ",
+      "bbox": {
+        "x": 104,
+        "y": 891,
+        "w": 832,
+        "h": 58
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.5155555555555555,
+    "averageConfidence": 56
+  }
+}

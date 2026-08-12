@@ -1,0 +1,738 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-10-3-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/10-3-the-kingdoms-of-aksum-and-himyar.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-10-3-2.vi.png",
+  "ocr": [
+    {
+      "text": "558 ES",
+      "confidence": 22,
+      "bbox": {
+        "x": 50,
+        "y": 91,
+        "w": 400,
+        "h": 61
+      }
+    },
+    {
+      "text": "Ne i BN",
+      "confidence": 22,
+      "bbox": {
+        "x": 50,
+        "y": 212,
+        "w": 400,
+        "h": 61
+      }
+    },
+    {
+      "text": "Ng RN ae hy",
+      "confidence": 22,
+      "bbox": {
+        "x": 50,
+        "y": 333,
+        "w": 400,
+        "h": 61
+      }
+    },
+    {
+      "text": "BES no",
+      "confidence": 22,
+      "bbox": {
+        "x": 50,
+        "y": 454,
+        "w": 400,
+        "h": 61
+      }
+    },
+    {
+      "text": "oa fe pi",
+      "confidence": 22,
+      "bbox": {
+        "x": 50,
+        "y": 575,
+        "w": 400,
+        "h": 61
+      }
+    },
+    {
+      "text": "Ee EI in",
+      "confidence": 22,
+      "bbox": {
+        "x": 50,
+        "y": 696,
+        "w": 400,
+        "h": 61
+      }
+    },
+    {
+      "text": "5 ET Sa on EE lt",
+      "confidence": 22,
+      "bbox": {
+        "x": 50,
+        "y": 817,
+        "w": 400,
+        "h": 61
+      }
+    },
+    {
+      "text": "SET ee v GREE i",
+      "confidence": 22,
+      "bbox": {
+        "x": 50,
+        "y": 938,
+        "w": 400,
+        "h": 61
+      }
+    },
+    {
+      "text": "SOREN in Yi al",
+      "confidence": 22,
+      "bbox": {
+        "x": 50,
+        "y": 1059,
+        "w": 400,
+        "h": 61
+      }
+    },
+    {
+      "text": "Hoy eR FN Jhb i",
+      "confidence": 22,
+      "bbox": {
+        "x": 50,
+        "y": 1180,
+        "w": 400,
+        "h": 61
+      }
+    },
+    {
+      "text": "a CL SER EERE A Bh!",
+      "confidence": 22,
+      "bbox": {
+        "x": 50,
+        "y": 1301,
+        "w": 400,
+        "h": 61
+      }
+    },
+    {
+      "text": "a SEVEN ri RR TR",
+      "confidence": 22,
+      "bbox": {
+        "x": 50,
+        "y": 1422,
+        "w": 400,
+        "h": 61
+      }
+    },
+    {
+      "text": "WT. JER Ee STN",
+      "confidence": 22,
+      "bbox": {
+        "x": 50,
+        "y": 1543,
+        "w": 400,
+        "h": 61
+      }
+    },
+    {
+      "text": "« ‘ [hs i: Pits “1 I: it Ll y a",
+      "confidence": 22,
+      "bbox": {
+        "x": 50,
+        "y": 1664,
+        "w": 400,
+        "h": 61
+      }
+    },
+    {
+      "text": "mos 3 -",
+      "confidence": 22,
+      "bbox": {
+        "x": 50,
+        "y": 1785,
+        "w": 400,
+        "h": 61
+      }
+    },
+    {
+      "text": "IT",
+      "confidence": 22,
+      "bbox": {
+        "x": 50,
+        "y": 1906,
+        "w": 400,
+        "h": 61
+      }
+    },
+    {
+      "text": "Lo",
+      "confidence": 22,
+      "bbox": {
+        "x": 50,
+        "y": 2027,
+        "w": 400,
+        "h": 61
+      }
+    },
+    {
+      "text": "lire ug i",
+      "confidence": 22,
+      "bbox": {
+        "x": 50,
+        "y": 2148,
+        "w": 400,
+        "h": 61
+      }
+    },
+    {
+      "text": "if FA",
+      "confidence": 22,
+      "bbox": {
+        "x": 50,
+        "y": 2269,
+        "w": 400,
+        "h": 61
+      }
+    },
+    {
+      "text": "pe]",
+      "confidence": 22,
+      "bbox": {
+        "x": 50,
+        "y": 2390,
+        "w": 400,
+        "h": 61
+      }
+    },
+    {
+      "text": "am",
+      "confidence": 22,
+      "bbox": {
+        "x": 50,
+        "y": 2511,
+        "w": 400,
+        "h": 61
+      }
+    },
+    {
+      "text": "io 4 l",
+      "confidence": 22,
+      "bbox": {
+        "x": 50,
+        "y": 2632,
+        "w": 400,
+        "h": 61
+      }
+    },
+    {
+      "text": "ot Ag",
+      "confidence": 22,
+      "bbox": {
+        "x": 50,
+        "y": 2753,
+        "w": 400,
+        "h": 61
+      }
+    },
+    {
+      "text": "Le",
+      "confidence": 22,
+      "bbox": {
+        "x": 50,
+        "y": 2874,
+        "w": 400,
+        "h": 61
+      }
+    },
+    {
+      "text": "seo",
+      "confidence": 22,
+      "bbox": {
+        "x": 50,
+        "y": 2995,
+        "w": 400,
+        "h": 61
+      }
+    },
+    {
+      "text": "Hire 0",
+      "confidence": 22,
+      "bbox": {
+        "x": 50,
+        "y": 3116,
+        "w": 400,
+        "h": 61
+      }
+    },
+    {
+      "text": "il",
+      "confidence": 22,
+      "bbox": {
+        "x": 50,
+        "y": 3237,
+        "w": 400,
+        "h": 61
+      }
+    },
+    {
+      "text": "pss Ha a",
+      "confidence": 22,
+      "bbox": {
+        "x": 50,
+        "y": 3358,
+        "w": 400,
+        "h": 61
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A picture of two sides of a tall, rectangular stone slab is shown against a rocky wall. The stone slab is beige in color and shiny. Words are engraved on both sides of the stone shown. A vent is shown on the ceiling above the stone slab.\nButton label: Click to enlarge image of A picture of two sides of a tall, rectangular stone slab is shown against a rocky wall. The stone slab is beige in color and shiny. Words are engraved on both sides of the stone shown. A vent is shown on the ceiling above the stone slab.\nEnglish caption: Figure 10.16 An Aksumite Stela. This monumental stone slab was erected by the Aksumite king Ezana and attributes his fourth-century military victory over the Nubians to the Christian God. The inscription in three languages—Ge’ez, Sabaean, and Greek—suggests the diversity of Aksum’s people and the intended audience for this monument. (credit: “The Ezana Stone” by Alan/Flickr, CC BY 2.0)",
+  "metrics": {
+    "textDensity": 1.8050198150594452,
+    "averageConfidence": 22,
+    "entropy": 7.191121466577897,
+    "sharpness": 5.949272325656039
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A picture of two sides of a tall, rectangular stone slab is shown against a rocky wall. The stone slab is beige in color and shiny. Words are engraved on both sides of the stone shown. A vent is shown on the ceiling above the stone slab.\nButton label: Click to enlarge image of A picture of two sides of a tall, rectangular stone slab is shown against a rocky wall. The stone slab is beige in color and shiny. Words are engraved on both sides of the stone shown. A vent is shown on the ceiling above the stone slab.\nEnglish caption: Figure 10.16 An Aksumite Stela. This monumental stone slab was erected by the Aksumite king Ezana and attributes his fourth-century military victory over the Nubians to the Christian God. The inscription in three languages—Ge’ez, Sabaean, and Greek—suggests the diversity of Aksum’s people and the intended audience for this monument. (credit: “The Ezana Stone” by Alan/Flickr, CC BY 2.0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "fl",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 184,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "giiiey",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 430,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "fae:",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 676,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "i fy y: io Wi INR",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 922,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "CW Ir AAD) ie",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 1168,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "NEN WOT ERE",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 1414,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "YEP . rasa Ky hy pA",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 1660,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "He RR Di Sis al il Na AA Al i AL",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 1906,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "N SX 2 Vi Cs RRR at 4 PRT",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 2152,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "bo asa la SR ti {hE",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 2398,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "» 4 05 ef © EES UV ) pid",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 2644,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "ai ER LUA",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 2890,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "LES SOY RE",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 3136,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "2 . ae BTR i EINE) ERNE al NEARER",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 3382,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "SLSR SRGTEE ith Rls ion)",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 3628,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "woe 7 ERR RRA",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 3874,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "Scone",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 4120,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "re, RY Tih] By EERE FARA FR",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 4366,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "Wh To 71 Hit",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 4612,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "or g) g lye for Se 1 CRN \\ Si R00 Af) i",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 4858,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "= To AR 3 f il 107 A Ry § BUN NRT",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 5104,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "Nae —— ’ en ages x } oi {pail RREER AEA BN y Hie t",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 5350,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "- = tem; No 0 x )! HE Bio BRA A",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 5596,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "aay !",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 5842,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "Spparetir 000",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 6088,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "as 00",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 6334,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "CUVEE :",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 6580,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "hi lad din ji EN IN",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 6826,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "i 0 i Wy a. § i : HERAT",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 7072,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "11,177 hn",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 7318,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "WA ph : t",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 7564,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "an a] i",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 7810,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "Ni) 1249, Gi I",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 8056,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "hy 8",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 8302,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "Li hg",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 8548,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "li",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 8794,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "i Cs pein",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 9040,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "ae",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 9286,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "Bate",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 9532,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "io",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 9778,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "nih",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 10024,
+          "w": 818,
+          "h": 123
+        }
+      },
+      {
+        "text": "Ua etd",
+        "confidence": 24,
+        "bbox": {
+          "x": 102,
+          "y": 10270,
+          "w": 818,
+          "h": 123
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

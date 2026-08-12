@@ -1,0 +1,153 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-7-5-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/7-5-applied-epistemology.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Ap pigismmm— jij",
+      "confidence": 36,
+      "bbox": {
+        "x": 80,
+        "y": 64,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "He: |",
+      "confidence": 36,
+      "bbox": {
+        "x": 80,
+        "y": 149,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "HH | Han J Il",
+      "confidence": 36,
+      "bbox": {
+        "x": 80,
+        "y": 234,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "LH (",
+      "confidence": 36,
+      "bbox": {
+        "x": 80,
+        "y": 319,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "| \\ ¢ | bi il | _- | T=",
+      "confidence": 36,
+      "bbox": {
+        "x": 80,
+        "y": 404,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "HI 1 | ll {0 {f I I i. Ha Ei Ih",
+      "confidence": 36,
+      "bbox": {
+        "x": 80,
+        "y": 489,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "tRNA | lH Era TA gif",
+      "confidence": 36,
+      "bbox": {
+        "x": 80,
+        "y": 574,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "\\) ® Sus v Erie aa ll 2d 8",
+      "confidence": 36,
+      "bbox": {
+        "x": 80,
+        "y": 659,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": ": s [XY ” Yq PE Ld » / Q ,Y i",
+      "confidence": 36,
+      "bbox": {
+        "x": 80,
+        "y": 744,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": ": [i L : | of 1",
+      "confidence": 36,
+      "bbox": {
+        "x": 80,
+        "y": 829,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "84 { allie! =l[8 \"",
+      "confidence": 36,
+      "bbox": {
+        "x": 80,
+        "y": 914,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "ea eee",
+      "confidence": 36,
+      "bbox": {
+        "x": 80,
+        "y": 999,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "er - |",
+      "confidence": 36,
+      "bbox": {
+        "x": 80,
+        "y": 1084,
+        "w": 640,
+        "h": 43
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.8374531835205993,
+    "averageConfidence": 36,
+    "entropy": 7.6046135570068145,
+    "sharpness": 5.494677036367159
+  }
+}

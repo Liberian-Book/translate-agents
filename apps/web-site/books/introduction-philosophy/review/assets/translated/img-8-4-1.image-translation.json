@@ -1,0 +1,43 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-8-4-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/8-4-well-being.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Rae",
+      "confidence": 37,
+      "bbox": {
+        "x": 80,
+        "y": 65,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "mW",
+      "confidence": 37,
+      "bbox": {
+        "x": 80,
+        "y": 152,
+        "w": 640,
+        "h": 43
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.12717190388170055,
+    "averageConfidence": 37,
+    "entropy": 7.65428282530047,
+    "sharpness": 0.9980808245555006
+  }
+}

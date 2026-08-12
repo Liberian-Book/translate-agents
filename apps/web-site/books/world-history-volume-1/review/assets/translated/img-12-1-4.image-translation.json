@@ -1,0 +1,570 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-12-1-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/12-1-the-indian-ocean-world-in-the-early-middle-ages.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-12-1-4.vi.png",
+  "ocr": [
+    {
+      "text": "i RE ER ]",
+      "confidence": 26,
+      "bbox": {
+        "x": 70,
+        "y": 93,
+        "w": 560,
+        "h": 62
+      }
+    },
+    {
+      "text": "i ae EET hie me (eV =",
+      "confidence": 26,
+      "bbox": {
+        "x": 70,
+        "y": 217,
+        "w": 560,
+        "h": 62
+      }
+    },
+    {
+      "text": "lf eo & 9: 0",
+      "confidence": 26,
+      "bbox": {
+        "x": 70,
+        "y": 341,
+        "w": 560,
+        "h": 62
+      }
+    },
+    {
+      "text": "LE BN 4 BN ASE a fe",
+      "confidence": 26,
+      "bbox": {
+        "x": 70,
+        "y": 465,
+        "w": 560,
+        "h": 62
+      }
+    },
+    {
+      "text": "{ LSE Ge SH",
+      "confidence": 26,
+      "bbox": {
+        "x": 70,
+        "y": 589,
+        "w": 560,
+        "h": 62
+      }
+    },
+    {
+      "text": "i: do io oo CERES, REE { ; SN H",
+      "confidence": 26,
+      "bbox": {
+        "x": 70,
+        "y": 713,
+        "w": 560,
+        "h": 62
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: An image of a painting is shown on a richly decorated gold, red, green, black, and green background. Black script is cut off on the right and left sides and the frame is gold squares with alternating green and red dots inside. In the middle, a pale white figure sits on a highly decorated gold and black tiered throne with richly decorated blue pillows and white flowers. She wears elaborate gold and red decorations in her black hair which hangs down to her armpits. Necklaces, earrings, and bracelets cover her body and her legs are both decorated with designs. She is bare chested and wears short red cloths at her pelvic region. Her hands are in front of her chest and the thumbs and pointer fingers are touching. Her eyes are thin and wide and she looks down at a figure sitting at her feet and smiles. The woman sitting cross legged on the floor is gold colored and her body is adorned in jewelry and designs as well. She has long black hair and elaborate décor in her hair as well. She has her hands raised at her sides and looks up at the throned figure with a smile and open, almond shaped eyes. In the background a small, stacked, gold building can be seen and vegetation is displayed in the top two corners.\nButton label: Click to enlarge image of An image of a painting is shown on a richly decorated gold, red, green, black, and green background. Black script is cut off on the right and left sides and the frame is gold squares with alternating green and red dots inside. In the middle, a pale white figure sits on a highly decorated gold and black tiered throne with richly decorated blue pillows and white flowers. She wears elaborate gold and red decorations in her black hair which hangs down to her armpits. Necklaces, earrings, and bracelets cover her body and her legs are both decorated with designs. She is bare chested and wears short red cloths at her pelvic region. Her hands are in front of her chest and the thumbs and pointer fingers are touching. Her eyes are thin and wide and she looks down at a figure sitting at her feet and smiles. The woman sitting cross legged on the floor is gold colored and her body is adorned in jewelry and designs as well. She has long black hair and elaborate décor in her hair as well. She has her hands raised at her sides and looks up at the throned figure with a smile and open, almond shaped eyes. In the background a small, stacked, gold building can be seen and vegetation is displayed in the top two corners.\nEnglish caption: Figure 12.6 Bodhisattvas. In Buddhism, bodhisattvas are people who are seen as spiritually advanced and on the path toward Buddhahood. This detail of a twelfth-century manuscript painting depicts Maitreya, a bodhisattva who, according to Indian tradition, is the teacher of dharma. (credit: “Astasahasrika Prajnaparamita Maitreya Detail” by Unknown/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 0.3825192802056555,
+    "averageConfidence": 26,
+    "entropy": 7.437155548177543,
+    "sharpness": 4.705735437893427
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: An image of a painting is shown on a richly decorated gold, red, green, black, and green background. Black script is cut off on the right and left sides and the frame is gold squares with alternating green and red dots inside. In the middle, a pale white figure sits on a highly decorated gold and black tiered throne with richly decorated blue pillows and white flowers. She wears elaborate gold and red decorations in her black hair which hangs down to her armpits. Necklaces, earrings, and bracelets cover her body and her legs are both decorated with designs. She is bare chested and wears short red cloths at her pelvic region. Her hands are in front of her chest and the thumbs and pointer fingers are touching. Her eyes are thin and wide and she looks down at a figure sitting at her feet and smiles. The woman sitting cross legged on the floor is gold colored and her body is adorned in jewelry and designs as well. She has long black hair and elaborate décor in her hair as well. She has her hands raised at her sides and looks up at the throned figure with a smile and open, almond shaped eyes. In the background a small, stacked, gold building can be seen and vegetation is displayed in the top two corners.\nButton label: Click to enlarge image of An image of a painting is shown on a richly decorated gold, red, green, black, and green background. Black script is cut off on the right and left sides and the frame is gold squares with alternating green and red dots inside. In the middle, a pale white figure sits on a highly decorated gold and black tiered throne with richly decorated blue pillows and white flowers. She wears elaborate gold and red decorations in her black hair which hangs down to her armpits. Necklaces, earrings, and bracelets cover her body and her legs are both decorated with designs. She is bare chested and wears short red cloths at her pelvic region. Her hands are in front of her chest and the thumbs and pointer fingers are touching. Her eyes are thin and wide and she looks down at a figure sitting at her feet and smiles. The woman sitting cross legged on the floor is gold colored and her body is adorned in jewelry and designs as well. She has long black hair and elaborate décor in her hair as well. She has her hands raised at her sides and looks up at the throned figure with a smile and open, almond shaped eyes. In the background a small, stacked, gold building can be seen and vegetation is displayed in the top two corners.\nEnglish caption: Figure 12.6 Bodhisattvas. In Buddhism, bodhisattvas are people who are seen as spiritually advanced and on the path toward Buddhahood. This detail of a twelfth-century manuscript painting depicts Maitreya, a bodhisattva who, according to Indian tradition, is the teacher of dharma. (credit: “Astasahasrika Prajnaparamita Maitreya Detail” by Unknown/Wikimedia Commons, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: astasahasrika, prajnaparamita, wikimedia, commons. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": ". PERE Er eRe |",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 159,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "NI HER 57 PER aleva% le Cdr Nps = |",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 371,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "EAN ES FRE 8 Ni ~NEN 220 © |i",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 583,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "2 | Z 5 we 70 ee OT Ave WARE (8a8 : |",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 795,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "i | NRE RN SAN AN ANIA DAT EA © ||",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 1007,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "ey er |",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 1219,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "Bit H REE IE a eoR pani - H Bat",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 1431,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "Hide soe ook seat dhe A NCEE ©",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 1643,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "Qa a 5 IEEE IRIAN © ||",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 1855,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "nha ° $0510 Fay 5 Fo J Ed) SW | hi",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 2067,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "H BEE die Loch Spain IE RL",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 2279,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "| 15 BE ON C7 a Or I rr a ONTO, Women DENG i",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 2491,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "it oire, > e270\" ps a AFI RGR = RAT",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 2703,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "i a SUA pa NNER EE ©",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 2915,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "d EE AEE Ea Hoy BEE Ny <1 la",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 3127,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "done BH Yl BE BR BR pe |",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 3339,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "A o | [He RIE Ne] 2 \\iedhe Ho",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 3551,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "mat | 8 Eros ROH ~~ AH EE RG) BE mat",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 3763,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "<P EES) BY Nei % J HSER 4 RT ee °",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 3975,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "§ BON tia NN p a= esis oH",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 4187,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "o BISA (7 ale [A wi Nz ¢ I",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 4399,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "a Fa eee ON = Hoes il",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 4611,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "A | rail LT \\ Pie Eh S/d Be Elodie | | A",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 4823,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "° et qh A Hips © |",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 5035,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "tam f° HS SY pas | EE",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 5247,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "9 SS : bi (5 # (Cu EK 1;",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 5459,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "n ll: = TL CREE a ole © EH KIN",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 5671,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "Ho EM EE we... ai iEE",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 5883,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "|e\" 2 ve Za Fe) RD 4 0% ENGR Le |",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 6095,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "* UNDER Str FREE Gi Esl e (8 SP",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 6307,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "[a PRIN Nass Wo A wl",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 6519,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "is res rvs Tel She p= J ry) a (I: |",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 6731,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "e pied A = L..-be \"| |",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 6943,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "° + BYF SEN ai | Vy ist]",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 7155,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "jel. & 2 333 TE ENE IR vA Pe ha Trrroseon Sei] IS if El",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 7367,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "= TET A TX es IS\" IE I: |",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 7579,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "| 5 i EAA i Ih § 7 Sos 2 EB",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 7791,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "| [$0 2 Jae AE ITC OAT WSN ere © | |",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 8003,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "H- | ot] EI EI, J RENSS0s) |",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 8215,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "KB’. fc BS oe rT TR TT SWZ lo | |",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 8427,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "io HIER ° 5°08 °2 002 0s 0 00 ne 0 8.00 ies siy ass 22 0S SS ATR NE Se 0s sees sssn ese ons HIN 2",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 8639,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "Hinh 12.6 Bb tat",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 8851,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "Trong Phat gi4o, bd tat la nhitng ngudi dugc xem la c6 trinh do tam linh cao va dang trén",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 9063,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "con dudng hudng t6i Phat qua. Chi tiét cua buc tranh minh hoa trong ban thao cé nién dai",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 9275,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "thé ky XII nay m6 ta Di Lic, mot bd tat theo truyén théng An D9, 1a bac thiy cla chanh phap.",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 9487,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "(ngudn: “Chi tiét Di Lic trong Bat nha ba la mat da tam kinh",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 9699,
+          "w": 952,
+          "h": 106
+        }
+      },
+      {
+        "text": "ctia Khong ro tac gia/Wikimedia Cong ching, Mién cong cong)",
+        "confidence": 39,
+        "bbox": {
+          "x": 119,
+          "y": 9911,
+          "w": 952,
+          "h": 106
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": [
+        "wikimedia"
+      ]
+    },
+    "validationAttempt": 2
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

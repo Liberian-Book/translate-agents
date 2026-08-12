@@ -1,0 +1,53 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-6-3-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/6-3-cosmology-and-the-existence-of-god.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "es ad",
+      "confidence": 38,
+      "bbox": {
+        "x": 63,
+        "y": 96,
+        "w": 500,
+        "h": 64
+      }
+    },
+    {
+      "text": "He NE |",
+      "confidence": 38,
+      "bbox": {
+        "x": 63,
+        "y": 224,
+        "w": 500,
+        "h": 64
+      }
+    },
+    {
+      "text": "Ne",
+      "confidence": 38,
+      "bbox": {
+        "x": 63,
+        "y": 352,
+        "w": 500,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.192,
+    "averageConfidence": 38,
+    "entropy": 6.655380987533135,
+    "sharpness": 5.896438832117382
+  }
+}

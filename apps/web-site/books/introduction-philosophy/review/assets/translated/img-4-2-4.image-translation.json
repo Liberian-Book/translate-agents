@@ -1,0 +1,33 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-4-2-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/4-2-classical-philosophy.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "wv",
+      "confidence": 19,
+      "bbox": {
+        "x": 140,
+        "y": 109,
+        "w": 1119,
+        "h": 72
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.06363503528566182,
+    "averageConfidence": 19,
+    "entropy": 2.154933335030364,
+    "sharpness": 3.0296835553308905
+  }
+}

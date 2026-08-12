@@ -1,0 +1,183 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-2-6.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-2-sample-responsive-wad-with-bootstrap-and-django.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-11-2-6.vi.png",
+  "ocr": [
+    {
+      "text": "INSTALLED APPS = [",
+      "confidence": 83,
+      "bbox": {
+        "x": 71,
+        "y": 59,
+        "w": 570,
+        "h": 39
+      }
+    },
+    {
+      "text": "‘django.contrib.admin’,",
+      "confidence": 83,
+      "bbox": {
+        "x": 71,
+        "y": 137,
+        "w": 570,
+        "h": 39
+      }
+    },
+    {
+      "text": "‘django.contrib.auth’,",
+      "confidence": 83,
+      "bbox": {
+        "x": 71,
+        "y": 215,
+        "w": 570,
+        "h": 39
+      }
+    },
+    {
+      "text": "‘django.contrib.contenttypes’,",
+      "confidence": 83,
+      "bbox": {
+        "x": 71,
+        "y": 293,
+        "w": 570,
+        "h": 39
+      }
+    },
+    {
+      "text": "‘django.contrib.sessions’,",
+      "confidence": 83,
+      "bbox": {
+        "x": 71,
+        "y": 371,
+        "w": 570,
+        "h": 39
+      }
+    },
+    {
+      "text": "‘django.contrib.messages’,",
+      "confidence": 83,
+      "bbox": {
+        "x": 71,
+        "y": 449,
+        "w": 570,
+        "h": 39
+      }
+    },
+    {
+      "text": "‘django.contrib.staticfiles’,",
+      "confidence": 83,
+      "bbox": {
+        "x": 71,
+        "y": 527,
+        "w": 570,
+        "h": 39
+      }
+    },
+    {
+      "text": "‘rest_framework’,",
+      "confidence": 83,
+      "bbox": {
+        "x": 71,
+        "y": 605,
+        "w": 570,
+        "h": 39
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "INSTALLED APPS = [",
+      "target": "CÁC ỨNG DỤNG ĐÃ CÀI ĐẶT = [",
+      "bbox": {
+        "x": 71,
+        "y": 59,
+        "w": 570,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "‘django.contrib.admin’,",
+      "target": "‘django.contrib.admin’",
+      "bbox": {
+        "x": 71,
+        "y": 137,
+        "w": 570,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "‘django.contrib.auth’,",
+      "target": "‘django.contrib.auth’",
+      "bbox": {
+        "x": 71,
+        "y": 215,
+        "w": 570,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "‘django.contrib.contenttypes’,",
+      "target": "django.contrib.contenttypes",
+      "bbox": {
+        "x": 71,
+        "y": 293,
+        "w": 570,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "‘django.contrib.sessions’,",
+      "target": "‘django.contrib.sessions’",
+      "bbox": {
+        "x": 71,
+        "y": 371,
+        "w": 570,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "‘django.contrib.messages’,",
+      "target": "django.contrib.messages",
+      "bbox": {
+        "x": 71,
+        "y": 449,
+        "w": 570,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "‘django.contrib.staticfiles’,",
+      "target": "'django.contrib.staticfiles'",
+      "bbox": {
+        "x": 71,
+        "y": 527,
+        "w": 570,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "‘rest_framework’,",
+      "target": "‘khung_nhà_nghỉ’",
+      "bbox": {
+        "x": 71,
+        "y": 605,
+        "w": 570,
+        "h": 39
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.5111167314280459,
+    "averageConfidence": 83
+  }
+}

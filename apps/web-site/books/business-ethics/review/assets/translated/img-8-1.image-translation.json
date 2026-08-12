@@ -1,0 +1,114 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-8-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/8-introduction.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-8-1.vi.png",
+  "ocr": [
+    {
+      "text": "x ae ei. ee S55 = 5 “5% La : a = i ~ ER",
+      "confidence": 28,
+      "bbox": {
+        "x": 175,
+        "y": 86,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "aes Slab",
+      "confidence": 28,
+      "bbox": {
+        "x": 175,
+        "y": 201,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "> an ——a—a i /",
+      "confidence": 28,
+      "bbox": {
+        "x": 175,
+        "y": 316,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "Gg PRE",
+      "confidence": 28,
+      "bbox": {
+        "x": 175,
+        "y": 431,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "\\ FY Y, A oy = pi \\",
+      "confidence": 28,
+      "bbox": {
+        "x": 175,
+        "y": 546,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "Gb ee TERS",
+      "confidence": 28,
+      "bbox": {
+        "x": 175,
+        "y": 661,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "1\" y ph SEE Be 4a me , = © fet 4 oo",
+      "confidence": 28,
+      "bbox": {
+        "x": 175,
+        "y": 776,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "A FF R..# FN nn °",
+      "confidence": 28,
+      "bbox": {
+        "x": 175,
+        "y": 891,
+        "w": 1400,
+        "h": 57
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This is a collage of different photos showing a diverse range of people. There is a transparent outline of a map of the world over top of these photos. Photos around the outside, clockwise from the top left: A person is working outside on a laptop. A group of four people are sitting on a bench. This photo is a close up of a person with darker skin tone’s eyes. A person wearing a construction hat and vest is using a jackhammer. This photo is a close up of a person with medium skin tone’s eyes. People at a table are all listening to someone writing on a board during a meeting. Two people in chef outfits are working together. This photo is a close up of a person with lighter skin tone’s eyes. A woman is holding a baby. A room is filled with sewing machines in a row with people working at each machine. A group of five people in chef outfits are working together. The center right photo shows a person with a bicycle. The center left photo shows two people sitting against a concrete wall.\nButton label: Click to enlarge image of This is a collage of different photos showing a diverse range of people. There is a transparent outline of a map of the world over top of these photos. Photos around the outside, clockwise from the top left: A person is working outside on a laptop. A group of four people are sitting on a bench. This photo is a close up of a person with darker skin tone’s eyes. A person wearing a construction hat and vest is using a jackhammer. This photo is a close up of a person with medium skin tone’s eyes. People at a table are all listening to someone writing on a board during a meeting. Two people in chef outfits are working together. This photo is a close up of a person with lighter skin tone’s eyes. A woman is holding a baby. A room is filled with sewing machines in a row with people working at each machine. A group of five people in chef outfits are working together. The center right photo shows a person with a bicycle. The center left photo shows two people sitting against a concrete wall.\nEnglish caption: Figure 8.1 The globalization of the economy highlights one of the advantages of a diverse workforce that can interact effectively with customers all over the world. (credit outside, clockwise from top left: modification of “GenoPheno” by Cory Zanker/Flickr, CC BY 4.0; credit: modification of “Look at that!” by Gabriel Rocha/Flickr, CC BY 2.0; credit: modification of “Eyes” by “Dboybaker”/Flickr, CC BY 2.0; credit: modification of “doin’ work” by Nick Allen/Flickr, CC BY 2.0; credit: modification of “Man Young Face” by “gentlebeatz”/Pixabay, CC 0; credit: modification of “Training” by Cory Zanker/Flickr, CC BY 4.0; credit: modification of “los bolleros” by Agustín Ruiz/Flickr, CC BY 2.0; credit: modification of “Pithorgarh to Dharchulha on Nepal Border in Uttarakhand India (158)” by “rajkumar1220”/Flickr, CC BY 2.0; credit: modification of “mother and child” by Peter Shanks/Flickr, CC BY 2.0; credit: modification of “Afghan women at a textile factory in Kabul” by Andrea Salazar/Wikimedia Commons, Public Domain; credit: modification of “Open kitchen” by Dennis Wong/Flickr, CC BY 2.0; credit middle left: modification of “Begging for the photographer” by Pedro Ribeiro Simões/Flickr, CC BY 2.0; credit middle right: modification of “Calling it a day” by Staffan Scherz/Flickr, CC BY 2.0)",
+  "metrics": {
+    "textDensity": 0.5080779944289694,
+    "averageConfidence": 28,
+    "entropy": 7.523746883522108,
+    "sharpness": 3.0226985045718484
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

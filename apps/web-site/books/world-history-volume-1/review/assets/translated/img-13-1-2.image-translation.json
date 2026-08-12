@@ -1,0 +1,408 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-13-1-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/13-1-the-post-roman-west-in-the-early-middle-ages.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-13-1-2.vi.png",
+  "ocr": [
+    {
+      "text": "= | - aR OFAN a ee",
+      "confidence": 35,
+      "bbox": {
+        "x": 90,
+        "y": 104,
+        "w": 720,
+        "h": 69
+      }
+    },
+    {
+      "text": "A TEESERE | ah",
+      "confidence": 35,
+      "bbox": {
+        "x": 90,
+        "y": 243,
+        "w": 720,
+        "h": 69
+      }
+    },
+    {
+      "text": "La D1) BD |",
+      "confidence": 35,
+      "bbox": {
+        "x": 90,
+        "y": 382,
+        "w": 720,
+        "h": 69
+      }
+    },
+    {
+      "text": "fl | 5 Cl IN = i",
+      "confidence": 35,
+      "bbox": {
+        "x": 90,
+        "y": 521,
+        "w": 720,
+        "h": 69
+      }
+    },
+    {
+      "text": "| aN \\l |",
+      "confidence": 35,
+      "bbox": {
+        "x": 90,
+        "y": 660,
+        "w": 720,
+        "h": 69
+      }
+    },
+    {
+      "text": "| I LEN 2 i= \"|",
+      "confidence": 35,
+      "bbox": {
+        "x": 90,
+        "y": 799,
+        "w": 720,
+        "h": 69
+      }
+    },
+    {
+      "text": "| ARTT £0 |",
+      "confidence": 35,
+      "bbox": {
+        "x": 90,
+        "y": 938,
+        "w": 720,
+        "h": 69
+      }
+    },
+    {
+      "text": "i] — vi \" L I",
+      "confidence": 35,
+      "bbox": {
+        "x": 90,
+        "y": 1077,
+        "w": 720,
+        "h": 69
+      }
+    },
+    {
+      "text": "BG LE",
+      "confidence": 35,
+      "bbox": {
+        "x": 90,
+        "y": 1216,
+        "w": 720,
+        "h": 69
+      }
+    },
+    {
+      "text": "[me A=) ——",
+      "confidence": 35,
+      "bbox": {
+        "x": 90,
+        "y": 1355,
+        "w": 720,
+        "h": 69
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: An image of a painting is shown. The frame surrounding the image is gray with gold trim on the inside. A lion's head is carved at the top with décor surrounding it and a white plaque with décor around it along the bottom. Words are written in black inside the plaque. In the image at the left, a white bearded man sits on a large brown chair atop a two tiered green platform. He wears a tall conical white hat with gold trim, a long white shirtdress with gold décor and a similar robe over his shoulders held together with a red pin. His left arm extends out to a man kneeling in front of him in a black robe and shaved head with one small ring of hair around his head. He holds a white object with black lettering on it and at his knees is a round brown plate holding black skeleton keys. To the left of the sitting man in the forefront stands a tall man in red and white long robes, brown hair and a pale face. He holds his right hand out of his robes. At the right forefront of the image, a man in a long white robe over a long blue robe stands with his left arm extended to the man kneeling. His body is facing the back but his head is turned toward the kneeling man as well . He has short brown hair and a white and black collar on his robes. In the middle background of the image three men sit on a large green bench with a tall back. They wear long pink and white robes and a four pointed pink hat. The two men on the right are facing each other. Behind the bench, eight figures painted brown can be seen standing, wearing large hats and one holding a tall, thin axe. The wall behind them is stone colored in vertical panels. Two dark shadowy figures are seen to the right of the green bench and a figure in red and gray robes stands to the left of the bench with his face obscured.\nButton label: Click to enlarge image of An image of a painting is shown. The frame surrounding the image is gray with gold trim on the inside. A lion's head is carved at the top with décor surrounding it and a white plaque with décor around it along the bottom. Words are written in black inside the plaque. In the image at the left, a white bearded man sits on a large brown chair atop a two tiered green platform. He wears a tall conical white hat with gold trim, a long white shirtdress with gold décor and a similar robe over his shoulders held together with a red pin. His left arm extends out to a man kneeling in front of him in a black robe and shaved head with one small ring of hair around his head. He holds a white object with black lettering on it and at his knees is a round brown plate holding black skeleton keys. To the left of the sitting man in the forefront stands a tall man in red and white long robes, brown hair and a pale face. He holds his right hand out of his robes. At the right forefront of the image, a man in a long white robe over a long blue robe stands with his left arm extended to the man kneeling. His body is facing the back but his head is turned toward the kneeling man as well . He has short brown hair and a white and black collar on his robes. In the middle background of the image three men sit on a large green bench with a tall back. They wear long pink and white robes and a four pointed pink hat. The two men on the right are facing each other. Behind the bench, eight figures painted brown can be seen standing, wearing large hats and one holding a tall, thin axe. The wall behind them is stone colored in vertical panels. Two dark shadowy figures are seen to the right of the green bench and a figure in red and gray robes stands to the left of the bench with his face obscured.\nEnglish caption: Figure 13.5 The Donation of Pepin. An artist's rendering of the Donation of Pepin in 754, in which the pope granted legitimacy to Pépin le Bref as the first Carolingian king of the Franks in exchange for a grant of lands in Italy that would ensure the territorial power of the Papal States in the centuries to come. (credit: “The donation of Pepin the ",
+  "metrics": {
+    "textDensity": 0.6359447004608295,
+    "averageConfidence": 35,
+    "entropy": 7.744194702245295,
+    "sharpness": 2.5413862091583077
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: An image of a painting is shown. The frame surrounding the image is gray with gold trim on the inside. A lion's head is carved at the top with décor surrounding it and a white plaque with décor around it along the bottom. Words are written in black inside the plaque. In the image at the left, a white bearded man sits on a large brown chair atop a two tiered green platform. He wears a tall conical white hat with gold trim, a long white shirtdress with gold décor and a similar robe over his shoulders held together with a red pin. His left arm extends out to a man kneeling in front of him in a black robe and shaved head with one small ring of hair around his head. He holds a white object with black lettering on it and at his knees is a round brown plate holding black skeleton keys. To the left of the sitting man in the forefront stands a tall man in red and white long robes, brown hair and a pale face. He holds his right hand out of his robes. At the right forefront of the image, a man in a long white robe over a long blue robe stands with his left arm extended to the man kneeling. His body is facing the back but his head is turned toward the kneeling man as well . He has short brown hair and a white and black collar on his robes. In the middle background of the image three men sit on a large green bench with a tall back. They wear long pink and white robes and a four pointed pink hat. The two men on the right are facing each other. Behind the bench, eight figures painted brown can be seen standing, wearing large hats and one holding a tall, thin axe. The wall behind them is stone colored in vertical panels. Two dark shadowy figures are seen to the right of the green bench and a figure in red and gray robes stands to the left of the bench with his face obscured.\nButton label: Click to enlarge image of An image of a painting is shown. The frame surrounding the image is gray with gold trim on the inside. A lion's head is carved at the top with décor surrounding it and a white plaque with décor around it along the bottom. Words are written in black inside the plaque. In the image at the left, a white bearded man sits on a large brown chair atop a two tiered green platform. He wears a tall conical white hat with gold trim, a long white shirtdress with gold décor and a similar robe over his shoulders held together with a red pin. His left arm extends out to a man kneeling in front of him in a black robe and shaved head with one small ring of hair around his head. He holds a white object with black lettering on it and at his knees is a round brown plate holding black skeleton keys. To the left of the sitting man in the forefront stands a tall man in red and white long robes, brown hair and a pale face. He holds his right hand out of his robes. At the right forefront of the image, a man in a long white robe over a long blue robe stands with his left arm extended to the man kneeling. His body is facing the back but his head is turned toward the kneeling man as well . He has short brown hair and a white and black collar on his robes. In the middle background of the image three men sit on a large green bench with a tall back. They wear long pink and white robes and a four pointed pink hat. The two men on the right are facing each other. Behind the bench, eight figures painted brown can be seen standing, wearing large hats and one holding a tall, thin axe. The wall behind them is stone colored in vertical panels. Two dark shadowy figures are seen to the right of the green bench and a figure in red and gray robes stands to the left of the bench with his face obscured.\nEnglish caption: Figure 13.5 The Donation of Pepin. An artist's rendering of the Donation of Pepin in 754, in which the pope granted legitimacy to Pépin le Bref as the first Carolingian king of the Franks in exchange for a grant of lands in Italy that would ensure the territorial power of the Papal States in the centuries to come. (credit: “The donation of Pepin the \nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: pepin, bref. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "- - — NC ETO z —",
+        "confidence": 46,
+        "bbox": {
+          "x": 128,
+          "y": 148,
+          "w": 1021,
+          "h": 99
+        }
+      },
+      {
+        "text": "0) R ) ifort \\ J A",
+        "confidence": 46,
+        "bbox": {
+          "x": 128,
+          "y": 345,
+          "w": 1021,
+          "h": 99
+        }
+      },
+      {
+        "text": "0 m— A, 3 AG 2",
+        "confidence": 46,
+        "bbox": {
+          "x": 128,
+          "y": 542,
+          "w": 1021,
+          "h": 99
+        }
+      },
+      {
+        "text": ": Si ' «* i | !",
+        "confidence": 46,
+        "bbox": {
+          "x": 128,
+          "y": 739,
+          "w": 1021,
+          "h": 99
+        }
+      },
+      {
+        "text": "7 i . a» Io \\ x",
+        "confidence": 46,
+        "bbox": {
+          "x": 128,
+          "y": 936,
+          "w": 1021,
+          "h": 99
+        }
+      },
+      {
+        "text": "J i | ye Pd ; No pr = I} \\",
+        "confidence": 46,
+        "bbox": {
+          "x": 128,
+          "y": 1133,
+          "w": 1021,
+          "h": 99
+        }
+      },
+      {
+        "text": "I J Pde y It",
+        "confidence": 46,
+        "bbox": {
+          "x": 128,
+          "y": 1330,
+          "w": 1021,
+          "h": 99
+        }
+      },
+      {
+        "text": "(IN ror YES ||",
+        "confidence": 46,
+        "bbox": {
+          "x": 128,
+          "y": 1527,
+          "w": 1021,
+          "h": 99
+        }
+      },
+      {
+        "text": "H N [4 { \\ \\ AN rey >) \\ |",
+        "confidence": 46,
+        "bbox": {
+          "x": 128,
+          "y": 1724,
+          "w": 1021,
+          "h": 99
+        }
+      },
+      {
+        "text": "8 \" J ay nN / ) | i",
+        "confidence": 46,
+        "bbox": {
+          "x": 128,
+          "y": 1921,
+          "w": 1021,
+          "h": 99
+        }
+      },
+      {
+        "text": "¥ fl X %, & i | NJ q | |",
+        "confidence": 46,
+        "bbox": {
+          "x": 128,
+          "y": 2118,
+          "w": 1021,
+          "h": 99
+        }
+      },
+      {
+        "text": "/ IN EAN / | — | I",
+        "confidence": 46,
+        "bbox": {
+          "x": 128,
+          "y": 2315,
+          "w": 1021,
+          "h": 99
+        }
+      },
+      {
+        "text": "| — f 4 1 ! IH |",
+        "confidence": 46,
+        "bbox": {
+          "x": 128,
+          "y": 2512,
+          "w": 1021,
+          "h": 99
+        }
+      },
+      {
+        "text": "1 4 —— EA AM",
+        "confidence": 46,
+        "bbox": {
+          "x": 128,
+          "y": 2709,
+          "w": 1021,
+          "h": 99
+        }
+      },
+      {
+        "text": "1 TERY IN :",
+        "confidence": 46,
+        "bbox": {
+          "x": 128,
+          "y": 2906,
+          "w": 1021,
+          "h": 99
+        }
+      },
+      {
+        "text": ": I \\ y Tr ad I",
+        "confidence": 46,
+        "bbox": {
+          "x": 128,
+          "y": 3103,
+          "w": 1021,
+          "h": 99
+        }
+      },
+      {
+        "text": "i. Cee a — |||",
+        "confidence": 46,
+        "bbox": {
+          "x": 128,
+          "y": 3300,
+          "w": 1021,
+          "h": 99
+        }
+      },
+      {
+        "text": "ee",
+        "confidence": 46,
+        "bbox": {
+          "x": 128,
+          "y": 3497,
+          "w": 1021,
+          "h": 99
+        }
+      },
+      {
+        "text": "HA aw ser 1% Ld",
+        "confidence": 46,
+        "bbox": {
+          "x": 128,
+          "y": 3694,
+          "w": 1021,
+          "h": 99
+        }
+      },
+      {
+        "text": "eS ——— — N Y — —",
+        "confidence": 46,
+        "bbox": {
+          "x": 128,
+          "y": 3891,
+          "w": 1021,
+          "h": 99
+        }
+      },
+      {
+        "text": "wr Eee EIN = = Sl / EEEERE",
+        "confidence": 46,
+        "bbox": {
+          "x": 128,
+          "y": 4088,
+          "w": 1021,
+          "h": 99
+        }
+      },
+      {
+        "text": "3 HIEN TANG CUA PHE-PIN CHO GIAO HOANG N pd",
+        "confidence": 46,
+        "bbox": {
+          "x": 128,
+          "y": 4285,
+          "w": 1021,
+          "h": 99
+        }
+      },
+      {
+        "text": "ps & PHE-PIN HIEN TANG MANH DAT NAY CHO GIAO HOANG ve) 4 9",
+        "confidence": 46,
+        "bbox": {
+          "x": 128,
+          "y": 4482,
+          "w": 1021,
+          "h": 99
+        }
+      },
+      {
+        "text": "J VA KE TH| CHO CAC KE KE V| THANH PHE-RO MAI MAI 1) =",
+        "confidence": 46,
+        "bbox": {
+          "x": 128,
+          "y": 4679,
+          "w": 1021,
+          "h": 99
+        }
+      },
+      {
+        "text": ". SE Tl | vo PE GIAO HOANG NAM QUYEN BA TAI NOI NAY - HIEN TANG —_——",
+        "confidence": 46,
+        "bbox": {
+          "x": 128,
+          "y": 4876,
+          "w": 1021,
+          "h": 99
+        }
+      },
+      {
+        "text": "——R — ——- E = 8 PT LE",
+        "confidence": 46,
+        "bbox": {
+          "x": 128,
+          "y": 5073,
+          "w": 1021,
+          "h": 99
+        }
+      },
+      {
+        "text": "| =——% Ey (SY I \\Y EE A",
+        "confidence": 46,
+        "bbox": {
+          "x": 128,
+          "y": 5270,
+          "w": 1021,
+          "h": 99
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 2
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

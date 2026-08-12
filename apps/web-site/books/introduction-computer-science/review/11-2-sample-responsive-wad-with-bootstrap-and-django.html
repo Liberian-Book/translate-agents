@@ -1,0 +1,1109 @@
+<html><head><link rel="stylesheet" href="./style.css">
+<style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style>
+<script src="book-reviewer/book-pages.js?v=toc-accordion-1"></script>
+<link rel="stylesheet" href="book-reviewer/book-reviewer.css?v=toc-accordion-1">
+<script src="book-reviewer/book-reviewer.js?v=toc-accordion-1"></script>
+</head><body><h2 data-type="document-title" id="page_47911824-16c4-4648-b758-5a19d94fd39c_titlecreatedbycookbook" data-rex-keep="true" class="eng hidden"><span class="os-number">11.2</span>
+<span class="os-divider"> </span>
+<span data-type="" itemprop="" class="os-text">Sample Responsive WAD with Bootstrap and Django</span>
+</h2><h2 data-type="document-title" id="page_47911824-16c4-4648-b758-5a19d94fd39c_titlecreatedbycookbook-vn" data-rex-keep="true" class="vn visible"><span class="os-number">11.2</span>
+<span class="os-divider"> </span>
+<span data-type="" itemprop="" class="os-text">Mẫu WAD phản hồi với Bootstrap và Django</span></h2>
+    
+    <section data-depth="1" class="learning-objectives" id="sect-00001"><h3 data-type="title" class="eng hidden">Learning Objectives</h3><h3 data-type="title" class="vn visible">Mục tiêu học tập</h3>
+    <p id="para-00001" class="eng hidden">By the end of this section, you will be able to:</p><p id="para-00001-vn" class="vn visible">Cuối phần này, bạn sẽ có thể:</p>
+    <ul id="list-00001">
+    <li class="eng hidden">Create a Todo web application with Bootstrap and Django</li><li class="vn visible">Tạo một ứng dụng web Todo với Bootstrap và Django</li>
+    <li class="eng hidden">Create a Django project</li><li class="vn visible">Tạo một dự án Django</li>
+    <li class="eng hidden">Create and register a Todo app</li><li class="vn visible">Tạo và đăng ký một ứng dụng Todo</li>
+    <li class="eng hidden">Define the Todo model</li><li class="vn visible">Định nghĩa mô hình Todo</li>
+    <li class="eng hidden">Set up the Django REST APIs</li><li class="vn visible">Thiết lập các API REST của Django</li>
+    <li class="eng hidden">Create the user interface</li><li class="vn visible">Tạo giao diện người dùng</li>
+    </ul>
+    </section>
+    
+    <p id="para-00002" class="eng hidden">In this module, you will create a simple, responsive Todo application. To accomplish this, you will use Bootstrap and Django. Bootstrap is an open-source, responsive web application framework, and Django is a Python-based web application development framework. Both frameworks are highly popular due to their ease of use.</p><p id="para-00002-vn" class="vn visible">Trong mô-đun này, bạn sẽ tạo một ứng dụng Todo đơn giản và phản hồi. Để thực hiện điều này, bạn sẽ sử dụng Bootstrap và Django. Bootstrap là một khung ứng dụng web mã nguồn mở, phản hồi, và Django là một khung phát triển ứng dụng web dựa trên Python. Cả hai khung đều rất phổ biến nhờ vào sự dễ sử dụng của chúng.</p>
+    
+    <section data-depth="1" id="sect-00002"><h3 data-type="title" class="eng hidden">Creating a Todo Web Application with Bootstrap and Django</h3><h3 data-type="title" class="vn visible">Tạo ứng dụng web Todo với Bootstrap và Django</h3>
+    <p id="para-00003" class="eng hidden">The Todo web application in this subsection uses Bootstrap and Django. Bootstrap’s CSS templates are used for the UI features. Django serves as both the front end and back end. Django templates are part of the user interface to get and set data via HTTP requests. Incoming requests are then handled by an API built using the Django REST Framework.</p><p id="para-00003-vn" class="vn visible">Ứng dụng web Todo trong phần này sử dụng Bootstrap và Django. Các mẫu CSS của Bootstrap được sử dụng cho các tính năng giao diện người dùng. Django đóng vai trò là cả giao diện phía trước và phía sau. Các mẫu Django là một phần của giao diện người dùng để lấy và thiết lập dữ liệu thông qua các yêu cầu HTTP. Các yêu cầu đến sau đó được xử lý bởi một API được xây dựng bằng cách sử dụng Django REST Framework.</p>
+    </section>
+    
+    <section data-depth="1" id="sect-00003"><h3 data-type="title" class="eng hidden">Prerequisites</h3><h3 data-type="title" class="vn visible">Điều kiện tiên quyết</h3>
+    <p id="para-00004" class="eng hidden">To build the Todo application, you must install Python, PIP, Django, Django REST Framework, Bootstrap, and jQuery. The Todo application on the following pages was developed and tested with specific software versions. To avoid errors, please ensure you install the same versions: Python v3.9.4, PIP v21.3.1, Django v4.0.1, Django REST Framework v3.13.1, Bootstrap v4.5.0, and jQuery v3.5.1.</p><p id="para-00004-vn" class="vn visible">Để xây dựng ứng dụng Todo, bạn phải cài đặt Python, PIP, Django, Django REST Framework, Bootstrap và jQuery. Ứng dụng Todo trên các trang sau đã được phát triển và thử nghiệm với các phiên bản phần mềm cụ thể. Để tránh lỗi, hãy đảm bảo bạn cài đặt các phiên bản giống nhau: Python v3.9.4, PIP v21.3.1, Django v4.0.1, Django REST Framework v3.13.1, Bootstrap v4.5.0 và jQuery v3.5.1.</p>
+    <p id="para-00005" class="eng hidden">The steps to build the Todo application are as follows:</p><p id="para-00005-vn" class="vn visible">Các bước để xây dựng ứng dụng Todo như sau:</p>
+    <ul id="list-00002">
+    <li class="eng hidden">Install and set up a local programming environment for Python 3.</li><li class="vn visible">Cài đặt và thiết lập một môi trường lập trình cục bộ cho Python 3.</li>
+    <li class="eng hidden">Download and install Python 3.9.4.</li><li class="vn visible">Tải xuống và cài đặt Python 3.9.4.</li>
+    <li><a href="11-2-sample-responsive-wad-with-bootstrap-and-django#fig-00001" class="autogenerated-content" aria-label="View Figure 11.14">Figure 11.14</a> shows adding Python and its Scripts subfolder to your path environment data (on Windows, the path updates might be: C:\Users\your_username\AppData\Local\Programs\Python\Python39 and C:\Users\your_username\AppData\Local\Programs\Python\Python39\Scripts).
+    <div class="os-figure" id="fig-00001"><figure data-id="fig-00001" class="scaled-down ui-has-child-figcaption">
+    <span data-type="media" data-alt="Edit environment variable window shows adding Python and its Scripts folders.">
+    <button type="button" aria-label="Click to enlarge image of Edit environment variable window shows adding Python and its Scripts folders." class="image-button-wrapper"><img src="assets/translated/img-11-2-1.vi.png" data-media-type="image/jpeg" alt="Edit environment variable window shows adding Python and its Scripts folders." width="900" height="834" loading="lazy"></button>
+    </span>
+    
+    <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.14</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">This is what appears when adding Python and its Scripts folders to the environment variables path on Windows. (Used with permission from Microsoft.)</span>
+</figcaption><figcaption class="os-caption-container vn visible">
+  <span class="os-title-label">Hình ảnh </span>
+<span class="os-number">11.14</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">Đây là những gì xuất hiện khi thêm Python và các thư mục Scripts của nó vào đường dẫn biến môi trường trên Windows. (Được sử dụng với sự cho phép của Microsoft.)</span>
+</figcaption></figure></div></li>
+    <li class="eng hidden">Create a Python venv:<span data-type="newline"><br></span>
+    <code data-type="code" class="shell inline-code" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> python -m venv py394venv</span></code></li><li class="vn visible">Tạo một venv Python:<span data-type="newline"><br></span>
+    <code data-type="code" class="shell inline-code" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> python -m venv py394venv</span></code></li>
+    <li class="eng hidden">Activate the venv:<span data-type="newline"><br></span>
+    <code data-type="code" class="shell inline-code" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> <span class="hljs-built_in">cd</span> py394venv</span></code><span data-type="newline"><br></span>
+    Windows: <code data-type="code" class="shell inline-code" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> .\Scripts\activate.bat</span></code><span data-type="newline"><br></span>
+    macOS: <code data-type="code" class="shell inline-code" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> <span class="hljs-built_in">source</span> ./bin/activate</span></code></li><li class="vn visible">Kích hoạt venv:<span data-type="newline"><br></span>
+    <code data-type="code" class="shell inline-code" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> <span class="hljs-built_in">cd</span> py394venv</span></code><span data-type="newline"><br></span>
+    Windows: <code data-type="code" class="shell inline-code" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> .\Scripts\activate.bat</span></code><span data-type="newline"><br></span>
+    macOS: <code data-type="code" class="shell inline-code" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> <span class="hljs-built_in">source</span> ./bin/activate</span></code></li>
+    <li class="eng hidden">Install in the local programming environment Django:<span data-type="newline"><br></span>
+    <code data-type="code" class="shell inline-code" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> pip install Django==4.0.1</span></code></li><li class="vn visible">Cài đặt Django trong môi trường lập trình địa phương:<span data-type="newline"><br></span> <code data-type="code" class="shell inline-code" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> pip install Django==4.0.1</span></code></li>
+    <li class="eng hidden">Install in the local programming environment Django REST Framework:<span data-type="newline"><br></span>
+    <code data-type="code" class="shell inline-code" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> pip install djangorestframework==3.13.1]</span></code></li><li class="vn visible">Cài đặt trong môi trường lập trình địa phương Django REST Framework:<span data-type="newline"><br></span> 
+    <code data-type="code" class="shell inline-code" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> pip install djangorestframework==3.13.1]</span></code></li>
+    </ul>
+    <p id="para-00006" class="eng hidden"><a href="11-2-sample-responsive-wad-with-bootstrap-and-django#fig-00002" class="autogenerated-content" aria-label="View Figure 11.15">Figure 11.15</a> shows the sequence of steps needed to install the Python environment for working with Django and the Django REST Framework.</p><p id="para-00006-vn" class="vn visible"><a href="11-2-sample-responsive-wad-with-bootstrap-and-django#fig-00002" class="autogenerated-content" aria-label="View Figure 11.15">Hình 11.15</a> cho thấy chuỗi các bước cần thiết để cài đặt môi trường Python cho việc làm việc với Django và Django REST Framework.</p>
+    <div class="os-figure" id="fig-00002"><figure data-id="fig-00002" class="ui-has-child-figcaption">
+    <span data-type="media" data-alt="Sequence of steps needed to install the Python environment.">
+    <button type="button" aria-label="Click to enlarge image of Sequence of steps needed to install the Python environment." class="image-button-wrapper"><img src="assets/translated/img-11-2-2.vi.png" data-media-type="image/jpeg" alt="Sequence of steps needed to install the Python environment." width="1304" height="1068" loading="lazy"></button>
+    
+    </span>
+    
+    <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.15</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">This screenshot displays the sequence of steps needed to install the Python environment. (Used with permission from Microsoft)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>  
+<span class="os-number">11.15</span>  
+  
+<span class="os-divider"> </span>  
+<span class="os-caption">Ảnh chụp màn hình này hiển thị chuỗi các bước cần thiết để cài đặt môi trường Python. (Sử dụng với sự cho phép từ Microsoft)</span></figcaption></figure></div>
+    </section>
+    
+    <section data-depth="1" id="sect-00004"><h3 data-type="title" class="eng hidden">Creating the Django Project</h3><h3 data-type="title" class="vn visible">Tạo Dự Án Django</h3>
+    <p id="para-00007" class="eng hidden">The first step to building a Django web application is to create a <span data-type="term" id="term-00001" group-by="D">Django project</span>, which is a high-level directory used to contain the directories and files necessary to run a Django web application. To create a Django project, run the following commands:</p><p id="para-00007-vn" class="vn visible">Bước đầu tiên để xây dựng một ứng dụng web Django là tạo một <span data-type="term" id="term-00001" group-by="D">Django project</span>, đây là một thư mục cấp cao được sử dụng để chứa các thư mục và tệp cần thiết để chạy một ứng dụng web Django. Để tạo một Django project, hãy chạy các lệnh sau:</p>
+    <pre data-type="code" class="shell" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> mkdir BootstrapDjangoToDoApp</span>
+<span class="hljs-meta">$</span><span class="bash"> <span class="hljs-built_in">cd</span> BootstrapDjangoToDoApp</span>
+<span class="hljs-meta">$</span><span class="bash"> django-admin startproject ToDoApp.</span></pre>
+    <p id="para-00008" class="eng hidden">The period at the end of the last command is very important to ensure that Django-dependent files are generated in the current directory. By following these commands, the directory, BootstrapDjangoToDoApp/, will be created and Django-dependent files will be generated as shown in <a href="11-2-sample-responsive-wad-with-bootstrap-and-django#fig-00003" class="autogenerated-content" aria-label="View Figure 11.16">Figure 11.16</a>.</p><p id="para-00008-vn" class="vn visible">Dấu chấm ở cuối lệnh cuối cùng rất quan trọng để đảm bảo rằng các tệp phụ thuộc vào Django được tạo ra trong thư mục hiện tại. Bằng cách thực hiện các lệnh này, thư mục BootstrapDjangoToDoApp/ sẽ được tạo ra và các tệp phụ thuộc vào Django sẽ được tạo ra như được hiển thị trong <a href="11-2-sample-responsive-wad-with-bootstrap-and-django#fig-00003" class="autogenerated-content" aria-label="View Figure 11.16">Hình 11.16</a>.</p>
+    <div class="os-figure" id="fig-00003"><figure data-id="fig-00003" class="scaled-down ui-has-child-figcaption">
+    <span data-type="media" data-alt="Directory BootstrapDjanoToDoApp includes Django-dependent files: _pycache_, static, _init_.py, asgi.py, settings.py, urls.py, wsgi.py, db.sqlite3, manage.py.">
+    <button type="button" aria-label="Click to enlarge image of Directory BootstrapDjanoToDoApp includes Django-dependent files: _pycache_, static, _init_.py, asgi.py, settings.py, urls.py, wsgi.py, db.sqlite3, manage.py." class="image-button-wrapper"><img src="assets/translated/img-11-2-3.vi.png" data-media-type="image/jpeg" alt="Directory BootstrapDjanoToDoApp includes Django-dependent files: _pycache_, static, _init_.py, asgi.py, settings.py, urls.py, wsgi.py, db.sqlite3, manage.py." width="270" height="513" loading="lazy"></button>
+    </span>
+    
+    <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.16</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">The directory BootstrapDjangoToDoApp/ includes these Django-dependent files. (rendered in Django, a registered trademark of the Django Software Foundation; attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible">
+  <span class="os-title-label">Hình ảnh </span>
+<span class="os-number">11.16</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">Thư mục BootstrapDjangoToDoApp/ bao gồm các tệp phụ thuộc vào Django. (được hiển thị trong Django, một nhãn hiệu đã đăng ký của Quỹ Phần mềm Django; quyền sở hữu: Bản quyền Đại học Rice, OpenStax, theo giấy phép CC BY NC-SA 4.0)</span>
+</figcaption></figure></div>
+    <p id="para-00009" class="eng hidden">Django built-in database tables are used to manage users, groups, migrations, and so forth in a web application. To generate these tables, run the migrate command:</p><p id="para-00009-vn" class="vn visible">Các bảng cơ sở dữ liệu tích hợp sẵn của Django được sử dụng để quản lý người dùng, nhóm, di chuyển, và nhiều thứ khác trong một ứng dụng web. Để tạo ra những bảng này, hãy chạy lệnh migrate:</p>
+    <pre data-type="code" class="shell" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> python manage.py migrate</span></pre>
+    <p id="para-00010" class="eng hidden">The final step to creating a Django project is to confirm that the setup was completed. To do this, run the runserver command shown here:</p><p id="para-00010-vn" class="vn visible">Bước cuối cùng để tạo một dự án Django là xác nhận rằng việc thiết lập đã hoàn tất. Để làm điều này, hãy chạy lệnh runserver như được hiển thị ở đây:</p>
+    <pre data-type="code" class="shell" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> python manage.py runserver</span></pre>
+    <p id="para-00011" class="eng hidden">To further confirm that the Django project setup was completed, launch a browser and navigate to <a href="http://localhost:8000" aria-label="Go to http://localhost:8000" data-bare-link="true">http://localhost:8000</a>. <a href="11-2-sample-responsive-wad-with-bootstrap-and-django#fig-00004" class="autogenerated-content" aria-label="View Figure 11.17">Figure 11.17</a> shows the Django page.</p><p id="para-00011-vn" class="vn visible">Để xác nhận thêm rằng việc thiết lập dự án Django đã hoàn tất, hãy khởi động một trình duyệt và điều hướng đến <a href="http://localhost:8000" aria-label="Go to http://localhost:8000" data-bare-link="true">http://localhost:8000</a>. <a href="11-2-sample-responsive-wad-with-bootstrap-and-django#fig-00004" class="autogenerated-content" aria-label="View Figure 11.17">Hình 11.17</a> hiển thị trang Django.</p>
+    <div class="os-figure" id="fig-00004"><figure data-id="fig-00004" class="ui-has-child-figcaption">
+    <span data-type="media" data-alt="Django page shown once project setup is complete: The install worked successfully! Congratulations!">
+    <button type="button" aria-label="Click to enlarge image of Django page shown once project setup is complete: The install worked successfully! Congratulations!" class="image-button-wrapper"><img src="assets/translated/img-11-2-4.vi.png" data-media-type="image/jpeg" alt="Django page shown once project setup is complete: The install worked successfully! Congratulations!" width="1101" height="657" loading="lazy"></button>
+    </span>
+    
+    <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.17</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">Once the Django project setup is successfully completed, this page should appear at <a href="http://localhost:8000" aria-label="Go to http://localhost:8000" data-bare-link="true">http://localhost:8000</a>. (credit: Django is a registered trademark of the Django Software Foundation.)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">11.17</span>
+
+<span class="os-divider"> </span>
+<span class="os-caption">Khi việc thiết lập dự án Django hoàn tất thành công, trang này sẽ xuất hiện tại <a href="http://localhost:8000" aria-label="Go to http://localhost:8000" data-bare-link="true">http://localhost:8000</a>. (tín dụng: Django là thương hiệu đã đăng ký của Quỹ Phần mềm Django.)</span></figcaption></figure></div>
+    <div data-type="note" class="link-to-learning ui-has-child-title" id="note-00001"><header><h3 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label">Link to Learning</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Liên kết đến Học tập</span></h3></header><section>
+<div class="os-note-body">
+    <p id="para-00012" class="eng hidden"><a href="https://openstax.org/r/76Django" target="_blank" rel="noopener nofollow" aria-label="Go to Django">Django</a> is a free and open-source Python web framework that can make web development more efficient and less time-consuming. With an emphasis on streamlining web development and making it easier for web developers to meet deadlines, Django also requires less code.</p><p id="para-00012-vn" class="vn visible"><a href="https://openstax.org/r/76Django" target="_blank" rel="noopener nofollow" aria-label="Go to Django">Django</a> là một framework web Python miễn phí và mã nguồn mở có thể làm cho việc phát triển web hiệu quả hơn và tiết kiệm thời gian hơn. Với sự nhấn mạnh vào việc đơn giản hóa phát triển web và giúp các nhà phát triển web dễ dàng đáp ứng thời hạn, Django cũng yêu cầu ít mã hơn.</p>
+    </div></section></div>
+    </section>
+    
+    <section data-depth="1" id="sect-00005"><h3 data-type="title" class="eng hidden">Creating and Registering the Todo App</h3><h3 data-type="title" class="vn visible">Tạo và Đăng ký Ứng dụng Todo</h3>
+    <p id="para-00013" class="eng hidden">Once the Django project is successfully completed and set up, the next step is to create the Todo application and register it in the Django project. To accomplish this, run the following command:</p><p id="para-00013-vn" class="vn visible">Khi dự án Django đã hoàn thành và được thiết lập thành công, bước tiếp theo là tạo ứng dụng Todo và đăng ký nó trong dự án Django. Để thực hiện điều này, hãy chạy lệnh sau:</p>
+    <pre data-type="code" class="shell" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> python manage.py startapp todo</span></pre>
+    <p id="para-00014" class="eng hidden">The todo/ directory will be generated under the Django project directory, BootstrapDjangoToDoApp/. Files related to the Todo application will be generated as shown in <a href="11-2-sample-responsive-wad-with-bootstrap-and-django#fig-00005" class="autogenerated-content" aria-label="View Figure 11.18">Figure 11.18</a>.</p><p id="para-00014-vn" class="vn visible">Thư mục todo/ sẽ được tạo ra dưới thư mục dự án Django, BootstrapDjangoToDoApp/. Các tệp liên quan đến ứng dụng Todo sẽ được tạo ra như được hiển thị trong <a href="11-2-sample-responsive-wad-with-bootstrap-and-django#fig-00005" class="autogenerated-content" aria-label="View Figure 11.18">Hình 11.18</a>.</p>
+    <div class="os-figure" id="fig-00005"><figure data-id="fig-00005" class="scaled-down ui-has-child-figcaption">
+    <span data-type="media" data-alt="Todo/ directory generated under the Django project directory: _pycache_, migrations, static, _init_.py, admin.py, apps.py, models.py, tests.py, urls.py, views.py.">
+    <button type="button" aria-label="Click to enlarge image of Todo/ directory generated under the Django project directory: _pycache_, migrations, static, _init_.py, admin.py, apps.py, models.py, tests.py, urls.py, views.py." class="image-button-wrapper"><img src="assets/translated/img-11-2-5.vi.png" data-media-type="image/jpeg" alt="Todo/ directory generated under the Django project directory: _pycache_, migrations, static, _init_.py, admin.py, apps.py, models.py, tests.py, urls.py, views.py." width="270" height="563" loading="lazy"></button>
+    </span>
+    
+    <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.18</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">This shows the todo/ directory, which is generated under the Django project directory, BootstrapDjangoToDoApp/. (rendered in Django, a registered trademark of the Django Software Foundation; attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>  
+<span class="os-number">11.18</span>  
+
+<span class="os-divider"> </span>  
+<span class="os-caption">Điều này cho thấy thư mục todo/, được tạo ra dưới thư mục dự án Django, BootstrapDjangoToDoApp/. (được hiển thị trong Django, một thương hiệu đã đăng ký của Quỹ Phần mềm Django; bản quyền: Copyright Rice University, OpenStax, theo giấy phép CC BY NC-SA 4.0)</span></figcaption></figure></div>
+    <p id="para-00015" class="eng hidden">Next, the Todo application must be registered in the Django project as an installed app so that Django can recognize it. To do this, open the ToDoApp/settings.py file. Look for the INSTALLED_APPS variable as seen in <a href="11-2-sample-responsive-wad-with-bootstrap-and-django#fig-00006" class="autogenerated-content" aria-label="View Figure 11.19">Figure 11.19</a>. Add ‘todo’ to the list as shown. Because the Django REST Framework will be used, also add ‘rest_framework’ to the list.</p><p id="para-00015-vn" class="vn visible">Tiếp theo, ứng dụng Todo phải được đăng ký trong dự án Django như một ứng dụng đã cài đặt để Django có thể nhận diện nó. Để làm điều này, hãy mở tệp ToDoApp/settings.py. Tìm biến INSTALLED_APPS như thấy trong <a href="11-2-sample-responsive-wad-with-bootstrap-and-django#fig-00006" class="autogenerated-content" aria-label="View Figure 11.19">Hình 11.19</a>. Thêm 'todo' vào danh sách như đã chỉ ra. Bởi vì Django REST Framework sẽ được sử dụng, cũng hãy thêm 'rest_framework' vào danh sách.</p>
+    <div class="os-figure" id="fig-00006"><figure data-id="fig-00006" class="scaled-down ui-has-child-figcaption">
+    <span data-type="media" data-alt="A list of installed apps includes ‘rest_framework’ and ‘todo’.">
+    <button type="button" aria-label="Click to enlarge image of A list of installed apps includes ‘rest_framework’ and ‘todo’." class="image-button-wrapper"><img src="assets/translated/img-11-2-6.vi.png" data-media-type="image/jpeg" alt="A list of installed apps includes ‘rest_framework’ and ‘todo’." width="713" height="488" loading="lazy"></button>
+    </span>
+    
+    <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.19</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">To register the Todo application in the Django project as an installed app, the list of installed apps should include ‘rest_framework’ and ‘todo’. (rendered in Django, a registered trademark of the Django Software Foundation; attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">11.19</span>
+
+
+
+<span class="os-divider"> </span>
+<span class="os-caption">Để đăng ký ứng dụng Todo trong dự án Django như một ứng dụng đã cài đặt, danh sách các ứng dụng đã cài đặt nên bao gồm ‘rest_framework’ và ‘todo’. (được hiển thị trong Django, một thương hiệu đã đăng ký của Quỹ Phần mềm Django; bản quyền: Đại học Rice, OpenStax, theo giấy phép CC BY NC-SA 4.0)</span></figcaption></figure></div>
+    </section>
+    
+    <section data-depth="1" id="sect-00006"><h3 data-type="title" class="eng hidden">Define the Todo Model</h3><h3 data-type="title" class="vn visible">Định nghĩa Mô hình Todo</h3>
+    <p id="para-00016" class="eng hidden">Once you register and install the ToDo web application, you will be able to create todo tasks, which can be assigned categories. The next step is to create the models. Two models will be created for Category and TodoList. Open the todo/models.py file and add the code shown.</p><p id="para-00016-vn" class="vn visible">Khi bạn đăng ký và cài đặt ứng dụng web ToDo, bạn sẽ có thể tạo các nhiệm vụ todo, có thể được gán các danh mục. Bước tiếp theo là tạo các mô hình. Hai mô hình sẽ được tạo cho Category và TodoList. Mở tệp todo/models.py và thêm mã được hiển thị.</p>
+    <pre data-type="code" class="python" data-lang="python"><span class="hljs-comment"># -*- coding: utf-8 -*-</span>
+<span class="hljs-keyword">from</span> __future__ <span class="hljs-keyword">import</span> unicode_literals
+
+<span class="hljs-keyword">from</span> django.db <span class="hljs-keyword">import</span> models
+<span class="hljs-keyword">from</span> django.utils <span class="hljs-keyword">import</span> timezone
+
+<span class="hljs-comment"># Create your models here.</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Category</span>(<span class="hljs-params">models.Model</span>):</span>
+
+&nbsp;&nbsp;name = models.CharField(max_length=<span class="hljs-number">100</span>)
+
+&nbsp;&nbsp;<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Meta</span>:</span>
+&nbsp;&nbsp;&nbsp;&nbsp;verbose_name = (<span class="hljs-string">"Category"</span>)
+&nbsp;&nbsp;&nbsp;&nbsp;verbose_name_plural = (<span class="hljs-string">"Categories"</span>)
+
+&nbsp;&nbsp;<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__str__</span>(<span class="hljs-params">self</span>):</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">return</span> self.name
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">TodoList</span>(<span class="hljs-params">models.Model</span>):</span>
+&nbsp;&nbsp;title = models.CharField(max_length=<span class="hljs-number">250</span>)
+&nbsp;&nbsp;content = models.TextField(blank=<span class="hljs-literal">True</span>)
+&nbsp;&nbsp;created = models.DateField(default=timezone.now().strftime(<span class="hljs-string">"%Y-%m-%d"</span>))
+&nbsp;&nbsp;due_date = models.DateField(default=timezone.now().strftime(<span class="hljs-string">"%Y-%m-%d"</span>))
+&nbsp;&nbsp;category = models.ForeignKey(Category, default=<span class="hljs-string">"General"</span>, on_delete=models.DO_NOTHING)
+&nbsp;&nbsp;<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Meta</span>:</span>
+&nbsp;&nbsp;&nbsp;&nbsp;ordering = [<span class="hljs-string">"-created"</span>] <span class="hljs-comment"># order by most recently created</span>
+&nbsp;&nbsp;<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__str__</span>(<span class="hljs-params">self</span>):</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">return</span> self.title</pre>
+    <p id="para-00017" class="eng hidden">The Category and TodoList Python classes describe the properties for the models for Category and TodoList tables, respectively. The TodoList model contains a ForeignKey field to the Category model. Each todo item will be associated with one category. After creating the models, a migration file needs to be generated to create the physical tables in the database. To generate the migration file, run the following command:</p><p id="para-00017-vn" class="vn visible">Các lớp Python Category và TodoList mô tả các thuộc tính cho các mô hình của bảng Category và TodoList, tương ứng. Mô hình TodoList chứa một trường ForeignKey đến mô hình Category. Mỗi mục todo sẽ được liên kết với một danh mục. Sau khi tạo các mô hình, một tệp di chuyển cần được tạo ra để tạo các bảng vật lý trong cơ sở dữ liệu. Để tạo tệp di chuyển, hãy chạy lệnh sau:</p>
+    <pre data-type="code" class="python" data-lang="python">    $ python manage.py makemigrations todo
+    </pre>
+    <p id="para-00018" class="eng hidden">This command will generate a migration file in todo/migrations/, which will look like the following code.</p><p id="para-00018-vn" class="vn visible">Lệnh này sẽ tạo ra một tệp di chuyển trong todo/migrations/, sẽ trông giống như mã sau.</p>
+    <pre data-type="code" class="python" data-lang="python"><span class="hljs-comment"># Generated by Django 4.0.1 on 2022-01-30 21:14</span>
+
+<span class="hljs-keyword">from</span> django.db <span class="hljs-keyword">import</span> migrations, models
+<span class="hljs-keyword">import</span> django.db.models.deletion
+
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Migration</span>(<span class="hljs-params">migrations.Migration</span>):</span>
+
+&nbsp;&nbsp;initial = <span class="hljs-literal">True</span>
+
+&nbsp;&nbsp;dependencies = [
+&nbsp;&nbsp;]
+
+&nbsp;&nbsp;operations = [
+&nbsp;&nbsp; &nbsp;&nbsp;migrations.CreateModel(
+&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;name=<span class="hljs-string">'Category'</span>,
+&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;fields=[
+&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;(<span class="hljs-string">'id'</span>, models.BigAutoField(auto_created=<span class="hljs-literal">True</span>, primary_key=<span class="hljs-literal">True</span>, serialize=<span class="hljs-literal">False</span>, verbose_name=<span class="hljs-string">'ID'</span>)),
+&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;(<span class="hljs-string">'name'</span>, models.CharField(max_length=<span class="hljs-number">100</span>)),
+&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;],
+&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;options={
+&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<span class="hljs-string">'verbose_name'</span>: <span class="hljs-string">'Category'</span>,
+&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<span class="hljs-string">'verbose_name_plural'</span>: <span class="hljs-string">'Categories'</span>,
+&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;},
+&nbsp;&nbsp; &nbsp;&nbsp;),
+&nbsp;&nbsp; &nbsp;&nbsp;migrations.CreateModel(
+&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;name=<span class="hljs-string">'TodoList'</span>,
+&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;fields=[
+&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;(<span class="hljs-string">'id'</span>, models.BigAutoField(auto_created=<span class="hljs-literal">True</span>, primary_key=<span class="hljs-literal">True</span>, serialize=<span class="hljs-literal">False</span>, verbose_name=<span class="hljs-string">'ID'</span>)),
+&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;(<span class="hljs-string">'title'</span>, models.CharField(max_length=<span class="hljs-number">250</span>)),
+&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;(<span class="hljs-string">'content'</span>, models.TextField(blank=<span class="hljs-literal">True</span>)),
+&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;(<span class="hljs-string">'created'</span>, models.DateField(default=<span class="hljs-string">'2022-01-30'</span>)),
+&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;(<span class="hljs-string">'due_date'</span>, models.DateField(default=<span class="hljs-string">'2022-01-30'</span>)),
+&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;(<span class="hljs-string">'category'</span>, models.ForeignKey(default=<span class="hljs-string">'General'</span>, on_delete=django.db.models.deletion.DO_NOTHING, to=<span class="hljs-string">'todo.category'</span>)),
+&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;],
+&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;options={
+&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<span class="hljs-string">'ordering'</span>: [<span class="hljs-string">'-created'</span>],
+&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;},
+&nbsp;&nbsp; &nbsp;&nbsp;),
+&nbsp;&nbsp;]</pre>
+    <p id="para-00019" class="eng hidden">The next step is to apply the changes in the migration file to the database, which is accomplished by running the following command:</p><p id="para-00019-vn" class="vn visible">Bước tiếp theo là áp dụng các thay đổi trong tệp di cư vào cơ sở dữ liệu, điều này được thực hiện bằng cách chạy lệnh sau:</p>
+    <pre data-type="code" class="shell" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> python manage.py migrate</span></pre>
+    <p id="para-00020" class="eng hidden">For this application, Django uses the default sqlite3 (db.sqlite3) database. Please note that Django supports other databases as well, including MySQL and PostgreSQL. To define the Todo model, you can use the default Django admin interface to perform CRUD operations on the database. To use the admin interface, open the todo/admin.py file and register the models as seen in the following code snippet.</p><p id="para-00020-vn" class="vn visible">Đối với ứng dụng này, Django sử dụng cơ sở dữ liệu sqlite3 mặc định (db.sqlite3). Xin lưu ý rằng Django cũng hỗ trợ các cơ sở dữ liệu khác, bao gồm MySQL và PostgreSQL. Để định nghĩa mô hình Todo, bạn có thể sử dụng giao diện quản trị Django mặc định để thực hiện các thao tác CRUD trên cơ sở dữ liệu. Để sử dụng giao diện quản trị, hãy mở tệp todo/admin.py và đăng ký các mô hình như được thấy trong đoạn mã sau.</p>
+    <pre data-type="code" class="python" data-lang="python"><span class="hljs-comment"># -*- coding: utf-8 -*-</span>
+<span class="hljs-keyword">from</span> __future__ <span class="hljs-keyword">import</span> unicode_literals
+
+<span class="hljs-keyword">from</span> django.contrib <span class="hljs-keyword">import</span> admin
+<span class="hljs-keyword">from</span> . <span class="hljs-keyword">import</span> models
+
+<span class="hljs-comment"># Register your models here.</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">TodoListAdmin</span>(<span class="hljs-params">admin.ModelAdmin</span>):</span>
+&nbsp;&nbsp;list_display = (<span class="hljs-string">"title"</span>, <span class="hljs-string">"created"</span>, <span class="hljs-string">"due_date"</span>)
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">CategoryAdmin</span>(<span class="hljs-params">admin.ModelAdmin</span>):</span>
+&nbsp;&nbsp;list_display = (<span class="hljs-string">"name"</span>,)
+
+admin.site.register(models.TodoList, TodoListAdmin)
+admin.site.register(models.Category, CategoryAdmin)</pre>
+    <p id="para-00021" class="eng hidden">The next step is to create a superuser account that allows access to the admin interface. To do this, run the following command and follow the prompts to enter a username, email address, and password for the superuser.</p><p id="para-00021-vn" class="vn visible">Bước tiếp theo là tạo một tài khoản superuser cho phép truy cập vào giao diện quản trị. Để làm điều này, hãy chạy lệnh sau và làm theo các hướng dẫn để nhập tên người dùng, địa chỉ email và mật khẩu cho superuser.</p>
+    <pre data-type="code" class="shell" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> python manage.py createsuperuser</span></pre>
+    <p id="para-00022" class="eng hidden">Once this step is complete, restart the server using the following command:</p><p id="para-00022-vn" class="vn visible">Khi bước này hoàn tất, hãy khởi động lại máy chủ bằng lệnh sau:</p>
+    <pre data-type="code" class="shell" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> python manage.py runserver</span></pre>
+    <p id="para-00023" class="eng hidden">After this is complete, open a browser and navigate to <a href="http://localhost:8000/admin/" aria-label="Go to http://localhost:8000/admin/" data-bare-link="true">http://localhost:8000/admin/</a>. To access the admin interface, log in with the credentials that you set up for the superuser. When you log in to the admin interface, you should see the following page from <a href="11-2-sample-responsive-wad-with-bootstrap-and-django#fig-00007" class="autogenerated-content" aria-label="View Figure 11.20">Figure 11.20</a>. On this page, you will have the ability to create, edit, and delete categories and todo items.</p><p id="para-00023-vn" class="vn visible">Sau khi hoàn thành, hãy mở trình duyệt và điều hướng đến <a href="http://localhost:8000/admin/" aria-label="Go to http://localhost:8000/admin/" data-bare-link="true">http://localhost:8000/admin/</a>. Để truy cập giao diện quản trị, hãy đăng nhập bằng thông tin xác thực mà bạn đã thiết lập cho người dùng siêu cấp. Khi bạn đăng nhập vào giao diện quản trị, bạn sẽ thấy trang sau từ <a href="11-2-sample-responsive-wad-with-bootstrap-and-django#fig-00007" class="autogenerated-content" aria-label="View Figure 11.20">Hình 11.20</a>. Trên trang này, bạn sẽ có khả năng tạo, chỉnh sửa và xóa các danh mục và mục todo.</p>
+    <div class="os-figure" id="fig-00007"><figure data-id="fig-00007" class="ui-has-child-figcaption">
+    <span data-type="media" data-alt="The Django administration interface shows site administration tools to create, edit, and delete categories and todo items.">
+    <button type="button" aria-label="Click to enlarge image of The Django administration interface shows site administration tools to create, edit, and delete categories and todo items." class="image-button-wrapper"><img src="assets/img-11-2-7.webp" data-media-type="image/jpeg" alt="The Django administration interface shows site administration tools to create, edit, and delete categories and todo items." width="1160" height="668" loading="lazy"></button>
+    </span>
+    
+    <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.20</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">The admin interface is where superusers can create, edit, and delete categories and todo items in the Todo web application. (rendered in Django, a registered trademark of the Django Software Foundation; attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">11.20</span>
+
+<span class="os-divider"> </span>
+<span class="os-caption">Giao diện quản trị là nơi mà người dùng siêu cấp có thể tạo, chỉnh sửa và xóa các danh mục và mục công việc trong ứng dụng web Todo. (được phát triển bằng Django, một thương hiệu đã đăng ký của Quỹ Phần mềm Django; bản quyền: Bản quyền Đại học Rice, OpenStax, theo giấy phép CC BY NC-SA 4.0)</span></figcaption></figure></div>
+    </section>
+    
+    <section data-depth="1" id="sect-00007"><h3 data-type="title" class="eng hidden">Setting Up the Django REST APIs</h3><h3 data-type="title" class="vn visible">Thiết lập các API REST của Django</h3>
+    <p id="para-00024" class="eng hidden">Previously, you installed the Django REST Framework, which provides a toolkit to build APIs. In this section, you’ll create the serializers, <span data-type="term" class="no-emphasis" id="term-00002" group-by="V">View</span> functions, and routers required for the API.</p><p id="para-00024-vn" class="vn visible">Trước đó, bạn đã cài đặt Django REST Framework, cung cấp một bộ công cụ để xây dựng API. Trong phần này, chúng ta sẽ tạo các bộ tuần tự, <span data-type="term" class="no-emphasis" id="term-00002" group-by="V">View</span> hàm và router cần thiết cho API.</p>
+    <section data-depth="2" id="sect-00008"><h4 data-type="title" class="eng hidden">Creating the Serializers</h4><h4 data-type="title" class="vn visible">Tạo các Bộ tuần tự</h4>
+    <p id="para-00025" class="eng hidden">The next step is to implement two serializers, one for the Category model and one for the TodoList model. A <span data-type="term" id="term-00003" group-by="s">serializer</span> is a tool to control response outputs and convert complex data into content, such as JSON. In the todo/ directory, create the file, serializers.py, and add the code shown in the code snippet that follows. The serializer classes inherit from serializers.ModelSerializer because this class creates the serializer, with fields corresponding to the Model fields defined earlier. Each serializer specifies the Model to work with and the fields to be included in the JSON object, which are all fields.</p><p id="para-00025-vn" class="vn visible">Bước tiếp theo là triển khai hai bộ tuần tự, một cho mô hình Category và một cho mô hình TodoList. Một <span data-type="term" id="term-00003" group-by="s">serializer</span> là một công cụ để kiểm soát đầu ra phản hồi và chuyển đổi dữ liệu phức tạp thành nội dung, chẳng hạn như JSON. Trong thư mục todo/, hãy tạo tệp serializers.py và thêm mã được hiển thị trong đoạn mã sau. Các lớp serializer kế thừa từ serializers.ModelSerializer vì lớp này tạo ra bộ tuần tự, với các trường tương ứng với các trường của mô hình đã được định nghĩa trước đó. Mỗi bộ tuần tự chỉ định mô hình để làm việc và các trường sẽ được bao gồm trong đối tượng JSON, đó là tất cả các trường.</p>
+    <pre data-type="code" class="python" data-lang="python"><span class="hljs-comment"># todo/serializers.py</span>
+
+<span class="hljs-keyword">from</span> rest_framework <span class="hljs-keyword">import</span> serializers
+<span class="hljs-keyword">from</span> .models <span class="hljs-keyword">import</span> TodoList, Category
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">CategorySerializer</span>(<span class="hljs-params">serializers.ModelSerializer</span>):</span>
+&nbsp;&nbsp;<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Meta</span>:</span>
+&nbsp;&nbsp;&nbsp;&nbsp;model = Category
+&nbsp;&nbsp;&nbsp;&nbsp;fields = <span class="hljs-string">"__all__"</span>
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">TodoSerializer</span>(<span class="hljs-params">serializers.ModelSerializer</span>):</span>
+&nbsp;&nbsp;<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Meta</span>:</span>
+&nbsp;&nbsp;&nbsp;&nbsp;model = TodoList
+&nbsp;&nbsp;&nbsp;&nbsp;fields = <span class="hljs-string">"__all__"</span></pre>
+    </section>
+    <section data-depth="2" id="sect-00009"><h4 data-type="title" class="eng hidden">Creating the View</h4><h4 data-type="title" class="vn visible">Tạo giao diện</h4>
+    <p id="para-00026" class="eng hidden">After you create each serializer, the next step is to create a corresponding View function for both the Category serializer and the Todo serializer. To do this, open todo/views.py and add the code shown in the code snippet that follows. The viewsets class, which provides a default implementation of the CRUD operations, is imported from rest_framework. The CategoryView and TodoView classes provide a queryset of categories and todo items, respectively. They also specify the serializer_class defined in the previous section.</p><p id="para-00026-vn" class="vn visible">Sau khi bạn tạo mỗi serializer, bước tiếp theo là tạo một hàm View tương ứng cho cả serializer Category và serializer Todo. Để làm điều này, hãy mở todo/views.py và thêm mã được hiển thị trong đoạn mã sau. Lớp viewsets, cung cấp một triển khai mặc định của các thao tác CRUD, được nhập từ rest_framework. Các lớp CategoryView và TodoView cung cấp một queryset của các danh mục và các mục todo, tương ứng. Chúng cũng chỉ định serializer_class được định nghĩa trong phần trước.</p>
+    <pre data-type="code" class="python" data-lang="python"><span class="hljs-comment"># -*- coding: utf-8 -*-</span>
+<span class="hljs-keyword">from</span> __future__ <span class="hljs-keyword">import</span> unicode_literals
+
+<span class="hljs-keyword">from</span> django.shortcuts <span class="hljs-keyword">import</span> render,redirect
+<span class="hljs-keyword">from</span> rest_framework <span class="hljs-keyword">import</span> viewsets
+<span class="hljs-keyword">from</span> .serializers <span class="hljs-keyword">import</span> TodoSerializer, CategorySerializer
+<span class="hljs-keyword">from</span> .models <span class="hljs-keyword">import</span> TodoList, Category
+<span class="hljs-keyword">import</span> datetime
+
+<span class="hljs-comment"># Create your views here.</span>
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">CategoryView</span>(<span class="hljs-params">viewsets.ModelViewSet</span>):</span>
+&nbsp;&nbsp;queryset = Category.objects.<span class="hljs-built_in">all</span>()
+&nbsp;&nbsp;serializer_class = CategorySerializer
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">TodoView</span>(<span class="hljs-params">viewsets.ModelViewSet</span>):</span>
+&nbsp;&nbsp;queryset = TodoList.objects.<span class="hljs-built_in">all</span>()
+&nbsp;&nbsp;serializer_class = TodoSerializer</pre>
+    </section>
+    <section data-depth="2" id="sect-00010"><h4 data-type="title" class="eng hidden">Creating the Routers</h4><h4 data-type="title" class="vn visible">Tạo các Bộ định tuyến</h4>
+    <p id="para-00027" class="eng hidden">The next step is to create the routers that provide URL paths for the API. To do this, open the todo/urls.py file and add the code shown in the code snippet that follows:</p><p id="para-00027-vn" class="vn visible">Bước tiếp theo là tạo các bộ định tuyến cung cấp các đường dẫn URL cho API. Để làm điều này, hãy mở tệp todo/urls.py và thêm mã được hiển thị trong đoạn mã sau:</p>
+    <pre data-type="code" class="python" data-lang="python"><span class="hljs-keyword">from</span> django.urls <span class="hljs-keyword">import</span> path, include
+<span class="hljs-comment">#from todo import views as todo_views</span>
+<span class="hljs-keyword">from</span> rest_framework <span class="hljs-keyword">import</span> routers
+<span class="hljs-keyword">from</span> todo.views <span class="hljs-keyword">import</span> *
+
+router = routers.DefaultRouter()
+router.register(<span class="hljs-string">r'categories'</span>, CategoryView, basename=<span class="hljs-string">'Categories'</span>)
+router.register(<span class="hljs-string">r'todos'</span>, TodoView, basename=<span class="hljs-string">'Todos'</span>)
+
+urlpatterns = [
+&nbsp;&nbsp;path(<span class="hljs-string">''</span>, index, name=<span class="hljs-string">"TodoList"</span>),
+&nbsp;&nbsp;path(<span class="hljs-string">r'api/'</span>, include(router.urls)),
+]</pre>
+    <p id="para-00028" class="eng hidden">Once you complete this step, launch the Django server using the following command:</p><p id="para-00028-vn" class="vn visible">Khi bạn hoàn thành bước này, hãy khởi động máy chủ Django bằng cách sử dụng lệnh sau:</p>
+    <pre data-type="code" class="python" data-lang="python">    $ python manage.py runserver
+    </pre>
+    <p id="para-00029" class="eng hidden">To access the API, launch a browser and navigate to <a href="http://127.0.0.1:8000/api/" aria-label="Go to http://127.0.0.1:8000/api/" data-bare-link="true">http://127.0.0.1:8000/api/</a>. As shown in <a href="11-2-sample-responsive-wad-with-bootstrap-and-django#fig-00008" class="autogenerated-content" aria-label="View Figure 11.21">Figure 11.21</a>, you should see two API paths listed, one for categories and another for todo items.</p><p id="para-00029-vn" class="vn visible">Để truy cập API, hãy khởi động một trình duyệt và điều hướng đến <a href="http://127.0.0.1:8000/api/" aria-label="Go to http://127.0.0.1:8000/api/" data-bare-link="true">http://127.0.0.1:8000/api/</a>. Như được hiển thị trong <a href="11-2-sample-responsive-wad-with-bootstrap-and-django#fig-00008" class="autogenerated-content" aria-label="View Figure 11.21">Hình 11.21</a>, bạn sẽ thấy hai đường dẫn API được liệt kê, một cho các danh mục và một cho các mục todo.</p>
+    <div class="os-figure" id="fig-00008"><figure data-id="fig-00008" class="ui-has-child-figcaption">
+    <span data-type="media" data-alt="Screenshot of API paths – one for categories and one for todo items.">
+    <button type="button" aria-label="Click to enlarge image of Screenshot of API paths – one for categories and one for todo items." class="image-button-wrapper"><img src="assets/translated/img-11-2-8.vi.png" data-media-type="image/jpeg" alt="Screenshot of API paths – one for categories and one for todo items." width="1300" height="617" loading="lazy"></button>
+    </span>
+    
+    <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.21</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">Once the URL paths for the API are created, two API paths are listed—one path for categories and the other for todo. (rendered in Django, a registered trademark of the Django Software Foundation; attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>  
+<span class="os-number">11.21</span>  
+
+<span class="os-divider"> </span>  
+<span class="os-caption">Khi các đường dẫn URL cho API được tạo ra, hai đường dẫn API được liệt kê - một đường dẫn cho danh mục và một đường dẫn cho todo. (được hiển thị trong Django, một thương hiệu đã đăng ký của Quỹ Phần mềm Django; bản quyền: Bản quyền Đại học Rice, OpenStax, theo giấy phép CC BY NC-SA 4.0)</span></figcaption></figure></div>
+    <p id="para-00030" class="eng hidden">Todo items are dependent on categories. To perform CRUD operations on the Category table, click on the categories API path, as shown in <a href="11-2-sample-responsive-wad-with-bootstrap-and-django#fig-00009" class="autogenerated-content" aria-label="View Figure 11.22">Figure 11.22</a>.</p><p id="para-00030-vn" class="vn visible">Các mục Todo phụ thuộc vào các danh mục. Để thực hiện các thao tác CRUD trên bảng Danh mục, hãy nhấp vào đường dẫn API danh mục, như được hiển thị trong <a href="11-2-sample-responsive-wad-with-bootstrap-and-django#fig-00009" class="autogenerated-content" aria-label="View Figure 11.22">Hình 11.22</a>.</p>
+    <div class="os-figure" id="fig-00009"><figure data-id="fig-00009" class="ui-has-child-figcaption">
+    <span data-type="media" data-alt="Screenshot of Category List with API path.">
+    <button type="button" aria-label="Click to enlarge image of Screenshot of Category List with API path." class="image-button-wrapper"><img src="assets/img-11-2-9.webp" data-media-type="image/jpeg" alt="Screenshot of Category List with API path." width="1300" height="729" loading="lazy"></button>
+    </span>
+    
+    <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.22</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">The API path can be used to perform CRUD operations on the Category table. (rendered in Django, a registered trademark of the Django Software Foundation; attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">11.22</span>
+
+<span class="os-divider"> </span>
+<span class="os-caption">Đường dẫn API có thể được sử dụng để thực hiện các thao tác CRUD trên bảng Danh mục. (được hiển thị trong Django, một thương hiệu đã đăng ký của Quỹ Phần mềm Django; quyền sở hữu: Bản quyền Đại học Rice, OpenStax, theo giấy phép CC BY NC-SA 4.0)</span></figcaption></figure></div>
+    <p id="para-00031" class="eng hidden">Once you access the Category List page, enter a category name in the field near the bottom of the page and click the Post button to save it. You can add additional category names. Once you save each name using the Post button, the categories will appear in JSON format, as illustrated in <a href="11-2-sample-responsive-wad-with-bootstrap-and-django#fig-00010" class="autogenerated-content" aria-label="View Figure 11.23">Figure 11.23</a>.</p><p id="para-00031-vn" class="vn visible">Khi bạn truy cập trang Danh sách Danh mục, hãy nhập tên danh mục vào trường gần dưới cùng của trang và nhấn nút Đăng để lưu lại. Bạn có thể thêm các tên danh mục bổ sung. Khi bạn lưu mỗi tên bằng nút Đăng, các danh mục sẽ xuất hiện ở định dạng JSON, như được minh họa trong <a href="11-2-sample-responsive-wad-with-bootstrap-and-django#fig-00010" class="autogenerated-content" aria-label="View Figure 11.23">Hình 11.23</a>.</p>
+    <div class="os-figure" id="fig-00010"><figure data-id="fig-00010" class="ui-has-child-figcaption">
+    <span data-type="media" data-alt="Screenshot of JSON format on Category List.">
+    <button type="button" aria-label="Click to enlarge image of Screenshot of JSON format on Category List." class="image-button-wrapper"><img src="assets/img-11-2-10.webp" data-media-type="image/jpeg" alt="Screenshot of JSON format on Category List." width="1100" height="775" loading="lazy"></button>
+    </span>
+    
+    <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.23</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">The Category List is created in JSON format after saving category names. (rendered in Django, a registered trademark of the Django Software Foundation; attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">11.23</span>
+
+<span class="os-divider"> </span>
+<span class="os-caption">Danh sách danh mục được tạo theo định dạng JSON sau khi lưu tên danh mục. (được hiển thị trong Django, một thương hiệu đã đăng ký của Quỹ Phần mềm Django; quyền sở hữu: Bản quyền Đại học Rice, OpenStax, theo giấy phép CC BY NC-SA 4.0)</span></figcaption></figure></div>
+    <p id="para-00032" class="eng hidden">To ensure that categories can be updated or deleted as needed, the primary key, which is “id”, must be included in the API path (e.g., /api/categories/{id}/). For example, to update or delete the category with id=3, the API path is /api/categories/3/. As shown in <a href="11-2-sample-responsive-wad-with-bootstrap-and-django#fig-00011" class="autogenerated-content" aria-label="View Figure 11.24">Figure 11.24</a>, once this category is pulled up on the Category Instance page, the DELETE button is visible at the top to delete the category. If the category needs to be updated, the PUT button visible near the bottom can be used for updates.</p><p id="para-00032-vn" class="vn visible">Để đảm bảo rằng các danh mục có thể được cập nhật hoặc xóa khi cần, khóa chính, tức là “id”, phải được bao gồm trong đường dẫn API (ví dụ: /api/categories/{id}/). Ví dụ, để cập nhật hoặc xóa danh mục có id=3, đường dẫn API là /api/categories/3/. Như được thể hiện trong <a href="11-2-sample-responsive-wad-with-bootstrap-and-django#fig-00011" class="autogenerated-content" aria-label="View Figure 11.24">Hình 11.24</a>, khi danh mục này được hiển thị trên trang Thể hiện Danh mục, nút DELETE sẽ xuất hiện ở trên cùng để xóa danh mục. Nếu danh mục cần được cập nhật, nút PUT xuất hiện gần dưới cùng có thể được sử dụng để cập nhật.</p>
+    <div class="os-figure" id="fig-00011"><figure data-id="fig-00011" class="ui-has-child-figcaption">
+    <span data-type="media" data-alt="Screenshot of Category Instance displaying DELETE and PUT buttons.">
+    <button type="button" aria-label="Click to enlarge image of Screenshot of Category Instance displaying DELETE and PUT buttons." class="image-button-wrapper"><img src="assets/translated/img-11-2-11.vi.png" data-media-type="image/jpeg" alt="Screenshot of Category Instance displaying DELETE and PUT buttons." width="1305" height="663" loading="lazy"></button>
+    </span>
+    
+    <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.24</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">The Category Instance page provides DELETE and PUT buttons, which, respectively, can be used to delete or update a category. (rendered in Django, a registered trademark of the Django Software Foundation; attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>  
+<span class="os-number">11.24</span>  
+
+<span class="os-divider"> </span>  
+<span class="os-caption">Trang Thể loại cung cấp các nút XÓA và CẬP NHẬT, mà lần lượt có thể được sử dụng để xóa hoặc cập nhật một thể loại. (được hiển thị trong Django, một thương hiệu đã đăng ký của Quỹ Phần mềm Django; quyền sở hữu: Bản quyền Đại học Rice, OpenStax, theo giấy phép CC BY NC-SA 4.0)</span></figcaption></figure></div>
+    <p id="para-00033" class="eng hidden">Next, navigate back to the API root. Click on the todos API path to see, as outlined in <a href="11-2-sample-responsive-wad-with-bootstrap-and-django#fig-00012" class="autogenerated-content" aria-label="View Figure 11.25">Figure 11.25</a>, that a Todo item has a Category field that appears as a drop-down list of categories. The CRUD operations also can be performed on the TodoList table. This will be done next through the user interface via templates.</p><p id="para-00033-vn" class="vn visible">Tiếp theo, điều hướng trở lại gốc API. Nhấp vào đường dẫn API todos để xem, như đã nêu trong <a href="11-2-sample-responsive-wad-with-bootstrap-and-django#fig-00012" class="autogenerated-content" aria-label="View Figure 11.25">Hình 11.25</a>, rằng một mục Todo có trường Danh mục xuất hiện dưới dạng danh sách thả xuống các danh mục. Các thao tác CRUD cũng có thể được thực hiện trên bảng TodoList. Điều này sẽ được thực hiện tiếp theo thông qua giao diện người dùng qua các mẫu.</p>
+    <div class="os-figure" id="fig-00012"><figure data-id="fig-00012" class="ui-has-child-figcaption">
+    <span data-type="media" data-alt="Screenshot of Todo List with drop down category showing Work and Personal.">
+    <button type="button" aria-label="Click to enlarge image of Screenshot of Todo List with drop down category showing Work and Personal." class="image-button-wrapper"><img src="assets/translated/img-11-2-12.vi.png" data-media-type="image/jpeg" alt="Screenshot of Todo List with drop down category showing Work and Personal." width="1300" height="869" loading="lazy"></button>
+    </span>
+    
+    <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.25</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">After the routers are created, a Todo item has a Category field that appears as a drop-down list of categories, such as “Work” and “Personal.” (rendered in Django, a registered trademark of the Django Software Foundation; attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>  
+<span class="os-number">11.25</span>  
+
+<span class="os-divider"> </span>  
+<span class="os-caption">Sau khi các bộ định tuyến được tạo ra, một mục Todo có một trường Danh mục xuất hiện dưới dạng danh sách thả xuống các danh mục, chẳng hạn như “Công việc” và “Cá nhân.” (được hiển thị trong Django, một thương hiệu đã đăng ký của Quỹ Phần mềm Django; quyền sở hữu: Bản quyền Đại học Rice, OpenStax, theo giấy phép CC BY NC-SA 4.0)</span></figcaption></figure></div>
+    </section>
+    </section>
+    
+    <section data-depth="1" id="sect-00011"><h3 data-type="title" class="eng hidden">Creating the User Interface</h3><h3 data-type="title" class="vn visible">Tạo Giao Diện Người Dùng</h3>
+    <p id="para-00034" class="eng hidden">To use and control the Todo application, you must create a user interface (UI). This section will outline the steps to do this.</p><p id="para-00034-vn" class="vn visible">Để sử dụng và điều khiển ứng dụng Todo, bạn phải tạo một giao diện người dùng (UI). Phần này sẽ phác thảo các bước để thực hiện điều này.</p>
+    <section data-depth="2" id="sect-00012"><h4 data-type="title" class="eng hidden">Installing Bootstrap</h4><h4 data-type="title" class="vn visible">Cài đặt Bootstrap</h4>
+    <p id="para-00035" class="eng hidden">The first step to create a UI is to install Bootstrap, which, as an open-source, responsive web application framework, can be used in web applications like Django to create UIs. To install Bootstrap in a Django application, you have several options. In this scenario, an efficient method is to download the Bootstrap CSS and JS files and add them to the static/ directory, as shown in <a href="11-2-sample-responsive-wad-with-bootstrap-and-django#fig-00013" class="autogenerated-content" aria-label="View Figure 11.26">Figure 11.26</a>. To do this, first create the static/ directory in the Django project directory. In addition, to install jQuery, download the JS file and add it to the static/ directory. Finally, add a custom CSS file to include individual style in the Django web application.</p><p id="para-00035-vn" class="vn visible">Bước đầu tiên để tạo giao diện người dùng (UI) là cài đặt Bootstrap, một framework ứng dụng web mã nguồn mở và phản hồi, có thể được sử dụng trong các ứng dụng web như Django để tạo giao diện người dùng. Để cài đặt Bootstrap trong một ứng dụng Django, bạn có một số tùy chọn. Trong kịch bản này, một phương pháp hiệu quả là tải xuống các tệp CSS và JS của Bootstrap và thêm chúng vào thư mục static/, như được hiển thị trong <a href="11-2-sample-responsive-wad-with-bootstrap-and-django#fig-00013" class="autogenerated-content" aria-label="View Figure 11.26">Hình 11.26</a>. Để làm điều này, trước tiên hãy tạo thư mục static/ trong thư mục dự án Django. Ngoài ra, để cài đặt jQuery, hãy tải xuống tệp JS và thêm nó vào thư mục static/. Cuối cùng, thêm một tệp CSS tùy chỉnh để bao gồm phong cách riêng trong ứng dụng web Django.</p>
+    <div class="os-figure" id="fig-00013"><figure data-id="fig-00013" class="scaled-down ui-has-child-figcaption">
+    <span data-type="media" data-alt="Screenshot of static directory with css and js files listed.">
+    <button type="button" aria-label="Click to enlarge image of Screenshot of static directory with css and js files listed." class="image-button-wrapper"><img src="assets/img-11-2-13.webp" data-media-type="image/jpeg" alt="Screenshot of static directory with css and js files listed." width="375" height="607" loading="lazy"></button>
+    </span>
+    
+    <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.26</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">An efficient method to install Bootstrap in a Django application is to download the Bootstrap CSS and JS files and add them to the static/ directory. (rendered in Django, a registered trademark of the Django Software Foundation; attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">11.26</span>
+
+<span class="os-divider"> </span>
+<span class="os-caption">Một phương pháp hiệu quả để cài đặt Bootstrap trong một ứng dụng Django là tải xuống các tệp CSS và JS của Bootstrap và thêm chúng vào thư mục static/. (được hiển thị trong Django, một nhãn hiệu đã đăng ký của Quỹ Phần mềm Django; quyền sở hữu: Bản quyền Đại học Rice, OpenStax, theo giấy phép CC BY NC-SA 4.0)</span></figcaption></figure></div>
+    <p id="para-00036" class="eng hidden">After adding the CSS and JS files to the static/ directory, the next step is to open the ToDoApp/settings.py file, navigate to the bottom of the file, and add the path variables shown in the following code snippet.</p><p id="para-00036-vn" class="vn visible">Sau khi thêm các tệp CSS và JS vào thư mục static/, bước tiếp theo là mở tệp ToDoApp/settings.py, điều hướng đến cuối tệp và thêm các biến đường dẫn được hiển thị trong đoạn mã sau.</p>
+    <pre data-type="code" class="python" data-lang="python"><span class="hljs-comment"># Static files (CSS, JavaScript, Images)</span>
+<span class="hljs-comment"># <a href="https://docs.djangoproject.com/en/4.0/howto/static-files/" aria-label="Go to https://docs.djangoproject.com/en/4.0/howto/static-files/" data-bare-link="true">https://docs.djangoproject.com/en/4.0/howto/static-files/</a></span>
+
+STATIC_URL = <span class="hljs-string">'static/'</span>
+
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+STATIC_ROOT = os.path.join(PROJECT_ROOT, <span class="hljs-string">'static'</span>)</pre>
+    </section>
+    <section data-depth="2" id="sect-00013"><h4 data-type="title" class="eng hidden">Creating the View</h4><h4 data-type="title" class="vn visible">Tạo Giao Diện</h4>
+    <p id="para-00037" class="eng hidden">The next step is to create the View. The View function is needed for template pages, which are created in the next section. The View function is also needed to interact with the database to both create and delete todo items.</p><p id="para-00037-vn" class="vn visible">Bước tiếp theo là tạo View. Hàm View cần thiết cho các trang mẫu, được tạo ra trong phần tiếp theo. Hàm View cũng cần thiết để tương tác với cơ sở dữ liệu nhằm tạo và xóa các mục todo.</p>
+    <p id="para-00038" class="eng hidden">To create the View, open the todo/views.py file and add the code shown in the following code snippet. This code takes an HTTP request object. If the request method is POST, a todo item is either created or deleted, depending on which button is clicked. Otherwise, the request method is GET and the todo items are displayed to the user.</p><p id="para-00038-vn" class="vn visible">Để tạo View, hãy mở tệp __HTML_TAG_0__todo/views.py__HTML_TAG_1__ và thêm mã được hiển thị trong đoạn mã sau. Mã này nhận một đối tượng yêu cầu HTTP. Nếu phương thức yêu cầu là POST, một mục todo sẽ được tạo hoặc xóa, tùy thuộc vào nút nào được nhấn. Nếu không, phương thức yêu cầu là GET và các mục todo sẽ được hiển thị cho người dùng.</p>
+    <pre data-type="code" class="python" data-lang="python"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">index</span>(<span class="hljs-params">request</span>):</span> <span class="hljs-comment"># index view</span>
+&nbsp;&nbsp;todos = TodoList.objects.<span class="hljs-built_in">all</span>() <span class="hljs-comment"># query all todos with object manager</span>
+&nbsp;&nbsp;categories = Category.objects.<span class="hljs-built_in">all</span>() <span class="hljs-comment"># get all categories with object manager</span>
+&nbsp;&nbsp;<span class="hljs-keyword">if</span> request.method == <span class="hljs-string">"POST"</span>: <span class="hljs-comment"># check if request method is POST</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">if</span> <span class="hljs-string">"taskAdd"</span> <span class="hljs-keyword">in</span> request.POST: <span class="hljs-comment"># check if request is to add a todo item</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;title = request.POST[<span class="hljs-string">"description"</span>] <span class="hljs-comment"># title</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;date = <span class="hljs-built_in">str</span>(request.POST[<span class="hljs-string">"date"</span>]) <span class="hljs-comment"># date</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;category = request.POST[<span class="hljs-string">"category_select"</span>] <span class="hljs-comment"># category</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;content = title + <span class="hljs-string">" -- "</span> + date + <span class="hljs-string">" "</span> + category <span class="hljs-comment"># content</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Todo = TodoList(title=title, content=content, due_date=date, category=Category.objects.get(name=category))
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Todo.save() <span class="hljs-comment"># save todo item</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">return</span> redirect(<span class="hljs-string">"/"</span>) <span class="hljs-comment"># reload page</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">if</span> <span class="hljs-string">"taskDelete"</span> <span class="hljs-keyword">in</span> request.POST: <span class="hljs-comment"># check if request is to delete a todo</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;checkedlist = request.POST[<span class="hljs-string">"checkedbox"</span>] <span class="hljs-comment"># checked todos to be deleted</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">for</span> todo_id <span class="hljs-keyword">in</span> checkedlist:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;todo = TodoList.objects.get(<span class="hljs-built_in">id</span>=<span class="hljs-built_in">int</span>(todo_id)) <span class="hljs-comment"># get todo id</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;todo.delete() <span class="hljs-comment"># delete todo</span>
+&nbsp;&nbsp;<span class="hljs-keyword">return</span> render(request, <span class="hljs-string">"index.html"</span>, {<span class="hljs-string">"todos"</span>: todos, <span class="hljs-string">"categories"</span>:categories})</pre>
+    </section>
+    <section data-depth="2" id="sect-00014"><h4 data-type="title" class="eng hidden">Creating the Templates</h4><h4 data-type="title" class="vn visible">Tạo các Mẫu</h4>
+    <p id="para-00039" class="eng hidden">The final step to build a Django web application is to create templates, which are HTML files that can also contain embedded Python code. Create a file called style.css under the /static/css directory and insert the code shown here into that file. The templates discussed in the following sections require this style sheet.</p><p id="para-00039-vn" class="vn visible">Bước cuối cùng để xây dựng một ứng dụng web Django là tạo các mẫu, là các tệp HTML cũng có thể chứa mã Python nhúng. Tạo một tệp có tên style.css trong thư mục /static/css và chèn mã được hiển thị ở đây vào tệp đó. Các mẫu được thảo luận trong các phần tiếp theo yêu cầu bảng kiểu này.</p>
+    <pre data-type="code" class="css" data-lang="css"><span class="hljs-comment">/* basic reset */</span>
+*,
+*<span class="hljs-selector-pseudo">:before</span>,
+*<span class="hljs-selector-pseudo">:after</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">-webkit-box-sizing</span>: border-box;
+&nbsp;&nbsp;<span class="hljs-attribute">-moz-box-sizing</span>: border-box;
+&nbsp;&nbsp;<span class="hljs-attribute">box-sizing</span>: border-box;
+}
+
+<span class="hljs-comment">/* app */</span>
+<span class="hljs-selector-tag">html</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">font-size</span>: <span class="hljs-number">100%</span>;
+}
+
+<span class="hljs-selector-tag">body</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">background</span>: <span class="hljs-number">#e6f9ff</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">font-family</span>: <span class="hljs-string">"Open Sans"</span>, sans-serif;
+}
+<span class="hljs-comment">/* super basic grid structure */</span>
+<span class="hljs-selector-class">.container</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">width</span>: <span class="hljs-number">600px</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span> auto;
+&nbsp;&nbsp;<span class="hljs-attribute">background</span>: <span class="hljs-number">#ffffff</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">padding</span>: <span class="hljs-number">20px</span> <span class="hljs-number">0</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">-webkit-box-shadow</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">2px</span> <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0.2</span>);
+&nbsp;&nbsp;<span class="hljs-attribute">box-shadow</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">2px</span> <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0.2</span>);
+}
+
+<span class="hljs-selector-class">.row</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">display</span>: block;
+&nbsp;&nbsp;<span class="hljs-attribute">padding</span>: <span class="hljs-number">10px</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">text-align</span>: center;
+&nbsp;&nbsp;<span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">clear</span>: both;
+&nbsp;&nbsp;<span class="hljs-attribute">overflow</span>: hidden;
+}
+
+<span class="hljs-selector-class">.half</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">width</span>: <span class="hljs-number">50%</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">float</span>: left;
+}
+
+<span class="hljs-selector-class">.content</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">background</span>: <span class="hljs-number">#fff</span>;
+}
+
+<span class="hljs-comment">/* logo */</span>
+<span class="hljs-selector-tag">h1</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">font-family</span>: <span class="hljs-string">"Rokkitt"</span>, sans-serif;
+&nbsp;&nbsp;<span class="hljs-attribute">color</span>: <span class="hljs-number">#666</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">text-align</span>: center;
+&nbsp;&nbsp;<span class="hljs-attribute">font-weight</span>: <span class="hljs-number">400</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span>;
+}
+
+<span class="hljs-selector-class">.tagline</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">margin-top</span>: -<span class="hljs-number">10px</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">text-align</span>: center;
+&nbsp;&nbsp;<span class="hljs-attribute">padding</span>: <span class="hljs-number">5px</span> <span class="hljs-number">20px</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">font-size</span>: <span class="hljs-number">11px</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">font-weight</span>: <span class="hljs-number">600</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">text-transform</span>: uppercase;
+&nbsp;&nbsp;<span class="hljs-attribute">color</span>: <span class="hljs-number">#777</span>;
+}
+
+<span class="hljs-comment">/* inputs */</span>
+<span class="hljs-selector-class">.inputContainer</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">height</span>: <span class="hljs-number">60px</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">border-top</span>: <span class="hljs-number">1px</span> solid <span class="hljs-number">#e5e5e5</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">position</span>: relative;
+&nbsp;&nbsp;<span class="hljs-attribute">overflow</span>: hidden;
+}
+
+<span class="hljs-selector-class">.inputContainer</span><span class="hljs-selector-class">.last</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">border-bottom</span>: <span class="hljs-number">1px</span> solid <span class="hljs-number">#e5e5e5</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">20px</span>;
+}
+
+<span class="hljs-selector-class">.inputContainer</span><span class="hljs-selector-class">.half</span><span class="hljs-selector-class">.last</span><span class="hljs-selector-class">.right</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">border-left</span>: <span class="hljs-number">1px</span> solid <span class="hljs-number">#efefef</span>;
+}
+
+<span class="hljs-selector-tag">input</span><span class="hljs-selector-attr">[type=<span class="hljs-string">"date"</span>]</span>,
+<span class="hljs-selector-tag">input</span><span class="hljs-selector-attr">[type=<span class="hljs-string">"text"</span>]</span>,
+<span class="hljs-selector-tag">select</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">height</span>: <span class="hljs-number">100%</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span> <span class="hljs-number">20px</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">position</span>: absolute;
+&nbsp;&nbsp;<span class="hljs-attribute">top</span>: <span class="hljs-number">0</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">vertical-align</span>: middle;
+&nbsp;&nbsp;<span class="hljs-attribute">display</span>: inline-block;
+&nbsp;&nbsp;<span class="hljs-attribute">border</span>: none;
+&nbsp;&nbsp;<span class="hljs-attribute">border-radius</span>: none;
+&nbsp;&nbsp;<span class="hljs-attribute">font-size</span>: <span class="hljs-number">13px</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">color</span>: <span class="hljs-number">#777</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">font-family</span>: <span class="hljs-string">"Open Sans"</span>, sans-serif;
+&nbsp;&nbsp;<span class="hljs-attribute">font-weight</span>: <span class="hljs-number">600</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">letter-spacing</span>: <span class="hljs-number">0.5px</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">-webkit-transition</span>: background <span class="hljs-number">0.3s</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">transition</span>: background <span class="hljs-number">0.3s</span>;
+}
+
+<span class="hljs-selector-tag">input</span><span class="hljs-selector-attr">[type=<span class="hljs-string">"date"</span>]</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">cursor</span>: pointer;
+}
+
+<span class="hljs-selector-tag">input</span><span class="hljs-selector-attr">[type=<span class="hljs-string">"date"</span>]</span><span class="hljs-selector-pseudo">:focus</span>,
+<span class="hljs-selector-tag">input</span><span class="hljs-selector-attr">[type=<span class="hljs-string">"text"</span>]</span><span class="hljs-selector-pseudo">:focus</span>,
+<span class="hljs-selector-tag">select</span><span class="hljs-selector-pseudo">:focus</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">outline</span>: none;
+&nbsp;&nbsp;<span class="hljs-attribute">background</span>: <span class="hljs-number">#ecf0f1</span>;
+}
+
+<span class="hljs-selector-pseudo">::-webkit-input-placeholder</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">color</span>: lightgrey;
+&nbsp;&nbsp;<span class="hljs-attribute">font-weight</span>: normal;
+&nbsp;&nbsp;<span class="hljs-attribute">-webkit-transition</span>: all <span class="hljs-number">0.3s</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">transition</span>: all <span class="hljs-number">0.3s</span>;
+}
+<span class="hljs-selector-pseudo">::-moz-placeholder</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">color</span>: lightgrey;
+&nbsp;&nbsp;<span class="hljs-attribute">font-weight</span>: normal;
+&nbsp;&nbsp;<span class="hljs-attribute">transition</span>: all <span class="hljs-number">0.3s</span>;
+}
+<span class="hljs-selector-pseudo">::-ms-input-placeholder</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">color</span>: lightgrey;
+&nbsp;&nbsp;<span class="hljs-attribute">font-weight</span>: normal;
+&nbsp;&nbsp;<span class="hljs-attribute">transition</span>: all <span class="hljs-number">0.3s</span>;
+}
+<span class="hljs-selector-tag">input</span><span class="hljs-selector-pseudo">:-moz-placeholder</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">color</span>: lightgrey;
+&nbsp;&nbsp;<span class="hljs-attribute">font-weight</span>: normal;
+&nbsp;&nbsp;<span class="hljs-attribute">transition</span>: all <span class="hljs-number">0.3s</span>;
+}
+
+<span class="hljs-selector-tag">input</span><span class="hljs-selector-pseudo">:focus</span><span class="hljs-selector-pseudo">::-webkit-input-placeholder</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">color</span>: <span class="hljs-number">#95a5a6</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">font-weight</span>: bold;
+}
+
+<span class="hljs-selector-tag">input</span><span class="hljs-selector-pseudo">:focus</span><span class="hljs-selector-pseudo">::-moz-input-placeholder</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">color</span>: <span class="hljs-number">#95a5a6</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">font-weight</span>: bold;
+}
+
+<span class="hljs-selector-class">.inputContainer</span> <span class="hljs-selector-tag">label</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">padding</span>: <span class="hljs-number">5px</span> <span class="hljs-number">20px</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">font-size</span>: <span class="hljs-number">11px</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">font-weight</span>: <span class="hljs-number">600</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">text-transform</span>: uppercase;
+&nbsp;&nbsp;<span class="hljs-attribute">color</span>: <span class="hljs-number">#777</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">display</span>: block;
+&nbsp;&nbsp;<span class="hljs-attribute">position</span>: absolute;
+}
+
+<span class="hljs-selector-tag">button</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">font-family</span>: <span class="hljs-string">"Open Sans"</span>, sans-serif;
+&nbsp;&nbsp;<span class="hljs-attribute">background</span>: transparent;
+&nbsp;&nbsp;<span class="hljs-attribute">border-radius</span>: <span class="hljs-number">2px</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">border</span>: none;
+&nbsp;&nbsp;<span class="hljs-attribute">outline</span>: none;
+&nbsp;&nbsp;<span class="hljs-attribute">height</span>: <span class="hljs-number">50px</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">font-size</span>: <span class="hljs-number">14px</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">color</span>: <span class="hljs-number">#fff</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">cursor</span>: pointer;
+&nbsp;&nbsp;<span class="hljs-attribute">text-transform</span>: uppercase;
+&nbsp;&nbsp;<span class="hljs-attribute">position</span>: relative;
+&nbsp;&nbsp;<span class="hljs-attribute">-webkit-transition</span>: all <span class="hljs-number">0.3s</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">transition</span>: all <span class="hljs-number">0.3s</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">padding-left</span>: <span class="hljs-number">30px</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">padding-right</span>: <span class="hljs-number">15px</span>;
+}
+
+<span class="hljs-selector-class">.icon</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">position</span>: absolute;
+&nbsp;&nbsp;<span class="hljs-attribute">top</span>: <span class="hljs-number">30%</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">left</span>: <span class="hljs-number">10px</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">font-size</span>: <span class="hljs-number">20px</span>;
+}
+
+<span class="hljs-selector-class">.taskAdd</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">background</span>: <span class="hljs-number">#444</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">padding-left</span>: <span class="hljs-number">31px</span>;
+}
+
+<span class="hljs-selector-class">.taskAdd</span><span class="hljs-selector-pseudo">:hover</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">background</span>: <span class="hljs-number">#303030</span>;
+}
+
+<span class="hljs-selector-class">.taskDelete</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">background</span>: <span class="hljs-number">#e74c3c</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">padding-left</span>: <span class="hljs-number">30px</span>;
+}
+
+<span class="hljs-selector-class">.taskDelete</span><span class="hljs-selector-pseudo">:hover</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">background</span>: <span class="hljs-number">#c0392b</span>;
+}
+
+<span class="hljs-comment">/* task styles */</span>
+<span class="hljs-selector-class">.taskList</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">list-style</span>: none;
+&nbsp;&nbsp;<span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span> <span class="hljs-number">20px</span>;
+}
+
+<span class="hljs-selector-class">.taskItem</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">border-top</span>: <span class="hljs-number">1px</span> solid <span class="hljs-number">#e5e5e5</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">padding</span>: <span class="hljs-number">15px</span> <span class="hljs-number">0</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">color</span>: <span class="hljs-number">#777</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">font-weight</span>: <span class="hljs-number">600</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">font-size</span>: <span class="hljs-number">14px</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">letter-spacing</span>: <span class="hljs-number">0.5px</span>;
+}
+
+<span class="hljs-selector-class">.taskList</span> <span class="hljs-selector-class">.taskItem</span><span class="hljs-selector-pseudo">:nth-child(even)</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">background</span>: <span class="hljs-number">#fcfcfc</span>;
+}
+
+<span class="hljs-selector-class">.taskCheckbox</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">margin-right</span>: <span class="hljs-number">1em</span>;
+}
+
+<span class="hljs-selector-class">.complete-true</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">text-decoration</span>: line-through;
+&nbsp;&nbsp;<span class="hljs-attribute">color</span>: <span class="hljs-number">#bebebe</span>;
+}
+
+<span class="hljs-selector-class">.taskList</span> <span class="hljs-selector-class">.taskDate</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">color</span>: <span class="hljs-number">#95a5a6</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">font-size</span>: <span class="hljs-number">10px</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">font-weight</span>: bold;
+&nbsp;&nbsp;<span class="hljs-attribute">text-transform</span>: uppercase;
+&nbsp;&nbsp;<span class="hljs-attribute">display</span>: block;
+&nbsp;&nbsp;<span class="hljs-attribute">margin-left</span>: <span class="hljs-number">41px</span>;
+}
+
+<span class="hljs-selector-class">.fa-calendar</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">margin-right</span>: <span class="hljs-number">10px</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">font-size</span>: <span class="hljs-number">16px</span>;
+}
+
+<span class="hljs-selector-attr">[class*=<span class="hljs-string">"category-"</span>]</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">display</span>: inline-block;
+&nbsp;&nbsp;<span class="hljs-attribute">font-size</span>: <span class="hljs-number">10px</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">background</span>: <span class="hljs-number">#444</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">vertical-align</span>: middle;
+&nbsp;&nbsp;<span class="hljs-attribute">color</span>: <span class="hljs-number">#fff</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">padding</span>: <span class="hljs-number">10px</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">width</span>: <span class="hljs-number">75px</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">text-align</span>: center;
+&nbsp;&nbsp;<span class="hljs-attribute">border-radius</span>: <span class="hljs-number">2px</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">float</span>: right;
+&nbsp;&nbsp;<span class="hljs-attribute">font-weight</span>: normal;
+&nbsp;&nbsp;<span class="hljs-attribute">text-transform</span>: uppercase;
+&nbsp;&nbsp;<span class="hljs-attribute">margin-right</span>: <span class="hljs-number">20px</span>;
+}
+
+<span class="hljs-selector-class">.category-</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">background</span>: transparent;
+}
+
+<span class="hljs-selector-class">.category-Personal</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">background</span>: <span class="hljs-number">#2980b9</span>;
+}
+
+<span class="hljs-selector-class">.category-Work</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">background</span>: <span class="hljs-number">#8e44ad</span>;
+}
+
+<span class="hljs-selector-class">.category-School</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">background</span>: <span class="hljs-number">#f39c12</span>;
+}
+
+<span class="hljs-selector-class">.category-Cleaning</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">background</span>: <span class="hljs-number">#16a085</span>;
+}
+
+<span class="hljs-selector-class">.category-Other</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">background</span>: <span class="hljs-number">#d35400</span>;
+}
+
+<span class="hljs-selector-tag">footer</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">text-align</span>: center;
+&nbsp;&nbsp;<span class="hljs-attribute">font-size</span>: <span class="hljs-number">11px</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">font-weight</span>: <span class="hljs-number">600</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">text-transform</span>: uppercase;
+&nbsp;&nbsp;<span class="hljs-attribute">color</span>: <span class="hljs-number">#777</span>;
+}
+
+<span class="hljs-selector-tag">footer</span> <span class="hljs-selector-tag">a</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">color</span>: <span class="hljs-number">#f39c12</span>;
+}
+<span class="hljs-comment">/* custom checkboxes */</span>
+<span class="hljs-selector-class">.taskCheckbox</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">-webkit-appearance</span>: none;
+&nbsp;&nbsp;<span class="hljs-attribute">appearance</span>: none;
+&nbsp;&nbsp;<span class="hljs-attribute">-webkit-transition</span>: all <span class="hljs-number">0.3s</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">transition</span>: all <span class="hljs-number">0.3s</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">display</span>: inline-block;
+&nbsp;&nbsp;<span class="hljs-attribute">cursor</span>: pointer;
+&nbsp;&nbsp;<span class="hljs-attribute">width</span>: <span class="hljs-number">19px</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">height</span>: <span class="hljs-number">19px</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">vertical-align</span>: middle;
+}
+
+<span class="hljs-selector-class">.taskCheckbox</span><span class="hljs-selector-pseudo">:focus</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">outline</span>: none;
+}
+
+<span class="hljs-selector-class">.taskCheckbox</span><span class="hljs-selector-pseudo">:before</span>,
+<span class="hljs-selector-class">.taskCheckbox</span><span class="hljs-selector-pseudo">:checked</span><span class="hljs-selector-pseudo">:before</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">font-family</span>: <span class="hljs-string">"FontAwesome"</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">color</span>: <span class="hljs-number">#444</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">font-size</span>: <span class="hljs-number">20px</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">-webkit-transition</span>: all <span class="hljs-number">0.3s</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">transition</span>: all <span class="hljs-number">0.3s</span>;
+}
+
+<span class="hljs-selector-class">.taskCheckbox</span><span class="hljs-selector-pseudo">:before</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">content</span>: <span class="hljs-string">"\f096"</span>;
+}
+
+<span class="hljs-selector-class">.taskCheckbox</span><span class="hljs-selector-pseudo">:checked</span><span class="hljs-selector-pseudo">:before</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">content</span>: <span class="hljs-string">"\f14a"</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">color</span>: <span class="hljs-number">#16a085</span>;
+}
+<span class="hljs-comment">/* custom select menu */</span>
+<span class="hljs-selector-class">.taskCategory</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">-webkit-appearance</span>: none;
+&nbsp;&nbsp;<span class="hljs-attribute">appearance</span>: none;
+&nbsp;&nbsp;<span class="hljs-attribute">cursor</span>: pointer;
+&nbsp;&nbsp;<span class="hljs-attribute">padding-left</span>: <span class="hljs-number">16.5px</span>; <span class="hljs-comment">/*specific positioning due to difficult behavior of select element*/</span>
+&nbsp;&nbsp;<span class="hljs-attribute">background</span>: <span class="hljs-number">#fff</span>;
+}
+
+<span class="hljs-selector-class">.selectArrow</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">position</span>: absolute;
+&nbsp;&nbsp;<span class="hljs-attribute">z-index</span>: <span class="hljs-number">10</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">top</span>: <span class="hljs-number">35%</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">right</span>: <span class="hljs-number">0</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">margin-right</span>: <span class="hljs-number">20px</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">color</span>: <span class="hljs-number">#777</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">pointer-events</span>: none;
+}
+
+<span class="hljs-selector-class">.taskCategory</span> <span class="hljs-selector-tag">option</span> {
+&nbsp;&nbsp;<span class="hljs-attribute">background</span>: <span class="hljs-number">#fff</span>;
+&nbsp;&nbsp;<span class="hljs-attribute">border</span>: none;
+&nbsp;&nbsp;<span class="hljs-attribute">outline</span>: none;
+&nbsp;&nbsp;<span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span> <span class="hljs-number">100px</span>;
+}</pre>
+    <p id="para-00040" class="eng hidden">The first template file is base.html, which is the file that includes links to Bootstrap and jQuery. To illustrate these links, a snippet of the base.html file is shown in the code. The Bootstrap navigation bar is implemented in this file.</p><p id="para-00040-vn" class="vn visible">Tệp mẫu đầu tiên là base.html, đây là tệp bao gồm các liên kết đến Bootstrap và jQuery. Để minh họa các liên kết này, một đoạn mã của tệp base.html được hiển thị trong mã. Thanh điều hướng Bootstrap được triển khai trong tệp này.</p>
+    <pre data-type="code" class="html" data-lang="html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&nbsp;&nbsp;&lt;head&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;meta charset="UTF-8" /&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;TodoApp - Django&lt;/title&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;{% load static %}
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Bootstrap CSS --&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;link rel="stylesheet" href="/static/css/bootstrap.min.css" /&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;link
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rel="stylesheet"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type="text/css"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;href="<a href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" aria-label="Go to https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" data-bare-link="true">https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css</a>"
+&nbsp;&nbsp;&nbsp;&nbsp;/&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;link
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rel="stylesheet"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type="text/css"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;href="{% static 'css/style.css' %}"
+&nbsp;&nbsp;&nbsp;&nbsp;/&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- jQuery --&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;script
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type="text/javascript"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;src="{% static 'js/jquery-3.5.1.min.js' %}"&gt;&lt;/script&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Popper --&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;script
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type="text/javascript"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;src="{% static 'js/popper.min.js' %}"&gt;&lt;/script&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Bootstrap Core JavaScript --&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;script
+&nbsp;&nbsp;&nbsp;&nbsp;type="text/javascript"
+&nbsp;&nbsp;&nbsp;&nbsp;src="{% static 'js/bootstrap.bundle.min.js' %}"&gt;&lt;/script&gt;
+&lt;script
+&lt;/head&gt;
+
+&lt;body&gt;
+&nbsp;&nbsp;&lt;nav class="navbar navbar-dark bg-dark justify-content-between"&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;a class="navbar-brand"&gt;ToDo&lt;/a&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;form class="form-inline"&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;class="form-control mr-sm-2"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type="search"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;placeholder="Search"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;aria-label="Search"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;button class="btn btn-outline-info my-2 my-sm-0" type="submit"&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Search
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/button&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/form&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/nav&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;div&gt;{% block content %} {% endblock content %}&lt;/div&gt;
+&nbsp;&nbsp;&lt;/body&gt;
+&lt;/html&gt;</pre>
+    <p id="para-00041" class="eng hidden">The second template file is index.html, which lists any existing todo items and includes the form to create or delete a todo item. A snippet of the index.html file is shown in the following code. The index.html file also extends the base.html template, which allows the Bootstrap navigation bar implemented in base.html to be inserted in this page and every page that extends it.</p><p id="para-00041-vn" class="vn visible">Tệp mẫu thứ hai là index.html, tệp này liệt kê bất kỳ mục todo nào hiện có và bao gồm biểu mẫu để tạo hoặc xóa một mục todo. Một đoạn mã của tệp index.html được hiển thị trong mã sau. Tệp index.html cũng mở rộng mẫu base.html, điều này cho phép thanh điều hướng Bootstrap được triển khai trong base.html được chèn vào trang này và mọi trang mở rộng nó.</p>
+    <pre data-type="code" class="html" data-lang="html">{% extends "./base.html" %} {% load static %} {% block content %}
+&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">django-app</span>=<span class="hljs-string">"TaskManager"</span>&gt;</span>
+&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"container mt-5"</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"content"</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Todo List<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment">&lt;!--&lt;p class="tagline"&gt;Django Todo App&lt;/p&gt;--&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">action</span>=<span class="hljs-string">""</span> <span class="hljs-attr">method</span>=<span class="hljs-string">"post"</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{% csrf_token %}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment">&lt;!-- csrf token for basic security --&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"inputContainer"</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">input</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">type</span>=<span class="hljs-string">"text"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">id</span>=<span class="hljs-string">"description"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">class</span>=<span class="hljs-string">"taskName"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">placeholder</span>=<span class="hljs-string">"What do you need to do?"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">name</span>=<span class="hljs-string">"description"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">required</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"description"</span>&gt;</span>Description<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"inputContainer half last"</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fa fa-caret-down selectArrow"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">emphasis</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">select</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"category"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"taskCategory"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"category_select"</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">option</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"disabled"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">""</span>&gt;</span>Choose a category<span class="hljs-tag">&lt;/<span class="hljs-name">option</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{% for category in categories %}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">option</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">class</span>=<span class="hljs-string">""</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">value</span>=<span class="hljs-string">"{{ category.name }}"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">name</span>=<span class="hljs-string">"{{ category.name }}"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ category.name }}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">option</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{% endfor %}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">select</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"category"</span>&gt;</span>Category<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"inputContainer half last right"</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"date"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"dueDate"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"taskDate"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"date"</span> /&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"dueDate"</span>&gt;</span>Due Date<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row"</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"taskAdd"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"taskAdd"</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"submit"</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fa fa-plus icon"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">emphasis</span>&gt;<span class="hljs-name">Add</span></span> task
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">button</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">class</span>=<span class="hljs-string">"taskDelete"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">name</span>=<span class="hljs-string">"taskDelete"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">formnovalidate</span>=<span class="hljs-string">""</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">type</span>=<span class="hljs-string">"submit"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">onclick</span>=<span class="hljs-string">"$('input#sublist').click();"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fa fa-trash-o icon"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">emphasis</span>&gt;<span class="hljs-name">Delete</span></span> Tasks
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"taskList"</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{% for todo in todos %}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment">&lt;!-- django template lang - for loop --&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"taskItem"</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">input</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">type</span>=<span class="hljs-string">"checkbox"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">class</span>=<span class="hljs-string">"taskCheckbox"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">name</span>=<span class="hljs-string">"checkedbox"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">id</span>=<span class="hljs-string">"{{ todo.id }}"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">value</span>=<span class="hljs-string">"{{ todo.id }}"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"{{ todo.id }}"</span>
+&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"complete-"</span>&gt;</span>{{ todo.title }}<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"category-{{ todo.category }}"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt;</span>{{ todo.category }}<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt;{{ todo.category }}&lt;/span
+<span class="hljs-tag">&lt;<span class="hljs-name">strong</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"taskDate"</span>
+&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fa fa-calendar"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">emphasis</span>&gt;<span class="hljs-name">Created:</span></span> {{todo.created}} - Due:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt;{{ todo.category }}&lt;/span
+{{todo.due_date}}<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt;{{ todo.category }}&lt;/span
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{% endfor %}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment">&lt;!-- taskList --&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment">&lt;!-- content --&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+&nbsp;&nbsp;<span class="hljs-comment">&lt;!-- container --&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+{% endblock %}</pre>
+    <p id="para-00042" class="eng hidden">The first step to access the Todo Django web application is to restart the Django server using the following command:</p><p id="para-00042-vn" class="vn visible">Bước đầu tiên để truy cập ứng dụng web Todo Django là khởi động lại máy chủ Django bằng cách sử dụng lệnh sau:</p>
+    <pre data-type="code" class="shell" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> python manage.py runserver</span></pre>
+    <p id="para-00043" class="eng hidden">Next, launch a browser and navigate to <a href="http://localhost:8000" aria-label="Go to http://localhost:8000" data-bare-link="true">http://localhost:8000</a>. The page highlighted in <a href="11-2-sample-responsive-wad-with-bootstrap-and-django#fig-00014" class="autogenerated-content" aria-label="View Figure 11.27">Figure 11.27</a> should appear.</p><p id="para-00043-vn" class="vn visible">Tiếp theo, khởi động một trình duyệt và điều hướng đến <a href="http://localhost:8000" aria-label="Go to http://localhost:8000" data-bare-link="true">http://localhost:8000</a>. Trang được làm nổi bật trong <a href="11-2-sample-responsive-wad-with-bootstrap-and-django#fig-00014" class="autogenerated-content" aria-label="View Figure 11.27">Hình 11.27</a> sẽ xuất hiện.</p>
+    <div class="os-figure" id="fig-00014"><figure data-id="fig-00014" class="ui-has-child-figcaption">
+    <span data-type="media" data-alt="Screenshot of Todo List with Description, Category, and Due Date sections as well as Add Task and Delete Tasks buttons.">
+    <button type="button" aria-label="Click to enlarge image of Screenshot of Todo List with Description, Category, and Due Date sections as well as Add Task and Delete Tasks buttons." class="image-button-wrapper"><img src="assets/img-11-2-14.webp" data-media-type="image/jpeg" alt="Screenshot of Todo List with Description, Category, and Due Date sections as well as Add Task and Delete Tasks buttons." width="1300" height="696" loading="lazy"></button>
+    </span>
+    
+    <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.27</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">Once the Django server is restarted, this page should appear at <a href="http://localhost:8000" aria-label="Go to http://localhost:8000" data-bare-link="true">http://localhost:8000</a>. (rendered in Django, a registered trademark of the Django Software Foundation; attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>  
+<span class="os-number">11.27</span>  
+
+<span class="os-divider"> </span>  
+<span class="os-caption">Khi máy chủ Django được khởi động lại, trang này sẽ xuất hiện tại <a href="http://localhost:8000" aria-label="Go to http://localhost:8000" data-bare-link="true">http://localhost:8000</a>. (được tạo ra trong Django, một thương hiệu đã đăng ký của Quỹ Phần mềm Django; bản quyền: Copyright Rice University, OpenStax, theo giấy phép CC BY NC-SA 4.0)</span></figcaption></figure></div>
+    <p id="para-00044" class="eng hidden">To create a todo list, fill out the form and click the Add Task button as shown in <a href="11-2-sample-responsive-wad-with-bootstrap-and-django#fig-00015" class="autogenerated-content" aria-label="View Figure 11.28">Figure 11.28</a>.</p><p id="para-00044-vn" class="vn visible">Để tạo một danh sách công việc, hãy điền vào mẫu và nhấn nút Thêm Công Việc như được hiển thị trong <a href="11-2-sample-responsive-wad-with-bootstrap-and-django#fig-00015" class="autogenerated-content" aria-label="View Figure 11.28">Hình 11.28</a>.</p>
+    <div class="os-figure" id="fig-00015"><figure data-id="fig-00015" class="ui-has-child-figcaption">
+    <span data-type="media" data-alt="Screenshot of Todo List with Description, Category, Due Date sections; Add Task, Delete Tasks buttons; and Write an article on how to create a Django Web application next to a Work button.">
+    <button type="button" aria-label="Click to enlarge image of Screenshot of Todo List with Description, Category, Due Date sections; Add Task, Delete Tasks buttons; and Write an article on how to create a Django Web application next to a Work button." class="image-button-wrapper"><img src="assets/img-11-2-15.webp" data-media-type="image/jpeg" alt="Screenshot of Todo List with Description, Category, Due Date sections; Add Task, Delete Tasks buttons; and Write an article on how to create a Django Web application next to a Work button." width="1300" height="730" loading="lazy"></button>
+    </span>
+    
+    <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.28</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">This figure shows how the Todo List should appear after using the Add Task button to create a todo list. (rendered in Django, a registered trademark of the Django Software Foundation; attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible">
+  <span class="os-title-label">Hình ảnh </span>
+<span class="os-number">11.28</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">Hình này cho thấy danh sách công việc nên xuất hiện sau khi sử dụng nút Thêm Công Việc để tạo một danh sách công việc. (được hiển thị trong Django, một thương hiệu đã đăng ký của Quỹ Phần mềm Django; quyền sở hữu: Bản quyền Đại học Rice, OpenStax, theo giấy phép CC BY NC-SA 4.0)</span>
+</figcaption></figure></div>
+    <p id="para-00045" class="eng hidden">In addition, the todo item should also be viewable in the API that was created. This should appear as outlined in <a href="11-2-sample-responsive-wad-with-bootstrap-and-django#fig-00016" class="autogenerated-content" aria-label="View Figure 11.29">Figure 11.29</a>.</p><p id="para-00045-vn" class="vn visible">Ngoài ra, mục todo cũng nên có thể xem được trong API đã được tạo. Điều này nên xuất hiện như đã được phác thảo trong <a href="11-2-sample-responsive-wad-with-bootstrap-and-django#fig-00016" class="autogenerated-content" aria-label="View Figure 11.29">Hình 11.29</a>.</p>
+    <div class="os-figure" id="fig-00016"><figure data-id="fig-00016" class="ui-has-child-figcaption">
+    <span data-type="media" data-alt="Screenshot of Todo List viewable in API.">
+    <button type="button" aria-label="Click to enlarge image of Screenshot of Todo List viewable in API." class="image-button-wrapper"><img src="assets/translated/img-11-2-16.vi.png" data-media-type="image/jpeg" alt="Screenshot of Todo List viewable in API." width="1200" height="1153" loading="lazy"></button>
+    </span>
+    
+    <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.29</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">Once the todo item is created, it should be viewable in the API. (rendered in Django, a registered trademark of the Django Software Foundation; attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">11.29</span>
+
+
+
+<span class="os-divider"> </span>
+<span class="os-caption">Khi mục todo được tạo, nó sẽ có thể được xem trong API. (được hiển thị trong Django, một nhãn hiệu đã đăng ký của Quỹ Phần mềm Django; quyền sở hữu: Bản quyền Đại học Rice, OpenStax, theo giấy phép CC BY NC-SA 4.0)</span></figcaption></figure></div>
+    </section>
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </body></html>

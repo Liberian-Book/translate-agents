@@ -1,0 +1,104 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-9-4-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/9-4-ethical-issues-in-the-provision-of-health-care.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-9-4-1.vi.png",
+  "ocr": [
+    {
+      "text": "LiL “ow i Am sip cin a p",
+      "confidence": 33,
+      "bbox": {
+        "x": 130,
+        "y": 61,
+        "w": 1040,
+        "h": 41
+      }
+    },
+    {
+      "text": "Wg £8 eh I I ; I eed EL",
+      "confidence": 33,
+      "bbox": {
+        "x": 130,
+        "y": 142,
+        "w": 1040,
+        "h": 41
+      }
+    },
+    {
+      "text": "a TTL",
+      "confidence": 33,
+      "bbox": {
+        "x": 130,
+        "y": 223,
+        "w": 1040,
+        "h": 41
+      }
+    },
+    {
+      "text": "Pt > ZN 5 vy — ee fm N",
+      "confidence": 33,
+      "bbox": {
+        "x": 130,
+        "y": 304,
+        "w": 1040,
+        "h": 41
+      }
+    },
+    {
+      "text": "SE : «> A XE : =",
+      "confidence": 33,
+      "bbox": {
+        "x": 130,
+        "y": 385,
+        "w": 1040,
+        "h": 41
+      }
+    },
+    {
+      "text": "eg pe pa 1 I",
+      "confidence": 33,
+      "bbox": {
+        "x": 130,
+        "y": 466,
+        "w": 1040,
+        "h": 41
+      }
+    },
+    {
+      "text": "That, TEa td ie 0 ¥ Hu",
+      "confidence": 33,
+      "bbox": {
+        "x": 130,
+        "y": 547,
+        "w": 1040,
+        "h": 41
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: Part A shows the front of the large Indiana University Health University Hospital building. Part B shows an operating room at Gemelli University Hospital in Rome. There are multiple screens and technological devices.\nButton label: Click to enlarge image of Part A shows the front of the large Indiana University Health University Hospital building. Part B shows an operating room at Gemelli University Hospital in Rome. There are multiple screens and technological devices.\nEnglish caption: Figure 9.5 The Indiana University Health University Hospital (a) is an example of a contemporary medical center affiliated with a university medical school, in this case on the Indiana University–Purdue University Indianapolis campus. This is indicative of a common partnership through which hospitalization and medical-school education are made available in the United States. This type of affiliation also exists abroad, as evidenced by this state-of-the-art operating facility (b) at the Gemelli University Hospital in Rome, Italy. (credit a: modification of “Indiana University Hospital - IUPUI - DSC00508” by “Daderot”/Wikimedia Commons, Public Domain; credit b: modification of “Hybrid operating room for cardiovascular surgery at Gemelli Hospital in Rome” by “Pfree2014”/Wikimedia Commons, CC0)",
+  "metrics": {
+    "textDensity": 0.4519685039370079,
+    "averageConfidence": 33,
+    "entropy": 7.003615686586272,
+    "sharpness": 3.7233697814323223
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

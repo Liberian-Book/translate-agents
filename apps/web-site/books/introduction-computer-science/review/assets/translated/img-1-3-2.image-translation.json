@@ -1,0 +1,99 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-1-3-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/1-3-computer-science-and-the-future-of-society.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-1-3-2.vi.png",
+  "ocr": [
+    {
+      "text": "Regular Road Road with Adversarial Attack",
+      "confidence": 74,
+      "bbox": {
+        "x": 130,
+        "y": 124,
+        "w": 1041,
+        "h": 83
+      }
+    },
+    {
+      "text": "[) I Detected lane line",
+      "confidence": 74,
+      "bbox": {
+        "x": 130,
+        "y": 289,
+        "w": 1041,
+        "h": 83
+      }
+    },
+    {
+      "text": "| Stickers",
+      "confidence": 74,
+      "bbox": {
+        "x": 130,
+        "y": 454,
+        "w": 1041,
+        "h": 83
+      }
+    },
+    {
+      "text": "JE, JE,",
+      "confidence": 74,
+      "bbox": {
+        "x": 130,
+        "y": 619,
+        "w": 1041,
+        "h": 83
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Regular Road Road with Adversarial Attack",
+      "target": "Đường bình thường Đường có tấn công đối kháng",
+      "bbox": {
+        "x": 130,
+        "y": 124,
+        "w": 1041,
+        "h": 83
+      },
+      "overflow": false
+    },
+    {
+      "source": "[) I Detected lane line",
+      "target": "Đường lane đã được phát hiện",
+      "bbox": {
+        "x": 130,
+        "y": 289,
+        "w": 1041,
+        "h": 83
+      },
+      "overflow": false
+    },
+    {
+      "source": "| Stickers",
+      "target": "Nhãn dán",
+      "bbox": {
+        "x": 130,
+        "y": 454,
+        "w": 1041,
+        "h": 83
+      },
+      "overflow": false
+    },
+    {
+      "source": "JE, JE,",
+      "target": "JE, JE,",
+      "bbox": {
+        "x": 130,
+        "y": 619,
+        "w": 1041,
+        "h": 83
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.257413796185403,
+    "averageConfidence": 74
+  }
+}

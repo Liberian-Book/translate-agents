@@ -1,0 +1,143 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-11-4-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/11-4-political-ideologies.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Wz",
+      "confidence": 17,
+      "bbox": {
+        "x": 62,
+        "y": 96,
+        "w": 493,
+        "h": 64
+      }
+    },
+    {
+      "text": "oH ; a",
+      "confidence": 17,
+      "bbox": {
+        "x": 62,
+        "y": 224,
+        "w": 493,
+        "h": 64
+      }
+    },
+    {
+      "text": "SAE TOR : Eo :",
+      "confidence": 17,
+      "bbox": {
+        "x": 62,
+        "y": 352,
+        "w": 493,
+        "h": 64
+      }
+    },
+    {
+      "text": "We ee £ Ee £2",
+      "confidence": 17,
+      "bbox": {
+        "x": 62,
+        "y": 480,
+        "w": 493,
+        "h": 64
+      }
+    },
+    {
+      "text": "wo A |",
+      "confidence": 17,
+      "bbox": {
+        "x": 62,
+        "y": 608,
+        "w": 493,
+        "h": 64
+      }
+    },
+    {
+      "text": "SB AE",
+      "confidence": 17,
+      "bbox": {
+        "x": 62,
+        "y": 736,
+        "w": 493,
+        "h": 64
+      }
+    },
+    {
+      "text": "- (Fy 2",
+      "confidence": 17,
+      "bbox": {
+        "x": 62,
+        "y": 864,
+        "w": 493,
+        "h": 64
+      }
+    },
+    {
+      "text": "not AE 1 BL",
+      "confidence": 17,
+      "bbox": {
+        "x": 62,
+        "y": 992,
+        "w": 493,
+        "h": 64
+      }
+    },
+    {
+      "text": "as Pe a",
+      "confidence": 17,
+      "bbox": {
+        "x": 62,
+        "y": 1120,
+        "w": 493,
+        "h": 64
+      }
+    },
+    {
+      "text": "\\ ¢« XX 5",
+      "confidence": 17,
+      "bbox": {
+        "x": 62,
+        "y": 1248,
+        "w": 493,
+        "h": 64
+      }
+    },
+    {
+      "text": "SE wm Ls",
+      "confidence": 17,
+      "bbox": {
+        "x": 62,
+        "y": 1376,
+        "w": 493,
+        "h": 64
+      }
+    },
+    {
+      "text": "hn EE ney” Ete",
+      "confidence": 17,
+      "bbox": {
+        "x": 62,
+        "y": 1504,
+        "w": 493,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.7683116883116883,
+    "averageConfidence": 17,
+    "entropy": 7.4352913703769445,
+    "sharpness": 17.206643770411866
+  }
+}

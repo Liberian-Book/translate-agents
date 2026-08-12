@@ -1,0 +1,78 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-2-17.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-2-enterprise-architecture-management-frameworks.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-10-2-17.vi.png",
+  "ocr": [
+    {
+      "text": "ee : fate Measure Evaluate Draft the",
+      "confidence": 77,
+      "bbox": {
+        "x": 109,
+        "y": 14,
+        "w": 870,
+        "h": 24
+      }
+    },
+    {
+      "text": "i impact road ma",
+      "confidence": 77,
+      "bbox": {
+        "x": 109,
+        "y": 32,
+        "w": 870,
+        "h": 24
+      }
+    },
+    {
+      "text": "architecture architecture gaps imp p",
+      "confidence": 77,
+      "bbox": {
+        "x": 109,
+        "y": 50,
+        "w": 870,
+        "h": 24
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "ee : fate Measure Evaluate Draft the",
+      "target": "đo lường Đánh giá Soạn thảo",
+      "bbox": {
+        "x": 109,
+        "y": 14,
+        "w": 870,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "i impact road ma",
+      "target": "tác động đường ma",
+      "bbox": {
+        "x": 109,
+        "y": 32,
+        "w": 870,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "architecture architecture gaps imp p",
+      "target": "khoảng trống kiến trúc",
+      "bbox": {
+        "x": 109,
+        "y": 50,
+        "w": 870,
+        "h": 24
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.5099689817717026,
+    "averageConfidence": 77
+  }
+}

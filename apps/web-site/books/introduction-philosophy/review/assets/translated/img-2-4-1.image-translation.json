@@ -1,0 +1,144 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-2-4-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/2-4-gathering-information-evaluating-sources-and-understanding-evidence.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "chart",
+    "eligible": true,
+    "reason": "wide-labeled-visual-layout"
+  },
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/translated/img-2-4-1.vi.png",
+  "ocr": [
+    {
+      "text": "Stop Investigate Find better Trace claims,",
+      "confidence": 95,
+      "bbox": {
+        "x": 80,
+        "y": 51,
+        "w": 640,
+        "h": 34
+      }
+    },
+    {
+      "text": "the source coverage quotes and media to",
+      "confidence": 95,
+      "bbox": {
+        "x": 80,
+        "y": 119,
+        "w": 640,
+        "h": 34
+      }
+    },
+    {
+      "text": "the original context",
+      "confidence": 95,
+      "bbox": {
+        "x": 80,
+        "y": 187,
+        "w": 640,
+        "h": 34
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Stop Investigate Find better Trace claims,",
+      "normalizedSource": "Stop Investigate Find better Trace claims,",
+      "target": "Dừng Điều tra Tìm kiếm tốt hơn Theo dõi yêu cầu,",
+      "bbox": {
+        "x": 80,
+        "y": 51,
+        "w": 640,
+        "h": 34
+      },
+      "overflow": false
+    },
+    {
+      "source": "the source coverage quotes and media to",
+      "normalizedSource": "the source coverage quotes and media to",
+      "target": "các trích dẫn và phương tiện phủ sóng nguồn để",
+      "bbox": {
+        "x": 80,
+        "y": 119,
+        "w": 640,
+        "h": 34
+      },
+      "overflow": false
+    },
+    {
+      "source": "the original context",
+      "normalizedSource": "the original context",
+      "target": "bối cảnh gốc",
+      "bbox": {
+        "x": 80,
+        "y": 187,
+        "w": 640,
+        "h": 34
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.19110070257611242,
+    "averageConfidence": 95,
+    "entropy": 1.672094993875362,
+    "sharpness": 4.393765770953968
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: chart.\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Stop Investigate Find better Trace claims, => Dừng Điều tra Tìm kiếm tốt hơn Theo dõi yêu cầu,\n- the source coverage quotes and media to => các trích dẫn và phương tiện phủ sóng nguồn để\n- the original context => bối cảnh gốc\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Dung Diéu tra Tim kiém Theo di yéu cau,",
+        "confidence": 73,
+        "bbox": {
+          "x": 172,
+          "y": 110,
+          "w": 1372,
+          "h": 73
+        }
+      },
+      {
+        "text": "nguén tot hon cac trich dan va phuong tién",
+        "confidence": 73,
+        "bbox": {
+          "x": 172,
+          "y": 257,
+          "w": 1372,
+          "h": 73
+        }
+      },
+      {
+        "text": "pha song nguén dé",
+        "confidence": 73,
+        "bbox": {
+          "x": 172,
+          "y": 404,
+          "w": 1372,
+          "h": 73
+        }
+      },
+      {
+        "text": "béi canh géc",
+        "confidence": 73,
+        "bbox": {
+          "x": 172,
+          "y": 551,
+          "w": 1372,
+          "h": 73
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

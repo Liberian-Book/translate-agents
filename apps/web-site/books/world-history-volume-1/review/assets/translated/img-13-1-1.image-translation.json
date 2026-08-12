@@ -1,0 +1,374 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-13-1-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/13-1-the-post-roman-west-in-the-early-middle-ages.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-13-1-1.vi.png",
+  "ocr": [
+    {
+      "text": "wr aR ae =",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 118,
+        "w": 1041,
+        "h": 79
+      }
+    },
+    {
+      "text": "v Fad \\ o",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 276,
+        "w": 1041,
+        "h": 79
+      }
+    },
+    {
+      "text": "& Ef [3",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 434,
+        "w": 1041,
+        "h": 79
+      }
+    },
+    {
+      "text": "FF 3 EY Oy 2 5",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 592,
+        "w": 1041,
+        "h": 79
+      }
+    },
+    {
+      "text": "GEE gl et",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 750,
+        "w": 1041,
+        "h": 79
+      }
+    },
+    {
+      "text": "= go ?",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 908,
+        "w": 1041,
+        "h": 79
+      }
+    },
+    {
+      "text": "icts od i . 2d . < a ’",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 1066,
+        "w": 1041,
+        "h": 79
+      }
+    },
+    {
+      "text": "3 North & H f Fe ¢,",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 1224,
+        "w": 1041,
+        "h": 79
+      }
+    },
+    {
+      "text": "a? Sea Fangs oo \\ >",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 1382,
+        "w": 1041,
+        "h": 79
+      }
+    },
+    {
+      "text": ": Angles B ¢ Ns 7 4 {",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 1540,
+        "w": 1041,
+        "h": 79
+      }
+    },
+    {
+      "text": "Celtic San Ir ”",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 1698,
+        "w": 1041,
+        "h": 79
+      }
+    },
+    {
+      "text": "Sea v ckrisians",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 1856,
+        "w": 1041,
+        "h": 79
+      }
+    },
+    {
+      "text": "pel? ;",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 2014,
+        "w": 1041,
+        "h": 79
+      }
+    },
+    {
+      "text": "English Channel Brahks huringians TR Y",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 2172,
+        "w": 1041,
+        "h": 79
+      }
+    },
+    {
+      "text": "ATLANTIC : {",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 2330,
+        "w": 1041,
+        "h": 79
+      }
+    },
+    {
+      "text": "ritons . *y - 5",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 2488,
+        "w": 1041,
+        "h": 79
+      }
+    },
+    {
+      "text": "OCEAN ¥ SyaFit Alamanni 3",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 2646,
+        "w": 1041,
+        "h": 79
+      }
+    },
+    {
+      "text": "i Rugii 5 of",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 2804,
+        "w": 1041,
+        "h": 79
+      }
+    },
+    {
+      "text": "Bay of : aed i 13 3 Gar",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 2962,
+        "w": 1041,
+        "h": 79
+      }
+    },
+    {
+      "text": "Biscay Burgundians ORT BITISY Gepids Ze",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 3120,
+        "w": 1041,
+        "h": 79
+      }
+    },
+    {
+      "text": "Suebi i ) 7 <",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 3278,
+        "w": 1041,
+        "h": 79
+      }
+    },
+    {
+      "text": "2 Zr RR Black Sea",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 3436,
+        "w": 1041,
+        "h": 79
+      }
+    },
+    {
+      "text": "Visigothy BS Bo?",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 3594,
+        "w": 1041,
+        "h": 79
+      }
+    },
+    {
+      "text": "[4 os ) : po 3",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 3752,
+        "w": 1041,
+        "h": 79
+      }
+    },
+    {
+      "text": "Brebenian 3 ast EASTERN ROMAN EMPIR",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 3910,
+        "w": 1041,
+        "h": 79
+      }
+    },
+    {
+      "text": "\" ca ; a",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 4068,
+        "w": 1041,
+        "h": 79
+      }
+    },
+    {
+      "text": "Successor Kingdoms “,, REE gl lp SO EI S",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 4226,
+        "w": 1041,
+        "h": 79
+      }
+    },
+    {
+      "text": "7 E TO",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 4384,
+        "w": 1041,
+        "h": 79
+      }
+    },
+    {
+      "text": "After the Collapse of the ie Ny Ay Re",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 4542,
+        "w": 1041,
+        "h": 79
+      }
+    },
+    {
+      "text": ". ; es v",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 4700,
+        "w": 1041,
+        "h": 79
+      }
+    },
+    {
+      "text": "Western Roman Empire Ew VE tay",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 4858,
+        "w": 1041,
+        "h": 79
+      }
+    },
+    {
+      "text": "! - @ > 4 eX",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 5016,
+        "w": 1041,
+        "h": 79
+      }
+    },
+    {
+      "text": "0 Eastern Roman Empire % ” A =]",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 5174,
+        "w": 1041,
+        "h": 79
+      }
+    },
+    {
+      "text": "0 Successor Kingdoms a |",
+      "confidence": 44,
+      "bbox": {
+        "x": 130,
+        "y": 5332,
+        "w": 1041,
+        "h": 79
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A map is shown with land highlighted beige with blue and gray lines crisscrossing the land throughout the map while water is highlighted blue. The Gulf of Bathnia, the Gulf of Finland, the Baltic Sea, Skagerrak, Kattegat, Vanern, and the North Sea are labelled in the north of the map. The Irish Sea, the Celtic Sea, the English Channel, the Atlantic Ocean, and the Bay of Biscay are labelled in the west. The Adriatic Sea, the Tyrrhenian Sea, the Mediterranean Sea, The Ionian Sea, the Dardanelle, and the Aegean Sea are labelled in the south while the Sea of Azov, the Black Sea, and the Bosporus are labelled in the eastern regions. The map is titled “Successor Kingdoms After the Collapse of the Western Roman Empire.” A section of the map in the southeast is highlighted pink and labelled “Eastern Roman Empire.” The pink area runs from the south of the map, up along the coast of the Mediterranean Sea, heads west to the Aegean Sea and the Dardanelle and northwest to the Adriatic Sea. On the east it borders the Black Sea. A very tiny area is highlighted pink at the northern border of the Black Sea. Most of the land shown toward the west is highlighted orange indicating “Successor Kingdoms.” These are labelled, from north to south: Picts, Danes, Scots, Angles, Saxons, Frisians, Jules, Thuringians, Franks, Britons, Syagrius, Alamanni, Rugii, Ostrogoths, Gepids, Burgundians, Nepos, Suebi, Visigoths, Odoacer, and Vandals.\nButton label: Click to enlarge image of A map is shown with land highlighted beige with blue and gray lines crisscrossing the land throughout the map while water is highlighted blue. The Gulf of Bathnia, the Gulf of Finland, the Baltic Sea, Skagerrak, Kattegat, Vanern, and the North Sea are labelled in the north of the map. The Irish Sea, the Celtic Sea, the English Channel, the Atlantic Ocean, and the Bay of Biscay are labelled in the west. The Adriatic Sea, the Tyrrhenian Sea, the Mediterranean Sea, The Ionian Sea, the Dardanelle, and the Aegean Sea are labelled in the south while the Sea of Azov, the Black Sea, and the Bosporus are labelled in the eastern regions. The map is titled “Successor Kingdoms After the Collapse of the Western Roman Empire.” A section of the map in the southeast is highlighted pink and labelled “Eastern Roman Empire.” The pink area runs from the south of the map, up along the coast of the Mediterranean Sea, heads west to the Aegean Sea and the Dardanelle and northwest to the Adriatic Sea. On the east it borders the Black Sea. A very tiny area is highlighted pink at the northern border of the Black Sea. Most of the land shown toward the west is highlighted orange indicating “Successor Kingdoms.” These are labelled, from north to south: Picts, Danes, Scots, Angles, Saxons, Frisians, Jules, Thuringians, Franks, Britons, Syagrius, Alamanni, Rugii, Ostrogoths, Gepids, Burgundians, Nepos, Suebi, Visigoths, Odoacer, and Vandals.\nEnglish caption: Figure 13.4 Post-Roman Western Eurasia. This map shows the Eastern Roman Empire as dominant in the eastern Mediterranean around 500 CE, and the division of western Europe among various successor kingdoms at this time. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 2.1797291208354315,
+    "averageConfidence": 44,
+    "entropy": 5.0391938177363045,
+    "sharpness": 4.7619632976079185
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

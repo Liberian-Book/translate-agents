@@ -1,0 +1,233 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-2-2-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/2-2-the-process-of-becoming-an-entrepreneur.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "accepted-image-edit-validation-warning:image-edit-leftover-source-english",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/translated/img-2-2-4.vi.png",
+  "ocr": [
+    {
+      "text": ": = SSA 7",
+      "confidence": 34,
+      "bbox": {
+        "x": 120,
+        "y": 64,
+        "w": 960,
+        "h": 43
+      }
+    },
+    {
+      "text": "” {ISPS Jil ]",
+      "confidence": 34,
+      "bbox": {
+        "x": 120,
+        "y": 150,
+        "w": 960,
+        "h": 43
+      }
+    },
+    {
+      "text": "| Sana :",
+      "confidence": 34,
+      "bbox": {
+        "x": 120,
+        "y": 236,
+        "w": 960,
+        "h": 43
+      }
+    },
+    {
+      "text": "| RII al ge, NY a SETA oo ORE: be",
+      "confidence": 34,
+      "bbox": {
+        "x": 120,
+        "y": 322,
+        "w": 960,
+        "h": 43
+      }
+    },
+    {
+      "text": "R2522333 R10 \\ = oa Str 9 008 800 4 oa : ;",
+      "confidence": 34,
+      "bbox": {
+        "x": 120,
+        "y": 408,
+        "w": 960,
+        "h": 43
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: (a) Photo of a 1873 prototype of a typewriter. (b) Photo of an early airplane.\nButton label: Click to enlarge image of (a) Photo of a 1873 prototype of a typewriter. (b) Photo of an early airplane.\nEnglish caption: Figure 2.15 (a) The first commercially successful typewriter was produced by Christopher Latham Sholes and Carlos S. Glidden; this is their 1873 prototype model. (b) The Wright brothers are among the best-known pioneers of early flight. In this photo, Orville flies over their air field in 1904. (credit (a): modification of “Sholes typewriter” by George Iles/Wikimedia Commons, Public Domain; credit (b): modification of “1904WrightFlyer” by “DonFB”/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 0.3208955223880597,
+    "averageConfidence": 34,
+    "entropy": 6.062038087147812,
+    "sharpness": 2.0985719040914628
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: (a) Photo of a 1873 prototype of a typewriter. (b) Photo of an early airplane.\nButton label: Click to enlarge image of (a) Photo of a 1873 prototype of a typewriter. (b) Photo of an early airplane.\nEnglish caption: Figure 2.15 (a) The first commercially successful typewriter was produced by Christopher Latham Sholes and Carlos S. Glidden; this is their 1873 prototype model. (b) The Wright brothers are among the best-known pioneers of early flight. In this photo, Orville flies over their air field in 1904. (credit (a): modification of “Sholes typewriter” by George Iles/Wikimedia Commons, Public Domain; credit (b): modification of “1904WrightFlyer” by “DonFB”/Wikimedia Commons, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: christopher, latham, sholes, carlos, glidden, wright, orville, george, iles, wikimedia, commons, wrightflyer, donfb. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Oc) - de re J",
+        "confidence": 53,
+        "bbox": {
+          "x": 188,
+          "y": 101,
+          "w": 1500,
+          "h": 67
+        }
+      },
+      {
+        "text": "p- ['s — / = 15 dl)",
+        "confidence": 53,
+        "bbox": {
+          "x": 188,
+          "y": 235,
+          "w": 1500,
+          "h": 67
+        }
+      },
+      {
+        "text": ": | | +i Tig",
+        "confidence": 53,
+        "bbox": {
+          "x": 188,
+          "y": 369,
+          "w": 1500,
+          "h": 67
+        }
+      },
+      {
+        "text": "| iJ SNIRV aN a I",
+        "confidence": 53,
+        "bbox": {
+          "x": 188,
+          "y": 503,
+          "w": 1500,
+          "h": 67
+        }
+      },
+      {
+        "text": "$ | * Aven J",
+        "confidence": 53,
+        "bbox": {
+          "x": 188,
+          "y": 637,
+          "w": 1500,
+          "h": 67
+        }
+      },
+      {
+        "text": "f ESS va 1",
+        "confidence": 53,
+        "bbox": {
+          "x": 188,
+          "y": 771,
+          "w": 1500,
+          "h": 67
+        }
+      },
+      {
+        "text": "\\ i \\ - 2 A ee dis",
+        "confidence": 53,
+        "bbox": {
+          "x": 188,
+          "y": 905,
+          "w": 1500,
+          "h": 67
+        }
+      },
+      {
+        "text": "RL AATUPAY th VL HM x Nod SA 2",
+        "confidence": 53,
+        "bbox": {
+          "x": 188,
+          "y": 1039,
+          "w": 1500,
+          "h": 67
+        }
+      },
+      {
+        "text": "BE IPA ah od BRE as. TUE SNR: ©",
+        "confidence": 53,
+        "bbox": {
+          "x": 188,
+          "y": 1173,
+          "w": 1500,
+          "h": 67
+        }
+      },
+      {
+        "text": "RE £3451 14 340 Cy re a Oe",
+        "confidence": 53,
+        "bbox": {
+          "x": 188,
+          "y": 1307,
+          "w": 1500,
+          "h": 67
+        }
+      },
+      {
+        "text": "ve 2AM v | Ti iu we EOVGEANT Airy Sw SG BO 0 ons Te Gl OR Poa",
+        "confidence": 53,
+        "bbox": {
+          "x": 188,
+          "y": 1441,
+          "w": 1500,
+          "h": 67
+        }
+      },
+      {
+        "text": "Chiéc méy d4nh chit thuong mai dau tién dugc san xuét béi Anh em nha Wright 1a mot trong nhiing ngudi tién phong",
+        "confidence": 53,
+        "bbox": {
+          "x": 188,
+          "y": 1575,
+          "w": 1500,
+          "h": 67
+        }
+      },
+      {
+        "text": "Christopher Latham Sholes va Carlos S. Glidden; dy 1a mau ndi tiéng nhit trong linh vuc hang khong so khai. Trong",
+        "confidence": 53,
+        "bbox": {
+          "x": 188,
+          "y": 1709,
+          "w": 1500,
+          "h": 67
+        }
+      },
+      {
+        "text": "nguyén mau nam 1873 cia ho. btic anh nay, Orville bay trén sin bay cia ho vao nim 1904.",
+        "confidence": 53,
+        "bbox": {
+          "x": 188,
+          "y": 1843,
+          "w": 1500,
+          "h": 67
+        }
+      }
+    ],
+    "validation": {
+      "ok": false,
+      "reason": "image-edit-leftover-source-english",
+      "leftoverSourceWords": [
+        "christopher",
+        "latham",
+        "sholes",
+        "carlos",
+        "glidden",
+        "wright",
+        "orville"
+      ]
+    },
+    "validationAttempt": 3
+  }
+}

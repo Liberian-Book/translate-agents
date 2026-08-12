@@ -1,0 +1,323 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-6-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/6-introduction.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "TON META TA $YSIKA “A.",
+      "confidence": 31,
+      "bbox": {
+        "x": 54,
+        "y": 96,
+        "w": 432,
+        "h": 64
+      }
+    },
+    {
+      "text": "TIANTES atpuros roi cbivas ipivorras gicwi. Zoe",
+      "confidence": 31,
+      "bbox": {
+        "x": 54,
+        "y": 224,
+        "w": 432,
+        "h": 64
+      }
+    },
+    {
+      "text": "wiiov & 5 Taw aioOigen dyimyes xal vip xwupls Tis",
+      "confidence": 31,
+      "bbox": {
+        "x": 54,
+        "y": 352,
+        "w": 432,
+        "h": 64
+      }
+    },
+    {
+      "text": "Xpelas depuriovras &¢ Pairs, xal uidiera Taw ikaw § di",
+      "confidence": 31,
+      "bbox": {
+        "x": 54,
+        "y": 480,
+        "w": 432,
+        "h": 64
+      }
+    },
+    {
+      "text": "Tin duudrur. OF ip wivoy a zpérrenen, NG xal",
+      "confidence": 31,
+      "bbox": {
+        "x": 54,
+        "y": 608,
+        "w": 432,
+        "h": 64
+      }
+    },
+    {
+      "text": "bin ¢ iNhovres wpérrar vb Spiv aipoiiucda dri irre",
+      "confidence": 31,
+      "bbox": {
+        "x": 54,
+        "y": 736,
+        "w": 432,
+        "h": 64
+      }
+    },
+    {
+      "text": "or dire viv Dew. Alri brs pidiora void yeples",
+      "confidence": 31,
+      "bbox": {
+        "x": 54,
+        "y": 864,
+        "w": 432,
+        "h": 64
+      }
+    },
+    {
+      "text": "Lar dre iui arn vie asec, cal xoNAs Ii dua-",
+      "confidence": 31,
+      "bbox": {
+        "x": 54,
+        "y": 992,
+        "w": 432,
+        "h": 64
+      }
+    },
+    {
+      "text": "pops. Dive iv oly alobyawr Iyorra wiveras 7d (oo, dc",
+      "confidence": 31,
+      "bbox": {
+        "x": 54,
+        "y": 1120,
+        "w": 432,
+        "h": 64
+      }
+    },
+    {
+      "text": "3 “vie ainioees Tois piv avriv ole iopyloperas rin,",
+      "confidence": 31,
+      "bbox": {
+        "x": 54,
+        "y": 1248,
+        "w": 432,
+        "h": 64
+      }
+    },
+    {
+      "text": "weit 13 énpyiopreras. Kal 8 robo Sraira gpovusrepa",
+      "confidence": 31,
+      "bbox": {
+        "x": 54,
+        "y": 1376,
+        "w": 432,
+        "h": 64
+      }
+    },
+    {
+      "text": "beat palbrrudrepa wiv Vuh waiver pore driv.",
+      "confidence": 31,
+      "bbox": {
+        "x": 54,
+        "y": 1504,
+        "w": 432,
+        "h": 64
+      }
+    },
+    {
+      "text": "Ppa ¥ piv drew 705 warbira, daa wi Evarac iv \\pd-3",
+      "confidence": 31,
+      "bbox": {
+        "x": 54,
+        "y": 1632,
+        "w": 432,
+        "h": 64
+      }
+    },
+    {
+      "text": "pow axodur, olor widerra, vai d Ti Towiror Aho vor",
+      "confidence": 31,
+      "bbox": {
+        "x": 54,
+        "y": 1760,
+        "w": 432,
+        "h": 64
+      }
+    },
+    {
+      "text": "hw driv warbions & moa pls 75 primp sal ares",
+      "confidence": 31,
+      "bbox": {
+        "x": 54,
+        "y": 1888,
+        "w": 432,
+        "h": 64
+      }
+    },
+    {
+      "text": "xe Tv dlatrow. Ti wiv oly Na rads parracias G",
+      "confidence": 31,
+      "bbox": {
+        "x": 54,
+        "y": 2016,
+        "w": 432,
+        "h": 64
+      }
+    },
+    {
+      "text": "al vais pias, iwwaplas 8 peréxa wiepdr: 7 & vw ine",
+      "confidence": 31,
+      "bbox": {
+        "x": 54,
+        "y": 2144,
+        "w": 432,
+        "h": 64
+      }
+    },
+    {
+      "text": "Opn yivos wal rixvy cal Noyiouois. Tireras & ix Ties",
+      "confidence": 31,
+      "bbox": {
+        "x": 54,
+        "y": 2272,
+        "w": 432,
+        "h": 64
+      }
+    },
+    {
+      "text": "wodrs durapla vols asbpéwaus ai ip woMNai pias 703",
+      "confidence": 31,
+      "bbox": {
+        "x": 54,
+        "y": 2400,
+        "w": 432,
+        "h": 64
+      }
+    },
+    {
+      "text": "air wpieyuaros ids iurapias dra dworoioiw. Kai",
+      "confidence": 31,
+      "bbox": {
+        "x": 54,
+        "y": 2528,
+        "w": 432,
+        "h": 64
+      }
+    },
+    {
+      "text": "doce alle érrving kal répy *Hpoior dear § durapla.",
+      "confidence": 31,
+      "bbox": {
+        "x": 54,
+        "y": 2656,
+        "w": 432,
+        "h": 64
+      }
+    },
+    {
+      "text": "Codices EQS. T.H%AVBY CoO.DV EVFS.GOHVIVL. & A EAY,",
+      "confidence": 31,
+      "bbox": {
+        "x": 54,
+        "y": 2784,
+        "w": 432,
+        "h": 64
+      }
+    },
+    {
+      "text": "«pl leu, «pir QT, i «pi A",
+      "confidence": 31,
+      "bbox": {
+        "x": 54,
+        "y": 2912,
+        "w": 432,
+        "h": 64
+      }
+    },
+    {
+      "text": "ee He a EE ET Ame vie",
+      "confidence": 31,
+      "bbox": {
+        "x": 54,
+        "y": 3040,
+        "w": 432,
+        "h": 64
+      }
+    },
+    {
+      "text": "refs] in ADV, FF dirs AD: hr, Ev: ct",
+      "confidence": 31,
+      "bbox": {
+        "x": 54,
+        "y": 3168,
+        "w": 432,
+        "h": 64
+      }
+    },
+    {
+      "text": "yiyeras. & vavra Gpampirepn ALDV: ceteri va piv dpimpa. ® cal",
+      "confidence": 31,
+      "bbox": {
+        "x": 54,
+        "y": 3296,
+        "w": 432,
+        "h": 64
+      }
+    },
+    {
+      "text": "pabyruiripa AV.DY, vi 8 pobyruiripa E.BVEDFY : ceteni va 3 pa-",
+      "confidence": 31,
+      "bbox": {
+        "x": 54,
+        "y": 3424,
+        "w": 432,
+        "h": 64
+      }
+    },
+    {
+      "text": "EE A Te TE",
+      "confidence": 31,
+      "bbox": {
+        "x": 54,
+        "y": 3552,
+        "w": 432,
+        "h": 64
+      }
+    },
+    {
+      "text": "TE orga KV) pmo dpa a U6 Grr",
+      "confidence": 31,
+      "bbox": {
+        "x": 54,
+        "y": 3680,
+        "w": 432,
+        "h": 64
+      }
+    },
+    {
+      "text": "vor. vi. A",
+      "confidence": 31,
+      "bbox": {
+        "x": 54,
+        "y": 3808,
+        "w": 432,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 1.92,
+    "averageConfidence": 31,
+    "entropy": 2.5231696777045727,
+    "sharpness": 7.893642113293159
+  }
+}

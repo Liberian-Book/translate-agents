@@ -1,0 +1,103 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-12-5-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/12-5-postmodernism.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "LBL (= 7",
+      "confidence": 36,
+      "bbox": {
+        "x": 80,
+        "y": 72,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "i = » CAN",
+      "confidence": 36,
+      "bbox": {
+        "x": 80,
+        "y": 168,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "SS k ih id — =",
+      "confidence": 36,
+      "bbox": {
+        "x": 80,
+        "y": 264,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "= = Tox 3 i.",
+      "confidence": 36,
+      "bbox": {
+        "x": 80,
+        "y": 360,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "= = = < =~ ; 3 ~ FRC = = =",
+      "confidence": 36,
+      "bbox": {
+        "x": 80,
+        "y": 456,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "= = i iN Te",
+      "confidence": 36,
+      "bbox": {
+        "x": 80,
+        "y": 552,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "=o AA [52] Vo UA",
+      "confidence": 36,
+      "bbox": {
+        "x": 80,
+        "y": 648,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "oo A 5 Am Re oc",
+      "confidence": 36,
+      "bbox": {
+        "x": 80,
+        "y": 744,
+        "w": 640,
+        "h": 48
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.512,
+    "averageConfidence": 36,
+    "entropy": 7.58055838564178,
+    "sharpness": 4.3479839150475685
+  }
+}

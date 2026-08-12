@@ -1,0 +1,390 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-11-3-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/11-3-islamization-and-religious-rule-under-islam.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-11-3-1.vi.png",
+  "ocr": [
+    {
+      "text": "= TERN",
+      "confidence": 33,
+      "bbox": {
+        "x": 90,
+        "y": 114,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "’ 2 T he =",
+      "confidence": 33,
+      "bbox": {
+        "x": 90,
+        "y": 266,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "| Q / ik § “3",
+      "confidence": 33,
+      "bbox": {
+        "x": 90,
+        "y": 418,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "So, © RL",
+      "confidence": 33,
+      "bbox": {
+        "x": 90,
+        "y": 570,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "25 3 Ae BUS 1",
+      "confidence": 33,
+      "bbox": {
+        "x": 90,
+        "y": 722,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "Zen Sel",
+      "confidence": 33,
+      "bbox": {
+        "x": 90,
+        "y": 874,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "\\ ; 4 A Neg 1 oe",
+      "confidence": 33,
+      "bbox": {
+        "x": 90,
+        "y": 1026,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "ER) of “/) Z",
+      "confidence": 33,
+      "bbox": {
+        "x": 90,
+        "y": 1178,
+        "w": 721,
+        "h": 76
+      }
+    },
+    {
+      "text": "WY \\ PA | ;",
+      "confidence": 33,
+      "bbox": {
+        "x": 90,
+        "y": 1330,
+        "w": 721,
+        "h": 76
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A drawing of a map is shown. The Caspian Sea is shown to the northwest, the Persian Gulf (Arabian Gulf) is shown toward the south along with the Gulf of Oman and the Arabian Sea. The Tropic of Cancer is labeled on the latitude line in the northern Arabian Sea. Land labeled “Arabia” is shown in the southwest corner of the map and a land mass labeled “Asia” is shown in the northeast section of the map. An area in Asia is highlighted orange and labeled “Khurasan Province.” It stretches from the Syr Darya River at the top of the map, south through the Aydar Kul, through the cities of Bukhara, Shahrishabr, Merv, and ending south in the city of Kandahar. It stretches west to the city of Gugan and east to the Indus River.\nButton label: Click to enlarge image of A drawing of a map is shown. The Caspian Sea is shown to the northwest, the Persian Gulf (Arabian Gulf) is shown toward the south along with the Gulf of Oman and the Arabian Sea. The Tropic of Cancer is labeled on the latitude line in the northern Arabian Sea. Land labeled “Arabia” is shown in the southwest corner of the map and a land mass labeled “Asia” is shown in the northeast section of the map. An area in Asia is highlighted orange and labeled “Khurasan Province.” It stretches from the Syr Darya River at the top of the map, south through the Aydar Kul, through the cities of Bukhara, Shahrishabr, Merv, and ending south in the city of Kandahar. It stretches west to the city of Gugan and east to the Indus River.\nEnglish caption: Figure 11.18 Khurasan Province. The province of Khurasan (shaded orange) made up the northeastern extent first of the Sasanian Empire and then of the realm of the early Islamic caliphates. Discontent among the mixed-ethnicity Muslims living there grew during the eighth century. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.5749494026245349,
+    "averageConfidence": 33,
+    "entropy": 4.818772464648646,
+    "sharpness": 3.5204574239124082
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A drawing of a map is shown. The Caspian Sea is shown to the northwest, the Persian Gulf (Arabian Gulf) is shown toward the south along with the Gulf of Oman and the Arabian Sea. The Tropic of Cancer is labeled on the latitude line in the northern Arabian Sea. Land labeled “Arabia” is shown in the southwest corner of the map and a land mass labeled “Asia” is shown in the northeast section of the map. An area in Asia is highlighted orange and labeled “Khurasan Province.” It stretches from the Syr Darya River at the top of the map, south through the Aydar Kul, through the cities of Bukhara, Shahrishabr, Merv, and ending south in the city of Kandahar. It stretches west to the city of Gugan and east to the Indus River.\nButton label: Click to enlarge image of A drawing of a map is shown. The Caspian Sea is shown to the northwest, the Persian Gulf (Arabian Gulf) is shown toward the south along with the Gulf of Oman and the Arabian Sea. The Tropic of Cancer is labeled on the latitude line in the northern Arabian Sea. Land labeled “Arabia” is shown in the southwest corner of the map and a land mass labeled “Asia” is shown in the northeast section of the map. An area in Asia is highlighted orange and labeled “Khurasan Province.” It stretches from the Syr Darya River at the top of the map, south through the Aydar Kul, through the cities of Bukhara, Shahrishabr, Merv, and ending south in the city of Kandahar. It stretches west to the city of Gugan and east to the Indus River.\nEnglish caption: Figure 11.18 Khurasan Province. The province of Khurasan (shaded orange) made up the northeastern extent first of the Sasanian Empire and then of the realm of the early Islamic caliphates. Discontent among the mixed-ethnicity Muslims living there grew during the eighth century. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "I; JOLY 70°D ~ Ww 80°\"",
+        "confidence": 40,
+        "bbox": {
+          "x": 122,
+          "y": 155,
+          "w": 976,
+          "h": 103
+        }
+      },
+      {
+        "text": "J Sov pp a",
+        "confidence": 40,
+        "bbox": {
+          "x": 122,
+          "y": 361,
+          "w": 976,
+          "h": 103
+        }
+      },
+      {
+        "text": "i x; os",
+        "confidence": 40,
+        "bbox": {
+          "x": 122,
+          "y": 567,
+          "w": 976,
+          "h": 103
+        }
+      },
+      {
+        "text": "yr Vo /",
+        "confidence": 40,
+        "bbox": {
+          "x": 122,
+          "y": 773,
+          "w": 976,
+          "h": 103
+        }
+      },
+      {
+        "text": "Q Con",
+        "confidence": 40,
+        "bbox": {
+          "x": 122,
+          "y": 979,
+          "w": 976,
+          "h": 103
+        }
+      },
+      {
+        "text": "ID) IN AU /",
+        "confidence": 40,
+        "bbox": {
+          "x": 122,
+          "y": 1185,
+          "w": 976,
+          "h": 103
+        }
+      },
+      {
+        "text": "chi A ®, [8 2% 16 Ai-ddc Cor CHA A",
+        "confidence": 40,
+        "bbox": {
+          "x": 122,
+          "y": 1391,
+          "w": 976,
+          "h": 103
+        }
+      },
+      {
+        "text": ") - - = HN “ g) 7 <\\",
+        "confidence": 40,
+        "bbox": {
+          "x": 122,
+          "y": 1597,
+          "w": 976,
+          "h": 103
+        }
+      },
+      {
+        "text": "| hd 23 q {",
+        "confidence": 40,
+        "bbox": {
+          "x": 122,
+          "y": 1803,
+          "w": 976,
+          "h": 103
+        }
+      },
+      {
+        "text": "ATE 5 X 9 ’",
+        "confidence": 40,
+        "bbox": {
+          "x": 122,
+          "y": 2009,
+          "w": 976,
+          "h": 103
+        }
+      },
+      {
+        "text": "ic ron ed",
+        "confidence": 40,
+        "bbox": {
+          "x": 122,
+          "y": 2215,
+          "w": 976,
+          "h": 103
+        }
+      },
+      {
+        "text": "(Ho Van) N A",
+        "confidence": 40,
+        "bbox": {
+          "x": 122,
+          "y": 2421,
+          "w": 976,
+          "h": 103
+        }
+      },
+      {
+        "text": "Gas], AT 4 2",
+        "confidence": 40,
+        "bbox": {
+          "x": 122,
+          "y": 2627,
+          "w": 976,
+          "h": 103
+        }
+      },
+      {
+        "text": "op f : - (3",
+        "confidence": 40,
+        "bbox": {
+          "x": 122,
+          "y": 2833,
+          "w": 976,
+          "h": 103
+        }
+      },
+      {
+        "text": "& _— B+ § fa-ha i",
+        "confidence": 40,
+        "bbox": {
+          "x": 122,
+          "y": 3039,
+          "w": 976,
+          "h": 103
+        }
+      },
+      {
+        "text": ": ¥ sod",
+        "confidence": 40,
+        "bbox": {
+          "x": 122,
+          "y": 3245,
+          "w": 976,
+          "h": 103
+        }
+      },
+      {
+        "text": "| ge F ar",
+        "confidence": 40,
+        "bbox": {
+          "x": 122,
+          "y": 3451,
+          "w": 976,
+          "h": 103
+        }
+      },
+      {
+        "text": "5 Sr Eobié",
+        "confidence": 40,
+        "bbox": {
+          "x": 122,
+          "y": 3657,
+          "w": 976,
+          "h": 103
+        }
+      },
+      {
+        "text": "n ong es Hodemit »",
+        "confidence": 40,
+        "bbox": {
+          "x": 122,
+          "y": 3863,
+          "w": 976,
+          "h": 103
+        }
+      },
+      {
+        "text": "oh Yi 2 :",
+        "confidence": 40,
+        "bbox": {
+          "x": 122,
+          "y": 4069,
+          "w": 976,
+          "h": 103
+        }
+      },
+      {
+        "text": "dp) £ ) #4.)",
+        "confidence": 40,
+        "bbox": {
+          "x": 122,
+          "y": 4275,
+          "w": 976,
+          "h": 103
+        }
+      },
+      {
+        "text": "i t Oman Chi tuyén Bic j (",
+        "confidence": 40,
+        "bbox": {
+          "x": 122,
+          "y": 4481,
+          "w": 976,
+          "h": 103
+        }
+      },
+      {
+        "text": "~ ih, 10]",
+        "confidence": 40,
+        "bbox": {
+          "x": 122,
+          "y": 4687,
+          "w": 976,
+          "h": 103
+        }
+      },
+      {
+        "text": "A-RAP",
+        "confidence": 40,
+        "bbox": {
+          "x": 122,
+          "y": 4893,
+          "w": 976,
+          "h": 103
+        }
+      },
+      {
+        "text": "re",
+        "confidence": 40,
+        "bbox": {
+          "x": 122,
+          "y": 5099,
+          "w": 976,
+          "h": 103
+        }
+      },
+      {
+        "text": ". Bién A-rdp",
+        "confidence": 40,
+        "bbox": {
+          "x": 122,
+          "y": 5305,
+          "w": 976,
+          "h": 103
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": [
+        "oman"
+      ]
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

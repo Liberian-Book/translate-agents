@@ -1,0 +1,285 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-1-1-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/1-1-being-a-professional-of-integrity.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "image-edit-leftover-source-english",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Kantianism (Deontology)",
+      "confidence": 79,
+      "bbox": {
+        "x": 80,
+        "y": 54,
+        "w": 639,
+        "h": 36
+      }
+    },
+    {
+      "text": "Immanuel Kant (1724-1804) Fi",
+      "confidence": 79,
+      "bbox": {
+        "x": 80,
+        "y": 126,
+        "w": 639,
+        "h": 36
+      }
+    },
+    {
+      "text": "“ay",
+      "confidence": 79,
+      "bbox": {
+        "x": 80,
+        "y": 198,
+        "w": 639,
+        "h": 36
+      }
+    },
+    {
+      "text": "Human beings are creatures with reason. h",
+      "confidence": 79,
+      "bbox": {
+        "x": 80,
+        "y": 270,
+        "w": 639,
+        "h": 36
+      }
+    },
+    {
+      "text": "Reason depends on respect for rules. 3",
+      "confidence": 79,
+      "bbox": {
+        "x": 80,
+        "y": 342,
+        "w": 639,
+        "h": 36
+      }
+    },
+    {
+      "text": "As creatures with reason, we are “duty bound” \\",
+      "confidence": 79,
+      "bbox": {
+        "x": 80,
+        "y": 414,
+        "w": 639,
+        "h": 36
+      }
+    },
+    {
+      "text": "to follow logical ethical principles and avoid ® ®\\",
+      "confidence": 79,
+      "bbox": {
+        "x": 80,
+        "y": 486,
+        "w": 639,
+        "h": 36
+      }
+    },
+    {
+      "text": "contradiction. @ 9",
+      "confidence": 79,
+      "bbox": {
+        "x": 80,
+        "y": 558,
+        "w": 639,
+        "h": 36
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Kantianism (Deontology)",
+      "normalizedSource": "Kantianism (Deontology)",
+      "target": "Chủ nghĩa Kant (Đạo đức học)",
+      "bbox": {
+        "x": 80,
+        "y": 54,
+        "w": 639,
+        "h": 36
+      },
+      "overflow": false
+    },
+    {
+      "source": "Immanuel Kant (1724-1804) Fi",
+      "normalizedSource": "Immanuel Kant (1724-1804) Fi",
+      "target": "Immanuel Kant (1724-1804)",
+      "bbox": {
+        "x": 80,
+        "y": 126,
+        "w": 639,
+        "h": 36
+      },
+      "overflow": false
+    },
+    {
+      "source": "“ay",
+      "normalizedSource": "“ay",
+      "target": "“ay",
+      "bbox": {
+        "x": 80,
+        "y": 198,
+        "w": 639,
+        "h": 36
+      },
+      "overflow": false
+    },
+    {
+      "source": "Human beings are creatures with reason. h",
+      "normalizedSource": "Human beings are creatures with reason. h",
+      "target": "Con người là sinh vật có lý trí.",
+      "bbox": {
+        "x": 80,
+        "y": 270,
+        "w": 639,
+        "h": 36
+      },
+      "overflow": false
+    },
+    {
+      "source": "Reason depends on respect for rules. 3",
+      "normalizedSource": "Reason depends on respect for rules. 3",
+      "target": "Lý trí phụ thuộc vào sự tôn trọng các quy tắc.",
+      "bbox": {
+        "x": 80,
+        "y": 342,
+        "w": 639,
+        "h": 36
+      },
+      "overflow": false
+    },
+    {
+      "source": "As creatures with reason, we are “duty bound” \\",
+      "normalizedSource": "As creatures with reason, we are “duty bound” \\",
+      "target": "Là sinh vật có lý trí, chúng ta có \"nghĩa vụ\"",
+      "bbox": {
+        "x": 80,
+        "y": 414,
+        "w": 639,
+        "h": 36
+      },
+      "overflow": false
+    },
+    {
+      "source": "to follow logical ethical principles and avoid ® ®\\",
+      "normalizedSource": "to follow logical ethical principles and avoid ® ®\\",
+      "target": "tuân theo các nguyên tắc đạo đức hợp lý và tránh",
+      "bbox": {
+        "x": 80,
+        "y": 486,
+        "w": 639,
+        "h": 36
+      },
+      "overflow": false
+    },
+    {
+      "source": "contradiction. @ 9",
+      "normalizedSource": "contradiction. @ 9",
+      "target": "mâu thuẫn.",
+      "bbox": {
+        "x": 80,
+        "y": 558,
+        "w": 639,
+        "h": 36
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: An image of Immanuel Kant with the following text: “Kantianism (Deontology). Immanuel Kant (1724-1804). Human beings are creatures with reason. Reason depends on respect for rules. As creatures with reason, we are ‘duty bound’ to follow logical ethical principles and avoid contradiction.”\nButton label: Click to enlarge image of An image of Immanuel Kant with the following text: “Kantianism (Deontology). Immanuel Kant (1724-1804). Human beings are creatures with reason. Reason depends on respect for rules. As creatures with reason, we are ‘duty bound’ to follow logical ethical principles and avoid contradiction.”\nEnglish caption: Figure 1.3 Immanuel Kant was an eighteenth-century philosopher, now associated with deontology, who spent nearly all his professional life teaching at the university in Königsberg (which today is Kaliningrad, the westernmost point in Russia). (credit right: modification of “Kant foto” by “Becker”/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 0.5129797547602655,
+    "averageConfidence": 79,
+    "entropy": 3.5955216316724545,
+    "sharpness": 6.10153568938467
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: An image of Immanuel Kant with the following text: “Kantianism (Deontology). Immanuel Kant (1724-1804). Human beings are creatures with reason. Reason depends on respect for rules. As creatures with reason, we are ‘duty bound’ to follow logical ethical principles and avoid contradiction.”\nButton label: Click to enlarge image of An image of Immanuel Kant with the following text: “Kantianism (Deontology). Immanuel Kant (1724-1804). Human beings are creatures with reason. Reason depends on respect for rules. As creatures with reason, we are ‘duty bound’ to follow logical ethical principles and avoid contradiction.”\nEnglish caption: Figure 1.3 Immanuel Kant was an eighteenth-century philosopher, now associated with deontology, who spent nearly all his professional life teaching at the university in Königsberg (which today is Kaliningrad, the westernmost point in Russia). (credit right: modification of “Kant foto” by “Becker”/Wikimedia Commons, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Kantianism (Deontology) => Chủ nghĩa Kant (Đạo đức học)\n- Immanuel Kant (1724-1804) Fi => Immanuel Kant (1724-1804)\n- “ay => “ay\n- Human beings are creatures with reason. h => Con người là sinh vật có lý trí.\n- Reason depends on respect for rules. 3 => Lý trí phụ thuộc vào sự tôn trọng các quy tắc.\n- As creatures with reason, we are “duty bound” \\ => Là sinh vật có lý trí, chúng ta có \"nghĩa vụ\"\n- to follow logical ethical principles and avoid ® ®\\ => tuân theo các nguyên tắc đạo đức hợp lý và tránh\n- contradiction. @ 9 => mâu thuẫn.\nPrevious output was rejected because these English source words were still visible: immanuel, kant. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Chu nghia Kant (Pao dirc hoc)",
+        "confidence": 77,
+        "bbox": {
+          "x": 167,
+          "y": 113,
+          "w": 1338,
+          "h": 75
+        }
+      },
+      {
+        "text": "Immanuel Kant (1724-1804)",
+        "confidence": 77,
+        "bbox": {
+          "x": 167,
+          "y": 264,
+          "w": 1338,
+          "h": 75
+        }
+      },
+      {
+        "text": "Con ngudi la sinh vat cé ly tri. ec \\,",
+        "confidence": 77,
+        "bbox": {
+          "x": 167,
+          "y": 415,
+          "w": 1338,
+          "h": 75
+        }
+      },
+      {
+        "text": "Ly tri phu thudc vao su tén trong cac quy tac. 4",
+        "confidence": 77,
+        "bbox": {
+          "x": 167,
+          "y": 566,
+          "w": 1338,
+          "h": 75
+        }
+      },
+      {
+        "text": "La sinh vat cé ly tri, ching ta cé \"nghia vu\"",
+        "confidence": 77,
+        "bbox": {
+          "x": 167,
+          "y": 717,
+          "w": 1338,
+          "h": 75
+        }
+      },
+      {
+        "text": "tun theo cac nguyén tic dao dtc hop ly va trénh © e\\",
+        "confidence": 77,
+        "bbox": {
+          "x": 167,
+          "y": 868,
+          "w": 1338,
+          "h": 75
+        }
+      },
+      {
+        "text": "mau thuan. @ °\\",
+        "confidence": 77,
+        "bbox": {
+          "x": 167,
+          "y": 1019,
+          "w": 1338,
+          "h": 75
+        }
+      }
+    ],
+    "validation": {
+      "ok": false,
+      "reason": "image-edit-leftover-source-english",
+      "leftoverSourceWords": [
+        "immanuel",
+        "kant"
+      ]
+    },
+    "validationAttempt": 3
+  }
+}

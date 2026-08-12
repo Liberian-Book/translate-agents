@@ -1,0 +1,183 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-3-18.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-3-example-paas-and-faas-deployments-of-cloud-native-applications.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-12-3-18.vi.png",
+  "ocr": [
+    {
+      "text": "instance instance",
+      "confidence": 94,
+      "bbox": {
+        "x": 130,
+        "y": 55,
+        "w": 1038,
+        "h": 36
+      }
+    },
+    {
+      "text": "67.1 ms 294.9 ms",
+      "confidence": 94,
+      "bbox": {
+        "x": 130,
+        "y": 128,
+        "w": 1038,
+        "h": 36
+      }
+    },
+    {
+      "text": "210 calls 12 calls",
+      "confidence": 94,
+      "bbox": {
+        "x": 130,
+        "y": 201,
+        "w": 1038,
+        "h": 36
+      }
+    },
+    {
+      "text": "ncafaasapp-p ncafaasapp-p",
+      "confidence": 94,
+      "bbox": {
+        "x": 130,
+        "y": 274,
+        "w": 1038,
+        "h": 36
+      }
+    },
+    {
+      "text": "61.2 ms 179.6 ms",
+      "confidence": 94,
+      "bbox": {
+        "x": 130,
+        "y": 347,
+        "w": 1038,
+        "h": 36
+      }
+    },
+    {
+      "text": "208 calls 12 calls",
+      "confidence": 94,
+      "bbox": {
+        "x": 130,
+        "y": 420,
+        "w": 1038,
+        "h": 36
+      }
+    },
+    {
+      "text": "ncafaa",
+      "confidence": 94,
+      "bbox": {
+        "x": 130,
+        "y": 493,
+        "w": 1038,
+        "h": 36
+      }
+    },
+    {
+      "text": "AZURE EVENT HUBS",
+      "confidence": 94,
+      "bbox": {
+        "x": 130,
+        "y": 566,
+        "w": 1038,
+        "h": 36
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "instance instance",
+      "target": "thể hiện thể hiện",
+      "bbox": {
+        "x": 130,
+        "y": 55,
+        "w": 1038,
+        "h": 36
+      },
+      "overflow": false
+    },
+    {
+      "source": "67.1 ms 294.9 ms",
+      "target": "67,1 ms 294,9 ms",
+      "bbox": {
+        "x": 130,
+        "y": 128,
+        "w": 1038,
+        "h": 36
+      },
+      "overflow": false
+    },
+    {
+      "source": "210 calls 12 calls",
+      "target": "210 cuộc gọi 12 cuộc gọi",
+      "bbox": {
+        "x": 130,
+        "y": 201,
+        "w": 1038,
+        "h": 36
+      },
+      "overflow": false
+    },
+    {
+      "source": "ncafaasapp-p ncafaasapp-p",
+      "target": "ncafaasapp-p",
+      "bbox": {
+        "x": 130,
+        "y": 274,
+        "w": 1038,
+        "h": 36
+      },
+      "overflow": false
+    },
+    {
+      "source": "61.2 ms 179.6 ms",
+      "target": "61,2 ms 179,6 ms",
+      "bbox": {
+        "x": 130,
+        "y": 347,
+        "w": 1038,
+        "h": 36
+      },
+      "overflow": false
+    },
+    {
+      "source": "208 calls 12 calls",
+      "target": "208 cuộc gọi 12 cuộc gọi",
+      "bbox": {
+        "x": 130,
+        "y": 420,
+        "w": 1038,
+        "h": 36
+      },
+      "overflow": false
+    },
+    {
+      "source": "ncafaa",
+      "target": "ncafaa",
+      "bbox": {
+        "x": 130,
+        "y": 493,
+        "w": 1038,
+        "h": 36
+      },
+      "overflow": false
+    },
+    {
+      "source": "AZURE EVENT HUBS",
+      "target": "TRUNG TÂM SỰ KIỆN AZURE",
+      "bbox": {
+        "x": 130,
+        "y": 566,
+        "w": 1038,
+        "h": 36
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.5061785671955163,
+    "averageConfidence": 94
+  }
+}

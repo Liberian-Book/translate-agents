@@ -1,0 +1,173 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-6-1-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/6-1-substance.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "(CTR 3) PED | SR r—",
+      "confidence": 29,
+      "bbox": {
+        "x": 130,
+        "y": 131,
+        "w": 1040,
+        "h": 87
+      }
+    },
+    {
+      "text": "XR erm Net) Lo BETO 4",
+      "confidence": 29,
+      "bbox": {
+        "x": 130,
+        "y": 305,
+        "w": 1040,
+        "h": 87
+      }
+    },
+    {
+      "text": "Lig NORE 7m) (75% 0s te J",
+      "confidence": 29,
+      "bbox": {
+        "x": 130,
+        "y": 479,
+        "w": 1040,
+        "h": 87
+      }
+    },
+    {
+      "text": "L pe Wied Tw, ay m",
+      "confidence": 29,
+      "bbox": {
+        "x": 130,
+        "y": 653,
+        "w": 1040,
+        "h": 87
+      }
+    },
+    {
+      "text": "NY re A /3 7) iH aati fe",
+      "confidence": 29,
+      "bbox": {
+        "x": 130,
+        "y": 827,
+        "w": 1040,
+        "h": 87
+      }
+    },
+    {
+      "text": "4. =W i Ny 7 £97 by ii A ll | )",
+      "confidence": 29,
+      "bbox": {
+        "x": 130,
+        "y": 1001,
+        "w": 1040,
+        "h": 87
+      }
+    },
+    {
+      "text": "ne 7 he 2 i",
+      "confidence": 29,
+      "bbox": {
+        "x": 130,
+        "y": 1175,
+        "w": 1040,
+        "h": 87
+      }
+    },
+    {
+      "text": "0s 4: 1 Wi x PANE fa =",
+      "confidence": 29,
+      "bbox": {
+        "x": 130,
+        "y": 1349,
+        "w": 1040,
+        "h": 87
+      }
+    },
+    {
+      "text": "ASSAY i AY (LiF Pps ON) py",
+      "confidence": 29,
+      "bbox": {
+        "x": 130,
+        "y": 1523,
+        "w": 1040,
+        "h": 87
+      }
+    },
+    {
+      "text": "et I Ls dn ef ZANT",
+      "confidence": 29,
+      "bbox": {
+        "x": 130,
+        "y": 1697,
+        "w": 1040,
+        "h": 87
+      }
+    },
+    {
+      "text": "reco ds oF",
+      "confidence": 29,
+      "bbox": {
+        "x": 130,
+        "y": 1871,
+        "w": 1040,
+        "h": 87
+      }
+    },
+    {
+      "text": "a AICI gh A wh. s ANS Et ve 2g Wu\" > me Pig x",
+      "confidence": 29,
+      "bbox": {
+        "x": 130,
+        "y": 2045,
+        "w": 1040,
+        "h": 87
+      }
+    },
+    {
+      "text": "NEY oe EN a x",
+      "confidence": 29,
+      "bbox": {
+        "x": 130,
+        "y": 2219,
+        "w": 1040,
+        "h": 87
+      }
+    },
+    {
+      "text": "(EC Eg EE = ——— Alay =",
+      "confidence": 29,
+      "bbox": {
+        "x": 130,
+        "y": 2393,
+        "w": 1040,
+        "h": 87
+      }
+    },
+    {
+      "text": "2 = laa = 3 Bes",
+      "confidence": 29,
+      "bbox": {
+        "x": 130,
+        "y": 2567,
+        "w": 1040,
+        "h": 87
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.9586776859504132,
+    "averageConfidence": 29,
+    "entropy": 7.1487107230350375,
+    "sharpness": 13.146779320455728
+  }
+}

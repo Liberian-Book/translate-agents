@@ -1,0 +1,528 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-12-3-5.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/12-3-border-states-sogdiana-korea-and-japan.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-12-3-5.vi.png",
+  "ocr": [
+    {
+      "text": "i qe 7 Jil a EH | py f",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 81,
+        "w": 720,
+        "h": 54
+      }
+    },
+    {
+      "text": "Lasser” Ly y Ci AL",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 189,
+        "w": 720,
+        "h": 54
+      }
+    },
+    {
+      "text": "Lig IY \"ad 8750 WELK",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 297,
+        "w": 720,
+        "h": 54
+      }
+    },
+    {
+      "text": "vi CA TEENS i",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 405,
+        "w": 720,
+        "h": 54
+      }
+    },
+    {
+      "text": "AVS A lis iy fi BE [4 Ly",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 513,
+        "w": 720,
+        "h": 54
+      }
+    },
+    {
+      "text": "EF at 2% a AL EE ed",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 621,
+        "w": 720,
+        "h": 54
+      }
+    },
+    {
+      "text": "5% $i (1% SWUNL eg",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 729,
+        "w": 720,
+        "h": 54
+      }
+    },
+    {
+      "text": "pr TRA ra EL pa",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 837,
+        "w": 720,
+        "h": 54
+      }
+    },
+    {
+      "text": "REL eR\" ha mn dl",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 945,
+        "w": 720,
+        "h": 54
+      }
+    },
+    {
+      "text": "ERE {ibs kg 5) il",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 1053,
+        "w": 720,
+        "h": 54
+      }
+    },
+    {
+      "text": "y, Le e is J I A V ja",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 1161,
+        "w": 720,
+        "h": 54
+      }
+    },
+    {
+      "text": "Cayingeena] dE :",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 1269,
+        "w": 720,
+        "h": 54
+      }
+    },
+    {
+      "text": "1 iin ie od a i.",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 1377,
+        "w": 720,
+        "h": 54
+      }
+    },
+    {
+      "text": "4 ¢ Ene 7 Sn A",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 1485,
+        "w": 720,
+        "h": 54
+      }
+    },
+    {
+      "text": "Roa La :",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 1593,
+        "w": 720,
+        "h": 54
+      }
+    },
+    {
+      "text": "Qa By) 3",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 1701,
+        "w": 720,
+        "h": 54
+      }
+    },
+    {
+      "text": "/ pA = q Sk 1% C7",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 1809,
+        "w": 720,
+        "h": 54
+      }
+    },
+    {
+      "text": "{ 8% lee EI PRIA",
+      "confidence": 28,
+      "bbox": {
+        "x": 90,
+        "y": 1917,
+        "w": 720,
+        "h": 54
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A richly colored image on a gold and yellow background is shown. At the top left, a large white sheet is draped over a fence. Two figures in dark blue robes with white flowers kneel on the ground with their hands on the ground, their hair in a tight bun atop their heads. To the right are three bald men sitting with legs crossed on the ground in white robes and blue pants. In the top right of the image stands a large group of people. Nine are bald and dressed in long black robes, one with a richly decorated shawl over the black robe in gold, red, and blue colors. One woman with a white face and pale pink robe stands at the front of the group with a fan in her hands. Another figure with a blue cloth on their head and multicolored robes stands next to her. In the far right corner are three men in white clothing and black hair piled tightly on top of their heads sitting on the ground. In front of them is a bald man in white pants and a long black shawl standing in front of a small table covered in a highly decorative tablecloth and gold bowl on top. In the middle of the image, a long rectangular table covered in a red and green richly decorated tablecloth holds many gold objects. A woman in a multicolored robe and head covered in a blue cloth bows with hands together in front of the table. Behind her two women with long black ponytails in red and white decorated robes stand, one with a gold fan in her hands. In the bottom forefront, the backs of many people can be seen, most wearing dark gray robes with black hair tightly wound on top of their heads. Two people at the right wear multicolored robes. Black objects are seen in the left forefront and gold cloudlike images obscure some of the people.\nButton label: Click to enlarge image of A richly colored image on a gold and yellow background is shown. At the top left, a large white sheet is draped over a fence. Two figures in dark blue robes with white flowers kneel on the ground with their hands on the ground, their hair in a tight bun atop their heads. To the right are three bald men sitting with legs crossed on the ground in white robes and blue pants. In the top right of the image stands a large group of people. Nine are bald and dressed in long black robes, one with a richly decorated shawl over the black robe in gold, red, and blue colors. One woman with a white face and pale pink robe stands at the front of the group with a fan in her hands. Another figure with a blue cloth on their head and multicolored robes stands next to her. In the far right corner are three men in white clothing and black hair piled tightly on top of their heads sitting on the ground. In front of them is a bald man in white pants and a long black shawl standing in front of a small table covered in a highly decorative tablecloth and gold bowl on top. In the middle of the image, a long rectangular table covered in a red and green richly decorated tablecloth holds many gold objects. A woman in a multicolored robe and head covered in a blue cloth bows with hands together in front of the table. Behind her two women with long black ponytails in red and white decorated robes stand, one with a gold fan in her hands. In the bottom forefront, the backs of many people can be seen, most wearing dark gray robes with black hair tightly wound on top of their heads. Two people at the right wear multicolored robes. Black objects are seen in the left forefront and gold cloudlike images obscure some of the people.\nEnglish caption: Figure 12.29 The Funeral of Lady Aoi. This funeral scene from chapter nine of The Tale of Genji dates to the mid-seventeenth century CE and was rendered on a paper handscroll in ink and gold. Here we see a high-ranking Tendai monk wearing orange and performing rituals in front of an ornamented altar as many priests from various temples gather around. The attending monks are arranged hierarchically and are recognizable by their elaborate clothing. (credit: “‘Leaves of Wild Ginger’ (Aoi)",
+  "metrics": {
+    "textDensity": 1.152,
+    "averageConfidence": 28,
+    "entropy": 6.972836760483915,
+    "sharpness": 4.822672354760144
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A richly colored image on a gold and yellow background is shown. At the top left, a large white sheet is draped over a fence. Two figures in dark blue robes with white flowers kneel on the ground with their hands on the ground, their hair in a tight bun atop their heads. To the right are three bald men sitting with legs crossed on the ground in white robes and blue pants. In the top right of the image stands a large group of people. Nine are bald and dressed in long black robes, one with a richly decorated shawl over the black robe in gold, red, and blue colors. One woman with a white face and pale pink robe stands at the front of the group with a fan in her hands. Another figure with a blue cloth on their head and multicolored robes stands next to her. In the far right corner are three men in white clothing and black hair piled tightly on top of their heads sitting on the ground. In front of them is a bald man in white pants and a long black shawl standing in front of a small table covered in a highly decorative tablecloth and gold bowl on top. In the middle of the image, a long rectangular table covered in a red and green richly decorated tablecloth holds many gold objects. A woman in a multicolored robe and head covered in a blue cloth bows with hands together in front of the table. Behind her two women with long black ponytails in red and white decorated robes stand, one with a gold fan in her hands. In the bottom forefront, the backs of many people can be seen, most wearing dark gray robes with black hair tightly wound on top of their heads. Two people at the right wear multicolored robes. Black objects are seen in the left forefront and gold cloudlike images obscure some of the people.\nButton label: Click to enlarge image of A richly colored image on a gold and yellow background is shown. At the top left, a large white sheet is draped over a fence. Two figures in dark blue robes with white flowers kneel on the ground with their hands on the ground, their hair in a tight bun atop their heads. To the right are three bald men sitting with legs crossed on the ground in white robes and blue pants. In the top right of the image stands a large group of people. Nine are bald and dressed in long black robes, one with a richly decorated shawl over the black robe in gold, red, and blue colors. One woman with a white face and pale pink robe stands at the front of the group with a fan in her hands. Another figure with a blue cloth on their head and multicolored robes stands next to her. In the far right corner are three men in white clothing and black hair piled tightly on top of their heads sitting on the ground. In front of them is a bald man in white pants and a long black shawl standing in front of a small table covered in a highly decorative tablecloth and gold bowl on top. In the middle of the image, a long rectangular table covered in a red and green richly decorated tablecloth holds many gold objects. A woman in a multicolored robe and head covered in a blue cloth bows with hands together in front of the table. Behind her two women with long black ponytails in red and white decorated robes stand, one with a gold fan in her hands. In the bottom forefront, the backs of many people can be seen, most wearing dark gray robes with black hair tightly wound on top of their heads. Two people at the right wear multicolored robes. Black objects are seen in the left forefront and gold cloudlike images obscure some of the people.\nEnglish caption: Figure 12.29 The Funeral of Lady Aoi. This funeral scene from chapter nine of The Tale of Genji dates to the mid-seventeenth century CE and was rendered on a paper handscroll in ink and gold. Here we see a high-ranking Tendai monk wearing orange and performing rituals in front of an ornamented altar as many priests from various temples gather around. The attending monks are arranged hierarchically and are recognizable by their elaborate clothing. (credit: “‘Leaves of Wild Ginger’ (Aoi)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "EASE yl pases: SRT § % S ; 1 's AR",
+        "confidence": 32,
+        "bbox": {
+          "x": 145,
+          "y": 130,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "4 E a LR de SER Ee i gn 5 2) /",
+        "confidence": 32,
+        "bbox": {
+          "x": 145,
+          "y": 304,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "mec aif ( APRICORN ST ER aise) RAE EO a",
+        "confidence": 32,
+        "bbox": {
+          "x": 145,
+          "y": 478,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "i | Aes Ea OY 9 _& BY 7 Baa",
+        "confidence": 32,
+        "bbox": {
+          "x": 145,
+          "y": 652,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "Hsi%/ a WY. + NET NEE 1 7 (5hee",
+        "confidence": 32,
+        "bbox": {
+          "x": 145,
+          "y": 826,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "| © A IAT SV AT Wy 0 <8 =)",
+        "confidence": 32,
+        "bbox": {
+          "x": 145,
+          "y": 1000,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "| | ANOS om THEE BOK i |X : { [1",
+        "confidence": 32,
+        "bbox": {
+          "x": 145,
+          "y": 1174,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "/ \\ i’ i > 0 r= ol / I pr is ee = SN IN x |",
+        "confidence": 32,
+        "bbox": {
+          "x": 145,
+          "y": 1348,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "/ po LUT AEE EE el AC Nk",
+        "confidence": 32,
+        "bbox": {
+          "x": 145,
+          "y": 1522,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "5 VI VER BN iE GT A",
+        "confidence": 32,
+        "bbox": {
+          "x": 145,
+          "y": 1696,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "NAD SF - a. NM. ETE =e Q",
+        "confidence": 32,
+        "bbox": {
+          "x": 145,
+          "y": 1870,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "/ E> «Al = mf a",
+        "confidence": 32,
+        "bbox": {
+          "x": 145,
+          "y": 2044,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "|B NE SM Cp ssi lf",
+        "confidence": 32,
+        "bbox": {
+          "x": 145,
+          "y": 2218,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "b 5 | iy eo] = 2 Gh |",
+        "confidence": 32,
+        "bbox": {
+          "x": 145,
+          "y": 2392,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "1/1 ila £0 7 © (lk \\ Lad om",
+        "confidence": 32,
+        "bbox": {
+          "x": 145,
+          "y": 2566,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "a Dh? Ba 2 RAN a one | \\",
+        "confidence": 32,
+        "bbox": {
+          "x": 145,
+          "y": 2740,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "5 fla a8 ji \\ ) iM",
+        "confidence": 32,
+        "bbox": {
+          "x": 145,
+          "y": 2914,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": ": oi lisiy Jit ZY -",
+        "confidence": 32,
+        "bbox": {
+          "x": 145,
+          "y": 3088,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "AT asso ap dl yes fi) Mig ae a",
+        "confidence": 32,
+        "bbox": {
+          "x": 145,
+          "y": 3262,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "Rn ee a TRERGS Ses “ 9",
+        "confidence": 32,
+        "bbox": {
+          "x": 145,
+          "y": 3436,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "=z LE bite IG 74 \"sdee ’ ll",
+        "confidence": 32,
+        "bbox": {
+          "x": 145,
+          "y": 3610,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "parr AY NCR Seb A",
+        "confidence": 32,
+        "bbox": {
+          "x": 145,
+          "y": 3784,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "St p ON RN RS TEL | ae Ry 3",
+        "confidence": 32,
+        "bbox": {
+          "x": 145,
+          "y": 3958,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "CA = V 8 psy cw.",
+        "confidence": 32,
+        "bbox": {
+          "x": 145,
+          "y": 4132,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "y Ly 2 / LAS NE RAE",
+        "confidence": 32,
+        "bbox": {
+          "x": 145,
+          "y": 4306,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "(S NY LEE 4 A= AY Ni Rd",
+        "confidence": 32,
+        "bbox": {
+          "x": 145,
+          "y": 4480,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "US a \\ 7 %/ Is J Cor £0 Ne",
+        "confidence": 32,
+        "bbox": {
+          "x": 145,
+          "y": 4654,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "{ | ~ RENE Re 72 a. 5 AT \\ 4 A.",
+        "confidence": 32,
+        "bbox": {
+          "x": 145,
+          "y": 4828,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "i us is ognd ps a oa = 4 gi & i Se",
+        "confidence": 32,
+        "bbox": {
+          "x": 145,
+          "y": 5002,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "uy cal : CN Tel Bg SEE Seg",
+        "confidence": 32,
+        "bbox": {
+          "x": 145,
+          "y": 5176,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "SY a AP ga ?",
+        "confidence": 32,
+        "bbox": {
+          "x": 145,
+          "y": 5350,
+          "w": 1158,
+          "h": 87
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

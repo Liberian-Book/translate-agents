@@ -1,0 +1,17 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-8-3-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/8-3-sexual-identification-and-orientation.html",
+  "decision": "error",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "not-classified"
+  },
+  "reason": "fetch failed",
+  "outputImage": null,
+  "ocr": [],
+  "translations": [],
+  "imageContext": "Image alt: This chart is a bar chart titled “States with the Most Corporate Equality Index (CEI) Companies.” The bars show the percentage of companies scoring 100 within the states listed. States are listed along the left side and the bars extend out to the right. From top to bottom, the chart shows Maryland with 67 percent, Massachusetts with 65 percent, Nevada with 57 percent, Minnesota with 55 percent, New York with 53 percent, Washington with 53 percent, Illinois with 51 percent, California with 49 percent, Connecticut with 43 percent, and Kentucky with 43 percent.\nButton label: Click to enlarge image of This chart is a bar chart titled “States with the Most Corporate Equality Index (CEI) Companies.” The bars show the percentage of companies scoring 100 within the states listed. States are listed along the left side and the bars extend out to the right. From top to bottom, the chart shows Maryland with 67 percent, Massachusetts with 65 percent, Nevada with 57 percent, Minnesota with 55 percent, New York with 53 percent, Washington with 53 percent, Illinois with 51 percent, California with 49 percent, Connecticut with 43 percent, and Kentucky with 43 percent.\nEnglish caption: Figure 8.8 The Human Rights Campaign Foundation publishes an annual Corporate Equality Index to assess the LGBTQ equality policies of major U.S. corporations. A perfect score on the index is 100. These are the ten states with the highest percentages of “100 score” companies as of 2014–2015. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)"
+}

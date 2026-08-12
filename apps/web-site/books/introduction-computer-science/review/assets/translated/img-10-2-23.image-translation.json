@@ -1,0 +1,225 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-10-2-23.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/10-2-enterprise-architecture-management-frameworks.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-10-2-23.vi.png",
+  "ocr": [
+    {
+      "text": "Level of",
+      "confidence": 82,
+      "bbox": {
+        "x": 109,
+        "y": 58,
+        "w": 873,
+        "h": 39
+      }
+    },
+    {
+      "text": "abstraction",
+      "confidence": 82,
+      "bbox": {
+        "x": 109,
+        "y": 135,
+        "w": 873,
+        "h": 39
+      }
+    },
+    {
+      "text": "Architecture domain",
+      "confidence": 82,
+      "bbox": {
+        "x": 109,
+        "y": 212,
+        "w": 873,
+        "h": 39
+      }
+    },
+    {
+      "text": "Architecture Business Data Application",
+      "confidence": 82,
+      "bbox": {
+        "x": 109,
+        "y": 289,
+        "w": 873,
+        "h": 39
+      }
+    },
+    {
+      "text": "scope architecture architecture architecture",
+      "confidence": 82,
+      "bbox": {
+        "x": 109,
+        "y": 366,
+        "w": 873,
+        "h": 39
+      }
+    },
+    {
+      "text": "Enterprise",
+      "confidence": 82,
+      "bbox": {
+        "x": 109,
+        "y": 443,
+        "w": 873,
+        "h": 39
+      }
+    },
+    {
+      "text": "Portfolio/",
+      "confidence": 82,
+      "bbox": {
+        "x": 109,
+        "y": 520,
+        "w": 873,
+        "h": 39
+      }
+    },
+    {
+      "text": "domain",
+      "confidence": 82,
+      "bbox": {
+        "x": 109,
+        "y": 597,
+        "w": 873,
+        "h": 39
+      }
+    },
+    {
+      "text": ") Level of",
+      "confidence": 82,
+      "bbox": {
+        "x": 109,
+        "y": 674,
+        "w": 873,
+        "h": 39
+      }
+    },
+    {
+      "text": "Physical",
+      "confidence": 82,
+      "bbox": {
+        "x": 109,
+        "y": 751,
+        "w": 873,
+        "h": 39
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Level of",
+      "target": "Cấp độ của",
+      "bbox": {
+        "x": 109,
+        "y": 58,
+        "w": 873,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "abstraction",
+      "target": "trừu tượng",
+      "bbox": {
+        "x": 109,
+        "y": 135,
+        "w": 873,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "Architecture domain",
+      "target": "Lĩnh vực kiến trúc",
+      "bbox": {
+        "x": 109,
+        "y": 212,
+        "w": 873,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "Architecture Business Data Application",
+      "target": "Kiến trúc Dữ liệu Doanh nghiệp Ứng dụng",
+      "bbox": {
+        "x": 109,
+        "y": 289,
+        "w": 873,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "scope architecture architecture architecture",
+      "target": "kiến trúc phạm vi",
+      "bbox": {
+        "x": 109,
+        "y": 366,
+        "w": 873,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "Enterprise",
+      "target": "Doanh nghiệp",
+      "bbox": {
+        "x": 109,
+        "y": 443,
+        "w": 873,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "Portfolio/",
+      "target": "Danh mục đầu tư",
+      "bbox": {
+        "x": 109,
+        "y": 520,
+        "w": 873,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "domain",
+      "target": "miền",
+      "bbox": {
+        "x": 109,
+        "y": 597,
+        "w": 873,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": ") Level of",
+      "target": "Cấp độ của",
+      "bbox": {
+        "x": 109,
+        "y": 674,
+        "w": 873,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "Physical",
+      "target": "Vật lý",
+      "bbox": {
+        "x": 109,
+        "y": 751,
+        "w": 873,
+        "h": 39
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.6461107537104828,
+    "averageConfidence": 82
+  }
+}

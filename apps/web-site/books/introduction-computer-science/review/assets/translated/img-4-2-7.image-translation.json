@@ -1,0 +1,57 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-4-2-7.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/4-2-building-c-programs.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-4-2-7.vi.png",
+  "ocr": [
+    {
+      "text": "Aq, Ay As, ... A; € {Integers, Strings, Characters, ... Objects}",
+      "confidence": 80,
+      "bbox": {
+        "x": 90,
+        "y": 44,
+        "w": 720,
+        "h": 29
+      }
+    },
+    {
+      "text": "Where 0, 1, 2,...n —1are the index locations.",
+      "confidence": 80,
+      "bbox": {
+        "x": 90,
+        "y": 102,
+        "w": 720,
+        "h": 29
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Aq, Ay As, ... A; € {Integers, Strings, Characters, ... Objects}",
+      "target": "Aq, Ay As, ... A; € {Số nguyên, Chuỗi, Ký tự, ... Đối tượng}",
+      "bbox": {
+        "x": 90,
+        "y": 44,
+        "w": 720,
+        "h": 29
+      },
+      "overflow": false
+    },
+    {
+      "source": "Where 0, 1, 2,...n —1are the index locations.",
+      "target": "Nơi 0, 1, 2,...n - 1 là các vị trí chỉ mục.",
+      "bbox": {
+        "x": 90,
+        "y": 102,
+        "w": 720,
+        "h": 29
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.12712328767123288,
+    "averageConfidence": 80
+  }
+}

@@ -1,0 +1,1055 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-6-1-5.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/6-1-the-workplace-environment-and-working-conditions.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "image-edit-leftover-source-english",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "How Men and Women Rank Benefit Importance as a Tradeoff to Earnings",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 161,
+        "w": 872,
+        "h": 107
+      }
+    },
+    {
+      "text": "Better health, dental, 61% Women",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 375,
+        "w": 872,
+        "h": 107
+      }
+    },
+    {
+      "text": "and vision insurance 47%",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 589,
+        "w": 872,
+        "h": 107
+      }
+    },
+    {
+      "text": "Hl Men",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 803,
+        "w": 872,
+        "h": 107
+      }
+    },
+    {
+      "text": "Work-from-home 55%",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 1017,
+        "w": 872,
+        "h": 107
+      }
+    },
+    {
+      "text": "options 40%",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 1231,
+        "w": 872,
+        "h": 107
+      }
+    },
+    {
+      "text": "More flexible hours 38%",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 1445,
+        "w": 872,
+        "h": 107
+      }
+    },
+    {
+      "text": "Unlimited vacation 33%",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 1659,
+        "w": 872,
+        "h": 107
+      }
+    },
+    {
+      "text": "More vacation time 320",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 1873,
+        "w": 872,
+        "h": 107
+      }
+    },
+    {
+      "text": "Paid maternity/ 24%",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 2087,
+        "w": 872,
+        "h": 107
+      }
+    },
+    {
+      "text": "paternity leave 14%",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 2301,
+        "w": 872,
+        "h": 107
+      }
+    },
+    {
+      "text": "Student loan 24%",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 2515,
+        "w": 872,
+        "h": 107
+      }
+    },
+    {
+      "text": "assistance 20%",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 2729,
+        "w": 872,
+        "h": 107
+      }
+    },
+    {
+      "text": "Free day-care services 23%",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 2943,
+        "w": 872,
+        "h": 107
+      }
+    },
+    {
+      "text": "Tuition assistance 14%",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 3157,
+        "w": 872,
+        "h": 107
+      }
+    },
+    {
+      "text": "Free fitness/yoga 11%",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 3371,
+        "w": 872,
+        "h": 107
+      }
+    },
+    {
+      "text": "classes 9%",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 3585,
+        "w": 872,
+        "h": 107
+      }
+    },
+    {
+      "text": "Free gym membership 12%",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 3799,
+        "w": 872,
+        "h": 107
+      }
+    },
+    {
+      "text": "Free coffee 12%",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 4013,
+        "w": 872,
+        "h": 107
+      }
+    },
+    {
+      "text": "Free snacks 10%",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 4227,
+        "w": 872,
+        "h": 107
+      }
+    },
+    {
+      "text": "Company-wide 6%",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 4441,
+        "w": 872,
+        "h": 107
+      }
+    },
+    {
+      "text": "retreats 7%",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 4655,
+        "w": 872,
+        "h": 107
+      }
+    },
+    {
+      "text": "Team bonding events 7%",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 4869,
+        "w": 872,
+        "h": 107
+      }
+    },
+    {
+      "text": "Weekly free employee 50",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 5083,
+        "w": 872,
+        "h": 107
+      }
+    },
+    {
+      "text": "outings 6%",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 5297,
+        "w": 872,
+        "h": 107
+      }
+    },
+    {
+      "text": "On-site gym +\"",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 5511,
+        "w": 872,
+        "h": 107
+      }
+    },
+    {
+      "text": "Percentage ranking highly influential",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 5725,
+        "w": 872,
+        "h": 107
+      }
+    },
+    {
+      "text": "Source: Jones, Kerry. “The Most Desirable Employee Benefits.” Harvard Business Review. Feb 15, 2017.",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 5939,
+        "w": 872,
+        "h": 107
+      }
+    },
+    {
+      "text": "(Some data from FRACTL. “The Cost of Employee Happiness.” http://www.frac.tl/employee-benefits-study/)",
+      "confidence": 86,
+      "bbox": {
+        "x": 109,
+        "y": 6153,
+        "w": 872,
+        "h": 107
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "How Men and Women Rank Benefit Importance as a Tradeoff to Earnings",
+      "normalizedSource": "How Men and Women Rank Benefit Importance as a Tradeoff to Earnings",
+      "target": "Cách đàn ông và phụ nữ đánh giá tầm quan trọng của phúc lợi so với thu nhập",
+      "bbox": {
+        "x": 109,
+        "y": 161,
+        "w": 872,
+        "h": 107
+      },
+      "overflow": false
+    },
+    {
+      "source": "Better health, dental, 61% Women",
+      "normalizedSource": "Better health, dental, 61% Women",
+      "target": "Sức khỏe tốt hơn, nha khoa, 61% Phụ nữ",
+      "bbox": {
+        "x": 109,
+        "y": 375,
+        "w": 872,
+        "h": 107
+      },
+      "overflow": false
+    },
+    {
+      "source": "and vision insurance 47%",
+      "normalizedSource": "and vision insurance 47%",
+      "target": "và bảo hiểm thị lực 47%",
+      "bbox": {
+        "x": 109,
+        "y": 589,
+        "w": 872,
+        "h": 107
+      },
+      "overflow": false
+    },
+    {
+      "source": "Hl Men",
+      "normalizedSource": "Hl Men",
+      "target": "Đàn ông",
+      "bbox": {
+        "x": 109,
+        "y": 803,
+        "w": 872,
+        "h": 107
+      },
+      "overflow": false
+    },
+    {
+      "source": "Work-from-home 55%",
+      "normalizedSource": "Work-from-home 55%",
+      "target": "Làm việc từ xa 55%",
+      "bbox": {
+        "x": 109,
+        "y": 1017,
+        "w": 872,
+        "h": 107
+      },
+      "overflow": false
+    },
+    {
+      "source": "options 40%",
+      "normalizedSource": "options 40%",
+      "target": "tùy chọn 40%",
+      "bbox": {
+        "x": 109,
+        "y": 1231,
+        "w": 872,
+        "h": 107
+      },
+      "overflow": false
+    },
+    {
+      "source": "More flexible hours 38%",
+      "normalizedSource": "More flexible hours 38%",
+      "target": "Giờ làm việc linh hoạt hơn 38%",
+      "bbox": {
+        "x": 109,
+        "y": 1445,
+        "w": 872,
+        "h": 107
+      },
+      "overflow": false
+    },
+    {
+      "source": "Unlimited vacation 33%",
+      "normalizedSource": "Unlimited vacation 33%",
+      "target": "Nghỉ phép không giới hạn 33%",
+      "bbox": {
+        "x": 109,
+        "y": 1659,
+        "w": 872,
+        "h": 107
+      },
+      "overflow": false
+    },
+    {
+      "source": "More vacation time 320",
+      "normalizedSource": "More vacation time 320",
+      "target": "Thời gian nghỉ phép nhiều hơn 32%",
+      "bbox": {
+        "x": 109,
+        "y": 1873,
+        "w": 872,
+        "h": 107
+      },
+      "overflow": false
+    },
+    {
+      "source": "Paid maternity/ 24%",
+      "normalizedSource": "Paid maternity/ 24%",
+      "target": "Nghỉ thai sản/ 24%",
+      "bbox": {
+        "x": 109,
+        "y": 2087,
+        "w": 872,
+        "h": 107
+      },
+      "overflow": false
+    },
+    {
+      "source": "paternity leave 14%",
+      "normalizedSource": "paternity leave 14%",
+      "target": "nghỉ phép cha 14%",
+      "bbox": {
+        "x": 109,
+        "y": 2301,
+        "w": 872,
+        "h": 107
+      },
+      "overflow": false
+    },
+    {
+      "source": "Student loan 24%",
+      "normalizedSource": "Student loan 24%",
+      "target": "Hỗ trợ khoản vay sinh viên 24%",
+      "bbox": {
+        "x": 109,
+        "y": 2515,
+        "w": 872,
+        "h": 107
+      },
+      "overflow": false
+    },
+    {
+      "source": "assistance 20%",
+      "normalizedSource": "assistance 20%",
+      "target": "hỗ trợ 20%",
+      "bbox": {
+        "x": 109,
+        "y": 2729,
+        "w": 872,
+        "h": 107
+      },
+      "overflow": false
+    },
+    {
+      "source": "Free day-care services 23%",
+      "normalizedSource": "Free day-care services 23%",
+      "target": "Dịch vụ giữ trẻ miễn phí 23%",
+      "bbox": {
+        "x": 109,
+        "y": 2943,
+        "w": 872,
+        "h": 107
+      },
+      "overflow": false
+    },
+    {
+      "source": "Tuition assistance 14%",
+      "normalizedSource": "Tuition assistance 14%",
+      "target": "Hỗ trợ học phí 14%",
+      "bbox": {
+        "x": 109,
+        "y": 3157,
+        "w": 872,
+        "h": 107
+      },
+      "overflow": false
+    },
+    {
+      "source": "Free fitness/yoga 11%",
+      "normalizedSource": "Free fitness/yoga 11%",
+      "target": "Lớp thể dục/yoga miễn phí 11%",
+      "bbox": {
+        "x": 109,
+        "y": 3371,
+        "w": 872,
+        "h": 107
+      },
+      "overflow": false
+    },
+    {
+      "source": "classes 9%",
+      "normalizedSource": "classes 9%",
+      "target": "lớp học 9%",
+      "bbox": {
+        "x": 109,
+        "y": 3585,
+        "w": 872,
+        "h": 107
+      },
+      "overflow": false
+    },
+    {
+      "source": "Free gym membership 12%",
+      "normalizedSource": "Free gym membership 12%",
+      "target": "Thẻ tập gym miễn phí 12%",
+      "bbox": {
+        "x": 109,
+        "y": 3799,
+        "w": 872,
+        "h": 107
+      },
+      "overflow": false
+    },
+    {
+      "source": "Free coffee 12%",
+      "normalizedSource": "Free coffee 12%",
+      "target": "Cà phê miễn phí 12%",
+      "bbox": {
+        "x": 109,
+        "y": 4013,
+        "w": 872,
+        "h": 107
+      },
+      "overflow": false
+    },
+    {
+      "source": "Free snacks 10%",
+      "normalizedSource": "Free snacks 10%",
+      "target": "Đồ ăn nhẹ miễn phí 10%",
+      "bbox": {
+        "x": 109,
+        "y": 4227,
+        "w": 872,
+        "h": 107
+      },
+      "overflow": false
+    },
+    {
+      "source": "Company-wide 6%",
+      "normalizedSource": "Company-wide 6%",
+      "target": "Công ty 6%",
+      "bbox": {
+        "x": 109,
+        "y": 4441,
+        "w": 872,
+        "h": 107
+      },
+      "overflow": false
+    },
+    {
+      "source": "retreats 7%",
+      "normalizedSource": "retreats 7%",
+      "target": "khóa tu 7%",
+      "bbox": {
+        "x": 109,
+        "y": 4655,
+        "w": 872,
+        "h": 107
+      },
+      "overflow": false
+    },
+    {
+      "source": "Team bonding events 7%",
+      "normalizedSource": "Team bonding events 7%",
+      "target": "Sự kiện gắn kết đội nhóm 7%",
+      "bbox": {
+        "x": 109,
+        "y": 4869,
+        "w": 872,
+        "h": 107
+      },
+      "overflow": false
+    },
+    {
+      "source": "Weekly free employee 50",
+      "normalizedSource": "Weekly free employee 50",
+      "target": "Hoạt động nhân viên miễn phí hàng tuần 50%",
+      "bbox": {
+        "x": 109,
+        "y": 5083,
+        "w": 872,
+        "h": 107
+      },
+      "overflow": false
+    },
+    {
+      "source": "outings 6%",
+      "normalizedSource": "outings 6%",
+      "target": "hoạt động 6%",
+      "bbox": {
+        "x": 109,
+        "y": 5297,
+        "w": 872,
+        "h": 107
+      },
+      "overflow": false
+    },
+    {
+      "source": "On-site gym +\"",
+      "normalizedSource": "On-site gym +\"",
+      "target": "Phòng gym tại chỗ +",
+      "bbox": {
+        "x": 109,
+        "y": 5511,
+        "w": 872,
+        "h": 107
+      },
+      "overflow": false
+    },
+    {
+      "source": "Percentage ranking highly influential",
+      "normalizedSource": "Percentage ranking highly influential",
+      "target": "Tỷ lệ xếp hạng có ảnh hưởng cao",
+      "bbox": {
+        "x": 109,
+        "y": 5725,
+        "w": 872,
+        "h": 107
+      },
+      "overflow": false
+    },
+    {
+      "source": "Source: Jones, Kerry. “The Most Desirable Employee Benefits.” Harvard Business Review. Feb 15, 2017.",
+      "normalizedSource": "Source: Jones, Kerry. “The Most Desirable Employee Benefits.” Harvard Business Review. Feb 15, 2017.",
+      "target": "Nguồn: Jones, Kerry. “Các phúc lợi nhân viên được mong muốn nhất.” Harvard Business Review. 15 tháng 2, 2017.",
+      "bbox": {
+        "x": 109,
+        "y": 5939,
+        "w": 872,
+        "h": 107
+      },
+      "overflow": false
+    },
+    {
+      "source": "(Some data from FRACTL. “The Cost of Employee Happiness.” http://www.frac.tl/employee-benefits-study/)",
+      "normalizedSource": "(Some data from FRACTL. “The Cost of Employee Happiness.” http://www.frac.tl/employee-benefits-study/)",
+      "target": "(Một số dữ liệu từ FRACTL. “Chi phí hạnh phúc của nhân viên.” http://www.frac.tl/employee-benefits-study)",
+      "bbox": {
+        "x": 109,
+        "y": 6153,
+        "w": 872,
+        "h": 107
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: This chart is a bar chart that shows the percentage of men and women who ranked the importance of different benefits as a tradeoff to earnings. The benefits are listed on the left side and the bars of the chart extend to the right. There is a bar for men and a bar for women for each benefit. The first benefit listed is “better health, dental, and vision insurance,” and 61 percent of women and 47 percent of men ranked it. Then “work-from-home options” was ranked by 55 percent of women and 40 percent of men. Then “more flexible hours” was ranked by 47 percent of women and 38 percent of men. Then “unlimited vacation” was ranked by 47 percent of women and 33 percent of men. Then “paid maternity/paternity leave” was ranked by 24 percent of women and 14 percent of men. Then “student loan assistance” was ranked by 24 percent of women and 20 percent of men. Then “free day-care services” was ranked by 23 percent of women and 11 percent of men. Then “tuition assistance” was ranked by 16 percent of women and 14 percent of men. Then “free fitness/yoga classes” was ranked by 11 percent of women and 9 percent of men. Then “free gym membership” was ranked by 11 percent of women and 12 percent of men. Then “free coffee” was ranked by 10 percent of women and 12 percent of men. Then “free snacks” was ranked 9 percent of women and 10 percent of men. Then “company-wide retreats” was ranked by 6 percent of women and 7 percent of men. Then “team bonding events” was ranked by 5 percent of women and 7 percent of men. Then “free weekly employee outings” was ranked by 5 percent of women and 6 percent of men. Then “on-site gym” was ranked by 4 percent of women and 6 percent of men.\nButton label: Click to enlarge image of This chart is a bar chart that shows the percentage of men and women who ranked the importance of different benefits as a tradeoff to earnings. The benefits are listed on the left side and the bars of the chart extend to the right. There is a bar for men and a bar for women for each benefit. The first benefit listed is “better health, dental, and vision insurance,” and 61 percent of women and 47 percent of men ranked it. Then “work-from-home options” was ranked by 55 percent of women and 40 percent of men. Then “more flexible hours” was ranked by 47 percent of women and 38 percent of men. Then “unlimited vacation” was ranked by 47 percent of women and 33 percent of men. Then “paid maternity/paternity leave” was ranked by 24 percent of women and 14 percent of men. Then “student loan assistance” was ranked by 24 percent of women and 20 percent of men. Then “free day-care services” was ranked by 23 percent of women and 11 percent of men. Then “tuition assistance” was ranked by 16 percent of women and 14 percent of men. Then “free fitness/yoga classes” was ranked by 11 percent of women and 9 percent of men. Then “free gym membership” was ranked by 11 percent of women and 12 percent of men. Then “free coffee” was ranked by 10 percent of women and 12 percent of men. Then “free snacks” was ranked 9 percent of women and 10 percent of men. Then “company-wide retreats” was ranked by 6 percent of women and 7 percent of men. Then “team bonding events” was ranked by 5 percent of women and 7 percent of men. Then “free weekly employee outings” was ranked by 5 percent of women and 6 percent of men. Then “on-site gym” was ranked by 4 percent of women and 6 percent of men.\nEnglish caption: Figure 6.6 As this chart shows, men and women view the importance of various benefits differently, even if their top-ranked benefits are the same (i.e., better insurance, work-from-home options, and more flexible hours). (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 1.8525373134328358,
+    "averageConfidence": 86,
+    "entropy": 2.0231460444647382,
+    "sharpness": 5.339033967285931
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: This chart is a bar chart that shows the percentage of men and women who ranked the importance of different benefits as a tradeoff to earnings. The benefits are listed on the left side and the bars of the chart extend to the right. There is a bar for men and a bar for women for each benefit. The first benefit listed is “better health, dental, and vision insurance,” and 61 percent of women and 47 percent of men ranked it. Then “work-from-home options” was ranked by 55 percent of women and 40 percent of men. Then “more flexible hours” was ranked by 47 percent of women and 38 percent of men. Then “unlimited vacation” was ranked by 47 percent of women and 33 percent of men. Then “paid maternity/paternity leave” was ranked by 24 percent of women and 14 percent of men. Then “student loan assistance” was ranked by 24 percent of women and 20 percent of men. Then “free day-care services” was ranked by 23 percent of women and 11 percent of men. Then “tuition assistance” was ranked by 16 percent of women and 14 percent of men. Then “free fitness/yoga classes” was ranked by 11 percent of women and 9 percent of men. Then “free gym membership” was ranked by 11 percent of women and 12 percent of men. Then “free coffee” was ranked by 10 percent of women and 12 percent of men. Then “free snacks” was ranked 9 percent of women and 10 percent of men. Then “company-wide retreats” was ranked by 6 percent of women and 7 percent of men. Then “team bonding events” was ranked by 5 percent of women and 7 percent of men. Then “free weekly employee outings” was ranked by 5 percent of women and 6 percent of men. Then “on-site gym” was ranked by 4 percent of women and 6 percent of men.\nButton label: Click to enlarge image of This chart is a bar chart that shows the percentage of men and women who ranked the importance of different benefits as a tradeoff to earnings. The benefits are listed on the left side and the bars of the chart extend to the right. There is a bar for men and a bar for women for each benefit. The first benefit listed is “better health, dental, and vision insurance,” and 61 percent of women and 47 percent of men ranked it. Then “work-from-home options” was ranked by 55 percent of women and 40 percent of men. Then “more flexible hours” was ranked by 47 percent of women and 38 percent of men. Then “unlimited vacation” was ranked by 47 percent of women and 33 percent of men. Then “paid maternity/paternity leave” was ranked by 24 percent of women and 14 percent of men. Then “student loan assistance” was ranked by 24 percent of women and 20 percent of men. Then “free day-care services” was ranked by 23 percent of women and 11 percent of men. Then “tuition assistance” was ranked by 16 percent of women and 14 percent of men. Then “free fitness/yoga classes” was ranked by 11 percent of women and 9 percent of men. Then “free gym membership” was ranked by 11 percent of women and 12 percent of men. Then “free coffee” was ranked by 10 percent of women and 12 percent of men. Then “free snacks” was ranked 9 percent of women and 10 percent of men. Then “company-wide retreats” was ranked by 6 percent of women and 7 percent of men. Then “team bonding events” was ranked by 5 percent of women and 7 percent of men. Then “free weekly employee outings” was ranked by 5 percent of women and 6 percent of men. Then “on-site gym” was ranked by 4 percent of women and 6 percent of men.\nEnglish caption: Figure 6.6 As this chart shows, men and women view the importance of various benefits differently, even if their top-ranked benefits are the same (i.e., better insurance, work-from-home options, and more flexible hours). (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- How Men and Women Rank Benefit Importance as a Tradeoff to Earnings => Cách đàn ông và phụ nữ đánh giá tầm quan trọng của phúc lợi so với thu nhập\n- Better health, dental, 61% Women => Sức khỏe tốt hơn, nha khoa, 61% Phụ nữ\n- and vision insurance 47% => và bảo hiểm thị lực 47%\n- Hl Men => Đàn ông\n- Work-from-home 55% => Làm việc từ xa 55%\n- options 40% => tùy chọn 40%\n- More flexible hours 38% => Giờ làm việc linh hoạt hơn 38%\n- Unlimited vacation 33% => Nghỉ phép không giới hạn 33%\n- More vacation time 320 => Thời gian nghỉ phép nhiều hơn 32%\n- Paid maternity/ 24% => Nghỉ thai sản/ 24%\n- paternity leave 14% => nghỉ phép cha 14%\n- Student loan 24% => Hỗ trợ khoản vay sinh viên 24%\n- assistance 20% => hỗ trợ 20%\n- Free day-care services 23% => Dịch vụ giữ trẻ miễn phí 23%\n- Tuition assistance 14% => Hỗ trợ học phí 14%\n- Free fitness/yoga 11% => Lớp thể dục/yoga miễn phí 11%\n- classes 9% => lớp học 9%\n- Free gym membership 12% => Thẻ tập gym miễn phí 12%\n- Free coffee 12% => Cà phê miễn phí 12%\n- Free snacks 10% => Đồ ăn nhẹ miễn phí 10%\n- Company-wide 6% => Công ty 6%\n- retreats 7% => khóa tu 7%\n- Team bonding events 7% => Sự kiện gắn kết đội nhóm 7%\n- Weekly free employee 50 => Hoạt động nhân viên miễn phí hàng tuần 50%\n- outings 6% => hoạt động 6%\n- On-site gym +\" => Phòng gym tại chỗ +\n- Percentage ranking highly influential => Tỷ lệ xếp hạng có ảnh hưởng cao\n- Source: Jones, Kerry. “The Most Desirable Employee Benefits.” Harvard Business Review. Feb 15, 2017. => Nguồn: Jones, Kerry. “Các phúc lợi nhân viên được mong muốn nhất.” Harvard Business Review. 15 tháng 2, 2017.\n- (Some data from FRACTL. “The Cost of Employee Happiness.” http://www.frac.tl/employee-benefits-study/) => (Một số dữ liệu từ FRACTL. “Chi phí hạnh phúc của nhân viên.” http://www.frac.tl/employee-benefits-study)\nPrevious output was rejected because these English source words were still visible: yoga, jones, kerry, fractl, http, frac, employee-benefits-study. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Cach dan dng va phu nir danh gia tam quan trong cla phic Igi so vgi thu nhap",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 167,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "Strc khoe t6t hon,",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 390,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "ee ee 61% Phy ni",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 613,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "va bao hiém thj luc 7% M ban 6ng",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 836,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "Lam viéc tir xa 55%",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 1059,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "tuy chon 40%",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 1282,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "Toi iE 47%",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 1505,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "Gio lam viéc linh hoat hon 38%",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 1728,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "Nghi phép khong gi6i han 33%",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 1951,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "Thai gian nghi phép 40%",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 2174,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "nhiéu hon 32%",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 2397,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "Nghi thai san/ 24%",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 2620,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "nghi phép cha 14%",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 2843,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "H8 trg khoan vay sinh vién 24%",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 3066,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "hé trg 20%",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 3289,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "Dich vu gir tré mién phi 23%",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 3512,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "Ha trg hoc phi 16%",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 3735,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "L&p thé duc/yoga mién phi 11%",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 3958,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "16p hoc 9%",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 4181,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "The ta i&n phi 11%",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 4404,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "é tap gym mién phi 13%",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 4627,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "C3 hé x hi 10%",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 4850,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "a phé mién phi 12%",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 5073,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "D6 an nhe mién phi 9%",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 5296,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "ong ty 6%",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 5519,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "khéa tu 7%",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 5742,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "Sur kién gan két 50",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 5965,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "d6i nhom 7%",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 6188,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "Hoat dong nhan vién 5%",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 6411,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "mién phi hang tuan 6%",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 6634,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "hoat dong",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 6857,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "P ads 4%",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 7080,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "Phong gym tai cho 6%",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 7303,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "Ty 1& xép hang c6 anh huéng cao",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 7526,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "Ngudn: Jones, Kerry. “Cac phtc lgi nhan vién duge mong muén nhat.” Harvard Business Review.",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 7749,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "15 thang 2, 2017.",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 7972,
+          "w": 905,
+          "h": 111
+        }
+      },
+      {
+        "text": "(Mét sé dir lieu tir FRACTL. “Chi phi hanh phtc cia nhan vién.” http://www.frac.tl/employee-benefits-study)",
+        "confidence": 80,
+        "bbox": {
+          "x": 113,
+          "y": 8195,
+          "w": 905,
+          "h": 111
+        }
+      }
+    ],
+    "validation": {
+      "ok": false,
+      "reason": "image-edit-leftover-source-english",
+      "leftoverSourceWords": [
+        "yoga",
+        "jones",
+        "kerry",
+        "harvard",
+        "business",
+        "review",
+        "fractl",
+        "http",
+        "frac",
+        "employee-benefits-study"
+      ]
+    },
+    "validationAttempt": 3
+  }
+}

@@ -1,0 +1,388 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-13-1-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/13-1-the-post-roman-west-in-the-early-middle-ages.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-13-1-3.vi.png",
+  "ocr": [
+    {
+      "text": "fbr, Alban ty g",
+      "confidence": 26,
+      "bbox": {
+        "x": 70,
+        "y": 90,
+        "w": 560,
+        "h": 60
+      }
+    },
+    {
+      "text": "oa aE AN: al",
+      "confidence": 26,
+      "bbox": {
+        "x": 70,
+        "y": 209,
+        "w": 560,
+        "h": 60
+      }
+    },
+    {
+      "text": "Pw HE | -N A",
+      "confidence": 26,
+      "bbox": {
+        "x": 70,
+        "y": 328,
+        "w": 560,
+        "h": 60
+      }
+    },
+    {
+      "text": "BA TEEN",
+      "confidence": 26,
+      "bbox": {
+        "x": 70,
+        "y": 447,
+        "w": 560,
+        "h": 60
+      }
+    },
+    {
+      "text": "PER (1 dy",
+      "confidence": 26,
+      "bbox": {
+        "x": 70,
+        "y": 566,
+        "w": 560,
+        "h": 60
+      }
+    },
+    {
+      "text": "pil] oS & RN) b",
+      "confidence": 26,
+      "bbox": {
+        "x": 70,
+        "y": 685,
+        "w": 560,
+        "h": 60
+      }
+    },
+    {
+      "text": "=p WE TRE a) JF",
+      "confidence": 26,
+      "bbox": {
+        "x": 70,
+        "y": 804,
+        "w": 560,
+        "h": 60
+      }
+    },
+    {
+      "text": "E* dy — Ne Se Ng",
+      "confidence": 26,
+      "bbox": {
+        "x": 70,
+        "y": 923,
+        "w": 560,
+        "h": 60
+      }
+    },
+    {
+      "text": "#4 )- Ta ire! \\ ERA ied] \\",
+      "confidence": 26,
+      "bbox": {
+        "x": 70,
+        "y": 1042,
+        "w": 560,
+        "h": 60
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: An image of a painting is shown on a dark and light gray background with a yellow, swirling floor. Three figures are shown, two at the left and one at the right. The figure on the right sits on an orange and black pillow on a two-tiered, beige platform with brown etchings on the steps. He wears a long gray robe over a white robe, black shoes, and has a white stole with markings of crosses and other designs all over in brown. He has gray receding hair, a gray beard and large almond shaped eyes. He holds a book on his left hand and his right arm is raised with two fingers in the air toward the other two figures who are facing him. The two figures wear gray, brown, and beige robes, black shoes, and the one in the background has his right arm around the other. His hair and beard are gray while the other man in the forefront has a tonsure haircut with brown hair. Tiny words in script are written in three sections across the top.\nButton label: Click to enlarge image of An image of a painting is shown on a dark and light gray background with a yellow, swirling floor. Three figures are shown, two at the left and one at the right. The figure on the right sits on an orange and black pillow on a two-tiered, beige platform with brown etchings on the steps. He wears a long gray robe over a white robe, black shoes, and has a white stole with markings of crosses and other designs all over in brown. He has gray receding hair, a gray beard and large almond shaped eyes. He holds a book on his left hand and his right arm is raised with two fingers in the air toward the other two figures who are facing him. The two figures wear gray, brown, and beige robes, black shoes, and the one in the background has his right arm around the other. His hair and beard are gray while the other man in the forefront has a tonsure haircut with brown hair. Tiny words in script are written in three sections across the top.\nEnglish caption: Figure 13.6 In Praise of the Holy Cross. This page from the ninth-century poetry collection In Praise of the Holy Cross shows its author, the Frankish monk and teacher Rabanus Maurus (left), presenting the book to Otgar, archbishop of Mainz (seated at right). The connection between books, clergy, and art is a hallmark of cultural works from the Carolingian era. (credit: “Raban Maur (left), supported by Alcuin (middle), dedicates his work to Archbishop Otgar of Mainz (Right)” by De laudibus sanctae crucis/Österreichischen Nationalbibliothek/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 0.579088471849866,
+    "averageConfidence": 26,
+    "entropy": 6.9616127529443474,
+    "sharpness": 2.476225918560533
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: An image of a painting is shown on a dark and light gray background with a yellow, swirling floor. Three figures are shown, two at the left and one at the right. The figure on the right sits on an orange and black pillow on a two-tiered, beige platform with brown etchings on the steps. He wears a long gray robe over a white robe, black shoes, and has a white stole with markings of crosses and other designs all over in brown. He has gray receding hair, a gray beard and large almond shaped eyes. He holds a book on his left hand and his right arm is raised with two fingers in the air toward the other two figures who are facing him. The two figures wear gray, brown, and beige robes, black shoes, and the one in the background has his right arm around the other. His hair and beard are gray while the other man in the forefront has a tonsure haircut with brown hair. Tiny words in script are written in three sections across the top.\nButton label: Click to enlarge image of An image of a painting is shown on a dark and light gray background with a yellow, swirling floor. Three figures are shown, two at the left and one at the right. The figure on the right sits on an orange and black pillow on a two-tiered, beige platform with brown etchings on the steps. He wears a long gray robe over a white robe, black shoes, and has a white stole with markings of crosses and other designs all over in brown. He has gray receding hair, a gray beard and large almond shaped eyes. He holds a book on his left hand and his right arm is raised with two fingers in the air toward the other two figures who are facing him. The two figures wear gray, brown, and beige robes, black shoes, and the one in the background has his right arm around the other. His hair and beard are gray while the other man in the forefront has a tonsure haircut with brown hair. Tiny words in script are written in three sections across the top.\nEnglish caption: Figure 13.6 In Praise of the Holy Cross. This page from the ninth-century poetry collection In Praise of the Holy Cross shows its author, the Frankish monk and teacher Rabanus Maurus (left), presenting the book to Otgar, archbishop of Mainz (seated at right). The connection between books, clergy, and art is a hallmark of cultural works from the Carolingian era. (credit: “Raban Maur (left), supported by Alcuin (middle), dedicates his work to Archbishop Otgar of Mainz (Right)” by De laudibus sanctae crucis/Österreichischen Nationalbibliothek/Wikimedia Commons, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: rabanus, maurus, otgar, mainz, alcuin. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "REhFnu = a Ot-ga, Tdng gidm muc ~~",
+        "confidence": 29,
+        "bbox": {
+          "x": 121,
+          "y": 155,
+          "w": 971,
+          "h": 104
+        }
+      },
+      {
+        "text": "Mai-o : Mai-an :",
+        "confidence": 29,
+        "bbox": {
+          "x": 121,
+          "y": 362,
+          "w": 971,
+          "h": 104
+        }
+      },
+      {
+        "text": "; § 27% bE Fibrmp mo “z . ¥ a w= CW : I",
+        "confidence": 29,
+        "bbox": {
+          "x": 121,
+          "y": 569,
+          "w": 971,
+          "h": 104
+        }
+      },
+      {
+        "text": "EE a LTA {f, = 31 #5 a",
+        "confidence": 29,
+        "bbox": {
+          "x": 121,
+          "y": 776,
+          "w": 971,
+          "h": 104
+        }
+      },
+      {
+        "text": "a Ff TIS me EY ‘Th",
+        "confidence": 29,
+        "bbox": {
+          "x": 121,
+          "y": 983,
+          "w": 971,
+          "h": 104
+        }
+      },
+      {
+        "text": "} ~ Oo A & hy \\ api \\ oa ba 3 be i",
+        "confidence": 29,
+        "bbox": {
+          "x": 121,
+          "y": 1190,
+          "w": 971,
+          "h": 104
+        }
+      },
+      {
+        "text": "Pe | Zs 1 Sok Eg WY, © 7 /&",
+        "confidence": 29,
+        "bbox": {
+          "x": 121,
+          "y": 1397,
+          "w": 971,
+          "h": 104
+        }
+      },
+      {
+        "text": "Sao J J % [= y Ry RO 7/",
+        "confidence": 29,
+        "bbox": {
+          "x": 121,
+          "y": 1604,
+          "w": 971,
+          "h": 104
+        }
+      },
+      {
+        "text": "TERE en ey H ) ya @",
+        "confidence": 29,
+        "bbox": {
+          "x": 121,
+          "y": 1811,
+          "w": 971,
+          "h": 104
+        }
+      },
+      {
+        "text": "STARA fr LING] | ~~ i Be 110",
+        "confidence": 29,
+        "bbox": {
+          "x": 121,
+          "y": 2018,
+          "w": 971,
+          "h": 104
+        }
+      },
+      {
+        "text": "i FE Low BB TS",
+        "confidence": 29,
+        "bbox": {
+          "x": 121,
+          "y": 2225,
+          "w": 971,
+          "h": 104
+        }
+      },
+      {
+        "text": "TF 0 i) Be iy ST EE ; N",
+        "confidence": 29,
+        "bbox": {
+          "x": 121,
+          "y": 2432,
+          "w": 971,
+          "h": 104
+        }
+      },
+      {
+        "text": "2 le A NE 3 vis PV baie %",
+        "confidence": 29,
+        "bbox": {
+          "x": 121,
+          "y": 2639,
+          "w": 971,
+          "h": 104
+        }
+      },
+      {
+        "text": "¥ f Eo \\ a fi pr : I fod ; ¢ Po Pn \\ %",
+        "confidence": 29,
+        "bbox": {
+          "x": 121,
+          "y": 2846,
+          "w": 971,
+          "h": 104
+        }
+      },
+      {
+        "text": "B= AB oH La 52%, » 4 Ra NO",
+        "confidence": 29,
+        "bbox": {
+          "x": 121,
+          "y": 3053,
+          "w": 971,
+          "h": 104
+        }
+      },
+      {
+        "text": "i rE ly i a = a",
+        "confidence": 29,
+        "bbox": {
+          "x": 121,
+          "y": 3260,
+          "w": 971,
+          "h": 104
+        }
+      },
+      {
+        "text": "2. ¥ 4 4 NED NE h | we 4 | J",
+        "confidence": 29,
+        "bbox": {
+          "x": 121,
+          "y": 3467,
+          "w": 971,
+          "h": 104
+        }
+      },
+      {
+        "text": "5 1 i HEE Ga, d oI | » fae",
+        "confidence": 29,
+        "bbox": {
+          "x": 121,
+          "y": 3674,
+          "w": 971,
+          "h": 104
+        }
+      },
+      {
+        "text": "Eo 4 Hed 4 ir 3 w Fiiyl { = £ f Is",
+        "confidence": 29,
+        "bbox": {
+          "x": 121,
+          "y": 3881,
+          "w": 971,
+          "h": 104
+        }
+      },
+      {
+        "text": "1 | G0 g / 4 fo] ! 7 8 x fp » mon » IS :",
+        "confidence": 29,
+        "bbox": {
+          "x": 121,
+          "y": 4088,
+          "w": 971,
+          "h": 104
+        }
+      },
+      {
+        "text": "HEH RCTS CRE ab ed RV W 3 re",
+        "confidence": 29,
+        "bbox": {
+          "x": 121,
+          "y": 4295,
+          "w": 971,
+          "h": 104
+        }
+      },
+      {
+        "text": ": Bs RY 4 = F 5 Ri Rat ¥ k 2A = [Ed] ;",
+        "confidence": 29,
+        "bbox": {
+          "x": 121,
+          "y": 4502,
+          "w": 971,
+          "h": 104
+        }
+      },
+      {
+        "text": "a) fm | mmm? UL PT |",
+        "confidence": 29,
+        "bbox": {
+          "x": 121,
+          "y": 4709,
+          "w": 971,
+          "h": 104
+        }
+      },
+      {
+        "text": "BERR — ule \\",
+        "confidence": 29,
+        "bbox": {
+          "x": 121,
+          "y": 4916,
+          "w": 971,
+          "h": 104
+        }
+      },
+      {
+        "text": "f is A oh, Pha Vera! - MR S—— 25",
+        "confidence": 29,
+        "bbox": {
+          "x": 121,
+          "y": 5123,
+          "w": 971,
+          "h": 104
+        }
+      },
+      {
+        "text": "fii BR I - NUT fP S far BARTER NS",
+        "confidence": 29,
+        "bbox": {
+          "x": 121,
+          "y": 5330,
+          "w": 971,
+          "h": 104
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 2
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

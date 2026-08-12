@@ -1,0 +1,17 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-7-1-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/7-1-loyalty-to-the-company.html",
+  "decision": "error",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "not-classified"
+  },
+  "reason": "fetch failed",
+  "outputImage": null,
+  "ocr": [],
+  "translations": [],
+  "imageContext": "Image alt: This graphic has a circle on the left with three lines branching off from it to the right. In the circle is the word “Millennials.” The first line to the right says “3 times more likely to change jobs.” The second line says “90 percent change jobs within first 3 years.” The last line says “4 different jobs in the first 10 years (by age 32).”\nButton label: Click to enlarge image of This graphic has a circle on the left with three lines branching off from it to the right. In the circle is the word “Millennials.” The first line to the right says “3 times more likely to change jobs.” The second line says “90 percent change jobs within first 3 years.” The last line says “4 different jobs in the first 10 years (by age 32).”\nEnglish caption: Figure 7.2 The data on millennials and job mobility indicate that millennials are more likely to “job hop” than their predecessors. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)"
+}

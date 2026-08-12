@@ -1,0 +1,63 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-2-4-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/2-4-gathering-information-evaluating-sources-and-understanding-evidence.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Alexa is everywhere: Kohler’s",
+      "confidence": 54,
+      "bbox": {
+        "x": 68,
+        "y": 74,
+        "w": 540,
+        "h": 49
+      }
+    },
+    {
+      "text": "smart toilet brings voice",
+      "confidence": 54,
+      "bbox": {
+        "x": 68,
+        "y": 173,
+        "w": 540,
+        "h": 49
+      }
+    },
+    {
+      "text": "assistant into bathroom",
+      "confidence": 54,
+      "bbox": {
+        "x": 68,
+        "y": 272,
+        "w": 540,
+        "h": 49
+      }
+    },
+    {
+      "text": "IF)",
+      "confidence": 54,
+      "bbox": {
+        "x": 68,
+        "y": 371,
+        "w": 540,
+        "h": 49
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.2545454545454545,
+    "averageConfidence": 54,
+    "entropy": 5.505128750286531,
+    "sharpness": 2.871852141093041
+  }
+}

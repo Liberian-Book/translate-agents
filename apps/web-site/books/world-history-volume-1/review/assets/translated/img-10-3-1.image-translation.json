@@ -1,0 +1,34 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-10-3-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/10-3-the-kingdoms-of-aksum-and-himyar.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Wx or",
+      "confidence": 25,
+      "bbox": {
+        "x": 110,
+        "y": 84,
+        "w": 881,
+        "h": 56
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A drawing of a map is shown. Land is shown to the west with a peninsula of land next, and then a small area of land in the northeast. Water is shown at the north and around the peninsula in the south. An area along the coast of the water in the top left of the map is highlighted pink in a “Y” shape and labeled “Eastern Roman Empire.” Extending out from the bottom of the “Y” shaped pink area along a river is an oval area highlighted purple and labeled “Nobatia.” Connecting to the bottom of the purple area is a small “S” shaped area highlighted pink labeled “Makuria.” In the middle of the map at the top there is an oval area under the pink area highlighted yellow and labeled “Ghassanids.” To the right of that in a long, thin oval is an area highlighted blue and labeled “Lakhmids.” East of that is a gray area labeled “Sassanids.” South of the pink area is a brown oval area along the coast and a small rounded area on the western part of the peninsula labeled “Aksum Empire.” To the east of that is an orange area along the southern coast of the peninsula labeled “Himyar Empire.”\nButton label: Click to enlarge image of A drawing of a map is shown. Land is shown to the west with a peninsula of land next, and then a small area of land in the northeast. Water is shown at the north and around the peninsula in the south. An area along the coast of the water in the top left of the map is highlighted pink in a “Y” shape and labeled “Eastern Roman Empire.” Extending out from the bottom of the “Y” shaped pink area along a river is an oval area highlighted purple and labeled “Nobatia.” Connecting to the bottom of the purple area is a small “S” shaped area highlighted pink labeled “Makuria.” In the middle of the map at the top there is an oval area under the pink area highlighted yellow and labeled “Ghassanids.” To the right of that in a long, thin oval is an area highlighted blue and labeled “Lakhmids.” East of that is a gray area labeled “Sassanids.” South of the pink area is a brown oval area along the coast and a small rounded area on the western part of the peninsula labeled “Aksum Empire.” To the east of that is an orange area along the southern coast of the peninsula labeled “Himyar Empire.”\nEnglish caption: Figure 10.15 The Aksum and Himyar Empires. Aksum occupied the region of modern Ethiopia, while Himyar was located on the other side of the Red Sea in modern-day Yemen. The locations of the two empires allowed them to dominate trade in the region. (credit: modification of work “Map of the Sassanid Empire just before the Arab conquest of Iran” by “DieBuche”/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 0.06392321336717625,
+    "averageConfidence": 25,
+    "entropy": 3.8206649058920448,
+    "sharpness": 3.5340864675024877
+  }
+}

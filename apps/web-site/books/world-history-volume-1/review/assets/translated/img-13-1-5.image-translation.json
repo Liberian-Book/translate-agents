@@ -1,0 +1,198 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-13-1-5.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/13-1-the-post-roman-west-in-the-early-middle-ages.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-13-1-5.vi.png",
+  "ocr": [
+    {
+      "text": "RY [i TEAS JeY",
+      "confidence": 31,
+      "bbox": {
+        "x": 70,
+        "y": 86,
+        "w": 560,
+        "h": 57
+      }
+    },
+    {
+      "text": "BY a ¥ ; EY ; 8 {Xx",
+      "confidence": 31,
+      "bbox": {
+        "x": 70,
+        "y": 201,
+        "w": 560,
+        "h": 57
+      }
+    },
+    {
+      "text": "0 3 J i FA of i E =",
+      "confidence": 31,
+      "bbox": {
+        "x": 70,
+        "y": 316,
+        "w": 560,
+        "h": 57
+      }
+    },
+    {
+      "text": "oi wml]",
+      "confidence": 31,
+      "bbox": {
+        "x": 70,
+        "y": 431,
+        "w": 560,
+        "h": 57
+      }
+    },
+    {
+      "text": "i f £ ql } 5",
+      "confidence": 31,
+      "bbox": {
+        "x": 70,
+        "y": 546,
+        "w": 560,
+        "h": 57
+      }
+    },
+    {
+      "text": "TES",
+      "confidence": 31,
+      "bbox": {
+        "x": 70,
+        "y": 661,
+        "w": 560,
+        "h": 57
+      }
+    },
+    {
+      "text": "3 Xx. / % S h \\ \\ 17 5",
+      "confidence": 31,
+      "bbox": {
+        "x": 70,
+        "y": 776,
+        "w": 560,
+        "h": 57
+      }
+    },
+    {
+      "text": "JX x NZE 58 AY 1",
+      "confidence": 31,
+      "bbox": {
+        "x": 70,
+        "y": 891,
+        "w": 560,
+        "h": 57
+      }
+    },
+    {
+      "text": "XO PNQTRL 2) Rx:",
+      "confidence": 31,
+      "bbox": {
+        "x": 70,
+        "y": 1006,
+        "w": 560,
+        "h": 57
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A vibrant picture is shown of three figures on a dark green background inside a brown and white letter “a” on a blue square with white “x” marks and dots throughout. The figure on the left is bald except for a ring of curly brown hair around his head, has rosy cheeks and lips, wears a long blue and brown robe and is barefoot. He faces to the right where a warrior stands with an orange upside down triangle shield with white designs. He wears a dark blue helmet covering his entire face, a dark blue sleeveless shirt with his neck, arms, and legs covered with blue stockings with white dots all over. Behind the warrior stands a figure with short hair, rosy cheeks and lips, wearing a helmet with a strap under the chin. He wears short brown robes, is barefoot, and holds a shovel in front of him facing the warrior.\nButton label: Click to enlarge image of A vibrant picture is shown of three figures on a dark green background inside a brown and white letter “a” on a blue square with white “x” marks and dots throughout. The figure on the left is bald except for a ring of curly brown hair around his head, has rosy cheeks and lips, wears a long blue and brown robe and is barefoot. He faces to the right where a warrior stands with an orange upside down triangle shield with white designs. He wears a dark blue helmet covering his entire face, a dark blue sleeveless shirt with his neck, arms, and legs covered with blue stockings with white dots all over. Behind the warrior stands a figure with short hair, rosy cheeks and lips, wearing a helmet with a strap under the chin. He wears short brown robes, is barefoot, and holds a shovel in front of him facing the warrior.\nEnglish caption: Figure 13.8 Medieval European Society. This illuminated initial letter from a thirteenth-century French manuscript shows the key members of the medieval European social order: a member of the clergy, a warrior, and a laborer (left to right). (credit: “Cleric-Knight-Workman/MS Sloane 2435, folio 85” by British Library/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 0.5715877437325906,
+    "averageConfidence": 31,
+    "entropy": 7.262821379932575,
+    "sharpness": 4.049035168835927
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A vibrant picture is shown of three figures on a dark green background inside a brown and white letter “a” on a blue square with white “x” marks and dots throughout. The figure on the left is bald except for a ring of curly brown hair around his head, has rosy cheeks and lips, wears a long blue and brown robe and is barefoot. He faces to the right where a warrior stands with an orange upside down triangle shield with white designs. He wears a dark blue helmet covering his entire face, a dark blue sleeveless shirt with his neck, arms, and legs covered with blue stockings with white dots all over. Behind the warrior stands a figure with short hair, rosy cheeks and lips, wearing a helmet with a strap under the chin. He wears short brown robes, is barefoot, and holds a shovel in front of him facing the warrior.\nButton label: Click to enlarge image of A vibrant picture is shown of three figures on a dark green background inside a brown and white letter “a” on a blue square with white “x” marks and dots throughout. The figure on the left is bald except for a ring of curly brown hair around his head, has rosy cheeks and lips, wears a long blue and brown robe and is barefoot. He faces to the right where a warrior stands with an orange upside down triangle shield with white designs. He wears a dark blue helmet covering his entire face, a dark blue sleeveless shirt with his neck, arms, and legs covered with blue stockings with white dots all over. Behind the warrior stands a figure with short hair, rosy cheeks and lips, wearing a helmet with a strap under the chin. He wears short brown robes, is barefoot, and holds a shovel in front of him facing the warrior.\nEnglish caption: Figure 13.8 Medieval European Society. This illuminated initial letter from a thirteenth-century French manuscript shows the key members of the medieval European social order: a member of the clergy, a warrior, and a laborer (left to right). (credit: “Cleric-Knight-Workman/MS Sloane 2435, folio 85” by British Library/Wikimedia Commons, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "A € oy & el)",
+        "confidence": 34,
+        "bbox": {
+          "x": 124,
+          "y": 153,
+          "w": 990,
+          "h": 102
+        }
+      },
+      {
+        "text": "1 by SEN Ee.",
+        "confidence": 34,
+        "bbox": {
+          "x": 124,
+          "y": 356,
+          "w": 990,
+          "h": 102
+        }
+      },
+      {
+        "text": "ZN Lr -",
+        "confidence": 34,
+        "bbox": {
+          "x": 124,
+          "y": 559,
+          "w": 990,
+          "h": 102
+        }
+      },
+      {
+        "text": "| 5 FA © | .",
+        "confidence": 34,
+        "bbox": {
+          "x": 124,
+          "y": 762,
+          "w": 990,
+          "h": 102
+        }
+      },
+      {
+        "text": "| A ~L1 RS",
+        "confidence": 34,
+        "bbox": {
+          "x": 124,
+          "y": 965,
+          "w": 990,
+          "h": 102
+        }
+      },
+      {
+        "text": "XX Nola LY 1S",
+        "confidence": 34,
+        "bbox": {
+          "x": 124,
+          "y": 1168,
+          "w": 990,
+          "h": 102
+        }
+      },
+      {
+        "text": "PNATA EN",
+        "confidence": 34,
+        "bbox": {
+          "x": 124,
+          "y": 1371,
+          "w": 990,
+          "h": 102
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

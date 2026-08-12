@@ -1,0 +1,708 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-10-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/10-introduction.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-10-1.vi.png",
+  "ocr": [
+    {
+      "text": ">. TER WC As Le LRT TRE iB et EARES SRE ke CS DES ARR oor",
+      "confidence": 24,
+      "bbox": {
+        "x": 175,
+        "y": 96,
+        "w": 1401,
+        "h": 64
+      }
+    },
+    {
+      "text": "Tn ET VE BS rE SRR CAEN Ee gd rT al sR SAL",
+      "confidence": 24,
+      "bbox": {
+        "x": 175,
+        "y": 224,
+        "w": 1401,
+        "h": 64
+      }
+    },
+    {
+      "text": "FF if! NTP ET a ih ky",
+      "confidence": 24,
+      "bbox": {
+        "x": 175,
+        "y": 352,
+        "w": 1401,
+        "h": 64
+      }
+    },
+    {
+      "text": "54 z prin En TR bifold ih Fa BT AEE a Sa rei A",
+      "confidence": 24,
+      "bbox": {
+        "x": 175,
+        "y": 480,
+        "w": 1401,
+        "h": 64
+      }
+    },
+    {
+      "text": "Fale a EG wR LT RN TE",
+      "confidence": 24,
+      "bbox": {
+        "x": 175,
+        "y": 608,
+        "w": 1401,
+        "h": 64
+      }
+    },
+    {
+      "text": "Foo PE CA Eee Je a eh Bi a SHE Soi]",
+      "confidence": 24,
+      "bbox": {
+        "x": 175,
+        "y": 736,
+        "w": 1401,
+        "h": 64
+      }
+    },
+    {
+      "text": "= 2 TB es MATA Ed ET SRL ER a PA Cp RS 5a",
+      "confidence": 24,
+      "bbox": {
+        "x": 175,
+        "y": 864,
+        "w": 1401,
+        "h": 64
+      }
+    },
+    {
+      "text": "RAS aa Es dv a pity \\ 4: bos",
+      "confidence": 24,
+      "bbox": {
+        "x": 175,
+        "y": 992,
+        "w": 1401,
+        "h": 64
+      }
+    },
+    {
+      "text": "CR po a E, ’ NN I i REY, ee",
+      "confidence": 24,
+      "bbox": {
+        "x": 175,
+        "y": 1120,
+        "w": 1401,
+        "h": 64
+      }
+    },
+    {
+      "text": "<2 Fo Te Ar We ered A AE vr.",
+      "confidence": 24,
+      "bbox": {
+        "x": 175,
+        "y": 1248,
+        "w": 1401,
+        "h": 64
+      }
+    },
+    {
+      "text": "CE Le, 4 Poe ; he ey",
+      "confidence": 24,
+      "bbox": {
+        "x": 175,
+        "y": 1376,
+        "w": 1401,
+        "h": 64
+      }
+    },
+    {
+      "text": "oll Re po. See So ie ENP EEO",
+      "confidence": 24,
+      "bbox": {
+        "x": 175,
+        "y": 1504,
+        "w": 1401,
+        "h": 64
+      }
+    },
+    {
+      "text": "A Sa : a Pop - M9 =F RE pS eh a 2 i es) Bre",
+      "confidence": 24,
+      "bbox": {
+        "x": 175,
+        "y": 1632,
+        "w": 1401,
+        "h": 64
+      }
+    },
+    {
+      "text": "aR Co lee Vr Ro Re 7 ’ SF = 7 3",
+      "confidence": 24,
+      "bbox": {
+        "x": 175,
+        "y": 1760,
+        "w": 1401,
+        "h": 64
+      }
+    },
+    {
+      "text": "E To ol ow be = ou 1 LORY EL 5",
+      "confidence": 24,
+      "bbox": {
+        "x": 175,
+        "y": 1888,
+        "w": 1401,
+        "h": 64
+      }
+    },
+    {
+      "text": "mc sd Fo Lie i rr ; Lo ~ 4",
+      "confidence": 24,
+      "bbox": {
+        "x": 175,
+        "y": 2016,
+        "w": 1401,
+        "h": 64
+      }
+    },
+    {
+      "text": "i % NG EE ee PER WY (AS NN E 3",
+      "confidence": 24,
+      "bbox": {
+        "x": 175,
+        "y": 2144,
+        "w": 1401,
+        "h": 64
+      }
+    },
+    {
+      "text": "WO WRAL Rt de SN 3",
+      "confidence": 24,
+      "bbox": {
+        "x": 175,
+        "y": 2272,
+        "w": 1401,
+        "h": 64
+      }
+    },
+    {
+      "text": ". Lo GT» JON TTR",
+      "confidence": 24,
+      "bbox": {
+        "x": 175,
+        "y": 2400,
+        "w": 1401,
+        "h": 64
+      }
+    },
+    {
+      "text": "Bg Uf (4 ING. Sl WN a Ns Baim",
+      "confidence": 24,
+      "bbox": {
+        "x": 175,
+        "y": 2528,
+        "w": 1401,
+        "h": 64
+      }
+    },
+    {
+      "text": "|e rh Sx. A CL UTR i]",
+      "confidence": 24,
+      "bbox": {
+        "x": 175,
+        "y": 2656,
+        "w": 1401,
+        "h": 64
+      }
+    },
+    {
+      "text": "vs Tami SME a Fh 0 ND EEE",
+      "confidence": 24,
+      "bbox": {
+        "x": 175,
+        "y": 2784,
+        "w": 1401,
+        "h": 64
+      }
+    },
+    {
+      "text": "lasaddfli\\ a Ae I Carirsnd i NY",
+      "confidence": 24,
+      "bbox": {
+        "x": 175,
+        "y": 2912,
+        "w": 1401,
+        "h": 64
+      }
+    },
+    {
+      "text": ". a WL = NGI. 5 weil SERGE RE SL 4",
+      "confidence": 24,
+      "bbox": {
+        "x": 175,
+        "y": 3040,
+        "w": 1401,
+        "h": 64
+      }
+    },
+    {
+      "text": "= ae fFlreglefe bt) 0 0B =F",
+      "confidence": 24,
+      "bbox": {
+        "x": 175,
+        "y": 3168,
+        "w": 1401,
+        "h": 64
+      }
+    },
+    {
+      "text": "5 fees co EE En J A Fag Prey -",
+      "confidence": 24,
+      "bbox": {
+        "x": 175,
+        "y": 3296,
+        "w": 1401,
+        "h": 64
+      }
+    },
+    {
+      "text": "ge) | A ie y= 2 . > > ¢",
+      "confidence": 24,
+      "bbox": {
+        "x": 175,
+        "y": 3424,
+        "w": 1401,
+        "h": 64
+      }
+    },
+    {
+      "text": "CP ee ee petit bs (dh LE 3; Sa io = z",
+      "confidence": 24,
+      "bbox": {
+        "x": 175,
+        "y": 3552,
+        "w": 1401,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A picture of a wall with a rectangular, beige colored stone carving scene is shown. In the middle, a man is sitting on a horse which is wearing a head dressing with flowers and straps, a decorated saddle, and a bow in its tail. The man is carved with ornate designs all over his torso and legs, has a crown on his head, a beard, flowing curly hair, and a sword on his left side with his left hand on it. His right arm extends over the head of the horse and he holds an object in his hand. Both the man and the horse are looking down at a man kneeling on the ground in front of the horse. He is wearing a flowing cape and a dress of armor. He has a beard and is holding his arms out in front of him. In between the man and the horse stands a man in armor with a beard, his head in the shadows of the carving. The top of a person is carved into the wall behind the horse. Around the rectangular carving is a bumpy stone wall.\nButton label: Click to enlarge image of A picture of a wall with a rectangular, beige colored stone carving scene is shown. In the middle, a man is sitting on a horse which is wearing a head dressing with flowers and straps, a decorated saddle, and a bow in its tail. The man is carved with ornate designs all over his torso and legs, has a crown on his head, a beard, flowing curly hair, and a sword on his left side with his left hand on it. His right arm extends over the head of the horse and he holds an object in his hand. Both the man and the horse are looking down at a man kneeling on the ground in front of the horse. He is wearing a flowing cape and a dress of armor. He has a beard and is holding his arms out in front of him. In between the man and the horse stands a man in armor with a beard, his head in the shadows of the carving. The top of a person is carved into the wall behind the horse. Around the rectangular carving is a bumpy stone wall.\nEnglish caption: Figure 10.1 Sasanians in Victory. This rock relief carving from Naqsh-e Rostam (in modern Iran) depicts the Sasanian victory over the Romans at the Battle of Edessa in 260 CE. On the right, King Shapur I looks down from his horse at the kneeling Valerian, the first Roman emperor ever taken captive in battle. (credit: modification of work “Naqsh i Rustam. Shapour” by Unknown/Wikimedia Commons, CC BY 2.5)",
+  "metrics": {
+    "textDensity": 1.7900183308842246,
+    "averageConfidence": 24,
+    "entropy": 6.482450652169064,
+    "sharpness": 6.301700412272046
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A picture of a wall with a rectangular, beige colored stone carving scene is shown. In the middle, a man is sitting on a horse which is wearing a head dressing with flowers and straps, a decorated saddle, and a bow in its tail. The man is carved with ornate designs all over his torso and legs, has a crown on his head, a beard, flowing curly hair, and a sword on his left side with his left hand on it. His right arm extends over the head of the horse and he holds an object in his hand. Both the man and the horse are looking down at a man kneeling on the ground in front of the horse. He is wearing a flowing cape and a dress of armor. He has a beard and is holding his arms out in front of him. In between the man and the horse stands a man in armor with a beard, his head in the shadows of the carving. The top of a person is carved into the wall behind the horse. Around the rectangular carving is a bumpy stone wall.\nButton label: Click to enlarge image of A picture of a wall with a rectangular, beige colored stone carving scene is shown. In the middle, a man is sitting on a horse which is wearing a head dressing with flowers and straps, a decorated saddle, and a bow in its tail. The man is carved with ornate designs all over his torso and legs, has a crown on his head, a beard, flowing curly hair, and a sword on his left side with his left hand on it. His right arm extends over the head of the horse and he holds an object in his hand. Both the man and the horse are looking down at a man kneeling on the ground in front of the horse. He is wearing a flowing cape and a dress of armor. He has a beard and is holding his arms out in front of him. In between the man and the horse stands a man in armor with a beard, his head in the shadows of the carving. The top of a person is carved into the wall behind the horse. Around the rectangular carving is a bumpy stone wall.\nEnglish caption: Figure 10.1 Sasanians in Victory. This rock relief carving from Naqsh-e Rostam (in modern Iran) depicts the Sasanian victory over the Romans at the Battle of Edessa in 260 CE. On the right, King Shapur I looks down from his horse at the kneeling Valerian, the first Roman emperor ever taken captive in battle. (credit: modification of work “Naqsh i Rustam. Shapour” by Unknown/Wikimedia Commons, CC BY 2.5)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: rostam, iran, edessa, shapur, valerian, rustam, shapour, wikimedia, commons. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Rady E87 WALT TREE",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 102,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "fe ia ER RA SR AY | 5",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 238,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "! 5 ire £ in Ete REE ABEL EE © ER AC a\"",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 374,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "ra lg 86 TE mE RSIS SER br Fr 0 ARI TR",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 510,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "4 Ae Se ep li eT Te OY JAY PEN",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 646,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "db Za NR ped IR or A ly Gnas Vag 7",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 782,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "SE rE oh Sg eK IY HERE EE SE NI End> IN",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 918,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": ": GR ES Bea Uy Su ASE TR IS SA REN Lg oh",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 1054,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "> g 3 gs SL ER FCT Sl Bry $5 Sa",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 1190,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "BAS ew jis) ’ bain / A / SBE gh D Lon Aas.",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 1326,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "\\. Zs Yolad NG > NG Sey SOLER RE one",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 1462,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "we. ea iT Re ae” 5 a",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 1598,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "[7-4 EL PT > 4 Bs ¢ js 2 kK» i",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 1734,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "Wr = ge < oP",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 1870,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "= ee pr i Pa",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 2006,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "3 Bev i hss > = Aged 7.",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 2142,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "ry Ae ZT A <5",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 2278,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "7 pre R Ne Zr Ni Cae",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 2414,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "; TEE er 3, 1 ee EO ; uk",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 2550,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "g Tole Ln BT NEE Mtl, Ta i RE ON Ys",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 2686,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "ee Beg aE > a SER a Ce",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 2822,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "Sie al Gayl Za a, Rs ES on",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 2958,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "i» I Ph Fer ia ol HET 2 ic",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 3094,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "P oe oil ly EB lg Aa PB SF Bd 0A",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 3230,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "q Bao oo Vo go Hof Se ail ng ETE B= 0%",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 3366,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "= 7 ¢ Er Li {ld feismen JA A ay Ree *",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 3502,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "a | IN Bakr Hs Log 15 7 x 5 = p",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 3638,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "AN SN Sd IME AN DY = Tos oh",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 3774,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "\\ EE RB QR . A a En fot It B21 Load ay Eg] X",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 3910,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "$ : RARE \"oui “2 1v, gx TE \\ TAREE SRR CB i 3",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 4046,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "| Ya At - Ind V is 3 Zeger os",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 4182,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "Baad HARS Fe wr i 43 EN",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 4318,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "=. fZo wn Sees ul Tha 75 & Eee",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 4454,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "es > 2 er BG) ew £7, z 7 i",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 4590,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "oh =\" Si ’ +3 i i a et i 1 r= |",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 4726,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "2 KF = 4 ie BRT Yo. we EO i - J ; /",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 4862,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "4 4 oY 7 Een 223 £9 4 : : > {",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 4998,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "OR a i me —~ £ A 7 =) WY, p—. (",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 5134,
+          "w": 1484,
+          "h": 68
+        }
+      },
+      {
+        "text": "a es ey Ry JE oe i f 7 s —",
+        "confidence": 26,
+        "bbox": {
+          "x": 186,
+          "y": 5270,
+          "w": 1484,
+          "h": 68
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 3
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-3-4-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/3-4-corporate-social-responsibility-csr.html",
+  "decision": "error",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "not-classified"
+  },
+  "reason": "fetch failed",
+  "outputImage": null,
+  "ocr": [],
+  "translations": [],
+  "imageContext": "Image alt: This graphic shows a three dimensional line pyramid in the center. At the top of the pyramid is a box labeled “Company.” At each of the three bottom corners of the pyramid are boxes. Starting on the left and going counter-clockwise around the pyramid, the box is labeled “Social” and has three bullets that say “employee well-being,” “fair trade,” and “community stakeholder.” The next box is labeled “Economic” and has three bullets that say “revenue,” “growth,” and “cost.” The last box is labeled “Environmental” and has three bullets that say “land use,” “carbon footprint,” and “waste.”\nButton label: Click to enlarge image of This graphic shows a three dimensional line pyramid in the center. At the top of the pyramid is a box labeled “Company.” At each of the three bottom corners of the pyramid are boxes. Starting on the left and going counter-clockwise around the pyramid, the box is labeled “Social” and has three bullets that say “employee well-being,” “fair trade,” and “community stakeholder.” The next box is labeled “Economic” and has three bullets that say “revenue,” “growth,” and “cost.” The last box is labeled “Environmental” and has three bullets that say “land use,” “carbon footprint,” and “waste.”\nEnglish caption: Figure 3.6 The three components of the triple bottom line are interrelated. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)"
+}

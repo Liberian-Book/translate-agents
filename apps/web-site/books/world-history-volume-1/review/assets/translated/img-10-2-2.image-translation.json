@@ -1,0 +1,420 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-10-2-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/10-2-the-byzantine-empire-and-persia.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-10-2-2.vi.png",
+  "ocr": [
+    {
+      "text": "== + ly fd [ ===",
+      "confidence": 28,
+      "bbox": {
+        "x": 130,
+        "y": 101,
+        "w": 1040,
+        "h": 67
+      }
+    },
+    {
+      "text": "= | Lode BS | yew we R— a —",
+      "confidence": 28,
+      "bbox": {
+        "x": 130,
+        "y": 236,
+        "w": 1040,
+        "h": 67
+      }
+    },
+    {
+      "text": "—— === sey imiy 7 7 y le Le A ie —",
+      "confidence": 28,
+      "bbox": {
+        "x": 130,
+        "y": 371,
+        "w": 1040,
+        "h": 67
+      }
+    },
+    {
+      "text": "== Seah . Ay Leer pag iy = = Se",
+      "confidence": 28,
+      "bbox": {
+        "x": 130,
+        "y": 506,
+        "w": 1040,
+        "h": 67
+      }
+    },
+    {
+      "text": "= = 14 am Ll Woy fs oo i rd = he wa L i =",
+      "confidence": 28,
+      "bbox": {
+        "x": 130,
+        "y": 641,
+        "w": 1040,
+        "h": 67
+      }
+    },
+    {
+      "text": "— = Till i gE do el ll a Was ==",
+      "confidence": 28,
+      "bbox": {
+        "x": 130,
+        "y": 776,
+        "w": 1040,
+        "h": 67
+      }
+    },
+    {
+      "text": "== 7 ra pasa Foal ra A El mE",
+      "confidence": 28,
+      "bbox": {
+        "x": 130,
+        "y": 911,
+        "w": 1040,
+        "h": 67
+      }
+    },
+    {
+      "text": "N= SEs tate egos PEE il um J HELL a al.",
+      "confidence": 28,
+      "bbox": {
+        "x": 130,
+        "y": 1046,
+        "w": 1040,
+        "h": 67
+      }
+    },
+    {
+      "text": "= ume aA) | i a Cia Al SL ili",
+      "confidence": 28,
+      "bbox": {
+        "x": 130,
+        "y": 1181,
+        "w": 1040,
+        "h": 67
+      }
+    },
+    {
+      "text": "——— Lee A pT ag Rider",
+      "confidence": 28,
+      "bbox": {
+        "x": 130,
+        "y": 1316,
+        "w": 1040,
+        "h": 67
+      }
+    },
+    {
+      "text": "= Lots 0 Tay L i lic | § 1 le wl Fi Ere yo 701 {50 i wi",
+      "confidence": 28,
+      "bbox": {
+        "x": 130,
+        "y": 1451,
+        "w": 1040,
+        "h": 67
+      }
+    },
+    {
+      "text": "— CO FE TI Lo LE Ba mT am Toei l Ee = Lr | | nl — et",
+      "confidence": 28,
+      "bbox": {
+        "x": 130,
+        "y": 1586,
+        "w": 1040,
+        "h": 67
+      }
+    },
+    {
+      "text": "= SE Gey al Wied LER i fe Mas",
+      "confidence": 28,
+      "bbox": {
+        "x": 130,
+        "y": 1721,
+        "w": 1040,
+        "h": 67
+      }
+    },
+    {
+      "text": "=== iE ae Ee ser = El Es = Tose aE.",
+      "confidence": 28,
+      "bbox": {
+        "x": 130,
+        "y": 1856,
+        "w": 1040,
+        "h": 67
+      }
+    },
+    {
+      "text": "Sls ® Ser ame LST",
+      "confidence": 28,
+      "bbox": {
+        "x": 130,
+        "y": 1991,
+        "w": 1040,
+        "h": 67
+      }
+    },
+    {
+      "text": "— Bees LT Ie _— = ce",
+      "confidence": 28,
+      "bbox": {
+        "x": 130,
+        "y": 2126,
+        "w": 1040,
+        "h": 67
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A drawing of a very large, multi-tiered building is shown on a cloudy background. The building is comprised of many layers of different shaped structures – some rounded, some square, and some rectangle. All of the parts have windows in varying shapes and sizes and some levels have trees and bushes showing from inside the walls. Four very tall pointy spires are seen at four corners around the building with rounded watch towers toward the top. At the right of the building an arch stands with a tiled roof that leads to a short wall that then leads to the large structure. In the background there are more buildings with rounded domed roofs and spires coming out of the roofs. In the left corner of the drawing there is a small hut and five rectangle items strewn all over the ground. People in long robed clothing are seen walking into various doors of the building. The ground in front of the structure is cobbled and uneven.\nButton label: Click to enlarge image of A drawing of a very large, multi-tiered building is shown on a cloudy background. The building is comprised of many layers of different shaped structures – some rounded, some square, and some rectangle. All of the parts have windows in varying shapes and sizes and some levels have trees and bushes showing from inside the walls. Four very tall pointy spires are seen at four corners around the building with rounded watch towers toward the top. At the right of the building an arch stands with a tiled roof that leads to a short wall that then leads to the large structure. In the background there are more buildings with rounded domed roofs and spires coming out of the roofs. In the left corner of the drawing there is a small hut and five rectangle items strewn all over the ground. People in long robed clothing are seen walking into various doors of the building. The ground in front of the structure is cobbled and uneven.\nEnglish caption: Figure 10.12 Hagia Sophia. Built on the layout of a cross, the Hagia Sophia or Church of Holy Wisdom in Constantinople is massive in size; its main dome is 105 feet in diameter. This lithograph of the exterior was made in 1857; mosaics decorated the rich interior. (credit: modification of work “Lithography of the Hagia Sophia, Istanbul, 1857” by Dmitry Makeev/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 1.0173190984578886,
+    "averageConfidence": 28,
+    "entropy": 7.77905139606446,
+    "sharpness": 16.865654786221747
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A drawing of a very large, multi-tiered building is shown on a cloudy background. The building is comprised of many layers of different shaped structures – some rounded, some square, and some rectangle. All of the parts have windows in varying shapes and sizes and some levels have trees and bushes showing from inside the walls. Four very tall pointy spires are seen at four corners around the building with rounded watch towers toward the top. At the right of the building an arch stands with a tiled roof that leads to a short wall that then leads to the large structure. In the background there are more buildings with rounded domed roofs and spires coming out of the roofs. In the left corner of the drawing there is a small hut and five rectangle items strewn all over the ground. People in long robed clothing are seen walking into various doors of the building. The ground in front of the structure is cobbled and uneven.\nButton label: Click to enlarge image of A drawing of a very large, multi-tiered building is shown on a cloudy background. The building is comprised of many layers of different shaped structures – some rounded, some square, and some rectangle. All of the parts have windows in varying shapes and sizes and some levels have trees and bushes showing from inside the walls. Four very tall pointy spires are seen at four corners around the building with rounded watch towers toward the top. At the right of the building an arch stands with a tiled roof that leads to a short wall that then leads to the large structure. In the background there are more buildings with rounded domed roofs and spires coming out of the roofs. In the left corner of the drawing there is a small hut and five rectangle items strewn all over the ground. People in long robed clothing are seen walking into various doors of the building. The ground in front of the structure is cobbled and uneven.\nEnglish caption: Figure 10.12 Hagia Sophia. Built on the layout of a cross, the Hagia Sophia or Church of Holy Wisdom in Constantinople is massive in size; its main dome is 105 feet in diameter. This lithograph of the exterior was made in 1857; mosaics decorated the rich interior. (credit: modification of work “Lithography of the Hagia Sophia, Istanbul, 1857” by Dmitry Makeev/Wikimedia Commons, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "=. = = _ ——— FF = =",
+        "confidence": 39,
+        "bbox": {
+          "x": 156,
+          "y": 121,
+          "w": 1246,
+          "h": 81
+        }
+      },
+      {
+        "text": "= = = 3 — lh iA = I = : = =",
+        "confidence": 39,
+        "bbox": {
+          "x": 156,
+          "y": 283,
+          "w": 1246,
+          "h": 81
+        }
+      },
+      {
+        "text": "= — 5 AS | I | — 3 —",
+        "confidence": 39,
+        "bbox": {
+          "x": 156,
+          "y": 445,
+          "w": 1246,
+          "h": 81
+        }
+      },
+      {
+        "text": "— 3 —— = = = INN i I = = =",
+        "confidence": 39,
+        "bbox": {
+          "x": 156,
+          "y": 607,
+          "w": 1246,
+          "h": 81
+        }
+      },
+      {
+        "text": "= = = =F in R= =F = =",
+        "confidence": 39,
+        "bbox": {
+          "x": 156,
+          "y": 769,
+          "w": 1246,
+          "h": 81
+        }
+      },
+      {
+        "text": "== = = ow ef | 0 0 =",
+        "confidence": 39,
+        "bbox": {
+          "x": 156,
+          "y": 931,
+          "w": 1246,
+          "h": 81
+        }
+      },
+      {
+        "text": "= y— == Fe Ee mel | f i : 1 f 3 = . = =",
+        "confidence": 39,
+        "bbox": {
+          "x": 156,
+          "y": 1093,
+          "w": 1246,
+          "h": 81
+        }
+      },
+      {
+        "text": "= = = it 4 Et ny == 8 Ha i 7 Nil I [im il ¢ LON === en =",
+        "confidence": 39,
+        "bbox": {
+          "x": 156,
+          "y": 1255,
+          "w": 1246,
+          "h": 81
+        }
+      },
+      {
+        "text": "0 Ela i Yi\" 2p ~ iy TW “ees",
+        "confidence": 39,
+        "bbox": {
+          "x": 156,
+          "y": 1417,
+          "w": 1246,
+          "h": 81
+        }
+      },
+      {
+        "text": "= ll BE abe aah lif i ii I IH EA i 18 Ls 1 =| FEY T",
+        "confidence": 39,
+        "bbox": {
+          "x": 156,
+          "y": 1579,
+          "w": 1246,
+          "h": 81
+        }
+      },
+      {
+        "text": "NE TES =e iG pd ull I — Nord | (= LE ud",
+        "confidence": 39,
+        "bbox": {
+          "x": 156,
+          "y": 1741,
+          "w": 1246,
+          "h": 81
+        }
+      },
+      {
+        "text": "NN @ rn 8 Ss po Le v 4 Se te fhe",
+        "confidence": 39,
+        "bbox": {
+          "x": 156,
+          "y": 1903,
+          "w": 1246,
+          "h": 81
+        }
+      },
+      {
+        "text": "s = Soe an i Cw i : La Load | a 4 ii CTE = Tl | | Wit",
+        "confidence": 39,
+        "bbox": {
+          "x": 156,
+          "y": 2065,
+          "w": 1246,
+          "h": 81
+        }
+      },
+      {
+        "text": "——— hE a or mt bE NE Lm BE aan Car SE IE",
+        "confidence": 39,
+        "bbox": {
+          "x": 156,
+          "y": 2227,
+          "w": 1246,
+          "h": 81
+        }
+      },
+      {
+        "text": "Sp NER B= n BLE EA oh ke",
+        "confidence": 39,
+        "bbox": {
+          "x": 156,
+          "y": 2389,
+          "w": 1246,
+          "h": 81
+        }
+      },
+      {
+        "text": "—. he Hi Sm Tie THE Els FIISNE 4 6) yr [TITRE EEA J ET Gis i Z",
+        "confidence": 39,
+        "bbox": {
+          "x": 156,
+          "y": 2551,
+          "w": 1246,
+          "h": 81
+        }
+      },
+      {
+        "text": "== ‘SW In Hi i A Wp i a i 2) { 5 3 toy HE aly WR MY TA ge ind",
+        "confidence": 39,
+        "bbox": {
+          "x": 156,
+          "y": 2713,
+          "w": 1246,
+          "h": 81
+        }
+      },
+      {
+        "text": "= 2 i at, -% al Wi i) ™ i ANE a phe pt” com, =o AS",
+        "confidence": 39,
+        "bbox": {
+          "x": 156,
+          "y": 2875,
+          "w": 1246,
+          "h": 81
+        }
+      },
+      {
+        "text": "— me a = AQ = ee = — Ere are",
+        "confidence": 39,
+        "bbox": {
+          "x": 156,
+          "y": 3037,
+          "w": 1246,
+          "h": 81
+        }
+      },
+      {
+        "text": "= ie A oie aaa = fi ci oi",
+        "confidence": 39,
+        "bbox": {
+          "x": 156,
+          "y": 3199,
+          "w": 1246,
+          "h": 81
+        }
+      },
+      {
+        "text": "iT Fl s=5 Sa Some == —",
+        "confidence": 39,
+        "bbox": {
+          "x": 156,
+          "y": 3361,
+          "w": 1246,
+          "h": 81
+        }
+      },
+      {
+        "text": "ili le Se ee = = = = =",
+        "confidence": 39,
+        "bbox": {
+          "x": 156,
+          "y": 3523,
+          "w": 1246,
+          "h": 81
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": [
+        "some"
+      ]
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

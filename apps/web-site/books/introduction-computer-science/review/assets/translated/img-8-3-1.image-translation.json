@@ -1,0 +1,9 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-8-3-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/8-3-relational-database-management-systems.html",
+  "decision": "error",
+  "reason": "source-image-not-found",
+  "outputImage": null,
+  "ocr": [],
+  "translations": []
+}

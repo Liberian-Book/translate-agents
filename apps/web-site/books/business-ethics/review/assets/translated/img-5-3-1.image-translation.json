@@ -1,0 +1,84 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-5-3-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/5-3-the-influence-of-geography-and-religion.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-5-3-1.vi.png",
+  "ocr": [
+    {
+      "text": "; Tr I 1. or | nn | By",
+      "confidence": 32,
+      "bbox": {
+        "x": 110,
+        "y": 42,
+        "w": 880,
+        "h": 28
+      }
+    },
+    {
+      "text": "tania. © El rie Ep ER EEA",
+      "confidence": 32,
+      "bbox": {
+        "x": 110,
+        "y": 98,
+        "w": 880,
+        "h": 28
+      }
+    },
+    {
+      "text": "tf ta | MEE EEE EE |",
+      "confidence": 32,
+      "bbox": {
+        "x": 110,
+        "y": 154,
+        "w": 880,
+        "h": 28
+      }
+    },
+    {
+      "text": "x iy ! & 34 NS ny - = — = 7",
+      "confidence": 32,
+      "bbox": {
+        "x": 110,
+        "y": 210,
+        "w": 880,
+        "h": 28
+      }
+    },
+    {
+      "text": "r= eS me BH FRE BLE",
+      "confidence": 32,
+      "bbox": {
+        "x": 110,
+        "y": 266,
+        "w": 880,
+        "h": 28
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: One photo shows the Taj Mahal, which is a large, grand, white marble mausoleum in India, with its rectangular reflecting pool. A second photo shows the Palace of Versailles, which is a very ornate, royal palace in France.\nButton label: Click to enlarge image of One photo shows the Taj Mahal, which is a large, grand, white marble mausoleum in India, with its rectangular reflecting pool. A second photo shows the Palace of Versailles, which is a very ornate, royal palace in France.\nEnglish caption: Figure 5.6 Just as concepts of time and space vary from culture to culture, so do the influence of religious tradition and authority on ethics and what is considered appropriate behavior, whether individual or corporate. The Taj Mahal is not the Palace of Versailles. (credit left: modification of “Taj Mahal” by Suraj rajiv/Wikimedia Commons, CC BY 4.0; credit right: modification of “Cour de Marbre du Château de Versailles October 5, 2011” by Kimberly Vardeman/Wikimedia Commons, CC BY 2.0)",
+  "metrics": {
+    "textDensity": 0.3209169054441261,
+    "averageConfidence": 32,
+    "entropy": 7.4801285849825945,
+    "sharpness": 4.524074783625158
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

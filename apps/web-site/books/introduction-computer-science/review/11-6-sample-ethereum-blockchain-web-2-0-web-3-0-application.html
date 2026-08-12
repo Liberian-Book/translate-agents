@@ -1,0 +1,562 @@
+<html><head><link rel="stylesheet" href="./style.css">
+<style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style>
+<script src="book-reviewer/book-pages.js?v=toc-accordion-1"></script>
+<link rel="stylesheet" href="book-reviewer/book-reviewer.css?v=toc-accordion-1">
+<script src="book-reviewer/book-reviewer.js?v=toc-accordion-1"></script>
+</head><body><h2 data-type="document-title" id="page_8230e9b6-07b2-4da8-8c55-267db07b54f0_titlecreatedbycookbook" data-rex-keep="true" class="eng hidden"><span class="os-number">11.6</span>
+<span class="os-divider"> </span>
+<span data-type="" itemprop="" class="os-text">Sample Ethereum Blockchain Web 2.0/Web 3.0 Application</span>
+</h2><h2 data-type="document-title" id="page_8230e9b6-07b2-4da8-8c55-267db07b54f0_titlecreatedbycookbook-vn" data-rex-keep="true" class="vn visible"><span class="os-number">11.6</span>
+<span class="os-divider"> </span>
+<span data-type="" itemprop="" class="os-text">Mẫu ứng dụng Blockchain Ethereum Web 2.0/Web 3.0</span></h2>
+  
+  <section data-depth="1" class="learning-objectives" id="sect-00001"><h3 data-type="title" class="eng hidden">Learning Objectives</h3><h3 data-type="title" class="vn visible">Mục tiêu học tập</h3>
+  <p id="para-00001" class="eng hidden">By the end of this section, you will be able to:</p><p id="para-00001-vn" class="vn visible">Cuối phần này, bạn sẽ có thể:</p>
+  <ul id="list-00001">
+  <li class="eng hidden">Build a hybrid Ethereum blockchain Web 3.0 application</li><li class="vn visible">Xây dựng một ứng dụng Web 3.0 trên blockchain Ethereum lai</li>
+  <li class="eng hidden">Create the React app and install dependencies</li><li class="vn visible">Tạo ứng dụng React và cài đặt các phụ thuộc</li>
+  <li class="eng hidden">Create the smart contract</li><li class="vn visible">Tạo hợp đồng thông minh</li>
+  <li class="eng hidden">Create the front-end React components</li><li class="vn visible">Tạo các thành phần React phía trước</li>
+  <li class="eng hidden">Add Web3 to the React app</li><li class="vn visible">Thêm Web3 vào ứng dụng React</li>
+  <li class="eng hidden">Configure the React app to communicate with the smart contract</li><li class="vn visible">Cấu hình ứng dụng React để giao tiếp với hợp đồng thông minh</li>
+  </ul>
+  </section>
+  
+  <p id="para-00002" class="eng hidden">So far, this chapter has explored how to develop a Todo web application, as well as a Todo mobile application, using Bootstrap, Django, <span data-type="term" class="no-emphasis" id="term-00001" group-by="R">React</span>, <span data-type="term" class="no-emphasis" id="term-00002" group-by="R">React Native</span>, and <span data-type="term" class="no-emphasis" id="term-00003" group-by="N">Node</span>. In this final section, you will learn how to create a simple Todo application using React with Web 3.0 powered by Ethereum <span data-type="term" class="no-emphasis" id="term-00004" group-by="s">smart contract</span>s on the blockchain.</p><p id="para-00002-vn" class="vn visible">Cho đến nay, chương này đã khám phá cách phát triển một ứng dụng web Todo, cũng như một ứng dụng di động Todo, sử dụng Bootstrap, Django, <span data-type="term" class="no-emphasis" id="term-00001" group-by="R">React</span>, <span data-type="term" class="no-emphasis" id="term-00002" group-by="R">React Native</span>, và <span data-type="term" class="no-emphasis" id="term-00003" group-by="N">Node</span>. Trong phần cuối cùng này, bạn sẽ học cách tạo một ứng dụng Todo đơn giản sử dụng React với Web 3.0 được hỗ trợ bởi Ethereum <span data-type="term" class="no-emphasis" id="term-00004" group-by="s">smart contract</span> trên blockchain.</p>
+  
+  <section data-depth="1" id="sect-00002"><h3 data-type="title" class="eng hidden">Creating a Todo Ethereum Blockchain Web 3.0 Application</h3><h3 data-type="title" class="vn visible">Tạo một ứng dụng Todo trên Blockchain Ethereum Web 3.0</h3>
+  <p id="para-00003" class="eng hidden">As you have learned, Todo applications can be created using different tools. In this section, you will explore the <span data-type="term" id="term-00005" group-by="E">Ethereum blockchain</span>, which creates a secure peer-to-peer network through the use of a smart contract, which is a secure digital agreement that enables users to transact directly with each other via the blockchain. You will use React to create a Todo Ethereum blockchain Web 3.0 application.</p><p id="para-00003-vn" class="vn visible">Như bạn đã học, các ứng dụng Todo có thể được tạo ra bằng cách sử dụng các công cụ khác nhau. Trong phần này, bạn sẽ khám phá <span data-type="term" id="term-00005" group-by="E">Ethereum blockchain</span>, tạo ra một mạng lưới ngang hàng an toàn thông qua việc sử dụng hợp đồng thông minh, là một thỏa thuận kỹ thuật số an toàn cho phép người dùng giao dịch trực tiếp với nhau qua blockchain. Bạn sẽ sử dụng React để tạo một ứng dụng Todo Ethereum blockchain Web 3.0.</p>
+  <div data-type="note" class="link-to-learning ui-has-child-title" id="note-00001"><header><h3 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label">Link to Learning</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Liên kết đến Học tập</span></h3></header><section>
+<div class="os-note-body">
+  <p id="para-00004" class="eng hidden"><a href="https://openstax.org/r/76Ganache" target="_blank" rel="noopener nofollow" aria-label="Go to Ganache">Ganache</a> is a personal Ethereum blockchain environment that provides developers with the means to use a private blockchain for development and testing. Ganache can emulate the Ethereum blockchain, and because it is a private blockchain, it allows developers control over development and testing processes.</p><p id="para-00004-vn" class="vn visible"><a href="https://openstax.org/r/76Ganache" target="_blank" rel="noopener nofollow" aria-label="Go to Ganache">Ganache</a> là một môi trường blockchain Ethereum cá nhân cung cấp cho các nhà phát triển phương tiện để sử dụng blockchain riêng cho việc phát triển và thử nghiệm. Ganache có thể mô phỏng blockchain Ethereum, và vì nó là một blockchain riêng, nó cho phép các nhà phát triển kiểm soát quá trình phát triển và thử nghiệm.</p>
+  </div></section></div>
+  </section>
+  
+  <section data-depth="1" id="sect-00003"><h3 data-type="title" class="eng hidden">Prerequisites</h3><h3 data-type="title" class="vn visible">Điều kiện tiên quyết</h3>
+  <p id="para-00005" class="eng hidden">To build the Todo Ethereum blockchain <span data-type="term" class="no-emphasis" id="term-00006" group-by="W">Web 3.0</span> application, you should use React v17.0.2, Bootstrap v4.5.0, Node v14.17.5, Web 3.js v1.2.2, Truffle v5.0.2, and Solidity v0.8.11. In addition, Ganache is used as the personal blockchain for development. To begin, do the following:</p><p id="para-00005-vn" class="vn visible">Để xây dựng ứng dụng <span data-type="term" class="no-emphasis" id="term-00006" group-by="W">Web 3.0</span> trên blockchain Ethereum Todo, bạn nên sử dụng React v17.0.2, Bootstrap v4.5.0, Node v14.17.5, Web 3.js v1.2.2, Truffle v5.0.2 và Solidity v0.8.11. Ngoài ra, Ganache được sử dụng như blockchain cá nhân cho phát triển. Để bắt đầu, hãy làm như sau:</p>
+  <ul id="list-00002">
+  <li>Download and install Ganache. Launch Ganache and choose the quick start Ethereum option as seen in <a href="11-6-sample-ethereum-blockchain-web-2-0-web-3-0-application#fig-00001" class="autogenerated-content" aria-label="View Figure 11.46">Figure 11.46</a>.
+  <div class="os-figure" id="fig-00001"><figure data-id="fig-00001" class="ui-has-child-figcaption">
+  <span data-type="media" data-alt="Screenshot of Ethereum option.">
+  <button type="button" aria-label="Click to enlarge image of Screenshot of Ethereum option." class="image-button-wrapper"><img src="assets/translated/img-11-6-1.vi.png" data-media-type="image/jpeg" alt="Screenshot of Ethereum option." width="1301" height="890" loading="lazy"></button>
+  </span>
+  
+  <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.46</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">This is the quick start Ethereum option that is available after installing Ganache. (credit: Ganache, under MIT license)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">11.46</span>
+
+<span class="os-divider"> </span>
+<span class="os-caption">Đây là tùy chọn Ethereum khởi động nhanh có sẵn sau khi cài đặt Ganache. (tín dụng: Ganache, theo giấy phép MIT)</span></figcaption></figure></div></li>
+  <li class="eng hidden">The next step is to install the MetaMask Chrome plug-in. Configure the MetaMask account and log in.</li><li class="vn visible">Bước tiếp theo là cài đặt tiện ích mở rộng MetaMask cho Chrome. Cấu hình tài khoản MetaMask và đăng nhập.</li>
+  </ul>
+  </section>
+  
+  <section data-depth="1" id="sect-00004"><h3 data-type="title" class="eng hidden">Creating the React App</h3><h3 data-type="title" class="vn visible">Tạo ứng dụng React</h3>
+  <p id="para-00006" class="eng hidden">Previously in this chapter, you created React apps. For this application, you need to create a new React app.</p><p id="para-00006-vn" class="vn visible">Trước đây trong chương này, bạn đã tạo các ứng dụng React. Đối với ứng dụng này, bạn cần tạo một ứng dụng React mới.</p>
+  <p id="para-00007" class="eng hidden">To create the new React app, run the following command:</p><p id="para-00007-vn" class="vn visible">Để tạo ứng dụng React mới, hãy chạy lệnh sau:</p>
+  <pre data-type="code" class="shell" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> npx create-react-app ethreact</span></pre>
+  <section data-depth="2" id="sect-00005"><h4 data-type="title" class="eng hidden">Install Bootstrap, Web3, and Other Dependencies</h4><h4 data-type="title" class="vn visible">Cài đặt Bootstrap, Web3 và các phụ thuộc khác</h4>
+  <p id="para-00008" class="eng hidden">To use Bootstrap and Web3 in a React app, corresponding packages must be installed. To do this, in the ethreact/ directory, run the following commands:</p><p id="para-00008-vn" class="vn visible">Để sử dụng Bootstrap và Web3 trong một ứng dụng React, các gói tương ứng phải được cài đặt. Để làm điều này, trong thư mục ethreact/, hãy chạy các lệnh sau:</p>
+  <pre data-type="code" class="javascript" data-lang="javascript">  $ npm install bootstrap@<span class="hljs-number">4.6</span><span class="hljs-number">.0</span> reactstrap@<span class="hljs-number">8.9</span><span class="hljs-number">.0</span> --legacy-peer-deps
+  $ npm install react-bootstrap
+  $ npm install web3@<span class="hljs-number">1.2</span><span class="hljs-number">.2</span>
+  </pre>
+  <p id="para-00009" class="eng hidden">Next, import the Bootstrap CSS file into the React application. Open ethreact/src/index.js and add the following Bootstrap import.</p><p id="para-00009-vn" class="vn visible">Tiếp theo, nhập tệp CSS Bootstrap vào ứng dụng React. Mở __HTML_TAG_0__ethreact/src/index.js__HTML_TAG_1__ và thêm phần nhập Bootstrap sau.</p>
+  <pre data-type="code" class="javascript" data-lang="javascript"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">'react-dom'</span>;
+<span class="hljs-keyword">import</span> <span class="hljs-string">'bootstrap/dist/css/bootstrap.css'</span>;
+<span class="hljs-keyword">import</span> <span class="hljs-string">'./index.css'</span>;
+<span class="hljs-keyword">import</span> App <span class="hljs-keyword">from</span> <span class="hljs-string">'./App'</span>;
+<span class="hljs-keyword">import</span> reportWebVitals <span class="hljs-keyword">from</span> <span class="hljs-string">'./reportWebVitals'</span>;
+
+ReactDOM.render(
+&nbsp;&nbsp;<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">React.StrictMode</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">App</span> /&gt;</span>
+&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">React.StrictMode</span>&gt;</span></span>,
+&nbsp;&nbsp;<span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">'root'</span>)
+);
+
+<span class="hljs-comment">// If you want to start measuring performance in your app, pass a function</span>
+<span class="hljs-comment">// to log results (for example: reportWebVitals(console.log))</span>
+<span class="hljs-comment">// or send to an analytics endpoint. Learn more: <a href="https://bit.ly/CRA-vitals" aria-label="Go to https://bit.ly/CRA-vitals" data-bare-link="true">https://bit.ly/CRA-vitals</a></span>
+reportWebVitals();</pre>
+  <div data-type="note" class="link-to-learning ui-has-child-title" id="note-00002"><header><h3 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label">Link to Learning</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Liên kết đến Học tập</span></h3></header><section>
+<div class="os-note-body">
+  <p id="para-00010" class="eng hidden"><a href="https://openstax.org/r/76Truffle" target="_blank" rel="noopener nofollow" aria-label="Go to Truffle">Truffle</a> provides a suite of tools that can be used to develop smart contracts. Truffle offers end-to-end development that includes the ability to develop, test, and implement smart contracts, while using Truffle to manage the workflow.</p><p id="para-00010-vn" class="vn visible"><a href="https://openstax.org/r/76Truffle" target="_blank" rel="noopener nofollow" aria-label="Go to Truffle">Truffle</a> cung cấp một bộ công cụ có thể được sử dụng để phát triển hợp đồng thông minh. Truffle cung cấp phát triển toàn diện bao gồm khả năng phát triển, kiểm tra và triển khai hợp đồng thông minh, trong khi sử dụng Truffle để quản lý quy trình làm việc.</p>
+  </div></section></div>
+  </section>
+  </section>
+  
+  <section data-depth="1" id="sect-00006"><h3 data-type="title" class="eng hidden">Creating the Smart Contract</h3><h3 data-type="title" class="vn visible">Tạo hợp đồng thông minh</h3>
+  <p id="para-00011" class="eng hidden">To develop the Ethereum smart contract, you will use the <span data-type="term" id="term-00007" group-by="T">Truffle Framework</span>, which is a popular suite of tools used to develop smart contracts. Implement the Truffle Framework using <span data-type="term" id="term-00008" group-by="S">Solidity</span>, which is a high-level, object-oriented language that is focused on the implementation of smart contracts. To use the Truffle Framework, in the ethreact/ directory, run the installation following command:</p><p id="para-00011-vn" class="vn visible">Để phát triển hợp đồng thông minh Ethereum, bạn sẽ sử dụng <span data-type="term" id="term-00007" group-by="T">Truffle Framework</span>, là một bộ công cụ phổ biến được sử dụng để phát triển hợp đồng thông minh. Thực hiện Truffle Framework bằng cách sử dụng <span data-type="term" id="term-00008" group-by="S">Solidity</span>, là một ngôn ngữ lập trình bậc cao, hướng đối tượng, tập trung vào việc triển khai hợp đồng thông minh. Để sử dụng Truffle Framework, trong thư mục ethreact/, hãy chạy lệnh cài đặt sau:</p>
+  <pre data-type="code" class="shell" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> npm install -g truffle@5.0.2</span></pre>
+  <p id="para-00012" class="eng hidden">To set up the React app to use Truffle, in the ethreact/ directory, run the following command, which may take several minutes.</p><p id="para-00012-vn" class="vn visible">Để thiết lập ứng dụng React sử dụng Truffle, trong thư mục ethreact/, hãy chạy lệnh sau, điều này có thể mất vài phút.</p>
+  <pre data-type="code" class="shell" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> truffle init</span></pre>
+  <p id="para-00013" class="eng hidden">When the initialization is completed, the contracts/ directory and Migrations.sol file will be generated. In addition, the truffle-config.js file will be generated, as highlighted in <a href="11-6-sample-ethereum-blockchain-web-2-0-web-3-0-application#fig-00003" class="autogenerated-content" aria-label="View Figure 11.47">Figure 11.47</a>.</p><p id="para-00013-vn" class="vn visible">Khi quá trình khởi tạo hoàn tất, thư mục contracts/ và tệp Migrations.sol sẽ được tạo ra. Ngoài ra, tệp truffle-config.js cũng sẽ được tạo ra, như đã được nhấn mạnh trong <a href="11-6-sample-ethereum-blockchain-web-2-0-web-3-0-application#fig-00003" class="autogenerated-content" aria-label="View Figure 11.47">Hình 11.47</a>.</p>
+  <div class="os-figure" id="fig-00003"><figure data-id="fig-00003" class="scaled-down-30 ui-has-child-figcaption">
+  <span data-type="media" data-alt="Screenshot of truffle-config.js file.">
+  <button type="button" aria-label="Click to enlarge image of Screenshot of truffle-config.js file." class="image-button-wrapper"><img src="assets/translated/img-11-6-2.vi.png" data-media-type="image/jpeg" alt="Screenshot of truffle-config.js file." width="373" height="901" loading="lazy"></button>
+  </span>
+  
+  <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.47</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">Here is the truffle-config.js file. (rendered with Truffle by Truffle Security Co., under MIT license; attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">11.47</span>
+
+<span class="os-divider"> </span>
+<span class="os-caption">Đây là tệp truffle-config.js. (được tạo ra với Truffle bởi Truffle Security Co., theo giấy phép MIT; ghi công: Bản quyền Đại học Rice, OpenStax, theo giấy phép CC BY NC-SA 4.0)</span></figcaption></figure></div>
+  <p id="para-00014" class="eng hidden">To create the <span data-type="term" class="no-emphasis" id="term-00009" group-by="s">smart contract</span>, in the ethreact/contracts/ directory, create the file TodoList.sol and add the following code.</p><p id="para-00014-vn" class="vn visible">Để tạo <span data-type="term" class="no-emphasis" id="term-00009" group-by="s">smart contract</span>, trong thư mục ethreact/contracts/, hãy tạo tệp TodoList.sol và thêm mã sau.</p>
+  <pre data-type="code" class="shell" data-lang="shell">pragma solidity ^0.5.0;
+contract TodoList {
+&nbsp;&nbsp;uint public taskCount = 0;
+
+&nbsp;&nbsp;struct Task {
+&nbsp;&nbsp;&nbsp;&nbsp;uint id;
+&nbsp;&nbsp;&nbsp;&nbsp;string content;
+&nbsp;&nbsp;&nbsp;&nbsp;bool completed;
+&nbsp;&nbsp;}
+
+&nbsp;&nbsp;mapping(uint =&gt; Task) public tasks;
+
+&nbsp;&nbsp;event TaskCreated(
+&nbsp;&nbsp;&nbsp;&nbsp;uint id,
+&nbsp;&nbsp;&nbsp;&nbsp;string content,
+&nbsp;&nbsp;&nbsp;&nbsp;bool completed
+&nbsp;&nbsp;);
+
+&nbsp;&nbsp;event TaskCompleted(
+&nbsp;&nbsp;&nbsp;&nbsp;uint id,
+&nbsp;&nbsp;&nbsp;&nbsp;bool completed
+&nbsp;&nbsp;);
+
+&nbsp;&nbsp;constructor () public {
+&nbsp;&nbsp;&nbsp;&nbsp;createTask("Check out dappuniversity.com");
+&nbsp;&nbsp;}
+
+&nbsp;&nbsp;function createTask(string memory _content) public {
+&nbsp;&nbsp;&nbsp;&nbsp;taskCount ++;
+&nbsp;&nbsp;&nbsp;&nbsp;tasks[taskCount] = Task(taskCount, _content, false);
+&nbsp;&nbsp;&nbsp;&nbsp;emit TaskCreated(taskCount, _content, false);
+&nbsp;&nbsp;}
+&nbsp;&nbsp;function toggleCompleted(uint _id) public {
+&nbsp;&nbsp;&nbsp;&nbsp;Task memory _task = tasks[_id];
+&nbsp;&nbsp;&nbsp;&nbsp;_task.completed = !_task.completed;
+&nbsp;&nbsp;&nbsp;&nbsp;tasks[_id] = _task;
+&nbsp;&nbsp;&nbsp;&nbsp;emit TaskCompleted(_id, _task.completed);
+&nbsp;&nbsp;}
+
+}</pre>
+  <p id="para-00015" class="eng hidden">Next, compile the smart contract. In the ethreact/ directory, run the following command:</p><p id="para-00015-vn" class="vn visible">Tiếp theo, biên dịch hợp đồng thông minh. Trong thư mục ethreact/, chạy lệnh sau:</p>
+  <pre data-type="code" class="python" data-lang="python">  $ truffle <span class="hljs-built_in">compile</span>
+  </pre>
+  <p id="para-00016" class="eng hidden">This command should provide a status confirming that the smart contract has been successfully compiled as seen in the following code:</p><p id="para-00016-vn" class="vn visible">Lệnh này nên cung cấp một trạng thái xác nhận rằng hợp đồng thông minh đã được biên dịch thành công như được thấy trong mã sau:</p>
+  <pre data-type="code" class="shell" data-lang="shell"><span class="hljs-meta">&gt;</span><span class="bash"> Compiled successfully using:</span>
+&nbsp;&nbsp;- solc: 0.5.16+commit.9c3226ce.Emscription.clang
+</pre>
+  <p id="para-00017" class="eng hidden"><a href="11-6-sample-ethereum-blockchain-web-2-0-web-3-0-application#fig-00004" class="autogenerated-content" aria-label="View Figure 11.48">Figure 11.48</a> shows how this process will generate a few files, including two JSON files in the build/contracts/ directory and a migration file in the migrations/ directory.</p><p id="para-00017-vn" class="vn visible"><a href="11-6-sample-ethereum-blockchain-web-2-0-web-3-0-application#fig-00004" class="autogenerated-content" aria-label="View Figure 11.48">Hình 11.48</a> cho thấy quá trình này sẽ tạo ra một vài tệp, bao gồm hai tệp JSON trong thư mục build/contracts/ và một tệp di chuyển trong thư mục migrations/.</p>
+  <div class="os-figure" id="fig-00004"><figure data-id="fig-00004" class="scaled-down-60 ui-has-child-figcaption">
+  <span data-type="media" data-alt="Screenshot of JSON and migration files.">
+  <button type="button" aria-label="Click to enlarge image of Screenshot of JSON and migration files." class="image-button-wrapper"><img src="assets/translated/img-11-6-3.vi.png" data-media-type="image/jpeg" alt="Screenshot of JSON and migration files." width="700" height="468" loading="lazy"></button>
+  </span>
+  
+  <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.48</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">These are the JSON and migration files generated when the smart contract is compiled. (rendered using JSON; attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>  
+<span class="os-number">11.48</span>  
+
+<span class="os-divider"> </span>  
+<span class="os-caption">Đây là các tệp JSON và tệp di chuyển được tạo ra khi hợp đồng thông minh được biên dịch. (được hiển thị bằng JSON; quyền sở hữu: Bản quyền Đại học Rice, OpenStax, theo giấy phép CC BY NC-SA 4.0)</span></figcaption></figure></div>
+  <p id="para-00018" class="eng hidden">The TodoList.json file in the build/contracts/ directory is the smart contract Abstract Binary Interface (ABI) file. This file contains the following:</p><p id="para-00018-vn" class="vn visible">Tệp TodoList.json trong thư mục build/contracts/ là tệp giao thức nhị phân trừu tượng (ABI) của hợp đồng thông minh. Tệp này chứa các nội dung sau:</p>
+  <ul id="list-00003">
+  <li class="eng hidden">compiled bytecode from the Solidity smart contract code that can run on the Ethereum Virtual Machine (EVM)</li><li class="vn visible">bytecode đã được biên dịch từ mã hợp đồng thông minh Solidity có thể chạy trên Máy ảo Ethereum (EVM)</li>
+  <li class="eng hidden">a JSON representation of the smart contract.</li><li class="vn visible">một đại diện JSON của hợp đồng thông minh.</li>
+  </ul>
+  <p id="para-00019" class="eng hidden">Next, configure the React app to connect to the Ganache blockchain network. To do this, open the ethreact/truffle-config.js file and uncomment the two sections shown. Under “networks,” enable the connection host and port to the Ganache blockchain network. Ensure that the host and port are in sync with the following settings in Ganache.</p><p id="para-00019-vn" class="vn visible">Tiếp theo, cấu hình ứng dụng React để kết nối với mạng blockchain Ganache. Để làm điều này, hãy mở tệp ethreact/truffle-config.js và bỏ chú thích hai phần được hiển thị. Dưới “mạng,” hãy kích hoạt địa chỉ kết nối và cổng đến mạng blockchain Ganache. Đảm bảo rằng địa chỉ và cổng đồng bộ với các cài đặt sau trong Ganache.</p>
+  <pre data-type="code" class="javascript" data-lang="javascript">development: {
+&nbsp;&nbsp;<span class="hljs-attr">host</span>: <span class="hljs-string">"127.0.0.1"</span>,&nbsp;&nbsp;&nbsp;&nbsp; <span class="hljs-comment">// Localhost (default: none)</span>
+&nbsp;&nbsp;<span class="hljs-attr">port</span>: <span class="hljs-number">7545</span>,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment">// Standard Ethereum port (default: none)</span>
+&nbsp;&nbsp;<span class="hljs-attr">network_id</span>: <span class="hljs-string">"*"</span>,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="hljs-comment">// Any network (default: none)</span>
+},</pre>
+  <p id="para-00020" class="eng hidden">Next, under “compilers,” enable the solc optimizer.</p><p id="para-00020-vn" class="vn visible">Tiếp theo, dưới mục “compilers,” bật trình tối ưu hóa solc.</p>
+  <pre data-type="code" class="javascript" data-lang="javascript"><span class="hljs-comment">// Configure your compilers</span>
+<span class="hljs-attr">compilers</span>: {
+&nbsp;&nbsp;<span class="hljs-attr">solc</span>: {
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment">// version: "0.5.1",&nbsp;&nbsp;&nbsp;&nbsp;// Fetch exact version from solc-bin (default: truffle's version)</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment">// docker: true,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// Use "0.5.1" you've installed locally with docker (default: false)</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment">// settings: {&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// See the solidity docs for advice about optimization and evmVersion</span>
+&nbsp;&nbsp;&nbsp;&nbsp; <span class="hljs-attr">optimizer</span>: {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="hljs-attr">enabled</span>: <span class="hljs-literal">true</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="hljs-attr">runs</span>: <span class="hljs-number">200</span>
+&nbsp;&nbsp;&nbsp;&nbsp; },
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment">//&nbsp;&nbsp;evmVersion: "byzantium"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment">// }</span>
+&nbsp;&nbsp;}
+},</pre>
+  <p id="para-00021" class="eng hidden">Next, create a migration script to deploy the smart contract to the Ganache blockchain network. In the ethreact/migrations/ directory, create the file 2_deploy_contracts.js and add the following code.</p><p id="para-00021-vn" class="vn visible">Tiếp theo, tạo một kịch bản di chuyển để triển khai hợp đồng thông minh lên mạng blockchain Ganache. Trong thư mục __HTML_TAG_0__ethreact/migrations/__HTML_TAG_1__, tạo tệp __HTML_TAG_2__2_deploy_contracts.js__HTML_TAG_3__ và thêm đoạn mã sau.</p>
+  <pre data-type="code" class="javascript" data-lang="javascript"><span class="hljs-keyword">var</span> TodoList = artifacts.require(<span class="hljs-string">"./TodoList.sol"</span>);
+
+<span class="hljs-built_in">module</span>.exports = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">deployer</span>) </span>{
+&nbsp;&nbsp;deployer.deploy(TodoList);
+};</pre>
+  <p id="para-00022" class="eng hidden">The next step is to migrate the contract. In the ethreact/ directory, run this command.</p><p id="para-00022-vn" class="vn visible">Bước tiếp theo là di chuyển hợp đồng. Trong thư mục ethreact/, hãy chạy lệnh này.</p>
+  <pre data-type="code" class="shell" data-lang="shell"><span class="hljs-meta">$</span><span class="bash"> truffle migrate</span></pre>
+  <p id="para-00023" class="eng hidden"><a href="11-6-sample-ethereum-blockchain-web-2-0-web-3-0-application#fig-00005" class="autogenerated-content" aria-label="View Figure 11.49">Figure 11.49</a> displays how the contract will be migrated and provides the transaction details. You should make a note of the contract address in the output because it will be added to the config.js file later.</p><p id="para-00023-vn" class="vn visible"><a href="11-6-sample-ethereum-blockchain-web-2-0-web-3-0-application#fig-00005" class="autogenerated-content" aria-label="View Figure 11.49">Hình 11.49</a> hiển thị cách hợp đồng sẽ được di chuyển và cung cấp chi tiết giao dịch. Bạn nên ghi chú địa chỉ hợp đồng trong đầu ra vì nó sẽ được thêm vào tệp config.js sau này.</p>
+  <div class="os-figure" id="fig-00005"><figure data-id="fig-00005" class="ui-has-child-figcaption">
+  <span data-type="media" data-alt="Screenshot of transaction details for migrating contract.">
+  <button type="button" aria-label="Click to enlarge image of Screenshot of transaction details for migrating contract." class="image-button-wrapper"><img src="assets/translated/img-11-6-4.vi.png" data-media-type="image/jpeg" alt="Screenshot of transaction details for migrating contract." width="1300" height="637" loading="lazy"></button>  
+  </span>
+  
+  <figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.49</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">Here are the transaction details for migrating the contract. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)</span>
+</figcaption><figcaption class="os-caption-container vn visible">
+  <span class="os-title-label">Hình ảnh </span>
+<span class="os-number">11.49</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption">Dưới đây là chi tiết giao dịch để di chuyển hợp đồng.</span>
+</figcaption></figure></div>
+  <div data-type="note" class="link-to-learning ui-has-child-title" id="note-00003"><header><h3 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label">Link to Learning</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Liên kết đến Học tập</span></h3></header><section>
+<div class="os-note-body">
+  <p id="para-00024" class="eng hidden">Solidity is a high-level, object-oriented language used to implement smart contracts. Influenced by JavaScript, C++, and Python, Solidity is focused on the Ethereum Virtual Machine. Smart contracts implemented by Solidity are used for purposes like blind auctions, voting, and crowdfunding. Visit this <a href="https://openstax.org/r/76Solidity" target="_blank" rel="noopener nofollow" aria-label="Go to page on Solidity">page on Solidity</a> to learn more.</p><p id="para-00024-vn" class="vn visible">Solidity là một ngôn ngữ cấp cao, hướng đối tượng được sử dụng để triển khai các hợp đồng thông minh. Bị ảnh hưởng bởi JavaScript, C++ và Python, Solidity tập trung vào Máy ảo Ethereum. Các hợp đồng thông minh được triển khai bằng Solidity được sử dụng cho các mục đích như đấu giá mù, bỏ phiếu và huy động vốn. Hãy truy cập <a href="https://openstax.org/r/76Solidity" target="_blank" rel="noopener nofollow" aria-label="Go to page on Solidity">trang này về Solidity</a> để tìm hiểu thêm.</p>
+  </div></section></div>
+  </section>
+  
+  <section data-depth="1" id="sect-00007"><h3 data-type="title" class="eng hidden">Creating the Front-End React Components</h3><h3 data-type="title" class="vn visible">Tạo các thành phần React phía trước</h3>
+  <p id="para-00025" class="eng hidden">The TodoList component renders the user interface for the Todo app. In the ethreact/src/ directory, create the components/ directory. In the components/ directory, create the file TodoList.js and then create the TodoList component.</p><p id="para-00025-vn" class="vn visible">Component TodoList hiển thị giao diện người dùng cho ứng dụng Todo. Trong thư mục ethreact/src/, hãy tạo thư mục components/. Trong thư mục components/, hãy tạo tệp TodoList.js và sau đó tạo component TodoList.</p>
+  <pre data-type="code" class="javascript" data-lang="javascript"><span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">TodoList</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+
+&nbsp;&nbsp;<span class="hljs-function"><span class="hljs-title">render</span>(<span class="hljs-params"></span>)</span> {
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">return</span> (
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"content"</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">onSubmit</span>=<span class="hljs-string">{(event)</span> =&gt;</span> {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;event.preventDefault()
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.props.createTask(this.task.value)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}}&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">input</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">id</span>=<span class="hljs-string">"newTask"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">ref</span>=<span class="hljs-string">{(input)</span> =&gt;</span> {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.task = input
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type="text"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;className="form-control"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;placeholder="Add task..."
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;required /&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"submit"</span> <span class="hljs-attr">hidden</span>=<span class="hljs-string">{true}</span> /&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"taskList"</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"list-unstyled"</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{ this.props.tasks.map((task, key) =&gt; {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return(
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"taskTemplate"</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"checkbox"</span> <span class="hljs-attr">key</span>=<span class="hljs-string">{key}</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">label</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">input</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">type</span>=<span class="hljs-string">"checkbox"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">name</span>=<span class="hljs-string">{task.id}</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">defaultChecked</span>=<span class="hljs-string">{task.completed}</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">ref</span>=<span class="hljs-string">{(input)</span> =&gt;</span> {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.checkbox = input
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;onClick={(event) =&gt; {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.props.toggleCompleted(this.checkbox.name) }}/&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"content"</span>&gt;</span>{task.content}<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;})}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"completedTaskList"</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"list-unstyled"</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+&nbsp;&nbsp;&nbsp;&nbsp;);
+&nbsp;&nbsp;}
+}
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> TodoList;</pre>
+  <p id="para-00026" class="eng hidden">Update the ethreact/src/App.js to import and render the TodoList component.</p><p id="para-00026-vn" class="vn visible">Cập nhật ethreact/src/App.js để nhập và hiển thị thành phần TodoList.</p>
+  <pre data-type="code" class="javascript" data-lang="javascript"><span class="hljs-function"><span class="hljs-title">render</span>(<span class="hljs-params"></span>)</span> {
+&nbsp;&nbsp;<span class="hljs-keyword">return</span> (
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">nav</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow"</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"navbar-brand col-sm-3 col-md-2 mr-0"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>ToDo<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"navbar-nav px-3"</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"nav-item text-nowrap d-none d-sm-none d-sm-block"</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">small</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"nav-link"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"account"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">small</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">nav</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"container-fluid"</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"row"</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">main</span> <span class="hljs-attr">role</span>=<span class="hljs-string">"main"</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"col-lg-12 d-flex justify-content-center"</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{ this.state.loading
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;? <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"loader"</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"text-center"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"text-center"</span>&gt;</span>Loading...<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <span class="hljs-tag">&lt;<span class="hljs-name">TodoList</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">tasks</span>=<span class="hljs-string">{this.state.tasks}</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">createTask</span>=<span class="hljs-string">{this.createTask}</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">toggleCompleted</span>=<span class="hljs-string">{this.toggleCompleted}</span> /&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">main</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+&nbsp;&nbsp;);
+}</pre>
+  </section>
+  
+  <section data-depth="1" id="sect-00008"><h3 data-type="title" class="eng hidden">Adding Web3 to the React App</h3><h3 data-type="title" class="vn visible">Thêm Web3 vào ứng dụng React</h3>
+  <p id="para-00027" class="eng hidden">The next step is to add Web3 and configure it to connect to Ganache. To do this, open ethreact/src/App.js, import the Web3 package, and add the code shown here. In this code, a web3 connection is instantiated providing the Ganache URL (<a href="http://localhost:8545" aria-label="Go to http://localhost:8545" data-bare-link="true">http://localhost:8545</a>). This enables the React app to connect to the blockchain. The blockchain account information is then accessed and added to the React app’s state object. In the ethreact/src/ directory, create the file getWeb3.js and add the code shown. This code creates a Web3 object via different connection approaches depending on the approach used (e.g., type of DApp browser, using localhost).</p><p id="para-00027-vn" class="vn visible">Bước tiếp theo là thêm Web3 và cấu hình nó để kết nối với Ganache. Để làm điều này, hãy mở ethreact/src/App.js, nhập gói Web3 và thêm mã được hiển thị ở đây. Trong mã này, một kết nối web3 được khởi tạo cung cấp URL Ganache (<a href="http://localhost:8545" aria-label="Go to http://localhost:8545" data-bare-link="true">http://localhost:8545</a>). Điều này cho phép ứng dụng React kết nối với blockchain. Thông tin tài khoản blockchain sau đó được truy cập và thêm vào đối tượng trạng thái của ứng dụng React. Trong thư mục ethreact/src/, tạo tệp getWeb3.js và thêm mã được hiển thị. Mã này tạo ra một đối tượng Web3 thông qua các phương pháp kết nối khác nhau tùy thuộc vào phương pháp được sử dụng (ví dụ: loại trình duyệt DApp, sử dụng localhost).</p>
+  <pre data-type="code" class="javascript" data-lang="javascript"><span class="hljs-keyword">import</span> Web3 <span class="hljs-keyword">from</span> <span class="hljs-string">"web3"</span>;
+
+<span class="hljs-keyword">const</span> getWeb3 = <span class="hljs-function">() =&gt;</span>
+&nbsp;&nbsp;<span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve, reject</span>) =&gt;</span> {
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment">// Wait for loading completion to avoid race conditions with web3 injection timing.</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-built_in">window</span>.addEventListener(<span class="hljs-string">"load"</span>, <span class="hljs-keyword">async</span> () =&gt; {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment">// Modern dapp browsers...</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">if</span> (<span class="hljs-built_in">window</span>.ethereum) {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">const</span> web3 = <span class="hljs-keyword">new</span> Web3(<span class="hljs-built_in">window</span>.ethereum);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">try</span> {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment">// Request account access if needed</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">await</span> <span class="hljs-built_in">window</span>.ethereum.enable();
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment">// Accounts now exposed</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;resolve(web3);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} <span class="hljs-keyword">catch</span> (error) {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reject(error);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment">// Legacy dapp browsers...</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (<span class="hljs-built_in">window</span>.web3) {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment">// Use Mist/MetaMask's provider.</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment">//const web3 = window.web3; // ORIG</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">const</span> web3 = <span class="hljs-built_in">window</span>.web3.currentProvider.enable()
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-built_in">console</span>.log(<span class="hljs-string">"Injected web3 detected."</span>);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;resolve(web3);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment">// Fallback to localhost; use dev console port by default...</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">else</span> {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">const</span> provider = <span class="hljs-keyword">new</span> Web3.providers.HttpProvider(
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"<a href="http://127.0.0.1:8545" aria-label="Go to http://127.0.0.1:8545" data-bare-link="true">http://127.0.0.1:8545</a>"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">const</span> web3 = <span class="hljs-keyword">new</span> Web3(provider);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-built_in">console</span>.log(<span class="hljs-string">"No web3 instance injected, using Local web3."</span>);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;resolve(web3);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;});
+&nbsp;&nbsp;});
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> getWeb3;</pre>
+  </section>
+  
+  <section data-depth="1" id="sect-00009"><h3 data-type="title" class="eng hidden">Configuring the <span data-type="term" class="no-emphasis" id="term-00010" group-by="R">React</span> App to Communicate with the Smart Contract</h3><h3 data-type="title" class="vn visible">Cấu hình ứng dụng <span data-type="term" class="no-emphasis" id="term-00010" group-by="R">React</span> để giao tiếp với hợp đồng thông minh</h3>
+  <p id="para-00028" class="eng hidden">To make the tasks from the smart contract available to the React app, create a config file, along with the contract address and ABI. To do this, in the ethreact/src/ directory, create the file config.js. Then, create two variables: TODO_LIST_ADDRESS and TODO_LIST_ABI. Grab the contract address that was provided when the smart contract was deployed to the blockchain and assign it to TODO_LIST_ADDRESS. Open the ethreact/build/contracts/TodoList.json file and copy the ABI portion only and assign it to TODO_LIST_ABI.</p><p id="para-00028-vn" class="vn visible">Để làm cho các tác vụ từ hợp đồng thông minh có sẵn cho ứng dụng React, hãy tạo một tệp cấu hình, cùng với địa chỉ hợp đồng và ABI. Để thực hiện điều này, trong thư mục ethreact/src/, hãy tạo tệp config.js. Sau đó, tạo hai biến: TODO_LIST_ADDRESS và TODO_LIST_ABI. Lấy địa chỉ hợp đồng đã được cung cấp khi hợp đồng thông minh được triển khai lên blockchain và gán nó cho TODO_LIST_ADDRESS. Mở tệp ethreact/build/contracts/TodoList.json và chỉ sao chép phần ABI và gán nó cho TODO_LIST_ABI.</p>
+  <pre data-type="code" class="javascript" data-lang="javascript"><span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> TODO_LIST_ADDRESS = <span class="hljs-string">'0x9A93A9951c1cAcF0Cecc320Fa6aD4e05d55a2d02'</span>
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> TODO_LIST_ABI = [
+&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"inputs"</span>: [],
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"payable"</span>: <span class="hljs-literal">false</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"stateMutability"</span>: <span class="hljs-string">"nonpayable"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"type"</span>: <span class="hljs-string">"constructor"</span>
+&nbsp;&nbsp;},
+&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"anonymous"</span>: <span class="hljs-literal">false</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"inputs"</span>: [
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"indexed"</span>: <span class="hljs-literal">false</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"internalType"</span>: <span class="hljs-string">"uint256"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"name"</span>: <span class="hljs-string">"id"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"type"</span>: <span class="hljs-string">"uint256"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"indexed"</span>: <span class="hljs-literal">false</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"internalType"</span>: <span class="hljs-string">"bool"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"name"</span>: <span class="hljs-string">"completed"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"type"</span>: <span class="hljs-string">"bool"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;],
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"name"</span>: <span class="hljs-string">"TaskCompleted"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"type"</span>: <span class="hljs-string">"event"</span>
+&nbsp;&nbsp;},
+&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"anonymous"</span>: <span class="hljs-literal">false</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"inputs"</span>: [
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"indexed"</span>: <span class="hljs-literal">false</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"internalType"</span>: <span class="hljs-string">"uint256"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"name"</span>: <span class="hljs-string">"id"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"type"</span>: <span class="hljs-string">"uint256"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"indexed"</span>: <span class="hljs-literal">false</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"internalType"</span>: <span class="hljs-string">"string"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"name"</span>: <span class="hljs-string">"content"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"type"</span>: <span class="hljs-string">"string"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"indexed"</span>: <span class="hljs-literal">false</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"internalType"</span>: <span class="hljs-string">"bool"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"name"</span>: <span class="hljs-string">"completed"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"type"</span>: <span class="hljs-string">"bool"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;],
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"name"</span>: <span class="hljs-string">"TaskCreated"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"type"</span>: <span class="hljs-string">"event"</span>
+&nbsp;&nbsp;},
+&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"constant"</span>: <span class="hljs-literal">true</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"inputs"</span>: [],
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"name"</span>: <span class="hljs-string">"taskCount"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"outputs"</span>: [
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"internalType"</span>: <span class="hljs-string">"uint256"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"name"</span>: <span class="hljs-string">""</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"type"</span>: <span class="hljs-string">"uint256"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;],
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"payable"</span>: <span class="hljs-literal">false</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"stateMutability"</span>: <span class="hljs-string">"view"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"type"</span>: <span class="hljs-string">"function"</span>
+&nbsp;&nbsp;},
+&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"constant"</span>: <span class="hljs-literal">true</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"inputs"</span>: [
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"internalType"</span>: <span class="hljs-string">"uint256"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"name"</span>: <span class="hljs-string">""</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"type"</span>: <span class="hljs-string">"uint256"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;],
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"name"</span>: <span class="hljs-string">"tasks"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"outputs"</span>: [
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"internalType"</span>: <span class="hljs-string">"uint256"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"name"</span>: <span class="hljs-string">"id"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"type"</span>: <span class="hljs-string">"uint256"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"internalType"</span>: <span class="hljs-string">"string"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"name"</span>: <span class="hljs-string">"content"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"type"</span>: <span class="hljs-string">"string"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"internalType"</span>: <span class="hljs-string">"bool"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"name"</span>: <span class="hljs-string">"completed"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"type"</span>: <span class="hljs-string">"bool"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;],
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"payable"</span>: <span class="hljs-literal">false</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"stateMutability"</span>: <span class="hljs-string">"view"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"type"</span>: <span class="hljs-string">"function"</span>
+&nbsp;&nbsp;},
+&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"constant"</span>: <span class="hljs-literal">false</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"inputs"</span>: [
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"internalType"</span>: <span class="hljs-string">"string"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"name"</span>: <span class="hljs-string">"_content"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"type"</span>: <span class="hljs-string">"string"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;],
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"name"</span>: <span class="hljs-string">"createTask"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"outputs"</span>: [],
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"payable"</span>: <span class="hljs-literal">false</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"stateMutability"</span>: <span class="hljs-string">"nonpayable"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"type"</span>: <span class="hljs-string">"function"</span>
+&nbsp;&nbsp;},
+&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"constant"</span>: <span class="hljs-literal">false</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"inputs"</span>: [
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"internalType"</span>: <span class="hljs-string">"uint256"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"name"</span>: <span class="hljs-string">"_id"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"type"</span>: <span class="hljs-string">"uint256"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;],
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"name"</span>: <span class="hljs-string">"toggleCompleted"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"outputs"</span>: [],
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"payable"</span>: <span class="hljs-literal">false</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"stateMutability"</span>: <span class="hljs-string">"nonpayable"</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"type"</span>: <span class="hljs-string">"function"</span>
+&nbsp;&nbsp;}
+]</pre>
+  <p id="para-00029" class="eng hidden">Next, update <code data-type="code" class="python inline-code" data-lang="python">ethreact/src/App.js</code>. Import getWeb3.js and add the following code to the <code data-type="code" class="python inline-code" data-lang="python">componentDidMount()</code> life cycle method. This will connect to the blockchain network and load the contract before the React components renders in the browser.</p><p id="para-00029-vn" class="vn visible">Tiếp theo, cập nhật <code data-type="code" class="python inline-code" data-lang="python">ethreact/src/App.js</code>. Nhập getWeb3.js và thêm đoạn mã sau vào phương thức vòng đời <code data-type="code" class="python inline-code" data-lang="python">componentDidMount()</code>. Điều này sẽ kết nối với mạng blockchain và tải hợp đồng trước khi các thành phần React được hiển thị trong trình duyệt.</p>
+  <pre data-type="code" class="javascript" data-lang="javascript">componentDidMount = <span class="hljs-keyword">async</span> () =&gt; {
+&nbsp;&nbsp;<span class="hljs-keyword">try</span> {
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment">// Get network provider and web3 instance.</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">const</span> web3 = <span class="hljs-keyword">await</span> getWeb3();
+
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment">// Use web3 to get the user's accounts.</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">const</span> accounts = <span class="hljs-keyword">await</span> web3.eth.getAccounts();
+
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment">// Get the contract instance.</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">const</span> networkId = <span class="hljs-keyword">await</span> web3.eth.net.getId();
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">let</span> deployedNetwork = TodoListABI.networks[networkId];
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">const</span> todoListInstance = <span class="hljs-keyword">new</span> web3.eth.Contract(
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TODO_LIST_ABI,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;deployedNetwork &amp;&amp; deployedNetwork.address
+&nbsp;&nbsp;&nbsp;&nbsp;);
+
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment">// Set web3, accounts, and contract to the state, and then proceed with an</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment">// example of interacting with the contract's methods.</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-built_in">this</span>.setState({ web3, accounts, <span class="hljs-attr">todoListContract</span>: todoListInstance }, <span class="hljs-built_in">this</span>.runExample);
+&nbsp;&nbsp;} <span class="hljs-keyword">catch</span> (error) {
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment">// Catch any errors for any of the above operations.</span>
+&nbsp;&nbsp;&nbsp;&nbsp;alert(
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">'Failed to load web3, accounts, or contract. Check console for details.'</span>,
+&nbsp;&nbsp;&nbsp;&nbsp;);
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-built_in">console</span>.error(error);
+&nbsp;&nbsp;}
+};</pre>
+  <p id="para-00030" class="eng hidden">Launch the React app by running the following command:</p><p id="para-00030-vn" class="vn visible">Khởi động ứng dụng React bằng cách chạy lệnh sau:</p>
+  <pre data-type="code" class="shell" data-lang="shell"><span class="hljs-meta">$</span><span class="bash">npm start</span></pre>
+  <p id="para-00031" class="eng hidden">Launch a browser with the MetaMask plug-in installed and navigate to <a href="http://localhost:3000" aria-label="Go to http://localhost:3000" data-bare-link="true">http://localhost:3000</a>. Create a task.</p><p id="para-00031-vn" class="vn visible">Khởi động một trình duyệt với plug-in MetaMask đã được cài đặt và điều hướng đến <a href="http://localhost:3000" aria-label="Go to http://localhost:3000" data-bare-link="true">http://localhost:3000</a>. Tạo một nhiệm vụ.</p>
+  </section>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </body></html>

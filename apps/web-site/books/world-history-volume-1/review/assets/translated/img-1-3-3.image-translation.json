@@ -1,0 +1,425 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-1-3-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/1-3-causation-and-interpretation-in-history.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "image-edit-leftover-source-english",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Mehmed II wanted to make a statement and",
+      "confidence": 95,
+      "bbox": {
+        "x": 110,
+        "y": 63,
+        "w": 880,
+        "h": 42
+      }
+    },
+    {
+      "text": "achieve what no other sultan had been able",
+      "confidence": 95,
+      "bbox": {
+        "x": 110,
+        "y": 147,
+        "w": 880,
+        "h": 42
+      }
+    },
+    {
+      "text": "to achieve.",
+      "confidence": 95,
+      "bbox": {
+        "x": 110,
+        "y": 231,
+        "w": 880,
+        "h": 42
+      }
+    },
+    {
+      "text": "Constantinople was a great prize.",
+      "confidence": 95,
+      "bbox": {
+        "x": 110,
+        "y": 315,
+        "w": 880,
+        "h": 42
+      }
+    },
+    {
+      "text": "Not just any city, it lay at the heart of",
+      "confidence": 95,
+      "bbox": {
+        "x": 110,
+        "y": 399,
+        "w": 880,
+        "h": 42
+      }
+    },
+    {
+      "text": "East/West trade. Its conquest would",
+      "confidence": 95,
+      "bbox": {
+        "x": 110,
+        "y": 483,
+        "w": 880,
+        "h": 42
+      }
+    },
+    {
+      "text": "send a clear message.",
+      "confidence": 95,
+      "bbox": {
+        "x": 110,
+        "y": 567,
+        "w": 880,
+        "h": 42
+      }
+    },
+    {
+      "text": "The Ottoman Empire had",
+      "confidence": 95,
+      "bbox": {
+        "x": 110,
+        "y": 651,
+        "w": 880,
+        "h": 42
+      }
+    },
+    {
+      "text": "been expanding since its",
+      "confidence": 95,
+      "bbox": {
+        "x": 110,
+        "y": 735,
+        "w": 880,
+        "h": 42
+      }
+    },
+    {
+      "text": "founding. Conquest served",
+      "confidence": 95,
+      "bbox": {
+        "x": 110,
+        "y": 819,
+        "w": 880,
+        "h": 42
+      }
+    },
+    {
+      "text": "to bring new wealth and",
+      "confidence": 95,
+      "bbox": {
+        "x": 110,
+        "y": 903,
+        "w": 880,
+        "h": 42
+      }
+    },
+    {
+      "text": "new people into the empire.",
+      "confidence": 95,
+      "bbox": {
+        "x": 110,
+        "y": 987,
+        "w": 880,
+        "h": 42
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Mehmed II wanted to make a statement and",
+      "normalizedSource": "Mehmed II wanted to make a statement and",
+      "target": "Mehmed II muốn tạo ra một tuyên bố và",
+      "bbox": {
+        "x": 110,
+        "y": 63,
+        "w": 880,
+        "h": 42
+      },
+      "overflow": false
+    },
+    {
+      "source": "achieve what no other sultan had been able",
+      "normalizedSource": "achieve what no other sultan had been able",
+      "target": "đạt được điều mà không vị sultan nào có thể",
+      "bbox": {
+        "x": 110,
+        "y": 147,
+        "w": 880,
+        "h": 42
+      },
+      "overflow": false
+    },
+    {
+      "source": "to achieve.",
+      "normalizedSource": "to achieve.",
+      "target": "đạt được.",
+      "bbox": {
+        "x": 110,
+        "y": 231,
+        "w": 880,
+        "h": 42
+      },
+      "overflow": false
+    },
+    {
+      "source": "Constantinople was a great prize.",
+      "normalizedSource": "Constantinople was a great prize.",
+      "target": "Constantinople là một phần thưởng lớn.",
+      "bbox": {
+        "x": 110,
+        "y": 315,
+        "w": 880,
+        "h": 42
+      },
+      "overflow": false
+    },
+    {
+      "source": "Not just any city, it lay at the heart of",
+      "normalizedSource": "Not just any city, it lay at the heart of",
+      "target": "Không chỉ là một thành phố bình thường, nó nằm ở trung tâm của",
+      "bbox": {
+        "x": 110,
+        "y": 399,
+        "w": 880,
+        "h": 42
+      },
+      "overflow": false
+    },
+    {
+      "source": "East/West trade. Its conquest would",
+      "normalizedSource": "East/West trade. Its conquest would",
+      "target": "thương mại Đông/Tây. Việc chinh phục nó sẽ",
+      "bbox": {
+        "x": 110,
+        "y": 483,
+        "w": 880,
+        "h": 42
+      },
+      "overflow": false
+    },
+    {
+      "source": "send a clear message.",
+      "normalizedSource": "send a clear message.",
+      "target": "gửi đi một thông điệp rõ ràng.",
+      "bbox": {
+        "x": 110,
+        "y": 567,
+        "w": 880,
+        "h": 42
+      },
+      "overflow": false
+    },
+    {
+      "source": "The Ottoman Empire had",
+      "normalizedSource": "The Ottoman Empire had",
+      "target": "Đế chế Ottoman đã",
+      "bbox": {
+        "x": 110,
+        "y": 651,
+        "w": 880,
+        "h": 42
+      },
+      "overflow": false
+    },
+    {
+      "source": "been expanding since its",
+      "normalizedSource": "been expanding since its",
+      "target": "mở rộng kể từ khi",
+      "bbox": {
+        "x": 110,
+        "y": 735,
+        "w": 880,
+        "h": 42
+      },
+      "overflow": false
+    },
+    {
+      "source": "founding. Conquest served",
+      "normalizedSource": "founding. Conquest served",
+      "target": "thành lập. Việc chinh phục phục vụ",
+      "bbox": {
+        "x": 110,
+        "y": 819,
+        "w": 880,
+        "h": 42
+      },
+      "overflow": false
+    },
+    {
+      "source": "to bring new wealth and",
+      "normalizedSource": "to bring new wealth and",
+      "target": "để mang lại sự giàu có mới và",
+      "bbox": {
+        "x": 110,
+        "y": 903,
+        "w": 880,
+        "h": 42
+      },
+      "overflow": false
+    },
+    {
+      "source": "new people into the empire.",
+      "normalizedSource": "new people into the empire.",
+      "target": "những người mới vào đế chế.",
+      "bbox": {
+        "x": 110,
+        "y": 987,
+        "w": 880,
+        "h": 42
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: This is a triangle shaped chart consisting of three sections. The top of the triangle is labeled “Primary” and says “Mehmed II wanted to make a statement and achieve what no other sultan had been able to achieve.” The middle of chart is labeled “Secondary” and says “Constantinople was a great prize. Not just any city, it lay at the heart of East/West trade. Its conquest would send a clear message.” The bottom of the chart is labeled “Tertiary” and says “The Ottoman Empire had been expanding since its founding. Conquest served to bring new wealth and new people into the empire.”\nButton label: Click to enlarge image of This is a triangle shaped chart consisting of three sections. The top of the triangle is labeled “Primary” and says “Mehmed II wanted to make a statement and achieve what no other sultan had been able to achieve.” The middle of chart is labeled “Secondary” and says “Constantinople was a great prize. Not just any city, it lay at the heart of East/West trade. Its conquest would send a clear message.” The bottom of the chart is labeled “Tertiary” and says “The Ottoman Empire had been expanding since its founding. Conquest served to bring new wealth and new people into the empire.”\nEnglish caption: Figure 1.13 Causation Applied to the Conquest of Constantinople. This causation chart ranks the reasons for Mehmed II’s 1453 Ottoman conquest of Constantinople. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.7709369024856596,
+    "averageConfidence": 95,
+    "entropy": 2.828752715126029,
+    "sharpness": 6.6233199163079854
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: This is a triangle shaped chart consisting of three sections. The top of the triangle is labeled “Primary” and says “Mehmed II wanted to make a statement and achieve what no other sultan had been able to achieve.” The middle of chart is labeled “Secondary” and says “Constantinople was a great prize. Not just any city, it lay at the heart of East/West trade. Its conquest would send a clear message.” The bottom of the chart is labeled “Tertiary” and says “The Ottoman Empire had been expanding since its founding. Conquest served to bring new wealth and new people into the empire.”\nButton label: Click to enlarge image of This is a triangle shaped chart consisting of three sections. The top of the triangle is labeled “Primary” and says “Mehmed II wanted to make a statement and achieve what no other sultan had been able to achieve.” The middle of chart is labeled “Secondary” and says “Constantinople was a great prize. Not just any city, it lay at the heart of East/West trade. Its conquest would send a clear message.” The bottom of the chart is labeled “Tertiary” and says “The Ottoman Empire had been expanding since its founding. Conquest served to bring new wealth and new people into the empire.”\nEnglish caption: Figure 1.13 Causation Applied to the Conquest of Constantinople. This causation chart ranks the reasons for Mehmed II’s 1453 Ottoman conquest of Constantinople. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Mehmed II wanted to make a statement and => Mehmed II muốn tạo ra một tuyên bố và\n- achieve what no other sultan had been able => đạt được điều mà không vị sultan nào có thể\n- to achieve. => đạt được.\n- Constantinople was a great prize. => Constantinople là một phần thưởng lớn.\n- Not just any city, it lay at the heart of => Không chỉ là một thành phố bình thường, nó nằm ở trung tâm của\n- East/West trade. Its conquest would => thương mại Đông/Tây. Việc chinh phục nó sẽ\n- send a clear message. => gửi đi một thông điệp rõ ràng.\n- The Ottoman Empire had => Đế chế Ottoman đã\n- been expanding since its => mở rộng kể từ khi\n- founding. Conquest served => thành lập. Việc chinh phục phục vụ\n- to bring new wealth and => để mang lại sự giàu có mới và\n- new people into the empire. => những người mới vào đế chế.\nPrevious output was rejected because these English source words were still visible: mehmed, sultan, constantinople, ottoman. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Mehmed II mudn tao ra mot tuyén bd va",
+        "confidence": 76,
+        "bbox": {
+          "x": 182,
+          "y": 104,
+          "w": 1454,
+          "h": 69
+        }
+      },
+      {
+        "text": "dat dugc diéu ma khong vi sultan nao cd thé",
+        "confidence": 76,
+        "bbox": {
+          "x": 182,
+          "y": 243,
+          "w": 1454,
+          "h": 69
+        }
+      },
+      {
+        "text": "dat dugc.",
+        "confidence": 76,
+        "bbox": {
+          "x": 182,
+          "y": 382,
+          "w": 1454,
+          "h": 69
+        }
+      },
+      {
+        "text": "Constantinople la mdt phan thuéng l6n.",
+        "confidence": 76,
+        "bbox": {
+          "x": 182,
+          "y": 521,
+          "w": 1454,
+          "h": 69
+        }
+      },
+      {
+        "text": "Khéng chi la mot thanh phd binh thusng, n6",
+        "confidence": 76,
+        "bbox": {
+          "x": 182,
+          "y": 660,
+          "w": 1454,
+          "h": 69
+        }
+      },
+      {
+        "text": "nam & trung tdm cla thuong mai Dong/ Tay.",
+        "confidence": 76,
+        "bbox": {
+          "x": 182,
+          "y": 799,
+          "w": 1454,
+          "h": 69
+        }
+      },
+      {
+        "text": "Viéc chinh phuc n6 sé gti di mot thong diép",
+        "confidence": 76,
+        "bbox": {
+          "x": 182,
+          "y": 938,
+          "w": 1454,
+          "h": 69
+        }
+      },
+      {
+        "text": "rd rang.",
+        "confidence": 76,
+        "bbox": {
+          "x": 182,
+          "y": 1077,
+          "w": 1454,
+          "h": 69
+        }
+      },
+      {
+        "text": "Dé ché Ottoman da ma rong ké tir khi",
+        "confidence": 76,
+        "bbox": {
+          "x": 182,
+          "y": 1216,
+          "w": 1454,
+          "h": 69
+        }
+      },
+      {
+        "text": "thanh ap. Viéc chinh phuc phuc vu",
+        "confidence": 76,
+        "bbox": {
+          "x": 182,
+          "y": 1355,
+          "w": 1454,
+          "h": 69
+        }
+      },
+      {
+        "text": "dé mang lai su giau c6 mdi va",
+        "confidence": 76,
+        "bbox": {
+          "x": 182,
+          "y": 1494,
+          "w": 1454,
+          "h": 69
+        }
+      },
+      {
+        "text": "nhiing ngudi mai vao dé ché.",
+        "confidence": 76,
+        "bbox": {
+          "x": 182,
+          "y": 1633,
+          "w": 1454,
+          "h": 69
+        }
+      }
+    ],
+    "validation": {
+      "ok": false,
+      "reason": "image-edit-leftover-source-english",
+      "leftoverSourceWords": [
+        "mehmed",
+        "sultan",
+        "constantinople",
+        "ottoman"
+      ]
+    },
+    "validationAttempt": 3
+  }
+}

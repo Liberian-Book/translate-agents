@@ -1,0 +1,43 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-11-4-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/11-4-political-ideologies.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "he Y.&",
+      "confidence": 42,
+      "bbox": {
+        "x": 63,
+        "y": 96,
+        "w": 506,
+        "h": 64
+      }
+    },
+    {
+      "text": "i Pd PR",
+      "confidence": 42,
+      "bbox": {
+        "x": 63,
+        "y": 224,
+        "w": 506,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.12789889415481834,
+    "averageConfidence": 42,
+    "entropy": 7.069986859336495,
+    "sharpness": 2.5101766533713916
+  }
+}

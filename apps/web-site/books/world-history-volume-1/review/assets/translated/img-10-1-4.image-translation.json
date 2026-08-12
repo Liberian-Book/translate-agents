@@ -1,0 +1,34 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-10-1-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/10-1-the-eastward-shift.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "iE",
+      "confidence": 9,
+      "bbox": {
+        "x": 105,
+        "y": 83,
+        "w": 840,
+        "h": 56
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: Image a shows a picture of broken pieces of a statue are shown in a row. At the left a piece of a bicep and elbow lean against a pale orange wall with veins shown running in the arm. Next to that is a stone pedestal with a stone neck and face. The chin has a cleft in it and the nose is large. The statue’s eyes are round and look up and there is a crown around the head. A small square is cut out on the statue’s left temple. Next to the head a piece of a knee lies on the ground with a tablet hanging on the wall above it. The rectangle tablet has carvings at the top, a blank space underneath, and faded words carved in the bottom half. To the right on a short pedestal is a statue of a right hand with the pointer finger and thumb pointed up, while the other three fingers point down. The nails are short and there are some cracks in the hand. The wall behind the statue pieces is orange and faded and has water stains all over. The left portion shows an adjoining wall that appears to be stone with some carving at the top. Image b shows a picture of a tall, round, stone column is shown. The column is made up of cylindrical portions with lines running vertically until the last portion on top, where the lines turn horizonal. A small square stone sits at the top. The pedestal is made up of rectangular bricks. Rubble is seen at the bottom and to the left are some wooden looking square objects. A building is in the background on the right with a half circle dome on top, topped with a small round structure with another circular dome. The background shows yellow sky and some trees.\nButton label: Click to enlarge image of Image a shows a picture of broken pieces of a statue are shown in a row. At the left a piece of a bicep and elbow lean against a pale orange wall with veins shown running in the arm. Next to that is a stone pedestal with a stone neck and face. The chin has a cleft in it and the nose is large. The statue’s eyes are round and look up and there is a crown around the head. A small square is cut out on the statue’s left temple. Next to the head a piece of a knee lies on the ground with a tablet hanging on the wall above it. The rectangle tablet has carvings at the top, a blank space underneath, and faded words carved in the bottom half. To the right on a short pedestal is a statue of a right hand with the pointer finger and thumb pointed up, while the other three fingers point down. The nails are short and there are some cracks in the hand. The wall behind the statue pieces is orange and faded and has water stains all over. The left portion shows an adjoining wall that appears to be stone with some carving at the top. Image b shows a picture of a tall, round, stone column is shown. The column is made up of cylindrical portions with lines running vertically until the last portion on top, where the lines turn horizonal. A small square stone sits at the top. The pedestal is made up of rectangular bricks. Rubble is seen at the bottom and to the left are some wooden looking square objects. A building is in the background on the right with a half circle dome on top, topped with a small round structure with another circular dome. The background shows yellow sky and some trees.\nEnglish caption: Figure 10.7 The Colossus of Constantine and The Column of Constantine. (a) The remaining pieces of the enormous statue of Constantine are on view in the Capitoline Museum in Rome. (b) Although the enormous statue of Constantine that once topped this column was destroyed in a fall centuries ago, the two together probably surpassed 160 feet in height. (credit a: modification of work “Fragments of the fourth-century colossal acrolithic statue of the Emperor Constantine” by Michael Squire/Wikimedia Commons, CC BY 4.0; credit b: modification of work “Image from page 276” by A History of All Nations from the Earliest Times; Being a Universal Historical Library by John Henry Wright/Flickr, Public Domain)",
+  "metrics": {
+    "textDensity": 0.06455331412103746,
+    "averageConfidence": 9,
+    "entropy": 6.724358440376818,
+    "sharpness": 4.61135338104172
+  }
+}

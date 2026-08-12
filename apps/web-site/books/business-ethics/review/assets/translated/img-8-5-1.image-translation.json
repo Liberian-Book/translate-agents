@@ -1,0 +1,23 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-8-5-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/8-5-animal-rights-and-the-implications-for-business.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-ocr-text"
+  },
+  "reason": "low-text-density",
+  "outputImage": null,
+  "ocr": [],
+  "translations": [],
+  "imageContext": "Image alt: This graphic shows five circles arranged in a circle, with a line connecting them to one another. From the top circle clockwise they are: “Responsible use of natural resources,” “Informed choices by consumers,” “Safe food production,” “Responsible animal husbandry,” and “Recognition of social welfare issues.”\nButton label: Click to enlarge image of This graphic shows five circles arranged in a circle, with a line connecting them to one another. From the top circle clockwise they are: “Responsible use of natural resources,” “Informed choices by consumers,” “Safe food production,” “Responsible animal husbandry,” and “Recognition of social welfare issues.”\nEnglish caption: Figure 8.11 Each of the ethical considerations relating to agribusiness is interdependent with the others. For example, safe food production is a responsible use of natural resources, and consumers want to make informed choices based on responsible animal husbandry. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0,
+    "averageConfidence": 0,
+    "entropy": 2.13163703450482,
+    "sharpness": 3.130292816630702
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-11-2-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/11-2-forms-of-government.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Rew Tan",
+      "confidence": 23,
+      "bbox": {
+        "x": 49,
+        "y": 84,
+        "w": 392,
+        "h": 56
+      }
+    },
+    {
+      "text": "NF Ta",
+      "confidence": 23,
+      "bbox": {
+        "x": 49,
+        "y": 196,
+        "w": 392,
+        "h": 56
+      }
+    },
+    {
+      "text": "yee 9",
+      "confidence": 23,
+      "bbox": {
+        "x": 49,
+        "y": 308,
+        "w": 392,
+        "h": 56
+      }
+    },
+    {
+      "text": "i: To PPC",
+      "confidence": 23,
+      "bbox": {
+        "x": 49,
+        "y": 420,
+        "w": 392,
+        "h": 56
+      }
+    },
+    {
+      "text": "‘ YOR",
+      "confidence": 23,
+      "bbox": {
+        "x": 49,
+        "y": 532,
+        "w": 392,
+        "h": 56
+      }
+    },
+    {
+      "text": "P ey je",
+      "confidence": 23,
+      "bbox": {
+        "x": 49,
+        "y": 644,
+        "w": 392,
+        "h": 56
+      }
+    },
+    {
+      "text": "= Ey",
+      "confidence": 23,
+      "bbox": {
+        "x": 49,
+        "y": 756,
+        "w": 392,
+        "h": 56
+      }
+    },
+    {
+      "text": "Th hb)",
+      "confidence": 23,
+      "bbox": {
+        "x": 49,
+        "y": 868,
+        "w": 392,
+        "h": 56
+      }
+    },
+    {
+      "text": "Sr : Fs",
+      "confidence": 23,
+      "bbox": {
+        "x": 49,
+        "y": 980,
+        "w": 392,
+        "h": 56
+      }
+    },
+    {
+      "text": "bi [oa",
+      "confidence": 23,
+      "bbox": {
+        "x": 49,
+        "y": 1092,
+        "w": 392,
+        "h": 56
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.64,
+    "averageConfidence": 23,
+    "entropy": 7.207795994756452,
+    "sharpness": 1.0823487363755584
+  }
+}

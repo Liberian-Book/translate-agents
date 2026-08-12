@@ -1,0 +1,244 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-6-2-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/6-2-self-and-identity.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/translated/img-6-2-2.vi.png",
+  "ocr": [
+    {
+      "text": "I KENTON 800K - Lig : >",
+      "confidence": 60,
+      "bbox": {
+        "x": 48,
+        "y": 96,
+        "w": 382,
+        "h": 64
+      }
+    },
+    {
+      "text": "| THE WISDOM OF THE HINDU MYSTICS",
+      "confidence": 60,
+      "bbox": {
+        "x": 48,
+        "y": 224,
+        "w": 382,
+        "h": 64
+      }
+    },
+    {
+      "text": "| BREATH\" OF THE ETERNAL",
+      "confidence": 60,
+      "bbox": {
+        "x": 48,
+        "y": 352,
+        "w": 382,
+        "h": 64
+      }
+    },
+    {
+      "text": "The Principal Texts Selected and",
+      "confidence": 60,
+      "bbox": {
+        "x": 48,
+        "y": 480,
+        "w": 382,
+        "h": 64
+      }
+    },
+    {
+      "text": "Translated from the Original",
+      "confidence": 60,
+      "bbox": {
+        "x": 48,
+        "y": 608,
+        "w": 382,
+        "h": 64
+      }
+    },
+    {
+      "text": "and Frederick Manchester",
+      "confidence": 60,
+      "bbox": {
+        "x": 48,
+        "y": 736,
+        "w": 382,
+        "h": 64
+      }
+    },
+    {
+      "text": "| SL CIR",
+      "confidence": 60,
+      "bbox": {
+        "x": 48,
+        "y": 864,
+        "w": 382,
+        "h": 64
+      }
+    },
+    {
+      "text": "= . A% FE",
+      "confidence": 60,
+      "bbox": {
+        "x": 48,
+        "y": 992,
+        "w": 382,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "I KENTON 800K - Lig : >",
+      "normalizedSource": "I KENTON 800K - Lig : >",
+      "target": "I KENTON 800K - Lig : >",
+      "bbox": {
+        "x": 48,
+        "y": 96,
+        "w": 382,
+        "h": 64
+      },
+      "overflow": false
+    },
+    {
+      "source": "| THE WISDOM OF THE HINDU MYSTICS",
+      "normalizedSource": "| THE WISDOM OF THE HINDU MYSTICS",
+      "target": "| TRÍ TUỆ CỦA CÁC MYSTIC ẤN ĐỘ",
+      "bbox": {
+        "x": 48,
+        "y": 224,
+        "w": 382,
+        "h": 64
+      },
+      "overflow": false
+    },
+    {
+      "source": "| BREATH\" OF THE ETERNAL",
+      "normalizedSource": "| BREATH\" OF THE ETERNAL",
+      "target": "| HƠI THỞ CỦA VĨNH CỬU",
+      "bbox": {
+        "x": 48,
+        "y": 352,
+        "w": 382,
+        "h": 64
+      },
+      "overflow": false
+    },
+    {
+      "source": "The Principal Texts Selected and",
+      "normalizedSource": "The Principal Texts Selected and",
+      "target": "Các văn bản chính được chọn và",
+      "bbox": {
+        "x": 48,
+        "y": 480,
+        "w": 382,
+        "h": 64
+      },
+      "overflow": false
+    },
+    {
+      "source": "Translated from the Original",
+      "normalizedSource": "Translated from the Original",
+      "target": "Dịch từ bản gốc",
+      "bbox": {
+        "x": 48,
+        "y": 608,
+        "w": 382,
+        "h": 64
+      },
+      "overflow": false
+    },
+    {
+      "source": "and Frederick Manchester",
+      "normalizedSource": "and Frederick Manchester",
+      "target": "và Frederick Manchester",
+      "bbox": {
+        "x": 48,
+        "y": 736,
+        "w": 382,
+        "h": 64
+      },
+      "overflow": false
+    },
+    {
+      "source": "| SL CIR",
+      "normalizedSource": "| SL CIR",
+      "target": "| SL CIR",
+      "bbox": {
+        "x": 48,
+        "y": 864,
+        "w": 382,
+        "h": 64
+      },
+      "overflow": false
+    },
+    {
+      "source": "= . A% FE",
+      "normalizedSource": "= . A% FE",
+      "target": "= . A% FE",
+      "bbox": {
+        "x": 48,
+        "y": 992,
+        "w": 382,
+        "h": 64
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.5125366876310272,
+    "averageConfidence": 60,
+    "entropy": 6.66852794746228,
+    "sharpness": 2.4257441785955893
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- I KENTON 800K - Lig : > => I KENTON 800K - Lig : >\n- | THE WISDOM OF THE HINDU MYSTICS => | TRÍ TUỆ CỦA CÁC MYSTIC ẤN ĐỘ\n- | BREATH\" OF THE ETERNAL => | HƠI THỞ CỦA VĨNH CỬU\n- The Principal Texts Selected and => Các văn bản chính được chọn và\n- Translated from the Original => Dịch từ bản gốc\n- and Frederick Manchester => và Frederick Manchester\n- | SL CIR => | SL CIR\n- = . A% FE => = . A% FE\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "| Re ~-",
+        "confidence": 39,
+        "bbox": {
+          "x": 97,
+          "y": 195,
+          "w": 774,
+          "h": 130
+        }
+      },
+      {
+        "text": "eh |",
+        "confidence": 39,
+        "bbox": {
+          "x": 97,
+          "y": 455,
+          "w": 774,
+          "h": 130
+        }
+      },
+      {
+        "text": ": SB i 4 ££ po 8",
+        "confidence": 39,
+        "bbox": {
+          "x": 97,
+          "y": 715,
+          "w": 774,
+          "h": 130
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-1-8.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-1-introduction-to-cloud-native-applications.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-12-1-8.vi.png",
+  "ocr": [
+    {
+      "text": "Service-Oriented Architecture 1 Microservices Architecture",
+      "confidence": 74,
+      "bbox": {
+        "x": 133,
+        "y": 100,
+        "w": 1064,
+        "h": 67
+      }
+    },
+    {
+      "text": "N— ON N————— ON ! LE NY |",
+      "confidence": 74,
+      "bbox": {
+        "x": 133,
+        "y": 233,
+        "w": 1064,
+        "h": 67
+      }
+    },
+    {
+      "text": ": User",
+      "confidence": 74,
+      "bbox": {
+        "x": 133,
+        "y": 366,
+        "w": 1064,
+        "h": 67
+      }
+    },
+    {
+      "text": "1 API gateway",
+      "confidence": 74,
+      "bbox": {
+        "x": 133,
+        "y": 499,
+        "w": 1064,
+        "h": 67
+      }
+    },
+    {
+      "text": "Enterprise service bus : ! }",
+      "confidence": 74,
+      "bbox": {
+        "x": 133,
+        "y": 632,
+        "w": 1064,
+        "h": 67
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Service-Oriented Architecture 1 Microservices Architecture",
+      "target": "Kiến trúc Hướng Dịch Vụ 1 Kiến trúc Microservices",
+      "bbox": {
+        "x": 133,
+        "y": 100,
+        "w": 1064,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "N— ON N————— ON ! LE NY |",
+      "target": "N— BẬT N————— BẬT ! LE NY |",
+      "bbox": {
+        "x": 133,
+        "y": 233,
+        "w": 1064,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": ": User",
+      "target": "Người dùng",
+      "bbox": {
+        "x": 133,
+        "y": 366,
+        "w": 1064,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "1 API gateway",
+      "target": "Cổng API",
+      "bbox": {
+        "x": 133,
+        "y": 499,
+        "w": 1064,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "Enterprise service bus : ! }",
+      "target": "Bus dịch vụ doanh nghiệp",
+      "bbox": {
+        "x": 133,
+        "y": 632,
+        "w": 1064,
+        "h": 67
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.32211538461538464,
+    "averageConfidence": 74
+  }
+}

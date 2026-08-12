@@ -1,0 +1,333 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-10-4-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/10-4-robotics-artificial-intelligence-and-the-workplace-of-the-future.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "translation-overflow",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Company's",
+      "confidence": 83,
+      "bbox": {
+        "x": 73,
+        "y": 87,
+        "w": 583,
+        "h": 58
+      }
+    },
+    {
+      "text": "core values",
+      "confidence": 83,
+      "bbox": {
+        "x": 73,
+        "y": 204,
+        "w": 583,
+        "h": 58
+      }
+    },
+    {
+      "text": "fe Issues to be",
+      "confidence": 83,
+      "bbox": {
+        "x": 73,
+        "y": 321,
+        "w": 583,
+        "h": 58
+      }
+    },
+    {
+      "text": "Re-training",
+      "confidence": 83,
+      "bbox": {
+        "x": 73,
+        "y": 438,
+        "w": 583,
+        "h": 58
+      }
+    },
+    {
+      "text": "considered when",
+      "confidence": 83,
+      "bbox": {
+        "x": 73,
+        "y": 555,
+        "w": 583,
+        "h": 58
+      }
+    },
+    {
+      "text": "gl expanding the use Cyb i",
+      "confidence": 83,
+      "bbox": {
+        "x": 73,
+        "y": 672,
+        "w": 583,
+        "h": 58
+      }
+    },
+    {
+      "text": "empowerment P gi ybersecurity",
+      "confidence": 83,
+      "bbox": {
+        "x": 73,
+        "y": 789,
+        "w": 583,
+        "h": 58
+      }
+    },
+    {
+      "text": "of artificial",
+      "confidence": 83,
+      "bbox": {
+        "x": 73,
+        "y": 906,
+        "w": 583,
+        "h": 58
+      }
+    },
+    {
+      "text": "of workers he .",
+      "confidence": 83,
+      "bbox": {
+        "x": 73,
+        "y": 1023,
+        "w": 583,
+        "h": 58
+      }
+    },
+    {
+      "text": "intelligence",
+      "confidence": 83,
+      "bbox": {
+        "x": 73,
+        "y": 1140,
+        "w": 583,
+        "h": 58
+      }
+    },
+    {
+      "text": "Pace and",
+      "confidence": 83,
+      "bbox": {
+        "x": 73,
+        "y": 1257,
+        "w": 583,
+        "h": 58
+      }
+    },
+    {
+      "text": "extent of the",
+      "confidence": 83,
+      "bbox": {
+        "x": 73,
+        "y": 1374,
+        "w": 583,
+        "h": 58
+      }
+    },
+    {
+      "text": "automation",
+      "confidence": 83,
+      "bbox": {
+        "x": 73,
+        "y": 1491,
+        "w": 583,
+        "h": 58
+      }
+    },
+    {
+      "text": "process",
+      "confidence": 83,
+      "bbox": {
+        "x": 73,
+        "y": 1608,
+        "w": 583,
+        "h": 58
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Company's",
+      "normalizedSource": "Company's",
+      "target": "Giá trị cốt lõi của công ty",
+      "bbox": {
+        "x": 73,
+        "y": 87,
+        "w": 583,
+        "h": 58
+      },
+      "overflow": true
+    },
+    {
+      "source": "core values",
+      "normalizedSource": "core values",
+      "target": "Các vấn đề cần xem xét khi",
+      "bbox": {
+        "x": 73,
+        "y": 204,
+        "w": 583,
+        "h": 58
+      },
+      "overflow": true
+    },
+    {
+      "source": "fe Issues to be",
+      "normalizedSource": "fe Issues to be",
+      "target": "Đào tạo lại",
+      "bbox": {
+        "x": 73,
+        "y": 321,
+        "w": 583,
+        "h": 58
+      },
+      "overflow": false
+    },
+    {
+      "source": "Re-training",
+      "normalizedSource": "Re-training",
+      "target": "mở rộng việc sử dụng",
+      "bbox": {
+        "x": 73,
+        "y": 438,
+        "w": 583,
+        "h": 58
+      },
+      "overflow": false
+    },
+    {
+      "source": "considered when",
+      "normalizedSource": "considered when",
+      "target": "sự trao quyền trong an ninh mạng",
+      "bbox": {
+        "x": 73,
+        "y": 555,
+        "w": 583,
+        "h": 58
+      },
+      "overflow": true
+    },
+    {
+      "source": "gl expanding the use Cyb i",
+      "normalizedSource": "gl expanding the use Cyb i",
+      "target": "của trí tuệ nhân tạo",
+      "bbox": {
+        "x": 73,
+        "y": 672,
+        "w": 583,
+        "h": 58
+      },
+      "overflow": false
+    },
+    {
+      "source": "empowerment P gi ybersecurity",
+      "normalizedSource": "empowerment P gi ybersecurity",
+      "target": "Tốc độ và",
+      "bbox": {
+        "x": 73,
+        "y": 789,
+        "w": 583,
+        "h": 58
+      },
+      "overflow": false
+    },
+    {
+      "source": "of artificial",
+      "normalizedSource": "of artificial",
+      "target": "mức độ tự động hóa",
+      "bbox": {
+        "x": 73,
+        "y": 906,
+        "w": 583,
+        "h": 58
+      },
+      "overflow": false
+    },
+    {
+      "source": "of workers he .",
+      "normalizedSource": "of workers he .",
+      "target": "quy trình",
+      "bbox": {
+        "x": 73,
+        "y": 1023,
+        "w": 583,
+        "h": 58
+      },
+      "overflow": false
+    },
+    {
+      "source": "intelligence",
+      "normalizedSource": "intelligence",
+      "target": "trí tuệ",
+      "bbox": {
+        "x": 73,
+        "y": 1140,
+        "w": 583,
+        "h": 58
+      },
+      "overflow": false
+    },
+    {
+      "source": "Pace and",
+      "normalizedSource": "Pace and",
+      "target": "Nhịp độ và",
+      "bbox": {
+        "x": 73,
+        "y": 1257,
+        "w": 583,
+        "h": 58
+      },
+      "overflow": false
+    },
+    {
+      "source": "extent of the",
+      "normalizedSource": "extent of the",
+      "target": "mức độ của",
+      "bbox": {
+        "x": 73,
+        "y": 1374,
+        "w": 583,
+        "h": 58
+      },
+      "overflow": false
+    },
+    {
+      "source": "automation",
+      "normalizedSource": "automation",
+      "target": "tự động hóa",
+      "bbox": {
+        "x": 73,
+        "y": 1491,
+        "w": 583,
+        "h": 58
+      },
+      "overflow": false
+    },
+    {
+      "source": "process",
+      "normalizedSource": "process",
+      "target": "quá trình",
+      "bbox": {
+        "x": 73,
+        "y": 1608,
+        "w": 583,
+        "h": 58
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: This graphic shows a large circle in the middle and then four smaller circles around the outside of it that slightly overlap. The center circle says “issues to be considered when expanding the use of artificial intelligence.” Starting from the top and going clockwise, the circles around the outside say “company’s core values,” “cybersecurity,” “pace and extend of the automation process,” and “retraining and empowerment of workers.”\nButton label: Click to enlarge image of This graphic shows a large circle in the middle and then four smaller circles around the outside of it that slightly overlap. The center circle says “issues to be considered when expanding the use of artificial intelligence.” Starting from the top and going clockwise, the circles around the outside say “company’s core values,” “cybersecurity,” “pace and extend of the automation process,” and “retraining and empowerment of workers.”\nEnglish caption: Figure 10.9 Managers should balance multiple variables as the workplace moves toward increased use of artificial intelligence, automation, and robotics. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.8907780920177405,
+    "averageConfidence": 83,
+    "entropy": 2.369493816368049,
+    "sharpness": 3.462621658778452
+  }
+}

@@ -1,0 +1,750 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-3-13.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-3-example-paas-and-faas-deployments-of-cloud-native-applications.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-12-3-13.vi.png",
+  "ocr": [
+    {
+      "text": "NAMESPACE NAME READY STATUS ~~ RESTARTS AGE",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 85,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "capa-system pod/capa-controller-manager-7dfd4798f5-wctbd 2/2 Running © 8mS1s",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 199,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "capi -kubeadm-bootstrap-system pod/ capi -kubeadm-bootstrap- control ler-manager-6494884869- rxmph 2/2 Running © 8ms8s",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 313,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "capi-kubeadm-control-plane-system pod/capi-kubeadm-control-plane-controller-manager-857d687b9d-dwksz 2/2 Running © 8mS6s",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 427,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "capi-system pod/capi-controller-manager-778bd4dfbo-46jtg 2/2 Running © 8m59s",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 541,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "ee hoo ayeren pod/capa-controller-manager-76f6f484c5-5vtdt 2/2 Running © 8mS3s",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 655,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "capi -webhook-system pod/ capi-controller-manager-9995bdcod-47khp 2/2 Running © om",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 769,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "capi -webhook-system pod/ capi -kubeadm-bootstrap- control ler-manager-68845b65F8- c6nm2 2/2 Running © 8mS8s",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 883,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "capi-webhook-system pod/capi-kubeadn-control-plane-controller-manager-9847c6747-vwgqf 2/2 Running © 8mS6s",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 997,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "cert-manager pod/cert-manager-77f6fb8fds-2fxxk 1/1 Running © om27s",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 1111,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "cert-manager pod/cert-manager-cainjector-6bd4cff7bb-ghl7n 1/1 Running © om27s",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 1225,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "cert-manager pod/ cert-manager-webhook-fbfcbodec-412r2 1/1 Running © om27s",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 1339,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "kube-system pod/coredns-657879bF57-6dknf 1/1 Running © omaes",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 1453,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "kube-system pod/coredns-657879bf57-6xvd4 1/1 Running © mes",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 1567,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "kube-system pod/etcd-tkg-kind-ch7d1qi41fgnsu7cfy3e-control-plane 1/1 Running © omS3s",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 1681,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "kube-system pod/kindnet-91jsn 1/1 Running © ELZYS",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 1795,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "kube-system pod/kube-apiserver-tkg-kind-ch7d1qi41fgnsu7cfy3e-control-plane 1/1 Running © omS3s",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 1909,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "kube-system pod/kube-controller-manager-tkg-kind-ch7d1qi41fgnsu7cfv3e-control-plane 1/1 Running © oms3s",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 2023,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "kube-system pod/kube-proxy-cfvhf 1/1 Running © oma7s",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 2137,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "kube-system pod/kube-scheduler-tkg-kind-ch7d1qi41fgnsu7cfy3e-control-plane 1/1 Running © 1em",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 2251,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "local-path-storage pod/local-path-provisioner-8b46957d4-2xwd2 1/1 Running © oma6s",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 2365,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "NAMESPACE NAME READY UP-TO-DATE AVAILABLE AGE",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 2479,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "capa-system deployment . apps/capa-controller-manager 1/1 1 1 8mS2s",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 2593,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "capi -kubeadm-bootstrap-system deployment . apps/ capi -kubeadm-bootstrap-controller-manager 1/1 1 1 BmS8s",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 2707,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "capi -kubeadm-control-plane-system deployment.apps/capi-kubeadm-control-plane-controller-manager 1/1 a 1 8mS6s",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 2821,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "capi-system deployment . apps/capi-controller-manager 1/1 a 1 8mS9s",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 2935,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "capi-webhook-system deployment. apps/capa-controller-manager 1/1 1 1 8ms3s",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 3049,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "capi -webhook-system deployment . apps/capi-controller-manager 1/1 1 1 om",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 3163,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "capi -webhook- system deployment . apps/capi -kubeadm-bootstrap-controller-manager 1/1 1 1 8mS8s.",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 3277,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "capi -webhook- system deployment . apps/ capi-kubeadm-control-plane-controller-manager 1/1 a 1 8mS7s",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 3391,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "cert-manager deployment .apps/cert-manager 1/1 a 1 om27s",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 3505,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "cert-manager deployment . apps/ cert-manager-cainjector 1/1 a) 1 om27s",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 3619,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "cert-manager deployment .apps/ cert-manager-webhook 1/1 1 1 om27s",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 3733,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "kube-system deployment. apps/coredns 2/2 2 2 16m",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 3847,
+        "w": 1040,
+        "h": 57
+      }
+    },
+    {
+      "text": "local-path-storage deployment. apps/local-path-provisioner 1/1 1 1 omS6s.",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 3961,
+        "w": 1040,
+        "h": 57
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "NAMESPACE NAME READY STATUS ~~ RESTARTS AGE",
+      "target": "TÊN KHÔNG GIAN TÊN SẴN SÀNG TRẠNG THÁI ~~ KHỞI ĐỘNG TUỔI",
+      "bbox": {
+        "x": 130,
+        "y": 85,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "capa-system pod/capa-controller-manager-7dfd4798f5-wctbd 2/2 Running © 8mS1s",
+      "target": "capa-hệ thống pod/capa-controller-manager-7dfd4798f5-wctbd 2/2 Đang chạy © 8mS1s",
+      "bbox": {
+        "x": 130,
+        "y": 199,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "capi -kubeadm-bootstrap-system pod/ capi -kubeadm-bootstrap- control ler-manager-6494884869- rxmph 2/2 Running © 8ms8s",
+      "target": "capi - hệ thống khởi động kubeadm pod/ capi - bộ điều khiển kubeadm-6494884869-rxmph 2/2 Đang chạy © 8ms8s",
+      "bbox": {
+        "x": 130,
+        "y": 313,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "capi-kubeadm-control-plane-system pod/capi-kubeadm-control-plane-controller-manager-857d687b9d-dwksz 2/2 Running © 8mS6s",
+      "target": "capi-kubeadm-control-plane-system pod/capi-kubeadm-control-plane-controller-manager-857d687b9d-dwksz 2/2 Đang chạy © 8mS6s",
+      "bbox": {
+        "x": 130,
+        "y": 427,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "capi-system pod/capi-controller-manager-778bd4dfbo-46jtg 2/2 Running © 8m59s",
+      "target": "capi-system pod/capi-controller-manager-778bd4dfbo-46jtg 2/2 Đang chạy © 8m59s",
+      "bbox": {
+        "x": 130,
+        "y": 541,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "ee hoo ayeren pod/capa-controller-manager-76f6f484c5-5vtdt 2/2 Running © 8mS3s",
+      "target": "ee hoo ayeren pod/capa-controller-manager-76f6f484c5-5vtdt 2/2 Đang chạy © 8mS3s",
+      "bbox": {
+        "x": 130,
+        "y": 655,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "capi -webhook-system pod/ capi-controller-manager-9995bdcod-47khp 2/2 Running © om",
+      "target": "capi -hệ thống webhook pod/ capi-controller-manager-9995bdcod-47khp 2/2 Đang chạy © om",
+      "bbox": {
+        "x": 130,
+        "y": 769,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "capi -webhook-system pod/ capi -kubeadm-bootstrap- control ler-manager-68845b65F8- c6nm2 2/2 Running © 8mS8s",
+      "target": "capi -hệ thống webhook pod/ capi -kubeadm-bootstrap- quản lý điều khiển-68845b65F8- c6nm2 2/2 Đang chạy © 8mS8s",
+      "bbox": {
+        "x": 130,
+        "y": 883,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "capi-webhook-system pod/capi-kubeadn-control-plane-controller-manager-9847c6747-vwgqf 2/2 Running © 8mS6s",
+      "target": "capi-webhook-system pod/capi-kubeadn-control-plane-controller-manager-9847c6747-vwgqf 2/2 Đang chạy © 8mS6s",
+      "bbox": {
+        "x": 130,
+        "y": 997,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "cert-manager pod/cert-manager-77f6fb8fds-2fxxk 1/1 Running © om27s",
+      "target": "pod cert-manager/cert-manager-77f6fb8fds-2fxxk 1/1 Đang chạy © om27s",
+      "bbox": {
+        "x": 130,
+        "y": 1111,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "cert-manager pod/cert-manager-cainjector-6bd4cff7bb-ghl7n 1/1 Running © om27s",
+      "target": "pod cert-manager/cert-manager-cainjector-6bd4cff7bb-ghl7n 1/1 Đang chạy © om27s",
+      "bbox": {
+        "x": 130,
+        "y": 1225,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "cert-manager pod/ cert-manager-webhook-fbfcbodec-412r2 1/1 Running © om27s",
+      "target": "pod cert-manager/cert-manager-webhook-fbfcbodec-412r2 1/1 Đang chạy © om27s",
+      "bbox": {
+        "x": 130,
+        "y": 1339,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "kube-system pod/coredns-657879bF57-6dknf 1/1 Running © omaes",
+      "target": "kube-system pod/coredns-657879bF57-6dknf 1/1 Đang chạy © omaes",
+      "bbox": {
+        "x": 130,
+        "y": 1453,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "kube-system pod/coredns-657879bf57-6xvd4 1/1 Running © mes",
+      "target": "kube-system pod/coredns-657879bf57-6xvd4 1/1 Đang chạy © mes",
+      "bbox": {
+        "x": 130,
+        "y": 1567,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "kube-system pod/etcd-tkg-kind-ch7d1qi41fgnsu7cfy3e-control-plane 1/1 Running © omS3s",
+      "target": "kube-system pod/etcd-tkg-kind-ch7d1qi41fgnsu7cfy3e-control-plane 1/1 Đang chạy © omS3s",
+      "bbox": {
+        "x": 130,
+        "y": 1681,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "kube-system pod/kindnet-91jsn 1/1 Running © ELZYS",
+      "target": "kube-system pod/kindnet-91jsn 1/1 Đang chạy © ELZYS",
+      "bbox": {
+        "x": 130,
+        "y": 1795,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "kube-system pod/kube-apiserver-tkg-kind-ch7d1qi41fgnsu7cfy3e-control-plane 1/1 Running © omS3s",
+      "target": "kube-system pod/kube-apiserver-tkg-kind-ch7d1qi41fgnsu7cfy3e-control-plane 1/1 Đang chạy © omS3s",
+      "bbox": {
+        "x": 130,
+        "y": 1909,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "kube-system pod/kube-controller-manager-tkg-kind-ch7d1qi41fgnsu7cfv3e-control-plane 1/1 Running © oms3s",
+      "target": "kube-system pod/kube-controller-manager-tkg-kind-ch7d1qi41fgnsu7cfv3e-control-plane 1/1 Đang chạy © oms3s",
+      "bbox": {
+        "x": 130,
+        "y": 2023,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "kube-system pod/kube-proxy-cfvhf 1/1 Running © oma7s",
+      "target": "kube-system pod/kube-proxy-cfvhf 1/1 Đang chạy © oma7s",
+      "bbox": {
+        "x": 130,
+        "y": 2137,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "kube-system pod/kube-scheduler-tkg-kind-ch7d1qi41fgnsu7cfy3e-control-plane 1/1 Running © 1em",
+      "target": "kube-system pod/kube-scheduler-tkg-kind-ch7d1qi41fgnsu7cfy3e-control-plane 1/1 Đang chạy © 1em",
+      "bbox": {
+        "x": 130,
+        "y": 2251,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "local-path-storage pod/local-path-provisioner-8b46957d4-2xwd2 1/1 Running © oma6s",
+      "target": "pod/local-path-provisioner-8b46957d4-2xwd2 1/1 Đang chạy © oma6s",
+      "bbox": {
+        "x": 130,
+        "y": 2365,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "NAMESPACE NAME READY UP-TO-DATE AVAILABLE AGE",
+      "target": "TÊN KHÔNG GIAN TÊN SẴN SÀNG CẬP NHẬT ĐẾN NGÀY CÓ SẴN TUỔI",
+      "bbox": {
+        "x": 130,
+        "y": 2479,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "capa-system deployment . apps/capa-controller-manager 1/1 1 1 8mS2s",
+      "target": "triển khai hệ thống capa . ứng dụng/capa-controller-manager 1/1 1 1 8mS2s",
+      "bbox": {
+        "x": 130,
+        "y": 2593,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "capi -kubeadm-bootstrap-system deployment . apps/ capi -kubeadm-bootstrap-controller-manager 1/1 1 1 BmS8s",
+      "target": "capi -hệ thống khởi động kubeadm triển khai . ứng dụng/ capi -quản lý bộ điều khiển kubeadm 1/1 1 1 BmS8s",
+      "bbox": {
+        "x": 130,
+        "y": 2707,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "capi -kubeadm-control-plane-system deployment.apps/capi-kubeadm-control-plane-controller-manager 1/1 a 1 8mS6s",
+      "target": "capi -kubeadm-control-plane-system triển khai.apps/capi-kubeadm-control-plane-controller-manager 1/1 a 1 8mS6s",
+      "bbox": {
+        "x": 130,
+        "y": 2821,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "capi-system deployment . apps/capi-controller-manager 1/1 a 1 8mS9s",
+      "target": "triển khai hệ thống capi . ứng dụng/capi-controller-manager 1/1 a 1 8mS9s",
+      "bbox": {
+        "x": 130,
+        "y": 2935,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "capi-webhook-system deployment. apps/capa-controller-manager 1/1 1 1 8ms3s",
+      "target": "triển khai hệ thống capi-webhook. apps/capa-controller-manager 1/1 1 1 8ms3s",
+      "bbox": {
+        "x": 130,
+        "y": 3049,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "capi -webhook-system deployment . apps/capi-controller-manager 1/1 1 1 om",
+      "target": "triển khai hệ thống webhook capi . ứng dụng/capi-controller-manager 1/1 1 1 om",
+      "bbox": {
+        "x": 130,
+        "y": 3163,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "capi -webhook- system deployment . apps/capi -kubeadm-bootstrap-controller-manager 1/1 1 1 8mS8s.",
+      "target": "triển khai hệ thống capi - webhook. ứng dụng/capi - kubeadm - bootstrap - quản lý - điều khiển 1/1 1 1 8mS8s.",
+      "bbox": {
+        "x": 130,
+        "y": 3277,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "capi -webhook- system deployment . apps/ capi-kubeadm-control-plane-controller-manager 1/1 a 1 8mS7s",
+      "target": "triển khai hệ thống capi - webhook . ứng dụng/ capi-kubeadm-control-plane-controller-manager 1/1 a 1 8mS7s",
+      "bbox": {
+        "x": 130,
+        "y": 3391,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "cert-manager deployment .apps/cert-manager 1/1 a 1 om27s",
+      "target": "triển khai cert-manager .apps/cert-manager 1/1 a 1 om27s",
+      "bbox": {
+        "x": 130,
+        "y": 3505,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "cert-manager deployment . apps/ cert-manager-cainjector 1/1 a) 1 om27s",
+      "target": "triển khai cert-manager . ứng dụng/ cert-manager-cainjector 1/1 a) 1 om27s",
+      "bbox": {
+        "x": 130,
+        "y": 3619,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "cert-manager deployment .apps/ cert-manager-webhook 1/1 1 1 om27s",
+      "target": "triển khai cert-manager .apps/ cert-manager-webhook 1/1 1 1 om27s",
+      "bbox": {
+        "x": 130,
+        "y": 3733,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "kube-system deployment. apps/coredns 2/2 2 2 16m",
+      "target": "triển khai kube-system. ứng dụng/coredns 2/2 2 2 16m",
+      "bbox": {
+        "x": 130,
+        "y": 3847,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    },
+    {
+      "source": "local-path-storage deployment. apps/local-path-provisioner 1/1 1 1 omS6s.",
+      "target": "triển khai lưu trữ đường dẫn cục bộ. ứng dụng/provisioner-đường dẫn-cục bộ 1/1 1 1 omS6s.",
+      "bbox": {
+        "x": 130,
+        "y": 3961,
+        "w": 1040,
+        "h": 57
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 2.241573033707865,
+    "averageConfidence": 66
+  }
+}

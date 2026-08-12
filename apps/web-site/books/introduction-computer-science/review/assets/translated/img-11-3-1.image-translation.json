@@ -1,0 +1,372 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-3-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-3-sample-responsive-wad-with-bootstrap-react-and-node.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-11-3-1.vi.png",
+  "ocr": [
+    {
+      "text": "$ npm init",
+      "confidence": 91,
+      "bbox": {
+        "x": 110,
+        "y": 71,
+        "w": 880,
+        "h": 47
+      }
+    },
+    {
+      "text": "This utility will walk you through creating a package.json file.",
+      "confidence": 91,
+      "bbox": {
+        "x": 110,
+        "y": 166,
+        "w": 880,
+        "h": 47
+      }
+    },
+    {
+      "text": "It only covers the most common items, and tries to guess sensible defaults.",
+      "confidence": 91,
+      "bbox": {
+        "x": 110,
+        "y": 261,
+        "w": 880,
+        "h": 47
+      }
+    },
+    {
+      "text": "See 'npm help init' for definitive documentation on these fields",
+      "confidence": 91,
+      "bbox": {
+        "x": 110,
+        "y": 356,
+        "w": 880,
+        "h": 47
+      }
+    },
+    {
+      "text": "and exactly what they do.",
+      "confidence": 91,
+      "bbox": {
+        "x": 110,
+        "y": 451,
+        "w": 880,
+        "h": 47
+      }
+    },
+    {
+      "text": "Use ‘'npm install <pKg>' afterwards to install a package and",
+      "confidence": 91,
+      "bbox": {
+        "x": 110,
+        "y": 546,
+        "w": 880,
+        "h": 47
+      }
+    },
+    {
+      "text": "save it as a dependency in the package.json file.",
+      "confidence": 91,
+      "bbox": {
+        "x": 110,
+        "y": 641,
+        "w": 880,
+        "h": 47
+      }
+    },
+    {
+      "text": "Press ~C at any time to quit.",
+      "confidence": 91,
+      "bbox": {
+        "x": 110,
+        "y": 736,
+        "w": 880,
+        "h": 47
+      }
+    },
+    {
+      "text": "package name: (nodebackend)",
+      "confidence": 91,
+      "bbox": {
+        "x": 110,
+        "y": 831,
+        "w": 880,
+        "h": 47
+      }
+    },
+    {
+      "text": "version: (1.0.9)",
+      "confidence": 91,
+      "bbox": {
+        "x": 110,
+        "y": 926,
+        "w": 880,
+        "h": 47
+      }
+    },
+    {
+      "text": "description: Todo web application with Bootstrap, React]S and NodelS",
+      "confidence": 91,
+      "bbox": {
+        "x": 110,
+        "y": 1021,
+        "w": 880,
+        "h": 47
+      }
+    },
+    {
+      "text": "entry point: (index.js) server.js",
+      "confidence": 91,
+      "bbox": {
+        "x": 110,
+        "y": 1116,
+        "w": 880,
+        "h": 47
+      }
+    },
+    {
+      "text": "test command:",
+      "confidence": 91,
+      "bbox": {
+        "x": 110,
+        "y": 1211,
+        "w": 880,
+        "h": 47
+      }
+    },
+    {
+      "text": "git repository:",
+      "confidence": 91,
+      "bbox": {
+        "x": 110,
+        "y": 1306,
+        "w": 880,
+        "h": 47
+      }
+    },
+    {
+      "text": "keywords: bootstrap, reactjs, nodejs, express, mongodb, rest, api",
+      "confidence": 91,
+      "bbox": {
+        "x": 110,
+        "y": 1401,
+        "w": 880,
+        "h": 47
+      }
+    },
+    {
+      "text": "author:",
+      "confidence": 91,
+      "bbox": {
+        "x": 110,
+        "y": 1496,
+        "w": 880,
+        "h": 47
+      }
+    },
+    {
+      "text": "license: (ISC)",
+      "confidence": 91,
+      "bbox": {
+        "x": 110,
+        "y": 1591,
+        "w": 880,
+        "h": 47
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "$ npm init",
+      "target": "$ npm khởi tạo",
+      "bbox": {
+        "x": 110,
+        "y": 71,
+        "w": 880,
+        "h": 47
+      },
+      "overflow": false
+    },
+    {
+      "source": "This utility will walk you through creating a package.json file.",
+      "target": "Tiện ích này sẽ hướng dẫn bạn tạo tệp package.json.",
+      "bbox": {
+        "x": 110,
+        "y": 166,
+        "w": 880,
+        "h": 47
+      },
+      "overflow": false
+    },
+    {
+      "source": "It only covers the most common items, and tries to guess sensible defaults.",
+      "target": "Nó chỉ bao gồm các mục phổ biến nhất và cố gắng đoán các giá trị mặc định hợp lý.",
+      "bbox": {
+        "x": 110,
+        "y": 261,
+        "w": 880,
+        "h": 47
+      },
+      "overflow": false
+    },
+    {
+      "source": "See 'npm help init' for definitive documentation on these fields",
+      "target": "Xem 'npm help init' để biết tài liệu chính xác về các trường này.",
+      "bbox": {
+        "x": 110,
+        "y": 356,
+        "w": 880,
+        "h": 47
+      },
+      "overflow": false
+    },
+    {
+      "source": "and exactly what they do.",
+      "target": "và chính xác những gì chúng làm.",
+      "bbox": {
+        "x": 110,
+        "y": 451,
+        "w": 880,
+        "h": 47
+      },
+      "overflow": false
+    },
+    {
+      "source": "Use ‘'npm install <pKg>' afterwards to install a package and",
+      "target": "Sử dụng 'npm install ' sau đó để cài đặt một gói và",
+      "bbox": {
+        "x": 110,
+        "y": 546,
+        "w": 880,
+        "h": 47
+      },
+      "overflow": false
+    },
+    {
+      "source": "save it as a dependency in the package.json file.",
+      "target": "lưu nó như một phụ thuộc trong tệp package.json.",
+      "bbox": {
+        "x": 110,
+        "y": 641,
+        "w": 880,
+        "h": 47
+      },
+      "overflow": false
+    },
+    {
+      "source": "Press ~C at any time to quit.",
+      "target": "Nhấn ~C bất kỳ lúc nào để thoát.",
+      "bbox": {
+        "x": 110,
+        "y": 736,
+        "w": 880,
+        "h": 47
+      },
+      "overflow": false
+    },
+    {
+      "source": "package name: (nodebackend)",
+      "target": "tên gói: (nodebackend)",
+      "bbox": {
+        "x": 110,
+        "y": 831,
+        "w": 880,
+        "h": 47
+      },
+      "overflow": false
+    },
+    {
+      "source": "version: (1.0.9)",
+      "target": "phiên bản: (1.0.9)",
+      "bbox": {
+        "x": 110,
+        "y": 926,
+        "w": 880,
+        "h": 47
+      },
+      "overflow": false
+    },
+    {
+      "source": "description: Todo web application with Bootstrap, React]S and NodelS",
+      "target": "Mô tả: Ứng dụng web Todo với Bootstrap, React và Node.js",
+      "bbox": {
+        "x": 110,
+        "y": 1021,
+        "w": 880,
+        "h": 47
+      },
+      "overflow": false
+    },
+    {
+      "source": "entry point: (index.js) server.js",
+      "target": "điểm vào: (index.js) server.js",
+      "bbox": {
+        "x": 110,
+        "y": 1116,
+        "w": 880,
+        "h": 47
+      },
+      "overflow": false
+    },
+    {
+      "source": "test command:",
+      "target": "lệnh kiểm tra",
+      "bbox": {
+        "x": 110,
+        "y": 1211,
+        "w": 880,
+        "h": 47
+      },
+      "overflow": false
+    },
+    {
+      "source": "git repository:",
+      "target": "kho lưu trữ git",
+      "bbox": {
+        "x": 110,
+        "y": 1306,
+        "w": 880,
+        "h": 47
+      },
+      "overflow": false
+    },
+    {
+      "source": "keywords: bootstrap, reactjs, nodejs, express, mongodb, rest, api",
+      "target": "từ khóa: bootstrap, reactjs, nodejs, express, mongodb, rest, api",
+      "bbox": {
+        "x": 110,
+        "y": 1401,
+        "w": 880,
+        "h": 47
+      },
+      "overflow": false
+    },
+    {
+      "source": "author:",
+      "target": "tác giả:",
+      "bbox": {
+        "x": 110,
+        "y": 1496,
+        "w": 880,
+        "h": 47
+      },
+      "overflow": false
+    },
+    {
+      "source": "license: (ISC)",
+      "target": "giấy phép: (ISC)",
+      "bbox": {
+        "x": 110,
+        "y": 1591,
+        "w": 880,
+        "h": 47
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 1.0797297297297297,
+    "averageConfidence": 91
+  }
+}

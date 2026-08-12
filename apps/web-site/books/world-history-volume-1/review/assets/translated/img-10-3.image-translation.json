@@ -1,0 +1,44 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-10-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/10-introduction.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "[I Western Roman Empire",
+      "confidence": 76,
+      "bbox": {
+        "x": 110,
+        "y": 90,
+        "w": 881,
+        "h": 60
+      }
+    },
+    {
+      "text": "BH Eastern Roman Empire",
+      "confidence": 76,
+      "bbox": {
+        "x": 110,
+        "y": 210,
+        "w": 881,
+        "h": 60
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A map illustrating the geographic division of the Roman Empire into its Western (yellow) and Eastern (purple) halves, spanning parts of Europe, North Africa, and the Middle East.\nButton label: Click to enlarge image of A map illustrating the geographic division of the Roman Empire into its Western (yellow) and Eastern (purple) halves, spanning parts of Europe, North Africa, and the Middle East.\nEnglish caption: Figure 10.3 Locator Map: Empires of Faith. (credit: modification of work “World map blank shorelines” by Maciej Jaros/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 0.12802906448683016,
+    "averageConfidence": 76,
+    "entropy": 2.8586285894489265,
+    "sharpness": 2.620992983913166
+  }
+}

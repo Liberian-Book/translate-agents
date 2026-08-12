@@ -1,0 +1,17 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-a-the-lives-of-ethical-philosophers-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/a-the-lives-of-ethical-philosophers.html",
+  "decision": "error",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "not-classified"
+  },
+  "reason": "fetch failed",
+  "outputImage": null,
+  "ocr": [],
+  "translations": [],
+  "imageContext": "Image alt: The figure names ethical philosophers, their lifespans, and the school of thought they were associated with. Starting from left to right is Confucianism with Kong Qui “Master Kong” Confucius, 551 to 479 BC. Next is Virtue Theory with Aristotle, 384 to 322 BC; Socrates, approximately 470 to 339 BC; and Plato, approximately 428 to 348 BC. There is a note that Socrates and Plato were Aristotle’s predecessors and influences. Next is Utilitarianism with Jeremy Bentham, 1748 to 1832 and John Stuart Mill, 1806 to 1843. Next is Deontology with Immanuel Kant, 1724 to 1804. Last is Justice Theory with John Rawls, 1921 to 2002.\nButton label: Click to enlarge image of The figure names ethical philosophers, their lifespans, and the school of thought they were associated with. Starting from left to right is Confucianism with Kong Qui “Master Kong” Confucius, 551 to 479 BC. Next is Virtue Theory with Aristotle, 384 to 322 BC; Socrates, approximately 470 to 339 BC; and Plato, approximately 428 to 348 BC. There is a note that Socrates and Plato were Aristotle’s predecessors and influences. Next is Utilitarianism with Jeremy Bentham, 1748 to 1832 and John Stuart Mill, 1806 to 1843. Next is Deontology with Immanuel Kant, 1724 to 1804. Last is Justice Theory with John Rawls, 1921 to 2002.\nEnglish caption: Figure A1 Over time and in different parts of the world, philosophical ethics has occupied the thoughts of many significant thinkers. Here are the names and lifespans of some of those figures. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)"
+}

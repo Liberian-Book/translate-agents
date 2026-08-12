@@ -1,0 +1,225 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-1-8.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-1-modern-web-applications-architectures.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-11-1-8.vi.png",
+  "ocr": [
+    {
+      "text": "Web 3.0 DApp: Architecture Web Server and Blockchain",
+      "confidence": 60,
+      "bbox": {
+        "x": 116,
+        "y": 94,
+        "w": 926,
+        "h": 63
+      }
+    },
+    {
+      "text": "| STTTTTTTTTTTTTTTTN",
+      "confidence": 60,
+      "bbox": {
+        "x": 116,
+        "y": 220,
+        "w": 926,
+        "h": 63
+      }
+    },
+    {
+      "text": "| i Smart |",
+      "confidence": 60,
+      "bbox": {
+        "x": 116,
+        "y": 346,
+        "w": 926,
+        "h": 63
+      }
+    },
+    {
+      "text": "! contract(s) |",
+      "confidence": 60,
+      "bbox": {
+        "x": 116,
+        "y": 472,
+        "w": 926,
+        "h": 63
+      }
+    },
+    {
+      "text": "User Browser Internet Web server | Blockchain",
+      "confidence": 60,
+      "bbox": {
+        "x": 116,
+        "y": 598,
+        "w": 926,
+        "h": 63
+      }
+    },
+    {
+      "text": ") JSONRPC ! VM",
+      "confidence": 60,
+      "bbox": {
+        "x": 116,
+        "y": 724,
+        "w": 926,
+        "h": 63
+      }
+    },
+    {
+      "text": "J | Block(s)",
+      "confidence": 60,
+      "bbox": {
+        "x": 116,
+        "y": 850,
+        "w": 926,
+        "h": 63
+      }
+    },
+    {
+      "text": "Ra ae a na i",
+      "confidence": 60,
+      "bbox": {
+        "x": 116,
+        "y": 976,
+        "w": 926,
+        "h": 63
+      }
+    },
+    {
+      "text": "[ Blockchain |",
+      "confidence": 60,
+      "bbox": {
+        "x": 116,
+        "y": 1102,
+        "w": 926,
+        "h": 63
+      }
+    },
+    {
+      "text": "1 LS",
+      "confidence": 60,
+      "bbox": {
+        "x": 116,
+        "y": 1228,
+        "w": 926,
+        "h": 63
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Web 3.0 DApp: Architecture Web Server and Blockchain",
+      "target": "DApp Web 3.0: Kiến trúc Máy chủ Web và Blockchain",
+      "bbox": {
+        "x": 116,
+        "y": 94,
+        "w": 926,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "| STTTTTTTTTTTTTTTTN",
+      "target": "Số thứ tự",
+      "bbox": {
+        "x": 116,
+        "y": 220,
+        "w": 926,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "| i Smart |",
+      "target": "| i Thông minh |",
+      "bbox": {
+        "x": 116,
+        "y": 346,
+        "w": 926,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "! contract(s) |",
+      "target": "hợp đồng(s)",
+      "bbox": {
+        "x": 116,
+        "y": 472,
+        "w": 926,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "User Browser Internet Web server | Blockchain",
+      "target": "Trình duyệt người dùng Mạng Internet Máy chủ web | Blockchain",
+      "bbox": {
+        "x": 116,
+        "y": 598,
+        "w": 926,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": ") JSONRPC ! VM",
+      "target": "JSONRPC ! VM",
+      "bbox": {
+        "x": 116,
+        "y": 724,
+        "w": 926,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "J | Block(s)",
+      "target": "Khối J",
+      "bbox": {
+        "x": 116,
+        "y": 850,
+        "w": 926,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "Ra ae a na i",
+      "target": "Ra ae a na i",
+      "bbox": {
+        "x": 116,
+        "y": 976,
+        "w": 926,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "[ Blockchain |",
+      "target": "Chuỗi khối",
+      "bbox": {
+        "x": 116,
+        "y": 1102,
+        "w": 926,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "1 LS",
+      "target": "1 LS",
+      "bbox": {
+        "x": 116,
+        "y": 1228,
+        "w": 926,
+        "h": 63
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.6414984792204108,
+    "averageConfidence": 60
+  }
+}

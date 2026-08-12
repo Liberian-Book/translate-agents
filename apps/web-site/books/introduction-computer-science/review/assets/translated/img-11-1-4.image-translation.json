@@ -1,0 +1,162 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-1-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-1-modern-web-applications-architectures.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-11-1-4.vi.png",
+  "ocr": [
+    {
+      "text": "Web 2.0 Traditional vs. SPA Life Cycle",
+      "confidence": 76,
+      "bbox": {
+        "x": 119,
+        "y": 63,
+        "w": 954,
+        "h": 42
+      }
+    },
+    {
+      "text": "Traditional 1 SPA",
+      "confidence": 76,
+      "bbox": {
+        "x": 119,
+        "y": 147,
+        "w": 954,
+        "h": 42
+      }
+    },
+    {
+      "text": "1st HTTP get | 1st HTTP get",
+      "confidence": 76,
+      "bbox": {
+        "x": 119,
+        "y": 231,
+        "w": 954,
+        "h": 42
+      }
+    },
+    {
+      "text": "[saa] 1 [ood]",
+      "confidence": 76,
+      "bbox": {
+        "x": 119,
+        "y": 315,
+        "w": 954,
+        "h": 42
+      }
+    },
+    {
+      "text": "Rendered web page B. | Rendered web page B.",
+      "confidence": 76,
+      "bbox": {
+        "x": 119,
+        "y": 399,
+        "w": 954,
+        "h": 42
+      }
+    },
+    {
+      "text": "Client HTTP gets/posts Server |i| Client AIAX Server",
+      "confidence": 76,
+      "bbox": {
+        "x": 119,
+        "y": 483,
+        "w": 954,
+        "h": 42
+      }
+    },
+    {
+      "text": "Rendered web page | JSON/XML",
+      "confidence": 76,
+      "bbox": {
+        "x": 119,
+        "y": 567,
+        "w": 954,
+        "h": 42
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Web 2.0 Traditional vs. SPA Life Cycle",
+      "target": "Web 2.0 Truyền thống vs. Vòng đời SPA",
+      "bbox": {
+        "x": 119,
+        "y": 63,
+        "w": 954,
+        "h": 42
+      },
+      "overflow": false
+    },
+    {
+      "source": "Traditional 1 SPA",
+      "target": "SPA truyền thống 1",
+      "bbox": {
+        "x": 119,
+        "y": 147,
+        "w": 954,
+        "h": 42
+      },
+      "overflow": false
+    },
+    {
+      "source": "1st HTTP get | 1st HTTP get",
+      "target": "Yêu cầu HTTP đầu tiên",
+      "bbox": {
+        "x": 119,
+        "y": 231,
+        "w": 954,
+        "h": 42
+      },
+      "overflow": false
+    },
+    {
+      "source": "[saa] 1 [ood]",
+      "target": "[saa] 1 [ood]",
+      "bbox": {
+        "x": 119,
+        "y": 315,
+        "w": 954,
+        "h": 42
+      },
+      "overflow": false
+    },
+    {
+      "source": "Rendered web page B. | Rendered web page B.",
+      "target": "Trang web đã được hiển thị B.",
+      "bbox": {
+        "x": 119,
+        "y": 399,
+        "w": 954,
+        "h": 42
+      },
+      "overflow": false
+    },
+    {
+      "source": "Client HTTP gets/posts Server |i| Client AIAX Server",
+      "target": "Khách hàng HTTP gửi/nhận máy chủ |i| Máy chủ AIAX khách hàng",
+      "bbox": {
+        "x": 119,
+        "y": 483,
+        "w": 954,
+        "h": 42
+      },
+      "overflow": false
+    },
+    {
+      "source": "Rendered web page | JSON/XML",
+      "target": "Trang web đã được hiển thị | JSON/XML",
+      "bbox": {
+        "x": 119,
+        "y": 567,
+        "w": 954,
+        "h": 42
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.4464870165429237,
+    "averageConfidence": 76
+  }
+}

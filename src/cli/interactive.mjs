@@ -149,6 +149,11 @@ async function runRetranslateTextFlow() {
   renderProgressBar({ label: 'Tạo HTML tĩnh', current: 0, total: 1 });
   await runGuidedPythonScript('agents/agent-archive/scripts/build-preview.py', [bookDir]);
   renderProgressBar({ label: 'Hoàn tất: Tạo HTML tĩnh', current: 1, total: 1 });
+
+  renderProgressBar({ label: 'Tạo website', current: 0, total: 1 });
+  await runGuidedScript('scripts/build-site.mjs');
+  renderProgressBar({ label: 'Hoàn tất: Tạo website', current: 1, total: 1 });
+
   console.log(chalk.green(`Hoàn tất dịch lại chữ: ${selectedBook}`));
 }
 
@@ -398,6 +403,10 @@ async function runTranslationPipeline(book) {
   renderProgressBar({ label: steps[6], current: 0, total: 1 });
   await runGuidedPythonScript('agents/agent-archive/scripts/build-preview.py', [bookDir]);
   renderProgressBar({ label: `Hoàn tất: ${steps[6]}`, current: 1, total: 1 });
+
+  renderProgressBar({ label: 'Tạo website', current: 0, total: 1 });
+  await runGuidedScript('scripts/build-site.mjs');
+  renderProgressBar({ label: 'Hoàn tất: Tạo website', current: 1, total: 1 });
 
   renderProgressBar({ label: steps[7], current: 0, total: 1 });
   const uploadResult = await uploadBookToR2(bookName);

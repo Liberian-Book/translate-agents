@@ -1,0 +1,378 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-11-1-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/11-1-the-rise-and-message-of-islam.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-11-1-4.vi.png",
+  "ocr": [
+    {
+      "text": "[ems es sss ges ——",
+      "confidence": 39,
+      "bbox": {
+        "x": 70,
+        "y": 112,
+        "w": 560,
+        "h": 75
+      }
+    },
+    {
+      "text": "8: 7A CH 2 |",
+      "confidence": 39,
+      "bbox": {
+        "x": 70,
+        "y": 261,
+        "w": 560,
+        "h": 75
+      }
+    },
+    {
+      "text": "| Ea Ve bo >: |",
+      "confidence": 39,
+      "bbox": {
+        "x": 70,
+        "y": 410,
+        "w": 560,
+        "h": 75
+      }
+    },
+    {
+      "text": "| =A yA | 1.9 ~",
+      "confidence": 39,
+      "bbox": {
+        "x": 70,
+        "y": 559,
+        "w": 560,
+        "h": 75
+      }
+    },
+    {
+      "text": "2 A diy 8 / Ll” 2 A ¥ 41 |",
+      "confidence": 39,
+      "bbox": {
+        "x": 70,
+        "y": 708,
+        "w": 560,
+        "h": 75
+      }
+    },
+    {
+      "text": "fl oT : pa [lady",
+      "confidence": 39,
+      "bbox": {
+        "x": 70,
+        "y": 857,
+        "w": 560,
+        "h": 75
+      }
+    },
+    {
+      "text": "| | “ps SEY CaF 5 Pit f |",
+      "confidence": 39,
+      "bbox": {
+        "x": 70,
+        "y": 1006,
+        "w": 560,
+        "h": 75
+      }
+    },
+    {
+      "text": "heat 1 OY",
+      "confidence": 39,
+      "bbox": {
+        "x": 70,
+        "y": 1155,
+        "w": 560,
+        "h": 75
+      }
+    },
+    {
+      "text": "tH \\ YT JIN |",
+      "confidence": 39,
+      "bbox": {
+        "x": 70,
+        "y": 1304,
+        "w": 560,
+        "h": 75
+      }
+    },
+    {
+      "text": "| : Was i] |",
+      "confidence": 39,
+      "bbox": {
+        "x": 70,
+        "y": 1453,
+        "w": 560,
+        "h": 75
+      }
+    },
+    {
+      "text": "= n FB I |",
+      "confidence": 39,
+      "bbox": {
+        "x": 70,
+        "y": 1602,
+        "w": 560,
+        "h": 75
+      }
+    },
+    {
+      "text": "Hl 4 lL, A Bar | ff 1",
+      "confidence": 39,
+      "bbox": {
+        "x": 70,
+        "y": 1751,
+        "w": 560,
+        "h": 75
+      }
+    },
+    {
+      "text": "| gai [= = 4 Vass bo |",
+      "confidence": 39,
+      "bbox": {
+        "x": 70,
+        "y": 1900,
+        "w": 560,
+        "h": 75
+      }
+    },
+    {
+      "text": "| Bb a fT a [Tf",
+      "confidence": 39,
+      "bbox": {
+        "x": 70,
+        "y": 2049,
+        "w": 560,
+        "h": 75
+      }
+    },
+    {
+      "text": "| Ege alz? 9 pid] NB Ege |",
+      "confidence": 39,
+      "bbox": {
+        "x": 70,
+        "y": 2198,
+        "w": 560,
+        "h": 75
+      }
+    },
+    {
+      "text": "lil x oa sed po ad all |",
+      "confidence": 39,
+      "bbox": {
+        "x": 70,
+        "y": 2347,
+        "w": 560,
+        "h": 75
+      }
+    },
+    {
+      "text": "Hl d= PF “Adm ; TS",
+      "confidence": 39,
+      "bbox": {
+        "x": 70,
+        "y": 2496,
+        "w": 560,
+        "h": 75
+      }
+    },
+    {
+      "text": "ly = ae, |",
+      "confidence": 39,
+      "bbox": {
+        "x": 70,
+        "y": 2645,
+        "w": 560,
+        "h": 75
+      }
+    },
+    {
+      "text": "yo af LE a Sam |",
+      "confidence": 39,
+      "bbox": {
+        "x": 70,
+        "y": 2794,
+        "w": 560,
+        "h": 75
+      }
+    },
+    {
+      "text": "\\. ¥ Jf di gy | v: Tony",
+      "confidence": 39,
+      "bbox": {
+        "x": 70,
+        "y": 2943,
+        "w": 560,
+        "h": 75
+      }
+    },
+    {
+      "text": "| Lt \\ Yo Sm Fhe aa | |",
+      "confidence": 39,
+      "bbox": {
+        "x": 70,
+        "y": 3092,
+        "w": 560,
+        "h": 75
+      }
+    },
+    {
+      "text": "| 1H gr GE BEN oi",
+      "confidence": 39,
+      "bbox": {
+        "x": 70,
+        "y": 3241,
+        "w": 560,
+        "h": 75
+      }
+    },
+    {
+      "text": "| |= en CRE NEP",
+      "confidence": 39,
+      "bbox": {
+        "x": 70,
+        "y": 3390,
+        "w": 560,
+        "h": 75
+      }
+    },
+    {
+      "text": "| PN hey",
+      "confidence": 39,
+      "bbox": {
+        "x": 70,
+        "y": 3539,
+        "w": 560,
+        "h": 75
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A drawing is shown with men working to build a building. At the top of the drawing there is blue sky seen over the walls and a vertical beige-colored panel on the left with ancient writing in black ink. One wall of a beige building is seen with vertical lines and a gray arched opening in the middle. A brown scaffolding is seen in front of the doorway with two men – one on the top tier with a tool and a brick looking down while a man below him on the next tier holds on to one of the side beams. Above them on the roof in the middle, two men are laying bricks while a man on the right side hands them the bricks. A man on the left side is lowering a basket with a rope to a man standing on the ground with his arms outstretched. A ladder stands to the right of the scaffolding and a man is climbing down holding a rectangular object. At the bottom of the scaffolding a man is holding a square object in his hands at his side. On the ground in the forefront there are men working at various tasks. Two men are chipping away at stone, two men dig while one man leans over with a rectangular object close by, five men carry various items on their backs and in their arms, and two men are carrying a stretcher of stones. All of the men are dressed in a variety of solid colored loose-fitting shirts or bare-chested, wear knee length pants, turbans and head cloths, belts, and caps and all but one are barefoot. They all have different skin colors and some have facial hair.\nButton label: Click to enlarge image of A drawing is shown with men working to build a building. At the top of the drawing there is blue sky seen over the walls and a vertical beige-colored panel on the left with ancient writing in black ink. One wall of a beige building is seen with vertical lines and a gray arched opening in the middle. A brown scaffolding is seen in front of the doorway with two men – one on the top tier with a tool and a brick looking down while a man below him on the next tier holds on to one of the side beams. Above them on the roof in the middle, two men are laying bricks while a man on the right side hands them the bricks. A man on the left side is lowering a basket with a rope to a man standing on the ground with his arms outstretched. A ladder stands to the right of the scaffolding and a man is climbing down holding a rectangular object. At the bottom of the scaffolding a man is holding a square object in his hands at his side. On the ground in the forefront there are men working at various tasks. Two men are chipping away at stone, two men dig while one man leans over with a rectangular object close by, five men carry various items on their backs and in their arms, and two men are carrying a stretcher of stones. All of the men are dressed in a variety of solid colored loose-fitting shirts or bare-chested, wear knee length pants, turbans and head cloths, belts, and caps and all but one are barefoot. They all have different skin colors and some have facial hair.\nEnglish caption: Figure 11.7 The Lakhmid Fort at Kharnaq. This late fifteenth-century manuscript page by the renowned Persian miniaturist Kamal al-din Bihzad shows the construction of the fort at Kharnaq, a castle near the Lakhmid capital of Al-Hirah. (credit: “The construction of the palace of Khavarnaq” by British Museum/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 1.5417558886509637,
+    "averageConfidence": 39,
+    "entropy": 7.117380438721739,
+    "sharpness": 5.27873783648849
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A drawing is shown with men working to build a building. At the top of the drawing there is blue sky seen over the walls and a vertical beige-colored panel on the left with ancient writing in black ink. One wall of a beige building is seen with vertical lines and a gray arched opening in the middle. A brown scaffolding is seen in front of the doorway with two men – one on the top tier with a tool and a brick looking down while a man below him on the next tier holds on to one of the side beams. Above them on the roof in the middle, two men are laying bricks while a man on the right side hands them the bricks. A man on the left side is lowering a basket with a rope to a man standing on the ground with his arms outstretched. A ladder stands to the right of the scaffolding and a man is climbing down holding a rectangular object. At the bottom of the scaffolding a man is holding a square object in his hands at his side. On the ground in the forefront there are men working at various tasks. Two men are chipping away at stone, two men dig while one man leans over with a rectangular object close by, five men carry various items on their backs and in their arms, and two men are carrying a stretcher of stones. All of the men are dressed in a variety of solid colored loose-fitting shirts or bare-chested, wear knee length pants, turbans and head cloths, belts, and caps and all but one are barefoot. They all have different skin colors and some have facial hair.\nButton label: Click to enlarge image of A drawing is shown with men working to build a building. At the top of the drawing there is blue sky seen over the walls and a vertical beige-colored panel on the left with ancient writing in black ink. One wall of a beige building is seen with vertical lines and a gray arched opening in the middle. A brown scaffolding is seen in front of the doorway with two men – one on the top tier with a tool and a brick looking down while a man below him on the next tier holds on to one of the side beams. Above them on the roof in the middle, two men are laying bricks while a man on the right side hands them the bricks. A man on the left side is lowering a basket with a rope to a man standing on the ground with his arms outstretched. A ladder stands to the right of the scaffolding and a man is climbing down holding a rectangular object. At the bottom of the scaffolding a man is holding a square object in his hands at his side. On the ground in the forefront there are men working at various tasks. Two men are chipping away at stone, two men dig while one man leans over with a rectangular object close by, five men carry various items on their backs and in their arms, and two men are carrying a stretcher of stones. All of the men are dressed in a variety of solid colored loose-fitting shirts or bare-chested, wear knee length pants, turbans and head cloths, belts, and caps and all but one are barefoot. They all have different skin colors and some have facial hair.\nEnglish caption: Figure 11.7 The Lakhmid Fort at Kharnaq. This late fifteenth-century manuscript page by the renowned Persian miniaturist Kamal al-din Bihzad shows the construction of the fort at Kharnaq, a castle near the Lakhmid capital of Al-Hirah. (credit: “The construction of the palace of Khavarnaq” by British Museum/Wikimedia Commons, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "PO. TN |",
+        "confidence": 38,
+        "bbox": {
+          "x": 108,
+          "y": 174,
+          "w": 867,
+          "h": 116
+        }
+      },
+      {
+        "text": "[ECE EE",
+        "confidence": 38,
+        "bbox": {
+          "x": 108,
+          "y": 406,
+          "w": 867,
+          "h": 116
+        }
+      },
+      {
+        "text": "AP: lela df A",
+        "confidence": 38,
+        "bbox": {
+          "x": 108,
+          "y": 638,
+          "w": 867,
+          "h": 116
+        }
+      },
+      {
+        "text": "| alg Bs 5 o }",
+        "confidence": 38,
+        "bbox": {
+          "x": 108,
+          "y": 870,
+          "w": 867,
+          "h": 116
+        }
+      },
+      {
+        "text": "| . 11 oR",
+        "confidence": 38,
+        "bbox": {
+          "x": 108,
+          "y": 1102,
+          "w": 867,
+          "h": 116
+        }
+      },
+      {
+        "text": "| Fi i | § \\ Ni",
+        "confidence": 38,
+        "bbox": {
+          "x": 108,
+          "y": 1334,
+          "w": 867,
+          "h": 116
+        }
+      },
+      {
+        "text": "| 0 ret |",
+        "confidence": 38,
+        "bbox": {
+          "x": 108,
+          "y": 1566,
+          "w": 867,
+          "h": 116
+        }
+      },
+      {
+        "text": "| fe",
+        "confidence": 38,
+        "bbox": {
+          "x": 108,
+          "y": 1798,
+          "w": 867,
+          "h": 116
+        }
+      },
+      {
+        "text": "4 Lr a I : 2",
+        "confidence": 38,
+        "bbox": {
+          "x": 108,
+          "y": 2030,
+          "w": 867,
+          "h": 116
+        }
+      },
+      {
+        "text": "| 4 = S Y fen a :",
+        "confidence": 38,
+        "bbox": {
+          "x": 108,
+          "y": 2262,
+          "w": 867,
+          "h": 116
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

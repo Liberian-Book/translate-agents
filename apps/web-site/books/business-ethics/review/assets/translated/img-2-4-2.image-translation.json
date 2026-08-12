@@ -1,0 +1,104 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-2-4-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/2-4-utilitarianism-the-greatest-good-for-the-greatest-number.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-2-4-2.vi.png",
+  "ocr": [
+    {
+      "text": "ox 7 fL",
+      "confidence": 38,
+      "bbox": {
+        "x": 80,
+        "y": 71,
+        "w": 640,
+        "h": 47
+      }
+    },
+    {
+      "text": "~ ) FE",
+      "confidence": 38,
+      "bbox": {
+        "x": 80,
+        "y": 165,
+        "w": 640,
+        "h": 47
+      }
+    },
+    {
+      "text": "LIBERTY E71) py Re",
+      "confidence": 38,
+      "bbox": {
+        "x": 80,
+        "y": 259,
+        "w": 640,
+        "h": 47
+      }
+    },
+    {
+      "text": "IR)",
+      "confidence": 38,
+      "bbox": {
+        "x": 80,
+        "y": 353,
+        "w": 640,
+        "h": 47
+      }
+    },
+    {
+      "text": "Toso",
+      "confidence": 38,
+      "bbox": {
+        "x": 80,
+        "y": 447,
+        "w": 640,
+        "h": 47
+      }
+    },
+    {
+      "text": "08 PAE 15505, RLS. 5",
+      "confidence": 38,
+      "bbox": {
+        "x": 80,
+        "y": 541,
+        "w": 640,
+        "h": 47
+      }
+    },
+    {
+      "text": "Moco",
+      "confidence": 38,
+      "bbox": {
+        "x": 80,
+        "y": 635,
+        "w": 640,
+        "h": 47
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: Part A shows a print copy of John Stuart Mill’s On Liberty. Part B shows John Stuart Mill.\nButton label: Click to enlarge image of Part A shows a print copy of John Stuart Mill’s On Liberty. Part B shows John Stuart Mill.\nEnglish caption: Figure 2.8 In On Liberty (1859) (a), John Stuart Mill (b) combined utility with human rights. He emphasized the importance of free speech for correcting error and creating value for the individual and society. (credit a: modification of “On Liberty (first edition title page via facsimile)” by “Yodin”/Wikimedia Commons, Public Domain; credit b: modification of “John Stuart Mill by London Stereoscopic Company, c1870” by “Scewing”/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 0.44761904761904764,
+    "averageConfidence": 38,
+    "entropy": 6.506236096218345,
+    "sharpness": 2.3739677565587
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

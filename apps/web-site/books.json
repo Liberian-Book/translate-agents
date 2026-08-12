@@ -1,37 +1,37 @@
 [
   {
     "slug": "business-ethics",
-    "title": "Business Ethics",
+    "title": "Đạo đức kinh doanh",
     "url": "/business-ethics/",
     "cover": "/assets/business-ethics_cover.svg"
   },
   {
     "slug": "entrepreneurship",
-    "title": "Entrepreneurship",
+    "title": "Khởi nghiệp",
     "url": "/entrepreneurship/",
     "cover": "/assets/entrepreneurship_cover.svg"
   },
   {
     "slug": "introduction-computer-science",
-    "title": "Introduction to Computer Science",
+    "title": "Nhập môn Khoa học máy tính",
     "url": "/introduction-computer-science/",
     "cover": "/assets/introduction-computer-science_cover.svg"
   },
   {
     "slug": "introduction-philosophy",
-    "title": "Introduction to Philosophy",
+    "title": "Nhập môn Triết học",
     "url": "/introduction-philosophy/",
     "cover": "/assets/introduction-philosophy_cover.svg"
   },
   {
     "slug": "principles-finance",
-    "title": "Principles of Finance",
+    "title": "Nguyên lý Tài chính",
     "url": "/principles-finance/",
     "cover": "/assets/principles-finance_cover.svg"
   },
   {
     "slug": "world-history-volume-1",
-    "title": "World History, Volume 1: to 1500",
+    "title": "Lịch sử Thế giới, Tập 1: Đến năm 1500",
     "url": "/world-history-volume-1/",
     "cover": "/assets/world-history-volume-1_cover.svg"
   }

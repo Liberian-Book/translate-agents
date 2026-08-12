@@ -1,0 +1,170 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-12-1-5.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/12-1-the-indian-ocean-world-in-the-early-middle-ages.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-12-1-5.vi.png",
+  "ocr": [
+    {
+      "text": "GEER ® Bndhoisire",
+      "confidence": 55,
+      "bbox": {
+        "x": 90,
+        "y": 79,
+        "w": 720,
+        "h": 53
+      }
+    },
+    {
+      "text": "landholders",
+      "confidence": 55,
+      "bbox": {
+        "x": 90,
+        "y": 185,
+        "w": 720,
+        "h": 53
+      }
+    },
+    {
+      "text": "Skilled workers, artisans,",
+      "confidence": 55,
+      "bbox": {
+        "x": 90,
+        "y": 291,
+        "w": 720,
+        "h": 53
+      }
+    },
+    {
+      "text": "traders",
+      "confidence": 55,
+      "bbox": {
+        "x": 90,
+        "y": 397,
+        "w": 720,
+        "h": 53
+      }
+    },
+    {
+      "text": "| shim | Rothe",
+      "confidence": 55,
+      "bbox": {
+        "x": 90,
+        "y": 503,
+        "w": 720,
+        "h": 53
+      }
+    },
+    {
+      "text": "servants",
+      "confidence": 55,
+      "bbox": {
+        "x": 90,
+        "y": 609,
+        "w": 720,
+        "h": 53
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "GEER ® Bndhoisire",
+      "normalizedSource": "GEER ® Bndhoisire",
+      "target": "GEER ® Bndhoisire",
+      "bbox": {
+        "x": 90,
+        "y": 79,
+        "w": 720,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "landholders",
+      "normalizedSource": "landholders",
+      "target": "người sở hữu đất",
+      "bbox": {
+        "x": 90,
+        "y": 185,
+        "w": 720,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "Skilled workers, artisans,",
+      "normalizedSource": "Skilled workers, artisans,",
+      "target": "công nhân có tay nghề, nghệ nhân,",
+      "bbox": {
+        "x": 90,
+        "y": 291,
+        "w": 720,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "traders",
+      "normalizedSource": "traders",
+      "target": "thương nhân",
+      "bbox": {
+        "x": 90,
+        "y": 397,
+        "w": 720,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "| shim | Rothe",
+      "normalizedSource": "| shim | Rothe",
+      "target": "| shim | Rothe",
+      "bbox": {
+        "x": 90,
+        "y": 503,
+        "w": 720,
+        "h": 53
+      },
+      "overflow": false
+    },
+    {
+      "source": "servants",
+      "normalizedSource": "servants",
+      "target": "người hầu",
+      "bbox": {
+        "x": 90,
+        "y": 609,
+        "w": 720,
+        "h": 53
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: Two columns of rectangles are shown. The left column is light blue inside with a darker blue border and black print. The rectangles are smaller at the top and larger at the bottom. Inside, the rectangles are labelled, from top to bottom, with: Brahman, Kshatriya, Vaishya, and Shudra. The rectangles are connected with a red vertical line between them. The right column is all the same sized rectangles with these labels inside, from top to bottom: “Priests,” “Rulers, warriors, landholders,” “Skilled workers, artisans, traders,” and “Laborers, servants.”\nButton label: Click to enlarge image of Two columns of rectangles are shown. The left column is light blue inside with a darker blue border and black print. The rectangles are smaller at the top and larger at the bottom. Inside, the rectangles are labelled, from top to bottom, with: Brahman, Kshatriya, Vaishya, and Shudra. The rectangles are connected with a red vertical line between them. The right column is all the same sized rectangles with these labels inside, from top to bottom: “Priests,” “Rulers, warriors, landholders,” “Skilled workers, artisans, traders,” and “Laborers, servants.”\nEnglish caption: Figure 12.7 The Indian Caste System. The Indian caste system was a hierarchical one, with ranked varnas that, in the system’s earliest days, related to a person’s profession. Someone could move up or down within this hierarchy depending on their dharma and their accrual of karma during their lifetime. Still, such mobility came primarily through reincarnation at the end of a person’s life. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.38545454545454544,
+    "averageConfidence": 55,
+    "entropy": 3.5318183649142156,
+    "sharpness": 4.774095285560543
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: Two columns of rectangles are shown. The left column is light blue inside with a darker blue border and black print. The rectangles are smaller at the top and larger at the bottom. Inside, the rectangles are labelled, from top to bottom, with: Brahman, Kshatriya, Vaishya, and Shudra. The rectangles are connected with a red vertical line between them. The right column is all the same sized rectangles with these labels inside, from top to bottom: “Priests,” “Rulers, warriors, landholders,” “Skilled workers, artisans, traders,” and “Laborers, servants.”\nButton label: Click to enlarge image of Two columns of rectangles are shown. The left column is light blue inside with a darker blue border and black print. The rectangles are smaller at the top and larger at the bottom. Inside, the rectangles are labelled, from top to bottom, with: Brahman, Kshatriya, Vaishya, and Shudra. The rectangles are connected with a red vertical line between them. The right column is all the same sized rectangles with these labels inside, from top to bottom: “Priests,” “Rulers, warriors, landholders,” “Skilled workers, artisans, traders,” and “Laborers, servants.”\nEnglish caption: Figure 12.7 The Indian Caste System. The Indian caste system was a hierarchical one, with ranked varnas that, in the system’s earliest days, related to a person’s profession. Someone could move up or down within this hierarchy depending on their dharma and their accrual of karma during their lifetime. Still, such mobility came primarily through reincarnation at the end of a person’s life. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- GEER ® Bndhoisire => GEER ® Bndhoisire\n- landholders => người sở hữu đất\n- Skilled workers, artisans, => công nhân có tay nghề, nghệ nhân,\n- traders => thương nhân\n- | shim | Rothe => | shim | Rothe\n- servants => người hầu\nReturn a complete edited PNG image.",
+    "outputOcr": [],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

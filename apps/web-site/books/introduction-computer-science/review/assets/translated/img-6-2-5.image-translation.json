@@ -1,0 +1,57 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-6-2-5.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/6-2-fundamental-os-concepts.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-6-2-5.vi.png",
+  "ocr": [
+    {
+      "text": "Bit Bitz BIt3",
+      "confidence": 86,
+      "bbox": {
+        "x": 128,
+        "y": 18,
+        "w": 1022,
+        "h": 24
+      }
+    },
+    {
+      "text": "number of first sector to read operation complete or error occurred start disk read",
+      "confidence": 86,
+      "bbox": {
+        "x": 128,
+        "y": 42,
+        "w": 1022,
+        "h": 24
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Bit Bitz BIt3",
+      "target": "Bit Bitz BIt3",
+      "bbox": {
+        "x": 128,
+        "y": 18,
+        "w": 1022,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "number of first sector to read operation complete or error occurred start disk read",
+      "target": "số sector đầu tiên để đọc hoạt động hoàn tất hoặc xảy ra lỗi bắt đầu đọc đĩa",
+      "bbox": {
+        "x": 128,
+        "y": 42,
+        "w": 1022,
+        "h": 24
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.2525327403014579,
+    "averageConfidence": 86
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-3-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-3-sample-responsive-wad-with-bootstrap-react-and-node.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-11-3-2.vi.png",
+  "ocr": [
+    {
+      "text": "€ 2 C OO © 127.00.1:8080 Ww",
+      "confidence": 62,
+      "bbox": {
+        "x": 90,
+        "y": 33,
+        "w": 720,
+        "h": 24
+      }
+    },
+    {
+      "text": "{\"message\": \"Welcome to the Todo Web App.\"}",
+      "confidence": 62,
+      "bbox": {
+        "x": 90,
+        "y": 78,
+        "w": 720,
+        "h": 24
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "€ 2 C OO © 127.00.1:8080 Ww",
+      "target": "€ 2 C OO © 127.00.1:8080 Ww",
+      "bbox": {
+        "x": 90,
+        "y": 33,
+        "w": 720,
+        "h": 24
+      },
+      "overflow": false
+    },
+    {
+      "source": "{\"message\": \"Welcome to the Todo Web App.\"}",
+      "target": "Chào mừng bạn đến với Ứng dụng Web Todo.",
+      "bbox": {
+        "x": 90,
+        "y": 78,
+        "w": 720,
+        "h": 24
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.13763440860215054,
+    "averageConfidence": 62
+  }
+}

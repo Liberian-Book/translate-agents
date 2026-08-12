@@ -1,0 +1,173 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-7-5-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/7-5-applied-epistemology.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Te NE TE 5 S02",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 64,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "i AREER & fs: Fh 45 7 ZH",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 149,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "+N SE : % = 3 e\\ { fe 2",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 234,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "mls Se a = cnn ns gl",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 319,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "ny b a) Ji |} re gn TY ERE",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 404,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "ITT HE) aS (LS Li",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 489,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "LEE ol (| LL",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 574,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "17 epic MN i | es == er",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 659,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "Tr gy REEF SR er",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 744,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "EE ls SSS ST",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 829,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "fa | = © Rm Mn cei",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 914,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "3 2 we Se. a ERTS",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 999,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "we 1 pee BENELLI",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 1084,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "peevers | — dh",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 1169,
+        "w": 640,
+        "h": 43
+      }
+    },
+    {
+      "text": "- prt I= gmk) | >. =",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 1254,
+        "w": 640,
+        "h": 43
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.9681050656660413,
+    "averageConfidence": 28,
+    "entropy": 7.765475695952773,
+    "sharpness": 6.877139602655313
+  }
+}

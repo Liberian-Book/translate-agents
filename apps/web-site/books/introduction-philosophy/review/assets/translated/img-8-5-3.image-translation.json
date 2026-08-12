@@ -1,0 +1,123 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-8-5-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/8-5-aesthetics.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "= er : == Tm -",
+      "confidence": 23,
+      "bbox": {
+        "x": 80,
+        "y": 72,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "sei pee ES Pe Sa",
+      "confidence": 23,
+      "bbox": {
+        "x": 80,
+        "y": 168,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "Seam a SE Be",
+      "confidence": 23,
+      "bbox": {
+        "x": 80,
+        "y": 264,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "er A Same os Se",
+      "confidence": 23,
+      "bbox": {
+        "x": 80,
+        "y": 360,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "PET fas Te 2 eT a eT 3 Es",
+      "confidence": 23,
+      "bbox": {
+        "x": 80,
+        "y": 456,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "a HR ee Tt a = Sel",
+      "confidence": 23,
+      "bbox": {
+        "x": 80,
+        "y": 552,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "on IOI ad CIIER ww ei DNR Toe, Sg",
+      "confidence": 23,
+      "bbox": {
+        "x": 80,
+        "y": 648,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "oe ae a",
+      "confidence": 23,
+      "bbox": {
+        "x": 80,
+        "y": 744,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "at a ArEEs BEE a So",
+      "confidence": 23,
+      "bbox": {
+        "x": 80,
+        "y": 840,
+        "w": 640,
+        "h": 48
+      }
+    },
+    {
+      "text": "7 ale aE Rar Brisas es Suk LS",
+      "confidence": 23,
+      "bbox": {
+        "x": 80,
+        "y": 936,
+        "w": 640,
+        "h": 48
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.64,
+    "averageConfidence": 23,
+    "entropy": 6.992937640141463,
+    "sharpness": 3.8201857117098954
+  }
+}

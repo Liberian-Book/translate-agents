@@ -1,0 +1,278 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-6-1-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/6-1-the-workplace-environment-and-working-conditions.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-6-1-3.vi.png",
+  "ocr": [
+    {
+      "text": "EE] - i",
+      "confidence": 37,
+      "bbox": {
+        "x": 80,
+        "y": 63,
+        "w": 640,
+        "h": 42
+      }
+    },
+    {
+      "text": "Jom. A",
+      "confidence": 37,
+      "bbox": {
+        "x": 80,
+        "y": 146,
+        "w": 640,
+        "h": 42
+      }
+    },
+    {
+      "text": "YY SE = 4",
+      "confidence": 37,
+      "bbox": {
+        "x": 80,
+        "y": 229,
+        "w": 640,
+        "h": 42
+      }
+    },
+    {
+      "text": "| Be",
+      "confidence": 37,
+      "bbox": {
+        "x": 80,
+        "y": 312,
+        "w": 640,
+        "h": 42
+      }
+    },
+    {
+      "text": "er Nb x",
+      "confidence": 37,
+      "bbox": {
+        "x": 80,
+        "y": 395,
+        "w": 640,
+        "h": 42
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: Part A shows Matt Lauer. Part B shows Travis Kalanick.\nButton label: Click to enlarge image of Part A shows Matt Lauer. Part B shows Travis Kalanick.\nEnglish caption: Figure 6.4 Major figures in the news and entertainment industries, as well as Silicon Valley, have been accused of sexual harassment and often terminated or forced into retirement. Examples include Matt Lauer of NBC (a) and Travis Kalanick at Uber (b). (credit a: modification of “Hires 090402-N-0696M-018b” by Chad J. McNeeley/Wikimedia Commons, Public Domain; credit b: modification of “GES Opening Plenary on June 23, 2016” by GES Photo/Flickr, Public Domain)",
+  "metrics": {
+    "textDensity": 0.32245681381957775,
+    "averageConfidence": 37,
+    "entropy": 6.928212757775327,
+    "sharpness": 3.1332133549692944
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: Part A shows Matt Lauer. Part B shows Travis Kalanick.\nButton label: Click to enlarge image of Part A shows Matt Lauer. Part B shows Travis Kalanick.\nEnglish caption: Figure 6.4 Major figures in the news and entertainment industries, as well as Silicon Valley, have been accused of sexual harassment and often terminated or forced into retirement. Examples include Matt Lauer of NBC (a) and Travis Kalanick at Uber (b). (credit a: modification of “Hires 090402-N-0696M-018b” by Chad J. McNeeley/Wikimedia Commons, Public Domain; credit b: modification of “GES Opening Plenary on June 23, 2016” by GES Photo/Flickr, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "he. a",
+        "confidence": 35,
+        "bbox": {
+          "x": 155,
+          "y": 121,
+          "w": 1243,
+          "h": 81
+        }
+      },
+      {
+        "text": "A in 1 HOI NGH|",
+        "confidence": 35,
+        "bbox": {
+          "x": 155,
+          "y": 283,
+          "w": 1243,
+          "h": 81
+        }
+      },
+      {
+        "text": "% g KHOI NGHIEP TOAN CAU",
+        "confidence": 35,
+        "bbox": {
+          "x": 155,
+          "y": 445,
+          "w": 1243,
+          "h": 81
+        }
+      },
+      {
+        "text": "a y i HO! NGI THUONG DINH",
+        "confidence": 35,
+        "bbox": {
+          "x": 155,
+          "y": 607,
+          "w": 1243,
+          "h": 81
+        }
+      },
+      {
+        "text": "NEG AN",
+        "confidence": 35,
+        "bbox": {
+          "x": 155,
+          "y": 769,
+          "w": 1243,
+          "h": 81
+        }
+      },
+      {
+        "text": "iii ov il XN Py x ¥ Ad HOINGH] HOINGH|",
+        "confidence": 35,
+        "bbox": {
+          "x": 155,
+          "y": 931,
+          "w": 1243,
+          "h": 81
+        }
+      },
+      {
+        "text": "TT Tg \\ ap sag ve : SoA KHOI NGHIEP TOAN CAU = = KHOI NGHIEP TOAN CAl",
+        "confidence": 35,
+        "bbox": {
+          "x": 155,
+          "y": 1093,
+          "w": 1243,
+          "h": 81
+        }
+      },
+      {
+        "text": "Tha rr pete [SR ho",
+        "confidence": 35,
+        "bbox": {
+          "x": 155,
+          "y": 1255,
+          "w": 1243,
+          "h": 81
+        }
+      },
+      {
+        "text": "os ste es Sn cbs ml Xe",
+        "confidence": 35,
+        "bbox": {
+          "x": 155,
+          "y": 1417,
+          "w": 1243,
+          "h": 81
+        }
+      },
+      {
+        "text": "i { Raha 1 =",
+        "confidence": 35,
+        "bbox": {
+          "x": 155,
+          "y": 1579,
+          "w": 1243,
+          "h": 81
+        }
+      },
+      {
+        "text": "| CE :",
+        "confidence": 35,
+        "bbox": {
+          "x": 155,
+          "y": 1741,
+          "w": 1243,
+          "h": 81
+        }
+      },
+      {
+        "text": "WEE ww,",
+        "confidence": 35,
+        "bbox": {
+          "x": 155,
+          "y": 1903,
+          "w": 1243,
+          "h": 81
+        }
+      },
+      {
+        "text": "ia = = HOINGHI HOINGH|",
+        "confidence": 35,
+        "bbox": {
+          "x": 155,
+          "y": 2065,
+          "w": 1243,
+          "h": 81
+        }
+      },
+      {
+        "text": "ee] / [HORNGHIGR “TOAN CAU",
+        "confidence": 35,
+        "bbox": {
+          "x": 155,
+          "y": 2227,
+          "w": 1243,
+          "h": 81
+        }
+      },
+      {
+        "text": "is os] fo Linch ¥G oi",
+        "confidence": 35,
+        "bbox": {
+          "x": 155,
+          "y": 2389,
+          "w": 1243,
+          "h": 81
+        }
+      },
+      {
+        "text": "( A rT ——",
+        "confidence": 35,
+        "bbox": {
+          "x": 155,
+          "y": 2551,
+          "w": 1243,
+          "h": 81
+        }
+      },
+      {
+        "text": "(hs — I a 9",
+        "confidence": 35,
+        "bbox": {
+          "x": 155,
+          "y": 2713,
+          "w": 1243,
+          "h": 81
+        }
+      },
+      {
+        "text": "PRT [> » 7",
+        "confidence": 35,
+        "bbox": {
+          "x": 155,
+          "y": 2875,
+          "w": 1243,
+          "h": 81
+        }
+      },
+      {
+        "text": "pit] wa :",
+        "confidence": 35,
+        "bbox": {
+          "x": 155,
+          "y": 3037,
+          "w": 1243,
+          "h": 81
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

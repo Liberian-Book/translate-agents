@@ -1,0 +1,589 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-3-2-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/3-2-classical-indian-philosophy.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "image-edit-leftover-source-english",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "I ETE E——",
+      "confidence": 78,
+      "bbox": {
+        "x": 183,
+        "y": 284,
+        "w": 1461,
+        "h": 189
+      }
+    },
+    {
+      "text": "fy NC",
+      "confidence": 78,
+      "bbox": {
+        "x": 183,
+        "y": 663,
+        "w": 1461,
+        "h": 189
+      }
+    },
+    {
+      "text": "F \\ Prakriti \\",
+      "confidence": 78,
+      "bbox": {
+        "x": 183,
+        "y": 1042,
+        "w": 1461,
+        "h": 189
+      }
+    },
+    {
+      "text": "| Purusha (unmanifest,",
+      "confidence": 78,
+      "bbox": {
+        "x": 183,
+        "y": 1421,
+        "w": 1461,
+        "h": 189
+      }
+    },
+    {
+      "text": "consciousness) | \\ primordial",
+      "confidence": 78,
+      "bbox": {
+        "x": 183,
+        "y": 1800,
+        "w": 1461,
+        "h": 189
+      }
+    },
+    {
+      "text": "A\\ / Fy \\ “matter”) /",
+      "confidence": 78,
+      "bbox": {
+        "x": 183,
+        "y": 2179,
+        "w": 1461,
+        "h": 189
+      }
+    },
+    {
+      "text": "“LA . A",
+      "confidence": 78,
+      "bbox": {
+        "x": 183,
+        "y": 2558,
+        "w": 1461,
+        "h": 189
+      }
+    },
+    {
+      "text": "Mahat or Buddhi",
+      "confidence": 78,
+      "bbox": {
+        "x": 183,
+        "y": 2937,
+        "w": 1461,
+        "h": 189
+      }
+    },
+    {
+      "text": "(first principle of individuation,",
+      "confidence": 78,
+      "bbox": {
+        "x": 183,
+        "y": 3316,
+        "w": 1461,
+        "h": 189
+      }
+    },
+    {
+      "text": "intelligence, discrimination)",
+      "confidence": 78,
+      "bbox": {
+        "x": 183,
+        "y": 3695,
+        "w": 1461,
+        "h": 189
+      }
+    },
+    {
+      "text": "Ahamkara",
+      "confidence": 78,
+      "bbox": {
+        "x": 183,
+        "y": 4074,
+        "w": 1461,
+        "h": 189
+      }
+    },
+    {
+      "text": "(ego, allowing of self-identity)",
+      "confidence": 78,
+      "bbox": {
+        "x": 183,
+        "y": 4453,
+        "w": 1461,
+        "h": 189
+      }
+    },
+    {
+      "text": "Mind Subtle Elements",
+      "confidence": 78,
+      "bbox": {
+        "x": 183,
+        "y": 4832,
+        "w": 1461,
+        "h": 189
+      }
+    },
+    {
+      "text": "(tanmatras)",
+      "confidence": 78,
+      "bbox": {
+        "x": 183,
+        "y": 5211,
+        "w": 1461,
+        "h": 189
+      }
+    },
+    {
+      "text": "Cognitive Senses Active Instruments Gross Elements",
+      "confidence": 78,
+      "bbox": {
+        "x": 183,
+        "y": 5590,
+        "w": 1461,
+        "h": 189
+      }
+    },
+    {
+      "text": "(jnanendriyas) (karmendriyas) (bhutas)",
+      "confidence": 78,
+      "bbox": {
+        "x": 183,
+        "y": 5969,
+        "w": 1461,
+        "h": 189
+      }
+    },
+    {
+      "text": "(hearing, touching, (speaking, holding, moving, (earth, water, fire,",
+      "confidence": 78,
+      "bbox": {
+        "x": 183,
+        "y": 6348,
+        "w": 1461,
+        "h": 189
+      }
+    },
+    {
+      "text": "seeing, tasting, smelling) procreating, eliminating) air, space)",
+      "confidence": 78,
+      "bbox": {
+        "x": 183,
+        "y": 6727,
+        "w": 1461,
+        "h": 189
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "I ETE E——",
+      "normalizedSource": "I ETE E——",
+      "target": "I ETE E——",
+      "bbox": {
+        "x": 183,
+        "y": 284,
+        "w": 1461,
+        "h": 189
+      },
+      "overflow": false
+    },
+    {
+      "source": "fy NC",
+      "normalizedSource": "fy NC",
+      "target": "fy NC",
+      "bbox": {
+        "x": 183,
+        "y": 663,
+        "w": 1461,
+        "h": 189
+      },
+      "overflow": false
+    },
+    {
+      "source": "F \\ Prakriti \\",
+      "normalizedSource": "F \\ Prakriti \\",
+      "target": "F \\ Prakriti \\",
+      "bbox": {
+        "x": 183,
+        "y": 1042,
+        "w": 1461,
+        "h": 189
+      },
+      "overflow": false
+    },
+    {
+      "source": "| Purusha (unmanifest,",
+      "normalizedSource": "| Purusha (unmanifest,",
+      "target": "| Purusha (không biểu hiện,",
+      "bbox": {
+        "x": 183,
+        "y": 1421,
+        "w": 1461,
+        "h": 189
+      },
+      "overflow": false
+    },
+    {
+      "source": "consciousness) | \\ primordial",
+      "normalizedSource": "consciousness) | \\ primordial",
+      "target": "ý thức) | \\ nguyên thủy",
+      "bbox": {
+        "x": 183,
+        "y": 1800,
+        "w": 1461,
+        "h": 189
+      },
+      "overflow": false
+    },
+    {
+      "source": "A\\ / Fy \\ “matter”) /",
+      "normalizedSource": "A\\ / Fy \\ “matter”) /",
+      "target": "A\\ / Fy \\ “vật chất”) /",
+      "bbox": {
+        "x": 183,
+        "y": 2179,
+        "w": 1461,
+        "h": 189
+      },
+      "overflow": false
+    },
+    {
+      "source": "“LA . A",
+      "normalizedSource": "“LA . A",
+      "target": "“LA . A",
+      "bbox": {
+        "x": 183,
+        "y": 2558,
+        "w": 1461,
+        "h": 189
+      },
+      "overflow": false
+    },
+    {
+      "source": "Mahat or Buddhi",
+      "normalizedSource": "Mahat or Buddhi",
+      "target": "Mahat hoặc Buddhi",
+      "bbox": {
+        "x": 183,
+        "y": 2937,
+        "w": 1461,
+        "h": 189
+      },
+      "overflow": false
+    },
+    {
+      "source": "(first principle of individuation,",
+      "normalizedSource": "(first principle of individuation,",
+      "target": "(nguyên tắc đầu tiên của sự cá nhân hóa,",
+      "bbox": {
+        "x": 183,
+        "y": 3316,
+        "w": 1461,
+        "h": 189
+      },
+      "overflow": false
+    },
+    {
+      "source": "intelligence, discrimination)",
+      "normalizedSource": "intelligence, discrimination)",
+      "target": "trí tuệ, phân biệt)",
+      "bbox": {
+        "x": 183,
+        "y": 3695,
+        "w": 1461,
+        "h": 189
+      },
+      "overflow": false
+    },
+    {
+      "source": "Ahamkara",
+      "normalizedSource": "Ahamkara",
+      "target": "Ahamkara",
+      "bbox": {
+        "x": 183,
+        "y": 4074,
+        "w": 1461,
+        "h": 189
+      },
+      "overflow": false
+    },
+    {
+      "source": "(ego, allowing of self-identity)",
+      "normalizedSource": "(ego, allowing of self-identity)",
+      "target": "(cái tôi, cho phép bản sắc tự thân)",
+      "bbox": {
+        "x": 183,
+        "y": 4453,
+        "w": 1461,
+        "h": 189
+      },
+      "overflow": false
+    },
+    {
+      "source": "Mind Subtle Elements",
+      "normalizedSource": "Mind Subtle Elements",
+      "target": "Tâm Thức Tinh Tế",
+      "bbox": {
+        "x": 183,
+        "y": 4832,
+        "w": 1461,
+        "h": 189
+      },
+      "overflow": false
+    },
+    {
+      "source": "(tanmatras)",
+      "normalizedSource": "(tanmatras)",
+      "target": "(tanmatras)",
+      "bbox": {
+        "x": 183,
+        "y": 5211,
+        "w": 1461,
+        "h": 189
+      },
+      "overflow": false
+    },
+    {
+      "source": "Cognitive Senses Active Instruments Gross Elements",
+      "normalizedSource": "Cognitive Senses Active Instruments Gross Elements",
+      "target": "Giác Quan Nhận Thức Công Cụ Hoạt Động Yếu Tố Thô",
+      "bbox": {
+        "x": 183,
+        "y": 5590,
+        "w": 1461,
+        "h": 189
+      },
+      "overflow": false
+    },
+    {
+      "source": "(jnanendriyas) (karmendriyas) (bhutas)",
+      "normalizedSource": "(jnanendriyas) (karmendriyas) (bhutas)",
+      "target": "(jnanendriyas) (karmendriyas) (bhutas)",
+      "bbox": {
+        "x": 183,
+        "y": 5969,
+        "w": 1461,
+        "h": 189
+      },
+      "overflow": false
+    },
+    {
+      "source": "(hearing, touching, (speaking, holding, moving, (earth, water, fire,",
+      "normalizedSource": "(hearing, touching, (speaking, holding, moving, (earth, water, fire,",
+      "target": "(nghe, chạm, (nói, giữ, di chuyển, (đất, nước, lửa,",
+      "bbox": {
+        "x": 183,
+        "y": 6348,
+        "w": 1461,
+        "h": 189
+      },
+      "overflow": false
+    },
+    {
+      "source": "seeing, tasting, smelling) procreating, eliminating) air, space)",
+      "normalizedSource": "seeing, tasting, smelling) procreating, eliminating) air, space)",
+      "target": "nhìn, nếm, ngửi) sinh sản, loại bỏ) không khí, không gian)",
+      "bbox": {
+        "x": 183,
+        "y": 6727,
+        "w": 1461,
+        "h": 189
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 1.150453346468175,
+    "averageConfidence": 78,
+    "entropy": 2.34533966046547,
+    "sharpness": 3.3638437107162273
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- I ETE E—— => I ETE E——\n- fy NC => fy NC\n- F \\ Prakriti \\ => F \\ Prakriti \\\n- | Purusha (unmanifest, => | Purusha (không biểu hiện,\n- consciousness) | \\ primordial => ý thức) | \\ nguyên thủy\n- A\\ / Fy \\ “matter”) / => A\\ / Fy \\ “vật chất”) /\n- “LA . A => “LA . A\n- Mahat or Buddhi => Mahat hoặc Buddhi\n- (first principle of individuation, => (nguyên tắc đầu tiên của sự cá nhân hóa,\n- intelligence, discrimination) => trí tuệ, phân biệt)\n- Ahamkara => Ahamkara\n- (ego, allowing of self-identity) => (cái tôi, cho phép bản sắc tự thân)\n- Mind Subtle Elements => Tâm Thức Tinh Tế\n- (tanmatras) => (tanmatras)\n- Cognitive Senses Active Instruments Gross Elements => Giác Quan Nhận Thức Công Cụ Hoạt Động Yếu Tố Thô\n- (jnanendriyas) (karmendriyas) (bhutas) => (jnanendriyas) (karmendriyas) (bhutas)\n- (hearing, touching, (speaking, holding, moving, (earth, water, fire, => (nghe, chạm, (nói, giữ, di chuyển, (đất, nước, lửa,\n- seeing, tasting, smelling) procreating, eliminating) air, space) => nhìn, nếm, ngửi) sinh sản, loại bỏ) không khí, không gian)\nPrevious output was rejected because these English source words were still visible: prakriti, purusha, mahat, buddhi, ahamkara, tanmatras, jnanendriyas, karmendriyas, bhutas. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "y NN ye chat",
+        "confidence": 72,
+        "bbox": {
+          "x": 110,
+          "y": 171,
+          "w": 881,
+          "h": 114
+        }
+      },
+      {
+        "text": "Y thirc ca nhan (khong biéu hién,",
+        "confidence": 72,
+        "bbox": {
+          "x": 110,
+          "y": 400,
+          "w": 881,
+          "h": 114
+        }
+      },
+      {
+        "text": "(y thie) nguyén thay",
+        "confidence": 72,
+        "bbox": {
+          "x": 110,
+          "y": 629,
+          "w": 881,
+          "h": 114
+        }
+      },
+      {
+        "text": "“vat chat”)",
+        "confidence": 72,
+        "bbox": {
+          "x": 110,
+          "y": 858,
+          "w": 881,
+          "h": 114
+        }
+      },
+      {
+        "text": "Mahat hodc Buddhi",
+        "confidence": 72,
+        "bbox": {
+          "x": 110,
+          "y": 1087,
+          "w": 881,
+          "h": 114
+        }
+      },
+      {
+        "text": "(nguyén tic dau tién clia su ca nhan hoa,",
+        "confidence": 72,
+        "bbox": {
+          "x": 110,
+          "y": 1316,
+          "w": 881,
+          "h": 114
+        }
+      },
+      {
+        "text": "tri tug, phan biét)",
+        "confidence": 72,
+        "bbox": {
+          "x": 110,
+          "y": 1545,
+          "w": 881,
+          "h": 114
+        }
+      },
+      {
+        "text": "Ahamkara",
+        "confidence": 72,
+        "bbox": {
+          "x": 110,
+          "y": 1774,
+          "w": 881,
+          "h": 114
+        }
+      },
+      {
+        "text": "(ci toi, cho phép ban sc ty than)",
+        "confidence": 72,
+        "bbox": {
+          "x": 110,
+          "y": 2003,
+          "w": 881,
+          "h": 114
+        }
+      },
+      {
+        "text": "Tam Thite Yé&u T6 Tinh T&",
+        "confidence": 72,
+        "bbox": {
+          "x": 110,
+          "y": 2232,
+          "w": 881,
+          "h": 114
+        }
+      },
+      {
+        "text": "(tanmatras)",
+        "confidence": 72,
+        "bbox": {
+          "x": 110,
+          "y": 2461,
+          "w": 881,
+          "h": 114
+        }
+      },
+      {
+        "text": "Giac Quan Nhén Thirc Cong Cu Hoat Pong Yéu T6 Thé",
+        "confidence": 72,
+        "bbox": {
+          "x": 110,
+          "y": 2690,
+          "w": 881,
+          "h": 114
+        }
+      },
+      {
+        "text": "(jnanendriyas) (karmendriyas) (bhutas)",
+        "confidence": 72,
+        "bbox": {
+          "x": 110,
+          "y": 2919,
+          "w": 881,
+          "h": 114
+        }
+      },
+      {
+        "text": "(nghe, cham, (néi, git, di chuyén, (dat, nudc, lira,",
+        "confidence": 72,
+        "bbox": {
+          "x": 110,
+          "y": 3148,
+          "w": 881,
+          "h": 114
+        }
+      },
+      {
+        "text": "nhin, ném, gti) sinh san, loai bo) khong khi, khong gian)",
+        "confidence": 72,
+        "bbox": {
+          "x": 110,
+          "y": 3377,
+          "w": 881,
+          "h": 114
+        }
+      }
+    ],
+    "validation": {
+      "ok": false,
+      "reason": "image-edit-leftover-source-english",
+      "leftoverSourceWords": [
+        "mahat",
+        "buddhi",
+        "ahamkara",
+        "tanmatras",
+        "jnanendriyas",
+        "karmendriyas",
+        "bhutas"
+      ]
+    },
+    "validationAttempt": 3
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-3-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/3-introduction.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Za v4 rl ake oe -",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 96,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "Ni 7 da",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 224,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "AT Ir 57",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 352,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "BY ar Res pared TIE dT 574",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 480,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "beeen LEP RRs Fe ores ¢ ne AY",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 608,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "% 7 a origi r= Zar” iN",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 736,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "pee Hp Pe wd\"",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 864,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "RS A845 Ad 4 = fi",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 992,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "REESE Er it",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 1120,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "i pig ogg PE fo Sr Ud",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 1248,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "4 A add cs gra Cf ih ro",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 1376,
+        "w": 1400,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.7013698630136986,
+    "averageConfidence": 26,
+    "entropy": 7.134312566015069,
+    "sharpness": 2.292080679980732
+  }
+}

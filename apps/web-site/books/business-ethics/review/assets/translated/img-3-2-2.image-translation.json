@@ -1,0 +1,17 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-3-2-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/3-2-weighing-stakeholder-claims.html",
+  "decision": "error",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "not-classified"
+  },
+  "reason": "fetch failed",
+  "outputImage": null,
+  "ocr": [],
+  "translations": [],
+  "imageContext": "Image alt: This graphic shows a circle in the center with four boxes branching out from it. The circle in the center is titled “Organization.” Starting with the box at the top, it is titled “Enabling Stakeholders,” with four bullets that say “stockholders,” “legislators,” “government regulators,” and “boards of directors.” Going clockwise, the next box is “Diffused Stakeholders,” with three bullets that say “nongovernmental organizations,” “voters,” and “mass media.” Next is “Functional Stakeholders,” with six bullets that say “suppliers,” “employees,” “unions,” “customers,” “distributors,” and “retailers.” Last is “Normative Stakeholders,” with three bullets that say “competitors,” “peers,” and “professional associations.”\nButton label: Click to enlarge image of This graphic shows a circle in the center with four boxes branching out from it. The circle in the center is titled “Organization.” Starting with the box at the top, it is titled “Enabling Stakeholders,” with four bullets that say “stockholders,” “legislators,” “government regulators,” and “boards of directors.” Going clockwise, the next box is “Diffused Stakeholders,” with three bullets that say “nongovernmental organizations,” “voters,” and “mass media.” Next is “Functional Stakeholders,” with six bullets that say “suppliers,” “employees,” “unions,” “customers,” “distributors,” and “retailers.” Last is “Normative Stakeholders,” with three bullets that say “competitors,” “peers,” and “professional associations.”\nEnglish caption: Figure 3.4 Grouping stakeholders into meaningful categories according to relationship types allows an organization to prioritize stakeholders’ claims. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)"
+}

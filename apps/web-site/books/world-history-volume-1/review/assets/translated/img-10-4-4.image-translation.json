@@ -1,0 +1,246 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-10-4-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/10-4-the-margins-of-empire.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "image-edit-leftover-source-english",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "ed 2",
+      "confidence": 47,
+      "bbox": {
+        "x": 110,
+        "y": 84,
+        "w": 881,
+        "h": 56
+      }
+    },
+    {
+      "text": "al-Khatt§, | i",
+      "confidence": 47,
+      "bbox": {
+        "x": 110,
+        "y": 196,
+        "w": 881,
+        "h": 56
+      }
+    },
+    {
+      "text": "Q (al-Qatif) Lo",
+      "confidence": 47,
+      "bbox": {
+        "x": 110,
+        "y": 308,
+        "w": 881,
+        "h": 56
+      }
+    },
+    {
+      "text": "© Yathrib © al Yamamah Ni",
+      "confidence": 47,
+      "bbox": {
+        "x": 110,
+        "y": 420,
+        "w": 881,
+        "h": 56
+      }
+    },
+    {
+      "text": "(Medina) Arie",
+      "confidence": 47,
+      "bbox": {
+        "x": 110,
+        "y": 532,
+        "w": 881,
+        "h": 56
+      }
+    },
+    {
+      "text": "Mecca bh",
+      "confidence": 47,
+      "bbox": {
+        "x": 110,
+        "y": 644,
+        "w": 881,
+        "h": 56
+      }
+    },
+    {
+      "text": "$e Tif Qaryat Dhat Khal",
+      "confidence": 47,
+      "bbox": {
+        "x": 110,
+        "y": 756,
+        "w": 881,
+        "h": 56
+      }
+    },
+    {
+      "text": "® (al-Faw)",
+      "confidence": 47,
+      "bbox": {
+        "x": 110,
+        "y": 868,
+        "w": 881,
+        "h": 56
+      }
+    },
+    {
+      "text": "Xx © Najran",
+      "confidence": 47,
+      "bbox": {
+        "x": 110,
+        "y": 980,
+        "w": 881,
+        "h": 56
+      }
+    },
+    {
+      "text": "i © Sana'a",
+      "confidence": 47,
+      "bbox": {
+        "x": 110,
+        "y": 1092,
+        "w": 881,
+        "h": 56
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A drawing of a map is shown. At the left there is a white mass of land, unlabeled and showing no markings. Next, heading east, there is an area of water and then a large peninsula. The cities of Yathrib (Medina), Mecca, Ta’if, Najran, and Sana’a are labeled with a red dot along the peninsula’s west coast. Qaryat Dhat Khal (al-Faw) is labeled with a red dot in the middle southern part of the country. al-Khatt (al-Qatif), al-Yamamah, and Nizwa are labeled with a red dot along the eastern coast of the country. At the north there is an oval area highlighted purple labeled “Ghassan (Ghassanids).” To the east is a thin long oval piece of land highlighted yellow and labeled “Lakhm (Lakhmids).” A rectangle area to the east of that is highlighted green and labeled “Sasaniyan (Sassanid Empire).”\nButton label: Click to enlarge image of A drawing of a map is shown. At the left there is a white mass of land, unlabeled and showing no markings. Next, heading east, there is an area of water and then a large peninsula. The cities of Yathrib (Medina), Mecca, Ta’if, Najran, and Sana’a are labeled with a red dot along the peninsula’s west coast. Qaryat Dhat Khal (al-Faw) is labeled with a red dot in the middle southern part of the country. al-Khatt (al-Qatif), al-Yamamah, and Nizwa are labeled with a red dot along the eastern coast of the country. At the north there is an oval area highlighted purple labeled “Ghassan (Ghassanids).” To the east is a thin long oval piece of land highlighted yellow and labeled “Lakhm (Lakhmids).” A rectangle area to the east of that is highlighted green and labeled “Sasaniyan (Sassanid Empire).”\nEnglish caption: Figure 10.21 Territories of Arab Tribes. The map shows approximate locations of some of the numerous Arab tribes that competed for regional control around 600 CE. These tribes were semi-independent kingdoms susceptible to Byzantine and Sasanian influence, especially in northern Arabia. (credit: modification of work “Map of Arabia 600 AD” by “Murraytheb”/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 0.6392321336717626,
+    "averageConfidence": 47,
+    "entropy": 2.6543317001633113,
+    "sharpness": 3.5687254419731214
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A drawing of a map is shown. At the left there is a white mass of land, unlabeled and showing no markings. Next, heading east, there is an area of water and then a large peninsula. The cities of Yathrib (Medina), Mecca, Ta’if, Najran, and Sana’a are labeled with a red dot along the peninsula’s west coast. Qaryat Dhat Khal (al-Faw) is labeled with a red dot in the middle southern part of the country. al-Khatt (al-Qatif), al-Yamamah, and Nizwa are labeled with a red dot along the eastern coast of the country. At the north there is an oval area highlighted purple labeled “Ghassan (Ghassanids).” To the east is a thin long oval piece of land highlighted yellow and labeled “Lakhm (Lakhmids).” A rectangle area to the east of that is highlighted green and labeled “Sasaniyan (Sassanid Empire).”\nButton label: Click to enlarge image of A drawing of a map is shown. At the left there is a white mass of land, unlabeled and showing no markings. Next, heading east, there is an area of water and then a large peninsula. The cities of Yathrib (Medina), Mecca, Ta’if, Najran, and Sana’a are labeled with a red dot along the peninsula’s west coast. Qaryat Dhat Khal (al-Faw) is labeled with a red dot in the middle southern part of the country. al-Khatt (al-Qatif), al-Yamamah, and Nizwa are labeled with a red dot along the eastern coast of the country. At the north there is an oval area highlighted purple labeled “Ghassan (Ghassanids).” To the east is a thin long oval piece of land highlighted yellow and labeled “Lakhm (Lakhmids).” A rectangle area to the east of that is highlighted green and labeled “Sasaniyan (Sassanid Empire).”\nEnglish caption: Figure 10.21 Territories of Arab Tribes. The map shows approximate locations of some of the numerous Arab tribes that competed for regional control around 600 CE. These tribes were semi-independent kingdoms susceptible to Byzantine and Sasanian influence, especially in northern Arabia. (credit: modification of work “Map of Arabia 600 AD” by “Murraytheb”/Wikimedia Commons, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: yathrib, medina, mecca, najran, dhat, khal, al-faw, al-khatt, al-qatif, al-yamamah. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "al-Khatt ) he :",
+        "confidence": 47,
+        "bbox": {
+          "x": 154,
+          "y": 123,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "&\\ (al-Qatif) a",
+        "confidence": 47,
+        "bbox": {
+          "x": 154,
+          "y": 287,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "® Yathrib ® al-Yamamah = Ni",
+        "confidence": 47,
+        "bbox": {
+          "x": 154,
+          "y": 451,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "(Medina) LEDS)",
+        "confidence": 47,
+        "bbox": {
+          "x": 154,
+          "y": 615,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "oMecca 4",
+        "confidence": 47,
+        "bbox": {
+          "x": 154,
+          "y": 779,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "® Ta’if Qaryat Dhat Khal",
+        "confidence": 47,
+        "bbox": {
+          "x": 154,
+          "y": 943,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "® (al-Faw)",
+        "confidence": 47,
+        "bbox": {
+          "x": 154,
+          "y": 1107,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "LS © Najran",
+        "confidence": 47,
+        "bbox": {
+          "x": 154,
+          "y": 1271,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "& e Sana'a",
+        "confidence": 47,
+        "bbox": {
+          "x": 154,
+          "y": 1435,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "Ea",
+        "confidence": 47,
+        "bbox": {
+          "x": 154,
+          "y": 1599,
+          "w": 1230,
+          "h": 82
+        }
+      }
+    ],
+    "validation": {
+      "ok": false,
+      "reason": "image-edit-leftover-source-english",
+      "leftoverSourceWords": [
+        "yathrib",
+        "medina",
+        "najran",
+        "qaryat",
+        "dhat",
+        "khal",
+        "al-faw",
+        "al-khatt",
+        "al-qatif",
+        "al-yamamah"
+      ]
+    },
+    "validationAttempt": 3
+  }
+}

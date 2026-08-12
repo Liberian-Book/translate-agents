@@ -1,0 +1,17 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-7-1-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/7-1-loyalty-to-the-company.html",
+  "decision": "error",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "not-classified"
+  },
+  "reason": "fetch failed",
+  "outputImage": null,
+  "ocr": [],
+  "translations": [],
+  "imageContext": "Image alt: This graphic shows words related to copyright. The words “copyright,” “registered trademark,” and “patent” are larger than the rest. The words “common law protections,” “patent pending,” “statutory protections,” “proprietary information,” “trade secret,” and “intellectual property” are also in the graphic.\nButton label: Click to enlarge image of This graphic shows words related to copyright. The words “copyright,” “registered trademark,” and “patent” are larger than the rest. The words “common law protections,” “patent pending,” “statutory protections,” “proprietary information,” “trade secret,” and “intellectual property” are also in the graphic.\nEnglish caption: Figure 7.3 Registered trademarks and content covered by patents and copyrights are protected by law, but trade secrets have no official status and so do not enjoy the same level of federal protection. Thus, companies generally protect trade secrets internally, usually with employment agreements or contracts. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)"
+}

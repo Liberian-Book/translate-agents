@@ -1,0 +1,418 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-11-2-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/11-2-the-arab-islamic-conquests-and-the-first-islamic-states.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-11-2-2.vi.png",
+  "ocr": [
+    {
+      "text": "ee LE",
+      "confidence": 31,
+      "bbox": {
+        "x": 105,
+        "y": 61,
+        "w": 841,
+        "h": 41
+      }
+    },
+    {
+      "text": "P or ~~ A hy 5",
+      "confidence": 31,
+      "bbox": {
+        "x": 105,
+        "y": 142,
+        "w": 841,
+        "h": 41
+      }
+    },
+    {
+      "text": "[Ta it A RA",
+      "confidence": 31,
+      "bbox": {
+        "x": 105,
+        "y": 223,
+        "w": 841,
+        "h": 41
+      }
+    },
+    {
+      "text": "LL ain We) \\ A",
+      "confidence": 31,
+      "bbox": {
+        "x": 105,
+        "y": 304,
+        "w": 841,
+        "h": 41
+      }
+    },
+    {
+      "text": "b.. {or f— ar | a x",
+      "confidence": 31,
+      "bbox": {
+        "x": 105,
+        "y": 385,
+        "w": 841,
+        "h": 41
+      }
+    },
+    {
+      "text": "fi dy aT Fm Wf SF FT",
+      "confidence": 31,
+      "bbox": {
+        "x": 105,
+        "y": 466,
+        "w": 841,
+        "h": 41
+      }
+    },
+    {
+      "text": ": = Eo n, : 3 . vr \\",
+      "confidence": 31,
+      "bbox": {
+        "x": 105,
+        "y": 547,
+        "w": 841,
+        "h": 41
+      }
+    },
+    {
+      "text": "Re — Zi",
+      "confidence": 31,
+      "bbox": {
+        "x": 105,
+        "y": 628,
+        "w": 841,
+        "h": 41
+      }
+    },
+    {
+      "text": "- wl ri ~- Z |",
+      "confidence": 31,
+      "bbox": {
+        "x": 105,
+        "y": 709,
+        "w": 841,
+        "h": 41
+      }
+    },
+    {
+      "text": "| EPA Gy hy flee 2",
+      "confidence": 31,
+      "bbox": {
+        "x": 105,
+        "y": 790,
+        "w": 841,
+        "h": 41
+      }
+    },
+    {
+      "text": "Gi Re \\& :",
+      "confidence": 31,
+      "bbox": {
+        "x": 105,
+        "y": 871,
+        "w": 841,
+        "h": 41
+      }
+    },
+    {
+      "text": "Bf Ny Te ol £ /a",
+      "confidence": 31,
+      "bbox": {
+        "x": 105,
+        "y": 952,
+        "w": 841,
+        "h": 41
+      }
+    },
+    {
+      "text": "— Lb ys 3 a",
+      "confidence": 31,
+      "bbox": {
+        "x": 105,
+        "y": 1033,
+        "w": 841,
+        "h": 41
+      }
+    },
+    {
+      "text": "or 2",
+      "confidence": 31,
+      "bbox": {
+        "x": 105,
+        "y": 1114,
+        "w": 841,
+        "h": 41
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: An image of two gold coins is shown. Both are oval in shape, gold colored, with a circular ridge on the perimeter of the coin, with parts faded and missing. (a) The one on the left depicts two men’s heads with hair to their ears, large round eyes, a thin nose, beard, and detailed robes. A cross is shown between the heads. The letters “HERACLIO CONSVLI BA” are shown surrounding the heads around the top. (b) The coin on the right shows a cross with four horizonal lines underneath, each getting longer as it heads down. The letters “VICTORIA” are on the left perimeter and the letters “CONSABIA” are on the right perimeter. Below the lines are the letters “CONOB.”\nButton label: Click to enlarge image of An image of two gold coins is shown. Both are oval in shape, gold colored, with a circular ridge on the perimeter of the coin, with parts faded and missing. (a) The one on the left depicts two men’s heads with hair to their ears, large round eyes, a thin nose, beard, and detailed robes. A cross is shown between the heads. The letters “HERACLIO CONSVLI BA” are shown surrounding the heads around the top. (b) The coin on the right shows a cross with four horizonal lines underneath, each getting longer as it heads down. The letters “VICTORIA” are on the left perimeter and the letters “CONSABIA” are on the right perimeter. Below the lines are the letters “CONOB.”\nEnglish caption: Figure 11.14 Byzantine Gold Solidus. A gold coin called a solidus from about 608 CE shows the (a) Byzantine emperor Heraclius the Elder and his son on the front and (b) a Christian cross on the reverse. The coin, minted by Byzantine rulers in today’s Turkey or Cyprus, includes inscriptions in Greek celebrating victory over a usurper. (credit: “Revolt of the Heraclii solidus, 608 AD” by Classical Numismatic Group, LLC/Wikimedia Commons, CC BY 2.5)",
+  "metrics": {
+    "textDensity": 0.9023756960813819,
+    "averageConfidence": 31,
+    "entropy": 6.002133654503268,
+    "sharpness": 4.009753087061402
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: An image of two gold coins is shown. Both are oval in shape, gold colored, with a circular ridge on the perimeter of the coin, with parts faded and missing. (a) The one on the left depicts two men’s heads with hair to their ears, large round eyes, a thin nose, beard, and detailed robes. A cross is shown between the heads. The letters “HERACLIO CONSVLI BA” are shown surrounding the heads around the top. (b) The coin on the right shows a cross with four horizonal lines underneath, each getting longer as it heads down. The letters “VICTORIA” are on the left perimeter and the letters “CONSABIA” are on the right perimeter. Below the lines are the letters “CONOB.”\nButton label: Click to enlarge image of An image of two gold coins is shown. Both are oval in shape, gold colored, with a circular ridge on the perimeter of the coin, with parts faded and missing. (a) The one on the left depicts two men’s heads with hair to their ears, large round eyes, a thin nose, beard, and detailed robes. A cross is shown between the heads. The letters “HERACLIO CONSVLI BA” are shown surrounding the heads around the top. (b) The coin on the right shows a cross with four horizonal lines underneath, each getting longer as it heads down. The letters “VICTORIA” are on the left perimeter and the letters “CONSABIA” are on the right perimeter. Below the lines are the letters “CONOB.”\nEnglish caption: Figure 11.14 Byzantine Gold Solidus. A gold coin called a solidus from about 608 CE shows the (a) Byzantine emperor Heraclius the Elder and his son on the front and (b) a Christian cross on the reverse. The coin, minted by Byzantine rulers in today’s Turkey or Cyprus, includes inscriptions in Greek celebrating victory over a usurper. (credit: “Revolt of the Heraclii solidus, 608 AD” by Classical Numismatic Group, LLC/Wikimedia Commons, CC BY 2.5)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "AANA —",
+        "confidence": 27,
+        "bbox": {
+          "x": 181,
+          "y": 105,
+          "w": 1444,
+          "h": 70
+        }
+      },
+      {
+        "text": "pp 1 a en <5 Rh _ — Se Ta",
+        "confidence": 27,
+        "bbox": {
+          "x": 181,
+          "y": 244,
+          "w": 1444,
+          "h": 70
+        }
+      },
+      {
+        "text": "We ATE CA By : £7 Ci Fo par Fe ae S% SR",
+        "confidence": 27,
+        "bbox": {
+          "x": 181,
+          "y": 383,
+          "w": 1444,
+          "h": 70
+        }
+      },
+      {
+        "text": "Pct ip Tor IP Ov CHEN",
+        "confidence": 27,
+        "bbox": {
+          "x": 181,
+          "y": 522,
+          "w": 1444,
+          "h": 70
+        }
+      },
+      {
+        "text": "A 8 | SR 2 NE) AQ wi | he Ni",
+        "confidence": 27,
+        "bbox": {
+          "x": 181,
+          "y": 661,
+          "w": 1444,
+          "h": 70
+        }
+      },
+      {
+        "text": "(es. 4 Qe’ An R Ir HI NG Is \\ Fad A Nr Tas Ae 4 Ny AN",
+        "confidence": 27,
+        "bbox": {
+          "x": 181,
+          "y": 800,
+          "w": 1444,
+          "h": 70
+        }
+      },
+      {
+        "text": "£3 f LS Ik ih A ~ (AR) gh Jd QF Gr = ; 2 res q i, A ETN",
+        "confidence": 27,
+        "bbox": {
+          "x": 181,
+          "y": 939,
+          "w": 1444,
+          "h": 70
+        }
+      },
+      {
+        "text": "3 ; Hs k STC i 5 = s . ZA RY J 5 Leas E- kd A “a7 we C ) i #0)",
+        "confidence": 27,
+        "bbox": {
+          "x": 181,
+          "y": 1078,
+          "w": 1444,
+          "h": 70
+        }
+      },
+      {
+        "text": "Pe pe HES Ls Sa 63 a ¥ p 348 MEK AN =v 5 b i",
+        "confidence": 27,
+        "bbox": {
+          "x": 181,
+          "y": 1217,
+          "w": 1444,
+          "h": 70
+        }
+      },
+      {
+        "text": "he Id AL EREaN(Yr TY so SRL aR “2%",
+        "confidence": 27,
+        "bbox": {
+          "x": 181,
+          "y": 1356,
+          "w": 1444,
+          "h": 70
+        }
+      },
+      {
+        "text": "Mr ea BTN Cr fo =) loo) 2 BE hay aE CL i ES ETRE 1]",
+        "confidence": 27,
+        "bbox": {
+          "x": 181,
+          "y": 1495,
+          "w": 1444,
+          "h": 70
+        }
+      },
+      {
+        "text": "’ RY je wi ! Vel NRE : 5 (el id 3% Zz, Eh errr J . “ RB gr XC. i b",
+        "confidence": 27,
+        "bbox": {
+          "x": 181,
+          "y": 1634,
+          "w": 1444,
+          "h": 70
+        }
+      },
+      {
+        "text": "a VL ales pie A ERE sii Bb mC 4) & hat) Oi EN",
+        "confidence": 27,
+        "bbox": {
+          "x": 181,
+          "y": 1773,
+          "w": 1444,
+          "h": 70
+        }
+      },
+      {
+        "text": "LR ON BR eee, = £",
+        "confidence": 27,
+        "bbox": {
+          "x": 181,
+          "y": 1912,
+          "w": 1444,
+          "h": 70
+        }
+      },
+      {
+        "text": "se Ye oom A IE Wa HE Co m—— [NER CR",
+        "confidence": 27,
+        "bbox": {
+          "x": 181,
+          "y": 2051,
+          "w": 1444,
+          "h": 70
+        }
+      },
+      {
+        "text": "3 ih Wo A iii — A ——— ~All y VR TL wha Nalin, © iY 8, Ly",
+        "confidence": 27,
+        "bbox": {
+          "x": 181,
+          "y": 2190,
+          "w": 1444,
+          "h": 70
+        }
+      },
+      {
+        "text": "BARC RTE lh \\ yi al A) us Bs A 5 ¢ ¥. . ’ y A",
+        "confidence": 27,
+        "bbox": {
+          "x": 181,
+          "y": 2329,
+          "w": 1444,
+          "h": 70
+        }
+      },
+      {
+        "text": "NR AE,",
+        "confidence": 27,
+        "bbox": {
+          "x": 181,
+          "y": 2468,
+          "w": 1444,
+          "h": 70
+        }
+      },
+      {
+        "text": "CNT MONIES QO Cag PRR SNE",
+        "confidence": 27,
+        "bbox": {
+          "x": 181,
+          "y": 2607,
+          "w": 1444,
+          "h": 70
+        }
+      },
+      {
+        "text": "a Ca The * Fa wes ig et oi 3 Ee ad 4",
+        "confidence": 27,
+        "bbox": {
+          "x": 181,
+          "y": 2746,
+          "w": 1444,
+          "h": 70
+        }
+      },
+      {
+        "text": "NDAD O KO-NOP 75",
+        "confidence": 27,
+        "bbox": {
+          "x": 181,
+          "y": 2885,
+          "w": 1444,
+          "h": 70
+        }
+      },
+      {
+        "text": "- TN SV W% I\" Sigs R 2% i I= ohn} DK. a 24",
+        "confidence": 27,
+        "bbox": {
+          "x": 181,
+          "y": 3024,
+          "w": 1444,
+          "h": 70
+        }
+      },
+      {
+        "text": "TN (Phra Bos V5",
+        "confidence": 27,
+        "bbox": {
+          "x": 181,
+          "y": 3163,
+          "w": 1444,
+          "h": 70
+        }
+      },
+      {
+        "text": "Ba ge",
+        "confidence": 27,
+        "bbox": {
+          "x": 181,
+          "y": 3302,
+          "w": 1444,
+          "h": 70
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

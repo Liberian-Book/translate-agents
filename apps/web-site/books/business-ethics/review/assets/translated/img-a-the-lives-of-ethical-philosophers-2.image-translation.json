@@ -1,0 +1,34 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-a-the-lives-of-ethical-philosophers-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/a-the-lives-of-ethical-philosophers.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Cowardice Courage Foolhardiness",
+      "confidence": 92,
+      "bbox": {
+        "x": 110,
+        "y": 11,
+        "w": 880,
+        "h": 24
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: The figure shows a double-ended arrow with three words above the arrow. The word cowardice is on the left end and the word foolhardiness is on the right end. The word courage appears about two-thirds of the way across the arrow, closer to foolhardiness than cowardice.\nButton label: Click to enlarge image of The figure shows a double-ended arrow with three words above the arrow. The word cowardice is on the left end and the word foolhardiness is on the right end. The word courage appears about two-thirds of the way across the arrow, closer to foolhardiness than cowardice.\nEnglish caption: Figure A2 (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.2064516129032258,
+    "averageConfidence": 92,
+    "entropy": 2.2770409169897903,
+    "sharpness": 3.96018234891713
+  }
+}

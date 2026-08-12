@@ -1,0 +1,204 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-13-3-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/13-3-big-cloud-paas-mainstream-capabilities.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-13-3-2.vi.png",
+  "ocr": [
+    {
+      "text": "Data Lake analytics",
+      "confidence": 92,
+      "bbox": {
+        "x": 120,
+        "y": 67,
+        "w": 960,
+        "h": 45
+      }
+    },
+    {
+      "text": "HDInsight",
+      "confidence": 92,
+      "bbox": {
+        "x": 120,
+        "y": 157,
+        "w": 960,
+        "h": 45
+      }
+    },
+    {
+      "text": "Spark, Hadoop, Hive, PIG, ...",
+      "confidence": 92,
+      "bbox": {
+        "x": 120,
+        "y": 247,
+        "w": 960,
+        "h": 45
+      }
+    },
+    {
+      "text": "U-SQL",
+      "confidence": 92,
+      "bbox": {
+        "x": 120,
+        "y": 337,
+        "w": 960,
+        "h": 45
+      }
+    },
+    {
+      "text": "YARN |",
+      "confidence": 92,
+      "bbox": {
+        "x": 120,
+        "y": 427,
+        "w": 960,
+        "h": 45
+      }
+    },
+    {
+      "text": "| HDFS",
+      "confidence": 92,
+      "bbox": {
+        "x": 120,
+        "y": 517,
+        "w": 960,
+        "h": 45
+      }
+    },
+    {
+      "text": "webHDFS",
+      "confidence": 92,
+      "bbox": {
+        "x": 120,
+        "y": 607,
+        "w": 960,
+        "h": 45
+      }
+    },
+    {
+      "text": "Azure Data Lake Store",
+      "confidence": 92,
+      "bbox": {
+        "x": 120,
+        "y": 697,
+        "w": 960,
+        "h": 45
+      }
+    },
+    {
+      "text": "Structured and unstructured big data",
+      "confidence": 92,
+      "bbox": {
+        "x": 120,
+        "y": 787,
+        "w": 960,
+        "h": 45
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Data Lake analytics",
+      "target": "Phân tích Data Lake",
+      "bbox": {
+        "x": 120,
+        "y": 67,
+        "w": 960,
+        "h": 45
+      },
+      "overflow": false
+    },
+    {
+      "source": "HDInsight",
+      "target": "HDInsight",
+      "bbox": {
+        "x": 120,
+        "y": 157,
+        "w": 960,
+        "h": 45
+      },
+      "overflow": false
+    },
+    {
+      "source": "Spark, Hadoop, Hive, PIG, ...",
+      "target": "Spark, Hadoop, Hive, PIG, ...",
+      "bbox": {
+        "x": 120,
+        "y": 247,
+        "w": 960,
+        "h": 45
+      },
+      "overflow": false
+    },
+    {
+      "source": "U-SQL",
+      "target": "U-SQL",
+      "bbox": {
+        "x": 120,
+        "y": 337,
+        "w": 960,
+        "h": 45
+      },
+      "overflow": false
+    },
+    {
+      "source": "YARN |",
+      "target": "YARN",
+      "bbox": {
+        "x": 120,
+        "y": 427,
+        "w": 960,
+        "h": 45
+      },
+      "overflow": false
+    },
+    {
+      "source": "| HDFS",
+      "target": "HDFS",
+      "bbox": {
+        "x": 120,
+        "y": 517,
+        "w": 960,
+        "h": 45
+      },
+      "overflow": false
+    },
+    {
+      "source": "webHDFS",
+      "target": "webHDFS",
+      "bbox": {
+        "x": 120,
+        "y": 607,
+        "w": 960,
+        "h": 45
+      },
+      "overflow": false
+    },
+    {
+      "source": "Azure Data Lake Store",
+      "target": "Azure Data Lake Store",
+      "bbox": {
+        "x": 120,
+        "y": 697,
+        "w": 960,
+        "h": 45
+      },
+      "overflow": false
+    },
+    {
+      "source": "Structured and unstructured big data",
+      "target": "Dữ liệu lớn có cấu trúc và không có cấu trúc",
+      "bbox": {
+        "x": 120,
+        "y": 787,
+        "w": 960,
+        "h": 45
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.5765124555160143,
+    "averageConfidence": 92
+  }
+}

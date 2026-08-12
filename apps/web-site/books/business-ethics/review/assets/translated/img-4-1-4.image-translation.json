@@ -1,0 +1,17 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-4-1-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/4-1-corporate-law-and-corporate-responsibility.html",
+  "decision": "error",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "not-classified"
+  },
+  "reason": "fetch failed",
+  "outputImage": null,
+  "ocr": [],
+  "translations": [],
+  "imageContext": "Image alt: A chart titled “Relative Profitability of Socially Responsible and Other Index Mutual Funds”. Five header columns are labeled from left to right: “Index or Fund”, “Holdings (Number of Different Stocks Held in Fund)”, “Year-to-Date Return”, “2-Year Return”, and “5-Year Return”. Five rows follow, from left to right. Row 1: “S&P 500 Index”, “500”, “8.2%”, “7.4%”, and “81.4%”. Row 2: “NASDAQ Index”, “3,176 6.5%”, “12.5%”, and “108%”. Rows 1 and 2 are also labeled “General index fund”. Row 3: “Vanguard FTSE Social Index”, “407”, “7.7%”, “5.7%”, and “96.7%”. Row 4: “TIAA-CREF Social”, “793”, “12.1%”, “0.1%”, and “66.8%”. Row 5: “iShares Social”, “403”, “8.1%”, “6.5%”, and “78.8%”. Rows 3, 4, and 5 are also labeled “Social index fund”.\nButton label: Click to enlarge image of A chart titled “Relative Profitability of Socially Responsible and Other Index Mutual Funds”. Five header columns are labeled from left to right: “Index or Fund”, “Holdings (Number of Different Stocks Held in Fund)”, “Year-to-Date Return”, “2-Year Return”, and “5-Year Return”. Five rows follow, from left to right. Row 1: “S&P 500 Index”, “500”, “8.2%”, “7.4%”, and “81.4%”. Row 2: “NASDAQ Index”, “3,176 6.5%”, “12.5%”, and “108%”. Rows 1 and 2 are also labeled “General index fund”. Row 3: “Vanguard FTSE Social Index”, “407”, “7.7%”, “5.7%”, and “96.7%”. Row 4: “TIAA-CREF Social”, “793”, “12.1%”, “0.1%”, and “66.8%”. Row 5: “iShares Social”, “403”, “8.1%”, “6.5%”, and “78.8%”. Rows 3, 4, and 5 are also labeled “Social index fund”.\nEnglish caption: Figure 4.5 This chart demonstrates that social responsibility can be profitable. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)"
+}

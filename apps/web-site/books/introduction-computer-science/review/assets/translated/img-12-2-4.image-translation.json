@@ -1,0 +1,351 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-12-2-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/12-2-cloud-based-and-cloud-native-applications-deployment-technologies.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-12-2-4.vi.png",
+  "ocr": [
+    {
+      "text": "On-premise SaaS",
+      "confidence": 69,
+      "bbox": {
+        "x": 110,
+        "y": 90,
+        "w": 880,
+        "h": 60
+      }
+    },
+    {
+      "text": "Software Software",
+      "confidence": 69,
+      "bbox": {
+        "x": 110,
+        "y": 209,
+        "w": 880,
+        "h": 60
+      }
+    },
+    {
+      "text": "Application Application",
+      "confidence": 69,
+      "bbox": {
+        "x": 110,
+        "y": 328,
+        "w": 880,
+        "h": 60
+      }
+    },
+    {
+      "text": "Data Data",
+      "confidence": 69,
+      "bbox": {
+        "x": 110,
+        "y": 447,
+        "w": 880,
+        "h": 60
+      }
+    },
+    {
+      "text": "Platform Platform",
+      "confidence": 69,
+      "bbox": {
+        "x": 110,
+        "y": 566,
+        "w": 880,
+        "h": 60
+      }
+    },
+    {
+      "text": "& Runtime environment Runtime environment",
+      "confidence": 69,
+      "bbox": {
+        "x": 110,
+        "y": 685,
+        "w": 880,
+        "h": 60
+      }
+    },
+    {
+      "text": "Cc",
+      "confidence": 69,
+      "bbox": {
+        "x": 110,
+        "y": 804,
+        "w": 880,
+        "h": 60
+      }
+    },
+    {
+      "text": "g Middleware Middleware ”",
+      "confidence": 69,
+      "bbox": {
+        "x": 110,
+        "y": 923,
+        "w": 880,
+        "h": 60
+      }
+    },
+    {
+      "text": "g Operating system Operating system g",
+      "confidence": 69,
+      "bbox": {
+        "x": 110,
+        "y": 1042,
+        "w": 880,
+        "h": 60
+      }
+    },
+    {
+      "text": "| Infrastructure Infrastructure 5",
+      "confidence": 69,
+      "bbox": {
+        "x": 110,
+        "y": 1161,
+        "w": 880,
+        "h": 60
+      }
+    },
+    {
+      "text": "Virtualization Virtualization 3",
+      "confidence": 69,
+      "bbox": {
+        "x": 110,
+        "y": 1280,
+        "w": 880,
+        "h": 60
+      }
+    },
+    {
+      "text": "Servers I Servers 9",
+      "confidence": 69,
+      "bbox": {
+        "x": 110,
+        "y": 1399,
+        "w": 880,
+        "h": 60
+      }
+    },
+    {
+      "text": "$ (Compute/GPU/HPC) $ (Compute/GPU/HPC) H",
+      "confidence": 69,
+      "bbox": {
+        "x": 110,
+        "y": 1518,
+        "w": 880,
+        "h": 60
+      }
+    },
+    {
+      "text": "i] Storage o Storage =",
+      "confidence": 69,
+      "bbox": {
+        "x": 110,
+        "y": 1637,
+        "w": 880,
+        "h": 60
+      }
+    },
+    {
+      "text": "z (Object/block/file) z (Object/block/file) H",
+      "confidence": 69,
+      "bbox": {
+        "x": 110,
+        "y": 1756,
+        "w": 880,
+        "h": 60
+      }
+    },
+    {
+      "text": "oO",
+      "confidence": 69,
+      "bbox": {
+        "x": 110,
+        "y": 1875,
+        "w": 880,
+        "h": 60
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "On-premise SaaS",
+      "target": "SaaS tại chỗ",
+      "bbox": {
+        "x": 110,
+        "y": 90,
+        "w": 880,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "Software Software",
+      "target": "Phần mềm",
+      "bbox": {
+        "x": 110,
+        "y": 209,
+        "w": 880,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "Application Application",
+      "target": "Ứng dụng",
+      "bbox": {
+        "x": 110,
+        "y": 328,
+        "w": 880,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "Data Data",
+      "target": "Dữ liệu Dữ liệu",
+      "bbox": {
+        "x": 110,
+        "y": 447,
+        "w": 880,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "Platform Platform",
+      "target": "Nền tảng",
+      "bbox": {
+        "x": 110,
+        "y": 566,
+        "w": 880,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "& Runtime environment Runtime environment",
+      "target": "Môi trường thực thi",
+      "bbox": {
+        "x": 110,
+        "y": 685,
+        "w": 880,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "Cc",
+      "target": "Cc",
+      "bbox": {
+        "x": 110,
+        "y": 804,
+        "w": 880,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "g Middleware Middleware ”",
+      "target": "g Phần mềm trung gian",
+      "bbox": {
+        "x": 110,
+        "y": 923,
+        "w": 880,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "g Operating system Operating system g",
+      "target": "Hệ điều hành",
+      "bbox": {
+        "x": 110,
+        "y": 1042,
+        "w": 880,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "| Infrastructure Infrastructure 5",
+      "target": "Cơ sở hạ tầng 5",
+      "bbox": {
+        "x": 110,
+        "y": 1161,
+        "w": 880,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "Virtualization Virtualization 3",
+      "target": "Ảo hóa 3",
+      "bbox": {
+        "x": 110,
+        "y": 1280,
+        "w": 880,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "Servers I Servers 9",
+      "target": "Máy chủ I Máy chủ 9",
+      "bbox": {
+        "x": 110,
+        "y": 1399,
+        "w": 880,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "$ (Compute/GPU/HPC) $ (Compute/GPU/HPC) H",
+      "target": "$ (Tính toán/GPU/HPC) $ (Tính toán/GPU/HPC) H",
+      "bbox": {
+        "x": 110,
+        "y": 1518,
+        "w": 880,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "i] Storage o Storage =",
+      "target": "Lưu trữ",
+      "bbox": {
+        "x": 110,
+        "y": 1637,
+        "w": 880,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "z (Object/block/file) z (Object/block/file) H",
+      "target": "z (Đối tượng/bloc/tệp) z (Đối tượng/bloc/tệp) H",
+      "bbox": {
+        "x": 110,
+        "y": 1756,
+        "w": 880,
+        "h": 60
+      },
+      "overflow": false
+    },
+    {
+      "source": "oO",
+      "target": "oO",
+      "bbox": {
+        "x": 110,
+        "y": 1875,
+        "w": 880,
+        "h": 60
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 1.029490616621984,
+    "averageConfidence": 69
+  }
+}

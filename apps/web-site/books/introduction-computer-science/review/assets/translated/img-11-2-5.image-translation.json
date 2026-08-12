@@ -1,0 +1,246 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-2-5.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-2-sample-responsive-wad-with-bootstrap-and-django.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-11-2-5.vi.png",
+  "ocr": [
+    {
+      "text": "\\/ todo",
+      "confidence": 62,
+      "bbox": {
+        "x": 27,
+        "y": 68,
+        "w": 216,
+        "h": 45
+      }
+    },
+    {
+      "text": "> _pycache__",
+      "confidence": 62,
+      "bbox": {
+        "x": 27,
+        "y": 158,
+        "w": 216,
+        "h": 45
+      }
+    },
+    {
+      "text": "> migrations",
+      "confidence": 62,
+      "bbox": {
+        "x": 27,
+        "y": 248,
+        "w": 216,
+        "h": 45
+      }
+    },
+    {
+      "text": "> static",
+      "confidence": 62,
+      "bbox": {
+        "x": 27,
+        "y": 338,
+        "w": 216,
+        "h": 45
+      }
+    },
+    {
+      "text": "= _init_.py",
+      "confidence": 62,
+      "bbox": {
+        "x": 27,
+        "y": 428,
+        "w": 216,
+        "h": 45
+      }
+    },
+    {
+      "text": "admin.py",
+      "confidence": 62,
+      "bbox": {
+        "x": 27,
+        "y": 518,
+        "w": 216,
+        "h": 45
+      }
+    },
+    {
+      "text": "® apps.py",
+      "confidence": 62,
+      "bbox": {
+        "x": 27,
+        "y": 608,
+        "w": 216,
+        "h": 45
+      }
+    },
+    {
+      "text": "= models.py",
+      "confidence": 62,
+      "bbox": {
+        "x": 27,
+        "y": 698,
+        "w": 216,
+        "h": 45
+      }
+    },
+    {
+      "text": "= tests.py",
+      "confidence": 62,
+      "bbox": {
+        "x": 27,
+        "y": 788,
+        "w": 216,
+        "h": 45
+      }
+    },
+    {
+      "text": "= urls.py",
+      "confidence": 62,
+      "bbox": {
+        "x": 27,
+        "y": 878,
+        "w": 216,
+        "h": 45
+      }
+    },
+    {
+      "text": "= views.py",
+      "confidence": 62,
+      "bbox": {
+        "x": 27,
+        "y": 968,
+        "w": 216,
+        "h": 45
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "\\/ todo",
+      "target": "\\/ làm dở",
+      "bbox": {
+        "x": 27,
+        "y": 68,
+        "w": 216,
+        "h": 45
+      },
+      "overflow": false
+    },
+    {
+      "source": "> _pycache__",
+      "target": "__pycache__",
+      "bbox": {
+        "x": 27,
+        "y": 158,
+        "w": 216,
+        "h": 45
+      },
+      "overflow": false
+    },
+    {
+      "source": "> migrations",
+      "target": "di cư",
+      "bbox": {
+        "x": 27,
+        "y": 248,
+        "w": 216,
+        "h": 45
+      },
+      "overflow": false
+    },
+    {
+      "source": "> static",
+      "target": "tĩnh",
+      "bbox": {
+        "x": 27,
+        "y": 338,
+        "w": 216,
+        "h": 45
+      },
+      "overflow": false
+    },
+    {
+      "source": "= _init_.py",
+      "target": "__init__.py",
+      "bbox": {
+        "x": 27,
+        "y": 428,
+        "w": 216,
+        "h": 45
+      },
+      "overflow": false
+    },
+    {
+      "source": "admin.py",
+      "target": "admin.py",
+      "bbox": {
+        "x": 27,
+        "y": 518,
+        "w": 216,
+        "h": 45
+      },
+      "overflow": false
+    },
+    {
+      "source": "® apps.py",
+      "target": "® apps.py",
+      "bbox": {
+        "x": 27,
+        "y": 608,
+        "w": 216,
+        "h": 45
+      },
+      "overflow": false
+    },
+    {
+      "source": "= models.py",
+      "target": "= models.py",
+      "bbox": {
+        "x": 27,
+        "y": 698,
+        "w": 216,
+        "h": 45
+      },
+      "overflow": false
+    },
+    {
+      "source": "= tests.py",
+      "target": "= tests.py",
+      "bbox": {
+        "x": 27,
+        "y": 788,
+        "w": 216,
+        "h": 45
+      },
+      "overflow": false
+    },
+    {
+      "source": "= urls.py",
+      "target": "= urls.py",
+      "bbox": {
+        "x": 27,
+        "y": 878,
+        "w": 216,
+        "h": 45
+      },
+      "overflow": false
+    },
+    {
+      "source": "= views.py",
+      "target": "= views.py",
+      "bbox": {
+        "x": 27,
+        "y": 968,
+        "w": 216,
+        "h": 45
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.7033747779751333,
+    "averageConfidence": 62
+  }
+}

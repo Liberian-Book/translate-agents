@@ -1,0 +1,163 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-2-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/2-introduction.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "AY ray pr",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 96,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "£ L& Ea. \\ T LEN LE HN —_—",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 224,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "op wad re AYRE AN — I",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 352,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "/ ped = 7 PRA oid ” 4 RT TRL \\ DR",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 480,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "/ 72a ig or Sl a |",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 608,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "( ‘ee? S \\e > hi SON '",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 736,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "vt 7 . y 4 WW; hc 3 AACN A",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 864,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "VARS OY)",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 992,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "’ ~ 5. i wg a",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 1120,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "77 Aad | a 3 - LF NeW",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 1248,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "y I > == NE",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 1376,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "EY )",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 1504,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "oy a iW 4",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 1632,
+        "w": 1400,
+        "h": 64
+      }
+    },
+    {
+      "text": "¢ _— TE ——",
+      "confidence": 32,
+      "bbox": {
+        "x": 175,
+        "y": 1760,
+        "w": 1400,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.8926525529265256,
+    "averageConfidence": 32,
+    "entropy": 6.7935800947016105,
+    "sharpness": 3.80978158467788
+  }
+}

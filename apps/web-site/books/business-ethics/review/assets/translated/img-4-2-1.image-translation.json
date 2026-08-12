@@ -1,0 +1,84 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-4-2-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/4-2-sustainability-business-and-the-environment.html",
+  "decision": "auto",
+  "renderer": "overlay",
+  "model": null,
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-4-2-1.vi.png",
+  "ocr": [
+    {
+      "text": "CAD",
+      "confidence": 17,
+      "bbox": {
+        "x": 50,
+        "y": 60,
+        "w": 400,
+        "h": 40
+      }
+    },
+    {
+      "text": "LY Io “\\, Jin NG) 7x",
+      "confidence": 17,
+      "bbox": {
+        "x": 50,
+        "y": 140,
+        "w": 400,
+        "h": 40
+      }
+    },
+    {
+      "text": "f [<0 fr Jha Nr) ;",
+      "confidence": 17,
+      "bbox": {
+        "x": 50,
+        "y": 220,
+        "w": 400,
+        "h": 40
+      }
+    },
+    {
+      "text": "Pa [06 [ oo \\0d id",
+      "confidence": 17,
+      "bbox": {
+        "x": 50,
+        "y": 300,
+        "w": 400,
+        "h": 40
+      }
+    },
+    {
+      "text": "U2: any",
+      "confidence": 17,
+      "bbox": {
+        "x": 50,
+        "y": 380,
+        "w": 400,
+        "h": 40
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: A sign that reads “No Dumping, Drains to Ocean”.\nButton label: Click to enlarge image of A sign that reads “No Dumping, Drains to Ocean”.\nEnglish caption: Figure 4.6 A warning in Honolulu regarding the damage done by ocean dumping. (credit: “No Dumping - Drains to Ocean” by Daniel Ramirez/Wikimedia Commons, CC BY 2.0)",
+  "metrics": {
+    "textDensity": 0.32,
+    "averageConfidence": 17,
+    "entropy": 7.342194622586248,
+    "sharpness": 6.878130019503881
+  },
+  "fallback": {
+    "from": "image-edit",
+    "to": "overlay",
+    "reason": "fetch failed",
+    "model": "gpt-image-2",
+    "retries": {
+      "attempts": 1,
+      "transientFailures": 0
+    }
+  }
+}

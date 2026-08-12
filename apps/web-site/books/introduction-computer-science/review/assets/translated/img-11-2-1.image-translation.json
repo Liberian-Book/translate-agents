@@ -1,0 +1,267 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/img-11-2-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/translated/11-2-sample-responsive-wad-with-bootstrap-and-django.html",
+  "decision": "auto",
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-computer-science/assets/translated/img-11-2-1.vi.png",
+  "ocr": [
+    {
+      "text": "Edit environment variable X",
+      "confidence": 84,
+      "bbox": {
+        "x": 90,
+        "y": 100,
+        "w": 720,
+        "h": 67
+      }
+    },
+    {
+      "text": "%SystemRoot%\\system32",
+      "confidence": 84,
+      "bbox": {
+        "x": 90,
+        "y": 233,
+        "w": 720,
+        "h": 67
+      }
+    },
+    {
+      "text": "%SystemRoot%",
+      "confidence": 84,
+      "bbox": {
+        "x": 90,
+        "y": 366,
+        "w": 720,
+        "h": 67
+      }
+    },
+    {
+      "text": "%SystemRoot%\\System32\\Wbem",
+      "confidence": 84,
+      "bbox": {
+        "x": 90,
+        "y": 499,
+        "w": 720,
+        "h": 67
+      }
+    },
+    {
+      "text": "9%SYSTEMROOT%\\System32\\WindowsPowerShell\\v1.0\\",
+      "confidence": 84,
+      "bbox": {
+        "x": 90,
+        "y": 632,
+        "w": 720,
+        "h": 67
+      }
+    },
+    {
+      "text": "9%SYSTEMROOT%\\System32\\OpenSSH\\",
+      "confidence": 84,
+      "bbox": {
+        "x": 90,
+        "y": 765,
+        "w": 720,
+        "h": 67
+      }
+    },
+    {
+      "text": "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common",
+      "confidence": 84,
+      "bbox": {
+        "x": 90,
+        "y": 898,
+        "w": 720,
+        "h": 67
+      }
+    },
+    {
+      "text": "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR",
+      "confidence": 84,
+      "bbox": {
+        "x": 90,
+        "y": 1031,
+        "w": 720,
+        "h": 67
+      }
+    },
+    {
+      "text": "C:\\Program Files(x86)\\Windows Kits\\10\\Windows Performance Toolkit\\",
+      "confidence": 84,
+      "bbox": {
+        "x": 90,
+        "y": 1164,
+        "w": 720,
+        "h": 67
+      }
+    },
+    {
+      "text": "C:\\Users\\your_username\\AppData\\Local\\Programs\\Python\\Python39",
+      "confidence": 84,
+      "bbox": {
+        "x": 90,
+        "y": 1297,
+        "w": 720,
+        "h": 67
+      }
+    },
+    {
+      "text": "CAUsers\\your_username\\AppData\\Local\\Programs\\Python\\Python39\\Scripts",
+      "confidence": 84,
+      "bbox": {
+        "x": 90,
+        "y": 1430,
+        "w": 720,
+        "h": 67
+      }
+    },
+    {
+      "text": "Edit text...",
+      "confidence": 84,
+      "bbox": {
+        "x": 90,
+        "y": 1563,
+        "w": 720,
+        "h": 67
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Edit environment variable X",
+      "target": "Chỉnh sửa biến môi trường X",
+      "bbox": {
+        "x": 90,
+        "y": 100,
+        "w": 720,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "%SystemRoot%\\system32",
+      "target": "%SystemRoot%\\system32",
+      "bbox": {
+        "x": 90,
+        "y": 233,
+        "w": 720,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "%SystemRoot%",
+      "target": "%Thư mụcHệThống%",
+      "bbox": {
+        "x": 90,
+        "y": 366,
+        "w": 720,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "%SystemRoot%\\System32\\Wbem",
+      "target": "%SystemRoot%\\System32\\Wbem",
+      "bbox": {
+        "x": 90,
+        "y": 499,
+        "w": 720,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "9%SYSTEMROOT%\\System32\\WindowsPowerShell\\v1.0\\",
+      "target": "9%HỆTHỐNG%\\System32\\WindowsPowerShell\\v1.0\\",
+      "bbox": {
+        "x": 90,
+        "y": 632,
+        "w": 720,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "9%SYSTEMROOT%\\System32\\OpenSSH\\",
+      "target": "9%HỆTHỐNGCĂN%\\System32\\OpenSSH\\",
+      "bbox": {
+        "x": 90,
+        "y": 765,
+        "w": 720,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common",
+      "target": "C:\\Chương trình Tập tin (x86)\\Tập đoàn NVIDIA\\PhysX\\Chung",
+      "bbox": {
+        "x": 90,
+        "y": 898,
+        "w": 720,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR",
+      "target": "C:\\Tệp chương trình\\Tập đoàn NVIDIA\\NVIDIA NvDLISR",
+      "bbox": {
+        "x": 90,
+        "y": 1031,
+        "w": 720,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "C:\\Program Files(x86)\\Windows Kits\\10\\Windows Performance Toolkit\\",
+      "target": "C:\\Chương trình Tệp (x86)\\Bộ công cụ Windows\\10\\Bộ công cụ Hiệu suất Windows\\",
+      "bbox": {
+        "x": 90,
+        "y": 1164,
+        "w": 720,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "C:\\Users\\your_username\\AppData\\Local\\Programs\\Python\\Python39",
+      "target": "C:\\Người_dùng\\your_username\\AppData\\Local\\Chương_trình\\Python\\Python39",
+      "bbox": {
+        "x": 90,
+        "y": 1297,
+        "w": 720,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "CAUsers\\your_username\\AppData\\Local\\Programs\\Python\\Python39\\Scripts",
+      "target": "CAUsers\\your_username\\AppData\\Local\\Programs\\Python\\Python39\\Scripts",
+      "bbox": {
+        "x": 90,
+        "y": 1430,
+        "w": 720,
+        "h": 67
+      },
+      "overflow": false
+    },
+    {
+      "source": "Edit text...",
+      "target": "Chỉnh sửa văn bản...",
+      "bbox": {
+        "x": 90,
+        "y": 1563,
+        "w": 720,
+        "h": 67
+      },
+      "overflow": false
+    }
+  ],
+  "metrics": {
+    "textDensity": 0.7712230215827338,
+    "averageConfidence": 84
+  }
+}

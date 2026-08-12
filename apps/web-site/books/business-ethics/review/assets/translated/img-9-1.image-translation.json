@@ -1,0 +1,44 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-9-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/9-introduction.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Crogan ©",
+      "confidence": 23,
+      "bbox": {
+        "x": 175,
+        "y": 86,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "Lt = ES \\ >",
+      "confidence": 23,
+      "bbox": {
+        "x": 175,
+        "y": 201,
+        "w": 1400,
+        "h": 57
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This graphic shows an outline of the United States overlaid with the simple outlines of different sized gears. In the center of the gears are simple icons, including a battery, a computer screen, a cell phone, a paper and pencil, a light bulb, a windmill, a beaker, a stethoscope, a wifi signal, a dollar sign, and a television screen.\nButton label: Click to enlarge image of This graphic shows an outline of the United States overlaid with the simple outlines of different sized gears. In the center of the gears are simple icons, including a battery, a computer screen, a cell phone, a paper and pencil, a light bulb, a windmill, a beaker, a stethoscope, a wifi signal, a dollar sign, and a television screen.\nEnglish caption: Figure 9.1 What are the ethical challenges in entrepreneurship? In social media and advertising? In insurance and health care? This chapter examines these industries through an ethical lens. (credit: modification of “Health Care Medicine Healthy” by “ar130405”/Pixabay, CC0)",
+  "metrics": {
+    "textDensity": 0.12701949860724235,
+    "averageConfidence": 23,
+    "entropy": 6.0390575087149045,
+    "sharpness": 2.50200305441609
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-1-1-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/1-1-developing-a-global-perspective.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-1-1-2.vi.png",
+  "ocr": [
+    {
+      "text": "EF ld / ¥ << “nF Za",
+      "confidence": 35,
+      "bbox": {
+        "x": 110,
+        "y": 96,
+        "w": 880,
+        "h": 64
+      }
+    },
+    {
+      "text": "ER AES A nl",
+      "confidence": 35,
+      "bbox": {
+        "x": 110,
+        "y": 224,
+        "w": 880,
+        "h": 64
+      }
+    },
+    {
+      "text": "» : 4 “ay,",
+      "confidence": 35,
+      "bbox": {
+        "x": 110,
+        "y": 352,
+        "w": 880,
+        "h": 64
+      }
+    },
+    {
+      "text": "- & 2, Co",
+      "confidence": 35,
+      "bbox": {
+        "x": 110,
+        "y": 480,
+        "w": 880,
+        "h": 64
+      }
+    },
+    {
+      "text": "NE « i R77) gy, ;",
+      "confidence": 35,
+      "bbox": {
+        "x": 110,
+        "y": 608,
+        "w": 880,
+        "h": 64
+      }
+    },
+    {
+      "text": "BRN :",
+      "confidence": 35,
+      "bbox": {
+        "x": 110,
+        "y": 736,
+        "w": 880,
+        "h": 64
+      }
+    },
+    {
+      "text": "N : Naw, Hog 9",
+      "confidence": 35,
+      "bbox": {
+        "x": 110,
+        "y": 864,
+        "w": 880,
+        "h": 64
+      }
+    },
+    {
+      "text": "SRR RES 3 >",
+      "confidence": 35,
+      "bbox": {
+        "x": 110,
+        "y": 992,
+        "w": 880,
+        "h": 64
+      }
+    },
+    {
+      "text": "SRE Rae NN",
+      "confidence": 35,
+      "bbox": {
+        "x": 110,
+        "y": 1120,
+        "w": 880,
+        "h": 64
+      }
+    },
+    {
+      "text": "an AN Raa CRERNS",
+      "confidence": 35,
+      "bbox": {
+        "x": 110,
+        "y": 1248,
+        "w": 880,
+        "h": 64
+      }
+    },
+    {
+      "text": "SS SRN BRS",
+      "confidence": 35,
+      "bbox": {
+        "x": 110,
+        "y": 1376,
+        "w": 880,
+        "h": 64
+      }
+    },
+    {
+      "text": "SORES a SE OE",
+      "confidence": 35,
+      "bbox": {
+        "x": 110,
+        "y": 1504,
+        "w": 880,
+        "h": 64
+      }
+    },
+    {
+      "text": "RS LRRRS",
+      "confidence": 35,
+      "bbox": {
+        "x": 110,
+        "y": 1632,
+        "w": 880,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This photograph shows Eleanor Roosevelt holding a large document titled “The Universal Declaration of Human Rights.” The logo for the United Nations is in the upper left corner of the document.\nButton label: Click to enlarge image of This photograph shows Eleanor Roosevelt holding a large document titled “The Universal Declaration of Human Rights.” The logo for the United Nations is in the upper left corner of the document.\nEnglish caption: Figure 1.3 Human Rights, Codified. Eleanor Roosevelt is shown holding a poster of the UN Universal Declaration of Human Rights in November 1949. Roosevelt, the former First Lady of the United States, chaired the committee that drafted the declaration. (credit: “Eleanor Roosevelt UDHR” by FDR Presidential Library & Museum/Flickr, CC BY 2.0)",
+  "metrics": {
+    "textDensity": 0.832,
+    "averageConfidence": 35,
+    "entropy": 6.604323823587038,
+    "sharpness": 3.9304482141496506
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: This photograph shows Eleanor Roosevelt holding a large document titled “The Universal Declaration of Human Rights.” The logo for the United Nations is in the upper left corner of the document.\nButton label: Click to enlarge image of This photograph shows Eleanor Roosevelt holding a large document titled “The Universal Declaration of Human Rights.” The logo for the United Nations is in the upper left corner of the document.\nEnglish caption: Figure 1.3 Human Rights, Codified. Eleanor Roosevelt is shown holding a poster of the UN Universal Declaration of Human Rights in November 1949. Roosevelt, the former First Lady of the United States, chaired the committee that drafted the declaration. (credit: “Eleanor Roosevelt UDHR” by FDR Presidential Library & Museum/Flickr, CC BY 2.0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "oa 1",
+        "confidence": 26,
+        "bbox": {
+          "x": 148,
+          "y": 127,
+          "w": 1187,
+          "h": 85
+        }
+      },
+      {
+        "text": ": Er ay (&, |",
+        "confidence": 26,
+        "bbox": {
+          "x": 148,
+          "y": 297,
+          "w": 1187,
+          "h": 85
+        }
+      },
+      {
+        "text": "rN iJ . a",
+        "confidence": 26,
+        "bbox": {
+          "x": 148,
+          "y": 467,
+          "w": 1187,
+          "h": 85
+        }
+      },
+      {
+        "text": "\\ d ug Sasi TO) eg)",
+        "confidence": 26,
+        "bbox": {
+          "x": 148,
+          "y": 637,
+          "w": 1187,
+          "h": 85
+        }
+      },
+      {
+        "text": "SEES Ve, og,",
+        "confidence": 26,
+        "bbox": {
+          "x": 148,
+          "y": 807,
+          "w": 1187,
+          "h": 85
+        }
+      },
+      {
+        "text": "dn meni Cp Sl",
+        "confidence": 26,
+        "bbox": {
+          "x": 148,
+          "y": 977,
+          "w": 1187,
+          "h": 85
+        }
+      },
+      {
+        "text": "% Celle Sun %y",
+        "confidence": 26,
+        "bbox": {
+          "x": 148,
+          "y": 1147,
+          "w": 1187,
+          "h": 85
+        }
+      },
+      {
+        "text": "\\ JRE NL",
+        "confidence": 26,
+        "bbox": {
+          "x": 148,
+          "y": 1317,
+          "w": 1187,
+          "h": 85
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

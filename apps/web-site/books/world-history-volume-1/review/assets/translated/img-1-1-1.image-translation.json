@@ -1,0 +1,221 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-1-1-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/1-1-developing-a-global-perspective.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-1-1-1.vi.png",
+  "ocr": [
+    {
+      "text": "Analytical and",
+      "confidence": 83,
+      "bbox": {
+        "x": 69,
+        "y": 54,
+        "w": 555,
+        "h": 36
+      }
+    },
+    {
+      "text": "Creative Thinking",
+      "confidence": 83,
+      "bbox": {
+        "x": 69,
+        "y": 126,
+        "w": 555,
+        "h": 36
+      }
+    },
+    {
+      "text": "Confidence and Heli gad",
+      "confidence": 83,
+      "bbox": {
+        "x": 69,
+        "y": 198,
+        "w": 555,
+        "h": 36
+      }
+    },
+    {
+      "text": "Original Lines of",
+      "confidence": 83,
+      "bbox": {
+        "x": 69,
+        "y": 270,
+        "w": 555,
+        "h": 36
+      }
+    },
+    {
+      "text": "Competence -",
+      "confidence": 83,
+      "bbox": {
+        "x": 69,
+        "y": 342,
+        "w": 555,
+        "h": 36
+      }
+    },
+    {
+      "text": "Inquiry",
+      "confidence": 83,
+      "bbox": {
+        "x": 69,
+        "y": 414,
+        "w": 555,
+        "h": 36
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Analytical and",
+      "normalizedSource": "Analytical and",
+      "target": "Phân tích và",
+      "bbox": {
+        "x": 69,
+        "y": 54,
+        "w": 555,
+        "h": 36
+      },
+      "overflow": false
+    },
+    {
+      "source": "Creative Thinking",
+      "normalizedSource": "Creative Thinking",
+      "target": "Suy nghĩ sáng tạo",
+      "bbox": {
+        "x": 69,
+        "y": 126,
+        "w": 555,
+        "h": 36
+      },
+      "overflow": false
+    },
+    {
+      "source": "Confidence and Heli gad",
+      "normalizedSource": "Confidence and Heli gad",
+      "target": "Tự tin và Heli gad",
+      "bbox": {
+        "x": 69,
+        "y": 198,
+        "w": 555,
+        "h": 36
+      },
+      "overflow": false
+    },
+    {
+      "source": "Original Lines of",
+      "normalizedSource": "Original Lines of",
+      "target": "Các dòng gốc của",
+      "bbox": {
+        "x": 69,
+        "y": 270,
+        "w": 555,
+        "h": 36
+      },
+      "overflow": false
+    },
+    {
+      "source": "Competence -",
+      "normalizedSource": "Competence -",
+      "target": "Năng lực -",
+      "bbox": {
+        "x": 69,
+        "y": 342,
+        "w": 555,
+        "h": 36
+      },
+      "overflow": false
+    },
+    {
+      "source": "Inquiry",
+      "normalizedSource": "Inquiry",
+      "target": "Khảo sát",
+      "bbox": {
+        "x": 69,
+        "y": 414,
+        "w": 555,
+        "h": 36
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: This image is a chart of three text boxes, arranged in a triangle. They are connected with double-headed arrows. One box says, “Analytical and Creative Thinking.” Another box says, “Confidence and Competence.” The final box says, “Innovative and Original Lines of Inquiry.”\nButton label: Click to enlarge image of This image is a chart of three text boxes, arranged in a triangle. They are connected with double-headed arrows. One box says, “Analytical and Creative Thinking.” Another box says, “Confidence and Competence.” The final box says, “Innovative and Original Lines of Inquiry.”\nEnglish caption: Figure 1.2 Do You Have These Skills? The top skills employers will value in 2025, according to the World Economic Forum, include innovative inquiry and creative thinking. You will develop and practice many of these skills in this course. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.3830105369432002,
+    "averageConfidence": 83,
+    "entropy": 2.724979120583157,
+    "sharpness": 3.2744704381153324
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: This image is a chart of three text boxes, arranged in a triangle. They are connected with double-headed arrows. One box says, “Analytical and Creative Thinking.” Another box says, “Confidence and Competence.” The final box says, “Innovative and Original Lines of Inquiry.”\nButton label: Click to enlarge image of This image is a chart of three text boxes, arranged in a triangle. They are connected with double-headed arrows. One box says, “Analytical and Creative Thinking.” Another box says, “Confidence and Competence.” The final box says, “Innovative and Original Lines of Inquiry.”\nEnglish caption: Figure 1.2 Do You Have These Skills? The top skills employers will value in 2025, according to the World Economic Forum, include innovative inquiry and creative thinking. You will develop and practice many of these skills in this course. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Analytical and => Phân tích và\n- Creative Thinking => Suy nghĩ sáng tạo\n- Confidence and Heli gad => Tự tin và Heli gad\n- Original Lines of => Các dòng gốc của\n- Competence - => Năng lực -\n- Inquiry => Khảo sát\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Phan tich va",
+        "confidence": 69,
+        "bbox": {
+          "x": 156,
+          "y": 121,
+          "w": 1244,
+          "h": 81
+        }
+      },
+      {
+        "text": "Suy nghi sang tao",
+        "confidence": 69,
+        "bbox": {
+          "x": 156,
+          "y": 283,
+          "w": 1244,
+          "h": 81
+        }
+      },
+      {
+        "text": "Tu tin va = por or :",
+        "confidence": 69,
+        "bbox": {
+          "x": 156,
+          "y": 445,
+          "w": 1244,
+          "h": 81
+        }
+      },
+      {
+        "text": "& ac dong goc cua",
+        "confidence": 69,
+        "bbox": {
+          "x": 156,
+          "y": 607,
+          "w": 1244,
+          "h": 81
+        }
+      },
+      {
+        "text": "Nagel: Khao sat",
+        "confidence": 69,
+        "bbox": {
+          "x": 156,
+          "y": 769,
+          "w": 1244,
+          "h": 81
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

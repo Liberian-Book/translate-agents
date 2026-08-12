@@ -1,0 +1,348 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/img-12-3-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/translated/12-3-border-states-sogdiana-korea-and-japan.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/world-history-volume-1/assets/translated/img-12-3-4.vi.png",
+  "ocr": [
+    {
+      "text": "ac SPS La",
+      "confidence": 36,
+      "bbox": {
+        "x": 60,
+        "y": 80,
+        "w": 480,
+        "h": 53
+      }
+    },
+    {
+      "text": "ik er S05 =",
+      "confidence": 36,
+      "bbox": {
+        "x": 60,
+        "y": 186,
+        "w": 480,
+        "h": 53
+      }
+    },
+    {
+      "text": "orien AC IR",
+      "confidence": 36,
+      "bbox": {
+        "x": 60,
+        "y": 292,
+        "w": 480,
+        "h": 53
+      }
+    },
+    {
+      "text": "A > Signed",
+      "confidence": 36,
+      "bbox": {
+        "x": 60,
+        "y": 398,
+        "w": 480,
+        "h": 53
+      }
+    },
+    {
+      "text": "Gr\" = eT",
+      "confidence": 36,
+      "bbox": {
+        "x": 60,
+        "y": 504,
+        "w": 480,
+        "h": 53
+      }
+    },
+    {
+      "text": "a Na THE",
+      "confidence": 36,
+      "bbox": {
+        "x": 60,
+        "y": 610,
+        "w": 480,
+        "h": 53
+      }
+    },
+    {
+      "text": "gE i kg",
+      "confidence": 36,
+      "bbox": {
+        "x": 60,
+        "y": 716,
+        "w": 480,
+        "h": 53
+      }
+    },
+    {
+      "text": "eat Ay wk",
+      "confidence": 36,
+      "bbox": {
+        "x": 60,
+        "y": 822,
+        "w": 480,
+        "h": 53
+      }
+    },
+    {
+      "text": "NE",
+      "confidence": 36,
+      "bbox": {
+        "x": 60,
+        "y": 928,
+        "w": 480,
+        "h": 53
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: An image is shown on a gold and yellow background. In the image, dark water is seen swirling in a twisted manner in the top right with two green masses on top and two colorful fowl swimming. At the left, a simple house is seen with an open wall facing forward and a black screen wall seen at the back. Green shutters are rolled up on the open wall and inside two women sit wearing large multicolored robes that take up the whole room. A wood porch surrounds the house and in the right front four women with long black hair are seen surrounding a large white round object. They were multicolored robes and have very white faces. Bushes can be seen at the left and right.\nButton label: Click to enlarge image of An image is shown on a gold and yellow background. In the image, dark water is seen swirling in a twisted manner in the top right with two green masses on top and two colorful fowl swimming. At the left, a simple house is seen with an open wall facing forward and a black screen wall seen at the back. Green shutters are rolled up on the open wall and inside two women sit wearing large multicolored robes that take up the whole room. A wood porch surrounds the house and in the right front four women with long black hair are seen surrounding a large white round object. They were multicolored robes and have very white faces. Bushes can be seen at the left and right.\nEnglish caption: Figure 12.28 Scene from The Tale of Genji. This scene from a seventeenth-century paper album rendered on paper and consisting of twenty-four album leaves shows the young female servants playing in the snow as Genji and Murasaki watch from their veranda. This scene of childish play was likely intended by the artist to emphasize the youthfulness of Murasaki. (credit: “The Tale of Genji (Genji Monogatari)” by Gift of Mary L. Cassilly, 1894/Metropolitan Museum of Art, Public Domain)",
+  "metrics": {
+    "textDensity": 0.5746987951807229,
+    "averageConfidence": 36,
+    "entropy": 7.159334013384068,
+    "sharpness": 3.6070856885556237
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: An image is shown on a gold and yellow background. In the image, dark water is seen swirling in a twisted manner in the top right with two green masses on top and two colorful fowl swimming. At the left, a simple house is seen with an open wall facing forward and a black screen wall seen at the back. Green shutters are rolled up on the open wall and inside two women sit wearing large multicolored robes that take up the whole room. A wood porch surrounds the house and in the right front four women with long black hair are seen surrounding a large white round object. They were multicolored robes and have very white faces. Bushes can be seen at the left and right.\nButton label: Click to enlarge image of An image is shown on a gold and yellow background. In the image, dark water is seen swirling in a twisted manner in the top right with two green masses on top and two colorful fowl swimming. At the left, a simple house is seen with an open wall facing forward and a black screen wall seen at the back. Green shutters are rolled up on the open wall and inside two women sit wearing large multicolored robes that take up the whole room. A wood porch surrounds the house and in the right front four women with long black hair are seen surrounding a large white round object. They were multicolored robes and have very white faces. Bushes can be seen at the left and right.\nEnglish caption: Figure 12.28 Scene from The Tale of Genji. This scene from a seventeenth-century paper album rendered on paper and consisting of twenty-four album leaves shows the young female servants playing in the snow as Genji and Murasaki watch from their veranda. This scene of childish play was likely intended by the artist to emphasize the youthfulness of Murasaki. (credit: “The Tale of Genji (Genji Monogatari)” by Gift of Mary L. Cassilly, 1894/Metropolitan Museum of Art, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "1° Lan CN Shy, — /",
+        "confidence": 31,
+        "bbox": {
+          "x": 119,
+          "y": 158,
+          "w": 954,
+          "h": 106
+        }
+      },
+      {
+        "text": "UN CUNY - )",
+        "confidence": 31,
+        "bbox": {
+          "x": 119,
+          "y": 369,
+          "w": 954,
+          "h": 106
+        }
+      },
+      {
+        "text": "A ¥ ai i",
+        "confidence": 31,
+        "bbox": {
+          "x": 119,
+          "y": 580,
+          "w": 954,
+          "h": 106
+        }
+      },
+      {
+        "text": "= og = 2A oA el RA |",
+        "confidence": 31,
+        "bbox": {
+          "x": 119,
+          "y": 791,
+          "w": 954,
+          "h": 106
+        }
+      },
+      {
+        "text": "oo ins e o> 7 BEY Kaeo TU oe",
+        "confidence": 31,
+        "bbox": {
+          "x": 119,
+          "y": 1002,
+          "w": 954,
+          "h": 106
+        }
+      },
+      {
+        "text": "& Ep > \\' Ep — 7 al pp > = > = i",
+        "confidence": 31,
+        "bbox": {
+          "x": 119,
+          "y": 1213,
+          "w": 954,
+          "h": 106
+        }
+      },
+      {
+        "text": "“AG 9 :y NS pr [iy \\y i Tn",
+        "confidence": 31,
+        "bbox": {
+          "x": 119,
+          "y": 1424,
+          "w": 954,
+          "h": 106
+        }
+      },
+      {
+        "text": "r—- z ; Arg 2",
+        "confidence": 31,
+        "bbox": {
+          "x": 119,
+          "y": 1635,
+          "w": 954,
+          "h": 106
+        }
+      },
+      {
+        "text": "SF ~ 1 Tn",
+        "confidence": 31,
+        "bbox": {
+          "x": 119,
+          "y": 1846,
+          "w": 954,
+          "h": 106
+        }
+      },
+      {
+        "text": "Z TRA 4 oo",
+        "confidence": 31,
+        "bbox": {
+          "x": 119,
+          "y": 2057,
+          "w": 954,
+          "h": 106
+        }
+      },
+      {
+        "text": "Gar apa",
+        "confidence": 31,
+        "bbox": {
+          "x": 119,
+          "y": 2268,
+          "w": 954,
+          "h": 106
+        }
+      },
+      {
+        "text": "AV ag on oe",
+        "confidence": 31,
+        "bbox": {
+          "x": 119,
+          "y": 2479,
+          "w": 954,
+          "h": 106
+        }
+      },
+      {
+        "text": "oO ; I =",
+        "confidence": 31,
+        "bbox": {
+          "x": 119,
+          "y": 2690,
+          "w": 954,
+          "h": 106
+        }
+      },
+      {
+        "text": "DE i )",
+        "confidence": 31,
+        "bbox": {
+          "x": 119,
+          "y": 2901,
+          "w": 954,
+          "h": 106
+        }
+      },
+      {
+        "text": "Fase V4 al",
+        "confidence": 31,
+        "bbox": {
+          "x": 119,
+          "y": 3112,
+          "w": 954,
+          "h": 106
+        }
+      },
+      {
+        "text": "SEP _— >, 7d 2",
+        "confidence": 31,
+        "bbox": {
+          "x": 119,
+          "y": 3323,
+          "w": 954,
+          "h": 106
+        }
+      },
+      {
+        "text": "a LS IT J",
+        "confidence": 31,
+        "bbox": {
+          "x": 119,
+          "y": 3534,
+          "w": 954,
+          "h": 106
+        }
+      },
+      {
+        "text": "rs 3 a RL a : a /4 oH",
+        "confidence": 31,
+        "bbox": {
+          "x": 119,
+          "y": 3745,
+          "w": 954,
+          "h": 106
+        }
+      },
+      {
+        "text": "a PT ie TY Se Se",
+        "confidence": 31,
+        "bbox": {
+          "x": 119,
+          "y": 3956,
+          "w": 954,
+          "h": 106
+        }
+      },
+      {
+        "text": "Ta pe |",
+        "confidence": 31,
+        "bbox": {
+          "x": 119,
+          "y": 4167,
+          "w": 954,
+          "h": 106
+        }
+      },
+      {
+        "text": "EE SRR i, : be",
+        "confidence": 31,
+        "bbox": {
+          "x": 119,
+          "y": 4378,
+          "w": 954,
+          "h": 106
+        }
+      },
+      {
+        "text": "| dei |",
+        "confidence": 31,
+        "bbox": {
+          "x": 119,
+          "y": 4589,
+          "w": 954,
+          "h": 106
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

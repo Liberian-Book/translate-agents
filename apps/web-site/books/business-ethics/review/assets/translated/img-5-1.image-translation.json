@@ -1,0 +1,598 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/img-5-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/translated/5-introduction.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/business-ethics/assets/translated/img-5-1.vi.png",
+  "ocr": [
+    {
+      "text": "a SME RATE. - 'W _ ™ 4",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 86,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "sae SERN Ee CT ae. LC :",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 201,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "fv le - ae I 5 :",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 316,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "i GEE Naat 2 A £5 Ne Rhee Er _p",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 431,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "g es oN * vo See VW I ;",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 546,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "fee Nik x I RP gop YS ge 7",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 661,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "Bln Sa SOX GY ei 2 :",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 776,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "pe Ce ad Ns EEE Tho 3 Neier",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 891,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "SE Ng XY TY Lr dRse 7 fis ;",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 1006,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "BE os (Coercion",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 1121,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "0 2 FY Te RR CT",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 1236,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "R 27s Slee Bo Ree 55) ON 7",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 1351,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "p 5 C SPREE Ste 1 = TN 2",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 1466,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "=v ERICA = C2 SR a yy =",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 1581,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "a : RE Ne, BE TSR",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 1696,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "Fo EEA Sam Sh Sa",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 1811,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "TN SEENG 2A a Toa AR",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 1926,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "AEN Wwe, cw",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 2041,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "NE esr Ate poe pe : g : Cs ts",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 2156,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "fees RE NE ot",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 2271,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "3) RV £3 oh 3 hips: Se I",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 2386,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "FL f Foc) . Eg ; Re ZV",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 2501,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "! 2) bo 2 ; - :",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 2616,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "=, Thy i",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 2731,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "& - : pL gt :",
+      "confidence": 26,
+      "bbox": {
+        "x": 175,
+        "y": 2846,
+        "w": 1400,
+        "h": 57
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: This image shows a map of the world on a dark background with the continents cutout to reveal a lighter color.\nButton label: Click to enlarge image of This image shows a map of the world on a dark background with the continents cutout to reveal a lighter color.\nEnglish caption: Figure 5.1 Business ethics do not exist in a vacuum. They are a reflection of the underlying values of a society and the way society lives out those values over time. This experience is captured in language, culture, religious traditions, and modes of thinking, all of which have varied throughout history and influence the conduct of business in a range of ways. (credit: modification of “atlas close up dark dirty” by Aaditya Arora/Pexels, CC0)",
+  "metrics": {
+    "textDensity": 1.5877437325905293,
+    "averageConfidence": 26,
+    "entropy": 6.010929859032331,
+    "sharpness": 2.4575103639224087
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: This image shows a map of the world on a dark background with the continents cutout to reveal a lighter color.\nButton label: Click to enlarge image of This image shows a map of the world on a dark background with the continents cutout to reveal a lighter color.\nEnglish caption: Figure 5.1 Business ethics do not exist in a vacuum. They are a reflection of the underlying values of a society and the way society lives out those values over time. This experience is captured in language, culture, religious traditions, and modes of thinking, all of which have varied throughout history and influence the conduct of business in a range of ways. (credit: modification of “atlas close up dark dirty” by Aaditya Arora/Pexels, CC0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "LPS - 2 > io a",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 96,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "a ; ess :",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 225,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "~ i BS ay {4 2 Troe HR",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 354,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "3 3: 3: Pee. oe ESSERE SE BE",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 483,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "RT yt oo) 4 bi Ee ETS Can ERR Vs I £AEpac |",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 612,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "ERT ai 3 Fy a A Coa Bag EL ’",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 741,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": ". 3 SHEE So —, % SRppEoni ines Seaelion ideigYy 0",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 870,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "¥ =n Bh. AN Ne Fr ese Ep F3Chans wily 7",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 999,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "$=\" Bac SWE BRE (hay | = snr yg lhaue sola",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 1128,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "BE Moms, § oo 3 “ae LE RT Flo Ameo",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 1257,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "Ea Mizag Lig \".. po SN iT Se A 2 ad",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 1386,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "ETERS TY TT een Elia i EW",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 1515,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "hs as & 5 Rees Ve 2 AG ke .",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 1644,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "7 “os, Ze TCD Tle SR RNS i",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 1773,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "EE CRE Se 12 Nea)",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 1902,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "NE 4 Slee Th. fe Xa TC %",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 2031,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "22 stu ian TNT SAR 6 bas WS",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 2160,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "=A 2 bE REINS) SL N= = GL. :",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 2289,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "eg Chan Ra Ty",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 2418,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "| Do (BD) 5 EN 4 \\",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 2547,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "- NE Po RED 0 So VAR Bh) \\a",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 2676,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "Phe CEN SAA RN ad",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 2805,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "= Tack ZO \\",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 2934,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "8 Cn RS <2 Chau of . 5 26",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 3063,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "Eo Nam gi J Phi 3M 3 mE",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 3192,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "She My es Ew yA je",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 3321,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "Sear jh 0 F I Chau",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 3450,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "He Ep © Dai Duong”",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 3579,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "i, $i amass",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 3708,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "=, a = fe =",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 3837,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "nr gr :",
+        "confidence": 25,
+        "bbox": {
+          "x": 196,
+          "y": 3966,
+          "w": 1566,
+          "h": 64
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

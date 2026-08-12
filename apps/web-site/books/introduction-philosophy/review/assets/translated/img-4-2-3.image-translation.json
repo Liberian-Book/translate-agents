@@ -1,0 +1,143 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/assets/img-4-2-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/introduction-philosophy/translated/4-2-classical-philosophy.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-or-too-few-regions",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "EEEEEF IEEE EE",
+      "confidence": 10,
+      "bbox": {
+        "x": 90,
+        "y": 109,
+        "w": 716,
+        "h": 73
+      }
+    },
+    {
+      "text": "WITH [TT TTT]",
+      "confidence": 10,
+      "bbox": {
+        "x": 90,
+        "y": 254,
+        "w": 716,
+        "h": 73
+      }
+    },
+    {
+      "text": "EEERE IEEE ER",
+      "confidence": 10,
+      "bbox": {
+        "x": 90,
+        "y": 399,
+        "w": 716,
+        "h": 73
+      }
+    },
+    {
+      "text": "HE HEE IEEE EN",
+      "confidence": 10,
+      "bbox": {
+        "x": 90,
+        "y": 544,
+        "w": 716,
+        "h": 73
+      }
+    },
+    {
+      "text": "HEEEEENLVEEEEE",
+      "confidence": 10,
+      "bbox": {
+        "x": 90,
+        "y": 689,
+        "w": 716,
+        "h": 73
+      }
+    },
+    {
+      "text": "HEEEEN H.-Y",
+      "confidence": 10,
+      "bbox": {
+        "x": 90,
+        "y": 834,
+        "w": 716,
+        "h": 73
+      }
+    },
+    {
+      "text": "ems EEL ENE",
+      "confidence": 10,
+      "bbox": {
+        "x": 90,
+        "y": 979,
+        "w": 716,
+        "h": 73
+      }
+    },
+    {
+      "text": "HEN EENYEERYEE",
+      "confidence": 10,
+      "bbox": {
+        "x": 90,
+        "y": 1124,
+        "w": 716,
+        "h": 73
+      }
+    },
+    {
+      "text": "HE EEE magrapinin",
+      "confidence": 10,
+      "bbox": {
+        "x": 90,
+        "y": 1269,
+        "w": 716,
+        "h": 73
+      }
+    },
+    {
+      "text": "HEEEEEF EEEEEE",
+      "confidence": 10,
+      "bbox": {
+        "x": 90,
+        "y": 1414,
+        "w": 716,
+        "h": 73
+      }
+    },
+    {
+      "text": "HANEEEF SEEN ER",
+      "confidence": 10,
+      "bbox": {
+        "x": 90,
+        "y": 1559,
+        "w": 716,
+        "h": 73
+      }
+    },
+    {
+      "text": "ENEEE, EEEEEE",
+      "confidence": 10,
+      "bbox": {
+        "x": 90,
+        "y": 1704,
+        "w": 716,
+        "h": 73
+      }
+    }
+  ],
+  "translations": [],
+  "metrics": {
+    "textDensity": 0.771806167400881,
+    "averageConfidence": 10,
+    "entropy": 1.7048762106205686,
+    "sharpness": 5.072257909182145
+  }
+}
